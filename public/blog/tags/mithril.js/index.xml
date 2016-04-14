@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mithril.Js on SIS Lab</title>
+    <link>https://meganii.com/tags/mithril/index.js/</link>
+    <description>Recent content in Mithril.Js on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 28 Feb 2016 22:13:24 +0900</lastBuildDate>
+    <atom:link href="https://meganii.com/tags/mithril.js/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Electron &#43; Mithril.jsでFlickrアプリを作成する</title>
+      <link>https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/</link>
+      <pubDate>Sun, 28 Feb 2016 22:13:24 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/</guid>
+      <description>
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/24974002959&#34; title=&#34;Electron_Flickrby meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm2.staticflickr.com/1537/24974002959_ef392cebb9_z.jpg&#34; alt=&#34;Electron_Flickr&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;以前、Angular.jsで作成したFlickrアプリを、Electron + Mithril.jsで焼き直した。&lt;/p&gt;
+
+&lt;p&gt;Angular.jsは重厚長大な感があり、個人で使う分にはちょっと過剰すぎる気がする。どうせなら、VirtualDOMの概念も合わせて学びたかったので、まずReact.jsのチュートリアルをしたのだが、JavaScript初心者が使う分には、ES6, Babel, JSXなどなど、新しく学ぶ概念が多すぎる気がして挫折した。&lt;/p&gt;
+
+&lt;p&gt;他に何かシンプルなフレームワークはないか、探していたところ、ElectronとMithril.jsの組み合わせの記事をQiitaで見かけたので試してみた。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://qiita.com/hakomo/items/d472605578e0a3f602b4&#34;&gt;Electron と Mithril でソースリーディングを助けるアプリをつくってみた - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://qiita.com/shibukawa/items/e1836a8c98413448f746&#34;&gt;Electron + Mithrilで、ふつうのデスクトップアプリを作る - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;結論から言うと、自分にとってはこのぐらいがまずちょうどいいので使ってみようと思った。Railsを覚えるのは辛いけど、まずはSinatraを使うぐらいのノリ。それでいて、素のJavaScirpt操作や、jQueryを使ってのDOM操作をしなくても良いのは気持ちが良い。&lt;/p&gt;
+
+&lt;h2 id=&#34;mithril-js:8d5458ea00fb0f77b9162f023435b0a5&#34;&gt;Mithril.js&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mithril-ja.js.org/&#34;&gt;Mithril　http://mithril-ja.js.org/ &lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;シンプルなAPI&lt;/li&gt;
+&lt;li&gt;軽い&lt;/li&gt;
+&lt;li&gt;VirtualDOM&lt;/li&gt;
+&lt;li&gt;コンポーネント指向&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;コード-index-html:8d5458ea00fb0f77b9162f023435b0a5&#34;&gt;コード index.html&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;
+    &amp;lt;title&amp;gt;Electron Flickr&amp;lt;/title&amp;gt;
+    &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css&amp;quot; integrity=&amp;quot;sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7&amp;quot; crossorigin=&amp;quot;anonymous&amp;quot;&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;div id=&amp;quot;root&amp;quot; class=&amp;quot;container&amp;quot;&amp;gt;
+      &amp;lt;h1&amp;gt;Flickr&amp;lt;/h1&amp;gt;
+      &amp;lt;div id=&amp;quot;link&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+      &amp;lt;div id=&amp;quot;result&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+
+    &amp;lt;script src=&amp;quot;https://cdnjs.cloudflare.com/ajax/libs/mithril/0.2.2-rc.1/mithril.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script&amp;gt;
+
+      const API_KEY = &amp;quot;YOUR_FLICKR_KEY&amp;quot;;
+      const USER_ID = &amp;quot;YOUR_USER_ID&amp;quot;;
+
+      var photos = m.prop([]); //default value
+      var textContext = m.prop();
+
+      var linkComponent = {
+        controller: function() {
+          textContext(&amp;quot;&amp;quot;);
+        },
+        view: function(ctrl) {
+          return m(&amp;quot;textarea&amp;quot;, {name: &amp;quot;linktextarea&amp;quot;, class: &amp;quot;form-control&amp;quot;, rows: 5}, textContext());
+        }
+      }
+
+      var resultComponent = {
+        controller: function() {
+          this.createLink = function(index) {
+            var item = photos().photos.photo[index];
+
+            var link = &#39;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;https://www.flickr.com/photos/&#39; + item.owner + &#39;/&#39; + item.id + &#39;&amp;quot; title=&amp;quot;&#39; + item.title + &#39;by meganii, on Flickr&amp;quot;&amp;gt;&amp;lt;img class=&amp;quot;img-responsive&amp;quot; src=&amp;quot;https://farm&#39; + item.farm + &#39;.staticflickr.com/&#39; + item.server +&#39;/&#39; + item.id + &#39;_&#39; + item.secret + &#39;_z.jpg&amp;quot; alt=&amp;quot;&#39; + item.title + &#39;&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;\n&#39;;
+
+            textContext(textContext() + link);
+          };
+
+          m.request({
+            dataType: &amp;quot;jsonp&amp;quot;,
+            callbackKey: &amp;quot;jsoncallback&amp;quot;,
+            url: &amp;quot;https://api.flickr.com/services/rest/?method=flickr.photos.search&amp;amp;api_key=&amp;quot; + API_KEY + &amp;quot;&amp;amp;user_id=&amp;quot; + USER_ID+ &amp;quot;&amp;amp;sort=date-posted-desc&amp;amp;format=json&amp;quot;
+          }).then(photos);
+        },
+
+        view: function(ctrl) {
+          return m(&amp;quot;ul&amp;quot;,[
+              photos().photos.photo.map(function(item, index) {
+                 return m(&amp;quot;li&amp;quot;, [
+                   m(&amp;quot;input[type=checkbox]&amp;quot;, {onclick: m.withAttr(&amp;quot;value&amp;quot;, ctrl.createLink), value: index } ),
+                   m(&amp;quot;img&amp;quot;, {src: &amp;quot;https://farm&amp;quot; + item.farm + &amp;quot;.staticflickr.com/&amp;quot; + item.server + &amp;quot;/&amp;quot; + item.id + &amp;quot;_&amp;quot; + item.secret + &amp;quot;_z.jpg&amp;quot;})
+                 ])
+              })
+          ])
+        }
+      }
+
+      m.mount(result, resultComponent);
+      m.mount(link, linkComponent);
+
+    &amp;lt;/script&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;flickr-api:8d5458ea00fb0f77b9162f023435b0a5&#34;&gt;Flickr API&lt;/h2&gt;
+
+&lt;p&gt;Flickrへリクエストを投げる時に少し躓いたのでメモ。&lt;/p&gt;
+
+&lt;p&gt;Flickrは、jsonp形式のため、単純に、以下のようにリクエストを送るのでは上手くいかない。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;m.request({method: &amp;quot;GET&amp;quot;, url: &amp;quot;/path/to/resource&amp;quot;})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;以下のように、&lt;code&gt;dataType: &amp;quot;jsonp&amp;quot;&lt;/code&gt;, &amp;lsquo;callbackKey&amp;rsquo;を指定する。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;m.request({
+    dataType: &amp;quot;jsonp&amp;quot;,
+    callbackKey: &amp;quot;jsoncallback&amp;quot;,
+    url: &amp;quot;http://api.flickr.com/services/feeds/photos_public.gne?tags=monkey&amp;amp;tagmode=any&amp;amp;format=json&amp;quot;
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ようやく、よく分からないAngular.jsから、比較的見通しが立ってきたElectron + Mithril.jsに切り替えることができた。&lt;/p&gt;
+
+&lt;h2 id=&#34;目標-自分専用markdownエディターを作る:8d5458ea00fb0f77b9162f023435b0a5&#34;&gt;目標「自分専用Markdownエディターを作る」&lt;/h2&gt;
+
+&lt;p&gt;最終的には、自分専用Markdownデスクトップアプリを、Electronで作成することが目標だ。Kobitoは便利で使ってるのだけど、そのままEvernoteに連携して欲しかったり、リンク作成の機能がまとまってると嬉しい。&lt;/p&gt;
+
+&lt;p&gt;実装したい機能は、こんな感じ。Kobitoをベースに自分専用の機能を盛り込みたい。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Markdownエディター(オートプレビュー)&lt;/li&gt;
+&lt;li&gt;Flickr連携(アップロード、リンク作成)&lt;/li&gt;
+&lt;li&gt;Evernote連携(自動保存)&lt;/li&gt;
+&lt;li&gt;Amazonリンク作成&lt;/li&gt;
+&lt;li&gt;ASP一括検索&lt;/li&gt;
+&lt;li&gt;git push&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;booklink-box&#34;&gt;&lt;div class=&#34;booklink-image&#34;&gt;&lt;a href=http://www.amazon.co.jp/Effective-JavaScript-David-Herman/dp/4798131113%3FSubscriptionId%3DAKIAI6MZOKQQCKBKJBLQ%26tag%3Dmeganii-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4798131113&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/51nSK4pE-RL._SL160_.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklink-info&#34;&gt;&lt;div class=&#34;booklink-name&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4798131113/meganii-22/&#34;&gt;Effective JavaScript&lt;/a&gt;&lt;/div&gt;&lt;div class=shoplinkrakuten&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/g00q0725.il1o2897.g00q0725.il1o3b57/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12215141%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Frms%2Fmsv%2FItem%3Fn%3D12215141%26surl%3Dbook&#34;&gt;楽天で買う&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

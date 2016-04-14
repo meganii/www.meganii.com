@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on SIS Lab</title>
+    <link>https://meganii.com/tags/blog/</link>
+    <description>Recent content in Blog on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 29 Oct 2014 23:15:00 +0900</lastBuildDate>
+    <atom:link href="https://meganii.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>JekyllでPygmentsを使ってのシンタックスハイライト</title>
+      <link>https://meganii.com/blog/2014/10/29/pjekyll-pygments/</link>
+      <pubDate>Wed, 29 Oct 2014 23:15:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2014/10/29/pjekyll-pygments/</guid>
+      <description>
+
+&lt;p&gt;シンタックスハイライトに、Pygmentsを使いたくなったので変更する。&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;1-pygments-をインストールする:542e8e8756734f1d2f842478b74647ca&#34;&gt;1.&lt;code&gt;pygments&lt;/code&gt;をインストールする。&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install pygments 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;2-以下のコマンドでcssを生成する:542e8e8756734f1d2f842478b74647ca&#34;&gt;2. 以下のコマンドでcssを生成する。&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pygmentize -a .highlight -S monokai -f html &amp;gt; css/monokai.css
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;3-gemfileにpygmentsを追加:542e8e8756734f1d2f842478b74647ca&#34;&gt;3. Gemfileにpygmentsを追加&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;gem &#39;pygments.rb&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;4-config-ymlに-以下の記載を追加する:542e8e8756734f1d2f842478b74647ca&#34;&gt;4. _config.ymlに、以下の記載を追加する。&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;highlighter: pygments
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;5-デプロイする:542e8e8756734f1d2f842478b74647ca&#34;&gt;5. デプロイする。&lt;/h3&gt;
+
+&lt;h2 id=&#34;こんなかんじになりました:542e8e8756734f1d2f842478b74647ca&#34;&gt;こんなかんじになりました&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-Ruby&#34;&gt;def hoge
+  puts &amp;quot;test&amp;quot;
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;参考:542e8e8756734f1d2f842478b74647ca&#34;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.geocities.jp/showa_yojyo/note/python-pygments.html&#34;&gt;Pygments 利用ノート&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://qiita.com/tachesimazzoca/items/e175035e2e8e5369029e&#34;&gt;Jekyll と pygments.rb で Auto-regeneration が遅い - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.makitasako.com/posts/2013-04-13-makingmyblog/&#34;&gt;ブログをGitHubに移行しました。 | blog.makitasako.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

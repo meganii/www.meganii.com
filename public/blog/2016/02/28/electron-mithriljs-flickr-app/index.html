@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.15" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/custom.css">
+<link rel="alternate" href="/index.xml" type="application/rss+xml" title="SIS Lab">
+<title>Electron &#43; Mithril.jsでFlickrアプリを作成する - SIS Lab</title>
+</head>
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		<div class="header-logo">
+			<a href="/"><h1 class="site-title"> <i class="fa fa-laptop"></i> SIS Lab</a></h1>
+			<p>
+				元じょーぶん生による
+			</p>
+		</div>
+		
+
+	</header>
+
+
+<div class="row">
+	<main role="main" class="nine columns">
+		<article itemscope itemtype="http://schema.org/BlogPosting">
+			<h1 class="entry-title" itemprop="headline">Electron &#43; Mithril.jsでFlickrアプリを作成する</h1>
+			<span class="entry-meta"><time itemprop="datePublished" datetime="2016-02-28">February 28, 2016</time></span>
+			<section id="post" itemprop="entry-text">
+				
+
+<div class="google-adsense">
+    <p>スポンサーリンク</p>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-5340212676785058"
+         data-ad-slot="1592375556"
+         data-ad-format="link"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+
+<p><a href="https://www.flickr.com/photos/35571855@N06/24974002959" title="Electron_Flickrby meganii, on Flickr"><img class="img-responsive" src="https://farm2.staticflickr.com/1537/24974002959_ef392cebb9_z.jpg" alt="Electron_Flickr"></a></p>
+
+<p>以前、Angular.jsで作成したFlickrアプリを、Electron + Mithril.jsで焼き直した。</p>
+
+<p>Angular.jsは重厚長大な感があり、個人で使う分にはちょっと過剰すぎる気がする。どうせなら、VirtualDOMの概念も合わせて学びたかったので、まずReact.jsのチュートリアルをしたのだが、JavaScript初心者が使う分には、ES6, Babel, JSXなどなど、新しく学ぶ概念が多すぎる気がして挫折した。</p>
+
+<p>他に何かシンプルなフレームワークはないか、探していたところ、ElectronとMithril.jsの組み合わせの記事をQiitaで見かけたので試してみた。</p>
+
+<ul>
+<li><a href="http://qiita.com/hakomo/items/d472605578e0a3f602b4">Electron と Mithril でソースリーディングを助けるアプリをつくってみた - Qiita</a></li>
+<li><a href="http://qiita.com/shibukawa/items/e1836a8c98413448f746">Electron + Mithrilで、ふつうのデスクトップアプリを作る - Qiita</a></li>
+</ul>
+
+<p>結論から言うと、自分にとってはこのぐらいがまずちょうどいいので使ってみようと思った。Railsを覚えるのは辛いけど、まずはSinatraを使うぐらいのノリ。それでいて、素のJavaScirpt操作や、jQueryを使ってのDOM操作をしなくても良いのは気持ちが良い。</p>
+
+<h2 id="mithril-js:8d5458ea00fb0f77b9162f023435b0a5">Mithril.js</h2>
+
+<p><a href="http://mithril-ja.js.org/">Mithril　http://mithril-ja.js.org/ </a></p>
+
+<ul>
+<li>シンプルなAPI</li>
+<li>軽い</li>
+<li>VirtualDOM</li>
+<li>コンポーネント指向</li>
+</ul>
+
+<h2 id="コード-index-html:8d5458ea00fb0f77b9162f023435b0a5">コード index.html</h2>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Electron Flickr&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css&quot; integrity=&quot;sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7&quot; crossorigin=&quot;anonymous&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id=&quot;root&quot; class=&quot;container&quot;&gt;
+      &lt;h1&gt;Flickr&lt;/h1&gt;
+      &lt;div id=&quot;link&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;result&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mithril/0.2.2-rc.1/mithril.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script&gt;
+
+      const API_KEY = &quot;YOUR_FLICKR_KEY&quot;;
+      const USER_ID = &quot;YOUR_USER_ID&quot;;
+
+      var photos = m.prop([]); //default value
+      var textContext = m.prop();
+
+      var linkComponent = {
+        controller: function() {
+          textContext(&quot;&quot;);
+        },
+        view: function(ctrl) {
+          return m(&quot;textarea&quot;, {name: &quot;linktextarea&quot;, class: &quot;form-control&quot;, rows: 5}, textContext());
+        }
+      }
+
+      var resultComponent = {
+        controller: function() {
+          this.createLink = function(index) {
+            var item = photos().photos.photo[index];
+
+            var link = '&lt;p&gt;&lt;a href=&quot;https://www.flickr.com/photos/' + item.owner + '/' + item.id + '&quot; title=&quot;' + item.title + 'by meganii, on Flickr&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;https://farm' + item.farm + '.staticflickr.com/' + item.server +'/' + item.id + '_' + item.secret + '_z.jpg&quot; alt=&quot;' + item.title + '&quot;&gt;&lt;/a&gt;&lt;/p&gt;\n';
+
+            textContext(textContext() + link);
+          };
+
+          m.request({
+            dataType: &quot;jsonp&quot;,
+            callbackKey: &quot;jsoncallback&quot;,
+            url: &quot;https://api.flickr.com/services/rest/?method=flickr.photos.search&amp;api_key=&quot; + API_KEY + &quot;&amp;user_id=&quot; + USER_ID+ &quot;&amp;sort=date-posted-desc&amp;format=json&quot;
+          }).then(photos);
+        },
+
+        view: function(ctrl) {
+          return m(&quot;ul&quot;,[
+              photos().photos.photo.map(function(item, index) {
+                 return m(&quot;li&quot;, [
+                   m(&quot;input[type=checkbox]&quot;, {onclick: m.withAttr(&quot;value&quot;, ctrl.createLink), value: index } ),
+                   m(&quot;img&quot;, {src: &quot;https://farm&quot; + item.farm + &quot;.staticflickr.com/&quot; + item.server + &quot;/&quot; + item.id + &quot;_&quot; + item.secret + &quot;_z.jpg&quot;})
+                 ])
+              })
+          ])
+        }
+      }
+
+      m.mount(result, resultComponent);
+      m.mount(link, linkComponent);
+
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h2 id="flickr-api:8d5458ea00fb0f77b9162f023435b0a5">Flickr API</h2>
+
+<p>Flickrへリクエストを投げる時に少し躓いたのでメモ。</p>
+
+<p>Flickrは、jsonp形式のため、単純に、以下のようにリクエストを送るのでは上手くいかない。</p>
+
+<pre><code>m.request({method: &quot;GET&quot;, url: &quot;/path/to/resource&quot;})
+</code></pre>
+
+<p>以下のように、<code>dataType: &quot;jsonp&quot;</code>, &lsquo;callbackKey&rsquo;を指定する。</p>
+
+<pre><code>m.request({
+    dataType: &quot;jsonp&quot;,
+    callbackKey: &quot;jsoncallback&quot;,
+    url: &quot;http://api.flickr.com/services/feeds/photos_public.gne?tags=monkey&amp;tagmode=any&amp;format=json&quot;
+});
+</code></pre>
+
+<p>ようやく、よく分からないAngular.jsから、比較的見通しが立ってきたElectron + Mithril.jsに切り替えることができた。</p>
+
+<h2 id="目標-自分専用markdownエディターを作る:8d5458ea00fb0f77b9162f023435b0a5">目標「自分専用Markdownエディターを作る」</h2>
+
+<p>最終的には、自分専用Markdownデスクトップアプリを、Electronで作成することが目標だ。Kobitoは便利で使ってるのだけど、そのままEvernoteに連携して欲しかったり、リンク作成の機能がまとまってると嬉しい。</p>
+
+<p>実装したい機能は、こんな感じ。Kobitoをベースに自分専用の機能を盛り込みたい。</p>
+
+<ul>
+<li>Markdownエディター(オートプレビュー)</li>
+<li>Flickr連携(アップロード、リンク作成)</li>
+<li>Evernote連携(自動保存)</li>
+<li>Amazonリンク作成</li>
+<li>ASP一括検索</li>
+<li>git push</li>
+</ul>
+
+<div class="booklink-box"><div class="booklink-image"><a href=http://www.amazon.co.jp/Effective-JavaScript-David-Herman/dp/4798131113%3FSubscriptionId%3DAKIAI6MZOKQQCKBKJBLQ%26tag%3Dmeganii-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4798131113><img src="https://images-na.ssl-images-amazon.com/images/I/51nSK4pE-RL._SL160_.jpg" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="http://www.amazon.co.jp/exec/obidos/asin/4798131113/meganii-22/">Effective JavaScript</a></div><div class=shoplinkrakuten><a href="http://hb.afl.rakuten.co.jp/hgc/g00q0725.il1o2897.g00q0725.il1o3b57/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12215141%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frms%2Fmsv%2FItem%3Fn%3D12215141%26surl%3Dbook">楽天で買う</a></div></div></div>
+
+			</section>
+		</article>
+		<div class="google-adsense">
+			<p>スポンサーリンク</p>
+			<div class="ad">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-5340212676785058"
+				     data-ad-slot="7368951150"
+				     data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+			<div class="ad sp-none">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-5340212676785058"
+				     data-ad-slot="7368951150"
+				     data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+		</div>
+		
+		<div class="u-cf"></div>
+		
+		<div class="social-area-syncer">
+			<ul class="social-button-syncer">
+				
+				<li class="sc-tw"><a data-url="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/" href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-count="vertical" data-dnt="true" target="_blank"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.375-1.337.648-2.085.795-.598-.638-1.45-1.036-2.396-1.036-1.812 0-3.282 1.468-3.282 3.28 0 .258.03.51.085.75C5.152 5.39 2.733 4.084 1.114 2.1.83 2.583.67 3.147.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.416-.02-.617-.058.418 1.304 1.63 2.253 3.067 2.28-1.124.88-2.54 1.404-4.077 1.404-.265 0-.526-.015-.783-.045 1.453.93 3.178 1.474 5.032 1.474 6.038 0 9.34-5 9.34-9.338 0-.143-.004-.284-.01-.425.64-.463 1.198-1.04 1.638-1.7z" fill="#fff" fill-rule="nonzero"/></svg><span>Tweet</span></a></li>
+
+				
+				<li class="sc-fb"><div class="fb-like" data-href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false"></div></li>
+
+				
+				<li><div data-href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/" class="g-plusone" data-size="tall"></div></li>
+
+				
+				<li><a href="http://b.hatena.ne.jp/entry/https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border:none;" /></a></li>
+
+				
+				<li><a data-save-url="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/" data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"></a></li>
+			</ul>
+
+		
+		<div id="fb-root"></div>
+
+		</div>
+		
+		
+		<section id="related">
+			<h2>Related Post</h2>
+			<div id="tags">
+				
+				<a href="https://meganii.com/blog/tags/electron"><i class="fa fa-tags"></i> electron </a>
+				
+				<a href="https://meganii.com/blog/tags/mithril.js"><i class="fa fa-tags"></i> Mithril.js </a>
+				
+			</div>
+			<ul id="related-posts">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2016/01/25/electron-tutorial/">Electronでデスクトップアプリ作成</a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</ul>
+		</section>
+	</main>
+
+	<aside class="three columns">
+
+  <section>
+    <h2>Profile</h2>
+    <div id="profile">
+      <div class="header-logo"><img src="/images/meganii_logo.png" width="60" height="60"></div>
+      <p>広く浅くから広く深くへ</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Popular</h2>
+    <ul class="list-unstyled urllist">
+  <li>
+    <div>
+  <a href="/blog/2014/02/22/wedding-movie-motion5/" title="evernote by meganii, on Flickr"><img class="urllist-img" src="https://farm4.staticflickr.com/3758/12878786213_afab3820c4_s.jpg" width="75" height="75" alt="iMovie Motion5"></a>
+      <a href="/blog/2014/02/22/wedding-movie-motion5/">iMovieとMotion5で作る結婚式余興ムービー</a>
+    </div>
+  </li>
+  <li>
+    <div>
+      <a href="/blog/2014/11/16/fountain-pen-cleaning/" title="image by meganii, on Flickr"><img class="urllist-img" src="https://farm8.staticflickr.com/7491/15800656071_6da29ae104_s.jpg" width="75" height="75" alt="万年筆Lamy safari"></a>
+      <a href="/blog/2014/11/16/fountain-pen-cleaning/">万年筆LAMY safariのインク洗浄・交換</a>
+    </div>
+  </li>
+  <li>
+    <div>
+      <a href="https://www.flickr.com/photos/35571855@N06/8714845801" title="20130502151754 by meganii, on Flickr"><img class="urllist-img" src="https://farm8.staticflickr.com/7436/8714845801_c24116dce0_s.jpg" width="75" height="75" alt="屋久島旅行記"></a>
+      <a href="/blog/2013/05/07/yakushima/">晴れの屋久島。雨の屋久島。屋久島旅行記</a>
+    </div>
+  </li>
+</ul>
+
+  </section>
+
+  
+  
+
+  
+  
+    <div class="sidebar-module">
+  <h3>Tech</h3>
+  <ul class="list-unstyled urllist">
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/"><img class="urllist-img" src="https://www.oreilly.co.jp/books/images/picture_large978-4-87311-744-7.jpeg" alt="Electron &#43; Mithril.jsでFlickrアプリを作成する" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/">Electron &#43; Mithril.jsでFlickrアプリを作成する</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/22/become-a-programmer/"><img class="urllist-img" src="https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg" alt="「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/22/become-a-programmer/">「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/"><img class="urllist-img" src="https://farm2.staticflickr.com/1467/25143519475_14929051ec_z.jpg" alt="ElectronでAmazonアフィリエイトリンクビルダーを作った" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/">ElectronでAmazonアフィリエイトリンクビルダーを作った</a>
+      </div>
+    </li>
+    
+  
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/10/post-to-slack/"><img class="urllist-img" src="/images/nopicture.png" alt="slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/10/post-to-slack/">slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/"><img class="urllist-img" src="https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg" alt="D3.jsで東京の地価データを可視化する" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/">D3.jsで東京の地価データを可視化する</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/07/javascript-ninja/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/51hWBKh7tdL._SL160_.jpg" alt="JavaScript Ninjaの極意 「関数の呼び出し」" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/07/javascript-ninja/">JavaScript Ninjaの極意 「関数の呼び出し」</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/06/d3js-tutorial/"><img class="urllist-img" src="/images/nopicture.png" alt="D3.jsチュートリアル" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/06/d3js-tutorial/">D3.jsチュートリアル</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/61DHJGf1uSL._SL160_.jpg" alt="Nightmare.jsでAmazonアフィリエイトのレポートを取得する" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/">Nightmare.jsでAmazonアフィリエイトのレポートを取得する</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/01/30/effective-javascript-closure/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/517tJs%2B%2B%2BnL._SL160_.jpg" alt="[Effective JavaScript]クロージャ" width="75"></a>
+        <a href="https://meganii.com/blog/2016/01/30/effective-javascript-closure/">[Effective JavaScript]クロージャ</a>
+      </div>
+    </li>
+    
+  
+  </ul>
+</div>
+
+  
+
+  <section class="sidebar-module">
+    <h2>Latest</h2>
+    <ul class="list-unstyled urllist">
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/"><img class="urllist-img" src="https://www.oreilly.co.jp/books/images/picture_large978-4-87311-744-7.jpeg" alt="Electron &#43; Mithril.jsでFlickrアプリを作成する" width="75"></a>
+          <a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/">Electron &#43; Mithril.jsでFlickrアプリを作成する</a>
+        </div>
+      </li>
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/02/22/become-a-programmer/"><img class="urllist-img" src="https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg" alt="「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。" width="75"></a>
+          <a href="https://meganii.com/blog/2016/02/22/become-a-programmer/">「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。</a>
+        </div>
+      </li>
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/"><img class="urllist-img" src="https://farm2.staticflickr.com/1467/25143519475_14929051ec_z.jpg" alt="ElectronでAmazonアフィリエイトリンクビルダーを作った" width="75"></a>
+          <a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/">ElectronでAmazonアフィリエイトリンクビルダーを作った</a>
+        </div>
+      </li>
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/02/11/a-random-walk-down-wall-street/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/51UMwuX4tjL._SL160_.jpg" alt="a random walk down wall street" width="75"></a>
+          <a href="https://meganii.com/blog/2016/02/11/a-random-walk-down-wall-street/">a random walk down wall street</a>
+        </div>
+      </li>
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/02/10/post-to-slack/"><img class="urllist-img" src="/images/nopicture.png" alt="slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法" width="75"></a>
+          <a href="https://meganii.com/blog/2016/02/10/post-to-slack/">slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法</a>
+        </div>
+      </li>
+      
+    </ul>
+  </div>
+
+</aside>
+
+</div>
+
+
+	<footer role="contentinfo">
+		<div class="hr"></div>
+		<div class="footer-link">
+			
+			<a href="https://twitter.com/" target="_blank">Twitter</a>
+			
+			<a href="https://github.com/meganii" target="_blank">GitHub</a>
+		</div>
+		<div class="copyright">
+			<p>&copy; 2016  meganii  - SIS Lab</p>
+		</div>
+
+	</footer>
+
+</div>
+
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KG3QGC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KG3QGC');</script>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+ 
+if(window.addEventListener) {
+	window.addEventListener( "load" , shareButtonReadSyncer, false );
+}else{
+	window.attachEvent( "onload", shareButtonReadSyncer );
+}
+
+ 
+function shareButtonReadSyncer(){
+
+
+
+
+
+
+
+
+(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+
+var scriptTag = document.createElement("script");
+scriptTag.type = "text/javascript"
+scriptTag.src = "https://apis.google.com/js/platform.js";
+scriptTag.async = true;
+document.getElementsByTagName("head")[0].appendChild(scriptTag);
+
+
+var scriptTag = document.createElement("script");
+scriptTag.type = "text/javascript"
+scriptTag.src = "https://b.st-hatena.com/js/bookmark_button.js";
+scriptTag.async = true;
+document.getElementsByTagName("head")[0].appendChild(scriptTag);
+
+
+(!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js"));
+
+
+
+}
+</script>
+
+</body>
+</html>
+

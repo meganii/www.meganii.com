@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cocoa on SIS Lab</title>
+    <link>https://meganii.com/tags/cocoa/</link>
+    <description>Recent content in Cocoa on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 04 Jul 2015 18:23:00 +0900</lastBuildDate>
+    <atom:link href="https://meganii.com/tags/cocoa/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Swiftで初めてのMacOSXアプリケーション-FFViewer-</title>
+      <link>https://meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/</link>
+      <pubDate>Sat, 04 Jul 2015 18:23:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/19396261452&#34; title=&#34;swift_applicationby meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm4.staticflickr.com/3877/19396261452_c2ec154bfd_z.jpg&#34; alt=&#34;swift_application&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;つくりたいもの:acf4b297964475d59ee8d3d971039796&#34;&gt;つくりたいもの&lt;/h2&gt;
+
+&lt;p&gt;JekyllのPost用として書いたMarkdownのFrontFormatterの情報を読み込んで表示し、編集、再出力ができるツール。&lt;/p&gt;
+
+&lt;p&gt;WebアプリケーションとしてViewerまでは作ったけど、編集まで考えるとなかなかめんどくさいので活用できなかった。(今どんな情報を書いていたのかは把握出来たが)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/&#34;&gt;Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Objective-Cは、ちょっと触りたくなかったが、SwiftでMacアプリケーションも作成できるらしいので試しにつくってみた。&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;作ったもの:acf4b297964475d59ee8d3d971039796&#34;&gt;作ったもの&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/19015646869&#34; title=&#34;FFViewerby meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm1.staticflickr.com/351/19015646869_6032c17a1e_z.jpg&#34; alt=&#34;FFViewer&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/meganii/FFViewer&#34;&gt;meganii/FFViewer&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;前提:acf4b297964475d59ee8d3d971039796&#34;&gt;前提&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Xcode Version 6.4 (6E35b)&lt;/li&gt;
+&lt;li&gt;Swift1.2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;重い腰をあげて、Yosemiteにアップグレードした。&lt;/p&gt;
+
+&lt;h2 id=&#34;ハマった点:acf4b297964475d59ee8d3d971039796&#34;&gt;ハマった点&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Xcodeが分からない&lt;/li&gt;
+&lt;li&gt;Swiftの文法が分からない&lt;/li&gt;
+&lt;li&gt;tableViewの実装の仕方が分からない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;正規表現:acf4b297964475d59ee8d3d971039796&#34;&gt;正規表現&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;let pattern = &amp;quot;---&amp;quot;
+let regex = NSRegularExpression(pattern: pattern, options: NSRegularExpressionOptions.CaseInsensitive, error: nil)
+
+
+let regex = NSRegularExpression(pattern: pattern, options: NSRegularExpressionOptions.CaseInsensitive, error: nil)
+var matches=regex?.matchesInString(content, options: nil, range:NSMakeRange(0,  content.length)) as Array&amp;lt;NSTextCheckingResult&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;tableviewの実装:acf4b297964475d59ee8d3d971039796&#34;&gt;tableViewの実装&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;optional func numberOfRowsInTableView(_ aTableView: NSTableView) -&amp;gt; Int&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;optional func tableView(_ aTableView: NSTableView, objectValueForTableColumn aTableColumn: NSTableColumn?, row rowIndex: Int) -&amp;gt; AnyObject?&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;tableViewを利用する際に、必ず実装しないといけないのが、上記２つの関数である。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ne.jp/asahi/room/kuro/programmingTable.html&#34;&gt;SwiftでOS Xアプリケーションのプログラミング - 表&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tableviewのソート処理:acf4b297964475d59ee8d3d971039796&#34;&gt;tableViewのソート処理&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/19006621158&#34; title=&#34;Swift-TableView-Sortby meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm1.staticflickr.com/488/19006621158_ec8b60f0ac_z.jpg&#34; alt=&#34;Swift-TableView-Sort&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Xcode側で、紐付けをしておく&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;tableView(tableView: NSTableView, sortDescriptorsDidChange oldDescriptors: [AnyObject])&lt;/code&gt;を実装すると、ヘッダ部分をクリックしたときにこの関数が呼ばれる。&lt;/p&gt;
+
+&lt;p&gt;sortDescriptorに、降順か昇順かが入っているのでそれをみて判断する。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    func tableView(tableView: NSTableView,
+        sortDescriptorsDidChange oldDescriptors: [AnyObject])  {
+            for sortDescriptor in tableView.sortDescriptors.reverse() as! [NSSortDescriptor] {
+                var key = sortDescriptor.key() as String!
+                if sortDescriptor.ascending {
+                    data.sort {(item1, item2) in return item1.prop[key] &amp;lt; item2.prop[key]}
+                } else {
+                    data.sort {(item1, item2) in return item1.prop[key] &amp;gt; item2.prop[key]}
+                }
+            }
+        tableView.reloadData()
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;今後実装したい:acf4b297964475d59ee8d3d971039796&#34;&gt;今後実装したい&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;カテゴリ、タグの置換機能&lt;/li&gt;
+&lt;li&gt;記事の中身の簡易編集&lt;/li&gt;
+&lt;li&gt;カテゴリ、タグのフィルター機能&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

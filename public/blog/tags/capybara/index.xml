@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Capybara on SIS Lab</title>
+    <link>https://meganii.com/tags/capybara/</link>
+    <description>Recent content in Capybara on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 25 Jul 2015 17:29:00 +0900</lastBuildDate>
+    <atom:link href="https://meganii.com/tags/capybara/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー</title>
+      <link>https://meganii.com/blog/2015/07/25/capybara-connect-error/</link>
+      <pubDate>Sat, 25 Jul 2015 17:29:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2015/07/25/capybara-connect-error/</guid>
+      <description>
+
+&lt;h2 id=&#34;現象:7cc9ca141ee1a4a521482c2dfcca0857&#34;&gt;現象&lt;/h2&gt;
+
+&lt;p&gt;Capybaraでhttpsのサイトにvisit(&amp;ldquo;)したときに、以下のエラーが発生する。&lt;/p&gt;
+
+&lt;p&gt;Request failed to reach server, check DNS and/or server status&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/usr/local/lib/ruby/gems/2.1.0/gems/poltergeist-1.6.0/lib/capybara/poltergeist/browser.rb:323:in `command&#39;: Request failed to reach server, check DNS and/or server status (Capybara::Poltergeist::StatusFailError)
+	from /usr/local/lib/ruby/gems/2.1.0/gems/poltergeist-1.6.0/lib/capybara/poltergeist/browser.rb:31:in `visit&#39;
+	from /usr/local/lib/ruby/gems/2.1.0/gems/poltergeist-1.6.0/lib/capybara/poltergeist/driver.rb:95:in `visit&#39;
+	from /usr/local/lib/ruby/gems/2.1.0/gems/capybara-2.4.4/lib/capybara/session.rb:227:in `visit&#39;
+	from /usr/local/lib/ruby/gems/2.1.0/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in &amp;lt;module:DSL&amp;gt;&#39;
+	from itunes.rb:24:in `login&#39;
+	from itunes.rb:61:in `&amp;lt;main&amp;gt;&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;原因:7cc9ca141ee1a4a521482c2dfcca0857&#34;&gt;原因&lt;/h2&gt;
+
+&lt;p&gt;SSLの通信にエラーが起きてるため。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The problem is most likely due to SSL certificate errors. If you start phantomjs with the &amp;ndash;ignore-ssl-errors=yes option, it should proceed to load the page as it would if there were no SSL errors:
+&lt;a href=&#34;http://stackoverflow.com/questions/12021578/phantomjs-failing-to-open-https-site/24679134#24679134&#34;&gt;screen scraping - PhantomJS failing to open HTTPS site - Stack Overflow&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;対処法:7cc9ca141ee1a4a521482c2dfcca0857&#34;&gt;対処法&lt;/h2&gt;
+
+&lt;p&gt;以下のオプションを設定することで解決した。&lt;/p&gt;
+
+&lt;p&gt;phantomjs_options: [&amp;lsquo;&amp;ndash;ignore-ssl-errors=yes&amp;rsquo;]&lt;/p&gt;
+
+&lt;p&gt;上記オブションのみで解決しない場合は、&lt;code&gt;--load-images=no&lt;/code&gt;, &lt;code&gt;--ssl-protocol=any&lt;/code&gt;のオプションも試してみるとよいとのこと。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Capybara.register_driver :poltergeist do |app|
+  Capybara::Poltergeist::Driver.new(app, {
+                    js_errors: false,
+                    timeout: 1000,
+                    phantomjs_options: [
+                              &#39;--load-images=no&#39;,
+                              &#39;--ignore-ssl-errors=yes&#39;,
+                              &#39;--ssl-protocol=any&#39;]})
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ローカル環境では、上記の「phantomjs_options」を指定しなくても動作するが、CentOS上だとエラーになる。インストールしているphantomjsの違いなのか、SSL通信をする際の挙動が違うのか理解していないため、要調査。&lt;/p&gt;
+
+&lt;h2 id=&#34;参考:7cc9ca141ee1a4a521482c2dfcca0857&#34;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://mmmpa.hatenablog.com/entry/2015/01/05/Capybara_%E3%81%A8_Phantomjs_%E3%81%A7_ChatWork_%E3%82%92%E3%82%A2%E3%83%AC%E3%81%97%E3%82%88%E3%81%86%E3%81%A8%E6%80%9D%E3%81%A3%E3%81%9F%E3%82%89_Capybara%3A%3APoltergeist%3A%3AStatusFailError_%E3%81%A8&#34;&gt;Capybara と Phantomjs で ChatWork をアレしようと思ったら Capybara::Poltergeist::StatusFailError とかいわれてなにも取得できなくて困った。 - MMMPA&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/25706563/ruby-phantom-js-blocked-on-specific-site&#34;&gt;selenium - Ruby: Phantom.js blocked on specific site? - Stack Overflow&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/12021578/phantomjs-failing-to-open-https-site/24679134#24679134&#34;&gt;screen scraping - PhantomJS failing to open HTTPS site - Stack Overflow&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://phantomjs.org/api/command-line.html&#34;&gt;Command Line Interface | PhantomJS&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;booklink-box&#34;&gt;&lt;div class=&#34;booklink-image&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4797380357/meganii-22/&#34; target=&#34;_blank&#34; &gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/51qDobozaNL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklink-info&#34;&gt;&lt;div class=&#34;booklink-name&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4797380357/meganii-22/&#34; target=&#34;_blank&#34; &gt;Rubyによるクローラー開発技法 巡回・解析機能の実装と21の運用例&lt;/a&gt;&lt;div class=&#34;booklink-powered-date&#34;&gt;posted with &lt;a href=&#34;http://yomereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-detail&#34;&gt;るびきち,佐々木 拓郎 SBクリエイティブ 2014-08-25    &lt;/div&gt;&lt;div class=&#34;booklink-link2&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4797380357/meganii-22/&#34; target=&#34;_blank&#34; &gt;Amazon&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkkindle&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00TO6KMEK/meganii-22/&#34; target=&#34;_blank&#34; &gt;Kindle&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/13e181b2.b5761023.13e181b3.cbc7b217/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12900998%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F&#34; target=&#34;_blank&#34; &gt;楽天ブックス&lt;/a&gt;&lt;/div&gt;                             &lt;div class=&#34;shoplinktoshokan&#34;&gt;&lt;a href=&#34;http://calil.jp/book/4797380357&#34; target=&#34;_blank&#34; &gt;図書館&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

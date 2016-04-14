@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blender on SIS Lab</title>
+    <link>https://meganii.com/tags/blender/</link>
+    <description>Recent content in Blender on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 22 Jun 2014 18:12:00 +0900</lastBuildDate>
+    <atom:link href="https://meganii.com/tags/blender/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>PythonでBlender</title>
+      <link>https://meganii.com/blog/2014/06/22/blender-python/</link>
+      <pubDate>Sun, 22 Jun 2014 18:12:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2014/06/22/blender-python/</guid>
+      <description>
+
+&lt;p&gt;PythonでBlenderを操作するためのメモ。&lt;/p&gt;
+
+&lt;h2 id=&#34;メッシュ-mesh-の構成:5145315c272e1d7639b563a234de4331&#34;&gt;メッシュ(mesh)の構成&lt;/h2&gt;
+
+&lt;h3 id=&#34;頂点:5145315c272e1d7639b563a234de4331&#34;&gt;頂点&lt;/h3&gt;
+
+&lt;p&gt;(x, y, z)の座標を指定するみたい&lt;/p&gt;
+
+&lt;h3 id=&#34;エッジ:5145315c272e1d7639b563a234de4331&#34;&gt;エッジ&lt;/h3&gt;
+
+&lt;p&gt;よくわかっていない&lt;/p&gt;
+
+&lt;h3 id=&#34;面:5145315c272e1d7639b563a234de4331&#34;&gt;面&lt;/h3&gt;
+
+&lt;p&gt;頂点で指定した座標をつなげることで、面を形成する&lt;/p&gt;
+
+&lt;h2 id=&#34;メソッド:5145315c272e1d7639b563a234de4331&#34;&gt;メソッド&lt;/h2&gt;
+
+&lt;h3 id=&#34;デフォルトの立方体を生成:5145315c272e1d7639b563a234de4331&#34;&gt;デフォルトの立方体を生成&lt;/h3&gt;
+
+&lt;p&gt;bpy.ops.mesh.primitive_cube_add()&lt;/p&gt;
+
+&lt;h2 id=&#34;サンプル-ピラミッド:5145315c272e1d7639b563a234de4331&#34;&gt;サンプル(ピラミッド)&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import bpy
+coords = [(-1.0, -1.0, -1.0), (1.0, -1.0, -1.0), (1.0, 1.0, -1.0), (-1.0, 1.0,-1.0), (0.0,0.0,1.0)]
+faces = [(2,1,0,3), (0,1,4),(1,2,4),(2,3,4),(3,0,4)]
+me = bpy.data.meshes.new(&amp;quot;PyramidMesh&amp;quot;)
+ob = bpy.data.objects.new(&amp;quot;Pyramid&amp;quot;, me)
+ob.location = bpy.context.scene.cursor_location
+bpy.context.scene.objects.link(ob)
+me.from_pydata(coords,[],faces)
+me.update(calc_edges=True)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;iframe src=&#34;https://www.flickr.com/photos/35571855@N06/14479984155/in/photostream/player/&#34; width=&#34;500&#34; height=&#34;281&#34; frameborder=&#34;0&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&#34;ドミノ:5145315c272e1d7639b563a234de4331&#34;&gt;ドミノ&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import bpy
+for y in range(0,5):
+	coords = [(0,2*y,0),(2,2*y,0),(2,2*y+0.5,0),(0,2*y+0.5,0),(0,2*y,2),(2,2*y,2),(2,2*y+0.5,2),(0,2*y+0.5,2)] 
+	faces = [(0,1,2,3),(0,1,5,4),(3,2,6,7),(1,2,6,5),(0,3,7,4),(4,5,6,7)]
+	me = bpy.data.meshes.new(&amp;quot;Cube&amp;quot;)
+	ob = bpy.data.objects.new(&amp;quot;Cube&amp;quot;, me)
+	ob.location = bpy.context.scene.cursor_location
+	bpy.context.scene.objects.link(ob)
+	me.from_pydata(coords,[],faces)
+	me.update(calc_edges=True)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;iframe src=&#34;https://www.flickr.com/photos/35571855@N06/14500120233/player/&#34; width=&#34;500&#34; height=&#34;281&#34; frameborder=&#34;0&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&#34;ドミノ-part2:5145315c272e1d7639b563a234de4331&#34;&gt;ドミノ part2&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import bpy
+
+def create_cube(x, y):
+	coords = [(4*x,2*y,0),(4*x+2,2*y,0),(4*x+2,2*y+0.5,0),(4*x,2*y+0.5,0),(4*x,2*y,2),(4*x+2,2*y,2),(4*x+2,2*y+0.5,2),(4*x,2*y+0.5,2)] 
+	faces = [(0,1,2,3),(0,1,5,4),(3,2,6,7),(1,2,6,5),(0,3,7,4),(4,5,6,7)]
+	me = bpy.data.meshes.new(&amp;quot;Cube&amp;quot;)
+	ob = bpy.data.objects.new(&amp;quot;Cube&amp;quot;, me)
+	ob.location = bpy.context.scene.cursor_location
+	bpy.context.scene.objects.link(ob)
+	me.from_pydata(coords,[],faces)
+	me.update(calc_edges=True)
+
+loop = 1 
+for y in reversed(range(100)):
+	for x in range(loop):
+		create_cube(x, y)
+	loop = loop + 1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;iframe src=&#34;https://www.flickr.com/photos/35571855@N06/14483105314/player/&#34; width=&#34;500&#34; height=&#34;276&#34; frameborder=&#34;0&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&#34;参考:5145315c272e1d7639b563a234de4331&#34;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://tips.hecomi.com/entry/20120818/1345307205&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://tips.hecomi.com/entry/20120818/1345307205&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://tips.hecomi.com/entry/20120818/1345307205&#34; target=&#34;_blank&#34;&gt;Blender 2.63 での Python の使い方についてまとめてみた - 凹みTips&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://tips.hecomi.com/entry/20120818/1345307205&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://tips.hecomi.com/entry/20120818/1345307205&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wiki.theprovingground.org/blender-py-mathmesh&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://wiki.theprovingground.org/blender-py-mathmesh&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://wiki.theprovingground.org/blender-py-mathmesh&#34; target=&#34;_blank&#34;&gt;Blender Python: Mathematical Mesh - THE PROVING GROUND&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://wiki.theprovingground.org/blender-py-mathmesh&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://wiki.theprovingground.org/blender-py-mathmesh&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

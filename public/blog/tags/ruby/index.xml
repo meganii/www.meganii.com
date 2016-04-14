@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on SIS Lab</title>
+    <link>https://meganii.com/tags/ruby/</link>
+    <description>Recent content in Ruby on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 27 Mar 2015 23:54:00 +0900</lastBuildDate>
+    <atom:link href="https://meganii.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>数世代バージョンを持つファイル名から最新版以外を抽出する</title>
+      <link>https://meganii.com/blog/2015/03/27/leave-latest-filename/</link>
+      <pubDate>Fri, 27 Mar 2015 23:54:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2015/03/27/leave-latest-filename/</guid>
+      <description>
+
+&lt;p&gt;数世代バージョンを持っているようなファイルから、最新版だけ残す(2世代以上持っているものを抽出する)方法。&lt;/p&gt;
+
+&lt;h2 id=&#34;前提:29b83cf1a118940149f7e21dd58cf9ed&#34;&gt;前提&lt;/h2&gt;
+
+&lt;p&gt;ファイル名_yyyymmddという形式になっている。
+あらかじめファイル名をソートしておく。&lt;/p&gt;
+
+&lt;p&gt;ファイルリスト。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;TBTA1001_20140222
+TBTA1001_20150520
+TBTA1002_20151212
+TBTA1002_20151222
+TBTA1003_20140609
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;スクリプト:29b83cf1a118940149f7e21dd58cf9ed&#34;&gt;スクリプト&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;File.open(&#39;filename.txt&#39;) do |f|
+  prev = &amp;quot;&amp;quot;
+  f.each_line do |line|
+    name = line.split(/_\d{8}/)
+    if prev.split(/_\d{8}/) == name
+      puts prev
+    end
+    prev = line
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;結果:29b83cf1a118940149f7e21dd58cf9ed&#34;&gt;結果&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;TBTA1001_20140222
+TBTA1002_20151212
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;sed&lt;/code&gt;とか&lt;code&gt;awk&lt;/code&gt;とか使ってさくっと出来ないものかと思ってるのだが・・・。
+勉強不足。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった</title>
+      <link>https://meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/</link>
+      <pubDate>Sat, 13 Dec 2014 18:15:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/</guid>
+      <description>
+
+&lt;p&gt;カテゴリ名を一括変換したり、タグ名を整理する際に、今どうなっているか一覧にしたかったので、Railsで作ってみた。&lt;/p&gt;
+
+&lt;p&gt;無事一覧が出来たので気持ちいい。こういう庭いじり好きかも笑。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/16007934641&#34; title=&#34;JekyllFFViewer_and_posts_controller_rb____Work_Site_JekyllFFViewer_app_controllers__-_VIMby meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm9.staticflickr.com/8650/16007934641_502fe07015_z.jpg&#34; alt=&#34;JekyllFFViewer_and_posts_controller_rb____Work_Site_JekyllFFViewer_app_controllers__-_VIM&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/meganii/JekyllFFviewer&#34;&gt;https://github.com/meganii/JekyllFFviewer&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;postsテーブル作成:8ecf1beb6855b0a1e85aaf2a76888455&#34;&gt;Postsテーブル作成&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;metadata&lt;/code&gt;として、JekyllのFront Matterを格納する。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://jekyllrb.com/docs/frontmatter/&#34;&gt;Front Matter&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;create-posts-rb:8ecf1beb6855b0a1e85aaf2a76888455&#34;&gt;create_posts.rb&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;require &#39;rubygems&#39;
+require &#39;sqlite3&#39;
+
+db = SQLite3::Database.new(&amp;quot;/Users/meganii/Work/Site/JekyllFFViewer/db/development.sqlite3&amp;quot;)
+sql = &amp;lt;&amp;lt;SQL
+CREATE TABLE Posts  (
+id integer PRIMARY KEY AUTOINCREMENT,
+filename String,
+content Text,
+metadata Text);
+SQL
+db.execute(sql)
+db.close
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;markdownの読込:8ecf1beb6855b0a1e85aaf2a76888455&#34;&gt;markdownの読込&lt;/h2&gt;
+
+&lt;p&gt;Jekyllで利用しているMarkdownのファイルを読み込んで、SQLite3に入れる。&lt;/p&gt;
+
+&lt;p&gt;ActiveRecordを単品でも使えることがわかったので、利用する。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;class Post&amp;lt; ActiveRecord::Base
+  serialize :metadata
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;配列やハッシュを上記のように、シリアライズすることで、読み込んだ際に、元のオブジェクト形式で読み込んでくれる。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://easyramble.com/rails-active-record-serialize.html&#34;&gt;Rails4でserializeしてデータをDBに保存させる | EasyRamble&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;YAML Front Matterと、記事本文を分離する正規表現は、以下参照。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://meganii.com/blog/2013/05/23/regexp-jekyll/&#34;&gt;Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;import-md-rb:8ecf1beb6855b0a1e85aaf2a76888455&#34;&gt;import_md.rb&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;require &#39;rubygems&#39;
+require &#39;active_record&#39;
+require &#39;english&#39;
+
+ActiveRecord::Base.establish_connection(
+  &amp;quot;adapter&amp;quot; =&amp;gt; &amp;quot;sqlite3&amp;quot;,
+  &amp;quot;database&amp;quot; =&amp;gt; &amp;quot;/Users/meganii/Work/Site/JekyllFFViewer/db/development.sqlite3&amp;quot;
+)
+
+class Post&amp;lt; ActiveRecord::Base
+  serialize :metadata
+end
+
+files = Dir.glob(File.join(&amp;quot;/Users/meganii/Dropbox/Sites/meganii.com/_posts&amp;quot;, &amp;quot;*&amp;quot;))
+
+files.each do |f|
+  ff = YAML.load_file(f)
+  file = open(f)
+  content = file.read
+
+  if content =~ /\A(---\s*\n.*?\n?)^(---\s*$\n?)/m
+    post_content = $POSTMATCH
+  end
+
+  filename = File.basename(f)
+  unless filename =~ /~\z/
+    post = Post.new
+    post.filename = filename 
+    post.metadata = ff
+    post.content = post_content
+    post.save
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;ソート:8ecf1beb6855b0a1e85aaf2a76888455&#34;&gt;ソート&lt;/h2&gt;
+
+&lt;p&gt;項目毎にソートされていた方が嬉しいので、ソート処理を実装してみる。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.scimpr.com/2012/08/26/rails%E3%81%AE%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E4%B8%A6%E3%81%B3%E6%9B%BF%E3%81%88%E3%82%92%E5%AE%9F%E8%A3%85%E3%81%99%E3%82%8B/&#34;&gt;Railsのテーブル並び替えを実装する | Scimpr Blog&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;単純なソートであれば、取得時にソート処理をかませばよいのだが、今回は、ハッシュの配列を、あるキー値でソートしないといけないので注意が必要。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;  def index
+    @posts = Post.all
+
+    hash = []
+    
+    if params[:sort] != nil
+
+      sortkey = params[:sort] 
+
+      @posts.each do |post|
+        hash &amp;lt;&amp;lt; post.metadata
+      end
+
+      hash.each {|h| puts h }
+
+      result = hash.sort {|a, b| compare(a[sortkey], b[sortkey]) }
+      hash = result
+
+    end
+
+
+    a = []
+    @posts.each do |post|
+      data = post.metadata
+      data.keys.each do |key|
+        a &amp;lt;&amp;lt; key
+      end
+    end
+    @column = a.uniq.sort
+
+    @posts = hash
+  end
+
+
+  def compare(a, b)
+    return -1 unless b 
+    return 1 unless a
+
+    a = a[0] if a.instance_of? Array
+    b = b[0] if b.instance_of? Array
+    a &amp;lt;=&amp;gt; b
+  end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;今後-todo:8ecf1beb6855b0a1e85aaf2a76888455&#34;&gt;今後・TODO&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;一覧上から修正して、再出力できるようにしたい&lt;/li&gt;
+&lt;li&gt;一括変換したい&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>carrierwave</title>
+      <link>https://meganii.com/blog/2013/05/29/carrierwave/</link>
+      <pubDate>Wed, 29 May 2013 07:09:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2013/05/29/carrierwave/</guid>
+      <description>&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;http://blog.scimpr.com/2012/10/11/rails3%e3%81%a7ajax%e3%81%a7dd%e3%81%a7%e3%81%be%e3%81%a8%e3%82%81%e3%81%a6%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%a2%e3%83%83%e3%83%97%e3%83%ad%e3%83%bc%e3%83%892%ef%bd%9ejqueryfileupload-for-rai/&#34;&gt;Rails3でajaxでD&amp;amp;Dでまとめてファイルアップロード2～jQueryFileUpload for Rails | Scimpr Blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>sqlite3-rubyを使ってSQLite3ファイルからの検索結果をHashとして読み込む</title>
+      <link>https://meganii.com/blog/2013/05/18/sqlite3-ruby/</link>
+      <pubDate>Sat, 18 May 2013 12:06:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2013/05/18/sqlite3-ruby/</guid>
+      <description>
+
+&lt;p&gt;sqlite3-rubyを使って、SQLite3にアクセスしてデータの取得、加工がしたい。&lt;/p&gt;
+
+&lt;p&gt;db.executeした際に配列が帰ってきた。カラム名でアクセス出来る方法がないか探したところ、
+results_as_hash = trueにすれば、Hashで返ってくることがわかった。&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;http://sqlite-ruby.rubyforge.org/sqlite3/faq.html&#34;&gt;SQLite3/Ruby FAQ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;##I’d like the rows to be indexible by column name.
+&amp;gt;By default, each row from a query is returned as an Array of values. This means that you can only obtain values by their index. Sometimes, however, you would like to obtain values by their column name.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The first way to do this is to set the Database property “results_as_hash” to true. If you do this, then all rows will be returned as Hash objects, with the column names as the keys. (In this case, the “fields” property is unavailable on the row, although the “types” property remains.)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;デフォルトだと配列で返ってくるので、results_as_hashをtrueにすれば、ハッシュとして返却され、カラム名でアクセスできる。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  db.results_as_hash = true
+  db.execute( &amp;quot;select * from table&amp;quot; ) do |row|
+    p row[&#39;column1&#39;]
+    p row[&#39;column2&#39;]
+  end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The other way is to use Ara Howard’s ArrayFields module. Just require “arrayfields”, and all of your rows will be indexable by column name, even though they are still arrays!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;  require &#39;arrayfields&#39;
+
+  ...
+  db.execute( &amp;quot;select * from table&amp;quot; ) do |row|
+    p row[0] == row[&#39;column1&#39;]
+    p row[1] == row[&#39;column2&#39;]
+  end
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;sqlite3ファイルから読み込み:b425023893754c7832f533b0be41614b&#34;&gt;sqlite3ファイルから読み込み&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;require &#39;rubygems&#39;
+require &#39;sqlite3&#39;
+
+db = SQLite3::Database.new(&amp;quot;development.sqlite3&amp;quot;)
+db.results_as_hash = true
+
+sql = &amp;quot;select * from entries&amp;quot;
+
+db.execute(sql) do |row|
+	p row
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;参考:b425023893754c7832f533b0be41614b&#34;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/3518329/add-a-new-line-in-file&#34;&gt;ruby - Add a new line in file? - Stack Overflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

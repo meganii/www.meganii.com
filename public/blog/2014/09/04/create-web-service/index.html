@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.15" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/custom.css">
+<link rel="alternate" href="/index.xml" type="application/rss+xml" title="SIS Lab">
+<title>ぐだぐだ言ってないでコードを書けよ、自分！ - 「Webサービスのつくり方」 - SIS Lab</title>
+</head>
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		<div class="header-logo">
+			<a href="/"><h1 class="site-title"> <i class="fa fa-laptop"></i> SIS Lab</a></h1>
+			<p>
+				元じょーぶん生による
+			</p>
+		</div>
+		
+
+	</header>
+
+
+<div class="row">
+	<main role="main" class="nine columns">
+		<article itemscope itemtype="http://schema.org/BlogPosting">
+			<h1 class="entry-title" itemprop="headline">ぐだぐだ言ってないでコードを書けよ、自分！ - 「Webサービスのつくり方」</h1>
+			<span class="entry-meta"><time itemprop="datePublished" datetime="2014-09-04">September 04, 2014</time></span>
+			<section id="post" itemprop="entry-text">
+				
+
+<p>個人的に,ちょうど「Webサービスのつくり方」ってキーワードがアツかったので読んでみた。心に響いた部分を抜粋する。読んでいたら、何かWebサービスを作りたくなった。</p>
+
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774154075/meganii-22/ref=nosim/" rel="nofollow" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51jdbeo%2BrmL._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774154075/meganii-22/ref=nosim/" rel="nofollow" target="_blank">Webサービスのつくり方 ~「新しい」を生み出すための33のエッセイ (Software Design plus)</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">和田 裕介 技術評論社 2012-11-20    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="display:inline;margin-right:5px"><a href="http://www.amazon.co.jp/gp/search?keywords=web%83T%81%5B%83r%83X%20%8D%EC%82%E8%95%FB%20perl&__mk_ja_JP=%83J%83%5E%83J%83i&tag=meganii-22" rel="nofollow" target="_blank" title="アマゾン" >Amazonで購入</a></div><div class="shoplinkrakuten" style="display:inline;margin-right:5px"><a href="http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2Fweb%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%2520%25E4%25BD%259C%25E3%2582%258A%25E6%2596%25B9%2520perl%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F" rel="nofollow" target="_blank" title="楽天市場" >楽天市場で購入</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
+
+<div class="google-adsense">
+    <p>スポンサーリンク</p>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-5340212676785058"
+         data-ad-slot="1592375556"
+         data-ad-format="link"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+
+<h2 id="ぐだぐだ言ってないでコードを書けよ-ハゲ:bbf22b7ad96a1273c981a350d4cb265c">ぐだぐだ言ってないでコードを書けよ、ハゲ</h2>
+
+<div><a href="https://www.flickr.com/photos/riebart/4466482623/" target="_blank"><img class="img-responsive" src="https://farm3.staticflickr.com/2689/4466482623_6aea29d90a_z.jpg?zz=1" alt="Code" /></a><span>Code / Riebart</span></div>
+
+<p>「あれが欲しい」「これが欲しい」「このサービスをもっとこうしたほうがいい」と批判するのは簡単であり、自分のアイデアの方がすごいと自慢する場合もある。しかし、実現していない、カタチになっていないものにはあまり価値がない。</p>
+
+<p>「そこに1,000人いたとして、アイデアを思いつくのが100人、アイデアを実現するのが10人、アイデアで成功する人は1人。」</p>
+
+<p>アイデアを思いつく人はそもそも、少なく、アイデアをカタチにする人はもっと少ない。さらに、成功する人はごくわずかである。アイデアを思いついたら、手を動かしてコードを書くことで成功へのハードルに一歩近づくことができる。</p>
+
+<blockquote>
+<p>だけど最終的には、唯一重要なものは現実のコードと技術そのものだよ。向上心もなくコードも書こうとしない人でもコメントはできるし、こうするべきだとか、ああするべきだとか、そうしちゃいけないとかいうこともできるけど、結局はそういった声は問題にならない。唯一重要なものはコードなんだ。 リーナス・トーバルズ</p>
+</blockquote>
+
+<p>自分も、こんなWebサービスあったらいいのになぁとか、こういうことしたいのになぁとか思うことがあっても結局自分で作るまで至らないことが多い。ないのなら自分で作るエンジニアになりたい。</p>
+
+<h2 id="なければつくる:bbf22b7ad96a1273c981a350d4cb265c">なければつくる</h2>
+
+<p><a href="https://www.flickr.com/photos/jasleen_kaur/14477908267/" target="_blank"><img class="img-responsive" src="https://farm4.staticflickr.com/3887/14477908267_79bbdb0def_z.jpg?zz=1" alt="wheels" /></a><span>wheels / jasleen_kaur</span></p>
+
+<blockquote>
+<p>車輪の再発明　・・・　ある目的を果たすためのライブラリや先行事例があるにもかかわらず、同じことを叶えるためについつい自分で作ってしまう行為。</p>
+</blockquote>
+
+<p>車輪の再発明は一般的には非効率だが、勉強のためならよいのではないか。既存の似たようなものを参考にできるため、学ぶことが多くある。</p>
+
+<p>「車輪の再開発はしないで車輪を利用したほうが早い。けれども、それがなかった場合は自分で作る」という精神は持ちたい。それができるだけの技術力は持ちたい。</p>
+
+<h2 id="実装までにつくる-企画-の全て:bbf22b7ad96a1273c981a350d4cb265c">実装までにつくる「企画」の全て</h2>
+
+<p><a href="https://www.flickr.com/photos/anieto2k/8624484494/" target="_blank"><img class="img-responsive" src="https://farm9.staticflickr.com/8262/8624484494_664924de8d_z.jpg?zz=1" alt="180/365² Sin ideas"/></a><span>180/365² Sin ideas / anieto2k</span></p>
+
+<ol>
+<li>哲学</li>
+<li>アイデア</li>
+<li>テーマ</li>
+<li>コンセプト</li>
+<li>名前</li>
+<li>デザイン</li>
+<li>内部設計</li>
+</ol>
+
+<h3 id="1-哲学:bbf22b7ad96a1273c981a350d4cb265c">1.哲学</h3>
+
+<p>個々人が持っている、特定の興味に関する揺るがない気持ちのこと。この気持ちがサービスやアプリをつくる原動力になる。</p>
+
+<blockquote>
+<p>iPadを開発した人の根底にあるのはきっと、「音楽をもっと楽しみたい」という揺るがない気持ちがあったからであろう。そこに「なぜ音楽を楽しむ必要があるのか？」といった問いに対する論理的な理由は存在しなくてよい。『音楽が好きだから』もっと身近に楽しめていいじゃないかと、反論できればいいじゃないか。 (若干意訳)</p>
+</blockquote>
+
+<h3 id="2-アイデア:bbf22b7ad96a1273c981a350d4cb265c">2.アイデア</h3>
+
+<p>哲学を叶えるための個別の具体的なアイデア。</p>
+
+<p>「これが欲しい」という哲学から発想していくのがよい。個別の具体的なアイデアをたくさん持っておき、あとで吟味する。</p>
+
+<h3 id="3-テーマ:bbf22b7ad96a1273c981a350d4cb265c">3.テーマ</h3>
+
+<p>哲学をより具体的にした、勝負する領域のこと。アイデアを出していく過程で固まっていくことが多い。
+同じテーマの既存サービスやアプリを調査するために、テーマを定めることは重要である。</p>
+
+<p>iPadの場合は「携帯音楽プレイヤー」がテーマと言える。</p>
+
+<h3 id="4-コンセプト:bbf22b7ad96a1273c981a350d4cb265c">4.コンセプト</h3>
+
+<p>テーマに沿った、アイデアを形成するための骨格のようなもの。何をつくるかを一言で表したもの。</p>
+
+<p>iPadの場合、コンセプトは以下のような文章になる。
+専用の音楽ソフトを経由して、所有する曲全てを持ち運べる携帯型音楽プレイヤー</p>
+
+<p>テーマ、コンセプト、アイデアと分けて考えることで、抽象的な内容から具体的な内容へと順を追って説明できるため、人に説明しやすくなる。</p>
+
+<h3 id="5-名前:bbf22b7ad96a1273c981a350d4cb265c">5.名前</h3>
+
+<p>プロダクトのサービス、アプリの名前を決めるのは非常に重要なことである。
+これからつくろうとしているものを自分で呼ぶのに名前がないと気持ちが入れない。</p>
+
+<p>これは、「名前重要」というフレーズもあるぐらいなので、実感できるであろう。</p>
+
+<h3 id="6-デザイン:bbf22b7ad96a1273c981a350d4cb265c">6.デザイン</h3>
+
+<p>全体のディテールを詳細に決めていく作業。</p>
+
+<p>コンセプトやアイデアを洗練させていくと無駄なものが削ぎ落とされ、サービスやアプリに対する最低限の機能が抽出される。それらに対して、ユーザがどのように使っていくかを具体的なイラストなどを元に試行錯誤していく。</p>
+
+<h3 id="7-内部設計:bbf22b7ad96a1273c981a350d4cb265c">7.内部設計</h3>
+
+<p>内部的にどのように実現するかを設計していく。</p>
+
+<h2 id="やりたくなったこと:bbf22b7ad96a1273c981a350d4cb265c">やりたくなったこと</h2>
+
+<ul>
+<li>何かWebサービスをつくる</li>
+<li>Jekyll のプラグインをつくる</li>
+<li>さくらVPSをもっと使い倒す</li>
+<li>Railsのテストを勉強する</li>
+</ul>
+
+<p>読んだら自然と何かをつくりたくなる、やりたくなる本でした。なんか作りたいんだけど・・・って人は一度読んでみたらどうだろうか？</p>
+
+<h2 id="今日の積読本消化:bbf22b7ad96a1273c981a350d4cb265c">今日の積読本消化</h2>
+
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774154075/meganii-22/ref=nosim/" rel="nofollow" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51jdbeo%2BrmL._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774154075/meganii-22/ref=nosim/" rel="nofollow" target="_blank">Webサービスのつくり方 ~「新しい」を生み出すための33のエッセイ (Software Design plus)</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">和田 裕介 技術評論社 2012-11-20    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="display:inline;margin-right:5px"><a href="http://www.amazon.co.jp/gp/search?keywords=web%83T%81%5B%83r%83X%20%8D%EC%82%E8%95%FB%20perl&__mk_ja_JP=%83J%83%5E%83J%83i&tag=meganii-22" rel="nofollow" target="_blank" title="アマゾン" >Amazonで購入</a></div><div class="shoplinkrakuten" style="display:inline;margin-right:5px"><a href="http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2Fweb%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%2520%25E4%25BD%259C%25E3%2582%258A%25E6%2596%25B9%2520perl%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F" rel="nofollow" target="_blank" title="楽天市場" >楽天市場で購入</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>  
+
+<h2 id="参考:bbf22b7ad96a1273c981a350d4cb265c">参考</h2>
+
+<ul>
+<li><a href="http://www.slideshare.net/yusukebe/web-16710062">「Webサービスのつくり方」 のつくり方</a></li>
+<li><a href="https://speakerdeck.com/koba04/ge-ren-dechu-lai-ruwebsabisufalsezuo-rifang-yapc-asia-2013">個人で出来るWebサービスの作り方(YAPC::ASIA 2013) // Speaker Deck</a></li>
+</ul>
+
+			</section>
+		</article>
+		<div class="google-adsense">
+			<p>スポンサーリンク</p>
+			<div class="ad">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-5340212676785058"
+				     data-ad-slot="7368951150"
+				     data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+			<div class="ad sp-none">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-5340212676785058"
+				     data-ad-slot="7368951150"
+				     data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+		</div>
+		
+		<div class="u-cf"></div>
+		
+		<div class="social-area-syncer">
+			<ul class="social-button-syncer">
+				
+				<li class="sc-tw"><a data-url="https://meganii.com/blog/2014/09/04/create-web-service/" href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-count="vertical" data-dnt="true" target="_blank"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.375-1.337.648-2.085.795-.598-.638-1.45-1.036-2.396-1.036-1.812 0-3.282 1.468-3.282 3.28 0 .258.03.51.085.75C5.152 5.39 2.733 4.084 1.114 2.1.83 2.583.67 3.147.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.416-.02-.617-.058.418 1.304 1.63 2.253 3.067 2.28-1.124.88-2.54 1.404-4.077 1.404-.265 0-.526-.015-.783-.045 1.453.93 3.178 1.474 5.032 1.474 6.038 0 9.34-5 9.34-9.338 0-.143-.004-.284-.01-.425.64-.463 1.198-1.04 1.638-1.7z" fill="#fff" fill-rule="nonzero"/></svg><span>Tweet</span></a></li>
+
+				
+				<li class="sc-fb"><div class="fb-like" data-href="https://meganii.com/blog/2014/09/04/create-web-service/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false"></div></li>
+
+				
+				<li><div data-href="https://meganii.com/blog/2014/09/04/create-web-service/" class="g-plusone" data-size="tall"></div></li>
+
+				
+				<li><a href="http://b.hatena.ne.jp/entry/https://meganii.com/blog/2014/09/04/create-web-service/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border:none;" /></a></li>
+
+				
+				<li><a data-save-url="https://meganii.com/blog/2014/09/04/create-web-service/" data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"></a></li>
+			</ul>
+
+		
+		<div id="fb-root"></div>
+
+		</div>
+		
+		
+		<section id="related">
+			<h2>Related Post</h2>
+			<div id="tags">
+				
+				<a href="https://meganii.com/blog/tags/book"><i class="fa fa-tags"></i> book </a>
+				
+				<a href="https://meganii.com/blog/tags/webservice"><i class="fa fa-tags"></i> WebService </a>
+				
+			</div>
+			<ul id="related-posts">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2015/12/06/statistics-is-literacy-for-the-next-generation-professional/">統計学が最強の学問である[実践編]</a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2015/09/07/trade-off/">人生はトレードオフ？！　〜コンサルタントの秘密〜</a></li>
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2015/09/05/the-secrets-of-consulting/">コンサルタントの秘密〜コンサルタント業はなぜ大変か？〜</a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2015/08/29/marketing-22-raws/">マーケティング22の法則を図解してみた</a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2014/12/09/statistics-is-literacy-for-the-next-generation/">統計学が最強の学問である</a></li>
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2014/12/03/google-analytics/">現場でプロが培った Google Analyticsの使い方</a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2014/11/03/five-factor-work-shift/">未来を形作る5つの要因と32の要素</a></li>
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2014/11/03/specialist-work-shift/">ゼネラリストから「連続スペシャリスト」へ</a></li>
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2014/10/30/how-google-works/">キャリア計画を立てよう！ How Google Works-私たちの働き方とマネジメント-</a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2014/10/09/knowledge-groupware/">知のグループウェアとしてのファシリテーション〜ザ・ファシリテーター〜</a></li>
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2014/10/04/facilitation-skill/">参加者の発言を促すファシリテーターの技術 〜ザ・ファシリテーター〜</a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2014/06/23/dreyfus-model/">あなたは中級者を脱出出来ているだろうか？ドレイファスモデル技能モデル〜リファクタリング・ウェットウェア ―達人プログラマーの思考法と学習法〜</a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2014/06/17/dappan-omoro/">「脱藩学」と「オモロい社会人」〜閉塞感のある君へ。こっちへおいでよ。〜</a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2013/07/04/thinking-tools/">考えるための考具ってなんだろう？「考具 ―考えるための道具、持っていますか?」</a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2012/07/31/connection/">人脈ってなんだろう</a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2012/06/06/ichiro/">一流の習慣術　イチローとマー君が実践する「自分力」の育て方　の奥村さんの講演を聞いてきた</a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2012/05/19/study_english/">20歳を過ぎてから英語を学ぼうと決めた人たちへ</a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</ul>
+		</section>
+	</main>
+
+	<aside class="three columns">
+
+  <section>
+    <h2>Profile</h2>
+    <div id="profile">
+      <div class="header-logo"><img src="/images/meganii_logo.png" width="60" height="60"></div>
+      <p>広く浅くから広く深くへ</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Popular</h2>
+    <ul class="list-unstyled urllist">
+  <li>
+    <div>
+  <a href="/blog/2014/02/22/wedding-movie-motion5/" title="evernote by meganii, on Flickr"><img class="urllist-img" src="https://farm4.staticflickr.com/3758/12878786213_afab3820c4_s.jpg" width="75" height="75" alt="iMovie Motion5"></a>
+      <a href="/blog/2014/02/22/wedding-movie-motion5/">iMovieとMotion5で作る結婚式余興ムービー</a>
+    </div>
+  </li>
+  <li>
+    <div>
+      <a href="/blog/2014/11/16/fountain-pen-cleaning/" title="image by meganii, on Flickr"><img class="urllist-img" src="https://farm8.staticflickr.com/7491/15800656071_6da29ae104_s.jpg" width="75" height="75" alt="万年筆Lamy safari"></a>
+      <a href="/blog/2014/11/16/fountain-pen-cleaning/">万年筆LAMY safariのインク洗浄・交換</a>
+    </div>
+  </li>
+  <li>
+    <div>
+      <a href="https://www.flickr.com/photos/35571855@N06/8714845801" title="20130502151754 by meganii, on Flickr"><img class="urllist-img" src="https://farm8.staticflickr.com/7436/8714845801_c24116dce0_s.jpg" width="75" height="75" alt="屋久島旅行記"></a>
+      <a href="/blog/2013/05/07/yakushima/">晴れの屋久島。雨の屋久島。屋久島旅行記</a>
+    </div>
+  </li>
+</ul>
+
+  </section>
+
+  
+  
+
+  
+  
+    <div class="sidebar-module">
+  <h3>Tech</h3>
+  <ul class="list-unstyled urllist">
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/"><img class="urllist-img" src="https://www.oreilly.co.jp/books/images/picture_large978-4-87311-744-7.jpeg" alt="Electron &#43; Mithril.jsでFlickrアプリを作成する" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/">Electron &#43; Mithril.jsでFlickrアプリを作成する</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/22/become-a-programmer/"><img class="urllist-img" src="https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg" alt="「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/22/become-a-programmer/">「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/"><img class="urllist-img" src="https://farm2.staticflickr.com/1467/25143519475_14929051ec_z.jpg" alt="ElectronでAmazonアフィリエイトリンクビルダーを作った" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/">ElectronでAmazonアフィリエイトリンクビルダーを作った</a>
+      </div>
+    </li>
+    
+  
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/10/post-to-slack/"><img class="urllist-img" src="/images/nopicture.png" alt="slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/10/post-to-slack/">slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/"><img class="urllist-img" src="https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg" alt="D3.jsで東京の地価データを可視化する" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/">D3.jsで東京の地価データを可視化する</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/07/javascript-ninja/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/51hWBKh7tdL._SL160_.jpg" alt="JavaScript Ninjaの極意 「関数の呼び出し」" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/07/javascript-ninja/">JavaScript Ninjaの極意 「関数の呼び出し」</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/06/d3js-tutorial/"><img class="urllist-img" src="/images/nopicture.png" alt="D3.jsチュートリアル" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/06/d3js-tutorial/">D3.jsチュートリアル</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/61DHJGf1uSL._SL160_.jpg" alt="Nightmare.jsでAmazonアフィリエイトのレポートを取得する" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/">Nightmare.jsでAmazonアフィリエイトのレポートを取得する</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/01/30/effective-javascript-closure/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/517tJs%2B%2B%2BnL._SL160_.jpg" alt="[Effective JavaScript]クロージャ" width="75"></a>
+        <a href="https://meganii.com/blog/2016/01/30/effective-javascript-closure/">[Effective JavaScript]クロージャ</a>
+      </div>
+    </li>
+    
+  
+  </ul>
+</div>
+
+  
+
+  <section class="sidebar-module">
+    <h2>Latest</h2>
+    <ul class="list-unstyled urllist">
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/"><img class="urllist-img" src="https://www.oreilly.co.jp/books/images/picture_large978-4-87311-744-7.jpeg" alt="Electron &#43; Mithril.jsでFlickrアプリを作成する" width="75"></a>
+          <a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/">Electron &#43; Mithril.jsでFlickrアプリを作成する</a>
+        </div>
+      </li>
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/02/22/become-a-programmer/"><img class="urllist-img" src="https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg" alt="「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。" width="75"></a>
+          <a href="https://meganii.com/blog/2016/02/22/become-a-programmer/">「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。</a>
+        </div>
+      </li>
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/"><img class="urllist-img" src="https://farm2.staticflickr.com/1467/25143519475_14929051ec_z.jpg" alt="ElectronでAmazonアフィリエイトリンクビルダーを作った" width="75"></a>
+          <a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/">ElectronでAmazonアフィリエイトリンクビルダーを作った</a>
+        </div>
+      </li>
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/02/11/a-random-walk-down-wall-street/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/51UMwuX4tjL._SL160_.jpg" alt="a random walk down wall street" width="75"></a>
+          <a href="https://meganii.com/blog/2016/02/11/a-random-walk-down-wall-street/">a random walk down wall street</a>
+        </div>
+      </li>
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/02/10/post-to-slack/"><img class="urllist-img" src="/images/nopicture.png" alt="slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法" width="75"></a>
+          <a href="https://meganii.com/blog/2016/02/10/post-to-slack/">slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法</a>
+        </div>
+      </li>
+      
+    </ul>
+  </div>
+
+</aside>
+
+</div>
+
+
+	<footer role="contentinfo">
+		<div class="hr"></div>
+		<div class="footer-link">
+			
+			<a href="https://twitter.com/" target="_blank">Twitter</a>
+			
+			<a href="https://github.com/meganii" target="_blank">GitHub</a>
+		</div>
+		<div class="copyright">
+			<p>&copy; 2016  meganii  - SIS Lab</p>
+		</div>
+
+	</footer>
+
+</div>
+
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KG3QGC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KG3QGC');</script>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+ 
+if(window.addEventListener) {
+	window.addEventListener( "load" , shareButtonReadSyncer, false );
+}else{
+	window.attachEvent( "onload", shareButtonReadSyncer );
+}
+
+ 
+function shareButtonReadSyncer(){
+
+
+
+
+
+
+
+
+(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+
+var scriptTag = document.createElement("script");
+scriptTag.type = "text/javascript"
+scriptTag.src = "https://apis.google.com/js/platform.js";
+scriptTag.async = true;
+document.getElementsByTagName("head")[0].appendChild(scriptTag);
+
+
+var scriptTag = document.createElement("script");
+scriptTag.type = "text/javascript"
+scriptTag.src = "https://b.st-hatena.com/js/bookmark_button.js";
+scriptTag.async = true;
+document.getElementsByTagName("head")[0].appendChild(scriptTag);
+
+
+(!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js"));
+
+
+
+}
+</script>
+
+</body>
+</html>
+

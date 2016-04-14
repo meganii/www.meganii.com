@@ -1,0 +1,1645 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book on SIS Lab</title>
+    <link>https://meganii.com/tags/book/</link>
+    <description>Recent content in Book on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 06 Dec 2015 16:48:49 +0900</lastBuildDate>
+    <atom:link href="https://meganii.com/tags/book/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>統計学が最強の学問である[実践編]</title>
+      <link>https://meganii.com/blog/2015/12/06/statistics-is-literacy-for-the-next-generation-professional/</link>
+      <pubDate>Sun, 06 Dec 2015 16:48:49 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2015/12/06/statistics-is-literacy-for-the-next-generation-professional/</guid>
+      <description>
+
+&lt;div class=&#34;booklink-box&#34;&gt;&lt;div class=&#34;booklink-image&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/B00OYMOEUC/meganii-22/&#34; target=&#34;_blank&#34; &gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/51vZ69hPFHL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklink-info&#34;&gt;&lt;div class=&#34;booklink-name&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/B00OYMOEUC/meganii-22/&#34; target=&#34;_blank&#34; &gt;統計学が最強の学問である［実践編］[Kindle版]&lt;/a&gt;&lt;div class=&#34;booklink-powered-date&#34;&gt;posted with &lt;a href=&#34;http://yomereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-detail&#34;&gt;西内 啓 ダイヤモンド社 2014-11-04    &lt;/div&gt;&lt;div class=&#34;booklink-link2&#34;&gt;&lt;div class=&#34;shoplinkkindle&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00OYMOEUC/meganii-22/&#34; target=&#34;_blank&#34; &gt;Kindle&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkamazon&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4478028230/meganii-22/&#34; target=&#34;_blank&#34; &gt;Amazon[書籍版]&lt;/a&gt;&lt;/div&gt;                                               &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;統計学の活用方法には、以下の3パターンある。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;人間の行動の因果関係を洞察する&lt;/li&gt;
+&lt;li&gt;現状の把握&lt;/li&gt;
+&lt;li&gt;今後の予測&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ビジネスに必要なのは、人間を洞察するための統計学&lt;/p&gt;
+
+&lt;h3 id=&#34;洞察とは:798af02ac4f99b2a85cc941c4b8719bb&#34;&gt;洞察とは？&lt;/h3&gt;
+
+&lt;p&gt;営業の仕事の場合、売り上げに繋がりやすい訪問先と繋がりにくい訪問先の違いはなにか。&lt;/p&gt;
+
+&lt;p&gt;人事の仕事なら、自社の利益に繋がる人材と繋がらない人材の違いを明らかにする&lt;/p&gt;
+
+&lt;p&gt;調達なら、価格交渉に成功する状況としない状況の違い&lt;/p&gt;
+
+&lt;p&gt;平均値、割合という現状把握のための手法からスタートして、データからいかにその背後の因果関係を洞察するかという目的のための統計学を説明する&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;平均と割合、標準偏差 という最も基本的な統計学の道具の説明
+データを足してその数で割るという当たり前の計算過程ではなく、なぜそうした計算を行ったけっか得られる平均が、洞察の統計学で重要になるかを理解する&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;グループ間で平均値や割合に偶然の誤差ではないレベルの差があるかどうか
+という統計的仮設検定の考え方&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;たとえば、既存店舗と新店舗の平均客単価100円の違いは、意味のある違いなのか？&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;グループ間の違いだけでなく、ある値が増えれば増えるほど別の値は増える傾向にあるのか、それとも逆に減る方向にあるのか、関連性を分析するための回帰分析&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;洞察-の統計的に必要な3つの知識:798af02ac4f99b2a85cc941c4b8719bb&#34;&gt;「洞察」の統計的に必要な3つの知識&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;平均値や割合など統計指標の本質的な意味の理解&lt;/li&gt;
+&lt;li&gt;「データを点ではなく幅で捉える」という考え方&lt;/li&gt;
+&lt;li&gt;「何の値を何ごとに集計すべきか」という考え方&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;平均値と割合というのは本質的にはまったく同じである&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;量的変数:798af02ac4f99b2a85cc941c4b8719bb&#34;&gt;量的変数&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;年齢、収入、購買金額といった数で表される情報。&lt;/li&gt;
+&lt;li&gt;「平均値」で集計&lt;/li&gt;
+&lt;li&gt;「量として大きいか小さいか」という情報&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;質的変数:798af02ac4f99b2a85cc941c4b8719bb&#34;&gt;質的変数&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;性別、職業、商品ジャンルといった数ではなく文字で表される情報&lt;/li&gt;
+&lt;li&gt;それぞれの分類に該当するものの「割合」を集計する&lt;/li&gt;
+&lt;li&gt;「大小ではなく、そもそもの質が異なる」という情報&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;なぜ平均値と割合が本質的に全く同じことなのだろうか:798af02ac4f99b2a85cc941c4b8719bb&#34;&gt;なぜ平均値と割合が本質的に全く同じことなのだろうか。&lt;/h3&gt;
+
+&lt;p&gt;e.g. 100人に対する調査で60人が男性というデータが得られた場合。
+このとき、男性の割合は、60%&lt;/p&gt;
+
+&lt;p&gt;「男性である度合い」は？
+（調査の結果自分が男性であると回答した場合、1。そうでなければ、0という値。）&lt;/p&gt;
+
+&lt;p&gt;(1という値 60人分 +  0という値 40) / 100 = 0.6　「男性である度合い」の平均値&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;割合と平均値というまったく別物の集計方法が存在しているわけではなく、数の形で表現できない質的変数は、それぞれの分類についての1か0かという形で表現される「該当するか度合い」という量的変数を考え、その平均値を計算している。
+p26&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;データを点ではなく幅で捉えるという考え方:798af02ac4f99b2a85cc941c4b8719bb&#34;&gt;データを点ではなく幅で捉えるという考え方&lt;/h2&gt;
+
+&lt;p&gt;点とは、平均値や割合&lt;/p&gt;
+
+&lt;p&gt;平均値や割合を計算することは、物体を1点で支えることができる重心を求めることと同義であり、これにより、データが何千、何万とあっても、この重心を見ることでわかりやすい目安を得ることができる。&lt;/p&gt;
+
+&lt;p&gt;ただし、これには落とし穴があり、データがどのように散らばっているかを理解することが出来ない。&lt;/p&gt;
+
+&lt;p&gt;よって、このように点ではなく、「おおよそデータはどこからどこまでの範囲に存在しているかという」幅で考えるべき！&lt;/p&gt;
+
+&lt;h2 id=&#34;何の値を何事に集計すべきか:798af02ac4f99b2a85cc941c4b8719bb&#34;&gt;何の値を何事に集計すべきか&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;最終的にコントロールしたい結果(アウトカム)とそれに影響を与えうる原因の候補&lt;/strong&gt;という観点を持つべき。&lt;/p&gt;
+
+&lt;h3 id=&#34;アウトカム-成果指標:798af02ac4f99b2a85cc941c4b8719bb&#34;&gt;アウトカム(成果指標)&lt;/h3&gt;
+
+&lt;p&gt;「最終的にコントロールしたい結果」のこと。売り上げとか、PVとか
+データ分析を価値につなげるには、最大化したり、最小化したりすべきゴールとなる項目が何なのかを考えなければならない&lt;/p&gt;
+
+&lt;h3 id=&#34;説明変数:798af02ac4f99b2a85cc941c4b8719bb&#34;&gt;説明変数&lt;/h3&gt;
+
+&lt;p&gt;アウトカムの違いに影響するかもしれない、あるいは、その違いを説明できるかもしれない要因のこと。&lt;/p&gt;
+
+&lt;p&gt;説明変数の優先順位で意識すべきこと&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;その因果関係が「当たり前すぎる」ものでないこと&lt;/li&gt;
+&lt;li&gt;アウトカムへの影響が明らかになったとしてその原因のコントロールが容易であること&lt;/li&gt;
+&lt;li&gt;いままでにあまり注目して分析されたことがないこと&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;平均値の話:798af02ac4f99b2a85cc941c4b8719bb&#34;&gt;平均値の話&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;平均値とは最小二乗方法に基づき、観測値に含まれるズレを最も小さくすると考えられる良い推定値である&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;よく、平均年収○○万円みたいな統計情報が出てくるのを見かける。その度に、一部の富裕層が、全体の平均年収を引き上げてるんだろうなぁとか、思う人もいるかもしれない。「平均値だけを見ても意味ないよ！」って思う人もいるかもしれない。&lt;/p&gt;
+
+&lt;p&gt;でも、本書を読むと、平均値を取り上げるからくりが読めてくる。それは、「現状把握」と「因果関係の洞察」で意味が変わってくるからである。&lt;/p&gt;
+
+&lt;p&gt;現状把握の統計学においては、中央値(メディアン)、最頻値(モード)を併せて使うべきだが、「因果関係の洞察」では、平均値で計算すべきであるということが分かってくる。
+(なぜそうなるかは、本書を読んで欲しい。説明しろと言われると説明できない程度の理解)&lt;/p&gt;
+
+&lt;h3 id=&#34;中央値:798af02ac4f99b2a85cc941c4b8719bb&#34;&gt;中央値&lt;/h3&gt;
+
+&lt;p&gt;真ん中の順位の値&lt;/p&gt;
+
+&lt;h3 id=&#34;最頻値:798af02ac4f99b2a85cc941c4b8719bb&#34;&gt;最頻値&lt;/h3&gt;
+
+&lt;p&gt;一番頻度の高い値&lt;/p&gt;
+
+&lt;p&gt;4分位点の考えを用いて、もう少しデータの分布の状況を把握することもできるかが、依然として、並べ替えるのが大変、数式展開が難しく、総量の差異を計算するのが難しいという点は依然として残っている。&lt;/p&gt;
+
+&lt;p&gt;そこで、「分散」の考え方が出てくる。&lt;/p&gt;
+
+&lt;p&gt;「ズレの二乗の合計値」のかわりに「ズレの二乗の平均値」を使ってデータのバラつきを表現してやればいい。&lt;/p&gt;
+
+&lt;p&gt;分散の√を計算して得られた値のことを&lt;strong&gt;標準偏差&lt;/strong&gt;という。標準偏差とは、「標準的な平均値からの偏り」&lt;/p&gt;
+
+&lt;p&gt;データのバラつきがどのようなものであれ、平均値-2SD(標準偏差の2倍)〜平均値+2SDまでの間に必ず全体の4分の3以上のデータが存在することが証明されている&lt;/p&gt;
+
+&lt;p&gt;正規分布に従うデータであれば、この「4分の3以上」というボリュームはもっと大きくなり、平均値±2SD(正確には1.96SD)の範囲に95%のデータが存在する。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://meganii.com/blog/2014/11/04/statistics/&#34;&gt;[こつこつ勉強]統計学入門#1 | じょーぶん部&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Amazonマーケットプレイスで本を出品してみた</title>
+      <link>https://meganii.com/blog/2015/10/03/amazon-marketplace/</link>
+      <pubDate>Sat, 03 Oct 2015 10:25:48 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2015/10/03/amazon-marketplace/</guid>
+      <description>
+
+&lt;p&gt;引っ越しに伴い、本棚に寝ていた本を整理しました。今までは、ブックオフに持っていくということしか頭になかったのですが、色々調べてみるとAmazonマーケットプレイスやAmazon買い取りサービスなるものが存在して、比較的簡単に本を売却できそうだったので試してみることにしました。&lt;/p&gt;
+
+&lt;p&gt;結論としては、BOOK OFFに持っていくより断然、高値で売ることが出来たのでHAPPYになりました。&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;結論:fd05d71fbe7f763985f8e6545433a4dc&#34;&gt;結論&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Amazonマーケットプレイスでの金銭のやり取りは、Amazonが間に入ってくれるので、金銭面でのトラブルの心配は少ない。&lt;/li&gt;
+&lt;li&gt;ブックオフに持っていくよりも高値で買い取ってもらえる。&lt;/li&gt;
+&lt;li&gt;送付する作業はやはりめんどくさい。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ある程度、売れそうな本だけAmazonマーケットプレイスで出品して、残りはAmazon買い取りサービスとBOOKOFFを利用して引き払うという以下の手順で進めた。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;裁断して捨てる&lt;/li&gt;
+&lt;li&gt;Amazonマーケットプレイス&lt;/li&gt;
+&lt;li&gt;Amazon買い取りサービス&lt;/li&gt;
+&lt;li&gt;BOOKOFF&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;amazonマーケットプレイスの出品登録:fd05d71fbe7f763985f8e6545433a4dc&#34;&gt;Amazonマーケットプレイスの出品登録&lt;/h2&gt;
+
+&lt;h2 id=&#34;amazonマーケットプレイスでの裁断本の出品について:fd05d71fbe7f763985f8e6545433a4dc&#34;&gt;Amazonマーケットプレイスでの裁断本の出品について&lt;/h2&gt;
+
+&lt;p&gt;Amazonマーケットプレイスで、裁断本を出品するには、コンディションを「可」に設定して、裁断済みの本であることを明記すればよいとのこと。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;製本状態でない商品もしくは製本されていない商品を出品される際は必ずコンディションを「可」で出品してください。また、製本状態にない商品、製本されていない商品であることをコンディション詳細の記入欄に明記してください。
+製本状態でない商品を「良い」以上のコンディションで出品されている、もしくはコンディション詳細の記入欄に明記されていない場合は、Amazonの判断にて出品を取り下げる場合があることをご了承ください。
+&lt;a href=&#34;http://www.amazon.co.jp/gp/help/customer/display.html?nodeId=1085248&#34;&gt;Amazon.co.jp ヘルプ: Amazonマーケットプレイス コンディション・ガイドライン&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;参考ページ:fd05d71fbe7f763985f8e6545433a4dc&#34;&gt;参考ページ&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://watto.hatenablog.com/entry/2014/09/28/194422&#34;&gt;アマゾンマーケットプレイスで裁断済み書籍というのが売られていたので - しいたげられたしいたけ２&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;出品した本:fd05d71fbe7f763985f8e6545433a4dc&#34;&gt;出品した本&lt;/h2&gt;
+
+&lt;h3 id=&#34;裁断本:fd05d71fbe7f763985f8e6545433a4dc&#34;&gt;裁断本&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SQLアンチパターン&lt;/li&gt;
+&lt;li&gt;SQL実践入門&lt;/li&gt;
+&lt;li&gt;Rubyによるクローラー開発技法 巡回・解析機能の実装と21の運用例&lt;/li&gt;
+&lt;li&gt;[改訂新版] 3分間ネットワーク基礎講座&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;裁断していない本:fd05d71fbe7f763985f8e6545433a4dc&#34;&gt;裁断していない本&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;アート・オブ・コミュニティ ―「貢献したい気持ち」を繋げて成果を導くには&lt;/li&gt;
+&lt;li&gt;Emacs実践入門　～思考を直感的にコード化し、開発を加速する&lt;/li&gt;
+&lt;li&gt;プログラマが知るべき97のこと&lt;/li&gt;
+&lt;li&gt;本気で稼ぐための「アフィリエイト」の真実とノウハウ&lt;/li&gt;
+&lt;li&gt;ワーク・シフト ― 孤独と貧困から自由になる働き方の未来図〈2025〉&lt;/li&gt;
+&lt;li&gt;伝え方が9割&lt;/li&gt;
+&lt;li&gt;How Google Works (ハウ・グーグル・ワークス) ―私たちの働き方とマネジメント&lt;/li&gt;
+&lt;li&gt;マニャーナの法則 明日できることを今日やるな&lt;/li&gt;
+&lt;li&gt;システムインテグレーション崩壊 ~これからSIerはどう生き残ればいいか?&lt;/li&gt;
+&lt;li&gt;売れるもマーケ 当たるもマーケ―マーケティング22の法則&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;所感:fd05d71fbe7f763985f8e6545433a4dc&#34;&gt;所感&lt;/h2&gt;
+
+&lt;p&gt;どの本も出品して一週間以内に貰い手がついたことを考えると、Amazonの集客力は凄いと感じた。&lt;/p&gt;
+
+&lt;p&gt;オークションとは異なり、お金のやり取りが発生しないのでそこは凄く楽だった。&lt;/p&gt;
+
+&lt;p&gt;ブックオフに持って行ってもどうせ、足元をみられて安い金額でしか買い取ってもらえないのであったら、少しの手間でも、Amazonマーケットプレイスに出品するのもありだと思う。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>人生はトレードオフ？！　〜コンサルタントの秘密〜</title>
+      <link>https://meganii.com/blog/2015/09/07/trade-off/</link>
+      <pubDate>Mon, 07 Sep 2015 23:40:27 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2015/09/07/trade-off/</guid>
+      <description>
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;人生はトレードオフ:f1da5ee281c417a57aa1dbf7361e02fe&#34;&gt;人生はトレードオフ&lt;/h2&gt;
+
+&lt;h2 id=&#34;オレンジジューステスト:f1da5ee281c417a57aa1dbf7361e02fe&#34;&gt;オレンジジューステスト&lt;/h2&gt;
+
+&lt;p&gt;「それはできますよ。で、それにはこれだけかかります。」&lt;/p&gt;
+
+&lt;p&gt;最近家探しをしたので、何事もトレードオフだなと実感した。&lt;/p&gt;
+
+&lt;p&gt;広い部屋を望めば、価格が犠牲になり高くなる。広い部屋と安い家賃を望めば、築年数が増えていく。何かを得るには、何かが犠牲になる。&lt;/p&gt;
+
+&lt;p&gt;人生もトレードオフかな。&lt;/p&gt;
+
+&lt;div class=&#34;booklink-box&#34;&gt;&lt;div class=&#34;booklink-image&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4320025377/meganii-22/&#34; target=&#34;_blank&#34; &gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/418S5FJ6RHL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklink-info&#34;&gt;&lt;div class=&#34;booklink-name&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4320025377/meganii-22/&#34; target=&#34;_blank&#34; &gt;コンサルタントの秘密―技術アドバイスの人間学&lt;/a&gt;&lt;div class=&#34;booklink-powered-date&#34;&gt;posted with &lt;a href=&#34;http://yomereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-detail&#34;&gt;G.M.ワインバーグ,木村 泉,ジェラルド・M・ワインバーグ 共立出版 1990-12    &lt;/div&gt;&lt;div class=&#34;booklink-link2&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4320025377/meganii-22/&#34; target=&#34;_blank&#34; &gt;Amazon&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkkindle&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=%83R%83%93%83T%83%8B%83%5E%83%93%83g%82%CC%94%E9%96%A7%81%5C%8BZ%8Fp%83A%83h%83o%83C%83X%82%CC%90l%8A%D4%8Aw&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;url=node%3D2275256051&amp;tag=meganii-22&#34; target=&#34;_blank&#34; &gt;Kindle&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/13e181b2.b5761023.13e181b3.cbc7b217/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F446962%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F&#34; target=&#34;_blank&#34; &gt;楽天ブックス&lt;/a&gt;&lt;/div&gt;                             &lt;div class=&#34;shoplinktoshokan&#34;&gt;&lt;a href=&#34;http://calil.jp/book/4320025377&#34; target=&#34;_blank&#34; &gt;図書館&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>コンサルタントの秘密〜コンサルタント業はなぜ大変か？〜</title>
+      <link>https://meganii.com/blog/2015/09/05/the-secrets-of-consulting/</link>
+      <pubDate>Sat, 05 Sep 2015 08:39:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2015/09/05/the-secrets-of-consulting/</guid>
+      <description>
+
+&lt;div class=&#34;booklink-box&#34;&gt;&lt;div class=&#34;booklink-image&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4320025377/meganii-22/&#34; target=&#34;_blank&#34; &gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/418S5FJ6RHL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklink-info&#34;&gt;&lt;div class=&#34;booklink-name&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4320025377/meganii-22/&#34; target=&#34;_blank&#34; &gt;コンサルタントの秘密―技術アドバイスの人間学&lt;/a&gt;&lt;div class=&#34;booklink-powered-date&#34;&gt;posted with &lt;a href=&#34;http://yomereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-detail&#34;&gt;G.M.ワインバーグ,木村 泉,ジェラルド・M・ワインバーグ 共立出版 1990-12    &lt;/div&gt;&lt;div class=&#34;booklink-link2&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4320025377/meganii-22/&#34; target=&#34;_blank&#34; &gt;Amazon&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkkindle&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=%83R%83%93%83T%83%8B%83%5E%83%93%83g%82%CC%94%E9%96%A7%81%5C%8BZ%8Fp%83A%83h%83o%83C%83X%82%CC%90l%8A%D4%8Aw&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;url=node%3D2275256051&amp;tag=meganii-22&#34; target=&#34;_blank&#34; &gt;Kindle&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/13e181b2.b5761023.13e181b3.cbc7b217/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F446962%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F&#34; target=&#34;_blank&#34; &gt;楽天ブックス&lt;/a&gt;&lt;/div&gt;                             &lt;div class=&#34;shoplinktoshokan&#34;&gt;&lt;a href=&#34;http://calil.jp/book/4320025377&#34; target=&#34;_blank&#34; &gt;図書館&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;本をから得たいこと:8f924ec6c17153c3755483122100b107&#34;&gt;本をから得たいこと&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;そもそも、コンサルタントとはどういうことか？&lt;/li&gt;
+&lt;li&gt;問題解決する際に、気をつけるべきことは何か？&lt;/li&gt;
+&lt;li&gt;自分に値段を付けるにはどうするか？&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;コンサルタント業は、当人の依頼によって、当人に影響を及ぼす仕事である。&lt;/p&gt;
+
+&lt;h2 id=&#34;コンサルタント業はなぜ大変か:8f924ec6c17153c3755483122100b107&#34;&gt;コンサルタント業はなぜ大変か？&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;依頼主がどう言おうとも、問題は必ずある&lt;/li&gt;
+&lt;li&gt;一見どう見ようとも、それは常に人の問題である&lt;/li&gt;
+&lt;li&gt;「料金は時間に対して支払われるのであって、解答に対して支払われるのではない」ということを忘れないこと&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;1-問題は必ずある:8f924ec6c17153c3755483122100b107&#34;&gt;1. 問題は必ずある&lt;/h3&gt;
+
+&lt;p&gt;依頼主(マネージャー)は、自分に処理できない問題があることを公表せずに、助けて欲しいという願いがある。自分に処理できない問題があると公表することは、自分が無能であることを認めてしまうことに繋がってしまう。だから、コンサルタントを呼んだとしても、決して問題があるとは言わないことが多い。&lt;/p&gt;
+
+&lt;p&gt;問題があるから、コンサルタントは呼ばれているのだから、依頼主がどう言おうとも、「問題は必ずある」のだ。&lt;/p&gt;
+
+&lt;p&gt;依頼主が、「問題ではない」と思い込みたいがために、10%よりも多くの改善を約束してはいけない。それ以上、改善することは「問題があった」と周りに知らしめてしまうからである。10%未満の改善であれば人は、「問題なし」の範疇に押し込んでしまい、依頼主としては「問題ではない」と公言している真の問題が解決してハッピーである。&lt;/p&gt;
+
+&lt;p&gt;もしも、10%以上の改善をしてしまった場合は、依頼主の手柄にするなど、決して気づかれないようにしなければならない。コンサルタントが10%以上の改善を行った場合、それは「問題があった」と認めざるを得なくなってしまい、依頼主の都合を無視することに繋がってしまう。&lt;/p&gt;
+
+&lt;p&gt;よって、コンサルタントは、誰の手柄かに頓着してはいけない。&lt;/p&gt;
+
+&lt;h3 id=&#34;2-人の問題:8f924ec6c17153c3755483122100b107&#34;&gt;2.人の問題&lt;/h3&gt;
+
+&lt;p&gt;人は、「技術的問題」とレッテルを張って、人為的なミスを隠そうとする。しかし、原因を辿って行くと、結局はマネージャー層が何かをしてしまったり、しなかったりすることにたどり着いたりする。結局問題とは、人の問題なのである。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;依頼主が何をしていようとも、何かそれとは違うことを薦めなさい。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;人の問題は、少なくとも、想像力、見通しの欠如から生じることは間違いない。&lt;/p&gt;
+
+&lt;p&gt;問題にあまりにも近い人は、最初にやってうまくいかなかったことをいつまでも繰り返したがる。そもそも、うまくいっていたらコンサルタントなんて呼ばれないため、依頼主がやっていることとは、異なることをやるべきである。&lt;/p&gt;
+
+&lt;h3 id=&#34;3-料金は時間に対して支払われる:8f924ec6c17153c3755483122100b107&#34;&gt;3. 料金は時間に対して支払われる&lt;/h3&gt;
+
+&lt;p&gt;マネージャー vs コンサルタントの構図は常にある。問題の解答に対してお金を貰うことは、「問題がある」ということを前提として、「コンサルタント」が問題を解いたという状況にならなければならない。&lt;/p&gt;
+
+&lt;p&gt;しかし、「1.問題は必ずある」でも述べられていたように、依頼主(マネージャー)は問題があると認めなくはないという背景がある。問題の解答に対してお金を貰うことは、ここに矛盾が生じてしまい、うまくいかなくなってしまう。&lt;/p&gt;
+
+&lt;p&gt;よって、依頼主が問題を解いたことにして、コンサルタントは時間に対してお金をもらうのがうまくいくのである。&lt;/p&gt;
+
+&lt;p&gt;コンサルタントとは、どこからともなく、ピンチに駆けつけ解決し、そして名乗らずにすっと姿を消していくサムライのようになるべきであって、水戸黄門のように毎度毎度、印籠を見せつけてはいけないのだ。&lt;/p&gt;
+
+&lt;h2 id=&#34;ラズベリージャムの法則-広げれば広げるほど薄くなる:8f924ec6c17153c3755483122100b107&#34;&gt;ラズベリージャムの法則「広げれば広げるほど薄くなる」&lt;/h2&gt;
+
+&lt;p&gt;皿を洗うという仕事を例に考えた場合に、&lt;/p&gt;
+
+&lt;p&gt;自分で皿を洗う場合は、直接作業を行い、綺麗になったことを実感でき、出来栄えに対して満足感を得ることができる。
+皿洗いコンサルタントの場合、直接作業を行うことはなく、実際に皿洗いを行う人に対して、アドバイスを行う。自分一人が作業する時間に対して、たくさんの量の皿を洗うことが出来る。&lt;/p&gt;
+
+&lt;p&gt;直接的満足度と、間接的影響は、以下のとおり。&lt;/p&gt;
+
+&lt;p&gt;直接的満足度　皿洗い &amp;gt; 皿洗いコンサルタント&lt;br /&gt;
+間接的影響　　皿洗い &amp;lt; 皿洗いコンサルタント&lt;br /&gt;
+　　&lt;/p&gt;
+
+&lt;p&gt;ジャムのように広げれば広げるほど、自分が影響を及ぼすことができる面積は大きくなっていくが、それを行うことによる直接的満足度は、どんどん薄くなっていく。&lt;/p&gt;
+
+&lt;p&gt;なんとなく深いなと感じた。自分で、作業をする分には、満足感、達成感を得ることができるが、広げれば広げるほど、自分で作業をすることがなくなるため、作業から得られる満足感、達成感を感じることができなくなる。&lt;/p&gt;
+
+&lt;p&gt;このような感覚は、普遍的なものなんだなとなんとなく納得した。&lt;/p&gt;
+
+&lt;h2 id=&#34;その他印象に残った言葉:8f924ec6c17153c3755483122100b107&#34;&gt;その他印象に残った言葉&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;たいていのとき、世界のたいていの部分では、人がどれほどがんばろうとも意味のあることはなにも起こらない。&lt;/li&gt;
+&lt;li&gt;第1番の問題を取り除くと、第2番が昇進する。&lt;/li&gt;
+&lt;li&gt;失敗を容認出来ない人は、コンサルタントとして成功しない。&lt;/li&gt;
+&lt;li&gt;問題が解ける人は、いい暮らしができる。だが、必要に応じて問題を無視できるひとこそ最高の暮らしができる。&lt;/li&gt;
+&lt;li&gt;逆説敵だが、他人を助けようとすることは、まず自分を、しかも依頼主以上に助けることになる。&lt;/li&gt;
+&lt;li&gt;自分の手助けをすることは、他人の手助けをすることよりももっと難しい。誰かの問題を解決する前に、自分のごたごたを整理すること。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;booklink-box&#34;&gt;&lt;div class=&#34;booklink-image&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4320025377/meganii-22/&#34; target=&#34;_blank&#34; &gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/418S5FJ6RHL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklink-info&#34;&gt;&lt;div class=&#34;booklink-name&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4320025377/meganii-22/&#34; target=&#34;_blank&#34; &gt;コンサルタントの秘密―技術アドバイスの人間学&lt;/a&gt;&lt;div class=&#34;booklink-powered-date&#34;&gt;posted with &lt;a href=&#34;http://yomereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-detail&#34;&gt;G.M.ワインバーグ,木村 泉,ジェラルド・M・ワインバーグ 共立出版 1990-12    &lt;/div&gt;&lt;div class=&#34;booklink-link2&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4320025377/meganii-22/&#34; target=&#34;_blank&#34; &gt;Amazon&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkkindle&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=%83R%83%93%83T%83%8B%83%5E%83%93%83g%82%CC%94%E9%96%A7%81%5C%8BZ%8Fp%83A%83h%83o%83C%83X%82%CC%90l%8A%D4%8Aw&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;url=node%3D2275256051&amp;tag=meganii-22&#34; target=&#34;_blank&#34; &gt;Kindle&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/13e181b2.b5761023.13e181b3.cbc7b217/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F446962%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F&#34; target=&#34;_blank&#34; &gt;楽天ブックス&lt;/a&gt;&lt;/div&gt;                             &lt;div class=&#34;shoplinktoshokan&#34;&gt;&lt;a href=&#34;http://calil.jp/book/4320025377&#34; target=&#34;_blank&#34; &gt;図書館&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>マーケティング22の法則を図解してみた</title>
+      <link>https://meganii.com/blog/2015/08/29/marketing-22-raws/</link>
+      <pubDate>Sat, 29 Aug 2015 17:13:12 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2015/08/29/marketing-22-raws/</guid>
+      <description>
+
+&lt;p&gt;22の法則もあって、読んでても繋がりが頭にはいってこなかったので、1枚の図にまとめた。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/20737197559&#34; title=&#34;マーケティング22の法則by meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm6.staticflickr.com/5631/20737197559_f22008a21c_z.jpg&#34; alt=&#34;マーケティング22の法則&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;マーケティングとは-商品をめぐる戦いではなく-知覚をめぐる戦いである-知覚の法則-心の法則:da229b6a56fb0f83b78e15506b0317f7&#34;&gt;「マーケティングとは、商品をめぐる戦いではなく、知覚をめぐる戦いである」。知覚の法則、心の法則&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/20845997280&#34; title=&#34;The Law of Perceptionby meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm1.staticflickr.com/771/20845997280_815d51966a_z.jpg&#34; alt=&#34;The Law of Perception&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;マーケティング22の法則の核になっているのは、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1.知覚の法則&lt;/li&gt;
+&lt;li&gt;3.心の法則&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;であると感じたため、左下を中心として描いた。&lt;/p&gt;
+
+&lt;p&gt;この知覚と心の法則は、本書で語られている「マーケティングとは、商品をめぐる戦いではなく、知覚をめぐる戦いである」の言葉に集約される。&lt;/p&gt;
+
+&lt;p&gt;マーケティングとは、良い商品を売るのがよいのではなく、いかに相手の知覚・心に入り込むかが大事だということ。ここでいう知覚とは、どういったものか？&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;知覚とは:da229b6a56fb0f83b78e15506b0317f7&#34;&gt;知覚とは&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;マーケティング担当者は、事実を把握することに没頭しているが、マーケティングの世界には、「客観的な現実、事実、ベストな商品」は存在しない。
+あるのは、顧客や、見込み客の心にある知覚だけである。知覚こそ、マーケティングの世界における現実である。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;知覚とは、自分たちのモノの見方、思い込み、価値観、メンタル・モデル、バイアス、色眼鏡、・・・などだと捉えた。人は、現実をありのままに捉えることはできなくて、どうしてもこれらの知覚を通じてしか、世界を捉えることが出来ない。&lt;/p&gt;
+
+&lt;p&gt;いくら、周りがこの商品がよいと薦めたとしても、買う人の頭の中の世界では違う商品が占めているとしたら、その商品しかきっと見えない。それぞれの頭の世界が、それぞれの人にとっては絶対的な判断基準である。&lt;/p&gt;
+
+&lt;p&gt;よって、マーケティングとは、これらの知覚にどのような影響をあたえるか、どのように作用するのか、どのように操作するかに尽きる。&lt;/p&gt;
+
+&lt;p&gt;どのように作用するか、どう影響するか、どのように操作するのかを法則としてまとめたのが後の20法則だと受け取った。&lt;/p&gt;
+
+&lt;h2 id=&#34;どうやって顧客の心に入り込むか:da229b6a56fb0f83b78e15506b0317f7&#34;&gt;どうやって顧客の心に入り込むか？&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/21007920396&#34; title=&#34;マーケティングby meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm1.staticflickr.com/748/21007920396_5b46738766_z.jpg&#34; alt=&#34;マーケティング&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;知覚に作用するのが、大事だとわかったことで、どのように顧客の心に入り込むかという観点で、以下を分類した。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1.一番手の法則&lt;/li&gt;
+&lt;li&gt;2.カテゴリーの法則&lt;/li&gt;
+&lt;li&gt;16.一撃の法則&lt;/li&gt;
+&lt;li&gt;5.集中の法則&lt;/li&gt;
+&lt;li&gt;13.犠牲の法則&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;マーケティングアンチパターン:da229b6a56fb0f83b78e15506b0317f7&#34;&gt;マーケティングアンチパターン&lt;/h2&gt;
+
+&lt;p&gt;次に、マーケティングのアンチパターンとして以下を分類した。企業がやってしまいがちなアンチパターンとして語られている。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;12.製品ライン拡張の法則&lt;/li&gt;
+&lt;li&gt;13.独占の法則&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;時間経過と共に:da229b6a56fb0f83b78e15506b0317f7&#34;&gt;時間経過と共に&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/20846309348&#34; title=&#34;マーケティング 2by meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm1.staticflickr.com/578/20846309348_4a5a36c6e9_z.jpg&#34; alt=&#34;マーケティング 2&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;時間経過という観点で分類した。
+カテゴリはどんどん細かくなっていき、それら1つのカテゴリの中は、二極化が進んでいくというもの。でも、最終的には、予測不能なので、上手くトレンドを読むしかないとのこと。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;8.二極分化の法則&lt;/li&gt;
+&lt;li&gt;10.分割の法則&lt;/li&gt;
+&lt;li&gt;22.遠近関係の法則&lt;/li&gt;
+&lt;li&gt;21.成長促進の法則&lt;/li&gt;
+&lt;li&gt;17.予測不能の法則&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;分析-対応方法:da229b6a56fb0f83b78e15506b0317f7&#34;&gt;分析・対応方法&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/20846323328&#34; title=&#34;マーケティング3by meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm6.staticflickr.com/5821/20846323328_d17f4c0c89_z.jpg&#34; alt=&#34;マーケティング3&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;では、今自分の場所はどこなのか？どこへ向かえばよいのか？どう対応すればいいか？という「分析・対応方法」という観点で以下のとおり分類した。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;7.梯子(はしご)の法則&lt;/li&gt;
+&lt;li&gt;9.対立の法則&lt;/li&gt;
+&lt;li&gt;14.属性の法則&lt;/li&gt;
+&lt;li&gt;15.正直の法則&lt;/li&gt;
+&lt;li&gt;18.成功の法則&lt;/li&gt;
+&lt;li&gt;19.失敗の法則&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;booklink-box&#34;&gt;&lt;div class=&#34;booklink-image&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4884970233/meganii-22/&#34; target=&#34;_blank&#34; &gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/41ZZ608RNAL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklink-info&#34;&gt;&lt;div class=&#34;booklink-name&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4884970233/meganii-22/&#34; target=&#34;_blank&#34; &gt;売れるもマーケ 当たるもマーケ―マーケティング22の法則&lt;/a&gt;&lt;div class=&#34;booklink-powered-date&#34;&gt;posted with &lt;a href=&#34;http://yomereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-detail&#34;&gt;アル ライズ,ジャック トラウト 東急エージェンシー出版部 1994-01    &lt;/div&gt;&lt;div class=&#34;booklink-link2&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4884970233/meganii-22/&#34; target=&#34;_blank&#34; &gt;Amazon&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkkindle&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=%94%84%82%EA%82%E9%82%E0%83%7D%81%5B%83P%20%93%96%82%BD%82%E9%82%E0%83%7D%81%5B%83P%81%5C%83%7D%81%5B%83P%83e%83B%83%93%83O22%82%CC%96%40%91%A5&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;url=node%3D2275256051&amp;tag=meganii-22&#34; target=&#34;_blank&#34; &gt;Kindle&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/13e181b2.b5761023.13e181b3.cbc7b217/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F634784%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F&#34; target=&#34;_blank&#34; &gt;楽天ブックス&lt;/a&gt;&lt;/div&gt;                              &lt;div class=&#34;shoplinktoshokan&#34;&gt;&lt;a href=&#34;http://calil.jp/book/4884970233&#34; target=&#34;_blank&#34; &gt;図書館&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>統計学が最強の学問である</title>
+      <link>https://meganii.com/blog/2014/12/09/statistics-is-literacy-for-the-next-generation/</link>
+      <pubDate>Tue, 09 Dec 2014 00:12:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2014/12/09/statistics-is-literacy-for-the-next-generation/</guid>
+      <description>
+
+&lt;div class=&#34;kaerebalink-box&#34; style=&#34;text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-image&#34; style=&#34;float:left;margin:0 15px 10px 0;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4478022216/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/41-4aLbrvpL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-info&#34; style=&#34;line-height:120%;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4478022216/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;統計学が最強の学問である&lt;/a&gt;&lt;div class=&#34;kaerebalink-powered-date&#34; style=&#34;font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://kaereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;カエレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-detail&#34; style=&#34;margin-bottom:5px;&#34;&gt;西内 啓 ダイヤモンド社 2013-01-25    &lt;/div&gt;&lt;div class=&#34;kaerebalink-link1&#34; style=&#34;margin-top:10px;&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=%93%9D%8Cv%8Aw&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;tag=meganii-22&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;アマゾン&#34; &gt;Amazon&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E7%25B5%25B1%25E8%25A8%2588%25E5%25AD%25A6%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;楽天市場&#34; &gt;楽天市場&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;この本から何を得たいか:eeec5c405731db29dc9576dcfb08b53e&#34;&gt;この本から何を得たいか？&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;統計学の用語(キーワード)の理解&lt;/li&gt;
+&lt;li&gt;データをどう解釈するか&lt;/li&gt;
+&lt;li&gt;ビックデータという言葉に惑わされないため&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;統計学が最強の武器になるワケ ⇛　どんな分野の議論においても、データを集めて分析することで最速で最善の答えを出すことができる。&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;データをビジネスに使うための-3つの問い:eeec5c405731db29dc9576dcfb08b53e&#34;&gt;データをビジネスに使うための「3つの問い」&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;何かの要因が変化すれば利益は向上するのか？&lt;/li&gt;
+&lt;li&gt;そうした変化を起こすような行動は実際に可能か？&lt;/li&gt;
+&lt;li&gt;変化を起こす行動が可能だとしてそのコストは利益を上回るのか？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;抑えておきたい用語:eeec5c405731db29dc9576dcfb08b53e&#34;&gt;抑えておきたい用語&lt;/h2&gt;
+
+&lt;h3 id=&#34;a-bテスト:eeec5c405731db29dc9576dcfb08b53e&#34;&gt;A/Bテスト&lt;/h3&gt;
+
+&lt;p&gt;「A/Bテスト」とは、デザインにせよ機能にせよ、AパターンとBパターンを両方試してみて比較する、という意味である。&lt;/p&gt;
+
+&lt;p&gt;多くの場合はユーザのアクセスに対してランダムにAパターンとBパターンのサイトを開き、一定期間収集されたアクセスログをもとにAパターンとBパターンの比較を行うことになる(ランダムに表示を分けることが難しい場合、1週間などの決まった期間ごとに表示を変える場合もある)&lt;/p&gt;
+
+&lt;p&gt;統計学においては、ランダム化比較実験と呼ぶ。
+AパターンとBパターンの条件の変え方にランダムさが含まれていない場合は準実験と呼ぶ。&lt;/p&gt;
+
+&lt;h3 id=&#34;カイ二乗検定:eeec5c405731db29dc9576dcfb08b53e&#34;&gt;カイ二乗検定&lt;/h3&gt;
+
+&lt;p&gt;クロス集計表について「意味のある偏り」なのか、それとも「誤差でもこれぐらいの差は生じるか」といったことを確かめる解析手法&lt;/p&gt;
+
+&lt;h3 id=&#34;p値:eeec5c405731db29dc9576dcfb08b53e&#34;&gt;p値&lt;/h3&gt;
+
+&lt;p&gt;「実際には何の差もないのに誤差や偶然によってたまたまデータのような差(正確にはそれ以上に極端な差を含む)が生じる確率」のこと。&lt;/p&gt;
+
+&lt;p&gt;このp値が小さければ(慣例的には5%以下)、結果が偶然得られたとは考えにくいと判断できる。&lt;/p&gt;
+
+&lt;h2 id=&#34;フェアではない-ものをどうあつかうか:eeec5c405731db29dc9576dcfb08b53e&#34;&gt;「フェアではない」ものをどうあつかうか&lt;/h2&gt;
+
+&lt;p&gt;「フェアではない」とはどういったものかというと、比較する集団が同じ条件ではないということ。&lt;/p&gt;
+
+&lt;p&gt;本書の例では、暴力的なゲームと少年犯罪の関連性をみたいのであれば、「ほかの条件は全く同じだが、暴力的なゲームのプレーの有無だけが異なっている」という集団同士を比べれば理想的な比較になる。しかし、現実問題として、「ほかの条件」たとえば、親の性格や考え方、子供のもともとの心理的傾向なども異なるかもしれないため難しい。&lt;/p&gt;
+
+&lt;p&gt;統計学では、この問題に対して以下２つの解決方法がある。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;「関連しそうな条件」を考えうる限り継続的に追跡調査し、統計学的な手法を用いて、少なくとも計測された条件については「フェアな比較」を行う&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;解析ではなくそもそものデータの取り方の時点で「フェアに条件を揃える」&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;ランダム化比較実験:eeec5c405731db29dc9576dcfb08b53e&#34;&gt;ランダム化比較実験&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;人間の制御しうる何物についても、その因果関係を分析できる&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ランダム化してしまえば、比較したい両グループの諸条件が平均的にはほぼ揃う。そして、揃っていない最後の条件は実験で制御しようとした条件だけであり、その状態で両グループに「誤差とは考えにくい差」が生じたのであれば、それは因果関係があると実証できることになる。&lt;/p&gt;
+
+&lt;p&gt;「諸条件をランダム化してしまえば、平均的に比較したい両グループ間で同じになる」&lt;/p&gt;
+
+&lt;p&gt;⇛　顧客や従業員の年齢や性別、心理的特性といったものが仮に結果を歪める可能性があったとしても、「ある程度の数でランダム化してしまえば問題にならない」という性質を示す。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;ランダム化&lt;br /&gt;
+ランダム化比較実験で得られた仕事のアイデアに新規性があるならば、論文になる。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;ある程度の数ってどのぐらい取ればいいのだろうか？&lt;/p&gt;
+
+&lt;h2 id=&#34;ランダム化の限界:eeec5c405731db29dc9576dcfb08b53e&#34;&gt;ランダム化の限界&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;現実の壁&lt;/li&gt;
+&lt;li&gt;倫理の壁&lt;/li&gt;
+&lt;li&gt;感情の壁&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;ケースコントロール研究&lt;/p&gt;
+
+&lt;h2 id=&#34;回帰分析:eeec5c405731db29dc9576dcfb08b53e&#34;&gt;回帰分析&lt;/h2&gt;
+
+&lt;p&gt;回帰分析とは、データ間の関係性を記述する、あるいは一方のデータから他方のデータを予測する数式を推定する考え方。&lt;/p&gt;
+
+&lt;p&gt;こうした数式で記述される直線を&lt;strong&gt;回帰直線&lt;/strong&gt;と呼ぶ&lt;/p&gt;
+
+&lt;h3 id=&#34;平凡への回帰-平均値への回帰:eeec5c405731db29dc9576dcfb08b53e&#34;&gt;平凡への回帰、平均値への回帰&lt;/h3&gt;
+
+&lt;p&gt;実際のデータは理論上の推測よりも「平均値に近づく」という意味。&lt;/p&gt;
+
+&lt;p&gt;「無制限にデータを得ればわかるはずの真の知りたい値」を真値と呼び、たまたま得られたデータから計算された統計量がどの程度の誤差で真値を推定しているかを数学的に整理することで、無限にデータを集めることなく適切な判断が下せる&lt;/p&gt;
+
+&lt;p&gt;現実のデータから得られた回帰係数などの統計量はあくまでこの真値に対する妥当な推定値であり、それな真値に対してどの程度の誤差を持っているかを考えれば、間違った判断を犯すリスクは減らすことができる。&lt;/p&gt;
+
+&lt;h2 id=&#34;重回帰分析:eeec5c405731db29dc9576dcfb08b53e&#34;&gt;重回帰分析&lt;/h2&gt;
+
+&lt;p&gt;重回帰分析は、説明変数(予測したい結果に影響する要因)が複数ある状況へ拡張された回帰分析&lt;/p&gt;
+
+&lt;p&gt;⇛　「フェアな比較」を行うために重要な手法&lt;/p&gt;
+
+&lt;h2 id=&#34;ロジスティック回帰:eeec5c405731db29dc9576dcfb08b53e&#34;&gt;ロジスティック回帰&lt;/h2&gt;
+
+&lt;p&gt;ロジスティック回帰とは、もともと0か1という二値の結果変数を変換し、連続的な変数として扱うことで重回帰分析を行えるようにしたもの&lt;/p&gt;
+
+&lt;h2 id=&#34;一般化線形モデル:eeec5c405731db29dc9576dcfb08b53e&#34;&gt;一般化線形モデル&lt;/h2&gt;
+
+&lt;p&gt;表の使い方&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/16016512615&#34; title=&#34;tableby meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm8.staticflickr.com/7562/16016512615_0f8a99524c_z.jpg&#34; alt=&#34;table&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;男女別で顧客の一人当たりの売り上げを知りたい:eeec5c405731db29dc9576dcfb08b53e&#34;&gt;男女別で顧客の一人当たりの売り上げを知りたい&lt;/h3&gt;
+
+&lt;p&gt;顧客の一人当たりの売り上げ =&amp;gt; 結果変数 連続値
+男女別の違い =&amp;gt; 説明変数 2グループ間の比較&lt;/p&gt;
+
+&lt;p&gt;2グループそれぞれの平均値を記述して、t検定によって得られた「この平均値の差は誤差の範囲と言えるかどうか」というp値や信頼区間を示す&lt;/p&gt;
+
+&lt;h3 id=&#34;来客回数が多い人ほど売り上げも高まるか:eeec5c405731db29dc9576dcfb08b53e&#34;&gt;来客回数が多い人ほど売り上げも高まるか？&lt;/h3&gt;
+
+&lt;p&gt;売上金額 =&amp;gt; 結果変数 連続値
+来客回数 =&amp;gt; 説明変数 連続値の多寡で比較&lt;/p&gt;
+
+&lt;p&gt;回帰分析を行い、回帰係数の推定値や信頼区間、p値を示す&lt;/p&gt;
+
+&lt;h3 id=&#34;連続値でもなく二値でもない-何カテゴリーかに分類される-結果変数の扱い方:eeec5c405731db29dc9576dcfb08b53e&#34;&gt;連続値でもなく二値でもない、「何カテゴリーかに分類される」結果変数の扱い方&lt;/h3&gt;
+
+&lt;p&gt;例えば、1.まったくない、2.あまりない、3.たまにある、4.よくあるというアンケート項目の場合、&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;1〜2、3〜4と二分して二値として扱う&lt;/li&gt;
+&lt;li&gt;「よくある」と「それ以外」&lt;/li&gt;
+&lt;li&gt;1〜4の連続値として扱ってしまう&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&#34;kaerebalink-box&#34; style=&#34;text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-image&#34; style=&#34;float:left;margin:0 15px 10px 0;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4478022216/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/41-4aLbrvpL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-info&#34; style=&#34;line-height:120%;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4478022216/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;統計学が最強の学問である&lt;/a&gt;&lt;div class=&#34;kaerebalink-powered-date&#34; style=&#34;font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://kaereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;カエレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-detail&#34; style=&#34;margin-bottom:5px;&#34;&gt;西内 啓 ダイヤモンド社 2013-01-25    &lt;/div&gt;&lt;div class=&#34;kaerebalink-link1&#34; style=&#34;margin-top:10px;&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=%93%9D%8Cv%8Aw&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;tag=meganii-22&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;アマゾン&#34; &gt;Amazon&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E7%25B5%25B1%25E8%25A8%2588%25E5%25AD%25A6%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;楽天市場&#34; &gt;楽天市場&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&#34;kaerebalink-box&#34; style=&#34;text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-image&#34; style=&#34;float:left;margin:0 15px 10px 0;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4478820090/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/41OfaN1i6qL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-info&#34; style=&#34;line-height:120%;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4478820090/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;完全独習 統計学入門&lt;/a&gt;&lt;div class=&#34;kaerebalink-powered-date&#34; style=&#34;font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://kaereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;カエレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-detail&#34; style=&#34;margin-bottom:5px;&#34;&gt;小島 寛之 ダイヤモンド社 2006-09-29    &lt;/div&gt;&lt;div class=&#34;kaerebalink-link1&#34; style=&#34;margin-top:10px;&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=%93%9D%8Cv%8Aw&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;tag=meganii-22&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;アマゾン&#34; &gt;Amazon&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E7%25B5%25B1%25E8%25A8%2588%25E5%25AD%25A6%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;楽天市場&#34; &gt;楽天市場&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>現場でプロが培った Google Analyticsの使い方</title>
+      <link>https://meganii.com/blog/2014/12/03/google-analytics/</link>
+      <pubDate>Wed, 03 Dec 2014 07:21:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2014/12/03/google-analytics/</guid>
+      <description>
+
+&lt;p&gt;Google Analyticsのレポートをたまにみるのだが、どこに着目すればいいのか？どんな指標を比べればいいのかわからなかったため、一度読んでみる。&lt;/p&gt;
+
+&lt;div class=&#34;kaerebalink-box&#34; style=&#34;text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-image&#34; style=&#34;float:left;margin:0 15px 10px 0;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4048684124/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/51gLaE5xkBL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-info&#34; style=&#34;line-height:120%;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4048684124/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;現場でプロが培った Google Analyticsの使い方 (WEB PROFESSIONAL)&lt;/a&gt;&lt;div class=&#34;kaerebalink-powered-date&#34; style=&#34;font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://kaereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;カエレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-detail&#34; style=&#34;margin-bottom:5px;&#34;&gt;中野 克平 アスキー・メディアワークス 2010-02-12    &lt;/div&gt;&lt;div class=&#34;kaerebalink-link1&#34; style=&#34;margin-top:10px;&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=Google%20Analytics&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;tag=meganii-22&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;アマゾン&#34; &gt;Amazon&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FGoogle%2520Analytics%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;楽天市場&#34; &gt;楽天市場&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;google-analyticsの罠:3b800ce407899090898a18af1d7b1a0f&#34;&gt;Google Analyticsの罠&lt;/h2&gt;
+
+&lt;p&gt;デフォルトのビューが31日間の単一指標になっている
+=&amp;gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ページビューが○○PV&lt;/li&gt;
+&lt;li&gt;直帰率が○○%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;といった個々の指標にしか目がいかなくなる。&lt;/p&gt;
+
+&lt;h2 id=&#34;アクセス解析の基本:3b800ce407899090898a18af1d7b1a0f&#34;&gt;アクセス解析の基本&lt;/h2&gt;
+
+&lt;p&gt;アクセス解析の基本は、 &lt;strong&gt;「同じ長さの期間の比較」&lt;/strong&gt; である。&lt;/p&gt;
+
+&lt;p&gt;最近の31日間とその前の31日間、最近の31日間と前年の同じ時期など、一定の期間を比較して、傾向の変化に気づけるようにする。&lt;/p&gt;
+
+&lt;h2 id=&#34;webトラフィック:3b800ce407899090898a18af1d7b1a0f&#34;&gt;Webトラフィック&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ノーリファラートラフィック ブックマーク、メルマガ、直接URL指定&lt;/li&gt;
+&lt;li&gt;参照トラフィック ブログ、掲示板のリンク経由&lt;/li&gt;
+&lt;li&gt;検索エンジントラフィック Google、Yahoo!などの検索エンジン経由&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ノーリファラーってのが、何者かがようやく分かった。
+本の中では常連さん&lt;/p&gt;
+
+&lt;h2 id=&#34;感想:3b800ce407899090898a18af1d7b1a0f&#34;&gt;感想&lt;/h2&gt;
+
+&lt;p&gt;Google Analyticsのデータを出力して、Excelベースで必要なデータを抽出しているのは、面白かった。Google Analyticsを使って、データから考える力を身につけたい。&lt;/p&gt;
+
+&lt;h3 id=&#34;切り口:3b800ce407899090898a18af1d7b1a0f&#34;&gt;切り口&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;どんなユーザがみているか&lt;/li&gt;
+&lt;li&gt;どんなキーワードで検索&lt;/li&gt;
+&lt;li&gt;MacAppを買ってくれた人はどんな人か&lt;/li&gt;
+&lt;li&gt;商品を買ってくれた人がどういう動きをしているか&lt;/li&gt;
+&lt;li&gt;関連記事で読まれているのはどんな記事か&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;参考:3b800ce407899090898a18af1d7b1a0f&#34;&gt;参考&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://bita.jp/blog/ga_dim&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://bita.jp/blog/ga_dim&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://bita.jp/blog/ga_dim&#34; target=&#34;_blank&#34;&gt;【完全版】Google Analytics のディメンション＆指標チートシート 2014 | ビットエーブログ - 株式会社BITA&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://bita.jp/blog/ga_dim&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://bita.jp/blog/ga_dim&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>未来を形作る5つの要因と32の要素</title>
+      <link>https://meganii.com/blog/2014/11/03/five-factor-work-shift/</link>
+      <pubDate>Mon, 03 Nov 2014 20:15:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2014/11/03/five-factor-work-shift/</guid>
+      <description>
+
+&lt;div class=&#34;kaerebalink-box&#34; style=&#34;text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-image&#34; style=&#34;float:left;margin:0 15px 10px 0;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B009DFJE9Q/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/41AvcbzqzDL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-info&#34; style=&#34;line-height:120%;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B009DFJE9Q/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;ワーク・シフト　─孤独と貧困から自由になる働き方の未来図&amp;lt;2025&amp;gt;&lt;/a&gt;&lt;div class=&#34;kaerebalink-powered-date&#34; style=&#34;font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://kaereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;カエレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-detail&#34; style=&#34;margin-bottom:5px;&#34;&gt;リンダ グラットン プレジデント社 2012-09-28    &lt;/div&gt;&lt;div class=&#34;kaerebalink-link1&#34; style=&#34;margin-top:10px;&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=work%20shift&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;tag=meganii-22&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;アマゾン&#34; &gt;Amazonで購入&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2Fwork%2520shift%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;楽天市場&#34; &gt;楽天市場で購入&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;未来を形づくる5ちの要因-32の要素:ec518668351cdd5bba4c04f23f6de834&#34;&gt;未来を形づくる5ちの要因 32の要素&lt;/h2&gt;
+
+&lt;h3 id=&#34;要因1-テクノロジーの進化:ec518668351cdd5bba4c04f23f6de834&#34;&gt;要因1 テクノロジーの進化&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;テクノロジーが飛躍的に発展する&lt;/li&gt;
+&lt;li&gt;世界の50億人がインターネットで結ばれる&lt;/li&gt;
+&lt;li&gt;地球上のいたるところで「クラウド」を利用できるようになる&lt;/li&gt;
+&lt;li&gt;生産性が向上し続ける&lt;/li&gt;
+&lt;li&gt;「ソーシャルな」参加が活発になる&lt;/li&gt;
+&lt;li&gt;知識のデジタル化が進む&lt;/li&gt;
+&lt;li&gt;メガ企業とミニ起業家が台頭する&lt;/li&gt;
+&lt;li&gt;バーチャル空間で働き、「アバター」を利用することが当たり前になる&lt;/li&gt;
+&lt;li&gt;「人工知能アシスタント」が普及する&lt;/li&gt;
+&lt;li&gt;テクノロジーが人間の労働者に取って代わる&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;要因2-グローバル化の進展:ec518668351cdd5bba4c04f23f6de834&#34;&gt;要因2 グローバル化の進展&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;24時間・週7日休まないグローバルな世界が出現した&lt;/li&gt;
+&lt;li&gt;新興国が台頭した&lt;/li&gt;
+&lt;li&gt;中国とインドの経済が目覚ましく成長した&lt;/li&gt;
+&lt;li&gt;倹約型イノベーションの道が開けた&lt;/li&gt;
+&lt;li&gt;新たな人材輩出大国が登場しつつある&lt;/li&gt;
+&lt;li&gt;世界中で都市化が進行する&lt;/li&gt;
+&lt;li&gt;バブルの形成と崩壊が繰り返される&lt;/li&gt;
+&lt;li&gt;世界のさまざまな地域に貧困層が出現する&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;要因3-人口構成の変化と長寿化:ec518668351cdd5bba4c04f23f6de834&#34;&gt;要因3 人口構成の変化と長寿化&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Y世代の影響力が拡大する&lt;/li&gt;
+&lt;li&gt;寿命が長くなる&lt;/li&gt;
+&lt;li&gt;ベビーブーム世代の一部が貧しい老後を迎える&lt;/li&gt;
+&lt;li&gt;国境を超えた移住が活発になる&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;要因4-社会の変化:ec518668351cdd5bba4c04f23f6de834&#34;&gt;要因4 社会の変化&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;家族のあり方が変わる&lt;/li&gt;
+&lt;li&gt;自分を見つめなおす人が増える&lt;/li&gt;
+&lt;li&gt;女性の力が強くなる&lt;/li&gt;
+&lt;li&gt;バランス重視の生き方を選ぶ男性が増える&lt;/li&gt;
+&lt;li&gt;大企業や政府に対する不信感が強まる&lt;/li&gt;
+&lt;li&gt;幸福感が弱まる&lt;/li&gt;
+&lt;li&gt;余暇時間が増える&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;要因5-エネルギー-環境問題の深刻化:ec518668351cdd5bba4c04f23f6de834&#34;&gt;要因5 エネルギー・環境問題の深刻化&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;エネルギー価格が上昇する&lt;/li&gt;
+&lt;li&gt;環境上の惨事が原因で住居を追われる人が現れる&lt;/li&gt;
+&lt;li&gt;持続可能性を重んじる文化が形成されはじめる&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;自分の未来予想図を描く:ec518668351cdd5bba4c04f23f6de834&#34;&gt;自分の未来予想図を描く&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;不要な要素を捨てる&lt;/li&gt;
+&lt;li&gt;重要な要素に肉付けをする&lt;/li&gt;
+&lt;li&gt;足りない要素を探す&lt;/li&gt;
+&lt;li&gt;集めた要素を分類し直す&lt;/li&gt;
+&lt;li&gt;1つの図柄を見出す&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&#34;kaerebalink-box&#34; style=&#34;text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-image&#34; style=&#34;float:left;margin:0 15px 10px 0;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B009DFJE9Q/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/41AvcbzqzDL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-info&#34; style=&#34;line-height:120%;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B009DFJE9Q/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;ワーク・シフト　─孤独と貧困から自由になる働き方の未来図&amp;lt;2025&amp;gt;&lt;/a&gt;&lt;div class=&#34;kaerebalink-powered-date&#34; style=&#34;font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://kaereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;カエレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-detail&#34; style=&#34;margin-bottom:5px;&#34;&gt;リンダ グラットン プレジデント社 2012-09-28    &lt;/div&gt;&lt;div class=&#34;kaerebalink-link1&#34; style=&#34;margin-top:10px;&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=work%20shift&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;tag=meganii-22&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;アマゾン&#34; &gt;Amazonで購入&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2Fwork%2520shift%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;楽天市場&#34; &gt;楽天市場で購入&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ゼネラリストから「連続スペシャリスト」へ</title>
+      <link>https://meganii.com/blog/2014/11/03/specialist-work-shift/</link>
+      <pubDate>Mon, 03 Nov 2014 15:25:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2014/11/03/specialist-work-shift/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;2025年、私たちはどんな風に働いているのだろうか？
+「漠然と迎える未来」には孤独で貧困な人生が待ち受け、
+「主体的に築く未来」には自由で創造的な人生がある。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;本書の扉にこのようなコトバが書いてあった。&lt;/p&gt;
+
+&lt;div class=&#34;kaerebalink-box&#34; style=&#34;text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-image&#34; style=&#34;float:left;margin:0 15px 10px 0;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B009DFJE9Q/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/41AvcbzqzDL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-info&#34; style=&#34;line-height:120%;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B009DFJE9Q/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;ワーク・シフト　─孤独と貧困から自由になる働き方の未来図&amp;lt;2025&amp;gt;&lt;/a&gt;&lt;div class=&#34;kaerebalink-powered-date&#34; style=&#34;font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://kaereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;カエレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-detail&#34; style=&#34;margin-bottom:5px;&#34;&gt;リンダ グラットン プレジデント社 2012-09-28    &lt;/div&gt;&lt;div class=&#34;kaerebalink-link1&#34; style=&#34;margin-top:10px;&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=work%20shift&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;tag=meganii-22&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;アマゾン&#34; &gt;Amazonで購入&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2Fwork%2520shift%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;楽天市場&#34; &gt;楽天市場で購入&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;未来を形づくる5ちの要因-32の要素:69b2fe4ed1b28d6feb2272de96cee4f9&#34;&gt;未来を形づくる5ちの要因 32の要素&lt;/h2&gt;
+
+&lt;h3 id=&#34;要因1-テクノロジーの進化:69b2fe4ed1b28d6feb2272de96cee4f9&#34;&gt;要因1 テクノロジーの進化&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;テクノロジーが飛躍的に発展する&lt;/li&gt;
+&lt;li&gt;世界の50億人がインターネットで結ばれる&lt;/li&gt;
+&lt;li&gt;地球上のいたるところで「クラウド」を利用できるようになる&lt;/li&gt;
+&lt;li&gt;生産性が向上し続ける&lt;/li&gt;
+&lt;li&gt;「ソーシャルな」参加が活発になる&lt;/li&gt;
+&lt;li&gt;知識のデジタル化が進む&lt;/li&gt;
+&lt;li&gt;メガ企業とミニ起業家が台頭する&lt;/li&gt;
+&lt;li&gt;バーチャル空間で働き、「アバター」を利用することが当たり前になる&lt;/li&gt;
+&lt;li&gt;「人工知能アシスタント」が普及する&lt;/li&gt;
+&lt;li&gt;テクノロジーが人間の労働者に取って代わる&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;要因2-グローバル化の進展:69b2fe4ed1b28d6feb2272de96cee4f9&#34;&gt;要因2 グローバル化の進展&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;24時間・週7日休まないグローバルな世界が出現した&lt;/li&gt;
+&lt;li&gt;新興国が台頭した&lt;/li&gt;
+&lt;li&gt;中国とインドの経済が目覚ましく成長した&lt;/li&gt;
+&lt;li&gt;倹約型イノベーションの道が開けた&lt;/li&gt;
+&lt;li&gt;新たな人材輩出大国が登場しつつある&lt;/li&gt;
+&lt;li&gt;世界中で都市化が進行する&lt;/li&gt;
+&lt;li&gt;バブルの形成と崩壊が繰り返される&lt;/li&gt;
+&lt;li&gt;世界のさまざまな地域に貧困層が出現する&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;要因3-人口構成の変化と長寿化:69b2fe4ed1b28d6feb2272de96cee4f9&#34;&gt;要因3 人口構成の変化と長寿化&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Y世代の影響力が拡大する&lt;/li&gt;
+&lt;li&gt;寿命が長くなる&lt;/li&gt;
+&lt;li&gt;ベビーブーム世代の一部が貧しい老後を迎える&lt;/li&gt;
+&lt;li&gt;国境を超えた移住が活発になる&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;要因4-社会の変化:69b2fe4ed1b28d6feb2272de96cee4f9&#34;&gt;要因4 社会の変化&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;家族のあり方が変わる&lt;/li&gt;
+&lt;li&gt;自分を見つめなおす人が増える&lt;/li&gt;
+&lt;li&gt;女性の力が強くなる&lt;/li&gt;
+&lt;li&gt;バランス重視の生き方を選ぶ男性が増える&lt;/li&gt;
+&lt;li&gt;大企業や政府に対する不信感が強まる&lt;/li&gt;
+&lt;li&gt;幸福感が弱まる&lt;/li&gt;
+&lt;li&gt;余暇時間が増える&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;要因5-エネルギー-環境問題の深刻化:69b2fe4ed1b28d6feb2272de96cee4f9&#34;&gt;要因5 エネルギー・環境問題の深刻化&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;エネルギー価格が上昇する&lt;/li&gt;
+&lt;li&gt;環境上の惨事が原因で住居を追われる人が現れる&lt;/li&gt;
+&lt;li&gt;持続可能性を重んじる文化が形成されはじめる&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;自分の未来予想図を描く:69b2fe4ed1b28d6feb2272de96cee4f9&#34;&gt;自分の未来予想図を描く&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;不要な要素を捨てる&lt;/li&gt;
+&lt;li&gt;重要な要素に肉付けをする&lt;/li&gt;
+&lt;li&gt;足りない要素を探す&lt;/li&gt;
+&lt;li&gt;集めた要素を分類し直す&lt;/li&gt;
+&lt;li&gt;1つの図柄を見出す&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;専門性の低いゼネラリストは、現状のサービスにとって変えられてしまう。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;広く浅い知識しかもっていない「なんでも屋」のライバルは、オフィスの隣に座っている同僚や、インド企業で同じ仕事をしている人たちではなく、ウィキペディアやグーグルなど浅い知識や分析結果を手軽に提供するテクノロジである。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;「主体的に築く未来」をつくるには、どうするべきであろうか？&lt;/p&gt;
+
+&lt;p&gt;自分自身の場合を考えた時、ゼネラリストなんて言葉にすればちょっとは、響きがいいかもしれないが、どんどん器用貧乏になっている気がする。自分には、専門技能って身に付いてきているのだろうか？そもそも、専門技能ってなんだろうか。&lt;/p&gt;
+
+&lt;p&gt;自分の武器を探したいのだが、何を磨いていけばよいのか？&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;未来の仕事の世界で生活できるかは、その時代に価値を生み出せる知的資本を築けるかどうかである。&lt;/p&gt;
+
+&lt;p&gt;同じ作業を何度も何度も繰り返して、技能や知識を血肉化できる&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;ある技能がほかの技能より高い価値をもつのは、どういう場合なのかをよく考える
+(未来を予測するうえで重要)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;未来の世界で具体的にどういう技能が価値を持つのかという予測を立てる
+未来を正確に言い当てることは不可能だが、働き方の未来を形づくる５つの要因に関する知識をもとに、根拠のある推測はできる&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;未来に価値をもちそうな技能を念頭に置きつつ、自分の好きなことを職業に選ぶ&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;その分野で専門技能に磨きをかける&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ある分野に習熟した後も、移行と脱皮を繰り返してほかの分野に転身する覚悟を持ち続ける&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>キャリア計画を立てよう！ How Google Works-私たちの働き方とマネジメント-</title>
+      <link>https://meganii.com/blog/2014/10/30/how-google-works/</link>
+      <pubDate>Thu, 30 Oct 2014 22:52:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2014/10/30/how-google-works/</guid>
+      <description>
+
+&lt;div class=&#34;kaerebalink-box&#34; style=&#34;text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-image&#34; style=&#34;float:left;margin:0 15px 10px 0;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00OJVMK5O/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/51lusOSU33L._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-info&#34; style=&#34;line-height:120%;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00OJVMK5O/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;How Google Works&lt;/a&gt;&lt;div class=&#34;kaerebalink-powered-date&#34; style=&#34;font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://kaereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;カエレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-detail&#34; style=&#34;margin-bottom:5px;&#34;&gt;エリック・シュミット,ジョナサン・ローゼンバーグ,アラン・イーグル,ラリー・ペイジ 日本経済新聞出版社 2014-10-17    &lt;/div&gt;&lt;div class=&#34;kaerebalink-link1&#34; style=&#34;margin-top:10px;&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=Google&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;tag=meganii-22&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;アマゾン&#34; &gt;Amazonで購入&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FGoogle%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;楽天市場&#34; &gt;楽天市場で購入&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://d.hatena.ne.jp/naoya/20141018&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://d.hatena.ne.jp/naoya/20141018&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://d.hatena.ne.jp/naoya/20141018&#34; target=&#34;_blank&#34;&gt;2014-10-18 - naoyaのはてなダイアリー&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://d.hatena.ne.jp/naoya/20141018&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://d.hatena.ne.jp/naoya/20141018&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;span style=&#34;color: #808080;font-size: 80%;&#34;&gt;この3つを読んで何も感じることがないようなら、あなたにはエンジニアにとって良いなにがしを構築する素養はないと思うし、本なんて読んでられるかというのには、その程度のことにも時間を割けないならそもそも諦め &amp;hellip;&lt;/span&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;この3つを読んで何も感じることがないようなら、あなたにはエンジニアにとって良いなにがしを構築する素養はないと思うし、本なんて読んでられるかというのには、その程度のことにも時間を割けないならそもそも諦めろとしか言えない。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;たまたまTwitterのTLで見かけたので、読んでみた。&lt;/p&gt;
+
+&lt;h2 id=&#34;この本から得たいことは:5ea54b4f2e69c8d7d111b2f1e02c8c0f&#34;&gt;この本から得たいことは？&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;働き方の指針を得る&lt;/li&gt;
+&lt;li&gt;今後の5年間をどんなものにするのか？&lt;/li&gt;
+&lt;li&gt;どんな人材になれば通用するのか？&lt;/li&gt;
+&lt;li&gt;チームの作り方&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;経営者側に向けたメッセージが多いが、逆に自分がどんなところで働きたいか？という目線で、まずはキャリアについての章に注目した。&lt;/p&gt;
+
+&lt;p&gt;{% include ga.html%}&lt;/p&gt;
+
+&lt;h2 id=&#34;キャリアはサーフィンのように:5ea54b4f2e69c8d7d111b2f1e02c8c0f&#34;&gt;キャリアはサーフィンのように&lt;/h2&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:10px;&#34;&gt;&lt;a href=&#34;https://www.flickr.com/photos/framesofmind/15536315092/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm6.staticflickr.com/5611/15536315092_4b7109f2c0_z.jpg?zz=1&#34; alt=&#34;Surfing Kommetjie&#34; /&gt;&lt;/a&gt;&lt;br /&gt;Surfing Kommetjie / FRAMES OF MIND ~ Chris Preen&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;一番大切なのは、正しい業界を選ぶことだ。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;なぜなら、長いキャリア人生のなかでは何度か転職する可能性が高いが、別の業界に移るのはとても難しいからである。&lt;/p&gt;
+
+&lt;p&gt;業界はサーフィンする場所、企業は波だ。常に最大かつ最高の波が来る場所に身を置くようにしよう。&lt;/p&gt;
+
+&lt;h2 id=&#34;キャリア計画を立てよう:5ea54b4f2e69c8d7d111b2f1e02c8c0f&#34;&gt;キャリア計画を立てよう&lt;/h2&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:10px;&#34;&gt;&lt;a href=&#34;https://www.flickr.com/photos/stevendepolo/4294686346/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm5.staticflickr.com/4038/4294686346_fa10e0e9c7_z.jpg?zz=1&#34; alt=&#34;Good Job Smiley Face Inspirational Quotes Qiqi Emma January 18, 20105&#34; /&gt;&lt;/a&gt;&lt;br /&gt;Good Job Smiley Face Inspirational Quotes Qiqi Emma January 18, 20105 / stevendepolo&lt;/span&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;1-現在ではなく5年後の自分にとって理想の仕事を考える:5ea54b4f2e69c8d7d111b2f1e02c8c0f&#34;&gt;1. 現在ではなく5年後の自分にとって理想の仕事を考える&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;どこで、何をしていたいか&lt;/li&gt;
+&lt;li&gt;いくら稼いでいたいか&lt;/li&gt;
+&lt;li&gt;仕事内容を書き出す&lt;/li&gt;
+&lt;li&gt;例えば、その仕事を転職サイトに載せるとしたら、どんな説明になるだろうか？&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2-時計の針を4-5年進めてみる:5ea54b4f2e69c8d7d111b2f1e02c8c0f&#34;&gt;2. 時計の針を4~5年進めてみる&lt;/h3&gt;
+
+&lt;p&gt;自分がその理想の仕事に就いている。&lt;br /&gt;
+その時点の経歴書は、どんな内容になっているだろうか？
+その理想の職につくために、その間あなたは何をしたのだろう。&lt;/p&gt;
+
+&lt;h3 id=&#34;3-理想の仕事を念頭に置きながら-自分の強みと弱みを評価してみる:5ea54b4f2e69c8d7d111b2f1e02c8c0f&#34;&gt;3. 理想の仕事を念頭に置きながら、自分の強みと弱みを評価してみる&lt;/h3&gt;
+
+&lt;p&gt;その仕事にたどりつくために、どんなスキルを磨く必要があるか？&lt;br /&gt;
+どうすればその仕事に就けるのか。どんなトレーニングや実務経験が必要だろうか？&lt;br /&gt;
+ここでは、他の人からのインプットが必要である。同僚、上司の意見を聞いてみる。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;「目的地がどこかわからないときは、注意したほうがいい。おそらくそこに辿りつけないから」&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;最近目的地が、分からなくなっている。どこへ向かっているのだろう？どこへ向かっていっているのだろう？&lt;/p&gt;
+
+&lt;h2 id=&#34;統計学を学ぶ:5ea54b4f2e69c8d7d111b2f1e02c8c0f&#34;&gt;統計学を学ぶ&lt;/h2&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:10px;&#34;&gt;&lt;a href=&#34;https://www.flickr.com/photos/hikingartist/4769199272/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm5.staticflickr.com/4078/4769199272_a15665526b_z.jpg?zz=1&#34; alt=&#34;Statistics about statistics about...&#34; /&gt;&lt;/a&gt;&lt;br /&gt;Statistics about statistics about&amp;hellip; / HikingArtist.com&lt;/span&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;インターネットの世紀で最高に魅力的な仕事には、必ず統計学が必要になる。
+データは21世紀の剣であり、それをつかいこなせる者がサムライだ。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;「個人にとって間違いのない選択肢は、値下がりしているモノと補完性のある分野で専門性を磨くこと」&lt;/p&gt;
+
+&lt;p&gt;どんな業界で働いていようとも、適切なデータを適切に処理することが、正しい意思決定にどのように役立つかを理解する。&lt;/p&gt;
+
+&lt;p&gt;数字に強くなくても、懸命な選択のための数学の使い方を習得することは可能である。&lt;/p&gt;
+
+&lt;h2 id=&#34;資料を読む:5ea54b4f2e69c8d7d111b2f1e02c8c0f&#34;&gt;資料を読む&lt;/h2&gt;
+
+&lt;p&gt;どんな分野でも、他の人々に一歩先んじる最高かつ最も簡単な方法は、それについて知識を深めることだ。最適な方法は、文献を読むことだ。&lt;/p&gt;
+
+&lt;p&gt;同じような価値観を持つ優秀な人達とサークルを立ち上げ、面白い本記事の情報を交換しよう。&lt;/p&gt;
+
+&lt;h2 id=&#34;エレベーター-ピッチを準備しよう:5ea54b4f2e69c8d7d111b2f1e02c8c0f&#34;&gt;エレベーター・ピッチを準備しよう&lt;/h2&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:10px;&#34;&gt;&lt;a href=&#34;https://www.flickr.com/photos/gideon/26472155/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm1.staticflickr.com/23/26472155_8cc5066b66_z.jpg?zz=1&#34; alt=&#34;elevator&#34; /&gt;&lt;/a&gt;&lt;br /&gt;elevator / Gideon Tsang&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;エレベーター・ピッチとは、エレベーターで偉い人(CEO,上司の上司)にあったときに、30秒程度で満足してもらえる内容を答えるというもの。&lt;/p&gt;
+
+&lt;p&gt;エレベーター・ピッチでは以下の内容について自信を持って話せるようになるべきだ。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;今取り組んでいる仕事&lt;/li&gt;
+&lt;li&gt;その根底にある技術アイデア&lt;/li&gt;
+&lt;li&gt;想定される成果(特に、顧客ににとってのメリット)&lt;/li&gt;
+&lt;li&gt;会社全体の事業でどのような役割を果たすか？&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;求職者の人も、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;自分がどんな仕事をしたいか&lt;/li&gt;
+&lt;li&gt;どのようなインパクト(顧客や会社にとってのメリット)を生み出せるか&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;といった、他の誰でもなく、あなたにしか語れない内容を語れるようにしよう。&lt;/p&gt;
+
+&lt;h2 id=&#34;情熱と仕事を結びつける:5ea54b4f2e69c8d7d111b2f1e02c8c0f&#34;&gt;情熱と仕事を結びつける&lt;/h2&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size:10px;&#34;&gt;&lt;a href=&#34;https://www.flickr.com/photos/theknowlesgallery/8278309284/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm9.staticflickr.com/8499/8278309284_f1d28b3ae9_z.jpg?zz=1&#34; alt=&#34;Autumn Tree Farm and road&#34; /&gt;&lt;/a&gt;&lt;br /&gt;Autumn Tree Farm and road / The Knowles Gallery&lt;/span&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;自分の情熱と仕事を結びつけることができるのは、究極の贅沢です。そして間違いなく幸せにつながるみちでもあります。　　シェリル・サンドバーグ&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;でも、大抵の人は自分の情熱が何かわからないか、わかっていても手がとどかない。&lt;/p&gt;
+
+&lt;p&gt;社会に出る時点では、情熱どうこうより、単に仕事があるだけで満足かもしれない。そしてキャリアをつんでいくうちに、そこがおもっていたような刺激的な舞台ではないことに気づくのだ。おそらく情熱と満足のいく仕事の、どちらも見つけられずに。&lt;/p&gt;
+
+&lt;p&gt;すべてを捨てて、やり直すこともできなくもないが、もっと堅実なやり方もある。それは、軌道修正すること。&lt;/p&gt;
+
+&lt;p&gt;「生まれ変わったら就きたい仕事」に近く、それでいて現在のキャリアパスからでも手の届く「5年後の理想の仕事」を考え、ゴールに設定する。&lt;/p&gt;
+
+&lt;p&gt;適切なゴールを設定するという簡単な作業によってキャリアを好転させることができる。&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p&gt;&amp;quot;歳をとるのを苦に思わない。自分が憧れてた人の当時の年齢に近づくことができるから。自分がその人自身になることはできない。でも、その人に憧れた部分っていうのは真似できる。歳をとりながら、方向修正をしながらその憧れ部分を目指して近づいていくのって楽しくない？&amp;quot; なるほどって思った。&lt;/p&gt;&amp;mdash; めがにい (@meganii) &lt;a href=&#34;https://twitter.com/meganii/status/107637036546138112&#34;&gt;August 28, 2011&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;5年前憧れてた人に近づけてるのかな？軌道修正しながら、近づいていけてるのかな？&lt;/p&gt;
+
+&lt;p&gt;分からないなら分からないなりに、考えて動き続けるようにしたい。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>知のグループウェアとしてのファシリテーション〜ザ・ファシリテーター〜</title>
+      <link>https://meganii.com/blog/2014/10/09/knowledge-groupware/</link>
+      <pubDate>Thu, 09 Oct 2014 00:40:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2014/10/09/knowledge-groupware/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;『空中戦』を回避しながら、『論理を構造化』して『可視化』して共有する&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;論を可視化することで、常に論理の構造が意識される。また、思考プロセスを個人の頭の外に出すことができる。
+そうやって、思考プロセスを外部化すれば、グループで知恵を合わせて考えることができる。&lt;/p&gt;
+
+&lt;p&gt;また、例えば、実現の難しさと達成された時の効果の大きさを縦軸と横軸にとり、マトリックスで示すと、言葉だけでは難しい二次元思考(2つの軸を同時に考えること)をグループで行うことができる。&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;本書の中で出てきた、知のグループウェアとしてのグループウェアを紹介する。&lt;/p&gt;
+
+&lt;div class=&#34;kaerebalink-box&#34; style=&#34;text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-image&#34; style=&#34;float:left;margin:0 15px 10px 0;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4478360715/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/516CBVX9JJL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-info&#34; style=&#34;line-height:120%;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4478360715/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;ザ・ファシリテーター&lt;/a&gt;&lt;div class=&#34;kaerebalink-powered-date&#34; style=&#34;font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://kaereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;カエレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-detail&#34; style=&#34;margin-bottom:5px;&#34;&gt;森 時彦 ダイヤモンド社 2004-11-12    &lt;/div&gt;&lt;div class=&#34;kaerebalink-link1&#34; style=&#34;margin-top:10px;&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=%83t%83%40%83V%83%8A%83e%81%5B%83%5E%81%5B&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;tag=meganii-22&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;アマゾン&#34; &gt;Amazonで購入&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25B7%25E3%2583%25AA%25E3%2583%2586%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%25BC%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;楽天市場&#34; &gt;楽天市場で購入&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;ホワイトボード活用:c4dfeb20aa9011f453212e8ec97f8dac&#34;&gt;ホワイトボード活用&lt;/h2&gt;
+
+&lt;h3 id=&#34;パーキングエリア-pa:c4dfeb20aa9011f453212e8ec97f8dac&#34;&gt;パーキングエリア(PA)&lt;/h3&gt;
+
+&lt;p&gt;ブレーンストーミングでは、アイディアに対する批判はご法度だが、往々にして批判は出てくる。
+そのような発言を、いちいちとがめるのではなく、PAと題した紙を一枚用意してすばやく書き留め、話を本筋に戻す。
+みんなに見えるようにPAを張り出しておくところがポイントである。&lt;/p&gt;
+
+&lt;p&gt;これによって、多少本筋を外した意見にも、記録することで敬意を払う。
+また、同じ議論が蒸し返されるのを防ぐ効能もある。&lt;/p&gt;
+
+&lt;h2 id=&#34;プロセスマッピング:c4dfeb20aa9011f453212e8ec97f8dac&#34;&gt;プロセスマッピング&lt;/h2&gt;
+
+&lt;p&gt;客観的に自分たちのプロセスを見直すのに役立つファシリテーション・ツールである。
+現在のプロセスを明らかにして、その問題点を発見したり、新しいプロセスを生み出すのに効果的である。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://diamond.jp/articles/-/6347?page=2&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://diamond.jp/articles/-/6347?page=2&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://diamond.jp/articles/-/6347?page=2&#34; target=&#34;_blank&#34;&gt;困ったときには、プロセスマッピング｜ファシリテーションの道具箱　森時彦｜ダイヤモンド・オンライン&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://diamond.jp/articles/-/6347?page=2&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://diamond.jp/articles/-/6347?page=2&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;span style=&#34;color: #808080;font-size: 80%;&#34;&gt;◎プロセスマッピングの例   &amp;hellip;&lt;/span&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;swot分析:c4dfeb20aa9011f453212e8ec97f8dac&#34;&gt;SWOT分析&lt;/h2&gt;
+
+&lt;p&gt;周りの環境要因としての機会と脅威、内部要因としての当社の強み・弱点を挙げる。&lt;/p&gt;
+
+&lt;p&gt;SWOTは、機械と脅威という環境要因と、自社の強みと弱点という内部要因を組み合わせを作成する簡単なエクセサイズだが、書かれた言葉以上に、問題意識が深く共有化される。&lt;/p&gt;
+
+&lt;p&gt;同じことでも外部の人間から言われたのでは、反発が生まれるかもしれないが、自分たちが考えれば動機が内存化する。
+この枠組の中で関係者が共同作業をし、作成する過程が重要である。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.kairosmarketing.net/marketing-glossary/swot-analysis-20131127/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://blog.kairosmarketing.net/marketing-glossary/swot-analysis-20131127/&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://blog.kairosmarketing.net/marketing-glossary/swot-analysis-20131127/&#34; target=&#34;_blank&#34;&gt;【決定版】SWOT分析のやり方｜事業の成功要因と方策を導き出すための手順 | カイロスのマーケティングブログ&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://blog.kairosmarketing.net/marketing-glossary/swot-analysis-20131127/&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://blog.kairosmarketing.net/marketing-glossary/swot-analysis-20131127/&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ゴール-ツリー:c4dfeb20aa9011f453212e8ec97f8dac&#34;&gt;ゴール・ツリー&lt;/h2&gt;
+
+&lt;p&gt;大目標を起点に、それを達成するための手段としての中・小目標を枝分かれさせながらツリー上に描いていく手法。
+ツリー構造は、目的と手段、原因と結果を明確に可視化するパワフルな道具。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://itpro.nikkeibp.co.jp/article/COLUMN/20090805/335206/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://itpro.nikkeibp.co.jp/article/COLUMN/20090805/335206/&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://itpro.nikkeibp.co.jp/article/COLUMN/20090805/335206/&#34; target=&#34;_blank&#34;&gt;PMO（プロジェクトマネジメントオフィス）を生かす - 第58回 「見える化ツリー」を作る3つのステップ：ITpro&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://itpro.nikkeibp.co.jp/article/COLUMN/20090805/335206/&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://itpro.nikkeibp.co.jp/article/COLUMN/20090805/335206/&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;span style=&#34;color: #808080;font-size: 80%;&#34;&gt; 図●因果関係に基づいて指標をツリー化した例 [画像のクリックで拡大表示] &amp;hellip;&lt;/span&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;マインドマッピング:c4dfeb20aa9011f453212e8ec97f8dac&#34;&gt;マインドマッピング&lt;/h3&gt;
+
+&lt;p&gt;大きな紙の真ん中に中心的な概念を書き、その周りに関連することを書き出してくもの。
+二次元的に書きだすという視覚的な効果も手伝って、箇条書きにするより、発想を刺激する効果が期待できる。&lt;/p&gt;
+
+&lt;p&gt;さらに、後で関連性や重要度を議論するときにも、空間を利用して図示できる。
+発散と集約の両方のプロセスに効果を発揮する可視化手法である。&lt;/p&gt;
+
+&lt;div class=&#34;kaerebalink-box&#34; style=&#34;text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-image&#34; style=&#34;float:left;margin:0 15px 10px 0;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4478017166/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/51kqLnpx5tL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-info&#34; style=&#34;line-height:120%;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4478017166/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;新版 ザ・マインドマップ(R)&lt;/a&gt;&lt;div class=&#34;kaerebalink-powered-date&#34; style=&#34;font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://kaereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;カエレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-detail&#34; style=&#34;margin-bottom:5px;&#34;&gt;トニー・ブザン,バリー・ブザン ダイヤモンド社 2013-02-16    &lt;/div&gt;&lt;div class=&#34;kaerebalink-link1&#34; style=&#34;margin-top:10px;&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=%83%7D%83C%83%93%83h%83%7D%83b%83v&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;tag=meganii-22&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;アマゾン&#34; &gt;Amazonで購入&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2583%259E%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%2589%25E3%2583%259E%25E3%2583%2583%25E3%2583%2597%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;楽天市場&#34; &gt;楽天市場で購入&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;重みつき多重投票:c4dfeb20aa9011f453212e8ec97f8dac&#34;&gt;重みつき多重投票&lt;/h2&gt;
+
+&lt;p&gt;まずある項目に対して、カードに書いて貼ってもらう。
+その後、赤5点、青3点、黄色1点など一人ひとりが3つの重みつきシールを気に入ったカードに投票し、多数決で決める。&lt;/p&gt;
+
+&lt;p&gt;アイディアを出し十分議論したら、それ以上むやみに時間を費やさずに、多重投票で決定してどんどん前に進む
+小学校のころから、投票で決める方法は知っているが社会人になってからは意外と活用されない。&lt;/p&gt;
+
+&lt;h2 id=&#34;感想:c4dfeb20aa9011f453212e8ec97f8dac&#34;&gt;感想&lt;/h2&gt;
+
+&lt;p&gt;今年も1年、会議の練習をする機会をもらえたので、良さそうだと思うものについてはどんどん試してみたい。練習なので、失敗してもいいよね。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>参加者の発言を促すファシリテーターの技術 〜ザ・ファシリテーター〜</title>
+      <link>https://meganii.com/blog/2014/10/04/facilitation-skill/</link>
+      <pubDate>Sat, 04 Oct 2014 17:18:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2014/10/04/facilitation-skill/</guid>
+      <description>
+
+&lt;p&gt;なかなか読み進められないので、小出しにしてまとめることにする。
+まずは、ファシリテーターの発言を促す技術について。&lt;/p&gt;
+
+&lt;div class=&#34;kaerebalink-box&#34; style=&#34;text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-image&#34; style=&#34;float:left;margin:0 15px 10px 0;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4478360715/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/516CBVX9JJL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-info&#34; style=&#34;line-height:120%;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4478360715/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;ザ・ファシリテーター&lt;/a&gt;&lt;div class=&#34;kaerebalink-powered-date&#34; style=&#34;font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://kaereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;カエレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-detail&#34; style=&#34;margin-bottom:5px;&#34;&gt;森 時彦 ダイヤモンド社 2004-11-12    &lt;/div&gt;&lt;div class=&#34;kaerebalink-link1&#34; style=&#34;margin-top:10px;&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=%83t%83%40%83V%83%8A%83e%81%5B%83%5E%81%5B&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;tag=meganii-22&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;アマゾン&#34; &gt;Amazonで購入&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25B7%25E3%2583%25AA%25E3%2583%2586%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%25BC%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;楽天市場&#34; &gt;楽天市場で購入&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;ファシリテーターに必要なスキル:6ec060ac5167ce3679d27646aefd16ea&#34;&gt;ファシリテーターに必要なスキル&lt;/h2&gt;
+
+&lt;p&gt;ファシリテーターにとって、フェアであることは大切である。
+発言を記録しているだけでなく、時には反対の立場に立って、異なる視点から発言を促すことも必要&lt;/p&gt;
+
+&lt;p&gt;問題の性質やチームの反応に応じて、柔軟にツールを使い分ける力が、ファシリテーターには要求される。
+参加者の自由な発想を促し、グループ思考を助けるような生きた使い方を促すべきである。&lt;/p&gt;
+
+&lt;h2 id=&#34;発言を促す技術:6ec060ac5167ce3679d27646aefd16ea&#34;&gt;発言を促す技術&lt;/h2&gt;
+
+&lt;h3 id=&#34;質問のポケットをたくさんもつこと:6ec060ac5167ce3679d27646aefd16ea&#34;&gt;質問のポケットをたくさんもつこと&lt;/h3&gt;
+
+&lt;p&gt;参加者が具体的なイメージを描けるような問いかけをする力があるとよい。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;全体を意識される質問&lt;/li&gt;
+&lt;li&gt;分散(多様性)を意識させる質問&lt;/li&gt;
+&lt;li&gt;自分たちがコントロールできるものとそうでないものを意識させる質問&lt;/li&gt;
+&lt;li&gt;時間軸を意識させる質問&lt;/li&gt;
+&lt;li&gt;基準を意識させる質問&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;全体を意識させる:6ec060ac5167ce3679d27646aefd16ea&#34;&gt;全体を意識させる&lt;/h3&gt;
+
+&lt;p&gt;全体を意識させるとは、自分の役割だけでなく、それがシステム全体でどういう役割を果たしているかを考えさせること。
+例えば、自分たちが目標だと思っていることは、何かの手段ではないかとツリーをたどって描いてみるなど。&lt;/p&gt;
+
+&lt;p&gt;自分たちの視点が狭い範囲になっていないか？視点をより広くするための質問。&lt;/p&gt;
+
+&lt;h3 id=&#34;分散-多様性-を意識させる:6ec060ac5167ce3679d27646aefd16ea&#34;&gt;分散(多様性)を意識させる&lt;/h3&gt;
+
+&lt;p&gt;ほとんどの人が平均値で話をしている。例えば、『女性の方が男性より地図が読めない』など。逆に特別なケースを捉えて、議論している場合もある。
+このように、人間の意識は、平均値や、特別なケースをベースに作られている場合が多いため、『分散はどうなっていますか？』や、『いつもそうですか？』という質問が、効果的な呼び水になる。&lt;/p&gt;
+
+&lt;h3 id=&#34;自分たちがコントロールできるものとそうでないものを意識させる:6ec060ac5167ce3679d27646aefd16ea&#34;&gt;自分たちがコントロールできるものとそうでないものを意識させる&lt;/h3&gt;
+
+&lt;p&gt;自分たちがコントロールできないものはどうしようもない。自分たちがコントロールできるものに焦点を当てる。&lt;/p&gt;
+
+&lt;h3 id=&#34;時間軸を意識させる:6ec060ac5167ce3679d27646aefd16ea&#34;&gt;時間軸を意識させる&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;「昔からそうですか？」&lt;/li&gt;
+&lt;li&gt;「今回だけではないですか？」&lt;/li&gt;
+&lt;li&gt;「繰り返し起こることですか？」&lt;/li&gt;
+&lt;li&gt;「将来はどうなっていますか？」&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;データを見るときも、現時点でのスナップショットなのか、時間的な経過が含まれているのかを意識させる。&lt;/p&gt;
+
+&lt;h3 id=&#34;基準を意識させる:6ec060ac5167ce3679d27646aefd16ea&#34;&gt;基準を意識させる&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;「ベンチマークはあるのか」&lt;/li&gt;
+&lt;li&gt;「あるとすれば、それは一定のものか」&lt;/li&gt;
+&lt;li&gt;「なければ、それをつくるべきではないか」&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;インタビューのテクニック:6ec060ac5167ce3679d27646aefd16ea&#34;&gt;インタビューのテクニック&lt;/h2&gt;
+
+&lt;p&gt;相手の緊張をほぐすような簡単な質問を何度か繰り返してから、次第に革新に迫る質問を繰り出していく。&lt;/p&gt;
+
+&lt;h2 id=&#34;感想:6ec060ac5167ce3679d27646aefd16ea&#34;&gt;感想&lt;/h2&gt;
+
+&lt;p&gt;このような発言を促す質問があるなーと知っていても、実際に会議や打ち合わせのときには忘れてしまう。意識せずに出せるように、練習していきたい。&lt;/p&gt;
+
+&lt;h2 id=&#34;参考:6ec060ac5167ce3679d27646aefd16ea&#34;&gt;参考&lt;/h2&gt;
+
+&lt;div class=&#34;kaerebalink-box&#34; style=&#34;text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-image&#34; style=&#34;float:left;margin:0 15px 10px 0;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4478360715/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/516CBVX9JJL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-info&#34; style=&#34;line-height:120%;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4478360715/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;ザ・ファシリテーター&lt;/a&gt;&lt;div class=&#34;kaerebalink-powered-date&#34; style=&#34;font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://kaereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;カエレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-detail&#34; style=&#34;margin-bottom:5px;&#34;&gt;森 時彦 ダイヤモンド社 2004-11-12    &lt;/div&gt;&lt;div class=&#34;kaerebalink-link1&#34; style=&#34;margin-top:10px;&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=%83t%83%40%83V%83%8A%83e%81%5B%83%5E%81%5B&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;tag=meganii-22&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;アマゾン&#34; &gt;Amazonで購入&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25B7%25E3%2583%25AA%25E3%2583%2586%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%25BC%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;楽天市場&#34; &gt;楽天市場で購入&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ぐだぐだ言ってないでコードを書けよ、自分！ - 「Webサービスのつくり方」</title>
+      <link>https://meganii.com/blog/2014/09/04/create-web-service/</link>
+      <pubDate>Thu, 04 Sep 2014 22:43:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2014/09/04/create-web-service/</guid>
+      <description>
+
+&lt;p&gt;個人的に,ちょうど「Webサービスのつくり方」ってキーワードがアツかったので読んでみた。心に響いた部分を抜粋する。読んでいたら、何かWebサービスを作りたくなった。&lt;/p&gt;
+
+&lt;div class=&#34;kaerebalink-box&#34; style=&#34;text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-image&#34; style=&#34;float:left;margin:0 15px 10px 0;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4774154075/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/51jdbeo%2BrmL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-info&#34; style=&#34;line-height:120%;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4774154075/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;Webサービスのつくり方 ~「新しい」を生み出すための33のエッセイ (Software Design plus)&lt;/a&gt;&lt;div class=&#34;kaerebalink-powered-date&#34; style=&#34;font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://kaereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;カエレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-detail&#34; style=&#34;margin-bottom:5px;&#34;&gt;和田 裕介 技術評論社 2012-11-20    &lt;/div&gt;&lt;div class=&#34;kaerebalink-link1&#34; style=&#34;margin-top:10px;&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=web%83T%81%5B%83r%83X%20%8D%EC%82%E8%95%FB%20perl&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;tag=meganii-22&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;アマゾン&#34; &gt;Amazonで購入&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2Fweb%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%2520%25E4%25BD%259C%25E3%2582%258A%25E6%2596%25B9%2520perl%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;楽天市場&#34; &gt;楽天市場で購入&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;ぐだぐだ言ってないでコードを書けよ-ハゲ:bbf22b7ad96a1273c981a350d4cb265c&#34;&gt;ぐだぐだ言ってないでコードを書けよ、ハゲ&lt;/h2&gt;
+
+&lt;div&gt;&lt;a href=&#34;https://www.flickr.com/photos/riebart/4466482623/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm3.staticflickr.com/2689/4466482623_6aea29d90a_z.jpg?zz=1&#34; alt=&#34;Code&#34; /&gt;&lt;/a&gt;&lt;span&gt;Code / Riebart&lt;/span&gt;&lt;/div&gt;
+
+&lt;p&gt;「あれが欲しい」「これが欲しい」「このサービスをもっとこうしたほうがいい」と批判するのは簡単であり、自分のアイデアの方がすごいと自慢する場合もある。しかし、実現していない、カタチになっていないものにはあまり価値がない。&lt;/p&gt;
+
+&lt;p&gt;「そこに1,000人いたとして、アイデアを思いつくのが100人、アイデアを実現するのが10人、アイデアで成功する人は1人。」&lt;/p&gt;
+
+&lt;p&gt;アイデアを思いつく人はそもそも、少なく、アイデアをカタチにする人はもっと少ない。さらに、成功する人はごくわずかである。アイデアを思いついたら、手を動かしてコードを書くことで成功へのハードルに一歩近づくことができる。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;だけど最終的には、唯一重要なものは現実のコードと技術そのものだよ。向上心もなくコードも書こうとしない人でもコメントはできるし、こうするべきだとか、ああするべきだとか、そうしちゃいけないとかいうこともできるけど、結局はそういった声は問題にならない。唯一重要なものはコードなんだ。 リーナス・トーバルズ&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;自分も、こんなWebサービスあったらいいのになぁとか、こういうことしたいのになぁとか思うことがあっても結局自分で作るまで至らないことが多い。ないのなら自分で作るエンジニアになりたい。&lt;/p&gt;
+
+&lt;h2 id=&#34;なければつくる:bbf22b7ad96a1273c981a350d4cb265c&#34;&gt;なければつくる&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/jasleen_kaur/14477908267/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm4.staticflickr.com/3887/14477908267_79bbdb0def_z.jpg?zz=1&#34; alt=&#34;wheels&#34; /&gt;&lt;/a&gt;&lt;span&gt;wheels / jasleen_kaur&lt;/span&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;車輪の再発明　・・・　ある目的を果たすためのライブラリや先行事例があるにもかかわらず、同じことを叶えるためについつい自分で作ってしまう行為。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;車輪の再発明は一般的には非効率だが、勉強のためならよいのではないか。既存の似たようなものを参考にできるため、学ぶことが多くある。&lt;/p&gt;
+
+&lt;p&gt;「車輪の再開発はしないで車輪を利用したほうが早い。けれども、それがなかった場合は自分で作る」という精神は持ちたい。それができるだけの技術力は持ちたい。&lt;/p&gt;
+
+&lt;h2 id=&#34;実装までにつくる-企画-の全て:bbf22b7ad96a1273c981a350d4cb265c&#34;&gt;実装までにつくる「企画」の全て&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/anieto2k/8624484494/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm9.staticflickr.com/8262/8624484494_664924de8d_z.jpg?zz=1&#34; alt=&#34;180/365² Sin ideas&#34;/&gt;&lt;/a&gt;&lt;span&gt;180/365² Sin ideas / anieto2k&lt;/span&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;哲学&lt;/li&gt;
+&lt;li&gt;アイデア&lt;/li&gt;
+&lt;li&gt;テーマ&lt;/li&gt;
+&lt;li&gt;コンセプト&lt;/li&gt;
+&lt;li&gt;名前&lt;/li&gt;
+&lt;li&gt;デザイン&lt;/li&gt;
+&lt;li&gt;内部設計&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;1-哲学:bbf22b7ad96a1273c981a350d4cb265c&#34;&gt;1.哲学&lt;/h3&gt;
+
+&lt;p&gt;個々人が持っている、特定の興味に関する揺るがない気持ちのこと。この気持ちがサービスやアプリをつくる原動力になる。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;iPadを開発した人の根底にあるのはきっと、「音楽をもっと楽しみたい」という揺るがない気持ちがあったからであろう。そこに「なぜ音楽を楽しむ必要があるのか？」といった問いに対する論理的な理由は存在しなくてよい。『音楽が好きだから』もっと身近に楽しめていいじゃないかと、反論できればいいじゃないか。 (若干意訳)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;2-アイデア:bbf22b7ad96a1273c981a350d4cb265c&#34;&gt;2.アイデア&lt;/h3&gt;
+
+&lt;p&gt;哲学を叶えるための個別の具体的なアイデア。&lt;/p&gt;
+
+&lt;p&gt;「これが欲しい」という哲学から発想していくのがよい。個別の具体的なアイデアをたくさん持っておき、あとで吟味する。&lt;/p&gt;
+
+&lt;h3 id=&#34;3-テーマ:bbf22b7ad96a1273c981a350d4cb265c&#34;&gt;3.テーマ&lt;/h3&gt;
+
+&lt;p&gt;哲学をより具体的にした、勝負する領域のこと。アイデアを出していく過程で固まっていくことが多い。
+同じテーマの既存サービスやアプリを調査するために、テーマを定めることは重要である。&lt;/p&gt;
+
+&lt;p&gt;iPadの場合は「携帯音楽プレイヤー」がテーマと言える。&lt;/p&gt;
+
+&lt;h3 id=&#34;4-コンセプト:bbf22b7ad96a1273c981a350d4cb265c&#34;&gt;4.コンセプト&lt;/h3&gt;
+
+&lt;p&gt;テーマに沿った、アイデアを形成するための骨格のようなもの。何をつくるかを一言で表したもの。&lt;/p&gt;
+
+&lt;p&gt;iPadの場合、コンセプトは以下のような文章になる。
+専用の音楽ソフトを経由して、所有する曲全てを持ち運べる携帯型音楽プレイヤー&lt;/p&gt;
+
+&lt;p&gt;テーマ、コンセプト、アイデアと分けて考えることで、抽象的な内容から具体的な内容へと順を追って説明できるため、人に説明しやすくなる。&lt;/p&gt;
+
+&lt;h3 id=&#34;5-名前:bbf22b7ad96a1273c981a350d4cb265c&#34;&gt;5.名前&lt;/h3&gt;
+
+&lt;p&gt;プロダクトのサービス、アプリの名前を決めるのは非常に重要なことである。
+これからつくろうとしているものを自分で呼ぶのに名前がないと気持ちが入れない。&lt;/p&gt;
+
+&lt;p&gt;これは、「名前重要」というフレーズもあるぐらいなので、実感できるであろう。&lt;/p&gt;
+
+&lt;h3 id=&#34;6-デザイン:bbf22b7ad96a1273c981a350d4cb265c&#34;&gt;6.デザイン&lt;/h3&gt;
+
+&lt;p&gt;全体のディテールを詳細に決めていく作業。&lt;/p&gt;
+
+&lt;p&gt;コンセプトやアイデアを洗練させていくと無駄なものが削ぎ落とされ、サービスやアプリに対する最低限の機能が抽出される。それらに対して、ユーザがどのように使っていくかを具体的なイラストなどを元に試行錯誤していく。&lt;/p&gt;
+
+&lt;h3 id=&#34;7-内部設計:bbf22b7ad96a1273c981a350d4cb265c&#34;&gt;7.内部設計&lt;/h3&gt;
+
+&lt;p&gt;内部的にどのように実現するかを設計していく。&lt;/p&gt;
+
+&lt;h2 id=&#34;やりたくなったこと:bbf22b7ad96a1273c981a350d4cb265c&#34;&gt;やりたくなったこと&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;何かWebサービスをつくる&lt;/li&gt;
+&lt;li&gt;Jekyll のプラグインをつくる&lt;/li&gt;
+&lt;li&gt;さくらVPSをもっと使い倒す&lt;/li&gt;
+&lt;li&gt;Railsのテストを勉強する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;読んだら自然と何かをつくりたくなる、やりたくなる本でした。なんか作りたいんだけど・・・って人は一度読んでみたらどうだろうか？&lt;/p&gt;
+
+&lt;h2 id=&#34;今日の積読本消化:bbf22b7ad96a1273c981a350d4cb265c&#34;&gt;今日の積読本消化&lt;/h2&gt;
+
+&lt;div class=&#34;kaerebalink-box&#34; style=&#34;text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-image&#34; style=&#34;float:left;margin:0 15px 10px 0;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4774154075/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/51jdbeo%2BrmL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-info&#34; style=&#34;line-height:120%;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4774154075/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;Webサービスのつくり方 ~「新しい」を生み出すための33のエッセイ (Software Design plus)&lt;/a&gt;&lt;div class=&#34;kaerebalink-powered-date&#34; style=&#34;font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://kaereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;カエレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-detail&#34; style=&#34;margin-bottom:5px;&#34;&gt;和田 裕介 技術評論社 2012-11-20    &lt;/div&gt;&lt;div class=&#34;kaerebalink-link1&#34; style=&#34;margin-top:10px;&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=web%83T%81%5B%83r%83X%20%8D%EC%82%E8%95%FB%20perl&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;tag=meganii-22&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;アマゾン&#34; &gt;Amazonで購入&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2Fweb%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%2520%25E4%25BD%259C%25E3%2582%258A%25E6%2596%25B9%2520perl%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;楽天市場&#34; &gt;楽天市場で購入&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;  
+
+&lt;h2 id=&#34;参考:bbf22b7ad96a1273c981a350d4cb265c&#34;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.slideshare.net/yusukebe/web-16710062&#34;&gt;「Webサービスのつくり方」 のつくり方&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/koba04/ge-ren-dechu-lai-ruwebsabisufalsezuo-rifang-yapc-asia-2013&#34;&gt;個人で出来るWebサービスの作り方(YAPC::ASIA 2013) // Speaker Deck&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>あなたは中級者を脱出出来ているだろうか？ドレイファスモデル技能モデル〜リファクタリング・ウェットウェア ―達人プログラマーの思考法と学習法〜</title>
+      <link>https://meganii.com/blog/2014/06/23/dreyfus-model/</link>
+      <pubDate>Mon, 23 Jun 2014 21:56:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2014/06/23/dreyfus-model/</guid>
+      <description>
+
+&lt;p&gt;「必要な仕事を行い、必要になると新しい仕事を学ぶが、仕事を広範かつ概念的に理解することは決してない」&lt;/p&gt;
+
+&lt;div class=&#34;kaerebalink-box&#34; style=&#34;text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-image&#34; style=&#34;float:left;margin:0 15px 10px 0;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4873114039/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/41cOFPQCwXL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-info&#34; style=&#34;line-height:120%;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4873114039/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;リファクタリング・ウェットウェア ―達人プログラマーの思考法と学習法&lt;/a&gt;&lt;div class=&#34;kaerebalink-powered-date&#34; style=&#34;font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://kaereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;カエレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-detail&#34; style=&#34;margin-bottom:5px;&#34;&gt;Andy Hunt オライリージャパン 2009-04-27    &lt;/div&gt;&lt;div class=&#34;kaerebalink-link1&#34; style=&#34;margin-top:10px;&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=%83%8A%83t%83%40%83N%83%5E%83%8A%83%93%83O&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;tag=meganii-22&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;アマゾン&#34; &gt;Amazonで購入&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2583%25AA%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25AF%25E3%2582%25BF%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25B0%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;楽天市場&#34; &gt;楽天市場で購入&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;ドレスファスモデルの第５段階:e9983db74fa809b40c49796b476ff02b&#34;&gt;ドレスファスモデルの第５段階&lt;/h2&gt;
+
+&lt;h3 id=&#34;第１段階-初心者:e9983db74fa809b40c49796b476ff02b&#34;&gt;第１段階 初心者&lt;/h3&gt;
+
+&lt;p&gt;当該の技能分野における経験を持っていない。初心者にはレシピが必要。&lt;/p&gt;
+
+&lt;p&gt;ここでいう「経験」とは、この技能を使うことにより考え方に変化がもたらされたものである。&lt;/p&gt;
+
+&lt;h3 id=&#34;第２段階-中級者:e9983db74fa809b40c49796b476ff02b&#34;&gt;第２段階 中級者&lt;/h3&gt;
+
+&lt;p&gt;最近経験した似通った場面を参考にしてコンテキストを考慮したアドバイスの活用ができる。
+しかし、全体的な視点で物事を見ることはできない。&lt;/p&gt;
+
+&lt;h3 id=&#34;第３段階-上級者:e9983db74fa809b40c49796b476ff02b&#34;&gt;第３段階 上級者&lt;/h3&gt;
+
+&lt;p&gt;問題を探しだして、解決できる&lt;/p&gt;
+
+&lt;h3 id=&#34;第４段階-熟練者:e9983db74fa809b40c49796b476ff02b&#34;&gt;第４段階 熟練者&lt;/h3&gt;
+
+&lt;p&gt;全体像を見ることができる。自分の行動を振り返り、次回のパフォーマンスを改善するために自己補正ができる。&lt;/p&gt;
+
+&lt;h3 id=&#34;第５段階-達人:e9983db74fa809b40c49796b476ff02b&#34;&gt;第５段階 達人&lt;/h3&gt;
+
+&lt;p&gt;全体の1〜5%。
+物事を行うよりよい方法を模索している。直感で動く&lt;/p&gt;
+
+&lt;h2 id=&#34;初心者と達人の違い:e9983db74fa809b40c49796b476ff02b&#34;&gt;初心者と達人の違い&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ルールから直感へ&lt;/li&gt;
+&lt;li&gt;点ではなく、全体の集合として捉え、重要である一部に力点を置くことができる&lt;/li&gt;
+&lt;li&gt;問題から離れて見ている人から、システム自信の一部として関与することができる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ルールとは、コンテキストに依存しない画一的なルールのこと。
+直感とは、コンテキストに応じた臨機応変な感覚のこと。&lt;/p&gt;
+
+&lt;p&gt;達人によって作られた「ベストプライスティス」を初心者に適用すると、効果をもたらす。
+一方、達人たちにその「ベストプラクティス」を順守させると、達人を初心者レベルに引き下げてしまう。&lt;/p&gt;
+
+&lt;h2 id=&#34;専門技能の習得には:e9983db74fa809b40c49796b476ff02b&#34;&gt;専門技能の習得には？&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;明確に定義されたタスクが必要&lt;/li&gt;
+&lt;li&gt;タスクには適度な難度(やりがい)が必要だが、実行可能でなければならない。&lt;/li&gt;
+&lt;li&gt;周囲から行動の拠り所となるような有益なフィードバックが必要&lt;/li&gt;
+&lt;li&gt;復習のための繰り返しの機会が与えられ、エラーを修正する機会を提供されるべき。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;ほとんどの人は中級者:e9983db74fa809b40c49796b476ff02b&#34;&gt;ほとんどの人は中級者&lt;/h2&gt;
+
+&lt;p&gt;「必要な仕事を行い、必要になると新しい仕事を学ぶが、仕事を広範かつ概念的に理解することは決してない」&lt;/p&gt;
+
+&lt;p&gt;この言葉は、結構耳が痛い。&lt;/p&gt;
+
+&lt;p&gt;問題の一部ならば、解決出来るのだけれど、全体的な視点がない。そこだけを理解していればいいと思っていないだろうか？たしかに、全部理解するのは難しいかもしれないけれど、はなっから諦めていてはいつまでたっても全体を理解することができない。&lt;/p&gt;
+
+&lt;p&gt;全体を見る視線をもつ意識だけはしておきたい。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「脱藩学」と「オモロい社会人」〜閉塞感のある君へ。こっちへおいでよ。〜</title>
+      <link>https://meganii.com/blog/2014/06/17/dappan-omoro/</link>
+      <pubDate>Tue, 17 Jun 2014 22:00:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2014/06/17/dappan-omoro/</guid>
+      <description>
+
+&lt;div class=&#34;kaerebalink-box&#34; style=&#34;text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-image&#34; style=&#34;float:left;margin:0 15px 10px 0;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4048910728/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/41ArPn4UwsL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-info&#34; style=&#34;line-height:120%;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4048910728/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;閉塞感のある君へ。こっちへおいでよ。 人とつながって情報発信するコミュニティ型生き方の秘訣&lt;/a&gt;&lt;div class=&#34;kaerebalink-powered-date&#34; style=&#34;font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://kaereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;カエレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-detail&#34; style=&#34;margin-bottom:5px;&#34;&gt;湯川鶴章,TechWave塾コミュニティ アスキー・メディアワークス 2013-03-14    &lt;/div&gt;&lt;div class=&#34;kaerebalink-link1&#34; style=&#34;margin-top:10px;&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=%95%C2%8D%C7%8A%B4&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;tag=meganii-22&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;アマゾン&#34; &gt;Amazonで購入&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E9%2596%2589%25E5%25A1%259E%25E6%2584%259F%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;楽天市場&#34; &gt;楽天市場で購入&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;「脱藩学」「オモロい社会人」ってキーワードが飛び込んできたので、メモしておく。&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;脱藩学:e233d3fb4b2f0ab7221a9e4c6fffe457&#34;&gt;脱藩学&lt;/h2&gt;
+
+&lt;h3 id=&#34;脱藩とは:e233d3fb4b2f0ab7221a9e4c6fffe457&#34;&gt;脱藩とは？&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;自分の置かれている環境や、自分自身を活かしてないで文句を言っている自分からの脱藩。&lt;/li&gt;
+&lt;li&gt;与えられた選択肢から選ぶのではなく自分で選択肢を作る生き方&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;「社会ではこれがあたりまえだから・・・」「組織ではこうするのがあたりまえだから」という言い訳を作って行動しないことを正当化していないだろうか。自分は自主的に動けているだろうか？&lt;/p&gt;
+
+&lt;p&gt;文句を言っている自分からの脱藩。&lt;/p&gt;
+
+&lt;p&gt;(最近、#脱藩なう というハッシュタグを見かけたので、脱藩学っていうキーワードに「おっ」となった)&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;http://www.slideshare.net/slideshow/embed_code/30133829&#34; width=&#34;427&#34; height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/tomyankuns/jawsug-30133829&#34; title=&#34;JAWS-UG札幌 #脱藩なう&#34; target=&#34;_blank&#34;&gt;JAWS-UG札幌 #脱藩なう&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;http://www.slideshare.net/tomyankuns&#34; target=&#34;_blank&#34;&gt;Tomoya Ishida&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;自分で選択肢を作るには:e233d3fb4b2f0ab7221a9e4c6fffe457&#34;&gt;自分で選択肢を作るには？&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;自分が求めているモノ、重視するものを明確にする。(例えば、自分の武器、スキルを他己評価してもらう)&lt;/li&gt;
+&lt;li&gt;成りたい方向に向かって嬉々としてもがき、前進する。やりかたを先行事例から学ぶ(書籍を読む。直接あって話を聞く)A&lt;/li&gt;
+&lt;li&gt;あたり前から離れたコミュニティに属する(例えば、仲間、環境は大事。精神的セーフティーネットにもなる)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;###　ピンときた言葉
+- これから必要となる知識・経験は、今行動している現在進行形の実経験から学習する必要がある。
+- ちょっと背伸びして、成りたい自分になれる環境に自分を置く。
+- 得意なものを持った人たちが自分の専門性を活かしながらお互い協力して１つのことを作り上げていく。&lt;/p&gt;
+
+&lt;h2 id=&#34;オモロい社会人:e233d3fb4b2f0ab7221a9e4c6fffe457&#34;&gt;オモロい社会人&lt;/h2&gt;
+
+&lt;p&gt;オモロい社会人とは、輝いている人、自分らしく生きている人、誰かのためになっている人、道を貫こうとしている人である。&lt;/p&gt;
+
+&lt;h3 id=&#34;オモロさを極める無限ループ:e233d3fb4b2f0ab7221a9e4c6fffe457&#34;&gt;オモロさを極める無限ループ&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;何か自分にできることを周りの人のために始める&lt;/li&gt;
+&lt;li&gt;感謝される&lt;/li&gt;
+&lt;li&gt;感謝を受け取って自身をつける&lt;/li&gt;
+&lt;li&gt;自信が少しついたなら、さらに多くの人に与える&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;このループを繰り返すことで、「オモロさ」を強くしていく。&lt;/p&gt;
+
+&lt;h2 id=&#34;参考:e233d3fb4b2f0ab7221a9e4c6fffe457&#34;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://freedom-univ.com/lecture/dappan.html&#34;&gt;脱藩学 | 未来の自分が見つかるインタビュー術 FREEDOM UNIVERSITY 自由大学&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://freedom-univ.com/lecture/dappan_130604.html&#34;&gt;与えられたものから選ぶのではなく、自ら選択肢を作り出すこと | FREEDOM UNIVERSITY 自由大学&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.kuuki-yomi.com/2012/06/blog-post_22.html&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://blog.kuuki-yomi.com/2012/06/blog-post_22.html&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://blog.kuuki-yomi.com/2012/06/blog-post_22.html&#34; target=&#34;_blank&#34;&gt;[募集告知]自由大学で「脱藩学」やります！ | 空気読み一人シンクタンク&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://blog.kuuki-yomi.com/2012/06/blog-post_22.html&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://blog.kuuki-yomi.com/2012/06/blog-post_22.html&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

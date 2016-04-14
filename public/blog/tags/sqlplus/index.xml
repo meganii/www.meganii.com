@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sqlplus on SIS Lab</title>
+    <link>https://meganii.com/tags/sqlplus/</link>
+    <description>Recent content in Sqlplus on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 11 Feb 2015 22:54:00 +0900</lastBuildDate>
+    <atom:link href="https://meganii.com/tags/sqlplus/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>SQL*PlusをMacOSX Marvericsにインストール</title>
+      <link>https://meganii.com/blog/2015/02/11/install-sqlplus/</link>
+      <pubDate>Wed, 11 Feb 2015 22:54:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2015/02/11/install-sqlplus/</guid>
+      <description>
+
+&lt;p&gt;Oracle Express Edition 11gをインストールしたので、SQL*Plusも合わせてインストールする。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/&#34;&gt;Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;http://www.oracle.com/technetwork/topics/intel-macsoft-096467.html&#34;&gt;http://www.oracle.com/technetwork/topics/intel-macsoft-096467.html)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;上記のリンク先から以下をダウンロード&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;instantclient-basic-macos.x64-11.2.0.4.0.zip&lt;/li&gt;
+&lt;li&gt;instantclient-jdbc-macos.x64-11.2.0.4.0.zip&lt;/li&gt;
+&lt;li&gt;instantclient-sqlplus-macos.x64-11.2.0.4.0.zip&lt;/li&gt;
+&lt;li&gt;instantclient-sdk-macos.x64-11.2.0.4.0.zip&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;適当な場所にディレクトリを作成して、解凍したファイルを一箇所に格納する。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir ~/bin/sqlplus
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;unzip instantclient-basic-macos.x32-11.2.0.4.0.zip -d ~/bin/sqlplus/
+unzip instantclient-jdbc-macos.x32-11.2.0.4.0.zip -d ~/bin/sqlplus/
+unzip instantclient-sdk-macos.x32-11.2.0.4.0.zip -d ~/bin/sqlplus/
+unzip instantclient-sqlplus-macos.x32-11.2.0.4.0.zip -d ~/bin/sqlplus/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;下記の通り、パスを通す。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;vim ~/.bash_profile
+
+## oracle client
+export ORACLE_HOME=~/bin/sqlplus/instantclient_11_2
+export PATH=$ORACLE_HOME:$PATH
+export DYLD_LIBRARY_PATH=~/bin/sqlplus/instantclient_11_2
+export NLS_LANG=American_America.AL32UTF8
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;source ~/.bash_profile
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;rlwrapのインストール:62ffe9a86a5750217ff3dd26c7ca910b&#34;&gt;rlwrapのインストール&lt;/h2&gt;
+
+&lt;p&gt;sqplusは、素のままだと↑↓での履歴が出せなかったりするので、rlwrapをインストールする。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;meganii-air:oracle meganii$ brew install rlwrap
+==&amp;gt; Installing rlwrap dependency: readline
+==&amp;gt; Downloading https://downloads.sf.net/project/machomebrew/Bottles/readline-6.3.8.mavericks.bottle.tar.
+######################################################################## 100.0%
+==&amp;gt; Pouring readline-6.3.8.mavericks.bottle.tar.gz
+==&amp;gt; Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+Mac OS X provides similar software, and installing this software in
+parallel can cause all kinds of trouble.
+
+OS X provides the BSD libedit library, which shadows libreadline.
+In order to prevent conflicts when programs look for libreadline we are
+defaulting this GNU Readline installation to keg-only.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you&#39;ll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/readline/lib
+    CPPFLAGS: -I/usr/local/opt/readline/include
+
+==&amp;gt; Summary
+🍺  /usr/local/Cellar/readline/6.3.8: 40 files, 2.1M
+==&amp;gt; Installing rlwrap
+==&amp;gt; Downloading https://downloads.sf.net/project/machomebrew/Bottles/rlwrap-0.42.mavericks.bottle.tar.gz
+######################################################################## 100.0%
+==&amp;gt; Pouring rlwrap-0.42.mavericks.bottle.tar.gz
+🍺  /usr/local/Cellar/rlwrap/0.42: 29 files, 312K
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;これで、&lt;code&gt;rlwrap sqlplus&lt;/code&gt;とすれば、履歴も出せるようになる。&lt;/p&gt;
+
+&lt;h2 id=&#34;参考:62ffe9a86a5750217ff3dd26c7ca910b&#34;&gt;参考&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yoshidashingo.hatenablog.com/entry/2014/08/08/165311&#34;&gt;Mac OSXに64ビット版sqlplus(11.2)をインストールしてAmazon RDS for Oracleに接続 - yoshidashingo&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

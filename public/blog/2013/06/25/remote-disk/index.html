@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.15" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/custom.css">
+<link rel="alternate" href="/index.xml" type="application/rss+xml" title="SIS Lab">
+<title>リモートディスクを利用してMacBookProのDVDドライブからMacBookAirにソフトウェアをインストール - SIS Lab</title>
+</head>
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		<div class="header-logo">
+			<a href="/"><h1 class="site-title"> <i class="fa fa-laptop"></i> SIS Lab</a></h1>
+			<p>
+				元じょーぶん生による
+			</p>
+		</div>
+		
+
+	</header>
+
+
+<div class="row">
+	<main role="main" class="nine columns">
+		<article itemscope itemtype="http://schema.org/BlogPosting">
+			<h1 class="entry-title" itemprop="headline">リモートディスクを利用してMacBookProのDVDドライブからMacBookAirにソフトウェアをインストール</h1>
+			<span class="entry-meta"><time itemprop="datePublished" datetime="2013-06-25">June 25, 2013</time></span>
+			<section id="post" itemprop="entry-text">
+				
+
+<p>MacBookAirには、CD/DVDドライブがついていない。過去のソフトをどうやって新しく買ったインストールしようかと思って、なんとかMacBookProのDVDドライブを使えないか調べてみると、「リモートディスク」が使えるっぽい。</p>
+
+<p><a href="http://support.apple.com/kb/HT5287?viewlocale=ja_JP" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://support.apple.com/kb/HT5287?viewlocale=ja_JP" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://support.apple.com/kb/HT5287?viewlocale=ja_JP" target="_blank">DVD or CD sharing：リモートディスクを使う</a><a href="http://b.hatena.ne.jp/entry/http://support.apple.com/kb/HT5287?viewlocale=ja_JP" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://support.apple.com/kb/HT5287?viewlocale=ja_JP" alt="" /></a><br style="clear:both;" /><br></p>
+
+<p>早速、iWorkをリモートディスクを使ってインストールしてみた。</p>
+
+<p><div class="google-adsense">
+    <p>スポンサーリンク</p>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-5340212676785058"
+         data-ad-slot="1592375556"
+         data-ad-format="link"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+<br>
+<br></p>
+
+<h2 id="1-まずmacbookpro側でリモートディスクを有効にする:7301ea57e82e1b0a669dc5c9d448612e">1.まずMacBookPro側でリモートディスクを有効にする</h2>
+
+<p>システム環境設定の共有から
+<p><a href="http://www.flickr.com/photos/35571855%40N06/9132825549/" title="システム環境設定 by meganii, on Flickr" target="_blank"><img class="flickr_photo" src="http://farm6.staticflickr.com/5337/9132825549_538b90ce83.jpg"  alt="システム環境設定" width="400px"/></a><br /><cite class="flickr_photographer"><img src="http://farm7.static.flickr.com/6002/5974401716_35b6041cdc.jpg" width="16" /><a href="http://www.flickr.com/photos/35571855%40N06/9132825549/">システム環境設定</a> Photo by <a href="http://www.flickr.com/photos/35571855%40N06/">meganii</a></cite></p></p>
+
+<p>DVDまたはCD共有を選択
+<p><a href="http://www.flickr.com/photos/35571855%40N06/9135024638/" title="リモートディスク by meganii, on Flickr" target="_blank"><img class="flickr_photo" src="http://farm3.staticflickr.com/2828/9135024638_03421750e2.jpg"  alt="リモートディスク" width="400px"/></a><br /><cite class="flickr_photographer"><img src="http://farm7.static.flickr.com/6002/5974401716_35b6041cdc.jpg" width="16" /><a href="http://www.flickr.com/photos/35571855%40N06/9135024638/">リモートディスク</a> Photo by <a href="http://www.flickr.com/photos/35571855%40N06/">meganii</a></cite></p></p>
+
+<h2 id="2-macbookproでネットワークを作成:7301ea57e82e1b0a669dc5c9d448612e">2.MacBookProでネットワークを作成</h2>
+
+<p>適当にパスワードを作って、ネットワークを作成します。
+<p><a href="http://www.flickr.com/photos/35571855@N06/9133002529/" title="Create Network1 by meganii, on Flickr"><img src="http://farm8.staticflickr.com/7352/9133002529_139f7d77db.jpg" width="364" height="66" alt="Create Network1"></a></p></p>
+
+<p><a href="http://www.flickr.com/photos/35571855%40N06/9133002547/" title="Create Network2 by meganii, on Flickr" target="_blank"><img class="flickr_photo" src="http://farm4.staticflickr.com/3779/9133002547_264b7cb6a4.jpg"  alt="Create Network2" width="400px"/></a><br /><cite class="flickr_photographer"><img src="http://farm7.static.flickr.com/6002/5974401716_35b6041cdc.jpg" width="16" /><a href="http://www.flickr.com/photos/35571855%40N06/9133002547/">Create Network2</a> Photo by <a href="http://www.flickr.com/photos/35571855%40N06/">meganii</a></cite></p>
+
+<h3 id="ご参考:7301ea57e82e1b0a669dc5c9d448612e">ご参考</h3>
+
+<p><a href="http://blog.motta.jp/2013/06/macbookmacbookwifi.html" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://blog.motta.jp/2013/06/macbookmacbookwifi.html" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://blog.motta.jp/2013/06/macbookmacbookwifi.html" target="_blank">旧Macbookから新Macbookへの移行を高速に行う方法(WiFi経由)</a><a href="http://b.hatena.ne.jp/entry/http://blog.motta.jp/2013/06/macbookmacbookwifi.html" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://blog.motta.jp/2013/06/macbookmacbookwifi.html" alt="" /></a><br><span style="color: #808080;font-size: 80%;">アドホックネットワークの作り方 &hellip;</span><br style="clear:both;" /><br></p>
+
+<h2 id="3-macbookair側でリモートディスクの使用依頼をmacbookproに送る:7301ea57e82e1b0a669dc5c9d448612e">3.MacBookAir側でリモートディスクの使用依頼をMacBookProに送る</h2>
+
+<p>先ほど、MacBookProで作成したネットワークに接続すると、リモートディスクから、MacBookProが見えているはずです。</p>
+
+<p><a href="http://www.flickr.com/photos/35571855%40N06/9133002597/" title="RemoteDisk2 by meganii, on Flickr" target="_blank"><img class="flickr_photo" src="http://farm4.staticflickr.com/3811/9133002597_c906d1e466.jpg"  alt="RemoteDisk2" width="400px"/></a><br /><cite class="flickr_photographer"><img src="http://farm7.static.flickr.com/6002/5974401716_35b6041cdc.jpg" width="16" /><a href="http://www.flickr.com/photos/35571855%40N06/9133002597/">RemoteDisk2</a> Photo by <a href="http://www.flickr.com/photos/35571855%40N06/">meganii</a></cite></p>
+
+<p>このMacBookProをクリックして、右上の使用を依頼を押す。
+<p><a href="http://www.flickr.com/photos/35571855%40N06/9135222996/" title="RemoteDisk by meganii, on Flickr" target="_blank"><img class="flickr_photo" src="http://farm4.staticflickr.com/3707/9135222996_86c1f006ed.jpg"  alt="RemoteDisk" width="400px"/></a><br /><cite class="flickr_photographer"><img src="http://farm7.static.flickr.com/6002/5974401716_35b6041cdc.jpg" width="16" /><a href="http://www.flickr.com/photos/35571855%40N06/9135222996/">RemoteDisk</a> Photo by <a href="http://www.flickr.com/photos/35571855%40N06/">meganii</a></cite></p></p>
+
+<h2 id="4-macbookpro側で許可する:7301ea57e82e1b0a669dc5c9d448612e">4.MacBookPro側で許可する</h2>
+
+<p>これで、MacBookProにCDを入れると、MacBookAir側で認識することができました。</p>
+
+<p>あとは、好きにソフトをインストールするだけです。</p>
+
+<h2 id="注意:7301ea57e82e1b0a669dc5c9d448612e">注意</h2>
+
+<p>ただし、以下のタイプのディスクや操作は、DVD または CD 共有でサポートされていないそうです。
+- DVD ムービー
+- オーディオ CD
+- ゲームディスクなど、コピーガード (複製防止機能) がかかっているディスク
+- Microsoft Windows (Boot Camp で使用) または Mac OS X などのオペレーティングシステムのインストールディスク。
+- CD または DVD の作成</p>
+
+<p>音楽CDぐらい取り込ませてくれてもいいのにね。</p>
+
+<p>でも、これで、無駄にDVDドライブを買わずにすみました。もしも、困っていらっしゃる方がいたらぜひお試しください。</p>
+
+			</section>
+		</article>
+		<div class="google-adsense">
+			<p>スポンサーリンク</p>
+			<div class="ad">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-5340212676785058"
+				     data-ad-slot="7368951150"
+				     data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+			<div class="ad sp-none">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-5340212676785058"
+				     data-ad-slot="7368951150"
+				     data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+		</div>
+		
+		<div class="u-cf"></div>
+		
+		<div class="social-area-syncer">
+			<ul class="social-button-syncer">
+				
+				<li class="sc-tw"><a data-url="https://meganii.com/blog/2013/06/25/remote-disk/" href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-count="vertical" data-dnt="true" target="_blank"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.375-1.337.648-2.085.795-.598-.638-1.45-1.036-2.396-1.036-1.812 0-3.282 1.468-3.282 3.28 0 .258.03.51.085.75C5.152 5.39 2.733 4.084 1.114 2.1.83 2.583.67 3.147.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.416-.02-.617-.058.418 1.304 1.63 2.253 3.067 2.28-1.124.88-2.54 1.404-4.077 1.404-.265 0-.526-.015-.783-.045 1.453.93 3.178 1.474 5.032 1.474 6.038 0 9.34-5 9.34-9.338 0-.143-.004-.284-.01-.425.64-.463 1.198-1.04 1.638-1.7z" fill="#fff" fill-rule="nonzero"/></svg><span>Tweet</span></a></li>
+
+				
+				<li class="sc-fb"><div class="fb-like" data-href="https://meganii.com/blog/2013/06/25/remote-disk/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false"></div></li>
+
+				
+				<li><div data-href="https://meganii.com/blog/2013/06/25/remote-disk/" class="g-plusone" data-size="tall"></div></li>
+
+				
+				<li><a href="http://b.hatena.ne.jp/entry/https://meganii.com/blog/2013/06/25/remote-disk/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border:none;" /></a></li>
+
+				
+				<li><a data-save-url="https://meganii.com/blog/2013/06/25/remote-disk/" data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"></a></li>
+			</ul>
+
+		
+		<div id="fb-root"></div>
+
+		</div>
+		
+		
+		<section id="related">
+			<h2>Related Post</h2>
+			<div id="tags">
+				
+				<a href="https://meganii.com/blog/tags/mac"><i class="fa fa-tags"></i> Mac </a>
+				
+			</div>
+			<ul id="related-posts">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2016/01/23/el-capitan-upgrade-error/">El Capitanへのアップグレード時AppStoreに接続できなくなった場合(さらにキーチェーンアクセスでも対処できなかった時)の対処法 </a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2013/06/20/macbookair-dev/">MacBookAir Mid 2013環境構築</a></li>
+				
+				
+				
+				
+				
+				<li><a href="https://meganii.com/blog/2013/06/18/macbookair/">念願のAir!! MacBookAir Mid 2013買いました</a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</ul>
+		</section>
+	</main>
+
+	<aside class="three columns">
+
+  <section>
+    <h2>Profile</h2>
+    <div id="profile">
+      <div class="header-logo"><img src="/images/meganii_logo.png" width="60" height="60"></div>
+      <p>広く浅くから広く深くへ</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Popular</h2>
+    <ul class="list-unstyled urllist">
+  <li>
+    <div>
+  <a href="/blog/2014/02/22/wedding-movie-motion5/" title="evernote by meganii, on Flickr"><img class="urllist-img" src="https://farm4.staticflickr.com/3758/12878786213_afab3820c4_s.jpg" width="75" height="75" alt="iMovie Motion5"></a>
+      <a href="/blog/2014/02/22/wedding-movie-motion5/">iMovieとMotion5で作る結婚式余興ムービー</a>
+    </div>
+  </li>
+  <li>
+    <div>
+      <a href="/blog/2014/11/16/fountain-pen-cleaning/" title="image by meganii, on Flickr"><img class="urllist-img" src="https://farm8.staticflickr.com/7491/15800656071_6da29ae104_s.jpg" width="75" height="75" alt="万年筆Lamy safari"></a>
+      <a href="/blog/2014/11/16/fountain-pen-cleaning/">万年筆LAMY safariのインク洗浄・交換</a>
+    </div>
+  </li>
+  <li>
+    <div>
+      <a href="https://www.flickr.com/photos/35571855@N06/8714845801" title="20130502151754 by meganii, on Flickr"><img class="urllist-img" src="https://farm8.staticflickr.com/7436/8714845801_c24116dce0_s.jpg" width="75" height="75" alt="屋久島旅行記"></a>
+      <a href="/blog/2013/05/07/yakushima/">晴れの屋久島。雨の屋久島。屋久島旅行記</a>
+    </div>
+  </li>
+</ul>
+
+  </section>
+
+  
+  
+
+  
+  
+    <div class="sidebar-module">
+  <h3>Tech</h3>
+  <ul class="list-unstyled urllist">
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/"><img class="urllist-img" src="https://www.oreilly.co.jp/books/images/picture_large978-4-87311-744-7.jpeg" alt="Electron &#43; Mithril.jsでFlickrアプリを作成する" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/">Electron &#43; Mithril.jsでFlickrアプリを作成する</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/22/become-a-programmer/"><img class="urllist-img" src="https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg" alt="「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/22/become-a-programmer/">「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/"><img class="urllist-img" src="https://farm2.staticflickr.com/1467/25143519475_14929051ec_z.jpg" alt="ElectronでAmazonアフィリエイトリンクビルダーを作った" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/">ElectronでAmazonアフィリエイトリンクビルダーを作った</a>
+      </div>
+    </li>
+    
+  
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/10/post-to-slack/"><img class="urllist-img" src="/images/nopicture.png" alt="slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/10/post-to-slack/">slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/"><img class="urllist-img" src="https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg" alt="D3.jsで東京の地価データを可視化する" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/">D3.jsで東京の地価データを可視化する</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/07/javascript-ninja/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/51hWBKh7tdL._SL160_.jpg" alt="JavaScript Ninjaの極意 「関数の呼び出し」" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/07/javascript-ninja/">JavaScript Ninjaの極意 「関数の呼び出し」</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/06/d3js-tutorial/"><img class="urllist-img" src="/images/nopicture.png" alt="D3.jsチュートリアル" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/06/d3js-tutorial/">D3.jsチュートリアル</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/61DHJGf1uSL._SL160_.jpg" alt="Nightmare.jsでAmazonアフィリエイトのレポートを取得する" width="75"></a>
+        <a href="https://meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/">Nightmare.jsでAmazonアフィリエイトのレポートを取得する</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/01/30/effective-javascript-closure/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/517tJs%2B%2B%2BnL._SL160_.jpg" alt="[Effective JavaScript]クロージャ" width="75"></a>
+        <a href="https://meganii.com/blog/2016/01/30/effective-javascript-closure/">[Effective JavaScript]クロージャ</a>
+      </div>
+    </li>
+    
+  
+  </ul>
+</div>
+
+  
+
+  <section class="sidebar-module">
+    <h2>Latest</h2>
+    <ul class="list-unstyled urllist">
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/"><img class="urllist-img" src="https://www.oreilly.co.jp/books/images/picture_large978-4-87311-744-7.jpeg" alt="Electron &#43; Mithril.jsでFlickrアプリを作成する" width="75"></a>
+          <a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/">Electron &#43; Mithril.jsでFlickrアプリを作成する</a>
+        </div>
+      </li>
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/02/22/become-a-programmer/"><img class="urllist-img" src="https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg" alt="「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。" width="75"></a>
+          <a href="https://meganii.com/blog/2016/02/22/become-a-programmer/">「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。</a>
+        </div>
+      </li>
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/"><img class="urllist-img" src="https://farm2.staticflickr.com/1467/25143519475_14929051ec_z.jpg" alt="ElectronでAmazonアフィリエイトリンクビルダーを作った" width="75"></a>
+          <a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/">ElectronでAmazonアフィリエイトリンクビルダーを作った</a>
+        </div>
+      </li>
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/02/11/a-random-walk-down-wall-street/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/51UMwuX4tjL._SL160_.jpg" alt="a random walk down wall street" width="75"></a>
+          <a href="https://meganii.com/blog/2016/02/11/a-random-walk-down-wall-street/">a random walk down wall street</a>
+        </div>
+      </li>
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/02/10/post-to-slack/"><img class="urllist-img" src="/images/nopicture.png" alt="slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法" width="75"></a>
+          <a href="https://meganii.com/blog/2016/02/10/post-to-slack/">slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法</a>
+        </div>
+      </li>
+      
+    </ul>
+  </div>
+
+</aside>
+
+</div>
+
+
+	<footer role="contentinfo">
+		<div class="hr"></div>
+		<div class="footer-link">
+			
+			<a href="https://twitter.com/" target="_blank">Twitter</a>
+			
+			<a href="https://github.com/meganii" target="_blank">GitHub</a>
+		</div>
+		<div class="copyright">
+			<p>&copy; 2016  meganii  - SIS Lab</p>
+		</div>
+
+	</footer>
+
+</div>
+
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KG3QGC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KG3QGC');</script>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+ 
+if(window.addEventListener) {
+	window.addEventListener( "load" , shareButtonReadSyncer, false );
+}else{
+	window.attachEvent( "onload", shareButtonReadSyncer );
+}
+
+ 
+function shareButtonReadSyncer(){
+
+
+
+
+
+
+
+
+(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+
+var scriptTag = document.createElement("script");
+scriptTag.type = "text/javascript"
+scriptTag.src = "https://apis.google.com/js/platform.js";
+scriptTag.async = true;
+document.getElementsByTagName("head")[0].appendChild(scriptTag);
+
+
+var scriptTag = document.createElement("script");
+scriptTag.type = "text/javascript"
+scriptTag.src = "https://b.st-hatena.com/js/bookmark_button.js";
+scriptTag.async = true;
+document.getElementsByTagName("head")[0].appendChild(scriptTag);
+
+
+(!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js"));
+
+
+
+}
+</script>
+
+</body>
+</html>
+

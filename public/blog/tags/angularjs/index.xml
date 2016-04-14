@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Angularjs on SIS Lab</title>
+    <link>https://meganii.com/tags/angularjs/</link>
+    <description>Recent content in Angularjs on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 08 Nov 2014 20:37:00 +0900</lastBuildDate>
+    <atom:link href="https://meganii.com/tags/angularjs/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AngularJSでFlickrの埋め込みタグを作成する</title>
+      <link>https://meganii.com/blog/2014/11/08/angular-flickr/</link>
+      <pubDate>Sat, 08 Nov 2014 20:37:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2014/11/08/angular-flickr/</guid>
+      <description>
+
+&lt;p&gt;ブログ用に自分のFlickrフォトストリームから画像を選択して、貼り付け用URLを作りたくなったので、AngularJSで作ってみた。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://meganii.com/angularjs-flickr.html&#34;&gt;meganii.com/angularjs-flickr.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;参考:e2c647cc654d937c00d9e50cf564a00b&#34;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://angularjs.org/&#34;&gt;AngularJS — Superheroic JavaScript MVW Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://dotinstall.com/lessons/basic_angularjs&#34;&gt;AngularJS入門 (全12回) - プログラミングならドットインストール&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/daisy1754/angular-simple-demo-flickr-cat&#34;&gt;daisy1754/angular-simple-demo-flickr-cat · GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;こういうときのドットインストールはとても便利。&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;angularjs-flickr-html:e2c647cc654d937c00d9e50cf564a00b&#34;&gt;angularjs-flickr.html&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;html ng-app=&amp;quot;FlickrPhotos&amp;quot;&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;script src=&amp;quot;angular.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script src=&amp;quot;photo_controller.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;!-- Latest compiled and minified CSS --&amp;gt;
+    &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css&amp;quot;&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body ng-controller=&amp;quot;PhotoCtrl&amp;quot;&amp;gt;
+    &amp;lt;h1&amp;gt;Make Markdown URL for Flickr&amp;lt;/h1&amp;gt;
+    &amp;lt;div class=&amp;quot;col-md-12&amp;quot;&amp;gt;
+      &amp;lt;label&amp;gt;Time: &amp;lt;/label&amp;gt;
+      &amp;lt;input type=&amp;quot;text&amp;quot; ng-model=&amp;quot;time&amp;quot;&amp;gt;
+      &amp;lt;button ng-click=&amp;quot;doSearch()&amp;quot;&amp;gt;Search&amp;lt;/button&amp;gt;
+      &amp;lt;div ng-show=&amp;quot;loadingIndicator&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;loading-indicator.gif&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;div class=&amp;quot;col-md-6&amp;quot;&amp;gt;
+      &amp;lt;h2&amp;gt;My photos&amp;lt;/h2&amp;gt;
+      &amp;lt;div&amp;gt;
+        &amp;lt;ul&amp;gt;
+          &amp;lt;div ng-repeat=&amp;quot;photo in photos&amp;quot;&amp;gt;
+          &amp;lt;li&amp;gt;
+            &amp;lt;input type=&amp;quot;checkbox&amp;quot; ng-model=&amp;quot;photo&amp;quot; id=&amp;quot;photo-{{photo.id}}&amp;quot; ng-change=&amp;quot;selected({{$index}})&amp;quot;&amp;gt;
+            &amp;lt;h2&amp;gt;{{photo.title}}&amp;lt;/h2&amp;gt;
+            &amp;lt;img ng-src=&amp;quot;http://farm{{photo.farm}}.static.flickr.com/{{photo.server}}/{{photo.id}}_{{photo.secret}}_z.jpg&amp;quot;&amp;gt;
+          &amp;lt;/li&amp;gt;
+        &amp;lt;/ul&amp;gt;
+        &amp;lt;/div&amp;gt;
+      &amp;lt;/div&amp;gt; 
+    &amp;lt;/div&amp;gt;
+    &amp;lt;div class=&amp;quot;col-md-6&amp;quot;&amp;gt;
+      &amp;lt;h2&amp;gt;Selected&amp;lt;/h2&amp;gt;
+        &amp;lt;textarea class=&amp;quot;form-control&amp;quot; row=&amp;quot;3&amp;quot;&amp;gt;{{markdown}}&amp;lt;/textarea&amp;gt;
+        &amp;lt;div ng-repeat=&amp;quot;photo in photos | filter:selectedFilter&amp;quot;&amp;gt;
+          &amp;lt;h2&amp;gt;{{photo.title}}&amp;lt;/h2&amp;gt;
+          &amp;lt;img class=&amp;quot;img-responsive&amp;quot; src=&amp;quot;http://farm{{photo.farm}}.static.flickr.com/{{photo.server}}/{{photo.id}}_{{photo.secret}}_m.jpg&amp;quot;&amp;gt;
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+  &amp;lt;!-- jQuery (necessary for Bootstrap&#39;s JavaScript plugins) --&amp;gt;
+  &amp;lt;script src=&amp;quot;https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src=&amp;quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;photo-contoroller-js:e2c647cc654d937c00d9e50cf564a00b&#34;&gt;photo_contoroller.js&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;var App = angular.module(&#39;FlickrPhotos&#39;, []);
+
+App.controller(&#39;PhotoCtrl&#39;, function RepoListCtrl($scope, $http) {
+
+  $scope.markdown = &amp;quot;&amp;quot;;
+
+  $scope.doSearch = function() {
+    $http.jsonp(&amp;quot;https://api.flickr.com/services/rest/?method=flickr.photos.search&amp;amp;api_key=API_KEY&amp;amp;user_id=35571855%40N06&amp;amp;sort=date-posted-desc&amp;amp;format=json&amp;amp;jsoncallback=JSON_CALLBACK&amp;quot;)
+      .success(function(data) {
+        $scope.photos = data.photos.photo;
+        $scope.loadingIndicator = false;
+      });
+    $scope.loadingIndicator = true;
+  }
+
+  $scope.selectedFilter = function(photo) {
+    return photo.selected == true;
+  }
+
+  $scope.selected = function(index) {
+  	$scope.photos[index].selected = true;
+  	$scope.markdown = $scope.markdown + makeLinkTag($scope.photos[index]);
+  }
+
+  function makeLinkTag(photo) {
+  	return &#39;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;https://www.flickr.com/photos/&#39; + photo.owner + &#39;/&#39; + photo.id + &#39;&amp;quot; title=&amp;quot;&#39; + photo.title + &#39;by meganii, on Flickr&amp;quot;&amp;gt;&amp;lt;img class=&amp;quot;img-responsive&amp;quot; src=&amp;quot;https://farm&#39; + photo.farm + &#39;.staticflickr.com/&#39; + photo.server +&#39;/&#39; + photo.id + &#39;_&#39; + photo.secret + &#39;_z.jpg&amp;quot; alt=&amp;quot;&#39; + photo.title + &#39;&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;\n&#39;;
+  }
+
+  $scope.titleFilter = function(photo) {
+    if (!$scope.filterWord || $scope.filterWord.length == 0) return true;
+    return photo.title.indexOf($scope.filterWord) &amp;gt;= 0;
+  }
+})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;kaerebalink-box&#34; style=&#34;text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-image&#34; style=&#34;float:left;margin:0 15px 10px 0;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4873116678/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/515Z%2BlXDi4L._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-info&#34; style=&#34;line-height:120%;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4873116678/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;AngularJSアプリケーション開発ガイド&lt;/a&gt;&lt;div class=&#34;kaerebalink-powered-date&#34; style=&#34;font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://kaereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;カエレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-detail&#34; style=&#34;margin-bottom:5px;&#34;&gt;Brad Green,Shyam Seshadri オライリージャパン 2014-04-18    &lt;/div&gt;&lt;div class=&#34;kaerebalink-link1&#34; style=&#34;margin-top:10px;&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=AngularJS&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;tag=meganii-22&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;アマゾン&#34; &gt;Amazonで購入&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FAngularJS%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34; title=&#34;楽天市場&#34; &gt;楽天市場で購入&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

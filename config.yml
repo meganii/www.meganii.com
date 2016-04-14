@@ -1,0 +1,30 @@
+baseurl: "https://meganii.com/"
+languageCode: "ja"
+title: "SIS Lab"
+permalinks:
+  post: "/blog/:year/:month/:day/:slug/"
+
+Params:
+  Author: "meganii"
+  Birth: "Sun, March 3, 1988"
+  DateForm: "Mon, Jan 2, 2006"
+  GoogleAnalyticsUserID: "UA-55005303-5"
+  Twitter: "https://twitter.com/"
+  Github: "https://github.com/meganii"
+  ShowTagCloud: True
+  ShowRelatedPost: True
+  Disqus: "meganii"
+  SyntaxHighlightTheme: "solarized_dark.min.css"
+  logo: "/images/meganii_logo.png"
+
+MetadataFormat: "yaml"
+
+taxonomies:
+  tag: "tags"
+  category: "category"
+
+author:
+    name: "meganii"
+    homepage: "https://meganii.com/"
+
+Copyright:

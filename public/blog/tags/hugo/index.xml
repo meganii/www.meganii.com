@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on SIS Lab</title>
+    <link>https://meganii.com/tags/hugo/</link>
+    <description>Recent content in Hugo on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 11 Oct 2015 22:03:56 +0900</lastBuildDate>
+    <atom:link href="https://meganii.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hugoソースコードリーディング〜Taxonomy〜</title>
+      <link>https://meganii.com/blog/2015/10/11/hugo-taxonomy/</link>
+      <pubDate>Sun, 11 Oct 2015 22:03:56 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2015/10/11/hugo-taxonomy/</guid>
+      <description>
+
+&lt;h2 id=&#34;目的:339dd7b430bd07945df9a0c7e1587398&#34;&gt;目的&lt;/h2&gt;
+
+&lt;p&gt;Hugoにおける、categoryとtagの生成箇所を特定して、テーマ作成に役立てる。&lt;/p&gt;
+
+&lt;h2 id=&#34;用語確認:339dd7b430bd07945df9a0c7e1587398&#34;&gt;用語確認&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Taxonomy 分類&lt;/li&gt;
+&lt;li&gt;Term &amp;lsquo;Taxonomy&amp;rsquo;に含まれるキー&lt;/li&gt;
+&lt;li&gt;Value Termに割り当てられたコンテンツの一つ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;taxonomy-templated:339dd7b430bd07945df9a0c7e1587398&#34;&gt;Taxonomy Templated&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gohugo.io/taxonomies/templates/&#34;&gt;http://gohugo.io/taxonomies/templates/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;taxonomiesを利用する場合、2つ方法がある。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;list template&lt;/li&gt;
+&lt;li&gt;taxonomy terms template&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;1-list-template:339dd7b430bd07945df9a0c7e1587398&#34;&gt;1.list template&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;list template&lt;/code&gt;は、複数のsingle html pageのコンテンツを描画する際に利用されるテンプレート。
+この&lt;code&gt;list template&lt;/code&gt;は、自動的にすべてのtaxonomy pagesを作成する。&lt;/p&gt;
+
+&lt;h3 id=&#34;2-taxonomy-terms-template:339dd7b430bd07945df9a0c7e1587398&#34;&gt;2.taxonomy terms template&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;taxonomy terms template&lt;/code&gt;は、それぞれに与えたテンプレートで、termsのリストを生成する。&lt;/p&gt;
+
+&lt;p&gt;Taxonomyは、map[string]WeightedPages&lt;/p&gt;
+
+&lt;p&gt;.Get(term)&lt;br /&gt;
+.Count(term)&lt;/p&gt;
+
+&lt;p&gt;###Channel とは&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Channel は goroutine 間でのメッセージパッシングをするためのもの&lt;/li&gt;
+&lt;li&gt;メッセージの型を指定できる&lt;/li&gt;
+&lt;li&gt;first class value であり、引数や戻り値にも使える&lt;/li&gt;
+&lt;li&gt;send/receive でブロックする&lt;/li&gt;
+&lt;li&gt;buffer で、一度に扱えるメッセージ量を指定できる
+&lt;a href=&#34;http://jxck.hatenablog.com/entry/20130414/1365960707&#34;&gt;http://jxck.hatenablog.com/entry/20130414/1365960707&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Channel の close()
+close() は組み込みの関数で、用の済んだ channel を閉じることができます。
+そもそも channel の呼び出しは 2 つの値が受け取れます。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code&gt;message, ok := &amp;lt;-channel&lt;/code&gt;
+この 2 つめの ok は、 channel が閉じられているかを表す bool。
+ok は、取っても取らなくても良い仕様になっている。&lt;/p&gt;
+
+&lt;h2 id=&#34;site-go:339dd7b430bd07945df9a0c7e1587398&#34;&gt;site.go&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-golang:&#34;&gt;
+layouts := s.appendThemeTemplates(
+			[]string{&amp;quot;taxonomy/&amp;quot; + t.singular + &amp;quot;.html&amp;quot;, &amp;quot;indexes/&amp;quot; + t.singular + &amp;quot;.html&amp;quot;, &amp;quot;_default/taxonomy.html&amp;quot;, &amp;quot;_default/list.html&amp;quot;})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;利用しているテンプレート:339dd7b430bd07945df9a0c7e1587398&#34;&gt;利用しているテンプレート&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;taxonomy/&amp;rdquo; + t.singular + &amp;ldquo;.html&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;indexes/&amp;rdquo; + t.singular + &amp;ldquo;.html&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;_default/taxonomy.html&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;_default/list.html&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;rendertaxonomieslists:339dd7b430bd07945df9a0c7e1587398&#34;&gt;RenderTaxonomiesLists&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt; func (s *Site) RenderTaxonomiesLists() error {
+
+	for singular, plural := range taxonomies {
+		for key, pages := range s.Taxonomies[plural] {
+			fmt.Println(key, pages, singular, plural)
+			taxes &amp;lt;- taxRenderInfo{key, pages, singular, plural}
+		}
+	}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;categoryの場合:339dd7b430bd07945df9a0c7e1587398&#34;&gt;categoryの場合&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;key: categoryのkey&lt;/li&gt;
+&lt;li&gt;pages: どのページに含まれているか&lt;/li&gt;
+&lt;li&gt;singular: category&lt;/li&gt;
+&lt;li&gt;plural: category&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;tagの場合:339dd7b430bd07945df9a0c7e1587398&#34;&gt;tagの場合&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;key: tagのkey&lt;/li&gt;
+&lt;li&gt;pages: そのtagのkeyが含まれているページの配列&lt;/li&gt;
+&lt;li&gt;singular: tag&lt;/li&gt;
+&lt;li&gt;plural: tags&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;site-go-renderandwritepage:339dd7b430bd07945df9a0c7e1587398&#34;&gt;site.go renderAndWritePage&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-:golang:site.go&#34;&gt;func (s *Site) renderAndWritePage(name string, dest string, d interface{}, layouts ...string) error {
+	renderBuffer := bp.GetBuffer()
+	defer bp.PutBuffer(renderBuffer)
+
+	err := s.render(name, d, renderBuffer, layouts...)
+
+	outBuffer := bp.GetBuffer()
+	defer bp.PutBuffer(outBuffer)
+
+	transformLinks := transform.NewEmptyTransforms()
+
+	if viper.GetBool(&amp;quot;RelativeURLs&amp;quot;) || viper.GetBool(&amp;quot;CanonifyURLs&amp;quot;) {
+		transformLinks = append(transformLinks, transform.AbsURL)
+	}
+
+	if viper.GetBool(&amp;quot;watch&amp;quot;) &amp;amp;&amp;amp; !viper.GetBool(&amp;quot;DisableLiveReload&amp;quot;) {
+		transformLinks = append(transformLinks, transform.LiveReloadInject)
+	}
+
+	var path []byte
+
+	if viper.GetBool(&amp;quot;RelativeURLs&amp;quot;) {
+		translated, err := s.PageTarget().(target.OptionalTranslator).TranslateRelative(dest)
+		if err != nil {
+			return err
+		}
+		path = []byte(helpers.GetDottedRelativePath(translated))
+	} else if viper.GetBool(&amp;quot;CanonifyURLs&amp;quot;) {
+		s := viper.GetString(&amp;quot;BaseURL&amp;quot;)
+		if !strings.HasSuffix(s, &amp;quot;/&amp;quot;) {
+			s += &amp;quot;/&amp;quot;
+		}
+		path = []byte(s)
+	}
+
+	transformer := transform.NewChain(transformLinks...)
+	transformer.Apply(outBuffer, renderBuffer, path)
+
+	if err == nil {
+		if err = s.WriteDestPage(dest, outBuffer); err != nil {
+			return err
+		}
+	}
+	return err
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;bpって:339dd7b430bd07945df9a0c7e1587398&#34;&gt;bpって？&lt;/h3&gt;
+
+&lt;p&gt;bp &amp;ldquo;github.com/spf13/hugo/bufferpool&amp;rdquo;
+おそらく出力する際に、バッファリングしているのでは？&lt;/p&gt;
+
+&lt;h2 id=&#34;site-go-1:339dd7b430bd07945df9a0c7e1587398&#34;&gt;site.go&lt;/h2&gt;
+
+&lt;p&gt;RenderPages()の中で、go pageRenderer(s, pages, results, wg)を実施。&lt;/p&gt;
+
+&lt;p&gt;newTaxonomyNodeで、すでにbaseが作られている。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;func (s *Site) newTaxonomyNode(t taxRenderInfo) (*Node, string) {
+	key := t.key
+	n := s.NewNode()
+	if s.Info.preserveTaxonomyNames {
+		key = helpers.MakePathToLower(key)
+		// keep as is, just make sure the first char is upper
+		n.Title = helpers.FirstUpper(t.key)
+	} else {
+		n.Title = strings.Replace(strings.Title(t.key), &amp;quot;-&amp;quot;, &amp;quot; &amp;quot;, -1)
+	}
+
+	base := t.plural + &amp;quot;/&amp;quot; + key
+	s.setURLs(n, base)
+	if len(t.pages) &amp;gt; 0 {
+		n.Date = t.pages[0].Page.Date
+		n.Lastmod = t.pages[0].Page.Lastmod
+	}
+	n.Data[t.singular] = t.pages
+	n.Data[&amp;quot;Singular&amp;quot;] = t.singular
+	n.Data[&amp;quot;Plural&amp;quot;] = t.plural
+	n.Data[&amp;quot;Pages&amp;quot;] = t.pages.Pages()
+	return n, base
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;参考:339dd7b430bd07945df9a0c7e1587398&#34;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://gohugo.io/overview/introduction/&#34;&gt;Introduction to Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/hugo&#34;&gt;spf13/hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JekyllからHugoへの移行ポイント</title>
+      <link>https://meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/</link>
+      <pubDate>Sun, 30 Aug 2015 11:56:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/</guid>
+      <description>
+
+&lt;p&gt;Hugoが爆速であること、HugoがGolangで作られていて読みながら勉強したいという理由からJekyllからHugoに移行することにした。&lt;/p&gt;
+
+&lt;p&gt;基本的には、&lt;code&gt;_post&lt;/code&gt;ディレクトリにあるものを、Hugoでいう&lt;code&gt;content/post&lt;/code&gt;ディレクトリに配置すればよい。テーマを指定せずに、&lt;code&gt;hugo&lt;/code&gt;としても何も出力されないのでそこは注意すること。&lt;/p&gt;
+
+&lt;p&gt;JekyllからHugoに移行する際にハマった点を残しておく。&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;日付フォーマットの変更:f0690b20f8a68116cbc562e040ab8cb4&#34;&gt;日付フォーマットの変更&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml:2015-08-30-post.markdown&#34;&gt;---
+title: &amp;quot;タイトル&amp;quot;
+date: &amp;quot;2015-08-29T17:13:12+09:00&amp;quot;
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;jekyll だと、&lt;code&gt;2015-08-30 10:30&lt;/code&gt;で認識していたが、Hugoで読み取る日付フォーマットは、以下の通り。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2006-01-02T15:04:05Z07:00&lt;/li&gt;
+&lt;li&gt;2006-01-02T15:04:05&lt;/li&gt;
+&lt;li&gt;Mon, 02 Jan 2006 15:04:05 -0700&lt;/li&gt;
+&lt;li&gt;Mon, 02 Jan 2006 15:04:05 MST&lt;/li&gt;
+&lt;li&gt;02 Jan 06 15:04 -0700&lt;/li&gt;
+&lt;li&gt;02 Jan 06 15:04 MST&lt;/li&gt;
+&lt;li&gt;Mon Jan _2 15:04:05 2006&lt;/li&gt;
+&lt;li&gt;Mon Jan _2 15:04:05 MST 2006&lt;/li&gt;
+&lt;li&gt;Mon Jan 02 15:04:05 -0700 2006&lt;/li&gt;
+&lt;li&gt;2006-01-02 15:04:05Z07:00&lt;/li&gt;
+&lt;li&gt;02 Jan 06 15:04 MST&lt;/li&gt;
+&lt;li&gt;2006-01-02&lt;/li&gt;
+&lt;li&gt;02 Jan 2006&lt;/li&gt;
+&lt;li&gt;2006-01-02 15:04:05 -07:00&lt;/li&gt;
+&lt;li&gt;2006-01-02 15:04:05 -0700&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;hugo new&lt;/code&gt;で作成されるのは、おそらく&lt;code&gt;2006-01-02T15:04:05Z07:00&lt;/code&gt;の形式(実際には、2015-08-29T17:13:12+09:00のようになる)のため、この形式に変換する必要がある。&lt;/p&gt;
+
+&lt;p&gt;別に、作成したときの秒まで管理する必要はなく、年月日だけでよいのであれば、&lt;code&gt;2006-01-02&lt;/code&gt;とかでよいだろう。&lt;/p&gt;
+
+&lt;p&gt;ワンライナーで、変更する。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;find . -type f | xargs gsed -i -e &#39;s/date: \([0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}\) \([0-9]\{2\}:[0-9]\{2\}\).*$/date: \1T\2:00+09:00/g&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;不要frontmatterの削除:f0690b20f8a68116cbc562e040ab8cb4&#34;&gt;不要frontmatterの削除&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;layout:&lt;/code&gt;を削除する。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;find . -type f | xargs gsed -i -e &#39;s/layout:.*$//g&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;日付をparseしている箇所:f0690b20f8a68116cbc562e040ab8cb4&#34;&gt;日付をparseしている箇所&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-golang:github.com/spf13/cast/caste.go&#34;&gt;// StringToDate casts an empty interface to a time.Time.
+func StringToDate(s string) (time.Time, error) {
+	return parseDateWith(s, []string{
+		time.RFC3339,
+		&amp;quot;2006-01-02T15:04:05&amp;quot;, // iso8601 without timezone
+		time.RFC1123Z,
+		time.RFC1123,
+		time.RFC822Z,
+		time.RFC822,
+		time.ANSIC,
+		time.UnixDate,
+		time.RubyDate,
+		&amp;quot;2006-01-02 15:04:05Z07:00&amp;quot;,
+		&amp;quot;02 Jan 06 15:04 MST&amp;quot;,
+		&amp;quot;2006-01-02&amp;quot;,
+		&amp;quot;02 Jan 2006&amp;quot;,
+		&amp;quot;2006-01-02 15:04:05 -07:00&amp;quot;,
+		&amp;quot;2006-01-02 15:04:05 -0700&amp;quot;,
+	})
+}
+
+func parseDateWith(s string, dates []string) (d time.Time, e error) {
+	for _, dateType := range dates {
+		if d, e = time.Parse(dateType, s); e == nil {
+      fmt.Println(dateType)
+			return
+		}
+	}
+	return d, fmt.Errorf(&amp;quot;Unable to parse date: %s&amp;quot;, s)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://golang.org/pkg/time/#pkg-constants&#34;&gt;time - The Go Programming Language&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;urlを決める:f0690b20f8a68116cbc562e040ab8cb4&#34;&gt;URLを決める&lt;/h2&gt;
+
+&lt;p&gt;Jekyllのときは、&lt;code&gt;http://meganii.com/blog/2015/08/30/title/&lt;/code&gt;のようなURL形式だったため、その形式に合わせる。&lt;/p&gt;
+
+&lt;p&gt;合わせ方は、config.ymlで定義する。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yml:config.yml&#34;&gt;---
+baseurl: &amp;quot;http://meganii.com&amp;quot;
+permalinks:
+  post: &amp;quot;/blog/:year/:month/:day/:slug/&amp;quot;
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;permalinks:
+  post: &amp;quot;/blog/:year/:month/:day/:slug/&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;baseurlからみた、URL形式を&lt;code&gt;post:&lt;/code&gt;で定義する。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;:slug&lt;/code&gt;は、frontmatterで定義しないと使えないため、以下のように、各記事に&lt;code&gt;slug&lt;/code&gt;を埋め込む。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+title: &amp;quot;マーケティング22の法則を図解してみた&amp;quot;
+date: &amp;quot;2015-08-29T17:13:12+09:00&amp;quot;
+category: [&#39;Book&#39;]
+tags: [&#39;book&#39;,&#39;マーケティング&#39;]
+slug: marketing-22-raws
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;自分は、&lt;a href=&#34;http://meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/&#34;&gt;Swiftで初めてのMacOSXアプリケーション-FFViewer- | じょーぶん部&lt;/a&gt;で作成したソフトを利用して、frontmatterを埋め込んでいった。&lt;/p&gt;
+
+&lt;p&gt;ファイル名から判断して、slugを決めるようにした。&lt;/p&gt;
+
+&lt;h2 id=&#34;テーマ-robustを利用する上で直したポイント:f0690b20f8a68116cbc562e040ab8cb4&#34;&gt;テーマ Robustを利用する上で直したポイント&lt;/h2&gt;
+
+&lt;h3 id=&#34;summaryにimgタグも含まれてしまう問題:f0690b20f8a68116cbc562e040ab8cb4&#34;&gt;Summaryにimgタグも含まれてしまう問題。&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;\&amp;lt;!--more--\&amp;gt;&lt;/code&gt;だと、それ以前の文言を全て、Summaryとして扱う。その結果、Summaryに、imgタグが含まれてしまうため、デザインが崩れてしまった。&lt;/p&gt;
+
+&lt;p&gt;記事に含まれる&lt;code&gt;&amp;lt;\!--more--\&amp;gt;&lt;/code&gt;を全て削除した。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/content/summaries/&#34;&gt;Summaries&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;includeをshortcodeに変更:f0690b20f8a68116cbc562e040ab8cb4&#34;&gt;includeをshortcodeに変更&lt;/h3&gt;
+
+&lt;p&gt;google adsenseなどをincludeしていたが、shortcodeに変更する。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;layouts
+└── shortcodes
+    └── googleadsense.html
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34;&gt;Shortcodes&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ソースコードをインストール:f0690b20f8a68116cbc562e040ab8cb4&#34;&gt;ソースコードをインストール&lt;/h2&gt;
+
+&lt;p&gt;Hugoでは、git, Mercurialが必要なためインストール&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install mercurial
+go get -v github.com/spf13/hugo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;アップデートの場合は、以下のコマンドを実行するみたい。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;go get -u -v github.com/spf13/hugo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;タグとカテゴリの関係:f0690b20f8a68116cbc562e040ab8cb4&#34;&gt;タグとカテゴリの関係&lt;/h2&gt;
+
+&lt;p&gt;Taxonomyあたりが関係している。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;taxonomies:
+  tag: &amp;quot;tags&amp;quot;
+  category: &amp;quot;category&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;上記の指定をすることで、いわゆるタグと、カテゴリに使用する名称を定義する。ここでは、タグを&lt;code&gt;tags&lt;/code&gt;、カテゴリを&lt;code&gt;category&lt;/code&gt;とした。
+(各記事のfrontmatterで利用している名称と一致させること)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gohugo.io/templates/terms/&#34;&gt;http://gohugo.io/templates/terms/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;tag,categoryのページを生成する際は、list.htmlが呼ばれる。&lt;/p&gt;
+
+&lt;h2 id=&#34;gsedのインストール:f0690b20f8a68116cbc562e040ab8cb4&#34;&gt;gsedのインストール&lt;/h2&gt;
+
+&lt;p&gt;Macのsedは、挙動が違うらしいので、&lt;code&gt;brew install gsed&lt;/code&gt;でインストール&lt;/p&gt;
+
+&lt;h2 id=&#34;課題:f0690b20f8a68116cbc562e040ab8cb4&#34;&gt;課題&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;{% raw %}{% endraw %}が残っているため削除する&lt;/li&gt;
+&lt;li&gt;categoryとtagsのページレイアウトが仮のため、作成する(おそらくlist.htmlをいじればよい)&lt;/li&gt;
+&lt;li&gt;h2,h3に色を付けたい&lt;/li&gt;
+&lt;li&gt;imgをつけていく。&lt;/li&gt;
+&lt;li&gt;広告をつけていく&lt;/li&gt;
+&lt;li&gt;baseは、/blog/だから、categoryとtagsもそれに追随してほしい(直接hugoのソースをみてみる)&lt;/li&gt;
+&lt;li&gt;デザインをフォークする&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;参考:f0690b20f8a68116cbc562e040ab8cb4&#34;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/hugo&#34;&gt;https://github.com/spf13/hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.eiel.info/blog/2015/03/07/octopress-to-hugo/&#34;&gt;OctopressからHugoに移行した マルチコアをもっと使いTai - LT駆動開発12 | そんなこと覚えてない&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://yet.unresolved.xyz/blog/2015/01/04/migrate-blog-to-hugo-from-octopress/&#34;&gt;ブログをOctopressからHugoに移行した | Unresolved&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://deeeet.com/writing/2014/12/25/hugo/&#34;&gt;OctopressからHugoへ移行した | SOTA&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

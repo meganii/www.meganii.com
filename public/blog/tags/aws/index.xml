@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aws on SIS Lab</title>
+    <link>https://meganii.com/tags/aws/</link>
+    <description>Recent content in Aws on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 15 Mar 2014 12:44:00 +0900</lastBuildDate>
+    <atom:link href="https://meganii.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Immutable Infrastructure - JAWS DAYS 2014</title>
+      <link>https://meganii.com/blog/2014/03/15/jawsdays-immutable-infrastracture/</link>
+      <pubDate>Sat, 15 Mar 2014 12:44:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2014/03/15/jawsdays-immutable-infrastracture/</guid>
+      <description>
+
+&lt;p&gt;JAWS DAYS 2014参加レポート第1弾です。&lt;/p&gt;
+
+&lt;h2 id=&#34;immutable-infrastructure-naoya-ito:c3a595abffab10fad86cfee216600690&#34;&gt;Immutable Infrastructure @naoya_ito&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://d.hatena.ne.jp/naoya/20140315/1394851727&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://d.hatena.ne.jp/naoya/20140315/1394851727&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://d.hatena.ne.jp/naoya/20140315/1394851727&#34; target=&#34;_blank&#34;&gt;JAWS DAYS 2014、Immutable Infrastructure について - naoyaのはてなダイアリー&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://d.hatena.ne.jp/naoya/20140315/1394851727&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://d.hatena.ne.jp/naoya/20140315/1394851727&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;eb0795108e17013146041a945ae20cc0&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;そもそもimmutable-infrastructureって:c3a595abffab10fad86cfee216600690&#34;&gt;そもそもImmutable Infrastructureって？&lt;/h2&gt;
+
+&lt;p&gt;Disposable Componetnsって呼ばれたりしていて、不変な、状態を持たない、廃棄可能なっていう意味を持つ。&lt;/p&gt;
+
+&lt;p&gt;サーバの状態って、日々のチューニングなどで常に変化している。ケースとしてはまれかもしれないが、半年後にそんな状態のサーバにRailsアプリをもう一度デプロイするときはひどく怖いはす。&lt;/p&gt;
+
+&lt;p&gt;どんな変化を行なったかを管理する必要がある。&lt;/p&gt;
+
+&lt;h2 id=&#34;でもどうやってサーバの管理をする:c3a595abffab10fad86cfee216600690&#34;&gt;でもどうやってサーバの管理をする？&lt;/h2&gt;
+
+&lt;p&gt;今まで手順書で管理をしていた。しかし、手作業になるためどうしてもオペレーションミスが出てしまう。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;「状態管理が面倒なら、状態を管理しなければいいじゃない」&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;blue-green-deployment:c3a595abffab10fad86cfee216600690&#34;&gt;Blue, Green Deployment&lt;/h2&gt;
+
+&lt;p&gt;ELB, EIPを切り替えることで切り替えるのも行われている。それをもっと大規模にやる例だと思えばよい。&lt;/p&gt;
+
+&lt;h3 id=&#34;herokuでは同じことをやっている:c3a595abffab10fad86cfee216600690&#34;&gt;Herokuでは同じことをやっている&lt;/h3&gt;
+
+&lt;p&gt;git push する度に新しい環境(コンテナ)を作り、古い環境を捨てる。&lt;/p&gt;
+
+&lt;p&gt;上書きすると、環境が上書きされ変な状態になる場合がある。
+無停止で切り替えることができる&lt;/p&gt;
+
+&lt;h3 id=&#34;travis-ci:c3a595abffab10fad86cfee216600690&#34;&gt;Travis CI&lt;/h3&gt;
+
+&lt;p&gt;Jenkins as a Serviceみたいなもの。&lt;/p&gt;
+
+&lt;p&gt;テストをするときに、既存の環境があることでテストが通るというケースはよくある。まっさらな状態にテストを乗せて動かすことで、防ぐことができる。&lt;/p&gt;
+
+&lt;h3 id=&#34;amazonでは1時間で1-000回デプロイ:c3a595abffab10fad86cfee216600690&#34;&gt;Amazonでは1時間で1,000回デプロイ&lt;/h3&gt;
+
+&lt;p&gt;ビジネスのサイクルを早く回す。プロトタイプを早く回すという実利的なメリットがある。&lt;/p&gt;
+
+&lt;h2 id=&#34;infrastructure-as-code:c3a595abffab10fad86cfee216600690&#34;&gt;Infrastructure as Code&lt;/h2&gt;
+
+&lt;p&gt;最近になってChefなどの Configuration Management Toolが出来てきたのは、Aamazon Web Serviceが盛り上がってきているから。&lt;/p&gt;
+
+&lt;h2 id=&#34;冪等性:c3a595abffab10fad86cfee216600690&#34;&gt;冪等性&lt;/h2&gt;
+
+&lt;p&gt;ある操作を何回やっても結果が同じになること。Chefを何度も実行した際に、毎回状況が変わるのであれば使い元にならない。とはいえ、やっぱり環境の状態管理は難しい。&lt;/p&gt;
+
+&lt;h3 id=&#34;そこで-環境の状態管理はしない:c3a595abffab10fad86cfee216600690&#34;&gt;そこで、環境の状態管理はしない！&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;必要になったときに新しく作る&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;1回作ったものには変更を加えない&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Stateless な状況を作る。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;新しい環境をオンデマンドで即座に生成できる技術
+⇛　VMよりもコンテナが重要になってきた！&lt;/p&gt;
+
+&lt;p&gt;VMは、ハイパーバイザ、OS、などと起動していくためどうしても時間がかかる。
+一方、Linuxのコンテナは、Apacheと同じようなプロセスであるため、即座に起動できる。&lt;/p&gt;
+
+&lt;p&gt;プログラマブルにしたもの　⇛　Docker&lt;/p&gt;
+
+&lt;h4 id=&#34;docker:c3a595abffab10fad86cfee216600690&#34;&gt;Docker&lt;/h4&gt;
+
+&lt;p&gt;Linuxコンテナを手軽かつプログラマブルに扱えるようにする&lt;/p&gt;
+
+&lt;h4 id=&#34;jenkins-docker:c3a595abffab10fad86cfee216600690&#34;&gt;Jenkins + Docker&lt;/h4&gt;
+
+&lt;p&gt;コンテナの環境に依存してしまう　⇛　抽象レイヤー Docker
+アプリケーションがポータブルになる&lt;/p&gt;
+
+&lt;p&gt;Ruby
+ - Foreman
+ - Rack
+ - Bunder&lt;/p&gt;
+
+&lt;p&gt;npm, package.json&lt;/p&gt;
+
+&lt;p&gt;Buildpacks&lt;/p&gt;
+
+&lt;p&gt;アプリケーションがポータブルになると・・・&lt;/p&gt;
+
+&lt;p&gt;アプリケーション
+git pushすればOK ⇛　&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ステートレスなWebとURIのもｔらす制約ににている&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;状態を伝えるのは難しい。状態がなければ、指し示すことが可能になる&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;上書きデプロイから、コンテナベースのデプロイへ&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;課題:c3a595abffab10fad86cfee216600690&#34;&gt;課題&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;コンテナ/ Dockerだけでは足りない&lt;/li&gt;
+&lt;li&gt;ステートフルなサーバをどうするか？
+　ストレージ、キャッシュなど
+Webアプリなどでもステートレスなものがある　⇛　ログなど
+　ステートフルなものを外に逃す実装・・・fluentd&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;既存インフラの一部を動的にしたいというニーズはある。ユーザは、コンテナベースのデプロイのメリットを体感してきている。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>hitachi-cloud</title>
+      <link>https://meganii.com/blog/2014/02/11/hitachi-cloud/</link>
+      <pubDate>Tue, 11 Feb 2014 20:24:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2014/02/11/hitachi-cloud/</guid>
+      <description>
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;日立:df6deb97a25fa829bebc79b94b1c213d&#34;&gt;日立&lt;/h3&gt;
+
+&lt;p&gt;信頼性&lt;/p&gt;
+
+&lt;p&gt;でもどうしても、重厚長大なイメージ。
+スピード感、グローバル対応に対して手薄。&lt;/p&gt;
+
+&lt;h3 id=&#34;aws:df6deb97a25fa829bebc79b94b1c213d&#34;&gt;AWS&lt;/h3&gt;
+
+&lt;p&gt;スピード
+グローバル&lt;/p&gt;
+
+&lt;p&gt;使えるところは使う。
+テスト&lt;/p&gt;
+
+&lt;p&gt;AWS
+for JP1とかは、なかなかおもしろんじゃないか。&lt;/p&gt;
+
+&lt;h2 id=&#34;aws-summit-tokyo-2013-クラウドの-今-へご招待:df6deb97a25fa829bebc79b94b1c213d&#34;&gt;AWS Summit Tokyo 2013 〜クラウドの「今」へご招待〜&lt;/h2&gt;
+
+&lt;p&gt;Day2で&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JAWS-UG Osaka第10回 AWSとコストについて ～AWSをなるべく安く使い倒す〜</title>
+      <link>https://meganii.com/blog/2014/02/11/aws-osaka/</link>
+      <pubDate>Tue, 11 Feb 2014 19:58:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2014/02/11/aws-osaka/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://jawsugosaka.doorkeeper.jp/events/7484&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://jawsugosaka.doorkeeper.jp/events/7484&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://jawsugosaka.doorkeeper.jp/events/7484&#34; target=&#34;_blank&#34;&gt;JAWS-UG Osaka 第10回勉強会 2014年1月30日(木) - JAWS-UG大阪 | Doorkeeper&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://jawsugosaka.doorkeeper.jp/events/7484&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://jawsugosaka.doorkeeper.jp/events/7484&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;最近、Amazon Web Servicesに触れる機会があり、AWSのコストの考え方をちょっとでも聞きかじってこようと参加してきました。
+聞いててポイントをまとめてます。&lt;/p&gt;
+
+&lt;p&gt;##オンプレ脳からの脱却
+すべてをEC2で実装した場合⇛ 120万
+そこからサービスとして存在するものについては、AWSのサービスを使うようにしていけば、コストを下げることができる。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;EC2を使ったら負け&lt;/em&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;ELB化&lt;/li&gt;
+&lt;li&gt;Backupを S3に&lt;/li&gt;
+&lt;li&gt;DNS をRoute53に変更&lt;/li&gt;
+&lt;li&gt;メール&lt;/li&gt;
+&lt;li&gt;VPN ⇛ VPC&lt;/li&gt;
+&lt;li&gt;EBS削除&lt;/li&gt;
+&lt;li&gt;Webサーバ AS化&lt;/li&gt;
+&lt;li&gt;CloudFormation&lt;/li&gt;
+&lt;li&gt;リザーブドインスタンスの利用&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;ポイント
+- マネージドサービスを活用すること
+- こまめに停止する
+- リザーブド、スポットのインスタンスを利用すること&lt;/p&gt;
+
+&lt;h2 id=&#34;リージョンによる価格の違い:937fc4902a5f82ea03fee96611354414&#34;&gt;リージョンによる価格の違い&lt;/h2&gt;
+
+&lt;p&gt;日本のリージョンは、やはり高いみたい。&lt;/p&gt;
+
+&lt;p&gt;リージョンごとの料金の比較&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://d.hatena.ne.jp/dkfj/20140204&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://d.hatena.ne.jp/dkfj/20140204&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://d.hatena.ne.jp/dkfj/20140204&#34; target=&#34;_blank&#34;&gt;2014-02-04 - プログラマになりたい&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://d.hatena.ne.jp/dkfj/20140204&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://d.hatena.ne.jp/dkfj/20140204&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;金額通知サービス:937fc4902a5f82ea03fee96611354414&#34;&gt;金額通知サービス&lt;/h2&gt;
+
+&lt;p&gt;AWS billing alerts っていう金額通知サービスがあるので、うまく活用するとよい。&lt;/p&gt;
+
+&lt;h2 id=&#34;s3の使い方の注意-getとputの単価が桁違い:937fc4902a5f82ea03fee96611354414&#34;&gt;S3の使い方の注意 GETとPUTの単価が桁違い&lt;/h2&gt;
+
+&lt;p&gt;細かい単位で保存(アップロード)するより、できるだけ大きな単位(上限5GB)で保存すること。
+なぜなら、GETと違ってPUTのリクエスト当たりの単価は文字通り桁違いだから。&lt;/p&gt;
+
+&lt;h2 id=&#34;awsの一括決済:937fc4902a5f82ea03fee96611354414&#34;&gt;AWSの一括決済&lt;/h2&gt;
+
+&lt;p&gt;支払アカウントを作って、利用しているすべてのサイトを支払アカウントにひもづけることで、ボリューム割を受けることが出来る。
+また、提供サービス毎の金額を把握することが出来る。&lt;/p&gt;
+
+&lt;h2 id=&#34;スケジューリングベースのautoscaling:937fc4902a5f82ea03fee96611354414&#34;&gt;スケジューリングベースのAutoScaling&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;ログは常に、リモートログに！&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;AutoScalingで、自動的にインスタンスが停止、起動するため、ローカルにログを出力しても永続化できない。
+だから、ログはリモートに出力することが大事。&lt;/p&gt;
+
+&lt;p&gt;AutoScalingで気をつける点は、前提条件の合わせ方。ブートストラップの考え方が重要になってくる。
+どこまで、AMIに含めるか、モジュールをどうやって最新にするか？&lt;/p&gt;
+
+&lt;h2 id=&#34;リザーブドインスタンスのポイント:937fc4902a5f82ea03fee96611354414&#34;&gt;リザーブドインスタンスのポイント&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;稼働率の高い&lt;/li&gt;
+&lt;li&gt;最低限&lt;/li&gt;
+&lt;li&gt;キャパシティを予約&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;注意　「先にお金を払った後は、金額が発生しない。」というのは、間違い。&lt;/p&gt;
+
+&lt;p&gt;リザーブドインスタンスは、利用枠を買うと思った方がよい。
+ディザスタリカバリ(DR)先としてAWSを利用する場合は、リザーブドインスタンスにすべきである。
+なぜならば、DRが発生する際というのは、災害が発生して、ほかの人も同じようにインスタンスを立ち上げる可能性が高い。その場合、インスタンスが割当たらないリスクが発生するため。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

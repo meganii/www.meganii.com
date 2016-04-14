@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Api on SIS Lab</title>
+    <link>https://meganii.com/tags/api/</link>
+    <description>Recent content in Api on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 21 Nov 2014 22:34:00 +0900</lastBuildDate>
+    <atom:link href="https://meganii.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>TED APIを触ってみる</title>
+      <link>https://meganii.com/blog/2014/11/21/ted-api/</link>
+      <pubDate>Fri, 21 Nov 2014 22:34:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2014/11/21/ted-api/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://developer.ted.com/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://developer.ted.com/&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://developer.ted.com/&#34; target=&#34;_blank&#34;&gt;TED - Welcome to TEDLabs&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://developer.ted.com/&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://developer.ted.com/&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;いつのまにかTEDのAPIが公開されていたので、少し触ってみる。&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;昔は、APIが公開されてなかったので、スクレイピングで取得していた。
+(htmlの構造が今は変わってるので、以下のコードでは取得できません)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://d.hatena.ne.jp/meganii/20120320/1332214416&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://d.hatena.ne.jp/meganii/20120320/1332214416&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://d.hatena.ne.jp/meganii/20120320/1332214416&#34; target=&#34;_blank&#34;&gt;TEDの英語原稿を取得する - ギークを夢見るじょーぶん男子&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://d.hatena.ne.jp/meganii/20120320/1332214416&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://d.hatena.ne.jp/meganii/20120320/1332214416&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;require &#39;rubygems&#39;
+require &#39;open-uri&#39;
+require &#39;json&#39;
+require &#39;nokogiri&#39;
+
+url = &amp;quot;http://www.ted.com/talks/brene_brown_listening_to_shame.html&amp;quot;
+doc = Nokogiri::HTML(open(url))
+
+ted_id = doc.xpath(&amp;quot;//div[@id=&#39;share_and_save&#39;]&amp;quot;).first.attribute(&amp;quot;data-id&amp;quot;)
+
+open(&amp;quot;http://www.ted.com/talks/subtitles/id/#{ted_id}/lang/en&amp;quot;) do |f|
+  json = JSON.parse(f.read)
+  json[&#39;captions&#39;].each do |j|
+    puts j[&#39;content&#39;]
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;TED APIを使い、以下のエンドポイント(言い方あってる？)を叩くと、結果がjsonで返ってくる。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;https://api.ted.com/v1/talks.json?api-key=#{TED_API}&amp;amp;filter=slug:matt_cutts_try_something_new_for_30_day
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;この id が、動画の固有IDになる。すばらしい。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{&amp;quot;talks&amp;quot;:
+  [{&amp;quot;talk&amp;quot;:
+    {&amp;quot;id&amp;quot;:1183,
+     &amp;quot;event_id&amp;quot;:64,
+     &amp;quot;name&amp;quot;:&amp;quot;Matt Cutts: Try something new for 30 days&amp;quot;,
+     &amp;quot;description&amp;quot;:&amp;quot;Is there something you&#39;ve always meant to do, wanted to do, but just ... haven&#39;t? Matt Cutts suggests: Try it for 30 days. This short, lighthearted talk offers a neat way to think about setting and achieving goals.&amp;quot;,
+     &amp;quot;slug&amp;quot;:&amp;quot;matt_cutts_try_something_new_for_30_days&amp;quot;,
+     &amp;quot;native_language_code&amp;quot;:&amp;quot;en&amp;quot;,
+     &amp;quot;published_at&amp;quot;:&amp;quot;2011-07-01 15:14:00&amp;quot;,
+     &amp;quot;recorded_at&amp;quot;:&amp;quot;2011-03-03 00:00:00&amp;quot;,
+     &amp;quot;updated_at&amp;quot;:&amp;quot;2014-11-12 20:04:29&amp;quot;,
+     &amp;quot;released_at&amp;quot;:&amp;quot;2014-11-12 20:04:29&amp;quot;}}],
+    &amp;quot;counts&amp;quot;:{&amp;quot;this&amp;quot;:1,&amp;quot;total&amp;quot;:1}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;ドキュメント:c25bea3be7e274254b1a0b22f4d0afe6&#34;&gt;ドキュメント&lt;/h2&gt;
+
+&lt;p&gt;メモ書き程度に書き散らかす。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://developer.ted.com/io-docs&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://developer.ted.com/io-docs&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://developer.ted.com/io-docs&#34; target=&#34;_blank&#34;&gt;TED I/O Docs&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://developer.ted.com/io-docs&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://developer.ted.com/io-docs&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;events:c25bea3be7e274254b1a0b22f4d0afe6&#34;&gt;Events&lt;/h3&gt;
+
+&lt;p&gt;TEDのイベントがあった箇所を取得する
+{
+    &amp;ldquo;event&amp;rdquo;: {
+        &amp;ldquo;id&amp;rdquo;: 1,
+        &amp;ldquo;name&amp;rdquo;: &amp;ldquo;TED2008&amp;rdquo;,
+        &amp;ldquo;description&amp;rdquo;: &amp;ldquo;&amp;rdquo;,
+        &amp;ldquo;header_text&amp;rdquo;: &amp;ldquo;&amp;rdquo;,
+        &amp;ldquo;slug&amp;rdquo;: &amp;ldquo;2008&amp;rdquo;,
+        &amp;ldquo;url&amp;rdquo;: &amp;ldquo;&amp;rdquo;,
+        &amp;ldquo;starts_at&amp;rdquo;: &amp;ldquo;2008-02-27 00:00:00&amp;rdquo;
+    }
+}&lt;/p&gt;
+
+&lt;h3 id=&#34;ratings:c25bea3be7e274254b1a0b22f4d0afe6&#34;&gt;Ratings&lt;/h3&gt;
+
+&lt;p&gt;ランキング？&lt;/p&gt;
+
+&lt;h3 id=&#34;rating-words:c25bea3be7e274254b1a0b22f4d0afe6&#34;&gt;Rating Words&lt;/h3&gt;
+
+&lt;p&gt;投票するときの、表現？&lt;/p&gt;
+
+&lt;p&gt;{
+    &amp;ldquo;rating_words&amp;rdquo;: [{
+        &amp;ldquo;rating_word&amp;rdquo;: {
+            &amp;ldquo;id&amp;rdquo;: 1,
+            &amp;ldquo;name&amp;rdquo;: &amp;ldquo;Beautiful&amp;rdquo;
+        }
+    }, {
+        &amp;ldquo;rating_word&amp;rdquo;: {
+            &amp;ldquo;id&amp;rdquo;: 2,
+            &amp;ldquo;name&amp;rdquo;: &amp;ldquo;Confusing&amp;rdquo;
+        }
+    }, {
+        &amp;ldquo;rating_word&amp;rdquo;: {
+            &amp;ldquo;id&amp;rdquo;: 3,
+            &amp;ldquo;name&amp;rdquo;: &amp;ldquo;Courageous&amp;rdquo;
+        }
+    }, {
+        &amp;ldquo;rating_word&amp;rdquo;: {
+            &amp;ldquo;id&amp;rdquo;: 7,
+            &amp;ldquo;name&amp;rdquo;: &amp;ldquo;Funny&amp;rdquo;
+        }
+    }, {
+        &amp;ldquo;rating_word&amp;rdquo;: {
+            &amp;ldquo;id&amp;rdquo;: 8,
+            &amp;ldquo;name&amp;rdquo;: &amp;ldquo;Informative&amp;rdquo;
+        }
+    }, {
+        &amp;ldquo;rating_word&amp;rdquo;: {
+            &amp;ldquo;id&amp;rdquo;: 9,
+            &amp;ldquo;name&amp;rdquo;: &amp;ldquo;Ingenious&amp;rdquo;
+        }
+    }, {
+        &amp;ldquo;rating_word&amp;rdquo;: {
+            &amp;ldquo;id&amp;rdquo;: 10,
+            &amp;ldquo;name&amp;rdquo;: &amp;ldquo;Inspiring&amp;rdquo;
+        }
+    }, {
+        &amp;ldquo;rating_word&amp;rdquo;: {
+            &amp;ldquo;id&amp;rdquo;: 11,
+            &amp;ldquo;name&amp;rdquo;: &amp;ldquo;Longwinded&amp;rdquo;
+        }
+    }, {
+        &amp;ldquo;rating_word&amp;rdquo;: {
+            &amp;ldquo;id&amp;rdquo;: 21,
+            &amp;ldquo;name&amp;rdquo;: &amp;ldquo;Unconvincing&amp;rdquo;
+        }
+    }, {
+        &amp;ldquo;rating_word&amp;rdquo;: {
+            &amp;ldquo;id&amp;rdquo;: 22,
+            &amp;ldquo;name&amp;rdquo;: &amp;ldquo;Fascinating&amp;rdquo;
+        }
+    }, {
+        &amp;ldquo;rating_word&amp;rdquo;: {
+            &amp;ldquo;id&amp;rdquo;: 23,
+            &amp;ldquo;name&amp;rdquo;: &amp;ldquo;Jaw-dropping&amp;rdquo;
+        }
+    }, {
+        &amp;ldquo;rating_word&amp;rdquo;: {
+            &amp;ldquo;id&amp;rdquo;: 24,
+            &amp;ldquo;name&amp;rdquo;: &amp;ldquo;Persuasive&amp;rdquo;
+        }
+    }, {
+        &amp;ldquo;rating_word&amp;rdquo;: {
+            &amp;ldquo;id&amp;rdquo;: 25,
+            &amp;ldquo;name&amp;rdquo;: &amp;ldquo;OK&amp;rdquo;
+        }
+    }, {
+        &amp;ldquo;rating_word&amp;rdquo;: {
+            &amp;ldquo;id&amp;rdquo;: 26,
+            &amp;ldquo;name&amp;rdquo;: &amp;ldquo;Obnoxious&amp;rdquo;
+        }
+    }],
+    &amp;ldquo;counts&amp;rdquo;: {
+        &amp;ldquo;this&amp;rdquo;: 14,
+        &amp;ldquo;total&amp;rdquo;: 14
+    }
+}&lt;/p&gt;
+
+&lt;h3 id=&#34;speakers:c25bea3be7e274254b1a0b22f4d0afe6&#34;&gt;Speakers&lt;/h3&gt;
+
+&lt;p&gt;:id スピーカの固有ID&lt;/p&gt;
+
+&lt;p&gt;スピーカーの情報を得る&lt;/p&gt;
+
+&lt;h3 id=&#34;talks:c25bea3be7e274254b1a0b22f4d0afe6&#34;&gt;Talks&lt;/h3&gt;
+
+&lt;h3 id=&#34;themes:c25bea3be7e274254b1a0b22f4d0afe6&#34;&gt;Themes&lt;/h3&gt;
+
+&lt;p&gt;題名、テーマに関する取得&lt;/p&gt;
+
+&lt;h3 id=&#34;playlists:c25bea3be7e274254b1a0b22f4d0afe6&#34;&gt;Playlists&lt;/h3&gt;
+
+&lt;p&gt;プレイリスト関連の検索&lt;/p&gt;
+
+&lt;h3 id=&#34;search:c25bea3be7e274254b1a0b22f4d0afe6&#34;&gt;Search&lt;/h3&gt;
+
+&lt;h3 id=&#34;query:c25bea3be7e274254b1a0b22f4d0afe6&#34;&gt;Query&lt;/h3&gt;
+
+&lt;p&gt;カテゴリと検索文字列を指定して検索結果を得る&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on SIS Lab</title>
+    <link>https://meganii.com/tags/mac/</link>
+    <description>Recent content in Mac on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 23 Jan 2016 20:51:43 +0900</lastBuildDate>
+    <atom:link href="https://meganii.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>El Capitanへのアップグレード時AppStoreに接続できなくなった場合(さらにキーチェーンアクセスでも対処できなかった時)の対処法 </title>
+      <link>https://meganii.com/blog/2016/01/23/el-capitan-upgrade-error/</link>
+      <pubDate>Sat, 23 Jan 2016 20:51:43 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2016/01/23/el-capitan-upgrade-error/</guid>
+      <description>
+
+&lt;p&gt;今朝、El Capitanのアップグレードしたのだが、いつものごとくエラーが出たので対処方法をまとめておく。&lt;/p&gt;
+
+&lt;h2 id=&#34;起きた現象:e773022e2790ac04170892419b625c56&#34;&gt;起きた現象&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;App Storeにアクセスできない&lt;/li&gt;
+&lt;li&gt;通信が遅い&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;App Storeから気軽にアップデートを行い、意外とすんなりいけたかと思ったがやはり問題が生じた。調べてみると、SSL証明書が壊れるケースがあり、今回もそれに該当した。&lt;/p&gt;
+
+&lt;p&gt;解決方法としては、「Keychan Access.app」で、VeriSign関連の証明書を削除すればよいらしいのだが、自分の環境の場合、GUIから対象の証明書を選択しただけで、アプリが落ちてしまい対処できなかった。&lt;/p&gt;
+
+&lt;p&gt;※以下の証明書を選択するとアプリが固まってしまった。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;VeriSign Class 3 Public Primary Certification Authority - G3
+VeriSign Class 3 Public Primary Certification Authority - G5
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;大概のことは、ターミナル(terminal)からできるだろうと思い調べたら対処方法があったので共有したい。&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;対処方法:e773022e2790ac04170892419b625c56&#34;&gt;対処方法&lt;/h2&gt;
+
+&lt;h3 id=&#34;1-該当証明書の存在確認:e773022e2790ac04170892419b625c56&#34;&gt;1. 該当証明書の存在確認&lt;/h3&gt;
+
+&lt;p&gt;下記コマンドで、VeriSignの証明書を検索する。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;security find-certificate -c &amp;quot;VeriSigh&amp;quot; -Z -a
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;2-sha-1値取得:e773022e2790ac04170892419b625c56&#34;&gt;2. SHA-1値取得&lt;/h3&gt;
+
+&lt;p&gt;「1. 該当証明書の存在確認」で、削除したいリストが出ていることを確かめた上で以下のコマンドを実行して、一意となるSHA-1値を取得する。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;security find-certificate -c &amp;quot;VeriSigh&amp;quot; -Z -a | grep SHA-1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;3-削除:e773022e2790ac04170892419b625c56&#34;&gt;3. 削除&lt;/h3&gt;
+
+&lt;p&gt;以下のコマンドを実行し、取得したSHA-1の値を指定して削除する。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo security delete-certificate -Z {取得したSHA-1の値} /Users/meganii/Library/Keychains/login.keychain
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;※ &lt;code&gt;/Users/meganii/Library/Keychains/login.keychain&lt;/code&gt;の部分は、&lt;code&gt;security list-keychains&lt;/code&gt;で取得できるlogin.keychainの値&lt;/p&gt;
+
+&lt;h3 id=&#34;4-再起動:e773022e2790ac04170892419b625c56&#34;&gt;4. 再起動&lt;/h3&gt;
+
+&lt;p&gt;最後は、再起動すれば、App Storeにも接続することができた。&lt;/p&gt;
+
+&lt;h2 id=&#34;後は-毎度おなじみ-homebrew-周り:e773022e2790ac04170892419b625c56&#34;&gt;後は、毎度おなじみ Homebrew 周り&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;brew doctor
+Please note that these warnings are just used to help the Homebrew maintainers
+with debugging if you file an issue. If everything you use Homebrew for is
+working fine: please don&#39;t worry and just ignore them. Thanks!
+
+Warning: The /usr/local is not writable.
+
+You should probably change the ownership and permissions of /usr/local
+back to your user account.
+  sudo chown -R $(whoami) /usr/local
+
+Warning: Some directories in /usr/local/share/man aren&#39;t writable.
+This can happen if you &amp;quot;sudo make install&amp;quot; software that isn&#39;t managed
+by Homebrew. If a brew tries to add locale information to one of these
+directories, then the install will fail during the link step.
+
+You should probably `sudo chown -R $(whoami)` them:
+    /usr/local/share/man/mann
+
+Warning: The /usr/local directory is not writable.
+Even if this directory was writable when you installed Homebrew, other
+software may change permissions on this directory. For example, upgrading
+to OS X El Capitan has been known to do this. Some versions of the
+&amp;quot;InstantOn&amp;quot; component of Airfoil or running Cocktail cleanup/optimizations
+are known to do this as well.
+
+You should probably change the ownership and permissions of /usr/local
+back to your user account.
+  sudo chown -R $(whoami):admin /usr/local
+
+Warning: Unbrewed dylibs were found in /usr/local/lib.
+If you didn&#39;t put them there on purpose they could cause problems when
+building Homebrew formulae, and may need to be deleted.
+
+Unexpected dylibs:
+    /usr/local/lib/libnghttp2.14.dylib
+    /usr/local/lib/libtcl8.6.dylib
+    /usr/local/lib/libtk8.6.dylib
+
+Warning: Unbrewed header files were found in /usr/local/include.
+If you didn&#39;t put them there on purpose they could cause problems when
+building Homebrew formulae, and may need to be deleted.
+
+Unexpected header files:
+    /usr/local/include/fakemysql.h
+    /usr/local/include/fakepq.h
+    /usr/local/include/fakesql.h
+    /usr/local/include/itcl.h
+    /usr/local/include/itcl2TclOO.h
+    /usr/local/include/itclDecls.h
+    /usr/local/include/itclInt.h
+    /usr/local/include/itclIntDecls.h
+    /usr/local/include/itclMigrate2TclCore.h
+    /usr/local/include/itclTclIntStubsFcn.h
+    /usr/local/include/mysqlStubs.h
+    /usr/local/include/nghttp2/nghttp2.h
+    /usr/local/include/nghttp2/nghttp2ver.h
+    /usr/local/include/odbcStubs.h
+    /usr/local/include/pqStubs.h
+    /usr/local/include/tcl.h
+    /usr/local/include/tclDecls.h
+    /usr/local/include/tclOO.h
+    /usr/local/include/tclOODecls.h
+    /usr/local/include/tclPlatDecls.h
+    /usr/local/include/tclThread.h
+    /usr/local/include/tclTomMath.h
+    /usr/local/include/tclTomMathDecls.h
+    /usr/local/include/tdbc.h
+    /usr/local/include/tdbcDecls.h
+    /usr/local/include/tdbcInt.h
+    /usr/local/include/tk.h
+    /usr/local/include/tkDecls.h
+    /usr/local/include/tkPlatDecls.h
+
+Warning: Unbrewed .la files were found in /usr/local/lib.
+If you didn&#39;t put them there on purpose they could cause problems when
+building Homebrew formulae, and may need to be deleted.
+
+Unexpected .la files:
+    /usr/local/lib/libnghttp2.la
+
+Warning: Unbrewed .pc files were found in /usr/local/lib/pkgconfig.
+If you didn&#39;t put them there on purpose they could cause problems when
+building Homebrew formulae, and may need to be deleted.
+
+Unexpected .pc files:
+    /usr/local/lib/pkgconfig/libnghttp2.pc
+    /usr/local/lib/pkgconfig/tcl.pc
+    /usr/local/lib/pkgconfig/tk.pc
+
+Warning: Unbrewed static libraries were found in /usr/local/lib.
+If you didn&#39;t put them there on purpose they could cause problems when
+building Homebrew formulae, and may need to be deleted.
+
+Unexpected static libraries:
+    /usr/local/lib/libnghttp2.a
+    /usr/local/lib/libtclstub8.6.a
+    /usr/local/lib/libtkstub8.6.a
+
+Warning: Your Xcode (6.4) is outdated
+Please update to Xcode 7.2.
+Xcode can be updated from the App Store.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;対応:e773022e2790ac04170892419b625c56&#34;&gt;対応&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;以下のコマンドを実行&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo chown -R $(whoami) /usr/local
+/usr/local/share/man/mann
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;XCodeのバージョンアップ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;参考:e773022e2790ac04170892419b625c56&#34;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.odoruinu.net/2016/01/14/how-to-solve-el-capitan-ssl-problem-with-freezing-keychain/&#34;&gt;El CapitanのSSL問題、Keychainもフリーズする場合の対処法 | 踊る犬.net&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>リモートディスクを利用してMacBookProのDVDドライブからMacBookAirにソフトウェアをインストール</title>
+      <link>https://meganii.com/blog/2013/06/25/remote-disk/</link>
+      <pubDate>Tue, 25 Jun 2013 20:45:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2013/06/25/remote-disk/</guid>
+      <description>
+
+&lt;p&gt;MacBookAirには、CD/DVDドライブがついていない。過去のソフトをどうやって新しく買ったインストールしようかと思って、なんとかMacBookProのDVDドライブを使えないか調べてみると、「リモートディスク」が使えるっぽい。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://support.apple.com/kb/HT5287?viewlocale=ja_JP&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://support.apple.com/kb/HT5287?viewlocale=ja_JP&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://support.apple.com/kb/HT5287?viewlocale=ja_JP&#34; target=&#34;_blank&#34;&gt;DVD or CD sharing：リモートディスクを使う&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://support.apple.com/kb/HT5287?viewlocale=ja_JP&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://support.apple.com/kb/HT5287?viewlocale=ja_JP&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;早速、iWorkをリモートディスクを使ってインストールしてみた。&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;1-まずmacbookpro側でリモートディスクを有効にする:7301ea57e82e1b0a669dc5c9d448612e&#34;&gt;1.まずMacBookPro側でリモートディスクを有効にする&lt;/h2&gt;
+
+&lt;p&gt;システム環境設定の共有から
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/9132825549/&#34; title=&#34;システム環境設定 by meganii, on Flickr&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;flickr_photo&#34; src=&#34;http://farm6.staticflickr.com/5337/9132825549_538b90ce83.jpg&#34;  alt=&#34;システム環境設定&#34; width=&#34;400px&#34;/&gt;&lt;/a&gt;&lt;br /&gt;&lt;cite class=&#34;flickr_photographer&#34;&gt;&lt;img src=&#34;http://farm7.static.flickr.com/6002/5974401716_35b6041cdc.jpg&#34; width=&#34;16&#34; /&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/9132825549/&#34;&gt;システム環境設定&lt;/a&gt; Photo by &lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/&#34;&gt;meganii&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;DVDまたはCD共有を選択
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/9135024638/&#34; title=&#34;リモートディスク by meganii, on Flickr&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;flickr_photo&#34; src=&#34;http://farm3.staticflickr.com/2828/9135024638_03421750e2.jpg&#34;  alt=&#34;リモートディスク&#34; width=&#34;400px&#34;/&gt;&lt;/a&gt;&lt;br /&gt;&lt;cite class=&#34;flickr_photographer&#34;&gt;&lt;img src=&#34;http://farm7.static.flickr.com/6002/5974401716_35b6041cdc.jpg&#34; width=&#34;16&#34; /&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/9135024638/&#34;&gt;リモートディスク&lt;/a&gt; Photo by &lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/&#34;&gt;meganii&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;2-macbookproでネットワークを作成:7301ea57e82e1b0a669dc5c9d448612e&#34;&gt;2.MacBookProでネットワークを作成&lt;/h2&gt;
+
+&lt;p&gt;適当にパスワードを作って、ネットワークを作成します。
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855@N06/9133002529/&#34; title=&#34;Create Network1 by meganii, on Flickr&#34;&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7352/9133002529_139f7d77db.jpg&#34; width=&#34;364&#34; height=&#34;66&#34; alt=&#34;Create Network1&#34;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/9133002547/&#34; title=&#34;Create Network2 by meganii, on Flickr&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;flickr_photo&#34; src=&#34;http://farm4.staticflickr.com/3779/9133002547_264b7cb6a4.jpg&#34;  alt=&#34;Create Network2&#34; width=&#34;400px&#34;/&gt;&lt;/a&gt;&lt;br /&gt;&lt;cite class=&#34;flickr_photographer&#34;&gt;&lt;img src=&#34;http://farm7.static.flickr.com/6002/5974401716_35b6041cdc.jpg&#34; width=&#34;16&#34; /&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/9133002547/&#34;&gt;Create Network2&lt;/a&gt; Photo by &lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/&#34;&gt;meganii&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;ご参考:7301ea57e82e1b0a669dc5c9d448612e&#34;&gt;ご参考&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.motta.jp/2013/06/macbookmacbookwifi.html&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://blog.motta.jp/2013/06/macbookmacbookwifi.html&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://blog.motta.jp/2013/06/macbookmacbookwifi.html&#34; target=&#34;_blank&#34;&gt;旧Macbookから新Macbookへの移行を高速に行う方法(WiFi経由)&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://blog.motta.jp/2013/06/macbookmacbookwifi.html&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://blog.motta.jp/2013/06/macbookmacbookwifi.html&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;span style=&#34;color: #808080;font-size: 80%;&#34;&gt;アドホックネットワークの作り方 &amp;hellip;&lt;/span&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;3-macbookair側でリモートディスクの使用依頼をmacbookproに送る:7301ea57e82e1b0a669dc5c9d448612e&#34;&gt;3.MacBookAir側でリモートディスクの使用依頼をMacBookProに送る&lt;/h2&gt;
+
+&lt;p&gt;先ほど、MacBookProで作成したネットワークに接続すると、リモートディスクから、MacBookProが見えているはずです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/9133002597/&#34; title=&#34;RemoteDisk2 by meganii, on Flickr&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;flickr_photo&#34; src=&#34;http://farm4.staticflickr.com/3811/9133002597_c906d1e466.jpg&#34;  alt=&#34;RemoteDisk2&#34; width=&#34;400px&#34;/&gt;&lt;/a&gt;&lt;br /&gt;&lt;cite class=&#34;flickr_photographer&#34;&gt;&lt;img src=&#34;http://farm7.static.flickr.com/6002/5974401716_35b6041cdc.jpg&#34; width=&#34;16&#34; /&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/9133002597/&#34;&gt;RemoteDisk2&lt;/a&gt; Photo by &lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/&#34;&gt;meganii&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;このMacBookProをクリックして、右上の使用を依頼を押す。
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/9135222996/&#34; title=&#34;RemoteDisk by meganii, on Flickr&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;flickr_photo&#34; src=&#34;http://farm4.staticflickr.com/3707/9135222996_86c1f006ed.jpg&#34;  alt=&#34;RemoteDisk&#34; width=&#34;400px&#34;/&gt;&lt;/a&gt;&lt;br /&gt;&lt;cite class=&#34;flickr_photographer&#34;&gt;&lt;img src=&#34;http://farm7.static.flickr.com/6002/5974401716_35b6041cdc.jpg&#34; width=&#34;16&#34; /&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/9135222996/&#34;&gt;RemoteDisk&lt;/a&gt; Photo by &lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/&#34;&gt;meganii&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;4-macbookpro側で許可する:7301ea57e82e1b0a669dc5c9d448612e&#34;&gt;4.MacBookPro側で許可する&lt;/h2&gt;
+
+&lt;p&gt;これで、MacBookProにCDを入れると、MacBookAir側で認識することができました。&lt;/p&gt;
+
+&lt;p&gt;あとは、好きにソフトをインストールするだけです。&lt;/p&gt;
+
+&lt;h2 id=&#34;注意:7301ea57e82e1b0a669dc5c9d448612e&#34;&gt;注意&lt;/h2&gt;
+
+&lt;p&gt;ただし、以下のタイプのディスクや操作は、DVD または CD 共有でサポートされていないそうです。
+- DVD ムービー
+- オーディオ CD
+- ゲームディスクなど、コピーガード (複製防止機能) がかかっているディスク
+- Microsoft Windows (Boot Camp で使用) または Mac OS X などのオペレーティングシステムのインストールディスク。
+- CD または DVD の作成&lt;/p&gt;
+
+&lt;p&gt;音楽CDぐらい取り込ませてくれてもいいのにね。&lt;/p&gt;
+
+&lt;p&gt;でも、これで、無駄にDVDドライブを買わずにすみました。もしも、困っていらっしゃる方がいたらぜひお試しください。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MacBookAir Mid 2013環境構築</title>
+      <link>https://meganii.com/blog/2013/06/20/macbookair-dev/</link>
+      <pubDate>Thu, 20 Jun 2013 00:58:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2013/06/20/macbookair-dev/</guid>
+      <description>
+
+&lt;p&gt;MabBookAirの環境設定。
+とりあえず、Homebrewとrbenvを入れたときの備忘録。&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;xcodeのインストール:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;Xcodeのインストール&lt;/h2&gt;
+
+&lt;p&gt;App StoreからXcodeをインストール。&lt;/p&gt;
+
+&lt;h2 id=&#34;homebrewのインストール:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;Homebrewのインストール&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;$ ruby -e &amp;quot;$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)&amp;quot;
+==&amp;gt; This script will install:
+/usr/local/bin/brew
+/usr/local/Library/...
+/usr/local/share/man/man1/brew.1
+
+Press ENTER to continue or any other key to abort
+==&amp;gt; /usr/bin/sudo /bin/mkdir /usr/local
+
+WARNING: Improper use of the sudo command could lead to data loss
+or the deletion of important system files. Please double-check your
+typing when using sudo. Type &amp;quot;man sudo&amp;quot; for more information.
+
+To proceed, enter your password, or type Ctrl-C to abort.
+
+Password:
+==&amp;gt; /usr/bin/sudo /bin/chmod g+rwx /usr/local
+==&amp;gt; /usr/bin/sudo /usr/bin/chgrp admin /usr/local
+==&amp;gt; Downloading and Installing Homebrew...
+remote: Counting objects: 116619, done.
+remote: Compressing objects: 100% (55278/55278), done.
+remote: Total 116619 (delta 80742), reused 93671 (delta 60389)
+Receiving objects: 100% (116619/116619), 18.77 MiB | 95 KiB/s, done.
+Resolving deltas: 100% (80742/80742), done.
+From https://github.com/mxcl/homebrew
+ * [new branch]      master     -&amp;gt; origin/master
+HEAD is now at 6ffa175 ccache: added symlinks for more compiler versions
+Warning: Install the &amp;quot;Command Line Tools for Xcode&amp;quot;: http://connect.apple.com
+==&amp;gt; Installation successful!
+You should run `brew doctor&#39; *before* you install anything.
+Now type: brew help
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ここで、ちゃんとHomebrewがインストールされているか確認するために、以下のコマンドを叩く。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ brew doctor
+Warning: Experimental support for using Xcode without the &amp;quot;Command Line Tools&amp;quot;.
+You have only installed Xcode. If stuff is not building, try installing the
+&amp;quot;Command Line Tools for Xcode&amp;quot; package provided by Apple.
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;すると、Xcodeはインストールしたけど、　Command Line Tools for Xcodeがないと怒られた。&lt;/p&gt;
+
+&lt;p&gt;Xcodeを開いて、Xcode &amp;gt; Preferences &amp;gt; Downloads
+のところに、　Command Line Tools という項目があるので、インストール。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/9085897322/&#34; title=&#34;CommandLineToolsXcode by meganii, on Flickr&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;flickr_photo&#34; src=&#34;http://farm3.staticflickr.com/2857/9085897322_378c2478b7.jpg&#34;  alt=&#34;CommandLineToolsXcode&#34; width=&#34;400px&#34;/&gt;&lt;/a&gt;&lt;br /&gt;&lt;cite class=&#34;flickr_photographer&#34;&gt;&lt;img src=&#34;http://farm7.static.flickr.com/6002/5974401716_35b6041cdc.jpg&#34; width=&#34;16&#34; /&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/9085897322/&#34;&gt;CommandLineToolsXcode&lt;/a&gt; Photo by &lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/&#34;&gt;meganii&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;再び、　brew doctor&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ brew doctor
+Your system is ready to brew.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;正常にインストールされているようです。&lt;/p&gt;
+
+&lt;p&gt;次に Homebrewを使って環境を整える。&lt;/p&gt;
+
+&lt;h2 id=&#34;gitのインストール:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;gitのインストール&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install git
+==&amp;gt; Downloading http://git-core.googlecode.com/files/git-1.8.3.1.tar.gz
+######################################################################## 100.0%
+==&amp;gt; make prefix=/usr/local/Cellar/git/1.8.3.1 CC=cc CFLAGS= LDFLAGS= install
+==&amp;gt; make CC=cc CFLAGS= LDFLAGS=
+==&amp;gt; make clean
+==&amp;gt; make CC=cc CFLAGS= LDFLAGS=
+==&amp;gt; Downloading http://git-core.googlecode.com/files/git-manpages-1.8.3.1.tar.gz
+######################################################################## 100.0%
+==&amp;gt; Downloading http://git-core.googlecode.com/files/git-htmldocs-1.8.3.1.tar.gz
+######################################################################## 100.0%
+==&amp;gt; Caveats
+The OS X keychain credential helper has been installed to:
+  /usr/local/bin/git-credential-osxkeychain
+
+The &#39;contrib&#39; directory has been installed to:
+  /usr/local/share/git-core/contrib
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completion has been installed to:
+  /usr/local/share/zsh/site-functions
+==&amp;gt; Summary
+🍺  /usr/local/Cellar/git/1.8.3.1: 1324 files, 28M, built in 60 seconds
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;rvmからrbenvへ変更:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;RVMからrbenvへ変更&lt;/h2&gt;
+
+&lt;p&gt;RVMは、環境を勝手に書き換えることがあるそうなので、rbenvの方がいいという記事も見かけた。
+ということで今回は、気持ちの問題で、RVMからrbenvへ乗り換えました(あまり使いこなしていないので、どっちでもいいのだが)。&lt;/p&gt;
+
+&lt;h3 id=&#34;ruby-buildのインストール:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;Ruby-buildのインストール&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;$ brew install ruby-build
+==&amp;gt; Installing ruby-build dependency: autoconf
+==&amp;gt; Downloading http://ftpmirror.gnu.org/autoconf/autoconf-2.69.tar.gz
+######################################################################## 100.0%
+==&amp;gt; ./configure --prefix=/usr/local/Cellar/autoconf/2.69
+==&amp;gt; make install
+🍺  /usr/local/Cellar/autoconf/2.69: 69 files, 2.0M, built in 16 seconds
+==&amp;gt; Installing ruby-build dependency: pkg-config
+==&amp;gt; Downloading https://downloads.sf.net/project/machomebrew/Bottles/pkg-config-0.28.mountain_lion.bottle.tar.gz
+######################################################################## 100.0%
+==&amp;gt; Pouring pkg-config-0.28.mountain_lion.bottle.tar.gz
+🍺  /usr/local/Cellar/pkg-config/0.28: 10 files, 636K
+==&amp;gt; Installing ruby-build
+==&amp;gt; Downloading https://github.com/sstephenson/ruby-build/archive/v20130518.tar.gz
+######################################################################## 100.0%
+==&amp;gt; ./install.sh
+🍺  /usr/local/Cellar/ruby-build/20130518: 79 files, 352K, built in 4 seconds
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;rbenvのインストール:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;rbenvのインストール&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;$ brew install rbenv
+==&amp;gt; Downloading https://github.com/sstephenson/rbenv/archive/v0.4.0.tar.gz
+######################################################################## 100.0%
+==&amp;gt; Caveats
+To use Homebrew&#39;s directories rather than ~/.rbenv add to your profile:
+  export RBENV_ROOT=/usr/local/var/rbenv
+
+To enable shims and autocompletion add to your profile:
+  if which rbenv &amp;gt; /dev/null; then eval &amp;quot;$(rbenv init -)&amp;quot;; fi
+==&amp;gt; Summary
+🍺  /usr/local/Cellar/rbenv/0.4.0: 31 files, 152K, built in 3 seconds
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;bash-profileにパスを追加:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;bash_profileにパスを追加&lt;/h3&gt;
+
+&lt;p&gt;.bash_profileを作成して、以下の2行を追加。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;export PATH=&amp;quot;$HOME/.rbenv/bin:$PATH&amp;quot;
+eval &amp;quot;$(rbenv init -)&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;ruby-1-9-3をインストール:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;ruby 1.9.3をインストール&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;$ rbenv install 1.9.3-p286
+Downloading yaml-0.1.4.tar.gz...
+-&amp;gt; http://dqw8nmjcqpjn7.cloudfront.net/36c852831d02cf90508c29852361d01b
+Installing yaml-0.1.4...
+Installed yaml-0.1.4 to /Users/meganii/.rbenv/versions/1.9.3-p286
+
+Downloading ruby-1.9.3-p286.tar.gz...
+-&amp;gt; http://dqw8nmjcqpjn7.cloudfront.net/e2469b55c2a3d0d643097d47fe4984bb
+Installing ruby-1.9.3-p286...
+Installed ruby-1.9.3-p286 to /Users/meganii/.rbenv/versions/1.9.3-p286
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;opensslをインストール:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;OpenSSLをインストール&lt;/h3&gt;
+
+&lt;p&gt;後々に、このモジュールが必要になる場合があるというので、今のうちにインストール。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ brew install openssl
+==&amp;gt; Downloading http://openssl.org/source/openssl-1.0.1e.tar.gz
+######################################################################## 100.0%
+==&amp;gt; perl ./Configure --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic shared darwin64-
+==&amp;gt; make
+==&amp;gt; make test
+==&amp;gt; make install MANDIR=/usr/local/Cellar/openssl/1.0.1e/share/man MANSUFFIX=ssl
+==&amp;gt; Caveats
+To install updated CA certs from Mozilla.org:
+
+    brew install curl-ca-bundle
+
+This formula is keg-only: so it was not symlinked into /usr/local.
+
+Mac OS X already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+The OpenSSL provided by OS X is too old for some software.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you&#39;ll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/openssl/lib
+    CPPFLAGS: -I/usr/local/opt/openssl/include
+
+==&amp;gt; Summary
+🍺  /usr/local/Cellar/openssl/1.0.1e: 429 files, 15M, built in 4.6 minutes
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;readlineをインストール:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;readlineをインストール&lt;/h3&gt;
+
+&lt;p&gt;readlineもいるんじゃない？っていう記事を見かけたのでついでに入れておく。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install readline
+==&amp;gt; Downloading http://ftpmirror.gnu.org/readline/readline-6.2.tar.gz
+######################################################################## 100.0%
+==&amp;gt; Patching
+patching file callback.c
+patching file input.c
+patching file patchlevel
+patching file support/shobj-conf
+patching file vi_mode.c
+==&amp;gt; ./configure --prefix=/usr/local/Cellar/readline/6.2.4 --mandir=/usr/local/Cellar/readline/6.2.4/share/man --infodir=/usr/loc
+==&amp;gt; make install
+==&amp;gt; Caveats
+This formula is keg-only: so it was not symlinked into /usr/local.
+
+OS X provides the BSD libedit library, which shadows libreadline.
+In order to prevent conflicts when programs look for libreadline we are
+defaulting this GNU Readline installation to keg-only.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you&#39;ll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/readline/lib
+    CPPFLAGS: -I/usr/local/opt/readline/include
+
+==&amp;gt; Summary
+🍺  /usr/local/Cellar/readline/6.2.4: 31 files, 1.6M, built in 35 seconds
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;デフォルトで使うrubyのバージョンを指定:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;デフォルトで使うRubyのバージョンを指定&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;$ rbenv global 1.9.3-p426
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;$ which gem
+/Users/meganii/.rbenv/shims/gem
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;gemのPATHもちゃんと変わりました。&lt;/p&gt;
+
+&lt;h2 id=&#34;jekyllの設定:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;Jekyllの設定&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;$ gem install bundler
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;jekyllの設定-1:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;Jekyllの設定&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;$ gem install jekyll
+Fetching: liquid-2.5.0.gem (100%)
+Fetching: fast-stemmer-1.0.2.gem (100%)
+Building native extensions.  This coeuld take a while...
+Fetching: classifier-1.3.3.gem (100%)
+Fetching: directory_watcher-1.4.1.gem (100%)
+Fetching: syntax-1.0.0.gem (100%)
+Fetching: maruku-0.6.1.gem (100%)
+Fetching: kramdown-1.0.2.gem (100%)
+Fetching: yajl-ruby-1.1.0.gem (100%)
+Building native extensions.  This could take a while...
+Fetching: posix-spawn-0.3.6.gem (100%)
+Building native extensions.  This could take a while...
+Fetching: pygments.rb-0.5.0.gem (100%)
+Fetching: highline-1.6.19.gem (100%)
+Fetching: commander-4.1.3.gem (100%)
+Fetching: safe_yaml-0.7.1.gem (100%)
+Fetching: colorator-0.1.gem (100%)
+Fetching: jekyll-1.0.3.gem (100%)
+Successfully installed liquid-2.5.0
+Successfully installed fast-stemmer-1.0.2
+Successfully installed classifier-1.3.3
+Successfully installed directory_watcher-1.4.1
+Successfully installed syntax-1.0.0
+Successfully installed maruku-0.6.1
+Successfully installed kramdown-1.0.2
+Successfully installed yajl-ruby-1.1.0
+Successfully installed posix-spawn-0.3.6
+Successfully installed pygments.rb-0.5.0
+Successfully installed highline-1.6.19
+Successfully installed commander-4.1.3
+Successfully installed safe_yaml-0.7.1
+Successfully installed colorator-0.1
+Successfully installed jekyll-1.0.3
+15 gems installed
+Installing ri documentation for liquid-2.5.0...
+Installing ri documentation for fast-stemmer-1.0.2...
+Installing ri documentation for classifier-1.3.3...
+Installing ri documentation for directory_watcher-1.4.1...
+Installing ri documentation for syntax-1.0.0...
+Installing ri documentation for maruku-0.6.1...
+Couldn&#39;t find file to include &#39;MaRuKu.txt&#39; from lib/maruku.rb
+Installing ri documentation for kramdown-1.0.2...
+Installing ri documentation for yajl-ruby-1.1.0...
+Installing ri documentation for posix-spawn-0.3.6...
+Installing ri documentation for pygments.rb-0.5.0...
+Installing ri documentation for highline-1.6.19...
+Installing ri documentation for commander-4.1.3...
+Installing ri documentation for safe_yaml-0.7.1...
+Installing ri documentation for colorator-0.1...
+Installing ri documentation for jekyll-1.0.3...
+Installing RDoc documentation for liquid-2.5.0...
+Installing RDoc documentation for fast-stemmer-1.0.2...
+Installing RDoc documentation for classifier-1.3.3...
+Installing RDoc documentation for directory_watcher-1.4.1...
+Installing RDoc documentation for syntax-1.0.0...
+Installing RDoc documentation for maruku-0.6.1...
+Couldn&#39;t find file to include &#39;MaRuKu.txt&#39; from lib/maruku.rb
+Installing RDoc documentation for kramdown-1.0.2...
+Installing RDoc documentation for yajl-ruby-1.1.0...
+Installing RDoc documentation for posix-spawn-0.3.6...
+Installing RDoc documentation for pygments.rb-0.5.0...
+Installing RDoc documentation for highline-1.6.19...
+Installing RDoc documentation for commander-4.1.3...
+Installing RDoc documentation for safe_yaml-0.7.1...
+Installing RDoc documentation for colorator-0.1...
+Installing RDoc documentation for jekyll-1.0.3...
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>念願のAir!! MacBookAir Mid 2013買いました</title>
+      <link>https://meganii.com/blog/2013/06/18/macbookair/</link>
+      <pubDate>Tue, 18 Jun 2013 06:32:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2013/06/18/macbookair/</guid>
+      <description>
+
+&lt;p&gt;念願のMacBookAirをついに手に入れました！！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855@N06/9068613142/&#34; title=&#34;20130617211103 by , on Flickr&#34;&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7285/9068613142_195584a353.jpg&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;発売日の翌日に、ネット上のMac情報をみていたら、いつのまにかぽちってました。後悔はしない。ずっと待ち続けていたのだから。&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;構成:ff7f59546ae54f9b76aeb798dd542a97&#34;&gt;構成&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CPU 1.7GHzデュアルコアIntel Core i7（Turbo Boost使用時最大3.3GHz）&lt;/li&gt;
+&lt;li&gt;メモリ 8GB&lt;/li&gt;
+&lt;li&gt;SSD 256GB&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;なんとなくJISキーボードが飽きたので、USキーボードに変更。
+- &lt;a href=&#34;http://d.hatena.ne.jp/inouetakuya/20110726/1311640787&#34;&gt;Lion 搭載の新型 MacBook Air を買う前に検討しておきたい US 配列キーボード - 彼女からは、おいちゃんと呼ばれています&lt;/a&gt;
+- &lt;a href=&#34;http://ushigyu.net/2012/06/27/difference_between_jis_and_us_keyboard/&#34;&gt;JISとUSキーボードの違いと、乗り換える際に最低限やっておくべき2つの設定&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;SSD使うの初めてで、なんだかすべてが早くなった気がする笑。(実際、再起動の速さは凄まじい)&lt;/p&gt;
+
+&lt;h2 id=&#34;衝動買いの理由:ff7f59546ae54f9b76aeb798dd542a97&#34;&gt;衝動買いの理由&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;MacBookProを買って、4,5年経った&lt;/li&gt;
+&lt;li&gt;MacBookProは持ち運ぶのにちょっと重い&lt;/li&gt;
+&lt;li&gt;MacBookProをLIONにしてからもたつくことが増えた。&lt;/li&gt;
+&lt;li&gt;バッテリーの持ちが悪くなってきた&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Air欲しい。欲しい。欲しい！！！&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;そこに、バッテリー駆動時間が大幅に伸びたというMacBookAirが出たのでぽちっと買ってしまいました。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;今回のバージョンにはretinaディスプレイが搭載されなかったから、マイナーなバージョンアップととらえる人もいる。でも大きな改良点があるバージョンアップには不具合がある可能性がある。今回のようなマイナーな改良時こそ、製品が完璧ともいえる領域に達するときであり、買い時なのだと思う。
+&lt;a href=&#34;http://techwave.jp/archives/%e3%81%9d%e3%81%97%e3%81%a6macbook-air%e3%81%af%e5%83%95%e3%81%ab%e3%81%a8%e3%81%a3%e3%81%a6%e3%81%ae%e7%a5%9e%e3%83%9e%e3%82%b7%e3%83%b3%e3%81%a8%e3%81%aa%e3%81%a3%e3%81%9f%e3%80%90%e6%b9%af%e5%b7%9d.html&#34;&gt;そしてMacBook Airは僕にとっての神マシンとなった【湯川鶴章】 | TechWave&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;欲しいと思った時が買い時ですよね。
+後悔はしてないよ。&lt;/p&gt;
+
+&lt;p&gt;さて環境設定、環境設定♪&lt;/p&gt;
+
+&lt;div class=&#34;kaerebalink-box&#34; style=&#34;text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-image&#34; style=&#34;float:left;margin:0 15px 10px 0;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B008B3AMMO/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/41RrsWMRLJL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-info&#34; style=&#34;line-height:120%;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;kaerebalink-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B008B3AMMO/meganii-22/ref=nosim/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;APPLE MacBook Air 1.8GHz Core i5/13.3/4GB/128GB MD231J/A&lt;/a&gt;&lt;div class=&#34;kaerebalink-powered-date&#34; style=&#34;font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://kaereba.com&#34; target=&#34;_blank&#34;&gt;カエレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;kaerebalink-detail&#34; style=&#34;margin-bottom:5px;&#34;&gt; アップル 2012-06-13    &lt;/div&gt;&lt;div class=&#34;kaerebalink-link1&#34; style=&#34;margin-top:10px;&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

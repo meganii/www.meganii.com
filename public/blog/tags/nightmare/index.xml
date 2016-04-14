@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nightmare on SIS Lab</title>
+    <link>https://meganii.com/tags/nightmare/</link>
+    <description>Recent content in Nightmare on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 01 Feb 2016 22:52:47 +0900</lastBuildDate>
+    <atom:link href="https://meganii.com/tags/nightmare/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Nightmare.jsでAmazonアフィリエイトのレポートを取得する</title>
+      <link>https://meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/</link>
+      <pubDate>Mon, 01 Feb 2016 22:52:47 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/</guid>
+      <description>
+
+&lt;p&gt;この本を読んで、Ruby, Capybaraから取得することはできていたが、そもそもCapybaraは、PhantomJS/PoltergeistというJavaScriptライブラリのラッパーであり、JavaScriptから直接操作するにはどんな方法があり、どんな書き方になるのかを知りたかったので、調べてみました。これを機会に、JavaScriptを書けるようになりたいとも願いつつ。。。&lt;/p&gt;
+
+&lt;div class=&#34;booklink-box&#34;&gt;&lt;div class=&#34;booklink-image&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/B00TO6KMEK/meganii-22/&#34; target=&#34;_blank&#34; &gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/51Pyh8Z7bjL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklink-info&#34;&gt;&lt;div class=&#34;booklink-name&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/B00TO6KMEK/meganii-22/&#34; target=&#34;_blank&#34; &gt;Rubyによるクローラー開発技法　巡回・解析機能の実装と21の運用例[Kindle版]&lt;/a&gt;&lt;div class=&#34;booklink-powered-date&#34;&gt;posted with &lt;a href=&#34;http://yomereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-detail&#34;&gt;るびきち SBクリエイティブ 2015-03-02    &lt;/div&gt;&lt;div class=&#34;booklink-link2&#34;&gt;&lt;div class=&#34;shoplinkkindle&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00TO6KMEK/meganii-22/&#34; target=&#34;_blank&#34; &gt;Kindle&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkamazon&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4797380357/meganii-22/&#34; target=&#34;_blank&#34; &gt;Amazon[書籍版]&lt;/a&gt;&lt;/div&gt;                                                &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;nightmareとは:750ea7be14c2ba45472ce062ec83fb8e&#34;&gt;Nightmareとは？&lt;/h2&gt;
+
+&lt;p&gt;Nightmare.jsは、ブラウザの挙動を自動化できるJavaScriptライブラリです。以前は、PhantomJSのラッパーだったみたいだが、現在は内部的にElectronを利用するようになった。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/segmentio/nightmare&#34;&gt;segmentio/nightmare: A high-level browser automation library.&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;npm install nightmare
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;amazon-アフィリエイトの前日のレポートを取得する:750ea7be14c2ba45472ce062ec83fb8e&#34;&gt;Amazon アフィリエイトの前日のレポートを取得する&lt;/h2&gt;
+
+&lt;p&gt;まずは、完成品をどうぞ。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var Nightmare = require(&#39;nightmare&#39;);
+var vo = require(&#39;vo&#39;);
+
+vo(function* () {
+  var nightmare = Nightmare({ show: false });
+  var link = yield nightmare
+	  .goto(&#39;https://affiliate.amazon.co.jp/&#39;)
+		.type(&#39;input#username&#39;, &#39;USERID&#39;)
+		.type(&#39;input#password&#39;, &#39;PASSWORD&#39;)
+		.click(&#39;#signin &amp;gt; input[type=&amp;quot;image&amp;quot;]&#39;)
+		.wait(&#39;#mini-report&#39;)
+		.evaluate(function () {
+			return document.querySelector(&#39;#mini-report &amp;gt; div.line-item-total &amp;gt; div.data&#39;).textContent;
+		});
+	yield nightmare.end();
+  return link;
+})(function (err, result) {
+  if (err) return console.log(err);
+  console.log(result);
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;サンプルコードを動かす:750ea7be14c2ba45472ce062ec83fb8e&#34;&gt;サンプルコードを動かす&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;npm install nightmare vo
+node --harmony yahoo.js
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;JavaScript初心者な自分にとっては、まず下記のサンプルコードが動かせなかったし、何が原因かわからなかった。よくよくJavaScriptの背景と現状を追ってみると、&amp;rsquo;function* &amp;lsquo;, &amp;lsquo;yield&amp;rsquo;などのコードを含むのは、ES2015(ES6)のバージョンの書き方であり、Node.jsのバージョンが古いと動かせないことがわかった。&lt;/p&gt;
+
+&lt;p&gt;Node.jsのバージョンをv5.5.0に上げて、再実行したところ、Electronが立ち上がり、yahoo.comに検索しに行くのを確認できる。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var Nightmare = require(&#39;nightmare&#39;);
+var vo = require(&#39;vo&#39;);
+
+vo(function* () {
+  var nightmare = Nightmare({ show: true });
+  var link = yield nightmare
+    .goto(&#39;http://yahoo.com&#39;)
+    .type(&#39;input[title=&amp;quot;Search&amp;quot;]&#39;, &#39;github nightmare&#39;)
+    .click(&#39;.searchsubmit&#39;)
+    .wait(&#39;.ac-21th&#39;)
+    .evaluate(function () {
+      return document.getElementsByClassName(&#39;ac-21th&#39;)[0].href;
+    });
+  yield nightmare.end();
+  return link;
+})(function (err, result) {
+  if (err) return console.log(err);
+  console.log(result);
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;genaratar-function-って:750ea7be14c2ba45472ce062ec83fb8e&#34;&gt;Genaratar function* って？&lt;/h3&gt;
+
+&lt;p&gt;ここ数日の自分の理解だと、「非同期処理を同期的に記述する」ための記述方法であるという理解。&lt;code&gt;yield&lt;/code&gt;によって処理を途中で止めることができる。
+(もう少し理解がまとまったら、追記したい)&lt;/p&gt;
+
+&lt;h2 id=&#34;参考:750ea7be14c2ba45472ce062ec83fb8e&#34;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://qiita.com/n0bisuke/items/8a7a52321380e5cf0379&#34;&gt;Nightmareがv2(Electronベース)になり、使いやすく感動したのでLIGブログのPV/UUデータ取得を自動化してみた。 - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.glidenote.com/blog/2015/10/01/nightmare-screenshots/&#34;&gt;ChatOps + NightmareでメトリクスグラフとBIレポートをSlackに投げるようにした - Glide Note - グライドノート&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://qiita.com/n0bisuke/items/75b238ec88c96aa0dee8&#34;&gt;Nightmare.jsでQiitaのコントリビューション数をスクレイピング - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://azurelogic.com/posts/web-scraping-with-nightmare-js/&#34;&gt;Web scraping with Nightmare.js | azurelogic.com&lt;/a&gt; (PhantomJSの時の例)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;参考図書:750ea7be14c2ba45472ce062ec83fb8e&#34;&gt;参考図書&lt;/h2&gt;
+
+&lt;div class=&#34;booklink-box&#34;&gt;&lt;div class=&#34;booklink-image&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4883379930/meganii-22/&#34; target=&#34;_blank&#34; &gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/61DHJGf1uSL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklink-info&#34;&gt;&lt;div class=&#34;booklink-name&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4883379930/meganii-22/&#34; target=&#34;_blank&#34; &gt;JS+Node.jsによるWebクローラー/ネットエージェント開発テクニック&lt;/a&gt;&lt;div class=&#34;booklink-powered-date&#34;&gt;posted with &lt;a href=&#34;http://yomereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-detail&#34;&gt;クジラ飛行机 ソシム 2015-08-31    &lt;/div&gt;&lt;div class=&#34;booklink-link2&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4883379930/meganii-22/&#34; target=&#34;_blank&#34; &gt;Amazon&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkkindle&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=JS%2BNode.js%82%C9%82%E6%82%E9Web%83N%83%8D%81%5B%83%89%81%5B%2F%83l%83b%83g%83G%81%5B%83W%83F%83%93%83g%8AJ%94%AD%83e%83N%83j%83b%83N&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;url=node%3D2275256051&amp;tag=meganii-22&#34; target=&#34;_blank&#34; &gt;Kindle&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/13e181b2.b5761023.13e181b3.cbc7b217/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F13377786%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F&#34; target=&#34;_blank&#34; &gt;楽天ブックス&lt;/a&gt;&lt;/div&gt;                                   &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&#34;booklink-box&#34;&gt;&lt;div class=&#34;booklink-image&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/B00TO6KMEK/meganii-22/&#34; target=&#34;_blank&#34; &gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/51Pyh8Z7bjL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklink-info&#34;&gt;&lt;div class=&#34;booklink-name&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/B00TO6KMEK/meganii-22/&#34; target=&#34;_blank&#34; &gt;Rubyによるクローラー開発技法　巡回・解析機能の実装と21の運用例[Kindle版]&lt;/a&gt;&lt;div class=&#34;booklink-powered-date&#34;&gt;posted with &lt;a href=&#34;http://yomereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-detail&#34;&gt;るびきち SBクリエイティブ 2015-03-02    &lt;/div&gt;&lt;div class=&#34;booklink-link2&#34;&gt;&lt;div class=&#34;shoplinkkindle&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00TO6KMEK/meganii-22/&#34; target=&#34;_blank&#34; &gt;Kindle&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkamazon&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4797380357/meganii-22/&#34; target=&#34;_blank&#34; &gt;Amazon[書籍版]&lt;/a&gt;&lt;/div&gt;                                                &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&#34;booklink-box&#34;&gt;&lt;div class=&#34;booklink-image&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4798131113/meganii-22/&#34; target=&#34;_blank&#34; &gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/51nSK4pE-RL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklink-info&#34;&gt;&lt;div class=&#34;booklink-name&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4798131113/meganii-22/&#34; target=&#34;_blank&#34; &gt;Effective JavaScript&lt;/a&gt;&lt;div class=&#34;booklink-powered-date&#34;&gt;posted with &lt;a href=&#34;http://yomereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-detail&#34;&gt;David Herman 翔泳社 2013-02-19    &lt;/div&gt;&lt;div class=&#34;booklink-link2&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4798131113/meganii-22/&#34; target=&#34;_blank&#34; &gt;Amazon&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkkindle&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00EESW7JQ/meganii-22/&#34; target=&#34;_blank&#34; &gt;Kindle&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/13e181b2.b5761023.13e181b3.cbc7b217/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12215141%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F&#34; target=&#34;_blank&#34; &gt;楽天ブックス&lt;/a&gt;&lt;/div&gt;                                    &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

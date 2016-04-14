@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>さくらvps on SIS Lab</title>
+    <link>https://meganii.com/tags/%E3%81%95%E3%81%8F%E3%82%89vps/</link>
+    <description>Recent content in さくらvps on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 02 Mar 2015 07:31:00 +0900</lastBuildDate>
+    <atom:link href="https://meganii.com/tags/%E3%81%95%E3%81%8F%E3%82%89vps/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AnsibleでさくらVPSの初期設定</title>
+      <link>https://meganii.com/blog/2015/03/02/ansible-sakura-vps/</link>
+      <pubDate>Mon, 02 Mar 2015 07:31:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2015/03/02/ansible-sakura-vps/</guid>
+      <description>
+
+&lt;p&gt;行き当たりばったりで、設定を繰り返してきた、&lt;a href=&#34;http://px.a8.net/svt/ejp?a8mat=2NDW0A+8S5702+D8Y+BWVTE&#34; target=&#34;_blank&#34;&gt;さくらのVPS&lt;/a&gt;。
+いい加減、自動化したいと思い、CentOSを初期化して、Ansibleで初期設定をしていきます。&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;方針:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;方針&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;rootでの初期設定&lt;/li&gt;
+&lt;li&gt;nginxの設定&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;rootでの作業と、作業用ユーザでログインして作業をするタスク分けておくことで、初期設定と各アプリケーションのインストールをやりやすいようにしておく。&lt;/p&gt;
+
+&lt;h2 id=&#34;前提-ansible-インストール:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;前提 ansible インストール&lt;/h2&gt;
+
+&lt;p&gt;Homebrewからインストールする。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install ansible
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;実行環境:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;実行環境&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;## ローカル環境
+$ ansible --version
+ansible 1.6.10
+
+$ ruby -v
+ruby 2.0.0p353 (2013-11-22 revision 43784) [x86_64-darwin12.5.0]
+
+## さくらVPSの標準インストールで入るCentOS
+$ cat /etc/redhat-release
+CentOS release 6.6 (Final)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;1-rootでの初期設定-sakura-init-yml:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;1. rootでの初期設定(sakura_init.yml)&lt;/h2&gt;
+
+&lt;p&gt;まっさらな状態のCentOSに対して、最低限のセキュリティの設定を行う。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SSHのポートを変える&lt;/li&gt;
+&lt;li&gt;rootでのsshを禁止する&lt;/li&gt;
+&lt;li&gt;パスワードでのsshを禁止する&lt;/li&gt;
+&lt;li&gt;iptablesを設定する&lt;/li&gt;
+&lt;li&gt;adminユーザを作成して、sudoできるようにする&lt;/li&gt;
+&lt;li&gt;鍵の設定を行う&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;hosts:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;hosts&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;[test]
+192.168.33.33
+[vagrant]
+vagrant:10022
+
+[sakura_init]
+49.212.XXX.XXX
+[sakura]
+sakura:10022
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;test, vagrantは、vagrantの設定である。
+&lt;code&gt;vagrant:10022&lt;/code&gt;としているのは、&lt;/p&gt;
+
+&lt;p&gt;さらに、この&lt;code&gt;vagrant&lt;/code&gt;と&lt;code&gt;sakura&lt;/code&gt;は、下記の通り、&lt;code&gt;~/.ssh/config&lt;/code&gt;に設定している。&lt;/p&gt;
+
+&lt;h3 id=&#34;ssh-config:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;~/.ssh/config&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;Host vagrant
+  Hostname 192.168.33.33
+  Port 10022
+  User admin
+  IdentityFile ~/.ssh/id_rsa
+
+Host jekyll_vagrant
+  Hostname 192.168.33.33
+  Port 10022
+  User jekyll
+  IdentityFile ~/.ssh/id_rsa
+
+Host 192.168.33.33
+  User root
+  IdentityFile ~/.vagrant.d/insecure_private_key
+  IdentitiesOnly yes
+
+Host 49.212.138.148
+  User root
+  IdentityFile ~/.ssh/id_rsa
+  IdentitiesOnly yes
+
+Host sakura
+  Hostname 49.212.138.148
+  Port 10022
+  User admin
+  IdentityFile ~/.ssh/id_rsa
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;この設定により、下記ようにポート、ホスト名などを省略して接続できる。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ssh vagrant
+ssh sakura
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;sakura-init-yml:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;sakura_init.yml&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;---
+- hosts: sakura_init
+  user: root
+  vars:
+    admin_name: admin
+    admin_password: password
+    admin_public_key_path: ~/.ssh/id_rsa.pub
+    ssh_port: 10022
+  tasks:
+    - name: change SSH port
+      lineinfile: dest=/etc/ssh/sshd_config regexp=&amp;quot;^#Port&amp;quot; line=&amp;quot;Port {{ ssh_port }}&amp;quot; state=present
+
+    - name: create iptables
+      template: src=iptables.j2 dest=/etc/sysconfig/iptables
+
+    - name: disallow root SSH access
+      lineinfile: dest=/etc/ssh/sshd_config regexp=&amp;quot;^#PermitRootLogin &amp;quot; line=&amp;quot;PermitRootLogin no&amp;quot; state=present
+
+    - name: disallow password authentication
+      lineinfile: dest=/etc/ssh/sshd_config regexp=&amp;quot;^#PasswordAuthentication &amp;quot; line=&amp;quot;PasswordAuthentication no&amp;quot; state=present
+
+    - name: Add a new user
+      user: name={{admin_name}} password={{ admin_password }} groups=wheel state=present
+
+    - name: allow wheel users to sudo
+      lineinfile: dest=/etc/sudoers regexp=&amp;quot;^#\s*(%wheel\s+ALL=\(ALL\)\s+NOPASSWD{{&#39;:&#39;}}\s+ALL)&amp;quot; line=&amp;quot;\1&amp;quot; backrefs=yes state=present
+
+    - name: resister a public key
+      authorized_key: user={{ admin_name }} key=&amp;quot;{{ item }}&amp;quot;
+      with_file:
+        - &amp;quot;{{ admin_public_key_path }}&amp;quot;
+
+    - name: restart sshd and restart iptables
+      shell: service sshd restart &amp;amp;&amp;amp; /etc/init.d/iptables restart
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;iptables-j2:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;iptables.j2&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;*filter
+:INPUT   ACCEPT [0:0]
+:FORWARD ACCEPT [0:0]
+:OUTPUT  ACCEPT [0:0]
+:RH-Firewall-1-INPUT - [0:0]
+
+-A INPUT -j RH-Firewall-1-INPUT
+-A FORWARD -j RH-Firewall-1-INPUT
+-A RH-Firewall-1-INPUT -i lo -j ACCEPT
+-A RH-Firewall-1-INPUT -p icmp --icmp-type any -j ACCEPT
+-A RH-Firewall-1-INPUT -p 50 -j ACCEPT
+-A RH-Firewall-1-INPUT -p 51 -j ACCEPT
+-A RH-Firewall-1-INPUT -p udp --dport 5353 -d 224.0.0.251 -j ACCEPT
+-A RH-Firewall-1-INPUT -p udp -m udp --dport 631 -j ACCEPT
+-A RH-Firewall-1-INPUT -p tcp -m tcp --dport 631 -j ACCEPT
+-A RH-Firewall-1-INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+
+# add start
+-A RH-Firewall-1-INPUT -m state --state NEW -m tcp -p tcp --dport {{ ssh_port }} -j ACCEPT
+# add end
+
+-A RH-Firewall-1-INPUT -j REJECT --reject-with icmp-host-prohibited
+
+COMMIT
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;ansible実行:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;ansible実行&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;$ ansible-playbook -i hosts sakura_init.yml -k -c paramiko
+# さくらVPSで設定したrootパスワード
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;2-nginxの設定:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;2. nginxの設定&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;playbook.yml&lt;/code&gt;で、jekyllのフォルダ、nginxのインストール、設定を行う。&lt;/p&gt;
+
+&lt;h3 id=&#34;playbook-yml:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;playbook.yml&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;---
+- hosts: sakura
+  sudo: yes
+  user: admin
+  vars:
+    user_name: jekyll
+    user_password: password
+    user_public_key_path: ~/.ssh/id_rsa.pub
+    httpd_port: 80
+  tasks:
+    - name: Add a new user
+      user: name={{user_name}} password={{ user_password }} state=present
+
+    - name: register a public key
+      authorized_key: user={{ user_name }} key=&amp;quot;{{ item }}&amp;quot;
+      with_file:
+        - &amp;quot;{{user_public_key_path}}&amp;quot;
+
+    - name: Create Jekyll directory
+      file: path=/home/jekyll/www/meganii.com/ state=directory owner=jekyll group=jekyll mode=0755
+
+    - name:  Add 755
+      file: path=/home/jekyll
+
+    - name: Copy the EPEL repository definition
+      copy: src=epel.repo dest=/etc/yum.repos.d/epel.repo
+
+    - name: Create the GPG key for EPEL
+      copy: src=RPM-GPG-KEY-EPEL-6 dest=/etc/pki/rpm-gpg
+
+    - name: Install nginx
+      yum: name=nginx state=present
+
+    - name: add iptables rule for httpd
+      lineinfile: dest=/etc/sysconfig/iptables regexp=&amp;quot;{{ httpd_port }}&amp;quot; line=&amp;quot;-A RH-Firewall-1-INPUT -m state --state NEW -m tcp -p tcp --dport {{ httpd_port }} -j ACCEPT&amp;quot; insertbefore=&amp;quot;^# add end&amp;quot; state=present
+    - name: Copy nginx congiguration for jekyll
+      template: src=default.conf dest=/etc/nginx/conf.d/default.conf
+
+    - name: iptables restart
+      command: /etc/init.d/iptables restart
+
+    - name: restart nginx
+      command: service nginx restart
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;epel-repo:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;epel.repo&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;[epel]
+name=Extra Packages for Enterprise Linux 6 - $basearch
+#baseurl=http://download.fedoraproject.org/pub/epel/6/$basearch
+mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=epel-6&amp;amp;arch=$basearch
+failovermethod=priority
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6
+
+[epel-debuginfo]
+name=Extra Packages for Enterprise Linux 6 - $basearch - Debug
+#baseurl=http://download.fedoraproject.org/pub/epel/6/$basearch/debug
+mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=epel-debug-6&amp;amp;arch=$basearch
+failovermethod=priority
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6
+gpgcheck=1
+
+[epel-source]
+name=Extra Packages for Enterprise Linux 6 - $basearch - Source
+#baseurl=http://download.fedoraproject.org/pub/epel/6/SRPMS
+mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=epel-source-6&amp;amp;arch=$basearch
+failovermethod=priority
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6
+gpgcheck=1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;rpm-gpg-key-epel-6:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;RPM-GPG-KEY-EPEL-6&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+
+mQINBEvSKUIBEADLGnUj24ZVKW7liFN/JA5CgtzlNnKs7sBg7fVbNWryiE3URbn1
+JXvrdwHtkKyY96/ifZ1Ld3lE2gOF61bGZ2CWwJNee76Sp9Z+isP8RQXbG5jwj/4B
+M9HK7phktqFVJ8VbY2jfTjcfxRvGM8YBwXF8hx0CDZURAjvf1xRSQJ7iAo58qcHn
+XtxOAvQmAbR9z6Q/h/D+Y/PhoIJp1OV4VNHCbCs9M7HUVBpgC53PDcTUQuwcgeY6
+pQgo9eT1eLNSZVrJ5Bctivl1UcD6P6CIGkkeT2gNhqindRPngUXGXW7Qzoefe+fV
+QqJSm7Tq2q9oqVZ46J964waCRItRySpuW5dxZO34WM6wsw2BP2MlACbH4l3luqtp
+Xo3Bvfnk+HAFH3HcMuwdaulxv7zYKXCfNoSfgrpEfo2Ex4Im/I3WdtwME/Gbnwdq
+3VJzgAxLVFhczDHwNkjmIdPAlNJ9/ixRjip4dgZtW8VcBCrNoL+LhDrIfjvnLdRu
+vBHy9P3sCF7FZycaHlMWP6RiLtHnEMGcbZ8QpQHi2dReU1wyr9QgguGU+jqSXYar
+1yEcsdRGasppNIZ8+Qawbm/a4doT10TEtPArhSoHlwbvqTDYjtfV92lC/2iwgO6g
+YgG9XrO4V8dV39Ffm7oLFfvTbg5mv4Q/E6AWo/gkjmtxkculbyAvjFtYAQARAQAB
+tCFFUEVMICg2KSA8ZXBlbEBmZWRvcmFwcm9qZWN0Lm9yZz6JAjYEEwECACAFAkvS
+KUICGw8GCwkIBwMCBBUCCAMEFgIDAQIeAQIXgAAKCRA7Sd8qBgi4lR/GD/wLGPv9
+qO39eyb9NlrwfKdUEo1tHxKdrhNz+XYrO4yVDTBZRPSuvL2yaoeSIhQOKhNPfEgT
+9mdsbsgcfmoHxmGVcn+lbheWsSvcgrXuz0gLt8TGGKGGROAoLXpuUsb1HNtKEOwP
+Q4z1uQ2nOz5hLRyDOV0I2LwYV8BjGIjBKUMFEUxFTsL7XOZkrAg/WbTH2PW3hrfS
+WtcRA7EYonI3B80d39ffws7SmyKbS5PmZjqOPuTvV2F0tMhKIhncBwoojWZPExft
+HpKhzKVh8fdDO/3P1y1Fk3Cin8UbCO9MWMFNR27fVzCANlEPljsHA+3Ez4F7uboF
+p0OOEov4Yyi4BEbgqZnthTG4ub9nyiupIZ3ckPHr3nVcDUGcL6lQD/nkmNVIeLYP
+x1uHPOSlWfuojAYgzRH6LL7Idg4FHHBA0to7FW8dQXFIOyNiJFAOT2j8P5+tVdq8
+wB0PDSH8yRpn4HdJ9RYquau4OkjluxOWf0uRaS//SUcCZh+1/KBEOmcvBHYRZA5J
+l/nakCgxGb2paQOzqqpOcHKvlyLuzO5uybMXaipLExTGJXBlXrbbASfXa/yGYSAG
+iVrGz9CE6676dMlm8F+s3XXE13QZrXmjloc6jwOljnfAkjTGXjiB7OULESed96MR
+XtfLk0W5Ab9pd7tKDR6QHI7rgHXfCopRnZ2VVQ==
+=V/6I
+-----END PGP PUBLIC KEY BLOCK-----
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;default-conf:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;default.conf&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;#
+# The default server
+#
+server {
+    listen 	 80;
+    server_name  meganii.com;
+
+    #charset koi8-r;
+
+    #access_log  logs/host.access.log  main;
+
+    location / {
+        root   /home/jekyll/www/meganii.com;
+        index  index.html index.htm;
+    }
+
+    error_page  404              /404.html;
+    location = /404.html {
+        root   /usr/share/nginx/html;
+    }
+
+    # redirect server error pages to the static page /50x.html
+    #
+    error_page   500 502 503 504  /50x.html;
+    location = /50x.html {
+        root   /usr/share/nginx/html;
+    }
+
+    # proxy the PHP scripts to Apache listening on 127.0.0.1:80
+    #
+    #location ~ \.php$ {
+    #    proxy_pass   http://127.0.0.1;
+    #}
+
+    # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
+    #
+    #location ~ \.php$ {
+    #    root           html;
+    #    fastcgi_pass   127.0.0.1:9000;
+    #    fastcgi_index  index.php;
+    #    fastcgi_param  SCRIPT_FILENAME  /scripts$fastcgi_script_name;
+    #    include        fastcgi_params;
+    #}
+
+    # deny access to .htaccess files, if Apache&#39;s document root
+    # concurs with nginx&#39;s one
+    #
+    #location ~ /\.ht {
+    #    deny  all;
+    #}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;実行:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;実行&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;$ ansible-playbook -i hosts playbook.yml
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;ハマったポイント:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;ハマったポイント&lt;/h2&gt;
+
+&lt;h3 id=&#34;パスワードは-以下の処理をしなければならない:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;パスワードは、以下の処理をしなければならない&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;$ openssl passwd -salt hoge -1 fuga
+$1$hoge$DP2bw0KOW0ZhAg2ssVHY7.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;オプションの指定:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;オプションの指定&lt;/h3&gt;
+
+&lt;p&gt;-k -c paramiko のオプションを付けないとエラー&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ ansible-playbook -i hosts playbook.yml -k -c paramiko
+設定した root のパスワードを入力
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;まとめ:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;vagrantで、centosを立てて、ansibleのテストを行なった。vagrant上のcentosでは上手くいくが、本番のさくらVPSに対してはエラーになることがあったので、その度再インストールを繰り返した。&lt;/p&gt;
+
+&lt;p&gt;問題になったのは、hostsの設定部分であったり、ファイルコピーの部分であったりまだ原因がよくわかっていない。&lt;/p&gt;
+
+&lt;p&gt;でも、何度も繰り返し同じことを行えるのは、すごく心強い。秘伝のサーバー設定に陥りがちだけど、いざとなれば、再インストールで元に戻せる安心感を手に出来た。&lt;/p&gt;
+
+&lt;h2 id=&#34;参考:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;参考&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://akiyoko.hatenablog.jp/entry/2013/12/16/020529&#34;&gt;Ansible でさくらのVPS の環境構築を自動化　～ハマりポイントとともに～ - akiyoko blog&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;SSDプランが月々685円から使える！&lt;a href=&#34;http://px.a8.net/svt/ejp?a8mat=2NDW0A+8S5702+D8Y+C8O76&#34; target=&#34;_blank&#34;&gt;さくらのVPS&lt;/a&gt;
+&lt;img border=&#34;0&#34; width=&#34;1&#34; height=&#34;1&#34; src=&#34;http://www19.a8.net/0.gif?a8mat=2NDW0A+8S5702+D8Y+C8O76&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;参考-infrastructure-as-code:c787fe514990b9ac5f683fa8c3bd12ea&#34;&gt;参考(Infrastructure as Code)&lt;/h2&gt;
+
+&lt;div class=&#34;booklink-box&#34; style=&#34;text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;booklink-image&#34; style=&#34;float:left;margin:0 15px 10px 0;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/B00BSPH158/meganii-22/&#34; name=&#34;booklink&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/31u6VLGX2kL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklink-info&#34; style=&#34;line-height:120%;/zoom: 1;overflow: hidden;&#34;&gt;&lt;div class=&#34;booklink-name&#34; style=&#34;margin-bottom:10px;line-height:120%&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/B00BSPH158/meganii-22/&#34; rel=&#34;nofollow&#34; name=&#34;booklink&#34; target=&#34;_blank&#34;&gt;入門Chef Solo - Infrastructure as Code[Kindle版]&lt;/a&gt;&lt;div class=&#34;booklink-powered-date&#34; style=&#34;font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%&#34;&gt;posted with &lt;a href=&#34;http://yomereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-detail&#34; style=&#34;margin-bottom:5px;&#34;&gt;伊藤直也 伊藤直也 2013-03-11    &lt;/div&gt;&lt;div class=&#34;booklink-link2&#34; style=&#34;margin-top:10px;&#34;&gt;&lt;div class=&#34;shoplinkkindle&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00BSPH158/meganii-22/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;Kindle&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkamazon&#34; style=&#34;display:inline;margin-right:5px&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=%93%FC%96%E5Chef%20Solo%20-%20Infrastructure%20as%20Code&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;url=search-alias%3Dstripbooks&amp;tag=meganii-22&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;Amazon[書籍版]&lt;/a&gt;&lt;/div&gt;                                            &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34; style=&#34;clear: left&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2台目のMacBookAirからさくらVPSへSSH接続を行うための鍵の設定</title>
+      <link>https://meganii.com/blog/2013/06/21/ssh-sakuravps/</link>
+      <pubDate>Fri, 21 Jun 2013 21:16:00 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2013/06/21/ssh-sakuravps/</guid>
+      <description>
+
+&lt;p&gt;新しくMacBookAirを買ったので、さくらVPSへSSH接続を行うための鍵の設定。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://meganii.com/blog/2013/06/18/macbookair/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://meganii.com/blog/2013/06/18/macbookair/&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://meganii.com/blog/2013/06/18/macbookair/&#34; target=&#34;_blank&#34;&gt;念願のAir!! MacBookAir Mid 2013買いました - じょーぶん男子&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://meganii.com/blog/2013/06/18/macbookair/&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://meganii.com/blog/2013/06/18/macbookair/&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;pre&gt;&lt;code&gt;su
+vim /etc/ssh/sshd_config
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;パスワードによるログインを許可する&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;PasswordAuthentication yes
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;設定を変えたら、sshdを再起動。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;service sshd restart
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;鍵を作る&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ssh-keygen
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;id_rsa.pubという公開鍵が作られる。（ここでは、id_rsa_sakura.pubに変更）&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cp id_rsa.pub id_rsa_sakura.pub
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;さくらVPS(CentOS)に配置。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;scp -P port ~/.ssh/id_rsa.pub user@example.com:~/.ssh/id_rsa_sakura.pub 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;さくらVPS側で スーパーユーザになって、authorized_keysに、作った公開鍵を入れておけばよいみたい。&lt;/p&gt;
+
+&lt;p&gt;cat id_rsa_sakura.pub &amp;gt;&amp;gt; authorized_keys&lt;/p&gt;
+
+&lt;p&gt;パスワードによるログインを無効に戻す&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;PasswordAuthentication yes
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;これで2台目のMacBookAirからSSH接続できるようになりました。&lt;/p&gt;
+
+&lt;h2 id=&#34;参考:e1036cbb8d8c5cccd4f4aff73c63c0c4&#34;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://fnya.cocolog-nifty.com/blog/2012/03/centos-ssh-8291.html&#34;&gt;CentOS で公開鍵暗号方式を使用した SSH ログイン設定: あるＳＥのつぶやき&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cashew.hatenablog.com/entry/2013/02/10/Mac%E3%81%AE%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%8B%E3%82%89%E3%80%8C%E3%81%95%E3%81%8F%E3%82%89VPS%E3%80%8D%E3%81%ABSSH%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E6%8E%A5%E7%B6%9A%EF%BC%86&#34;&gt;Macのターミナルから「さくらVPS」にSSHリモート接続＆鍵方式でログインする方法（複数のid_rsaを管理） - おしい県で働くプチブログラマのブログ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.kazuhiroshibuya.com/archives/51461147.html&#34;&gt;さくらVPS – 複数環境からSSH接続する | shibuya blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://akabeko.me/blog/2012/04/revps-01-prepare-ssh-key/&#34;&gt;さくらのVPS を改めて使いはじめる 1 – 使用準備、SSH 公開鍵認証 | アカベコマイリ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://d.hatena.ne.jp/murakaming/20120619/1340129460&#34;&gt;さくらVPS申し込み～SSHするまで - ASとか&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://open-groove.net/linux/sshd-restart/&#34;&gt;sshd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B008B3AMMO/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://www.amazon.co.jp/exec/obidos/ASIN/B008B3AMMO/&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B008B3AMMO/&#34; target=&#34;_blank&#34;&gt;Amazon.co.jp： APPLE MacBook Air 1.8GHz Core i5/13.3/4GB/128GB MD231J/A: パソコン・周辺機器&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://www.amazon.co.jp/exec/obidos/ASIN/B008B3AMMO/&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://www.amazon.co.jp/exec/obidos/ASIN/B008B3AMMO/&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

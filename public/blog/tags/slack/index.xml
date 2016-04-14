@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slack on SIS Lab</title>
+    <link>https://meganii.com/tags/slack/</link>
+    <description>Recent content in Slack on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 10 Feb 2016 07:17:11 +0900</lastBuildDate>
+    <atom:link href="https://meganii.com/tags/slack/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法</title>
+      <link>https://meganii.com/blog/2016/02/10/post-to-slack/</link>
+      <pubDate>Wed, 10 Feb 2016 07:17:11 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2016/02/10/post-to-slack/</guid>
+      <description>&lt;p&gt;Slackで、Rubyからメッセージとファイルをポストする方法についてのメモ。&lt;/p&gt;
+
+&lt;p&gt;以下の&lt;code&gt;slack-api&lt;/code&gt;を利用する。
+&lt;a href=&#34;https://github.com/aki017/slack-ruby-gem&#34;&gt;aki017/slack-ruby-gem: A Ruby wrapper for the Slack API&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;ファイルの組み立て方(?)が分からなかったのでFaradayにお任せした。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;require &#39;slack&#39;
+require &#39;faraday&#39;
+
+Slack.configure do |config|
+  config.token = &amp;quot;USER SLACK TOKEN&amp;quot;
+end
+
+## channelにメッセージをPostする
+Slack.chat_postMessage(
+  channel: &#39;#general&#39;,
+  username: &#39;kenchan&#39;,
+  text: &#39;point&#39;
+)
+
+## channelにファイルをアップロードする
+Slack.files_upload(
+  file: Faraday::UploadIO.new(&#39;stamp.png&#39;, &#39;image/png&#39;),
+  channels: &#39;#general&#39;,
+  initial_comment: &#39;file upload&#39;
+)
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>D3.Js on SIS Lab</title>
+    <link>https://meganii.com/tags/d3/index.js/</link>
+    <description>Recent content in D3.Js on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 07 Feb 2016 19:42:50 +0900</lastBuildDate>
+    <atom:link href="https://meganii.com/tags/d3.js/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>D3.jsで東京の地価データを可視化する</title>
+      <link>https://meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/</link>
+      <pubDate>Sun, 07 Feb 2016 19:42:50 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/24844125586&#34; title=&#34;tokyo-landprice_heatmapby meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg&#34; alt=&#34;tokyo-landprice_heatmap&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;1592375556&#34;
+         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;https://meganii.com//blog/2016/02/06/d3js-tutorial/&#34;&gt;d3js tutorial | じょーぶん部&lt;/a&gt;で、一通りD3.jsのイメージを掴みつつ、次は、東京の地価データの可視化に挑戦する。方法については、下記のページを参考にした。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://kshigeru.blogspot.jp/2013/07/tokyo-landprice.html&#34;&gt;Ars longa, vita brevis: 東京の地価公示データを眺める&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;環境準備:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;環境準備&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ja.d3js.node.ws/blocks/mike/map/&#34;&gt;D3.js と TopoJSON で地図を作る&lt;/a&gt;を元に、環境を準備する。&lt;/p&gt;
+
+&lt;h3 id=&#34;geospatial-data-abstraction-library-地理空間データ抽出ライブラリ-のインストール:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;Geospatial Data Abstraction Library （地理空間データ抽出ライブラリ）のインストール&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install gdal
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;データを取得する:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;データを取得する&lt;/h2&gt;
+
+&lt;p&gt;地価公示データは、以下のページからダウンロードする。
+&lt;a href=&#34;http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L01-v2_3.html&#34;&gt;国土数値情報　地価公示データの詳細&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;今回は、&lt;code&gt;L01-15_13_GML.zip&lt;/code&gt;をダウンロードし、解凍すると以下のファイル&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;KS-META-L01-15_13.xml  L01-15_13.dbf  L01-15_13.prj  L01-15_13.shp  L01-15_13.shx  L01-15_13.xml
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;orginfoで中身を確認する:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;orginfoで中身を確認する&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;ogrinfo -al L01-15_13.shp | head -n 8
+INFO: Open of `L01-15_13.shp&#39;
+      using driver `ESRI Shapefile&#39; successful.
+
+Layer name: L01-15_13
+Geometry: Point
+Feature Count: 2162
+Extent: (139.136421, 27.094612) - (142.203304, 35.828359)
+Layer SRS WKT:
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;ogrinfo -sql &amp;quot;SELECT L01_006, L01_019 FROM &#39;L01-15_13&#39;&amp;quot; L01-15_13.shp
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;例えばこんな以下のような形で取得できる。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;OGRFeature(L01-15_13):2122
+  L01_006 (String) = 273000
+  L01_019 (String) = 東京都　江戸川区西瑞江５丁目１４番４６
+  POINT (139.878173 35.67957)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;次に、行政区域コード (L01_017) で制限をかけます。 東京都 (都道府県コードは13) の場合、 13101 から23区が始まり、13201 から市が始まり、13301 から村が始まります。 離島は 13320 より大きいものになります。 したがって、島嶼部を除くためには行政区域コードが 13320 より小さいものを指定します。 コード体系の詳細は Wikipedia の 全国地方公共団体コード を参照してください。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;whereで抽出しながら、GeoJSON形式に変換して、geojsonファイルに書き出す。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ogr2ogr -f GeoJSON -where &amp;quot;L01_017 &amp;lt; &#39;13320&#39;&amp;quot; tokyo-landprice-2015.geojson L01-15_13.shp
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;d3-jsで表示する:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;d3.jsで表示する&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/24844125586&#34; title=&#34;tokyo-landprice_heatmapby meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg&#34; alt=&#34;tokyo-landprice_heatmap&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&amp;quot;ja&amp;quot;&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+    &amp;lt;title&amp;gt;Tokyoの地価&amp;lt;/title&amp;gt;
+    &amp;lt;style&amp;gt;
+    &amp;lt;/style&amp;gt;
+    &amp;lt;script src=&amp;quot;//d3js.org/d3.v3.min.js&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script src=&amp;quot;http://d3js.org/topojson.v0.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;div id=&amp;quot;main&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+
+      var width = 960,
+          height = 600;
+
+      var g = d3.select(&#39;#main&#39;).append(&#39;svg&#39;)
+                    .attr(&#39;width&#39;, width)
+                    .attr(&#39;height&#39;, height)
+                    .append(&#39;g&#39;);
+
+      d3.json(&amp;quot;tokyo-landprice-2015.geojson&amp;quot;, function(err, tokyo) {
+        if (err) {
+          console.log(&amp;quot;file not found.&amp;quot;);
+          return;
+        }
+
+        var projection = d3.geo.mercator()
+                                .scale(60000)
+                                .center(d3.geo.centroid(tokyo))
+                                .translate([width / 2, height /2]);
+
+        var path = d3.geo.path().projection(projection);
+
+        g.selectAll(&amp;quot;path&amp;quot;)
+            .data(tokyo.features)
+            .enter()
+            .append(&amp;quot;path&amp;quot;)
+            .attr(&amp;quot;d&amp;quot;, path)
+            .style(&amp;quot;fill&amp;quot;, function(tokyo) {
+              if (tokyo.properties.L01_006 &amp;gt; 1000000) {
+                return &amp;quot;#ff0000&amp;quot;;
+              } else if (tokyo.properties.L01_006 &amp;lt;= 1000000 &amp;amp;&amp;amp; tokyo.properties.L01_006 &amp;gt; 800000) {
+                return &amp;quot;#ff6600&amp;quot;
+              } else if (tokyo.properties.L01_006 &amp;lt;= 800000 &amp;amp;&amp;amp; tokyo.properties.L01_006 &amp;gt; 500000) {
+                return &amp;quot;#ff9900&amp;quot;
+              } else if (tokyo.properties.L01_006 &amp;lt;= 500000 &amp;amp;&amp;amp; tokyo.properties.L01_006 &amp;gt; 200000) {
+                return &amp;quot;#ffcc00&amp;quot;
+              } else if (tokyo.properties.L01_006 &amp;lt;= 200000 &amp;amp;&amp;amp; tokyo.properties.L01_006 &amp;gt; 100000) {
+                return &amp;quot;green&amp;quot;
+              } else {
+                return &amp;quot;blue&amp;quot;;
+              }
+            });
+      });
+
+    &amp;lt;/script&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;次にやりたいこと:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;次にやりたいこと&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;数十年分のデータを次々に描画して移り変わりを確認する&lt;/li&gt;
+&lt;li&gt;地図上にマッピングする&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;参考:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://d3js.org/&#34;&gt;D3.js - Data-Driven Documents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L01-v2_3.html&#34;&gt;国土数値情報　地価公示データの詳細&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://kshigeru.blogspot.jp/2013/03/d3-geojson-polygon.html&#34;&gt;Ars longa, vita brevis: D3.js と GeoJSON でポリゴンを描く&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://kshigeru.blogspot.jp/2013/07/tokyo-landprice.html&#34;&gt;Ars longa, vita brevis: 東京の地価公示データを眺める&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
