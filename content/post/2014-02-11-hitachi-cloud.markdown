@@ -4,7 +4,7 @@ title: hitachi-cloud
 date: 2014-02-11T20:24:00+09:00
 category: ['Tech']
 tags: ['aws']
-published: true
+published: false
 slug: hitachi-cloud
 ---
 
@@ -25,7 +25,7 @@ slug: hitachi-cloud
 使えるところは使う。
 テスト
 
-AWS 
+AWS
 for JP1とかは、なかなかおもしろんじゃないか。
 
 

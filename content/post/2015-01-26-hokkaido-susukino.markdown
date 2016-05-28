@@ -4,8 +4,8 @@ title: "札幌・すすきの「だるま」ジンギスカンと「開陽亭」
 date: 2015-01-26T23:37:00+09:00
 comments: true
 category: ['Travel']
-tags: ['グルメ','北海道']
-published: true 
+tags: ['グルメ','北海道','旅行記']
+published: true
 img: "https://farm9.staticflickr.com/8657/16354201512_520a96a72a_s.jpg"
 slug: hokkaido-susukino
 ---
@@ -119,4 +119,3 @@ slug: hokkaido-susukino
 また、冬の北海道も行かねばー！
 
 <a href="http://hb.afl.rakuten.co.jp/hsc/137fb03e.456cdae3.137fb03b.70319f7b/?pc=&cmd=shop&me_id=2100001&category_id=1&item_id=&link_type=pict&image_type=original" target="_blank"><img src="http://hbb.afl.rakuten.co.jp/hsb/137fb03e.456cdae3.137fb03b.70319f7b/153145/?category_id=1&cmd=shop&image_type=original&item_id=&link_type=pict&me_id=2100001" border="0"></a>
-

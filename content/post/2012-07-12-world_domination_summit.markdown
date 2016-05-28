@@ -3,7 +3,7 @@
 title: 勢いで飛び込んだ World Domination Summit2012
 date: 2012-07-12
 category: ['Travel']
-tags: ['travel','生き方']
+tags: ['travel','生き方', '旅行記']
 published: true
 slug: world_domination_summit
 ---

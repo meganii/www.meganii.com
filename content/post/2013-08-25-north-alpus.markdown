@@ -1,9 +1,8 @@
 ---
-
 title: 初めての北アルプス 〜涸沢ヒュッテ、奥穂高岳〜
 date: 2013-08-25T21:21:00+09:00
 category: ['Travel']
-tags: ['登山']
+tags: ['登山','旅行記']
 published: true
 slug: north-alpus
 img: "https://farm6.staticflickr.com/5447/9592275938_501b626375.jpg"
@@ -75,10 +74,6 @@ img: "https://farm6.staticflickr.com/5447/9592275938_501b626375.jpg"
 ## 今回の登山で揃えた用具
 ・ライト
 ・ダウン
-
-
-
-
 
 
 ## 初めての外岩涸沢ボルダー

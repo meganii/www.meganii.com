@@ -6,7 +6,7 @@ category: ['Tech']
 tags: ['electron','Mithril.js']
 published: true
 slug: electron-mithriljs-flickr-app
-img: "https://www.oreilly.co.jp/books/images/picture_large978-4-87311-744-7.jpeg"
+img: "http://www.oreilly.co.jp/books/images/picture978-4-87311-744-7.gif"
 ---
 
 {{% googleadsense %}}

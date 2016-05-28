@@ -6,7 +6,7 @@ category: ['Tech']
 tags: ['D3.js', 'JavaScript']
 published: true
 slug: d3js-tokyo-landprice-heatmap
-img: "https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg"
+img: "https://farm2.staticflickr.com/1680/24844125586_c74f952e38_s.jpg"
 ---
 
 <p><a href="https://www.flickr.com/photos/35571855@N06/24844125586" title="tokyo-landprice_heatmapby meganii, on Flickr"><img class="img-responsive" src="https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg" alt="tokyo-landprice_heatmap"></a></p>

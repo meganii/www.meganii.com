@@ -1,9 +1,8 @@
 ---
-
 title: 「新年会だよ！JUSO Jelly!+家族ラボ vol.6」に参加してきました！
 date: 2012-01-28
 category: ['Tech']
-tags: 
+tags:　['meetup']
 published: true
 slug: juso_coworking
 ---

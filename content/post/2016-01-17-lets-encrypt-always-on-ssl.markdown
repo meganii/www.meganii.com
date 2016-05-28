@@ -3,8 +3,8 @@ title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
 date: 2016-01-17T22:44:45+09:00
 comments: true
 category: ['Tech']
-tags: ['https', 'SSL']
-published: false
+tags: ['https', 'SSL', 'Lets Encrypt']
+published: true
 slug: lets-encrypt-always-on-ssl
 img: "https://images-na.ssl-images-amazon.com/images/I/511NShYrT8L._SL160_.jpg"
 ---

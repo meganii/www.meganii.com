@@ -3,7 +3,7 @@
 title: 晴れの屋久島。雨の屋久島。屋久島旅行記
 date: 2013-05-07T07:13:00+09:00
 category: ['Travel']
-tags: ['屋久島','travel']
+tags: ['屋久島','travel', '旅行記']
 published: true
 slug: yakushima
 img: "https://farm8.staticflickr.com/7320/8715988660_c5040b0f25_c.jpg"

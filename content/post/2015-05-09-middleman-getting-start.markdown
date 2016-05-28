@@ -1,6 +1,6 @@
 ---
 
-title: "middleman getting start"
+title: "Middleman getting start"
 date: 2015-05-09T12:57:00+09:00
 comments: true
 category: ['Tech']
@@ -15,10 +15,7 @@ Middlemanでの構築メモ。
 {{% googleadsense %}}
 
 
-## 
-
-- Blog機能を持たせる
-
+## MiddlemanにBlog機能を持たせる
 
 素の状態のMiddlemanで`middleman init new_site`をしたときに、デザインがあまりにもアレだったので、心が折られてしまった。
 そこで、以下の記事を参考に、最低限のデザインをもったサイトを構築する。
@@ -46,12 +43,5 @@ bundle exec middleman server
 ```
 
 ```
-middleman init 
+middleman init
 ```
-
-
-
-
-
-
-
