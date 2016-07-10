@@ -1,6 +1,7 @@
 {{ partial "header.html" . }}
 
-	<main role="main">
+<div class="row">
+	<main role="main" class="nine columns">
 		<h1 class="list-title">{{ .Title }}</h1>
 {{ range .Data.Pages }}
 		<article itemscope itemtype="http://schema.org/Blog">
@@ -9,5 +10,8 @@
 		</article>
 {{ end }}
 	</main>
+
+	{{ partial "sidebar.html" . }}
+</div>
 
 {{ partial "footer.html" . }}

@@ -110,6 +110,8 @@
   .offset-by-one-half.column,
   .offset-by-one-half.columns     { margin-left: 52%; }
 
+  .ad-none-sp {
+    display: inline; }
 }
 
 
@@ -401,12 +403,17 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
+.sp-none {
+  display: none; }
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+  .sp-none {
+    display: inline;}
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) {}
