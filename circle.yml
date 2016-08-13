@@ -1,8 +1,11 @@
+machine:
+  timezone: Asia/Tokyo
+
 dependencies:
   pre:
     - wget https://github.com/spf13/hugo/releases/download/v0.16/hugo_0.16-1_amd64.deb
     - sudo dpkg -i hugo_0.16-1_amd64.deb
 test:
   override:
-    - hugo -V
     - hugo
+    - rake -T
