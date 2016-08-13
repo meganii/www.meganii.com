@@ -47,23 +47,7 @@ def tfidf(docs):
     vectorizer = TfidfVectorizer(analyzer=mecabAnalyzer ,min_df=1, max_df=50, token_pattern=u'(?u)\\b\\w+\\b')
     features = vectorizer.fit_transform(docs)
     terms = vectorizer.get_feature_names()
-
     return features, terms
-
-def reduction(x, dim=10):
-    '''
-    dimensionality reduction using LSA
-    '''
-    lsa = TruncatedSVD()
-    x = lsa.fit_transform(x)
-    x = Normalizer(copy=False).fit_transform(x)
-    return x
-
-def createDataFiles(content):
-    f = open('relatedposts.yml', 'w')
-
-    f.write(yaml.load(content))
-    f.close()
 
 def getDocsList(filepath):
     f = open(filepath, 'r')
@@ -90,7 +74,7 @@ def getRelatedPosts(docs, tfidf_mtx):
             if i == index:
                 s[i] = 0
                 continue
-            cos = cosine_similarity(tfidf_mtx[index], tfidf)
+            cos = cosine_similarity(tfidf_mtx[index].reshape(1, -1), tfidf.reshape(1, -1))
             s[i] = cos
         top_cos = sorted(s.items(), key=lambda t:t[1], reverse=True)
         top_cos = filter(lambda t:t[1] > 0.05, top_cos)
@@ -103,7 +87,6 @@ if __name__ == '__main__':
 
     features, terms = tfidf(docs)
     tfidf_mtx = features.toarray()
-    print(len(tfidf_mtx))
 
     relatedposts = getRelatedPosts(docs, tfidf_mtx)
 
