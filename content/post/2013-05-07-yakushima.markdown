@@ -138,7 +138,3 @@ img: "https://farm8.staticflickr.com/7320/8715988660_c5040b0f25_c.jpg"
 いろんな屋久島の顔を楽しめた屋久島旅行でした。
 
 次来るときには、モッチョム岳と宮之浦岳に登りたい!!!!
-
-
-
-<a href="http://hb.afl.rakuten.co.jp/hsc/137fb04c.5e09c028.137fb03b.70319f7b/?pc=&cmd=shop&me_id=2100001&category_id=1&item_id=&link_type=pict&image_type=original" target="_blank"><img src="http://hbb.afl.rakuten.co.jp/hsb/137fb04c.5e09c028.137fb03b.70319f7b/153145/?category_id=1&cmd=shop&image_type=original&item_id=&link_type=pict&me_id=2100001" border="0"></a>
