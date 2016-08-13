@@ -76,8 +76,8 @@ task :merge_contents do
   end
 end
 
-desc "create related posts mapping"
-task :create_relatedposts do
+desc "Merge filename and url"
+task :merge_filename do
   require 'rubygems'
   require 'english'
   require 'yaml'
@@ -99,6 +99,10 @@ task :create_relatedposts do
       end
     end
   end
+end
+
+desc "Create related posts mapping"
+task :create_relatedposts => [:merge_contents, :merge_filename] do
   puts `python script/vectorize_text.py`
 end
 
