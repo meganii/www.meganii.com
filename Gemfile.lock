@@ -1,0 +1,30 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    crass (1.0.2)
+    english (0.6.3)
+      language
+    language (0.6.0)
+    mini_portile2 (2.1.0)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
+    nokogumbo (1.4.9)
+      nokogiri
+    pkg-config (1.1.7)
+    sanitize (4.1.0)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.4.4)
+      nokogumbo (~> 1.4.1)
+    stringex (2.6.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  english
+  sanitize
+  stringex
+
+BUNDLED WITH
+   1.12.4
