@@ -70,6 +70,10 @@ blockquote:before{
   max-width: 960px;
 }
 
+.header-logo {
+  color: #000;
+}
+
 .header-logo img {
   width: 60px;
   height: 60px;
@@ -81,8 +85,38 @@ blockquote:before{
   border-color: #F1F1F1;
 }
 
+.nav {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.nav__item {
+  display: table-cell;
+}
+
+.nav__item > a {
+  display: block;
+  padding: 5px 0;
+  margin-right: 5px;
+  text-align: center;
+  text-decoration: none;
+  /*background-color: #e07000;*/
+  font-weight: bold;
+  color: #222;
+}
+
+.nav__hr {
+  margin: 0;
+  padding: 0;
+}
+
 .site-title {
   margin-top: 2rem;
+}
+
+.site-title > a {
+  color: #222;
 }
 
 .entry-title {
