@@ -21,7 +21,7 @@ task :deploy_to_vagrant do
   sh 'hugo -t hugo-zen'
   sh 'mv public/category public/blog'
   sh 'mv public/tags public/blog'
-  sh 'rsync --iconv=UTF-8-MAC,UTF-8 -e "ssh -p 10022" -avz --delete public/ web@192.168.33.10:/home/web/www/meganii.com'
+  sh 'rsync --iconv=UTF-8-MAC,UTF-8 -e "ssh -p 10022" -avz --delete public/ web@192.168.33.33:/home/web/www/meganii.com'
 end
 
 desc "Begin a new post in #{posts_dir}"
