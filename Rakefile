@@ -55,6 +55,52 @@ task :new_post, :title do |t, args|
   sh "atom #{filename}"
 end
 
+desc "Merge posts contents"
+task :merge_contents do
+  require 'sanitize'
+
+  File.open('tmp/contents.txt', 'w') do |wf|
+    Dir.glob('content/post/*.*').each do |file|
+      File.open(file, 'r') do |f|
+        content = f.read()
+        if content =~ /\A(---\s*\n.*?\n?)^(---\s*$\n?)/m
+          data = YAML.load($1)
+          if !data['published']
+            next
+          end
+        end
+        content = Sanitize.clean(content)
+        wf.puts(content.gsub(/\R/, ""))
+      end
+    end
+  end
+end
+
+desc "create related posts mapping"
+task :create_relatedposts do
+  require 'rubygems'
+  require 'english'
+  require 'yaml'
+  require 'date'
+  File.open('tmp/filenamelist.txt', 'w') do |wf|
+    Dir.glob('content/post/*.*').each do |file|
+      File.open(file) do |f|
+        content = f.read()
+        if content =~ /\A(---\s*\n.*?\n?)^(---\s*$\n?)/m
+          content = $POSTMATCH
+          data = YAML.load($1)
+          if !data['published']
+            next
+          end
+          date = Date.strptime(data['date'].to_s,"%Y-%m-%d")
+          url = "https://meganii.com/blog/" + date.to_s.gsub("-", "/") + "/" + data['slug'] + "/"
+          wf.puts(File.basename(f, ".*") + "\t" + url + "\t\"" + data['title'] + "\"")
+        end
+      end
+    end
+  end
+  puts `python script/vectorize_text.py`
+end
 
 def get_stdin(message)
   print message
