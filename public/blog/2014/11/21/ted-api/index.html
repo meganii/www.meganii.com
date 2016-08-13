@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="generator" content="Hugo 0.15" />
+<meta name="generator" content="Hugo 0.16" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
@@ -12,6 +12,43 @@
 <link rel="stylesheet" href="/css/custom.css">
 <link rel="alternate" href="/index.xml" type="application/rss+xml" title="SIS Lab">
 <title>TED APIを触ってみる - SIS Lab</title>
+<link rel="shortcut icon" href="/images/favicons/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/images/favicons/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/images/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="manifest" href="/images/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#2d88ef">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="TED APIを触ってみる | SIS Lab">
+<meta property="og:url" content="https://meganii.com/blog/2014/11/21/ted-api/">
+<meta property="og:description" content="TED - Welcome to TEDLabs いつのまにかTEDのAPIが公開されていたので、少し触ってみる。 スポンサーリンク (adsbygoogle = window.adsbygoogle || []).push({}); 昔は、APIが公開されてなかったので、スクレイピングで取得していた。 (htmlの構造が今は変わってるので、以下のコードでは取得できません) TEDの英語原稿を取得する - ギークを夢見るじょーぶん男子 require &#39;rubygems&#39; require &#39;open-uri&#39; require &#39;json&#39; require &#39;nokogiri&#39; url = &quot;http://www.ted.com/talks/brene_brown_listening_to_shame.html&quot; doc = Nokogiri::HTML(open(url)) ted_id = doc.xpath(&quot;//div[@id=&#39;share_and_save&#39;]&quot;).first.attribute(&quot;data-id&quot;) open(&quot;http://www.ted.com/talks/subtitles/id/#{ted_id}/lang/en&quot;) do |f| json = JSON.parse(f.read) json[&#39;captions&#39;].each do |j| puts j[&#39;content&#39;] end end TED APIを使い、以下のエンドポイント(言い方あってる？)を叩くと、結果がjsonで返ってくる。 https://api.ted.com/v1/talks.json?api-key=#{TED_API}&amp;filter=slug:matt_cutts_try_something_new_for_30_day この id が、動画の固有IDになる。すばらしい。 {&quot;talks&quot;: [{&quot;talk&quot;: {&quot;id&quot;:1183, &quot;event_id&quot;:64, &quot;name&quot;:&quot;Matt Cutts: Try something new for 30 days&quot;, &quot;description&quot;:&quot;Is there something you&#39;ve always meant to do, wanted to do, but just ...">
+
+<meta property="og:image" content="/images/nopicture.png">
+<meta property="og:site_name" content="SIS Lab">
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="SIS Lab" />
+<meta name="twitter:title" content="TED APIを触ってみる | SIS Lab" />
+<meta name="twitter:image" content="/images/nopicture.png" />
+<meta name="twitter:url" content="https://meganii.com/blog/2014/11/21/ted-api/" />
+
 </head>
 <body>
 
@@ -19,13 +56,17 @@
 
 	<header role="banner">
 		<div class="header-logo">
-			<a href="/"><h1 class="site-title"> <i class="fa fa-laptop"></i> SIS Lab</a></h1>
-			<p>
-				元じょーぶん生による
-			</p>
+			<a href="/"></a><h1 class="site-title"><a href="/"> <i class="fa fa-laptop"></i> SIS Lab</a></h1>
+			<p>元じょーぶん生によるメーカー系SIerブログ。趣味のプログラミング、旅行。日々、学んだについて書きます。</p>
 		</div>
-		
-
+		<ul class="nav">
+			<li class="nav__item"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+			
+			<li class="nav__item"><a href="/blog/category/tech"><i class="fa fa-terminal" aria-hidden="true"></i>   Tech</a></li>
+			<li class="nav__item"><a href="/blog/category/book"><i class="fa fa-book" aria-hidden="true"></i> Book</a></li>
+			<li class="nav__item"><a href="/blog/category/travel"><i class="fa fa-plane" aria-hidden="true"></i> Travel</a></li>
+		</ul>
+		<hr class="nav__hr" />
 	</header>
 
 
@@ -48,8 +89,8 @@
     <ins class="adsbygoogle"
          style="display:block"
          data-ad-client="ca-pub-5340212676785058"
-         data-ad-slot="1592375556"
-         data-ad-format="link"></ins>
+         data-ad-slot="7870420352"
+         data-ad-format="auto"></ins>
     <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
@@ -102,13 +143,13 @@ end
 }
 </code></pre>
 
-<h2 id="ドキュメント:c25bea3be7e274254b1a0b22f4d0afe6">ドキュメント</h2>
+<h2 id="ドキュメント">ドキュメント</h2>
 
 <p>メモ書き程度に書き散らかす。</p>
 
 <p><a href="http://developer.ted.com/io-docs" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://developer.ted.com/io-docs" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://developer.ted.com/io-docs" target="_blank">TED I/O Docs</a><a href="http://b.hatena.ne.jp/entry/http://developer.ted.com/io-docs" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://developer.ted.com/io-docs" alt="" /></a><br style="clear:both;" /><br></p>
 
-<h3 id="events:c25bea3be7e274254b1a0b22f4d0afe6">Events</h3>
+<h3 id="events">Events</h3>
 
 <p>TEDのイベントがあった箇所を取得する
 {
@@ -123,11 +164,11 @@ end
     }
 }</p>
 
-<h3 id="ratings:c25bea3be7e274254b1a0b22f4d0afe6">Ratings</h3>
+<h3 id="ratings">Ratings</h3>
 
 <p>ランキング？</p>
 
-<h3 id="rating-words:c25bea3be7e274254b1a0b22f4d0afe6">Rating Words</h3>
+<h3 id="rating-words">Rating Words</h3>
 
 <p>投票するときの、表現？</p>
 
@@ -209,25 +250,25 @@ end
     }
 }</p>
 
-<h3 id="speakers:c25bea3be7e274254b1a0b22f4d0afe6">Speakers</h3>
+<h3 id="speakers">Speakers</h3>
 
 <p>:id スピーカの固有ID</p>
 
 <p>スピーカーの情報を得る</p>
 
-<h3 id="talks:c25bea3be7e274254b1a0b22f4d0afe6">Talks</h3>
+<h3 id="talks">Talks</h3>
 
-<h3 id="themes:c25bea3be7e274254b1a0b22f4d0afe6">Themes</h3>
+<h3 id="themes">Themes</h3>
 
 <p>題名、テーマに関する取得</p>
 
-<h3 id="playlists:c25bea3be7e274254b1a0b22f4d0afe6">Playlists</h3>
+<h3 id="playlists">Playlists</h3>
 
 <p>プレイリスト関連の検索</p>
 
-<h3 id="search:c25bea3be7e274254b1a0b22f4d0afe6">Search</h3>
+<h3 id="search">Search</h3>
 
-<h3 id="query:c25bea3be7e274254b1a0b22f4d0afe6">Query</h3>
+<h3 id="query">Query</h3>
 
 <p>カテゴリと検索文字列を指定して検索結果を得る</p>
 
@@ -262,30 +303,33 @@ end
 		</div>
 		
 		<div class="u-cf"></div>
-		
-		<div class="social-area-syncer">
-			<ul class="social-button-syncer">
-				
-				<li class="sc-tw"><a data-url="https://meganii.com/blog/2014/11/21/ted-api/" href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-count="vertical" data-dnt="true" target="_blank"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.375-1.337.648-2.085.795-.598-.638-1.45-1.036-2.396-1.036-1.812 0-3.282 1.468-3.282 3.28 0 .258.03.51.085.75C5.152 5.39 2.733 4.084 1.114 2.1.83 2.583.67 3.147.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.416-.02-.617-.058.418 1.304 1.63 2.253 3.067 2.28-1.124.88-2.54 1.404-4.077 1.404-.265 0-.526-.015-.783-.045 1.453.93 3.178 1.474 5.032 1.474 6.038 0 9.34-5 9.34-9.338 0-.143-.004-.284-.01-.425.64-.463 1.198-1.04 1.638-1.7z" fill="#fff" fill-rule="nonzero"/></svg><span>Tweet</span></a></li>
-
-				
-				<li class="sc-fb"><div class="fb-like" data-href="https://meganii.com/blog/2014/11/21/ted-api/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false"></div></li>
-
-				
-				<li><div data-href="https://meganii.com/blog/2014/11/21/ted-api/" class="g-plusone" data-size="tall"></div></li>
-
-				
-				<li><a href="http://b.hatena.ne.jp/entry/https://meganii.com/blog/2014/11/21/ted-api/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border:none;" /></a></li>
-
-				
-				<li><a data-save-url="https://meganii.com/blog/2014/11/21/ted-api/" data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"></a></li>
-			</ul>
 
 		
-		<div id="fb-root"></div>
+<div class="social-area-syncer">
+  <ul class="social-button-syncer">
+    
+    <li class="sc-tw"><a data-url="https://meganii.com/blog/2014/11/21/ted-api/" href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-count="vertical" data-dnt="true" target="_blank"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.375-1.337.648-2.085.795-.598-.638-1.45-1.036-2.396-1.036-1.812 0-3.282 1.468-3.282 3.28 0 .258.03.51.085.75C5.152 5.39 2.733 4.084 1.114 2.1.83 2.583.67 3.147.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.416-.02-.617-.058.418 1.304 1.63 2.253 3.067 2.28-1.124.88-2.54 1.404-4.077 1.404-.265 0-.526-.015-.783-.045 1.453.93 3.178 1.474 5.032 1.474 6.038 0 9.34-5 9.34-9.338 0-.143-.004-.284-.01-.425.64-.463 1.198-1.04 1.638-1.7z" fill="#fff" fill-rule="nonzero"/></svg><span>Tweet</span></a></li>
 
-		</div>
-		
+    
+    <li class="sc-fb"><div class="fb-like" data-href="https://meganii.com/blog/2014/11/21/ted-api/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false"></div></li>
+
+    
+    <li><div data-href="https://meganii.com/blog/2014/11/21/ted-api/" class="g-plusone" data-size="tall"></div></li>
+
+    
+    <li><a href="http://b.hatena.ne.jp/entry/https://meganii.com/blog/2014/11/21/ted-api/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border:none;" /></a></li>
+
+    
+    <li><a data-save-url="https://meganii.com/blog/2014/11/21/ted-api/" data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"></a></li>
+  </ul>
+
+
+<div id="fb-root"></div>
+
+</div>
+
+
+
 		
 		<section id="related">
 			<h2>Related Post</h2>
@@ -299,623 +343,419 @@ end
 			<ul id="related-posts">
 				
 				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				<li><a href="https://meganii.com/blog/2012/04/23/happiness/">Happiness</a></li>
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
+				  
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+								
+									<li><a href="https://meganii.com/blog/2015/08/07/normalization/">正規化とは何か？</a></li>
+								
+									<li><a href="https://meganii.com/blog/2014/09/03/youtube-responsive/">YouTube埋め込みタグをレスポンシブ化する</a></li>
+								
+									<li><a href="https://meganii.com/blog/2013/05/18/sqlite3-ruby/">sqlite3-rubyを使ってSQLite3ファイルからの検索結果をHashとして読み込む</a></li>
+								
+									<li><a href="https://meganii.com/blog/2014/12/02/jekyll-monthly-archive/">Jekyllに月別アーカイブを実装する</a></li>
+								
+									<li><a href="https://meganii.com/blog/2014/11/08/angular-flickr/">AngularJSでFlickrの埋め込みタグを作成する</a></li>
+								
+									<li><a href="https://meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/">Swiftで初めてのMacOSXアプリケーション-FFViewer-</a></li>
+								
+									<li><a href="https://meganii.com/blog/2015/05/10/middleman-multiple-blogs/">Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-</a></li>
+								
+									<li><a href="https://meganii.com/blog/2013/05/23/regexp-jekyll/">Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-</a></li>
+								
+									<li><a href="https://meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/">JekyllからHugoへの移行ポイント</a></li>
+								
+									<li><a href="https://meganii.com/blog/2014/02/19/xpath-java/">XPathでの属性値の取得</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/06/05/ruby-google-api-client/">google-api-ruby-clientからGoogle Adsense Management APIを操作する方法</a></li>
+								
+									<li><a href="https://meganii.com/blog/2014/02/16/phonegap-start/">phonegap-start</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/01/30/effective-javascript-closure/">[Effective JavaScript]クロージャ</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/">D3.jsで東京の地価データを可視化する</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/">Lets&#39;s Encryptでブログの常時SSL化にチャレンジ</a></li>
+								
+									<li><a href="https://meganii.com/blog/2015/03/27/leave-latest-filename/">数世代バージョンを持つファイル名から最新版以外を抽出する</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/07/01/azure-classic-vnet/">azure classic vnet</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/01/25/electron-tutorial/">Electronでデスクトップアプリ作成</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/">ElectronでAmazonアフィリエイトリンクビルダーを作った</a></li>
+								
+									<li><a href="https://meganii.com/blog/2015/03/02/ansible-sakura-vps/">AnsibleでさくらVPSの初期設定</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/">Nightmare.jsでAmazonアフィリエイトのレポートを取得する</a></li>
+								
+									<li><a href="https://meganii.com/blog/2013/06/21/ssh-sakuravps/">2台目のMacBookAirからさくらVPSへSSH接続を行うための鍵の設定</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/">さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/">Electron &#43; Mithril.jsでFlickrアプリを作成する</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/05/30/casperjs-amazon/">CasperJSでAmazonログイン</a></li>
+								
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+				
+
 				
 			</ul>
 		</section>
+
 	</main>
 
 	<aside class="three columns">
@@ -930,26 +770,8 @@ end
 
   <section>
     <h2>Popular</h2>
-    <ul class="list-unstyled urllist">
-  <li>
-    <div>
-  <a href="/blog/2014/02/22/wedding-movie-motion5/" title="evernote by meganii, on Flickr"><img class="urllist-img" src="https://farm4.staticflickr.com/3758/12878786213_afab3820c4_s.jpg" width="75" height="75" alt="iMovie Motion5"></a>
-      <a href="/blog/2014/02/22/wedding-movie-motion5/">iMovieとMotion5で作る結婚式余興ムービー</a>
-    </div>
-  </li>
-  <li>
-    <div>
-      <a href="/blog/2014/11/16/fountain-pen-cleaning/" title="image by meganii, on Flickr"><img class="urllist-img" src="https://farm8.staticflickr.com/7491/15800656071_6da29ae104_s.jpg" width="75" height="75" alt="万年筆Lamy safari"></a>
-      <a href="/blog/2014/11/16/fountain-pen-cleaning/">万年筆LAMY safariのインク洗浄・交換</a>
-    </div>
-  </li>
-  <li>
-    <div>
-      <a href="https://www.flickr.com/photos/35571855@N06/8714845801" title="20130502151754 by meganii, on Flickr"><img class="urllist-img" src="https://farm8.staticflickr.com/7436/8714845801_c24116dce0_s.jpg" width="75" height="75" alt="屋久島旅行記"></a>
-      <a href="/blog/2013/05/07/yakushima/">晴れの屋久島。雨の屋久島。屋久島旅行記</a>
-    </div>
-  </li>
-</ul>
+    <div id="ranklet-10307"></div><script src="//tracker.iws.vc/v1/ranklet/s3/widgets/10307/widget.js"></script>
+
 
   </section>
 
@@ -965,8 +787,8 @@ end
     
     <li>
       <div>
-        <a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/"><img class="urllist-img" src="https://www.oreilly.co.jp/books/images/picture_large978-4-87311-744-7.jpeg" alt="Electron &#43; Mithril.jsでFlickrアプリを作成する" width="75"></a>
-        <a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/">Electron &#43; Mithril.jsでFlickrアプリを作成する</a>
+        <a href="https://meganii.com/blog/2016/08/11/hugo-related-post/"><img class="urllist-img" src="https://images-fe.ssl-images-amazon.com/images/I/51%2BfZJOKEKL._SL160_.jpg" alt="Hugoで関連記事を表示する方法" width="75"></a>
+        <a href="https://meganii.com/blog/2016/08/11/hugo-related-post/">Hugoで関連記事を表示する方法</a>
       </div>
     </li>
     
@@ -974,17 +796,8 @@ end
     
     <li>
       <div>
-        <a href="https://meganii.com/blog/2016/02/22/become-a-programmer/"><img class="urllist-img" src="https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg" alt="「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。" width="75"></a>
-        <a href="https://meganii.com/blog/2016/02/22/become-a-programmer/">「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。</a>
-      </div>
-    </li>
-    
-  
-    
-    <li>
-      <div>
-        <a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/"><img class="urllist-img" src="https://farm2.staticflickr.com/1467/25143519475_14929051ec_z.jpg" alt="ElectronでAmazonアフィリエイトリンクビルダーを作った" width="75"></a>
-        <a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/">ElectronでAmazonアフィリエイトリンクビルダーを作った</a>
+        <a href="https://meganii.com/blog/2016/07/30/workstyle/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/41nDcp8X7fL._SL160_.jpg" alt="ワークスタイル改革とは何か？" width="75"></a>
+        <a href="https://meganii.com/blog/2016/07/30/workstyle/">ワークスタイル改革とは何か？</a>
       </div>
     </li>
     
@@ -994,8 +807,8 @@ end
     
     <li>
       <div>
-        <a href="https://meganii.com/blog/2016/02/10/post-to-slack/"><img class="urllist-img" src="/images/nopicture.png" alt="slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法" width="75"></a>
-        <a href="https://meganii.com/blog/2016/02/10/post-to-slack/">slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法</a>
+        <a href="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/"><img class="urllist-img" src="/images/ansible.png" alt="さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール" width="75"></a>
+        <a href="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/">さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール</a>
       </div>
     </li>
     
@@ -1003,8 +816,8 @@ end
     
     <li>
       <div>
-        <a href="https://meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/"><img class="urllist-img" src="https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg" alt="D3.jsで東京の地価データを可視化する" width="75"></a>
-        <a href="https://meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/">D3.jsで東京の地価データを可視化する</a>
+        <a href="https://meganii.com/blog/2016/07/17/install-h2load/"><img class="urllist-img" src="https://farm6.staticflickr.com/5624/21367186743_cbcb0e5268_m.jpg" alt="http/2ベンチマークツール「h2load」をインストール" width="75"></a>
+        <a href="https://meganii.com/blog/2016/07/17/install-h2load/">http/2ベンチマークツール「h2load」をインストール</a>
       </div>
     </li>
     
@@ -1012,8 +825,19 @@ end
     
     <li>
       <div>
-        <a href="https://meganii.com/blog/2016/02/07/javascript-ninja/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/51hWBKh7tdL._SL160_.jpg" alt="JavaScript Ninjaの極意 「関数の呼び出し」" width="75"></a>
-        <a href="https://meganii.com/blog/2016/02/07/javascript-ninja/">JavaScript Ninjaの極意 「関数の呼び出し」</a>
+        <a href="https://meganii.com/blog/2016/07/09/invalid-ssl-certificate/"><img class="urllist-img" src="/images/le-logo-standard.png" alt="Lets&#39;s Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化" width="75"></a>
+        <a href="https://meganii.com/blog/2016/07/09/invalid-ssl-certificate/">Lets&#39;s Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化</a>
+      </div>
+    </li>
+    
+  
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/06/05/ruby-google-api-client/"><img class="urllist-img" src="https://c8.staticflickr.com/8/7305/27394115551_0612eb23fb_t.jpg" alt="google-api-ruby-clientからGoogle Adsense Management APIを操作する方法" width="75"></a>
+        <a href="https://meganii.com/blog/2016/06/05/ruby-google-api-client/">google-api-ruby-clientからGoogle Adsense Management APIを操作する方法</a>
       </div>
     </li>
     
@@ -1021,8 +845,8 @@ end
     
     <li>
       <div>
-        <a href="https://meganii.com/blog/2016/02/06/d3js-tutorial/"><img class="urllist-img" src="/images/nopicture.png" alt="D3.jsチュートリアル" width="75"></a>
-        <a href="https://meganii.com/blog/2016/02/06/d3js-tutorial/">D3.jsチュートリアル</a>
+        <a href="https://meganii.com/blog/2016/05/30/casperjs-amazon/"><img class="urllist-img" src="/images/nopicture.png" alt="CasperJSでAmazonログイン" width="75"></a>
+        <a href="https://meganii.com/blog/2016/05/30/casperjs-amazon/">CasperJSでAmazonログイン</a>
       </div>
     </li>
     
@@ -1030,17 +854,8 @@ end
     
     <li>
       <div>
-        <a href="https://meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/61DHJGf1uSL._SL160_.jpg" alt="Nightmare.jsでAmazonアフィリエイトのレポートを取得する" width="75"></a>
-        <a href="https://meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/">Nightmare.jsでAmazonアフィリエイトのレポートを取得する</a>
-      </div>
-    </li>
-    
-  
-    
-    <li>
-      <div>
-        <a href="https://meganii.com/blog/2016/01/30/effective-javascript-closure/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/517tJs%2B%2B%2BnL._SL160_.jpg" alt="[Effective JavaScript]クロージャ" width="75"></a>
-        <a href="https://meganii.com/blog/2016/01/30/effective-javascript-closure/">[Effective JavaScript]クロージャ</a>
+        <a href="https://meganii.com/blog/2016/05/29/mariadb-utf8/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/51pj9W0WxzL._SL160_.jpg" alt="MariaDBの日本語文字化けを解消するための設定" width="75"></a>
+        <a href="https://meganii.com/blog/2016/05/29/mariadb-utf8/">MariaDBの日本語文字化けを解消するための設定</a>
       </div>
     </li>
     
@@ -1056,36 +871,36 @@ end
       
       <li>
         <div>
-          <a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/"><img class="urllist-img" src="https://www.oreilly.co.jp/books/images/picture_large978-4-87311-744-7.jpeg" alt="Electron &#43; Mithril.jsでFlickrアプリを作成する" width="75"></a>
-          <a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/">Electron &#43; Mithril.jsでFlickrアプリを作成する</a>
+          <a href="https://meganii.com/blog/2016/08/11/hugo-related-post/"><img class="urllist-img" src="https://images-fe.ssl-images-amazon.com/images/I/51%2BfZJOKEKL._SL160_.jpg" alt="Hugoで関連記事を表示する方法" width="75"></a>
+          <a href="https://meganii.com/blog/2016/08/11/hugo-related-post/">Hugoで関連記事を表示する方法</a>
         </div>
       </li>
       
       <li>
         <div>
-          <a href="https://meganii.com/blog/2016/02/22/become-a-programmer/"><img class="urllist-img" src="https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg" alt="「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。" width="75"></a>
-          <a href="https://meganii.com/blog/2016/02/22/become-a-programmer/">「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。</a>
+          <a href="https://meganii.com/blog/2016/07/30/workstyle/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/41nDcp8X7fL._SL160_.jpg" alt="ワークスタイル改革とは何か？" width="75"></a>
+          <a href="https://meganii.com/blog/2016/07/30/workstyle/">ワークスタイル改革とは何か？</a>
         </div>
       </li>
       
       <li>
         <div>
-          <a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/"><img class="urllist-img" src="https://farm2.staticflickr.com/1467/25143519475_14929051ec_z.jpg" alt="ElectronでAmazonアフィリエイトリンクビルダーを作った" width="75"></a>
-          <a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/">ElectronでAmazonアフィリエイトリンクビルダーを作った</a>
+          <a href="https://meganii.com/blog/2016/07/23/scotch-grain-shine-or-rain/"><img class="urllist-img" src="/images/nopicture.png" alt="Scotch Grain(スコッチグレイン)の革靴「シャインオアレイン」なら雨の日でも快適通勤！！" width="75"></a>
+          <a href="https://meganii.com/blog/2016/07/23/scotch-grain-shine-or-rain/">Scotch Grain(スコッチグレイン)の革靴「シャインオアレイン」なら雨の日でも快適通勤！！</a>
         </div>
       </li>
       
       <li>
         <div>
-          <a href="https://meganii.com/blog/2016/02/11/a-random-walk-down-wall-street/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/51UMwuX4tjL._SL160_.jpg" alt="a random walk down wall street" width="75"></a>
-          <a href="https://meganii.com/blog/2016/02/11/a-random-walk-down-wall-street/">a random walk down wall street</a>
+          <a href="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/"><img class="urllist-img" src="/images/ansible.png" alt="さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール" width="75"></a>
+          <a href="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/">さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール</a>
         </div>
       </li>
       
       <li>
         <div>
-          <a href="https://meganii.com/blog/2016/02/10/post-to-slack/"><img class="urllist-img" src="/images/nopicture.png" alt="slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法" width="75"></a>
-          <a href="https://meganii.com/blog/2016/02/10/post-to-slack/">slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法</a>
+          <a href="https://meganii.com/blog/2016/07/17/install-h2load/"><img class="urllist-img" src="https://farm6.staticflickr.com/5624/21367186743_cbcb0e5268_m.jpg" alt="http/2ベンチマークツール「h2load」をインストール" width="75"></a>
+          <a href="https://meganii.com/blog/2016/07/17/install-h2load/">http/2ベンチマークツール「h2load」をインストール</a>
         </div>
       </li>
       

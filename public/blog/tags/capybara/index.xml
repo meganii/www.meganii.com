@@ -17,7 +17,7 @@
       <guid>https://meganii.com/blog/2015/07/25/capybara-connect-error/</guid>
       <description>
 
-&lt;h2 id=&#34;現象:7cc9ca141ee1a4a521482c2dfcca0857&#34;&gt;現象&lt;/h2&gt;
+&lt;h2 id=&#34;現象&#34;&gt;現象&lt;/h2&gt;
 
 &lt;p&gt;Capybaraでhttpsのサイトにvisit(&amp;ldquo;)したときに、以下のエラーが発生する。&lt;/p&gt;
 
@@ -39,15 +39,15 @@
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;原因:7cc9ca141ee1a4a521482c2dfcca0857&#34;&gt;原因&lt;/h2&gt;
+&lt;h2 id=&#34;原因&#34;&gt;原因&lt;/h2&gt;
 
 &lt;p&gt;SSLの通信にエラーが起きてるため。&lt;/p&gt;
 
@@ -56,7 +56,7 @@
 &lt;a href=&#34;http://stackoverflow.com/questions/12021578/phantomjs-failing-to-open-https-site/24679134#24679134&#34;&gt;screen scraping - PhantomJS failing to open HTTPS site - Stack Overflow&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&#34;対処法:7cc9ca141ee1a4a521482c2dfcca0857&#34;&gt;対処法&lt;/h2&gt;
+&lt;h2 id=&#34;対処法&#34;&gt;対処法&lt;/h2&gt;
 
 &lt;p&gt;以下のオプションを設定することで解決した。&lt;/p&gt;
 
@@ -77,7 +77,7 @@ end
 
 &lt;p&gt;ローカル環境では、上記の「phantomjs_options」を指定しなくても動作するが、CentOS上だとエラーになる。インストールしているphantomjsの違いなのか、SSL通信をする際の挙動が違うのか理解していないため、要調査。&lt;/p&gt;
 
-&lt;h2 id=&#34;参考:7cc9ca141ee1a4a521482c2dfcca0857&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://mmmpa.hatenablog.com/entry/2015/01/05/Capybara_%E3%81%A8_Phantomjs_%E3%81%A7_ChatWork_%E3%82%92%E3%82%A2%E3%83%AC%E3%81%97%E3%82%88%E3%81%86%E3%81%A8%E6%80%9D%E3%81%A3%E3%81%9F%E3%82%89_Capybara%3A%3APoltergeist%3A%3AStatusFailError_%E3%81%A8&#34;&gt;Capybara と Phantomjs で ChatWork をアレしようと思ったら Capybara::Poltergeist::StatusFailError とかいわれてなにも取得できなくて困った。 - MMMPA&lt;/a&gt;&lt;/li&gt;

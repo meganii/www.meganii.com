@@ -29,15 +29,15 @@
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;原因:b24756fc5fb15c4083bd0f239e6706e7&#34;&gt;原因&lt;/h2&gt;
+&lt;h2 id=&#34;原因&#34;&gt;原因&lt;/h2&gt;
 
 &lt;p&gt;Mac OSXが作成した濁点、半濁点を含むファイル名を、CentOS側では異なる文字と認識しているのが原因みたい。&lt;/p&gt;
 
@@ -54,7 +54,7 @@ NFDだと、分解されて「か」と「゜」で表現される。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/15904473402&#34; title=&#34;nfdndcby meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm9.staticflickr.com/8582/15904473402_eeaa56b76f_z.jpg&#34; alt=&#34;nfdndc&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;解決策:b24756fc5fb15c4083bd0f239e6706e7&#34;&gt;解決策&lt;/h2&gt;
+&lt;h2 id=&#34;解決策&#34;&gt;解決策&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;rsyncのバージョンを3.0に上げる&lt;/li&gt;
@@ -65,7 +65,7 @@ NFDだと、分解されて「か」と「゜」で表現される。&lt;/p&gt;
 
 &lt;p&gt;これによって、&lt;code&gt;UTF-8-MAC&lt;/code&gt;を&lt;code&gt;UTF-8&lt;/code&gt;に変換して、サーバに転送する。&lt;/p&gt;
 
-&lt;h3 id=&#34;rsyncアップロード:b24756fc5fb15c4083bd0f239e6706e7&#34;&gt;rsyncアップロード&lt;/h3&gt;
+&lt;h3 id=&#34;rsyncアップロード&#34;&gt;rsyncアップロード&lt;/h3&gt;
 
 &lt;p&gt;Homebrewでインストール。&lt;/p&gt;
 
@@ -74,7 +74,7 @@ brew install libiconv
 brew install rsync
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;rakefileの変更:b24756fc5fb15c4083bd0f239e6706e7&#34;&gt;Rakefileの変更&lt;/h3&gt;
+&lt;h3 id=&#34;rakefileの変更&#34;&gt;Rakefileの変更&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-diff&#34;&gt; desc &amp;quot;deploy_to_sakura&amp;quot;
  task :deploy_to_sakura do
@@ -84,11 +84,11 @@ brew install rsync
  end
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;手書きメモ:b24756fc5fb15c4083bd0f239e6706e7&#34;&gt;手書きメモ&lt;/h2&gt;
+&lt;h2 id=&#34;手書きメモ&#34;&gt;手書きメモ&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/15719329297&#34; title=&#34;2014年11月29日22時34分48秒000by meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm8.staticflickr.com/7482/15719329297_f662ce2376_z.jpg&#34; alt=&#34;2014年11月29日22時34分48秒000&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;参考:b24756fc5fb15c4083bd0f239e6706e7&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://gam0022.net/blog/2012/08/11/use-rsync-iconv-option/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://gam0022.net/blog/2012/08/11/use-rsync-iconv-option/&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://gam0022.net/blog/2012/08/11/use-rsync-iconv-option/&#34; target=&#34;_blank&#34;&gt;カテゴリー名に濁点を含んだ日本語が使えない問題を解決する(Rsyncのiconvオプションを使う) - gam0022.net&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://gam0022.net/blog/2012/08/11/use-rsync-iconv-option/&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://gam0022.net/blog/2012/08/11/use-rsync-iconv-option/&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;span style=&#34;color: #808080;font-size: 80%;&#34;&gt;brew tap homebrew/dupes #リポジトリを追加 brew install libiconv #iconvオプションを使うために必須のよう brew install rsync &amp;hellip;&lt;/span&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
 

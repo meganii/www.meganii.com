@@ -29,8 +29,8 @@ results_as_hash = trueにすれば、Hashで返ってくることがわかった
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
@@ -69,7 +69,7 @@ results_as_hash = trueにすれば、Hashで返ってくることがわかった
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;sqlite3ファイルから読み込み:b425023893754c7832f533b0be41614b&#34;&gt;sqlite3ファイルから読み込み&lt;/h2&gt;
+&lt;h2 id=&#34;sqlite3ファイルから読み込み&#34;&gt;sqlite3ファイルから読み込み&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;require &#39;rubygems&#39;
 require &#39;sqlite3&#39;
@@ -84,7 +84,7 @@ db.execute(sql) do |row|
 end
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;参考:b425023893754c7832f533b0be41614b&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/3518329/add-a-new-line-in-file&#34;&gt;ruby - Add a new line in file? - Stack Overflow&lt;/a&gt;&lt;/li&gt;

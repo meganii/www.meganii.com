@@ -34,29 +34,29 @@
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;インデックスの特性:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;インデックスの特性&lt;/h2&gt;
+&lt;h2 id=&#34;インデックスの特性&#34;&gt;インデックスの特性&lt;/h2&gt;
 
 &lt;p&gt;まずインデックスの特性として、以下3が挙げられる。&lt;/p&gt;
 
-&lt;h3 id=&#34;1-事前に作成しておく必要がある:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;1.事前に作成しておく必要がある&lt;/h3&gt;
+&lt;h3 id=&#34;1-事前に作成しておく必要がある&#34;&gt;1.事前に作成しておく必要がある&lt;/h3&gt;
 
 &lt;p&gt;表が大きい場合、作成にはそれなりの時間が掛かり、ハードディスクを消費する&lt;/p&gt;
 
-&lt;h3 id=&#34;2-検索に必要な情報が含まれるインデックスを-rdbが-自動的に使用する:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;2.検索に必要な情報が含まれるインデックスを(RDBが)自動的に使用する&lt;/h3&gt;
+&lt;h3 id=&#34;2-検索に必要な情報が含まれるインデックスを-rdbが-自動的に使用する&#34;&gt;2.検索に必要な情報が含まれるインデックスを(RDBが)自動的に使用する&lt;/h3&gt;
 
 &lt;p&gt;検索に必要な列(=WHERE句に書かれた列)
  - 条件検索の列
  - ジョインのターゲット列&lt;/p&gt;
 
-&lt;h3 id=&#34;3-インデックスはメンテナンスが必要:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;3.インデックスはメンテナンスが必要&lt;/h3&gt;
+&lt;h3 id=&#34;3-インデックスはメンテナンスが必要&#34;&gt;3.インデックスはメンテナンスが必要&lt;/h3&gt;
 
 &lt;p&gt;表が更新されると、インデックスは必ず(自動的に)更新される
 ⇛　インデックスは更新処理(INSERT, UPDATE, DELETE)を遅くする&lt;/p&gt;
@@ -70,9 +70,9 @@
 
 &lt;p&gt;ORACLEの場合、UPDATEのときは、DELTE⇛INSERTになるためより時間が掛かる&lt;/p&gt;
 
-&lt;h2 id=&#34;インデックスはどこにどれだけ作成すべきか:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;インデックスはどこにどれだけ作成すべきか&lt;/h2&gt;
+&lt;h2 id=&#34;インデックスはどこにどれだけ作成すべきか&#34;&gt;インデックスはどこにどれだけ作成すべきか&lt;/h2&gt;
 
-&lt;h3 id=&#34;インデックスをつけるべき箇所:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;インデックスをつけるべき箇所&lt;/h3&gt;
+&lt;h3 id=&#34;インデックスをつけるべき箇所&#34;&gt;インデックスをつけるべき箇所&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;表のプライマリーキーは(ほぼ)必須 (例外として小さい表)&lt;/li&gt;
@@ -81,14 +81,14 @@
 &lt;li&gt;カーディナリティが高い列 (SYSCAT, COLUMNS表のCOLCARD列で確認)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;インデックスを避けるべき箇所:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;インデックスを避けるべき箇所&lt;/h3&gt;
+&lt;h3 id=&#34;インデックスを避けるべき箇所&#34;&gt;インデックスを避けるべき箇所&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;更新が多いシステム(表)はインデックスを控えめにする&lt;/li&gt;
 &lt;li&gt;カーディナリティが低い列(フラグ列など)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;索引の種類:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;索引の種類&lt;/h2&gt;
+&lt;h2 id=&#34;索引の種類&#34;&gt;索引の種類&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;Bツリー索引 ・・・　カーディナリティが高い、定型のSQL分の場合&lt;br /&gt;
@@ -100,31 +100,31 @@
 
 &lt;p&gt;&lt;a href=&#34;https://blogs.oracle.com/oracle4engineer/entry/oracle_database_-_b&#34;&gt;Oracle Databaseの索引（インデックス）の種類 - Bツリー、ビットマップ、索引構成表、索引クラスタ（ハッシュ・クラスタ）&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;作成する列の候補:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;作成する列の候補&lt;/h2&gt;
+&lt;h2 id=&#34;作成する列の候補&#34;&gt;作成する列の候補&lt;/h2&gt;
 
-&lt;h3 id=&#34;1-一意性の高い索引を:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;1.一意性の高い索引を&lt;/h3&gt;
+&lt;h3 id=&#34;1-一意性の高い索引を&#34;&gt;1.一意性の高い索引を&lt;/h3&gt;
 
 &lt;p&gt;Bツリー索引はテーブルに対して最適な一つの索引を使う。
 (ビットマップ索引は複数の索引が論理演算されるので、複数の索引を利用できる)&lt;/p&gt;
 
 &lt;p&gt;そのため、複数の列を条件に指定している場合は、できるだけ全ての列で複数索引を作成すること。これにより、一意性が高くなり、アクセスするブロック数を少なくでき、早くアクセスできる。&lt;/p&gt;
 
-&lt;h3 id=&#34;2-使用頻度の高い列を先頭に:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;2.使用頻度の高い列を先頭に&lt;/h3&gt;
+&lt;h3 id=&#34;2-使用頻度の高い列を先頭に&#34;&gt;2.使用頻度の高い列を先頭に&lt;/h3&gt;
 
 &lt;p&gt;全ての列の組み合わせの索引を作成すると数が多くなるため、使用頻度の多くない組み合わせ、または性能要件が高くない条件は省く。&lt;/p&gt;
 
 &lt;p&gt;このとき、作成する索引の先頭には頻繁に使用する列を持ってきて、多くのSQL文で使われるようにする。
 (索引は、大小比較でデータを絞り込むため、先頭の値が決まらないと絞り込めない。よって、索引の先頭の列は条件で使用されている必要がある)&lt;/p&gt;
 
-&lt;h3 id=&#34;3-選択率の低い列を先頭に:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;3. 選択率の低い列を先頭に&lt;/h3&gt;
+&lt;h3 id=&#34;3-選択率の低い列を先頭に&#34;&gt;3. 選択率の低い列を先頭に&lt;/h3&gt;
 
 &lt;p&gt;選択率の低い列(ユニーク性の高い列)から指定する。&lt;/p&gt;
 
-&lt;h3 id=&#34;4-非ユニーク索引にはキー圧縮:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;4. 非ユニーク索引にはキー圧縮&lt;/h3&gt;
+&lt;h3 id=&#34;4-非ユニーク索引にはキー圧縮&#34;&gt;4. 非ユニーク索引にはキー圧縮&lt;/h3&gt;
 
-&lt;h2 id=&#34;候補:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;候補&lt;/h2&gt;
+&lt;h2 id=&#34;候補&#34;&gt;候補&lt;/h2&gt;
 
-&lt;h3 id=&#34;頻繁にwhere句の比較条件で使用されている選択率の低い列:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;頻繁にWHERE句の比較条件で使用されている選択率の低い列&lt;/h3&gt;
+&lt;h3 id=&#34;頻繁にwhere句の比較条件で使用されている選択率の低い列&#34;&gt;頻繁にWHERE句の比較条件で使用されている選択率の低い列&lt;/h3&gt;
 
 &lt;p&gt;比較条件お列に索引が作成されていると、索引範囲スキャン(INDEX RANGE SCAN) が行われる。
 (一意索引で等価条件の場合はINDEX UNIQUE SCAN)&lt;/p&gt;
@@ -133,23 +133,23 @@
 
 &lt;p&gt;カーディナリティの高い列は選択率が低くなるが、範囲指定(&amp;lt;,&amp;gt;など)では選択率が高くなる場合がある。&lt;/p&gt;
 
-&lt;h3 id=&#34;頻繁に結合が行われている列:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;頻繁に結合が行われている列&lt;/h3&gt;
+&lt;h3 id=&#34;頻繁に結合が行われている列&#34;&gt;頻繁に結合が行われている列&lt;/h3&gt;
 
 &lt;p&gt;ネステッド・ループ結合では内部表(最初にアクセスしないテーブル)の結合列で索引を使用して結合するため、結合列に索引がないと効率のよいアクセスにならない。&lt;/p&gt;
 
 &lt;p&gt;結合する行数が少ない ⇛ 結合列に索引を作成してネステッド・ループ結合するほうが効率が良い。&lt;/p&gt;
 
-&lt;h3 id=&#34;頻繁にソートされている列:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;頻繁にソートされている列&lt;/h3&gt;
+&lt;h3 id=&#34;頻繁にソートされている列&#34;&gt;頻繁にソートされている列&lt;/h3&gt;
 
 &lt;p&gt;索引はソートして格納されていますので、ORDER BYのようなソート処理にも効果があります（索引範囲スキャンや全索引スキャンするだけでソート結果になります）。ただし、NULLが存在する列のBツリー索引では効果がありません（使用されません）ので注意して下さい（Bツリー索引ではキー値にNULLは含まれないためです。ただし、複数列索引ではすべての列値がNULLの場合のみ含まれないようになります）。&lt;/p&gt;
 
-&lt;h3 id=&#34;頻繁に更新されていない列:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;頻繁に更新されていない列&lt;/h3&gt;
+&lt;h3 id=&#34;頻繁に更新されていない列&#34;&gt;頻繁に更新されていない列&lt;/h3&gt;
 
 &lt;p&gt;索引が作成されている列が更新されると索引も更新する必要がありますので、頻繁に更新されるとオーバーヘッドが大きくなり、断片化も発生し易くなるため効果が低下してしまいます。その断片化を解消するための再構築の頻度も多くなる可能性がありますので、作成しない方が良いです（作成しなくても良いようにデータベースを設計して下さい）。ただし、検索の性能が更新よりも優先度が高い場合もありますので、その場合のみ作成するとすれば良いでしょう。&lt;/p&gt;
 
-&lt;h2 id=&#34;結合の種類:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;結合の種類&lt;/h2&gt;
+&lt;h2 id=&#34;結合の種類&#34;&gt;結合の種類&lt;/h2&gt;
 
-&lt;h3 id=&#34;1-ネステッド-ループ結合:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;1. ネステッド・ループ結合&lt;/h3&gt;
+&lt;h3 id=&#34;1-ネステッド-ループ結合&#34;&gt;1. ネステッド・ループ結合&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;表の一部分を結合する場合に有効&lt;/li&gt;
@@ -159,13 +159,13 @@
 &lt;p&gt;結合を試みるレコード数がより少ない方　外部表
 レコード数に大差がない場合、結合条件列の索引スキャンがより効率的な方を内部表&lt;/p&gt;
 
-&lt;h3 id=&#34;2-ソート-マージ結合:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;2. ソート/マージ結合&lt;/h3&gt;
+&lt;h3 id=&#34;2-ソート-マージ結合&#34;&gt;2. ソート/マージ結合&lt;/h3&gt;
 
 &lt;p&gt;表の大部分を結合する場合に有効な結合方法。&lt;/p&gt;
 
 &lt;p&gt;双方の表を結合条件列でソートし、結果をマージすることで対象レコードを抽出する。&lt;/p&gt;
 
-&lt;h3 id=&#34;3-ハッシュ結合:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;3. ハッシュ結合&lt;/h3&gt;
+&lt;h3 id=&#34;3-ハッシュ結合&#34;&gt;3. ハッシュ結合&lt;/h3&gt;
 
 &lt;p&gt;結合条件に等価条件が指定され、大量のレコード、あるいは表の大部分を結合する場合に有効な結合方法。&lt;/p&gt;
 
@@ -178,7 +178,7 @@
 &lt;p&gt;結合のアルゴリズムについては、以下の記事で説明する。
 &lt;a href=&#34;http://meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/&#34; target=&#34;_blank&#34;&gt;[SQL実践入門]結合のアルゴリズム Nested Loops, Hash, Sort Merge&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;用語:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;用語&lt;/h2&gt;
+&lt;h2 id=&#34;用語&#34;&gt;用語&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;カーディナリティ
@@ -186,7 +186,7 @@
 &lt;a href=&#34;http://www.atmarkit.co.jp/ait/articles/0408/25/news101_2.html&#34;&gt;Oracle SQLチューニング講座（3）：SQLチューニングの必須知識を総ざらい（後編） (&lt;sup&gt;2&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt;) - ＠IT&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;参考:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.slideshare.net/simosako/rdb&#34;&gt;DBパフォーマンスチューニングの基礎：インデックス入門&lt;/a&gt;&lt;/li&gt;
@@ -196,7 +196,7 @@
 
 &lt;p&gt;津島博士のパフォーマンス講座はなかなか参考になった。Oracleの動きを抑えたい方は、一読することをおすすめする。&lt;/p&gt;
 
-&lt;h2 id=&#34;参考図書:f7381cab31ccfe520727bd46d0520d1f&#34;&gt;参考図書&lt;/h2&gt;
+&lt;h2 id=&#34;参考図書&#34;&gt;参考図書&lt;/h2&gt;
 
 &lt;div class=&#34;booklink-box&#34;&gt;&lt;div class=&#34;booklink-image&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/B00EE1XPAI/meganii-22/&#34; target=&#34;_blank&#34; &gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/51sApXJW7HL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklink-info&#34;&gt;&lt;div class=&#34;booklink-name&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/B00EE1XPAI/meganii-22/&#34; target=&#34;_blank&#34; &gt;達人に学ぶDB設計 徹底指南書[Kindle版]&lt;/a&gt;&lt;div class=&#34;booklink-powered-date&#34;&gt;posted with &lt;a href=&#34;http://yomereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-detail&#34;&gt;ミック 翔泳社 2013-08-07    &lt;/div&gt;&lt;div class=&#34;booklink-link2&#34;&gt;&lt;div class=&#34;shoplinkkindle&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00EE1XPAI/meganii-22/&#34; target=&#34;_blank&#34; &gt;Kindle&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkamazon&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4798124702/meganii-22/&#34; target=&#34;_blank&#34; &gt;Amazon[書籍版]&lt;/a&gt;&lt;/div&gt;                                              &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34;&gt;&lt;/div&gt;&lt;/div&gt;
 

@@ -28,15 +28,15 @@
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;d3-jsとは:6fa677f1ac8bdbac1e37c108023f7390&#34;&gt;D3.jsとは？&lt;/h2&gt;
+&lt;h2 id=&#34;d3-jsとは&#34;&gt;D3.jsとは？&lt;/h2&gt;
 
 &lt;p&gt;データ・ドリブン・ドキュメント(Data Driven Documents)の頭文字で、D3.js。&lt;/p&gt;
 
@@ -50,7 +50,7 @@
 
 &lt;p&gt;触ってみた感じだと、jQueryっぽくDOMを操作しながら、Dataを起点として可視化を行うことができる。データが追加、削除されたからといって、コードを修正するのではなく、再描画するだけ。&lt;/p&gt;
 
-&lt;h2 id=&#34;update-enter-exit関数とは:6fa677f1ac8bdbac1e37c108023f7390&#34;&gt;update, enter, exit関数とは？&lt;/h2&gt;
+&lt;h2 id=&#34;update-enter-exit関数とは&#34;&gt;update, enter, exit関数とは？&lt;/h2&gt;
 
 &lt;p&gt;dataを使った瞬間に仮装領域が作られる。&lt;/p&gt;
 
@@ -62,14 +62,14 @@
 
 &lt;p&gt;たまにサンプルで、上記の関数(update, enter, exit)を利用しているコードがあったのだが、このレッスンを受けるまでは意味が分からなかった。しかし、このレッスンをデータセットと一致しない場合の処理を記述していただけであった。&lt;/p&gt;
 
-&lt;h2 id=&#34;d3-jsを利用して-どんなことがしたいのか:6fa677f1ac8bdbac1e37c108023f7390&#34;&gt;d3.jsを利用して、どんなことがしたいのか？&lt;/h2&gt;
+&lt;h2 id=&#34;d3-jsを利用して-どんなことがしたいのか&#34;&gt;d3.jsを利用して、どんなことがしたいのか？&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;GoogleMapsの地図上にデータをマッピングする&lt;/li&gt;
 &lt;li&gt;売上データなどを可視化する&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;参考:6fa677f1ac8bdbac1e37c108023f7390&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://dotinstall.com/lessons/basic_d3js&#34;&gt;D3.js入門 (全17回) - プログラミングならドットインストール&lt;/a&gt;&lt;/li&gt;

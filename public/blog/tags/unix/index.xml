@@ -35,32 +35,32 @@
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h3 id=&#34;置換前:7ec05e1764b1abbfa38028b4e3b3a1d4&#34;&gt;置換前&lt;/h3&gt;
+&lt;h3 id=&#34;置換前&#34;&gt;置換前&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;\&amp;lt;!--more--\&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;置換後:7ec05e1764b1abbfa38028b4e3b3a1d4&#34;&gt;置換後&lt;/h3&gt;
+&lt;h3 id=&#34;置換後&#34;&gt;置換後&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;\&amp;lt;!--more--\&amp;gt;
 {% include hogehoge.html %}
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;のエスケープ:7ec05e1764b1abbfa38028b4e3b3a1d4&#34;&gt;&lt;code&gt;!&lt;/code&gt;のエスケープ&lt;/h2&gt;
+&lt;h2 id=&#34;のエスケープ&#34;&gt;&lt;code&gt;!&lt;/code&gt;のエスケープ&lt;/h2&gt;
 
 &lt;p&gt;まず、&lt;code&gt;!&lt;/code&gt;は過去の実行コマンドを参照するコマンドのため、置換文字列に含まれると意図しない動きをしてしまう。&lt;/p&gt;
 
 &lt;p&gt;⇛　&lt;code&gt;\!&lt;/code&gt; とエスケープすることで解決&lt;/p&gt;
 
-&lt;h2 id=&#34;改行コードの出力:7ec05e1764b1abbfa38028b4e3b3a1d4&#34;&gt;改行コードの出力&lt;/h2&gt;
+&lt;h2 id=&#34;改行コードの出力&#34;&gt;改行コードの出力&lt;/h2&gt;
 
 &lt;p&gt;Macのsedコマンドでは、例えば、以下のように&lt;code&gt;\n&lt;/code&gt;を改行コードに置換しようと思っても、全然意図する動きにならない。&lt;/p&gt;
 
@@ -73,11 +73,11 @@
 echo &amp;quot;hogehoge\nfoo\nbar&amp;quot; | sed &#39;s/\\n/&#39;&amp;quot;$LF&amp;quot;&#39;/g&#39;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;cr-lf-cr-lfの違い:7ec05e1764b1abbfa38028b4e3b3a1d4&#34;&gt;CR LF CR+LFの違い&lt;/h2&gt;
+&lt;h2 id=&#34;cr-lf-cr-lfの違い&#34;&gt;CR LF CR+LFの違い&lt;/h2&gt;
 
 &lt;p&gt;改行コードの復習も兼ねて調べておく&lt;/p&gt;
 
-&lt;h3 id=&#34;キャリッジリターン-carriage-return-復帰-cr-0x0d:7ec05e1764b1abbfa38028b4e3b3a1d4&#34;&gt;キャリッジリターン(Carriage Return 復帰 : CR（0x0d))&lt;/h3&gt;
+&lt;h3 id=&#34;キャリッジリターン-carriage-return-復帰-cr-0x0d&#34;&gt;キャリッジリターン(Carriage Return 復帰 : CR（0x0d))&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;行頭へ印字ヘッドあるいはカーソルを移動すること。&lt;/li&gt;
@@ -85,7 +85,7 @@ echo &amp;quot;hogehoge\nfoo\nbar&amp;quot; | sed &#39;s/\\n/&#39;&amp;quot;$LF&
 
 &lt;p&gt;OS9までのMacOSは、CRを改行コードと解釈していた(裏取りなし)&lt;/p&gt;
 
-&lt;h3 id=&#34;ラインフィード-line-feed-改行-lf-0x0a:7ec05e1764b1abbfa38028b4e3b3a1d4&#34;&gt;ラインフィード(Line Feed 改行 LF（0x0a))&lt;/h3&gt;
+&lt;h3 id=&#34;ラインフィード-line-feed-改行-lf-0x0a&#34;&gt;ラインフィード(Line Feed 改行 LF（0x0a))&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;次の行へ一行移動する。&lt;/li&gt;
@@ -94,17 +94,17 @@ echo &amp;quot;hogehoge\nfoo\nbar&amp;quot; | sed &#39;s/\\n/&#39;&amp;quot;$LF&
 &lt;p&gt;UNIX環境は、LFを改行コードと解釈する
 (OSXも同様)&lt;/p&gt;
 
-&lt;h3 id=&#34;crlf-0x0d0a:7ec05e1764b1abbfa38028b4e3b3a1d4&#34;&gt;CRLF 0x0d0a&lt;/h3&gt;
+&lt;h3 id=&#34;crlf-0x0d0a&#34;&gt;CRLF 0x0d0a&lt;/h3&gt;
 
 &lt;p&gt;Windows環境は、CR LFを改行コードとして解釈する&lt;/p&gt;
 
-&lt;h2 id=&#34;実行したかったコマンド:7ec05e1764b1abbfa38028b4e3b3a1d4&#34;&gt;実行したかったコマンド&lt;/h2&gt;
+&lt;h2 id=&#34;実行したかったコマンド&#34;&gt;実行したかったコマンド&lt;/h2&gt;
 
 &lt;p&gt;markdownファイルの中の、&amp;lt;!&amp;ndash;more&amp;ndash;&amp;gt;タグを置換する&lt;/p&gt;
 
 &lt;p&gt;{{ find . -name &amp;ldquo;*.markdown&amp;rdquo; | xargs sed -i &amp;ldquo; &amp;rsquo;s//&amp;lsquo;&amp;rdquo;$LF&amp;rdquo;&amp;rsquo;{{% googleadsense %}}/g | safeHTML }}&lt;/p&gt;
 
-&lt;h2 id=&#34;参考:7ec05e1764b1abbfa38028b4e3b3a1d4&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://rcmdnk.github.io/blog/2014/09/21/computer-bash/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://rcmdnk.github.io/blog/2014/09/21/computer-bash/&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://rcmdnk.github.io/blog/2014/09/21/computer-bash/&#34; target=&#34;_blank&#34;&gt;sedで改行を出力する - rcmdnk’s blog&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://rcmdnk.github.io/blog/2014/09/21/computer-bash/&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://rcmdnk.github.io/blog/2014/09/21/computer-bash/&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
 
@@ -143,8 +143,8 @@ Total of 1 requests completed
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
@@ -219,7 +219,7 @@ Percentage of the requests served within a certain time (ms)
 
 &lt;p&gt;出来た！読み方を押さえておこう。&lt;/p&gt;
 
-&lt;h2 id=&#34;参考:4f159529ccf8f963066522605c07e034&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://blog.verygoodtown.com/2012/05/apache-bench-ab/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://blog.verygoodtown.com/2012/05/apache-bench-ab/&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://blog.verygoodtown.com/2012/05/apache-bench-ab/&#34; target=&#34;_blank&#34;&gt;Apache Benchを使った負荷テストのやり方 | Web活メモ帳&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://blog.verygoodtown.com/2012/05/apache-bench-ab/&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://blog.verygoodtown.com/2012/05/apache-bench-ab/&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
 </description>

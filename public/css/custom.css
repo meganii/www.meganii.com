@@ -70,6 +70,10 @@ blockquote:before{
   max-width: 960px;
 }
 
+.header-logo {
+  color: #000;
+}
+
 .header-logo img {
   width: 60px;
   height: 60px;
@@ -81,8 +85,38 @@ blockquote:before{
   border-color: #F1F1F1;
 }
 
+.nav {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.nav__item {
+  display: table-cell;
+}
+
+.nav__item > a {
+  display: block;
+  padding: 5px 0;
+  margin-right: 5px;
+  text-align: center;
+  text-decoration: none;
+  /*background-color: #e07000;*/
+  font-weight: bold;
+  color: #222;
+}
+
+.nav__hr {
+  margin: 0;
+  padding: 0;
+}
+
 .site-title {
   margin-top: 2rem;
+}
+
+.site-title > a {
+  color: #222;
 }
 
 .entry-title {
@@ -233,7 +267,7 @@ blockquote:before{
   margin-top: 16px;
 }
 
-.shoplinkamazon a, .shoplinkrakuten a, .shoplinkseven a, .shoplinkkindle a {
+.shoplinkamazon a, .shoplinkrakuten a, .shoplinkseven a, .shoplinkkindle a, .shoplinkyahoo a {
   margin: 16px auto 0 auto;
   padding: 4px;
   display: block;
@@ -253,7 +287,7 @@ blockquote:before{
   text-shadow: 0 1px 0 rgba(255, 255, 255, .6), 0 -0.5px 0 rgba(1, 1, 1, .6);
 }
 
-.shoplinkamazon a:hover, .shoplinkrakuten a:hover, .shoplinkseven a:hover, .shoplinkkindle a:hover {
+.shoplinkamazon a:hover, .shoplinkrakuten a:hover, .shoplinkseven a:hover, .shoplinkkindle a:hover, .shoplinkyahoo a:hover {
   border-top: solid 1px #b4b4b4;
   border-right: solid 1px #a0a2a2;
   border-bottom: solid 1px #6e6e6e;
@@ -261,7 +295,7 @@ blockquote:before{
   box-shadow: 0 1px 1px rgba(148,148,148,1);
 }
 
-.shoplinkamazon a:active, .shoplinkrakuten a:active, .shoplinkseven a:active, .shoplinkkindle a:active {
+.shoplinkamazon a:active, .shoplinkrakuten a:active, .shoplinkseven a:active, .shoplinkyahoo a:active {
   position: relative;
   top: 1px;
   border-top: solid 1px #666;
@@ -288,6 +322,10 @@ blockquote:before{
 
 .shoplinkkindle a {
   color: #fc9711;
+}
+
+.shoplinkyahoo a {
+  color: #bd0000;
 }
 
 /******************************

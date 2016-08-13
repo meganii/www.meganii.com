@@ -17,7 +17,7 @@
       <guid>https://meganii.com/blog/2014/02/24/grunt-install/</guid>
       <description>
 
-&lt;h2 id=&#34;grunt-install:c3bea80bd7be76b5777a47a9ace55239&#34;&gt;Grunt Install&lt;/h2&gt;
+&lt;h2 id=&#34;grunt-install&#34;&gt;Grunt Install&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;npm install -g grunt-cli
 npm install grunt --save-dev
@@ -51,14 +51,14 @@ npm install grunt-svgmin --save-dev
 
 &lt;p&gt;これでやっと &lt;code&gt;grunt&lt;/code&gt;を実行できた。&lt;/p&gt;
 
-&lt;h2 id=&#34;メモ:c3bea80bd7be76b5777a47a9ace55239&#34;&gt;メモ&lt;/h2&gt;
+&lt;h2 id=&#34;メモ&#34;&gt;メモ&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;--save-dev&lt;/code&gt;をつけると、package.jsonにインストールした情報が記述される&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;package.json&lt;/code&gt;にインストールしたいプラグインを書くことで&lt;code&gt;npm install&lt;/code&gt;でインストール出来る。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;参考:c3bea80bd7be76b5777a47a9ace55239&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://basara669.com/frontend/gruntjs_first_step2/&#34;&gt;Grunt.jsの始め方 -インストール編- | css | basara669.com&lt;/a&gt;&lt;/li&gt;

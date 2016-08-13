@@ -28,17 +28,17 @@
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;項目１１-クロージャと仲良くしよう:0bd9809696ee73b1112c45dac75eb628&#34;&gt;項目１１　クロージャと仲良くしよう&lt;/h2&gt;
+&lt;h2 id=&#34;項目１１-クロージャと仲良くしよう&#34;&gt;項目１１　クロージャと仲良くしよう&lt;/h2&gt;
 
-&lt;h3 id=&#34;ポイント１-javascriptでは現在の関数の外側で定義された関数を参照できる:0bd9809696ee73b1112c45dac75eb628&#34;&gt;ポイント１ JavaScriptでは現在の関数の外側で定義された関数を参照できる&lt;/h3&gt;
+&lt;h3 id=&#34;ポイント１-javascriptでは現在の関数の外側で定義された関数を参照できる&#34;&gt;ポイント１ JavaScriptでは現在の関数の外側で定義された関数を参照できる&lt;/h3&gt;
 
 &lt;p&gt;内側の&lt;code&gt;make&lt;/code&gt;関数は&lt;code&gt;magicIngredient&lt;/code&gt;を参照しているが、これは外側の&lt;code&gt;makeSandwich&lt;/code&gt;関数の中で定義されているもの。&lt;/p&gt;
 
@@ -56,7 +56,7 @@ console.log(makeSandwich());
 
 &lt;p&gt;これがクロージャーだーって言って身構えてパッと見るとよくわからないが、処理を追っていけば、&lt;/p&gt;
 
-&lt;h2 id=&#34;ポイント２-関数は-その外側の関数がリターンした後になっても-まだ外側の関数内で定義された変数を参照できる:0bd9809696ee73b1112c45dac75eb628&#34;&gt;ポイント２　関数は、その外側の関数がリターンした後になっても、まだ外側の関数内で定義された変数を参照できる&lt;/h2&gt;
+&lt;h2 id=&#34;ポイント２-関数は-その外側の関数がリターンした後になっても-まだ外側の関数内で定義された変数を参照できる&#34;&gt;ポイント２　関数は、その外側の関数がリターンした後になっても、まだ外側の関数内で定義された変数を参照できる&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;関数は、次のように、後で呼び出された時、内側の関数を返す形式で書くことができる&lt;/li&gt;
@@ -96,7 +96,7 @@ console.log(tukeyAnd(&amp;quot;Swiss&amp;quot;));   //turkey and Swiss
 console.log(tukeyAnd(&amp;quot;Provolone&amp;quot;));   //turkey and Provolone
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;ポイント３-クロージャは外側の変数を更新できる:0bd9809696ee73b1112c45dac75eb628&#34;&gt;ポイント３　クロージャは外側の変数を更新できる&lt;/h2&gt;
+&lt;h2 id=&#34;ポイント３-クロージャは外側の変数を更新できる&#34;&gt;ポイント３　クロージャは外側の変数を更新できる&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;クロージャは、外側の変数へのリファレンスを保存するのであって、値をコピーするわけではない&lt;/li&gt;
@@ -121,7 +121,7 @@ console.log(b.type());  // number
 
 &lt;p&gt;これも、そういうもんなんだと思えば、身構える必要もないのかと。実際の利用例をもっと見てみたい。&lt;/p&gt;
 
-&lt;h2 id=&#34;ポイント:0bd9809696ee73b1112c45dac75eb628&#34;&gt;ポイント&lt;/h2&gt;
+&lt;h2 id=&#34;ポイント&#34;&gt;ポイント&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;関数は、その外側のスコープで定義された変数を参照できる&lt;/li&gt;

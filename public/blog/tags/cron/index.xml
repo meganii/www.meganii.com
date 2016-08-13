@@ -36,15 +36,15 @@
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;最終形:522f852593d17abd0d6253edfae953e9&#34;&gt;最終形&lt;/h2&gt;
+&lt;h2 id=&#34;最終形&#34;&gt;最終形&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;# Get the aliases and functions
 if [ -f ~/.bashrc ]; then
@@ -61,7 +61,7 @@ eval &amp;quot;$(rbenv init -)&amp;quot;
 &lt;pre&gt;&lt;code&gt;00 06 * * * /bin/bash -lc &#39;cd /home/app/appname/current/; bundle exec ruby script.rb 1&amp;gt;&amp;gt; /home/app/appname/current/script.log 2&amp;gt;&amp;gt; /home/app/appname/current/error.log&#39;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;参考:522f852593d17abd0d6253edfae953e9&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://blog.livedoor.jp/sonots/archives/33204053.html&#34;&gt;cronでrbenvのrubyを使う３つの方法 - sonots:blog&lt;/a&gt;&lt;/li&gt;

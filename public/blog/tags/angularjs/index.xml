@@ -21,7 +21,7 @@
 
 &lt;p&gt;&lt;a href=&#34;http://meganii.com/angularjs-flickr.html&#34;&gt;meganii.com/angularjs-flickr.html&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;参考:e2c647cc654d937c00d9e50cf564a00b&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://angularjs.org/&#34;&gt;AngularJS — Superheroic JavaScript MVW Framework&lt;/a&gt;&lt;/li&gt;
@@ -38,15 +38,15 @@
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h3 id=&#34;angularjs-flickr-html:e2c647cc654d937c00d9e50cf564a00b&#34;&gt;angularjs-flickr.html&lt;/h3&gt;
+&lt;h3 id=&#34;angularjs-flickr-html&#34;&gt;angularjs-flickr.html&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;html ng-app=&amp;quot;FlickrPhotos&amp;quot;&amp;gt;
   &amp;lt;head&amp;gt;
@@ -92,7 +92,7 @@
 &amp;lt;/html&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;photo-contoroller-js:e2c647cc654d937c00d9e50cf564a00b&#34;&gt;photo_contoroller.js&lt;/h2&gt;
+&lt;h2 id=&#34;photo-contoroller-js&#34;&gt;photo_contoroller.js&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;var App = angular.module(&#39;FlickrPhotos&#39;, []);
 

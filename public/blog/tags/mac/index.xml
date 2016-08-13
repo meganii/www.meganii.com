@@ -6,8 +6,83 @@
     <description>Recent content in Mac on SIS Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 23 Jan 2016 20:51:43 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 16 May 2016 20:50:35 +0900</lastBuildDate>
     <atom:link href="https://meganii.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>MacでVirtualbox、Vagrantをインストールするときにいつまで経っても検証が終わらない場合の対処法としてコマンドラインからインストールする</title>
+      <link>https://meganii.com/blog/2016/05/16/install-virtualbox-and-vagrant-in-el-capitan/</link>
+      <pubDate>Mon, 16 May 2016 20:50:35 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2016/05/16/install-virtualbox-and-vagrant-in-el-capitan/</guid>
+      <description>
+
+&lt;p&gt;久々に、vagrantを触ろうと思い、どうせならバージョンアップしてから使おうと思い、Virtualboxから入れ直そうとしたらちょっとハマった時の話です。&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;環境&#34;&gt;環境&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;El Capitan Version 10.11.4&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;※ VirtualboxとVagrantのバージョンはメモしていませんでした&lt;/p&gt;
+
+&lt;h2 id=&#34;事象&#34;&gt;事象&lt;/h2&gt;
+
+&lt;p&gt;dmgファイルをダウンロードして、Vagrant.pkgやVirtualbox.pkgをダブルクリックしたところ、以下のようにチェックが終わらない現象になった。&lt;/p&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&#34;true&#34;  href=&#34;https://www.flickr.com/photos/35571855@N06/26774309130/in/dateposted-public/&#34; title=&#34;never ending verifying...&#34;&gt;&lt;img src=&#34;https://farm8.staticflickr.com/7385/26774309130_925fdae08f.jpg&#34; width=&#34;500&#34; height=&#34;178&#34; alt=&#34;never ending verifying...&#34;&gt;&lt;/a&gt;&lt;script async src=&#34;//embedr.flickr.com/assets/client-code.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;原因&#34;&gt;原因&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://forums.virtualbox.org/viewtopic.php?f=8&amp;amp;t=77122&#34;&gt;virtualbox.org • View topic - [INSTALL] Verifying &amp;ldquo;VirtualBox.pkg&amp;rdquo;&amp;hellip; never clears &amp;ndash; El Cap 10.11.4&lt;/a&gt;を見ると、System Integrity Protection(SIP)絡みでインストールが弾かれるみたい。&lt;/p&gt;
+
+&lt;p&gt;System Integrity Protection(SIP)については、以下のページが参考になった。
+&lt;a href=&#34;http://rcmdnk.github.io/blog/2015/10/10/computer-mac/&#34;&gt;OS X 10.11 El CapitanのSystem Integrity Protection(SIP)についてちょっと詳しく&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;対処方法&#34;&gt;対処方法&lt;/h2&gt;
+
+&lt;p&gt;対処方法として、「1.SIPを無効化する」か、「2.&lt;code&gt;sudo installer&lt;/code&gt;でインストールする」方法がありそう。&lt;/p&gt;
+
+&lt;p&gt;ここでは、「2.&lt;code&gt;sudo installer&lt;/code&gt;でインストールする」の方法で、&lt;a href=&#34;http://qiita.com/tniizawa/items/33eb015296ea171ed25f&#34;&gt;VirtualBoxのインストール(MacOS X El Capitan) - Qiita&lt;/a&gt;を参考にして、CUIでインストールしました。&lt;/p&gt;
+
+&lt;h3 id=&#34;手順&#34;&gt;手順&lt;/h3&gt;
+
+&lt;p&gt;1.マウント&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hdiutil mount VirtualBox-5.0.18-106667-OSX.dmg
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;2.パッケージインストール&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo installer -pkg /Volumes/Vagrant/Vagrant.pkg -target /Volumes/Macintosh\ HD
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;3.アンマウント&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hdiutil mount VirtualBox-5.0.18-106667-OSX.dmg
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;結論&#34;&gt;結論&lt;/h2&gt;
+
+&lt;p&gt;上記の手順でインストールすれば、すんなりとインストールすることができました。El Capitanにしてから、ちょくちょくこのSIPに悩まされるのでもうちょっと理解するようにしたい。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>El Capitanへのアップグレード時AppStoreに接続できなくなった場合(さらにキーチェーンアクセスでも対処できなかった時)の対処法 </title>
@@ -19,7 +94,7 @@
 
 &lt;p&gt;今朝、El Capitanのアップグレードしたのだが、いつものごとくエラーが出たので対処方法をまとめておく。&lt;/p&gt;
 
-&lt;h2 id=&#34;起きた現象:e773022e2790ac04170892419b625c56&#34;&gt;起きた現象&lt;/h2&gt;
+&lt;h2 id=&#34;起きた現象&#34;&gt;起きた現象&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;App Storeにアクセスできない&lt;/li&gt;
@@ -45,31 +120,31 @@ VeriSign Class 3 Public Primary Certification Authority - G5
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;対処方法:e773022e2790ac04170892419b625c56&#34;&gt;対処方法&lt;/h2&gt;
+&lt;h2 id=&#34;対処方法&#34;&gt;対処方法&lt;/h2&gt;
 
-&lt;h3 id=&#34;1-該当証明書の存在確認:e773022e2790ac04170892419b625c56&#34;&gt;1. 該当証明書の存在確認&lt;/h3&gt;
+&lt;h3 id=&#34;1-該当証明書の存在確認&#34;&gt;1. 該当証明書の存在確認&lt;/h3&gt;
 
 &lt;p&gt;下記コマンドで、VeriSignの証明書を検索する。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;security find-certificate -c &amp;quot;VeriSigh&amp;quot; -Z -a
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;2-sha-1値取得:e773022e2790ac04170892419b625c56&#34;&gt;2. SHA-1値取得&lt;/h3&gt;
+&lt;h3 id=&#34;2-sha-1値取得&#34;&gt;2. SHA-1値取得&lt;/h3&gt;
 
 &lt;p&gt;「1. 該当証明書の存在確認」で、削除したいリストが出ていることを確かめた上で以下のコマンドを実行して、一意となるSHA-1値を取得する。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;security find-certificate -c &amp;quot;VeriSigh&amp;quot; -Z -a | grep SHA-1
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;3-削除:e773022e2790ac04170892419b625c56&#34;&gt;3. 削除&lt;/h3&gt;
+&lt;h3 id=&#34;3-削除&#34;&gt;3. 削除&lt;/h3&gt;
 
 &lt;p&gt;以下のコマンドを実行し、取得したSHA-1の値を指定して削除する。&lt;/p&gt;
 
@@ -78,11 +153,11 @@ VeriSign Class 3 Public Primary Certification Authority - G5
 
 &lt;p&gt;※ &lt;code&gt;/Users/meganii/Library/Keychains/login.keychain&lt;/code&gt;の部分は、&lt;code&gt;security list-keychains&lt;/code&gt;で取得できるlogin.keychainの値&lt;/p&gt;
 
-&lt;h3 id=&#34;4-再起動:e773022e2790ac04170892419b625c56&#34;&gt;4. 再起動&lt;/h3&gt;
+&lt;h3 id=&#34;4-再起動&#34;&gt;4. 再起動&lt;/h3&gt;
 
 &lt;p&gt;最後は、再起動すれば、App Storeにも接続することができた。&lt;/p&gt;
 
-&lt;h2 id=&#34;後は-毎度おなじみ-homebrew-周り:e773022e2790ac04170892419b625c56&#34;&gt;後は、毎度おなじみ Homebrew 周り&lt;/h2&gt;
+&lt;h2 id=&#34;後は-毎度おなじみ-homebrew-周り&#34;&gt;後は、毎度おなじみ Homebrew 周り&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;brew doctor
 Please note that these warnings are just used to help the Homebrew maintainers
@@ -188,7 +263,7 @@ Please update to Xcode 7.2.
 Xcode can be updated from the App Store.
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;対応:e773022e2790ac04170892419b625c56&#34;&gt;対応&lt;/h3&gt;
+&lt;h3 id=&#34;対応&#34;&gt;対応&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;以下のコマンドを実行&lt;/li&gt;
@@ -202,7 +277,7 @@ Xcode can be updated from the App Store.
 &lt;li&gt;XCodeのバージョンアップ&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;参考:e773022e2790ac04170892419b625c56&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://blog.odoruinu.net/2016/01/14/how-to-solve-el-capitan-ssl-problem-with-freezing-keychain/&#34;&gt;El CapitanのSSL問題、Keychainもフリーズする場合の対処法 | 踊る犬.net&lt;/a&gt;&lt;/li&gt;
@@ -231,8 +306,8 @@ Xcode can be updated from the App Store.
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
@@ -241,7 +316,7 @@ Xcode can be updated from the App Store.
 &lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;1-まずmacbookpro側でリモートディスクを有効にする:7301ea57e82e1b0a669dc5c9d448612e&#34;&gt;1.まずMacBookPro側でリモートディスクを有効にする&lt;/h2&gt;
+&lt;h2 id=&#34;1-まずmacbookpro側でリモートディスクを有効にする&#34;&gt;1.まずMacBookPro側でリモートディスクを有効にする&lt;/h2&gt;
 
 &lt;p&gt;システム環境設定の共有から
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/9132825549/&#34; title=&#34;システム環境設定 by meganii, on Flickr&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;flickr_photo&#34; src=&#34;http://farm6.staticflickr.com/5337/9132825549_538b90ce83.jpg&#34;  alt=&#34;システム環境設定&#34; width=&#34;400px&#34;/&gt;&lt;/a&gt;&lt;br /&gt;&lt;cite class=&#34;flickr_photographer&#34;&gt;&lt;img src=&#34;http://farm7.static.flickr.com/6002/5974401716_35b6041cdc.jpg&#34; width=&#34;16&#34; /&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/9132825549/&#34;&gt;システム環境設定&lt;/a&gt; Photo by &lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/&#34;&gt;meganii&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;&lt;/p&gt;
@@ -249,18 +324,18 @@ Xcode can be updated from the App Store.
 &lt;p&gt;DVDまたはCD共有を選択
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/9135024638/&#34; title=&#34;リモートディスク by meganii, on Flickr&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;flickr_photo&#34; src=&#34;http://farm3.staticflickr.com/2828/9135024638_03421750e2.jpg&#34;  alt=&#34;リモートディスク&#34; width=&#34;400px&#34;/&gt;&lt;/a&gt;&lt;br /&gt;&lt;cite class=&#34;flickr_photographer&#34;&gt;&lt;img src=&#34;http://farm7.static.flickr.com/6002/5974401716_35b6041cdc.jpg&#34; width=&#34;16&#34; /&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/9135024638/&#34;&gt;リモートディスク&lt;/a&gt; Photo by &lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/&#34;&gt;meganii&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;2-macbookproでネットワークを作成:7301ea57e82e1b0a669dc5c9d448612e&#34;&gt;2.MacBookProでネットワークを作成&lt;/h2&gt;
+&lt;h2 id=&#34;2-macbookproでネットワークを作成&#34;&gt;2.MacBookProでネットワークを作成&lt;/h2&gt;
 
 &lt;p&gt;適当にパスワードを作って、ネットワークを作成します。
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855@N06/9133002529/&#34; title=&#34;Create Network1 by meganii, on Flickr&#34;&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7352/9133002529_139f7d77db.jpg&#34; width=&#34;364&#34; height=&#34;66&#34; alt=&#34;Create Network1&#34;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/9133002547/&#34; title=&#34;Create Network2 by meganii, on Flickr&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;flickr_photo&#34; src=&#34;http://farm4.staticflickr.com/3779/9133002547_264b7cb6a4.jpg&#34;  alt=&#34;Create Network2&#34; width=&#34;400px&#34;/&gt;&lt;/a&gt;&lt;br /&gt;&lt;cite class=&#34;flickr_photographer&#34;&gt;&lt;img src=&#34;http://farm7.static.flickr.com/6002/5974401716_35b6041cdc.jpg&#34; width=&#34;16&#34; /&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/9133002547/&#34;&gt;Create Network2&lt;/a&gt; Photo by &lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/&#34;&gt;meganii&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;ご参考:7301ea57e82e1b0a669dc5c9d448612e&#34;&gt;ご参考&lt;/h3&gt;
+&lt;h3 id=&#34;ご参考&#34;&gt;ご参考&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://blog.motta.jp/2013/06/macbookmacbookwifi.html&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://blog.motta.jp/2013/06/macbookmacbookwifi.html&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://blog.motta.jp/2013/06/macbookmacbookwifi.html&#34; target=&#34;_blank&#34;&gt;旧Macbookから新Macbookへの移行を高速に行う方法(WiFi経由)&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://blog.motta.jp/2013/06/macbookmacbookwifi.html&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://blog.motta.jp/2013/06/macbookmacbookwifi.html&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;span style=&#34;color: #808080;font-size: 80%;&#34;&gt;アドホックネットワークの作り方 &amp;hellip;&lt;/span&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;3-macbookair側でリモートディスクの使用依頼をmacbookproに送る:7301ea57e82e1b0a669dc5c9d448612e&#34;&gt;3.MacBookAir側でリモートディスクの使用依頼をMacBookProに送る&lt;/h2&gt;
+&lt;h2 id=&#34;3-macbookair側でリモートディスクの使用依頼をmacbookproに送る&#34;&gt;3.MacBookAir側でリモートディスクの使用依頼をMacBookProに送る&lt;/h2&gt;
 
 &lt;p&gt;先ほど、MacBookProで作成したネットワークに接続すると、リモートディスクから、MacBookProが見えているはずです。&lt;/p&gt;
 
@@ -269,13 +344,13 @@ Xcode can be updated from the App Store.
 &lt;p&gt;このMacBookProをクリックして、右上の使用を依頼を押す。
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/9135222996/&#34; title=&#34;RemoteDisk by meganii, on Flickr&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;flickr_photo&#34; src=&#34;http://farm4.staticflickr.com/3707/9135222996_86c1f006ed.jpg&#34;  alt=&#34;RemoteDisk&#34; width=&#34;400px&#34;/&gt;&lt;/a&gt;&lt;br /&gt;&lt;cite class=&#34;flickr_photographer&#34;&gt;&lt;img src=&#34;http://farm7.static.flickr.com/6002/5974401716_35b6041cdc.jpg&#34; width=&#34;16&#34; /&gt;&lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/9135222996/&#34;&gt;RemoteDisk&lt;/a&gt; Photo by &lt;a href=&#34;http://www.flickr.com/photos/35571855%40N06/&#34;&gt;meganii&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;4-macbookpro側で許可する:7301ea57e82e1b0a669dc5c9d448612e&#34;&gt;4.MacBookPro側で許可する&lt;/h2&gt;
+&lt;h2 id=&#34;4-macbookpro側で許可する&#34;&gt;4.MacBookPro側で許可する&lt;/h2&gt;
 
 &lt;p&gt;これで、MacBookProにCDを入れると、MacBookAir側で認識することができました。&lt;/p&gt;
 
 &lt;p&gt;あとは、好きにソフトをインストールするだけです。&lt;/p&gt;
 
-&lt;h2 id=&#34;注意:7301ea57e82e1b0a669dc5c9d448612e&#34;&gt;注意&lt;/h2&gt;
+&lt;h2 id=&#34;注意&#34;&gt;注意&lt;/h2&gt;
 
 &lt;p&gt;ただし、以下のタイプのディスクや操作は、DVD または CD 共有でサポートされていないそうです。
 - DVD ムービー
@@ -308,19 +383,19 @@ Xcode can be updated from the App Store.
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;xcodeのインストール:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;Xcodeのインストール&lt;/h2&gt;
+&lt;h2 id=&#34;xcodeのインストール&#34;&gt;Xcodeのインストール&lt;/h2&gt;
 
 &lt;p&gt;App StoreからXcodeをインストール。&lt;/p&gt;
 
-&lt;h2 id=&#34;homebrewのインストール:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;Homebrewのインストール&lt;/h2&gt;
+&lt;h2 id=&#34;homebrewのインストール&#34;&gt;Homebrewのインストール&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;$ ruby -e &amp;quot;$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)&amp;quot;
 ==&amp;gt; This script will install:
@@ -381,7 +456,7 @@ Your system is ready to brew.
 
 &lt;p&gt;次に Homebrewを使って環境を整える。&lt;/p&gt;
 
-&lt;h2 id=&#34;gitのインストール:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;gitのインストール&lt;/h2&gt;
+&lt;h2 id=&#34;gitのインストール&#34;&gt;gitのインストール&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;brew install git
 ==&amp;gt; Downloading http://git-core.googlecode.com/files/git-1.8.3.1.tar.gz
@@ -410,12 +485,12 @@ zsh completion has been installed to:
 🍺  /usr/local/Cellar/git/1.8.3.1: 1324 files, 28M, built in 60 seconds
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;rvmからrbenvへ変更:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;RVMからrbenvへ変更&lt;/h2&gt;
+&lt;h2 id=&#34;rvmからrbenvへ変更&#34;&gt;RVMからrbenvへ変更&lt;/h2&gt;
 
 &lt;p&gt;RVMは、環境を勝手に書き換えることがあるそうなので、rbenvの方がいいという記事も見かけた。
 ということで今回は、気持ちの問題で、RVMからrbenvへ乗り換えました(あまり使いこなしていないので、どっちでもいいのだが)。&lt;/p&gt;
 
-&lt;h3 id=&#34;ruby-buildのインストール:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;Ruby-buildのインストール&lt;/h3&gt;
+&lt;h3 id=&#34;ruby-buildのインストール&#34;&gt;Ruby-buildのインストール&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;$ brew install ruby-build
 ==&amp;gt; Installing ruby-build dependency: autoconf
@@ -436,7 +511,7 @@ zsh completion has been installed to:
 🍺  /usr/local/Cellar/ruby-build/20130518: 79 files, 352K, built in 4 seconds
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;rbenvのインストール:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;rbenvのインストール&lt;/h3&gt;
+&lt;h3 id=&#34;rbenvのインストール&#34;&gt;rbenvのインストール&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;$ brew install rbenv
 ==&amp;gt; Downloading https://github.com/sstephenson/rbenv/archive/v0.4.0.tar.gz
@@ -451,7 +526,7 @@ To enable shims and autocompletion add to your profile:
 🍺  /usr/local/Cellar/rbenv/0.4.0: 31 files, 152K, built in 3 seconds
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;bash-profileにパスを追加:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;bash_profileにパスを追加&lt;/h3&gt;
+&lt;h3 id=&#34;bash-profileにパスを追加&#34;&gt;bash_profileにパスを追加&lt;/h3&gt;
 
 &lt;p&gt;.bash_profileを作成して、以下の2行を追加。&lt;/p&gt;
 
@@ -459,7 +534,7 @@ To enable shims and autocompletion add to your profile:
 eval &amp;quot;$(rbenv init -)&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;ruby-1-9-3をインストール:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;ruby 1.9.3をインストール&lt;/h3&gt;
+&lt;h3 id=&#34;ruby-1-9-3をインストール&#34;&gt;ruby 1.9.3をインストール&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;$ rbenv install 1.9.3-p286
 Downloading yaml-0.1.4.tar.gz...
@@ -473,7 +548,7 @@ Installing ruby-1.9.3-p286...
 Installed ruby-1.9.3-p286 to /Users/meganii/.rbenv/versions/1.9.3-p286
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;opensslをインストール:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;OpenSSLをインストール&lt;/h3&gt;
+&lt;h3 id=&#34;opensslをインストール&#34;&gt;OpenSSLをインストール&lt;/h3&gt;
 
 &lt;p&gt;後々に、このモジュールが必要になる場合があるというので、今のうちにインストール。&lt;/p&gt;
 
@@ -507,7 +582,7 @@ build variables:
 🍺  /usr/local/Cellar/openssl/1.0.1e: 429 files, 15M, built in 4.6 minutes
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;readlineをインストール:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;readlineをインストール&lt;/h3&gt;
+&lt;h3 id=&#34;readlineをインストール&#34;&gt;readlineをインストール&lt;/h3&gt;
 
 &lt;p&gt;readlineもいるんじゃない？っていう記事を見かけたのでついでに入れておく。&lt;/p&gt;
 
@@ -540,7 +615,7 @@ build variables:
 🍺  /usr/local/Cellar/readline/6.2.4: 31 files, 1.6M, built in 35 seconds
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;デフォルトで使うrubyのバージョンを指定:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;デフォルトで使うRubyのバージョンを指定&lt;/h3&gt;
+&lt;h3 id=&#34;デフォルトで使うrubyのバージョンを指定&#34;&gt;デフォルトで使うRubyのバージョンを指定&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;$ rbenv global 1.9.3-p426
 &lt;/code&gt;&lt;/pre&gt;
@@ -551,12 +626,12 @@ build variables:
 
 &lt;p&gt;gemのPATHもちゃんと変わりました。&lt;/p&gt;
 
-&lt;h2 id=&#34;jekyllの設定:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;Jekyllの設定&lt;/h2&gt;
+&lt;h2 id=&#34;jekyllの設定&#34;&gt;Jekyllの設定&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;$ gem install bundler
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;jekyllの設定-1:a70ec8136c6d5fc0d867c6c2ab0c1f8b&#34;&gt;Jekyllの設定&lt;/h2&gt;
+&lt;h2 id=&#34;jekyllの設定-1&#34;&gt;Jekyllの設定&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;$ gem install jekyll
 Fetching: liquid-2.5.0.gem (100%)
@@ -650,15 +725,15 @@ Installing RDoc documentation for jekyll-1.0.3...
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h3 id=&#34;構成:ff7f59546ae54f9b76aeb798dd542a97&#34;&gt;構成&lt;/h3&gt;
+&lt;h3 id=&#34;構成&#34;&gt;構成&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;CPU 1.7GHzデュアルコアIntel Core i7（Turbo Boost使用時最大3.3GHz）&lt;/li&gt;
@@ -672,7 +747,7 @@ Installing RDoc documentation for jekyll-1.0.3...
 
 &lt;p&gt;SSD使うの初めてで、なんだかすべてが早くなった気がする笑。(実際、再起動の速さは凄まじい)&lt;/p&gt;
 
-&lt;h2 id=&#34;衝動買いの理由:ff7f59546ae54f9b76aeb798dd542a97&#34;&gt;衝動買いの理由&lt;/h2&gt;
+&lt;h2 id=&#34;衝動買いの理由&#34;&gt;衝動買いの理由&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;MacBookProを買って、4,5年経った&lt;/li&gt;

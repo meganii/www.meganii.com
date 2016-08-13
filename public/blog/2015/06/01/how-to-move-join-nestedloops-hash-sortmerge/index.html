@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="generator" content="Hugo 0.15" />
+<meta name="generator" content="Hugo 0.16" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
@@ -12,6 +12,43 @@
 <link rel="stylesheet" href="/css/custom.css">
 <link rel="alternate" href="/index.xml" type="application/rss+xml" title="SIS Lab">
 <title>[SQL実践入門]結合のアルゴリズム Nested Loops, Hash, Sort Merge - SIS Lab</title>
+<link rel="shortcut icon" href="/images/favicons/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/images/favicons/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/images/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="manifest" href="/images/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#2d88ef">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="[SQL実践入門]結合のアルゴリズム Nested Loops, Hash, Sort Merge | SIS Lab">
+<meta property="og:url" content="https://meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/">
+<meta property="og:description" content="データベースの結合のイメージがいまいち掴めていなかったため、「SQL実践入門」を読んで、結合のアルゴリズムをまとめておく。 SQL実践入門──高速でわかりやすいクエリの書き方 (WEB&#43;DB PRESS plus)posted with ヨメレバミック 技術評論社 2015-04-11 AmazonKindle楽天ブックス 結合の種類 結合の種類としては、以下の3種類が存在する。 Nested Loops Hash SortMerge スポンサーリンク (adsbygoogle = window.adsbygoogle || []).push({}); Nested Loops 入れ子のループを使うアルゴリズム。 外側のループの対象となるテーブル(Table_A)を駆動表(driving table)もしくは、外部表(outer table)と呼ぶ。 結合の流れ 駆動表の1行に対して、内部表を1行ずつスキャンして、結合条件にマッチするものを返却する。 駆動表の全ての行に対して繰り返す。 Table_A、Table_Bの結合対象の行数をそれぞれR(A)、R(B)とすると、アクセスする行数はR(A)×R(B)となる。 どちらのテーブルを駆動表にするか？ 一見、どちらのテーブルを駆動表にしてもアクセス行数は、R(A)×R(B)とR(B)×R(A)で変わらないように思われるが、駆動表の選択はNested Loopsの性能において重要な意味を持つ。 ⇛「駆動表が小さいほど、Nested Loopsの性能は良い」 ここで重要な点は、内部表の列にインデックスが存在すること。 内部表の結合キーの列にインデックスが存在する場合、そのインデックスをたどることによって、DBMSは駆動表の1行に対して内部表を馬鹿正直にループする必要がなくなる。 理想的なケースとして、駆動表のレコード1行に対して内部表のレコードが1行に対応していれば、内部表のインデックスをたどることでループすることなく1行を特定できる。その結果、アクセス行数は、R(A)×2となる。 内部表のループをどれだけスキップできるかがポイント 内部表が結合キーで一意だと内部ループを完全にスキップ可能 内部表が結合キーで一意にならないと内部ループが残る SQLチューニングの基本 駆動表の小さなNested Loops 内部表の結合キーにインデックス Hash 結合テーブルからハッシュテーブルを作成するため、Nested Loopsと比べるとメモリを多く消費する メモリ内にハッシュテーブルが収まらないとストレージを使用して、遅延が発生する ⇛ 「Temp落ち」 出力となるハッシュ値は、入力値の順序性を保存しないため、等値結合でしか使用できない Hash Joinが有効なケース Nested Loopsで適切な駆動表(相対的に十分に小さいテーブル)が存在しない場合 駆動表として小さいテーブルは指定できるが、内部表のヒット件数が多い場合 Nested Loopsの内部表にインデックスが存在しない場合 SortMerge 対象テーブルをどちらもソートする必要があるため、Nested Loopsよりも多くのメモリを消費する Hashと違い、等値結合だけでなく、不等式(&lt;.&gt;, &lt;=, &gt;=)を使った結合にも利用できる 参考図書 SQL実践入門──高速でわかりやすいクエリの書き方 (WEB&#43;DB">
+
+<meta property="og:image" content="https://images-na.ssl-images-amazon.com/images/I/51pl3HrLCjL._SL160_.jpg">
+<meta property="og:site_name" content="SIS Lab">
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="SIS Lab" />
+<meta name="twitter:title" content="[SQL実践入門]結合のアルゴリズム Nested Loops, Hash, Sort Merge | SIS Lab" />
+<meta name="twitter:image" content="https://images-na.ssl-images-amazon.com/images/I/51pl3HrLCjL._SL160_.jpg" />
+<meta name="twitter:url" content="https://meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/" />
+
 </head>
 <body>
 
@@ -19,13 +56,17 @@
 
 	<header role="banner">
 		<div class="header-logo">
-			<a href="/"><h1 class="site-title"> <i class="fa fa-laptop"></i> SIS Lab</a></h1>
-			<p>
-				元じょーぶん生による
-			</p>
+			<a href="/"></a><h1 class="site-title"><a href="/"> <i class="fa fa-laptop"></i> SIS Lab</a></h1>
+			<p>元じょーぶん生によるメーカー系SIerブログ。趣味のプログラミング、旅行。日々、学んだについて書きます。</p>
 		</div>
-		
-
+		<ul class="nav">
+			<li class="nav__item"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+			
+			<li class="nav__item"><a href="/blog/category/tech"><i class="fa fa-terminal" aria-hidden="true"></i>   Tech</a></li>
+			<li class="nav__item"><a href="/blog/category/book"><i class="fa fa-book" aria-hidden="true"></i> Book</a></li>
+			<li class="nav__item"><a href="/blog/category/travel"><i class="fa fa-plane" aria-hidden="true"></i> Travel</a></li>
+		</ul>
+		<hr class="nav__hr" />
 	</header>
 
 
@@ -41,7 +82,7 @@
 
 <div class="booklink-box"><div class="booklink-image"><a href="http://www.amazon.co.jp/exec/obidos/asin/4774173010/meganii-22/" rel="nofollow" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51pl3HrLCjL._SL160_.jpg" style="border: none;" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="http://www.amazon.co.jp/exec/obidos/asin/4774173010/meganii-22/" rel="nofollow" target="_blank">SQL実践入門──高速でわかりやすいクエリの書き方 (WEB+DB PRESS plus)</a><div class="booklink-powered-date">posted with <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail">ミック 技術評論社 2015-04-11    </div><div class="booklink-link2"><div class="shoplinkamazon"><a href="http://www.amazon.co.jp/exec/obidos/asin/4774173010/meganii-22/" rel="nofollow" target="_blank">Amazon</a></div><div class="shoplinkkindle"><a href="http://www.amazon.co.jp/gp/search?keywords=SQL%8E%C0%91H%93%FC%96%E5%84%9F%84%9F%8D%82%91%AC%82%C5%82%ED%82%A9%82%E8%82%E2%82%B7%82%A2%83N%83G%83%8A%82%CC%8F%91%82%AB%95%FB%20%28WEB%2BDB%20PRESS%20plus%29&__mk_ja_JP=%83J%83%5E%83J%83i&url=node%3D2275256051&tag=meganii-22" rel="nofollow" target="_blank">Kindle</a></div><div class="shoplinkrakuten"><a href="http://hb.afl.rakuten.co.jp/hgc/13e181b2.b5761023.13e181b3.cbc7b217/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F13190627%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F" rel="nofollow" target="_blank">楽天ブックス</a></div>                                    </div></div><div class="booklink-footer"></div></div>
 
-<h2 id="結合の種類:80992a53fd1c50aaa4f65137d6e95efb">結合の種類</h2>
+<h2 id="結合の種類">結合の種類</h2>
 
 <p>結合の種類としては、以下の3種類が存在する。</p>
 
@@ -58,15 +99,15 @@
     <ins class="adsbygoogle"
          style="display:block"
          data-ad-client="ca-pub-5340212676785058"
-         data-ad-slot="1592375556"
-         data-ad-format="link"></ins>
+         data-ad-slot="7870420352"
+         data-ad-format="auto"></ins>
     <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
 </div>
 
 
-<h2 id="nested-loops:80992a53fd1c50aaa4f65137d6e95efb">Nested Loops</h2>
+<h2 id="nested-loops">Nested Loops</h2>
 
 <p>入れ子のループを使うアルゴリズム。</p>
 
@@ -74,7 +115,7 @@
 
 <p>外側のループの対象となるテーブル(Table_A)を駆動表(driving table)もしくは、外部表(outer table)と呼ぶ。</p>
 
-<h3 id="結合の流れ:80992a53fd1c50aaa4f65137d6e95efb">結合の流れ</h3>
+<h3 id="結合の流れ">結合の流れ</h3>
 
 <ol>
 <li>駆動表の1行に対して、内部表を1行ずつスキャンして、結合条件にマッチするものを返却する。</li>
@@ -83,7 +124,7 @@
 
 <p>Table_A、Table_Bの結合対象の行数をそれぞれR(A)、R(B)とすると、アクセスする行数は<code>R(A)×R(B)</code>となる。</p>
 
-<h3 id="どちらのテーブルを駆動表にするか:80992a53fd1c50aaa4f65137d6e95efb">どちらのテーブルを駆動表にするか？</h3>
+<h3 id="どちらのテーブルを駆動表にするか">どちらのテーブルを駆動表にするか？</h3>
 
 <p>一見、どちらのテーブルを駆動表にしてもアクセス行数は、<code>R(A)×R(B)</code>と<code>R(B)×R(A)</code>で変わらないように思われるが、駆動表の選択はNested Loopsの性能において重要な意味を持つ。</p>
 
@@ -97,7 +138,7 @@
 
 <p>理想的なケースとして、駆動表のレコード1行に対して内部表のレコードが1行に対応していれば、内部表のインデックスをたどることでループすることなく1行を特定できる。その結果、アクセス行数は、<code>R(A)×2</code>となる。</p>
 
-<h3 id="内部表のループをどれだけスキップできるかがポイント:80992a53fd1c50aaa4f65137d6e95efb">内部表のループをどれだけスキップできるかがポイント</h3>
+<h3 id="内部表のループをどれだけスキップできるかがポイント">内部表のループをどれだけスキップできるかがポイント</h3>
 
 <p><a href="https://www.flickr.com/photos/35571855@N06/18121300118" title="InnerLoopby meganii, on Flickr"><img class="img-responsive" src="https://farm9.staticflickr.com/8894/18121300118_82c4ba9c0b_z.jpg" alt="InnerLoop"></a></p>
 
@@ -106,14 +147,14 @@
 <li>内部表が結合キーで一意にならないと内部ループが残る</li>
 </ul>
 
-<h3 id="sqlチューニングの基本:80992a53fd1c50aaa4f65137d6e95efb">SQLチューニングの基本</h3>
+<h3 id="sqlチューニングの基本">SQLチューニングの基本</h3>
 
 <ol>
 <li>駆動表の小さなNested Loops</li>
 <li>内部表の結合キーにインデックス</li>
 </ol>
 
-<h2 id="hash:80992a53fd1c50aaa4f65137d6e95efb">Hash</h2>
+<h2 id="hash">Hash</h2>
 
 <p><a href="https://www.flickr.com/photos/35571855@N06/18425291321" title="Hashby meganii, on Flickr"><img class="img-responsive" src="https://farm1.staticflickr.com/393/18425291321_b260f13b13_z.jpg" alt="Hash"></a></p>
 
@@ -123,7 +164,7 @@
 <li>出力となるハッシュ値は、入力値の順序性を保存しないため、等値結合でしか使用できない</li>
 </ul>
 
-<h3 id="hash-joinが有効なケース:80992a53fd1c50aaa4f65137d6e95efb">Hash Joinが有効なケース</h3>
+<h3 id="hash-joinが有効なケース">Hash Joinが有効なケース</h3>
 
 <ul>
 <li>Nested Loopsで適切な駆動表(相対的に十分に小さいテーブル)が存在しない場合</li>
@@ -131,7 +172,7 @@
 <li>Nested Loopsの内部表にインデックスが存在しない場合</li>
 </ul>
 
-<h2 id="sortmerge:80992a53fd1c50aaa4f65137d6e95efb">SortMerge</h2>
+<h2 id="sortmerge">SortMerge</h2>
 
 <p><a href="https://www.flickr.com/photos/35571855@N06/18397300676" title="Sort Mergeby meganii, on Flickr"><img class="img-responsive" src="https://farm9.staticflickr.com/8887/18397300676_ac502d01a6_z.jpg" alt="Sort Merge"></a></p>
 
@@ -140,7 +181,7 @@
 <li>Hashと違い、等値結合だけでなく、不等式(&lt;.&gt;, &lt;=, &gt;=)を使った結合にも利用できる</li>
 </ul>
 
-<h2 id="参考図書:80992a53fd1c50aaa4f65137d6e95efb">参考図書</h2>
+<h2 id="参考図書">参考図書</h2>
 
 <div class="booklink-box"><div class="booklink-image"><a href="http://www.amazon.co.jp/exec/obidos/asin/4774173010/meganii-22/" rel="nofollow" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51pl3HrLCjL._SL160_.jpg" style="border: none;" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="http://www.amazon.co.jp/exec/obidos/asin/4774173010/meganii-22/" rel="nofollow" target="_blank">SQL実践入門──高速でわかりやすいクエリの書き方 (WEB+DB PRESS plus)</a><div class="booklink-powered-date">posted with <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail">ミック 技術評論社 2015-04-11    </div><div class="booklink-link2"><div class="shoplinkamazon"><a href="http://www.amazon.co.jp/exec/obidos/asin/4774173010/meganii-22/" rel="nofollow" target="_blank">Amazon</a></div><div class="shoplinkkindle"><a href="http://www.amazon.co.jp/gp/search?keywords=SQL%8E%C0%91H%93%FC%96%E5%84%9F%84%9F%8D%82%91%AC%82%C5%82%ED%82%A9%82%E8%82%E2%82%B7%82%A2%83N%83G%83%8A%82%CC%8F%91%82%AB%95%FB%20%28WEB%2BDB%20PRESS%20plus%29&__mk_ja_JP=%83J%83%5E%83J%83i&url=node%3D2275256051&tag=meganii-22" rel="nofollow" target="_blank">Kindle</a></div><div class="shoplinkrakuten"><a href="http://hb.afl.rakuten.co.jp/hgc/13e181b2.b5761023.13e181b3.cbc7b217/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F13190627%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F" rel="nofollow" target="_blank">楽天ブックス</a></div>                                    </div></div><div class="booklink-footer"></div></div>
 
@@ -175,30 +216,33 @@
 		</div>
 		
 		<div class="u-cf"></div>
-		
-		<div class="social-area-syncer">
-			<ul class="social-button-syncer">
-				
-				<li class="sc-tw"><a data-url="https://meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/" href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-count="vertical" data-dnt="true" target="_blank"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.375-1.337.648-2.085.795-.598-.638-1.45-1.036-2.396-1.036-1.812 0-3.282 1.468-3.282 3.28 0 .258.03.51.085.75C5.152 5.39 2.733 4.084 1.114 2.1.83 2.583.67 3.147.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.416-.02-.617-.058.418 1.304 1.63 2.253 3.067 2.28-1.124.88-2.54 1.404-4.077 1.404-.265 0-.526-.015-.783-.045 1.453.93 3.178 1.474 5.032 1.474 6.038 0 9.34-5 9.34-9.338 0-.143-.004-.284-.01-.425.64-.463 1.198-1.04 1.638-1.7z" fill="#fff" fill-rule="nonzero"/></svg><span>Tweet</span></a></li>
-
-				
-				<li class="sc-fb"><div class="fb-like" data-href="https://meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false"></div></li>
-
-				
-				<li><div data-href="https://meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/" class="g-plusone" data-size="tall"></div></li>
-
-				
-				<li><a href="http://b.hatena.ne.jp/entry/https://meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border:none;" /></a></li>
-
-				
-				<li><a data-save-url="https://meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/" data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"></a></li>
-			</ul>
 
 		
-		<div id="fb-root"></div>
+<div class="social-area-syncer">
+  <ul class="social-button-syncer">
+    
+    <li class="sc-tw"><a data-url="https://meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/" href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-count="vertical" data-dnt="true" target="_blank"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.375-1.337.648-2.085.795-.598-.638-1.45-1.036-2.396-1.036-1.812 0-3.282 1.468-3.282 3.28 0 .258.03.51.085.75C5.152 5.39 2.733 4.084 1.114 2.1.83 2.583.67 3.147.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.416-.02-.617-.058.418 1.304 1.63 2.253 3.067 2.28-1.124.88-2.54 1.404-4.077 1.404-.265 0-.526-.015-.783-.045 1.453.93 3.178 1.474 5.032 1.474 6.038 0 9.34-5 9.34-9.338 0-.143-.004-.284-.01-.425.64-.463 1.198-1.04 1.638-1.7z" fill="#fff" fill-rule="nonzero"/></svg><span>Tweet</span></a></li>
 
-		</div>
-		
+    
+    <li class="sc-fb"><div class="fb-like" data-href="https://meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false"></div></li>
+
+    
+    <li><div data-href="https://meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/" class="g-plusone" data-size="tall"></div></li>
+
+    
+    <li><a href="http://b.hatena.ne.jp/entry/https://meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border:none;" /></a></li>
+
+    
+    <li><a data-save-url="https://meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/" data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"></a></li>
+  </ul>
+
+
+<div id="fb-root"></div>
+
+</div>
+
+
+
 		
 		<section id="related">
 			<h2>Related Post</h2>
@@ -210,629 +254,389 @@
 			<ul id="related-posts">
 				
 				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				<li><a href="https://meganii.com/blog/2015/08/07/normalization/">正規化とは何か？</a></li>
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				<li><a href="https://meganii.com/blog/2015/06/10/inner-join-outer-join/">[SQL実践入門]内部結合と外部結合のイメージ</a></li>
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				<li><a href="https://meganii.com/blog/2014/12/24/kindle-db-sql/">達人に学ぶSQL, DB設計をぽちった</a></li>
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				<li><a href="https://meganii.com/blog/2013/10/02/index/">索引設計についてのまとめ</a></li>
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
+				  
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+								
+									<li><a href="https://meganii.com/blog/2015/08/07/normalization/">正規化とは何か？</a></li>
+								
+									<li><a href="https://meganii.com/blog/2014/12/24/kindle-db-sql/">達人に学ぶSQL, DB設計をぽちった</a></li>
+								
+									<li><a href="https://meganii.com/blog/2015/06/28/process-for-world-cafe/">ワールド・カフェのプロセス</a></li>
+								
+									<li><a href="https://meganii.com/blog/2014/11/04/statistics/">[こつこつ勉強]統計学入門#1</a></li>
+								
+									<li><a href="https://meganii.com/blog/2015/12/06/statistics-is-literacy-for-the-next-generation-professional/">統計学が最強の学問である[実践編]</a></li>
+								
+									<li><a href="https://meganii.com/blog/2015/11/25/domain-services/">ドメインサービスとは？</a></li>
+								
+									<li><a href="https://meganii.com/blog/2013/02/03/hatena2jekyll/">はてなダイアリーからJekyllへお引越し</a></li>
+								
+									<li><a href="https://meganii.com/blog/2015/06/10/inner-join-outer-join/">[SQL実践入門]内部結合と外部結合のイメージ</a></li>
+								
+									<li><a href="https://meganii.com/blog/2013/10/02/index/">索引設計についてのまとめ</a></li>
+								
+									<li><a href="https://meganii.com/blog/2014/12/09/statistics-is-literacy-for-the-next-generation/">統計学が最強の学問である</a></li>
+								
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+				
+
 				
 			</ul>
 		</section>
+
 	</main>
 
 	<aside class="three columns">
@@ -847,26 +651,8 @@
 
   <section>
     <h2>Popular</h2>
-    <ul class="list-unstyled urllist">
-  <li>
-    <div>
-  <a href="/blog/2014/02/22/wedding-movie-motion5/" title="evernote by meganii, on Flickr"><img class="urllist-img" src="https://farm4.staticflickr.com/3758/12878786213_afab3820c4_s.jpg" width="75" height="75" alt="iMovie Motion5"></a>
-      <a href="/blog/2014/02/22/wedding-movie-motion5/">iMovieとMotion5で作る結婚式余興ムービー</a>
-    </div>
-  </li>
-  <li>
-    <div>
-      <a href="/blog/2014/11/16/fountain-pen-cleaning/" title="image by meganii, on Flickr"><img class="urllist-img" src="https://farm8.staticflickr.com/7491/15800656071_6da29ae104_s.jpg" width="75" height="75" alt="万年筆Lamy safari"></a>
-      <a href="/blog/2014/11/16/fountain-pen-cleaning/">万年筆LAMY safariのインク洗浄・交換</a>
-    </div>
-  </li>
-  <li>
-    <div>
-      <a href="https://www.flickr.com/photos/35571855@N06/8714845801" title="20130502151754 by meganii, on Flickr"><img class="urllist-img" src="https://farm8.staticflickr.com/7436/8714845801_c24116dce0_s.jpg" width="75" height="75" alt="屋久島旅行記"></a>
-      <a href="/blog/2013/05/07/yakushima/">晴れの屋久島。雨の屋久島。屋久島旅行記</a>
-    </div>
-  </li>
-</ul>
+    <div id="ranklet-10307"></div><script src="//tracker.iws.vc/v1/ranklet/s3/widgets/10307/widget.js"></script>
+
 
   </section>
 
@@ -882,8 +668,8 @@
     
     <li>
       <div>
-        <a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/"><img class="urllist-img" src="https://www.oreilly.co.jp/books/images/picture_large978-4-87311-744-7.jpeg" alt="Electron &#43; Mithril.jsでFlickrアプリを作成する" width="75"></a>
-        <a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/">Electron &#43; Mithril.jsでFlickrアプリを作成する</a>
+        <a href="https://meganii.com/blog/2016/08/11/hugo-related-post/"><img class="urllist-img" src="https://images-fe.ssl-images-amazon.com/images/I/51%2BfZJOKEKL._SL160_.jpg" alt="Hugoで関連記事を表示する方法" width="75"></a>
+        <a href="https://meganii.com/blog/2016/08/11/hugo-related-post/">Hugoで関連記事を表示する方法</a>
       </div>
     </li>
     
@@ -891,17 +677,8 @@
     
     <li>
       <div>
-        <a href="https://meganii.com/blog/2016/02/22/become-a-programmer/"><img class="urllist-img" src="https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg" alt="「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。" width="75"></a>
-        <a href="https://meganii.com/blog/2016/02/22/become-a-programmer/">「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。</a>
-      </div>
-    </li>
-    
-  
-    
-    <li>
-      <div>
-        <a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/"><img class="urllist-img" src="https://farm2.staticflickr.com/1467/25143519475_14929051ec_z.jpg" alt="ElectronでAmazonアフィリエイトリンクビルダーを作った" width="75"></a>
-        <a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/">ElectronでAmazonアフィリエイトリンクビルダーを作った</a>
+        <a href="https://meganii.com/blog/2016/07/30/workstyle/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/41nDcp8X7fL._SL160_.jpg" alt="ワークスタイル改革とは何か？" width="75"></a>
+        <a href="https://meganii.com/blog/2016/07/30/workstyle/">ワークスタイル改革とは何か？</a>
       </div>
     </li>
     
@@ -911,8 +688,8 @@
     
     <li>
       <div>
-        <a href="https://meganii.com/blog/2016/02/10/post-to-slack/"><img class="urllist-img" src="/images/nopicture.png" alt="slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法" width="75"></a>
-        <a href="https://meganii.com/blog/2016/02/10/post-to-slack/">slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法</a>
+        <a href="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/"><img class="urllist-img" src="/images/ansible.png" alt="さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール" width="75"></a>
+        <a href="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/">さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール</a>
       </div>
     </li>
     
@@ -920,8 +697,8 @@
     
     <li>
       <div>
-        <a href="https://meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/"><img class="urllist-img" src="https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg" alt="D3.jsで東京の地価データを可視化する" width="75"></a>
-        <a href="https://meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/">D3.jsで東京の地価データを可視化する</a>
+        <a href="https://meganii.com/blog/2016/07/17/install-h2load/"><img class="urllist-img" src="https://farm6.staticflickr.com/5624/21367186743_cbcb0e5268_m.jpg" alt="http/2ベンチマークツール「h2load」をインストール" width="75"></a>
+        <a href="https://meganii.com/blog/2016/07/17/install-h2load/">http/2ベンチマークツール「h2load」をインストール</a>
       </div>
     </li>
     
@@ -929,8 +706,19 @@
     
     <li>
       <div>
-        <a href="https://meganii.com/blog/2016/02/07/javascript-ninja/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/51hWBKh7tdL._SL160_.jpg" alt="JavaScript Ninjaの極意 「関数の呼び出し」" width="75"></a>
-        <a href="https://meganii.com/blog/2016/02/07/javascript-ninja/">JavaScript Ninjaの極意 「関数の呼び出し」</a>
+        <a href="https://meganii.com/blog/2016/07/09/invalid-ssl-certificate/"><img class="urllist-img" src="/images/le-logo-standard.png" alt="Lets&#39;s Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化" width="75"></a>
+        <a href="https://meganii.com/blog/2016/07/09/invalid-ssl-certificate/">Lets&#39;s Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化</a>
+      </div>
+    </li>
+    
+  
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/06/05/ruby-google-api-client/"><img class="urllist-img" src="https://c8.staticflickr.com/8/7305/27394115551_0612eb23fb_t.jpg" alt="google-api-ruby-clientからGoogle Adsense Management APIを操作する方法" width="75"></a>
+        <a href="https://meganii.com/blog/2016/06/05/ruby-google-api-client/">google-api-ruby-clientからGoogle Adsense Management APIを操作する方法</a>
       </div>
     </li>
     
@@ -938,8 +726,8 @@
     
     <li>
       <div>
-        <a href="https://meganii.com/blog/2016/02/06/d3js-tutorial/"><img class="urllist-img" src="/images/nopicture.png" alt="D3.jsチュートリアル" width="75"></a>
-        <a href="https://meganii.com/blog/2016/02/06/d3js-tutorial/">D3.jsチュートリアル</a>
+        <a href="https://meganii.com/blog/2016/05/30/casperjs-amazon/"><img class="urllist-img" src="/images/nopicture.png" alt="CasperJSでAmazonログイン" width="75"></a>
+        <a href="https://meganii.com/blog/2016/05/30/casperjs-amazon/">CasperJSでAmazonログイン</a>
       </div>
     </li>
     
@@ -947,17 +735,8 @@
     
     <li>
       <div>
-        <a href="https://meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/61DHJGf1uSL._SL160_.jpg" alt="Nightmare.jsでAmazonアフィリエイトのレポートを取得する" width="75"></a>
-        <a href="https://meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/">Nightmare.jsでAmazonアフィリエイトのレポートを取得する</a>
-      </div>
-    </li>
-    
-  
-    
-    <li>
-      <div>
-        <a href="https://meganii.com/blog/2016/01/30/effective-javascript-closure/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/517tJs%2B%2B%2BnL._SL160_.jpg" alt="[Effective JavaScript]クロージャ" width="75"></a>
-        <a href="https://meganii.com/blog/2016/01/30/effective-javascript-closure/">[Effective JavaScript]クロージャ</a>
+        <a href="https://meganii.com/blog/2016/05/29/mariadb-utf8/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/51pj9W0WxzL._SL160_.jpg" alt="MariaDBの日本語文字化けを解消するための設定" width="75"></a>
+        <a href="https://meganii.com/blog/2016/05/29/mariadb-utf8/">MariaDBの日本語文字化けを解消するための設定</a>
       </div>
     </li>
     
@@ -973,36 +752,36 @@
       
       <li>
         <div>
-          <a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/"><img class="urllist-img" src="https://www.oreilly.co.jp/books/images/picture_large978-4-87311-744-7.jpeg" alt="Electron &#43; Mithril.jsでFlickrアプリを作成する" width="75"></a>
-          <a href="https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/">Electron &#43; Mithril.jsでFlickrアプリを作成する</a>
+          <a href="https://meganii.com/blog/2016/08/11/hugo-related-post/"><img class="urllist-img" src="https://images-fe.ssl-images-amazon.com/images/I/51%2BfZJOKEKL._SL160_.jpg" alt="Hugoで関連記事を表示する方法" width="75"></a>
+          <a href="https://meganii.com/blog/2016/08/11/hugo-related-post/">Hugoで関連記事を表示する方法</a>
         </div>
       </li>
       
       <li>
         <div>
-          <a href="https://meganii.com/blog/2016/02/22/become-a-programmer/"><img class="urllist-img" src="https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg" alt="「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。" width="75"></a>
-          <a href="https://meganii.com/blog/2016/02/22/become-a-programmer/">「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。</a>
+          <a href="https://meganii.com/blog/2016/07/30/workstyle/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/41nDcp8X7fL._SL160_.jpg" alt="ワークスタイル改革とは何か？" width="75"></a>
+          <a href="https://meganii.com/blog/2016/07/30/workstyle/">ワークスタイル改革とは何か？</a>
         </div>
       </li>
       
       <li>
         <div>
-          <a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/"><img class="urllist-img" src="https://farm2.staticflickr.com/1467/25143519475_14929051ec_z.jpg" alt="ElectronでAmazonアフィリエイトリンクビルダーを作った" width="75"></a>
-          <a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/">ElectronでAmazonアフィリエイトリンクビルダーを作った</a>
+          <a href="https://meganii.com/blog/2016/07/23/scotch-grain-shine-or-rain/"><img class="urllist-img" src="/images/nopicture.png" alt="Scotch Grain(スコッチグレイン)の革靴「シャインオアレイン」なら雨の日でも快適通勤！！" width="75"></a>
+          <a href="https://meganii.com/blog/2016/07/23/scotch-grain-shine-or-rain/">Scotch Grain(スコッチグレイン)の革靴「シャインオアレイン」なら雨の日でも快適通勤！！</a>
         </div>
       </li>
       
       <li>
         <div>
-          <a href="https://meganii.com/blog/2016/02/11/a-random-walk-down-wall-street/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/51UMwuX4tjL._SL160_.jpg" alt="a random walk down wall street" width="75"></a>
-          <a href="https://meganii.com/blog/2016/02/11/a-random-walk-down-wall-street/">a random walk down wall street</a>
+          <a href="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/"><img class="urllist-img" src="/images/ansible.png" alt="さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール" width="75"></a>
+          <a href="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/">さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール</a>
         </div>
       </li>
       
       <li>
         <div>
-          <a href="https://meganii.com/blog/2016/02/10/post-to-slack/"><img class="urllist-img" src="/images/nopicture.png" alt="slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法" width="75"></a>
-          <a href="https://meganii.com/blog/2016/02/10/post-to-slack/">slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法</a>
+          <a href="https://meganii.com/blog/2016/07/17/install-h2load/"><img class="urllist-img" src="https://farm6.staticflickr.com/5624/21367186743_cbcb0e5268_m.jpg" alt="http/2ベンチマークツール「h2load」をインストール" width="75"></a>
+          <a href="https://meganii.com/blog/2016/07/17/install-h2load/">http/2ベンチマークツール「h2load」をインストール</a>
         </div>
       </li>
       

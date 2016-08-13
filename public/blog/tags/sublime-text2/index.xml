@@ -35,15 +35,15 @@
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h3 id=&#34;ターミナルからsublime-text-2を起動できるようにする:e1064ca055fc73394436572989a9a3b4&#34;&gt;ターミナルからSublime Text 2を起動できるようにする&lt;/h3&gt;
+&lt;h3 id=&#34;ターミナルからsublime-text-2を起動できるようにする&#34;&gt;ターミナルからSublime Text 2を起動できるようにする&lt;/h3&gt;
 
 &lt;p&gt;やっぱり、ターミナルから起動できないと不便ですよね。まずは、重たい腰を上げて、ターミナルから起動できるようにします。&lt;/p&gt;
 
@@ -62,7 +62,7 @@
 
 &lt;p&gt;これで、ターミナルから&lt;code&gt;subl hoge.text&lt;/code&gt; でSublime Text 2を開くことができる。&lt;/p&gt;
 
-&lt;h3 id=&#34;sublime-text-2に-pakage-controlを導入:e1064ca055fc73394436572989a9a3b4&#34;&gt;Sublime Text 2に Pakage Controlを導入&lt;/h3&gt;
+&lt;h3 id=&#34;sublime-text-2に-pakage-controlを導入&#34;&gt;Sublime Text 2に Pakage Controlを導入&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://wbond.net/sublime_packages/package_control/installation&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://wbond.net/sublime_packages/package_control/installation&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://wbond.net/sublime_packages/package_control/installation&#34; target=&#34;_blank&#34;&gt;Installation – Sublime Package Control – a Sublime Text 2 Package Manager by wbond&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://wbond.net/sublime_packages/package_control/installation&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://wbond.net/sublime_packages/package_control/installation&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br&gt;&lt;strong&gt;パッケージコントールを導入!!&lt;/strong&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
 
@@ -77,11 +77,11 @@
 &lt;p&gt;コマンドラインに先ほどのコマンドを貼り付けて実行する。
 これで、パッケージコントロールが使えるようになりました。&lt;/p&gt;
 
-&lt;h4 id=&#34;参考-ドットインストール:e1064ca055fc73394436572989a9a3b4&#34;&gt;参考　ドットインストール&lt;/h4&gt;
+&lt;h4 id=&#34;参考-ドットインストール&#34;&gt;参考　ドットインストール&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://dotinstall.com/lessons/basic_sublimetext/10512&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://dotinstall.com/lessons/basic_sublimetext/10512&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://dotinstall.com/lessons/basic_sublimetext/10512&#34; target=&#34;_blank&#34;&gt;#12 パッケージを使ってみよう | Sublime Text 2入門 - プログラミングならドットインストール&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://dotinstall.com/lessons/basic_sublimetext/10512&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://dotinstall.com/lessons/basic_sublimetext/10512&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;markdown-previewを導入:e1064ca055fc73394436572989a9a3b4&#34;&gt;Markdown Previewを導入&lt;/h3&gt;
+&lt;h3 id=&#34;markdown-previewを導入&#34;&gt;Markdown Previewを導入&lt;/h3&gt;
 
 &lt;p&gt;&lt;code&gt;Shift + Cmd + P&lt;/code&gt; で出てきた入力窓に install と入力。
 Package Control : Install Package　を選択。&lt;/p&gt;
@@ -92,7 +92,7 @@ Package Control : Install Package　を選択。&lt;/p&gt;
 
 &lt;p&gt;パッケージの導入も簡単ですね。&lt;/p&gt;
 
-&lt;h3 id=&#34;参考:e1064ca055fc73394436572989a9a3b4&#34;&gt;参考&lt;/h3&gt;
+&lt;h3 id=&#34;参考&#34;&gt;参考&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://perl.no-tubo.net/2013/03/26/markdown%E6%9B%B8%E3%81%8F%E6%99%82%E3%81%AF%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%97%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E5%87%BA%E6%9D%A5%E3%82%8B-sublime-text2-markdown-prev/&#34;&gt;Markdown書く時はリアルタイムプレビュー出来る Sublime Text2 + Markdown Previewプラグインで決まり！ | clicktx::Tech::Memo&lt;/a&gt;&lt;/li&gt;

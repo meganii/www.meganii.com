@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lets Encrypt on SIS Lab</title>
+    <link>https://meganii.com/tags/lets-encrypt/</link>
+    <description>Recent content in Lets Encrypt on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 09 Jul 2016 08:06:50 +0900</lastBuildDate>
+    <atom:link href="https://meganii.com/tags/lets-encrypt/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lets&#39;s Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化</title>
+      <link>https://meganii.com/blog/2016/07/09/invalid-ssl-certificate/</link>
+      <pubDate>Sat, 09 Jul 2016 08:06:50 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2016/07/09/invalid-ssl-certificate/</guid>
+      <description>
+
+&lt;p&gt;この&lt;a href=&#34;https://meganii.com&#34;&gt;meganii.com&lt;/a&gt;は、Lets&amp;rsquo;s Encryptで証明書を発行しています。しばらくは、仕組みがよく分かっていないので手動で更新しようと、3ヶ月に一回は更新するようにしていたのですが、ついに昨日、証明書の期限切れでアクセス出来ない状態になりました。。。(なんというお間抜けな話)&lt;/p&gt;
+
+&lt;p&gt;慌てて、certbotを実行させ、更新しようとしたのですが、前回の更新が上手くいっていなかったみたいでrenewできませんでした。&lt;/p&gt;
+
+&lt;p&gt;古い証明書を消して、新規で発行すればできたのでそのメモを残しておきます。&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;失敗その1-なぜかhttpdが起動している&#34;&gt;失敗その1 なぜかhttpdが起動している&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;$ sudo service nginx stop
+
+$ ./certbot-auto renew --dry-run
+Requesting root privileges to run certbot...
+  /home/xxxxx/.local/share/letsencrypt/bin/letsencrypt renew --dry-run
+  /home/xxxxx/.local/share/letsencrypt/lib/python2.6/site-packages/cryptography/__init__.py:26: DeprecationWarning: Python 2.6 is no longer supported by the Python core team, please upgrade your Python. A future version of cryptography will drop support for Python 2.6
+  DeprecationWarning
+
+-------------------------------------------------------------------------------
+Processing /etc/letsencrypt/renewal/meganii.com.conf
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+The program httpd (process ID 15164) is already listening on TCP port 80. This
+will prevent us from binding to that port. Please stop the httpd program
+temporarily and then try again. For automated renewal, you may want to use a
+script that stops and starts your webserver. You can find an example at
+https://letsencrypt.org/howitworks/#writing-your-own-renewal-script.
+Alternatively you can use the webroot plugin to renew without needing to stop
+and start your webserver.
+-------------------------------------------------------------------------------
+2016-07-08 22:51:05,774:WARNING:certbot.renewal:Attempting to renew cert from /etc/letsencrypt/renewal/meganii.com.conf produced an unexpected error: At least one of the (possibly) required ports is already taken.. Skipping.
+
+** DRY RUN: simulating &#39;certbot renew&#39; close to cert expiry
+**          (The test certificates below have not been saved.)
+
+All renewal attempts failed. The following certs could not be renewed:
+  /etc/letsencrypt/live/meganii.com/fullchain.pem (failure)
+   DRY RUN: simulating &#39;certbot renew&#39; close to cert expiry
+**          (The test certificates above have not been saved.)
+1 renew failure(s), 0 parse failure(s)
+
+IMPORTANT NOTES:
+ - Your account credentials have been saved in your Certbot
+   configuration directory at /etc/letsencrypt. You should make a
+   secure backup of this folder now. This configuration directory will
+   also contain certificates and private keys obtained by Certbot so
+   making regular backups of this folder is ideal.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;上記履歴は、一部抜粋しています。&lt;/p&gt;
+
+&lt;p&gt;80portが開いているため、エラーとなっていました。httpdは、止めたはずと思っていたのですが何かのキッカケで起動状態にあったみたいです。
+&lt;code&gt;sudo service httpd stop&lt;/code&gt;を実行して、サービスを止めます。&lt;/p&gt;
+
+&lt;h2 id=&#34;失敗その2-なぜか前回更新時に-異なるドメインと紐付いてしまっていた&#34;&gt;失敗その2 なぜか前回更新時に、異なるドメインと紐付いてしまっていた&lt;/h2&gt;
+
+&lt;p&gt;後は、単純に&lt;code&gt;certbot-auto renew&lt;/code&gt;を実行すればよいはずが、なぜかドメインが違うと怒られた。(おそらく前回更新したときに変なことをしたのだろう)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ ./certbot-auto renew --dry-run
+Requesting root privileges to run certbot...
+  /home/xxxxx/.local/share/letsencrypt/bin/letsencrypt renew --dry-run
+  /home/xxxxx/.local/share/letsencrypt/lib/python2.6/site-packages/cryptography/__init__.py:26: DeprecationWarning: Python 2.6 is no longer supported by the Python core team, please upgrade your Python. A future version of cryptography will drop support for Python 2.6
+  DeprecationWarning
+
+-------------------------------------------------------------------------------
+Processing /etc/letsencrypt/renewal/meganii.com.conf
+-------------------------------------------------------------------------------
+2016-07-08 23:04:54,638:WARNING:certbot.renewal:Attempting to renew cert from /etc/letsencrypt/renewal/meganii.com.conf produced an unexpected error: Failed authorization procedure. xxxxxxxxxx.com (tls-sni-01): urn:acme:error:connection :: The server could not connect to the client to verify the domain :: Failed to connect to 192.64.147.141:443 for TLS-SNI-01 challenge. Skipping.
+
+** DRY RUN: simulating &#39;certbot renew&#39; close to cert expiry
+**          (The test certificates below have not been saved.)
+
+The following certs could not be renewed:
+  /etc/letsencrypt/live/meganii.com/fullchain.pem (failure)
+** DRY RUN: simulating &#39;certbot renew&#39; close to cert expiry
+**          (The test certificates above have not been saved.)
+1 renew failure(s), 0 parse failure(s)
+
+IMPORTANT NOTES:
+ - The following errors were reported by the server:
+
+   Domain: recommented.com
+   Type:   connection
+   Detail: Failed to connect to 192.64.147.141:443 for TLS-SNI-01
+   challenge
+
+   To fix these errors, please make sure that your domain name was
+   entered correctly and the DNS A record(s) for that domain
+   contain(s) the right IP address. Additionally, please check that
+   your computer has a publicly routable IP address and that no
+   firewalls are preventing the server from communicating with the
+   client. If you&#39;re using the webroot plugin, you should also verify
+   that you are serving files from the webroot path you provided.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;解決方法&#34;&gt;解決方法&lt;/h2&gt;
+
+&lt;p&gt;管理者権限で、以下のフォルダに格納されているエラーに関係していそうなフォルダを削除する。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/etc/letsencrypt/live/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/etc/letsencrypt/archive/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/etc/letsencrypt/renewal/&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;例えば、&lt;code&gt;/etc/letsencrypt/live/&lt;/code&gt;だと、meganii.com以外に、meganii.com-0001なんていうのもできていた。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ su
+$ cd /etc/letsencrypt/live/
+rm -rf meganii.com/
+rm -rf meganii.com-0001/
+rm -rf xxxxxxx.com/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;一通り、消し終わった後、以下の通り、新規発行を行なった。&lt;/p&gt;
+
+&lt;h2 id=&#34;新規発行&#34;&gt;新規発行&lt;/h2&gt;
+
+&lt;p&gt;以下の通り、最終的にうまく発行できました。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ ./certbot-auto certonly --standalone -d meganii.com
+Requesting root privileges to run certbot...
+  /home/xxxxx/.local/share/letsencrypt/bin/letsencrypt certonly --standalone -d meganii.com
+  /home/xxxxx/.local/share/letsencrypt/lib/python2.6/site-packages/cryptography/__init__.py:26: DeprecationWarning: Python 2.6 is no longer supported by the Python core team, please upgrade your Python. A future version of cryptography will drop support for Python 2.6
+  DeprecationWarning
+Version: 1.1-20080819
+Version: 1.1-20080819
+
+IMPORTANT NOTES:
+ - Congratulations! Your certificate and chain have been saved at
+   /etc/letsencrypt/live/meganii.com/fullchain.pem. Your cert will
+   expire on 2016-10-06. To obtain a new or tweaked version of this
+   certificate in the future, simply run certbot-auto again. To
+   non-interactively renew *all* of your certificates, run
+   &amp;quot;certbot-auto renew&amp;quot;
+ - If you like Certbot, please consider supporting our work by:
+
+   Donating to ISRG / Let&#39;s Encrypt:   https://letsencrypt.org/donate
+   Donating to EFF:                    https://eff.org/donate-le
+
+$ sudo service nginx restart
+nginx を停止中:                                            [失敗]
+nginx を起動中:                                            [  OK  ]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;※　xxxxxの部分は、差し替え&lt;/p&gt;
+
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://certbot.eff.org/#centosrhel6-nginx&#34;&gt;Certbot&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;所感&#34;&gt;所感&lt;/h2&gt;
+
+&lt;p&gt;前回やったことは、このブログに書いたはず。でも、そういやアクセスできないじゃないか。と思いましたが、ローカルにMarkdownファイルがあるので安心して参照できました。下手にDBを持ってないので、こういうときに便利だなと実感しました。&lt;/p&gt;
+
+&lt;p&gt;自動化しとかないとなぁ・・・。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>lets encrypt certbot</title>
+      <link>https://meganii.com/blog/2016/05/15/lets-encrypt-certbot/</link>
+      <pubDate>Sun, 15 May 2016 21:02:12 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2016/05/15/lets-encrypt-certbot/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/&#34;&gt;Lets&amp;rsquo;s Encryptでブログの常時SSL化にチャレンジ - SIS Lab&lt;/a&gt;の方法で新しいドメインを認証しようとすると、モジュールが古いから新しいモジュールを利用してねと怒られました。&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;改めて、&lt;a href=&#34;https://letsencrypt.org/getting-started/&#34;&gt;Getting Started - Let&amp;rsquo;s Encrypt - Free SSL/TLS Certificates&lt;/a&gt;を見ながら、クライアントソフトを入れなおして、再度発行を行いました。&lt;/p&gt;
+
+&lt;h2 id=&#34;クライアントソフトをインストール&#34;&gt;クライアントソフトをインストール&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/certbot/certbot
+cd certbot
+./certbot-auto --help
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;certbotになったみたいです。裏で、botちゃんが動いて証明書を発行していることを想像しました。&lt;/p&gt;
+
+&lt;h2 id=&#34;証明書発行&#34;&gt;証明書発行&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo service nginx stop # webサーバを止める
+certbot certonly --standalone -d meganii.com
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;これで、問題なく証明書を発行できました。cronなどで、定期的に更新している人は、設定を変えないといけない可能性があるので注意してください。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lets&#39;s Encryptでブログの常時SSL化にチャレンジ</title>
+      <link>https://meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/</link>
+      <pubDate>Sun, 17 Jan 2016 22:44:45 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/</guid>
+      <description>
+
+&lt;p&gt;管理画面とか、APIのエンドポイントを作るためになんとなく、httpsにしておきたいと常々思ってたので、無料で証明書を発行できるLets&amp;rsquo;s Encryptを利用して、これを機にブログも常時SSL化を目指した。&lt;/p&gt;
+
+&lt;p&gt;基本的には、提供されるLet&amp;rsquo;s Encryptのコマンドを叩いて、画面の指示に従っていけば、証明書を発行することが出来た。こんなことなら、もっと早く着手すればよかったと思うぐらいである。その中でもハマった点は、Pythonのバージョンと、443のポートの開け忘れで、手順も含めて、忘れないようにメモしておく。&lt;/p&gt;
+
+&lt;p&gt;Lets&amp;rsquo;s Encryptの使い方は、以下のサイトを参考にした。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://letsencrypt.org/howitworks/&#34;&gt;How It Works - Let&amp;rsquo;s Encrypt - Free SSL/TLS Certificates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://letsencrypt.jp/usage/&#34;&gt;Let&amp;rsquo;s Encrypt の使い方 - Let&amp;rsquo;s Encrypt 総合ポータル&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.websec-room.com/2015/12/04/2380&#34;&gt;無料SSL証明書の Let’s Encrypt が公開されたので実際に試してみた | Webセキュリティの小部屋&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;環境&#34;&gt;環境&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CentOS6.4&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;ハマったところ&#34;&gt;ハマったところ&lt;/h2&gt;
+
+&lt;h3 id=&#34;pythonのバージョン&#34;&gt;Pythonのバージョン&lt;/h3&gt;
+
+&lt;p&gt;CentOS 6で標準インストールされているPythonのバージョンは、&lt;code&gt;2.6.6&lt;/code&gt;と、Let’s Encryptのコマンドが要求するバージョンより古いため、実行すると以下のようなエラーが発生した。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;--debug&lt;/code&gt;のオプションを付けることで、無理やり実行させることも出来るみたいだが、おとなしくバージョンを上げて対応した。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./letsencrypt-auto --help
+WARNING: Python 2.6 support is very experimental at present...
+if you would like to work on improving it, please ensure you have backups
+and then run this script again with the --debug flag!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;意外と、yumからpython27の情報がなかった。(みんなビルドしてるみたい)そのなかでも、欲しい情報が以下のページに載っていたので、参考にして、Python27をインストールした。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://bayashi.net/diary/2015/1124&#34;&gt;CentOS6 で Let&amp;rsquo;s Encrypt #letsencrypt - @bayashi Diary&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;yum install centos-release-SCL
+yum install python27 python27-python-tools
+scl enable python27 bash
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;sslのポート-443-を空けていないため通信出来ない&#34;&gt;SSLのポート(443)を空けていないため通信出来ない&lt;/h3&gt;
+
+&lt;p&gt;以下のエラーが出た。これは、443ポートを開けていないため、エラーになっている模様。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./letsencrypt-auto certonly -a standalone -d meganii.com
+Updating letsencrypt and virtual environment dependencies......
+Requesting root privileges to run with virtualenv: /root/.local/share/letsencrypt/bin/letsencrypt certonly -a standalone -d meganii.com
+Version: 1.1-20080819
+Version: 1.1-20080819
+Failed authorization procedure. meganii.com (tls-sni-01): urn:acme:error:connection :: The server could not connect to the client to verify the domain :: Failed to connect to host for DVSNI challenge, meganii.com (tls-sni-01): urn:acme:error:connection :: The server could not connect to the client to verify the domain :: Failed to connect to host for DVSNI challenge
+
+IMPORTANT NOTES:
+ - The following errors were reported by the server:
+
+   Domain: meganii.com
+   Type:   urn:acme:error:connection
+   Detail: Failed to connect to host for DVSNI challenge
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;443のポートを開けるようにiptablesに設定を追加した。(以下は、ansibleのコマンド)&lt;/p&gt;
+
+&lt;h3 id=&#34;etc-sysconfig-iptables&#34;&gt;/etc/sysconfig/iptables&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;- name: add iptables rule for https
+  lineinfile: dest=/etc/sysconfig/iptables regexp=&amp;quot;{{ https_port }}&amp;quot; line=&amp;quot;-A RH-Firewall-1-INPUT -m state --state NEW -m tcp -p tcp --dport {{ https_port }} -j ACCEPT&amp;quot; insertbefore=&amp;quot;^# add end&amp;quot; state=present
+
+- name: iptables restart
+  command: /etc/init.d/iptables restart
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.ctwnet.com/black/?p=231&#34;&gt;【Let’s Encrypt】エラー表示「The server could not connect to the client to verify the domain」 | 鯖缶備忘録&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;作業内容&#34;&gt;作業内容&lt;/h2&gt;
+
+&lt;p&gt;ハマった点を先に記載し、作業順序とは逆転したのだが、作業内容は以下のとおり。&lt;/p&gt;
+
+&lt;h3 id=&#34;1-リポジトリからダウンロード&#34;&gt;1. リポジトリからダウンロード&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/letsencrypt/letsencrypt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;2-テスト&#34;&gt;2. テスト&lt;/h3&gt;
+
+&lt;p&gt;以下のコマンドを実行すると、環境のチェックがされ、問題なければヘルプの情報が表示される。自分のCentOSの環境だと、Pythonのバージョンが古いため、警告が出た。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./letsencrypt-auto --help
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;エラーメッセージ&#34;&gt;エラーメッセージ&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;./letsencrypt-auto --help
+WARNING: Python 2.6 support is very experimental at present...
+if you would like to work on improving it, please ensure you have backups
+and then run this script again with the --debug flag!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;上記の「ハマった点 Python27」のインストール手順で、Python27をインストールした。&lt;/p&gt;
+
+&lt;p&gt;以下root権限で作業してます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;yum install centos-release-SCL
+yum install python27 python27-python-tools
+scl enable python27 bash
+python -V
+Python 2.7.5
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Pythonのバージョンが上がったことを確認した後、再度以下のコマンドを実施すると、警告は出るがヘルプが出るようになった。(&lt;code&gt;scl enable&lt;/code&gt;の動きと、Pythonのバージョンについては要確認)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./letsencrypt-auto --help
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;3-let-s-encryptクライアントの実行&#34;&gt;3. Let&amp;rsquo;s Encryptクライアントの実行&lt;/h3&gt;
+
+&lt;p&gt;次に、以下のコマンドを実行する。 &lt;code&gt;--email {自分のemailアドレス}&lt;/code&gt;、&lt;code&gt;-d {対象ドメイン}&lt;/code&gt;という指定方法である。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./letsencrypt-auto certonly --standalone --email email@mail.com -d meganii.com
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;途中でWebサーバを停止させるように指示があるため、nginx(Webサーバ)を停止させ、再度同じコマンドを実行する。
+(このタイミングで、ポート443を空けておらず、いくらnginxを再起動させても、正常に動作しなかった)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;service nginx stop
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;./letsencrypt-auto certonly --standalone --email email@mail.com -d meganii.com
+
+IMPORTANT NOTES:
+ - Congratulations! Your certificate and chain have been saved at
+   /etc/letsencrypt/live/meganii.com/fullchain.pem. Your cert will
+   expire on 2016-04-14. To obtain a new version of the certificate in
+   the future, simply run Let&#39;s Encrypt again.
+ - If you like Let&#39;s Encrypt, please consider supporting our work by:
+
+   Donating to ISRG / Let&#39;s Encrypt:   https://letsencrypt.org/donate
+   Donating to EFF:                    https://eff.org/donate-le
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;これで、&lt;code&gt;/etc/letsencrypt/live/meganii.com/&lt;/code&gt;の下に以下のファイルが作られる。これらの証明書を利用して、Nginxの設定を行う。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cert.pem       #サーバ証明書
+chain.pem      #中間証明書
+fullchain.pem  #サーバ証明書＋中間証明書
+privkey.pem    #サーバ秘密鍵
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;4-nginxの設定&#34;&gt;4. nginxの設定&lt;/h2&gt;
+
+&lt;p&gt;nginxの設定は、以下のブログを参考にした。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sonickun.hatenablog.com/entry/2015/12/19/212517&#34;&gt;Let&amp;rsquo;s EncryptでHTTPSサーバを建てたついでにSSL LabsでA+評価をめざす - sonickun.log&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;上記ブログの手順をもとに、DH鍵を生成する。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;openssl dhparam -out dhparam.pem 2048
+openssl dhparam -text -in dhparam.pem -noout
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;default-confの設定&#34;&gt;default.confの設定&lt;/h3&gt;
+
+&lt;p&gt;最終的に、下記の設定でNginxを走らせた。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#
+# The default server
+#
+
+server {
+  listen       80 default_server;
+  server_name  meganii.com;
+  return       301 https://meganii.com$request_uri;
+}
+
+server {
+
+    listen 443 ssl http2;
+    listen [::]:443 ssl http2;
+
+    server_name  meganii.com;
+
+    ssl_certificate      /etc/letsencrypt/live/meganii.com/fullchain.pem;
+    ssl_certificate_key  /etc/letsencrypt/live/meganii.com/privkey.pem;
+
+    ssl_session_timeout  10m;
+
+    ssl_prefer_server_ciphers  on;
+    ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+    ssl_ciphers &amp;quot;EECDH+ECDSA+AESGCM EECDH+aRSA+AESGCM EECDH+ECDSA+SHA384 EECDH+ECDSA+SHA256 EECDH+aRSA+SHA384 EECDH+aRSA+SHA256 EECDH+aRSA+RC4 EECDH EDH+aRSA RC4 !aNULL !eNULL !LOW !3DES !MD5 !EXP !PSK !SRP !DSS !RC4&amp;quot;;
+
+    ssl_dhparam /etc/nginx/ssl/dhparam.pem;
+
+    add_header Strict-Transport-Security &amp;quot;max-age=15768000; includeSubdomains&amp;quot;;
+
+    #charset koi8-r;
+
+    #access_log  logs/host.access.log  main;
+
+    location / {
+        root   /home/web/www/meganii.com;
+        index  index.html index.htm;
+    }
+
+    error_page  404              /404.html;
+    location = /404.html {
+        root   /usr/share/nginx/html;
+    }
+
+    # redirect server error pages to the static page /50x.html
+    #
+    error_page   500 502 503 504  /50x.html;
+    location = /50x.html {
+        root   /usr/share/nginx/html;
+    }
+
+    gzip on;
+    gzip_disable &amp;quot;msie6&amp;quot;;
+
+    gzip_comp_level 6;
+    gzip_min_length  1100;
+    gzip_buffers 16 8k;
+    gzip_proxied any;
+    gzip_types       text/plain application/xml text/css text/js text/xml application/x-javascript text/javascript application/javascript application/json    application/xml+rss;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;下記は、httpでアクセスしてきた場合、httpsにリダイレクトする設定である。rewriteする方法もあるが、公式ページに &amp;ldquo;This is a wrong&amp;rdquo;と書いてあるので、推奨する方法を採用した。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;server {
+    listen       80;
+    server_name  www.example.org  example.org;
+    if ($http_host = example.org) {
+        rewrite  (.*)  http://www.example.org$1;
+    }
+    ...
+}
+This is a wrong, cumbersome, and ineffective way. The right way is to define a separate server for example.org:
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nginx.org/en/docs/http/converting_rewrite_rules.html&#34;&gt;Converting rewrite rules&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://letsencrypt.jp/usage/&#34;&gt;Let&amp;rsquo;s Encrypt の使い方 - Let&amp;rsquo;s Encrypt 総合ポータル&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.websec-room.com/2015/12/04/2380&#34;&gt;無料SSL証明書の Let’s Encrypt が公開されたので実際に試してみた | Webセキュリティの小部屋&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bayashi.net/diary/2015/1124&#34;&gt;CentOS6 で Let&amp;rsquo;s Encrypt #letsencrypt - @bayashi Diary&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://sonickun.hatenablog.com/entry/2015/12/19/212517&#34;&gt;Let&amp;rsquo;s EncryptでHTTPSサーバを建てたついでにSSL LabsでA+評価をめざす - sonickun.log&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;booklink-box&#34;&gt;&lt;div class=&#34;booklink-image&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4774178667/meganii-22/&#34; target=&#34;_blank&#34; &gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/511NShYrT8L._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklink-info&#34;&gt;&lt;div class=&#34;booklink-name&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4774178667/meganii-22/&#34; target=&#34;_blank&#34; &gt;nginx実践入門 (WEB+DB PRESS plus)&lt;/a&gt;&lt;div class=&#34;booklink-powered-date&#34;&gt;posted with &lt;a href=&#34;http://yomereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-detail&#34;&gt;久保 達彦,道井 俊介 技術評論社 2016-01-16    &lt;/div&gt;&lt;div class=&#34;booklink-link2&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4774178667/meganii-22/&#34; target=&#34;_blank&#34; &gt;Amazon&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkkindle&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=nginx%8E%C0%91H%93%FC%96%E5%20%28WEB%2BDB%20PRESS%20plus%29&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;url=node%3D2275256051&amp;tag=meganii-22&#34; target=&#34;_blank&#34; &gt;Kindle&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/13e181b2.b5761023.13e181b3.cbc7b217/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F13530382%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F&#34; target=&#34;_blank&#34; &gt;楽天ブックス&lt;/a&gt;&lt;/div&gt;                                    &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

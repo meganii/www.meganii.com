@@ -28,8 +28,8 @@
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
@@ -73,7 +73,7 @@ export NLS_LANG=American_America.AL32UTF8
 &lt;pre&gt;&lt;code&gt;source ~/.bash_profile
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;rlwrapのインストール:62ffe9a86a5750217ff3dd26c7ca910b&#34;&gt;rlwrapのインストール&lt;/h2&gt;
+&lt;h2 id=&#34;rlwrapのインストール&#34;&gt;rlwrapのインストール&lt;/h2&gt;
 
 &lt;p&gt;sqplusは、素のままだと↑↓での履歴が出せなかったりするので、rlwrapをインストールする。&lt;/p&gt;
 
@@ -110,7 +110,7 @@ build variables:
 
 &lt;p&gt;これで、&lt;code&gt;rlwrap sqlplus&lt;/code&gt;とすれば、履歴も出せるようになる。&lt;/p&gt;
 
-&lt;h2 id=&#34;参考:62ffe9a86a5750217ff3dd26c7ca910b&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://yoshidashingo.hatenablog.com/entry/2014/08/08/165311&#34;&gt;Mac OSXに64ビット版sqlplus(11.2)をインストールしてAmazon RDS for Oracleに接続 - yoshidashingo&lt;/a&gt;&lt;/p&gt;
 </description>

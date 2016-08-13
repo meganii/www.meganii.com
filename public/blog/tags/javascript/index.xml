@@ -6,8 +6,71 @@
     <description>Recent content in Javascript on SIS Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 20 Feb 2016 17:51:18 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 11 May 2016 22:05:30 +0900</lastBuildDate>
     <atom:link href="https://meganii.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Electronvがv1.0.0になったのでMithril.jsと合わせてAmazonアフィリエイトリンクビルダーを作った</title>
+      <link>https://meganii.com/blog/2016/05/11/electron-mithril-amazon-linkbuilder/</link>
+      <pubDate>Wed, 11 May 2016 22:05:30 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2016/05/11/electron-mithril-amazon-linkbuilder/</guid>
+      <description>
+
+&lt;p&gt;Electronが&lt;a href=&#34;http://electron.atom.io/blog/2016/05/11/electron-1-0&#34;&gt;Electron 1.0&lt;/a&gt;になったということで、以前作ったAmazon LinkbuilderをMithril.jsで置き換えてみました。(Electron v1.0.0がなったことはあまり関係ありません。。。)&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a data-flickr-embed=&#34;true&#34;  href=&#34;https://www.flickr.com/photos/35571855@N06/26951293955/in/dateposted-public/&#34; title=&#34;Electron-LinkBuilder&#34;&gt;&lt;img src=&#34;https://farm8.staticflickr.com/7085/26951293955_748076b816_z.jpg&#34; width=&#34;640&#34; height=&#34;441&#34; alt=&#34;Electron-LinkBuilder&#34;&gt;&lt;/a&gt;&lt;script async src=&#34;//embedr.flickr.com/assets/client-code.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;以前の記事「&lt;a href=&#34;https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/&#34;&gt;ElectronでAmazonアフィリエイトリンクビルダーを作った - SIS Lab&lt;/a&gt;」で、Electronと素のJavaScriptでAmazonアフィリエイトリンクビルダーを作成しました。&lt;/p&gt;
+
+&lt;p&gt;Amazonから商品を検索するAmazon Product Advertising APIの使い方と、そのJavaScriptラッパーの&lt;code&gt;node-apac&lt;/code&gt;の使い方は、この記事を参照してください。&lt;/p&gt;
+
+&lt;h2 id=&#34;mithril-js&#34;&gt;Mithril.js&lt;/h2&gt;
+
+&lt;p&gt;Electron + Mithril.jsの組み合わせは、&lt;a href=&#34;https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/&#34;&gt;Electron + Mithril.jsでFlickrアプリを作成する - SIS Lab&lt;/a&gt; のときに試しました。使うAPIもコアとなるのは5つ、全部合わせても10数個とシンプルなため、個人的には、VirtualDOM入門にはとっつきやすいと感じました。世間的には、React.jsなんでしょうけどね。&lt;/p&gt;
+
+&lt;p&gt;素のJavaScriptを、書き直しました。Model, Controller, ViewModel, Viewの使い方がまだイマイチ分かっていませんが、動くところまではいきました。&lt;/p&gt;
+
+&lt;h2 id=&#34;作成したプログラム&#34;&gt;作成したプログラム&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/meganii/electron-amazon-linkbuilder&#34;&gt;meganii/electron-amazon-linkbuilder: Amazon Affiliate Link Builder built on Electron with Mithril.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;package.json を以下の通り、1.0.0以上を指定すればよいみたい。(おそらくなので、あまり分かっていない)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-diff&#34;&gt;},
+ &amp;quot;homepage&amp;quot;: &amp;quot;https://github.com/meganii/electron-amazon-linkbuilder#readme&amp;quot;,
+ &amp;quot;devDependencies&amp;quot;: {
+-    &amp;quot;electron-prebuilt&amp;quot;: &amp;quot;^0.36.0&amp;quot;,
++    &amp;quot;electron-prebuilt&amp;quot;: &amp;quot;^1.0.0&amp;quot;,
+   &amp;quot;mithril&amp;quot;: &amp;quot;^0.2.4&amp;quot;,
+   &amp;quot;config&amp;quot;: &amp;quot;^1.20.0&amp;quot;,
+   &amp;quot;apac&amp;quot;: &amp;quot;1.5.0&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+
+&lt;p&gt;(さっそく、作ったAmazonアフィリエイトリンクビルダーで商品リンクを作りました笑)&lt;/p&gt;
+
+&lt;div class=&#34;booklink-box&#34;&gt;&lt;div class=&#34;booklink-image&#34;&gt;&lt;a href=http://www.amazon.co.jp/JavaScript-Ninja%E3%81%AE%E6%A5%B5%E6%84%8F-%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E9%96%8B%E7%99%BA%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E7%9F%A5%E8%AD%98%E3%81%A8%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0-Programmers-SELECTION/dp/4798128457%3FSubscriptionId%3DAKIAI6MZOKQQCKBKJBLQ%26tag%3Dmeganii-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4798128457&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/51wsFoSKrKL._SL160_.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklink-info&#34;&gt;&lt;div class=&#34;booklink-name&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4798128457/meganii-22/&#34;&gt;JavaScript Ninjaの極意 ライブラリ開発のための知識とコーディング (Programmer&#39;s SELECTION)&lt;/a&gt;&lt;/div&gt;&lt;div class=shoplinkrakuten&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/g00q0725.il1o2897.g00q0725.il1o3b57/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12337610%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Frms%2Fmsv%2FItem%3Fn%3D12337610%26surl%3Dbook&#34;&gt;楽天で買う&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&#34;booklink-box&#34;&gt;&lt;div class=&#34;booklink-image&#34;&gt;&lt;a href=http://www.amazon.co.jp/JavaScript-%E7%AC%AC6%E7%89%88-David-Flanagan/dp/4873115736%3FSubscriptionId%3DAKIAI6MZOKQQCKBKJBLQ%26tag%3Dmeganii-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4873115736&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/51c9uCrhHgL._SL160_.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklink-info&#34;&gt;&lt;div class=&#34;booklink-name&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4873115736/meganii-22/&#34;&gt;JavaScript 第6版&lt;/a&gt;&lt;/div&gt;&lt;div class=shoplinkrakuten&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/g00q0725.il1o2897.g00q0725.il1o3b57/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F11846204%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Frms%2Fmsv%2FItem%3Fn%3D11846204%26surl%3Dbook&#34;&gt;楽天で買う&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>ElectronでAmazonアフィリエイトリンクビルダーを作った</title>
@@ -26,15 +89,15 @@
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;動機:7ff2ae553e685ff6dfdf963261c6757c&#34;&gt;動機&lt;/h2&gt;
+&lt;h2 id=&#34;動機&#34;&gt;動機&lt;/h2&gt;
 
 &lt;p&gt;Amazonのアフィリエイトリンクビルダーには、ヨメレバ、カエレバのようなブックマークレットもあるが、現時点でAmazonのリンクがhttpsに対応していないため、せっかくhttps化をしてもchromeのURLバーが緑色にならない。&lt;a href=&#34;https://meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/&#34;&gt;Lets&amp;rsquo;s Encryptでブログの常時SSL化にチャレンジ | じょーぶん部&lt;/a&gt;&lt;/p&gt;
 
@@ -42,13 +105,13 @@
 
 &lt;p&gt;React.jsとか使ってオシャレに作りたかったのだけど、JavaScript初心者にはまずそもそも素のJavaScriptが何をしているのかがわかってなかったので、一度愚直に作った。&lt;/p&gt;
 
-&lt;h2 id=&#34;外観:7ff2ae553e685ff6dfdf963261c6757c&#34;&gt;外観&lt;/h2&gt;
+&lt;h2 id=&#34;外観&#34;&gt;外観&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/25117168326&#34; title=&#34;electron-amazon-linkbuilderby meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm2.staticflickr.com/1714/25117168326_9fe61fdeb7_z.jpg&#34; alt=&#34;electron-amazon-linkbuilder&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/25143519475&#34; title=&#34;electron-amazon-linkbuilder-resultby meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm2.staticflickr.com/1467/25143519475_14929051ec_z.jpg&#34; alt=&#34;electron-amazon-linkbuilder-result&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;コード:7ff2ae553e685ff6dfdf963261c6757c&#34;&gt;コード&lt;/h2&gt;
+&lt;h2 id=&#34;コード&#34;&gt;コード&lt;/h2&gt;
 
 &lt;p&gt;正直、JavaScriptの書き方がまだよくわかってない。コールバックの書き方や、関数定義が正しいか怪しいが、ひとまず動くところまではできた。&lt;/p&gt;
 
@@ -69,7 +132,7 @@
 
 &lt;p&gt;Endpointは、デフォルトだとUSのAmazonを指しているため、&lt;code&gt;webservices.amazon.co.jp&lt;/code&gt;を指定する。&lt;/p&gt;
 
-&lt;h3 id=&#34;iamユーザを作成してproduct-advertising-apiを利用する方法:7ff2ae553e685ff6dfdf963261c6757c&#34;&gt;IAMユーザを作成してProduct Advertising APIを利用する方法&lt;/h3&gt;
+&lt;h3 id=&#34;iamユーザを作成してproduct-advertising-apiを利用する方法&#34;&gt;IAMユーザを作成してProduct Advertising APIを利用する方法&lt;/h3&gt;
 
 &lt;p&gt;AWS IDと、AWS Secretを取得するためにはまず、&lt;a href=&#34;https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html&#34;&gt;Product Advertising API&lt;/a&gt;でDeveloper登録をする必要がある。&lt;/p&gt;
 
@@ -92,7 +155,7 @@
 
 よって、IAMを利用する場合は、&lt;code&gt;AdministratorAccess&lt;/code&gt;のポリシーをアタッチして、keyを取得すれば良い。&lt;/p&gt;
 
-&lt;h3 id=&#34;index-html:7ff2ae553e685ff6dfdf963261c6757c&#34;&gt;index.html&lt;/h3&gt;
+&lt;h3 id=&#34;index-html&#34;&gt;index.html&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
 &amp;lt;html&amp;gt;
@@ -210,7 +273,7 @@
 &amp;lt;/html&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;main-js:7ff2ae553e685ff6dfdf963261c6757c&#34;&gt;main.js&lt;/h3&gt;
+&lt;h3 id=&#34;main-js&#34;&gt;main.js&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;&#39;use strict&#39;;
 
@@ -369,7 +432,7 @@ var getRequsest = function(url, callback) {
 };
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;参考:7ff2ae553e685ff6dfdf963261c6757c&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;div class=&#34;booklink-box&#34;&gt;&lt;div class=&#34;booklink-image&#34;&gt;&lt;a href=http://www.amazon.co.jp/Effective-JavaScript-David-Herman/dp/4798131113%3FSubscriptionId%3DAKIAI6MZOKQQCKBKJBLQ%26tag%3Dmeganii-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4798131113&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/51nSK4pE-RL._SL160_.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklink-info&#34;&gt;&lt;div class=&#34;booklink-name&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4798131113/meganii-22/&#34;&gt;Effective JavaScript&lt;/a&gt;&lt;/div&gt;&lt;div class=shoplinkrakuten&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/g00q0725.il1o2897.g00q0725.il1o3b57/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12215141%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Frms%2Fmsv%2FItem%3Fn%3D12215141%26surl%3Dbook&#34;&gt;楽天で買う&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
@@ -392,8 +455,8 @@ var getRequsest = function(url, callback) {
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
@@ -404,16 +467,16 @@ var getRequsest = function(url, callback) {
 
 &lt;p&gt;&lt;a href=&#34;http://kshigeru.blogspot.jp/2013/07/tokyo-landprice.html&#34;&gt;Ars longa, vita brevis: 東京の地価公示データを眺める&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;環境準備:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;環境準備&lt;/h2&gt;
+&lt;h2 id=&#34;環境準備&#34;&gt;環境準備&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://ja.d3js.node.ws/blocks/mike/map/&#34;&gt;D3.js と TopoJSON で地図を作る&lt;/a&gt;を元に、環境を準備する。&lt;/p&gt;
 
-&lt;h3 id=&#34;geospatial-data-abstraction-library-地理空間データ抽出ライブラリ-のインストール:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;Geospatial Data Abstraction Library （地理空間データ抽出ライブラリ）のインストール&lt;/h3&gt;
+&lt;h3 id=&#34;geospatial-data-abstraction-library-地理空間データ抽出ライブラリ-のインストール&#34;&gt;Geospatial Data Abstraction Library （地理空間データ抽出ライブラリ）のインストール&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;brew install gdal
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;データを取得する:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;データを取得する&lt;/h2&gt;
+&lt;h2 id=&#34;データを取得する&#34;&gt;データを取得する&lt;/h2&gt;
 
 &lt;p&gt;地価公示データは、以下のページからダウンロードする。
 &lt;a href=&#34;http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L01-v2_3.html&#34;&gt;国土数値情報　地価公示データの詳細&lt;/a&gt;&lt;/p&gt;
@@ -423,7 +486,7 @@ var getRequsest = function(url, callback) {
 &lt;pre&gt;&lt;code&gt;KS-META-L01-15_13.xml  L01-15_13.dbf  L01-15_13.prj  L01-15_13.shp  L01-15_13.shx  L01-15_13.xml
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;orginfoで中身を確認する:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;orginfoで中身を確認する&lt;/h2&gt;
+&lt;h2 id=&#34;orginfoで中身を確認する&#34;&gt;orginfoで中身を確認する&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;ogrinfo -al L01-15_13.shp | head -n 8
 INFO: Open of `L01-15_13.shp&#39;
@@ -456,7 +519,7 @@ Layer SRS WKT:
 &lt;pre&gt;&lt;code&gt;ogr2ogr -f GeoJSON -where &amp;quot;L01_017 &amp;lt; &#39;13320&#39;&amp;quot; tokyo-landprice-2015.geojson L01-15_13.shp
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;d3-jsで表示する:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;d3.jsで表示する&lt;/h2&gt;
+&lt;h2 id=&#34;d3-jsで表示する&#34;&gt;d3.jsで表示する&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/24844125586&#34; title=&#34;tokyo-landprice_heatmapby meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg&#34; alt=&#34;tokyo-landprice_heatmap&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -523,14 +586,14 @@ Layer SRS WKT:
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;次にやりたいこと:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;次にやりたいこと&lt;/h2&gt;
+&lt;h2 id=&#34;次にやりたいこと&#34;&gt;次にやりたいこと&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;数十年分のデータを次々に描画して移り変わりを確認する&lt;/li&gt;
 &lt;li&gt;地図上にマッピングする&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;参考:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://d3js.org/&#34;&gt;D3.js - Data-Driven Documents&lt;/a&gt;&lt;/li&gt;
@@ -549,7 +612,7 @@ Layer SRS WKT:
       <guid>https://meganii.com/blog/2016/02/07/javascript-ninja/</guid>
       <description>
 
-&lt;h2 id=&#34;関数の呼び出し:c177dd30073b4cfb4ed36135721f57fb&#34;&gt;関数の呼び出し&lt;/h2&gt;
+&lt;h2 id=&#34;関数の呼び出し&#34;&gt;関数の呼び出し&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;関数として呼び出す&lt;/li&gt;
@@ -565,8 +628,8 @@ Layer SRS WKT:
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
@@ -575,7 +638,7 @@ Layer SRS WKT:
 
 &lt;p&gt;this　-&amp;gt; 呼び出しコンテキスト&lt;/p&gt;
 
-&lt;h2 id=&#34;参考:c177dd30073b4cfb4ed36135721f57fb&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;JavaScript Ninjaの極意&lt;/li&gt;
@@ -605,15 +668,15 @@ Layer SRS WKT:
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;d3-jsとは:6fa677f1ac8bdbac1e37c108023f7390&#34;&gt;D3.jsとは？&lt;/h2&gt;
+&lt;h2 id=&#34;d3-jsとは&#34;&gt;D3.jsとは？&lt;/h2&gt;
 
 &lt;p&gt;データ・ドリブン・ドキュメント(Data Driven Documents)の頭文字で、D3.js。&lt;/p&gt;
 
@@ -627,7 +690,7 @@ Layer SRS WKT:
 
 &lt;p&gt;触ってみた感じだと、jQueryっぽくDOMを操作しながら、Dataを起点として可視化を行うことができる。データが追加、削除されたからといって、コードを修正するのではなく、再描画するだけ。&lt;/p&gt;
 
-&lt;h2 id=&#34;update-enter-exit関数とは:6fa677f1ac8bdbac1e37c108023f7390&#34;&gt;update, enter, exit関数とは？&lt;/h2&gt;
+&lt;h2 id=&#34;update-enter-exit関数とは&#34;&gt;update, enter, exit関数とは？&lt;/h2&gt;
 
 &lt;p&gt;dataを使った瞬間に仮装領域が作られる。&lt;/p&gt;
 
@@ -639,14 +702,14 @@ Layer SRS WKT:
 
 &lt;p&gt;たまにサンプルで、上記の関数(update, enter, exit)を利用しているコードがあったのだが、このレッスンを受けるまでは意味が分からなかった。しかし、このレッスンをデータセットと一致しない場合の処理を記述していただけであった。&lt;/p&gt;
 
-&lt;h2 id=&#34;d3-jsを利用して-どんなことがしたいのか:6fa677f1ac8bdbac1e37c108023f7390&#34;&gt;d3.jsを利用して、どんなことがしたいのか？&lt;/h2&gt;
+&lt;h2 id=&#34;d3-jsを利用して-どんなことがしたいのか&#34;&gt;d3.jsを利用して、どんなことがしたいのか？&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;GoogleMapsの地図上にデータをマッピングする&lt;/li&gt;
 &lt;li&gt;売上データなどを可視化する&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;参考:6fa677f1ac8bdbac1e37c108023f7390&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://dotinstall.com/lessons/basic_d3js&#34;&gt;D3.js入門 (全17回) - プログラミングならドットインストール&lt;/a&gt;&lt;/li&gt;
@@ -674,15 +737,15 @@ Layer SRS WKT:
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;nightmareとは:750ea7be14c2ba45472ce062ec83fb8e&#34;&gt;Nightmareとは？&lt;/h2&gt;
+&lt;h2 id=&#34;nightmareとは&#34;&gt;Nightmareとは？&lt;/h2&gt;
 
 &lt;p&gt;Nightmare.jsは、ブラウザの挙動を自動化できるJavaScriptライブラリです。以前は、PhantomJSのラッパーだったみたいだが、現在は内部的にElectronを利用するようになった。&lt;/p&gt;
 
@@ -691,7 +754,7 @@ Layer SRS WKT:
 &lt;pre&gt;&lt;code&gt;npm install nightmare
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;amazon-アフィリエイトの前日のレポートを取得する:750ea7be14c2ba45472ce062ec83fb8e&#34;&gt;Amazon アフィリエイトの前日のレポートを取得する&lt;/h2&gt;
+&lt;h2 id=&#34;amazon-アフィリエイトの前日のレポートを取得する&#34;&gt;Amazon アフィリエイトの前日のレポートを取得する&lt;/h2&gt;
 
 &lt;p&gt;まずは、完成品をどうぞ。&lt;/p&gt;
 
@@ -717,7 +780,7 @@ vo(function* () {
 });
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;サンプルコードを動かす:750ea7be14c2ba45472ce062ec83fb8e&#34;&gt;サンプルコードを動かす&lt;/h2&gt;
+&lt;h2 id=&#34;サンプルコードを動かす&#34;&gt;サンプルコードを動かす&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;npm install nightmare vo
 node --harmony yahoo.js
@@ -748,12 +811,12 @@ vo(function* () {
 });
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;genaratar-function-って:750ea7be14c2ba45472ce062ec83fb8e&#34;&gt;Genaratar function* って？&lt;/h3&gt;
+&lt;h3 id=&#34;genaratar-function-って&#34;&gt;Genaratar function* って？&lt;/h3&gt;
 
 &lt;p&gt;ここ数日の自分の理解だと、「非同期処理を同期的に記述する」ための記述方法であるという理解。&lt;code&gt;yield&lt;/code&gt;によって処理を途中で止めることができる。
 (もう少し理解がまとまったら、追記したい)&lt;/p&gt;
 
-&lt;h2 id=&#34;参考:750ea7be14c2ba45472ce062ec83fb8e&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://qiita.com/n0bisuke/items/8a7a52321380e5cf0379&#34;&gt;Nightmareがv2(Electronベース)になり、使いやすく感動したのでLIGブログのPV/UUデータ取得を自動化してみた。 - Qiita&lt;/a&gt;&lt;/li&gt;
@@ -762,7 +825,7 @@ vo(function* () {
 &lt;li&gt;&lt;a href=&#34;https://azurelogic.com/posts/web-scraping-with-nightmare-js/&#34;&gt;Web scraping with Nightmare.js | azurelogic.com&lt;/a&gt; (PhantomJSの時の例)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;参考図書:750ea7be14c2ba45472ce062ec83fb8e&#34;&gt;参考図書&lt;/h2&gt;
+&lt;h2 id=&#34;参考図書&#34;&gt;参考図書&lt;/h2&gt;
 
 &lt;div class=&#34;booklink-box&#34;&gt;&lt;div class=&#34;booklink-image&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4883379930/meganii-22/&#34; target=&#34;_blank&#34; &gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/61DHJGf1uSL._SL160_.jpg&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklink-info&#34;&gt;&lt;div class=&#34;booklink-name&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4883379930/meganii-22/&#34; target=&#34;_blank&#34; &gt;JS+Node.jsによるWebクローラー/ネットエージェント開発テクニック&lt;/a&gt;&lt;div class=&#34;booklink-powered-date&#34;&gt;posted with &lt;a href=&#34;http://yomereba.com&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-detail&#34;&gt;クジラ飛行机 ソシム 2015-08-31    &lt;/div&gt;&lt;div class=&#34;booklink-link2&#34;&gt;&lt;div class=&#34;shoplinkamazon&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4883379930/meganii-22/&#34; target=&#34;_blank&#34; &gt;Amazon&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkkindle&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=JS%2BNode.js%82%C9%82%E6%82%E9Web%83N%83%8D%81%5B%83%89%81%5B%2F%83l%83b%83g%83G%81%5B%83W%83F%83%93%83g%8AJ%94%AD%83e%83N%83j%83b%83N&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;url=node%3D2275256051&amp;tag=meganii-22&#34; target=&#34;_blank&#34; &gt;Kindle&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;shoplinkrakuten&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/13e181b2.b5761023.13e181b3.cbc7b217/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F13377786%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F&#34; target=&#34;_blank&#34; &gt;楽天ブックス&lt;/a&gt;&lt;/div&gt;                                   &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklink-footer&#34;&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -791,17 +854,17 @@ vo(function* () {
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;項目１１-クロージャと仲良くしよう:0bd9809696ee73b1112c45dac75eb628&#34;&gt;項目１１　クロージャと仲良くしよう&lt;/h2&gt;
+&lt;h2 id=&#34;項目１１-クロージャと仲良くしよう&#34;&gt;項目１１　クロージャと仲良くしよう&lt;/h2&gt;
 
-&lt;h3 id=&#34;ポイント１-javascriptでは現在の関数の外側で定義された関数を参照できる:0bd9809696ee73b1112c45dac75eb628&#34;&gt;ポイント１ JavaScriptでは現在の関数の外側で定義された関数を参照できる&lt;/h3&gt;
+&lt;h3 id=&#34;ポイント１-javascriptでは現在の関数の外側で定義された関数を参照できる&#34;&gt;ポイント１ JavaScriptでは現在の関数の外側で定義された関数を参照できる&lt;/h3&gt;
 
 &lt;p&gt;内側の&lt;code&gt;make&lt;/code&gt;関数は&lt;code&gt;magicIngredient&lt;/code&gt;を参照しているが、これは外側の&lt;code&gt;makeSandwich&lt;/code&gt;関数の中で定義されているもの。&lt;/p&gt;
 
@@ -819,7 +882,7 @@ console.log(makeSandwich());
 
 &lt;p&gt;これがクロージャーだーって言って身構えてパッと見るとよくわからないが、処理を追っていけば、&lt;/p&gt;
 
-&lt;h2 id=&#34;ポイント２-関数は-その外側の関数がリターンした後になっても-まだ外側の関数内で定義された変数を参照できる:0bd9809696ee73b1112c45dac75eb628&#34;&gt;ポイント２　関数は、その外側の関数がリターンした後になっても、まだ外側の関数内で定義された変数を参照できる&lt;/h2&gt;
+&lt;h2 id=&#34;ポイント２-関数は-その外側の関数がリターンした後になっても-まだ外側の関数内で定義された変数を参照できる&#34;&gt;ポイント２　関数は、その外側の関数がリターンした後になっても、まだ外側の関数内で定義された変数を参照できる&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;関数は、次のように、後で呼び出された時、内側の関数を返す形式で書くことができる&lt;/li&gt;
@@ -859,7 +922,7 @@ console.log(tukeyAnd(&amp;quot;Swiss&amp;quot;));   //turkey and Swiss
 console.log(tukeyAnd(&amp;quot;Provolone&amp;quot;));   //turkey and Provolone
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;ポイント３-クロージャは外側の変数を更新できる:0bd9809696ee73b1112c45dac75eb628&#34;&gt;ポイント３　クロージャは外側の変数を更新できる&lt;/h2&gt;
+&lt;h2 id=&#34;ポイント３-クロージャは外側の変数を更新できる&#34;&gt;ポイント３　クロージャは外側の変数を更新できる&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;クロージャは、外側の変数へのリファレンスを保存するのであって、値をコピーするわけではない&lt;/li&gt;
@@ -884,7 +947,7 @@ console.log(b.type());  // number
 
 &lt;p&gt;これも、そういうもんなんだと思えば、身構える必要もないのかと。実際の利用例をもっと見てみたい。&lt;/p&gt;
 
-&lt;h2 id=&#34;ポイント:0bd9809696ee73b1112c45dac75eb628&#34;&gt;ポイント&lt;/h2&gt;
+&lt;h2 id=&#34;ポイント&#34;&gt;ポイント&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;関数は、その外側のスコープで定義された変数を参照できる&lt;/li&gt;
@@ -915,15 +978,15 @@ console.log(b.type());  // number
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;学んだ点:9ef024e4f544307c6d7018edc0fe27f1&#34;&gt;学んだ点&lt;/h2&gt;
+&lt;h2 id=&#34;学んだ点&#34;&gt;学んだ点&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;スコープ&lt;/li&gt;
@@ -931,11 +994,11 @@ console.log(b.type());  // number
 &lt;li&gt;オブジェクト&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;スコープ:9ef024e4f544307c6d7018edc0fe27f1&#34;&gt;スコープ&lt;/h3&gt;
+&lt;h3 id=&#34;スコープ&#34;&gt;スコープ&lt;/h3&gt;
 
 &lt;p&gt;関数スコープ・・・変数は、その変数が定義された関数と、その関数に入れ子にされている関数痛からアクセスできる。&lt;/p&gt;
 
-&lt;h3 id=&#34;関数:9ef024e4f544307c6d7018edc0fe27f1&#34;&gt;関数&lt;/h3&gt;
+&lt;h3 id=&#34;関数&#34;&gt;関数&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;JavaScriptでは、関数はオブジェクト&lt;/li&gt;
@@ -947,7 +1010,7 @@ console.log(b.type());  // number
 
 &lt;p&gt;グローバル変数をむやみに増やさないために、関数でラップしているイメージ。&lt;/p&gt;
 
-&lt;h3 id=&#34;オブジェクト:9ef024e4f544307c6d7018edc0fe27f1&#34;&gt;オブジェクト&lt;/h3&gt;
+&lt;h3 id=&#34;オブジェクト&#34;&gt;オブジェクト&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;不変な基本型と、可変なオブジェクト参照&lt;/li&gt;
@@ -964,7 +1027,7 @@ console.log(b.type());  // number
 
 &lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/15904454052&#34; title=&#34;2014年11月29日11時09分37秒by meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm8.staticflickr.com/7581/15904454052_ea152fb630_z.jpg&#34; alt=&#34;2014年11月29日11時09分37秒&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;参考:9ef024e4f544307c6d7018edc0fe27f1&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://morizyun.github.io/blog/javascript-learning-tech-yourself_01/&#34;&gt;JavaScript 徹底入門のための資料＆書籍まとめ - 酒と泪とRubyとRailsと&lt;/a&gt;&lt;/li&gt;
@@ -972,7 +1035,7 @@ console.log(b.type());  // number
 &lt;li&gt;&lt;a href=&#34;http://dqn.sakusakutto.jp/2009/01/javascript_5.html&#34;&gt;[JavaScript]　猿でもわかるクロージャ超入門　まとめ - DQNEO起業日記&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;感想:9ef024e4f544307c6d7018edc0fe27f1&#34;&gt;感想&lt;/h2&gt;
+&lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
 
 &lt;p&gt;受験のときに、手にした「化学の新研究」並の万能感を得られました。
 何かを学ぶときには、ネットの情報をちまちま読むよりは、ちゃんとした書籍を読んだ方がいいなと思いました。&lt;/p&gt;

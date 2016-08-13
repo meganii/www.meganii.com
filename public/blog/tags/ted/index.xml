@@ -28,8 +28,8 @@
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
@@ -82,13 +82,13 @@ end
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;ドキュメント:c25bea3be7e274254b1a0b22f4d0afe6&#34;&gt;ドキュメント&lt;/h2&gt;
+&lt;h2 id=&#34;ドキュメント&#34;&gt;ドキュメント&lt;/h2&gt;
 
 &lt;p&gt;メモ書き程度に書き散らかす。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://developer.ted.com/io-docs&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft&#34; align=&#34;left&#34; border=&#34;0&#34; src=&#34;http://capture.heartrails.com/150x130/shadow?http://developer.ted.com/io-docs&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;130&#34; /&gt;&lt;/a&gt;&lt;a style=&#34;color:#0070C5;&#34; href=&#34;http://developer.ted.com/io-docs&#34; target=&#34;_blank&#34;&gt;TED I/O Docs&lt;/a&gt;&lt;a href=&#34;http://b.hatena.ne.jp/entry/http://developer.ted.com/io-docs&#34; target=&#34;_blank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://b.hatena.ne.jp/entry/image/http://developer.ted.com/io-docs&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br style=&#34;clear:both;&#34; /&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;events:c25bea3be7e274254b1a0b22f4d0afe6&#34;&gt;Events&lt;/h3&gt;
+&lt;h3 id=&#34;events&#34;&gt;Events&lt;/h3&gt;
 
 &lt;p&gt;TEDのイベントがあった箇所を取得する
 {
@@ -103,11 +103,11 @@ end
     }
 }&lt;/p&gt;
 
-&lt;h3 id=&#34;ratings:c25bea3be7e274254b1a0b22f4d0afe6&#34;&gt;Ratings&lt;/h3&gt;
+&lt;h3 id=&#34;ratings&#34;&gt;Ratings&lt;/h3&gt;
 
 &lt;p&gt;ランキング？&lt;/p&gt;
 
-&lt;h3 id=&#34;rating-words:c25bea3be7e274254b1a0b22f4d0afe6&#34;&gt;Rating Words&lt;/h3&gt;
+&lt;h3 id=&#34;rating-words&#34;&gt;Rating Words&lt;/h3&gt;
 
 &lt;p&gt;投票するときの、表現？&lt;/p&gt;
 
@@ -189,25 +189,25 @@ end
     }
 }&lt;/p&gt;
 
-&lt;h3 id=&#34;speakers:c25bea3be7e274254b1a0b22f4d0afe6&#34;&gt;Speakers&lt;/h3&gt;
+&lt;h3 id=&#34;speakers&#34;&gt;Speakers&lt;/h3&gt;
 
 &lt;p&gt;:id スピーカの固有ID&lt;/p&gt;
 
 &lt;p&gt;スピーカーの情報を得る&lt;/p&gt;
 
-&lt;h3 id=&#34;talks:c25bea3be7e274254b1a0b22f4d0afe6&#34;&gt;Talks&lt;/h3&gt;
+&lt;h3 id=&#34;talks&#34;&gt;Talks&lt;/h3&gt;
 
-&lt;h3 id=&#34;themes:c25bea3be7e274254b1a0b22f4d0afe6&#34;&gt;Themes&lt;/h3&gt;
+&lt;h3 id=&#34;themes&#34;&gt;Themes&lt;/h3&gt;
 
 &lt;p&gt;題名、テーマに関する取得&lt;/p&gt;
 
-&lt;h3 id=&#34;playlists:c25bea3be7e274254b1a0b22f4d0afe6&#34;&gt;Playlists&lt;/h3&gt;
+&lt;h3 id=&#34;playlists&#34;&gt;Playlists&lt;/h3&gt;
 
 &lt;p&gt;プレイリスト関連の検索&lt;/p&gt;
 
-&lt;h3 id=&#34;search:c25bea3be7e274254b1a0b22f4d0afe6&#34;&gt;Search&lt;/h3&gt;
+&lt;h3 id=&#34;search&#34;&gt;Search&lt;/h3&gt;
 
-&lt;h3 id=&#34;query:c25bea3be7e274254b1a0b22f4d0afe6&#34;&gt;Query&lt;/h3&gt;
+&lt;h3 id=&#34;query&#34;&gt;Query&lt;/h3&gt;
 
 &lt;p&gt;カテゴリと検索文字列を指定して検索結果を得る&lt;/p&gt;
 </description>

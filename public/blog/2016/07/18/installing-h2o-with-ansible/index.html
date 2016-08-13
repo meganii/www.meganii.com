@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.16" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/custom.css">
+<link rel="alternate" href="/index.xml" type="application/rss+xml" title="SIS Lab">
+<title>さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール - SIS Lab</title>
+<link rel="shortcut icon" href="/images/favicons/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/images/favicons/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/images/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="manifest" href="/images/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#2d88ef">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール | SIS Lab">
+<meta property="og:url" content="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/">
+<meta property="og:description" content="前回http/2ベンチマークツール「h2load」をインストール - SIS Labでhttp/2ベンチマークツールをインストールしたので、いよいよh2oをインストールします。
+
+さくらVPSで運用しているCentOSは、Ansible経由で整備しているので今回もAnsibleのタスクを作成して、まずはローカルの開発環境でテスト、そしてさくらVPSのCentOSに適用します。
+
+Wordpressも、h2oで動かそうと思ったのですが、うまくリソースが取得できませんでした。下記の設定では、静的ジェネレータhugoで作成するファイルだけh2oで公開するときの設定です。
+">
+
+<meta property="og:image" content="/images/ansible.png">
+<meta property="og:site_name" content="SIS Lab">
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="SIS Lab" />
+<meta name="twitter:title" content="さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール | SIS Lab" />
+<meta name="twitter:image" content="/images/ansible.png" />
+<meta name="twitter:url" content="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/" />
+
+</head>
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		<div class="header-logo">
+			<a href="/"></a><h1 class="site-title"><a href="/"> <i class="fa fa-laptop"></i> SIS Lab</a></h1>
+			<p>元じょーぶん生によるメーカー系SIerブログ。趣味のプログラミング、旅行。日々、学んだについて書きます。</p>
+		</div>
+		<ul class="nav">
+			<li class="nav__item"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+			
+			<li class="nav__item"><a href="/blog/category/tech"><i class="fa fa-terminal" aria-hidden="true"></i>   Tech</a></li>
+			<li class="nav__item"><a href="/blog/category/book"><i class="fa fa-book" aria-hidden="true"></i> Book</a></li>
+			<li class="nav__item"><a href="/blog/category/travel"><i class="fa fa-plane" aria-hidden="true"></i> Travel</a></li>
+		</ul>
+		<hr class="nav__hr" />
+	</header>
+
+
+<div class="row">
+	<main role="main" class="nine columns">
+		<article itemscope itemtype="http://schema.org/BlogPosting">
+			<h1 class="entry-title" itemprop="headline">さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール</h1>
+			<span class="entry-meta"><time itemprop="datePublished" datetime="2016-07-18">July 18, 2016</time></span>
+			<section id="post" itemprop="entry-text">
+				
+
+<p>前回<a href="https://meganii.com/blog/2016/07/17/install-h2load/">http/2ベンチマークツール「h2load」をインストール - SIS Lab</a>でhttp/2ベンチマークツールをインストールしたので、いよいよ<code>h2o</code>をインストールします。</p>
+
+<p>さくらVPSで運用しているCentOSは、Ansible経由で整備しているので今回もAnsibleのタスクを作成して、まずはローカルの開発環境でテスト、そしてさくらVPSのCentOSに適用します。</p>
+
+<p>Wordpressも、<code>h2o</code>で動かそうと思ったのですが、うまくリソースが取得できませんでした。下記の設定では、静的ジェネレータ<code>hugo</code>で作成するファイルだけ<code>h2o</code>で公開するときの設定です。</p>
+
+<div class="google-adsense">
+    <p>スポンサーリンク</p>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-5340212676785058"
+         data-ad-slot="7870420352"
+         data-ad-format="auto"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+
+<h2 id="ansibleでのh2oインストール方針">Ansibleでのh2oインストール方針</h2>
+
+<ul>
+<li>ダウンロードしたソースコードは、<code>/tmp</code>に格納する</li>
+<li>実行ファイルは<code>/usr/local/bin</code>に格納する</li>
+<li>h2oの設定ファイルは<code>/usr/local/etc/h2o/conf/</code>に格納する</li>
+</ul>
+
+<h2 id="ansibleのロール設定">Ansibleのロール設定</h2>
+
+<pre><code>group_vars
+roles
+  - h2o
+    - tasks
+    - templates
+hosts
+site.yml
+</code></pre>
+
+<h3 id="tasks-main-yml">tasks/main.yml</h3>
+
+<pre><code>---
+- name: install cmake
+  yum: name=cmake state=present
+  sudo: yes
+
+- name: install package
+  yum: pkg={{ item }} state=present enablerepo=epel
+  with_items:
+    - openssl
+    - openssl-devel
+  sudo: yes
+
+- name: check h2o installed
+  command: test -x /usr/local/bin/h2o
+  register: h2o_present
+  ignore_errors: yes
+  changed_when: false
+
+- name: download h2o
+  get_url: url=https://github.com/h2o/h2o/archive/v{{h2o_version}}.tar.gz dest=/tmp/h2o.tgz
+  when: h2o_present|failed
+
+- name: expand h2o
+  command: tar xzf h2o.tgz chdir=/tmp creates=/tmp/h2o-{{h2o_version}}
+  when: h2o_present|failed
+
+- name: cmake h2o
+  command: cmake -DWITH_BUNDLED_SSL=on . chdir=/tmp/h2o-{{h2o_version}} creates=/tmp/h2o-{{h2o_version}}/Makefile
+  when: h2o_present|failed
+
+- name: make h2o
+  command: make chdir=/tmp/h2o-{{h2o_version}} creates=/tmp/h2o-{{h2o_version}}/h2o
+  when: h2o_present|failed
+
+- name: install h2o
+  command: make install chdir=/tmp/h2o-{{h2o_version}} creates=/usr/local/bin/h2o
+  when: h2o_present|failed
+  sudo: yes
+
+- name: Ensures conf dir exists
+  file: path=/usr/local/etc/h2o/conf/ state=directory
+
+- name: Copy h2o configuration
+  template: src=h2o.conf dest=/usr/local/etc/h2o/conf/h2o.conf
+
+- name: Ensures log dir exists
+  file: path=/var/log/h2o/ state=directory
+
+- name: Create access log file
+  file: path=/var/log/h2o/access.log state=touch
+
+- name: Create error log file
+  file: path=/var/log/h2o/error.log state=touch
+
+- name: Create pid log file
+  file: path=/usr/local/etc/h2o/h2o.pid state=touch mode=0777
+
+- name: add iptables rule for http
+  lineinfile: dest=/etc/sysconfig/iptables regexp=&quot;{{ httpd_port }}&quot; line=&quot;-A RH-Firewall-1-INPUT -m state --state NEW -m tcp -p tcp --dport {{ httpd_port }} -j ACCEPT&quot; insertbefore=&quot;^# add end&quot; state=present
+
+- name: add iptables rule for https
+  lineinfile: dest=/etc/sysconfig/iptables regexp=&quot;{{ https_port }}&quot; line=&quot;-A RH-Firewall-1-INPUT -m state --state NEW -m tcp -p tcp --dport {{ https_port }} -j ACCEPT&quot; insertbefore=&quot;^# add end&quot; state=present
+
+- name: iptables restart
+  command: /etc/init.d/iptables restart
+</code></pre>
+
+<h3 id="templates-h2o-conf">templates/h2o.conf</h3>
+
+<pre><code>access-log: /var/log/h2o/access.log
+error-log:  /var/log/h2o/error.log
+pid-file:   /usr/local/etc/h2o/h2o.pid
+
+http2-reprioritize-blocking-assets: ON
+gzip: ON
+expires: 1 day
+
+hosts:
+  &quot;meganii.com:80&quot;:
+    listen:
+      port: 80
+    paths:
+      &quot;/&quot;:
+        redirect: https://meganii.com/
+  &quot;meganii.com:443&quot;:
+    listen:
+      port: 443
+      ssl:
+        certificate-file: /etc/letsencrypt/live/meganii.com/fullchain.pem
+        key-file:         /etc/letsencrypt/live/meganii.com/privkey.pem
+        minimum-version: TLSv1
+        cipher-suite: &quot;AESGCM:HIGH:!3DES:!RSA:!aNULL:!eNULL:!MD5&quot;
+        cipher-preference: server
+    paths:
+      &quot;/&quot;:
+        file.dir: /home/web/www/meganii.com/
+</code></pre>
+
+<h2 id="h2oでwordpressを動かそうとしたときのメモ">h2oでWordpressを動かそうとしたときのメモ</h2>
+
+<p><code>h2o</code>と<code>php-fpm</code>の設定を下記の通り設定すれば、h2oでWordpressが動くことは動きました。でも、以下の不具合が出てしまい、うまく表示ができない状態になってしまいました。</p>
+
+<ul>
+<li>静的ファイル(css,js,img)の読込エラーで、レイアウトが崩れる</li>
+<li>サブディレクトリで複数のブログを管理しているが、その管理画面の表示がうまくできない</li>
+</ul>
+
+<p>静的ファイルの読込エラーは、おそらくh2oとWordpressのファイル読取・実行権限が上手くいっていないことが考えられます。h2oはデフォルトでnobodyとして動くはずなので、<code>user: wordpress</code>としたのですが、ダメでした。どこを見なおせばよいのか。。</p>
+
+<p>また、管理画面の表示がうまくいないのは、nginxでいうところのRewriteの部分が影響しているとかんがえられる。これは、h2oでどのように書くのがよいのか要調査。</p>
+
+<pre><code># Rewrite multisite '.../wp-.*' and '.../*.php'.
+if (!-e $request_filename) {
+        rewrite ^/[_0-9a-zA-Z-]+(/wp-.*) $1 last;
+        rewrite ^/[_0-9a-zA-Z-]+.*(/wp-admin/.*\.php)$ $1 last;
+        rewrite ^/[_0-9a-zA-Z-]+(/.*\.php)$ $1 last;
+}
+</code></pre>
+
+<h3 id="h2o-conf">h2o.conf</h3>
+
+<pre><code>user: wordpress
+file.custom-handler:
+  extension: .php
+  fastcgi.connect:
+    port: /var/run/php-fpm/wordpress.sock
+    type: unix
+&quot;domain.com:80&quot;:
+  listen:
+    port: 80
+  paths:
+    &quot;/&quot;:
+      redirect: https://domain.com/
+&quot;domain.com:443&quot;:
+  listen:
+    port: 443
+    ssl:
+      certificate-file: /etc/letsencrypt/live/domain.com/fullchain.pem
+      key-file:         /etc/letsencrypt/live/domain.com/privkey.pem
+      minimum-version: TLSv1
+      cipher-suite: &quot;AESGCM:HIGH:!3DES:!RSA:!aNULL:!eNULL:!MD5&quot;
+      cipher-preference: server
+  paths:
+    &quot;/&quot;:
+      file.dir: /srv/wordpress
+      file.dirlisting: OFF
+      redirect:
+        url: /index.php/
+        internal: YES
+        status: 307
+</code></pre>
+
+<h3 id="etc-php-fpm-d-wordpress-conf">/etc/php-fpm.d/wordpress.conf</h3>
+
+<pre><code>[wordpress]
+listen = /var/run/php-fpm/wordpress.sock
+listen.owner = nginx
+listen.group = nginx
+listen.mode = 0660
+
+user = wordpress
+group = wordpress
+
+pm = dynamic
+pm.max_children = 10
+pm.start_servers = 1
+pm.min_spare_servers = 1
+pm.max_spare_servers = 3
+pm.max_requests = 500
+chdir = /srv/wordpress/
+php_admin_value[open_basedir] = /srv/wordpress/:/tmp
+php_admin_value[error_log] = /var/log/php-fpm/www-error.log
+</code></pre>
+
+<h3 id="まとめ">まとめ</h3>
+
+<p>静的ファイルをホストするには、configファイルもシンプルで楽、たぶんデフォルトでうまいことやってくれるのが<code>h2o</code>だと思う。Wordpressをなんとか動かせるようにして、サーバープッシュなどの機能を有効にしてベンチマークを取りたい。</p>
+
+<p>ただ、やりたいことはただ単純にブログと簡単なアプリを公開したいだけなので、その目的を実現するためには、ネットで情報があるnginx + Wordpressの方が設定を探しやすいことは探しやすい。</p>
+
+<p>まあ、何事も勉強ということで。</p>
+
+			</section>
+		</article>
+		<div class="google-adsense">
+			<p>スポンサーリンク</p>
+			<div class="ad">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-5340212676785058"
+				     data-ad-slot="7368951150"
+				     data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+			<div class="ad sp-none">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-5340212676785058"
+				     data-ad-slot="7368951150"
+				     data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+		</div>
+		
+		<div class="u-cf"></div>
+
+		
+<div class="social-area-syncer">
+  <ul class="social-button-syncer">
+    
+    <li class="sc-tw"><a data-url="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/" href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-count="vertical" data-dnt="true" target="_blank"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.375-1.337.648-2.085.795-.598-.638-1.45-1.036-2.396-1.036-1.812 0-3.282 1.468-3.282 3.28 0 .258.03.51.085.75C5.152 5.39 2.733 4.084 1.114 2.1.83 2.583.67 3.147.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.416-.02-.617-.058.418 1.304 1.63 2.253 3.067 2.28-1.124.88-2.54 1.404-4.077 1.404-.265 0-.526-.015-.783-.045 1.453.93 3.178 1.474 5.032 1.474 6.038 0 9.34-5 9.34-9.338 0-.143-.004-.284-.01-.425.64-.463 1.198-1.04 1.638-1.7z" fill="#fff" fill-rule="nonzero"/></svg><span>Tweet</span></a></li>
+
+    
+    <li class="sc-fb"><div class="fb-like" data-href="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false"></div></li>
+
+    
+    <li><div data-href="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/" class="g-plusone" data-size="tall"></div></li>
+
+    
+    <li><a href="http://b.hatena.ne.jp/entry/https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border:none;" /></a></li>
+
+    
+    <li><a data-save-url="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/" data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"></a></li>
+  </ul>
+
+
+<div id="fb-root"></div>
+
+</div>
+
+
+
+		
+		<section id="related">
+			<h2>Related Post</h2>
+			<div id="tags">
+				
+				<a href="https://meganii.com/blog/tags/h2o"><i class="fa fa-tags"></i> h2o </a>
+				
+				<a href="https://meganii.com/blog/tags/http/2"><i class="fa fa-tags"></i> http/2 </a>
+				
+			</div>
+			<ul id="related-posts">
+				
+				
+				  
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+								
+									<li><a href="https://meganii.com/blog/2013/04/11/jenkins/">さくらVPSにJenkinsインストール</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/02/20/electron-amazon-link-builder/">ElectronでAmazonアフィリエイトリンクビルダーを作った</a></li>
+								
+									<li><a href="https://meganii.com/blog/2014/02/16/phonegap-start/">phonegap-start</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/01/23/el-capitan-upgrade-error/">El Capitanへのアップグレード時AppStoreに接続できなくなった場合(さらにキーチェーンアクセスでも対処できなかった時)の対処法 </a></li>
+								
+									<li><a href="https://meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/">Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/05/29/mariadb-utf8/">MariaDBの日本語文字化けを解消するための設定</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/">Lets&#39;s Encryptでブログの常時SSL化にチャレンジ</a></li>
+								
+									<li><a href="https://meganii.com/blog/2013/02/03/hatena2jekyll/">はてなダイアリーからJekyllへお引越し</a></li>
+								
+									<li><a href="https://meganii.com/blog/2015/05/10/middleman-multiple-blogs/">Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-</a></li>
+								
+									<li><a href="https://meganii.com/blog/2013/05/23/regexp-jekyll/">Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-</a></li>
+								
+									<li><a href="https://meganii.com/blog/2015/03/27/leave-latest-filename/">数世代バージョンを持つファイル名から最新版以外を抽出する</a></li>
+								
+									<li><a href="https://meganii.com/blog/2014/11/21/ted-api/">TED APIを触ってみる</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/06/05/ruby-google-api-client/">google-api-ruby-clientからGoogle Adsense Management APIを操作する方法</a></li>
+								
+									<li><a href="https://meganii.com/blog/2014/10/21/jekyll-pagenation/">Jekyllでページ分割する -pagenation-</a></li>
+								
+									<li><a href="https://meganii.com/blog/2015/03/02/ansible-sakura-vps/">AnsibleでさくらVPSの初期設定</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/07/09/invalid-ssl-certificate/">Lets&#39;s Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化</a></li>
+								
+									<li><a href="https://meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/">JekyllからHugoへの移行ポイント</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/01/16/how-to-run-bundle-exec-with-cron/">Capyabara &#43; PhantomJS(poltergeist)のRubyスクリプトをcronで流したい</a></li>
+								
+									<li><a href="https://meganii.com/blog/2015/04/05/vagrant-plugin-install-hostmanager-nokogiri-error/">vagrant plugin install hostmanager実行時のnokogiriインストールエラーの解決</a></li>
+								
+									<li><a href="https://meganii.com/blog/2015/07/25/capybara-connect-error/">Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー</a></li>
+								
+									<li><a href="https://meganii.com/blog/2013/05/08/dropbox_cui/">さくらVPSにDropboxをインストール</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/02/10/post-to-slack/">slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/07/17/install-h2load/">http/2ベンチマークツール「h2load」をインストール</a></li>
+								
+									<li><a href="https://meganii.com/blog/2016/01/25/electron-tutorial/">Electronでデスクトップアプリ作成</a></li>
+								
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+				
+
+				
+			</ul>
+		</section>
+
+	</main>
+
+	<aside class="three columns">
+
+  <section>
+    <h2>Profile</h2>
+    <div id="profile">
+      <div class="header-logo"><img src="/images/meganii_logo.png" width="60" height="60"></div>
+      <p>広く浅くから広く深くへ</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Popular</h2>
+    <div id="ranklet-10307"></div><script src="//tracker.iws.vc/v1/ranklet/s3/widgets/10307/widget.js"></script>
+
+
+  </section>
+
+  
+  
+
+  
+  
+    <div class="sidebar-module">
+  <h3>Tech</h3>
+  <ul class="list-unstyled urllist">
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/08/11/hugo-related-post/"><img class="urllist-img" src="https://images-fe.ssl-images-amazon.com/images/I/51%2BfZJOKEKL._SL160_.jpg" alt="Hugoで関連記事を表示する方法" width="75"></a>
+        <a href="https://meganii.com/blog/2016/08/11/hugo-related-post/">Hugoで関連記事を表示する方法</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/07/30/workstyle/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/41nDcp8X7fL._SL160_.jpg" alt="ワークスタイル改革とは何か？" width="75"></a>
+        <a href="https://meganii.com/blog/2016/07/30/workstyle/">ワークスタイル改革とは何か？</a>
+      </div>
+    </li>
+    
+  
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/"><img class="urllist-img" src="/images/ansible.png" alt="さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール" width="75"></a>
+        <a href="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/">さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/07/17/install-h2load/"><img class="urllist-img" src="https://farm6.staticflickr.com/5624/21367186743_cbcb0e5268_m.jpg" alt="http/2ベンチマークツール「h2load」をインストール" width="75"></a>
+        <a href="https://meganii.com/blog/2016/07/17/install-h2load/">http/2ベンチマークツール「h2load」をインストール</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/07/09/invalid-ssl-certificate/"><img class="urllist-img" src="/images/le-logo-standard.png" alt="Lets&#39;s Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化" width="75"></a>
+        <a href="https://meganii.com/blog/2016/07/09/invalid-ssl-certificate/">Lets&#39;s Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化</a>
+      </div>
+    </li>
+    
+  
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/06/05/ruby-google-api-client/"><img class="urllist-img" src="https://c8.staticflickr.com/8/7305/27394115551_0612eb23fb_t.jpg" alt="google-api-ruby-clientからGoogle Adsense Management APIを操作する方法" width="75"></a>
+        <a href="https://meganii.com/blog/2016/06/05/ruby-google-api-client/">google-api-ruby-clientからGoogle Adsense Management APIを操作する方法</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/05/30/casperjs-amazon/"><img class="urllist-img" src="/images/nopicture.png" alt="CasperJSでAmazonログイン" width="75"></a>
+        <a href="https://meganii.com/blog/2016/05/30/casperjs-amazon/">CasperJSでAmazonログイン</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/05/29/mariadb-utf8/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/51pj9W0WxzL._SL160_.jpg" alt="MariaDBの日本語文字化けを解消するための設定" width="75"></a>
+        <a href="https://meganii.com/blog/2016/05/29/mariadb-utf8/">MariaDBの日本語文字化けを解消するための設定</a>
+      </div>
+    </li>
+    
+  
+  </ul>
+</div>
+
+  
+
+  <section class="sidebar-module">
+    <h2>Latest</h2>
+    <ul class="list-unstyled urllist">
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/08/11/hugo-related-post/"><img class="urllist-img" src="https://images-fe.ssl-images-amazon.com/images/I/51%2BfZJOKEKL._SL160_.jpg" alt="Hugoで関連記事を表示する方法" width="75"></a>
+          <a href="https://meganii.com/blog/2016/08/11/hugo-related-post/">Hugoで関連記事を表示する方法</a>
+        </div>
+      </li>
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/07/30/workstyle/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/41nDcp8X7fL._SL160_.jpg" alt="ワークスタイル改革とは何か？" width="75"></a>
+          <a href="https://meganii.com/blog/2016/07/30/workstyle/">ワークスタイル改革とは何か？</a>
+        </div>
+      </li>
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/07/23/scotch-grain-shine-or-rain/"><img class="urllist-img" src="/images/nopicture.png" alt="Scotch Grain(スコッチグレイン)の革靴「シャインオアレイン」なら雨の日でも快適通勤！！" width="75"></a>
+          <a href="https://meganii.com/blog/2016/07/23/scotch-grain-shine-or-rain/">Scotch Grain(スコッチグレイン)の革靴「シャインオアレイン」なら雨の日でも快適通勤！！</a>
+        </div>
+      </li>
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/"><img class="urllist-img" src="/images/ansible.png" alt="さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール" width="75"></a>
+          <a href="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/">さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール</a>
+        </div>
+      </li>
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/07/17/install-h2load/"><img class="urllist-img" src="https://farm6.staticflickr.com/5624/21367186743_cbcb0e5268_m.jpg" alt="http/2ベンチマークツール「h2load」をインストール" width="75"></a>
+          <a href="https://meganii.com/blog/2016/07/17/install-h2load/">http/2ベンチマークツール「h2load」をインストール</a>
+        </div>
+      </li>
+      
+    </ul>
+  </div>
+
+</aside>
+
+</div>
+
+
+	<footer role="contentinfo">
+		<div class="hr"></div>
+		<div class="footer-link">
+			
+			<a href="https://twitter.com/" target="_blank">Twitter</a>
+			
+			<a href="https://github.com/meganii" target="_blank">GitHub</a>
+		</div>
+		<div class="copyright">
+			<p>&copy; 2016  meganii  - SIS Lab</p>
+		</div>
+
+	</footer>
+
+</div>
+
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KG3QGC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KG3QGC');</script>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+ 
+if(window.addEventListener) {
+	window.addEventListener( "load" , shareButtonReadSyncer, false );
+}else{
+	window.attachEvent( "onload", shareButtonReadSyncer );
+}
+
+ 
+function shareButtonReadSyncer(){
+
+
+
+
+
+
+
+
+(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+
+var scriptTag = document.createElement("script");
+scriptTag.type = "text/javascript"
+scriptTag.src = "https://apis.google.com/js/platform.js";
+scriptTag.async = true;
+document.getElementsByTagName("head")[0].appendChild(scriptTag);
+
+
+var scriptTag = document.createElement("script");
+scriptTag.type = "text/javascript"
+scriptTag.src = "https://b.st-hatena.com/js/bookmark_button.js";
+scriptTag.async = true;
+document.getElementsByTagName("head")[0].appendChild(scriptTag);
+
+
+(!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js"));
+
+
+
+}
+</script>
+
+</body>
+</html>
+

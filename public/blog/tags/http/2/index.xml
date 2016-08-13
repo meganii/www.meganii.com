@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Http/2 on SIS Lab</title>
+    <link>https://meganii.com/tags/http/2/</link>
+    <description>Recent content in Http/2 on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 18 Jul 2016 21:44:52 +0900</lastBuildDate>
+    <atom:link href="https://meganii.com/tags/http/2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール</title>
+      <link>https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/</link>
+      <pubDate>Mon, 18 Jul 2016 21:44:52 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/</guid>
+      <description>
+
+&lt;p&gt;前回&lt;a href=&#34;https://meganii.com/blog/2016/07/17/install-h2load/&#34;&gt;http/2ベンチマークツール「h2load」をインストール - SIS Lab&lt;/a&gt;でhttp/2ベンチマークツールをインストールしたので、いよいよ&lt;code&gt;h2o&lt;/code&gt;をインストールします。&lt;/p&gt;
+
+&lt;p&gt;さくらVPSで運用しているCentOSは、Ansible経由で整備しているので今回もAnsibleのタスクを作成して、まずはローカルの開発環境でテスト、そしてさくらVPSのCentOSに適用します。&lt;/p&gt;
+
+&lt;p&gt;Wordpressも、&lt;code&gt;h2o&lt;/code&gt;で動かそうと思ったのですが、うまくリソースが取得できませんでした。下記の設定では、静的ジェネレータ&lt;code&gt;hugo&lt;/code&gt;で作成するファイルだけ&lt;code&gt;h2o&lt;/code&gt;で公開するときの設定です。&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;ansibleでのh2oインストール方針&#34;&gt;Ansibleでのh2oインストール方針&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ダウンロードしたソースコードは、&lt;code&gt;/tmp&lt;/code&gt;に格納する&lt;/li&gt;
+&lt;li&gt;実行ファイルは&lt;code&gt;/usr/local/bin&lt;/code&gt;に格納する&lt;/li&gt;
+&lt;li&gt;h2oの設定ファイルは&lt;code&gt;/usr/local/etc/h2o/conf/&lt;/code&gt;に格納する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;ansibleのロール設定&#34;&gt;Ansibleのロール設定&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;group_vars
+roles
+  - h2o
+    - tasks
+    - templates
+hosts
+site.yml
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;tasks-main-yml&#34;&gt;tasks/main.yml&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+- name: install cmake
+  yum: name=cmake state=present
+  sudo: yes
+
+- name: install package
+  yum: pkg={{ item }} state=present enablerepo=epel
+  with_items:
+    - openssl
+    - openssl-devel
+  sudo: yes
+
+- name: check h2o installed
+  command: test -x /usr/local/bin/h2o
+  register: h2o_present
+  ignore_errors: yes
+  changed_when: false
+
+- name: download h2o
+  get_url: url=https://github.com/h2o/h2o/archive/v{{h2o_version}}.tar.gz dest=/tmp/h2o.tgz
+  when: h2o_present|failed
+
+- name: expand h2o
+  command: tar xzf h2o.tgz chdir=/tmp creates=/tmp/h2o-{{h2o_version}}
+  when: h2o_present|failed
+
+- name: cmake h2o
+  command: cmake -DWITH_BUNDLED_SSL=on . chdir=/tmp/h2o-{{h2o_version}} creates=/tmp/h2o-{{h2o_version}}/Makefile
+  when: h2o_present|failed
+
+- name: make h2o
+  command: make chdir=/tmp/h2o-{{h2o_version}} creates=/tmp/h2o-{{h2o_version}}/h2o
+  when: h2o_present|failed
+
+- name: install h2o
+  command: make install chdir=/tmp/h2o-{{h2o_version}} creates=/usr/local/bin/h2o
+  when: h2o_present|failed
+  sudo: yes
+
+- name: Ensures conf dir exists
+  file: path=/usr/local/etc/h2o/conf/ state=directory
+
+- name: Copy h2o configuration
+  template: src=h2o.conf dest=/usr/local/etc/h2o/conf/h2o.conf
+
+- name: Ensures log dir exists
+  file: path=/var/log/h2o/ state=directory
+
+- name: Create access log file
+  file: path=/var/log/h2o/access.log state=touch
+
+- name: Create error log file
+  file: path=/var/log/h2o/error.log state=touch
+
+- name: Create pid log file
+  file: path=/usr/local/etc/h2o/h2o.pid state=touch mode=0777
+
+- name: add iptables rule for http
+  lineinfile: dest=/etc/sysconfig/iptables regexp=&amp;quot;{{ httpd_port }}&amp;quot; line=&amp;quot;-A RH-Firewall-1-INPUT -m state --state NEW -m tcp -p tcp --dport {{ httpd_port }} -j ACCEPT&amp;quot; insertbefore=&amp;quot;^# add end&amp;quot; state=present
+
+- name: add iptables rule for https
+  lineinfile: dest=/etc/sysconfig/iptables regexp=&amp;quot;{{ https_port }}&amp;quot; line=&amp;quot;-A RH-Firewall-1-INPUT -m state --state NEW -m tcp -p tcp --dport {{ https_port }} -j ACCEPT&amp;quot; insertbefore=&amp;quot;^# add end&amp;quot; state=present
+
+- name: iptables restart
+  command: /etc/init.d/iptables restart
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;templates-h2o-conf&#34;&gt;templates/h2o.conf&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;access-log: /var/log/h2o/access.log
+error-log:  /var/log/h2o/error.log
+pid-file:   /usr/local/etc/h2o/h2o.pid
+
+http2-reprioritize-blocking-assets: ON
+gzip: ON
+expires: 1 day
+
+hosts:
+  &amp;quot;meganii.com:80&amp;quot;:
+    listen:
+      port: 80
+    paths:
+      &amp;quot;/&amp;quot;:
+        redirect: https://meganii.com/
+  &amp;quot;meganii.com:443&amp;quot;:
+    listen:
+      port: 443
+      ssl:
+        certificate-file: /etc/letsencrypt/live/meganii.com/fullchain.pem
+        key-file:         /etc/letsencrypt/live/meganii.com/privkey.pem
+        minimum-version: TLSv1
+        cipher-suite: &amp;quot;AESGCM:HIGH:!3DES:!RSA:!aNULL:!eNULL:!MD5&amp;quot;
+        cipher-preference: server
+    paths:
+      &amp;quot;/&amp;quot;:
+        file.dir: /home/web/www/meganii.com/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;h2oでwordpressを動かそうとしたときのメモ&#34;&gt;h2oでWordpressを動かそうとしたときのメモ&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;h2o&lt;/code&gt;と&lt;code&gt;php-fpm&lt;/code&gt;の設定を下記の通り設定すれば、h2oでWordpressが動くことは動きました。でも、以下の不具合が出てしまい、うまく表示ができない状態になってしまいました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;静的ファイル(css,js,img)の読込エラーで、レイアウトが崩れる&lt;/li&gt;
+&lt;li&gt;サブディレクトリで複数のブログを管理しているが、その管理画面の表示がうまくできない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;静的ファイルの読込エラーは、おそらくh2oとWordpressのファイル読取・実行権限が上手くいっていないことが考えられます。h2oはデフォルトでnobodyとして動くはずなので、&lt;code&gt;user: wordpress&lt;/code&gt;としたのですが、ダメでした。どこを見なおせばよいのか。。&lt;/p&gt;
+
+&lt;p&gt;また、管理画面の表示がうまくいないのは、nginxでいうところのRewriteの部分が影響しているとかんがえられる。これは、h2oでどのように書くのがよいのか要調査。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Rewrite multisite &#39;.../wp-.*&#39; and &#39;.../*.php&#39;.
+if (!-e $request_filename) {
+        rewrite ^/[_0-9a-zA-Z-]+(/wp-.*) $1 last;
+        rewrite ^/[_0-9a-zA-Z-]+.*(/wp-admin/.*\.php)$ $1 last;
+        rewrite ^/[_0-9a-zA-Z-]+(/.*\.php)$ $1 last;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;h2o-conf&#34;&gt;h2o.conf&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;user: wordpress
+file.custom-handler:
+  extension: .php
+  fastcgi.connect:
+    port: /var/run/php-fpm/wordpress.sock
+    type: unix
+&amp;quot;domain.com:80&amp;quot;:
+  listen:
+    port: 80
+  paths:
+    &amp;quot;/&amp;quot;:
+      redirect: https://domain.com/
+&amp;quot;domain.com:443&amp;quot;:
+  listen:
+    port: 443
+    ssl:
+      certificate-file: /etc/letsencrypt/live/domain.com/fullchain.pem
+      key-file:         /etc/letsencrypt/live/domain.com/privkey.pem
+      minimum-version: TLSv1
+      cipher-suite: &amp;quot;AESGCM:HIGH:!3DES:!RSA:!aNULL:!eNULL:!MD5&amp;quot;
+      cipher-preference: server
+  paths:
+    &amp;quot;/&amp;quot;:
+      file.dir: /srv/wordpress
+      file.dirlisting: OFF
+      redirect:
+        url: /index.php/
+        internal: YES
+        status: 307
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;etc-php-fpm-d-wordpress-conf&#34;&gt;/etc/php-fpm.d/wordpress.conf&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;[wordpress]
+listen = /var/run/php-fpm/wordpress.sock
+listen.owner = nginx
+listen.group = nginx
+listen.mode = 0660
+
+user = wordpress
+group = wordpress
+
+pm = dynamic
+pm.max_children = 10
+pm.start_servers = 1
+pm.min_spare_servers = 1
+pm.max_spare_servers = 3
+pm.max_requests = 500
+chdir = /srv/wordpress/
+php_admin_value[open_basedir] = /srv/wordpress/:/tmp
+php_admin_value[error_log] = /var/log/php-fpm/www-error.log
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+
+&lt;p&gt;静的ファイルをホストするには、configファイルもシンプルで楽、たぶんデフォルトでうまいことやってくれるのが&lt;code&gt;h2o&lt;/code&gt;だと思う。Wordpressをなんとか動かせるようにして、サーバープッシュなどの機能を有効にしてベンチマークを取りたい。&lt;/p&gt;
+
+&lt;p&gt;ただ、やりたいことはただ単純にブログと簡単なアプリを公開したいだけなので、その目的を実現するためには、ネットで情報があるnginx + Wordpressの方が設定を探しやすいことは探しやすい。&lt;/p&gt;
+
+&lt;p&gt;まあ、何事も勉強ということで。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

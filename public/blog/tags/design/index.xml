@@ -6,8 +6,76 @@
     <description>Recent content in Design on SIS Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 31 Oct 2015 10:49:04 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 17 Apr 2016 19:57:49 +0900</lastBuildDate>
     <atom:link href="https://meganii.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hugo-ZenをベースにHugoのデザインを変えてみた</title>
+      <link>https://meganii.com/blog/2016/04/17/hugo-zen/</link>
+      <pubDate>Sun, 17 Apr 2016 19:57:49 +0900</pubDate>
+      
+      <guid>https://meganii.com/blog/2016/04/17/hugo-zen/</guid>
+      <description>
+
+&lt;p&gt;春になったので、BlogのデザインをHugoをベースに変えてみました。&lt;/p&gt;
+
+&lt;p&gt;前々から、自分で構造を把握したい、jQueryに依存するBootstrapをやめたいって思っていたので、Hugoの中でもミニマムなテーマであるHugo-Zenをベースに構築しました。&lt;/p&gt;
+
+&lt;div class=&#34;google-adsense&#34;&gt;
+    &lt;p&gt;スポンサーリンク&lt;/p&gt;
+    &lt;script async src=&#34;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+    
+    &lt;ins class=&#34;adsbygoogle&#34;
+         style=&#34;display:block&#34;
+         data-ad-client=&#34;ca-pub-5340212676785058&#34;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
+    &lt;script&gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;hugo-zen&#34;&gt;hugo-zen&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://rakuishi.com/archives/hugo-zen/&#34;&gt;Hugo Zen: これから Hugo を始める人向けのミニマムなテーマを作りました - rakuishi.com&lt;/a&gt;
+&lt;a href=&#34;https://github.com/rakuishi/hugo-zen&#34;&gt;GitHub - rakuishi/hugo-zen: Hugo Zen is a minimal hugo theme.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;気に入ったポイントは、以下の点。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ごちゃごちゃしてなく、シンプル！&lt;/li&gt;
+&lt;li&gt;Skeletonという軽量のCSSフレームワークを利用 &lt;a href=&#34;http://getskeleton.com/&#34;&gt;http://getskeleton.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;jQuery不要&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;一旦、シンプルに構築できたので、ここから気になるところをちょっとずつ変えていきます。&lt;/p&gt;
+
+&lt;h2 id=&#34;faviconの生成&#34;&gt;faviconの生成&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ao-system.net/favicongenerator/&#34;&gt;様々なファビコンを一括生成。favicon generator&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;上記のWebサービスを利用してファビコンを作成してみました。これだけ用意しないと対応できないなんて何か間違ってる気がしなくもないけど、おとなしく追加しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://liginc.co.jp/web/design/material/16853&#34;&gt;綺麗なfavicon（ファビコン）作成の基本的なコツ・アイデアまとめ | 株式会社LIG&lt;/a&gt; によると、16px × 16px 、32px × 32px のふたつをマルチアイコンにすればO.K.という話もあったので、試してみたい。&lt;/p&gt;
+
+&lt;h2 id=&#34;関連記事をどうするか問題&#34;&gt;関連記事をどうするか問題&lt;/h2&gt;
+
+&lt;p&gt;Wordpressのような動的に記事を生成する機構に比べて、静的サイトは関連記事をどう表示するかが結構悩みどころだったりします。前のデザインだと、同じカテゴリの記事を表示するというシンプルな方法だったので、まずは同じように設置しました。&lt;/p&gt;
+
+&lt;p&gt;理想は、機械的に記事同士の相関を判断して出力してほしいので、Hugo(Golang?)で実現するか、JavaScriptを書いてなんとか実現するかやってみたい。&lt;/p&gt;
+
+&lt;h2 id=&#34;残りやりたいこと&#34;&gt;残りやりたいこと&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;関連記事をうまいこと出す&lt;/li&gt;
+&lt;li&gt;サイドバーを充実させる&lt;/li&gt;
+&lt;li&gt;AMP対応&lt;/li&gt;
+&lt;li&gt;常時SSL対応(img)&lt;/li&gt;
+&lt;li&gt;静的ファイルの最適化&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>オープン・イノベーションとデザインシンキング</title>
@@ -17,7 +85,7 @@
       <guid>https://meganii.com/blog/2015/10/31/open-inovation-and-design-thinking/</guid>
       <description>
 
-&lt;h2 id=&#34;そもそもイノベーションとは:212df75e66acc6974e3a634c2d6aafe6&#34;&gt;そもそもイノベーションとは？&lt;/h2&gt;
+&lt;h2 id=&#34;そもそもイノベーションとは&#34;&gt;そもそもイノベーションとは？&lt;/h2&gt;
 
 &lt;p&gt;シュンペーターいわく、&lt;/p&gt;
 
@@ -47,15 +115,15 @@
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;open-innovation-design-thinkingとは:212df75e66acc6974e3a634c2d6aafe6&#34;&gt;Open Innovation, Design Thinkingとは？&lt;/h2&gt;
+&lt;h2 id=&#34;open-innovation-design-thinkingとは&#34;&gt;Open Innovation, Design Thinkingとは？&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Open Innovation&lt;/li&gt;
@@ -71,17 +139,17 @@
 
 &lt;p&gt;Design Thinkingは、ユーザを徹底的に&lt;strong&gt;観察&lt;/strong&gt;し、プロトタイプを作り、実践し、改善を短期間で繰り返すプロセスと、その根底にある、”人間中心”の価値観である。&lt;/p&gt;
 
-&lt;h2 id=&#34;open-innovation:212df75e66acc6974e3a634c2d6aafe6&#34;&gt;Open Innovation&lt;/h2&gt;
+&lt;h2 id=&#34;open-innovation&#34;&gt;Open Innovation&lt;/h2&gt;
 
 &lt;p&gt;完全自動工場では、二人の従業員がいる。一人は、プログラマーでクリエイティブな作業をする人。もう一人は、工場のロボットが出すゴミを回収する人。&lt;/p&gt;
 
-&lt;h2 id=&#34;design-thinking:212df75e66acc6974e3a634c2d6aafe6&#34;&gt;Design Thinking&lt;/h2&gt;
+&lt;h2 id=&#34;design-thinking&#34;&gt;Design Thinking&lt;/h2&gt;
 
 &lt;p&gt;Design Thinkingの本質は、「クライアントと一緒に新しい価値を生んでいくための手段」にすぎないこと。プロトタイピング、ブレーンストーミングなどは、tool set、お客さんと共にゴールに到達するための道具にすぎない。&lt;/p&gt;
 
 &lt;p&gt;デザイン・シンキングを目的化しないこと！&lt;/p&gt;
 
-&lt;h3 id=&#34;design-thinkingの３つのcore:212df75e66acc6974e3a634c2d6aafe6&#34;&gt;Design Thinkingの３つのCore&lt;/h3&gt;
+&lt;h3 id=&#34;design-thinkingの３つのcore&#34;&gt;Design Thinkingの３つのCore&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Insight, observation, and empathy&lt;/li&gt;
@@ -89,20 +157,20 @@
 &lt;li&gt;Storytelling&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;balance-technology-with-human:212df75e66acc6974e3a634c2d6aafe6&#34;&gt;Balance Technology with Human&lt;/h3&gt;
+&lt;h3 id=&#34;balance-technology-with-human&#34;&gt;Balance Technology with Human&lt;/h3&gt;
 
 &lt;p&gt;テクノロジーと人間性のバランスを取ること！&lt;/p&gt;
 
 &lt;p&gt;言ってることとやっていことが本当かどうかは、分からない。デスクに座っているのではなく、外へ出て、お客さんと直接話しをすること。&lt;/p&gt;
 
-&lt;h3 id=&#34;treat-life-as-an-experiment:212df75e66acc6974e3a634c2d6aafe6&#34;&gt;Treat Life as an Experiment&lt;/h3&gt;
+&lt;h3 id=&#34;treat-life-as-an-experiment&#34;&gt;Treat Life as an Experiment&lt;/h3&gt;
 
 &lt;p&gt;もっと人生を実験だと思って、過ごしてみること！&lt;/p&gt;
 
 &lt;p&gt;ダイソンでは、5128もの試作品を作ったそうだ。
 お客さんに対して、使ってもらって指摘をもらって、再度試作品を改善していく。&lt;/p&gt;
 
-&lt;h3 id=&#34;leverage-the-power-of-storytelling:212df75e66acc6974e3a634c2d6aafe6&#34;&gt;Leverage the power of storytelling&lt;/h3&gt;
+&lt;h3 id=&#34;leverage-the-power-of-storytelling&#34;&gt;Leverage the power of storytelling&lt;/h3&gt;
 
 &lt;p&gt;相手に伝えるときには、物語として伝えること！&lt;/p&gt;
 
@@ -111,7 +179,7 @@
 &lt;a href=&#34;http://www.buildinsider.net/enterprise/designthinking/01&#34;&gt;なぜ今、デザイン思考が注目を集めているのか？ - Build Insider&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&#34;日本人以外は-日本人を世界一クリエイティブだと思っている:212df75e66acc6974e3a634c2d6aafe6&#34;&gt;日本人以外は、日本人を世界一クリエイティブだと思っている&lt;/h2&gt;
+&lt;h2 id=&#34;日本人以外は-日本人を世界一クリエイティブだと思っている&#34;&gt;日本人以外は、日本人を世界一クリエイティブだと思っている&lt;/h2&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Globally, Japan is regarded the most creative country, &lt;strong&gt;except by the Japanese&lt;/strong&gt;&lt;/p&gt;
@@ -121,7 +189,7 @@
 
 &lt;p&gt;unlockingされているだけだという。&lt;/p&gt;
 
-&lt;h2 id=&#34;参考:212df75e66acc6974e3a634c2d6aafe6&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;日立社会イノベーション講演&lt;/li&gt;
@@ -151,15 +219,15 @@
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h3 id=&#34;main-css:58c2d4109ef76707cb8afd037fdb3994&#34;&gt;main.css&lt;/h3&gt;
+&lt;h3 id=&#34;main-css&#34;&gt;main.css&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;.youtubeWrapper{
 position: relative ;
@@ -179,7 +247,7 @@ width: 100% ;
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;default-html:58c2d4109ef76707cb8afd037fdb3994&#34;&gt;default.html&lt;/h3&gt;
+&lt;h3 id=&#34;default-html&#34;&gt;default.html&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;youtubeWrapper&amp;quot;&amp;gt;
 &amp;lt;iframe width=&amp;quot;560&amp;quot; height=&amp;quot;315&amp;quot; src=&amp;quot;//www.youtube.com/embed/PRI0bA5VSL8&amp;quot; frameborder=&amp;quot;0&amp;quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
@@ -192,7 +260,7 @@ width: 100% ;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;//www.youtube.com/embed/PRI0bA5VSL8&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&#34;参考:58c2d4109ef76707cb8afd037fdb3994&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.wivern.com/report20130802.html&#34;&gt;「埋め込み動画のサイズをレスポンシブにする方法」 | 有限会社ワイバーン&lt;/a&gt;&lt;/p&gt;
 </description>

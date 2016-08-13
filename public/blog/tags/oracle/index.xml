@@ -28,8 +28,8 @@
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
@@ -73,7 +73,7 @@ export NLS_LANG=American_America.AL32UTF8
 &lt;pre&gt;&lt;code&gt;source ~/.bash_profile
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;rlwrapのインストール:62ffe9a86a5750217ff3dd26c7ca910b&#34;&gt;rlwrapのインストール&lt;/h2&gt;
+&lt;h2 id=&#34;rlwrapのインストール&#34;&gt;rlwrapのインストール&lt;/h2&gt;
 
 &lt;p&gt;sqplusは、素のままだと↑↓での履歴が出せなかったりするので、rlwrapをインストールする。&lt;/p&gt;
 
@@ -110,7 +110,7 @@ build variables:
 
 &lt;p&gt;これで、&lt;code&gt;rlwrap sqlplus&lt;/code&gt;とすれば、履歴も出せるようになる。&lt;/p&gt;
 
-&lt;h2 id=&#34;参考:62ffe9a86a5750217ff3dd26c7ca910b&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://yoshidashingo.hatenablog.com/entry/2014/08/08/165311&#34;&gt;Mac OSXに64ビット版sqlplus(11.2)をインストールしてAmazon RDS for Oracleに接続 - yoshidashingo&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -142,15 +142,15 @@ build variables:
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;前提:52d11fdc88d18cab3894c4e4d33725b2&#34;&gt;前提&lt;/h2&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;VirtualBox version 4.3.14&lt;/li&gt;
@@ -161,13 +161,13 @@ build variables:
 &lt;a href=&#34;https://github.com/2creatives/vagrant-centos/releases/tag/v6.4.2&#34;&gt;Release CentOS 6.4 x86_64 Minimal (2014-01-16) · 2creatives/vagrant-centos&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;1-vagrantの設定-ホスト側作業:52d11fdc88d18cab3894c4e4d33725b2&#34;&gt;1. Vagrantの設定(ホスト側作業)&lt;/h2&gt;
+&lt;h2 id=&#34;1-vagrantの設定-ホスト側作業&#34;&gt;1. Vagrantの設定(ホスト側作業)&lt;/h2&gt;
 
-&lt;h3 id=&#34;vagrantの追加:52d11fdc88d18cab3894c4e4d33725b2&#34;&gt;Vagrantの追加&lt;/h3&gt;
+&lt;h3 id=&#34;vagrantの追加&#34;&gt;Vagrantの追加&lt;/h3&gt;
 
 &lt;p&gt;Vagrantのインストール、Virtualboxのインストールについては、割愛する。&lt;/p&gt;
 
-&lt;h3 id=&#34;ネットワークの設定:52d11fdc88d18cab3894c4e4d33725b2&#34;&gt;ネットワークの設定&lt;/h3&gt;
+&lt;h3 id=&#34;ネットワークの設定&#34;&gt;ネットワークの設定&lt;/h3&gt;
 
 &lt;p&gt;Vagrantfileに、利用したいIPアドレスを記載する。&lt;/p&gt;
 
@@ -183,18 +183,18 @@ end
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;共有フォルダ設定:52d11fdc88d18cab3894c4e4d33725b2&#34;&gt;共有フォルダ設定&lt;/h3&gt;
+&lt;h3 id=&#34;共有フォルダ設定&#34;&gt;共有フォルダ設定&lt;/h3&gt;
 
 &lt;p&gt;CentOS側からみれる共有フォルダを用意する。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/16444231326&#34; title=&#34;Vagrant share folderby meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm8.staticflickr.com/7423/16444231326_e7bed11e94_z.jpg&#34; alt=&#34;Vagrant share folder&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;centosを立ち上げる:52d11fdc88d18cab3894c4e4d33725b2&#34;&gt;CentOSを立ち上げる&lt;/h3&gt;
+&lt;h3 id=&#34;centosを立ち上げる&#34;&gt;CentOSを立ち上げる&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;vagrant up
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;2-oracle-database-express-edition-11gのダウンロード-ホスト側作業:52d11fdc88d18cab3894c4e4d33725b2&#34;&gt;2. Oracle Database Express Edition 11gのダウンロード(ホスト側作業)&lt;/h2&gt;
+&lt;h2 id=&#34;2-oracle-database-express-edition-11gのダウンロード-ホスト側作業&#34;&gt;2. Oracle Database Express Edition 11gのダウンロード(ホスト側作業)&lt;/h2&gt;
 
 &lt;p&gt;下記のリンクからExpress Editionをダウンロードする。
 (要オラクルアカウント。登録は無料です)&lt;/p&gt;
@@ -217,14 +217,14 @@ end
 &lt;li&gt;libaio should be greater than or equal to 0.3.104&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;libaio-bcのインストール:52d11fdc88d18cab3894c4e4d33725b2&#34;&gt;libaio, bcのインストール&lt;/h3&gt;
+&lt;h3 id=&#34;libaio-bcのインストール&#34;&gt;libaio, bcのインストール&lt;/h3&gt;
 
 &lt;p&gt;今回は、&lt;code&gt;yum&lt;/code&gt;で&lt;code&gt;libaio&lt;/code&gt;と&lt;code&gt;bc&lt;/code&gt;をインストールでOracle XEのインストール要件は満たされた。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;yum install libaio bc
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;hostsファイルにコンピュータ名を追加:52d11fdc88d18cab3894c4e4d33725b2&#34;&gt;hostsファイルにコンピュータ名を追加&lt;/h3&gt;
+&lt;h3 id=&#34;hostsファイルにコンピュータ名を追加&#34;&gt;hostsファイルにコンピュータ名を追加&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;vi /etc/hosts
 &lt;/code&gt;&lt;/pre&gt;
@@ -236,9 +236,9 @@ end
 
 &lt;p&gt;コンピュータ名は、&lt;code&gt;hostname&lt;/code&gt;で得ることができる。&lt;/p&gt;
 
-&lt;h2 id=&#34;4-oracleインストール:52d11fdc88d18cab3894c4e4d33725b2&#34;&gt;4. Oracleインストール&lt;/h2&gt;
+&lt;h2 id=&#34;4-oracleインストール&#34;&gt;4. Oracleインストール&lt;/h2&gt;
 
-&lt;h3 id=&#34;rpmによるインストール:52d11fdc88d18cab3894c4e4d33725b2&#34;&gt;rpmによるインストール&lt;/h3&gt;
+&lt;h3 id=&#34;rpmによるインストール&#34;&gt;rpmによるインストール&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;rpm -ivh oracle-xe-11.2.0-1.0.x86_64.rpm
 &lt;/code&gt;&lt;/pre&gt;
@@ -250,7 +250,7 @@ Executing post-install steps...
 You must run &#39;/etc/init.d/oracle-xe configure&#39; as the root user to configure the database.
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;構築:52d11fdc88d18cab3894c4e4d33725b2&#34;&gt;構築&lt;/h3&gt;
+&lt;h3 id=&#34;構築&#34;&gt;構築&lt;/h3&gt;
 
 &lt;p&gt;以下のコマンドを叩いて、databaseを構築する。&lt;/p&gt;
 
@@ -283,7 +283,7 @@ Starting Oracle Database 11g Express Edition instance...Done
 Installation completed successfully.
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;稼働確認:52d11fdc88d18cab3894c4e4d33725b2&#34;&gt;稼働確認&lt;/h2&gt;
+&lt;h2 id=&#34;稼働確認&#34;&gt;稼働確認&lt;/h2&gt;
 
 &lt;p&gt;iptablesを一時的に無効にして、&lt;a href=&#34;http://192.168.33.10:8080&#34;&gt;http://192.168.33.10:8080&lt;/a&gt; にアクセスした。
 (IPアドレス192.168.33.10の部分は、Vagrantfileに記載のもの)&lt;/p&gt;

@@ -24,15 +24,15 @@
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;netbiosとは:dbe062eef5a484e7e0a2099784772d4b&#34;&gt;NetBIOSとは？&lt;/h2&gt;
+&lt;h2 id=&#34;netbiosとは&#34;&gt;NetBIOSとは？&lt;/h2&gt;
 
 &lt;p&gt;昔　Windowsネットワークのベースになっているもの。&lt;br /&gt;
 　　NetBIOS名でやりとりをしていた。&lt;/p&gt;
@@ -41,7 +41,7 @@
 TCP/IPの上でNetBIOSのAPIを出来るようにした。&lt;br /&gt;
 ⇛　Active DirectoryでDNSを導入&lt;/p&gt;
 
-&lt;h2 id=&#34;unix系は-tcp-ip:dbe062eef5a484e7e0a2099784772d4b&#34;&gt;Unix系は？ ⇛　TCP/IP&lt;/h2&gt;
+&lt;h2 id=&#34;unix系は-tcp-ip&#34;&gt;Unix系は？ ⇛　TCP/IP&lt;/h2&gt;
 
 &lt;p&gt;昔　hostsファイルに、IPアドレスとホスト名を記述していた。&lt;br /&gt;
 　　ひとつひとつのコンピュータに定義しなければいけなかった。&lt;/p&gt;
@@ -50,7 +50,7 @@ TCP/IPの上でNetBIOSのAPIを出来るようにした。&lt;br /&gt;
 
 &lt;p&gt;NetBIOSとは、NetBEUI(プロトコル・スタック)+NetBIOS(API)という過去の技術を継承するために残っているもの。&lt;/p&gt;
 
-&lt;h2 id=&#34;参考:dbe062eef5a484e7e0a2099784772d4b&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://ebi.dyndns.biz/windowsadmin/2009/02/10/netbios%e5%90%8d%e3%81%a8%e3%83%9b%e3%82%b9%e3%83%88%e5%90%8d%e3%81%ae%e9%81%95%e3%81%84/&#34;&gt;NETBIOS名とホスト名の違い | Windowsインフラ管理者への道&lt;/a&gt;&lt;/li&gt;

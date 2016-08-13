@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.16" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/custom.css">
+<link rel="alternate" href="/index.xml" type="application/rss+xml" title="SIS Lab">
+<title>Hugo-ZenをベースにHugoのデザインを変えてみた - SIS Lab</title>
+<link rel="shortcut icon" href="/images/favicons/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/images/favicons/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/images/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="manifest" href="/images/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#2d88ef">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hugo-ZenをベースにHugoのデザインを変えてみた | SIS Lab">
+<meta property="og:url" content="https://meganii.com/blog/2016/04/17/hugo-zen/">
+<meta property="og:description" content="春になったので、BlogのデザインをHugoをベースに変えてみました。 前々から、自分で構造を把握したい、jQueryに依存するBootstrapをやめたいって思っていたので、Hugoの中でもミニマムなテーマであるHugo-Zenをベースに構築しました。 スポンサーリンク (adsbygoogle = window.adsbygoogle || []).push({}); hugo-zen Hugo Zen: これから Hugo を始める人向けのミニマムなテーマを作りました - rakuishi.com GitHub - rakuishi/hugo-zen: Hugo Zen is a minimal hugo theme. 気に入ったポイントは、以下の点。 ごちゃごちゃしてなく、シンプル！ Skeletonという軽量のCSSフレームワークを利用 http://getskeleton.com/ jQuery不要 一旦、シンプルに構築できたので、ここから気になるところをちょっとずつ変えていきます。 faviconの生成 様々なファビコンを一括生成。favicon generator 上記のWebサービスを利用してファビコンを作成してみました。これだけ用意しないと対応できないなんて何か間違ってる気がしなくもないけど、おとなしく追加しました。 綺麗なfavicon（ファビコン）作成の基本的なコツ・アイデアまとめ | 株式会社LIG によると、16px × 16px 、32px × 32px のふたつをマルチアイコンにすればO.K.という話もあったので、試してみたい。 関連記事をどうするか問題 Wordpressのような動的に記事を生成する機構に比べて、静的サイトは関連記事をどう表示するかが結構悩みどころだったりします。前のデザインだと、同じカテゴリの記事を表示するというシンプルな方法だったので、まずは同じように設置しました。 理想は、機械的に記事同士の相関を判断して出力してほしいので、Hugo(Golang?)で実現するか、JavaScriptを書いてなんとか実現するかやってみたい。 残りやりたいこと 関連記事をうまいこと出す サイドバーを充実させる AMP対応 常時SSL対応(img) 静的ファイルの最適化">
+
+<meta property="og:image" content="/images/nopicture.png">
+<meta property="og:site_name" content="SIS Lab">
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="SIS Lab" />
+<meta name="twitter:title" content="Hugo-ZenをベースにHugoのデザインを変えてみた | SIS Lab" />
+<meta name="twitter:image" content="/images/nopicture.png" />
+<meta name="twitter:url" content="https://meganii.com/blog/2016/04/17/hugo-zen/" />
+
+</head>
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		<div class="header-logo">
+			<a href="/"></a><h1 class="site-title"><a href="/"> <i class="fa fa-laptop"></i> SIS Lab</a></h1>
+			<p>元じょーぶん生によるメーカー系SIerブログ。趣味のプログラミング、旅行。日々、学んだについて書きます。</p>
+		</div>
+		<ul class="nav">
+			<li class="nav__item"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+			
+			<li class="nav__item"><a href="/blog/category/tech"><i class="fa fa-terminal" aria-hidden="true"></i>   Tech</a></li>
+			<li class="nav__item"><a href="/blog/category/book"><i class="fa fa-book" aria-hidden="true"></i> Book</a></li>
+			<li class="nav__item"><a href="/blog/category/travel"><i class="fa fa-plane" aria-hidden="true"></i> Travel</a></li>
+		</ul>
+		<hr class="nav__hr" />
+	</header>
+
+
+<div class="row">
+	<main role="main" class="nine columns">
+		<article itemscope itemtype="http://schema.org/BlogPosting">
+			<h1 class="entry-title" itemprop="headline">Hugo-ZenをベースにHugoのデザインを変えてみた</h1>
+			<span class="entry-meta"><time itemprop="datePublished" datetime="2016-04-17">April 17, 2016</time></span>
+			<section id="post" itemprop="entry-text">
+				
+
+<p>春になったので、BlogのデザインをHugoをベースに変えてみました。</p>
+
+<p>前々から、自分で構造を把握したい、jQueryに依存するBootstrapをやめたいって思っていたので、Hugoの中でもミニマムなテーマであるHugo-Zenをベースに構築しました。</p>
+
+<div class="google-adsense">
+    <p>スポンサーリンク</p>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-5340212676785058"
+         data-ad-slot="7870420352"
+         data-ad-format="auto"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+
+<h2 id="hugo-zen">hugo-zen</h2>
+
+<p><a href="http://rakuishi.com/archives/hugo-zen/">Hugo Zen: これから Hugo を始める人向けのミニマムなテーマを作りました - rakuishi.com</a>
+<a href="https://github.com/rakuishi/hugo-zen">GitHub - rakuishi/hugo-zen: Hugo Zen is a minimal hugo theme.</a></p>
+
+<p>気に入ったポイントは、以下の点。</p>
+
+<ul>
+<li>ごちゃごちゃしてなく、シンプル！</li>
+<li>Skeletonという軽量のCSSフレームワークを利用 <a href="http://getskeleton.com/">http://getskeleton.com/</a></li>
+<li>jQuery不要</li>
+</ul>
+
+<p>一旦、シンプルに構築できたので、ここから気になるところをちょっとずつ変えていきます。</p>
+
+<h2 id="faviconの生成">faviconの生成</h2>
+
+<p><a href="http://ao-system.net/favicongenerator/">様々なファビコンを一括生成。favicon generator</a></p>
+
+<p>上記のWebサービスを利用してファビコンを作成してみました。これだけ用意しないと対応できないなんて何か間違ってる気がしなくもないけど、おとなしく追加しました。</p>
+
+<p><a href="http://liginc.co.jp/web/design/material/16853">綺麗なfavicon（ファビコン）作成の基本的なコツ・アイデアまとめ | 株式会社LIG</a> によると、16px × 16px 、32px × 32px のふたつをマルチアイコンにすればO.K.という話もあったので、試してみたい。</p>
+
+<h2 id="関連記事をどうするか問題">関連記事をどうするか問題</h2>
+
+<p>Wordpressのような動的に記事を生成する機構に比べて、静的サイトは関連記事をどう表示するかが結構悩みどころだったりします。前のデザインだと、同じカテゴリの記事を表示するというシンプルな方法だったので、まずは同じように設置しました。</p>
+
+<p>理想は、機械的に記事同士の相関を判断して出力してほしいので、Hugo(Golang?)で実現するか、JavaScriptを書いてなんとか実現するかやってみたい。</p>
+
+<h2 id="残りやりたいこと">残りやりたいこと</h2>
+
+<ul>
+<li>関連記事をうまいこと出す</li>
+<li>サイドバーを充実させる</li>
+<li>AMP対応</li>
+<li>常時SSL対応(img)</li>
+<li>静的ファイルの最適化</li>
+</ul>
+
+			</section>
+		</article>
+		<div class="google-adsense">
+			<p>スポンサーリンク</p>
+			<div class="ad">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-5340212676785058"
+				     data-ad-slot="7368951150"
+				     data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+			<div class="ad sp-none">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-5340212676785058"
+				     data-ad-slot="7368951150"
+				     data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+		</div>
+		
+		<div class="u-cf"></div>
+
+		
+<div class="social-area-syncer">
+  <ul class="social-button-syncer">
+    
+    <li class="sc-tw"><a data-url="https://meganii.com/blog/2016/04/17/hugo-zen/" href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-count="vertical" data-dnt="true" target="_blank"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.375-1.337.648-2.085.795-.598-.638-1.45-1.036-2.396-1.036-1.812 0-3.282 1.468-3.282 3.28 0 .258.03.51.085.75C5.152 5.39 2.733 4.084 1.114 2.1.83 2.583.67 3.147.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.416-.02-.617-.058.418 1.304 1.63 2.253 3.067 2.28-1.124.88-2.54 1.404-4.077 1.404-.265 0-.526-.015-.783-.045 1.453.93 3.178 1.474 5.032 1.474 6.038 0 9.34-5 9.34-9.338 0-.143-.004-.284-.01-.425.64-.463 1.198-1.04 1.638-1.7z" fill="#fff" fill-rule="nonzero"/></svg><span>Tweet</span></a></li>
+
+    
+    <li class="sc-fb"><div class="fb-like" data-href="https://meganii.com/blog/2016/04/17/hugo-zen/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false"></div></li>
+
+    
+    <li><div data-href="https://meganii.com/blog/2016/04/17/hugo-zen/" class="g-plusone" data-size="tall"></div></li>
+
+    
+    <li><a href="http://b.hatena.ne.jp/entry/https://meganii.com/blog/2016/04/17/hugo-zen/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border:none;" /></a></li>
+
+    
+    <li><a data-save-url="https://meganii.com/blog/2016/04/17/hugo-zen/" data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"></a></li>
+  </ul>
+
+
+<div id="fb-root"></div>
+
+</div>
+
+
+
+		
+		<section id="related">
+			<h2>Related Post</h2>
+			<div id="tags">
+				
+				<a href="https://meganii.com/blog/tags/hugo"><i class="fa fa-tags"></i> hugo </a>
+				
+				<a href="https://meganii.com/blog/tags/design"><i class="fa fa-tags"></i> design </a>
+				
+			</div>
+			<ul id="related-posts">
+				
+				
+				  
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+								
+									<li><a href="https://meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/">JekyllからHugoへの移行ポイント</a></li>
+								
+									<li><a href="https://meganii.com/blog/2015/10/11/hugo-taxonomy/">Hugoソースコードリーディング〜Taxonomy〜</a></li>
+								
+									<li><a href="https://meganii.com/blog/2014/09/04/create-web-service/">ぐだぐだ言ってないでコードを書けよ、自分！ - 「Webサービスのつくり方」</a></li>
+								
+						
+					
+						
+					
+						
+					
+						
+					
+				
+
+				
+			</ul>
+		</section>
+
+	</main>
+
+	<aside class="three columns">
+
+  <section>
+    <h2>Profile</h2>
+    <div id="profile">
+      <div class="header-logo"><img src="/images/meganii_logo.png" width="60" height="60"></div>
+      <p>広く浅くから広く深くへ</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Popular</h2>
+    <div id="ranklet-10307"></div><script src="//tracker.iws.vc/v1/ranklet/s3/widgets/10307/widget.js"></script>
+
+
+  </section>
+
+  
+  
+
+  
+  
+    <div class="sidebar-module">
+  <h3>Tech</h3>
+  <ul class="list-unstyled urllist">
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/08/11/hugo-related-post/"><img class="urllist-img" src="https://images-fe.ssl-images-amazon.com/images/I/51%2BfZJOKEKL._SL160_.jpg" alt="Hugoで関連記事を表示する方法" width="75"></a>
+        <a href="https://meganii.com/blog/2016/08/11/hugo-related-post/">Hugoで関連記事を表示する方法</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/07/30/workstyle/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/41nDcp8X7fL._SL160_.jpg" alt="ワークスタイル改革とは何か？" width="75"></a>
+        <a href="https://meganii.com/blog/2016/07/30/workstyle/">ワークスタイル改革とは何か？</a>
+      </div>
+    </li>
+    
+  
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/"><img class="urllist-img" src="/images/ansible.png" alt="さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール" width="75"></a>
+        <a href="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/">さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/07/17/install-h2load/"><img class="urllist-img" src="https://farm6.staticflickr.com/5624/21367186743_cbcb0e5268_m.jpg" alt="http/2ベンチマークツール「h2load」をインストール" width="75"></a>
+        <a href="https://meganii.com/blog/2016/07/17/install-h2load/">http/2ベンチマークツール「h2load」をインストール</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/07/09/invalid-ssl-certificate/"><img class="urllist-img" src="/images/le-logo-standard.png" alt="Lets&#39;s Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化" width="75"></a>
+        <a href="https://meganii.com/blog/2016/07/09/invalid-ssl-certificate/">Lets&#39;s Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化</a>
+      </div>
+    </li>
+    
+  
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/06/05/ruby-google-api-client/"><img class="urllist-img" src="https://c8.staticflickr.com/8/7305/27394115551_0612eb23fb_t.jpg" alt="google-api-ruby-clientからGoogle Adsense Management APIを操作する方法" width="75"></a>
+        <a href="https://meganii.com/blog/2016/06/05/ruby-google-api-client/">google-api-ruby-clientからGoogle Adsense Management APIを操作する方法</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/05/30/casperjs-amazon/"><img class="urllist-img" src="/images/nopicture.png" alt="CasperJSでAmazonログイン" width="75"></a>
+        <a href="https://meganii.com/blog/2016/05/30/casperjs-amazon/">CasperJSでAmazonログイン</a>
+      </div>
+    </li>
+    
+  
+    
+    <li>
+      <div>
+        <a href="https://meganii.com/blog/2016/05/29/mariadb-utf8/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/51pj9W0WxzL._SL160_.jpg" alt="MariaDBの日本語文字化けを解消するための設定" width="75"></a>
+        <a href="https://meganii.com/blog/2016/05/29/mariadb-utf8/">MariaDBの日本語文字化けを解消するための設定</a>
+      </div>
+    </li>
+    
+  
+  </ul>
+</div>
+
+  
+
+  <section class="sidebar-module">
+    <h2>Latest</h2>
+    <ul class="list-unstyled urllist">
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/08/11/hugo-related-post/"><img class="urllist-img" src="https://images-fe.ssl-images-amazon.com/images/I/51%2BfZJOKEKL._SL160_.jpg" alt="Hugoで関連記事を表示する方法" width="75"></a>
+          <a href="https://meganii.com/blog/2016/08/11/hugo-related-post/">Hugoで関連記事を表示する方法</a>
+        </div>
+      </li>
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/07/30/workstyle/"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/41nDcp8X7fL._SL160_.jpg" alt="ワークスタイル改革とは何か？" width="75"></a>
+          <a href="https://meganii.com/blog/2016/07/30/workstyle/">ワークスタイル改革とは何か？</a>
+        </div>
+      </li>
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/07/23/scotch-grain-shine-or-rain/"><img class="urllist-img" src="/images/nopicture.png" alt="Scotch Grain(スコッチグレイン)の革靴「シャインオアレイン」なら雨の日でも快適通勤！！" width="75"></a>
+          <a href="https://meganii.com/blog/2016/07/23/scotch-grain-shine-or-rain/">Scotch Grain(スコッチグレイン)の革靴「シャインオアレイン」なら雨の日でも快適通勤！！</a>
+        </div>
+      </li>
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/"><img class="urllist-img" src="/images/ansible.png" alt="さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール" width="75"></a>
+          <a href="https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/">さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール</a>
+        </div>
+      </li>
+      
+      <li>
+        <div>
+          <a href="https://meganii.com/blog/2016/07/17/install-h2load/"><img class="urllist-img" src="https://farm6.staticflickr.com/5624/21367186743_cbcb0e5268_m.jpg" alt="http/2ベンチマークツール「h2load」をインストール" width="75"></a>
+          <a href="https://meganii.com/blog/2016/07/17/install-h2load/">http/2ベンチマークツール「h2load」をインストール</a>
+        </div>
+      </li>
+      
+    </ul>
+  </div>
+
+</aside>
+
+</div>
+
+
+	<footer role="contentinfo">
+		<div class="hr"></div>
+		<div class="footer-link">
+			
+			<a href="https://twitter.com/" target="_blank">Twitter</a>
+			
+			<a href="https://github.com/meganii" target="_blank">GitHub</a>
+		</div>
+		<div class="copyright">
+			<p>&copy; 2016  meganii  - SIS Lab</p>
+		</div>
+
+	</footer>
+
+</div>
+
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KG3QGC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KG3QGC');</script>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+ 
+if(window.addEventListener) {
+	window.addEventListener( "load" , shareButtonReadSyncer, false );
+}else{
+	window.attachEvent( "onload", shareButtonReadSyncer );
+}
+
+ 
+function shareButtonReadSyncer(){
+
+
+
+
+
+
+
+
+(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+
+var scriptTag = document.createElement("script");
+scriptTag.type = "text/javascript"
+scriptTag.src = "https://apis.google.com/js/platform.js";
+scriptTag.async = true;
+document.getElementsByTagName("head")[0].appendChild(scriptTag);
+
+
+var scriptTag = document.createElement("script");
+scriptTag.type = "text/javascript"
+scriptTag.src = "https://b.st-hatena.com/js/bookmark_button.js";
+scriptTag.async = true;
+document.getElementsByTagName("head")[0].appendChild(scriptTag);
+
+
+(!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js"));
+
+
+
+}
+</script>
+
+</body>
+</html>
+

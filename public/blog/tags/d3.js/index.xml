@@ -26,8 +26,8 @@
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
@@ -38,16 +38,16 @@
 
 &lt;p&gt;&lt;a href=&#34;http://kshigeru.blogspot.jp/2013/07/tokyo-landprice.html&#34;&gt;Ars longa, vita brevis: 東京の地価公示データを眺める&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;環境準備:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;環境準備&lt;/h2&gt;
+&lt;h2 id=&#34;環境準備&#34;&gt;環境準備&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://ja.d3js.node.ws/blocks/mike/map/&#34;&gt;D3.js と TopoJSON で地図を作る&lt;/a&gt;を元に、環境を準備する。&lt;/p&gt;
 
-&lt;h3 id=&#34;geospatial-data-abstraction-library-地理空間データ抽出ライブラリ-のインストール:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;Geospatial Data Abstraction Library （地理空間データ抽出ライブラリ）のインストール&lt;/h3&gt;
+&lt;h3 id=&#34;geospatial-data-abstraction-library-地理空間データ抽出ライブラリ-のインストール&#34;&gt;Geospatial Data Abstraction Library （地理空間データ抽出ライブラリ）のインストール&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;brew install gdal
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;データを取得する:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;データを取得する&lt;/h2&gt;
+&lt;h2 id=&#34;データを取得する&#34;&gt;データを取得する&lt;/h2&gt;
 
 &lt;p&gt;地価公示データは、以下のページからダウンロードする。
 &lt;a href=&#34;http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L01-v2_3.html&#34;&gt;国土数値情報　地価公示データの詳細&lt;/a&gt;&lt;/p&gt;
@@ -57,7 +57,7 @@
 &lt;pre&gt;&lt;code&gt;KS-META-L01-15_13.xml  L01-15_13.dbf  L01-15_13.prj  L01-15_13.shp  L01-15_13.shx  L01-15_13.xml
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;orginfoで中身を確認する:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;orginfoで中身を確認する&lt;/h2&gt;
+&lt;h2 id=&#34;orginfoで中身を確認する&#34;&gt;orginfoで中身を確認する&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;ogrinfo -al L01-15_13.shp | head -n 8
 INFO: Open of `L01-15_13.shp&#39;
@@ -90,7 +90,7 @@ Layer SRS WKT:
 &lt;pre&gt;&lt;code&gt;ogr2ogr -f GeoJSON -where &amp;quot;L01_017 &amp;lt; &#39;13320&#39;&amp;quot; tokyo-landprice-2015.geojson L01-15_13.shp
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;d3-jsで表示する:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;d3.jsで表示する&lt;/h2&gt;
+&lt;h2 id=&#34;d3-jsで表示する&#34;&gt;d3.jsで表示する&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/35571855@N06/24844125586&#34; title=&#34;tokyo-landprice_heatmapby meganii, on Flickr&#34;&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg&#34; alt=&#34;tokyo-landprice_heatmap&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -157,14 +157,14 @@ Layer SRS WKT:
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;次にやりたいこと:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;次にやりたいこと&lt;/h2&gt;
+&lt;h2 id=&#34;次にやりたいこと&#34;&gt;次にやりたいこと&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;数十年分のデータを次々に描画して移り変わりを確認する&lt;/li&gt;
 &lt;li&gt;地図上にマッピングする&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;参考:148dc7cb06f1efe808bbc2929d979a1f&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://d3js.org/&#34;&gt;D3.js - Data-Driven Documents&lt;/a&gt;&lt;/li&gt;

@@ -26,15 +26,15 @@
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;前提:f7d9b73721665af807cca9ee247ca363&#34;&gt;前提&lt;/h2&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Mac OS mavericks&lt;/li&gt;
@@ -42,13 +42,13 @@
 &lt;li&gt;ruby 2.0.0p353 (2013-11-22 revision 43784) [x86_64-darwin12.5.0]&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;vagrant-hostmanager:f7d9b73721665af807cca9ee247ca363&#34;&gt;vagrant-hostmanager&lt;/h2&gt;
+&lt;h2 id=&#34;vagrant-hostmanager&#34;&gt;vagrant-hostmanager&lt;/h2&gt;
 
 &lt;p&gt;&lt;code&gt;vagrant up&lt;/code&gt;するときに、&lt;code&gt;/etc/hosts&lt;/code&gt; を書き換えるみたい。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/smdahlen/vagrant-hostmanager&#34;&gt;smdahlen/vagrant-hostmanager · GitHub&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;インストール時のinstall-nokogiriのエラー:f7d9b73721665af807cca9ee247ca363&#34;&gt;インストール時のinstall nokogiriのエラー&lt;/h2&gt;
+&lt;h2 id=&#34;インストール時のinstall-nokogiriのエラー&#34;&gt;インストール時のinstall nokogiriのエラー&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;vagrant plugin install vagrant-hostmanager
 &lt;/code&gt;&lt;/pre&gt;
@@ -186,12 +186,12 @@ brew link libiconv --force
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;NOKOGIRI_USE_SYSTEM_LIBRARIES=1 vagrant plugin install vagrant-hostmanager
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;別のプラグインを入れたら-vagrant-が壊れたので-結局vagrantも最新化した:f7d9b73721665af807cca9ee247ca363&#34;&gt;別のプラグインを入れたら&lt;code&gt;vagrant&lt;/code&gt;が壊れたので、結局vagrantも最新化した&lt;/h2&gt;
+&lt;h2 id=&#34;別のプラグインを入れたら-vagrant-が壊れたので-結局vagrantも最新化した&#34;&gt;別のプラグインを入れたら&lt;code&gt;vagrant&lt;/code&gt;が壊れたので、結局vagrantも最新化した&lt;/h2&gt;
 
 &lt;p&gt;以下のサイトから、最新版を入れなおした。
 &lt;a href=&#34;http://www.vagrantup.com/downloads&#34;&gt;http://www.vagrantup.com/downloads&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;参考:f7d9b73721665af807cca9ee247ca363&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://qiita.com/maestro/items/4e287824e62bb8c2eda4&#34;&gt;Nokogiri on OSX - Qiita&lt;/a&gt;&lt;/li&gt;
@@ -210,7 +210,7 @@ brew link libiconv --force
 
 &lt;p&gt;簡単に作っては壊せる環境があれば、勉強にはいいのかなと思い、まずは、簡単に仮想環境を作る環境を探しました。すると、Vagrantというツールがあることが分かりましたので、インストールして、環境構築を行なってみました。&lt;/p&gt;
 
-&lt;h2 id=&#34;vagrantとは:7cdbdffac4eea07669a321a07c248a82&#34;&gt;Vagrantとは&lt;/h2&gt;
+&lt;h2 id=&#34;vagrantとは&#34;&gt;Vagrantとは&lt;/h2&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Vagrant は、Ruby で組まれたスクリプトで、仮想マシン上の開発環境の構築・配布の自動化を支援するためのツール。仮想マシン環境(VirtualBox) と構成管理ツール(Chef, Puppet)を利用することで実現している。これを使えば、コマンド一つで、開発に必要な環境を用意できるようになる。 &lt;a href=&#34;http://d.hatena.ne.jp/okinaka/20110717/1310892601&#34;&gt;Vagrant で開発環境構築を自動化しよう - エンジニアきまぐれTips&lt;/a&gt;&lt;/p&gt;
@@ -225,15 +225,15 @@ brew link libiconv --force
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;vitrualbox-ダウンロード:7cdbdffac4eea07669a321a07c248a82&#34;&gt;Vitrualbox ダウンロード&lt;/h2&gt;
+&lt;h2 id=&#34;vitrualbox-ダウンロード&#34;&gt;Vitrualbox ダウンロード&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.virtualbox.org/wiki/Downloads&#34;&gt;Downloads – Oracle VM VirtualBox&lt;/a&gt;&lt;/p&gt;
 
@@ -241,11 +241,11 @@ brew link libiconv --force
 
 &lt;p&gt;&lt;a href=&#34;http://download.virtualbox.org/virtualbox/4.2.8/VirtualBox-4.2.8-83876-OSX.dmg&#34;&gt;http://download.virtualbox.org/virtualbox/4.2.8/VirtualBox-4.2.8-83876-OSX.dmg&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;vagrant:7cdbdffac4eea07669a321a07c248a82&#34;&gt;Vagrant&lt;/h2&gt;
+&lt;h2 id=&#34;vagrant&#34;&gt;Vagrant&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.vagrantup.com/&#34;&gt;Vagrant&lt;/a&gt;のDownloadsから v1.2.2をダウンロード。&lt;/p&gt;
 
-&lt;h2 id=&#34;環境を追加する:7cdbdffac4eea07669a321a07c248a82&#34;&gt;環境を追加する&lt;/h2&gt;
+&lt;h2 id=&#34;環境を追加する&#34;&gt;環境を追加する&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;vagrant box add centos6.4 http://developer.nrel.gov/downloads/vagrant-boxes/CentOS-6.4-x86_64-v20130427.box
 Downloading or copying the box...
@@ -306,7 +306,7 @@ CentOS release 6.4 (Final)
 
 &lt;p&gt;簡単にCentOSの環境が作られました!!&lt;/p&gt;
 
-&lt;h2 id=&#34;参考:7cdbdffac4eea07669a321a07c248a82&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.vagrantbox.es/&#34;&gt;A list of base boxes for Vagrant - Vagrantbox.es&lt;/a&gt;&lt;/li&gt;
@@ -318,7 +318,7 @@ CentOS release 6.4 (Final)
 
 &lt;p&gt;chef-soloっていうサーバー構築自動化ツールもあるみたいです。&lt;/p&gt;
 
-&lt;h3 id=&#34;centosのバージョンを確認する方法:7cdbdffac4eea07669a321a07c248a82&#34;&gt;CentOSのバージョンを確認する方法&lt;/h3&gt;
+&lt;h3 id=&#34;centosのバージョンを確認する方法&#34;&gt;CentOSのバージョンを確認する方法&lt;/h3&gt;
 
 &lt;p&gt;&amp;lsquo;cat /etc/redhat-releas&amp;rsquo;&lt;/p&gt;
 </description>
@@ -339,19 +339,19 @@ CentOS release 6.4 (Final)
     &lt;ins class=&#34;adsbygoogle&#34;
          style=&#34;display:block&#34;
          data-ad-client=&#34;ca-pub-5340212676785058&#34;
-         data-ad-slot=&#34;1592375556&#34;
-         data-ad-format=&#34;link&#34;&gt;&lt;/ins&gt;
+         data-ad-slot=&#34;7870420352&#34;
+         data-ad-format=&#34;auto&#34;&gt;&lt;/ins&gt;
     &lt;script&gt;
     (adsbygoogle = window.adsbygoogle || []).push({});
     &lt;/script&gt;
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;1-virtualboxのダウンロード:02561f4a57d23f1d9001120de0ec12fd&#34;&gt;1.VirtualBoxのダウンロード&lt;/h2&gt;
+&lt;h2 id=&#34;1-virtualboxのダウンロード&#34;&gt;1.VirtualBoxのダウンロード&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.virtualbox.org/wiki/Downloads&#34;&gt;https://www.virtualbox.org/wiki/Downloads&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;2-vagrantのダウンロード:02561f4a57d23f1d9001120de0ec12fd&#34;&gt;2.Vagrantのダウンロード&lt;/h2&gt;
+&lt;h2 id=&#34;2-vagrantのダウンロード&#34;&gt;2.Vagrantのダウンロード&lt;/h2&gt;
 
 &lt;p&gt;gem install vagrant&lt;/p&gt;
 
