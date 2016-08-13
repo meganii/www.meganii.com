@@ -141,11 +141,18 @@ HEAVEN'Sテントサイトは、ステージに隣接しています。場所が
 
 RSRのテントを見渡してみると、8割〜9割ぐらいが、Coleman(コールマン)のテントでした。オフィシャルで斡旋しているテントがColeman(コールマン)なので、そうなるのかもしれないし、キャンプと言えば、Coleman(コールマン)てのもあるのかもしれません。
 
+<div class="kaerebalink-box"><div class="kaerebalink-image"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B004IWR4GE/meganii-22/ref=nosim/" target="_blank" ><img src="https://images-fe.ssl-images-amazon.com/images/I/41deooVwISL._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info"><div class="kaerebalink-name"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B004IWR4GE/meganii-22/ref=nosim/" target="_blank" >コールマン テント ツーリングドーム/LX [2~3人用] 170T16450J</a><div class="kaerebalink-powered-date">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail"> Coleman(コールマン) 2012-03-08    </div><div class="kaerebalink-link1"><div class="shoplinkamazon"><a href="http://www.amazon.co.jp/gp/search?keywords=%83R%81%5B%83%8B%83%7D%83%93%81%40%83e%83%93%83g&__mk_ja_JP=%83J%83%5E%83J%83i&tag=meganii-22" target="_blank" >Amazon</a></div><div class="shoplinkrakuten"><a href="http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%25AB%25E3%2583%259E%25E3%2583%25B3%25E3%2580%2580%25E3%2583%2586%25E3%2583%25B3%25E3%2583%2588%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F" target="_blank" >楽天市場</a></div><div class="shoplinkyahoo"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884189678&vc_url=http%3A%2F%2Fsearch.shopping.yahoo.co.jp%2Fsearch%3Fp%3D%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%25AB%25E3%2583%259E%25E3%2583%25B3%25E3%2580%2580%25E3%2583%2586%25E3%2583%25B3%25E3%2583%2588" target="_blank" >Yahooショッピング<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884189678" height="1" width="1" border="0"></a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
+
+
+
 自分たちが今回利用したテントは、monbel(モンベル)のステラリッジ3型です。山岳用のテントですが、同じ山岳用テントを利用している人も、ちらほらいました。
 
 <div class="kaerebalink-box"><div class="kaerebalink-image"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00UGQ8NCK/meganii-22/ref=nosim/" target="_blank" ><img src="https://images-na.ssl-images-amazon.com/images/I/31Z6IFJY38L._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info"><div class="kaerebalink-name"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00UGQ8NCK/meganii-22/ref=nosim/" target="_blank" >モンベル(mont-bell) テント ステラリッジテント 3型 [3人用] サンライトイエロー 1122477-SUYL</a><div class="kaerebalink-powered-date">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail"> モンベル(mont-bell)     </div><div class="kaerebalink-link1"><div class="shoplinkamazon"><a href="http://www.amazon.co.jp/gp/search?keywords=%83%82%83%93%83x%83%8B%20%83X%83e%83%89%83%8A%83b%83W&__mk_ja_JP=%83J%83%5E%83J%83i&tag=meganii-22" target="_blank" >Amazon</a></div><div class="shoplinkrakuten"><a href="http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2583%25A2%25E3%2583%25B3%25E3%2583%2599%25E3%2583%25AB%2520%25E3%2582%25B9%25E3%2583%2586%25E3%2583%25A9%25E3%2583%25AA%25E3%2583%2583%25E3%2582%25B8%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F" target="_blank" >楽天市場</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
 
 山岳用テントで快適だったかというと、昼間は以外は快適でした。(昼間は、テントの中に入っていられなかった。。。)朝、夜は冷え込むのでちょうどよかったです。
+
+
+
 
 
 ### 銀マット 必須度 ★★★★★
