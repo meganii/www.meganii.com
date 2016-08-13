@@ -50,6 +50,17 @@
 				{{ end }}
 			</div>
 			<ul id="related-posts">
+				{{ $filename := .File.BaseFileName }}
+				{{ range .Site.Data }}
+				  {{ range $url, $i := .Url}}
+						{{ if eq $url $filename }}
+								{{ range . }}
+									<li><a href="{{ .link }}">{{ .title }}</a></li>
+								{{ end }}
+						{{ end }}
+					{{ end }}
+				{{ end }}
+
 				{{ $page_link := .Permalink }}
 				{{ $tags := .Params.tags }}
 				{{ range .Site.Pages }}
