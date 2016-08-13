@@ -69,8 +69,6 @@
 <meta name="twitter:image" content="{{ if isset .Params "img" }}{{ .Params.img }}{{ else }}/images/nopicture.png{{end}}" />
 <meta name="twitter:url" content="{{ .Permalink }}" />
 
-<script src="js/site.js"></script>
-
 </head>
 <body>
 
@@ -78,7 +76,15 @@
 
 	<header role="banner">
 		<div class="header-logo">
-			<a href="/"><img src="{{ .Site.Params.logo }}" width="60" height="60"></a>
+			<a href="/"></a><h1 class="site-title"><a href="/"> <i class="fa fa-laptop"></i> SIS Lab</a></h1>
+			<p>元じょーぶん生によるメーカー系SIerブログ。趣味のプログラミング、旅行。日々、学んだについて書きます。</p>
 		</div>
-		{{ if eq $isHomePage true }}<h1 class="site-title">{{ .Site.Title }}</h1>{{ end }}
+		<ul class="nav">
+			<li class="nav__item"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+			<!-- <li class="nav__item"><a href="/about">About</a></li> -->
+			<li class="nav__item"><a href="/blog/category/tech"><i class="fa fa-terminal" aria-hidden="true"></i>   Tech</a></li>
+			<li class="nav__item"><a href="/blog/category/book"><i class="fa fa-book" aria-hidden="true"></i> Book</a></li>
+			<li class="nav__item"><a href="/blog/category/travel"><i class="fa fa-plane" aria-hidden="true"></i> Travel</a></li>
+		</ul>
+		<hr class="nav__hr" />
 	</header>
