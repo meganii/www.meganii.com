@@ -4,10 +4,12 @@ date: 2016-08-13T18:43:18+09:00
 comments: true
 category: ['Tech']
 tags: ['TF-IDF','Python']
-published: false
+published: true
 slug: tf-idf-recommendation
-img:
+img: https://images-fe.ssl-images-amazon.com/images/I/51YzbphP0JL._SL160_.jpg
 ---
+
+
 
 <!--more-->
 {{% googleadsense %}}
@@ -170,3 +172,6 @@ target:---  title: "初めてのテント泊ライブ。初めてのRISING SUN R
 33 [[ 0.34292003]] ---  title: 屋久島に行くのにあってよかったもの、困ったこと date: 2013-05-15T00:01:00+09:00 category: ['Travel'] tags: ['屋久島
 104 [[ 0.32923401]] ---  title: "モレスキンからミドリMDノートに乗り換え(万年筆の利用、価格の観点)" date: 2015-03-01T08:22:00+09:00 comments: true cate
 ```
+
+
+<div class="booklink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="booklink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://www.amazon.co.jp/exec/obidos/asin/4844380605/meganii-22/" target="_blank" ><img src="https://images-fe.ssl-images-amazon.com/images/I/51YzbphP0JL._SL160_.jpg" style="border: none;" /></a></div><div class="booklink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="booklink-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/asin/4844380605/meganii-22/" target="_blank" >Python機械学習プログラミング 達人データサイエンティストによる理論と実践 (impress top gear)</a><div class="booklink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail" style="margin-bottom:5px;">Sebastian Raschka インプレス 2016-06-30    </div><div class="booklink-link2" style="margin-top:10px;">                                          	  	  	  	</div></div><div class="booklink-footer" style="clear: left"></div></div>
