@@ -3,8 +3,7 @@ machine:
 
 dependencies:
   pre:
-    - wget https://github.com/spf13/hugo/releases/download/v0.16/hugo_0.16-1_amd64.deb
-    - sudo dpkg -i hugo_0.16-1_amd64.deb
+    - go get -v github.com/spf13/hugo
 test:
   override:
     - rake deploy_to_sakura_from_circleci
