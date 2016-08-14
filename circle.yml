@@ -41,5 +41,13 @@ dependencies:
 
 test:
   override:
-    - rake create_relatedposts
-    - rake -q deploy_to_sakura_from_circleci
+    - python -V
+
+deployment:
+  master:
+    branch: master
+    commands:
+      - rake create_relatedposts
+      - rake -q deploy_to_sakura_from_circleci
+      - pwd
+      - git add data/* tmp/* && git commit -m "[ci skip] publish"; if [ $? -eq 0 ]; then git push origin master; else :; fi
