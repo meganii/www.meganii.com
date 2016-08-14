@@ -3,10 +3,10 @@ title: "文書推薦"
 date: 2016-08-12T18:35:30+09:00
 comments: true
 category: ['Tech']
-tags: ['機械学習']
-published: false
+tags: ['機械学習','Python']
+published: true
 slug: recommend-engine
-img:
+img: https://images-fe.ssl-images-amazon.com/images/I/51%2BfZJOKEKL._SL160_.jpg
 ---
 
 

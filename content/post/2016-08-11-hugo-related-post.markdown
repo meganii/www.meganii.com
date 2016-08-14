@@ -3,7 +3,7 @@ title: "Hugoで関連記事を表示する方法"
 date: 2016-08-11T13:54:52+09:00
 comments: true
 category: ['Tech']
-tags: ['Python']
+tags: ['Python','Hugo']
 published: true
 slug: hugo-related-post
 img: https://images-fe.ssl-images-amazon.com/images/I/51%2BfZJOKEKL._SL160_.jpg
