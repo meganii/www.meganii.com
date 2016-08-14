@@ -2,10 +2,44 @@ machine:
   timezone: Asia/Tokyo
   ruby:
     version: 2.2.4
+  python:
+    version: 3.5.1
 
 dependencies:
+  cache_directories:
+    - mecab-0.996
+    - mecab-ipadic-2.7.0-20070801
   pre:
     - go get -v github.com/spf13/hugo
+    - pip install --upgrade pip
+    - sudo apt-get update -qq
+    - sudo apt-get install -qq python3-dev
+    - >
+      if [[ ! -e mecab-0.996/src/mecab ]]; then
+        wget https://mecab.googlecode.com/files/mecab-0.996.tar.gz &&
+        tar xvzf mecab-0.996.tar.gz &&
+        cd mecab-0.996 &&
+        ./configure --enable-utf8-only &&
+        make
+      fi
+    - >
+      cd mecab-0.996 &&
+      sudo make install &&
+      sudo ldconfig
+    - >
+      if [[ ! -e mecab-ipadic-2.7.0-20070801/sys.dic ]]; then
+        wget https://mecab.googlecode.com/files/mecab-ipadic-2.7.0-20070801.tar.gz &&
+        tar xvzf mecab-ipadic-2.7.0-20070801.tar.gz &&
+        cd mecab-ipadic-2.7.0-20070801 &&
+        ./configure --with-charset=utf8 &&
+        make
+      fi
+    - >
+      cd mecab-ipadic-2.7.0-20070801 &&
+      sudo make install
+    - pip install -r requirements.txt
+
 test:
   override:
+    - rake create_relatedposts
     - rake -q deploy_to_sakura_from_circleci
