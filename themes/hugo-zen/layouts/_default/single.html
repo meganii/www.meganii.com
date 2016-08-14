@@ -54,7 +54,7 @@
 				{{ range .Site.Data }}
 				  {{ range $url, $i := .Url}}
 						{{ if eq $url $filename }}
-								{{ range . }}
+								{{ range first 10 (sort .) }}
 									<li><a href="{{ .link }}">{{ .title }}</a></li>
 								{{ end }}
 						{{ end }}

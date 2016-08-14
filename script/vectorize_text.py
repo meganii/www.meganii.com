@@ -99,7 +99,7 @@ if __name__ == '__main__':
         yaml.write(':\n')
         cnt = 1
         for k, v in posts:
-            yaml.write("    post{0}:\n".format(cnt))
+            yaml.write("    {0}:\n".format(cnt))
             yaml.write("      title: {0}\n".format(filelist[k][2]))
             yaml.write("      link: {0}\n".format(filelist[k][1]))
             cnt += 1
