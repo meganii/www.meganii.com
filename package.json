@@ -1,25 +1,26 @@
 {
   "name": "meganii.com",
   "version": "1.0.0",
-  "description": "for textlint",
+  "description": "my blog",
   "main": "index.js",
   "dependencies": {
-    "textlint": "^7.1.0",
-    "textlint-rule-max-ten": "^2.0.1",
     "textlint-rule-spellcheck-tech-word": "^5.0.0",
-    "textlint-rule-no-mix-dearu-desumasu": "^3.0.2"
-  },
-  "devDependencies": {
+    "textlint-rule-no-mix-dearu-desumasu": "^3.0.2",
+    "textlint-rule-max-ten": "^2.0.1",
     "textlint": "^7.1.0"
   },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/meganii/meganii.com.git"
+    "url": "git+https://github.com/meganii/meganii.com.git"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/meganii/meganii.com#readme"
+  "bugs": {
+    "url": "https://github.com/meganii/meganii.com/issues"
+  },
+  "homepage": "https://github.com/meganii/meganii.com#readme"
 }
