@@ -8,4 +8,4 @@ dependencies:
     - go get -v github.com/spf13/hugo
 test:
   override:
-    - rake deploy_to_sakura_from_circleci
+    - rake -q deploy_to_sakura_from_circleci
