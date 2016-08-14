@@ -1,0 +1,40 @@
+<aside class="three columns">
+
+  <section>
+    <h2>Profile</h2>
+    <div id="profile">
+      <div class="header-logo"><img src="{{ .Site.Params.logo }}" width="60" height="60"></div>
+      <p>広く浅くから広く深くへ</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Popular</h2>
+    {{ partial "popular.html" . }}
+  </section>
+
+  <!-- Movie-->
+  {{ if in .Params.category "Movie" }}
+    {{ partial "sidebar_movie.html" . }}
+  {{ end }}
+
+  <!-- Tech -->
+  {{ if in .Params.category "Tech" }}
+    {{ partial "sidebar_tech.html" . }}
+  {{ end }}
+
+  <section class="sidebar-module">
+    <h2>Latest</h2>
+    <ul class="list-unstyled urllist">
+      {{ range first 5 .Site.Pages }}
+      <li>
+        <div>
+          <a href="{{ .Permalink }}"><img class="urllist-img" src="{{ if isset .Params "img" }}{{ .Params.img }}{{ else }}/images/nopicture.png{{end}}" alt="{{ .Title}}" width="75"></a>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+
+</aside>
