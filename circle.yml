@@ -10,6 +10,8 @@ dependencies:
     - mecab-0.996
     - mecab-ipadic-2.7.0-20070801
   pre:
+    - git config --global user.name "meganii"
+    - git config --global user.email "yuhei24@gmail.com"
     - go get -v github.com/spf13/hugo
     - pip install --upgrade pip
     - sudo apt-get update -qq
