@@ -61,15 +61,15 @@
 					{{ end }}
 				{{ end }}
 
-				{{ $page_link := .Permalink }}
+				<!-- {{ $page_link := .Permalink }}
 				{{ $tags := .Params.tags }}
 				{{ range .Site.Pages }}
 				{{ $page := . }}
 				{{ $has_common_tags := intersect $tags .Params.tags | len | lt 0 }}
-				{{ if and $has_common_tags (ne $page_link $page.Permalink) }}
-				<li><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></li>
-				{{ end }}
-				{{ end }}
+					{{ if and $has_common_tags (ne $page_link $page.Permalink) }}
+					<li><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></li>
+					{{ end }}
+				{{ end }} -->
 			</ul>
 		</section>
 
