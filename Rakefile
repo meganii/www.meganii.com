@@ -12,7 +12,7 @@ task :deploy_to_sakura_from_circleci do
   sh 'hugo -t hugo-zen'
   sh 'mv public/category public/blog'
   sh 'mv public/tags public/blog'
-  sh "rsync -e \"ssh -p #{ENV['SSH_PORT']}\" -avz --delete public/ web@#{ENV['SAKURA_IP']}:/home/web/www/meganii.com"
+  sh "rsync -q -e \"ssh -p #{ENV['SSH_PORT']}\" -avz --delete public/ web@#{ENV['SAKURA_IP']}:/home/web/www/meganii.com"
 end
 
 desc "deploy_to_sakura"
