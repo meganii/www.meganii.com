@@ -12,7 +12,7 @@ task :deploy_to_sakura_from_circleci do
   sh 'hugo -t hugo-zen'
   sh 'mv public/category public/blog'
   sh 'mv public/tags public/blog'
-  sh "rsync -e \"ssh -p #{ENV['SSH_PORT']}\" -avz --delete public/ web@49.212.138.148:/home/web/www/meganii.com"
+  sh "rsync -e \"ssh -p #{ENV['SSH_PORT']}\" -avz --delete public/ web@#{ENV['SAKURA_IP']}:/home/web/www/meganii.com"
 end
 
 desc "deploy_to_sakura"
@@ -21,7 +21,7 @@ task :deploy_to_sakura do
   sh 'hugo -t hugo-zen'
   sh 'mv public/category public/blog'
   sh 'mv public/tags public/blog'
-  sh 'rsync --iconv=UTF-8-MAC,UTF-8 -e "ssh -p 10022" -avz --delete public/ web@49.212.138.148:/home/web/www/meganii.com'
+  sh "rsync --iconv=UTF-8-MAC,UTF-8 -e \"ssh -p #{ENV['SSH_PORT']}\" -avz --delete public/ web@#{ENV['SAKURA_IP']}:/home/web/www/meganii.com"
 end
 
 desc "deploy_to_vagrant"
@@ -30,7 +30,7 @@ task :deploy_to_vagrant do
   sh 'hugo -t hugo-zen'
   sh 'mv public/category public/blog'
   sh 'mv public/tags public/blog'
-  sh 'rsync --iconv=UTF-8-MAC,UTF-8 -e "ssh -p 10022" -avz --delete public/ web@192.168.33.33:/home/web/www/meganii.com'
+  sh "rsync --iconv=UTF-8-MAC,UTF-8 -e \"ssh -p #{ENV['SSH_PORT']}\" -avz --delete public/ web@192.168.33.33:/home/web/www/meganii.com"
 end
 
 desc "Begin a new post in #{posts_dir}"
