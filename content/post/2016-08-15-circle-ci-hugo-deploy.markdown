@@ -4,7 +4,7 @@ date: 2016-08-15T15:53:59+09:00
 comments: true
 category: ['Tech']
 tags: ['CircleCI','CI','Hugo']
-published: false
+published: true
 slug: circle-ci-hugo-deploy
 img: https://qiita-image-store.s3.amazonaws.com/0/10564/f19fddc1-3b74-2798-9e5a-fa4fa1ce03fb.png
 ---
@@ -95,3 +95,6 @@ https://circleci.com/gh/bungoume/mecab-web-api/76#config
 - Textlintによる文章校正
 - Github Flowによる電子書籍作成
 - Circle CIの定期実行
+
+
+{{% affiliate title="改訂新版Jenkins実践入門 ――ビルド・テスト・デプロイを自動化する技術 (WEB+DB PRESS plus)" amazonUrl="http://www.amazon.co.jp/exec/obidos/ASIN/4774174238/meganii-22/ref=nosim/" img="https://images-fe.ssl-images-amazon.com/images/I/512-dGvAcJL._SL160_.jpg" amazondetailUrl="" rakutenUrl="http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E7%25B6%2599%25E7%25B6%259A%25E7%259A%2584%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%2586%25E3%2582%25B0%25E3%2583%25AC%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F" %}}
