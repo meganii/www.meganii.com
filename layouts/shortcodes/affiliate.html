@@ -1,0 +1,16 @@
+<div class="booklink-box">
+	<div class="booklink-image">
+	<a href={{ .Get "amazonlUrl" }}><img src="{{ .Get "img" }}" /></a>
+	</div>
+	<div class="booklink-info">
+		<div class="booklink-name">
+			<a href="{{ .Get "amazonlUrl" }}">{{ .Get "title" }}</a>
+		</div>
+		<div class="shoplinkamazon">
+			<a href="{{ .Get "amazonUrl" }}">Amazonで買う</a>
+		</div>
+		<div class="shoplinkrakuten">
+			<a href="{{ .Get "rakutenUrl" }}">楽天で買う</a>
+		</div>
+	</div>
+</div>
