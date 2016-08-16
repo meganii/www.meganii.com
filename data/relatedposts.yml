@@ -1201,7 +1201,7 @@ Url:
       title: "さくらVPSにDropboxをインストール"
       link: https://meganii.com/blog/2013/05/08/dropbox_cui/
     8:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     9:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
@@ -1303,7 +1303,7 @@ Url:
       title: "sublime-vim"
       link: https://meganii.com/blog/2013/05/28/sublime-vim/
     8:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     9:
       title: "NetBIOSとは？"
@@ -1665,7 +1665,7 @@ Url:
       title: "Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー"
       link: https://meganii.com/blog/2015/07/25/capybara-connect-error/
     10:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     11:
       title: "初めての沖縄"
@@ -1725,7 +1725,7 @@ Url:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
       link: https://meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
     6:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     7:
       title: "XPathでの属性値の取得"
@@ -1796,7 +1796,7 @@ Url:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
       link: https://meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
     6:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     7:
       title: "XPathでの属性値の取得"
@@ -1876,7 +1876,7 @@ Url:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
       link: https://meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
     5:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     6:
       title: "Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー"
@@ -2235,7 +2235,7 @@ Url:
       title: "2台目のMacBookAirからさくらVPSへSSH接続を行うための鍵の設定"
       link: https://meganii.com/blog/2013/06/21/ssh-sakuravps/
     6:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     7:
       title: "NetBIOSとは？"
@@ -4091,11 +4091,11 @@ Url:
       title: "Hugoソースコードリーディング〜Taxonomy〜"
       link: https://meganii.com/blog/2015/10/11/hugo-taxonomy/
     18:
-      title: "Circle CIでHugoのデプロイを実行"
-      link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
-    19:
       title: "XPathでの属性値の取得"
       link: https://meganii.com/blog/2014/02/19/xpath-java/
+    19:
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
+      link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     20:
       title: "Swiftで初めてのMacOSXアプリケーション-FFViewer-"
       link: https://meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/
@@ -4443,7 +4443,7 @@ Url:
       title: "Swiftで初めてのMacOSXアプリケーション-FFViewer-"
       link: https://meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/
     25:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     26:
       title: "http/2ベンチマークツール「h2load」をインストール"
@@ -4855,7 +4855,7 @@ Url:
       title: "phonegap-start"
       link: https://meganii.com/blog/2014/02/16/phonegap-start/
     38:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     39:
       title: "carrierwave"
@@ -5318,7 +5318,7 @@ Url:
       title: "念願のAir!! MacBookAir Mid 2013買いました"
       link: https://meganii.com/blog/2013/06/18/macbookair/
     10:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     11:
       title: "vagrant plugin install hostmanager実行時のnokogiriインストールエラーの解決"
@@ -5766,7 +5766,7 @@ Url:
       title: "Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする"
       link: https://meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/
     27:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     28:
       title: "jekyll front matter"
@@ -5845,7 +5845,7 @@ Url:
       title: "Amazonマーケットプレイスで本を出品してみた"
       link: https://meganii.com/blog/2015/10/03/amazon-marketplace/
     18:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     19:
       title: "a random walk down wall street"
@@ -6195,7 +6195,7 @@ Url:
       title: "2台目のMacBookAirからさくらVPSへSSH接続を行うための鍵の設定"
       link: https://meganii.com/blog/2013/06/21/ssh-sakuravps/
     6:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     7:
       title: "Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー"
@@ -6551,6 +6551,9 @@ Url:
     42:
       title: "初めての沖縄"
       link: https://meganii.com/blog/2012/11/29/okinawa/
+    43:
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
+      link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
   2016-01-23-el-capitan-upgrade-error:
     1:
       title: "Lets's Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化"
@@ -6813,7 +6816,7 @@ Url:
       title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
       link: https://meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
     24:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     25:
       title: "D3.jsチュートリアル"
@@ -7198,7 +7201,7 @@ Url:
       title: "Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする"
       link: https://meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/
     34:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     35:
       title: "Happiness"
@@ -7371,7 +7374,7 @@ Url:
       title: "Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー"
       link: https://meganii.com/blog/2015/07/25/capybara-connect-error/
     26:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     27:
       title: "Sublime Text 2にLiveReloadを導入してMarkdown Previewを快適に!!"
@@ -7421,7 +7424,7 @@ Url:
       title: "JekyllからHugoへの移行ポイント"
       link: https://meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/
     3:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     4:
       title: "文書推薦"
@@ -7827,6 +7830,9 @@ Url:
     35:
       title: "PythonでTF-IDFによる文書推薦"
       link: https://meganii.com/blog/2016/08/13/tf-idf-recommendation/
+    36:
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
+      link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
   2016-06-25-self-massage-tool-yawako:
     1:
       title: "晴天のテニスブー春合宿2012！！"
@@ -7996,7 +8002,7 @@ Url:
       title: "さくらVPSにJenkinsインストール"
       link: https://meganii.com/blog/2013/04/11/jenkins/
     24:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     25:
       title: "UTF-8-MACとは何か？〜Jekyllのカテゴリ(タグ)ページで濁点を含むページが表示されない〜"
@@ -8144,11 +8150,11 @@ Url:
       title: "[Effective JavaScript]クロージャ"
       link: https://meganii.com/blog/2016/01/30/effective-javascript-closure/
     34:
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
+      link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
+    35:
       title: "さくらVPSにDropboxをインストール"
       link: https://meganii.com/blog/2013/05/08/dropbox_cui/
-    35:
-      title: "Circle CIでHugoのデプロイを実行"
-      link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     36:
       title: "sqlite3-rubyを使ってSQLite3ファイルからの検索結果をHashとして読み込む"
       link: https://meganii.com/blog/2013/05/18/sqlite3-ruby/
@@ -8225,7 +8231,7 @@ Url:
       title: "文書推薦"
       link: https://meganii.com/blog/2016/08/12/recommend-engine/
     3:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     4:
       title: "Jekyllでページ分割する -pagenation-"
@@ -8289,7 +8295,7 @@ Url:
       title: "Hugo-ZenをベースにHugoのデザインを変えてみた"
       link: https://meganii.com/blog/2016/04/17/hugo-zen/
     3:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     4:
       title: "「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。"
@@ -8392,7 +8398,7 @@ Url:
       title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
       link: https://meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
     31:
-      title: "Circle CIでHugoのデプロイを実行"
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
   2016-08-15-circle-ci-hugo-deploy:
     1:
@@ -8438,11 +8444,11 @@ Url:
       title: "さくらVPSにJenkinsインストール"
       link: https://meganii.com/blog/2013/04/11/jenkins/
     15:
-      title: "abコマンド実行時のエラーを回避する"
-      link: https://meganii.com/blog/2013/05/27/benchmark-apache/
-    16:
       title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
       link: https://meganii.com/blog/2016/07/18/installing-h2o-with-ansible/
+    16:
+      title: "abコマンド実行時のエラーを回避する"
+      link: https://meganii.com/blog/2013/05/27/benchmark-apache/
     17:
       title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
       link: https://meganii.com/blog/2015/05/10/middleman-multiple-blogs/
@@ -8453,14 +8459,20 @@ Url:
       title: "[Effective JavaScript]クロージャ"
       link: https://meganii.com/blog/2016/01/30/effective-javascript-closure/
     20:
-      title: "JekyllからHugoへの移行ポイント"
-      link: https://meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/
-    21:
       title: "「システムインテグレーション崩壊」を読んで生存戦略を考える"
       link: https://meganii.com/blog/2015/08/31/system-integrators-collapse/
+    21:
+      title: "JekyllからHugoへの移行ポイント"
+      link: https://meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/
     22:
       title: "Electron + Mithril.jsでFlickrアプリを作成する"
       link: https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/
     23:
       title: "PythonでTF-IDFによる文書推薦"
       link: https://meganii.com/blog/2016/08/13/tf-idf-recommendation/
+    24:
+      title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
+      link: https://meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
+    25:
+      title: "google-api-ruby-clientからGoogle Adsense Management APIを操作する方法"
+      link: https://meganii.com/blog/2016/06/05/ruby-google-api-client/
