@@ -1,5 +1,5 @@
 ---
-title: "Circle CIでHugoのデプロイを実行"
+title: "Circle CIでHugoのビルド・デプロイを実行する"
 date: 2016-08-15T15:53:59+09:00
 comments: true
 category: ['Tech']
@@ -21,9 +21,9 @@ img: https://qiita-image-store.s3.amazonaws.com/0/10564/f19fddc1-3b74-2798-9e5a-
 
 ## 実現したいこと
 
-Githubのリポジトリに、git pushした後、以下の作業をCIで実現する。
+Githubのリポジトリに、git pushした後、以下の作業をCIで実現したい。
 
-- (事前準備) TF-TDFに
+- (事前準備) TF-TDFに食わせるためのファイル生成
 - TF-IDFで関連記事生成
 - Hugo build
 - さくらVPSにrsync
