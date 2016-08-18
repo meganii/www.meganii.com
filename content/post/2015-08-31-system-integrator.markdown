@@ -11,9 +11,11 @@ img: "https://images-na.ssl-images-amazon.com/images/I/51pplTGqXXL._SL160_.jpg"
 
 ぼくらは、どこへ向かえばよいのか？生存戦略を考える。
 
-何を書きたいか？
-生存戦略を見つめなおす。
-どこへ向かうべきか？僕はどこへ向かおうとしていたのか？
+## 本書から何を得たいか？
+
+- 生存戦略を見つめなおす。
+- どこへ向かうべきか？
+- 自分はどこへ向かおうとしていたのか？
 
 <div class="booklink-box"><div class="booklink-image"><a href="http://www.amazon.co.jp/exec/obidos/asin/4774165220/meganii-22/" target="_blank" ><img src="https://images-na.ssl-images-amazon.com/images/I/51pplTGqXXL._SL160_.jpg" style="border: none;" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="http://www.amazon.co.jp/exec/obidos/asin/4774165220/meganii-22/" target="_blank" >システムインテグレーション崩壊 ~これからSIerはどう生き残ればいいか?</a><div class="booklink-powered-date">posted with <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail">斎藤 昌義 技術評論社 2014-06-05    </div><div class="booklink-link2"><div class="shoplinkamazon"><a href="http://www.amazon.co.jp/exec/obidos/asin/4774165220/meganii-22/" target="_blank" >Amazon</a></div><div class="shoplinkkindle"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00KNQC9O6/meganii-22/" target="_blank" >Kindle</a></div><div class="shoplinkrakuten"><a href="http://hb.afl.rakuten.co.jp/hgc/13e181b2.b5761023.13e181b3.cbc7b217/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12786112%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F" target="_blank" >楽天ブックス</a></div>                  	  	  	  <div class="shoplinktoshokan"><a href="http://calil.jp/book/4774165220" target="_blank" >図書館</a></div></div></div><div class="booklink-footer"></div></div>
 
@@ -21,6 +23,7 @@ img: "https://images-na.ssl-images-amazon.com/images/I/51pplTGqXXL._SL160_.jpg"
 {{% googleadsense %}}
 
 ## 収益モデル
+
 - サブスクリプション(月額定額)
 - レベニューシェア
 - 成果報酬
@@ -31,22 +34,22 @@ SIビジネスには、以下2パターンある。
 1. 収益モデルとしてのSIビジネス
 2. 顧客価値としてのSIビジネス
 
-ここでいう、崩壊する「システムインテグレーション」とは、「1. 収益モデルとしてのSIビジネス」であり、これは、人月で金額を確定させ、瑕疵担保責任を負うビジネスのこと。
+本書で述べている『崩壊する「システムインテグレーション」』とは、「1. 収益モデルとしてのSIビジネス」です。このビジネスモデルは、人月で金額を確定させ、顧客のシステム開発に対して瑕疵担保責任を負うことで成り立っています。
 
 
-顧客側は、出来るだけ多くの要求を盛り込もうとするが、引き受けたベンダは、できるだけ要求を少なくしてリスクを少なくしたい。システム開発を行うベンダと、顧客が同じゴールを向いてない、お互いが不幸になる。
+顧客側は、出来るだけ多くの要求を盛り込もうとしますが、引き受けたベンダはできるだけ要求を少なくしてリスクを少なくしたいという思惑があります。システム開発のスタートラインからして、ベンダと顧客が同じゴールを向いていないため、お互いが不幸になってしまいます。
 
-では、どんなSIビジネスに展開していけばよいのか？どんなSIビジネスなら、未来はあるのだろうか？
-
-
-それは、「顧客価値と事業者価値を一致させるビジネス」である。
+では、どんなSIビジネスを展開していけばよいのでしょうか？どんなSIビジネスなら、未来はあるのでしょうか？
 
 
+それは、*「顧客価値と事業者価値を一致させるビジネス」* です。
 
-システムインテグレーションの本来の役割とは、「テクノロジーを使ってお客様のビジネス価値を高めること」
 
 
-それが、いつのまにか「情報システムを作ること」に目的がすり変わっていないだろうか
+システムインテグレーションの本来の役割は、「テクノロジーを使ってお客様のビジネス価値を高めること」です。
+
+
+それが、いつのまにか「情報システムを作ること」に目的がすり変わっていないでしょうか？
 
 
 ## 新規事業の考え
