@@ -39,6 +39,25 @@ git pushでブログデプロイ
 [uraway/react\-markdown\-editor: React \+ Electron = Markdown Editor](https://github.com/uraway/react-markdown-editor)
 
 
+### Drag & Drop
+
+デフォルトのままだと、ファイルをDrag & Dropするとそのファイル自身をWebViewで表示する挙動となるため、以下のように、デフォルトの挙動を書き換える必要がある。
+
+```javascript
+    const holder = document.getElementById('input');
+    holder.ondragover = () => { return true; };
+    holder.ondragleave = holder.ondragend = () => { return false; };
+    holder.ondrop = (e) => {
+      e.preventDefault();
+      const file = e.dataTransfer.files[0];
+      console.log('File Path:', file.path);
+      ipcRenderer.send('upload', file.path);  // file upload
+      return false;
+    };
+
+```
+
+
 ## 苦労したところ
 
 ### Flickr認証
@@ -47,6 +66,8 @@ git pushでブログデプロイ
 
 [Flickr Services](https://www.flickr.com/services/api/auth.oauth.html)
 ひたすら、このページを見ながら格闘しました。いつもはライブラリを使って終わりのところでしたが、なかなかうまく行かず、必死にリクエストを試行錯誤しながら作成しました。
+
+
 
 ### split-pane
 
@@ -66,3 +87,5 @@ git pushでブログデプロイ
 - ファイル操作周りの実装
 - アイコンをつくる
 - frontformatterはメタ情報としてそれっぽく表示させる
+- ファイルツリーの表示
+- シンタックスハイライト(Aceエディタの導入)
