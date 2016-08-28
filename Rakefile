@@ -8,7 +8,6 @@ new_post_ext    = "markdown"  # default new post file extension when using the n
 
 desc "deploy to sakura from circle ci"
 task :deploy_to_sakura_from_circleci do
-  sh 'rm -r public'
   sh 'hugo -t hugo-zen'
   sh 'mv public/category public/blog'
   sh 'mv public/tags public/blog'
