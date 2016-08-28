@@ -23,7 +23,7 @@ img: "https://farm9.staticflickr.com/8537/29243326176_ea1c871651_s.jpg"
 
 [Ace \- The High Performance Code Editor for the Web](https://ace.c9.io/#nav=about)
 
-Aceとは、JavaScriptのライブラリで、高機能なエディタを提供している。エディタに組み込むためには、以下のnpmライブラリを組み込めば良い。
+Aceとは、JavaScriptのライブラリで、高機能なエディタを提供している。自分のアプリケーションのエディタとして組み込むためには、以下のnpmライブラリを組み込めば良い。
 
 [https://www.npmjs.com/package/brace](https://www.npmjs.com/package/brace)
 
@@ -44,7 +44,7 @@ editor.setTheme('ace/theme/monokai');
 
 ### React+Reduxの例
 
-id `editor`のエレメントに対してAce Editorを有効にする。
+以下は、id `editor`のエレメントに対してAce Editorを有効にする例です。
 
 ```javascript
 class Editor extends Component {
@@ -101,4 +101,21 @@ class Editor extends Component {
     }
   }
 ```
+
+Ctrl+Pでのカーソル移動が効かない問題に対処するために、以下の設定を追加している。
+
+```
+    if(process.platform == 'darwin') { // Ctrl+Pが効かない問題に対処
+        this.editor.commands.bindKey("Ctrl-P", "golineup");
+    }
+```
+
+## 参考
+
+- [テキストエディターを作ってElectronの基礎を学ぼう！ HTML5でPCアプリ開発入門](https://ics.media/entry/8401)
+
+
+
+
+
 
