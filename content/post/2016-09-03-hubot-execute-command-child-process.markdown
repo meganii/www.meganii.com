@@ -6,9 +6,12 @@ category: ['Tech']
 tags: ['Hubot','JavaScript']
 published: true
 slug: hubot-execute-command-child-process
-img: 
+img: "https://farm9.staticflickr.com/8168/28820861054_3f40884614_z.jpg"
 
 ---
+
+![slack](https://farm9.staticflickr.com/8168/28820861054_3f40884614_z.jpg)
+
 
 Node.jsで外部コマンドを実行するために、`Child Process`を利用する。
 
