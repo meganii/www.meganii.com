@@ -1,33 +1,15 @@
-<div id="ranklet-10307"></div><script src="//tracker.iws.vc/v1/ranklet/s3/widgets/10307/widget.js"></script>
-<!-- <ul class="list-unstyled urllist">
+<!-- <div id="ranklet-10307"></div><script src="//tracker.iws.vc/v1/ranklet/s3/widgets/10307/widget.js"></script> -->
+
+{{ $dataJ := getJSON "https://api.meganii.com/" }}
+<ul class="list-unstyled urllist">
+{{ range first 5 $dataJ.rows }}
   <li>
     <div>
-  <a href="/blog/2014/02/22/wedding-movie-motion5/" title="evernote by meganii, on Flickr"><img class="urllist-img" src="https://farm4.staticflickr.com/3758/12878786213_afab3820c4_s.jpg" width="75" height="75" alt="iMovie Motion5"></a>
-      <a href="/blog/2014/02/22/wedding-movie-motion5/">iMovieとMotion5で作る結婚式余興ムービー</a>
+      <a href="{{ index . 1 }}">
+        <img class="urllist-img" src="{{ index . 2 }}" width="75" height="75" />
+      </a>
+      <a href="{{ index . 1 }}">{{ index . 0 }}</a>
     </div>
   </li>
-  <li>
-    <div>
-      <a href="/blog/2014/11/16/fountain-pen-cleaning/" title="image by meganii, on Flickr"><img class="urllist-img" src="https://farm8.staticflickr.com/7491/15800656071_6da29ae104_s.jpg" width="75" height="75" alt="万年筆Lamy safari"></a>
-      <a href="/blog/2014/11/16/fountain-pen-cleaning/">万年筆LAMY safariのインク洗浄・交換</a>
-    </div>
-  </li>
-  <li>
-    <div>
-      <a href="/blog/2013/05/07/yakushima/" title="20130502151754 by meganii, on Flickr"><img class="urllist-img" src="https://farm8.staticflickr.com/7436/8714845801_c24116dce0_s.jpg" width="75" height="75" alt="屋久島旅行記"></a>
-      <a href="/blog/2013/05/07/yakushima/">晴れの屋久島。雨の屋久島。屋久島旅行記</a>
-    </div>
-  </li>
-  <li>
-    <div>
-      <a href="/blog/2015/08/17/rising-sun-festival-2015/" title="20130502151754 by meganii, on Flickr"><img class="urllist-img" src="https://farm1.staticflickr.com/592/20653177685_d5acc4460a_q.jpg" width="75" height="75" alt="屋久島旅行記"></a>
-      <a href="/blog/2015/08/17/rising-sun-festival-2015/">初めてのテント泊ライブ。初めてのRISING SUN ROCK FESTIVAL 2015(ライジングサン)</a>
-    </div>
-  </li>
-  <li>
-    <div>
-      <a href="/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/" title="20130502151754 by meganii, on Flickr"><img class="urllist-img" src="https://images-na.ssl-images-amazon.com/images/I/51pl3HrLCjL._SL160_.jpg" width="75" height="75" alt="屋久島旅行記"></a>
-      <a href="/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/">[SQL実践入門]結合のアルゴリズム Nested Loops, Hash, Sort Merge</a>
-    </div>
-  </li>
-</ul> -->
+{{ end }}
+</ul>
