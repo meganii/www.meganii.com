@@ -1,15 +1,34 @@
 ---
-title: "hugo data driven content for polupar posts"
+title: "Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentsを試してみた"
 date: 2016-09-06T07:21:53+09:00
 comments: true
 category: ['Tech']
-tags: ['Python','']
+tags: ['Python','Hugo']
 published: false
 slug: hugo-data-driven-content-for-polupar-posts
 img: 
 ---
 
 Hugo Data-Driven Contentを試してみる。
+
+
+## 目的
+
+- サイドバーの人気記事をJavascriptを利用せずに、表示できるようにしたい。
+- 脱サードパーティアプリ。
+
+## 対応方法
+
+1. Hugo Data Files を利用する
+2. Hugo Data-driven contents を利用する
+
+一つ目のData Filesは、関連記事表示の際に利用した。
+
+
+
+Google Analyticsから情報を取得し、その結果を加工してJSONを返すAPIサーバを作る。
+
+そのAPIをHugoからDa
 
 
 ## JSONを返すAPIサーバを立てる
@@ -59,6 +78,7 @@ if __name__ == "__main__":
 
 ## デーモン化
 
-pm2
+Hubotをデーモン化したときに利用した`pm2`を使用した。Node.js用のデーモン化ツールと思っていたがそのほかの言語でも利用できたことがわかった。
+取り急ぎ、pm2で対応した。
 
 [http://pm2.keymetrics.io/docs/usage/quick-start/](http://pm2.keymetrics.io/docs/usage/quick-start/)
