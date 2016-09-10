@@ -6,7 +6,7 @@ category: ['Tech']
 tags: ['hugo']
 slug: hugo-taxonomy
 published: true
-img: "https://farm6.staticflickr.com/5741/23486283416_07bf2b94bc.jpg"
+img: "/images/hugo_s.png"
 ---
 
 ## 目的

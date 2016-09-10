@@ -6,7 +6,7 @@ category: ['Tech']
 tags: ['CircleCI','blog', 'hugo']
 published: true
 slug: circle-ci-nightly-build
-img: '/images/hugo.png'
+img: '/images/hugo_s.png'
 
 ---
 

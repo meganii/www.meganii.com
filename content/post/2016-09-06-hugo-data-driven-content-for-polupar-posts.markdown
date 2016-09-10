@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Python','Hugo']
 published: true
 slug: hugo-data-driven-content-for-polupar-posts
-img: '/images/hugo.png'
+img: '/images/hugo_s.png'
 
 ---
 

@@ -6,7 +6,7 @@ category: ['Tech']
 tags: ['jekyll','hugo']
 published: true
 slug: migration-jekyll-to-hugo
-img: "https://farm6.staticflickr.com/5741/23486283416_07bf2b94bc.jpg"
+img: "/images/hugo_s.png"
 ---
 
 Hugoが爆速であること、HugoがGolangで作られていて読みながら勉強したいという理由からJekyllからHugoに移行することにした。
