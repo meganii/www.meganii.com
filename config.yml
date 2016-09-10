@@ -4,6 +4,8 @@ title: "SIS Lab"
 permalinks:
   post: "/blog/:year/:month/:day/:slug/"
 
+rssuri: "feed.xml"
+
 Params:
   Author: "meganii"
   Birth: "Sun, March 3, 1988"
