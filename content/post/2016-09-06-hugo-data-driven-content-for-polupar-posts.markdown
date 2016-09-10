@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Python','Hugo']
 published: true
 slug: hugo-data-driven-content-for-polupar-posts
-img: 
+img: '/images/hugo.png'
 
 ---
 
@@ -127,9 +127,3 @@ Hubotをデーモン化したときに利用した`pm2`を使用した。Node.js
 Pythonで簡単に、APIサーバを構築して、静的サイトジェネレータで、動的にサイトを生成できた。
 
 後は、Circle CIに組み込めば、git push したときに人気記事を読込直して生成してくれる。
-
-
-
-
-
-

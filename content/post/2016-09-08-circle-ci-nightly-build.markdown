@@ -6,7 +6,7 @@ category: ['Tech']
 tags: ['CircleCI','blog', 'hugo']
 published: true
 slug: circle-ci-nightly-build
-img: 
+img: '/images/hugo.png'
 
 ---
 
@@ -37,5 +37,3 @@ curl \
 --request POST https://circleci.com/api/v1/project/meganii/meganii.com/tree/master?circle-token=${_token}
 
 ```
-
-
