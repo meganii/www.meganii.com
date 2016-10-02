@@ -6,7 +6,10 @@ category: ['Life']
 tags: ['革靴','レザー','scotch grain']
 published: true
 slug: scotch-grain-shine-or-rain
+img: /images/scotchgrain.jpg
 ---
+
+![/images/scotchgrain.jpg](/images/scotchgrain.jpg "スコッチグレイン")
 
 １年ほど前に、初めてScotch Grain(スコッチグレイン)の革靴を買って以来、スコッチグレインの虜になりました。晴れの日には、スコッチグレインの革靴を気分よく履いていけますが、雨の日だとなかなかそうはいきません。
 
