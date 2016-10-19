@@ -1,5 +1,5 @@
 ---
-title: "minimoでカットモデル"
+title: "minomoで初めてのメンズカットモデル"
 date: 2016-10-16T21:45:48+09:00
 comments: true
 category: ['Life']
@@ -74,7 +74,7 @@ img: "https://c5.staticflickr.com/6/5589/30324509396_9e63960c57_t.jpg"
 美容院からすると、カットモデルでお店を提供して、雰囲気を知ってもらい、次からは通常料金でも来てくれるお客さんをつかむことができる。
 ユーザからすると、安く髪を切ってもらえる。
 
-と、みんなハッピーになりそうなWebサービスです。
+と、みんなハッピーになりそうなWebサービスです。 
 
 <a href="https://itunes.apple.com/jp/app/puchipurade-mei-rong-shi-neiru/id719858778?mt=8&at=1l3vpSH&ct=E27k4H" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/images/badges/ja-jp/badge_appstore-lrg.svg) no-repeat;width:165px;height:40px;"></a>
 
