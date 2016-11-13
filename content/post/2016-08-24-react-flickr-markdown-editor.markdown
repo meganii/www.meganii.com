@@ -2,7 +2,7 @@
 
 title: "React + ElectronでFlickr連携可能なMarkdown Editorを作った"
 date: 2016-08-24T21:21:06+09:00
-lastmod: 2016-10-22T21:03:06+09:00
+lastmod: 2016-11-13T23:27:37+09:00
 comments: true
 category: ['Tech']
 tags: ['Electron','JavaScript']
@@ -98,4 +98,5 @@ git pushでブログデプロイ
 - スクロールバーの同期(Editor部分をスクロールすれば、Previewも合わせて動くように変更する)
 - iPhoneアプリとしても作成する
 - 保存した日時を`lastmod`としてfrontmatterに追加・更新する
+- ファイルのドラッグ＆ドロップで、保存先をFlickrか、ローカルか選択可能にする
 
