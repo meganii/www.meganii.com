@@ -6,7 +6,11 @@
   <li>
     <div>
       <a href="{{ index . 1 }}">
-        <img class="urllist-img" src="{{ index . 2 }}" width="75" height="75" />
+        {{ $src := (index . 2) }}
+        {{ if isset $src "h"}}
+        <img class="urllist-img" src="{{ $src }}" width="75" height="75" />
+        <!-- <img class="urllist-img" src="/images/nopicture.png" width="75" height="75" /> -->
+        {{ end }}
       </a>
       <a href="{{ index . 1 }}">{{ index . 0 }}</a>
     </div>
