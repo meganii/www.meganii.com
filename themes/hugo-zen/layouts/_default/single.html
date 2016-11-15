@@ -4,7 +4,13 @@
 	<main role="main" class="nine columns">
 		<article itemscope itemtype="http://schema.org/BlogPosting">
 			<h1 class="entry-title" itemprop="headline">{{ .Title }}</h1>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time></span>
+			<span class="entry-meta">
+				<i class="fa fa-clock-o" aria-hidden="true"> </i>
+				<time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+			</span>
+			<span class="entry-meta">
+				<i class="fa fa-refresh" aria-hidden="true"> </i>
+				<time itemprop="dateModified" datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2006-01-02" }}</time></span>
 			<section id="post" itemprop="entry-text">
 				{{ .Content }}
 			</section>
