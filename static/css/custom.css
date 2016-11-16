@@ -49,6 +49,7 @@ blockquote{
   padding:1em 1em 1em 3em;
   position:relative;
   border-left:3px solid #333;
+  margin: 0;
 }
 blockquote:before{
   content:"“";
