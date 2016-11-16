@@ -1,15 +1,14 @@
 <!-- <div id="ranklet-10307"></div><script src="//tracker.iws.vc/v1/ranklet/s3/widgets/10307/widget.js"></script> -->
 
-{{ $dataJ := getJSON "https://api.meganii.com/" }}
+{{ $dataJ := getJSON "https://api.meganii.com" }}
 <ul class="list-unstyled urllist">
 {{ range first 5 $dataJ.rows }}
   <li>
     <div>
       <a href="{{ index . 1 }}">
         {{ $src := (index . 2) }}
-        {{ if isset $src "h"}}
+        {{ if ne $src "" }}
         <img class="urllist-img" src="{{ $src }}" width="75" height="75" />
-        <!-- <img class="urllist-img" src="/images/nopicture.png" width="75" height="75" /> -->
         {{ end }}
       </a>
       <a href="{{ index . 1 }}">{{ index . 0 }}</a>
