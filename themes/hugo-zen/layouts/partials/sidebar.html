@@ -23,6 +23,11 @@
     {{ partial "sidebar_tech.html" . }}
   {{ end }}
 
+  <!-- World Cafe -->
+  {{ if in .Params.tags "ワールド・カフェ" }}
+    {{ partial "sidebar_worldcafe.html" . }}
+  {{ end }}
+
   <section class="sidebar-module">
     <h2>Latest</h2>
     <ul class="list-unstyled urllist">
