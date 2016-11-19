@@ -1,10 +1,10 @@
 ---
-
 title: "「ワールド・カフェをやろう！」の事例からからみる目的と問い"
 date: 2015-07-05T20:46:00+09:00
+lastmod: 2016-11-19T13:17:48+09:00
 comments: true
-category: ['Facilitation']
-tags: ['ファシリテーション','ワールドカフェ']
+category: ['Life']
+tags: ['ファシリテーション','ワールド・カフェ']
 published: true
 img: "https://images-na.ssl-images-amazon.com/images/I/41Xz5nbHwbL._SL160_.jpg"
 slug: world-cafe-case
@@ -104,10 +104,3 @@ slug: world-cafe-case
 実施した結果得られることとして、さまざまな意見を言い合うことにより、価値観が共有され、組織としてコミュニケーションが取れるようになったという。
 
 どのワールドカフェの事例でも、開始前にはアイスブレイクで、参加者の緊張を解いて、スムーズに対話に入れるように工夫をしていた。(自己紹介、チェックイン、ワークライフバランスの天秤などのワーク)
-
-
-
-
-
-
-

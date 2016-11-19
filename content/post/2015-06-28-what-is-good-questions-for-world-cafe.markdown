@@ -4,7 +4,7 @@ date: 2015-06-28T11:27:00+09:00
 lastmod: 2016-11-19T13:08:09+09:00
 comments: true
 category: ['Life']
-tags: ['world cafe','ファシリテーション']
+tags: ['ワールド・カフェ','ファシリテーション']
 published: true
 img: "https://images-na.ssl-images-amazon.com/images/I/51HYAe3SrUL._SL160_.jpg"
 slug: what-is-good-questions-for-world-cafe

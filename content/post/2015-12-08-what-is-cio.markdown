@@ -9,8 +9,6 @@ slug: what-is-cio
 img: "https://images-na.ssl-images-amazon.com/images/I/51w%2BZNeyQuL._SL160_.jpg"
 ---
 
-{{% googleadsense %}}
-
 <div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4761265086/meganii-22/ref=nosim/" target="_blank" ><img src="https://images-na.ssl-images-amazon.com/images/I/51w%2BZNeyQuL._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4761265086/meganii-22/ref=nosim/" target="_blank" >CIO(最高情報責任者)の新しい役割</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">岩崎 尚子 かんき出版 2008-04-08    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="display:inline;margin-right:5px"><a href="http://www.amazon.co.jp/gp/search?keywords=CIO&__mk_ja_JP=%83J%83%5E%83J%83i&tag=meganii-22" target="_blank" >Amazon</a></div><div class="shoplinkrakuten" style="display:inline;margin-right:5px"><a href="http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FCIO%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F" target="_blank" >楽天市場</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
 
 
@@ -21,6 +19,8 @@ img: "https://images-na.ssl-images-amazon.com/images/I/51w%2BZNeyQuL._SL160_.jpg
 - CIOってそもそも何の略？
 - 何をする人なの？
 
+
+{{% googleadsense %}}
 
 ## CIO (Chief Information Officer)とは？
 

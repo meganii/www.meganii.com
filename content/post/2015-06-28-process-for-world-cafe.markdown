@@ -4,20 +4,21 @@ title: "ワールド・カフェのプロセス"
 date: 2015-06-28T12:06:00+09:00
 comments: true
 category: ['Life']
-tags: ['ファシリテーション']
+tags: ['ファシリテーション','ワールド・カフェ']
 published: true
 img: "https://images-na.ssl-images-amazon.com/images/I/41Xz5nbHwbL._SL160_.jpg"
 slug: process-for-world-cafe
 ---
-
-
-{{% googleadsense %}}
 
 ## ワールド・カフェの標準プロセス
 
 ### 第1ラウンド テーマについて探求する
 
 参加者が4〜5名ずつのグループに分かれて、テーブルの上の模造紙に、話した内容を落書き(ラフに書きながら)しながら会話をする。
+
+
+{{% googleadsense %}}
+
 
 ### 第2ラウンド アイデアを他花受粉する
 

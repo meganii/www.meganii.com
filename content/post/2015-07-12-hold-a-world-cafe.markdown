@@ -3,8 +3,8 @@ title: "ワールド・カフェをやってみて"
 date: 2015-07-12T22:16:00+09:00
 lastmod: 2016-11-19T11:46:21+09:00
 comments: true
-category: ['Facilitation']
-tags: ['ワールドカフェ','ファシリテーション']
+category: ['Life']
+tags: ['ワールド・カフェ','ファシリテーション']
 published: true
 img: "https://images-na.ssl-images-amazon.com/images/I/41Xz5nbHwbL._SL160_.jpg"
 slug: hold-a-world-cafe
