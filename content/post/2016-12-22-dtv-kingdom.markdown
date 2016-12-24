@@ -6,7 +6,7 @@ comments: true
 category: ['Life']
 tags: ['dTV','動画配信サービス','キングダム','Chromecast']
 published: true
-slug: dtv
+slug: dtv-kingdom
 img: https://images-fe.ssl-images-amazon.com/images/I/612c4BSDSAL._SL160_.jpg
 ---
 
