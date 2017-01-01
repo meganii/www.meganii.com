@@ -1,8 +1,27 @@
-baseurl: "https://meganii.com/"
-languageCode: "ja"
+DefaultContentLanguage: "ja"
+
 title: "SIS Lab"
+baseURL: "https://meganii.com/"
 permalinks:
-  post: "/blog/:year/:month/:day/:slug/"
+  blog: "/blog/:year/:month/:day/:slug/"
+
+Languages:
+  ja:
+    lang: ""
+    title: "SIS Lab"
+    description: "元じょーぶん生によるメーカー系SIerブログ。趣味のプログラミング、旅行。日々、学んだことについて書きます。"
+  en:
+    lang: "en/"
+    title: "SIS Lab"
+    description: "English desc"
+    weight: 2
+    params:
+      linkedin: "english-link"
+    permalinks:
+      blog: "/blog/en/:year/:month/:day/:slug/"
+
+contentDir: "content"
+publishDir: "public"
 
 rssuri: "feed.xml"
 

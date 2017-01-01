@@ -54,7 +54,7 @@
 
 		<div class="u-cf"></div>
 
-		{{ $baseurl := .Site.BaseURL }}
+		{{ $baseurl := add .Site.BaseURL .Site.Params.lang}}
 		<section id="related">
 			<h2>Related Post</h2>
 			<div id="tags">

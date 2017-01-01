@@ -7,10 +7,10 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/normalize.css">
-<link rel="stylesheet" href="/css/skeleton.css">
-<link rel="stylesheet" href="/css/custom.css">
-<link rel="alternate" href="/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
+<link rel="stylesheet" href="{{.Site.BaseURL}}/css/normalize.css">
+<link rel="stylesheet" href="{{.Site.BaseURL}}/css/skeleton.css">
+<link rel="stylesheet" href="{{.Site.BaseURL}}/css/custom.css">
+<link rel="alternate" href="{{.Site.BaseURL}}/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
 <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
 <link rel="shortcut icon" href="/images/favicons/favicon.ico" type="image/vnd.microsoft.icon">
 <link rel="icon" href="/images/favicons/favicon.ico" type="image/vnd.microsoft.icon">
@@ -76,15 +76,18 @@
 
 	<header role="banner">
 		<div class="header-logo">
-			<a href="/"></a><h1 class="site-title"><a href="/"> <i class="fa fa-laptop"></i> SIS Lab</a></h1>
-			<p>元じょーぶん生によるメーカー系SIerブログ。趣味のプログラミング、旅行。日々、学んだことについて書きます。</p>
+			<a href="{{.Site.BaseURL}}{{.Site.Params.lang}}/"></a><h1 class="site-title"><a href="{{.Site.BaseURL}}{{.Site.Params.lang}}/"> <i class="fa fa-laptop"></i> SIS Lab</a></h1>
+			<p>{{ .Site.Params.description }}</p>
 		</div>
 		<ul class="nav">
-			<li class="nav__item"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+			{{ $baseurl := add .Site.BaseURL .Site.Params.lang }}
+			<li class="nav__item"><a href="{{$baseurl}}"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
 			<!-- <li class="nav__item"><a href="/about">About</a></li> -->
-			<li class="nav__item"><a href="/blog/category/tech"><i class="fa fa-terminal" aria-hidden="true"></i>   Tech</a></li>
-			<li class="nav__item"><a href="/blog/category/book"><i class="fa fa-book" aria-hidden="true"></i> Book</a></li>
-			<li class="nav__item"><a href="/blog/category/travel"><i class="fa fa-plane" aria-hidden="true"></i> Travel</a></li>
+			<li class="nav__item"><a href="{{$baseurl}}blog/category/tech"><i class="fa fa-terminal" aria-hidden="true"></i>   Tech</a></li>
+			{{ if eq .Lang "ja" }}
+			<li class="nav__item"><a href="{{$baseurl}}blog/category/book"><i class="fa fa-book" aria-hidden="true"></i> Book</a></li>
+			<li class="nav__item"><a href="{{$baseurl}}blog/category/travel"><i class="fa fa-plane" aria-hidden="true"></i> Travel</a></li>
+			{{ end }}
 		</ul>
 		<hr class="nav__hr" />
 	</header>

@@ -3,7 +3,7 @@ require "bundler/setup"
 require "stringex"
 
 
-posts_dir       = "content/post/"    # directory for blog files
+posts_dir       = "content/blog/"    # directory for blog files
 new_post_ext    = "markdown"  # default new post file extension when using the new_post task
 
 desc "deploy to sakura from circle ci"
@@ -92,7 +92,7 @@ task :merge_filename do
   require 'yaml'
   require 'date'
   File.open('tmp/filenamelist.txt', 'w') do |wf|
-    Dir.glob('content/post/*.*').each do |file|
+    Dir.glob("#{posts_dir}*.*").each do |file|
       File.open(file) do |f|
         content = f.read()
         if content =~ /\A(---\s*\n.*?\n?)^(---\s*$\n?)/m
