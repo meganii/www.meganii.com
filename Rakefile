@@ -69,7 +69,7 @@ task :merge_contents do
   require 'sanitize'
 
   File.open('tmp/contents.txt', 'w') do |wf|
-    Dir.glob('content/post/*.*').each do |file|
+    Dir.glob("#{posts_dir}*.*").each do |file|
       File.open(file, 'r') do |f|
         content = f.read()
         if content =~ /\A(---\s*\n.*?\n?)^(---\s*$\n?)/m
