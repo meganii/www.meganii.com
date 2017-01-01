@@ -54,12 +54,13 @@
 
 		<div class="u-cf"></div>
 
-		{{ $baseurl := add .Site.BaseURL .Site.Params.lang}}
+		{{ $baseurl := add .Site.BaseURL .Site.Params.lang }}
+		{{ $lang := .Site.Params.lang }}
 		<section id="related">
 			<h2>Related Post</h2>
 			<div id="tags">
 				{{ range .Params.tags }}
-				<a href="{{ $baseurl }}blog/tags/{{ . | urlize }}"><i class="fa fa-tags"></i> {{ . }} </a>
+				<a href="{{ $baseurl }}{{ $lang }}blog/tags/{{ . | urlize }}"><i class="fa fa-tags"></i> {{ . }} </a>
 				{{ end }}
 			</div>
 			<ul id="related-posts">

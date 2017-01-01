@@ -80,13 +80,12 @@
 			<p>{{ .Site.Params.description }}</p>
 		</div>
 		<ul class="nav">
-			{{ $baseurl := add .Site.BaseURL .Site.Params.lang }}
-			<li class="nav__item"><a href="{{$baseurl}}"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+			<li class="nav__item"><a href="{{.Site.BaseURL}}{{.Site.Params.lang}}"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
 			<!-- <li class="nav__item"><a href="/about">About</a></li> -->
-			<li class="nav__item"><a href="{{$baseurl}}blog/category/tech"><i class="fa fa-terminal" aria-hidden="true"></i>   Tech</a></li>
+			<li class="nav__item"><a href="{{.Site.BaseURL}}{{.Site.Params.lang}}blog/category/tech"><i class="fa fa-terminal" aria-hidden="true"></i>   Tech</a></li>
 			{{ if eq .Lang "ja" }}
-			<li class="nav__item"><a href="{{$baseurl}}blog/category/book"><i class="fa fa-book" aria-hidden="true"></i> Book</a></li>
-			<li class="nav__item"><a href="{{$baseurl}}blog/category/travel"><i class="fa fa-plane" aria-hidden="true"></i> Travel</a></li>
+			<li class="nav__item"><a href="{{.Site.BaseURL}}{{.Site.Params.lang}}blog/category/book"><i class="fa fa-book" aria-hidden="true"></i> Book</a></li>
+			<li class="nav__item"><a href="{{.Site.BaseURL}}{{.Site.Params.lang}}blog/category/travel"><i class="fa fa-plane" aria-hidden="true"></i> Travel</a></li>
 			{{ end }}
 		</ul>
 		<hr class="nav__hr" />
