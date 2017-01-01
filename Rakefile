@@ -49,6 +49,7 @@ task :new_post, :title do |t, args|
     post.puts "---"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
     post.puts "date: #{Time.now.strftime('%Y-%m-%dT%H:%M:%S+09:00')}"
+    post.puts "lastmod: #{Time.now.strftime('%Y-%m-%dT%H:%M:%S+09:00')}"
     post.puts "comments: true"
     post.puts "category: ['']"
     post.puts "tags: ['']"
