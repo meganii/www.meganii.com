@@ -9,8 +9,6 @@ published: true
 slug: how-to-install-sqlplus-in-macosx
 ---
 
-Oracle Express Edition 11gをインストールしたので、SQL*Plusも合わせてインストールする。
-
 ## What is this article
 
 This article explain how to install SQL*Plus after installing Oracle Express Edition 11g.
@@ -63,7 +61,7 @@ export NLS_LANG=American_America.AL32UTF8
 source ~/.bash_profile
 ```
 
-4. Install rlwrap
+4. Installing rlwrap
 
 You can't display command history default. `rlwrap` is able to remember command histories and display them. You can install by `brew` command.
 
