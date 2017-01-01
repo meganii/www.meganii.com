@@ -9,11 +9,13 @@ Languages:
   ja:
     lang: ""
     title: "SIS Lab"
+    profile: "広く浅くから広く深くへ"
     description: "元じょーぶん生によるメーカー系SIerブログ。趣味のプログラミング、旅行。日々、学んだことについて書きます。"
   en:
     lang: "en/"
     title: "SIS Lab"
-    description: "English desc"
+    profile: "I'm Software Engineer in Tokyo."
+    description: "I write programming, traveling, studying in this blog."
     weight: 2
     params:
       linkedin: "english-link"
