@@ -10,7 +10,12 @@
 			</span>
 			<span class="entry-meta">
 				<i class="fa fa-refresh" aria-hidden="true"> </i>
-				<time itemprop="dateModified" datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2006-01-02" }}</time></span>
+				<time itemprop="dateModified" datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2006-01-02" }}</time>
+			</span>
+			<span class="entry-meta">
+				<i class="fa fa-pencil" aria-hidden="true"> </i>
+				<a href="https://github.com/meganii/meganii.com/blob/master/content/{{ .File.Path }}">Edit</a>
+			</span>
 			<section id="post" itemprop="entry-text">
 				{{ .Content }}
 			</section>
