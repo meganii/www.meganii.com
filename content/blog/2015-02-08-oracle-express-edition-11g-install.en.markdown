@@ -28,6 +28,7 @@ I'd like to learn about Oracle, so I installed Oracle 11g Express Edition on Vag
 2. Downloading Oracle Database Express Edition 11g(Host OS)
 3. Installing package for installing Oracle(Guest OS)
 4. Installing Oracle(Guest OS)
+5. Status Check
 
 {{% googleadsense %}}
 
@@ -101,7 +102,7 @@ yum install libaio bc
 ```
 
 
-### hostsファイルにコンピュータ名を追加
+### Adding computer name in hosts file
 
 ```
 vi /etc/hosts
@@ -113,13 +114,12 @@ vi /etc/hosts
 ::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
 ```
 
-コンピュータ名は、`hostname`で得ることができる。
+You can get computer name by `hostname` command.
 
 
+## 4. Installing Oracle(Guest OS)
 
-## 4. Oracleインストール
-
-### rpmによるインストール
+### Installing by rpm
 
 ```
 rpm -ivh oracle-xe-11.2.0-1.0.x86_64.rpm
@@ -133,9 +133,9 @@ Executing post-install steps...
 You must run '/etc/init.d/oracle-xe configure' as the root user to configure the database.
 ```
 
-### 構築
+### Creating database
 
-以下のコマンドを叩いて、databaseを構築する。
+Creating database by the following command.
 
 ```
 /etc/init.d/oracle-xe configure
@@ -171,22 +171,20 @@ Installation completed successfully.
 
 
 
-## 稼働確認
+## 5. Status Check
 
-iptablesを一時的に無効にして、http://192.168.33.10:8080 にアクセスした。
-(IPアドレス192.168.33.10の部分は、Vagrantfileに記載のもの)
+I accessed `http://192.168.33.10:8080` after setting iptables disable.
 
-ユーザ名とパスワードは下記の通り。
+Username and password are the following.
 
-- ユーザ名： system
-- パスワード： インストール時に設定したもの
+- username： system
+- password： setup when installing oracle
 
-
-以下のページが表示されて、Oracleが動いていることがわかる。
+You can access and check oracle work well.
 
 <p><a href="https://www.flickr.com/photos/35571855@N06/16468400201" title="oracle xe installby meganii, on Flickr"><img class="img-responsive" src="https://farm9.staticflickr.com/8640/16468400201_39ccfefbac_z.jpg" alt="oracle xe install"></a></p>
 
-##参考
+## Ref
 - [ swapon /swapfile](https://gist.github.com/koudaiii/0ed6a8558aa297af463e)
 - [linux スワップ（swap）領域の作成](http://kazmax.zpp.jp/linux_beginner/mkswap.html)
 - [http://docs.oracle.com/cd/E11882_01/install.112/e24326/toc.htm#BHCGJCEA](http://docs.oracle.com/cd/E11882_01/install.112/e24326/toc.htm#BHCGJCEA)
