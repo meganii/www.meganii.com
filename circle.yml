@@ -12,8 +12,8 @@ dependencies:
   pre:
     - git config --global user.name "meganii"
     - git config --global user.email "yuhei24@gmail.com"
-    - go get -v github.com/spf13/hugo
-    - pip install --upgrade pip
+    − sudo apt install snapd
+    - snap install hugo
     - sudo apt-get update -qq
     - sudo apt-get install -qq python3-dev
     - >
