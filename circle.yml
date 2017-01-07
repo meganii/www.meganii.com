@@ -12,8 +12,9 @@ dependencies:
   pre:
     - git config --global user.name "meganii"
     - git config --global user.email "yuhei24@gmail.com"
-    - sudo apt-get install snapd
-    - snap install hugo
+    - go get -u -v github.com/kardianos/govendor
+    - go get -u -v github.com/spf13/hugo
+    - cd $GOPATH/src/github.com/spf13/hugo && govendor sync && go install
     - sudo apt-get update -qq
     - sudo apt-get install -qq python3-dev
     - >
