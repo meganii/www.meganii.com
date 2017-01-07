@@ -108,7 +108,12 @@ task :merge_filename do
             next
           end
           date = Date.strptime(data['date'].to_s,"%Y-%m-%d")
-          url = "https://meganii.com/blog/" + date.to_s.gsub("-", "/") + "/" + data['slug'] + "/"
+          url = ""
+          if File.basename(f, ".*").split(".").size > 1
+              url = "https://meganii.com/en/blog/" + date.to_s.gsub("-", "/") + "/" + data['slug'] + "/"
+          else
+              url = "https://meganii.com/blog/" + date.to_s.gsub("-", "/") + "/" + data['slug'] + "/"
+          end
           wf.puts(File.basename(f, ".*") + "\t" + url + "\t\"" + data['title'] + "\"")
         end
       end
