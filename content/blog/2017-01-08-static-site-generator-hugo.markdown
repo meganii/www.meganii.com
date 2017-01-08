@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Hugo']
 published: true
 slug: static-site-generator-hugo
-img: /images/hugo_s.png
+img: "/images/hugo_s.png"
 ---
 
 ## 静的サイトジェネレータ
@@ -27,6 +27,7 @@ img: /images/hugo_s.png
 
 自分の観測範囲だと、Wordpressから静的サイトジェネレータに移行する方が結構いるように思います。
 
+
 ### デメリット
 
 - ユーザのリクエストに対して、動的に表示することができない
@@ -42,15 +43,16 @@ img: /images/hugo_s.png
 
 https://www.staticgen.com/ に静的サイトジェネレータ
 
-| Name       | Language    | URL          |
-|:-----------|:------------|:-------------|
-| Hugo       | Go          | おすすめ　     |
-| Jekyll     | Ruby        |    |
-| Octpas     | Ruby        |    |
-| Middreman  | Ruby        |      be      |
-| Phest      | PHP         | https://github.com/chatwork/Phest    |
-| Metalsmith | |
-| Pelican    | |
+| Name                                              | Language    |                                        |
+|:--------------------------------------------------|:------------|:---------------------------------------|
+| [Hugo](https://gohugo.io/)                        | Go          | おすすめ！                               |
+| [Jekyll](https://jekyllrb.com/)                   | Ruby        | 初めて利用した静的サイトジェネレータ。おすすめ |
+| [Octopress](http://octopress.org/)                | Ruby        | Jekyllを高機能にしたもの |
+| [Middleman](https://middlemanapp.com/jp/)         | Ruby        | Jekyllを高機能にしたもの |
+| [Phest](https://github.com/chatwork/Phest/)       | PHP         | 利用なしのため分からない  |
+| [Hexo](https://hexo.io/)                          | JavaScript  | JavaScriptのフレームワークでよく聞くもの |
+| [Metalsmith](http://www.metalsmith.io/)           | JavaScript  | 利用なしのため分からない  |
+| [pelican](https://github.com/getpelican/pelican/) | Python      | 利用なしのため分からない  |
 
 
 ## Hugoの魅力
@@ -58,4 +60,8 @@ https://www.staticgen.com/ に静的サイトジェネレータ
 - 圧倒的にビルド速度が早い
 - 開発が活発である
 
-静的サイトジェネレータは、Jekyll -> Octpress -> Hugoと使ってきましたが、Hugoはダントツ、圧倒的に生成時間が短いです。
+静的サイトジェネレータは、Jekyll -> Octopress -> Hugoと使ってきましたが、Hugoはダントツ、圧倒的に生成時間が短いです。Hugoにする前は、Jekyll、Octopressを使っていても、生成速度に不満を持ったことはなく、こんなもんかと思ってました。しかし、Hugoに変えたところ、快適すぎてもう元に戻れません。「速さは、正義」。これこそ、Hugoを使うメリットでしょう。
+
+以下のURLを参考すると、やはり`Hugo`がダントツですね。
+
+[静的サイトジェネレータの生成時間比較: 嵐の小舟より](http://tamura.goga.co.jp/article/429818193.html)
