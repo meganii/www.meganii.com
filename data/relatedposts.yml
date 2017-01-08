@@ -254,9 +254,6 @@ Url:
     30:
       title: "ぐだぐだ言ってないでコードを書けよ、自分！ - 「Webサービスのつくり方」"
       link: https://meganii.com/blog/2014/09/04/create-web-service/
-    31:
-      title: "ゼネラリストから「連続スペシャリスト」へ"
-      link: https://meganii.com/blog/2014/11/03/specialist-work-shift/
   2012-04-06-naoshima:
     1:
       title: "連休にこそ初回31日無料のdTVの始めどき！「キングダム」を無料で観る！"
@@ -640,11 +637,11 @@ Url:
       title: "キャリア計画を立てよう！ How Google Works-私たちの働き方とマネジメント-"
       link: https://meganii.com/blog/2014/10/30/how-google-works/
     11:
-      title: "「第4回 リアル・ウォンテッドリー」に行ってきました"
-      link: https://meganii.com/blog/2015/08/04/real-wantedly/
-    12:
       title: "ゼネラリストから「連続スペシャリスト」へ"
       link: https://meganii.com/blog/2014/11/03/specialist-work-shift/
+    12:
+      title: "「第4回 リアル・ウォンテッドリー」に行ってきました"
+      link: https://meganii.com/blog/2015/08/04/real-wantedly/
   2012-07-31-connection:
     1:
       title: "小さい成長。"
@@ -1440,6 +1437,9 @@ Url:
     3:
       title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
       link: https://meganii.com/blog/2015/05/10/middleman-multiple-blogs/
+    4:
+      title: "PythonでTF-IDFによる文書推薦"
+      link: https://meganii.com/blog/2016/08/13/tf-idf-recommendation/
   2013-05-28-vagrant:
     1:
       title: "勉強用に、簡単に作っては壊せる仮想環境をVagrantで構築する"
@@ -1788,9 +1788,6 @@ Url:
       link: https://meganii.com/blog/2013/07/10/logical-thinking/
   2013-07-10-logical-thinking:
     1:
-      title: "モレスキンからミドリMDノートに乗り換え(万年筆の利用、価格の観点)"
-      link: https://meganii.com/blog/2015/03/01/moleskine-to-mdnote/
-    2:
       title: "考えるための考具ってなんだろう？「考具 ―考えるための道具、持っていますか?」"
       link: https://meganii.com/blog/2013/07/04/thinking-tools/
   2013-08-25-north-alpus:
@@ -2464,9 +2461,6 @@ Url:
     10:
       title: "晴天のテニスブー春合宿2012！！"
       link: https://meganii.com/blog/2012/05/18/tennisboo/
-    11:
-      title: "Scotch Grain(スコッチグレイン)の革靴「シャインオアレイン」なら雨の日でも快適通勤！！"
-      link: https://meganii.com/blog/2016/07/23/scotch-grain-shine-or-rain/
   2014-09-03-youtube-responsive:
     1:
       title: "Adsense広告をレスポンシブデザインでPCビュー2つ横並び、モバイル1つにする方法"
@@ -2619,14 +2613,14 @@ Url:
       title: "学びの螺旋にはっと気づく"
       link: https://meganii.com/blog/2012/02/01/learn/
     14:
-      title: "学び方をリファクタリング"
-      link: https://meganii.com/blog/2014/06/26/learning/
-    15:
-      title: "キャリア計画を立てよう！ How Google Works-私たちの働き方とマネジメント-"
-      link: https://meganii.com/blog/2014/10/30/how-google-works/
-    16:
       title: "タスクカフェ@大阪に行ってきました！"
       link: https://meganii.com/blog/2012/05/28/taskcafe/
+    15:
+      title: "学び方をリファクタリング"
+      link: https://meganii.com/blog/2014/06/26/learning/
+    16:
+      title: "キャリア計画を立てよう！ How Google Works-私たちの働き方とマネジメント-"
+      link: https://meganii.com/blog/2014/10/30/how-google-works/
     17:
       title: "アジャイルレトロスペクティブズ"
       link: https://meganii.com/blog/2015/06/11/agile-retrospectives/
@@ -2879,11 +2873,11 @@ Url:
       title: "統計学が最強の学問である[実践編]"
       link: https://meganii.com/blog/2015/12/06/statistics-is-literacy-for-the-next-generation-professional/
     14:
-      title: "学び方をリファクタリング"
-      link: https://meganii.com/blog/2014/06/26/learning/
-    15:
       title: "[読書メモ]99%の人がしていない たった1%の仕事のコツ"
       link: https://meganii.com/blog/2015/04/26/99-percent-people-can-not-do/
+    15:
+      title: "学び方をリファクタリング"
+      link: https://meganii.com/blog/2014/06/26/learning/
     16:
       title: "「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。"
       link: https://meganii.com/blog/2016/02/22/become-a-programmer/
@@ -2918,11 +2912,11 @@ Url:
       title: "Amazonマーケットプレイスで本を出品してみた"
       link: https://meganii.com/blog/2015/10/03/amazon-marketplace/
     27:
-      title: "福井-大阪-名古屋-東京。拠点が離れている中での結婚式余興作成"
-      link: https://meganii.com/blog/2014/09/28/baseball-club-yokyo/
-    28:
       title: "参加者の発言を促すファシリテーターの技術 〜ザ・ファシリテーター〜"
       link: https://meganii.com/blog/2014/10/04/facilitation-skill/
+    28:
+      title: "福井-大阪-名古屋-東京。拠点が離れている中での結婚式余興作成"
+      link: https://meganii.com/blog/2014/09/28/baseball-club-yokyo/
     29:
       title: "ワールド・カフェのプロセス"
       link: https://meganii.com/blog/2015/06/28/process-for-world-cafe/
@@ -3051,9 +3045,6 @@ Url:
     22:
       title: "ワールドカフェの問いを作るには？"
       link: https://meganii.com/blog/2015/06/28/what-is-good-questions-for-world-cafe/
-    23:
-      title: "小さい成長。"
-      link: https://meganii.com/blog/2012/03/31/step_by_step/
   2014-11-04-statistics:
     1:
       title: "統計学が最強の学問である[実践編]"
@@ -3945,9 +3936,6 @@ Url:
     2:
       title: "ほぼ日手帳におすすめの革カバー！HERZ(ヘルツ)の「ほぼ日手帳カバー(KB-104)」"
       link: https://meganii.com/blog/2015/04/01/hobonichi-planner-leather-cover/
-    3:
-      title: "ビジュアル　ロジカル・シンキング"
-      link: https://meganii.com/blog/2013/07/10/logical-thinking/
   2015-03-02-ansible-sakura-vps:
     1:
       title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
@@ -4335,11 +4323,11 @@ Url:
       title: "El Capitanへのアップグレード時AppStoreに接続できなくなった場合(さらにキーチェーンアクセスでも対処できなかった時)の対処法 "
       link: https://meganii.com/blog/2016/01/23/el-capitan-upgrade-error/
     28:
-      title: "2台目のMacBookAirからさくらVPSへSSH接続を行うための鍵の設定"
-      link: https://meganii.com/blog/2013/06/21/ssh-sakuravps/
-    29:
       title: "Circle CIでテストを定期実行する"
       link: https://meganii.com/blog/2016/09/08/circle-ci-nightly-build/
+    29:
+      title: "2台目のMacBookAirからさくらVPSへSSH接続を行うための鍵の設定"
+      link: https://meganii.com/blog/2013/06/21/ssh-sakuravps/
   2015-06-01-how-to-move-join-nestedloops-hash-sortmerge:
     1:
       title: "[SQL実践入門]内部結合と外部結合のイメージ"
@@ -5002,20 +4990,20 @@ Url:
       title: "「新年会だよ！JUSO Jelly!+家族ラボ vol.6」に参加してきました！"
       link: https://meganii.com/blog/2012/01/28/juso_coworking/
     17:
-      title: "直島ぶらり一人旅〜地中美術館〜"
-      link: https://meganii.com/blog/2012/04/06/naoshima/
-    18:
       title: "晴天のテニスブー春合宿2012！！"
       link: https://meganii.com/blog/2012/05/18/tennisboo/
+    18:
+      title: "直島ぶらり一人旅〜地中美術館〜"
+      link: https://meganii.com/blog/2012/04/06/naoshima/
     19:
-      title: "福井-大阪-名古屋-東京。拠点が離れている中での結婚式余興作成"
-      link: https://meganii.com/blog/2014/09/28/baseball-club-yokyo/
-    20:
-      title: "iMovieとMotion5で作る結婚式余興ムービー"
-      link: https://meganii.com/blog/2014/02/22/wedding-movie-motion5/
-    21:
       title: "タスクカフェ@大阪に行ってきました！"
       link: https://meganii.com/blog/2012/05/28/taskcafe/
+    20:
+      title: "福井-大阪-名古屋-東京。拠点が離れている中での結婚式余興作成"
+      link: https://meganii.com/blog/2014/09/28/baseball-club-yokyo/
+    21:
+      title: "iMovieとMotion5で作る結婚式余興ムービー"
+      link: https://meganii.com/blog/2014/02/22/wedding-movie-motion5/
   2015-08-07-normalization:
     1:
       title: "達人に学ぶSQL, DB設計をぽちった"
@@ -6761,11 +6749,11 @@ Url:
       title: "「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。"
       link: https://meganii.com/blog/2016/02/22/become-a-programmer/
     11:
-      title: "ゼネラリストから「連続スペシャリスト」へ"
-      link: https://meganii.com/blog/2014/11/03/specialist-work-shift/
-    12:
       title: "iMovieとMotion5で作る結婚式余興ムービー"
       link: https://meganii.com/blog/2014/02/22/wedding-movie-motion5/
+    12:
+      title: "ゼネラリストから「連続スペシャリスト」へ"
+      link: https://meganii.com/blog/2014/11/03/specialist-work-shift/
     13:
       title: "あなたは中級者を脱出出来ているだろうか？ドレイファスモデル技能モデル〜リファクタリング・ウェットウェア ―達人プログラマーの思考法と学習法〜"
       link: https://meganii.com/blog/2014/06/23/dreyfus-model/
@@ -6931,11 +6919,11 @@ Url:
       title: "vagrant"
       link: https://meganii.com/blog/2013/05/28/vagrant/
     4:
-      title: "さくらVPSにJenkinsインストール"
-      link: https://meganii.com/blog/2013/04/11/jenkins/
-    5:
       title: "Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする"
       link: https://meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/
+    5:
+      title: "さくらVPSにJenkinsインストール"
+      link: https://meganii.com/blog/2013/04/11/jenkins/
     6:
       title: "http/2ベンチマークツール「h2load」をインストール"
       link: https://meganii.com/blog/2016/07/17/install-h2load/
@@ -7391,9 +7379,6 @@ Url:
     6:
       title: "「犬も歩けばBAR(バル)に当たる」スペイン・バルセロナ旅行記2016"
       link: https://meganii.com/blog/2016/05/05/spain-barcelona/
-    7:
-      title: "初めてのSWEET LOVE SHOWER 2014"
-      link: https://meganii.com/blog/2014/09/02/sweet-love-shower-2014/
   2016-07-30-workstyle:
     1:
       title: "ゼネラリストから「連続スペシャリスト」へ"
@@ -7569,6 +7554,9 @@ Url:
     17:
       title: "AnsibleでさくらVPSの初期設定"
       link: https://meganii.com/blog/2015/03/02/ansible-sakura-vps/
+    18:
+      title: "sublime-vim"
+      link: https://meganii.com/blog/2013/05/28/sublime-vim/
   2016-08-15-circle-ci-hugo-deploy:
     1:
       title: "2台目のMacBookAirからさくらVPSへSSH接続を行うための鍵の設定"
@@ -7680,11 +7668,11 @@ Url:
       title: "google-api-ruby-clientからGoogle Adsense Management APIを操作する方法"
       link: https://meganii.com/blog/2016/06/05/ruby-google-api-client/
     13:
-      title: "phonegap-start"
-      link: https://meganii.com/blog/2014/02/16/phonegap-start/
-    14:
       title: "Swiftで初めてのMacOSXアプリケーション-FFViewer-"
       link: https://meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/
+    14:
+      title: "phonegap-start"
+      link: https://meganii.com/blog/2014/02/16/phonegap-start/
     15:
       title: "Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた"
       link: https://meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/
