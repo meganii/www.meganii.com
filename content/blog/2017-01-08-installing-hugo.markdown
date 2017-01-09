@@ -40,3 +40,34 @@ $ brew install hugo
 https://github.com/spf13/hugo/releases
 - https://github.com/spf13/hugo/releases/download/v0.18.1/hugo_0.18.1_Windows-32bit.zip  
 - https://github.com/spf13/hugo/releases/download/v0.18.1/hugo_0.18.1_Windows-64bit.zip  
+
+## 構築
+
+以下のコマンドを実行すると、最低限のフォルダ構成が作成されます。
+
+```
+$ hugo new site myblog.com
+$ tree
+.
+├── archetypes
+├── config.toml
+├── content
+├── data
+├── layouts
+├── static
+└── themes
+```
+
+`hugo server`とコマンドを実行すれば、直下の`config.toml`を読み込んでサイトのプレビューができるのですが、この最低限のフォルダ構成ではなにも表示されないので、まずはテーマをインストールします。
+
+
+```
+$ cd themes
+$ git clone https://github.com/dim0627/hugo_theme_robust.git
+```
+
+ダウンロードしたthemeを利用するには、以下の通り`--theme`オプションで、インストールしたテーマを指定して`hugo server`を実行します。
+
+```
+hugo server --theme=hugo_theme_robust
+```
