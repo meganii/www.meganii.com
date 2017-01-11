@@ -1,6 +1,7 @@
 ---
 title: "Lets's Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化"
 date: 2016-07-09T08:06:50+09:00
+lastmod: 2017-01-11T22:17:50+09:00
 comments: true
 category: ['Tech']
 tags: ['https', 'SSL', 'Lets Encrypt']
@@ -17,6 +18,11 @@ img: "/images/le-logo-standard.png"
 
 <!--more-->
 {{% googleadsense %}}
+
+## 前提
+
+- CentOS release 6.8 (Final)
+- Web Server: nginx
 
 
 ## 失敗その1 なぜかhttpdが起動している
@@ -64,13 +70,13 @@ IMPORTANT NOTES:
 
 上記履歴は、一部抜粋しています。
 
-80portが開いているため、エラーとなっていました。httpdは、止めたはずと思っていたのですが何かのキッカケで起動状態にあったみたいです。
+80番portが開いているため、エラーとなっていました。httpdは、止めたはずと思っていたのですが何かのキッカケで起動状態にあったみたいです。
 `sudo service httpd stop`を実行して、サービスを止めます。
 
 
 ## 失敗その2 なぜか前回更新時に、異なるドメインと紐付いてしまっていた
 
-後は、単純に`certbot-auto renew`を実行すればよいはずが、なぜかドメインが違うと怒られた。(おそらく前回更新したときに変なことをしたのだろう)
+後は、単純に`certbot-auto renew`を実行すればよいはずが、なぜかドメインが違うと怒られてしまいました。(おそらく前回更新したときに変なことをしたのだと思います)
 
 ```
 $ ./certbot-auto renew --dry-run
@@ -112,13 +118,13 @@ IMPORTANT NOTES:
 
 ## 解決方法
 
-管理者権限で、以下のフォルダに格納されているエラーに関係していそうなフォルダを削除する。
+管理者権限で、以下のフォルダに格納されているエラーに関係していそうなフォルダを削除します。
 
 - `/etc/letsencrypt/live/`
 - `/etc/letsencrypt/archive/`
 - `/etc/letsencrypt/renewal/`
 
-例えば、`/etc/letsencrypt/live/`だと、meganii.com以外に、meganii.com-0001なんていうのもできていた。
+例えば、`/etc/letsencrypt/live/`だと、meganii.com以外に、meganii.com-0001なんていうのもできていました。
 
 ```
 $ su
@@ -128,7 +134,7 @@ rm -rf meganii.com-0001/
 rm -rf xxxxxxx.com/
 ```
 
-一通り、消し終わった後、以下の通り、新規発行を行なった。
+一通り消し終わった後、以下の通り、新規発行を行いました。
 
 ## 新規発行
 
