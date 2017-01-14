@@ -4,7 +4,7 @@ date: 2017-01-14T14:14:02+09:00
 lastmod: 2017-01-14T14:14:02+09:00
 comments: true
 category: ['Tech']
-tags: ['MeCab','']
+tags: ['MeCab','Linux']
 published: true
 slug: can-not-download-with-wget
 img:
