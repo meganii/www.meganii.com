@@ -46,10 +46,12 @@ footer {
 
 blockquote{
   background-color:#ddd;
-  padding:1em 1em 1em 3em;
+  padding:3em 1em 1em 1em;
   position:relative;
   border-left:3px solid #333;
+  margin: 1em 0em 1em 0em;
 }
+
 blockquote:before{
   content:"“";
   font-size:600%;
