@@ -41,3 +41,7 @@ HTTP による接続要求を送信しました、応答を待っています...
 ```
 wget -O mecab-0.996.tar.gz "https://drive.google.com/uc?export=download&id=0B4y35FiV1wh7cENtOXlicTFaRUE"
 ```
+
+## 参考
+
+- [Mecabのインストール方法 \- Qiita](http://qiita.com/katsuyuki/items/65f79d44f5e9a0397d31)
