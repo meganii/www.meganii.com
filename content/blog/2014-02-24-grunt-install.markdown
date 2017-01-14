@@ -3,7 +3,7 @@ title: Gruntのインストール
 date: 2014-02-24T23:01:00+09:00
 category: ['Tech']
 tags: ['grunt']
-published: true
+published: false
 slug: grunt-install
 ---
 
