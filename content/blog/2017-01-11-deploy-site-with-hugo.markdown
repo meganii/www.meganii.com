@@ -1,5 +1,5 @@
 ---
-title: "deploy-site-with-hugo"
+title: "静的サイトジェネレータHugo 公開方法"
 date: 2017-01-11T22:22:15+09:00
 lastmod: 2017-01-11T22:22:15+09:00
 comments: true
