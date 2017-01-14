@@ -1,6 +1,6 @@
 <!-- <div id="ranklet-10307"></div><script src="//tracker.iws.vc/v1/ranklet/s3/widgets/10307/widget.js"></script> -->
 
-{{ $dataJ := getJSON "https://api.meganii.com" }}
+{{ $dataJ := getJSON .Site.Params.AnalyticsURL }}
 <ul class="list-unstyled urllist">
 {{ range first 5 $dataJ.rows }}
   <li>
