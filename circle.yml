@@ -17,6 +17,7 @@ dependencies:
     - cd /home/ubuntu/.go_workspace/src/github.com/spf13/hugo && govendor sync && go install
     - sudo apt-get update -qq
     - sudo apt-get install -qq python3-dev
+    - sudo pip install --upgrade pip
     - >
       if [[ ! -e mecab-0.996/src/mecab ]]; then
         wget -O mecab-0.996.tar.gz "https://drive.google.com/uc?export=download&id=0B4y35FiV1wh7cENtOXlicTFaRUE" &&
