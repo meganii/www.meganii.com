@@ -7,7 +7,6 @@ category: ['Tech']
 tags: ['MeCab','Linux']
 published: true
 slug: can-not-download-with-wget
-img:
 ---
 
 Circle CIからMeCab本体と、MeCab用の辞書をダウンロードしていましたが、ファイルダウンロード先のURLが変わったみたいである時期からビルドが失敗するようになったので調べて対処しました。
