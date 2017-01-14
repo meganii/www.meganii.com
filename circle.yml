@@ -19,7 +19,7 @@ dependencies:
     - sudo apt-get install -qq python3-dev
     - >
       if [[ ! -e mecab-0.996/src/mecab ]]; then
-        wget https://drive.google.com/uc?export=download&id=0B4y35FiV1wh7cENtOXlicTFaRUE --no-check-certificate &&
+        wget --no-check-certificate https://drive.google.com/uc?export=download&id=0B4y35FiV1wh7cENtOXlicTFaRUE &&
         tar xvzf mecab-0.996.tar.gz &&
         cd mecab-0.996 &&
         ./configure --enable-utf8-only &&
@@ -31,7 +31,7 @@ dependencies:
       sudo ldconfig
     - >
       if [[ ! -e mecab-ipadic-2.7.0-20070801/sys.dic ]]; then
-        wget https://drive.google.com/uc?export=download&id=0B4y35FiV1wh7MWVlSDBCSXZMTXM --no-check-certificate &&
+        wget --no-check-certificate https://drive.google.com/uc?export=download&id=0B4y35FiV1wh7MWVlSDBCSXZMTXM &&
         tar xvzf mecab-ipadic-2.7.0-20070801.tar.gz &&
         cd mecab-ipadic-2.7.0-20070801 &&
         ./configure --with-charset=utf8 &&
