@@ -7,11 +7,13 @@ permalinks:
 
 Languages:
   ja:
+    LanguageCode: 'ja'
     lang: ""
     title: "SIS Lab"
     profile: "広く浅くから広く深くへ"
     description: "元じょーぶん生によるメーカー系SIerブログ。趣味のプログラミング、旅行。日々、学んだことについて書きます。"
   en:
+    LanguageCode: 'en'
     lang: "en/"
     title: "SIS Lab"
     profile: "I'm Software Engineer in Tokyo."
