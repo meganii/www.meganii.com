@@ -1,7 +1,7 @@
 ---
 title: "静的サイトジェネレータ「Hugo」で快適ブログ生活"
 date: 2017-01-08T15:58:45+09:00
-lastmod: 2017-01-16T22:58:45+09:00
+lastmod: 2017-01-18T22:58:45+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo','Blog','Jekyll']
@@ -10,7 +10,7 @@ slug: static-site-generator-hugo
 img: "/images/hugo_s.png"
 ---
 
-Jekyll, OctpressからHugoに移行して、快適なブログ生活に近づいてきました。W
+Jekyll, OctpressからHugoに移行して、快適なブログ生活に近づいてきました。
 
 ## 静的サイトジェネレータの『静的』って？
 
