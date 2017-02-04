@@ -1,7 +1,7 @@
 ---
 title: "Scotch Grain(スコッチグレイン)の革靴「シャインオアレイン」なら雨の日でも快適通勤！！"
 date: 2016-07-23T15:05:40+09:00
-lastmod: 2017-01-01T18:08:40+09:00
+lastmod: 2017-02-03T11:01:40+09:00
 comments: true
 category: ['Life']
 tags: ['革靴','レザー','scotch grain']
@@ -24,11 +24,15 @@ img: /images/scotchgrain.jpg
 
 「シャインオアレイン」を雨の日に履いてみて、感じた嬉しいポイントは、次の３つです。
 
+1. 合皮やゴムではなく、ちゃんとした革靴
+2. 完全防水ではないが、十分防水してくれる！
+3. 滑りやすい地面でも滑らない
+
 ## １．合皮やゴムではなく、ちゃんとした革靴
 
 合皮ではなく、撥水加工を施した本格レザーを使っているとのことです。
 
->甲革には、本革が持つしなやかな風合いと通気性を損なわずに、高い撥水性を実現した本格撥水レザーを採用。  
+>甲革には、本革が持つしなやかな風合いと通気性を損なわずに、高い撥水性を実現した本格撥水レザーを採用。
 [シャインオアレインⅢ :: Dark Brown :: 2726DBR（EEE）](http://www.scotchgrain-shop.com/category-260/dark-brown/2726dbr-3e.html)
 
 
@@ -40,11 +44,11 @@ img: /images/scotchgrain.jpg
 
 しかし、実際に履いてみると、今までだったら適当な革靴だと浸水してくるような雨でも、この「シャインオアレイン」だと全然気になりませんでした。
 
-これは自分の場合、*かなりのストレス低減* になりました。
+これは自分の場合、**かなりのストレス低減**になりました。
 
 今までだったら、会社に着くなり、靴下までベトベトになり乾くまですごく不快でしたので。。
 
->商品の防水性についてですが「シャインオアレイン」、「ファイバーグリップ」シリーズともに完全防水ではございません。撥水レザーシリーズは国産撥水カーフ＋合成底の組み合わせにより、高い防水性を実現した商品ですがスコッチグレインが採用しておりますグッドイヤーウェルト製法は“縫い靴”でございます。製法上縫い目などからの水の浸み込みは避けられないものとお考えください。  
+>商品の防水性についてですが「シャインオアレイン」、「ファイバーグリップ」シリーズともに完全防水ではございません。撥水レザーシリーズは国産撥水カーフ＋合成底の組み合わせにより、高い防水性を実現した商品ですがスコッチグレインが採用しておりますグッドイヤーウェルト製法は“縫い靴”でございます。製法上縫い目などからの水の浸み込みは避けられないものとお考えください。
 [シャインオアレインのお手入れについて : 東西店長 語り尽くし \| SCOTCH GRAIN](http://sgrain2.exblog.jp/20825856/)
 
 
@@ -58,10 +62,10 @@ img: /images/scotchgrain.jpg
 調子に乗ってしまいそうなぐらいなので、逆に注意です笑。
 
 >この製品の底材はSGソール(合成底)を使用しております。
-耐磨耗性・グリップ性に優れ、減りやすいつま先や化粧部分にはゴム硬度を硬めに、主な接地面にはしなやかに返るようにゴム硬度を変えたソールです。濡れた路面にも強いソール素材が最大特長。大変履きやすくて歩きやすい、雨にも強いソールです。  
+耐磨耗性・グリップ性に優れ、減りやすいつま先や化粧部分にはゴム硬度を硬めに、主な接地面にはしなやかに返るようにゴム硬度を変えたソールです。濡れた路面にも強いソール素材が最大特長。大変履きやすくて歩きやすい、雨にも強いソールです。
 [シャインオアレインⅢ :: Dark Brown :: 2726DBR（EEE）](http://www.scotchgrain-shop.com/category-260/dark-brown/2726dbr-3e.html)
 
->廣川　駅の中って、滑りやすいじゃないですか。雨に強くてもそれだけでは安心できません。だからこのファイバーグリップを採用したんです。このシワ模様のところに、グラスファイバーが入ってるんですよ。このグラスファイバーの長さは3ミリくらいなんだけど、その細さはミクロレベル。そういうガラス繊維なんです。  
+>廣川　駅の中って、滑りやすいじゃないですか。雨に強くてもそれだけでは安心できません。だからこのファイバーグリップを採用したんです。このシワ模様のところに、グラスファイバーが入ってるんですよ。このグラスファイバーの長さは3ミリくらいなんだけど、その細さはミクロレベル。そういうガラス繊維なんです。
 [【雨の日】Scotch Grainのシャインオアレインは、豪雨にも負けない最強の日本製本革靴 \| MATCHA \- 訪日外国人観光客向けWebマガジン](http://mcha.jp/17602)
 
 
@@ -72,3 +76,9 @@ img: /images/scotchgrain.jpg
 
 ## 参考
 - [シャインオアレインのお手入れについて : 東西店長 語り尽くし \| SCOTCH GRAIN](http://sgrain2.exblog.jp/20825856/)
+
+
+靴の手入れには、「Boot Black」のシューケア用品を使ってます。
+
+<div class="booklink-box"><div class="booklink-image"><a href=https://www.amazon.co.jp/%E3%80%90Boot-Black-%E3%83%96%E3%83%BC%E3%83%88%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%80%91-%E3%82%B9%E3%83%97%E3%83%A2%E3%83%BC%E3%83%8B%E3%82%BB%E3%83%83%E3%83%88%EF%BC%88%E6%97%A5%E6%9C%AC%E8%A3%BD%EF%BC%89-%E7%A3%A8%E3%81%8D%E3%81%AE%E3%83%97%E3%83%AD%E9%81%94%E3%81%8C%E5%89%B5%E3%82%8A%E4%B8%8A%E3%81%92%E3%81%9F%E3%82%B7%E3%83%A5%E3%83%BC%E3%82%B1%E3%82%A2%E3%82%BB%E3%83%83%E3%83%88%EF%BC%88%E6%9C%A8%E7%AE%B1%E5%85%A5%E3%82%8A%EF%BC%89/dp/B00XDS9X40%3FSubscriptionId%3DAKIAI6MZOKQQCKBKJBLQ%26tag%3Dmeganii-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00XDS9X40><img src="https://images-fe.ssl-images-amazon.com/images/I/417NMyBfKGL._SL160_.jpg" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="http://www.amazon.co.jp/exec/obidos/asin/B00XDS9X40/meganii-22/">【Boot Black ブートブラック】 スプモーニセット（日本製） コロンブス 磨きのプロ達が創り上げたシューケアセット（木箱入り）</a></div><div class="shoplinkamazon"><a href="http://www.amazon.co.jp/exec/obidos/asin/B00XDS9X40/meganii-22/">Amazonで買う</a></div>
+<div class="shoplinkrakuten"><a href="http://hb.afl.rakuten.co.jp/hgc/10b944e1.69649a36.10b944e2.c5d6d56c/?pc=http://search.rakuten.co.jp/search/mall?sitem=Boot Black シューケアセット&m=http://m.rakuten.co.jp/">楽天で買う</a></div><div class="shoplinkyahoo"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884189678&vc_url=http://search.shopping.yahoo.co.jp/search?p=Boot Black シューケアセット">Yahoo!で買う</a></div></div></div>
