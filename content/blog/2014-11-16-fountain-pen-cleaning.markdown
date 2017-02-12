@@ -1,5 +1,5 @@
 ---
-title: "万年筆LAMY safariのインク洗浄・交換"
+title: "万年筆LAMY safariのインク洗浄・交換方法"
 date: 2014-11-16T23:59:00+09:00
 lastmod: 2017-02-11T22:59:00+09:00
 comments: true
@@ -10,7 +10,8 @@ img: "https://farm8.staticflickr.com/7491/15800656071_6da29ae104_s.jpg"
 slug: fountain-pen-cleaning
 ---
 
-今まで、LAMY safariのカートリッジ ⇛ 色彩雫「朝顔」と色を変えてきたので、万年筆の洗浄は必要ありませんでした。今回、色彩雫「月夜」に色を変えたので、万年筆のインク洗浄(入れ替え方法)を調べてみました。
+初めて万年筆のインクを変えたとき、どのようにすればよいかわからなかったので、入れ替え方法を調べてみました。
+今回は、色彩雫「朝顔」から色彩雫「月夜」にインク交換します。
 
 
 <div class="amakuri-default" style="text-align: left; line-height: 1.5em; margin-bottom: 10px; overflow:hidden; _zoom:1;">
@@ -49,6 +50,8 @@ slug: fountain-pen-cleaning
 <a href="https://www.flickr.com/photos/35571855@N06/15626615040" title="lamy_safari_redby meganii, on Flickr">
   <img class="img-responsive" src="https://farm9.staticflickr.com/8402/15626615040_b0dfb31753_z.jpg" alt="lamy_safari_red" />
 </a>
+
+ティッシュだと、細かい紙くずがついてしまうので、キッチンペーパーで拭き取ると楽です。
 
 
 ## 5. インクを入れ替える
