@@ -1,7 +1,7 @@
 ---
-
 title: "初めてのテント泊ライブ。初めてのRISING SUN ROCK FESTIVAL 2015(ライジングサン)"
 date: "2015-08-17T08:12:12+09:00"
+lastmod: "2017-02-12T12:12:12+09:00"
 comments: true
 category: ['Music']
 tags: ['RSR','夏フェス']
@@ -20,7 +20,7 @@ slug: rising-sun-festival-2015
 
 ## ライジングサンの魅力
 
-<a href="http://rsr.wess.co.jp/2015/index.html" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://rsr.wess.co.jp/2015/index.html" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://rsr.wess.co.jp/2015/index.html" target="_blank">RISING SUN ROCK FESTIVAL 2015 in EZO</a><a href="http://b.hatena.ne.jp/entry/http://rsr.wess.co.jp/2015/index.html" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://rsr.wess.co.jp/2015/index.html" alt="" /></a><br style="clear:both;" /><br>
+<a href="http://rsr.wess.co.jp/2015/index.html" target="_blank">![RSR2015](/images/2017/02/rsr2015_capture.jpg "RSR2015")RISING SUN ROCK FESTIVAL 2015 in EZO</a>
 
 
 北海道、石狩市で行われる「RISING SUN ROCK FESTIVAL」(以下RSR)は、ライジングサンと銘打っているだけあって、最終日の最後のバンドでは会場のみんなで朝日を見て、終わりを告げます。
@@ -141,7 +141,8 @@ HEAVEN'Sテントサイトは、ステージに隣接しています。場所が
 
 RSRのテントを見渡してみると、8割〜9割ぐらいが、Coleman(コールマン)のテントでした。オフィシャルで斡旋しているテントがColeman(コールマン)なので、そうなるのかもしれないし、キャンプと言えば、Coleman(コールマン)てのもあるのかもしれません。
 
-<div class="kaerebalink-box"><div class="kaerebalink-image"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B004IWR4GE/meganii-22/ref=nosim/" target="_blank" ><img src="https://images-fe.ssl-images-amazon.com/images/I/41deooVwISL._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info"><div class="kaerebalink-name"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B004IWR4GE/meganii-22/ref=nosim/" target="_blank" >コールマン テント ツーリングドーム/LX [2~3人用] 170T16450J</a><div class="kaerebalink-powered-date">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail"> Coleman(コールマン) 2012-03-08    </div><div class="kaerebalink-link1"><div class="shoplinkamazon"><a href="http://www.amazon.co.jp/gp/search?keywords=%83R%81%5B%83%8B%83%7D%83%93%81%40%83e%83%93%83g&__mk_ja_JP=%83J%83%5E%83J%83i&tag=meganii-22" target="_blank" >Amazon</a></div><div class="shoplinkrakuten"><a href="http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%25AB%25E3%2583%259E%25E3%2583%25B3%25E3%2580%2580%25E3%2583%2586%25E3%2583%25B3%25E3%2583%2588%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F" target="_blank" >楽天市場</a></div><div class="shoplinkyahoo"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884189678&vc_url=http%3A%2F%2Fsearch.shopping.yahoo.co.jp%2Fsearch%3Fp%3D%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%25AB%25E3%2583%259E%25E3%2583%25B3%25E3%2580%2580%25E3%2583%2586%25E3%2583%25B3%25E3%2583%2588" target="_blank" >Yahooショッピング<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884189678" height="1" width="1" border="0"></a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
+<div class="kaerebalink-box"><div class="kaerebalink-image"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B004IWR4GE/meganii-22/ref=nosim/" target="_blank" ><img src="https://images-fe.ssl-images-amazon.com/images/I/41deooVwISL._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info"><div class="kaerebalink-name"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B004IWR4GE/meganii-22/ref=nosim/" target="_blank" >コールマン テント ツーリングドーム/LX [2~3人用] 170T16450J</a><div class="kaerebalink-powered-date">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail"> Coleman(コールマン) 2012-03-08    </div><div class="kaerebalink-link1"><div class="shoplinkamazon"><a href="http://www.amazon.co.jp/gp/search?keywords=%83R%81%5B%83%8B%83%7D%83%93%81%40%83e%83%93%83g&__mk_ja_JP=%83J%83%5E%83J%83i&tag=meganii-22" target="_blank" >Amazon</a></div><div class="shoplinkrakuten"><a href="http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%25AB%25E3%2583%259E%25E3%2583%25B3%25E3%2580%2580%25E3%2583%2586%25E3%2583%25B3%25E3%2583%2588%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F" target="_blank" >楽天市場</a></div>
+<div class="shoplinkyahoo"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884189678&vc_url=http%3A%2F%2Fsearch.shopping.yahoo.co.jp%2Fsearch%3Fp%3D%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%25AB%25E3%2583%259E%25E3%2583%25B3%25E3%2580%2580%25E3%2583%2586%25E3%2583%25B3%25E3%2583%2588" target="_blank" >Yahooショッピング<img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884189678" height="1" width="1" border="0"></a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
 
 
 
