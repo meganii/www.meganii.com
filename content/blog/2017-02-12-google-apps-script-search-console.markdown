@@ -5,7 +5,7 @@ lastmod: 2017-02-12T16:54:25+09:00
 comments: true
 category: ['Tech']
 tags: ['GoogleAppsScript','GoogleSearchConsole']
-published: false
+published: true
 slug: google-apps-script-search-console
 img: https://i.gyazo.com/thumb/200/_403a124a37d8ae1a3c1327d873df452c-png.jpg
 ---
@@ -220,3 +220,5 @@ ExcelマクロのようなGoogle SheetsやDocsに対するスクリプトです�
 
 - [Google Apps Script 入門 \- Qiita](http://qiita.com/t_imagawa/items/47fc130a419b9be0b447)
 - [Google Apps Scriptの開発手法まとめ \- Qiita](http://qiita.com/soundTricker/items/4d04c97c499b22886dfd)
+- [Google Search ConsoleをGoogle Apps Scriptから呼びだす \- Qiita](http://qiita.com/kiita312/items/d5ffd0207b8411c159e1)
+- [googlesamples/apps\-script\-oauth2: An OAuth2 library for Google Apps Script\.](https://github.com/googlesamples/apps-script-oauth2)
