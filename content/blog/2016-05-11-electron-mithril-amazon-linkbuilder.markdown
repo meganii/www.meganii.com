@@ -1,5 +1,5 @@
 ---
-title: "Electronvがv1.0.0になったのでMithril.jsと合わせてAmazonアフィリエイトリンクビルダーを作った"
+title: "Electronがv1.0.0になったのでMithril.jsと合わせてAmazonアフィリエイトリンクビルダーを作った"
 date: 2016-05-11T22:05:30+09:00
 comments: true
 category: ['Tech']
