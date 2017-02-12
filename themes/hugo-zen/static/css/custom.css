@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Rubik", "Hiragino Sans", "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
   background-color: #FCFCFC;
 }
 
@@ -63,10 +63,6 @@ blockquote:before{
   top:0;
 }
 
-/*main {
-  margin: 4rem 0;
-}*/
-
 .container {
   width: 90%;
   max-width: 960px;
@@ -103,7 +99,6 @@ blockquote:before{
   margin-right: 5px;
   text-align: center;
   text-decoration: none;
-  /*background-color: #e07000;*/
   font-weight: bold;
   color: #222;
 }
@@ -149,23 +144,6 @@ blockquote:before{
   background: linear-gradient(to right, white, #E1E1E1, white);
 }
 
-/* Youtubeレスポンシブ */
-.youtubeWrapper {
-  position: relative ;
-  margin-top: 1.2em ;
-  margin-bottom: 1.2em ;
-  padding-top: 69px ;
-  padding-bottom: 50% ;
-  overflow: hidden ;
-}
-.youtubeWrapper iframe{
-        position:absolute;
-        top:0;
-        left:0;
-        width:100% !important;
-        height:100% !important
-}
-
 /* Google Adsense */
 .google-adsense p {
   font-size: 10px;
@@ -183,10 +161,6 @@ blockquote:before{
   height: 280px;
   margin: 5px;
   float : left;
-}
-
-.zenback {
-  margin-top: 5px;
 }
 
 .urllist li {
