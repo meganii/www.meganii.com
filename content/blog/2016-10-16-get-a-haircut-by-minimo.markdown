@@ -1,7 +1,7 @@
 ---
-title: "minomoで初めてのメンズカットモデル"
+title: "minimoで初めてのメンズカットモデル"
 date: 2016-10-16T21:45:48+09:00
-lastmod: 2016-11-11T21:45:48+09:00
+lastmod: 2017-02-10T21:45:48+09:00
 comments: true
 category: ['Life']
 tags: ['minimo']
