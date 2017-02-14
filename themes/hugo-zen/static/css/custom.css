@@ -126,8 +126,13 @@ blockquote:before{
 
 .entry-meta {
   display: inline-block;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: 1.7rem;
+  color: #888;
+}
+
+.entry-date {
+  font-size: 1.2rem;
   color: #888;
 }
 

@@ -5,8 +5,17 @@
 		{{ range (where .Data.Pages ".Params.hidefromhome" "!=" "true") }}
 			<article itemscope itemtype="http://schema.org/Blog">
 				<h2 class="entry-title" itemprop="headline"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-				<span class="entry-meta"><i class="fa fa-clock-o" aria-hidden="true"></i><time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time></span>
-			</article>
+			{{ if ne .Lastmod "" }}
+			<span class="entry-meta">
+				<i class="fa fa-refresh" aria-hidden="true"> </i>
+				<time itemprop="dateModified" datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2006-01-02" }}</time>
+			</span>
+			{{ else }}
+			<span class="entry-meta">
+				<i class="fa fa-clock-o" aria-hidden="true"> </i>
+				<time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+			</span>
+			{{ end }}
 		{{ end }}
 		</main>
 
