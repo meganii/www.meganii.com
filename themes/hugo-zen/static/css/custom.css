@@ -26,9 +26,11 @@ h6 { font-size: 1.5rem; }
 
 #post h3 {
   font-size: 1.8rem;
-  padding: 8px;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+  padding-bottom: .3em;
   background: none;
-  border-bottom: 2px dashed #e07000;
+  border-bottom: solid 3px #eee;
 }
 
 img {
