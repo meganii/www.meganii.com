@@ -58,7 +58,7 @@ blockquote:before{
   content:"“";
   font-size:600%;
   line-height:1em;
-  font-family:"ＭＳ Ｐゴシック",sans-serif;
+  /*font-family:"ＭＳ Ｐゴシック",sans-serif;*/
   color:#999;
   position:absolute;
   left:0;
