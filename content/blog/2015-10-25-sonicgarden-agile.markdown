@@ -1,6 +1,7 @@
 ---
 title: "「「納品」をなくせばうまくいく」を読んで生存戦略を考える"
 date: 2015-10-25T14:25:07+09:00
+lastmod: 2017-02-18T13:21:07+09:00
 comments: true
 category: ['Tech']
 tags: ['SIer','システム','生存戦略']
@@ -9,9 +10,7 @@ slug: sonicgarden-agile
 img: "https://images-na.ssl-images-amazon.com/images/I/518SbiFdxAL._SL160_.jpg"
 ---
 
-<div class="booklink-box"><div class="booklink-image"><a href="http://www.amazon.co.jp/exec/obidos/asin/4534051948/meganii-22/" target="_blank" ><img src="https://images-na.ssl-images-amazon.com/images/I/518SbiFdxAL._SL160_.jpg" style="border: none;" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="http://www.amazon.co.jp/exec/obidos/asin/4534051948/meganii-22/" target="_blank" >「納品」をなくせばうまくいく ソフトウェア業界の“常識"を変えるビジネスモデル</a><div class="booklink-powered-date">posted with <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail">倉貫 義人 日本実業出版社 2014-06-12    </div><div class="booklink-link2"><div class="shoplinkamazon"><a href="http://www.amazon.co.jp/exec/obidos/asin/4534051948/meganii-22/" target="_blank" >Amazon</a></div><div class="shoplinkkindle"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00LSQ8G4W/meganii-22/" target="_blank" >Kindle</a></div><div class="shoplinkrakuten"><a href="http://hb.afl.rakuten.co.jp/hgc/13e181b2.b5761023.13e181b3.cbc7b217/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12789080%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F" target="_blank" >楽天ブックス</a></div>                  	  	  	  <div class="shoplinktoshokan"><a href="http://calil.jp/book/4534051948" target="_blank" >図書館</a></div></div></div><div class="booklink-footer"></div></div>
-
-
+{{% amazon 4534051948 %}}
 
 ## この本から何を得たいか？
 
@@ -134,6 +133,7 @@ LCCでは、低価格を実現するために以下を行なっている。
 
 
 ## 参考書籍
-- <a href="http://www.amazon.co.jp/exec/obidos/asin/4774165220/meganii-22/" target="_blank" >システムインテグレーション崩壊 ~これからSIerはどう生き残ればいいか?</a>
-- <a href="http://www.amazon.co.jp/exec/obidos/asin/B00GRKD6XU/meganii-22/" target="_blank" >エリック・エヴァンスのドメイン駆動設計</a>
-- <a href="http://www.amazon.co.jp/exec/obidos/asin/4797347783/meganii-22/" target="_blank" >アジャイルソフトウェア開発の奥義 第2版 オブジェクト指向開発の神髄と匠の技</a>
+
+{{% amazon 4774165220 %}}
+{{% amazon B00GRKD6XU %}}
+{{% amazon 4797347783 %}}

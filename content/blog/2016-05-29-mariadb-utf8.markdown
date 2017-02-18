@@ -139,8 +139,5 @@ MariaDB [(none)]> show variables like 'char%';
 - [MySQL/MariaDB　文字コードの設定 - takafumi blog](http://takafumi-s.hatenablog.com/entry/2015/04/03/010720)
 
 
-
-<div class="booklink-box"><div class="booklink-image"><a href=http://www.amazon.co.jp/Ruby-Rails-%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-%E5%B1%B1%E7%94%B0-%E7%A5%A5%E5%AF%9B/dp/4774164100%3FSubscriptionId%3DAKIAI6MZOKQQCKBKJBLQ%26tag%3Dmeganii-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4774164100><img src="https://images-na.ssl-images-amazon.com/images/I/51lycs3O%2BrL._SL160_.jpg" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="http://www.amazon.co.jp/exec/obidos/asin/4774164100/meganii-22/">Ruby on Rails 4 アプリケーションプログラミング</a></div><div class=shoplinkrakuten><a href="http://hb.afl.rakuten.co.jp/hgc/g00q0725.il1o2897.g00q0725.il1o3b57/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12707975%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frms%2Fmsv%2FItem%3Fn%3D12707975%26surl%3Dbook">楽天で買う</a></div></div></div>
-
-
-<div class="booklink-box"><div class="booklink-image"><a href=http://www.amazon.co.jp/MariaDB-MySQL%E5%85%A8%E6%A9%9F%E8%83%BD%E3%83%90%E3%82%A4%E3%83%96%E3%83%AB-%E9%88%B4%E6%9C%A8-%E5%95%93%E4%BF%AE/dp/4774170208%3FSubscriptionId%3DAKIAI6MZOKQQCKBKJBLQ%26tag%3Dmeganii-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4774170208><img src="https://images-na.ssl-images-amazon.com/images/I/51pj9W0WxzL._SL160_.jpg" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="http://www.amazon.co.jp/exec/obidos/asin/4774170208/meganii-22/">MariaDB&MySQL全機能バイブル</a></div><div class=shoplinkrakuten><a href="http://hb.afl.rakuten.co.jp/hgc/g00q0725.il1o2897.g00q0725.il1o3b57/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F13027235%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frms%2Fmsv%2FItem%3Fn%3D13027235%26surl%3Dbook">楽天で買う</a></div></div></div>
+{{% amazon 4774164100 %}}
+{{% amazon 4774170208 %}}

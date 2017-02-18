@@ -1,7 +1,8 @@
 ---
 
-title: "アジャイルレトロスペクティブズ"
+title: "『アジャイルレトロスペクティブズ』を読んで振り返りのやり方を学ぶ"
 date: 2015-06-11T22:47:00+09:00
+lastmod: 2017-02-18T13:26:00+09:00
 comments: true
 category: ['Book']
 tags: ['ファシリテーション','ふりかえり']
@@ -15,9 +16,7 @@ slug: agile-retrospectives
 
 「アジャイルレトロスペクティブズ」と銘打っているが、要は、「ふりかえり」の教科書である。
 
-
-<div class="booklink-box"><div class="booklink-image"><a href="http://www.amazon.co.jp/exec/obidos/asin/4274066983/meganii-22/" rel="nofollow" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51c-0ixFQUL._SL160_.jpg" style="border: none;" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="http://www.amazon.co.jp/exec/obidos/asin/4274066983/meganii-22/" rel="nofollow" target="_blank">アジャイルレトロスペクティブズ　強いチームを育てる「ふりかえり」の手引き</a><div class="booklink-powered-date">posted with <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail">Esther Derby,Diana Larsen オーム社 2007-09    </div><div class="booklink-link2"><div class="shoplinkamazon"><a href="http://www.amazon.co.jp/exec/obidos/asin/4274066983/meganii-22/" rel="nofollow" target="_blank">Amazon</a></div><div class="shoplinkkindle"><a href="http://www.amazon.co.jp/gp/search?keywords=%83A%83W%83%83%83C%83%8B%83%8C%83g%83%8D%83X%83y%83N%83e%83B%83u%83Y%81%40%8B%AD%82%A2%83%60%81%5B%83%80%82%F0%88%E7%82%C4%82%E9%81u%82%D3%82%E8%82%A9%82%A6%82%E8%81v%82%CC%8E%E8%88%F8%82%AB&__mk_ja_JP=%83J%83%5E%83J%83i&url=node%3D2275256051&tag=meganii-22" rel="nofollow" target="_blank">Kindle</a></div><div class="shoplinkrakuten"><a href="http://hb.afl.rakuten.co.jp/hgc/13e181b2.b5761023.13e181b3.cbc7b217/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F4672538%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F" rel="nofollow" target="_blank">楽天ブックス</a></div>                  	  	  	  <div class="shoplinktoshokan"><a href="http://calil.jp/book/4274066983" rel="nofollow" target="_blank">図書館</a></div></div></div><div class="booklink-footer"></div></div>
-
+{{% amazon 4274066983 %}}
 
 
 ふりかえりは、以下の5つの内容で構成されるべきである。
@@ -136,6 +135,6 @@ slug: agile-retrospectives
 
 
 ## 参考
-<div class="booklink-box"><div class="booklink-image"><a href="http://www.amazon.co.jp/exec/obidos/asin/4274066983/meganii-22/" rel="nofollow" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51c-0ixFQUL._SL160_.jpg" style="border: none;" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="http://www.amazon.co.jp/exec/obidos/asin/4274066983/meganii-22/" rel="nofollow" target="_blank">アジャイルレトロスペクティブズ　強いチームを育てる「ふりかえり」の手引き</a><div class="booklink-powered-date">posted with <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail">Esther Derby,Diana Larsen オーム社 2007-09    </div><div class="booklink-link2"><div class="shoplinkamazon"><a href="http://www.amazon.co.jp/exec/obidos/asin/4274066983/meganii-22/" rel="nofollow" target="_blank">Amazon</a></div><div class="shoplinkkindle"><a href="http://www.amazon.co.jp/gp/search?keywords=%83A%83W%83%83%83C%83%8B%83%8C%83g%83%8D%83X%83y%83N%83e%83B%83u%83Y%81%40%8B%AD%82%A2%83%60%81%5B%83%80%82%F0%88%E7%82%C4%82%E9%81u%82%D3%82%E8%82%A9%82%A6%82%E8%81v%82%CC%8E%E8%88%F8%82%AB&__mk_ja_JP=%83J%83%5E%83J%83i&url=node%3D2275256051&tag=meganii-22" rel="nofollow" target="_blank">Kindle</a></div><div class="shoplinkrakuten"><a href="http://hb.afl.rakuten.co.jp/hgc/13e181b2.b5761023.13e181b3.cbc7b217/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F4672538%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F" rel="nofollow" target="_blank">楽天ブックス</a></div>                  	  	  	  <div class="shoplinktoshokan"><a href="http://calil.jp/book/4274066983" rel="nofollow" target="_blank">図書館</a></div></div></div><div class="booklink-footer"></div></div>
 
+{{% amazon 4274066983 %}}
 
