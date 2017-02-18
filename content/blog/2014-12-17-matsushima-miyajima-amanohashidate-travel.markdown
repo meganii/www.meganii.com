@@ -117,5 +117,4 @@ ARABAKI RockFEST.14 に行った際に、松島へ行ってきました！
 
 
 さあ、次はどこへいこっか？
-
-<a href="http://hb.afl.rakuten.co.jp/hsc/137fb03e.456cdae3.137fb03b.70319f7b/?pc=&cmd=shop&me_id=2100001&category_id=1&item_id=&link_type=pict&image_type=original" target="_blank"><img src="http://hbb.afl.rakuten.co.jp/hsb/137fb03e.456cdae3.137fb03b.70319f7b/153145/?category_id=1&cmd=shop&image_type=original&item_id=&link_type=pict&me_id=2100001" border="0"></a>
+{{% amazon 4396315260 %}}
