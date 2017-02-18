@@ -267,3 +267,38 @@ SNS
 	text-align: center;
 	padding-bottom: 20px;
 }
+
+/***** Amazon Shortcode *****/
+.amazon-shortcode-box {
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  margin: 4px;
+  margin-bottom:1.0em;
+}
+
+.amazon-shortcode-image {
+  float:left;
+  padding: 12px 24px 12px 12px;
+}
+
+.amazon-shortcode-image img {
+  border: 1px solid #F0F0F0;
+}
+
+.amazon-shortcode-info {
+  padding: 12px;
+}
+
+.amazon-shortcode-info p {
+  margin-bottom: 0;
+}
+
+p.amazon-shortcode-title {
+  line-height: 120%;
+  margin-bottom: 0.2em !important;
+}
+
+amazon-shortcode-detail {
+  margin-top: 1em;
+  margin-bottom: 0.4em;
+}
