@@ -108,8 +108,4 @@ slug: domino-yokyo
 
 感覚を掴むためにも、まずはどんなもんかを実際に試してみるのが1番でした。自分たちは、Amazonでドミノ倒しキットを買って試しました。
 
-<div class="kaerebalink-box"><div class="kaerebalink-image"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B001K6VMUK/meganii-22/ref=nosim/" target="_blank" ><img src="https://images-na.ssl-images-amazon.com/images/I/41M5XjlgxSL._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info"><div class="kaerebalink-name"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B001K6VMUK/meganii-22/ref=nosim/" target="_blank" >日本ドミノ協会公認 ドミノ牌90</a><div class="kaerebalink-powered-date">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail"> ハナヤマ     </div><div class="kaerebalink-link1"><div class="shoplinkamazon"><a href="http://www.amazon.co.jp/gp/search?keywords=%83h%83~%83m%94v&__mk_ja_JP=%83J%83%5E%83J%83i&tag=meganii-22" target="_blank" >Amazon</a></div><div class="shoplinkrakuten"><a href="http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2583%2589%25E3%2583%259F%25E3%2583%258E%25E7%2589%258C%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F" target="_blank" >楽天市場</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
-
-
-
-
+{{% amazon B001K6VMUK %}}

@@ -14,11 +14,7 @@ slug: fountain-pen-cleaning
 今回は、色彩雫「朝顔」から色彩雫「月夜」にインク交換します。
 
 
-<div class="amakuri-default" style="text-align: left; line-height: 1.5em; margin-bottom: 10px; overflow:hidden; _zoom:1;">
-<div class="amakuri-default-image" style="float: left; margin: 0 20px 0 0;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0019XWYC4/meganii-22" target="_blank">
-<img src="https://images-fe.ssl-images-amazon.com/images/I/51oFEUmnjuL._SL160_.jpg" width="155" height="160" alt="パイロット 万年筆インキ iroshizuku INK-50-TY ツキヨ" style="border: none"></a></div>
-<div class="amakuri-default-desc" style="overflow: hidden; _zoom:1;"><div class="amakuri-default-title" style="margin-bottom: 0.5em;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0019XWYC4/meganii-22" target="_blank">パイロット 万年筆インキ iroshizuku INK-50-TY ツキヨ</a></div><div class="amakuri-default-label" style="margin-bottom: 0.5em;">パイロットコーポレーション</div><div class="amakuri-default-link" style="margin-top: 1em;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0019XWYC4/meganii-22" target="_blank">Amazonで詳細を見る</a></div></div></div>
-
+{{% amazon B0019XWYC4 %}}
 
 {{% googleadsense %}}
 
@@ -79,18 +75,10 @@ slug: fountain-pen-cleaning
 
 インクを変えるためだけにちょっと手間が必要な万年筆だけど、その作業をやってるだけで楽しいです。インクの色もたくさんの種類があるので、いろんなモノを試してみたいです。
 
-<div class="booklink-box">
-<div class="amakuri-default" style="text-align: left; line-height: 1.5em; margin-bottom: 10px; overflow:hidden; _zoom:1;"><div class="amakuri-default-image" style="float: left; margin: 0 20px 0 0;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B000UTIL66/meganii-22" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/41Y73nUge0L._SL160_.jpg" width="160" height="159" alt="LAMY ラミー 万年筆 ペン先EF(極細字) サファリ レッド L16-EF 両用式 コンバーター別売 正規輸入品" style="border: none"></a></div><div class="amakuri-default-desc" style="overflow: hidden; _zoom:1;"><div class="amakuri-default-title" style="margin-bottom: 0.5em;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B000UTIL66/meganii-22" target="_blank">LAMY ラミー 万年筆 ペン先EF(極細字) サファリ レッド L16-EF 両用式 コンバーター別売 正規輸入品</a></div><div class="amakuri-default-label" style="margin-bottom: 0.5em;">LAMY</div><div class="amakuri-default-link" style="margin-top: 1em;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B000UTIL66/meganii-22" target="_blank">Amazonで詳細を見る</a></div></div></div>
-</div>
 
-<div class="booklink-box">
-<div class="amakuri-default" style="text-align: left; line-height: 1.5em; margin-bottom: 10px; overflow:hidden; _zoom:1;"><div class="amakuri-default-image" style="float: left; margin: 0 20px 0 0;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B000UUIZO8/meganii-22" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/419mAN2BO1L._SL160_.jpg" width="157" height="160" alt="LAMY ラミー 万年筆 ペン先EF(極細字) サファリ スケルトン L12-EF 両用式 コンバーター別売 正規輸入品" style="border: none"></a></div><div class="amakuri-default-desc" style="overflow: hidden; _zoom:1;"><div class="amakuri-default-title" style="margin-bottom: 0.5em;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B000UUIZO8/meganii-22" target="_blank">LAMY ラミー 万年筆 ペン先EF(極細字) サファリ スケルトン L12-EF 両用式 コンバーター別売 正規輸入品</a></div><div class="amakuri-default-label" style="margin-bottom: 0.5em;">LAMY</div><div class="amakuri-default-link" style="margin-top: 1em;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B000UUIZO8/meganii-22" target="_blank">Amazonで詳細を見る</a></div></div></div>
-</div>
-
-<div class="booklink-box">
-<div class="amakuri-default" style="text-align: left; line-height: 1.5em; margin-bottom: 10px; overflow:hidden; _zoom:1;"><div class="amakuri-default-image" style="float: left; margin: 0 20px 0 0;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B01D40RE7O/meganii-22" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/31YcUit0f8L._SL160_.jpg" width="160" height="160" alt="LAMY ラミー コンバーター LZ28 アルスター サファリ abc用 正規輸入品" style="border: none"></a></div><div class="amakuri-default-desc" style="overflow: hidden; _zoom:1;"><div class="amakuri-default-title" style="margin-bottom: 0.5em;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B01D40RE7O/meganii-22" target="_blank">LAMY ラミー コンバーター LZ28 アルスター サファリ abc用 正規輸入品</a></div><div class="amakuri-default-label" style="margin-bottom: 0.5em;">LAMY</div><div class="amakuri-default-link" style="margin-top: 1em;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B01D40RE7O/meganii-22" target="_blank">Amazonで詳細を見る</a></div></div></div>
-</div>
-
+{{% amazon B000UTIL66 %}}
+{{% amazon B000UUIZO8 %}}
+{{% amazon B01D40RE7O %}}
 
 ## 万年筆をよく使われるなら
 
