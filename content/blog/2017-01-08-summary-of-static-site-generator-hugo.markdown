@@ -13,4 +13,4 @@ img: /images/hugo_s.png
 静的サイトジェネレータ
 
 <!--more-->
-{{% googleadsense %}}
+{{% amazon XXXX %}}

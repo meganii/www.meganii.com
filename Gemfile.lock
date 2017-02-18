@@ -1,6 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    amazon-ecs (2.5.0)
+      nokogiri (~> 1.4)
+      ruby-hmac (~> 0.3)
     crass (1.0.2)
     english (0.6.3)
       language
@@ -12,6 +15,7 @@ GEM
     nokogumbo (1.4.9)
       nokogiri
     pkg-config (1.1.7)
+    ruby-hmac (0.4.0)
     sanitize (4.1.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.4.4)
@@ -22,9 +26,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  amazon-ecs
   english
   sanitize
   stringex
 
 BUNDLED WITH
-   1.12.4
+   1.14.3
