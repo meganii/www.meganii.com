@@ -130,3 +130,21 @@ def get_stdin(message)
   print message
   STDIN.gets.chomp
 end
+
+desc "extract amazon asin"
+task :extract_amazon_asin do
+  require 'rubygems'
+  require 'english'
+  File.open('tmp/amazon.txt', 'w') do |wf|
+    Dir.glob("#{posts_dir}*.*").each do |file|
+      File.open(file) do |f|
+        content = f.read()
+        if content =~ /\{\{%.*amazon (.*)%\}\}/m
+          # c = $POSTMATCH
+          puts $1
+          wf.puts($1)
+        end
+      end
+    end
+  end
+end
