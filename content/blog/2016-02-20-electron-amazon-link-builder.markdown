@@ -9,13 +9,13 @@ slug: electron-amazon-link-builder
 img: 'https://farm2.staticflickr.com/1467/25143519475_14929051ec_z.jpg'
 ---
 
-[Electronでデスクトップアプリ作成 | じょーぶん部](https://meganii.com//blog/2016/01/25/electron-tutorial/)に引き続き、Amazonアフィリエイトリンクビルダーのデスクトップアプリを作った。
+[Electronでデスクトップアプリ作成](https://meganii.com//blog/2016/01/25/electron-tutorial/)に引き続き、Amazonアフィリエイトリンクビルダーのデスクトップアプリを作った。
 
 {{% googleadsense %}}
 
 ## 動機
 
-Amazonのアフィリエイトリンクビルダーには、ヨメレバ、カエレバのようなブックマークレットもあるが、現時点でAmazonのリンクがhttpsに対応していないため、せっかくhttps化をしてもchromeのURLバーが緑色にならない。[Lets's Encryptでブログの常時SSL化にチャレンジ | じょーぶん部](https://meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/)
+Amazonのアフィリエイトリンクビルダーには、ヨメレバ、カエレバのようなブックマークレットもあるが、現時点でAmazonのリンクがhttpsに対応していないため、せっかくhttps化をしてもchromeのURLバーが緑色にならない。[Lets's Encryptでブログの常時SSL化にチャレンジ](https://meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/)
 
 これは困るということで、せっかくなのでElectronでデスクトップアプリを作ってみた。
 
@@ -357,4 +357,6 @@ var getRequsest = function(url, callback) {
 ```
 
 ## 参考
-<div class="booklink-box"><div class="booklink-image"><a href=http://www.amazon.co.jp/Effective-JavaScript-David-Herman/dp/4798131113%3FSubscriptionId%3DAKIAI6MZOKQQCKBKJBLQ%26tag%3Dmeganii-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4798131113><img src="https://images-na.ssl-images-amazon.com/images/I/51nSK4pE-RL._SL160_.jpg" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="http://www.amazon.co.jp/exec/obidos/asin/4798131113/meganii-22/">Effective JavaScript</a></div><div class=shoplinkrakuten><a href="http://hb.afl.rakuten.co.jp/hgc/g00q0725.il1o2897.g00q0725.il1o3b57/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12215141%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frms%2Fmsv%2FItem%3Fn%3D12215141%26surl%3Dbook">楽天で買う</a></div></div></div>
+
+{{% amazon 4798131113 %}}
+{{% amazon 4798128457 %}}
