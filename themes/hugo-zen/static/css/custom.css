@@ -40,10 +40,27 @@ img {
   border: 0;
 }
 
-header,
-footer {
+header {
   margin: 4rem 0;
   text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  width: 100%;
+  color: #ddd;
+}
+
+footer li {
+  display: block;
+}
+
+.footer-content {
+  width: 90%;
+  max-width: 960px;
+  text-align: left;
+  margin: auto;
 }
 
 blockquote{
@@ -142,6 +159,10 @@ blockquote:before{
   margin: 2rem 0;
 }
 
+.footer-link a {
+  color: #ddd;
+}
+
 .hr {
   height: 1px;
   margin: 2rem 0;
@@ -201,4 +222,10 @@ blockquote:before{
 .sidebar-bordered {
   border: 1px solid #eee;
   border-radius: 5px;
+}
+
+/* Footer */
+.copyright {
+  font-size: 1;
+  padding-bottom: 2rem; 
 }

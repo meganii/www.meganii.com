@@ -1,6 +1,35 @@
+	</div>
 
 	<footer role="contentinfo">
 		<div class="hr"></div>
+		<div class="footer-content">
+			<div class="row">
+				<div class="four columns">
+					<h1>Profile</h1>
+					<div id="profile">
+					<div class="header-logo"><img src="{{ .Site.Params.logo }}" width="60" height="60"></div>
+						<p>{{ .Site.Params.profile }}</p>
+					</div>
+				</div>
+				<div class="four columns">
+					<!--<h1>Category</h1>
+					<ul class="list-unstyled">
+					{{ range $key, $value := .Site.Taxonomies.category }}
+						<li>{{ title $key }}</li>
+					{{ end }}
+					</ul>-->
+				</div>
+				<div class="four columns">
+					<!--<h1>Tags</h1>
+					<ul class="list-unstyled">
+					{{ range $key, $value := .Site.Taxonomies.tags }}
+						<li>{{ title $key }}</li>
+					{{ end }}
+					</ul>-->
+				</div>
+			</div>
+		</div>
+		<div class="u-cf"></div>
 		<div class="footer-link">
 			{{ with .Site.Params.Email }}<a href="mailto:{{ . }}" target="_blank">Email</a>{{ end }}
 			{{ with .Site.Params.Twitter }}<a href="https://twitter.com/{{ . }}" target="_blank">Twitter</a>{{ end }}
@@ -10,10 +39,8 @@
 		<div class="copyright">
 			<p>&copy; {{ .Site.LastChange.Year }} {{ if isset .Site.Params "Author" }} {{ .Site.Params.Author }} {{ end }} - {{ .Site.Title }}</p>
 		</div>
-
 	</footer>
 
-</div>
 
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KG3QGC"
