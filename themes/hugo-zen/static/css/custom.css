@@ -67,8 +67,7 @@ blockquote{
   background-color:#ddd;
   padding:3em 1em 1em 1em;
   position:relative;
-  border-left:3px solid #333;
-  margin: 1em 0em 1em 0em;
+  margin: 1em 0em 2em 0em;
 }
 
 blockquote:before{
