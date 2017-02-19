@@ -12,12 +12,13 @@
 					</div>
 				</div>
 				<div class="four columns">
-					<!--<h1>Category</h1>
-					<ul class="list-unstyled">
+					<h1>Category</h1>
+					<ul class="footer-list footer-link">
+					{{ $url := .Site.BaseURL }}
 					{{ range $key, $value := .Site.Taxonomies.category }}
-						<li>{{ title $key }}</li>
+						<li><a href="{{$url}}{{$key}}">{{ title $key }}</a></li>
 					{{ end }}
-					</ul>-->
+					</ul>
 				</div>
 				<div class="four columns">
 					<!--<h1>Tags</h1>

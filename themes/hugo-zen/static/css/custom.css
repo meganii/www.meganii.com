@@ -56,6 +56,10 @@ footer li {
   display: block;
 }
 
+.footer-list li {
+  margin: 0;
+}
+
 .footer-content {
   width: 90%;
   max-width: 960px;
@@ -88,6 +92,10 @@ blockquote:before{
 
 .header-logo {
   color: #000;
+}
+
+.header-logo a {
+  text-decoration: none;
 }
 
 .header-logo img {
