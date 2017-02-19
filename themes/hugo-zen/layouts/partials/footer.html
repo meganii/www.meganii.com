@@ -16,7 +16,7 @@
 					<ul class="footer-list footer-link">
 					{{ $url := .Site.BaseURL }}
 					{{ range $key, $value := .Site.Taxonomies.category }}
-						<li><a href="{{$url}}{{$key}}">{{ title $key }}</a></li>
+						<li><a href="{{$url}}blog/category/{{$key}}">{{ title $key }}</a></li>
 					{{ end }}
 					</ul>
 				</div>
