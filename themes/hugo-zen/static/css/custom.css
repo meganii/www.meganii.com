@@ -198,6 +198,10 @@ blockquote:before{
   float : left;
 }
 
+.top-ad {
+  margin: 2em;
+}
+
 .urllist li {
   padding: 8px 0;
   border-bottom: 1px solid #dddddd;
