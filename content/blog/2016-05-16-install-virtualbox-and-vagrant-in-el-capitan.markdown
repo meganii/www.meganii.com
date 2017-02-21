@@ -1,6 +1,7 @@
 ---
 title: "MacでVirtualbox、Vagrantをインストールするときにいつまで経っても検証が終わらない場合の対処法としてコマンドラインからインストールする"
 date: 2016-05-16T20:50:35+09:00
+lastmode: 2017-02-22T07:23:35+09:00
 comments: true
 category: ['Tech']
 tags: ['El Capitan','Mac']
@@ -42,21 +43,21 @@ System Integrity Protection(SIP)については、以下のページが参考に
 
 ここでは、「2.`sudo installer`でインストールする」の方法で、[VirtualBoxのインストール(MacOS X El Capitan) - Qiita](http://qiita.com/tniizawa/items/33eb015296ea171ed25f)を参考にして、CUIでインストールしました。
 
-### 手順
+## 手順
 
-1.マウント
+### 1.マウント
 
 ```
 hdiutil mount VirtualBox-5.0.18-106667-OSX.dmg
 ```
 
-2.パッケージインストール
+### 2.パッケージインストール
 
 ```
 sudo installer -pkg /Volumes/Vagrant/Vagrant.pkg -target /Volumes/Macintosh\ HD
 ```
 
-3.アンマウント
+### 3.アンマウント
 
 ```
 hdiutil mount VirtualBox-5.0.18-106667-OSX.dmg
@@ -65,3 +66,6 @@ hdiutil mount VirtualBox-5.0.18-106667-OSX.dmg
 ## 結論
 
 上記の手順でインストールすれば、すんなりとインストールすることができました。El Capitanにしてから、ちょくちょくこのSIPに悩まされるのでもうちょっと理解するようにしたい。
+
+{{% amazon B00F418SQ8 %}}
+{{% amazon 4873116651 %}}
