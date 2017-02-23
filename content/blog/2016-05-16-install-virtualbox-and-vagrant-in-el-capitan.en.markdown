@@ -40,21 +40,21 @@ I can't install because System Integrity Protection(SIP).
 
 Now, I explain "2. Install with command `sudo installer`".
 
-### How to install
+## How to install
 
-1.Mount
+### 1.Mount
 
 ```
 hdiutil mount VirtualBox-5.0.18-106667-OSX.dmg
 ```
 
-2.Install
+### 2.Install
 
 ```
 sudo installer -pkg /Volumes/Vagrant/Vagrant.pkg -target /Volumes/Macintosh\ HD
 ```
 
-3.Unmount
+### 3.Unmount
 
 ```
 hdiutil mount VirtualBox-5.0.18-106667-OSX.dmg
