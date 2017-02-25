@@ -19,6 +19,8 @@ slug: weekly-review
 <a href="http://www.flickr.com/photos/35571855@N06/8420719015/in/photostream" title="077 週次レビュー by meganii, on Flickr"><img src="http://farm9.staticflickr.com/8235/8420719015_e088db300d.jpg" width="400" /></a>
 
 
+{{% googleadsense %}}
+
 
 ### TODO
 週次レビューをしてる中で、ふと思いついたことをここに書きだす。すぐに処理したい気持ちを抑えながら、まず書き出す。
