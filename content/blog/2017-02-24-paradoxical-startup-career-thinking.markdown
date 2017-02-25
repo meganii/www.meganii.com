@@ -5,7 +5,7 @@ lastmod: 2017-02-24T00:14:19+09:00
 comments: true
 category: ['Life']
 tags: ['キャリア']
-published: false
+published: true
 slug: paradoxical-startup-career-thinking
 img: https://images-fe.ssl-images-amazon.com/images/I/41f6SJzdJgL._SL160_.jpg
 ---
