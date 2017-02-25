@@ -16,13 +16,13 @@ slug: specialist-work-shift
 本書の扉にこのようなコトバが書いてあった。
 
 
-
-<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B009DFJE9Q/meganii-22/ref=nosim/" rel="nofollow" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/41AvcbzqzDL._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B009DFJE9Q/meganii-22/ref=nosim/" rel="nofollow" target="_blank">ワーク・シフト　─孤独と貧困から自由になる働き方の未来図&lt;2025&gt;</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">リンダ グラットン プレジデント社 2012-09-28    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="display:inline;margin-right:5px"><a href="http://www.amazon.co.jp/gp/search?keywords=work%20shift&__mk_ja_JP=%83J%83%5E%83J%83i&tag=meganii-22" rel="nofollow" target="_blank" title="アマゾン" >Amazonで購入</a></div><div class="shoplinkrakuten" style="display:inline;margin-right:5px"><a href="http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2Fwork%2520shift%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F" rel="nofollow" target="_blank" title="楽天市場" >楽天市場で購入</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
-
+{{% amazon B009DFJE9Q %}}
 
 
+{{% googleadsense %}}
 
-## 未来を形づくる5ちの要因 32の要素
+
+## 未来を形づくる5つの要因
 ### 要因1 テクノロジーの進化
 
 1. テクノロジーが飛躍的に発展する
@@ -39,7 +39,6 @@ slug: specialist-work-shift
 
 ### 要因2 グローバル化の進展
 
-
 1. 24時間・週7日休まないグローバルな世界が出現した
 2. 新興国が台頭した
 3. 中国とインドの経済が目覚ましく成長した
@@ -50,7 +49,6 @@ slug: specialist-work-shift
 8. 世界のさまざまな地域に貧困層が出現する
 
 ### 要因3 人口構成の変化と長寿化
-
 
 1. Y世代の影響力が拡大する
 2. 寿命が長くなる
@@ -99,7 +97,7 @@ slug: specialist-work-shift
 
 
 
-{{% googleadsense %}}
+
 
 
 > 未来の仕事の世界で生活できるかは、その時代に価値を生み出せる知的資本を築けるかどうかである。
@@ -112,15 +110,10 @@ slug: specialist-work-shift
 
 
 
+## まとめ
 
-1. ある技能がほかの技能より高い価値をもつのは、どういう場合なのかをよく考える
-(未来を予測するうえで重要)
-
-2. 未来の世界で具体的にどういう技能が価値を持つのかという予測を立てる
-未来を正確に言い当てることは不可能だが、働き方の未来を形づくる５つの要因に関する知識をもとに、根拠のある推測はできる
-
+1. ある技能がほかの技能より高い価値をもつのは、どういう場合なのかをよく考える(未来を予測するうえで重要)
+2. 未来の世界で具体的にどういう技能が価値を持つのかという予測を立てる(未来を正確に言い当てることは不可能だが、働き方の未来を形づくる５つの要因に関する知識をもとに、根拠のある推測はできる)
 3. 未来に価値をもちそうな技能を念頭に置きつつ、自分の好きなことを職業に選ぶ
-
 4. その分野で専門技能に磨きをかける
-
 5. ある分野に習熟した後も、移行と脱皮を繰り返してほかの分野に転身する覚悟を持ち続ける
