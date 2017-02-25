@@ -1,27 +1,28 @@
 ---
-
 title: "キャリア計画を立てよう！ How Google Works-私たちの働き方とマネジメント-"
 date: 2014-10-30T22:52:00+09:00
+lastmod: 2017-02-24T22:52:00+09:00
 comments: true
 category: ['Life']
-tags: ['book']
+tags: ['book','キャリア']
 published: true
 slug: how-google-works
+img: https://images-na.ssl-images-amazon.com/images/I/51lusOSU33L._SL160_.jpg
 ---
 
-<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00OJVMK5O/meganii-22/ref=nosim/" rel="nofollow" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51lusOSU33L._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00OJVMK5O/meganii-22/ref=nosim/" rel="nofollow" target="_blank">How Google Works</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">エリック・シュミット,ジョナサン・ローゼンバーグ,アラン・イーグル,ラリー・ペイジ 日本経済新聞出版社 2014-10-17    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="display:inline;margin-right:5px"><a href="http://www.amazon.co.jp/gp/search?keywords=Google&__mk_ja_JP=%83J%83%5E%83J%83i&tag=meganii-22" rel="nofollow" target="_blank" title="アマゾン" >Amazonで購入</a></div><div class="shoplinkrakuten" style="display:inline;margin-right:5px"><a href="http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FGoogle%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F" rel="nofollow" target="_blank" title="楽天市場" >楽天市場で購入</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
 
-<a href="http://d.hatena.ne.jp/naoya/20141018" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://d.hatena.ne.jp/naoya/20141018" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://d.hatena.ne.jp/naoya/20141018" target="_blank">2014-10-18 - naoyaのはてなダイアリー</a><a href="http://b.hatena.ne.jp/entry/http://d.hatena.ne.jp/naoya/20141018" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://d.hatena.ne.jp/naoya/20141018" alt="" /></a><br><span style="color: #808080;font-size: 80%;">この3つを読んで何も感じることがないようなら、あなたにはエンジニアにとって良いなにがしを構築する素養はないと思うし、本なんて読んでられるかというのには、その程度のことにも時間を割けないならそもそも諦め ...</span><br style="clear:both;" /><br>
-
+{{% amazon B00OJVMK5O %}}
 
 
 > この3つを読んで何も感じることがないようなら、あなたにはエンジニアにとって良いなにがしを構築する素養はないと思うし、本なんて読んでられるかというのには、その程度のことにも時間を割けないならそもそも諦めろとしか言えない。
+> <a href="http://d.hatena.ne.jp/naoya/20141018" target="_blank">エンジニアにとって良い組織とは何かを知りたい?</a>
 
 たまたまTwitterのTLで見かけたので、読んでみた。
 
 
 
 ## この本から得たいことは？
+
 - 働き方の指針を得る
 - 今後の5年間をどんなものにするのか？
 - どんな人材になれば通用するのか？
@@ -34,8 +35,7 @@ slug: how-google-works
 
 
 
-
-{% include ga.html%}
+{{% googleadsense %}}
 
 ## キャリアはサーフィンのように
 <span style="font-size:10px;"><a href="https://www.flickr.com/photos/framesofmind/15536315092/" target="_blank"><img class="img-responsive" src="https://farm6.staticflickr.com/5611/15536315092_4b7109f2c0_z.jpg?zz=1" alt="Surfing Kommetjie" /></a><br />Surfing Kommetjie / FRAMES OF MIND ~ Chris Preen</span>
@@ -146,7 +146,8 @@ slug: how-google-works
 分からないなら分からないなりに、考えて動き続けるようにしたい。
 
 
+## 参考
 
-
-
+{{% amazon B00OJVMK5O %}}
+{{% amazon 415209267X %}}
 
