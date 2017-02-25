@@ -2,36 +2,51 @@
 {{ $itemId := index .Params 0 }}
 {{ $json := getJSON "https://api.meganii.com/amazon/v1/?itemid=" $itemId }}
 
-<div class="amazon-shortcode-box">
-  <div class="amazon-shortcode-image">
-    <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="amazon-shortcode" target="\_blank">
-      <img src="{{ $json.image_url }}" alt="{{ $json.title }}" />
-    </a>
-  </div>
-  <div class="amazon-shortcode-info">
-    <p class="amazon-shortcode-title">
+<div class="amazon-shortcode-box row">
+  <div class="five columns">
+    <div class="amazon-shortcode-image">
       <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="amazon-shortcode" target="\_blank">
-        {{ $json.title }}
+        <img class="center" src="{{ $json.image_url }}" alt="{{ $json.title }}" />
       </a>
-    </p>
-    {{ with $json.author }}
-      <p class="amazon-shortcode-author">{{ . }}</p>
-    {{ end }}
-    <div class="amazon-shortcode-detail">
-      {{ if or ( eq $json.productgroup "Book") (eq $json.productgroup "eBooks") }}
-        <p>出版社：{{ $json.publisher }}</p>
-      {{ else }}
-        <p>{{ $json.label }}</p>
-      {{ end }}
-      {{ with $json.publicationdate }}
-        <p>発売日：{{ . }}</p>
-      {{ end }}
     </div>
-    <p>
-      <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="backport" target="\_blank">
-        <i class="fa fa-amazon" aria-hidden="true"></i>&nbsp;Amazonで詳細を見る
-      </a>
-    </p>
+  </div>
+  <div class="seven columns">
+    <div class="amazon-shortcode-info">
+      <p class="amazon-shortcode-title">
+        <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="amazon-shortcode" target="\_blank">
+          {{ $json.title }}
+        </a>
+      </p>
+      {{ with $json.author }}
+        <p class="amazon-shortcode-author">{{ . }}</p>
+      {{ end }}
+      <div class="amazon-shortcode-detail">
+        {{ if or ( eq $json.productgroup "Book") (eq $json.productgroup "eBooks") }}
+          <p>出版社：{{ $json.publisher }}</p>
+        {{ else }}
+          <p>{{ $json.label }}</p>
+        {{ end }}
+        {{ with $json.publicationdate }}
+          <p>発売日：{{ . }}</p>
+        {{ end }}
+      </div>
+      <br />
+      <p>
+        <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="backport" target="\_blank">
+          <i class="fa fa-amazon" aria-hidden="true"></i>&nbsp;Amazonで詳細を見る
+        </a>
+      </p>
+      <p>
+        <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="backport" target="\_blank">
+          <i class="fa fa-registered" aria-hidden="true"></i>&nbsp;Rakutenで詳細を見る
+        </a>
+      </p>
+      <p>
+        <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="backport" target="\_blank">
+          <i class="fa fa-yahoo" aria-hidden="true"></i>&nbsp;Yahoo!で詳細を見る
+        </a>
+      </p>
+    </div>
   </div>
   <br style="clear: both;"/>
 </div>
