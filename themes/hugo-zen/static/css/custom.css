@@ -10,6 +10,10 @@ h4,
 h5,
 h6 { font-size: 1.5rem; }
 
+#post {
+  margin-top: 20px;
+}
+
 #post h1 {
   font-size: 2.5rem;
   padding: 13px;
