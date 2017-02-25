@@ -277,12 +277,19 @@ SNS
 }
 
 .amazon-shortcode-image {
-  float:left;
+  /*float:left;*/
   padding: 12px 24px 12px 12px;
+
 }
 
 .amazon-shortcode-image img {
   border: 1px solid #F0F0F0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .amazon-shortcode-info {
