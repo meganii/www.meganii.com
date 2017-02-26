@@ -5,6 +5,9 @@ baseURL: "https://meganii.com/"
 permalinks:
   blog: "/blog/:year/:month/:day/:slug/"
 
+blackfriday:
+  hrefTargetBlank: true
+
 Languages:
   ja:
     LanguageCode: 'ja'
