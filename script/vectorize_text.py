@@ -106,10 +106,9 @@ def main():
         yml.write(':\n')
         cnt = 1
         for key, value in posts:
-            # print(key, value)
             yml.write("    {0}:\n".format(cnt))
-            # yml.write("      title: {0}\n".format(filelist[key][2]))
-            # yml.write("      link: {0}\n".format(filelist[key][1]))
+            yml.write("      title: {0}\n".format(filelist[key][2]))
+            yml.write("      link: {0}\n".format(filelist[key][1]))
             cnt += 1
     yml.close()
 
