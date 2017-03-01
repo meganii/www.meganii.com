@@ -66,9 +66,10 @@
 			<ul id="related-posts">
 				{{ $filename := .File.BaseFileName }}
 				{{ range .Site.Data }}
+				  {{ $data := . }}
 				  {{ range $url, $i := .Url}}
 						{{ if eq $url $filename }}
-								{{ range first 10 (sort .) }}
+								{{ range first 10 (sort $data ) }}
 									<li><a href="{{ .link }}">{{ .title }}</a></li>
 								{{ end }}
 						{{ end }}
