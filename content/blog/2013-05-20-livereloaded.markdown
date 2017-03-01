@@ -3,7 +3,7 @@ title: "Sublime Text 2にLiveReloadを導入してMarkdown Previewを快適に!!
 date: 2013-05-20T22:05:00+09:00
 category: ['Tech']
 tags: ['Jekyll','Sublime Text']
-published: true
+published: false
 slug: livereloaded
 ---
 

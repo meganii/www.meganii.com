@@ -1,21 +1,18 @@
 # -*- coding: utf-8 -*-
+
+''' vector2word '''
+import re
+from collections import defaultdict
+import MeCab
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.decomposition import TruncatedSVD
-from sklearn.preprocessing import Normalizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-import csv
-import MeCab
-import re
-import yaml
-
-from collections import OrderedDict, defaultdict
-
-def mecabAnalyzer(doc, to_stem=True):
-    p = re.compile(r'<.*?>')
+def mecab_analyzer(doc, to_stem=True):
+    ''' mecab '''
+    ptn = re.compile(r'<.*?>')
     tagger = MeCab.Tagger('mecabrc')  # 別のTaggerを使ってもいい
-    mecab_result = tagger.parse(p.sub("",doc))
+    mecab_result = tagger.parse(ptn.sub("", doc))
     # mecab_result = tagger.parse(doc)
     info_of_words = mecab_result.split('\n')
     words = []
@@ -38,29 +35,38 @@ def mecabAnalyzer(doc, to_stem=True):
         words.append(info_elems[0][:-3])
     return words
 
+#pylint:disable=C0103
 def tf(doc):
-    vectorizer = CountVectorizer(analyzer=mecabAnalyzer,token_pattern=u'(?u)\\b\\w+\\b')
+    ''' TF '''
+    vectorizer = CountVectorizer(analyzer=mecab_analyzer, token_pattern=u'(?u)\\b\\w+\\b')
     features = vectorizer.fit_transform(doc)
     terms = vectorizer.get_feature_names()
     return features, terms
 
 def tfidf(docs):
-    vectorizer = TfidfVectorizer(analyzer=mecabAnalyzer ,min_df=1, max_df=50, token_pattern=u'(?u)\\b\\w+\\b')
+    ''' TF-IDF '''
+    vectorizer = TfidfVectorizer(
+        analyzer=mecab_analyzer,
+        min_df=1,
+        max_df=50,
+        token_pattern=u'(?u)\\b\\w+\\b')
     features = vectorizer.fit_transform(docs)
     terms = vectorizer.get_feature_names()
     return features, terms
 
-def getDocsList(filepath):
-    f = open(filepath, 'r')
-    lines = f.readlines()
-    return [re.sub(r"[0-9].+?|\/|\"|\(|\)","",l) for l in lines]
+def get_docslist(filepath):
+    ''' Get docslist'''
+    file = open(filepath, 'r')
+    lines = file.readlines()
+    return [re.sub(r"[0-9].+?|\/|\"|\(|\)", "", l) for l in lines]
 
-def getFileList(filepath):
-    f = open(filepath, 'r')
-    lines = f.readlines()
-    return [l.replace('\n','').split('\t') for l in lines]
+def get_filelist(filepath):
+    ''' Get file list '''
+    file = open(filepath, 'r')
+    lines = file.readlines()
+    return [l.replace('\n', '').split('\t') for l in lines]
 
-def getRelatedPosts(docs, tfidf_mtx):
+def get_related_posts(docs, tfidf_mtx):
     '''
     それぞれのドキュメントに類似するドキュメントの２次元配列を返す。
     [
@@ -71,36 +77,41 @@ def getRelatedPosts(docs, tfidf_mtx):
     cos_table = []
     for index in range(0, len(docs)):
         s = defaultdict(int)
-        for i, tfidf in enumerate(tfidf_mtx):
+        for i, tfidfv in enumerate(tfidf_mtx):
             if i == index:
                 s[i] = 0
                 continue
-            cos = cosine_similarity(tfidf_mtx[index].reshape(1, -1), tfidf.reshape(1, -1))
+            cos = cosine_similarity(tfidf_mtx[index].reshape(1, -1), tfidfv.reshape(1, -1))
             s[i] = cos
-        top_cos = sorted(s.items(), key=lambda t:t[1], reverse=True)
-        top_cos = filter(lambda t:t[1] > 0.05, top_cos)
+        top_cos = sorted(s.items(), key=lambda t: t[1], reverse=True)
+        top_cos = filter(lambda t: t[1] > 0.05, top_cos)
         cos_table.append(list(top_cos))
     return cos_table
 
-if __name__ == '__main__':
-    filelist = getFileList('tmp/filenamelist.txt')
-    docs = getDocsList('tmp/contents.txt')
+def main():
+    ''' main '''
+    filelist = get_filelist('tmp/filenamelist.txt')
+    docs = get_docslist('tmp/contents.txt')
 
-    features, terms = tfidf(docs)
+    features, _ = tfidf(docs)
     tfidf_mtx = features.toarray()
 
-    relatedposts = getRelatedPosts(docs, tfidf_mtx)
+    relatedposts = get_related_posts(docs, tfidf_mtx)
 
-    yaml = open('data/relatedposts.yml','w')
-    yaml.write('Url:\n')
+    yml = open('data/relatedposts.yml', 'w')
+    yml.write('Url:\n')
     for i, posts in enumerate(relatedposts):
-        yaml.write('  ')
-        yaml.write(filelist[i][0])
-        yaml.write(':\n')
+        yml.write('  ')
+        yml.write(filelist[i][0])
+        yml.write(':\n')
         cnt = 1
-        for k, v in posts:
-            yaml.write("    {0}:\n".format(cnt))
-            yaml.write("      title: {0}\n".format(filelist[k][2]))
-            yaml.write("      link: {0}\n".format(filelist[k][1]))
+        for key, value in posts:
+            # print(key, value)
+            yml.write("    {0}:\n".format(cnt))
+            # yml.write("      title: {0}\n".format(filelist[key][2]))
+            # yml.write("      link: {0}\n".format(filelist[key][1]))
             cnt += 1
-    yaml.close()
+    yml.close()
+
+if __name__ == '__main__':
+    main()
