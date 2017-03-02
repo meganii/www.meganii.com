@@ -6,8 +6,11 @@
 			<div class="row">
 				<div class="four columns">
 					<h1>Profile</h1>
-					<div id="profile">
-					<div class="header-logo"><img src="{{ .Site.Params.logo }}" width="60" height="60"></div>
+					<div class="profile footer-link">
+						<div class="header-logo">
+							<img src="{{ .Site.Params.logo }}" width="60" height="60" />
+						</div>
+						{{ with .Site.Params.Twitter }}<p><a href="https://twitter.com/{{ . }}" target="_blank">@{{ . }}</a></p>{{ end }}
 						<p>{{ .Site.Params.profile }}</p>
 					</div>
 				</div>
