@@ -100,17 +100,24 @@ def main():
 
     yml = open('data/relatedposts.yml', 'w')
     yml.write('Url:\n')
-    for i, posts in enumerate(relatedposts):
-        yml.write('  ')
-        yml.write(filelist[i][0])
-        yml.write(':\n')
-        cnt = 1
-        for key, value in posts:
-            yml.write("    {0}:\n".format(cnt))
-            yml.write("      title: {0}\n".format(filelist[key][2]))
-            yml.write("      link: {0}\n".format(filelist[key][1]))
-            cnt += 1
-    yml.close()
+
+    try:
+        for i, posts in enumerate(relatedposts):
+            if len(posts) > 0:
+                yml.write('  ')
+                yml.write(filelist[i][0])
+                yml.write(':\n')
+                cnt = 1
+                for key, _ in posts:
+                    yml.write("    {0}:\n".format(cnt))
+                    yml.write("      title: {0}\n".format(filelist[key][2]))
+                    yml.write("      link: {0}\n".format(filelist[key][1]))
+                    cnt += 1
+    except:
+        print("error")
+    finally:
+        print("end")
+        yml.close()
 
 if __name__ == '__main__':
     main()

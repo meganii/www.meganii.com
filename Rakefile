@@ -84,7 +84,7 @@ task :merge_contents do
             next
           end
         end
-        content = Sanitize.clean(content)
+        content = Sanitize.clean(content, Sanitize::Config::RESTRICTED)
         wf.puts(content.gsub(/\R/, ""))
       end
     end
