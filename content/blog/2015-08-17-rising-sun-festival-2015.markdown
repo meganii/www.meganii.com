@@ -6,11 +6,11 @@ comments: true
 category: ['Music']
 tags: ['RSR','夏フェス']
 published: true
-img: "https://farm1.staticflickr.com/592/20653177685_d5acc4460a_q.jpg"
+img: "https://c1.staticflickr.com/1/592/20653177685_d5acc4460a_s.jpg"
 slug: rising-sun-festival-2015
 ---
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/20653177685" title="imageby meganii, on Flickr"><img class="img-responsive" src="https://farm1.staticflickr.com/592/20653177685_d5acc4460a_z.jpg" alt="image"></a></p>
+<p><a href="https://www.flickr.com/photos/35571855@N06/20653177685" title="imageby meganii, on Flickr"><img class="img-responsive" src="https://c1.staticflickr.com/1/592/20653177685_d5acc4460a_z.jpg" alt="image"></a></p>
 
 2015/8/14-8/16と北海道で行われる夏フェス「RISING SUN FESTIVAL 2015」に行ってきました。初めてテント泊での夏フェスに参加したので、その所感をまとめます。
 

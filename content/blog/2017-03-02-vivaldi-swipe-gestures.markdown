@@ -5,7 +5,7 @@ lastmod: 2017-03-02T22:15:35+09:00
 comments: true
 category: ['Tech']
 tags: ['Vivaldi','browser']
-published: true
+published: false
 slug: vivaldi-swipe-gestures
 ---
 
