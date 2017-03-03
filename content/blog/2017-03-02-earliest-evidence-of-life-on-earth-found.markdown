@@ -7,7 +7,7 @@ category: ['Science']
 tags: ['Evolution']
 published: false
 slug: earliest-evidence-of-life-on-earth-found
-img: 
+img: https://images-fe.ssl-images-amazon.com/images/I/51QaEoCJs0L._SL160_.jpg
 ---
 
 最近聴いているPodcast「バイリンガルニュース」の特別編にJAMSTECの高井氏がゲストとして出ていた回を聴いていました。そんなときに、この地球最古の化石が発見
