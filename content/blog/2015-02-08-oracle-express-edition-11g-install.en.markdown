@@ -19,6 +19,7 @@ I'd like to learn about Oracle, so I installed Oracle 11g Express Edition on Vag
 - Oracle Database Express Edition 11g R2
 - Host OS: Mac OS X Mavericks
 - Guest OS: CentOS 6.4 x86_64 Minimal(20140116)
+
 [Release CentOS 6.4 x86_64 Minimal (2014-01-16) · 2creatives/vagrant-centos](https://github.com/2creatives/vagrant-centos/releases/tag/v6.4.2)
 
 
