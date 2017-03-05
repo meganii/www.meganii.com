@@ -9,10 +9,6 @@ new_post_ext    = "markdown"  # default new post file extension when using the n
 desc "deploy to sakura from circle ci"
 task :deploy_to_sakura_from_circleci do
   sh 'hugo -t hugo-zen'
-  sh 'mv public/category public/blog'
-  sh 'mv public/tags public/blog'
-  sh 'mv public/en/category public/en/blog'
-  sh 'mv public/en/tags public/en/blog'
   sh "rsync -e \"ssh -p #{ENV['SSH_PORT']}\" -avz --delete public/ web@#{ENV['SAKURA_IP']}:/home/web/www/meganii.com"
 end
 
@@ -20,10 +16,6 @@ desc "deploy_to_sakura"
 task :deploy_to_sakura do
   sh 'rm -r public'
   sh 'hugo -t hugo-zen'
-  sh 'mv public/category public/blog'
-  sh 'mv public/tags public/blog'
-  sh 'mv public/en/category public/en/blog'
-  sh 'mv public/en/tags public/en/blog'
   sh "rsync --iconv=UTF-8-MAC,UTF-8 -e \"ssh -p #{ENV['SSH_PORT']}\" -avz --delete public/ web@#{ENV['SAKURA_IP']}:/home/web/www/meganii.com"
 end
 
@@ -31,11 +23,7 @@ desc "deploy_to_vagrant"
 task :deploy_to_vagrant do
   sh 'rm -r public'
   sh 'hugo -t hugo-zen'
-  sh 'mv public/category public/blog'
-  sh 'mv public/tags public/blog'
-  sh 'mv public/en/category public/en/blog'
-  sh 'mv public/en/tags public/en/blog'
-  sh "rsync --iconv=UTF-8-MAC,UTF-8 -e \"ssh -p #{ENV['SSH_PORT']}\" -avz --delete public/ web@192.168.33.33:/home/web/www/meganii.com"
+  sh "rsync --iconv=UTF-8-MAC,UTF-8 -e \"ssh -p #{ENV['SSH_PORT']}\" -avz --delete public/ web@192.168.33.33:/home/web/www/meganii.com/blog/"
 end
 
 desc "Begin a new post in #{posts_dir}"
