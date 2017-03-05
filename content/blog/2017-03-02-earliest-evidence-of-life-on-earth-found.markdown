@@ -4,7 +4,7 @@ date: 2017-03-02T21:40:21+09:00
 lastmod: 2017-03-02T21:40:21+09:00
 comments: true
 category: ['Science']
-tags: ['Evolution']
+tags: ['Evolution', 'BilingualNews']
 published: true
 slug: earliest-evidence-of-life-on-earth-found
 img: https://images-fe.ssl-images-amazon.com/images/I/51QaEoCJs0L._SL160_.jpg
