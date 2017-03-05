@@ -1,10 +1,10 @@
 ---
-title: "minimoで初めてのメンズカットモデル"
+title: "minimo(ミニモ)で初めてのメンズカットモデル"
 date: 2016-10-16T21:45:48+09:00
 lastmod: 2017-02-10T21:45:48+09:00
 comments: true
 category: ['Life']
-tags: ['minimo']
+tags: ['minimo','ミニモ']
 published: true
 slug: get-a-haircut-by-minimo
 img: "https://c5.staticflickr.com/6/5589/30324509396_9e63960c57_t.jpg"
@@ -13,7 +13,7 @@ img: "https://c5.staticflickr.com/6/5589/30324509396_9e63960c57_t.jpg"
 ![minimo](https://farm6.staticflickr.com/5589/30324509396_9e63960c57_z.jpg)
 
 
-「カットモデル」って響きがなんか恐れ多いけど、安く(無料で)カットしてもらえるなら一回やってみようと思って、「minimo」を使って、カットしてもらいました。
+「カットモデル」って響きがなんか恐れ多いけど、安く(無料で)カットしてもらえるなら一回やってみようと思って、「minimo(ミニモ)」を使って、カットしてもらいました。
 
 初めて利用したので、全然流れが分からず不安でしたが、本当に無料でカットしてもらい、大満足です。次回も、利用しようと思います。
 
@@ -22,7 +22,7 @@ img: "https://c5.staticflickr.com/6/5589/30324509396_9e63960c57_t.jpg"
 {{% googleadsense %}}
 
 
-## 「minimo」ってどんなアプリ？Webサービス？
+## minimo(ミニモ)ってどんなアプリ？Webサービス？
 
 ざっくり言うと、練習で髪を切りたい「美容師」と出来るならお金をかけずに髪を切りたい「人」を結びつけるWebサービスです。
 
