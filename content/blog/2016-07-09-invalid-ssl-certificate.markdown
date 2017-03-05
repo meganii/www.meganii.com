@@ -10,6 +10,9 @@ slug: invalid-ssl-certificate
 img: "/images/le-logo-standard.png"
 ---
 
+[![https://gyazo.com/aa727ee506684862329b98313fcce28a](https://i.gyazo.com/aa727ee506684862329b98313fcce28a.png)](https://gyazo.com/aa727ee506684862329b98313fcce28a)
+
+
 この[meganii.com](https://meganii.com)は、Lets's Encryptで証明書を発行しています。しばらくは、仕組みがよく分かっていないので手動で更新しようと、3ヶ月に一回は更新するようにしていたのですが、ついに昨日、証明書の期限切れでアクセス出来ない状態になりました。。。(なんというお間抜けな話)
 
 慌てて、certbotを実行させ、更新しようとしたのですが、前回の更新が上手くいっていなかったみたいでrenewできませんでした。
