@@ -17,7 +17,7 @@
 			{{ end }}
 			<h1 class="entry-title" itemprop="headline">{{ .Title }}</h1>
 			{{ range .Params.tags }}
-			<span class="entry-meta"><i class="fa fa-tags"></i><a href="{{ $baseurl }}{{ $lang }}blog/tags/{{ . | urlize }}"> {{ . }} </a></span>
+			<span class="entry-meta"><i class="fa fa-tags"></i><a href="{{ $baseurl }}{{ $lang }}tags/{{ . | urlize }}"> {{ . }} </a></span>
 			{{ end }}
 			<span class="entry-meta">
 				<i class="fa fa-pencil" aria-hidden="true"> </i>
