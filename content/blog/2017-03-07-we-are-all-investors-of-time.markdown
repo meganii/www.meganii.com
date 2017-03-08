@@ -7,10 +7,10 @@ category: ['Life']
 tags: ['キャリア']
 published: true
 slug: we-are-all-investors-of-time
-img: https://images-fe.ssl-images-amazon.com/images/I/41f6SJzdJgL._SL160_.jpg
+img: https://i.gyazo.com/thumb/200/_eed61ad2407c399045caaa90c781c05f-jpg.jpg
 ---
 
-**「我々は全員”時間”の投資家だから」**
+[![https://gyazo.com/928746f78deee72b8dd07f8b51e4a133](https://i.gyazo.com/928746f78deee72b8dd07f8b51e4a133.jpg)](https://gyazo.com/928746f78deee72b8dd07f8b51e4a133)
 
 逆説のキャリア思考のスライドを読んで印象に残った言葉である。全くその通りだと、すっと腑に落ちた。
 
