@@ -34,3 +34,4 @@ img: https://i.gyazo.com/thumb/200/_eed61ad2407c399045caaa90c781c05f-jpg.jpg
 
 {{% amazon 4121505786 %}}
 {{% amazon 4140816589 %}}
+{{% amazon 4478001251 %}}
