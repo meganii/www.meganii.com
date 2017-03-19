@@ -1,7 +1,7 @@
 DefaultContentLanguage: "ja"
 
 title: "SIS Lab"
-baseURL: "https://meganii.com/"
+baseURL: "https://www.meganii.com/"
 permalinks:
   blog: "/blog/:year/:month/:day/:slug/"
 
@@ -54,6 +54,6 @@ taxonomies:
 
 author:
     name: "meganii"
-    homepage: "https://meganii.com/"
+    homepage: "https://www.meganii.com/"
 
 Copyright:
