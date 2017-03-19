@@ -1,2 +1,3 @@
 https://meganii.netlify.com/ https://meganii.com/ 301
+https://meganii.netlify.com/blog/:year/:month/:date/:slug https://meganii.com/blog/:year/:month/:date/:slug 301
 https://meganii.netlify.com/* https://meganii.com/:splat 301
