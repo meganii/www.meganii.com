@@ -1,0 +1,40 @@
+---
+title: "netlify"
+date: 2017-03-19T19:46:06+09:00
+lastmod: 2017-03-19T19:46:06+09:00
+comments: true
+category: ['']
+tags: ['']
+published: false
+slug: netlify
+img: 
+---
+
+現在さくらVPSを利用しているが、
+
+<!--more-->
+{{% googleadsense %}}
+
+
+## カスタムドメインの設定方法
+
+### サブドメイン
+
+CNAMEで
+
+### Naked Domain
+
+
+## リダイレクト処理
+
+`_redirects`ファイルにRedirect処理を記載することができる
+
+[Go Static Without Losing Your Server \| Netlify](https://www.netlify.com/blog/2016/03/10/go-static-without-losing-your-server/)
+
+
+
+## 参考
+
+- [高機能ホスティングサービスNetlifyについて調べて使ってみた \- Qiita](http://qiita.com/TakahiRoyte/items/b7c4d1581df1a17a93fb)
+- [Netlifyは最強の静的ウェブサイトホスティングサービスかもしれない \- yoshidashingo](http://yoshidashingo.hatenablog.com/entry/2016/08/22/193821)
+- [Netlifyを使ってブログをHTTPS化する \| Aimless](http://aimless.jp/blog/archives/2016-11-18-enable-https-by-netlify/)
