@@ -50,7 +50,12 @@ Netlifyとは、「フロントエンドのコードを書いたら、Pushすれ
 
 ## カスタムドメインの設定方法
 
-## お名前.com
+Netlifyにデプロイ後のURL`meganii.netlify.com`を`www.meganii.com`で運用したい場合の例です。
+
+`www.meganii.com`にCNAMEを設定して、`meganii.netlify.com`に向けます。
+
+
+### お名前.comでの設定
 
 [![https://gyazo.com/eaf25edb2d5651e71390d1628ba251e7](https://i.gyazo.com/eaf25edb2d5651e71390d1628ba251e7.png)](https://gyazo.com/eaf25edb2d5651e71390d1628ba251e7)
 
@@ -61,15 +66,22 @@ Netlifyとは、「フロントエンドのコードを書いたら、Pushすれ
 
 
 
-## app.netlify.com
+### app.netlify.comでの設定
+
+Custom domainを設定して、その後、HTTPSを有効にします。
 
 [![https://gyazo.com/41f8e3a985be8d5269d65bd37acc77ac](https://i.gyazo.com/41f8e3a985be8d5269d65bd37acc77ac.png)](https://gyazo.com/41f8e3a985be8d5269d65bd37acc77ac)
 
+[![https://gyazo.com/2c7a4eb88b49fb741985881b76ec3a42](https://i.gyazo.com/2c7a4eb88b49fb741985881b76ec3a42.png)](https://gyazo.com/2c7a4eb88b49fb741985881b76ec3a42)
 
 
 ## リダイレクト処理
 
-`_redirects`ファイルにRedirect処理を書くことができる。
+カスタムドメインを設定しても、元々の`*.netlify.com`にはアクセスできてしまうので、Google的には重複コンテンツと見なされるのではないか？とちょっと心配になったので、以下の通りリダイレクトを`_redirects`ファイルに設定しました。
+
+注意点は、`public`フォルダ直下に配置しないといけない点です。(最初、rootに置けばよいだけど思っていましたが、よくよく考えればその通りですね)
+
+`_redirects`ファイルにRedirect処理を書くことができます。
 
 [Go Static Without Losing Your Server \| Netlify](https://www.netlify.com/blog/2016/03/10/go-static-without-losing-your-server/)
 
@@ -78,8 +90,6 @@ Netlifyとは、「フロントエンドのコードを書いたら、Pushすれ
 ```
 /app/*  /app/index.html  200!
 ```
-
-カスタムドメインを設定しても、元々の`*.netlify.com`にはアクセスできてしまうので、Google的には重複コンテンツと見なされるのではないか？とちょっと心配になったので、以下の通りリダイレクトを`_redirects`ファイルに設定しました。
 
 ```_redirects
 https://meganii.netlify.com/* https://meganii.com/:splat 301!
