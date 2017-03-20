@@ -50,11 +50,21 @@ Netlifyとは、「フロントエンドのコードを書いたら、Pushすれ
 
 ## カスタムドメインの設定方法
 
-### サブドメイン
+## お名前.com
 
-CNAMEで
+[![https://gyazo.com/eaf25edb2d5651e71390d1628ba251e7](https://i.gyazo.com/eaf25edb2d5651e71390d1628ba251e7.png)](https://gyazo.com/eaf25edb2d5651e71390d1628ba251e7)
 
-### Naked Domain
+[![https://gyazo.com/4e99fdafdd37adab30566e53e9178386](https://i.gyazo.com/4e99fdafdd37adab30566e53e9178386.png)](https://gyazo.com/4e99fdafdd37adab30566e53e9178386)
+
+[![https://gyazo.com/e3c5bb60261f013da52681701f5dfdb2](https://i.gyazo.com/e3c5bb60261f013da52681701f5dfdb2.png)](https://gyazo.com/e3c5bb60261f013da52681701f5dfdb2)
+
+
+
+
+## app.netlify.com
+
+[![https://gyazo.com/41f8e3a985be8d5269d65bd37acc77ac](https://i.gyazo.com/41f8e3a985be8d5269d65bd37acc77ac.png)](https://gyazo.com/41f8e3a985be8d5269d65bd37acc77ac)
+
 
 
 ## リダイレクト処理
