@@ -1,5 +1,5 @@
 ---
-title: "Hugoのホスト先をさくらVPSからNetlifyに変更"
+title: "Hugoで生成した静的サイトのホスト先をさくらVPSからNetlifyに変更する"
 date: 2017-03-19T19:46:06+09:00
 lastmod: 2017-03-19T19:46:06+09:00
 comments: true
@@ -7,18 +7,45 @@ category: ['Tech']
 tags: ['Netlify','Hugo']
 published: true
 slug: migrate-hugo-hosting-service-from-sakura-vps-to-netlify
-img: 
+img: https://i.gyazo.com/6e0e459a700179093431f2c57b1880a5.png
 ---
 
-現在さくらVPSを利用しているが、そろそろ更新時期でしたので、これを機に、静的サイトのホスティングをVPSではなく、クラウドサービスを利用しようと検討しました。
+現在(2017/3月)、Hugoで生成した静的サイトをホストするためにさくらVPSを利用しています。さくらVPSは２年近く使ってきましたが、そろそろ更新時期した(1年まとめて契約しているため)。自分が契約したタイプはデイスクがHDDのままSSDに変更できないタイプだったので、新規契約し直すか、Conoha VPSに切り替えるか、それともVPS自体を契約しないとするか迷っています。
 
-最初は、`Github Pages`にしようとしていましたが、現状http2対応していないみたいで、ちょっとなーと思っていたところ、`Netlify`を改めて試してみたら、結構よかったので移行しました。
+良い機会であるため、静的サイトのホスティングをVPSではなくクラウドサービスを利用しようと検討しました。
+
+## 移行先検討
+
+- GitHub Pages
+- Netlify
+
+自分の中では`Github Pages`か`Netlify`の2択でした。静的サイトのコンテンツはGitHubにコミットしているため、最初は、`Github Pages`にしようとしていました。しかし、現状HTTP/2に対応していないことからあまり気乗りしませんでした。もともとVPSを利用していたときには、[Lets's Encryptでブログの常時SSL化にチャレンジ](https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/)のように、常時SSLに対応したり、h2oをインストールしてなんとかHTTP/2に対応した経緯もあり、せっかくなら対応できると嬉しいです。
+
+その点、`Netlify`を試してみたら「これで決まり！」と思うぐらい良かったのでまずはNetlifyで運用してみます。
 
 [![Netlify](https://i.gyazo.com/6e0e459a700179093431f2c57b1880a5.png)](https://gyazo.com/6e0e459a700179093431f2c57b1880a5)
 [Netlify: All\-in\-one platform for automating modern web projects](https://www.netlify.com/)
 
 <!--more-->
 {{% googleadsense %}}
+
+Netlifyを気に入ったポイントは以下の点です。
+
+- 簡単に、独自ドメイン(Custom Domain)が設定できる
+- 簡単に、SSL対応できる
+- 簡単に、グローバルCDNを導入できる
+- HTTP/2サポート
+- Hugoビルドまで面倒みてくる
+- CIツールからの連携も可能
+
+## Netlifyとは？
+
+> Write frontend code. Push it. We handle the rest.
+
+Netlifyとは、「フロントエンドのコードを書いたら、Pushすれば後はお任せ」という通り、フロントエンドのデプロイ・ビルド・ホスティングを全て面倒をみてくれるプラットフォームです。
+
+> Deploy modern static websites with our automated platform. Add best practices like SSL, CDN distribution, caching and continuous deployment with a single click.
+
 
 
 ## カスタムドメインの設定方法
@@ -49,24 +76,43 @@ https://meganii.netlify.com/* https://meganii.com/:splat 301!
 http://meganii.netlify.com/* https://meganii.com/:splat 301!
 ```
 
-`:splat`は、ワイルドカードのように
-
+`:splat`は、ワイルドカードのように使うみたいです。
 
 ```
 /news/*  /blog/:splat
 ```
 
-### 例
+上記の設定だと、以下の通りリダイレクトされます。
 
 `/news/2004/01/10/my-story` to `/blog/2004/01/10/my-story`
 
-## Hugo
+## NetlifyでHugoを使うときの注意点
 
-デフォルトだと、HugoのVersionは`1.7`だけど、`hugo_0.19`というbuild commandを利用することで、使えるようになるみたい
+デフォルトだと、HugoのVersionは`1.7`ですが、`hugo_0.19`というbuild commandを利用することで、`1.9`のバージョンを利用できます。
 
+## _headers
+
+`_headers`は、無料プランでは利用できないみたいです。
+
+
+## ビルドにNetlify以外のCIツールを利用する場合
+
+NetlifyのAPIを利用することで、Manual Deployが可能なため、CIツールからデプロイすることが可能です。  
+CircleCIの場合は、以下の通り`circle.yml`に記載します。
+
+```
+deployment:
+  master:
+    branch: master
+    commands:
+      - npm install netlify-cli
+      - hugo -t hugo-zen
+      - node_modules/.bin/netlify deploy -t "$netlify_token"
+```
 
 ## 参考
 
 - [高機能ホスティングサービスNetlifyについて調べて使ってみた \- Qiita](http://qiita.com/TakahiRoyte/items/b7c4d1581df1a17a93fb)
 - [Netlifyは最強の静的ウェブサイトホスティングサービスかもしれない \- yoshidashingo](http://yoshidashingo.hatenablog.com/entry/2016/08/22/193821)
 - [Netlifyを使ってブログをHTTPS化する \| Aimless](http://aimless.jp/blog/archives/2016-11-18-enable-https-by-netlify/)
+- [Hugo on Netlify \- tips & tricks \- Hugo Discussion](https://discuss.gohugo.io/t/hugo-on-netlify/1505/13)
