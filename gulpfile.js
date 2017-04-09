@@ -19,6 +19,11 @@ gulp.task('default', function(cb) {
         .pipe(responsive({
           // Resize all JPG images to three different sizes: 200, 500, and 630 pixels
           'images/**/*.jpg': [{
+            width: 640,
+          }, {
+            width: 64,
+            rename: { suffix: '-64x'},
+          }, {
             width: 320,
             rename: { suffix: '-320x' },
           }, {
@@ -85,8 +90,13 @@ gulp.task('imagemin-1', function() {
 gulp.task('responsive', function(){
   return gulp.src(['src/images/**/*.jpg','src/images/**/*.png'], { base: 'src'})
         .pipe(responsive({
-          // Resize all JPG images to three different sizes: 200, 500, and 630 pixels
+          // Resize all JPG images to three different sizes: 64, 320, 640, and 1280 pixels
           'images/**/*.jpg': [{
+            width: 640, // default size
+          },  {
+            width: 64,
+            rename: { suffix: '-64x'},
+          }, {
             width: 320,
             rename: { suffix: '-320x' },
           }, {
