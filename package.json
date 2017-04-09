@@ -20,9 +20,16 @@
     "babel-preset-es2015": "^6.13.2",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.0.2",
+    "gulp-exec": "^2.1.3",
+    "gulp-image-resize": "^0.12.0",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-responsive": "^2.7.0",
     "gulp-uglify": "^2.0.1",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-optipng": "^5.2.1",
     "textlint-rule-common-misspellings": "^1.0.1",
-    "textlint-rule-preset-japanese": "^1.3.3"
+    "textlint-rule-preset-japanese": "^1.3.3",
+    "webpack-stream": "^3.2.0"
   },
   "repository": {
     "type": "git",
