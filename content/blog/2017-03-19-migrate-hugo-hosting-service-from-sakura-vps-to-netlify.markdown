@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Netlify','Hugo']
 published: true
 slug: migrate-hugo-hosting-service-from-sakura-vps-to-netlify
-img: https://i.gyazo.com/6e0e459a700179093431f2c57b1880a5.png
+img: "/images/2017/03/netlify-64x.png"
 ---
 
 現在(2017/3月)、Hugoで生成した静的サイトをホストするためにさくらVPSを利用しています。さくらVPSは２年近く使ってきましたが、そろそろ更新時期した(1年まとめて契約しているため)。自分が契約したタイプはデイスクがHDDのままSSDに変更できないタイプだったので、新規契約し直すか、Conoha VPSに切り替えるか、それともVPS自体を契約しないとするか迷っています。
@@ -23,7 +23,8 @@ img: https://i.gyazo.com/6e0e459a700179093431f2c57b1880a5.png
 
 その点、`Netlify`を試してみたら「これで決まり！」と思うぐらい良かったのでまずはNetlifyで運用してみます。
 
-[![Netlify](https://i.gyazo.com/6e0e459a700179093431f2c57b1880a5.png)](https://gyazo.com/6e0e459a700179093431f2c57b1880a5)
+![Netlify](/images/2017/03/netlify.png)
+
 [Netlify: All\-in\-one platform for automating modern web projects](https://www.netlify.com/)
 
 <!--more-->
@@ -117,7 +118,7 @@ http://meganii.netlify.com/* https://meganii.com/:splat 301!
 
 ## ビルドにNetlify以外のCIツールを利用する場合
 
-NetlifyのAPIを利用することで、Manual Deployが可能なため、CIツールからデプロイすることが可能です。  
+NetlifyのAPIを利用することで、Manual Deployが可能なため、CIツールからデプロイすることが可能です。
 CircleCIの場合は、以下の通り`circle.yml`に記載します。
 
 ```
