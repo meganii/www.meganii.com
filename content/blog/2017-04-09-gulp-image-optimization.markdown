@@ -29,24 +29,7 @@ img:
 「1.」のドラッグ＆ドロップで画像リンク生成は、エディタのプラグインで実現することにし、「2.」「3.」を`gulp`のタスクで実現を目指しました。
 
 
-## 出力処理
-
-`gulp.src`に`base`というオプションがあり、これを指定するとディレクトリ構造を維持して出力することができます。
-
-```javascript
-var gulp = require('gulp');
-
-gulp.task('copy', function() {
-    return gulp.src(
-        ['src/images/**/.jpg', 'src/images/**/.png'],
-        { base: 'src' }
-    )
-    .pipe(gulp.dest('static/'));
-} );
-```
-
-
-## responsive対応
+## 画像のresponsive対応
 
 なんとなく、320px,640px,1280px,オリジナルファイルという4種類にリサイズするようにしてみました。
 
@@ -89,6 +72,118 @@ gulp.task('responsive', function(){
 ```
 
 [gulp\-responsive/multiple\-resolutions\.md at master · mahnunchik/gulp\-responsive](https://github.com/mahnunchik/gulp-responsive/blob/master/examples/multiple-resolutions.md)
+
+### Tips 出力処理
+
+`gulp.src`に`base`というオプションがあり、これを指定するとディレクトリ構造を維持して出力することができます。
+
+```javascript
+var gulp = require('gulp');
+
+gulp.task('copy', function() {
+    return gulp.src(
+        ['src/images/**/.jpg', 'src/images/**/.png'],
+        { base: 'src' }
+    )
+    .pipe(gulp.dest('static/'));
+} );
+```
+
+## 画像の最適化
+
+画像の最適化には、`gulp-imagemin`を利用しました。
+
+```javascript
+var imagemin = require('gulp-imagemin');
+gulp.task('imagemin', function() {
+  return gulp.src('src/images/**/*.jpg')
+      .pipe(imagemin())
+      .pipe(gulp.dest('static/'));
+});
+```
+
+
+## 組み合わせた結果
+
+Hugoのルートディレクトリで`gulp`を叩けば、jpg, pngを監視し、ファイルが追加されれば、画像フォルダに変換後の画像が作成されるようになります。
+
+```javascript
+gulp.task('default', function(cb) {
+  var watcher = gulp.watch('src/images/**/*.{jpg,png}');
+  watcher.on('change', function(event) {
+    console.log(event);
+    console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+    const extname = event.path.split(".").pop(); // TODO error handle
+    console.log(extname);
+    if (extname === "jpg") {
+      gulp.src(event.path, { base: 'src'})
+          .pipe(responsive({
+            // Resize all JPG images to three different sizes: 200, 500, and 630 pixels
+            'images/**/*.jpg': [{
+              width: 640,
+            }, {
+              width: 64,
+              rename: { suffix: '-64x'},
+            }, {
+              width: 320,
+              rename: { suffix: '-320x' },
+            }, {
+              width: 640,
+              rename: { suffix: '-640x' },
+            }, {
+              width: 1280,
+              rename: { suffix: '-1280x' },
+            }, {
+              // Compress, strip metadata, and rename original image
+              rename: { suffix: '-o' },
+            }],
+          }))
+        .pipe(imagemin())
+        .pipe(gulp.dest('static/'));
+    } else if (extname === "png") {
+      gulp.src(event.path, { base: 'src'})
+          .pipe(responsive({
+            // Resize all PNG images to be retina ready TODO
+            'images/**/*.png': [{
+              width: 64,
+              rename: { suffix: '-64x'}
+            }, {
+              width: 640,
+            }, {
+              width: 640 * 2,
+              rename: { suffix: '@2x' },
+            }],
+          }, {
+            // Global configuration for all images
+            // The output quality for JPEG, WebP and TIFF output formats
+            quality: 70,
+            // Use progressive (interlace) scan for JPEG and PNG output
+            progressive: true,
+            // Strip all metadata
+            withMetadata: false,
+        }))
+        .pipe(imagemin())
+        .pipe(gulp.dest('static/'));
+    } else {
+      console.log("not jpg or png");
+    }
+
+  });
+
+  // hugo
+  exec('hugo server -t hugo-zen', function(err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+    if (err) return cb(err); // return error
+    cb(); // finished task
+  });
+});
+```
+
+## まとめ
+
+画像の最適化は、手動だとめんどくさくてなかなか出来ないが、一度自動化してしまえば後は楽です。
+少しずつメンテナンスを加えて使い勝手を良くしていきたいと思います。
 
 
 
