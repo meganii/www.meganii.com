@@ -59,11 +59,11 @@ Url:
       title: "一流の習慣術　イチローとマー君が実践する「自分力」の育て方　の奥村さんの講演を聞いてきた"
       link: https://www.meganii.com/blog/2012/06/06/ichiro/
     12:
-      title: "DevLOVE関西「勉強会勉強会」"
-      link: https://www.meganii.com/blog/2013/02/09/devkan-study/
-    13:
       title: "[コツコツ勉強]よくわからないままJavaScriptを使っている自分へ"
       link: https://www.meganii.com/blog/2014/11/28/javascript/
+    13:
+      title: "DevLOVE関西「勉強会勉強会」"
+      link: https://www.meganii.com/blog/2013/02/09/devkan-study/
   2012-03-03-first-try-bouldering:
     1:
       title: "ボルダリング初心者向け動画まとめ"
@@ -228,11 +228,11 @@ Url:
       title: "「第4回 リアル・ウォンテッドリー」に行ってきました"
       link: https://www.meganii.com/blog/2015/08/04/real-wantedly/
     20:
-      title: "タスクカフェ@大阪に行ってきました！"
-      link: https://www.meganii.com/blog/2012/05/28/taskcafe/
-    21:
       title: "ap bank fes'12 淡路島!!!"
       link: https://www.meganii.com/blog/2012/08/09/apbankfes/
+    21:
+      title: "タスクカフェ@大阪に行ってきました！"
+      link: https://www.meganii.com/blog/2012/05/28/taskcafe/
     22:
       title: "人脈ってなんだろう"
       link: https://www.meganii.com/blog/2012/07/31/connection/
@@ -879,11 +879,11 @@ Url:
       title: "React + ElectronでFlickr連携可能なMarkdown Editorを作った"
       link: https://www.meganii.com/blog/2016/08/24/react-flickr-markdown-editor/
     13:
-      title: "UTF-8-MACとは何か？〜Jekyllのカテゴリ(タグ)ページで濁点を含むページが表示されない〜"
-      link: https://www.meganii.com/blog/2014/11/29/jekyll-tags-unread-because-of-utf-8-mac/
-    14:
       title: "Jekyllに月別アーカイブを実装する"
       link: https://www.meganii.com/blog/2014/12/02/jekyll-monthly-archive/
+    14:
+      title: "UTF-8-MACとは何か？〜Jekyllのカテゴリ(タグ)ページで濁点を含むページが表示されない〜"
+      link: https://www.meganii.com/blog/2014/11/29/jekyll-tags-unread-because-of-utf-8-mac/
     15:
       title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
       link: https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/
@@ -935,11 +935,11 @@ Url:
       title: "コンサルタントの秘密〜コンサルタント業はなぜ大変か？〜"
       link: https://www.meganii.com/blog/2015/09/05/the-secrets-of-consulting/
     10:
-      title: "「逆説のキャリア思考 - スタートアップ思考をキャリアに活かす」まとめ"
-      link: https://www.meganii.com/blog/2017/02/24/paradoxical-startup-career-thinking/
-    11:
       title: "正規化とは何か？"
       link: https://www.meganii.com/blog/2015/08/07/normalization/
+    11:
+      title: "「逆説のキャリア思考 - スタートアップ思考をキャリアに活かす」まとめ"
+      link: https://www.meganii.com/blog/2017/02/24/paradoxical-startup-career-thinking/
     12:
       title: "学びの螺旋にはっと気づく"
       link: https://www.meganii.com/blog/2012/02/01/learn/
@@ -991,50 +991,50 @@ Url:
       title: "Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする"
       link: https://www.meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/
     5:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    6:
       title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
       link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
-    6:
+    7:
       title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://www.meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
-    7:
+    8:
       title: "http/2ベンチマークツール「h2load」をインストール"
       link: https://www.meganii.com/blog/2016/07/17/install-h2load/
-    8:
+    9:
       title: "静的サイトジェネレータ「Hugo」インストール"
       link: https://www.meganii.com/blog/2017/01/08/installing-hugo/
-    9:
+    10:
       title: "音声認識エンジンJuliusをインストールする"
       link: https://www.meganii.com/blog/2016/12/21/install-julius/
-    10:
+    11:
       title: "How to install Virtualbox and Vagrant by installing by cli with Mac El Capitan"
       link: https://www.meganii.com/en/blog/2016/05/16/install-virtualbox-and-vagrant-in-el-capitan/
-    11:
+    12:
       title: "さくらVPSにDropboxをインストール"
       link: https://www.meganii.com/blog/2013/05/08/dropbox_cui/
-    12:
+    13:
       title: "CircleCIでMeCabを利用してHugoビルドする"
       link: https://www.meganii.com/blog/2017/01/14/circle-ci-settings-for-mecab-hugo/
-    13:
+    14:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
       link: https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
-    14:
+    15:
       title: "El Capitanへのアップグレード時AppStoreに接続できなくなった場合(さらにキーチェーンアクセスでも対処できなかった時)の対処法 "
       link: https://www.meganii.com/blog/2016/01/23/el-capitan-upgrade-error/
-    15:
+    16:
       title: "2台目のMacBookAirからさくらVPSへSSH接続を行うための鍵の設定"
       link: https://www.meganii.com/blog/2013/06/21/ssh-sakuravps/
-    16:
+    17:
       title: "Installing Oracle Database Express Edition11g on Vagrant(CentOS 6.4)"
       link: https://www.meganii.com/en/blog/2015/02/08/oracle-express-edition-11g-install/
-    17:
-      title: "wgetでダウンロード失敗したときの対処法"
-      link: https://www.meganii.com/blog/2017/01/14/can-not-download-with-wget/
     18:
       title: "vagrant plugin install hostmanager実行時のnokogiriインストールエラーの解決"
       link: https://www.meganii.com/blog/2015/04/05/vagrant-plugin-install-hostmanager-nokogiri-error/
     19:
-      title: "Hugoで生成した静的サイトのホスト先をさくらVPSからNetlifyに変更する"
-      link: https://www.meganii.com/blog/2017/03/19/migrate-hugo-hosting-service-from-sakura-vps-to-netlify/
+      title: "wgetでダウンロード失敗したときの対処法"
+      link: https://www.meganii.com/blog/2017/01/14/can-not-download-with-wget/
   2013-04-21-tennisboo-spring:
     1:
       title: "晴天のテニスブー春合宿2012！！"
@@ -1083,11 +1083,11 @@ Url:
       title: "JekyllでPygmentsを使ってのシンタックスハイライト"
       link: https://www.meganii.com/blog/2014/10/29/pjekyll-pygments/
     10:
-      title: "JekyllからHugoへの移行ポイント"
-      link: https://www.meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/
-    11:
       title: "Sublime Text 2にパッケージコントロールを導入!!"
       link: https://www.meganii.com/blog/2013/04/26/sublime-text-2-pakage-control/
+    11:
+      title: "JekyllからHugoへの移行ポイント"
+      link: https://www.meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/
     12:
       title: "Capybara「Request failed to reach server, check DNS and/or server status」"
       link: https://www.meganii.com/en/blog/2015/07/25/capybara-connect-error/
@@ -1215,24 +1215,27 @@ Url:
       title: "Lets's Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化"
       link: https://www.meganii.com/blog/2016/07/09/invalid-ssl-certificate/
     4:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    5:
       title: "MacでVirtualbox、Vagrantをインストールするときにいつまで経っても検証が終わらない場合の対処法としてコマンドラインからインストールする"
       link: https://www.meganii.com/blog/2016/05/16/install-virtualbox-and-vagrant-in-el-capitan/
-    5:
+    6:
       title: "2台目のMacBookAirからさくらVPSへSSH接続を行うための鍵の設定"
       link: https://www.meganii.com/blog/2013/06/21/ssh-sakuravps/
-    6:
+    7:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
       link: https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
-    7:
+    8:
       title: "AnsibleでさくらVPSの初期設定"
       link: https://www.meganii.com/blog/2015/03/02/ansible-sakura-vps/
-    8:
+    9:
       title: "Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする"
       link: https://www.meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/
-    9:
+    10:
       title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
       link: https://www.meganii.com/blog/2016/07/18/installing-h2o-with-ansible/
-    10:
+    11:
       title: "音声認識エンジンJuliusをインストールする"
       link: https://www.meganii.com/blog/2016/12/21/install-julius/
   2013-05-15-yakushima-kpt:
@@ -1277,11 +1280,11 @@ Url:
       title: "Happiness 私たちが幸せを感じる理由"
       link: https://www.meganii.com/blog/2012/04/23/happiness/
     10:
-      title: "数世代バージョンを持つファイル名から最新版以外を抽出する"
-      link: https://www.meganii.com/blog/2015/03/27/leave-latest-filename/
-    11:
       title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
       link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
+    11:
+      title: "数世代バージョンを持つファイル名から最新版以外を抽出する"
+      link: https://www.meganii.com/blog/2015/03/27/leave-latest-filename/
     12:
       title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
       link: https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/
@@ -1295,20 +1298,20 @@ Url:
       title: "vagrant plugin install hostmanager実行時のnokogiriインストールエラーの解決"
       link: https://www.meganii.com/blog/2015/04/05/vagrant-plugin-install-hostmanager-nokogiri-error/
     16:
-      title: "PythonでTF-IDFによる文書推薦"
-      link: https://www.meganii.com/blog/2016/08/13/tf-idf-recommendation/
-    17:
       title: "Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー"
       link: https://www.meganii.com/blog/2015/07/25/capybara-connect-error/
+    17:
+      title: "PythonでTF-IDFによる文書推薦"
+      link: https://www.meganii.com/blog/2016/08/13/tf-idf-recommendation/
     18:
       title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
       link: https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/
     19:
-      title: "Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-"
-      link: https://www.meganii.com/blog/2013/05/23/regexp-jekyll/
-    20:
       title: "TED APIを触ってみる"
       link: https://www.meganii.com/blog/2014/11/21/ted-api/
+    20:
+      title: "Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-"
+      link: https://www.meganii.com/blog/2013/05/23/regexp-jekyll/
     21:
       title: "Google Apps ScriptでGoogle Search Consoleの情報を取得する"
       link: https://www.meganii.com/blog/2017/02/12/google-apps-script-search-console/
@@ -1432,6 +1435,9 @@ Url:
     12:
       title: "初めての沖縄"
       link: https://www.meganii.com/blog/2012/11/29/okinawa/
+    13:
+      title: "NetBIOSとは？"
+      link: https://www.meganii.com/blog/2015/11/23/netbios/
   2013-05-28-sublime-vim:
     1:
       title: "Sublime Text 2にパッケージコントロールを導入!!"
@@ -1439,9 +1445,6 @@ Url:
     2:
       title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
       link: https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/
-    3:
-      title: "PythonでTF-IDFによる文書推薦"
-      link: https://www.meganii.com/blog/2016/08/13/tf-idf-recommendation/
   2013-05-28-vagrant:
     1:
       title: "勉強用に、簡単に作っては壊せる仮想環境をVagrantで構築する"
@@ -1467,9 +1470,6 @@ Url:
     8:
       title: "Installing Oracle Database Express Edition11g on Vagrant(CentOS 6.4)"
       link: https://www.meganii.com/en/blog/2015/02/08/oracle-express-edition-11g-install/
-    9:
-      title: "wgetでダウンロード失敗したときの対処法"
-      link: https://www.meganii.com/blog/2017/01/14/can-not-download-with-wget/
   2013-05-29-carrierwave:
     1:
       title: "念願のAir!! MacBookAir Mid 2013買いました"
@@ -1511,11 +1511,11 @@ Url:
       title: "Jekyllでページ分割する -pagenation-"
       link: https://www.meganii.com/blog/2014/10/21/jekyll-pagenation/
     14:
-      title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
-      link: https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/
-    15:
       title: "a random walk down wall street"
       link: https://www.meganii.com/blog/2016/02/11/a-random-walk-down-wall-street/
+    15:
+      title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
+      link: https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/
   2013-06-10-slackline-tennoji:
     1:
       title: "ボルダリングの合間にスラックライン!! Slackline"
@@ -1585,11 +1585,11 @@ Url:
       title: "Jekyllでページ分割する -pagenation-"
       link: https://www.meganii.com/blog/2014/10/21/jekyll-pagenation/
     16:
-      title: "勉強用に、簡単に作っては壊せる仮想環境をVagrantで構築する"
-      link: https://www.meganii.com/blog/2013/06/30/vagrant-install/
-    17:
       title: "a random walk down wall street"
       link: https://www.meganii.com/blog/2016/02/11/a-random-walk-down-wall-street/
+    17:
+      title: "勉強用に、簡単に作っては壊せる仮想環境をVagrantで構築する"
+      link: https://www.meganii.com/blog/2013/06/30/vagrant-install/
   2013-06-20-macbookair-dev:
     1:
       title: "SQL*PlusをMacOSX Marvericsにインストール"
@@ -1627,6 +1627,9 @@ Url:
     12:
       title: "UTF-8-MACとは何か？〜Jekyllのカテゴリ(タグ)ページで濁点を含むページが表示されない〜"
       link: https://www.meganii.com/blog/2014/11/29/jekyll-tags-unread-because-of-utf-8-mac/
+    13:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
   2013-06-21-ssh-sakuravps:
     1:
       title: "Sublime Text 2にパッケージコントロールを導入!!"
@@ -1665,29 +1668,35 @@ Url:
       title: "静的サイトジェネレータ「Hugo」〜公開方法〜"
       link: https://www.meganii.com/blog/2017/01/11/deploy-site-with-hugo/
     13:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    14:
       title: "http/2ベンチマークツール「h2load」をインストール"
       link: https://www.meganii.com/blog/2016/07/17/install-h2load/
-    14:
+    15:
       title: "abコマンド実行時のエラーを回避する"
       link: https://www.meganii.com/blog/2013/05/27/benchmark-apache/
-    15:
+    16:
       title: "Azureのリモートデスクトップ周りの調査"
       link: https://www.meganii.com/blog/2015/11/17/remote-desktop-protocol/
-    16:
+    17:
       title: "TED APIを触ってみる"
       link: https://www.meganii.com/blog/2014/11/21/ted-api/
-    17:
+    18:
       title: "さくらVPSにDropboxをインストール"
       link: https://www.meganii.com/blog/2013/05/08/dropbox_cui/
-    18:
+    19:
       title: "さくらVPSにJenkinsインストール"
       link: https://www.meganii.com/blog/2013/04/11/jenkins/
-    19:
+    20:
       title: "Hugoで生成した静的サイトのホスト先をさくらVPSからNetlifyに変更する"
       link: https://www.meganii.com/blog/2017/03/19/migrate-hugo-hosting-service-from-sakura-vps-to-netlify/
-    20:
+    21:
       title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
       link: https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/
+    22:
+      title: "Jekyllでページ分割する -pagenation-"
+      link: https://www.meganii.com/blog/2014/10/21/jekyll-pagenation/
   2013-06-25-remote-disk:
     1:
       title: "Azureのリモートデスクトップ周りの調査"
@@ -1776,17 +1785,17 @@ Url:
       title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
       link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
     9:
-      title: "AnsibleでさくらVPSの初期設定"
-      link: https://www.meganii.com/blog/2015/03/02/ansible-sakura-vps/
-    10:
       title: "Immutable Infrastructure - JAWS DAYS 2014"
       link: https://www.meganii.com/blog/2014/03/15/jawsdays-immutable-infrastracture/
+    10:
+      title: "AnsibleでさくらVPSの初期設定"
+      link: https://www.meganii.com/blog/2015/03/02/ansible-sakura-vps/
     11:
       title: "念願のAir!! MacBookAir Mid 2013買いました"
       link: https://www.meganii.com/blog/2013/06/18/macbookair/
     12:
-      title: "Jekyllのバージョンアップ"
-      link: https://www.meganii.com/blog/2013/11/24/jekyll-versionup/
+      title: "Capistrano3でRails5+Unicornのアプリをデプロイしたときに環境変数SECRET_KEY_BASEが読み込まれない"
+      link: https://www.meganii.com/blog/2016/11/23/capistrano3-can-not-read-env/
   2013-07-04-thinking-tools:
     1:
       title: "ぐだぐだ言ってないでコードを書けよ、自分！ - 「Webサービスのつくり方」"
@@ -1886,29 +1895,26 @@ Url:
       title: "Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする"
       link: https://www.meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/
     9:
-      title: "Installing Oracle Database Express Edition11g on Vagrant(CentOS 6.4)"
-      link: https://www.meganii.com/en/blog/2015/02/08/oracle-express-edition-11g-install/
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
     10:
       title: "jekyll front matter"
       link: https://www.meganii.com/blog/2014/06/24/jekyll-front-matter/
     11:
+      title: "Installing Oracle Database Express Edition11g on Vagrant(CentOS 6.4)"
+      link: https://www.meganii.com/en/blog/2015/02/08/oracle-express-edition-11g-install/
+    12:
       title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
       link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
-    12:
+    13:
       title: "AnsibleでさくらVPSの初期設定"
       link: https://www.meganii.com/blog/2015/03/02/ansible-sakura-vps/
-    13:
-      title: "数世代バージョンを持つファイル名から最新版以外を抽出する"
-      link: https://www.meganii.com/blog/2015/03/27/leave-latest-filename/
     14:
       title: "音声認識エンジンJuliusをインストールする"
       link: https://www.meganii.com/blog/2016/12/21/install-julius/
     15:
       title: "Electronでデスクトップアプリ作成"
       link: https://www.meganii.com/blog/2016/01/25/electron-tutorial/
-    16:
-      title: "勉強用に、簡単に作っては壊せる仮想環境をVagrantで構築する"
-      link: https://www.meganii.com/blog/2013/06/30/vagrant-install/
   2014-02-11-aws-osaka:
     1:
       title: "「第4回 リアル・ウォンテッドリー」に行ってきました"
@@ -1972,18 +1978,21 @@ Url:
       title: "Google Apps ScriptでGoogle Search Consoleの情報を取得する"
       link: https://www.meganii.com/blog/2017/02/12/google-apps-script-search-console/
     12:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    13:
       title: "Swiftで初めてのMacOSXアプリケーション-FFViewer-"
       link: https://www.meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/
-    13:
+    14:
       title: "React + ElectronでFlickr連携可能なMarkdown Editorを作った"
       link: https://www.meganii.com/blog/2016/08/24/react-flickr-markdown-editor/
-    14:
+    15:
       title: "AceエディタをElectronに組み込む"
       link: https://www.meganii.com/blog/2016/08/28/electron-ace-markdown-editor/
-    15:
+    16:
       title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
       link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
-    16:
+    17:
       title: "D3.jsで東京の地価データを可視化する"
       link: https://www.meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/
   2014-02-19-xpath-java:
@@ -1994,11 +2003,11 @@ Url:
       title: "念願のAir!! MacBookAir Mid 2013買いました"
       link: https://www.meganii.com/blog/2013/06/18/macbookair/
     3:
-      title: "Sublime Text 2にパッケージコントロールを導入!!"
-      link: https://www.meganii.com/blog/2013/04/26/sublime-text-2-pakage-control/
-    4:
       title: "2台目のMacBookAirからさくらVPSへSSH接続を行うための鍵の設定"
       link: https://www.meganii.com/blog/2013/06/21/ssh-sakuravps/
+    4:
+      title: "Sublime Text 2にパッケージコントロールを導入!!"
+      link: https://www.meganii.com/blog/2013/04/26/sublime-text-2-pakage-control/
     5:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
       link: https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
@@ -2071,14 +2080,14 @@ Url:
       title: "サグラダ・ファミリア建設とシステム開発"
       link: https://www.meganii.com/blog/2016/04/21/antoni-gaudi/
     8:
-      title: "キャリア計画を立てよう！ How Google Works-私たちの働き方とマネジメント-"
-      link: https://www.meganii.com/blog/2014/10/30/how-google-works/
-    9:
-      title: "小さい成長。"
-      link: https://www.meganii.com/blog/2012/03/31/step_by_step/
-    10:
       title: "晴れの屋久島。雨の屋久島。屋久島旅行記"
       link: https://www.meganii.com/blog/2013/05/07/yakushima/
+    9:
+      title: "キャリア計画を立てよう！ How Google Works-私たちの働き方とマネジメント-"
+      link: https://www.meganii.com/blog/2014/10/30/how-google-works/
+    10:
+      title: "小さい成長。"
+      link: https://www.meganii.com/blog/2012/03/31/step_by_step/
     11:
       title: "タスクカフェ@大阪に行ってきました！"
       link: https://www.meganii.com/blog/2012/05/28/taskcafe/
@@ -2111,11 +2120,11 @@ Url:
       title: "ぐだぐだ言ってないでコードを書けよ、自分！ - 「Webサービスのつくり方」"
       link: https://www.meganii.com/blog/2014/09/04/create-web-service/
     5:
-      title: "統計学が最強の学問である"
-      link: https://www.meganii.com/blog/2014/12/09/statistics-is-literacy-for-the-next-generation/
-    6:
       title: "静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築"
       link: https://www.meganii.com/blog/2017/01/08/static-site-generator-hugo/
+    6:
+      title: "統計学が最強の学問である"
+      link: https://www.meganii.com/blog/2014/12/09/statistics-is-literacy-for-the-next-generation/
     7:
       title: "知のグループウェアとしてのファシリテーション〜ザ・ファシリテーター〜"
       link: https://www.meganii.com/blog/2014/10/09/knowledge-groupware/
@@ -2145,11 +2154,11 @@ Url:
       title: "ap bank fes'12 淡路島!!!"
       link: https://www.meganii.com/blog/2012/08/09/apbankfes/
     9:
-      title: "20歳を過ぎてから英語を学ぼうと決めた人たちへ"
-      link: https://www.meganii.com/blog/2012/05/19/study_english/
-    10:
       title: "参加者の発言を促すファシリテーターの技術 〜ザ・ファシリテーター〜"
       link: https://www.meganii.com/blog/2014/10/04/facilitation-skill/
+    10:
+      title: "20歳を過ぎてから英語を学ぼうと決めた人たちへ"
+      link: https://www.meganii.com/blog/2012/05/19/study_english/
     11:
       title: "[Alexandros] ワタリドリと私 -ROCK IN JAPAN 2015-"
       link: https://www.meganii.com/blog/2015/08/06/alexandros-wataridori/
@@ -2300,11 +2309,11 @@ Url:
       title: "slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法"
       link: https://www.meganii.com/blog/2016/02/10/post-to-slack/
     11:
-      title: "AngularJSでFlickrの埋め込みタグを作成する"
-      link: https://www.meganii.com/blog/2014/11/08/angular-flickr/
-    12:
       title: "Swiftで初めてのMacOSXアプリケーション-FFViewer-"
       link: https://www.meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/
+    12:
+      title: "AngularJSでFlickrの埋め込みタグを作成する"
+      link: https://www.meganii.com/blog/2014/11/08/angular-flickr/
   2014-06-26-learning:
     1:
       title: "一流の習慣術　イチローとマー君が実践する「自分力」の育て方　の奥村さんの講演を聞いてきた"
@@ -2382,11 +2391,11 @@ Url:
       title: "コンサルタントの秘密〜コンサルタント業はなぜ大変か？〜"
       link: https://www.meganii.com/blog/2015/09/05/the-secrets-of-consulting/
     26:
-      title: "晴れの屋久島。雨の屋久島。屋久島旅行記"
-      link: https://www.meganii.com/blog/2013/05/07/yakushima/
-    27:
       title: "ap bank fes'12 淡路島!!!"
       link: https://www.meganii.com/blog/2012/08/09/apbankfes/
+    27:
+      title: "晴れの屋久島。雨の屋久島。屋久島旅行記"
+      link: https://www.meganii.com/blog/2013/05/07/yakushima/
     28:
       title: "ホワイトボードでやってみたいこと"
       link: https://www.meganii.com/blog/2013/01/21/whiteboard/
@@ -2632,14 +2641,14 @@ Url:
       title: "知のグループウェアとしてのファシリテーション〜ザ・ファシリテーター〜"
       link: https://www.meganii.com/blog/2014/10/09/knowledge-groupware/
     13:
-      title: "タスクカフェ@大阪に行ってきました！"
-      link: https://www.meganii.com/blog/2012/05/28/taskcafe/
-    14:
       title: "キャリア計画を立てよう！ How Google Works-私たちの働き方とマネジメント-"
       link: https://www.meganii.com/blog/2014/10/30/how-google-works/
-    15:
+    14:
       title: "学び方をリファクタリング"
       link: https://www.meganii.com/blog/2014/06/26/learning/
+    15:
+      title: "タスクカフェ@大阪に行ってきました！"
+      link: https://www.meganii.com/blog/2012/05/28/taskcafe/
     16:
       title: "学びの螺旋にはっと気づく"
       link: https://www.meganii.com/blog/2012/02/01/learn/
@@ -2841,6 +2850,9 @@ Url:
     12:
       title: "Sublime Text 2にパッケージコントロールを導入!!"
       link: https://www.meganii.com/blog/2013/04/26/sublime-text-2-pakage-control/
+    13:
+      title: "2台目のMacBookAirからさくらVPSへSSH接続を行うための鍵の設定"
+      link: https://www.meganii.com/blog/2013/06/21/ssh-sakuravps/
   2014-10-29-pjekyll-pygments:
     1:
       title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
@@ -2928,11 +2940,11 @@ Url:
       title: "ワールドカフェの問いを作るには？"
       link: https://www.meganii.com/blog/2015/06/28/what-is-good-questions-for-world-cafe/
     26:
-      title: "福井-大阪-名古屋-東京。拠点が離れている中での結婚式余興作成"
-      link: https://www.meganii.com/blog/2014/09/28/baseball-club-yokyo/
-    27:
       title: "ワールド・カフェのプロセス"
       link: https://www.meganii.com/blog/2015/06/28/process-for-world-cafe/
+    27:
+      title: "福井-大阪-名古屋-東京。拠点が離れている中での結婚式余興作成"
+      link: https://www.meganii.com/blog/2014/09/28/baseball-club-yokyo/
     28:
       title: "一流の習慣術　イチローとマー君が実践する「自分力」の育て方　の奥村さんの講演を聞いてきた"
       link: https://www.meganii.com/blog/2012/06/06/ichiro/
@@ -3139,42 +3151,45 @@ Url:
       title: "Hugoソースコードリーディング〜Taxonomy〜"
       link: https://www.meganii.com/blog/2015/10/11/hugo-taxonomy/
     14:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    15:
       title: "CasperJSでAmazonログイン"
       link: https://www.meganii.com/blog/2016/05/30/casperjs-amazon/
-    15:
+    16:
       title: "Swiftで初めてのMacOSXアプリケーション-FFViewer-"
       link: https://www.meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/
-    16:
+    17:
       title: "Nightmare.jsでAmazonアフィリエイトのレポートを取得する"
       link: https://www.meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/
-    17:
-      title: "AceエディタをElectronに組み込む"
-      link: https://www.meganii.com/blog/2016/08/28/electron-ace-markdown-editor/
     18:
       title: "Google Apps ScriptでGoogle Search Consoleの情報を取得する"
       link: https://www.meganii.com/blog/2017/02/12/google-apps-script-search-console/
     19:
+      title: "AceエディタをElectronに組み込む"
+      link: https://www.meganii.com/blog/2016/08/28/electron-ace-markdown-editor/
+    20:
       title: "静的サイトジェネレータ「Hugo」インストール"
       link: https://www.meganii.com/blog/2017/01/08/installing-hugo/
-    20:
+    21:
       title: "AnsibleでさくらVPSの初期設定"
       link: https://www.meganii.com/blog/2015/03/02/ansible-sakura-vps/
-    21:
+    22:
       title: "wgetでダウンロード失敗したときの対処法"
       link: https://www.meganii.com/blog/2017/01/14/can-not-download-with-wget/
-    22:
+    23:
       title: "D3.jsで東京の地価データを可視化する"
       link: https://www.meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/
-    23:
+    24:
       title: "PythonでTF-IDFによる文書推薦"
       link: https://www.meganii.com/blog/2016/08/13/tf-idf-recommendation/
-    24:
+    25:
       title: "Cannot download with wget"
       link: https://www.meganii.com/en/blog/2017/01/14/can-not-download-with-wget/
-    25:
+    26:
       title: "jekyll front matter"
       link: https://www.meganii.com/blog/2014/06/24/jekyll-front-matter/
-    26:
+    27:
       title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
       link: https://www.meganii.com/blog/2016/07/18/installing-h2o-with-ansible/
   2014-11-11-network-ip-1:
@@ -3223,78 +3238,81 @@ Url:
       title: "AceエディタをElectronに組み込む"
       link: https://www.meganii.com/blog/2016/08/28/electron-ace-markdown-editor/
     8:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    9:
       title: "AngularJSでFlickrの埋め込みタグを作成する"
       link: https://www.meganii.com/blog/2014/11/08/angular-flickr/
-    9:
+    10:
       title: "phonegap-start"
       link: https://www.meganii.com/blog/2014/02/16/phonegap-start/
-    10:
+    11:
       title: "[Effective JavaScript]クロージャ"
       link: https://www.meganii.com/blog/2016/01/30/effective-javascript-closure/
-    11:
+    12:
       title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
       link: https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/
-    12:
+    13:
       title: "Swiftで初めてのMacOSXアプリケーション-FFViewer-"
       link: https://www.meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/
-    13:
+    14:
       title: "Google Apps ScriptでGoogle Search Consoleの情報を取得する"
       link: https://www.meganii.com/blog/2017/02/12/google-apps-script-search-console/
-    14:
+    15:
       title: "数世代バージョンを持つファイル名から最新版以外を抽出する"
       link: https://www.meganii.com/blog/2015/03/27/leave-latest-filename/
-    15:
+    16:
       title: "Nightmare.jsでAmazonアフィリエイトのレポートを取得する"
       link: https://www.meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/
-    16:
+    17:
       title: "JekyllからHugoへの移行ポイント"
       link: https://www.meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/
-    17:
+    18:
       title: "google-api-ruby-clientからGoogle Adsense Management APIを操作する方法"
       link: https://www.meganii.com/blog/2016/06/05/ruby-google-api-client/
-    18:
-      title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
-      link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
     19:
       title: "D3.jsで東京の地価データを可視化する"
       link: https://www.meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/
     20:
+      title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
+      link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
+    21:
       title: "Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-"
       link: https://www.meganii.com/blog/2013/05/23/regexp-jekyll/
-    21:
+    22:
       title: "Cannot download with wget"
       link: https://www.meganii.com/en/blog/2017/01/14/can-not-download-with-wget/
-    22:
+    23:
       title: "AnsibleでさくらVPSの初期設定"
       link: https://www.meganii.com/blog/2015/03/02/ansible-sakura-vps/
-    23:
+    24:
       title: "正規化とは何か？"
       link: https://www.meganii.com/blog/2015/08/07/normalization/
-    24:
+    25:
       title: "wgetでダウンロード失敗したときの対処法"
       link: https://www.meganii.com/blog/2017/01/14/can-not-download-with-wget/
-    25:
+    26:
       title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
       link: https://www.meganii.com/blog/2016/07/18/installing-h2o-with-ansible/
-    26:
-      title: "XPathでの属性値の取得"
-      link: https://www.meganii.com/blog/2014/02/19/xpath-java/
     27:
       title: "2台目のMacBookAirからさくらVPSへSSH接続を行うための鍵の設定"
       link: https://www.meganii.com/blog/2013/06/21/ssh-sakuravps/
     28:
+      title: "XPathでの属性値の取得"
+      link: https://www.meganii.com/blog/2014/02/19/xpath-java/
+    29:
       title: "Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた"
       link: https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/
-    29:
+    30:
       title: "HugoのShortcodesを利用してAmazon紹介リンクタグを作成"
       link: https://www.meganii.com/blog/2017/02/18/hugo-amazon-shortcode/
-    30:
+    31:
       title: "YouTube埋め込みタグをレスポンシブ化する"
       link: https://www.meganii.com/blog/2014/09/03/youtube-responsive/
-    31:
+    32:
       title: "sqlite3-rubyを使ってSQLite3ファイルからの検索結果をHashとして読み込む"
       link: https://www.meganii.com/blog/2013/05/18/sqlite3-ruby/
-    32:
+    33:
       title: "Jekyllに月別アーカイブを実装する"
       link: https://www.meganii.com/blog/2014/12/02/jekyll-monthly-archive/
   2014-11-25-sed-cr-lf:
@@ -3366,9 +3384,6 @@ Url:
     10:
       title: "Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする"
       link: https://www.meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/
-    11:
-      title: "数世代バージョンを持つファイル名から最新版以外を抽出する"
-      link: https://www.meganii.com/blog/2015/03/27/leave-latest-filename/
   2014-12-01-jekyll-tag-cloud:
     1:
       title: "Jekyllに月別アーカイブを実装する"
@@ -3435,11 +3450,11 @@ Url:
       title: "Capybara「Request failed to reach server, check DNS and/or server status」"
       link: https://www.meganii.com/en/blog/2015/07/25/capybara-connect-error/
     10:
-      title: "CircleCIでMeCabを利用してHugoビルドする"
-      link: https://www.meganii.com/blog/2017/01/14/circle-ci-settings-for-mecab-hugo/
-    11:
       title: "Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー"
       link: https://www.meganii.com/blog/2015/07/25/capybara-connect-error/
+    11:
+      title: "CircleCIでMeCabを利用してHugoビルドする"
+      link: https://www.meganii.com/blog/2017/01/14/circle-ci-settings-for-mecab-hugo/
     12:
       title: "Electron + Mithril.jsでFlickrアプリを作成する"
       link: https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/
@@ -3453,11 +3468,11 @@ Url:
       title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
       link: https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/
     16:
-      title: "TED APIを触ってみる"
-      link: https://www.meganii.com/blog/2014/11/21/ted-api/
-    17:
       title: "はてなダイアリーからJekyllへお引越し"
       link: https://www.meganii.com/blog/2013/02/03/hatena2jekyll/
+    17:
+      title: "TED APIを触ってみる"
+      link: https://www.meganii.com/blog/2014/11/21/ted-api/
   2014-12-03-google-analytics:
     1:
       title: "ページ毎の検索キーワードを知る"
@@ -3515,11 +3530,11 @@ Url:
       title: "D3.jsチュートリアル"
       link: https://www.meganii.com/blog/2016/02/06/d3js-tutorial/
     7:
-      title: "索引設計についてのまとめ"
-      link: https://www.meganii.com/blog/2013/10/02/index/
-    8:
       title: "ドメインサービスとは？"
       link: https://www.meganii.com/blog/2015/11/25/domain-services/
+    8:
+      title: "索引設計についてのまとめ"
+      link: https://www.meganii.com/blog/2013/10/02/index/
     9:
       title: "キャリア計画を立てよう！ How Google Works-私たちの働き方とマネジメント-"
       link: https://www.meganii.com/blog/2014/10/30/how-google-works/
@@ -3639,20 +3654,20 @@ Url:
       title: "Vivaldiのスワイプで戻る・進むを有効にする"
       link: https://www.meganii.com/blog/2017/03/02/vivaldi-swipe-gestures/
     26:
-      title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
-      link: https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/
-    27:
-      title: "Lets's Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化"
-      link: https://www.meganii.com/blog/2016/07/09/invalid-ssl-certificate/
-    28:
       title: "はてなダイアリーからJekyllへお引越し"
       link: https://www.meganii.com/blog/2013/02/03/hatena2jekyll/
+    27:
+      title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
+      link: https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/
+    28:
+      title: "Lets's Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化"
+      link: https://www.meganii.com/blog/2016/07/09/invalid-ssl-certificate/
     29:
-      title: "Electronでデスクトップアプリ作成"
-      link: https://www.meganii.com/blog/2016/01/25/electron-tutorial/
-    30:
       title: "abコマンド実行時のエラーを回避する"
       link: https://www.meganii.com/blog/2013/05/27/benchmark-apache/
+    30:
+      title: "Electronでデスクトップアプリ作成"
+      link: https://www.meganii.com/blog/2016/01/25/electron-tutorial/
     31:
       title: "静的サイトジェネレータ「Hugo」〜公開方法〜"
       link: https://www.meganii.com/blog/2017/01/11/deploy-site-with-hugo/
@@ -3669,30 +3684,33 @@ Url:
       title: "Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする"
       link: https://www.meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/
     36:
-      title: "さくらVPSにJenkinsインストール"
-      link: https://www.meganii.com/blog/2013/04/11/jenkins/
-    37:
       title: "Circle CIでテストを定期実行する"
       link: https://www.meganii.com/blog/2016/09/08/circle-ci-nightly-build/
+    37:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
     38:
+      title: "さくらVPSにJenkinsインストール"
+      link: https://www.meganii.com/blog/2013/04/11/jenkins/
+    39:
       title: "Installing Oracle Database Express Edition11g on Vagrant(CentOS 6.4)"
       link: https://www.meganii.com/en/blog/2015/02/08/oracle-express-edition-11g-install/
-    39:
-      title: "Electron + Mithril.jsでFlickrアプリを作成する"
-      link: https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/
     40:
       title: "google-api-ruby-clientからGoogle Adsense Management APIを操作する方法"
       link: https://www.meganii.com/blog/2016/06/05/ruby-google-api-client/
     41:
+      title: "Electron + Mithril.jsでFlickrアプリを作成する"
+      link: https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/
+    42:
       title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
       link: https://www.meganii.com/blog/2016/07/18/installing-h2o-with-ansible/
-    42:
+    43:
       title: "さくらVPSにDropboxをインストール"
       link: https://www.meganii.com/blog/2013/05/08/dropbox_cui/
-    43:
+    44:
       title: "Octopressに「続きを読む」のプラグイン導入"
       link: https://www.meganii.com/blog/2013/04/24/readmore/
-    44:
+    45:
       title: "slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法"
       link: https://www.meganii.com/blog/2016/02/10/post-to-slack/
   2014-12-17-matsushima-miyajima-amanohashidate-travel:
@@ -3823,18 +3841,21 @@ Url:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
       link: https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
     24:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    25:
       title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
       link: https://www.meganii.com/blog/2016/07/18/installing-h2o-with-ansible/
-    25:
+    26:
       title: "さくらVPSにJenkinsインストール"
       link: https://www.meganii.com/blog/2013/04/11/jenkins/
-    26:
+    27:
       title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
       link: https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/
-    27:
+    28:
       title: "静的サイトジェネレータ「Hugo」インストール"
       link: https://www.meganii.com/blog/2017/01/08/installing-hugo/
-    28:
+    29:
       title: "Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-"
       link: https://www.meganii.com/blog/2013/05/23/regexp-jekyll/
   2015-02-08-oracle-express-edition-11g-install:
@@ -3881,57 +3902,60 @@ Url:
       title: "vagrant"
       link: https://www.meganii.com/blog/2013/05/28/vagrant/
     15:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    16:
       title: "静的サイトジェネレータ「Hugo」インストール"
       link: https://www.meganii.com/blog/2017/01/08/installing-hugo/
-    16:
-      title: "音声認識エンジンJuliusをインストールする"
-      link: https://www.meganii.com/blog/2016/12/21/install-julius/
     17:
       title: "sqlite3-rubyを使ってSQLite3ファイルからの検索結果をHashとして読み込む"
       link: https://www.meganii.com/blog/2013/05/18/sqlite3-ruby/
     18:
+      title: "音声認識エンジンJuliusをインストールする"
+      link: https://www.meganii.com/blog/2016/12/21/install-julius/
+    19:
       title: "Capybara「Request failed to reach server, check DNS and/or server status」"
       link: https://www.meganii.com/en/blog/2015/07/25/capybara-connect-error/
-    19:
+    20:
       title: "Electronでデスクトップアプリ作成"
       link: https://www.meganii.com/blog/2016/01/25/electron-tutorial/
-    20:
+    21:
       title: "google-api-ruby-clientからGoogle Adsense Management APIを操作する方法"
       link: https://www.meganii.com/blog/2016/06/05/ruby-google-api-client/
-    21:
+    22:
       title: "Jekyllのバージョンアップ"
       link: https://www.meganii.com/blog/2013/11/24/jekyll-versionup/
-    22:
+    23:
       title: "NetBIOSとは？"
       link: https://www.meganii.com/blog/2015/11/23/netbios/
-    23:
+    24:
       title: "Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー"
       link: https://www.meganii.com/blog/2015/07/25/capybara-connect-error/
-    24:
+    25:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
       link: https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
-    25:
+    26:
       title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
       link: https://www.meganii.com/blog/2016/07/18/installing-h2o-with-ansible/
-    26:
+    27:
       title: "Happiness 私たちが幸せを感じる理由"
       link: https://www.meganii.com/blog/2012/04/23/happiness/
-    27:
+    28:
       title: "How to install Virtualbox and Vagrant by installing by cli with Mac El Capitan"
       link: https://www.meganii.com/en/blog/2016/05/16/install-virtualbox-and-vagrant-in-el-capitan/
-    28:
+    29:
       title: "さくらVPSにDropboxをインストール"
       link: https://www.meganii.com/blog/2013/05/08/dropbox_cui/
-    29:
+    30:
       title: "リモートディスクを利用してMacBookProのDVDドライブからMacBookAirにソフトウェアをインストール"
       link: https://www.meganii.com/blog/2013/06/25/remote-disk/
-    30:
+    31:
       title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://www.meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
-    31:
+    32:
       title: "UTF-8-MACとは何か？〜Jekyllのカテゴリ(タグ)ページで濁点を含むページが表示されない〜"
       link: https://www.meganii.com/blog/2014/11/29/jekyll-tags-unread-because-of-utf-8-mac/
-    32:
+    33:
       title: "PythonでTF-IDFによる文書推薦"
       link: https://www.meganii.com/blog/2016/08/13/tf-idf-recommendation/
   2015-02-11-install-sqlplus.en:
@@ -3969,15 +3993,18 @@ Url:
       title: "静的サイトジェネレータ「Hugo」〜公開方法〜"
       link: https://www.meganii.com/blog/2017/01/11/deploy-site-with-hugo/
     12:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    13:
       title: "UTF-8-MACとは何か？〜Jekyllのカテゴリ(タグ)ページで濁点を含むページが表示されない〜"
       link: https://www.meganii.com/blog/2014/11/29/jekyll-tags-unread-because-of-utf-8-mac/
-    13:
+    14:
       title: "El Capitanへのアップグレード時AppStoreに接続できなくなった場合(さらにキーチェーンアクセスでも対処できなかった時)の対処法 "
       link: https://www.meganii.com/blog/2016/01/23/el-capitan-upgrade-error/
-    14:
+    15:
       title: "D3.jsで東京の地価データを可視化する"
       link: https://www.meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/
-    15:
+    16:
       title: "Lets's Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化"
       link: https://www.meganii.com/blog/2016/07/09/invalid-ssl-certificate/
   2015-02-11-install-sqlplus:
@@ -4012,12 +4039,15 @@ Url:
       title: "PythonでTF-IDFによる文書推薦"
       link: https://www.meganii.com/blog/2016/08/13/tf-idf-recommendation/
     11:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    12:
       title: "静的サイトジェネレータ「Hugo」〜公開方法〜"
       link: https://www.meganii.com/blog/2017/01/11/deploy-site-with-hugo/
-    12:
+    13:
       title: "UTF-8-MACとは何か？〜Jekyllのカテゴリ(タグ)ページで濁点を含むページが表示されない〜"
       link: https://www.meganii.com/blog/2014/11/29/jekyll-tags-unread-because-of-utf-8-mac/
-    13:
+    14:
       title: "D3.jsで東京の地価データを可視化する"
       link: https://www.meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/
   2015-03-01-moleskine-to-mdnote:
@@ -4062,80 +4092,80 @@ Url:
       title: "How to install SQL*Plus in MacOSX Marverics"
       link: https://www.meganii.com/en/blog/2015/02/11/how-to-install-sqlplus-in-macosx/
     11:
-      title: "Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー"
-      link: https://www.meganii.com/blog/2015/07/25/capybara-connect-error/
-    12:
       title: "El Capitanへのアップグレード時AppStoreに接続できなくなった場合(さらにキーチェーンアクセスでも対処できなかった時)の対処法 "
       link: https://www.meganii.com/blog/2016/01/23/el-capitan-upgrade-error/
+    12:
+      title: "Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー"
+      link: https://www.meganii.com/blog/2015/07/25/capybara-connect-error/
     13:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    14:
       title: "MacBookAir Mid 2013環境構築"
       link: https://www.meganii.com/blog/2013/06/20/macbookair-dev/
-    14:
+    15:
       title: "Capybara「Request failed to reach server, check DNS and/or server status」"
       link: https://www.meganii.com/en/blog/2015/07/25/capybara-connect-error/
-    15:
-      title: "Lets's Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化"
-      link: https://www.meganii.com/blog/2016/07/09/invalid-ssl-certificate/
     16:
       title: "Enable swipe by using Vivaldi"
       link: https://www.meganii.com/en/blog/2017/03/02/vivaldi-swipe-gestures/
     17:
-      title: "D3.jsで東京の地価データを可視化する"
-      link: https://www.meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/
+      title: "Lets's Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化"
+      link: https://www.meganii.com/blog/2016/07/09/invalid-ssl-certificate/
     18:
       title: "Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-"
       link: https://www.meganii.com/blog/2013/05/23/regexp-jekyll/
     19:
-      title: "Circle CIでHugoのビルド・デプロイを実行する"
-      link: https://www.meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
+      title: "D3.jsで東京の地価データを可視化する"
+      link: https://www.meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/
     20:
       title: "Vivaldiのスワイプで戻る・進むを有効にする"
       link: https://www.meganii.com/blog/2017/03/02/vivaldi-swipe-gestures/
     21:
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
+      link: https://www.meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
+    22:
       title: "Sublime Text 2にパッケージコントロールを導入!!"
       link: https://www.meganii.com/blog/2013/04/26/sublime-text-2-pakage-control/
-    22:
+    23:
       title: "Electron + Mithril.jsでFlickrアプリを作成する"
       link: https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/
-    23:
+    24:
       title: "PythonでBlender"
       link: https://www.meganii.com/blog/2014/06/22/blender-python/
-    24:
+    25:
       title: "Hugoソースコードリーディング〜Taxonomy〜"
       link: https://www.meganii.com/blog/2015/10/11/hugo-taxonomy/
-    25:
+    26:
       title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
       link: https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/
-    26:
+    27:
       title: "勉強用に、簡単に作っては壊せる仮想環境をVagrantで構築する"
       link: https://www.meganii.com/blog/2013/06/30/vagrant-install/
-    27:
+    28:
       title: "HugoのShortcodesを利用してAmazon紹介リンクタグを作成"
       link: https://www.meganii.com/blog/2017/02/18/hugo-amazon-shortcode/
-    28:
+    29:
       title: "TED APIを触ってみる"
       link: https://www.meganii.com/blog/2014/11/21/ted-api/
-    29:
+    30:
       title: "Cannot download with wget"
       link: https://www.meganii.com/en/blog/2017/01/14/can-not-download-with-wget/
-    30:
+    31:
       title: "Swiftで初めてのMacOSXアプリケーション-FFViewer-"
       link: https://www.meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/
-    31:
+    32:
       title: "CircleCIでMeCabを利用してHugoビルドする"
       link: https://www.meganii.com/blog/2017/01/14/circle-ci-settings-for-mecab-hugo/
-    32:
+    33:
       title: "http/2ベンチマークツール「h2load」をインストール"
       link: https://www.meganii.com/blog/2016/07/17/install-h2load/
-    33:
-      title: "Google Apps ScriptでGoogle Search Consoleの情報を取得する"
-      link: https://www.meganii.com/blog/2017/02/12/google-apps-script-search-console/
     34:
       title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
       link: https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/
     35:
-      title: "[こつこつ勉強]L2スイッチ、L3スイッチの違い"
-      link: https://www.meganii.com/blog/2014/11/11/network-ip-1/
+      title: "Google Apps ScriptでGoogle Search Consoleの情報を取得する"
+      link: https://www.meganii.com/blog/2017/02/12/google-apps-script-search-console/
     36:
       title: "Electronでデスクトップアプリ作成"
       link: https://www.meganii.com/blog/2016/01/25/electron-tutorial/
@@ -4146,69 +4176,69 @@ Url:
       title: "vagrant"
       link: https://www.meganii.com/blog/2013/05/28/vagrant/
     39:
+      title: "[こつこつ勉強]L2スイッチ、L3スイッチの違い"
+      link: https://www.meganii.com/blog/2014/11/11/network-ip-1/
+    40:
       title: "静的サイトジェネレータ「Hugo」インストール"
       link: https://www.meganii.com/blog/2017/01/08/installing-hugo/
-    40:
+    41:
       title: "AngularJSでFlickrの埋め込みタグを作成する"
       link: https://www.meganii.com/blog/2014/11/08/angular-flickr/
-    41:
+    42:
       title: "jekyll front matter"
       link: https://www.meganii.com/blog/2014/06/24/jekyll-front-matter/
-    42:
-      title: "さくらVPSにDropboxをインストール"
-      link: https://www.meganii.com/blog/2013/05/08/dropbox_cui/
     43:
       title: "Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた"
       link: https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/
     44:
+      title: "さくらVPSにDropboxをインストール"
+      link: https://www.meganii.com/blog/2013/05/08/dropbox_cui/
+    45:
       title: "Jekyllのバージョンアップ"
       link: https://www.meganii.com/blog/2013/11/24/jekyll-versionup/
-    45:
+    46:
       title: "正規化とは何か？"
       link: https://www.meganii.com/blog/2015/08/07/normalization/
   2015-03-27-leave-latest-filename:
     1:
-      title: "TED APIを触ってみる"
-      link: https://www.meganii.com/blog/2014/11/21/ted-api/
-    2:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
       link: https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
+    2:
+      title: "TED APIを触ってみる"
+      link: https://www.meganii.com/blog/2014/11/21/ted-api/
     3:
       title: "sqlite3-rubyを使ってSQLite3ファイルからの検索結果をHashとして読み込む"
       link: https://www.meganii.com/blog/2013/05/18/sqlite3-ruby/
     4:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    5:
       title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
       link: https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/
-    5:
+    6:
       title: "React + ElectronでFlickr連携可能なMarkdown Editorを作った"
       link: https://www.meganii.com/blog/2016/08/24/react-flickr-markdown-editor/
-    6:
+    7:
       title: "gulpで画像の最適化"
       link: https://www.meganii.com/blog/2017/04/09/gulp-image-optimization/
-    7:
-      title: "CasperJSでAmazonログイン"
-      link: https://www.meganii.com/blog/2016/05/30/casperjs-amazon/
     8:
       title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
       link: https://www.meganii.com/blog/2016/07/18/installing-h2o-with-ansible/
     9:
+      title: "CasperJSでAmazonログイン"
+      link: https://www.meganii.com/blog/2016/05/30/casperjs-amazon/
+    10:
       title: "NetBIOSとは？"
       link: https://www.meganii.com/blog/2015/11/23/netbios/
-    10:
-      title: "Electronでデスクトップアプリ作成"
-      link: https://www.meganii.com/blog/2016/01/25/electron-tutorial/
     11:
       title: "JekyllからHugoへの移行ポイント"
       link: https://www.meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/
     12:
-      title: "Jekyllのバージョンアップ"
-      link: https://www.meganii.com/blog/2013/11/24/jekyll-versionup/
+      title: "Electronでデスクトップアプリ作成"
+      link: https://www.meganii.com/blog/2016/01/25/electron-tutorial/
     13:
       title: "slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法"
       link: https://www.meganii.com/blog/2016/02/10/post-to-slack/
-    14:
-      title: "UTF-8-MACとは何か？〜Jekyllのカテゴリ(タグ)ページで濁点を含むページが表示されない〜"
-      link: https://www.meganii.com/blog/2014/11/29/jekyll-tags-unread-because-of-utf-8-mac/
   2015-04-01-hobonichi-planner-leather-cover:
     1:
       title: "GANZOの革財布を１年ほど使ってみて"
@@ -4248,11 +4278,11 @@ Url:
       title: "http/2ベンチマークツール「h2load」をインストール"
       link: https://www.meganii.com/blog/2016/07/17/install-h2load/
     9:
-      title: "Jekyllのバージョンアップ"
-      link: https://www.meganii.com/blog/2013/11/24/jekyll-versionup/
-    10:
       title: "vagrant"
       link: https://www.meganii.com/blog/2013/05/28/vagrant/
+    10:
+      title: "Jekyllのバージョンアップ"
+      link: https://www.meganii.com/blog/2013/11/24/jekyll-versionup/
     11:
       title: "Lets's Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化"
       link: https://www.meganii.com/blog/2016/07/09/invalid-ssl-certificate/
@@ -4275,48 +4305,51 @@ Url:
       title: "Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー"
       link: https://www.meganii.com/blog/2015/07/25/capybara-connect-error/
     18:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    19:
       title: "How to install Virtualbox and Vagrant by installing by cli with Mac El Capitan"
       link: https://www.meganii.com/en/blog/2016/05/16/install-virtualbox-and-vagrant-in-el-capitan/
-    19:
+    20:
       title: "PythonでTF-IDFによる文書推薦"
       link: https://www.meganii.com/blog/2016/08/13/tf-idf-recommendation/
-    20:
+    21:
       title: "MacでVirtualbox、Vagrantをインストールするときにいつまで経っても検証が終わらない場合の対処法としてコマンドラインからインストールする"
       link: https://www.meganii.com/blog/2016/05/16/install-virtualbox-and-vagrant-in-el-capitan/
-    21:
+    22:
       title: "静的サイトジェネレータ「Hugo」〜公開方法〜"
       link: https://www.meganii.com/blog/2017/01/11/deploy-site-with-hugo/
-    22:
+    23:
       title: "google-api-ruby-clientからGoogle Adsense Management APIを操作する方法"
       link: https://www.meganii.com/blog/2016/06/05/ruby-google-api-client/
-    23:
+    24:
       title: "Hubotで外部コマンドを実行する"
       link: https://www.meganii.com/blog/2016/09/03/hubot-execute-command-child-process/
-    24:
+    25:
       title: "音声認識エンジンJuliusをインストールする"
       link: https://www.meganii.com/blog/2016/12/21/install-julius/
-    25:
-      title: "Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-"
-      link: https://www.meganii.com/blog/2013/05/23/regexp-jekyll/
     26:
       title: "sqlite3-rubyを使ってSQLite3ファイルからの検索結果をHashとして読み込む"
       link: https://www.meganii.com/blog/2013/05/18/sqlite3-ruby/
     27:
+      title: "Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-"
+      link: https://www.meganii.com/blog/2013/05/23/regexp-jekyll/
+    28:
       title: "静的サイトジェネレータ「Hugo」インストール"
       link: https://www.meganii.com/blog/2017/01/08/installing-hugo/
-    28:
-      title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
-      link: https://www.meganii.com/blog/2016/07/18/installing-h2o-with-ansible/
     29:
       title: "Happiness 私たちが幸せを感じる理由"
       link: https://www.meganii.com/blog/2012/04/23/happiness/
     30:
-      title: "CasperJSでAmazonログイン"
-      link: https://www.meganii.com/blog/2016/05/30/casperjs-amazon/
+      title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
+      link: https://www.meganii.com/blog/2016/07/18/installing-h2o-with-ansible/
     31:
       title: "Cannot download with wget"
       link: https://www.meganii.com/en/blog/2017/01/14/can-not-download-with-wget/
     32:
+      title: "CasperJSでAmazonログイン"
+      link: https://www.meganii.com/blog/2016/05/30/casperjs-amazon/
+    33:
       title: "さくらVPSにJenkinsインストール"
       link: https://www.meganii.com/blog/2013/04/11/jenkins/
   2015-04-11-search-keyword-by-page:
@@ -4381,11 +4414,11 @@ Url:
       title: "TED APIを触ってみる"
       link: https://www.meganii.com/blog/2014/11/21/ted-api/
     9:
-      title: "Electron + Mithril.jsでFlickrアプリを作成する"
-      link: https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/
-    10:
       title: "JekyllからHugoへの移行ポイント"
       link: https://www.meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/
+    10:
+      title: "Electron + Mithril.jsでFlickrアプリを作成する"
+      link: https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/
     11:
       title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
       link: https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/
@@ -4423,24 +4456,27 @@ Url:
       title: "Capyabara + PhantomJS(poltergeist)のRubyスクリプトをcronで流したい"
       link: https://www.meganii.com/blog/2016/01/16/how-to-run-bundle-exec-with-cron/
     23:
-      title: "Nightmare.jsでAmazonアフィリエイトのレポートを取得する"
-      link: https://www.meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/
+      title: "2台目のMacBookAirからさくらVPSへSSH接続を行うための鍵の設定"
+      link: https://www.meganii.com/blog/2013/06/21/ssh-sakuravps/
     24:
       title: "Circle CIでテストを定期実行する"
       link: https://www.meganii.com/blog/2016/09/08/circle-ci-nightly-build/
     25:
-      title: "2台目のMacBookAirからさくらVPSへSSH接続を行うための鍵の設定"
-      link: https://www.meganii.com/blog/2013/06/21/ssh-sakuravps/
+      title: "Nightmare.jsでAmazonアフィリエイトのレポートを取得する"
+      link: https://www.meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/
     26:
-      title: "sqlite3-rubyを使ってSQLite3ファイルからの検索結果をHashとして読み込む"
-      link: https://www.meganii.com/blog/2013/05/18/sqlite3-ruby/
-    27:
       title: "sublime-vim"
       link: https://www.meganii.com/blog/2013/05/28/sublime-vim/
+    27:
+      title: "sqlite3-rubyを使ってSQLite3ファイルからの検索結果をHashとして読み込む"
+      link: https://www.meganii.com/blog/2013/05/18/sqlite3-ruby/
     28:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    29:
       title: "はてなダイアリーからJekyllへお引越し"
       link: https://www.meganii.com/blog/2013/02/03/hatena2jekyll/
-    29:
+    30:
       title: "Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-"
       link: https://www.meganii.com/blog/2013/05/23/regexp-jekyll/
   2015-06-01-how-to-move-join-nestedloops-hash-sortmerge:
@@ -4492,11 +4528,11 @@ Url:
       title: "キャリア計画を立てよう！ How Google Works-私たちの働き方とマネジメント-"
       link: https://www.meganii.com/blog/2014/10/30/how-google-works/
     4:
-      title: "統計学が最強の学問である[実践編]"
-      link: https://www.meganii.com/blog/2015/12/06/statistics-is-literacy-for-the-next-generation-professional/
-    5:
       title: "統計学が最強の学問である"
       link: https://www.meganii.com/blog/2014/12/09/statistics-is-literacy-for-the-next-generation/
+    5:
+      title: "統計学が最強の学問である[実践編]"
+      link: https://www.meganii.com/blog/2015/12/06/statistics-is-literacy-for-the-next-generation-professional/
     6:
       title: "ぐだぐだ言ってないでコードを書けよ、自分！ - 「Webサービスのつくり方」"
       link: https://www.meganii.com/blog/2014/09/04/create-web-service/
@@ -4510,11 +4546,11 @@ Url:
       title: "building machine learning systems with python"
       link: https://www.meganii.com/blog/2016/09/18/building-machine-learning-systems-with-python/
     10:
-      title: "参加者の発言を促すファシリテーターの技術 〜ザ・ファシリテーター〜"
-      link: https://www.meganii.com/blog/2014/10/04/facilitation-skill/
-    11:
       title: "学び方をリファクタリング"
       link: https://www.meganii.com/blog/2014/06/26/learning/
+    11:
+      title: "参加者の発言を促すファシリテーターの技術 〜ザ・ファシリテーター〜"
+      link: https://www.meganii.com/blog/2014/10/04/facilitation-skill/
     12:
       title: "あなたは中級者を脱出出来ているだろうか？ドレイファスモデル技能モデル〜リファクタリング・ウェットウェア ―達人プログラマーの思考法と学習法〜"
       link: https://www.meganii.com/blog/2014/06/23/dreyfus-model/
@@ -4628,11 +4664,11 @@ Url:
       link: https://www.meganii.com/blog/2015/06/11/agile-retrospectives/
   2015-07-04-building-cocoa-os-x-application-with-swfit-in-xcode:
     1:
-      title: "Hugoソースコードリーディング〜Taxonomy〜"
-      link: https://www.meganii.com/blog/2015/10/11/hugo-taxonomy/
-    2:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
       link: https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
+    2:
+      title: "Hugoソースコードリーディング〜Taxonomy〜"
+      link: https://www.meganii.com/blog/2015/10/11/hugo-taxonomy/
     3:
       title: "Electron + Mithril.jsでFlickrアプリを作成する"
       link: https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/
@@ -4679,12 +4715,15 @@ Url:
       title: "ぐだぐだ言ってないでコードを書けよ、自分！ - 「Webサービスのつくり方」"
       link: https://www.meganii.com/blog/2014/09/04/create-web-service/
     18:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    19:
       title: "Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-"
       link: https://www.meganii.com/blog/2013/05/23/regexp-jekyll/
-    19:
+    20:
       title: "Hugoで関連記事を表示する方法"
       link: https://www.meganii.com/blog/2016/08/11/hugo-related-post/
-    20:
+    21:
       title: "jekyll front matter"
       link: https://www.meganii.com/blog/2014/06/24/jekyll-front-matter/
   2015-07-05-world-cafe-case:
@@ -4789,11 +4828,11 @@ Url:
       title: "「ふじもなおのアトリエ」で似顔絵描いてもらいました！"
       link: https://www.meganii.com/blog/2012/05/31/fujimonao/
     14:
-      title: "学び方をリファクタリング"
-      link: https://www.meganii.com/blog/2014/06/26/learning/
-    15:
       title: "「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。"
       link: https://www.meganii.com/blog/2016/02/22/become-a-programmer/
+    15:
+      title: "学び方をリファクタリング"
+      link: https://www.meganii.com/blog/2014/06/26/learning/
     16:
       title: "最近文章を書かなくなってきている"
       link: https://www.meganii.com/blog/2012/03/14/write/
@@ -4868,30 +4907,33 @@ Url:
       title: "Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする"
       link: https://www.meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/
     15:
-      title: "JekyllからHugoへの移行ポイント"
-      link: https://www.meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/
-    16:
       title: "Jekyllに月別アーカイブを実装する"
       link: https://www.meganii.com/blog/2014/12/02/jekyll-monthly-archive/
+    16:
+      title: "JekyllからHugoへの移行ポイント"
+      link: https://www.meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/
     17:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    18:
       title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
       link: https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/
-    18:
+    19:
       title: "reference baseurl from content"
       link: https://www.meganii.com/blog/2016/11/19/reference-baseurl-from-content/
-    19:
+    20:
       title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
       link: https://www.meganii.com/blog/2016/07/18/installing-h2o-with-ansible/
-    20:
+    21:
       title: "静的サイトジェネレータ「Hugo」インストール"
       link: https://www.meganii.com/blog/2017/01/08/installing-hugo/
-    21:
+    22:
       title: "Octopressに「続きを読む」のプラグイン導入"
       link: https://www.meganii.com/blog/2013/04/24/readmore/
-    22:
+    23:
       title: "google-api-ruby-clientからGoogle Adsense Management APIを操作する方法"
       link: https://www.meganii.com/blog/2016/06/05/ruby-google-api-client/
-    23:
+    24:
       title: "Cannot download with wget"
       link: https://www.meganii.com/en/blog/2017/01/14/can-not-download-with-wget/
   2015-07-25-capybara-connect-error:
@@ -4965,27 +5007,30 @@ Url:
       title: "「システムインテグレーション崩壊」を読んで生存戦略を考える"
       link: https://www.meganii.com/blog/2015/08/31/system-integrators-collapse/
     24:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    25:
       title: "Jekyllに月別アーカイブを実装する"
       link: https://www.meganii.com/blog/2014/12/02/jekyll-monthly-archive/
-    25:
+    26:
       title: "XPathでの属性値の取得"
       link: https://www.meganii.com/blog/2014/02/19/xpath-java/
-    26:
+    27:
       title: "sqlite3-rubyを使ってSQLite3ファイルからの検索結果をHashとして読み込む"
       link: https://www.meganii.com/blog/2013/05/18/sqlite3-ruby/
-    27:
+    28:
       title: "http/2ベンチマークツール「h2load」をインストール"
       link: https://www.meganii.com/blog/2016/07/17/install-h2load/
-    28:
+    29:
       title: "静的サイトジェネレータ「Hugo」インストール"
       link: https://www.meganii.com/blog/2017/01/08/installing-hugo/
-    29:
+    30:
       title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
       link: https://www.meganii.com/blog/2016/07/18/installing-h2o-with-ansible/
-    30:
+    31:
       title: "Nightmare.jsでAmazonアフィリエイトのレポートを取得する"
       link: https://www.meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/
-    31:
+    32:
       title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
       link: https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/
   2015-08-04-real-wantedly:
@@ -5126,11 +5171,11 @@ Url:
       title: "「新年会だよ！JUSO Jelly!+家族ラボ vol.6」に参加してきました！"
       link: https://www.meganii.com/blog/2012/01/28/juso_coworking/
     17:
-      title: "20歳を過ぎてから英語を学ぼうと決めた人たちへ"
-      link: https://www.meganii.com/blog/2012/05/19/study_english/
-    18:
       title: "直島ぶらり一人旅〜地中美術館〜"
       link: https://www.meganii.com/blog/2012/04/06/naoshima/
+    18:
+      title: "20歳を過ぎてから英語を学ぼうと決めた人たちへ"
+      link: https://www.meganii.com/blog/2012/05/19/study_english/
     19:
       title: "福井-大阪-名古屋-東京。拠点が離れている中での結婚式余興作成"
       link: https://www.meganii.com/blog/2014/09/28/baseball-club-yokyo/
@@ -5201,9 +5246,6 @@ Url:
     20:
       title: "AnsibleでさくらVPSの初期設定"
       link: https://www.meganii.com/blog/2015/03/02/ansible-sakura-vps/
-    21:
-      title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
-      link: https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/
   2015-08-17-rising-sun-festival-2015:
     1:
       title: "初めての北アルプス 〜涸沢ヒュッテ、奥穂高岳〜"
@@ -5283,56 +5325,59 @@ Url:
       title: "Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた"
       link: https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/
     14:
-      title: "Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー"
-      link: https://www.meganii.com/blog/2015/07/25/capybara-connect-error/
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
     15:
       title: "gulpで画像の最適化"
       link: https://www.meganii.com/blog/2017/04/09/gulp-image-optimization/
     16:
+      title: "Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー"
+      link: https://www.meganii.com/blog/2015/07/25/capybara-connect-error/
+    17:
       title: "静的サイトジェネレータ「Hugo」インストール"
       link: https://www.meganii.com/blog/2017/01/08/installing-hugo/
-    17:
+    18:
       title: "はてなダイアリーからJekyllへお引越し"
       link: https://www.meganii.com/blog/2013/02/03/hatena2jekyll/
-    18:
+    19:
       title: "Capybara「Request failed to reach server, check DNS and/or server status」"
       link: https://www.meganii.com/en/blog/2015/07/25/capybara-connect-error/
-    19:
+    20:
       title: "Electronでデスクトップアプリ作成"
       link: https://www.meganii.com/blog/2016/01/25/electron-tutorial/
-    20:
+    21:
       title: "Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-"
       link: https://www.meganii.com/blog/2013/05/23/regexp-jekyll/
-    21:
+    22:
       title: "HugoのShortcodesを利用してAmazon紹介リンクタグを作成"
       link: https://www.meganii.com/blog/2017/02/18/hugo-amazon-shortcode/
-    22:
+    23:
       title: "AnsibleでさくらVPSの初期設定"
       link: https://www.meganii.com/blog/2015/03/02/ansible-sakura-vps/
-    23:
+    24:
       title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
       link: https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/
-    24:
+    25:
       title: "Hugoで生成した静的サイトのホスト先をさくらVPSからNetlifyに変更する"
       link: https://www.meganii.com/blog/2017/03/19/migrate-hugo-hosting-service-from-sakura-vps-to-netlify/
-    25:
+    26:
       title: "Octopressに「続きを読む」のプラグイン導入"
       link: https://www.meganii.com/blog/2013/04/24/readmore/
-    26:
+    27:
       title: "jekyll front matter"
       link: https://www.meganii.com/blog/2014/06/24/jekyll-front-matter/
-    27:
+    28:
       title: "[Effective JavaScript]クロージャ"
       link: https://www.meganii.com/blog/2016/01/30/effective-javascript-closure/
-    28:
+    29:
       title: "数世代バージョンを持つファイル名から最新版以外を抽出する"
       link: https://www.meganii.com/blog/2015/03/27/leave-latest-filename/
-    29:
-      title: "Jekyllにタグクラウドを実装する"
-      link: https://www.meganii.com/blog/2014/12/01/jekyll-tag-cloud/
     30:
       title: "Circle CIでテストを定期実行する"
       link: https://www.meganii.com/blog/2016/09/08/circle-ci-nightly-build/
+    31:
+      title: "Jekyllにタグクラウドを実装する"
+      link: https://www.meganii.com/blog/2014/12/01/jekyll-tag-cloud/
   2015-08-31-system-integrator:
     1:
       title: "「「納品」をなくせばうまくいく」を読んで生存戦略を考える"
@@ -5480,60 +5525,63 @@ Url:
       title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
       link: https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/
     10:
-      title: "[Effective JavaScript]クロージャ"
-      link: https://www.meganii.com/blog/2016/01/30/effective-javascript-closure/
-    11:
       title: "Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた"
       link: https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/
+    11:
+      title: "[Effective JavaScript]クロージャ"
+      link: https://www.meganii.com/blog/2016/01/30/effective-javascript-closure/
     12:
       title: "Hugoで関連記事を表示する方法"
       link: https://www.meganii.com/blog/2016/08/11/hugo-related-post/
     13:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    14:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
       link: https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
-    14:
+    15:
       title: "D3.jsで東京の地価データを可視化する"
       link: https://www.meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/
-    15:
+    16:
       title: "Nightmare.jsでAmazonアフィリエイトのレポートを取得する"
       link: https://www.meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/
-    16:
+    17:
       title: "AnsibleでさくらVPSの初期設定"
       link: https://www.meganii.com/blog/2015/03/02/ansible-sakura-vps/
-    17:
+    18:
       title: "HugoのShortcodesを利用してAmazon紹介リンクタグを作成"
       link: https://www.meganii.com/blog/2017/02/18/hugo-amazon-shortcode/
-    18:
+    19:
       title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
       link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
-    19:
-      title: "phonegap-start"
-      link: https://www.meganii.com/blog/2014/02/16/phonegap-start/
     20:
       title: "AngularJSでFlickrの埋め込みタグを作成する"
       link: https://www.meganii.com/blog/2014/11/08/angular-flickr/
     21:
+      title: "phonegap-start"
+      link: https://www.meganii.com/blog/2014/02/16/phonegap-start/
+    22:
       title: "CasperJSでAmazonログイン"
       link: https://www.meganii.com/blog/2016/05/30/casperjs-amazon/
-    22:
+    23:
       title: "AceエディタをElectronに組み込む"
       link: https://www.meganii.com/blog/2016/08/28/electron-ace-markdown-editor/
-    23:
+    24:
       title: "Google Apps ScriptでGoogle Search Consoleの情報を取得する"
       link: https://www.meganii.com/blog/2017/02/12/google-apps-script-search-console/
-    24:
+    25:
       title: "Jekyllに月別アーカイブを実装する"
       link: https://www.meganii.com/blog/2014/12/02/jekyll-monthly-archive/
-    25:
+    26:
       title: "Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-"
       link: https://www.meganii.com/blog/2013/05/23/regexp-jekyll/
-    26:
+    27:
       title: "正規化とは何か？"
       link: https://www.meganii.com/blog/2015/08/07/normalization/
-    27:
+    28:
       title: "CircleCIでMeCabを利用してHugoビルドする"
       link: https://www.meganii.com/blog/2017/01/14/circle-ci-settings-for-mecab-hugo/
-    28:
+    29:
       title: "PythonでTF-IDFによる文書推薦"
       link: https://www.meganii.com/blog/2016/08/13/tf-idf-recommendation/
   2015-10-25-sonicgarden-agile:
@@ -5727,11 +5775,14 @@ Url:
       title: "[こつこつ勉強]L2スイッチ、L3スイッチの違い"
       link: https://www.meganii.com/blog/2014/11/11/network-ip-1/
     15:
-      title: "数世代バージョンを持つファイル名から最新版以外を抽出する"
-      link: https://www.meganii.com/blog/2015/03/27/leave-latest-filename/
-    16:
       title: "http/2ベンチマークツール「h2load」をインストール"
       link: https://www.meganii.com/blog/2016/07/17/install-h2load/
+    16:
+      title: "数世代バージョンを持つファイル名から最新版以外を抽出する"
+      link: https://www.meganii.com/blog/2015/03/27/leave-latest-filename/
+    17:
+      title: "abコマンド実行時のエラーを回避する"
+      link: https://www.meganii.com/blog/2013/05/27/benchmark-apache/
   2015-11-25-domain-services:
     1:
       title: "「第4回 リアル・ウォンテッドリー」に行ってきました"
@@ -5848,11 +5899,11 @@ Url:
       title: "「システムインテグレーション崩壊」を読んで生存戦略を考える"
       link: https://www.meganii.com/blog/2015/08/31/system-integrators-collapse/
     2:
-      title: "「「納品」をなくせばうまくいく」を読んで生存戦略を考える"
-      link: https://www.meganii.com/blog/2015/10/25/sonicgarden-agile/
-    3:
       title: "キャリア計画を立てよう！ How Google Works-私たちの働き方とマネジメント-"
       link: https://www.meganii.com/blog/2014/10/30/how-google-works/
+    3:
+      title: "「「納品」をなくせばうまくいく」を読んで生存戦略を考える"
+      link: https://www.meganii.com/blog/2015/10/25/sonicgarden-agile/
     4:
       title: "「逆説のキャリア思考 - スタートアップ思考をキャリアに活かす」まとめ"
       link: https://www.meganii.com/blog/2017/02/24/paradoxical-startup-career-thinking/
@@ -5882,20 +5933,20 @@ Url:
       title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
       link: https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/
     4:
-      title: "El Capitanへのアップグレード時AppStoreに接続できなくなった場合(さらにキーチェーンアクセスでも対処できなかった時)の対処法 "
-      link: https://www.meganii.com/blog/2016/01/23/el-capitan-upgrade-error/
-    5:
       title: "Capistrano3でRails5+Unicornのアプリをデプロイしたときに環境変数SECRET_KEY_BASEが読み込まれない"
       link: https://www.meganii.com/blog/2016/11/23/capistrano3-can-not-read-env/
+    5:
+      title: "El Capitanへのアップグレード時AppStoreに接続できなくなった場合(さらにキーチェーンアクセスでも対処できなかった時)の対処法 "
+      link: https://www.meganii.com/blog/2016/01/23/el-capitan-upgrade-error/
     6:
       title: "google-api-ruby-clientからGoogle Adsense Management APIを操作する方法"
       link: https://www.meganii.com/blog/2016/06/05/ruby-google-api-client/
     7:
-      title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
-      link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
-    8:
       title: "lets encrypt certbot"
       link: https://www.meganii.com/blog/2016/05/15/lets-encrypt-certbot/
+    8:
+      title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
+      link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
     9:
       title: "Hubotで外部コマンドを実行する"
       link: https://www.meganii.com/blog/2016/09/03/hubot-execute-command-child-process/
@@ -5946,89 +5997,89 @@ Url:
       title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
       link: https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/
     16:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    17:
       title: "Capybara「Request failed to reach server, check DNS and/or server status」"
       link: https://www.meganii.com/en/blog/2015/07/25/capybara-connect-error/
-    17:
+    18:
       title: "Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー"
       link: https://www.meganii.com/blog/2015/07/25/capybara-connect-error/
-    18:
+    19:
       title: "さくらVPSにJenkinsインストール"
       link: https://www.meganii.com/blog/2013/04/11/jenkins/
-    19:
+    20:
       title: "Hugoで生成した静的サイトのホスト先をさくらVPSからNetlifyに変更する"
       link: https://www.meganii.com/blog/2017/03/19/migrate-hugo-hosting-service-from-sakura-vps-to-netlify/
-    20:
+    21:
       title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
       link: https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/
-    21:
+    22:
       title: "http/2ベンチマークツール「h2load」をインストール"
       link: https://www.meganii.com/blog/2016/07/17/install-h2load/
-    22:
+    23:
       title: "TED APIを触ってみる"
       link: https://www.meganii.com/blog/2014/11/21/ted-api/
-    23:
+    24:
       title: "google-api-ruby-clientからGoogle Adsense Management APIを操作する方法"
       link: https://www.meganii.com/blog/2016/06/05/ruby-google-api-client/
-    24:
+    25:
       title: "Hugoソースコードリーディング〜Taxonomy〜"
       link: https://www.meganii.com/blog/2015/10/11/hugo-taxonomy/
-    25:
+    26:
       title: "勉強用に、簡単に作っては壊せる仮想環境をVagrantで構築する"
       link: https://www.meganii.com/blog/2013/06/30/vagrant-install/
-    26:
+    27:
       title: "MariaDBの日本語文字化けを解消するための設定"
       link: https://www.meganii.com/blog/2016/05/29/mariadb-utf8/
-    27:
+    28:
       title: "sqlite3-rubyを使ってSQLite3ファイルからの検索結果をHashとして読み込む"
       link: https://www.meganii.com/blog/2013/05/18/sqlite3-ruby/
-    28:
+    29:
       title: "はてなダイアリーからJekyllへお引越し"
       link: https://www.meganii.com/blog/2013/02/03/hatena2jekyll/
-    29:
+    30:
       title: "gulpで画像の最適化"
       link: https://www.meganii.com/blog/2017/04/09/gulp-image-optimization/
-    30:
+    31:
       title: "Google Apps ScriptでGoogle Search Consoleの情報を取得する"
       link: https://www.meganii.com/blog/2017/02/12/google-apps-script-search-console/
-    31:
+    32:
       title: "静的サイトジェネレータ「Hugo」インストール"
       link: https://www.meganii.com/blog/2017/01/08/installing-hugo/
-    32:
+    33:
       title: "abコマンド実行時のエラーを回避する"
       link: https://www.meganii.com/blog/2013/05/27/benchmark-apache/
-    33:
-      title: "Jekyllのバージョンアップ"
-      link: https://www.meganii.com/blog/2013/11/24/jekyll-versionup/
     34:
       title: "音声認識エンジンJuliusをインストールする"
       link: https://www.meganii.com/blog/2016/12/21/install-julius/
     35:
+      title: "Jekyllのバージョンアップ"
+      link: https://www.meganii.com/blog/2013/11/24/jekyll-versionup/
+    36:
       title: "HugoのShortcodesを利用してAmazon紹介リンクタグを作成"
       link: https://www.meganii.com/blog/2017/02/18/hugo-amazon-shortcode/
-    36:
+    37:
       title: "Capyabara + PhantomJS(poltergeist)のRubyスクリプトをcronで流したい"
       link: https://www.meganii.com/blog/2016/01/16/how-to-run-bundle-exec-with-cron/
-    37:
+    38:
       title: "phonegap-start"
       link: https://www.meganii.com/blog/2014/02/16/phonegap-start/
-    38:
+    39:
       title: "Happiness 私たちが幸せを感じる理由"
       link: https://www.meganii.com/blog/2012/04/23/happiness/
-    39:
+    40:
       title: "Hubotで外部コマンドを実行する"
       link: https://www.meganii.com/blog/2016/09/03/hubot-execute-command-child-process/
-    40:
+    41:
       title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://www.meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
-    41:
+    42:
       title: "CasperJSでAmazonログイン"
       link: https://www.meganii.com/blog/2016/05/30/casperjs-amazon/
-    42:
-      title: "静的サイトジェネレータ「Hugo」〜公開方法〜"
-      link: https://www.meganii.com/blog/2017/01/11/deploy-site-with-hugo/
     43:
-      title: "[Effective JavaScript]クロージャ"
-      link: https://www.meganii.com/blog/2016/01/30/effective-javascript-closure/
+      title: "Capistrano3でRails5+Unicornのアプリをデプロイしたときに環境変数SECRET_KEY_BASEが読み込まれない"
+      link: https://www.meganii.com/blog/2016/11/23/capistrano3-can-not-read-env/
   2016-01-23-el-capitan-upgrade-error:
     1:
       title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
@@ -6061,48 +6112,51 @@ Url:
       title: "Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする"
       link: https://www.meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/
     11:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    12:
       title: "How to install Virtualbox and Vagrant by installing by cli with Mac El Capitan"
       link: https://www.meganii.com/en/blog/2016/05/16/install-virtualbox-and-vagrant-in-el-capitan/
-    12:
+    13:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
       link: https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
-    13:
+    14:
       title: "Electronでデスクトップアプリ作成"
       link: https://www.meganii.com/blog/2016/01/25/electron-tutorial/
-    14:
+    15:
       title: "Happiness 私たちが幸せを感じる理由"
       link: https://www.meganii.com/blog/2012/04/23/happiness/
-    15:
+    16:
       title: "sqlite3-rubyを使ってSQLite3ファイルからの検索結果をHashとして読み込む"
       link: https://www.meganii.com/blog/2013/05/18/sqlite3-ruby/
-    16:
+    17:
       title: "lets encrypt certbot"
       link: https://www.meganii.com/blog/2016/05/15/lets-encrypt-certbot/
-    17:
+    18:
       title: "さくらVPSにJenkinsインストール"
       link: https://www.meganii.com/blog/2013/04/11/jenkins/
-    18:
+    19:
       title: "Enable swipe by using Vivaldi"
       link: https://www.meganii.com/en/blog/2017/03/02/vivaldi-swipe-gestures/
-    19:
+    20:
       title: "http/2ベンチマークツール「h2load」をインストール"
       link: https://www.meganii.com/blog/2016/07/17/install-h2load/
-    20:
+    21:
       title: "How to install SQL*Plus in MacOSX Marverics"
       link: https://www.meganii.com/en/blog/2015/02/11/how-to-install-sqlplus-in-macosx/
-    21:
+    22:
       title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
       link: https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/
-    22:
+    23:
       title: "Capyabara + PhantomJS(poltergeist)のRubyスクリプトをcronで流したい"
       link: https://www.meganii.com/blog/2016/01/16/how-to-run-bundle-exec-with-cron/
-    23:
-      title: "Vivaldiのスワイプで戻る・進むを有効にする"
-      link: https://www.meganii.com/blog/2017/03/02/vivaldi-swipe-gestures/
     24:
       title: "google-api-ruby-clientからGoogle Adsense Management APIを操作する方法"
       link: https://www.meganii.com/blog/2016/06/05/ruby-google-api-client/
     25:
+      title: "Vivaldiのスワイプで戻る・進むを有効にする"
+      link: https://www.meganii.com/blog/2017/03/02/vivaldi-swipe-gestures/
+    26:
       title: "静的サイトジェネレータ「Hugo」インストール"
       link: https://www.meganii.com/blog/2017/01/08/installing-hugo/
   2016-01-25-electron-tutorial:
@@ -6164,32 +6218,32 @@ Url:
       title: "Swiftで初めてのMacOSXアプリケーション-FFViewer-"
       link: https://www.meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/
     20:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    21:
       title: "Capybara「Request failed to reach server, check DNS and/or server status」"
       link: https://www.meganii.com/en/blog/2015/07/25/capybara-connect-error/
-    21:
+    22:
       title: "vagrant plugin install hostmanager実行時のnokogiriインストールエラーの解決"
       link: https://www.meganii.com/blog/2015/04/05/vagrant-plugin-install-hostmanager-nokogiri-error/
-    22:
+    23:
       title: "Installing Oracle Database Express Edition11g on Vagrant(CentOS 6.4)"
       link: https://www.meganii.com/en/blog/2015/02/08/oracle-express-edition-11g-install/
-    23:
+    24:
       title: "El Capitanへのアップグレード時AppStoreに接続できなくなった場合(さらにキーチェーンアクセスでも対処できなかった時)の対処法 "
       link: https://www.meganii.com/blog/2016/01/23/el-capitan-upgrade-error/
-    24:
+    25:
       title: "Electron Editorで最終更新日時を更新する"
       link: https://www.meganii.com/blog/2016/11/16/rewrite-lastmod-in-hugo/
-    25:
+    26:
       title: "Lets's Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化"
       link: https://www.meganii.com/blog/2016/07/09/invalid-ssl-certificate/
-    26:
+    27:
       title: "Happiness 私たちが幸せを感じる理由"
       link: https://www.meganii.com/blog/2012/04/23/happiness/
-    27:
+    28:
       title: "Capistrano3でRails5+Unicornのアプリをデプロイしたときに環境変数SECRET_KEY_BASEが読み込まれない"
       link: https://www.meganii.com/blog/2016/11/23/capistrano3-can-not-read-env/
-    28:
-      title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
-      link: https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/
     29:
       title: "sqlite3-rubyを使ってSQLite3ファイルからの検索結果をHashとして読み込む"
       link: https://www.meganii.com/blog/2013/05/18/sqlite3-ruby/
@@ -6197,47 +6251,47 @@ Url:
       title: "google-api-ruby-clientからGoogle Adsense Management APIを操作する方法"
       link: https://www.meganii.com/blog/2016/06/05/ruby-google-api-client/
     31:
+      title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
+      link: https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/
+    32:
       title: "Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする"
       link: https://www.meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/
-    32:
+    33:
       title: "Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー"
       link: https://www.meganii.com/blog/2015/07/25/capybara-connect-error/
-    33:
+    34:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
       link: https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
-    34:
+    35:
       title: "Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた"
       link: https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/
-    35:
+    36:
       title: "JekyllからHugoへの移行ポイント"
       link: https://www.meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/
-    36:
+    37:
       title: "AnsibleでさくらVPSの初期設定"
       link: https://www.meganii.com/blog/2015/03/02/ansible-sakura-vps/
-    37:
+    38:
       title: "Jekyllに月別アーカイブを実装する"
       link: https://www.meganii.com/blog/2014/12/02/jekyll-monthly-archive/
-    38:
+    39:
       title: "YouTube埋め込みタグをレスポンシブ化する"
       link: https://www.meganii.com/blog/2014/09/03/youtube-responsive/
-    39:
+    40:
       title: "Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-"
       link: https://www.meganii.com/blog/2013/05/23/regexp-jekyll/
-    40:
+    41:
       title: "Jekyllにタグクラウドを実装する"
       link: https://www.meganii.com/blog/2014/12/01/jekyll-tag-cloud/
-    41:
+    42:
       title: "数世代バージョンを持つファイル名から最新版以外を抽出する"
       link: https://www.meganii.com/blog/2015/03/27/leave-latest-filename/
-    42:
+    43:
       title: "Hugoで関連記事を表示する方法"
       link: https://www.meganii.com/blog/2016/08/11/hugo-related-post/
-    43:
+    44:
       title: "Jekyllのバージョンアップ"
       link: https://www.meganii.com/blog/2013/11/24/jekyll-versionup/
-    44:
-      title: "Circle CIでテストを定期実行する"
-      link: https://www.meganii.com/blog/2016/09/08/circle-ci-nightly-build/
   2016-01-30-effective-javascript-closure:
     1:
       title: "[コツコツ勉強]よくわからないままJavaScriptを使っている自分へ"
@@ -6294,11 +6348,11 @@ Url:
       title: "統計学が最強の学問である[実践編]"
       link: https://www.meganii.com/blog/2015/12/06/statistics-is-literacy-for-the-next-generation-professional/
     19:
-      title: "AceエディタをElectronに組み込む"
-      link: https://www.meganii.com/blog/2016/08/28/electron-ace-markdown-editor/
-    20:
       title: "Electronがv1.0.0になったのでMithril.jsと合わせてAmazonアフィリエイトリンクビルダーを作った"
       link: https://www.meganii.com/blog/2016/05/11/electron-mithril-amazon-linkbuilder/
+    20:
+      title: "AceエディタをElectronに組み込む"
+      link: https://www.meganii.com/blog/2016/08/28/electron-ace-markdown-editor/
     21:
       title: "D3.jsチュートリアル"
       link: https://www.meganii.com/blog/2016/02/06/d3js-tutorial/
@@ -6306,11 +6360,11 @@ Url:
       title: "JekyllからHugoへの移行ポイント"
       link: https://www.meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/
     23:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    24:
       title: "React + ElectronでFlickr連携可能なMarkdown Editorを作った"
       link: https://www.meganii.com/blog/2016/08/24/react-flickr-markdown-editor/
-    24:
-      title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
-      link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
   2016-02-01-how-to-get-amazon-affiliate-reports-with-nightmarejs:
     1:
       title: "Electronでデスクトップアプリ作成"
@@ -6355,11 +6409,11 @@ Url:
       title: "AceエディタをElectronに組み込む"
       link: https://www.meganii.com/blog/2016/08/28/electron-ace-markdown-editor/
     15:
-      title: "React + ElectronでFlickr連携可能なMarkdown Editorを作った"
-      link: https://www.meganii.com/blog/2016/08/24/react-flickr-markdown-editor/
-    16:
       title: "D3.jsで東京の地価データを可視化する"
       link: https://www.meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/
+    16:
+      title: "React + ElectronでFlickr連携可能なMarkdown Editorを作った"
+      link: https://www.meganii.com/blog/2016/08/24/react-flickr-markdown-editor/
     17:
       title: "AngularJSでFlickrの埋め込みタグを作成する"
       link: https://www.meganii.com/blog/2014/11/08/angular-flickr/
@@ -6456,21 +6510,24 @@ Url:
       title: "[Effective JavaScript]クロージャ"
       link: https://www.meganii.com/blog/2016/01/30/effective-javascript-closure/
     13:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    14:
       title: "AngularJSでFlickrの埋め込みタグを作成する"
       link: https://www.meganii.com/blog/2014/11/08/angular-flickr/
-    14:
+    15:
       title: "SQL*PlusをMacOSX Marvericsにインストール"
       link: https://www.meganii.com/blog/2015/02/11/install-sqlplus/
-    15:
+    16:
       title: "Google Apps ScriptでGoogle Search Consoleの情報を取得する"
       link: https://www.meganii.com/blog/2017/02/12/google-apps-script-search-console/
-    16:
+    17:
       title: "How to install SQL*Plus in MacOSX Marverics"
       link: https://www.meganii.com/en/blog/2015/02/11/how-to-install-sqlplus-in-macosx/
-    17:
+    18:
       title: "CasperJSでAmazonログイン"
       link: https://www.meganii.com/blog/2016/05/30/casperjs-amazon/
-    18:
+    19:
       title: "phonegap-start"
       link: https://www.meganii.com/blog/2014/02/16/phonegap-start/
   2016-02-07-javascript-ninja:
@@ -6509,11 +6566,11 @@ Url:
       title: "Nightmare.jsでAmazonアフィリエイトのレポートを取得する"
       link: https://www.meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/
     5:
-      title: "数世代バージョンを持つファイル名から最新版以外を抽出する"
-      link: https://www.meganii.com/blog/2015/03/27/leave-latest-filename/
-    6:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
       link: https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
+    6:
+      title: "数世代バージョンを持つファイル名から最新版以外を抽出する"
+      link: https://www.meganii.com/blog/2015/03/27/leave-latest-filename/
   2016-02-11-a-random-walk-down-wall-street:
     1:
       title: "「逆説のキャリア思考 - スタートアップ思考をキャリアに活かす」まとめ"
@@ -6598,11 +6655,11 @@ Url:
       title: "Amazon Product Advertising APIを利用するためのIAMユーザ登録とアクセスキーの発行"
       link: https://www.meganii.com/blog/2017/02/19/how-to-register-amazon-product-advertising-api/
     17:
-      title: "React + ElectronでFlickr連携可能なMarkdown Editorを作った"
-      link: https://www.meganii.com/blog/2016/08/24/react-flickr-markdown-editor/
-    18:
       title: "Hubotで外部コマンドを実行する"
       link: https://www.meganii.com/blog/2016/09/03/hubot-execute-command-child-process/
+    18:
+      title: "React + ElectronでFlickr連携可能なMarkdown Editorを作った"
+      link: https://www.meganii.com/blog/2016/08/24/react-flickr-markdown-editor/
     19:
       title: "AngularJSでFlickrの埋め込みタグを作成する"
       link: https://www.meganii.com/blog/2014/11/08/angular-flickr/
@@ -6610,53 +6667,53 @@ Url:
       title: "google-api-ruby-clientからGoogle Adsense Management APIを操作する方法"
       link: https://www.meganii.com/blog/2016/06/05/ruby-google-api-client/
     21:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    22:
       title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
       link: https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/
-    22:
+    23:
       title: "Electron+React+Reduxで作り直した Amazon Linkbuilder"
       link: https://www.meganii.com/blog/2016/12/19/electron-react-redux-affiliate-linkbuilder/
-    23:
+    24:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
       link: https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
-    24:
+    25:
       title: "sqlite3-rubyを使ってSQLite3ファイルからの検索結果をHashとして読み込む"
       link: https://www.meganii.com/blog/2013/05/18/sqlite3-ruby/
-    25:
+    26:
       title: "AnsibleでさくらVPSの初期設定"
       link: https://www.meganii.com/blog/2015/03/02/ansible-sakura-vps/
-    26:
+    27:
       title: "JekyllからHugoへの移行ポイント"
       link: https://www.meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/
-    27:
+    28:
       title: "Capybara「Request failed to reach server, check DNS and/or server status」"
       link: https://www.meganii.com/en/blog/2015/07/25/capybara-connect-error/
-    28:
+    29:
       title: "Lets's Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化"
       link: https://www.meganii.com/blog/2016/07/09/invalid-ssl-certificate/
-    29:
+    30:
       title: "El Capitanへのアップグレード時AppStoreに接続できなくなった場合(さらにキーチェーンアクセスでも対処できなかった時)の対処法 "
       link: https://www.meganii.com/blog/2016/01/23/el-capitan-upgrade-error/
-    30:
+    31:
       title: "CircleCIでMeCabを利用してHugoビルドする"
       link: https://www.meganii.com/blog/2017/01/14/circle-ci-settings-for-mecab-hugo/
-    31:
+    32:
       title: "Installing Oracle Database Express Edition11g on Vagrant(CentOS 6.4)"
       link: https://www.meganii.com/en/blog/2015/02/08/oracle-express-edition-11g-install/
-    32:
-      title: "Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた"
-      link: https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/
     33:
-      title: "Jekyllに月別アーカイブを実装する"
-      link: https://www.meganii.com/blog/2014/12/02/jekyll-monthly-archive/
-    34:
       title: "HugoのShortcodesを利用してAmazon紹介リンクタグを作成"
       link: https://www.meganii.com/blog/2017/02/18/hugo-amazon-shortcode/
+    34:
+      title: "Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた"
+      link: https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/
     35:
+      title: "Jekyllに月別アーカイブを実装する"
+      link: https://www.meganii.com/blog/2014/12/02/jekyll-monthly-archive/
+    36:
       title: "JAWS-UG Osaka第10回 AWSとコストについて ～AWSをなるべく安く使い倒す〜"
       link: https://www.meganii.com/blog/2014/02/11/aws-osaka/
-    36:
-      title: "正規化とは何か？"
-      link: https://www.meganii.com/blog/2015/08/07/normalization/
     37:
       title: "Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー"
       link: https://www.meganii.com/blog/2015/07/25/capybara-connect-error/
@@ -6792,42 +6849,45 @@ Url:
       title: "CircleCIでMeCabを利用してHugoビルドする"
       link: https://www.meganii.com/blog/2017/01/14/circle-ci-settings-for-mecab-hugo/
     20:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    21:
       title: "AnsibleでさくらVPSの初期設定"
       link: https://www.meganii.com/blog/2015/03/02/ansible-sakura-vps/
-    21:
+    22:
       title: "Electron Editorで最終更新日時を更新する"
       link: https://www.meganii.com/blog/2016/11/16/rewrite-lastmod-in-hugo/
-    22:
+    23:
       title: "D3.jsで東京の地価データを可視化する"
       link: https://www.meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/
-    23:
+    24:
       title: "Hubotで外部コマンドを実行する"
       link: https://www.meganii.com/blog/2016/09/03/hubot-execute-command-child-process/
-    24:
+    25:
       title: "MariaDBの日本語文字化けを解消するための設定"
       link: https://www.meganii.com/blog/2016/05/29/mariadb-utf8/
-    25:
+    26:
       title: "google-api-ruby-clientからGoogle Adsense Management APIを操作する方法"
       link: https://www.meganii.com/blog/2016/06/05/ruby-google-api-client/
-    26:
-      title: "Capistrano3でRails5+Unicornのアプリをデプロイしたときに環境変数SECRET_KEY_BASEが読み込まれない"
-      link: https://www.meganii.com/blog/2016/11/23/capistrano3-can-not-read-env/
     27:
-      title: "Jekyllに月別アーカイブを実装する"
-      link: https://www.meganii.com/blog/2014/12/02/jekyll-monthly-archive/
-    28:
       title: "PythonでTF-IDFによる文書推薦"
       link: https://www.meganii.com/blog/2016/08/13/tf-idf-recommendation/
+    28:
+      title: "Capistrano3でRails5+Unicornのアプリをデプロイしたときに環境変数SECRET_KEY_BASEが読み込まれない"
+      link: https://www.meganii.com/blog/2016/11/23/capistrano3-can-not-read-env/
     29:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
       link: https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
     30:
+      title: "Jekyllに月別アーカイブを実装する"
+      link: https://www.meganii.com/blog/2014/12/02/jekyll-monthly-archive/
+    31:
       title: "Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた"
       link: https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/
-    31:
+    32:
       title: "Cannot download with wget"
       link: https://www.meganii.com/en/blog/2017/01/14/can-not-download-with-wget/
-    32:
+    33:
       title: "wgetでダウンロード失敗したときの対処法"
       link: https://www.meganii.com/blog/2017/01/14/can-not-download-with-wget/
   2016-04-11-display-none-google-adsense:
@@ -6927,11 +6987,11 @@ Url:
       title: "「システムインテグレーション崩壊」を読んで生存戦略を考える"
       link: https://www.meganii.com/blog/2015/08/31/system-integrators-collapse/
     9:
-      title: "iMovieとMotion5で作る結婚式余興ムービー"
-      link: https://www.meganii.com/blog/2014/02/22/wedding-movie-motion5/
-    10:
       title: "「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。"
       link: https://www.meganii.com/blog/2016/02/22/become-a-programmer/
+    10:
+      title: "iMovieとMotion5で作る結婚式余興ムービー"
+      link: https://www.meganii.com/blog/2014/02/22/wedding-movie-motion5/
     11:
       title: "ゼネラリストから「連続スペシャリスト」へ"
       link: https://www.meganii.com/blog/2014/11/03/specialist-work-shift/
@@ -7052,9 +7112,6 @@ Url:
     5:
       title: "Capyabara + PhantomJS(poltergeist)のRubyスクリプトをcronで流したい"
       link: https://www.meganii.com/blog/2016/01/16/how-to-run-bundle-exec-with-cron/
-    6:
-      title: "http/2ベンチマークツール「h2load」をインストール"
-      link: https://www.meganii.com/blog/2016/07/17/install-h2load/
   2016-05-16-install-virtualbox-and-vagrant-in-el-capitan.en:
     1:
       title: "MacでVirtualbox、Vagrantをインストールするときにいつまで経っても検証が終わらない場合の対処法としてコマンドラインからインストールする"
@@ -7084,15 +7141,18 @@ Url:
       title: "http/2ベンチマークツール「h2load」をインストール"
       link: https://www.meganii.com/blog/2016/07/17/install-h2load/
     10:
-      title: "CircleCIでMeCabを利用してHugoビルドする"
-      link: https://www.meganii.com/blog/2017/01/14/circle-ci-settings-for-mecab-hugo/
+      title: "Cannot download with wget"
+      link: https://www.meganii.com/en/blog/2017/01/14/can-not-download-with-wget/
     11:
       title: "Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする"
       link: https://www.meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/
     12:
-      title: "Cannot download with wget"
-      link: https://www.meganii.com/en/blog/2017/01/14/can-not-download-with-wget/
+      title: "CircleCIでMeCabを利用してHugoビルドする"
+      link: https://www.meganii.com/blog/2017/01/14/circle-ci-settings-for-mecab-hugo/
     13:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    14:
       title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
       link: https://www.meganii.com/blog/2016/07/18/installing-h2o-with-ansible/
   2016-05-16-install-virtualbox-and-vagrant-in-el-capitan:
@@ -7124,12 +7184,15 @@ Url:
       title: "音声認識エンジンJuliusをインストールする"
       link: https://www.meganii.com/blog/2016/12/21/install-julius/
     10:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    11:
       title: "vagrant plugin install hostmanager実行時のnokogiriインストールエラーの解決"
       link: https://www.meganii.com/blog/2015/04/05/vagrant-plugin-install-hostmanager-nokogiri-error/
-    11:
+    12:
       title: "wgetでダウンロード失敗したときの対処法"
       link: https://www.meganii.com/blog/2017/01/14/can-not-download-with-wget/
-    12:
+    13:
       title: "さくらVPSにDropboxをインストール"
       link: https://www.meganii.com/blog/2013/05/08/dropbox_cui/
   2016-05-29-mariadb-utf8:
@@ -7159,11 +7222,11 @@ Url:
       title: "Electron + Mithril.jsでFlickrアプリを作成する"
       link: https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/
     7:
-      title: "[Effective JavaScript]クロージャ"
-      link: https://www.meganii.com/blog/2016/01/30/effective-javascript-closure/
-    8:
       title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
       link: https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/
+    8:
+      title: "[Effective JavaScript]クロージャ"
+      link: https://www.meganii.com/blog/2016/01/30/effective-javascript-closure/
     9:
       title: "phonegap-start"
       link: https://www.meganii.com/blog/2014/02/16/phonegap-start/
@@ -7174,30 +7237,33 @@ Url:
       title: "Google Apps ScriptでGoogle Search Consoleの情報を取得する"
       link: https://www.meganii.com/blog/2017/02/12/google-apps-script-search-console/
     12:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    13:
       title: "Hugoソースコードリーディング〜Taxonomy〜"
       link: https://www.meganii.com/blog/2015/10/11/hugo-taxonomy/
-    13:
+    14:
       title: "Swiftで初めてのMacOSXアプリケーション-FFViewer-"
       link: https://www.meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/
-    14:
+    15:
       title: "AngularJSでFlickrの埋め込みタグを作成する"
       link: https://www.meganii.com/blog/2014/11/08/angular-flickr/
-    15:
+    16:
       title: "Octopressに「続きを読む」のプラグイン導入"
       link: https://www.meganii.com/blog/2013/04/24/readmore/
-    16:
+    17:
       title: "Installing Oracle Database Express Edition11g on Vagrant(CentOS 6.4)"
       link: https://www.meganii.com/en/blog/2015/02/08/oracle-express-edition-11g-install/
-    17:
+    18:
       title: "数世代バージョンを持つファイル名から最新版以外を抽出する"
       link: https://www.meganii.com/blog/2015/03/27/leave-latest-filename/
-    18:
+    19:
       title: "vagrant plugin install hostmanager実行時のnokogiriインストールエラーの解決"
       link: https://www.meganii.com/blog/2015/04/05/vagrant-plugin-install-hostmanager-nokogiri-error/
-    19:
+    20:
       title: "D3.jsで東京の地価データを可視化する"
       link: https://www.meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/
-    20:
+    21:
       title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
       link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
   2016-06-05-ruby-google-api-client:
@@ -7238,11 +7304,11 @@ Url:
       title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
       link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
     13:
-      title: "Nightmare.jsでAmazonアフィリエイトのレポートを取得する"
-      link: https://www.meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/
-    14:
       title: "現場でプロが培った Google Analyticsの使い方"
       link: https://www.meganii.com/blog/2014/12/03/google-analytics/
+    14:
+      title: "Nightmare.jsでAmazonアフィリエイトのレポートを取得する"
+      link: https://www.meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/
     15:
       title: "Installing Oracle Database Express Edition11g on Vagrant(CentOS 6.4)"
       link: https://www.meganii.com/en/blog/2015/02/08/oracle-express-edition-11g-install/
@@ -7253,24 +7319,27 @@ Url:
       title: "Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする"
       link: https://www.meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/
     18:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    19:
       title: "Electron + Mithril.jsでFlickrアプリを作成する"
       link: https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/
-    19:
+    20:
       title: "vagrant plugin install hostmanager実行時のnokogiriインストールエラーの解決"
       link: https://www.meganii.com/blog/2015/04/05/vagrant-plugin-install-hostmanager-nokogiri-error/
-    20:
+    21:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
       link: https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
-    21:
+    22:
       title: "Capyabara + PhantomJS(poltergeist)のRubyスクリプトをcronで流したい"
       link: https://www.meganii.com/blog/2016/01/16/how-to-run-bundle-exec-with-cron/
-    22:
+    23:
       title: "Capybara「Request failed to reach server, check DNS and/or server status」"
       link: https://www.meganii.com/en/blog/2015/07/25/capybara-connect-error/
-    23:
+    24:
       title: "El Capitanへのアップグレード時AppStoreに接続できなくなった場合(さらにキーチェーンアクセスでも対処できなかった時)の対処法 "
       link: https://www.meganii.com/blog/2016/01/23/el-capitan-upgrade-error/
-    24:
+    25:
       title: "Vivaldiのスワイプで戻る・進むを有効にする"
       link: https://www.meganii.com/blog/2017/03/02/vivaldi-swipe-gestures/
   2016-06-25-self-massage-tool-yawako:
@@ -7339,32 +7408,38 @@ Url:
       title: "Electronでデスクトップアプリ作成"
       link: https://www.meganii.com/blog/2016/01/25/electron-tutorial/
     17:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    18:
       title: "Google Apps ScriptでGoogle Search Consoleの情報を取得する"
       link: https://www.meganii.com/blog/2017/02/12/google-apps-script-search-console/
-    18:
+    19:
       title: "Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた"
       link: https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/
-    19:
+    20:
       title: "abコマンド実行時のエラーを回避する"
       link: https://www.meganii.com/blog/2013/05/27/benchmark-apache/
-    20:
+    21:
       title: "Vivaldiのスワイプで戻る・進むを有効にする"
       link: https://www.meganii.com/blog/2017/03/02/vivaldi-swipe-gestures/
-    21:
+    22:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
       link: https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
-    22:
+    23:
       title: "さくらVPSにDropboxをインストール"
       link: https://www.meganii.com/blog/2013/05/08/dropbox_cui/
-    23:
+    24:
       title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
       link: https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/
-    24:
+    25:
       title: "Amazon Product Advertising APIを利用するためのIAMユーザ登録とアクセスキーの発行"
       link: https://www.meganii.com/blog/2017/02/19/how-to-register-amazon-product-advertising-api/
-    25:
+    26:
       title: "How to install SQL*Plus in MacOSX Marverics"
       link: https://www.meganii.com/en/blog/2015/02/11/how-to-install-sqlplus-in-macosx/
+    27:
+      title: "Capistrano3でRails5+Unicornのアプリをデプロイしたときに環境変数SECRET_KEY_BASEが読み込まれない"
+      link: https://www.meganii.com/blog/2016/11/23/capistrano3-can-not-read-env/
   2016-07-17-install-h2load:
     1:
       title: "abコマンド実行時のエラーを回避する"
@@ -7412,47 +7487,47 @@ Url:
       title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://www.meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     16:
-      title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
-      link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
-    17:
       title: "2台目のMacBookAirからさくらVPSへSSH接続を行うための鍵の設定"
       link: https://www.meganii.com/blog/2013/06/21/ssh-sakuravps/
+    17:
+      title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
+      link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
     18:
       title: "音声認識エンジンJuliusをインストールする"
       link: https://www.meganii.com/blog/2016/12/21/install-julius/
     19:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    20:
       title: "vagrant"
       link: https://www.meganii.com/blog/2013/05/28/vagrant/
-    20:
+    21:
       title: "Installing Oracle Database Express Edition11g on Vagrant(CentOS 6.4)"
       link: https://www.meganii.com/en/blog/2015/02/08/oracle-express-edition-11g-install/
-    21:
+    22:
       title: "How to install Virtualbox and Vagrant by installing by cli with Mac El Capitan"
       link: https://www.meganii.com/en/blog/2016/05/16/install-virtualbox-and-vagrant-in-el-capitan/
-    22:
+    23:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
       link: https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
-    23:
+    24:
       title: "Hugoで生成した静的サイトのホスト先をさくらVPSからNetlifyに変更する"
       link: https://www.meganii.com/blog/2017/03/19/migrate-hugo-hosting-service-from-sakura-vps-to-netlify/
-    24:
+    25:
       title: "AnsibleでさくらVPSの初期設定"
       link: https://www.meganii.com/blog/2015/03/02/ansible-sakura-vps/
-    25:
+    26:
       title: "El Capitanへのアップグレード時AppStoreに接続できなくなった場合(さらにキーチェーンアクセスでも対処できなかった時)の対処法 "
       link: https://www.meganii.com/blog/2016/01/23/el-capitan-upgrade-error/
-    26:
+    27:
       title: "Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー"
       link: https://www.meganii.com/blog/2015/07/25/capybara-connect-error/
-    27:
+    28:
       title: "XPathでの属性値の取得"
       link: https://www.meganii.com/blog/2014/02/19/xpath-java/
-    28:
+    29:
       title: "NetBIOSとは？"
       link: https://www.meganii.com/blog/2015/11/23/netbios/
-    29:
-      title: "lets encrypt certbot"
-      link: https://www.meganii.com/blog/2016/05/15/lets-encrypt-certbot/
   2016-07-18-install-h2o:
     1:
       title: "AnsibleでさくらVPSの初期設定"
@@ -7479,60 +7554,63 @@ Url:
       title: "Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-"
       link: https://www.meganii.com/blog/2013/05/23/regexp-jekyll/
     9:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    10:
       title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
       link: https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/
-    10:
+    11:
       title: "Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた"
       link: https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/
-    11:
+    12:
       title: "Capyabara + PhantomJS(poltergeist)のRubyスクリプトをcronで流したい"
       link: https://www.meganii.com/blog/2016/01/16/how-to-run-bundle-exec-with-cron/
-    12:
+    13:
       title: "Hugoで関連記事を表示する方法"
       link: https://www.meganii.com/blog/2016/08/11/hugo-related-post/
-    13:
+    14:
       title: "TED APIを触ってみる"
       link: https://www.meganii.com/blog/2014/11/21/ted-api/
-    14:
+    15:
       title: "Hugoで生成した静的サイトのホスト先をさくらVPSからNetlifyに変更する"
       link: https://www.meganii.com/blog/2017/03/19/migrate-hugo-hosting-service-from-sakura-vps-to-netlify/
-    15:
+    16:
       title: "Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする"
       link: https://www.meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/
-    16:
+    17:
       title: "React + ElectronでFlickr連携可能なMarkdown Editorを作った"
       link: https://www.meganii.com/blog/2016/08/24/react-flickr-markdown-editor/
-    17:
+    18:
       title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
       link: https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
-    18:
-      title: "Installing Oracle Database Express Edition11g on Vagrant(CentOS 6.4)"
-      link: https://www.meganii.com/en/blog/2015/02/08/oracle-express-edition-11g-install/
     19:
       title: "Capybara「Request failed to reach server, check DNS and/or server status」"
       link: https://www.meganii.com/en/blog/2015/07/25/capybara-connect-error/
     20:
+      title: "Installing Oracle Database Express Edition11g on Vagrant(CentOS 6.4)"
+      link: https://www.meganii.com/en/blog/2015/02/08/oracle-express-edition-11g-install/
+    21:
       title: "数世代バージョンを持つファイル名から最新版以外を抽出する"
       link: https://www.meganii.com/blog/2015/03/27/leave-latest-filename/
-    21:
+    22:
       title: "vagrant plugin install hostmanager実行時のnokogiriインストールエラーの解決"
       link: https://www.meganii.com/blog/2015/04/05/vagrant-plugin-install-hostmanager-nokogiri-error/
-    22:
-      title: "さくらVPSにDropboxをインストール"
-      link: https://www.meganii.com/blog/2013/05/08/dropbox_cui/
     23:
       title: "Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー"
       link: https://www.meganii.com/blog/2015/07/25/capybara-connect-error/
     24:
-      title: "Circle CIでHugoのビルド・デプロイを実行する"
-      link: https://www.meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
-    25:
       title: "AngularJSでFlickrの埋め込みタグを作成する"
       link: https://www.meganii.com/blog/2014/11/08/angular-flickr/
+    25:
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
+      link: https://www.meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     26:
+      title: "さくらVPSにDropboxをインストール"
+      link: https://www.meganii.com/blog/2013/05/08/dropbox_cui/
+    27:
       title: "How to install Virtualbox and Vagrant by installing by cli with Mac El Capitan"
       link: https://www.meganii.com/en/blog/2016/05/16/install-virtualbox-and-vagrant-in-el-capitan/
-    27:
+    28:
       title: "音声認識エンジンJuliusをインストールする"
       link: https://www.meganii.com/blog/2016/12/21/install-julius/
   2016-07-23-scotch-grain-shine-or-rain:
@@ -7629,11 +7707,11 @@ Url:
       title: "AngularJSでFlickrの埋め込みタグを作成する"
       link: https://www.meganii.com/blog/2014/11/08/angular-flickr/
     9:
-      title: "Circle CIでテストを定期実行する"
-      link: https://www.meganii.com/blog/2016/09/08/circle-ci-nightly-build/
-    10:
       title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://www.meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
+    10:
+      title: "Circle CIでテストを定期実行する"
+      link: https://www.meganii.com/blog/2016/09/08/circle-ci-nightly-build/
     11:
       title: "静的サイトジェネレータ「Hugo」インストール"
       link: https://www.meganii.com/blog/2017/01/08/installing-hugo/
@@ -7721,11 +7799,11 @@ Url:
       title: "vagrant plugin install hostmanager実行時のnokogiriインストールエラーの解決"
       link: https://www.meganii.com/blog/2015/04/05/vagrant-plugin-install-hostmanager-nokogiri-error/
     3:
-      title: "SQL*PlusをMacOSX Marvericsにインストール"
-      link: https://www.meganii.com/blog/2015/02/11/install-sqlplus/
-    4:
       title: "Electronがv1.0.0になったのでMithril.jsと合わせてAmazonアフィリエイトリンクビルダーを作った"
       link: https://www.meganii.com/blog/2016/05/11/electron-mithril-amazon-linkbuilder/
+    4:
+      title: "SQL*PlusをMacOSX Marvericsにインストール"
+      link: https://www.meganii.com/blog/2015/02/11/install-sqlplus/
     5:
       title: "MacBookAir Mid 2013環境構築"
       link: https://www.meganii.com/blog/2013/06/20/macbookair-dev/
@@ -7763,9 +7841,6 @@ Url:
       title: "React + ElectronでFlickr連携可能なMarkdown Editorを作った"
       link: https://www.meganii.com/blog/2016/08/24/react-flickr-markdown-editor/
     17:
-      title: "sublime-vim"
-      link: https://www.meganii.com/blog/2013/05/28/sublime-vim/
-    18:
       title: "Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする"
       link: https://www.meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/
   2016-08-15-circle-ci-hugo-deploy:
@@ -7818,51 +7893,54 @@ Url:
       title: "Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー"
       link: https://www.meganii.com/blog/2015/07/25/capybara-connect-error/
     17:
-      title: "さくらVPSにJenkinsインストール"
-      link: https://www.meganii.com/blog/2013/04/11/jenkins/
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
     18:
       title: "XPathでの属性値の取得"
       link: https://www.meganii.com/blog/2014/02/19/xpath-java/
     19:
+      title: "さくらVPSにJenkinsインストール"
+      link: https://www.meganii.com/blog/2013/04/11/jenkins/
+    20:
       title: "wgetでダウンロード失敗したときの対処法"
       link: https://www.meganii.com/blog/2017/01/14/can-not-download-with-wget/
-    20:
+    21:
       title: "CircleCIでMeCabを利用してHugoビルドする"
       link: https://www.meganii.com/blog/2017/01/14/circle-ci-settings-for-mecab-hugo/
-    21:
+    22:
       title: "http/2ベンチマークツール「h2load」をインストール"
       link: https://www.meganii.com/blog/2016/07/17/install-h2load/
-    22:
+    23:
       title: "静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築"
       link: https://www.meganii.com/blog/2017/01/08/static-site-generator-hugo/
-    23:
+    24:
       title: "さくらVPSにDropboxをインストール"
       link: https://www.meganii.com/blog/2013/05/08/dropbox_cui/
-    24:
+    25:
       title: "Cannot download with wget"
       link: https://www.meganii.com/en/blog/2017/01/14/can-not-download-with-wget/
-    25:
+    26:
       title: "HugoのMarkdownでtarget='_blank'を実現する方法"
       link: https://www.meganii.com/blog/2017/02/25/hugo-markdown-href-target-blank/
-    26:
+    27:
       title: "UTF-8-MACとは何か？〜Jekyllのカテゴリ(タグ)ページで濁点を含むページが表示されない〜"
       link: https://www.meganii.com/blog/2014/11/29/jekyll-tags-unread-because-of-utf-8-mac/
-    27:
+    28:
       title: "abコマンド実行時のエラーを回避する"
       link: https://www.meganii.com/blog/2013/05/27/benchmark-apache/
-    28:
-      title: "静的サイトジェネレータ「Hugo」インストール"
-      link: https://www.meganii.com/blog/2017/01/08/installing-hugo/
     29:
       title: "Capistrano3でRails5+Unicornのアプリをデプロイしたときに環境変数SECRET_KEY_BASEが読み込まれない"
       link: https://www.meganii.com/blog/2016/11/23/capistrano3-can-not-read-env/
     30:
+      title: "静的サイトジェネレータ「Hugo」インストール"
+      link: https://www.meganii.com/blog/2017/01/08/installing-hugo/
+    31:
       title: "Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする"
       link: https://www.meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/
-    31:
+    32:
       title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
       link: https://www.meganii.com/blog/2016/07/18/installing-h2o-with-ansible/
-    32:
+    33:
       title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
       link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
   2016-08-24-react-flickr-markdown-editor:
@@ -7912,27 +7990,30 @@ Url:
       title: "Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた"
       link: https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/
     16:
-      title: "数世代バージョンを持つファイル名から最新版以外を抽出する"
-      link: https://www.meganii.com/blog/2015/03/27/leave-latest-filename/
-    17:
       title: "slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法"
       link: https://www.meganii.com/blog/2016/02/10/post-to-slack/
+    17:
+      title: "数世代バージョンを持つファイル名から最新版以外を抽出する"
+      link: https://www.meganii.com/blog/2015/03/27/leave-latest-filename/
     18:
       title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
       link: https://www.meganii.com/blog/2016/07/18/installing-h2o-with-ansible/
     19:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    20:
       title: "wgetでダウンロード失敗したときの対処法"
       link: https://www.meganii.com/blog/2017/01/14/can-not-download-with-wget/
-    20:
+    21:
       title: "[Effective JavaScript]クロージャ"
       link: https://www.meganii.com/blog/2016/01/30/effective-javascript-closure/
-    21:
+    22:
       title: "はてなダイアリーからJekyllへお引越し"
       link: https://www.meganii.com/blog/2013/02/03/hatena2jekyll/
-    22:
+    23:
       title: "iMovieとMotion5で作る結婚式余興ムービー"
       link: https://www.meganii.com/blog/2014/02/22/wedding-movie-motion5/
-    23:
+    24:
       title: "PythonでTF-IDFによる文書推薦"
       link: https://www.meganii.com/blog/2016/08/13/tf-idf-recommendation/
   2016-08-28-electron-ace-markdown-editor:
@@ -7970,11 +8051,11 @@ Url:
       title: "[Effective JavaScript]クロージャ"
       link: https://www.meganii.com/blog/2016/01/30/effective-javascript-closure/
     12:
-      title: "phonegap-start"
-      link: https://www.meganii.com/blog/2014/02/16/phonegap-start/
-    13:
       title: "Electron+React+Reduxで作り直した Amazon Linkbuilder"
       link: https://www.meganii.com/blog/2016/12/19/electron-react-redux-affiliate-linkbuilder/
+    13:
+      title: "phonegap-start"
+      link: https://www.meganii.com/blog/2014/02/16/phonegap-start/
     14:
       title: "Google Apps ScriptでGoogle Search Consoleの情報を取得する"
       link: https://www.meganii.com/blog/2017/02/12/google-apps-script-search-console/
@@ -8042,11 +8123,11 @@ Url:
       title: "文書推薦"
       link: https://www.meganii.com/blog/2016/08/12/recommend-engine/
     7:
-      title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
-      link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
-    8:
       title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://www.meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
+    8:
+      title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
+      link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
     9:
       title: "HugoのMarkdownでtarget='_blank'を実現する方法"
       link: https://www.meganii.com/blog/2017/02/25/hugo-markdown-href-target-blank/
@@ -8105,17 +8186,17 @@ Url:
       title: "TED APIを触ってみる"
       link: https://www.meganii.com/blog/2014/11/21/ted-api/
     28:
-      title: "Electron + Mithril.jsでFlickrアプリを作成する"
-      link: https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/
-    29:
       title: "AnsibleでさくらVPSの初期設定"
       link: https://www.meganii.com/blog/2015/03/02/ansible-sakura-vps/
+    29:
+      title: "Electron + Mithril.jsでFlickrアプリを作成する"
+      link: https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/
     30:
-      title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
-      link: https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/
-    31:
       title: "D3.jsチュートリアル"
       link: https://www.meganii.com/blog/2016/02/06/d3js-tutorial/
+    31:
+      title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
+      link: https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/
     32:
       title: "はてなダイアリーからJekyllへお引越し"
       link: https://www.meganii.com/blog/2013/02/03/hatena2jekyll/
@@ -8163,17 +8244,17 @@ Url:
       title: "gulpで画像の最適化"
       link: https://www.meganii.com/blog/2017/04/09/gulp-image-optimization/
     13:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    14:
       title: "静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築"
       link: https://www.meganii.com/blog/2017/01/08/static-site-generator-hugo/
-    14:
+    15:
       title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
       link: https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/
-    15:
+    16:
       title: "JekyllからHugoへの移行ポイント"
       link: https://www.meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/
-    16:
-      title: "Electronでデスクトップアプリ作成"
-      link: https://www.meganii.com/blog/2016/01/25/electron-tutorial/
   2016-09-18-building-machine-learning-systems-with-python:
     1:
       title: "文書推薦"
@@ -8254,6 +8335,15 @@ Url:
     7:
       title: "Google Apps ScriptでGoogle Search Consoleの情報を取得する"
       link: https://www.meganii.com/blog/2017/02/12/google-apps-script-search-console/
+    8:
+      title: "Lets's Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化"
+      link: https://www.meganii.com/blog/2016/07/09/invalid-ssl-certificate/
+    9:
+      title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
+      link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
+    10:
+      title: "勉強用に、簡単に作っては壊せる仮想環境をVagrantで構築する"
+      link: https://www.meganii.com/blog/2013/06/30/vagrant-install/
   2016-12-10-shinagawa-traning:
     1:
       title: "腰痛におすすめの「やわこ」でのセルフマッサージ"
@@ -8337,18 +8427,21 @@ Url:
       title: "wgetでダウンロード失敗したときの対処法"
       link: https://www.meganii.com/blog/2017/01/14/can-not-download-with-wget/
     7:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    8:
       title: "vagrant plugin install hostmanager実行時のnokogiriインストールエラーの解決"
       link: https://www.meganii.com/blog/2015/04/05/vagrant-plugin-install-hostmanager-nokogiri-error/
-    8:
+    9:
       title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
       link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
-    9:
+    10:
       title: "さくらVPSにDropboxをインストール"
       link: https://www.meganii.com/blog/2013/05/08/dropbox_cui/
-    10:
+    11:
       title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
       link: https://www.meganii.com/blog/2016/07/18/installing-h2o-with-ansible/
-    11:
+    12:
       title: "Jekyllのバージョンアップ"
       link: https://www.meganii.com/blog/2013/11/24/jekyll-versionup/
   2016-12-22-dtv-kingdom:
@@ -8436,42 +8529,45 @@ Url:
       title: "HugoのShortcodesを利用してAmazon紹介リンクタグを作成"
       link: https://www.meganii.com/blog/2017/02/18/hugo-amazon-shortcode/
     16:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    17:
       title: "静的サイトジェネレータ「Hugo」〜公開方法〜"
       link: https://www.meganii.com/blog/2017/01/11/deploy-site-with-hugo/
-    17:
+    18:
       title: "Jekyllのバージョンアップ"
       link: https://www.meganii.com/blog/2013/11/24/jekyll-versionup/
-    18:
+    19:
       title: "未来を形作る5つの要因と32の要素"
       link: https://www.meganii.com/blog/2014/11/03/five-factor-work-shift/
-    19:
+    20:
       title: "JekyllからHugoへの移行ポイント"
       link: https://www.meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/
-    20:
+    21:
       title: "AnsibleでさくらVPSの初期設定"
       link: https://www.meganii.com/blog/2015/03/02/ansible-sakura-vps/
-    21:
+    22:
       title: "AngularJSでFlickrの埋め込みタグを作成する"
       link: https://www.meganii.com/blog/2014/11/08/angular-flickr/
-    22:
+    23:
       title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
       link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
-    23:
+    24:
       title: "Capybara「Request failed to reach server, check DNS and/or server status」"
       link: https://www.meganii.com/en/blog/2015/07/25/capybara-connect-error/
-    24:
+    25:
       title: "vagrant plugin install hostmanager実行時のnokogiriインストールエラーの解決"
       link: https://www.meganii.com/blog/2015/04/05/vagrant-plugin-install-hostmanager-nokogiri-error/
-    25:
+    26:
       title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://www.meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
-    26:
+    27:
       title: "Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー"
       link: https://www.meganii.com/blog/2015/07/25/capybara-connect-error/
-    27:
+    28:
       title: "Installing Oracle Database Express Edition11g on Vagrant(CentOS 6.4)"
       link: https://www.meganii.com/en/blog/2015/02/08/oracle-express-edition-11g-install/
-    28:
+    29:
       title: "El Capitanへのアップグレード時AppStoreに接続できなくなった場合(さらにキーチェーンアクセスでも対処できなかった時)の対処法 "
       link: https://www.meganii.com/blog/2016/01/23/el-capitan-upgrade-error/
   2017-01-08-static-site-generator-hugo:
@@ -8581,9 +8677,6 @@ Url:
     19:
       title: "CircleCIでMeCabを利用してHugoビルドする"
       link: https://www.meganii.com/blog/2017/01/14/circle-ci-settings-for-mecab-hugo/
-    20:
-      title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
-      link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
   2017-01-14-can-not-download-with-wget.en:
     1:
       title: "wgetでダウンロード失敗したときの対処法"
@@ -8616,11 +8709,11 @@ Url:
       title: "Capybara「Request failed to reach server, check DNS and/or server status」"
       link: https://www.meganii.com/en/blog/2015/07/25/capybara-connect-error/
     11:
-      title: "AngularJSでFlickrの埋め込みタグを作成する"
-      link: https://www.meganii.com/blog/2014/11/08/angular-flickr/
-    12:
       title: "Electron + Mithril.jsでFlickrアプリを作成する"
       link: https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/
+    12:
+      title: "AngularJSでFlickrの埋め込みタグを作成する"
+      link: https://www.meganii.com/blog/2014/11/08/angular-flickr/
     13:
       title: "vagrant plugin install hostmanager実行時のnokogiriインストールエラーの解決"
       link: https://www.meganii.com/blog/2015/04/05/vagrant-plugin-install-hostmanager-nokogiri-error/
@@ -8638,38 +8731,38 @@ Url:
       title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://www.meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
     5:
-      title: "音声認識エンジンJuliusをインストールする"
-      link: https://www.meganii.com/blog/2016/12/21/install-julius/
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
     6:
       title: "TED APIを触ってみる"
       link: https://www.meganii.com/blog/2014/11/21/ted-api/
     7:
+      title: "音声認識エンジンJuliusをインストールする"
+      link: https://www.meganii.com/blog/2016/12/21/install-julius/
+    8:
       title: "MacでVirtualbox、Vagrantをインストールするときにいつまで経っても検証が終わらない場合の対処法としてコマンドラインからインストールする"
       link: https://www.meganii.com/blog/2016/05/16/install-virtualbox-and-vagrant-in-el-capitan/
-    8:
+    9:
       title: "AngularJSでFlickrの埋め込みタグを作成する"
       link: https://www.meganii.com/blog/2014/11/08/angular-flickr/
-    9:
-      title: "React + ElectronでFlickr連携可能なMarkdown Editorを作った"
-      link: https://www.meganii.com/blog/2016/08/24/react-flickr-markdown-editor/
     10:
       title: "Azureのリモートデスクトップ周りの調査"
       link: https://www.meganii.com/blog/2015/11/17/remote-desktop-protocol/
     11:
+      title: "React + ElectronでFlickr連携可能なMarkdown Editorを作った"
+      link: https://www.meganii.com/blog/2016/08/24/react-flickr-markdown-editor/
+    12:
       title: "NetBIOSとは？"
       link: https://www.meganii.com/blog/2015/11/23/netbios/
-    12:
+    13:
       title: "Electron + Mithril.jsでFlickrアプリを作成する"
       link: https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/
-    13:
+    14:
       title: "HugoのShortcodesを利用してAmazon紹介リンクタグを作成"
       link: https://www.meganii.com/blog/2017/02/18/hugo-amazon-shortcode/
-    14:
+    15:
       title: "さくらVPSにJenkinsインストール"
       link: https://www.meganii.com/blog/2013/04/11/jenkins/
-    15:
-      title: "vagrant"
-      link: https://www.meganii.com/blog/2013/05/28/vagrant/
   2017-01-14-circle-ci-settings-for-mecab-hugo:
     1:
       title: "wgetでダウンロード失敗したときの対処法"
@@ -8684,54 +8777,57 @@ Url:
       title: "D3.jsで東京の地価データを可視化する"
       link: https://www.meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/
     5:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    6:
       title: "Electron + Mithril.jsでFlickrアプリを作成する"
       link: https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/
-    6:
+    7:
       title: "AngularJSでFlickrの埋め込みタグを作成する"
       link: https://www.meganii.com/blog/2014/11/08/angular-flickr/
-    7:
+    8:
       title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://www.meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
-    8:
+    9:
       title: "Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた"
       link: https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/
-    9:
+    10:
       title: "さくらVPSにJenkinsインストール"
       link: https://www.meganii.com/blog/2013/04/11/jenkins/
-    10:
+    11:
       title: "AnsibleでさくらVPSの初期設定"
       link: https://www.meganii.com/blog/2015/03/02/ansible-sakura-vps/
-    11:
+    12:
       title: "React + ElectronでFlickr連携可能なMarkdown Editorを作った"
       link: https://www.meganii.com/blog/2016/08/24/react-flickr-markdown-editor/
-    12:
+    13:
       title: "Hugo-ZenをベースにHugoのデザインを変えてみた"
       link: https://www.meganii.com/blog/2016/04/17/hugo-zen/
-    13:
-      title: "Jekyllに月別アーカイブを実装する"
-      link: https://www.meganii.com/blog/2014/12/02/jekyll-monthly-archive/
     14:
       title: "ホワイトボードでやってみたいこと"
       link: https://www.meganii.com/blog/2013/01/21/whiteboard/
     15:
+      title: "Jekyllに月別アーカイブを実装する"
+      link: https://www.meganii.com/blog/2014/12/02/jekyll-monthly-archive/
+    16:
       title: "Circle CIでテストを定期実行する"
       link: https://www.meganii.com/blog/2016/09/08/circle-ci-nightly-build/
-    16:
+    17:
       title: "Hugoで生成した静的サイトのホスト先をさくらVPSからNetlifyに変更する"
       link: https://www.meganii.com/blog/2017/03/19/migrate-hugo-hosting-service-from-sakura-vps-to-netlify/
-    17:
+    18:
       title: "Hugoで関連記事を表示する方法"
       link: https://www.meganii.com/blog/2016/08/11/hugo-related-post/
-    18:
+    19:
       title: "静的サイトジェネレータ「Hugo」〜公開方法〜"
       link: https://www.meganii.com/blog/2017/01/11/deploy-site-with-hugo/
-    19:
+    20:
       title: "Hugoソースコードリーディング〜Taxonomy〜"
       link: https://www.meganii.com/blog/2015/10/11/hugo-taxonomy/
-    20:
+    21:
       title: "How to install Virtualbox and Vagrant by installing by cli with Mac El Capitan"
       link: https://www.meganii.com/en/blog/2016/05/16/install-virtualbox-and-vagrant-in-el-capitan/
-    21:
+    22:
       title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
       link: https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/
   2017-02-12-google-apps-script-search-console:
@@ -8739,11 +8835,11 @@ Url:
       title: "Amazon Product Advertising APIを利用するためのIAMユーザ登録とアクセスキーの発行"
       link: https://www.meganii.com/blog/2017/02/19/how-to-register-amazon-product-advertising-api/
     2:
-      title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
-      link: https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/
-    3:
       title: "Hugoで生成した静的サイトのホスト先をさくらVPSからNetlifyに変更する"
       link: https://www.meganii.com/blog/2017/03/19/migrate-hugo-hosting-service-from-sakura-vps-to-netlify/
+    3:
+      title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
+      link: https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/
     4:
       title: "google-api-ruby-clientからGoogle Adsense Management APIを操作する方法"
       link: https://www.meganii.com/blog/2016/06/05/ruby-google-api-client/
@@ -8808,21 +8904,24 @@ Url:
       title: "AngularJSでFlickrの埋め込みタグを作成する"
       link: https://www.meganii.com/blog/2014/11/08/angular-flickr/
     25:
-      title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
-      link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
-    26:
       title: "時間の投資家としてキャリアを考える"
       link: https://www.meganii.com/blog/2017/03/07/we-are-all-investors-of-time/
+    26:
+      title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
+      link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
     27:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    28:
       title: "AceエディタをElectronに組み込む"
       link: https://www.meganii.com/blog/2016/08/28/electron-ace-markdown-editor/
-    28:
+    29:
       title: "D3.jsで東京の地価データを可視化する"
       link: https://www.meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/
-    29:
+    30:
       title: "Capistrano3でRails5+Unicornのアプリをデプロイしたときに環境変数SECRET_KEY_BASEが読み込まれない"
       link: https://www.meganii.com/blog/2016/11/23/capistrano3-can-not-read-env/
-    30:
+    31:
       title: "sqlite3-rubyを使ってSQLite3ファイルからの検索結果をHashとして読み込む"
       link: https://www.meganii.com/blog/2013/05/18/sqlite3-ruby/
   2017-02-18-hugo-amazon-shortcode:
@@ -8860,14 +8959,14 @@ Url:
       title: "Hugoで生成した静的サイトのホスト先をさくらVPSからNetlifyに変更する"
       link: https://www.meganii.com/blog/2017/03/19/migrate-hugo-hosting-service-from-sakura-vps-to-netlify/
     12:
-      title: "静的サイトジェネレータ「Hugo」インストール"
-      link: https://www.meganii.com/blog/2017/01/08/installing-hugo/
-    13:
       title: "Hugoソースコードリーディング〜Taxonomy〜"
       link: https://www.meganii.com/blog/2015/10/11/hugo-taxonomy/
-    14:
+    13:
       title: "Hugo-ZenをベースにHugoのデザインを変えてみた"
       link: https://www.meganii.com/blog/2016/04/17/hugo-zen/
+    14:
+      title: "静的サイトジェネレータ「Hugo」インストール"
+      link: https://www.meganii.com/blog/2017/01/08/installing-hugo/
     15:
       title: "AnsibleでさくらVPSの初期設定"
       link: https://www.meganii.com/blog/2015/03/02/ansible-sakura-vps/
@@ -9063,9 +9162,6 @@ Url:
     13:
       title: "Circle CIでHugoのビルド・デプロイを実行する"
       link: https://www.meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
-    14:
-      title: "gulpで画像の最適化"
-      link: https://www.meganii.com/blog/2017/04/09/gulp-image-optimization/
   2017-03-02-earliest-evidence-of-life-on-earth-found:
     1:
       title: "Rebuild.fmから入るバイリンガルニュース事始め"
@@ -9207,14 +9303,14 @@ Url:
       title: "一流の習慣術　イチローとマー君が実践する「自分力」の育て方　の奥村さんの講演を聞いてきた"
       link: https://www.meganii.com/blog/2012/06/06/ichiro/
     12:
-      title: "Google Apps ScriptでGoogle Search Consoleの情報を取得する"
-      link: https://www.meganii.com/blog/2017/02/12/google-apps-script-search-console/
-    13:
-      title: "Happiness 私たちが幸せを感じる理由"
-      link: https://www.meganii.com/blog/2012/04/23/happiness/
-    14:
       title: "「システムインテグレーション崩壊」を読んで生存戦略を考える"
       link: https://www.meganii.com/blog/2015/08/31/system-integrators-collapse/
+    13:
+      title: "Google Apps ScriptでGoogle Search Consoleの情報を取得する"
+      link: https://www.meganii.com/blog/2017/02/12/google-apps-script-search-console/
+    14:
+      title: "Happiness 私たちが幸せを感じる理由"
+      link: https://www.meganii.com/blog/2012/04/23/happiness/
     15:
       title: "「新年会だよ！JUSO Jelly!+家族ラボ vol.6」に参加してきました！"
       link: https://www.meganii.com/blog/2012/01/28/juso_coworking/
@@ -9262,11 +9358,11 @@ Url:
       title: "Circle CIでテストを定期実行する"
       link: https://www.meganii.com/blog/2016/09/08/circle-ci-nightly-build/
     13:
-      title: "静的サイトジェネレータ「Hugo」インストール"
-      link: https://www.meganii.com/blog/2017/01/08/installing-hugo/
-    14:
       title: "HugoのShortcodesを利用してAmazon紹介リンクタグを作成"
       link: https://www.meganii.com/blog/2017/02/18/hugo-amazon-shortcode/
+    14:
+      title: "静的サイトジェネレータ「Hugo」インストール"
+      link: https://www.meganii.com/blog/2017/01/08/installing-hugo/
     15:
       title: "Lets's Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化"
       link: https://www.meganii.com/blog/2016/07/09/invalid-ssl-certificate/
@@ -9292,14 +9388,14 @@ Url:
       title: "2台目のMacBookAirからさくらVPSへSSH接続を行うための鍵の設定"
       link: https://www.meganii.com/blog/2013/06/21/ssh-sakuravps/
     23:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    24:
       title: "はてなダイアリーからJekyllへお引越し"
       link: https://www.meganii.com/blog/2013/02/03/hatena2jekyll/
-    24:
+    25:
       title: "ドメインサービスとは？"
       link: https://www.meganii.com/blog/2015/11/25/domain-services/
-    25:
-      title: "さくらVPSにJenkinsインストール"
-      link: https://www.meganii.com/blog/2013/04/11/jenkins/
   2017-04-09-gulp-image-optimization:
     1:
       title: "Electronでデスクトップアプリ作成"
@@ -9329,50 +9425,189 @@ Url:
       title: "React + ElectronでFlickr連携可能なMarkdown Editorを作った"
       link: https://www.meganii.com/blog/2016/08/24/react-flickr-markdown-editor/
     10:
+      title: "Conoha VPSにCoreOSをインストールする"
+      link: https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/
+    11:
       title: "Nightmare.jsでAmazonアフィリエイトのレポートを取得する"
       link: https://www.meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/
-    11:
+    12:
       title: "Google Apps ScriptでGoogle Search Consoleの情報を取得する"
       link: https://www.meganii.com/blog/2017/02/12/google-apps-script-search-console/
-    12:
+    13:
       title: "AceエディタをElectronに組み込む"
       link: https://www.meganii.com/blog/2016/08/28/electron-ace-markdown-editor/
-    13:
-      title: "AngularJSでFlickrの埋め込みタグを作成する"
-      link: https://www.meganii.com/blog/2014/11/08/angular-flickr/
     14:
       title: "Hubotで外部コマンドを実行する"
       link: https://www.meganii.com/blog/2016/09/03/hubot-execute-command-child-process/
     15:
+      title: "AngularJSでFlickrの埋め込みタグを作成する"
+      link: https://www.meganii.com/blog/2014/11/08/angular-flickr/
+    16:
       title: "D3.jsで東京の地価データを可視化する"
       link: https://www.meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/
-    16:
+    17:
       title: "Swiftで初めてのMacOSXアプリケーション-FFViewer-"
       link: https://www.meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/
-    17:
+    18:
       title: "JekyllからHugoへの移行ポイント"
       link: https://www.meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/
-    18:
+    19:
       title: "YouTube埋め込みタグをレスポンシブ化する"
       link: https://www.meganii.com/blog/2014/09/03/youtube-responsive/
-    19:
+    20:
       title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
       link: https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/
-    20:
+    21:
       title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
       link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
-    21:
+    22:
       title: "Circle CIでテストを定期実行する"
       link: https://www.meganii.com/blog/2016/09/08/circle-ci-nightly-build/
-    22:
+    23:
       title: "Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた"
       link: https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/
-    23:
-      title: "数世代バージョンを持つファイル名から最新版以外を抽出する"
-      link: https://www.meganii.com/blog/2015/03/27/leave-latest-filename/
     24:
       title: "Hugo-ZenをベースにHugoのデザインを変えてみた"
       link: https://www.meganii.com/blog/2016/04/17/hugo-zen/
     25:
-      title: "HugoのMarkdownでtarget='_blank'を実現する方法"
-      link: https://www.meganii.com/blog/2017/02/25/hugo-markdown-href-target-blank/
+      title: "数世代バージョンを持つファイル名から最新版以外を抽出する"
+      link: https://www.meganii.com/blog/2015/03/27/leave-latest-filename/
+  2017-04-16-installing-coreos-with-conoha-vps:
+    1:
+      title: "AnsibleでさくらVPSの初期設定"
+      link: https://www.meganii.com/blog/2015/03/02/ansible-sakura-vps/
+    2:
+      title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
+      link: https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/
+    3:
+      title: "TED APIを触ってみる"
+      link: https://www.meganii.com/blog/2014/11/21/ted-api/
+    4:
+      title: "Electronでデスクトップアプリ作成"
+      link: https://www.meganii.com/blog/2016/01/25/electron-tutorial/
+    5:
+      title: "gulpで画像の最適化"
+      link: https://www.meganii.com/blog/2017/04/09/gulp-image-optimization/
+    6:
+      title: "さくらVPSにJenkinsインストール"
+      link: https://www.meganii.com/blog/2013/04/11/jenkins/
+    7:
+      title: "CircleCIでMeCabを利用してHugoビルドする"
+      link: https://www.meganii.com/blog/2017/01/14/circle-ci-settings-for-mecab-hugo/
+    8:
+      title: "El Capitanへのアップグレード時AppStoreに接続できなくなった場合(さらにキーチェーンアクセスでも対処できなかった時)の対処法 "
+      link: https://www.meganii.com/blog/2016/01/23/el-capitan-upgrade-error/
+    9:
+      title: "Electron + Mithril.jsでFlickrアプリを作成する"
+      link: https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/
+    10:
+      title: "Hugoソースコードリーディング〜Taxonomy〜"
+      link: https://www.meganii.com/blog/2015/10/11/hugo-taxonomy/
+    11:
+      title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
+      link: https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/
+    12:
+      title: "Circle CIでHugoのビルド・デプロイを実行する"
+      link: https://www.meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/
+    13:
+      title: "2台目のMacBookAirからさくらVPSへSSH接続を行うための鍵の設定"
+      link: https://www.meganii.com/blog/2013/06/21/ssh-sakuravps/
+    14:
+      title: "Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする"
+      link: https://www.meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/
+    15:
+      title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
+      link: https://www.meganii.com/blog/2016/07/18/installing-h2o-with-ansible/
+    16:
+      title: "vagrant plugin install hostmanager実行時のnokogiriインストールエラーの解決"
+      link: https://www.meganii.com/blog/2015/04/05/vagrant-plugin-install-hostmanager-nokogiri-error/
+    17:
+      title: "静的サイトジェネレータ「Hugo」インストール"
+      link: https://www.meganii.com/blog/2017/01/08/installing-hugo/
+    18:
+      title: "Lets's Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化"
+      link: https://www.meganii.com/blog/2016/07/09/invalid-ssl-certificate/
+    19:
+      title: "http/2ベンチマークツール「h2load」をインストール"
+      link: https://www.meganii.com/blog/2016/07/17/install-h2load/
+    20:
+      title: "JekyllからHugoへの移行ポイント"
+      link: https://www.meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/
+    21:
+      title: "CasperJSでAmazonログイン"
+      link: https://www.meganii.com/blog/2016/05/30/casperjs-amazon/
+    22:
+      title: "MacでVirtualbox、Vagrantをインストールするときにいつまで経っても検証が終わらない場合の対処法としてコマンドラインからインストールする"
+      link: https://www.meganii.com/blog/2016/05/16/install-virtualbox-and-vagrant-in-el-capitan/
+    23:
+      title: "phonegap-start"
+      link: https://www.meganii.com/blog/2014/02/16/phonegap-start/
+    24:
+      title: "wgetでダウンロード失敗したときの対処法"
+      link: https://www.meganii.com/blog/2017/01/14/can-not-download-with-wget/
+    25:
+      title: "AngularJSでFlickrの埋め込みタグを作成する"
+      link: https://www.meganii.com/blog/2014/11/08/angular-flickr/
+    26:
+      title: "数世代バージョンを持つファイル名から最新版以外を抽出する"
+      link: https://www.meganii.com/blog/2015/03/27/leave-latest-filename/
+    27:
+      title: "D3.jsで東京の地価データを可視化する"
+      link: https://www.meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/
+    28:
+      title: "Capybara「Request failed to reach server, check DNS and/or server status」"
+      link: https://www.meganii.com/en/blog/2015/07/25/capybara-connect-error/
+    29:
+      title: "google-api-ruby-clientからGoogle Adsense Management APIを操作する方法"
+      link: https://www.meganii.com/blog/2016/06/05/ruby-google-api-client/
+    30:
+      title: "Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー"
+      link: https://www.meganii.com/blog/2015/07/25/capybara-connect-error/
+    31:
+      title: "音声認識エンジンJuliusをインストールする"
+      link: https://www.meganii.com/blog/2016/12/21/install-julius/
+    32:
+      title: "SQL*PlusをMacOSX Marvericsにインストール"
+      link: https://www.meganii.com/blog/2015/02/11/install-sqlplus/
+    33:
+      title: "さくらVPSにDropboxをインストール"
+      link: https://www.meganii.com/blog/2013/05/08/dropbox_cui/
+    34:
+      title: "Jekyllのバージョンアップ"
+      link: https://www.meganii.com/blog/2013/11/24/jekyll-versionup/
+    35:
+      title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
+      link: https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/
+    36:
+      title: "React + ElectronでFlickr連携可能なMarkdown Editorを作った"
+      link: https://www.meganii.com/blog/2016/08/24/react-flickr-markdown-editor/
+    37:
+      title: "Circle CIでテストを定期実行する"
+      link: https://www.meganii.com/blog/2016/09/08/circle-ci-nightly-build/
+    38:
+      title: "How to install SQL*Plus in MacOSX Marverics"
+      link: https://www.meganii.com/en/blog/2015/02/11/how-to-install-sqlplus-in-macosx/
+    39:
+      title: "Google Apps ScriptでGoogle Search Consoleの情報を取得する"
+      link: https://www.meganii.com/blog/2017/02/12/google-apps-script-search-console/
+    40:
+      title: "Installing Oracle Database Express Edition11g on Vagrant(CentOS 6.4)"
+      link: https://www.meganii.com/en/blog/2015/02/08/oracle-express-edition-11g-install/
+    41:
+      title: "How to install Virtualbox and Vagrant by installing by cli with Mac El Capitan"
+      link: https://www.meganii.com/en/blog/2016/05/16/install-virtualbox-and-vagrant-in-el-capitan/
+    42:
+      title: "Swiftで初めてのMacOSXアプリケーション-FFViewer-"
+      link: https://www.meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/
+    43:
+      title: "[Effective JavaScript]クロージャ"
+      link: https://www.meganii.com/blog/2016/01/30/effective-javascript-closure/
+    44:
+      title: "Hugoで生成した静的サイトのホスト先をさくらVPSからNetlifyに変更する"
+      link: https://www.meganii.com/blog/2017/03/19/migrate-hugo-hosting-service-from-sakura-vps-to-netlify/
+    45:
+      title: "Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-"
+      link: https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/
+    46:
+      title: "MacBookAir Mid 2013環境構築"
+      link: https://www.meganii.com/blog/2013/06/20/macbookair-dev/
