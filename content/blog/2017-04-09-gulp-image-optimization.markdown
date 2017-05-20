@@ -7,7 +7,6 @@ category: ['Tech']
 tags: ['Hugo','gulp']
 published: true
 slug: gulp-image-optimization
-img:
 ---
 
 完全に自己満足かもしれませんが、以下の理由で画像の最適化に取り組みました。
@@ -195,10 +194,8 @@ gulp.task('default', function(cb) {
 - [これからはじめるGulp \#12：gulp\-imageminプラグインを使ったJPEG,PNG,GIF,SVGの最適化 ｜ Developers\.IO](http://dev.classmethod.jp/client-side/javascript/gulp-solo-adv-cal-12/)
 - [レスポンシブイメージで画像の表示を最適化 〜CSSもJSもいらないHTML 5\.1の新機能 \- ICS MEDIA](https://ics.media/entry/13324)
 - [gulpで画像のロスレス圧縮を自動化する \- satoyan419\.com](http://satoyan419.com/optimizing-images-with-gulp/)
-
 - [Gulpを使って特定のファイルが変更されたら自動的にタスクを実行する方法 \| 今村だけがよくわかるブログ](https://www.imamura.biz/blog/25968)
 - [HugoとGulpを共存させて、ブランドデザインを刷新した \| Timegraphy](https://thetimegraphy.com/redesign-with-hugo-and-gulp/)
 - [【追記あり】Gulpを利用して画像をロスレス圧縮する \- takedajs ログ](http://takedajs.hatenablog.jp/entry/2016/08/01/231609)
-
 - [srcset属性について \- Qiita](http://qiita.com/C058/items/643a9ff2d23dfe3a0b37)
 - [scalableminds/gulp\-image\-resize: Resizing images made easy \- thanks to imagemagick\.](https://github.com/scalableminds/gulp-image-resize)
