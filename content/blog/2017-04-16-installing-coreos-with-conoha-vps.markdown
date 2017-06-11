@@ -10,7 +10,9 @@ slug: installing-coreos-with-conoha-vps
 img: "/images/2017/04/conoha-api-64x.png"
 ---
 
-[ConoHaのVPSにCoreOSをインストール \- Qiita](http://qiita.com/miyasakura_/items/4d81dc5fe6f9de0f0dd5)を参考にConoha VPSにCoreOSをインストールしました。
+[ConoHaのVPSにCoreOSをインストール \- Qiita](http://qiita.com/miyasakura_/items/4d81dc5fe6f9de0f0dd5)を参考に<a href="https://px.a8.net/svt/ejp?a8mat=2TGARC+63OZ02+50+4YR6O2" target="_blank" rel="nofollow">Conoha VPS</a>
+<img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=2TGARC+63OZ02+50+4YR6O2" alt="">にCoreOSをインストールしました。
+
 
 
 <!--more-->
@@ -157,6 +159,12 @@ config fileのsyntax checkは下記のコマンドを実行して確認する。
 sudo coreos-cloudinit -validate=true -from-file=/var/lib/coreos-install/user_data
 ```
 
+syntax checkが問題なければ下記コマンドを叩いて、設定を適用する。
+```
+$ sudo coreos-cloudinit -from-file=/var/lib/coreos-install/user_data
+```
+
+
 更新した後は、`sudo reboot`で再起動する。
 
 
@@ -184,3 +192,76 @@ Subsystem sftp internal-sftp
 ClientAliveInterval 180
 UseDNS no
 ```
+
+
+
+## CoreOSでswapの設定
+
+```
+core@150-95-148-60 ~/kenchan2 $ free
+             total       used       free     shared    buffers     cached
+Mem:       1020680     697808     322872      66720      22372     299476
+-/+ buffers/cache:     375960     644720
+Swap:            0          0          0
+```
+
+```
+core@150-95-148-60 ~ $ free
+             total       used       free     shared    buffers     cached
+Mem:       1020680     267036     753644        352      15296     154564
+-/+ buffers/cache:      97176     923504
+Swap:      4194300          0    4194300
+```
+
+
+## CoreOSの設定
+
+https://gist.github.com/dalbani/5d88fef62b76309d0198
+
+```
+#cloud-config
+
+coreos:
+  units:
+    - name: systemd-sysctl.service
+      command: restart
+
+    - name: swap-file.service
+      command: start
+      content: |
+        [Unit]
+        Description=Swap file
+        [Service]
+        Type=oneshot
+        RemainAfterExit=true
+        Environment="SWAP_FILE=/swap" "SWAP_SIZE=512m"
+        ExecStart=/usr/bin/sh -c "[ -e ${SWAP_FILE} ] || (touch ${SWAP_FILE} && chattr +C ${SWAP_FILE} && fallocate -l ${SWAP_SIZE} ${SWAP_FILE} && chmod 600 ${SWAP_FILE} && mkswap ${SWAP_FILE})"
+        ExecStart=/usr/bin/sh -c "losetup -f ${SWAP_FILE}"
+        ExecStart=/usr/bin/sh -c "swapon $(losetup -j ${SWAP_FILE} | cut -d : -f 1)"
+        ExecStop=/usr/bin/sh -c "swapoff $(losetup -j ${SWAP_FILE} | cut -d : -f 1)"
+        ExecStop=/usr/bin/sh -c "losetup -d $(losetup -j ${SWAP_FILE} | cut -d : -f 1)"
+
+        [Install]
+        WantedBy=multi-user.target
+
+write_files:
+  - path: /etc/sysctl.d/swap.conf
+    permissions: 0644
+    owner: root
+    content: |
+      vm.swappiness=10
+      vm.vfs_cache_pressure=50
+```
+
+
+## datadog
+
+```
+docker run -d --name dd-agent -v /var/run/docker.sock:/var/run/docker.sock:ro -v /proc/:/host/proc/:ro -v /sys/fs/cgroup/:/host/sys/fs/cgroup:ro -e API_KEY={YOUR_API_KEY} -e SD_BACKEND=docker datadog/docker-dd-agent:latest
+```
+
+
+## Conoha VPS
+<a href="https://px.a8.net/svt/ejp?a8mat=2TGARC+63OZ02+50+4YSWE9" target="_blank" rel="nofollow">
+<img border="0" width="336" height="280" alt="" src="https://www29.a8.net/svt/bgt?aid=170401656369&wid=001&eno=01&mid=s00000000018030032000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=2TGARC+63OZ02+50+4YSWE9" alt="">
