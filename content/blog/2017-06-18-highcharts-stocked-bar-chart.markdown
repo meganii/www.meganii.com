@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['highcharts','visualization']
 published: true
 slug: highcharts-stocked-bar-chart
-img: /images/2017/06/BS_PL.png
+img: /images/2017/06/BS_PL-64x.png
 ---
 
 <script async src="//jsfiddle.net/meganii/wdppph94/4/embed/result/"></script>
