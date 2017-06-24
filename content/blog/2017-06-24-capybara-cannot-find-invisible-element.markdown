@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['capybara']
 published: true
 slug: capybara-cannot-find-invisible-element
-img:
+img: https://images-fe.ssl-images-amazon.com/images/I/51HQYnwtflL._SL160_.jpg
 ---
 
 Capybaraで、`style="display: none;"`となっているある要素を取得しようと思ったら、思わぬところでハマった。
