@@ -8,5 +8,6 @@
   Link: </css/skeleton.css>; rel=preload; as=style
   Link: </css/custom.css>; rel=preload; as=style
   Link: </css/share.css>; rel=preload; as=style
-  Link: <https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css>; rel=preload; as=style
-  Link: <https://fonts.googleapis.com/css?family=Roboto:400,700>; rel=preload; as=style
+  Link: </css/font-awesome.min.css>; rel=preload; as=style
+  Link: </css/highlight-default-color.css>; rel=preload; as=style
+  Link: </js/highlight.pack.js>; rel=preload; as=script
