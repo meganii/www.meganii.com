@@ -2,3 +2,8 @@
   Cache-Control: max-age=86400
 /images/*
   Cache-Control: max-age=86400
+
+/*
+  Link: </css/normalize.css>; rel=preload; as=style
+  Link: </css/skeleton.css>; rel=preload; as=style
+  Link: </css/custom.css>; rel=preload; as=style
