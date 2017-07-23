@@ -1,7 +1,7 @@
 ---
 title: "Hugoで生成した静的サイトのホスト先をさくらVPSからNetlifyに変更する"
 date: 2017-03-19T19:46:06+09:00
-lastmod: 2017-03-19T19:46:06+09:00
+lastmod: 2017-07-23T21:46:06+09:00
 comments: true
 category: ['Tech']
 tags: ['Netlify','Hugo']
@@ -113,7 +113,12 @@ http://meganii.netlify.com/* https://meganii.com/:splat 301!
 
 ## _headers
 
-`_headers`は、無料プランでは利用できないみたいです。
+~~`_headers`は、無料プランでは利用できないみたいです。~~
+
+2017/07/23 追記
+
+[HTTP/2 Server Push on Netlify \| Netlify](https://www.netlify.com/blog/2017/07/18/http/2-server-push-on-netlify/)の提供によって、無料プランでもheadersが利用できるようになりました。
+
 
 
 ## ビルドにNetlify以外のCIツールを利用する場合
