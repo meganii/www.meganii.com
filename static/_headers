@@ -1,6 +1,6 @@
 /css/*
   Cache-Control: max-age=86400
-  Transfer-Coding: gzip
+  Content-Encoding: gzip
 /images/*
   Cache-Control: max-age=86400
 
