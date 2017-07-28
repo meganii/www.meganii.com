@@ -1,7 +1,7 @@
 ---
 title: "minimo(ミニモ)で初めてのメンズカットモデル"
 date: 2016-10-16T21:45:48+09:00
-lastmod: 2017-02-10T21:45:48+09:00
+lastmod: 2017-07-28T21:45:48+09:00
 comments: true
 category: ['Life']
 tags: ['minimo','ミニモ']
@@ -13,71 +13,93 @@ img: "https://c5.staticflickr.com/6/5589/30324509396_9e63960c57_t.jpg"
 ![minimo](https://farm6.staticflickr.com/5589/30324509396_9e63960c57_z.jpg)
 
 
-「カットモデル」って響きがなんか恐れ多いけど、安く(無料で)カットしてもらえるなら一回やってみようと思って、「minimo(ミニモ)」を使って、カットしてもらいました。
+「カットモデル」ってなんだかすごく敷居が高くないですか？
 
-初めて利用したので、全然流れが分からず不安でしたが、本当に無料でカットしてもらい、大満足です。次回も、利用しようと思います。
+例えば、カット”モデル"というのだから、モデルさんのようにシュッとしていないといけない。カットされた写真を撮られてWebや雑誌に掲載される。美容師がやりたいことだけが優先されて自分の希望は通らない。そもそも無料でカットしてもらえるなんて恐ろしい。などなど、私は勝手に想像してハードルを上げていました。
 
+しかし、「minimo(ミニモ)」というアプリなら気軽にカットモデルとして切ってもらえるということを教えてもらい、本当に安く(無料で)カットしてもらえるのなら度試してみることにしました。
+
+結論から言うと、minimoを使うのも、カットモデルとして切ってもらうのも初めてでしたが、本当に無料でカットしてもらって大満足でした。次回以降も使っていきたいと思います。
 
 <!--more-->
 {{% googleadsense %}}
 
 
-## minimo(ミニモ)ってどんなアプリ？Webサービス？
+## minimo(ミニモ)ってどんなアプリ？
 
-ざっくり言うと、練習で髪を切りたい「美容師」と出来るならお金をかけずに髪を切りたい「人」を結びつけるWebサービスです。
+minimoとは一言で表現すると、**練習で髪を切りたい「美容師」と、なるべくお金をかけずに髪を切りたい「ユーザ」を結びつけるサービス** です。
 
-よく「カットモデル」という言葉をきくかもしれませんが、この「カットモデル」とは、美容師さんがカットの練習をするための実験台ですね笑。
+一般的に見習いの美容師は、ある程度の人数をカットしないと昇級できないなどの制約があるそうです(minimoで対応いただいた美容師さん談)。そのため、「カットモデル」を募集して数をこなす必要があります。
 
-一般的には、見習いの美容師さんが練習のために、「カットモデル」を募集し、先輩の美容師さんにみてもらいながら、経験を積むらしいです。
+冒頭で「カットモデル」は敷居が高いと感じると書きましたが、「カットモデル」= 「練習台」ぐらいに考えればずいぶん気が楽になるのではないでしょうか。
 
-今回、minimoで切ってもらった美容師さんに話を聞くと、「カットモデル」を探すのはやっぱり大変だそうで、捕まらないときは、１日中看板を片手に探すこともあるそうです。一方、そうやって自分の足で探したほうが、自分のカットするイメージに近い人を探せるので良い場合もあるらしいですが、大変なことには変わりないです。
 
-それが、この「minimo」を使うことで、髪を切りたい美容師と髪を切られたい人がWin-Winになります。
+「カットモデル」を探したい美容師と、髪を切ってほしい「ユーザ」がWin-Winの関係になる。これが、minimoです。
 
-2014/01/20の記事
+ちなみに、元々はmixiのコミュニティだったものがアプリ化されたようです。
 [美容師とカットモデルをマッチング「minimo」　mixi人気コミュ内のやり取りを独立アプリで容易に \- ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1401/20/news121.html)
 
 
-## 実際どうなの？　予約編
+## minimo(ミニモ)ってどうやって使うの？
+
+流れとしては次の通りです。全て、minimoのアプリで完結します。
+
+1. [予約] アプリで日程、場所からカットモデルを募集している美容師を探す
+2. [予約] 美容師に対して予約を申し込む
+3. [予約] 美容師からアプリ内で返信があり、予約成立
+4. [当日] 当日指定された場所に行き、髪を切ってもらう
+5. [施述後] 美容師に対する評価を行う
 
 
-最初に、即予約可能な案件で予約したのだけれど、メッセージのやり取りで美容師さんの都合で一方的にキャンセルに。。。
+## 実際どうなの？〜予約編〜
 
-ここはまあ、無料なので文句は言えないし、相手が個人なので
-仕方ないところかもしれません。
+予約には「即予約可能」というものがありますが、これはちょっと注意が必要です。
 
-後で考えると「minimo」アプリのアカウントも初期登録のままだったため、アイコンも自己紹介もなしで予約した自分も悪かったのかもしれないと思いました。
+私は最初、「即予約可能」な案件で予約したのですが、美容師さんの都合で一方的にキャンセルになってしまい、出鼻をくじかれました。
 
-確かに自分が美容師の立場だったら、当日キャンセルされるかもしれない、よく分からない人をあてにしないだろう。
+無料なので文句は言えないし、相手が個人なので仕方ないとは思いますががっくりしました。「即予約可能」と書いてはいますが、確実ではないと思っておいた方がよいかもしれないです。
 
-最低限、アイコンの設定とか自己紹介を書いておいた方が、美容師側も多少安心して予約を受け付けてくれるかなと思います。
+後で考えるとminimoアプリのアカウントが初期登録のままだったため、アイコンも自己紹介もなしで予約した自分も悪かったのかもしれないと思いました。自分が美容師の立場だったら、当日キャンセルされるかもしれない、よく分からない人をカットモデルとして採用したくないなーとも思ったからです。
+
+最低限、アイコンの設定とか自己紹介を書いておいた方が、美容師側も安心して予約を受け付けてくれるんじゃないかと思います。
 
 最初の反省を踏まえて、最低限アイコンとプロフィールを設定し、気を取り直して２回めの予約をしたところ問題なく当日を迎えることができました。
 
 
-## 実際どうなの？　当日編
+## 実際どうなの？〜当日編〜
 
-カットしてもらう時間帯は、お店での通常の営業が終わってからというケースが多いです。そのため、お客さんがいない状態のお店に入ってくのはちょっと緊張しましたが、minimoで予約した者だと伝えて入れてもらいました。
+カットしてもらう時間帯は、お店での通常の営業が終わってからというケースが多いです。例えば、平日だと21:00、休日だと19:30からといった感じです。
+
+そのため、お客さんがいない状態のお店に入ってくのはちょっと緊張しましたが、minimoで予約した者だと伝えて入れてもらいました。
 
 あとは、普通の美容院と同じようにどうしたいのかを聞かれて、イメージを伝えるのは同じです。(美容師さんによっては、カットするスタイルが決まっているかもしれません)
 
-カットとシャンプーを丁寧にしてもらいました。若干時間が掛かるのはご愛嬌ですが、とても満足しました。
+カットとシャンプーを丁寧にしてもらいました。若干時間が掛かるのはご愛嬌ですがとても満足しました。
 
 
 
 
 ## 感じたこと
 
-実際、どうなるかわからないので、結構怖いですが、丁寧に切っていただき、助かりました。
+初めはどうなるかわからないので少し不安でしたが、丁寧に切っていただき助かりました。本当に無料でカットしてもらい
 
-美容師からすると、カットモデルを探す手間を省くことができる。
-美容院からすると、カットモデルでお店を提供して、雰囲気を知ってもらい、次からは通常料金でも来てくれるお客さんをつかむことができる。
-ユーザからすると、安く髪を切ってもらえる。
+- 美容師からすると、カットモデルを探す手間を省くことができる。
+- 美容院からすると、カットモデルを行うお店を提供して、雰囲気を知ってもらい、次からは通常料金でも来てくれるお客さんをつかむことができる。
+- ユーザからすると、格安で（無料で）髪を切ってもらえる。
 
-と、みんなハッピーになりそうなWebサービスです。
+と、みんなハッピーになる「minimo」です。ぜひ使って
 
 <a href="https://itunes.apple.com/jp/app/puchipurade-mei-rong-shi-neiru/id719858778?mt=8&at=1l3vpSH&ct=E27k4H" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/images/badges/ja-jp/badge_appstore-lrg.svg) no-repeat;width:165px;height:40px;"></a>
 
 <a href="https://itunes.apple.com/jp/app/puchipurade-mei-rong-shi-neiru/id719858778?mt=8&at=1l3vpSH&ct=E27k4H">プチプラで美容室・ネイル＆カットモデル探しminimo ミニモ - mixi, Inc</a>
 
-<div class="pochireba" style="text-align:left;font-size:small;padding:20px 0;/zoom: 1;overflow: hidden;"><a href="https://itunes.apple.com/jp/app/puchipurade-mei-rong-shi-neiru/id719858778?mt=8&at=1l3vpSH&ct=E27k4H" target="_blank" ><img src="http://is4.mzstatic.com/image/thumb/Purple71/v4/8b/66/63/8b6663a5-7ecf-3fe0-a272-3c94d106b438/source/60x60bb.jpg" alt="プチプラで美容室・ネイル＆カットモデル探しminimo ミニモ" width="60" height="60" style="float:left;margin:0 15px 0 0;width:60px;height:60px;" class="pochi_img" ></a><div class="pochi_info" style="text-align:left;/zoom: 1;overflow: hidden;"><div class="pochi_name"><a href="https://itunes.apple.com/jp/app/puchipurade-mei-rong-shi-neiru/id719858778?mt=8&at=1l3vpSH&ct=E27k4H" target="_blank" >プチプラで美容室・ネイル＆カットモデル探しminimo ミニモ</a></div><div class="pochi_price" style="display:inline;">無料</div><div class="pochi_time" style="font-size:x-small;display:inline;">(2016.10.18時点)</div><div class="pochi_seller"><a href="https://itunes.apple.com/jp/developer/mikushi-i/id285951869?mt=8&uo=4&at=1l3vpSH" target="_blank" >mixi, Inc</a></div><div class="pochi_post" style="font-size:x-small;">posted with <a href="http://pochireba.com" rel="nofollow" target="_blank">ポチレバ</a></div></div><div class="pochireba-footer" style="clear: left"></div></div>
+<div class="pochireba" style="text-align:left;font-size:small;padding:20px 0;/zoom: 1;overflow: hidden;">
+<a href="https://itunes.apple.com/jp/app/puchipurade-mei-rong-shi-neiru/id719858778?mt=8&at=1l3vpSH&ct=E27k4H" target="_blank" ><img src="http://is4.mzstatic.com/image/thumb/Purple71/v4/8b/66/63/8b6663a5-7ecf-3fe0-a272-3c94d106b438/source/60x60bb.jpg" alt="プチプラで美容室・ネイル＆カットモデル探しminimo ミニモ" width="60" height="60" style="float:left;margin:0 15px 0 0;width:60px;height:60px;" class="pochi_img" ></a>
+<div class="pochi_info" style="text-align:left;/zoom: 1;overflow: hidden;">
+<div class="pochi_name">
+<a href="https://itunes.apple.com/jp/app/puchipurade-mei-rong-shi-neiru/id719858778?mt=8&at=1l3vpSH&ct=E27k4H" target="_blank" >プチプラで美容室・ネイル＆カットモデル探しminimo ミニモ</a></div>
+<div class="pochi_price" style="display:inline;">無料</div><div class="pochi_time" style="font-size:x-small;display:inline;">(2016.10.18時点)</div><div class="pochi_seller"><a href="https://itunes.apple.com/jp/developer/mikushi-i/id285951869?mt=8&uo=4&at=1l3vpSH" target="_blank" >mixi, Inc</a></div><div class="pochi_post" style="font-size:x-small;">posted with <a href="http://pochireba.com" rel="nofollow" target="_blank">ポチレバ</a></div></div><div class="pochireba-footer" style="clear: left">
+</div>
+</div>
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=meganii-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B0012WTHQS&linkId=48d1bdd7ac0a1af274eae7a6b44144ce"></iframe>
