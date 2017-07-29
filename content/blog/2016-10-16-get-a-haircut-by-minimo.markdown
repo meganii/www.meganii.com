@@ -81,25 +81,18 @@ minimoとは一言で表現すると、**練習で髪を切りたい「美容師
 
 ## 感じたこと
 
-初めはどうなるかわからないので少し不安でしたが、丁寧に切っていただき助かりました。本当に無料でカットしてもらい
+初めはどうなるかわからないので少し不安でしたが、丁寧に切っていただき助かりました。本当に無料でカットしてもらうことができ、家計も大助かりです。間違いなくリピートします。
 
 - 美容師からすると、カットモデルを探す手間を省くことができる。
 - 美容院からすると、カットモデルを行うお店を提供して、雰囲気を知ってもらい、次からは通常料金でも来てくれるお客さんをつかむことができる。
 - ユーザからすると、格安で（無料で）髪を切ってもらえる。
 
-と、みんなハッピーになる「minimo」です。ぜひ使って
+と、みんなハッピーになる「minimo」です。ぜひ使ってみてください。
 
-<a href="https://itunes.apple.com/jp/app/puchipurade-mei-rong-shi-neiru/id719858778?mt=8&at=1l3vpSH&ct=E27k4H" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/images/badges/ja-jp/badge_appstore-lrg.svg) no-repeat;width:165px;height:40px;"></a>
 
+<a href="https://itunes.apple.com/jp/app/minimo-%E3%83%9F%E3%83%8B%E3%83%A2-%E3%82%B5%E3%83%AD%E3%83%B3%E4%BA%88%E7%B4%84/id719858778?mt=8&at=1l3vpSH" style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/ja-jp/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;"></a><br />
 <a href="https://itunes.apple.com/jp/app/puchipurade-mei-rong-shi-neiru/id719858778?mt=8&at=1l3vpSH&ct=E27k4H">プチプラで美容室・ネイル＆カットモデル探しminimo ミニモ - mixi, Inc</a>
 
-<div class="pochireba" style="text-align:left;font-size:small;padding:20px 0;/zoom: 1;overflow: hidden;">
-<a href="https://itunes.apple.com/jp/app/puchipurade-mei-rong-shi-neiru/id719858778?mt=8&at=1l3vpSH&ct=E27k4H" target="_blank" ><img src="http://is4.mzstatic.com/image/thumb/Purple71/v4/8b/66/63/8b6663a5-7ecf-3fe0-a272-3c94d106b438/source/60x60bb.jpg" alt="プチプラで美容室・ネイル＆カットモデル探しminimo ミニモ" width="60" height="60" style="float:left;margin:0 15px 0 0;width:60px;height:60px;" class="pochi_img" ></a>
-<div class="pochi_info" style="text-align:left;/zoom: 1;overflow: hidden;">
-<div class="pochi_name">
-<a href="https://itunes.apple.com/jp/app/puchipurade-mei-rong-shi-neiru/id719858778?mt=8&at=1l3vpSH&ct=E27k4H" target="_blank" >プチプラで美容室・ネイル＆カットモデル探しminimo ミニモ</a></div>
-<div class="pochi_price" style="display:inline;">無料</div><div class="pochi_time" style="font-size:x-small;display:inline;">(2016.10.18時点)</div><div class="pochi_seller"><a href="https://itunes.apple.com/jp/developer/mikushi-i/id285951869?mt=8&uo=4&at=1l3vpSH" target="_blank" >mixi, Inc</a></div><div class="pochi_post" style="font-size:x-small;">posted with <a href="http://pochireba.com" rel="nofollow" target="_blank">ポチレバ</a></div></div><div class="pochireba-footer" style="clear: left">
-</div>
-</div>
+
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=meganii-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B0012WTHQS&linkId=48d1bdd7ac0a1af274eae7a6b44144ce"></iframe>
