@@ -1,7 +1,7 @@
 ---
-title: "「犬も歩けばBAR(バル)に当たる」スペイン・バルセロナ旅行記2016"
+title: "スペイン・バルセロナ旅行記2016「犬も歩けばBAR(バル)に当たる」"
 date: 2016-05-05T12:38:27+09:00
-lastmod: 2017-03-04T23:38:27+09:00
+lastmod: 2017-08-14T23:38:27+09:00
 comments: true
 category: ['Travel']
 tags: ['Spain','旅行記','バルセロナ']
@@ -18,84 +18,120 @@ img: "https://c1.staticflickr.com/8/7747/26731528562_c396450288_s.jpg"
 
 ## 今日も元気に建設中「サグラダ・ファミリア」
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/26731528562" title="under construction"><img src="https://c1.staticflickr.com/8/7747/26731528562_c396450288_z.jpg" width="640" height="640" alt="under construction"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/35571855@N06/26731528562" ><img src="https://c1.staticflickr.com/8/7747/26731528562_c396450288_z.jpg" width="640" height="640" alt="サクラダファミリア建設中"></a>
 
 
-2026年に完成予定のサグラダ・ファミリアは、当日も元気に建設中でした。サグラダ・ファミリアと言えば、[サグラダ・ファミリア建設とシステム開発](https://meganii.com/blog/2016/04/21/antoni-gaudi/)でも少し触れたように、アントニオ・ガウディの作品です。
+2026年に完成予定のサグラダ・ファミリアは、当日も元気に建設中でした。
+
+サグラダ・ファミリアと言えば、[サグラダ・ファミリア建設とシステム開発](https://meganii.com/blog/2016/04/21/antoni-gaudi/)でも少し触れたように、アントニオ・ガウディの作品です。
 
 ガウディは、模型をベースにこのサグラダ・ファミリアを設計し、それを職人に伝えて建設を行なっていたといいます。サグラダ・ファミリアの地下の博物館には、たくさんの模型が展示されていました。
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/26731903622" title="R0058419"><img src="https://c1.staticflickr.com/8/7771/26731903622_d280dc6b44_z.jpg" width="640" height="480" alt="R0058419"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/35571855@N06/26731903622" ><img src="https://c1.staticflickr.com/8/7771/26731903622_d280dc6b44_z.jpg" width="640" height="480" alt="サクラダ・ファミリアの模型"></a>
 
 建物外部も圧巻ですが、建物内部もステンドグラスや、そのステンドグラスから差し込む光によって建物を支える支柱が照らされ、とても幻想的な空間でした。
 
-巨大なステンドグラスは、最初観た時、ファイナルファンタジーの世界に来たようなそんな気分になりました。
+巨大なステンドグラスは、最初観た時ファイナルファンタジーの世界に来たようなそんな気分になりました。
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/26552533600" title="upload"><img src="https://c1.staticflickr.com/8/7400/26552533600_b16083c56f_c.jpg" width="641" height="800" alt="upload"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/35571855@N06/26552533600" ><img src="https://c1.staticflickr.com/8/7400/26552533600_b16083c56f_c.jpg" width="641" height="800" alt="サクラダ・ファミリアのステンドグラス"></a>
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/26552624870" title="R0058407"><img src="https://c1.staticflickr.com/8/7219/26552624870_ca09116bae_z.jpg" width="640" height="480" alt="R0058407"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/35571855@N06/26552624870" ><img src="https://c1.staticflickr.com/8/7219/26552624870_ca09116bae_z.jpg" width="640" height="480" alt="サクラダ・ファミリアの天井1"></a>
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/26790609736" title="R0058402"><img src="https://c1.staticflickr.com/8/7175/26790609736_1dbec7ecdb_z.jpg" width="640" height="480" alt="R0058402"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/35571855@N06/26790609736" ><img src="https://c1.staticflickr.com/8/7175/26790609736_1dbec7ecdb_z.jpg" width="640" height="480" alt="サクラダ・ファミリアの天井2"></a>
 
 
-サグラダ・ファミリアの入場チケットと、グエル公園の入場チケットは事前にベルトラ経由でHISのオプショナルツアーを申し込んでいました。前もって印刷しておいたバウチャーチケットをおみやげ屋OLIMARで入場チケットと引き換えてもらいました。おみやげ屋の場所と、チケットの受け取りに若干不安はありましたが、場所も音楽堂の通り沿いであるとわかり、またチケットの受け取りも陽気なおばさんが対応してくださってなんとかなりました。陽気なおばさんは、サグラダ・ファミリアへの道順を身振り手振りで教えてくれました。
+サグラダ・ファミリアの入場チケットと、グエル公園の入場チケットは事前にベルトラ経由でHISのオプショナルツアーを申し込んでいました。
+
+チケット引き換え場所は、おみやげ屋OLIMARです。
+
+おみやげ屋の場所と、チケットの受け取りに若干不安はありましたが、場所も音楽堂の通り沿いであるとわかり、またチケットの受け取りも陽気なおばさんが対応してくださってなんとかなりました。
+
+陽気なおばさんは、サグラダ・ファミリアへの道順を身振り手振りで教えてくれました。
 
 <A HREF="https://px.a8.net/svt/ejp?a8mat=2NK72D+3KMEQ+104K+639IQ" target="_blank" rel="nofollow">゜:*★スペインのオプショナルツアー予約VELTRA★*:°</A><img border="0" width="1" height="1" src="https://www19.a8.net/0.gif?a8mat=2NK72D+3KMEQ+104K+639IQ" alt="">
 
 ## 「犬も歩けばBARに当たる」
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/26226628183" title="R0058363"><img src="https://c1.staticflickr.com/8/7588/26226628183_c26b2d8450_z.jpg" width="640" height="480" alt="R0058363"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/35571855@N06/26226628183" ><img src="https://c1.staticflickr.com/8/7588/26226628183_c26b2d8450_z.jpg" width="640" height="480" alt="バルセロナのバル"></a>
 
 
-タイトルにも書いたように、ちょっと歩けばすぐにBAR(バル)に出くわしました。日本のコンビニ並にあちこちに点在しています。見る限りあまりチェーン店でBAR(バル)を展開しているのではなく、個人のお店でやってるところが多いように感じられました。逆に観光客向けにしていないようなところも多いので、若干入りづらいお店も多かったのも事実です。店の前に英語と料理の写真が乗ったメニューが置いてあるところは、入りやすく頼みやすかったです。
+タイトルにも書いたように、ちょっと歩けばすぐにBAR(バル)に出くわします。まるで日本のコンビニみたいです。
 
-私達も、空腹に耐えかね、なんとか良さそうなBAR(バル)を見つけて入り、パエリアとタパスにありつくことが出来ました。ちょっとだけ勇気を振り絞って、えいやっとお店に入ることが大事ですね。
+BAR(バル)は、チェーン店ではなく、個人のお店でやってるところが多いように感じられました。逆に観光客向けにしていないようなところも多いので、若干入りづらいお店も多かったのも事実です。店の前に英語と料理の写真が乗ったメニューが置いてあるところは、入りやすく頼みやすかったです。
+
+私達も空腹に耐えかね、なんとか良さそうなBAR(バル)を見つけて入り、パエリアとタパスにありつくことが出来ました。
+
+ちょっとだけ勇気を振り絞って、えいやっとお店に入ることが大事ですね。
 
 
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/26757828571" title="R0058534"><img src="https://c1.staticflickr.com/8/7505/26757828571_93b5910bb3_z.jpg" width="640" height="480" alt="R0058534"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/35571855@N06/26757828571" ><img src="https://c1.staticflickr.com/8/7505/26757828571_93b5910bb3_z.jpg" width="640" height="480" alt="バルセロナの市場"></a>
+
+
 
 ## ドラゴン？！とグエル公園
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/26219653914" title="upload"><img src="https://c1.staticflickr.com/8/7249/26219653914_5914300633_z.jpg" width="640" height="640" alt="upload"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/35571855@N06/26219653914" ><img src="https://c1.staticflickr.com/8/7249/26219653914_5914300633_z.jpg" width="640" height="640" alt="グエル公園のドラゴン"></a>
 
-よくガイドブックには、色とりどりのタイルで形どられたトカゲ？っぽい生き物が載っているかと思います。実は、あれはドラゴンだったということを、行ってみて初めて知りました。(一見するとトカゲですよね？)そして、そのドラゴンがいろんなところに配置されているのかな？とも思っていましたが、実際には入り口に１体いるだけということも判明しました。
+よくガイドブックには、色とりどりのタイルで形どられたトカゲ？っぽい生き物が載っているかと思います。
+
+実は、あれはドラゴンだったということを行ってみて初めて知りました。(一見するとトカゲですよね？)そして、そのドラゴンがいろんなところに配置されているのかな？とも思っていましたが、実際には入り口に１体いるだけということも判明しました。
 
 [Visit of the monumental precinct | Park Güell Barcelona](http://www.parkguell.cat/en/park-gueell/visit-of-the-monumental-precinct/)
 
-HISのガイドさんも1時間ぐらいあれば十分見て回れますよと言っていたが、確かにそのぐらいで満喫できました。
+グエル公園は、HISのガイドさんも1時間ぐらいあれば十分見て回れますよと言っていたが、確かにそのぐらいで満喫できました。
 
 
 ## 情熱のフラメンコ
 
-まず、まず、まず、お店が分かりづらい!!!! 3往復ぐらいはしたかもしれません。海沿いからLAMBLAS通りを北へ登っていく道すがらにあるはずのため、簡単にわかると思っていたが甘かった。海沿いから駅まで、駅からある建物まで、二分探索の要領でやっとのことたどり着きました。(同じ場所に向かうであろう日本人観光客に２度ほど遭遇したので同じく迷っていたと思います)
+HISのツアーで予約したフラメンコショーですが、まず、まず、まず、お店が分かりづらい!!!!3往復ぐらいはしたかもしれません。
+
+海沿いからLAMBLAS通りを北へ登っていく道すがらにあるはずのため、簡単にわかると思っていたが甘かったです。
+
+海沿いから駅まで、駅からある建物まで、隅々まで歩きやっとのことたどり着きました。同じ場所に向かうであろう日本人観光客に２度ほど遭遇したので同じく迷っていたと思います。
 
 まずは、ディナーで腹ごしらえ。ビュッフェで、タパス、ピンチョスを堪能しました。おいしくてついつい食べ過ぎてしまいますよね。
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/26797545736" title="tapas"><img src="https://c1.staticflickr.com/8/7436/26797545736_f1c37d784f_c.jpg" width="450" height="800" alt="tapas"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/35571855@N06/26797545736" ><img src="https://c1.staticflickr.com/8/7436/26797545736_f1c37d784f_c.jpg" width="450" height="800" alt="タパス"></a>
 
 
-ディナーの後は、お待ちかねのフラメンコショーです。ディナー会場から、部屋を移り、ステージへ。CAVA(カバ、スパークリングワイン)を振る舞われ、待つこと数分、ダンサーとギターの人がステージ上に現れました。ダンサーは、メインの女性が1人、男女の2ペアで4人。その後ろに、ギター2人、コーラスみたいな声を掛ける人が3人でした。
+ディナーの後は、お待ちかねのフラメンコショーです。
 
-パカパカパーン(擬音にすると味気ない)と、迫力のある革靴によるタップ音で始まったフラメンコショー。男性の踊りは、すさまじいスピードから繰り出される激しいタップ音と、ダイナミックな動きでした。一方、女性の踊りは、衣装をなびかせ回転したり、一瞬の間の所作(予備動作、後動作。歌舞伎で言う見得を切る感じ)が美しかったです。
+ディナー会場から、部屋を移り、ステージへ。CAVA(カバ、スパークリングワイン)を振る舞われ、待つこと数分、ダンサーとギターの人がステージ上に現れました。
+
+
+ダンサーは、メインの女性が1人、男女の2ペアで4人。その後ろに、ギター2人、コーラスみたいな声を掛ける人が3人でした。
+
+パカパカパーン(擬音にすると味気ない)と、迫力のある革靴によるタップ音で始まったフラメンコショー。男性の踊りは、すさまじいスピードから繰り出される激しいタップ音と、ダイナミックな動きでした。
+
+
+一方、女性の踊りは、衣装をなびかせ回転したり、一瞬の間の所作(予備動作、後動作。歌舞伎で言う見得を切る感じ)が美しかったです。
 
 ダンスパートが終わり、ギターの弾き語り部分では、ウトウトしてしまったことは内緒です。(まったくもって、サグラダ・ファミリア、グエル公園を歩き切った後にフラメンコショーの予定をいれるべきではなかったと後悔)
 
 
-## 歩いて回れるバルセロナの街並み
+## 歩いて回れるバルセロナの美しい街並み
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/26731590302" title="R0058495"><img src="https://c1.staticflickr.com/8/7278/26731590302_63fb6c7171_z.jpg" width="640" height="480" alt="R0058495"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/35571855@N06/26731590302" ><img src="https://c1.staticflickr.com/8/7278/26731590302_63fb6c7171_z.jpg" width="640" height="480" alt="バルセロナの街並み1"></a>
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/26731586102" title="R0058503"><img src="https://c1.staticflickr.com/8/7790/26731586102_5cff502d4c_z.jpg" width="640" height="480" alt="R0058503"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/35571855@N06/26731586102" ><img src="https://c1.staticflickr.com/8/7790/26731586102_5cff502d4c_z.jpg" width="640" height="480" alt="バルセロナの街並み2"></a>
 
-バルセロナに着いた初日は、ホテルを出た瞬間どっちにいけばよいか分からなくなってしまうぐらい道がわかりませんでした。しかし、サグラダ・ファミリア、グエル公園と歩き、またフラメンコショーの場所を探す中でだいぶ道が分かるようになりました。私たちのホテルは、Urgell駅とRocafort駅の間ぐらいにあり、ホテルからサグラダ・ファミリア、グエル公園は歩いていくことができました。意外とバルセロナの街は歩いて回れます！ただ、往復する元気は残っていなかったので、帰りはタクシーを利用しました。今回の旅行では地下鉄は使いませんでしたが、タクシーは日本と比べると安いので疲れたら乗って帰るのもありです。
+バルセロナに着いた初日は、ホテルを出た瞬間どっちにいけばよいか分からなくなってしまうぐらい道がわかりませんでした。
+
+しかし、サグラダ・ファミリア、グエル公園と歩き、またフラメンコショーの場所を探す中でだいぶ道が分かるようになりました。
+
+私たちのホテルは、Urgell駅とRocafort駅の間ぐらいにあり、ホテルからサグラダ・ファミリア、グエル公園は歩いていくことができました。
+
+意外とバルセロナの街は歩いて回れます！
+
+ただ、往復する元気は残っていなかったので、帰りはタクシーを利用しました。今回の旅行では地下鉄は使いませんでしたが、タクシーは日本と比べると安いので疲れたら乗って帰るのもありです。
 
 また、空港へ行く際はカタルーニャ広場から出ている空港行きバスを利用するのがよいです。タクシーだと30ユーロぐらいかかりますが、バスだと5.9ユーロでした。また、バスだと寝てれば着くので非常に楽です。
 
 
 あっという間のスペイン・バルセロナ旅行でした。スペインはスペインで違う地方にも行ってみたいです。２人で一ヶ月ぐらいのんびりとヨーロッパを巡るような旅もしてみたいね。
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/26552297070" title="R0058544"><img src="https://c1.staticflickr.com/8/7212/26552297070_9a3810b0c5_z.jpg" width="640" height="480" alt="R0058544"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/35571855@N06/26552297070" ><img src="https://c1.staticflickr.com/8/7212/26552297070_9a3810b0c5_z.jpg" width="640" height="480" alt="バルセロナ旅行記 飛行機雲"></a>
 
 {{% amazon 4533116671 %}}
 {{% amazon 4478049998 %}}
