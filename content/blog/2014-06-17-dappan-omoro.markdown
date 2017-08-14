@@ -30,24 +30,29 @@ img: "https://images-na.ssl-images-amazon.com/images/I/41ArPn4UwsL._SL160_.jpg"
 (最近、#脱藩なう というハッシュタグを見かけたので、脱藩学っていうキーワードに「おっ」となった)
 
 
-<iframe src="http://www.slideshare.net/slideshow/embed_code/30133829" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/tomyankuns/jawsug-30133829" title="JAWS-UG札幌 #脱藩なう" target="_blank">JAWS-UG札幌 #脱藩なう</a> </strong> from <strong><a href="http://www.slideshare.net/tomyankuns" target="_blank">Tomoya Ishida</a></strong> </div>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/30133829" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
+<div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/tomyankuns/jawsug-30133829" title="JAWS-UG札幌 #脱藩なう" target="_blank">JAWS-UG札幌 #脱藩なう</a> </strong> from <strong><a href="http://www.slideshare.net/tomyankuns" target="_blank">Tomoya Ishida</a></strong></div>
 
 ### 自分で選択肢を作るには？
+
 1. 自分が求めているモノ、重視するものを明確にする。(例えば、自分の武器、スキルを他己評価してもらう)
-2. 成りたい方向に向かって嬉々としてもがき、前進する。やりかたを先行事例から学ぶ(書籍を読む。直接あって話を聞く)A
+2. 成りたい方向に向かって嬉々としてもがき、前進する。やりかたを先行事例から学ぶ(書籍を読む。直接あって話を聞く)
 3. あたり前から離れたコミュニティに属する(例えば、仲間、環境は大事。精神的セーフティーネットにもなる)
 
 
-###　ピンときた言葉
+### ピンときた言葉
+
 - これから必要となる知識・経験は、今行動している現在進行形の実経験から学習する必要がある。
 - ちょっと背伸びして、成りたい自分になれる環境に自分を置く。
 - 得意なものを持った人たちが自分の専門性を活かしながらお互い協力して１つのことを作り上げていく。
 
 
 ## オモロい社会人
+
 オモロい社会人とは、輝いている人、自分らしく生きている人、誰かのためになっている人、道を貫こうとしている人である。
 
 ### オモロさを極める無限ループ
+
 1. 何か自分にできることを周りの人のために始める
 2. 感謝される
 3. 感謝を受け取って自身をつける
@@ -57,9 +62,8 @@ img: "https://images-na.ssl-images-amazon.com/images/I/41ArPn4UwsL._SL160_.jpg"
 
 
 ## 参考
+
 - [脱藩学 | 未来の自分が見つかるインタビュー術 FREEDOM UNIVERSITY 自由大学](https://freedom-univ.com/lecture/dappan.html)
 - [与えられたものから選ぶのではなく、自ら選択肢を作り出すこと | FREEDOM UNIVERSITY 自由大学](https://freedom-univ.com/lecture/dappan_130604.html)
 
 <a href="http://blog.kuuki-yomi.com/2012/06/blog-post_22.html" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://blog.kuuki-yomi.com/2012/06/blog-post_22.html" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://blog.kuuki-yomi.com/2012/06/blog-post_22.html" target="_blank">[募集告知]自由大学で「脱藩学」やります！ | 空気読み一人シンクタンク</a><a href="http://b.hatena.ne.jp/entry/http://blog.kuuki-yomi.com/2012/06/blog-post_22.html" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://blog.kuuki-yomi.com/2012/06/blog-post_22.html" alt="" /></a><br style="clear:both;" /><br>
-
-
