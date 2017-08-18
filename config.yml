@@ -44,7 +44,7 @@ Params:
   Disqus: "meganii"
   SyntaxHighlightTheme: "solarized_dark.min.css"
   logo: "/images/meganii_logo.png"
-  AnalyticsURL: "https://api.meganii.com/analytics/v1/"
+  AnalyticsURL: "https://us-central1-cloud-api-2e3ec.cloudfunctions.net/function-1"
 
 MetadataFormat: "yaml"
 
