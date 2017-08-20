@@ -1,0 +1,32 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: meganii/docker-mecab-hugo
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+      - run:
+          name: Setup git user
+          command: |
+            git config --global user.email "yuhei24@gmail.com"
+            git config --global user.name "megnaii"
+
+      - run:
+          name: run
+          command: |
+            rake create_relatedposts
+            hugo -t hugo-zen
+            npm install netlify-cli
+            node_modules/.bin/netlify deploy -t "$netlify_token"
+
+      - deploy:
+          name: Git push
+          command: |
+            git add data/* tmp/* && git commit -m "[ci skip] publish"; if [ $? -eq 0 ]; then git push origin master; else :; fi
+
+      - store_artifacts:
+          path: test-reports
+          destination: test-reports
