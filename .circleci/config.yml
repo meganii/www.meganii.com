@@ -17,6 +17,7 @@ jobs:
       - run:
           name: run
           command: |
+            gem install nokogiri
             bundle install
             rake create_relatedposts
             hugo -t hugo-zen
