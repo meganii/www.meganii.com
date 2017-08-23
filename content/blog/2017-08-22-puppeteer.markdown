@@ -5,7 +5,7 @@ lastmod: 2017-08-22T21:43:50+09:00
 comments: true
 category: ['Tech']
 tags: ['headless']
-published: false
+published: true
 slug: puppeteer
 img:
 ---
