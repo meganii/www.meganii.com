@@ -10,10 +10,16 @@ slug: cebu-plantation-bay-resort-spa
 img: https://farm5.staticflickr.com/4293/36106967481_c962ffa6d3_s.jpg
 ---
 
-<a href="https://www.flickr.com/photos/35571855@N06/36106967481/in/dateposted-public/" title="image"><img src="https://farm5.staticflickr.com/4293/36106967481_c962ffa6d3_c.jpg" width="800" height="600" alt="image" /></a>
+<a href="https://www.flickr.com/photos/35571855@N06/36106967481/in/dateposted-public/" title="セブ島">
+<amp-img src="https://farm5.staticflickr.com/4293/36106967481_c962ffa6d3_c.jpg"
+         alt="セブ島"
+         width="800"
+         height="600"
+         layout="responsive">
+</amp-img>
+</a>
 
-
-「<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884792601&vc_url=http%3A%2F%2Fhotels.his-j.com%2FHotelDetail%2FCEB00022.aspx%3Fcid%3D1790" target="_blank" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884792601" height="1" width="0" border="0">プランテーション ベイ リゾートアンドスパ</a>」に何もしない贅沢を味わいに行ってきました。
+「<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884792601&vc_url=http%3A%2F%2Fhotels.his-j.com%2FHotelDetail%2FCEB00022.aspx%3Fcid%3D1790" target="_blank" rel="nofollow"><amp-img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884792601" height="1" width="0">プランテーション ベイ リゾートアンドスパ</a>」に何もしない贅沢を味わいに行ってきました。
 
 
 <!--more-->
@@ -48,18 +54,35 @@ img: https://farm5.staticflickr.com/4293/36106967481_c962ffa6d3_s.jpg
 「プランテーションベイ　リゾート&スパ」は、セブ島ではなくマクタン島にあります。空港から車で30分ぐらいです。セブ島ツアーなのにマクタン島なの？！と思いましたが、5つ星ホテルなどのリゾートホテルはマクタン島に多いです。旅行のメインが何かによって泊まる場所を選んだ方がよいでしょう。ホテル内でのんびりしたいという人は、プランテーションベイや、シャングリラがおすすめだと思います。逆に、セブ島の街中を見て回りたいという人は、素直にセブ島内のホテルの方がよいでしょう。なにせ、マクタン島のホテルの周りには何もありません。
 
 
-<a href="https://www.flickr.com/photos/35571855@N06/36200333816/in/dateposted-public/" title="Plantation Bay Resort&amp;SPA"><img src="https://farm5.staticflickr.com/4296/36200333816_1cd81e3de4_c.jpg" width="800" height="600" alt="Plantation Bay Resort&amp;SPA" /></a>
+<a href="https://www.flickr.com/photos/35571855@N06/36200333816/in/dateposted-public/" title="Plantation Bay Resort&amp;SPA">
+<amp-img src="https://farm5.staticflickr.com/4296/36200333816_1cd81e3de4_c.jpg"
+         alt="Plantation Bay Resort&amp;SPA"
+         width="800"
+         height="600"
+         layout="responsive">
+</amp-img>
+</a>
 
 
 私たちは、プールサイドの部屋に宿泊しました。一番安い部屋ですが大満足です。ホテル内には、海水を引き込んだプールや、真水のプールなどたくさんのラグーンがあります。部屋の目の前にもプールがあります。
 
 
 
-<a href="https://www.flickr.com/photos/35571855@N06/36240502745/" title="Cebu"><img src="https://farm5.staticflickr.com/4323/36240502745_66cb737339_c.jpg" width="800" height="600" alt="Cebu" /></a>
+<a href="https://www.flickr.com/photos/35571855@N06/36240502745/" title="Cebu"><amp-img src="https://farm5.staticflickr.com/4323/36240502745_66cb737339_c.jpg"
+         alt="Cebu"
+         width="800"
+         height="600"
+         layout="responsive">
+</amp-img></a>
 
 
 
-<a href="https://www.flickr.com/photos/35571855@N06/36106666161/in/dateposted-public/" title="R0058929"><img src="https://farm5.staticflickr.com/4292/36106666161_83c3ef4a84_c.jpg" width="800" height="600" alt="R0058929" /></a>
+<a href="https://www.flickr.com/photos/35571855@N06/36106666161/in/dateposted-public/" title="R0058929"><amp-img src="https://farm5.staticflickr.com/4292/36106666161_83c3ef4a84_c.jpg"
+         alt="Cebu"
+         width="800"
+         height="600"
+         layout="responsive">
+</amp-img></a>
 
 ### ホテルの周り
 
@@ -83,14 +106,25 @@ img: https://farm5.staticflickr.com/4293/36106967481_c962ffa6d3_s.jpg
 
 フィリピンのビールと言えば、サンミゲルビールだそうです。
 
-<a href="https://www.flickr.com/photos/35571855@N06/35407271344/in/dateposted-public/" title="サンミゲルビール"><img src="https://farm5.staticflickr.com/4302/35407271344_e80cd19cf4_c.jpg" width="800" height="800" alt="サンミゲルビール" /></a>
+<a href="https://www.flickr.com/photos/35571855@N06/35407271344/in/dateposted-public/" title="サンミゲルビール"><amp-img src="https://farm5.staticflickr.com/4302/35407271344_e80cd19cf4_c.jpg"
+         alt="サンミゲルビール"
+         width="800"
+         height="600"
+         layout="responsive">
+</amp-img></a>
 
 
 朝ごはんは付いていないので、ホテルで食べようと思ったらキリマンジャロカフェの朝食ビュッフェか、ルームサービスのどちらかになります。朝食ビュッフェは、ほかの人のブログでも見ましたがとても美味しそうなのですが、結構値が張ります。悩みましたが、ルームサービスの方が朝食ビュッフェと比べてお手頃なため、ルームサービスを頼みました。
 
 ### ルームサービス
 
-<a href="https://www.flickr.com/photos/35571855@N06/36241234885/in/dateposted-public/" title="プランテーションベイのルームサービス"><img src="https://farm5.staticflickr.com/4291/36241234885_ab50416035_c.jpg" width="800" height="600" alt="プランテーションベイのルームサービス" /></a>
+<a href="https://www.flickr.com/photos/35571855@N06/36241234885/in/dateposted-public/" title="プランテーションベイのルームサービス"><amp-img src="https://farm5.staticflickr.com/4291/36241234885_ab50416035_c.jpg"
+         alt="プランテーションベイのルームサービス"
+         width="800"
+         height="600"
+         layout="responsive">
+</amp-img>
+</a>
 
 
 日本語対応とは書いてありましたが、ルームサービスに電話してみると普通に英語でしたね汗。カタコトの英語で、なんとかルームサービスを頼みました。
@@ -128,9 +162,9 @@ img: https://farm5.staticflickr.com/4293/36106967481_c962ffa6d3_s.jpg
 
 ## アイランドピクニックとプラナスパ
 
-日本からベルトラ経由で「<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884792593&vc_url=https%3A%2F%2Fwww.veltra.com%2Fjp%2Fasia%2Fphilippines%2Fcebu%2Fa%2F12509%3Fsid%3D1011" target="_blank" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884792593" height="1" width="0" border="0">アイランドピクニックとプラナスパ</a>」のツアーを申し込んでいました。
+日本からベルトラ経由で「<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884792593&vc_url=https%3A%2F%2Fwww.veltra.com%2Fjp%2Fasia%2Fphilippines%2Fcebu%2Fa%2F12509%3Fsid%3D1011" target="_blank" rel="nofollow"><amp-img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884792593" height="1" width="0" />アイランドピクニックとプラナスパ</a>」のツアーを申し込んでいました。
 
-<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884461625&vc_url=https%3A%2F%2Fwww.veltra.com%2Fjp%2Fasia%2Fphilippines%2Fcebu%2Fa%2F12509%3Fsid%3D1011" target="_blank" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884461625" height="1" width="0" border="0">【アイランドピクニック】人気の2島めぐり☆ヒルトゥガン島＆ナルスアン島　珊瑚保護区で感動シュノーケル＜現地ガイド(日本語可)／BBQランチ／プラナスパプラン有＞</a>
+<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884461625&vc_url=https%3A%2F%2Fwww.veltra.com%2Fjp%2Fasia%2Fphilippines%2Fcebu%2Fa%2F12509%3Fsid%3D1011" target="_blank" rel="nofollow"><amp-img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884461625" height="1" width="0">【アイランドピクニック】人気の2島めぐり☆ヒルトゥガン島＆ナルスアン島　珊瑚保護区で感動シュノーケル＜現地ガイド(日本語可)／BBQランチ／プラナスパプラン有＞</a>
 
 ### アイランドピクニック
 
@@ -177,6 +211,13 @@ img: https://farm5.staticflickr.com/4293/36106967481_c962ffa6d3_s.jpg
 
 フィリピンの人たちは、会う人会う人若いという印象です。老人ばっかりの日本とは大違いです。街中でも子供の姿をよく見かけました。
 
-あと、空港からプランテーションベイに向かうまでの街並みと、ホテルの差が激しかったです。街は、トタンでできた家も多く
+あと、空港からプランテーションベイに向かうまでの街並みと、ホテルの差が激しかったです。街は、トタンでできた家も多かったです。
 
-<a href="https://www.flickr.com/photos/35571855@N06/35848100590/in/dateposted-public/" title="R0058972"><img src="https://farm5.staticflickr.com/4318/35848100590_c62e061d6c_c.jpg" width="800" height="600" alt="R0058972" /></a>
+<a href="https://www.flickr.com/photos/35571855@N06/35848100590/in/dateposted-public/" title="セブ島の街並み">
+<amp-img src="https://farm5.staticflickr.com/4318/35848100590_c62e061d6c_c.jpg"
+         alt="セブ島の街並み"
+         width="800"
+         height="600"
+         layout="responsive">
+</amp-img>
+</a>
