@@ -31,6 +31,10 @@ contentDir: "content"
 publishDir: "public"
 cacheDir: "cache"
 rssuri: "feed.xml"
+theme: hugo_theme_aglaus
+
+PygmentsCodeFences: true
+pygmentsuseclasses: true
 
 Params:
   Author: "meganii"
