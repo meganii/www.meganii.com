@@ -43,7 +43,7 @@ taxonomiesを利用する場合、2つ方法がある。
 
 Taxonomyは、map[string]WeightedPages
 
-.Get(term)  
+.Get(term)
 .Count(term)
 
 
@@ -72,8 +72,7 @@ ok は、取っても取らなくても良い仕様になっている。
 
 ## site.go
 
-```golang:
-
+```go
 layouts := s.appendThemeTemplates(
 			[]string{"taxonomy/" + t.singular + ".html", "indexes/" + t.singular + ".html", "_default/taxonomy.html", "_default/list.html"})
 ```
@@ -115,7 +114,8 @@ layouts := s.appendThemeTemplates(
 
 
 ### site.go renderAndWritePage
-```:golang:site.go
+
+```go
 func (s *Site) renderAndWritePage(name string, dest string, d interface{}, layouts ...string) error {
 	renderBuffer := bp.GetBuffer()
 	defer bp.PutBuffer(renderBuffer)

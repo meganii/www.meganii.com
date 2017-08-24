@@ -12,7 +12,7 @@ img: "https://farm4.static.flickr.com/3410/5835456186_5a358ed4d2.jpg"
 <div><a href="http://www.flickr.com/photos/helmsp/5835456186/" target="_blank"><img class="img-responsive" src="https://farm4.static.flickr.com/3410/5835456186_5a358ed4d2.jpg" alt="Slackline 2" /></a><span>Slackline 2 / helmsp</span></div>
 
 
-最近ボルダリングの合間に、ハマってます。ただ、立つだけ、ただ歩くだけで出来たときは楽しい!!
+最近ボルダリングの合間にハマってます。ただ、立つだけ、ただ歩くだけで出来たときは楽しい!!
 
 ## スラックラインって？
 

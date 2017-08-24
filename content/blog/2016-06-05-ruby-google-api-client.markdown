@@ -58,7 +58,7 @@ some cases like Translate, only an API key is needed.
 * Go to `Credentials` and create the appropriate type of credential for the sample
     * For keys, use 'Server key' as the type
     * For OAuth Client IDs, use 'Other' as the type
-    * For service accounts, use the 'JSON' key type  
+    * For service accounts, use the 'JSON' key type
 
 
 ## 1. プロジェクトの作成
@@ -104,7 +104,7 @@ some cases like Translate, only an API key is needed.
 'dotenv'は、プロジェクト直下の`.env`を環境変数としてロードする。
 先ほど、作成した認証情報の`Client ID`と`Client sercret`を書く。
 
-```.env
+```bash
 GOOGLE_CLIENT_ID=CLIENT_ID
 GOOGLE_CLIENT_SECRET=CLIENT_SECRET
 GOOGLE_APPLICATION_CREDENTIALS=hogehoge.json

@@ -18,7 +18,7 @@ slug: pjekyll-pygments
 ### 1.`pygments`をインストールする。
 
 ```bash
-pip install pygments 
+pip install pygments
 ```
 
 ### 2. 以下のコマンドでcssを生成する。
@@ -45,7 +45,7 @@ highlighter: pygments
 
 ## こんなかんじになりました
 
-```Ruby
+```ruby
 def hoge
   puts "test"
 end
