@@ -1,0 +1,31 @@
+<div class="highlight"><pre><code class="language-go" data-lang="go"><span></span><span class="c1">// StringToDate casts an empty interface to a time.Time.</span>
+<span class="kd">func</span> <span class="nx">StringToDate</span><span class="p">(</span><span class="nx">s</span> <span class="kt">string</span><span class="p">)</span> <span class="p">(</span><span class="nx">time</span><span class="p">.</span><span class="nx">Time</span><span class="p">,</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">return</span> <span class="nx">parseDateWith</span><span class="p">(</span><span class="nx">s</span><span class="p">,</span> <span class="p">[]</span><span class="kt">string</span><span class="p">{</span>
+		<span class="nx">time</span><span class="p">.</span><span class="nx">RFC3339</span><span class="p">,</span>
+		<span class="s">&quot;2006-01-02T15:04:05&quot;</span><span class="p">,</span> <span class="c1">// iso8601 without timezone</span>
+		<span class="nx">time</span><span class="p">.</span><span class="nx">RFC1123Z</span><span class="p">,</span>
+		<span class="nx">time</span><span class="p">.</span><span class="nx">RFC1123</span><span class="p">,</span>
+		<span class="nx">time</span><span class="p">.</span><span class="nx">RFC822Z</span><span class="p">,</span>
+		<span class="nx">time</span><span class="p">.</span><span class="nx">RFC822</span><span class="p">,</span>
+		<span class="nx">time</span><span class="p">.</span><span class="nx">ANSIC</span><span class="p">,</span>
+		<span class="nx">time</span><span class="p">.</span><span class="nx">UnixDate</span><span class="p">,</span>
+		<span class="nx">time</span><span class="p">.</span><span class="nx">RubyDate</span><span class="p">,</span>
+		<span class="s">&quot;2006-01-02 15:04:05Z07:00&quot;</span><span class="p">,</span>
+		<span class="s">&quot;02 Jan 06 15:04 MST&quot;</span><span class="p">,</span>
+		<span class="s">&quot;2006-01-02&quot;</span><span class="p">,</span>
+		<span class="s">&quot;02 Jan 2006&quot;</span><span class="p">,</span>
+		<span class="s">&quot;2006-01-02 15:04:05 -07:00&quot;</span><span class="p">,</span>
+		<span class="s">&quot;2006-01-02 15:04:05 -0700&quot;</span><span class="p">,</span>
+	<span class="p">})</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nx">parseDateWith</span><span class="p">(</span><span class="nx">s</span> <span class="kt">string</span><span class="p">,</span> <span class="nx">dates</span> <span class="p">[]</span><span class="kt">string</span><span class="p">)</span> <span class="p">(</span><span class="nx">d</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Time</span><span class="p">,</span> <span class="nx">e</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">for</span> <span class="nx">_</span><span class="p">,</span> <span class="nx">dateType</span> <span class="o">:=</span> <span class="k">range</span> <span class="nx">dates</span> <span class="p">{</span>
+		<span class="k">if</span> <span class="nx">d</span><span class="p">,</span> <span class="nx">e</span> <span class="p">=</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Parse</span><span class="p">(</span><span class="nx">dateType</span><span class="p">,</span> <span class="nx">s</span><span class="p">);</span> <span class="nx">e</span> <span class="o">==</span> <span class="kc">nil</span> <span class="p">{</span>
+      <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="nx">dateType</span><span class="p">)</span>
+			<span class="k">return</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+	<span class="k">return</span> <span class="nx">d</span><span class="p">,</span> <span class="nx">fmt</span><span class="p">.</span><span class="nx">Errorf</span><span class="p">(</span><span class="s">&quot;Unable to parse date: %s&quot;</span><span class="p">,</span> <span class="nx">s</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div>

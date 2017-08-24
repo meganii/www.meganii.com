@@ -1,0 +1,10 @@
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span><span class="nv">_token</span><span class="o">=</span><span class="nv">$1</span>
+
+<span class="nv">post_data</span><span class="o">=</span><span class="s1">&#39;{ &quot;build_parameters&quot;: { &quot;BUNDLE_UPDATE&quot;: &quot;true&quot; } }&#39;</span>
+
+curl <span class="se">\</span>
+--header <span class="s2">&quot;Accept: application/json&quot;</span> <span class="se">\</span>
+--header <span class="s2">&quot;Content-Type: application/json&quot;</span> <span class="se">\</span>
+--data <span class="s2">&quot;</span><span class="nv">$post_data</span><span class="s2">&quot;</span> <span class="se">\</span>
+--request POST https://circleci.com/api/v1/project/meganii/meganii.com/tree/master?circle-token<span class="o">=</span><span class="si">${</span><span class="nv">_token</span><span class="si">}</span>
+</code></pre></div>

@@ -1,0 +1,36 @@
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span></span><span class="nx">gulp</span><span class="p">.</span><span class="nx">task</span><span class="p">(</span><span class="s1">&#39;responsive&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
+  <span class="k">return</span> <span class="nx">gulp</span><span class="p">.</span><span class="nx">src</span><span class="p">([</span><span class="s1">&#39;src/images/**/*.jpg&#39;</span><span class="p">,</span><span class="s1">&#39;src/images/**/*.png&#39;</span><span class="p">],</span> <span class="p">{</span> <span class="nx">base</span><span class="o">:</span> <span class="s1">&#39;src&#39;</span><span class="p">})</span>
+        <span class="p">.</span><span class="nx">pipe</span><span class="p">(</span><span class="nx">responsive</span><span class="p">({</span>
+          <span class="c1">// Resize all JPG images to three different sizes: 200, 500, and 630 pixels</span>
+          <span class="s1">&#39;images/**/*.jpg&#39;</span><span class="o">:</span> <span class="p">[{</span>
+            <span class="nx">width</span><span class="o">:</span> <span class="mi">320</span><span class="p">,</span>
+            <span class="nx">rename</span><span class="o">:</span> <span class="p">{</span> <span class="nx">suffix</span><span class="o">:</span> <span class="s1">&#39;-320x&#39;</span> <span class="p">},</span>
+          <span class="p">},</span> <span class="p">{</span>
+            <span class="nx">width</span><span class="o">:</span> <span class="mi">640</span><span class="p">,</span>
+            <span class="nx">rename</span><span class="o">:</span> <span class="p">{</span> <span class="nx">suffix</span><span class="o">:</span> <span class="s1">&#39;-640x&#39;</span> <span class="p">},</span>
+          <span class="p">},</span> <span class="p">{</span>
+            <span class="nx">width</span><span class="o">:</span> <span class="mi">1280</span><span class="p">,</span>
+            <span class="nx">rename</span><span class="o">:</span> <span class="p">{</span> <span class="nx">suffix</span><span class="o">:</span> <span class="s1">&#39;-1280x&#39;</span> <span class="p">},</span>
+          <span class="p">},</span> <span class="p">{</span>
+            <span class="c1">// Compress, strip metadata, and rename original image</span>
+            <span class="nx">rename</span><span class="o">:</span> <span class="p">{</span> <span class="nx">suffix</span><span class="o">:</span> <span class="s1">&#39;-o&#39;</span> <span class="p">},</span>
+          <span class="p">}],</span>
+          <span class="c1">// Resize all PNG images to be retina ready</span>
+          <span class="s1">&#39;images/**/*.png&#39;</span><span class="o">:</span> <span class="p">[{</span>
+            <span class="nx">width</span><span class="o">:</span> <span class="mi">250</span><span class="p">,</span>
+          <span class="p">},</span> <span class="p">{</span>
+            <span class="nx">width</span><span class="o">:</span> <span class="mi">250</span> <span class="o">*</span> <span class="mi">2</span><span class="p">,</span>
+            <span class="nx">rename</span><span class="o">:</span> <span class="p">{</span> <span class="nx">suffix</span><span class="o">:</span> <span class="s1">&#39;@2x&#39;</span> <span class="p">},</span>
+          <span class="p">}],</span>
+        <span class="p">},</span> <span class="p">{</span>
+          <span class="c1">// Global configuration for all images</span>
+          <span class="c1">// The output quality for JPEG, WebP and TIFF output formats</span>
+          <span class="nx">quality</span><span class="o">:</span> <span class="mi">70</span><span class="p">,</span>
+          <span class="c1">// Use progressive (interlace) scan for JPEG and PNG output</span>
+          <span class="nx">progressive</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+          <span class="c1">// Strip all metadata</span>
+          <span class="nx">withMetadata</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+      <span class="p">}))</span>
+      <span class="p">.</span><span class="nx">pipe</span><span class="p">(</span><span class="nx">gulp</span><span class="p">.</span><span class="nx">dest</span><span class="p">(</span><span class="s1">&#39;static/&#39;</span><span class="p">));</span>
+<span class="p">});</span>
+</code></pre></div>

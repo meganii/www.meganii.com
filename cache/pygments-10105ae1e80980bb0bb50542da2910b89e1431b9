@@ -1,0 +1,4 @@
+<div class="highlight"><pre><code class="language-diff" data-lang="diff"><span></span><span class="gd">- 127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4</span>
+<span class="gi">+ 127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4 vagrant-centos64.vagrantup.com</span>
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+</code></pre></div>

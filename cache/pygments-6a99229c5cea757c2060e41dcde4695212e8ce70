@@ -1,0 +1,34 @@
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="nb">require</span> <span class="s1">&#39;rubygems&#39;</span>
+<span class="nb">require</span> <span class="s1">&#39;active_record&#39;</span>
+<span class="nb">require</span> <span class="s1">&#39;english&#39;</span>
+
+<span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span><span class="o">.</span><span class="n">establish_connection</span><span class="p">(</span>
+  <span class="s2">&quot;adapter&quot;</span> <span class="o">=&gt;</span> <span class="s2">&quot;sqlite3&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;database&quot;</span> <span class="o">=&gt;</span> <span class="s2">&quot;/Users/meganii/Work/Site/JekyllFFViewer/db/development.sqlite3&quot;</span>
+<span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">Post</span><span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
+  <span class="n">serialize</span> <span class="ss">:metadata</span>
+<span class="k">end</span>
+
+<span class="n">files</span> <span class="o">=</span> <span class="no">Dir</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s2">&quot;/Users/meganii/Dropbox/Sites/meganii.com/_posts&quot;</span><span class="p">,</span> <span class="s2">&quot;*&quot;</span><span class="p">))</span>
+
+<span class="n">files</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">f</span><span class="o">|</span>
+  <span class="n">ff</span> <span class="o">=</span> <span class="no">YAML</span><span class="o">.</span><span class="n">load_file</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+  <span class="n">file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+  <span class="n">content</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span>
+
+  <span class="k">if</span> <span class="n">content</span> <span class="o">=~</span> <span class="sr">/\A(---\s*\n.*?\n?)^(---\s*$\n?)/m</span>
+    <span class="n">post_content</span> <span class="o">=</span> <span class="vg">$POSTMATCH</span>
+  <span class="k">end</span>
+
+  <span class="n">filename</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+  <span class="k">unless</span> <span class="n">filename</span> <span class="o">=~</span> <span class="sr">/~\z/</span>
+    <span class="n">post</span> <span class="o">=</span> <span class="no">Post</span><span class="o">.</span><span class="n">new</span>
+    <span class="n">post</span><span class="o">.</span><span class="n">filename</span> <span class="o">=</span> <span class="n">filename</span> 
+    <span class="n">post</span><span class="o">.</span><span class="n">metadata</span> <span class="o">=</span> <span class="n">ff</span>
+    <span class="n">post</span><span class="o">.</span><span class="n">content</span> <span class="o">=</span> <span class="n">post_content</span>
+    <span class="n">post</span><span class="o">.</span><span class="n">save</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div>

@@ -1,0 +1,43 @@
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="o">---</span>
+<span class="ss">pageable</span><span class="p">:</span> <span class="kp">true</span>
+<span class="ss">per_page</span><span class="p">:</span> <span class="mi">10</span>
+<span class="ss">blog</span><span class="p">:</span> <span class="n">blog1</span>
+<span class="o">---</span>
+<span class="n">h1</span> <span class="n">blog1</span>
+<span class="o">-</span> <span class="n">page_articles</span><span class="p">(</span><span class="n">blog_controller</span><span class="o">.</span><span class="n">name</span><span class="p">)</span><span class="o">.</span><span class="n">each_with_index</span> <span class="k">do</span> <span class="o">|</span><span class="n">article</span><span class="p">,</span> <span class="n">i</span><span class="o">|</span>
+  <span class="n">h1</span>
+    <span class="o">=</span> <span class="n">link_to</span> <span class="n">article</span><span class="o">.</span><span class="n">title</span><span class="p">,</span> <span class="n">article</span>
+  <span class="nb">p</span>
+    <span class="o">-</span> <span class="n">article</span><span class="o">.</span><span class="n">tags</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">tag</span><span class="o">|</span>
+      <span class="n">small</span><span class="o">.</span><span class="n">label</span><span class="o">.</span><span class="n">label</span><span class="o">-</span><span class="n">default</span>
+        <span class="o">=</span> <span class="n">tag</span>
+  <span class="n">hr</span>
+  <span class="nb">p</span>
+    <span class="n">span</span><span class="o">.</span><span class="n">glyphicon</span><span class="o">.</span><span class="n">glyphicon</span><span class="o">-</span><span class="n">time</span>
+    <span class="o">|</span>  <span class="no">Posted</span> <span class="n">on</span> 
+    <span class="o">=</span> <span class="n">article</span><span class="o">.</span><span class="n">date</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%b %e&#39;</span><span class="p">)</span>
+  <span class="n">hr</span>
+  <span class="o">-</span> <span class="k">if</span> <span class="n">article</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">image_src</span>
+    <span class="n">img</span><span class="o">.</span><span class="n">img</span><span class="o">-</span><span class="n">responsive</span> <span class="n">src</span><span class="o">=</span><span class="n">article</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">image_src</span>
+    <span class="n">hr</span>
+  <span class="o">=</span> <span class="n">article</span><span class="o">.</span><span class="n">summary</span>
+  <span class="n">a</span><span class="o">.</span><span class="n">btn</span><span class="o">.</span><span class="n">btn</span><span class="o">-</span><span class="n">primary</span> <span class="n">href</span><span class="o">=</span><span class="n">article</span><span class="o">.</span><span class="n">url</span>
+    <span class="o">|</span> <span class="no">Read</span> <span class="no">More</span>
+    <span class="n">span</span><span class="o">.</span><span class="n">glyphicon</span><span class="o">.</span><span class="n">glyphicon</span><span class="o">-</span><span class="n">chevron</span><span class="o">-</span><span class="n">right</span>
+  <span class="n">hr</span>
+<span class="o">-</span> <span class="k">if</span> <span class="n">paginate</span>
+  <span class="o">-</span> <span class="k">if</span> <span class="n">num_pages</span> <span class="o">&gt;</span> <span class="mi">1</span>
+    <span class="o">.</span><span class="n">well</span><span class="o">-</span><span class="n">sm</span>
+      <span class="n">ul</span><span class="o">.</span><span class="n">pager</span>
+        <span class="o">-</span> <span class="k">if</span> <span class="n">page_number</span> <span class="o">&gt;</span> <span class="mi">1</span>
+          <span class="n">li</span><span class="o">.</span><span class="n">previous</span>
+            <span class="o">=</span> <span class="n">link_to</span> <span class="s1">&#39;←&#39;</span><span class="p">,</span> <span class="n">prev_page</span>
+        <span class="n">span</span><span class="o">.</span><span class="n">text</span><span class="o">-</span><span class="n">center</span>
+          <span class="o">|</span> <span class="no">Page</span> 
+          <span class="o">=</span> <span class="n">page_number</span>
+          <span class="o">|</span>  <span class="n">of</span> 
+          <span class="o">=</span> <span class="n">num_pages</span>
+        <span class="o">-</span> <span class="k">if</span> <span class="n">page_number</span> <span class="o">&lt;</span> <span class="n">num_pages</span>
+          <span class="n">li</span><span class="o">.</span><span class="n">next</span>
+            <span class="o">=</span> <span class="n">link_to</span> <span class="s1">&#39;→&#39;</span><span class="p">,</span> <span class="n">next_page</span>
+</code></pre></div>

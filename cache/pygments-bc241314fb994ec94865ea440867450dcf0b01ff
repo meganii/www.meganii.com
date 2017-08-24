@@ -1,0 +1,56 @@
+<div class="highlight"><pre><code class="language-json" data-lang="json"><span></span><span class="p">{</span>
+    <span class="nt">&quot;global&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&quot;check_for_updates_on_startup&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+        <span class="nt">&quot;show_in_menu_bar&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+        <span class="nt">&quot;show_profile_name_in_menu_bar&quot;</span><span class="p">:</span> <span class="kc">false</span>
+    <span class="p">},</span>
+    <span class="nt">&quot;profiles&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="nt">&quot;devices&quot;</span><span class="p">:</span> <span class="p">[</span>
+                <span class="p">{</span>
+                    <span class="nt">&quot;disable_built_in_keyboard_if_exists&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+                    <span class="nt">&quot;identifiers&quot;</span><span class="p">:</span> <span class="p">{</span>
+                        <span class="nt">&quot;is_keyboard&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+                        <span class="nt">&quot;is_pointing_device&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+                        <span class="nt">&quot;product_id&quot;</span><span class="p">:</span> <span class="mi">657</span><span class="p">,</span>
+                        <span class="nt">&quot;vendor_id&quot;</span><span class="p">:</span> <span class="mi">1452</span>
+                    <span class="p">},</span>
+                    <span class="nt">&quot;ignore&quot;</span><span class="p">:</span> <span class="kc">false</span>
+                <span class="p">}</span>
+            <span class="p">],</span>
+            <span class="nt">&quot;fn_function_keys&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="nt">&quot;f1&quot;</span><span class="p">:</span> <span class="s2">&quot;display_brightness_decrement&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;f10&quot;</span><span class="p">:</span> <span class="s2">&quot;mute&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;f11&quot;</span><span class="p">:</span> <span class="s2">&quot;volume_decrement&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;f12&quot;</span><span class="p">:</span> <span class="s2">&quot;volume_increment&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;f2&quot;</span><span class="p">:</span> <span class="s2">&quot;display_brightness_increment&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;f3&quot;</span><span class="p">:</span> <span class="s2">&quot;mission_control&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;f4&quot;</span><span class="p">:</span> <span class="s2">&quot;launchpad&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;f5&quot;</span><span class="p">:</span> <span class="s2">&quot;illumination_decrement&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;f6&quot;</span><span class="p">:</span> <span class="s2">&quot;illumination_increment&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;f7&quot;</span><span class="p">:</span> <span class="s2">&quot;rewind&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;f8&quot;</span><span class="p">:</span> <span class="s2">&quot;play_or_pause&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;f9&quot;</span><span class="p">:</span> <span class="s2">&quot;fastforward&quot;</span>
+            <span class="p">},</span>
+            <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Default profile&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;one_to_many_mappings&quot;</span><span class="p">:</span> <span class="p">{},</span>
+            <span class="nt">&quot;selected&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+            <span class="nt">&quot;simple_modifications&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="nt">&quot;caps_lock&quot;</span><span class="p">:</span> <span class="s2">&quot;left_control&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;left_command&quot;</span><span class="p">:</span> <span class="s2">&quot;left_command&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;left_control&quot;</span><span class="p">:</span> <span class="s2">&quot;caps_lock&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;right_command&quot;</span><span class="p">:</span> <span class="s2">&quot;right_command&quot;</span>
+            <span class="p">},</span>
+            <span class="nt">&quot;standalone_keys&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="nt">&quot;left_command&quot;</span><span class="p">:</span> <span class="s2">&quot;japanese_eisuu&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;right_command&quot;</span><span class="p">:</span> <span class="s2">&quot;japanese_kana&quot;</span>
+            <span class="p">},</span>
+            <span class="nt">&quot;virtual_hid_keyboard&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="nt">&quot;caps_lock_delay_milliseconds&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+                <span class="nt">&quot;keyboard_type&quot;</span><span class="p">:</span> <span class="s2">&quot;ansi&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;standalone_keys_delay_milliseconds&quot;</span><span class="p">:</span> <span class="mi">200</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</code></pre></div>

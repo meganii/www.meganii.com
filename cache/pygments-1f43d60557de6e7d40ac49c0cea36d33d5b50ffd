@@ -1,0 +1,63 @@
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>$ vagrant plugin install vagrant-hostmanager --verbose
+Installing the <span class="s1">&#39;vagrant-hostmanager&#39;</span> plugin. This can take a few minutes...
+Fetching <span class="nb">source</span> index from http://gems.hashicorp.com/
+Fetching gem metadata from https://rubygems.org/.........
+Fetching additional metadata from https://rubygems.org/..........
+Resolving dependencies...
+Using builder <span class="m">3</span>.2.2
+Using gyoku <span class="m">1</span>.1.1
+Using mini_portile <span class="m">0</span>.6.2
+
+Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+
+    /Applications/Vagrant/embedded/bin/ruby extconf.rb
+checking <span class="k">if</span> the C compiler accepts ... no
+checking <span class="k">if</span> the C compiler accepts -Wno-error<span class="o">=</span>unused-command-line-argument-hard-error-in-future... no
+Building nokogiri using packaged libraries.
+checking <span class="k">for</span> gzdopen<span class="o">()</span> in -lz... yes
+checking <span class="k">for</span> iconv using --with-opt-* flags... no
+checking <span class="k">for</span> iconv... no
+-----
+libiconv is missing.  Please locate mkmf.log to investigate how it is failing.
+-----
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file <span class="k">for</span> more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--with-opt-include
+	--without-opt-include<span class="o">=</span><span class="si">${</span><span class="nv">opt</span><span class="p">-dir</span><span class="si">}</span>/include
+	--with-opt-lib
+	--without-opt-lib<span class="o">=</span><span class="si">${</span><span class="nv">opt</span><span class="p">-dir</span><span class="si">}</span>/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir<span class="o">=</span>.
+	--curdir
+	--ruby<span class="o">=</span>/Applications/Vagrant/embedded/bin/ruby
+	--help
+	--clean
+	--use-system-libraries
+	--enable-static
+	--disable-static
+	--with-zlib-dir
+	--without-zlib-dir
+	--with-zlib-include
+	--without-zlib-include<span class="o">=</span><span class="si">${</span><span class="nv">zlib</span><span class="p">-dir</span><span class="si">}</span>/include
+	--with-zlib-lib
+	--without-zlib-lib<span class="o">=</span><span class="si">${</span><span class="nv">zlib</span><span class="p">-dir</span><span class="si">}</span>/lib
+	--enable-cross-build
+	--disable-cross-build
+
+
+Gem files will remain installed in /Users/meganii/.vagrant.d/gems/gems/nokogiri-1.6.6.2 <span class="k">for</span> inspection.
+Results logged to /Users/meganii/.vagrant.d/gems/gems/nokogiri-1.6.6.2/ext/nokogiri/gem_make.out
+Bundler, the underlying system Vagrant uses to install plugins,
+reported an error. The error is shown below. These errors are usually
+caused by misconfigured plugin installations or transient network
+issues. The error from Bundler is:
+
+An error occurred <span class="k">while</span> installing nokogiri <span class="o">(</span><span class="m">1</span>.6.6.2<span class="o">)</span>, and Bundler cannot <span class="k">continue</span>.
+Make sure that <span class="sb">`</span>gem install nokogiri -v <span class="s1">&#39;1.6.6.2&#39;</span><span class="sb">`</span> succeeds before bundling.
+</code></pre></div>

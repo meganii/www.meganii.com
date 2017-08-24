@@ -1,0 +1,3 @@
+<div class="highlight"><pre><code class="language-diff" data-lang="diff"><span></span><span class="gd">- page_articles.each_with_index</span>
+<span class="gi">+ page_articles(blog_controller.name).each_with_index </span>
+</code></pre></div>

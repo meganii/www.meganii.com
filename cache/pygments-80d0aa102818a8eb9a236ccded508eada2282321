@@ -1,0 +1,14 @@
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="nb">require</span> <span class="s1">&#39;rubygems&#39;</span>
+<span class="nb">require</span> <span class="s1">&#39;sqlite3&#39;</span>
+
+<span class="n">db</span> <span class="o">=</span> <span class="no">SQLite3</span><span class="o">::</span><span class="no">Database</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s2">&quot;/Users/meganii/Work/Site/JekyllFFViewer/db/development.sqlite3&quot;</span><span class="p">)</span>
+<span class="n">sql</span> <span class="o">=</span> <span class="o">&lt;&lt;</span><span class="dl">SQL</span>
+<span class="sh">CREATE TABLE Posts  (</span>
+<span class="sh">id integer PRIMARY KEY AUTOINCREMENT,</span>
+<span class="sh">filename String,</span>
+<span class="sh">content Text,</span>
+<span class="sh">metadata Text);</span>
+<span class="dl">SQL</span>
+<span class="n">db</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql</span><span class="p">)</span>
+<span class="n">db</span><span class="o">.</span><span class="n">close</span>
+</code></pre></div>

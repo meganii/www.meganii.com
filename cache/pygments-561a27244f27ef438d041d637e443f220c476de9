@@ -1,0 +1,13 @@
+<div class="highlight"><pre><code class="language-diff" data-lang="diff"><span></span># this is read by the standalone daemon and embedded servers
+[server]
+
+# this is only for the mysqld standalone daemon
+[mysqld]
+<span class="gi">+character-set-server=utf8 #added</span>
+
+[galera]
+
+[embedded]
+
+[mariadb]
+</code></pre></div>

@@ -1,0 +1,7 @@
+<div class="highlight"><pre><code class="language-diff" data-lang="diff"><span></span> desc &quot;deploy_to_sakura&quot;
+ task :deploy_to_sakura do
+   sh &quot;jekyll build&quot;
+<span class="gd">-  sh &#39;rsync -e -avz --delete _site/ meganii@11.111.111.111:/home/meganii/jekyll</span>
+<span class="gi">+  sh &#39;rsync --iconv=UTF-8-MAC,UTF-8 -e -avz --delete _site/ meganii@11.111.111.111/home/meganii/jekyll</span>
+ end
+</code></pre></div>

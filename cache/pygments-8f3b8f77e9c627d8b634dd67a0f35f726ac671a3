@@ -1,0 +1,15 @@
+<div class="highlight"><pre><code class="language-json" data-lang="json"><span></span><span class="p">{</span><span class="nt">&quot;talks&quot;</span><span class="p">:</span>
+  <span class="p">[{</span><span class="nt">&quot;talk&quot;</span><span class="p">:</span>
+    <span class="p">{</span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="mi">1183</span><span class="p">,</span>
+     <span class="nt">&quot;event_id&quot;</span><span class="p">:</span><span class="mi">64</span><span class="p">,</span>
+     <span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="s2">&quot;Matt Cutts: Try something new for 30 days&quot;</span><span class="p">,</span>
+     <span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;Is there something you&#39;ve always meant to do, wanted to do, but just ... haven&#39;t? Matt Cutts suggests: Try it for 30 days. This short, lighthearted talk offers a neat way to think about setting and achieving goals.&quot;</span><span class="p">,</span>
+     <span class="nt">&quot;slug&quot;</span><span class="p">:</span><span class="s2">&quot;matt_cutts_try_something_new_for_30_days&quot;</span><span class="p">,</span>
+     <span class="nt">&quot;native_language_code&quot;</span><span class="p">:</span><span class="s2">&quot;en&quot;</span><span class="p">,</span>
+     <span class="nt">&quot;published_at&quot;</span><span class="p">:</span><span class="s2">&quot;2011-07-01 15:14:00&quot;</span><span class="p">,</span>
+     <span class="nt">&quot;recorded_at&quot;</span><span class="p">:</span><span class="s2">&quot;2011-03-03 00:00:00&quot;</span><span class="p">,</span>
+     <span class="nt">&quot;updated_at&quot;</span><span class="p">:</span><span class="s2">&quot;2014-11-12 20:04:29&quot;</span><span class="p">,</span>
+     <span class="nt">&quot;released_at&quot;</span><span class="p">:</span><span class="s2">&quot;2014-11-12 20:04:29&quot;</span><span class="p">}}],</span>
+    <span class="nt">&quot;counts&quot;</span><span class="p">:{</span><span class="nt">&quot;this&quot;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="nt">&quot;total&quot;</span><span class="p">:</span><span class="mi">1</span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>

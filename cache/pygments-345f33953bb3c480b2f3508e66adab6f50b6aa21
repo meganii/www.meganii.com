@@ -1,0 +1,6 @@
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span></span><span class="nn">---</span>
+<span class="l l-Scalar l-Scalar-Plain">baseurl</span><span class="p p-Indicator">:</span> <span class="s">&quot;http://meganii.com&quot;</span>
+<span class="l l-Scalar l-Scalar-Plain">permalinks</span><span class="p p-Indicator">:</span>
+  <span class="l l-Scalar l-Scalar-Plain">post</span><span class="p p-Indicator">:</span> <span class="s">&quot;/blog/:year/:month/:day/:slug/&quot;</span>
+<span class="nn">---</span>
+</code></pre></div>
