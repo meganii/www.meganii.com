@@ -38,7 +38,7 @@ img: /images/scotchgrain.jpg
 
 雨の日用の革靴というと、合成革のイメージがあるかと思います。でも「シャインオアレイン」の革は、合皮ではなく撥水加工を施した本格レザーを使っています。そのため、革の質感がしっかりとあり、テカテカしないのが個人的には嬉しいポイントです。
 
-{{% img src="/images/2017/06/scotchgrain.jpg" w="582" h="363" %}}
+{{% img src="/images/2017/06/scotchgrain.jpg" w="320" h="320" %}}
 
 >甲革には、本革が持つしなやかな風合いと通気性を損なわずに、高い撥水性を実現した本格撥水レザーを採用。
 [シャインオアレインⅢ :: Dark Brown :: 2726DBR（EEE）](http://www.scotchgrain-shop.com/category-260/dark-brown/2726dbr-3e.html)
