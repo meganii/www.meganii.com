@@ -92,7 +92,7 @@ Custom domainを設定して、その後、HTTPSを有効にします。
 /app/*  /app/index.html  200!
 ```
 
-```_redirects
+```bash
 https://meganii.netlify.com/* https://meganii.com/:splat 301!
 http://meganii.netlify.com/* https://meganii.com/:splat 301!
 ```
