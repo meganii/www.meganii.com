@@ -7,13 +7,13 @@
   {{ if eq .id $itemId }}
   <div class="amazon-shortcode-box">
     <div class="amazon-shortcode-image">
-      <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="amazon-shortcode" target="\_blank">
-        <img src="{{ .image_url }}" alt="{{ .title }}" />
+      <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="amazon-shortcode">
+        <amp-img src="{{ .image_url }}" alt="{{ .title }}" height="200" width="200" layout="fixed" />
       </a>
     </div>
     <div class="amazon-shortcode-info">
       <p class="amazon-shortcode-title">
-        <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="amazon-shortcode" target="\_blank">
+        <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="amazon-shortcode">
           {{ .title }}
         </a>
       </p>
@@ -31,12 +31,11 @@
         {{ end }}
       </div>
       <p>
-        <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="backport" target="\_blank">
+        <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="backport">
           <i class="fa fa-amazon" aria-hidden="true"></i>&nbsp;Amazonで詳細を見る
         </a>
       </p>
     </div>
-    <br style="clear: both;"/>
   </div>
   {{ end }}
 {{ end }}
