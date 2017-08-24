@@ -8,7 +8,7 @@ cacheDir = "cache"
 PygmentsCodeFences = true
 pygmentsuseclasses = true
 
-googleAnalytics = "UA-55005303-5"
+googleAnalytics = "UA-38171597-1"
 
 [permalinks]
 blog = "/blog/:year/:month/:day/:slug/"
@@ -32,7 +32,7 @@ blog = "/blog/:year/:month/:day/:slug/"
   Author = "meganii"
   Birth = "Sun, March 3, 1988"
   DateForm = "Mon, Jan 2, 2006"
-  GoogleAnalyticsUserID = "UA-55005303-5"
+  GoogleAnalyticsUserID = "UA-38171597-1"
   Twitter = "meganii"
   Github = "https://github.com/meganii"
   ShowTagCloud = true
