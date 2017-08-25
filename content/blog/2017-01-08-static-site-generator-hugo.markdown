@@ -1,7 +1,7 @@
 ---
 title: "静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築"
 date: 2017-01-08T15:58:45+09:00
-lastmod: 2017-01-18T22:58:45+09:00
+lastmod: 2017-08-26T22:58:45+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo','Blog','Jekyll']
@@ -10,7 +10,7 @@ slug: static-site-generator-hugo
 img: "/images/hugo_s.png"
 ---
 
-[![https://gyazo.com/594fc53bf33bc44dc5a18348c7967478](https://i.gyazo.com/594fc53bf33bc44dc5a18348c7967478.png)](https://gyazo.com/594fc53bf33bc44dc5a18348c7967478)
+{{% img src="https://farm5.staticflickr.com/4426/35987328613_f5cd30795a_o.png" w="685" h="368" %}}
 
 自分でサイトを構築するとしたら、どんな選択肢があるでしょうか？HTMLを自分でぽちぽち作るのは大変なので、CMS(Content Management System)を利用することになりますが、そのCMSにもさまざまな種類がありどれを選んだらよいのでしょうか？
 
