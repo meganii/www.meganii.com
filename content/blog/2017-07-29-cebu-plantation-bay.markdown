@@ -19,7 +19,7 @@ img: https://farm5.staticflickr.com/4293/36106967481_c962ffa6d3_s.jpg
 </amp-img>
 </a>
 
-「<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884792601&vc_url=http%3A%2F%2Fhotels.his-j.com%2FHotelDetail%2FCEB00022.aspx%3Fcid%3D1790" target="_blank" rel="nofollow"><amp-img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884792601" height="1" width="0">プランテーション ベイ リゾートアンドスパ</a>」に何もしない贅沢を味わいに行ってきました。
+「<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884792601&vc_url=http%3A%2F%2Fhotels.his-j.com%2FHotelDetail%2FCEB00022.aspx%3Fcid%3D1790" target="_blank" rel="nofollow"><amp-img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884792601" height="1" width="0" layout="fixed"></amp-img>プランテーション ベイ リゾートアンドスパ</a>」に何もしない贅沢を味わいに行ってきました。
 
 
 <!--more-->
@@ -109,7 +109,7 @@ img: https://farm5.staticflickr.com/4293/36106967481_c962ffa6d3_s.jpg
 <a href="https://www.flickr.com/photos/35571855@N06/35407271344/in/dateposted-public/" title="サンミゲルビール"><amp-img src="https://farm5.staticflickr.com/4302/35407271344_e80cd19cf4_c.jpg"
          alt="サンミゲルビール"
          width="800"
-         height="600"
+         height="800"
          layout="responsive">
 </amp-img></a>
 
@@ -162,9 +162,9 @@ img: https://farm5.staticflickr.com/4293/36106967481_c962ffa6d3_s.jpg
 
 ## アイランドピクニックとプラナスパ
 
-日本からベルトラ経由で「<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884792593&vc_url=https%3A%2F%2Fwww.veltra.com%2Fjp%2Fasia%2Fphilippines%2Fcebu%2Fa%2F12509%3Fsid%3D1011" target="_blank" rel="nofollow"><amp-img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884792593" height="1" width="0" />アイランドピクニックとプラナスパ</a>」のツアーを申し込んでいました。
+日本からベルトラ経由で「<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884792593&vc_url=https%3A%2F%2Fwww.veltra.com%2Fjp%2Fasia%2Fphilippines%2Fcebu%2Fa%2F12509%3Fsid%3D1011" target="_blank" rel="nofollow"><amp-img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884792593" height="1" width="0" layout="fixed"></amp-img>アイランドピクニックとプラナスパ</a>」のツアーを申し込んでいました。
 
-<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884461625&vc_url=https%3A%2F%2Fwww.veltra.com%2Fjp%2Fasia%2Fphilippines%2Fcebu%2Fa%2F12509%3Fsid%3D1011" target="_blank" rel="nofollow"><amp-img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884461625" height="1" width="0">【アイランドピクニック】人気の2島めぐり☆ヒルトゥガン島＆ナルスアン島　珊瑚保護区で感動シュノーケル＜現地ガイド(日本語可)／BBQランチ／プラナスパプラン有＞</a>
+<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884461625&vc_url=https%3A%2F%2Fwww.veltra.com%2Fjp%2Fasia%2Fphilippines%2Fcebu%2Fa%2F12509%3Fsid%3D1011" target="_blank" rel="nofollow"><amp-img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884461625" height="1" width="0" layout="fixed"></amp-img>【アイランドピクニック】人気の2島めぐり☆ヒルトゥガン島＆ナルスアン島　珊瑚保護区で感動シュノーケル＜現地ガイド(日本語可)／BBQランチ／プラナスパプラン有＞</a>
 
 ### アイランドピクニック
 
