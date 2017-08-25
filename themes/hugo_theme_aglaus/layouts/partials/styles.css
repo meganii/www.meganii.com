@@ -185,7 +185,8 @@ section>header span {
 
 /* Parts:share */
 .p-share {
-  margin-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .p-share a {
@@ -410,6 +411,25 @@ article.li.sm .header-wrapper {
 
 .article-body figcaption a {
   color: #263238;
+}
+
+/* Google Adsense */
+.google-adsense p {
+  font-size: 10px;
+  color: #818181;
+  margin-bottom: 0px;
+}
+/* Google Adsense */
+.google-adsense {
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.ad {
+  width: 336px;
+  height: 280px;
+  margin: 5px;
+  float : left;
 }
 
 .highlight .hll { background-color: #49483e }

@@ -20,6 +20,32 @@
 
   <div class="article-body">{{ .Content }}</div>
 
+  <div class="google-adsense">
+    <p>スポンサーリンク</p>
+    <div class="ad">
+      <amp-ad
+        layout="responsive"
+        width=300
+        height=250
+        type="adsense"
+        data-ad-client="ca-pub-5340212676785058"
+        data-ad-slot="7368951150">
+      </amp-ad>
+    </div>
+    <div class="ad sp-none">
+      <amp-ad
+        layout="responsive"
+        width=300
+        height=250
+        type="adsense"
+        data-ad-client="ca-pub-5340212676785058"
+        data-ad-slot="7368951150">
+      </amp-ad>
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+
   {{ partial "share.html" . }}
 
   <footer class="article-footer">
@@ -50,4 +76,3 @@
     </section>
   </footer>
 </article>
-
