@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: Lato,'Hiragino Kaku Gothic Pro',メイリオ,Meiryo,sans-serif;
+  font-family: 'Hiragino Kaku Gothic Pro',メイリオ,Meiryo,sans-serif;
   font-size: inherit;
   margin: 0;
   color: #263238;
@@ -75,7 +75,7 @@ main {
 
 /* Parts:logo */
 .p-logo {
-  font-family: Lobster, cursive;
+  font-family: cursive;
 }
 
 .p-logo a {
