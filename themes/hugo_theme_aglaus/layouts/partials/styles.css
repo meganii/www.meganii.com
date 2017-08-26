@@ -401,6 +401,7 @@ article.li.sm .header-wrapper {
     width: auto;
     height: auto;
   }
+  .sp-none { display: none; }
 }
 
 .article-body figcaption {
@@ -415,20 +416,17 @@ article.li.sm .header-wrapper {
 
 /* Google Adsense */
 .google-adsense p {
-  font-size: 10px;
+  font-size: .5rem;
   color: #818181;
-  margin-bottom: 0px;
 }
 /* Google Adsense */
 .google-adsense {
-  margin-top: 5px;
-  margin-bottom: 40px;
+  margin-top: 1rem;
 }
 
 .ad {
-  width: 336px;
-  height: 280px;
-  margin: 5px;
+  width: 21rem;
+  height: 16.6rem;
   float : left;
 }
 
