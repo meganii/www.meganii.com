@@ -4,6 +4,7 @@ theme = "hugo_theme_aglaus"
 contentDir = "content"
 publishDir = "public"
 cacheDir = "cache"
+hasCJKLanguage = true
 
 PygmentsCodeFences = true
 pygmentsuseclasses = true
