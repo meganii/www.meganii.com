@@ -68,7 +68,6 @@ img: "https://c5.staticflickr.com/8/7289/27861183956_a050a81ea2_t.jpg"
 
 腰痛にお悩みの方は、一度試してみてはいかがでしょうか？
 
-- [やわこ](http://www.amazon.co.jp/exec/obidos/asin/B0109GGL4I/meganii-22/)
-- [かたお](http://www.amazon.co.jp/exec/obidos/asin/B0109GH0UC/meganii-22/)
-
+{{% amazon B0109GGL4I %}}
+{{% amazon B0109GH0UC %}}
 {{% amazon B000BSCAPO %}}
