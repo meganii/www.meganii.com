@@ -1,10 +1,168 @@
 {
-  "productgroup": "Book",
-  "publicationdate": "2013-02-19",
-  "image_url": "https://images-fe.ssl-images-amazon.com/images/I/51nSK4pE-RL._SL160_.jpg",
-  "item_url": "https://www.amazon.co.jp/Effective-JavaScript-David-Herman/dp/4798131113%3FSubscriptionId%3DAKIAI6MZOKQQCKBKJBLQ%26tag%3Dmeganii-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4798131113",
-  "publisher": "翔泳社",
-  "title": "Effective JavaScript",
-  "author": "David Herman",
-  "id": "4798131113"
+  "Item": {
+    "ASIN": "4798131113",
+    "DetailPageURL": "https://www.amazon.co.jp/Effective-JavaScript-David-Herman/dp/4798131113?SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4798131113",
+    "ItemLinks": {
+      "ItemLink": [
+        {
+          "Description": "Add To Wishlist",
+          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4798131113&SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798131113"
+        },
+        {
+          "Description": "Tell A Friend",
+          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4798131113?SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798131113"
+        },
+        {
+          "Description": "All Customer Reviews",
+          "URL": "https://www.amazon.co.jp/review/product/4798131113?SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798131113"
+        },
+        {
+          "Description": "All Offers",
+          "URL": "https://www.amazon.co.jp/gp/offer-listing/4798131113?SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798131113"
+        }
+      ]
+    },
+    "SmallImage": {
+      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51nSK4pE-RL._SL75_.jpg",
+      "Height": "75",
+      "Width": "59"
+    },
+    "MediumImage": {
+      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51nSK4pE-RL._SL160_.jpg",
+      "Height": "160",
+      "Width": "126"
+    },
+    "LargeImage": {
+      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51nSK4pE-RL.jpg",
+      "Height": "500",
+      "Width": "395"
+    },
+    "ImageSets": {
+      "ImageSet": {
+        "Category": "primary",
+        "SwatchImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51nSK4pE-RL._SL30_.jpg",
+          "Height": "30",
+          "Width": "24"
+        },
+        "SmallImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51nSK4pE-RL._SL75_.jpg",
+          "Height": "75",
+          "Width": "59"
+        },
+        "ThumbnailImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51nSK4pE-RL._SL75_.jpg",
+          "Height": "75",
+          "Width": "59"
+        },
+        "TinyImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51nSK4pE-RL._SL110_.jpg",
+          "Height": "110",
+          "Width": "87"
+        },
+        "MediumImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51nSK4pE-RL._SL160_.jpg",
+          "Height": "160",
+          "Width": "126"
+        },
+        "LargeImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51nSK4pE-RL.jpg",
+          "Height": "500",
+          "Width": "395"
+        }
+      }
+    },
+    "ItemAttributes": {
+      "Author": "David Herman",
+      "Binding": "大型本",
+      "Creator": [
+        "吉川 邦夫",
+        "吉川 邦夫"
+      ],
+      "EAN": "9784798131115",
+      "EANList": {
+        "EANListElement": "9784798131115"
+      },
+      "IsAdultProduct": "0",
+      "ISBN": "4798131113",
+      "Label": "翔泳社",
+      "Languages": {
+        "Language": [
+          {
+            "Name": "日本語",
+            "Type": "Published"
+          },
+          {
+            "Name": "日本語",
+            "Type": "Unknown"
+          }
+        ]
+      },
+      "Manufacturer": "翔泳社",
+      "NumberOfPages": "216",
+      "PackageDimensions": {
+        "Height": "79",
+        "Length": "898",
+        "Weight": "101",
+        "Width": "717"
+      },
+      "ProductGroup": "Book",
+      "ProductTypeName": "ABIS_BOOK",
+      "PublicationDate": "2013-02-19",
+      "Publisher": "翔泳社",
+      "Studio": "翔泳社",
+      "Title": "Effective JavaScript"
+    },
+    "OfferSummary": {
+      "LowestNewPrice": {
+        "Amount": "3039",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 3,039"
+      },
+      "LowestUsedPrice": {
+        "Amount": "2028",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 2,028"
+      },
+      "TotalNew": "3",
+      "TotalUsed": "15",
+      "TotalCollectible": "0",
+      "TotalRefurbished": "0"
+    },
+    "Offers": {
+      "TotalOffers": "1",
+      "TotalOfferPages": "1",
+      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4798131113?SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798131113",
+      "Offer": {
+        "OfferAttributes": {
+          "Condition": "New"
+        },
+        "OfferListing": {
+          "OfferListingId": "PasRFAaSmTIT1TGsGtoS29jxHDcP3hzXWflDEU1Qz0XLLMUIS9uYnZsEUTEKDPsMWi7wQ0DGlaMt7RAicKLBv9CFgkebtpKWR9YfEBDcc9s%3D",
+          "Price": {
+            "Amount": "3456",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 3,456"
+          },
+          "Availability": "在庫あり。",
+          "AvailabilityAttributes": {
+            "AvailabilityType": "now",
+            "MinimumHours": "0",
+            "MaximumHours": "0"
+          },
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "160",
+          "TypicalRedemptionValue": {
+            "Amount": "160",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 160"
+          }
+        }
+      }
+    }
+  },
+  "Lastmod": "2017-08-27 14:16:37 +0900"
 }

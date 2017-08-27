@@ -1,10 +1,129 @@
 {
-  "productgroup": "Book",
-  "publicationdate": "2009-11-13",
-  "image_url": "https://images-fe.ssl-images-amazon.com/images/I/41Xz5nbHwbL._SL160_.jpg",
-  "item_url": "https://www.amazon.co.jp/%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%83%BB%E3%82%AB%E3%83%95%E3%82%A7%E3%82%92%E3%82%84%E3%82%8D%E3%81%86-%E9%A6%99%E5%8F%96-%E4%B8%80%E6%98%AD/dp/4532314887%3FSubscriptionId%3DAKIAI6MZOKQQCKBKJBLQ%26tag%3Dmeganii-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4532314887",
-  "publisher": "日本経済新聞出版社",
-  "title": "ワールド・カフェをやろう",
-  "author": "香取 一昭",
-  "id": "4532314887"
+  "Item": {
+    "ASIN": "4532314887",
+    "DetailPageURL": "https://www.amazon.co.jp/%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%83%BB%E3%82%AB%E3%83%95%E3%82%A7%E3%82%92%E3%82%84%E3%82%8D%E3%81%86-%E9%A6%99%E5%8F%96-%E4%B8%80%E6%98%AD/dp/4532314887?SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4532314887",
+    "ItemLinks": {
+      "ItemLink": [
+        {
+          "Description": "Add To Wishlist",
+          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4532314887&SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4532314887"
+        },
+        {
+          "Description": "Tell A Friend",
+          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4532314887?SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4532314887"
+        },
+        {
+          "Description": "All Customer Reviews",
+          "URL": "https://www.amazon.co.jp/review/product/4532314887?SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4532314887"
+        },
+        {
+          "Description": "All Offers",
+          "URL": "https://www.amazon.co.jp/gp/offer-listing/4532314887?SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4532314887"
+        }
+      ]
+    },
+    "SmallImage": {
+      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Xz5nbHwbL._SL75_.jpg",
+      "Height": "75",
+      "Width": "51"
+    },
+    "MediumImage": {
+      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Xz5nbHwbL._SL160_.jpg",
+      "Height": "160",
+      "Width": "108"
+    },
+    "LargeImage": {
+      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Xz5nbHwbL.jpg",
+      "Height": "500",
+      "Width": "338"
+    },
+    "ImageSets": {
+      "ImageSet": {
+        "Category": "primary",
+        "SwatchImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Xz5nbHwbL._SL30_.jpg",
+          "Height": "30",
+          "Width": "20"
+        },
+        "SmallImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Xz5nbHwbL._SL75_.jpg",
+          "Height": "75",
+          "Width": "51"
+        },
+        "ThumbnailImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Xz5nbHwbL._SL75_.jpg",
+          "Height": "75",
+          "Width": "51"
+        },
+        "TinyImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Xz5nbHwbL._SL110_.jpg",
+          "Height": "110",
+          "Width": "74"
+        },
+        "MediumImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Xz5nbHwbL._SL160_.jpg",
+          "Height": "160",
+          "Width": "108"
+        },
+        "LargeImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Xz5nbHwbL.jpg",
+          "Height": "500",
+          "Width": "338"
+        }
+      }
+    },
+    "ItemAttributes": {
+      "Author": [
+        "香取 一昭",
+        "大川 恒"
+      ],
+      "Binding": "単行本（ソフトカバー）",
+      "EAN": "9784532314880",
+      "EANList": {
+        "EANListElement": "9784532314880"
+      },
+      "IsAdultProduct": "0",
+      "ISBN": "4532314887",
+      "Label": "日本経済新聞出版社",
+      "Languages": {
+        "Language": {
+          "Name": "日本語",
+          "Type": "Published"
+        }
+      },
+      "Manufacturer": "日本経済新聞出版社",
+      "NumberOfPages": "236",
+      "PackageDimensions": {
+        "Height": "79",
+        "Length": "740",
+        "Weight": "71",
+        "Width": "512"
+      },
+      "PackageQuantity": "1",
+      "ProductGroup": "Book",
+      "ProductTypeName": "ABIS_BOOK",
+      "PublicationDate": "2009-11-13",
+      "Publisher": "日本経済新聞出版社",
+      "SKU": "120523-829",
+      "Studio": "日本経済新聞出版社",
+      "Title": "ワールド・カフェをやろう"
+    },
+    "OfferSummary": {
+      "LowestUsedPrice": {
+        "Amount": "479",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 479"
+      },
+      "TotalNew": "0",
+      "TotalUsed": "21",
+      "TotalCollectible": "0",
+      "TotalRefurbished": "0"
+    },
+    "Offers": {
+      "TotalOffers": "0",
+      "TotalOfferPages": "0",
+      "MoreOffersUrl": "0"
+    }
+  },
+  "Lastmod": "2017-08-27 14:15:38 +0900"
 }

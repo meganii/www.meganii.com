@@ -1,10 +1,193 @@
 {
-  "productgroup": "Book",
-  "publicationdate": "2014-04-11",
-  "image_url": "https://images-fe.ssl-images-amazon.com/images/I/51lycs3O%2BrL._SL160_.jpg",
-  "item_url": "https://www.amazon.co.jp/Ruby-Rails-%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-%E5%B1%B1%E7%94%B0-%E7%A5%A5%E5%AF%9B/dp/4774164100%3FSubscriptionId%3DAKIAI6MZOKQQCKBKJBLQ%26tag%3Dmeganii-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4774164100",
-  "publisher": "技術評論社",
-  "title": "Ruby on Rails 4 アプリケーションプログラミング",
-  "author": "山田 祥寛",
-  "id": "4774164100"
+  "Item": {
+    "ASIN": "4774164100",
+    "DetailPageURL": "https://www.amazon.co.jp/Ruby-Rails-%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-%E5%B1%B1%E7%94%B0-%E7%A5%A5%E5%AF%9B/dp/4774164100?SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4774164100",
+    "ItemLinks": {
+      "ItemLink": [
+        {
+          "Description": "Add To Wishlist",
+          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4774164100&SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774164100"
+        },
+        {
+          "Description": "Tell A Friend",
+          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4774164100?SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774164100"
+        },
+        {
+          "Description": "All Customer Reviews",
+          "URL": "https://www.amazon.co.jp/review/product/4774164100?SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774164100"
+        },
+        {
+          "Description": "All Offers",
+          "URL": "https://www.amazon.co.jp/gp/offer-listing/4774164100?SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774164100"
+        }
+      ]
+    },
+    "SmallImage": {
+      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51lycs3O%2BrL._SL75_.jpg",
+      "Height": "75",
+      "Width": "56"
+    },
+    "MediumImage": {
+      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51lycs3O%2BrL._SL160_.jpg",
+      "Height": "160",
+      "Width": "120"
+    },
+    "LargeImage": {
+      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51lycs3O%2BrL.jpg",
+      "Height": "500",
+      "Width": "376"
+    },
+    "ImageSets": {
+      "ImageSet": [
+        {
+          "Category": "variant",
+          "SwatchImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41kzZpVFPdL._SL30_.jpg",
+            "Height": "30",
+            "Width": "23"
+          },
+          "SmallImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41kzZpVFPdL._SL75_.jpg",
+            "Height": "75",
+            "Width": "56"
+          },
+          "ThumbnailImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41kzZpVFPdL._SL75_.jpg",
+            "Height": "75",
+            "Width": "56"
+          },
+          "TinyImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41kzZpVFPdL._SL110_.jpg",
+            "Height": "110",
+            "Width": "83"
+          },
+          "MediumImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41kzZpVFPdL._SL160_.jpg",
+            "Height": "160",
+            "Width": "120"
+          },
+          "LargeImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41kzZpVFPdL.jpg",
+            "Height": "500",
+            "Width": "376"
+          }
+        },
+        {
+          "Category": "primary",
+          "SwatchImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51lycs3O%2BrL._SL30_.jpg",
+            "Height": "30",
+            "Width": "23"
+          },
+          "SmallImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51lycs3O%2BrL._SL75_.jpg",
+            "Height": "75",
+            "Width": "56"
+          },
+          "ThumbnailImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51lycs3O%2BrL._SL75_.jpg",
+            "Height": "75",
+            "Width": "56"
+          },
+          "TinyImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51lycs3O%2BrL._SL110_.jpg",
+            "Height": "110",
+            "Width": "83"
+          },
+          "MediumImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51lycs3O%2BrL._SL160_.jpg",
+            "Height": "160",
+            "Width": "120"
+          },
+          "LargeImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51lycs3O%2BrL.jpg",
+            "Height": "500",
+            "Width": "376"
+          }
+        }
+      ]
+    },
+    "ItemAttributes": {
+      "Author": "山田 祥寛",
+      "Binding": "大型本",
+      "EAN": "9784774164106",
+      "EANList": {
+        "EANListElement": "9784774164106"
+      },
+      "IsAdultProduct": "0",
+      "ISBN": "4774164100",
+      "Label": "技術評論社",
+      "Languages": {
+        "Language": {
+          "Name": "日本語",
+          "Type": "Published"
+        }
+      },
+      "Manufacturer": "技術評論社",
+      "NumberOfPages": "544",
+      "PackageDimensions": {
+        "Height": "118",
+        "Length": "906",
+        "Weight": "194",
+        "Width": "701"
+      },
+      "ProductGroup": "Book",
+      "ProductTypeName": "ABIS_BOOK",
+      "PublicationDate": "2014-04-11",
+      "Publisher": "技術評論社",
+      "Studio": "技術評論社",
+      "Title": "Ruby on Rails 4 アプリケーションプログラミング"
+    },
+    "OfferSummary": {
+      "LowestNewPrice": {
+        "Amount": "3780",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 3,780"
+      },
+      "LowestUsedPrice": {
+        "Amount": "1039",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 1,039"
+      },
+      "TotalNew": "1",
+      "TotalUsed": "35",
+      "TotalCollectible": "0",
+      "TotalRefurbished": "0"
+    },
+    "Offers": {
+      "TotalOffers": "1",
+      "TotalOfferPages": "1",
+      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4774164100?SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774164100",
+      "Offer": {
+        "OfferAttributes": {
+          "Condition": "New"
+        },
+        "OfferListing": {
+          "OfferListingId": "TlliDw6PXnY62gxMge28yjrImyLRtxcvuBGEmTeJjZ8NQZL6Qsbgy2Y%2B2FnAMJRDxLiY8tWwlIMSmfj9h6SJOTjDAGHsEoYyGp2UlAUybac%3D",
+          "Price": {
+            "Amount": "3780",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 3,780"
+          },
+          "Availability": "在庫あり。",
+          "AvailabilityAttributes": {
+            "AvailabilityType": "now",
+            "MinimumHours": "0",
+            "MaximumHours": "0"
+          },
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "35",
+          "TypicalRedemptionValue": {
+            "Amount": "35",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 35"
+          }
+        }
+      }
+    }
+  },
+  "Lastmod": "2017-08-27 14:16:59 +0900"
 }

@@ -1,10 +1,159 @@
 {
-  "productgroup": "Book",
-  "publicationdate": "2012-11-20",
-  "image_url": "https://images-fe.ssl-images-amazon.com/images/I/51jdbeo%2BrmL._SL160_.jpg",
-  "item_url": "https://www.amazon.co.jp/Web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E3%81%A4%E3%81%8F%E3%82%8A%E6%96%B9-%7E%E3%80%8C%E6%96%B0%E3%81%97%E3%81%84%E3%80%8D%E3%82%92%E7%94%9F%E3%81%BF%E5%87%BA%E3%81%99%E3%81%9F%E3%82%81%E3%81%AE33%E3%81%AE%E3%82%A8%E3%83%83%E3%82%BB%E3%82%A4-Software-Design-plus/dp/4774154075%3FSubscriptionId%3DAKIAI6MZOKQQCKBKJBLQ%26tag%3Dmeganii-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4774154075",
-  "publisher": "技術評論社",
-  "title": "Webサービスのつくり方 ~「新しい」を生み出すための33のエッセイ (Software Design plus)",
-  "author": "和田 裕介",
-  "id": "4774154075"
+  "Item": {
+    "ASIN": "4774154075",
+    "DetailPageURL": "https://www.amazon.co.jp/Web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E3%81%A4%E3%81%8F%E3%82%8A%E6%96%B9-~%E3%80%8C%E6%96%B0%E3%81%97%E3%81%84%E3%80%8D%E3%82%92%E7%94%9F%E3%81%BF%E5%87%BA%E3%81%99%E3%81%9F%E3%82%81%E3%81%AE33%E3%81%AE%E3%82%A8%E3%83%83%E3%82%BB%E3%82%A4-Software-Design-plus/dp/4774154075?SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4774154075",
+    "ItemLinks": {
+      "ItemLink": [
+        {
+          "Description": "Add To Wishlist",
+          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4774154075&SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774154075"
+        },
+        {
+          "Description": "Tell A Friend",
+          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4774154075?SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774154075"
+        },
+        {
+          "Description": "All Customer Reviews",
+          "URL": "https://www.amazon.co.jp/review/product/4774154075?SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774154075"
+        },
+        {
+          "Description": "All Offers",
+          "URL": "https://www.amazon.co.jp/gp/offer-listing/4774154075?SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774154075"
+        }
+      ]
+    },
+    "SmallImage": {
+      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51jdbeo%2BrmL._SL75_.jpg",
+      "Height": "75",
+      "Width": "53"
+    },
+    "MediumImage": {
+      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51jdbeo%2BrmL._SL160_.jpg",
+      "Height": "160",
+      "Width": "113"
+    },
+    "LargeImage": {
+      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51jdbeo%2BrmL.jpg",
+      "Height": "500",
+      "Width": "353"
+    },
+    "ImageSets": {
+      "ImageSet": {
+        "Category": "primary",
+        "SwatchImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51jdbeo%2BrmL._SL30_.jpg",
+          "Height": "30",
+          "Width": "21"
+        },
+        "SmallImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51jdbeo%2BrmL._SL75_.jpg",
+          "Height": "75",
+          "Width": "53"
+        },
+        "ThumbnailImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51jdbeo%2BrmL._SL75_.jpg",
+          "Height": "75",
+          "Width": "53"
+        },
+        "TinyImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51jdbeo%2BrmL._SL110_.jpg",
+          "Height": "110",
+          "Width": "78"
+        },
+        "MediumImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51jdbeo%2BrmL._SL160_.jpg",
+          "Height": "160",
+          "Width": "113"
+        },
+        "LargeImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51jdbeo%2BrmL.jpg",
+          "Height": "500",
+          "Width": "353"
+        }
+      }
+    },
+    "ItemAttributes": {
+      "Author": "和田 裕介",
+      "Binding": "単行本（ソフトカバー）",
+      "EAN": "9784774154077",
+      "EANList": {
+        "EANListElement": "9784774154077"
+      },
+      "IsAdultProduct": "0",
+      "ISBN": "4774154075",
+      "Label": "技術評論社",
+      "Languages": {
+        "Language": {
+          "Name": "日本語",
+          "Type": "Published"
+        }
+      },
+      "Manufacturer": "技術評論社",
+      "NumberOfPages": "208",
+      "PackageDimensions": {
+        "Height": "79",
+        "Length": "835",
+        "Weight": "71",
+        "Width": "583"
+      },
+      "PackageQuantity": "1",
+      "ProductGroup": "Book",
+      "ProductTypeName": "ABIS_BOOK",
+      "PublicationDate": "2012-11-20",
+      "Publisher": "技術評論社",
+      "Studio": "技術評論社",
+      "Title": "Webサービスのつくり方 ~「新しい」を生み出すための33のエッセイ (Software Design plus)"
+    },
+    "OfferSummary": {
+      "LowestNewPrice": {
+        "Amount": "2354",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 2,354"
+      },
+      "LowestUsedPrice": {
+        "Amount": "339",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 339"
+      },
+      "TotalNew": "2",
+      "TotalUsed": "20",
+      "TotalCollectible": "0",
+      "TotalRefurbished": "0"
+    },
+    "Offers": {
+      "TotalOffers": "1",
+      "TotalOfferPages": "1",
+      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4774154075?SubscriptionId=AKIAIGLW3XFYOPOBIWMA&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774154075",
+      "Offer": {
+        "OfferAttributes": {
+          "Condition": "New"
+        },
+        "OfferListing": {
+          "OfferListingId": "9HGnpZ4LYUa7%2FgvuCTaDrdS%2F6aSW7UvTai5LoxxemTxOBJFwPkhT4YyNXWR28lwFvYrZzTQRTZa5n71M6bNd4PjIXAmzzgtz3BQtELvLeL0%3D",
+          "Price": {
+            "Amount": "2354",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 2,354"
+          },
+          "Availability": "在庫あり。",
+          "AvailabilityAttributes": {
+            "AvailabilityType": "now",
+            "MinimumHours": "0",
+            "MaximumHours": "0"
+          },
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "71",
+          "TypicalRedemptionValue": {
+            "Amount": "71",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 71"
+          }
+        }
+      }
+    }
+  },
+  "Lastmod": "2017-08-27 14:14:55 +0900"
 }
