@@ -1,6 +1,19 @@
 {{ $associateId := "meganii-22" }}
-{{ $itemId := index .Params 0 }}
 {{ $json := .Site.Data.amazon }}
+
+{{ if .IsNamedParams }}
+  {{ $.Scratch.Add "amazonItemId" ( .Get "id") }}
+  {{ $.Scratch.Add "amazonItemWidth" ( .Get "width") }}
+  {{ $.Scratch.Add "amazonItemHeight" ( .Get "height") }}
+{{ else }}
+  {{ $.Scratch.Add "amazonItemId" ( .Get 0) }}
+  {{ $.Scratch.Add "amazonItemWidth" "100" }}
+  {{ $.Scratch.Add "amazonItemHeight" "100" }}
+{{ end }}
+
+{{ $itemId := $.Scratch.Get "amazonItemId" }}
+{{ $imgWidth := $.Scratch.Get "amazonItemWidth" }}
+{{ $imgHeight := $.Scratch.Get "amazonItemHeight" }}
 
 <div>
 {{ range $json }}
@@ -8,7 +21,7 @@
   <div class="amazon-shortcode-box">
     <div class="amazon-shortcode-image">
       <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="amazon-shortcode">
-        <amp-img src="{{ .image_url }}" alt="{{ .title }}" height="200" width="200" layout="fixed" />
+        <amp-img src="{{ .image_url }}" alt="{{ .title }}" width="{{ $imgWidth }}" height="{{ $imgHeight }}" layout="fixed" />
       </a>
     </div>
     <div class="amazon-shortcode-info">
