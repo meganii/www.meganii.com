@@ -432,20 +432,35 @@ article.li.sm .header-wrapper {
 
 /***** Amazon Shortcode *****/
 .amazon-shortcode-box {
+  display: table;
   border: 1px solid #cccccc;
   border-radius: 2px;
   margin: 4px;
-  margin-bottom:1.0em;
-  height: auto;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.amazon-shortcode-box * {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.amazon-shortcode-inner {
+  padding: .8rem;
+}
+
+.amazon-shortcode-content {
 }
 
 .amazon-shortcode-image {
-  float:left;
-  padding: 12px 24px 12px 12px;
+  display: table-cell;
+  padding-right: 10px;
+  vertical-align: middle;
 }
 
-.amazon-shortcode-image img {
-  border: 1px solid #F0F0F0;
+.amazon-shortcode-body {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .amazon-shortcode-info {
