@@ -10,8 +10,7 @@ slug: get-a-haircut-by-minimo
 img: "https://c5.staticflickr.com/6/5589/30324509396_9e63960c57_t.jpg"
 ---
 
-![minimo](https://farm6.staticflickr.com/5589/30324509396_9e63960c57_z.jpg)
-
+{{% img src="https://farm6.staticflickr.com/5589/30324509396_9e63960c57_z.jpg" w="640" h="443" %}}
 
 「カットモデル」ってなんだかすごく敷居が高くないですか？
 
@@ -90,9 +89,7 @@ minimoとは一言で表現すると、**練習で髪を切りたい「美容師
 と、みんなハッピーになる「minimo」です。ぜひ使ってみてください。
 
 
-<a href="https://itunes.apple.com/jp/app/minimo-%E3%83%9F%E3%83%8B%E3%83%A2-%E3%82%B5%E3%83%AD%E3%83%B3%E4%BA%88%E7%B4%84/id719858778?mt=8&at=1l3vpSH" style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/ja-jp/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;"></a><br />
 <a href="https://itunes.apple.com/jp/app/puchipurade-mei-rong-shi-neiru/id719858778?mt=8&at=1l3vpSH&ct=E27k4H">プチプラで美容室・ネイル＆カットモデル探しminimo ミニモ - mixi, Inc</a>
 
 
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=meganii-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B0012WTHQS&linkId=48d1bdd7ac0a1af274eae7a6b44144ce"></iframe>
+{{% amazon B0012WTHQS %}}
