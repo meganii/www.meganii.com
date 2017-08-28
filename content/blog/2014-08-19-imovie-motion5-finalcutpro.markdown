@@ -44,7 +44,6 @@ iMovieだけではちょっと物足りないって人向けには、<a href="ht
 
 <a href="https://geo.itunes.apple.com/jp/app/motion/id434290957?mt=12&at=1l3vpSH">Motion - Apple</a>
 
-{{% card src="https://www.meganii.com/blog/2014/02/22/wedding-movie-motion5/" %}}
 
 
 ## Final Cut Pro
