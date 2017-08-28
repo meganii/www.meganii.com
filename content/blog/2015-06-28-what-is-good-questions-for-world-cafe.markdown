@@ -10,10 +10,10 @@ img: "https://images-na.ssl-images-amazon.com/images/I/51HYAe3SrUL._SL160_.jpg"
 slug: what-is-good-questions-for-world-cafe
 ---
 
-![World Cafe](/images/2015/06/world_cafe.jpg "WorldCafe")  
+{{% img src="/images/2015/06/world_cafe.jpg" w="640" h="439" %}}
 [by Financial Times photos](https://www.flickr.com/photos/financialtimes/)
 
-ワールド・カフェにおいて大切な問いを作るためにはどう考えればよいか？  
+ワールド・カフェにおいて大切な問いを作るためにはどう考えればよいか？
 ワールド・カフェにおいて、「問い」の設定が大切なのは分かるが、どのような「問い」を設定すればよいのか？
 
 この2つの疑問を解決するべく、以下の2冊のワールド・カフェ本を読んで内容をまとめてました。
