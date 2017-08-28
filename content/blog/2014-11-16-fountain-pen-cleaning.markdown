@@ -25,9 +25,7 @@ slug: fountain-pen-cleaning
 
 ## 2. 40℃ぐらいのお湯の中に数時間つけておく
 
-<a href="https://www.flickr.com/photos/35571855@N06/15800656071" title="imageby meganii, on Flickr">
-  <img class="img-responsive" src="https://farm8.staticflickr.com/7491/15800656071_6da29ae104_z.jpg" alt="image">
-</a>
+{{% img src="https://farm8.staticflickr.com/7491/15800656071_6da29ae104_z.jpg" w="640" h="640" %}}
 
 
 ペン先から出てくるインクによって、色がゆらゆらと溶け出す様子はとても綺麗です。あんまり漬けすぎると、樹脂が水を吸ってしまいよくないとのことですので、適度に浸しておきます。
@@ -35,17 +33,14 @@ slug: fountain-pen-cleaning
 
 ## 3. ペン先とコンバータつけて、お湯(水)を吸い上げ、ペン先に残ったインクを押し出す
 
-<a href="https://www.flickr.com/photos/35571855@N06/15191971893" title="inkby meganii, on Flickr"><img class="img-responsive" src="https://farm8.staticflickr.com/7552/15191971893_9753cac113_z.jpg" alt="ink"></a>
-
+{{% img src="https://farm8.staticflickr.com/7552/15191971893_9753cac113_z.jpg" w="640" h="640" %}}
 
 何度も水の中で、吸い上げたり押し出したりして、ペン先、コンバータに残ったインクを押し出します。ペン先やコンバータの端にインクが残っているので何度も洗い流しましょう。
 
 
 ## 4. キッチンペーパー等で水気を抜き取り、乾燥させる
 
-<a href="https://www.flickr.com/photos/35571855@N06/15626615040" title="lamy_safari_redby meganii, on Flickr">
-  <img class="img-responsive" src="https://farm9.staticflickr.com/8402/15626615040_b0dfb31753_z.jpg" alt="lamy_safari_red" />
-</a>
+{{% img src="https://farm9.staticflickr.com/8402/15626615040_b0dfb31753_z.jpg" w="640" h="640" %}}
 
 ティッシュだと、細かい紙くずがついてしまうので、キッチンペーパーで拭き取ると楽です。
 
@@ -62,16 +57,10 @@ slug: fountain-pen-cleaning
 
 「万年筆と高級筆記具専門店｜NAGASAWA　PenStyle DEN」の動画とサイトを参考にさせていただきました。
 
-<div class="youtubeWrapper">
-  <iframe width="560" height="315" src="//www.youtube.com/embed/fN9WAHtxGHE" frameborder="0" allowfullscreen></iframe>
-</div>
+{{% youtube id="fN9WAHtxGHE" width="560" height="315" %}}
 
 
-<a style="color:#0070C5;" href="http://www.kobe-nagasawa.co.jp/fountainpen/" target="_blank">万年筆の使い方・書き方・お手入れ方法・洗浄方法</a>
-<a href="http://b.hatena.ne.jp/entry/http://www.kobe-nagasawa.co.jp/fountainpen/" target="_blank">
-  <img border="0" src="https://b.hatena.ne.jp/entry/image/http://www.kobe-nagasawa.co.jp/fountainpen/" alt="" />
-</a>
-
+<a href="http://www.kobe-nagasawa.co.jp/fountainpen/" target="_blank">万年筆の使い方・書き方・お手入れ方法・洗浄方法</a>
 
 インクを変えるためだけにちょっと手間が必要な万年筆だけど、その作業をやってるだけで楽しいです。インクの色もたくさんの種類があるので、いろんなモノを試してみたいです。
 
