@@ -8,7 +8,7 @@ slug: dappan-omoro
 img: "https://images-na.ssl-images-amazon.com/images/I/41ArPn4UwsL._SL160_.jpg"
 ---
 
-<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048910728/meganii-22/ref=nosim/" rel="nofollow" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/41ArPn4UwsL._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048910728/meganii-22/ref=nosim/" rel="nofollow" target="_blank">閉塞感のある君へ。こっちへおいでよ。 人とつながって情報発信するコミュニティ型生き方の秘訣</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">湯川鶴章,TechWave塾コミュニティ アスキー・メディアワークス 2013-03-14    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="display:inline;margin-right:5px"><a href="http://www.amazon.co.jp/gp/search?keywords=%95%C2%8D%C7%8A%B4&__mk_ja_JP=%83J%83%5E%83J%83i&tag=meganii-22" rel="nofollow" target="_blank" title="アマゾン" >Amazonで購入</a></div><div class="shoplinkrakuten" style="display:inline;margin-right:5px"><a href="http://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E9%2596%2589%25E5%25A1%259E%25E6%2584%259F%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F" rel="nofollow" target="_blank" title="楽天市場" >楽天市場で購入</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
+{{% amazon 4048910728 %}}
 
 「脱藩学」「オモロい社会人」ってキーワードが飛び込んできたので、メモしておく。
 
@@ -30,8 +30,10 @@ img: "https://images-na.ssl-images-amazon.com/images/I/41ArPn4UwsL._SL160_.jpg"
 (最近、#脱藩なう というハッシュタグを見かけたので、脱藩学っていうキーワードに「おっ」となった)
 
 
-<iframe src="http://www.slideshare.net/slideshow/embed_code/30133829" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
-<div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/tomyankuns/jawsug-30133829" title="JAWS-UG札幌 #脱藩なう" target="_blank">JAWS-UG札幌 #脱藩なう</a> </strong> from <strong><a href="http://www.slideshare.net/tomyankuns" target="_blank">Tomoya Ishida</a></strong></div>
+
+{{% slideshare jlw3hy6la9zAzf %}}
+
+<a href="https://www.slideshare.net/tomyankuns/jawsug-30133829" title="JAWS-UG札幌 #脱藩なう" target="_blank">JAWS-UG札幌 #脱藩なう</a>
 
 ### 自分で選択肢を作るには？
 
@@ -66,4 +68,4 @@ img: "https://images-na.ssl-images-amazon.com/images/I/41ArPn4UwsL._SL160_.jpg"
 - [脱藩学 | 未来の自分が見つかるインタビュー術 FREEDOM UNIVERSITY 自由大学](https://freedom-univ.com/lecture/dappan.html)
 - [与えられたものから選ぶのではなく、自ら選択肢を作り出すこと | FREEDOM UNIVERSITY 自由大学](https://freedom-univ.com/lecture/dappan_130604.html)
 
-<a href="http://blog.kuuki-yomi.com/2012/06/blog-post_22.html" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://blog.kuuki-yomi.com/2012/06/blog-post_22.html" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://blog.kuuki-yomi.com/2012/06/blog-post_22.html" target="_blank">[募集告知]自由大学で「脱藩学」やります！ | 空気読み一人シンクタンク</a><a href="http://b.hatena.ne.jp/entry/http://blog.kuuki-yomi.com/2012/06/blog-post_22.html" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://blog.kuuki-yomi.com/2012/06/blog-post_22.html" alt="" /></a><br style="clear:both;" /><br>
+<a href="http://blog.kuuki-yomi.com/2012/06/blog-post_22.html" target="_blank">[募集告知]自由大学で「脱藩学」やります！ | 空気読み一人シンクタンク</a>
