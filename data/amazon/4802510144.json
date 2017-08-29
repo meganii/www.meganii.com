@@ -347,12 +347,12 @@
         "FormattedPrice": "￥ 3,456"
       },
       "LowestUsedPrice": {
-        "Amount": "3199",
+        "Amount": "4878",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,199"
+        "FormattedPrice": "￥ 4,878"
       },
       "TotalNew": "4",
-      "TotalUsed": "12",
+      "TotalUsed": "11",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -365,17 +365,17 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "ohiaJHkJbORYgb37W9P4OJfKvIzjcokLJ%2F4ZdUlUN6nevwi1mqI1cmHzwalPHfF13YSrh1IgesAvvNxGRYHVBu6sI1pSJncRdt5ju3QBe0s%3D",
+          "OfferListingId": "NxUV2763xzYmLKwx%2BDlgr4wy2OuZtcK9KqtkC7uz4cF%2FNsyQg0OeWn6azWTOxAi1FOqCAXN%2FqmRQy4gTZh7%2Bj6dWQm4yZ0C13RMy6VIIvlQ%3D",
           "Price": {
             "Amount": "3456",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 3,456"
           },
-          "Availability": "通常1～4週間以内に発送",
+          "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "312",
-            "MaximumHours": "552"
+            "MinimumHours": "0",
+            "MaximumHours": "0"
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
@@ -391,5 +391,5 @@
       }
     }
   },
-  "Lastmod": "2017-08-28 20:12:45 +0900"
+  "Lastmod": "2017-08-29 23:07:56 +0900"
 }

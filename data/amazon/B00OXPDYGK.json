@@ -423,12 +423,17 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1065",
+        "Amount": "1565",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,065"
+        "FormattedPrice": "￥ 1,565"
       },
-      "TotalNew": "16",
-      "TotalUsed": "0",
+      "LowestUsedPrice": {
+        "Amount": "2116",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 2,116"
+      },
+      "TotalNew": "15",
+      "TotalUsed": "1",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -441,7 +446,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "6bTfpDHV5u1ZdCiUG3cCe6RCX89p1RCsMpXr2LWEeqPeB6bkG1OW%2F%2BjPodAmhf%2FjnsWY9dSKUKd3mnndJ8HDkeNwxnhclyYAhHaYfPZLS2WhFaPHU0aGlbYZRmm7vDCYr%2BP7UqrJxRcR3DEvenLCzg%3D%3D",
+          "OfferListingId": "FiJluA1ASK1A%2BOinvp42gw87duvcNwUWO5RuqG%2B8F1fglkfs6r5iJzj8kjL6p1xwEjVArMFaTsHny7ZjzAdOnPgzT3huOZHQ4Al6o7EFc%2FELZNvEQDqEpfcCOjoIoiCpvpSSO%2Bzoar8XvHX9F2ozfQ%3D%3D",
           "Price": {
             "Amount": "2680",
             "CurrencyCode": "JPY",
@@ -470,5 +475,5 @@
       }
     }
   },
-  "Lastmod": "2017-08-28 20:14:27 +0900"
+  "Lastmod": "2017-08-29 23:09:59 +0900"
 }
