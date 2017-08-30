@@ -1,0 +1,8 @@
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span></span><span class="kd">var</span> <span class="nx">ace</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;brace&#39;</span><span class="p">);</span>
+<span class="nx">require</span><span class="p">(</span><span class="s1">&#39;brace/mode/javascript&#39;</span><span class="p">);</span>
+<span class="nx">require</span><span class="p">(</span><span class="s1">&#39;brace/theme/monokai&#39;</span><span class="p">);</span>
+
+<span class="kd">var</span> <span class="nx">editor</span> <span class="o">=</span> <span class="nx">ace</span><span class="p">.</span><span class="nx">edit</span><span class="p">(</span><span class="s1">&#39;javascript-editor&#39;</span><span class="p">);</span>
+<span class="nx">editor</span><span class="p">.</span><span class="nx">getSession</span><span class="p">().</span><span class="nx">setMode</span><span class="p">(</span><span class="s1">&#39;ace/mode/javascript&#39;</span><span class="p">);</span>
+<span class="nx">editor</span><span class="p">.</span><span class="nx">setTheme</span><span class="p">(</span><span class="s1">&#39;ace/theme/monokai&#39;</span><span class="p">);</span>
+</code></pre></div>
