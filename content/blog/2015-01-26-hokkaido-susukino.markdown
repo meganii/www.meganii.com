@@ -70,7 +70,7 @@ slug: hokkaido-susukino
 
 
 <a href="http://www.kaiyoutei.co.jp/" target="_blank">
-{{% img src="https://i.gyazo.com/thumb/200/_7b637caff9a3dd7deeab5870034e7b02-png.jpg" w="150" w="130" layout="fixed" %}}
+{{% img src="https://i.gyazo.com/thumb/200/_7b637caff9a3dd7deeab5870034e7b02-png.jpg" w="150" h="130" layout="fixed" %}}
 </a>
 <a href="http://www.kaiyoutei.co.jp/" target="_blank">すすきのでかに・海鮮を堪能するなら「函館開陽亭すすきの店」へ</a>
 
