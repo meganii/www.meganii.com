@@ -1,6 +1,7 @@
 ---
 title: "Lets's Encryptでブログの常時SSL化にチャレンジ"
 date: 2016-01-17T22:44:45+09:00
+lastmod: 2017-08-30T20:44:45+09:00
 comments: true
 category: ['Tech']
 tags: ['https', 'SSL', 'Lets Encrypt']
@@ -283,4 +284,5 @@ This is a wrong, cumbersome, and ineffective way. The right way is to define a s
 - [CentOS6 で Let's Encrypt #letsencrypt - @bayashi Diary](http://bayashi.net/diary/2015/1124)
 - [Let's EncryptでHTTPSサーバを建てたついでにSSL LabsでA+評価をめざす - sonickun.log](http://sonickun.hatenablog.com/entry/2015/12/19/212517)
 
-<div class="booklink-box"><div class="booklink-image"><a href="http://www.amazon.co.jp/exec/obidos/asin/4774178667/meganii-22/" target="_blank" ><img src="https://images-na.ssl-images-amazon.com/images/I/511NShYrT8L._SL160_.jpg" style="border: none;" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="http://www.amazon.co.jp/exec/obidos/asin/4774178667/meganii-22/" target="_blank" >nginx実践入門 (WEB+DB PRESS plus)</a><div class="booklink-powered-date">posted with <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail">久保 達彦,道井 俊介 技術評論社 2016-01-16    </div><div class="booklink-link2"><div class="shoplinkamazon"><a href="http://www.amazon.co.jp/exec/obidos/asin/4774178667/meganii-22/" target="_blank" >Amazon</a></div><div class="shoplinkkindle"><a href="http://www.amazon.co.jp/gp/search?keywords=nginx%8E%C0%91H%93%FC%96%E5%20%28WEB%2BDB%20PRESS%20plus%29&__mk_ja_JP=%83J%83%5E%83J%83i&url=node%3D2275256051&tag=meganii-22" target="_blank" >Kindle</a></div><div class="shoplinkrakuten"><a href="http://hb.afl.rakuten.co.jp/hgc/13e181b2.b5761023.13e181b3.cbc7b217/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F13530382%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F" target="_blank" >楽天ブックス</a></div>                  	  	  	      </div></div><div class="booklink-footer"></div></div>
+
+{{% amazon 4774178667 %}}
