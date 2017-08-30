@@ -1,11 +1,11 @@
 ---
-
 title: "統計学が最強の学問である"
 date: 2014-12-09T00:12:00+09:00
+lastmode: 2017-08-30T20:12:00+09:00
 comments: true
 category: ['Art']
 tags: ['book','statistics', '統計学']
-published: true 
+published: true
 slug: statistics-is-literacy-for-the-next-generation
 img: "https://images-na.ssl-images-amazon.com/images/I/41-4aLbrvpL._SL160_.jpg"
 ---
@@ -79,7 +79,7 @@ AパターンとBパターンの条件の変え方にランダムさが含まれ
 ⇛　顧客や従業員の年齢や性別、心理的特性といったものが仮に結果を歪める可能性があったとしても、「ある程度の数でランダム化してしまえば問題にならない」という性質を示す。
 
 
-> ランダム化  
+> ランダム化
 ランダム化比較実験で得られた仕事のアイデアに新規性があるならば、論文になる。
 
 
@@ -128,8 +128,7 @@ AパターンとBパターンの条件の変え方にランダムさが含まれ
 
 表の使い方
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/16016512615" title="tableby meganii, on Flickr"><img class="img-responsive" src="https://farm8.staticflickr.com/7562/16016512615_0f8a99524c_z.jpg" alt="table"></a></p>
-
+{{% img src="https://farm8.staticflickr.com/7562/16016512615_0f8a99524c_z.jpg" w="527" h="181" %}}
 
 
 ### 男女別で顧客の一人当たりの売り上げを知りたい
@@ -161,4 +160,3 @@ AパターンとBパターンの条件の変え方にランダムさが含まれ
 
 {{% amazon 4478022216 %}}
 {{% amazon 4478820090 %}}
-
