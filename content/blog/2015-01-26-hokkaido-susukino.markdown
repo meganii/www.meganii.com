@@ -12,9 +12,10 @@ slug: hokkaido-susukino
 
 
 2015年1月17日〜19日と、北海道・札幌へいってきました。
-天候不良により、あやうく、関空から出発して羽田に戻る可能性もありましたが、無事飛行機は飛んで、北海道にたどり着きました。
 
-昼間は、北海道のパウダースノーでボードを楽しみ、夜は北海道の美味しいものを食べてきました。
+天候不良により、あやうく関空から出発して羽田に戻る可能性もありましたが、無事飛行機は飛んで北海道にたどり着きました。
+
+昼間は北海道のパウダースノーでボードを楽しみ、夜は北海道の美味しいものを食べてきました。
 
 まずは、北海道の美味しいものを思い出として残しておきます。
 
@@ -57,10 +58,10 @@ slug: hokkaido-susukino
 
 ## 「開陽亭」
 
-<a href="http://tabelog.com/hokkaido/A0101/A010103/1000100/" target="_blank"><amp-img class="alignleft" align="left" border="0" src="https://i.gyazo.com/thumb/200/_c078440a024f3731aeb40cf5ee405b29-png.jpg" alt="" width="150" height="130"></amp-img></a><a href="http://tabelog.com/hokkaido/A0101/A010103/1000100/" target="_blank">開陽亭 すすきの店 （かいようてい） - すすきの/魚介料理・海鮮料理 [食べログ]</a><a href="http://b.hatena.ne.jp/entry/http://tabelog.com/hokkaido/A0101/A010103/1000100/" target="_blank">
+<a href="http://tabelog.com/hokkaido/A0101/A010103/1000100/" target="_blank"><amp-img class="alignleft" align="left" border="0" src="https://i.gyazo.com/thumb/200/_c078440a024f3731aeb40cf5ee405b29-png.jpg" alt="" width="150" height="130"></amp-img></a><a href="http://tabelog.com/hokkaido/A0101/A010103/1000100/" target="_blank">開陽亭 すすきの店 （かいようてい） - すすきの/魚介料理・海鮮料理 [食べログ]</a>
 
 
-<a href="http://www.kaiyoutei.co.jp/" target="_blank"><amp-img class="alignleft" align="left" border="0" src="https://i.gyazo.com/thumb/200/_7b637caff9a3dd7deeab5870034e7b02-png.jpg" alt="" width="150" height="130"></amp-img></a><a href="http://www.kaiyoutei.co.jp/" target="_blank">すすきのでかに・海鮮を堪能するなら「函館開陽亭すすきの店」へ</a><a href="http://b.hatena.ne.jp/entry/http://www.kaiyoutei.co.jp/" target="_blank">
+<a href="http://www.kaiyoutei.co.jp/" target="_blank"><amp-img class="alignleft" align="left" border="0" src="https://i.gyazo.com/thumb/200/_7b637caff9a3dd7deeab5870034e7b02-png.jpg" alt="" width="150" height="130"></amp-img></a><a href="http://www.kaiyoutei.co.jp/" target="_blank">すすきのでかに・海鮮を堪能するなら「函館開陽亭すすきの店」へ</a>
 
 
 北海道に来たからには、美味しい	海鮮が食べたいということで、海鮮系で人気の居酒屋「開陽亭」へ！場所は、１日目のだるまの近くだった。
