@@ -1,7 +1,7 @@
 ---
 title: "マーケティング22の法則を図解してみた"
 date: "2015-08-29T17:13:12+09:00"
-lastmod: 2017-07-30T19:24:15+09:00
+lastmod: 2017-08-30T19:24:15+09:00
 comments: true
 category: ['Book']
 tags: ['book','マーケティング']
@@ -12,7 +12,7 @@ slug: marketing-22-raws
 
 22の法則もあって、読んでても繋がりが頭にはいってこなかったので、1枚の図にまとめてみました。
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/20737197559" title="マーケティング22の法則by meganii, on Flickr"><img class="img-responsive" src="https://farm6.staticflickr.com/5631/20737197559_f22008a21c_z.jpg" alt="マーケティング22の法則"></a></p>
+{{% img src="https://farm6.staticflickr.com/5631/20737197559_f22008a21c_z.jpg" w="640" h="492" %}}
 
 
 [「マーケティング22の法則図解」拡大版](https://cacoo.com/diagrams/REbndUQXEFksOf2j/simple#8F3BB)
@@ -20,7 +20,7 @@ slug: marketing-22-raws
 
 ## 「マーケティングとは、商品をめぐる戦いではなく、知覚をめぐる戦いである」。知覚の法則、心の法則
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/20845997280" title="The Law of Perceptionby meganii, on Flickr"><img class="img-responsive" src="https://farm1.staticflickr.com/771/20845997280_815d51966a_z.jpg" alt="The Law of Perception"></a></p>
+{{% img src="https://farm1.staticflickr.com/771/20845997280_815d51966a_z.jpg" w="421" h="321" %}}
 
 
 マーケティング22の法則の核になっているのは、
@@ -51,7 +51,7 @@ slug: marketing-22-raws
 
 ## どうやって顧客の心に入り込むか？
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/21007920396" title="マーケティングby meganii, on Flickr"><img class="img-responsive" src="https://farm1.staticflickr.com/748/21007920396_5b46738766_z.jpg" alt="マーケティング"></a></p>
+{{% img src="https://farm1.staticflickr.com/748/21007920396_5b46738766_z.jpg" w="640" h="466" %}}
 
 知覚に作用するのが大事だとわかったことで、どのように顧客の心に入り込むかという観点で、以下を分類しました。
 
@@ -74,7 +74,7 @@ slug: marketing-22-raws
 
 ## 時間経過と共に
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/20846309348" title="マーケティング 2by meganii, on Flickr"><img class="img-responsive" src="https://farm1.staticflickr.com/578/20846309348_4a5a36c6e9_z.jpg" alt="マーケティング 2"></a></p>
+{{% img src="https://farm1.staticflickr.com/578/20846309348_4a5a36c6e9_z.jpg" w="570" h="552" %}}
 
 時間経過という観点で分類しました。カテゴリはどんどん細かくなっていき、それら1つのカテゴリの中は、二極化が進んでいくというものです。しかし、最終的には予測不能なので、上手くトレンドを読むしかないとのこと。
 
@@ -88,7 +88,7 @@ slug: marketing-22-raws
 
 ## 分析・対応方法
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/20846323328" title="マーケティング3by meganii, on Flickr"><img class="img-responsive" src="https://farm6.staticflickr.com/5821/20846323328_d17f4c0c89_z.jpg" alt="マーケティング3"></a></p>
+{{% img src="https://farm6.staticflickr.com/5821/20846323328_d17f4c0c89_z.jpg" w="565" h="457" %}}
 
 今自分の場所はどこなのか？どこへ向かえばよいのか？どう対応すればいいか？という「分析・対応方法」という観点で以下の通り分類しました。
 
@@ -107,7 +107,4 @@ slug: marketing-22-raws
 一つ一つの具体的な法則の内容については、ぜひ本書を手にとってご覧ください。
 
 
-<div class="booklink-box"><div class="booklink-image"><a href="http://www.amazon.co.jp/exec/obidos/asin/4884970233/meganii-22/" target="_blank" ><img src="https://images-na.ssl-images-amazon.com/images/I/41ZZ608RNAL._SL160_.jpg" style="border: none;" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="http://www.amazon.co.jp/exec/obidos/asin/4884970233/meganii-22/" target="_blank" >売れるもマーケ 当たるもマーケ―マーケティング22の法則</a>
-<div class="booklink-powered-date">posted with <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail">アル ライズ,ジャック トラウト 東急エージェンシー出版部 1994-01    </div><div class="booklink-link2"><div class="shoplinkamazon"><a href="http://www.amazon.co.jp/exec/obidos/asin/4884970233/meganii-22/" target="_blank" >Amazon</a></div>
-<div class="shoplinkkindle"><a href="http://www.amazon.co.jp/gp/search?keywords=%94%84%82%EA%82%E9%82%E0%83%7D%81%5B%83P%20%93%96%82%BD%82%E9%82%E0%83%7D%81%5B%83P%81%5C%83%7D%81%5B%83P%83e%83B%83%93%83O22%82%CC%96%40%91%A5&__mk_ja_JP=%83J%83%5E%83J%83i&url=node%3D2275256051&tag=meganii-22" target="_blank" >Kindle</a></div><div class="shoplinkrakuten"><a href="http://hb.afl.rakuten.co.jp/hgc/13e181b2.b5761023.13e181b3.cbc7b217/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F634784%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F" target="_blank" >楽天ブックス</a></div>                  	  	  	  <div class="shoplinktoshokan"><a href="http://calil.jp/book/4884970233" target="_blank" >図書館</a></div></div></div>
-<div class="booklink-footer"></div></div>
+{{% amazon 4884970233 %}}
