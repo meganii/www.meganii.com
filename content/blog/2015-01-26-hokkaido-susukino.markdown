@@ -27,11 +27,17 @@ slug: hokkaido-susukino
 
 ## ジンギスカン「だるま」
 
-<a href="http://tabelog.com/hokkaido/A0101/A010103/1000007/" target="_blank"><amp-img class="alignleft" align="left" border="0" src="https://i.gyazo.com/thumb/200/_c81700e5eddd9bb2083f1a15c03bb756-png.jpg" alt="" width="150" height="130"></amp-img></a><a href="http://tabelog.com/hokkaido/A0101/A010103/1000007/" target="_blank">だるま 本店 - すすきの/ジンギスカン [食べログ]</a>
+<a href="http://tabelog.com/hokkaido/A0101/A010103/1000007/" target="_blank">
+{{% img src="https://i.gyazo.com/thumb/200/_c81700e5eddd9bb2083f1a15c03bb756-png.jpg" w="150" h="130" %}}
+</a>
+<a href="http://tabelog.com/hokkaido/A0101/A010103/1000007/" target="_blank">だるま 本店 - すすきの/ジンギスカン [食べログ]</a>
 
 
 
-<a href="http://best.miru-kuru.com/daruma/" target="_blank"><amp-img class="alignleft" align="left" border="0" src="https://i.gyazo.com/thumb/200/_32d924104ecf33f39bb2474e466fe74c-png.jpg" alt="" width="150" height="130"></amp-img></a><a href="http://best.miru-kuru.com/daruma/" target="_blank">札幌ジンギスカンだるま</a>
+<a href="http://best.miru-kuru.com/daruma/" target="_blank">
+{{% img src="https://i.gyazo.com/thumb/200/_32d924104ecf33f39bb2474e466fe74c-png.jpg" w="150" h="130" %}}
+</a>
+<a href="http://best.miru-kuru.com/daruma/" target="_blank">札幌ジンギスカンだるま</a>
 
 
 じん、じん、ジンギスカ～ン♪ということで
@@ -58,10 +64,15 @@ slug: hokkaido-susukino
 
 ## 「開陽亭」
 
-<a href="http://tabelog.com/hokkaido/A0101/A010103/1000100/" target="_blank"><amp-img class="alignleft" align="left" border="0" src="https://i.gyazo.com/thumb/200/_c078440a024f3731aeb40cf5ee405b29-png.jpg" alt="" width="150" height="130"></amp-img></a><a href="http://tabelog.com/hokkaido/A0101/A010103/1000100/" target="_blank">開陽亭 すすきの店 （かいようてい） - すすきの/魚介料理・海鮮料理 [食べログ]</a>
+<a href="http://tabelog.com/hokkaido/A0101/A010103/1000100/" target="_blank">
+{{% img src="https://i.gyazo.com/thumb/200/_c078440a024f3731aeb40cf5ee405b29-png.jpg" w="150" h="130" %}}
+</a><a href="http://tabelog.com/hokkaido/A0101/A010103/1000100/" target="_blank">開陽亭 すすきの店 （かいようてい） - すすきの/魚介料理・海鮮料理 [食べログ]</a>
 
 
-<a href="http://www.kaiyoutei.co.jp/" target="_blank"><amp-img class="alignleft" align="left" border="0" src="https://i.gyazo.com/thumb/200/_7b637caff9a3dd7deeab5870034e7b02-png.jpg" alt="" width="150" height="130"></amp-img></a><a href="http://www.kaiyoutei.co.jp/" target="_blank">すすきのでかに・海鮮を堪能するなら「函館開陽亭すすきの店」へ</a>
+<a href="http://www.kaiyoutei.co.jp/" target="_blank">
+{{% img src="https://i.gyazo.com/thumb/200/_7b637caff9a3dd7deeab5870034e7b02-png.jpg" w="150" w="130" %}}
+</a>
+<a href="http://www.kaiyoutei.co.jp/" target="_blank">すすきのでかに・海鮮を堪能するなら「函館開陽亭すすきの店」へ</a>
 
 
 北海道に来たからには、美味しい	海鮮が食べたいということで、海鮮系で人気の居酒屋「開陽亭」へ！場所は、１日目のだるまの近くだった。
@@ -114,9 +125,13 @@ slug: hokkaido-susukino
 
 ## 行きたかった「はちきょう」
 
-<a href="http://www.atomsgroup.jp/" target="_blank"><amp-img class="alignleft" align="left" border="0" src="https://i.gyazo.com/thumb/200/_b49d1814ef6e4a0d906ad5acfb11c13d-png.jpg" alt="" width="150" height="130"></amp-img></a><a href="http://www.atomsgroup.jp/" target="_blank">北海道札幌の居酒屋「はちきょう」</a><a href="http://b.hatena.ne.jp/entry/http://www.atomsgroup.jp/" target="_blank">
+<a href="http://www.atomsgroup.jp/" target="_blank">
+{{% img src="https://i.gyazo.com/thumb/200/_b49d1814ef6e4a0d906ad5acfb11c13d-png.jpg" w="150" h="130" %}}
+</a><a href="http://www.atomsgroup.jp/" target="_blank">北海道札幌の居酒屋「はちきょう」</a><a href="http://b.hatena.ne.jp/entry/http://www.atomsgroup.jp/" target="_blank">
 
-<a href="http://tabelog.com/hokkaido/A0101/A010103/1003784/" target="_blank"><amp-img class="alignleft" align="left" border="0" src="https://i.gyazo.com/thumb/200/_d24054c6fab07bec94af450616d71172-png.jpg" alt="" width="150" height="130"></amp-img></a><a href="http://tabelog.com/hokkaido/A0101/A010103/1003784/" target="_blank">はちきょう - すすきの/郷土料理（その他） [食べログ]</a>
+<a href="http://tabelog.com/hokkaido/A0101/A010103/1003784/" target="_blank">
+{{% img src="https://i.gyazo.com/thumb/200/_d24054c6fab07bec94af450616d71172-png.jpg" w="150" h="130" %}}
+</a><a href="http://tabelog.com/hokkaido/A0101/A010103/1003784/" target="_blank">はちきょう - すすきの/郷土料理（その他） [食べログ]</a>
 
 
 また、冬の北海道も行かねばー！
