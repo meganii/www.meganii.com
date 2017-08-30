@@ -10,7 +10,7 @@ slug: we-are-all-investors-of-time
 img: https://i.gyazo.com/thumb/200/_eed61ad2407c399045caaa90c781c05f-jpg.jpg
 ---
 
-![](https://i.gyazo.com/928746f78deee72b8dd07f8b51e4a133.jpg)
+{{% img src="https://i.gyazo.com/928746f78deee72b8dd07f8b51e4a133.jpg" w="600" h="300" %}}
 
 逆説のキャリア思考のスライドを読んで印象に残った言葉である。全くその通りだと、すっと腑に落ちた。
 
