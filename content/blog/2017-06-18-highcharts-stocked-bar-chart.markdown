@@ -1,7 +1,7 @@
 ---
 title: "Highchartsを使って財務諸表(BS/PL)のグラフを出力する"
 date: 2017-06-18T14:49:27+09:00
-lastmod: 2017-06-18T14:49:27+09:00
+lastmod: 2017-08-31T22:49:27+09:00
 comments: true
 category: ['Tech']
 tags: ['highcharts','visualization']
@@ -10,7 +10,7 @@ slug: highcharts-stocked-bar-chart
 img: /images/2017/06/BS_PL-64x.png
 ---
 
-<script async src="//jsfiddle.net/meganii/wdppph94/4/embed/result/"></script>
+{{% img src="https://farm5.staticflickr.com/4347/36104167204_25d0bf7678_b.jpg" w="744" h="400" %}}
 
 <!--more-->
 {{% googleadsense %}}
@@ -19,7 +19,7 @@ img: /images/2017/06/BS_PL-64x.png
 
 `pointPadding: 0`に指定することで、group内での間隔を0にできる。
 
-```
+```javascript
   plotOptions: {
       column: {
           stacking: 'normal',
@@ -32,7 +32,7 @@ img: /images/2017/06/BS_PL-64x.png
   },
 ```
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -153,7 +153,6 @@ img: /images/2017/06/BS_PL-64x.png
     </script>
   </body>
 </html>
-
 ```
 
 ## 参考
