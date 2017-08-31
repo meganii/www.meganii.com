@@ -131,17 +131,17 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "AS6eo95T5kIjNrFIYeYvFw1cvIcaOIhKtt76KYH0QPacvJozgUujVlgX0Ci5x4PCl61vLWoNW1LaCjelDaaQ1Hoo9F7%2FtUDbjyNKn3S%2FFUU%3D",
+          "OfferListingId": "q5jNfRJHmDYqFlUsr7zk2fuBNmjkPQmyaRC%2BlKw4KM9QpgolaT7V1chRgly9GTkIJfAniVIusXceEqZy82EhkkFUxBz6AVuCzd0ICQUag08%3D",
           "Price": {
             "Amount": "3780",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 3,780"
           },
-          "Availability": "在庫あり。",
+          "Availability": "通常1～4週間以内に発送",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
+            "MinimumHours": "264",
+            "MaximumHours": "600"
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
@@ -157,5 +157,5 @@
       }
     }
   },
-  "Lastmod": "2017-08-29 23:10:55 +0900"
+  "Lastmod": "2017-08-31 20:50:04 +0900"
 }
