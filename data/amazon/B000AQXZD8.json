@@ -1,7 +1,8 @@
 {
   "Item": {
     "ASIN": "B000AQXZD8",
-    "DetailPageURL": "https://www.amazon.co.jp/PRIMUS-%E3%83%97%E3%83%AA%E3%83%A0%E3%82%B9-IP-2245A-S-%E3%83%A9%E3%83%B3%E3%82%BF%E3%83%B3%E3%80%90%E6%97%A5%E6%9C%AC%E6%AD%A3%E8%A6%8F%E5%93%81%E3%80%91/dp/B000AQXZD8?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B000AQXZD8",
+    "ParentASIN": "B005I6W7IY",
+    "DetailPageURL": "https://www.amazon.co.jp/PRIMUS-%E3%83%97%E3%83%AA%E3%83%A0%E3%82%B9-IP-2245A-S-%E3%83%A9%E3%83%B3%E3%82%BF%E3%83%B3%E3%80%90%E6%97%A5%E6%9C%AC%E6%AD%A3%E8%A6%8F%E5%93%81%E3%80%91/dp/B000AQXZD8?psc=1&SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B000AQXZD8",
     "ItemLinks": {
       "ItemLink": [
         {
@@ -121,6 +122,8 @@
           "IP-2245A-S"
         ]
       },
+      "ClothingSize": "-",
+      "Color": "SV",
       "Department": "ユニセックス",
       "EAN": "4901140300165",
       "EANList": {
@@ -155,6 +158,7 @@
       "ProductTypeName": "SPORTING_GOODS",
       "Publisher": "PRIMUS(プリムス)",
       "ReleaseDate": "2012-04-17",
+      "Size": "-",
       "Studio": "PRIMUS(プリムス)",
       "Title": "PRIMUS(プリムス) IP-2245A-S ランタン【日本正規品】"
     },
@@ -164,8 +168,13 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 9,346"
       },
-      "TotalNew": "16",
-      "TotalUsed": "0",
+      "LowestUsedPrice": {
+        "Amount": "8900",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 8,900"
+      },
+      "TotalNew": "23",
+      "TotalUsed": "1",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -178,7 +187,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "vMHcS090cdD41pbK5rOCesF8UZHvQDrqfPDipVz3XoAWpFIL2ZLvx%2Bu6sQWg9jvoUVPHByd%2BKs0xucrdnGdTF1dsWTyqv01j",
+          "OfferListingId": "pBUhRLo%2B5a2rlUr5fKdQyE%2BIWWs%2Bs2fA7qVPCRQ4mC9mAFL9ywlmgCEDHMjOQ1Kxqs9XoKhq8jyx0LBLeKibaCpSuobQMmL8",
           "Price": {
             "Amount": "9346",
             "CurrencyCode": "JPY",
@@ -202,5 +211,5 @@
       }
     }
   },
-  "Lastmod": "2017-08-31 20:48:49 +0900"
+  "Lastmod": "2017-09-01 20:58:46 +0900"
 }

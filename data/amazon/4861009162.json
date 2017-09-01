@@ -406,13 +406,18 @@
       "Title": "Final Cut Pro X + Motion 5  Standard Techniques[第2版] -プロが教えるビギナーのための映像制作テクニック100"
     },
     "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "960",
+      "LowestNewPrice": {
+        "Amount": "27064",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 960"
+        "FormattedPrice": "￥ 27,064"
       },
-      "TotalNew": "0",
-      "TotalUsed": "14",
+      "LowestUsedPrice": {
+        "Amount": "1017",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 1,017"
+      },
+      "TotalNew": "1",
+      "TotalUsed": "12",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -422,5 +427,5 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2017-08-31 20:46:38 +0900"
+  "Lastmod": "2017-09-01 20:57:22 +0900"
 }

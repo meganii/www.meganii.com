@@ -26,7 +26,7 @@ img: "https://farm8.staticflickr.com/7385/26774309130_925fdae08f_t.jpg"
 
 dmgファイルをダウンロードして、Vagrant.pkgやVirtualbox.pkgをダブルクリックしたところ、以下のようにチェックが終わらない現象になった。
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/26774309130/in/dateposted-public/" title="never ending verifying..."><img src="https://farm8.staticflickr.com/7385/26774309130_925fdae08f.jpg" width="500" height="178" alt="never ending verifying..."></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+{{% img src="https://farm8.staticflickr.com/7385/26774309130_925fdae08f.jpg" w="500" h="178" %}}
 
 
 ## 原因
