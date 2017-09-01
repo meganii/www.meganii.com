@@ -72,3 +72,10 @@ slug: what-is-good-questions-for-world-cafe
 
 {{% amazon 4532314887 %}}
 {{% amazon 499032983X %}}
+
+
+## 合わせて読みたい
+
+{{% card src="https://www.meganii.com/blog/2015/07/12/hold-a-world-cafe/" %}}
+
+{{% card src="https://www.meganii.com/blog/2015/07/05/world-cafe-case/" %}}
