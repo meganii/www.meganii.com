@@ -29,6 +29,7 @@ slug: domino-yokyo
 自分たちが作ったものを、会場の人に見てもらえる、反応してもらえるのってやっぱり嬉しい。
 いい経験になりました。ありがとう。
 
+<!-- more -->
 
 ドミノを使って、余興を考えている人にとってちょっとでも参考になればと思い残しておきます。
 
@@ -114,3 +115,8 @@ slug: domino-yokyo
 感覚を掴むためにも、まずはどんなもんかを実際に試してみるのが1番でした。自分たちは、Amazonでドミノ倒しキットを買って試しました。
 
 {{% amazon B001K6VMUK %}}
+
+
+{{% card src="https://www.meganii.com/blog/2014/09/06/domino-yokyo/" %}}
+
+{{% card src="https://www.meganii.com/blog/2017/07/29/cebu-plantation-bay-resort-spa/" %}}

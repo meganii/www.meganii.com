@@ -480,6 +480,58 @@ amazon-shortcode-detail {
   margin-bottom: 0.4em;
 }
 
+.embed-wrapper {
+  border: 1px solid #cccccc;
+  margin: .2rem;
+}
+
+.embed-wrapper * {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.embed-wrapper-inner {
+  padding: 12px;
+}
+
+.embed-content {
+  position: relative;
+  height: 100px;
+  overflow: hidden;
+}
+
+.thumb-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.entry-body {
+  margin-right: 110px;
+}
+
+.entry-title {
+  font-size: .9rem;
+  margin: 0;
+  padding: 0;
+}
+
+.entry-title a {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.entry-content {
+  font-size: .8rem;
+  max-height: 72px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
 .highlight .hll { background-color: #49483e }
 .highlight  { background: #272822; color: #f8f8f2 }
 .highlight .c { color: #75715e } /* Comment */
