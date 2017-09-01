@@ -43,12 +43,14 @@ Shortcodesの作り方
 
 ## Amazon アフィリエイト
 
+例えば、以下のように名前付きと、引数１つの場合を切り分けたい場合、`.IsNamedParams`
+
 ```
-{{% espace "{{% amazon XXXXXXX %}}" %}}
+{{% espace "{{% amazon 477418392X %}}" %}}
 ```
 
 ```
-{{% espace "{{% amazon id=\"XXXXXXX\" width=\"100\" height=\"100\" %}}" %}}
+{{% espace "{{% amazon id=\"477418392X\" width=\"100\" height=\"100\" %}}" %}}
 ```
 
 
