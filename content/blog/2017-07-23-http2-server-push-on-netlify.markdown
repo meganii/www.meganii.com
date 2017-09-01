@@ -61,19 +61,19 @@ Server Pushの変更前と変更後で、何が変わるのかをChromeのDevelo
 
 変更前は下図の通り、`Initiator`の部分が`Other` もしくは`Perser`となっています。この計測時は、font-awesomeとgoogle fontsに気なる遅延は発生していませんでしたが、たまにレスポンスが著しく悪くなるときがあります。これを機会にNetlifyからホストするように変更します。
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/35972414491/in/dateposted-public/" title="before"><img src="https://farm5.staticflickr.com/4295/35972414491_dd380e5672_z.jpg" width="640" height="458" alt="before"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+{{% img src="https://farm5.staticflickr.com/4295/35972414491_dd380e5672_z.jpg" w="640" h="458" %}}
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/35972549391/in/dateposted-public/" title="before_detail"><img src="https://farm5.staticflickr.com/4302/35972549391_d9676f6101_c.jpg" width="800" height="291" alt="before_detail"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
+{{% img src="https://farm5.staticflickr.com/4302/35972549391_d9676f6101_c.jpg" w="800" h="291" %}}
 
 
 ### After
 
 `Initiator`の部分が、`Push / Other`に変わりました。font-awesomもServer Pushしてることがわかります。
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/35715193240/in/dateposted-public/" title="after"><img src="https://farm5.staticflickr.com/4320/35715193240_05231256c9_z.jpg" width="640" height="458" alt="after"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/35297674803/in/dateposted-public/" title="after_detail"><img src="https://farm5.staticflickr.com/4296/35297674803_dd5bd37b56_c.jpg" width="800" height="324" alt="after_detail"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+{{% img src="https://farm5.staticflickr.com/4320/35715193240_05231256c9_z.jpg" w="640" h="458" %}}
+
+{{% img src="https://farm5.staticflickr.com/4296/35297674803_dd5bd37b56_c.jpg" w="800" h="324" %}}
 
 
 ## 参考
