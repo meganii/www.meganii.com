@@ -1,0 +1,121 @@
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;utf-8&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Balance Sheets<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;container&quot;</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;width:100%; height:560px;&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;http://code.highcharts.com/highcharts.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+      <span class="c1">// create a new chart</span>
+      <span class="k">new</span> <span class="nx">Highcharts</span><span class="p">.</span><span class="nx">chart</span><span class="p">(</span><span class="s1">&#39;container&#39;</span><span class="p">,</span> <span class="p">{</span>
+        <span class="nx">chart</span><span class="o">:</span> <span class="p">{</span>
+            <span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;column&#39;</span>
+
+        <span class="p">},</span>
+
+        <span class="nx">title</span><span class="o">:</span> <span class="p">{</span>
+            <span class="nx">text</span><span class="o">:</span> <span class="s1">&#39;会社名&#39;</span>
+        <span class="p">},</span>
+
+        <span class="nx">xAxis</span><span class="o">:</span> <span class="p">{</span>
+            <span class="nx">categories</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;Balance Sheets&#39;</span><span class="p">,</span> <span class="s1">&#39;Income Statement&#39;</span><span class="p">]</span>
+        <span class="p">},</span>
+
+        <span class="nx">yAxis</span><span class="o">:</span> <span class="p">{</span>
+            <span class="nx">allowDecimals</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+            <span class="nx">min</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span>
+            <span class="nx">title</span><span class="o">:</span> <span class="p">{</span>
+                <span class="nx">text</span><span class="o">:</span> <span class="s1">&#39;Yen&#39;</span>
+            <span class="p">}</span>
+        <span class="p">},</span>
+
+        <span class="nx">tooltip</span><span class="o">:</span> <span class="p">{</span>
+            <span class="nx">formatter</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+                <span class="k">return</span> <span class="s1">&#39;&lt;b&gt;&#39;</span> <span class="o">+</span> <span class="k">this</span><span class="p">.</span><span class="nx">x</span> <span class="o">+</span> <span class="s1">&#39;&lt;/b&gt;&lt;br/&gt;&#39;</span> <span class="o">+</span>
+                    <span class="k">this</span><span class="p">.</span><span class="nx">series</span><span class="p">.</span><span class="nx">name</span> <span class="o">+</span> <span class="s1">&#39;: &#39;</span> <span class="o">+</span> <span class="k">this</span><span class="p">.</span><span class="nx">y</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">},</span>
+
+        <span class="nx">plotOptions</span><span class="o">:</span> <span class="p">{</span>
+            <span class="nx">column</span><span class="o">:</span> <span class="p">{</span>
+                <span class="nx">stacking</span><span class="o">:</span> <span class="s1">&#39;normal&#39;</span><span class="p">,</span>
+            <span class="p">},</span>
+            <span class="nx">series</span><span class="o">:</span> <span class="p">{</span>
+                <span class="nx">pointPadding</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span>
+                <span class="nx">borderWidth</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span>
+                <span class="nx">shadow</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+            <span class="p">}</span>
+        <span class="p">},</span>
+
+        <span class="nx">series</span><span class="o">:</span> <span class="p">[{</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;現金預金等&#39;</span><span class="p">,</span>
+            <span class="nx">data</span><span class="o">:</span> <span class="p">[</span><span class="mi">1169409</span><span class="p">,</span> <span class="kc">null</span><span class="p">],</span>
+            <span class="nx">stack</span><span class="o">:</span> <span class="s1">&#39;Credit&#39;</span>
+        <span class="p">},</span> <span class="p">{</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;売掛金&#39;</span><span class="p">,</span>
+            <span class="nx">data</span><span class="o">:</span> <span class="p">[</span><span class="mi">46840</span><span class="p">,</span> <span class="kc">null</span><span class="p">],</span>
+            <span class="nx">stack</span><span class="o">:</span> <span class="s1">&#39;Credit&#39;</span>
+        <span class="p">},</span> <span class="p">{</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;棚卸資産&#39;</span><span class="p">,</span>
+            <span class="nx">data</span><span class="o">:</span> <span class="p">[</span><span class="mi">2627138</span><span class="p">,</span> <span class="kc">null</span><span class="p">],</span>
+            <span class="nx">stack</span><span class="o">:</span> <span class="s1">&#39;Credit&#39;</span>
+        <span class="p">},</span> <span class="p">{</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;その他流動資産&#39;</span><span class="p">,</span>
+            <span class="nx">data</span><span class="o">:</span> <span class="p">[</span><span class="mi">405844</span><span class="p">,</span> <span class="kc">null</span><span class="p">],</span>
+            <span class="nx">stack</span><span class="o">:</span> <span class="s1">&#39;Credit&#39;</span>
+        <span class="p">},</span> <span class="p">{</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;有形固定資産&#39;</span><span class="p">,</span>
+            <span class="nx">data</span><span class="o">:</span> <span class="p">[</span><span class="mi">17990</span><span class="p">,</span> <span class="kc">null</span><span class="p">],</span>
+            <span class="nx">stack</span><span class="o">:</span> <span class="s1">&#39;Credit&#39;</span>
+        <span class="p">},</span> <span class="p">{</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;無形固定資産&#39;</span><span class="p">,</span>
+            <span class="nx">data</span><span class="o">:</span> <span class="p">[</span><span class="mi">49806</span><span class="p">,</span> <span class="kc">null</span><span class="p">],</span>
+            <span class="nx">stack</span><span class="o">:</span> <span class="s1">&#39;Credit&#39;</span>
+        <span class="p">},</span> <span class="p">{</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;その他固定資産&#39;</span><span class="p">,</span>
+            <span class="nx">data</span><span class="o">:</span> <span class="p">[</span><span class="mi">19854</span><span class="p">,</span> <span class="kc">null</span><span class="p">],</span>
+            <span class="nx">stack</span><span class="o">:</span> <span class="s1">&#39;Credit&#39;</span>
+        <span class="p">},</span> <span class="p">{</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;買掛金&#39;</span><span class="p">,</span>
+            <span class="nx">data</span><span class="o">:</span> <span class="p">[</span><span class="mi">4372</span><span class="p">,</span> <span class="kc">null</span><span class="p">],</span>
+            <span class="nx">stack</span><span class="o">:</span> <span class="s1">&#39;Dedit&#39;</span>
+        <span class="p">},</span> <span class="p">{</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;有利子負債&#39;</span><span class="p">,</span>
+            <span class="nx">data</span><span class="o">:</span> <span class="p">[</span><span class="mi">521575</span><span class="p">,</span> <span class="kc">null</span><span class="p">],</span>
+            <span class="nx">stack</span><span class="o">:</span> <span class="s1">&#39;Dedit&#39;</span>
+        <span class="p">},</span> <span class="p">{</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;その他流動負債&#39;</span><span class="p">,</span>
+            <span class="nx">data</span><span class="o">:</span> <span class="p">[</span><span class="mi">864756</span><span class="p">,</span> <span class="kc">null</span><span class="p">],</span>
+            <span class="nx">stack</span><span class="o">:</span> <span class="s1">&#39;Dedit&#39;</span>
+        <span class="p">},</span> <span class="p">{</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;その他固定負債&#39;</span><span class="p">,</span>
+            <span class="nx">data</span><span class="o">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="kc">null</span><span class="p">],</span>
+            <span class="nx">stack</span><span class="o">:</span> <span class="s1">&#39;Dedit&#39;</span>
+        <span class="p">},</span> <span class="p">{</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;純資産&#39;</span><span class="p">,</span>
+            <span class="nx">data</span><span class="o">:</span> <span class="p">[</span><span class="mi">2950550</span><span class="p">,</span> <span class="kc">null</span><span class="p">],</span>
+            <span class="nx">stack</span><span class="o">:</span> <span class="s1">&#39;Dedit&#39;</span>
+        <span class="p">},</span> <span class="p">{</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;営業原価&#39;</span><span class="p">,</span>
+            <span class="nx">data</span><span class="o">:</span> <span class="p">[</span><span class="kc">null</span><span class="p">,</span> <span class="mi">4596029</span><span class="p">],</span>
+            <span class="nx">stack</span><span class="o">:</span> <span class="s1">&#39;Credit&#39;</span>
+        <span class="p">},</span> <span class="p">{</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;販管費&#39;</span><span class="p">,</span>
+            <span class="nx">data</span><span class="o">:</span> <span class="p">[</span><span class="kc">null</span><span class="p">,</span> <span class="mi">710028</span><span class="p">],</span>
+            <span class="nx">stack</span><span class="o">:</span> <span class="s1">&#39;Credit&#39;</span>
+        <span class="p">},</span> <span class="p">{</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;営業利益&#39;</span><span class="p">,</span>
+            <span class="nx">data</span><span class="o">:</span> <span class="p">[</span><span class="kc">null</span><span class="p">,</span> <span class="mi">1027949</span><span class="p">],</span>
+            <span class="nx">stack</span><span class="o">:</span> <span class="s1">&#39;Credit&#39;</span>
+        <span class="p">},</span> <span class="p">{</span>
+            <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;売上&#39;</span><span class="p">,</span>
+            <span class="nx">data</span><span class="o">:</span> <span class="p">[</span><span class="kc">null</span><span class="p">,</span> <span class="mi">6334008</span><span class="p">],</span>
+            <span class="nx">stack</span><span class="o">:</span> <span class="s1">&#39;Dedit&#39;</span>
+        <span class="p">}],</span>
+      <span class="p">});</span>
+    <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</code></pre></div>
