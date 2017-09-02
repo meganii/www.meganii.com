@@ -88,4 +88,3 @@ img: /images/scotchgrain.jpg
 靴の手入れには、「Boot Black」のシューケア用品を使ってます。
 
 {{% amazon B00XDS9X40 %}}
-{{% amazon B00ZHKOU4U %}}
