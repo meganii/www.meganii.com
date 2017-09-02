@@ -383,14 +383,15 @@ article.li.sm .header-wrapper {
 .article-body figure { margin: 1.5rem -2rem; }
 .article-body figure.left,
 .article-body figure.right {
-  width: 15rem;
-  height: 12rem;
+  /*width: 15rem;
+  height: 12rem;*/
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
 }
 .article-body figure.left { float: left; margin-right: 1rem; margin-left: -2rem; }
-.article-body figure.right { float: right; margin-left: 1rem; margin-right: -2rem; }
+.article-body figure.center { text-align: center;}
+
 
 @media (max-width: 768px) {
   .article-body figure { margin: 1.5rem -1rem; }
