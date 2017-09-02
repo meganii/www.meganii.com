@@ -79,7 +79,7 @@ img: /images/scotchgrain.jpg
 
 いつも適当な革靴ばかり履いていた方も、ぜひ一度試してみていただけると良さがわかると思います。
 
-<div class="booklink-box"><div class="booklink-image"><a href=https://www.amazon.co.jp/%E3%82%B9%E3%82%B3%E3%83%83%E3%83%81%E3%82%B0%E3%83%AC%E3%82%A4%E3%83%B3-SCOTCH-GRAIN-%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E3%82%AA%E3%82%A2%E3%83%AC%E3%82%A4%E3%83%B3-%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%83%88%E3%83%81%E3%83%83%E3%83%97/dp/B015V64W7E?psc=1&SubscriptionId=AKIAIDJYSG4EYXDO2YIQ&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B015V64W7E><amp-img src="https://images-fe.ssl-images-amazon.com/images/I/41hCK7DIggL._SL160_.jpg" width="160" height="120" layout="fixed" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="http://www.amazon.co.jp/exec/obidos/asin/B015V64W7E/meganii-22/">[スコッチグレイン] SCOTCH GRAIN シャインオアレイン ストレートチップ OP0686 (25.5cm)</a></div><div class="shoplinkamazon"><a href="http://www.amazon.co.jp/exec/obidos/asin/B015V64W7E/meganii-22//">Amazonで買う</a></div><div class="shoplinkrakuten"><a href="http://hb.afl.rakuten.co.jp/hgc/10b944e1.69649a36.10b944e2.c5d6d56c/?pc=http://search.rakuten.co.jp/search/mall?sitem=シャインオアレイン&m=http://m.rakuten.co.jp/">楽天で買う</a></div><div class="shoplinkyahoo"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884189678&vc_url=http://search.shopping.yahoo.co.jp/search?p=シャインオアレイン">Yahoo!で買う</a></div></div></div>
+{{% amazon B015V64W7E %}}
 
 ## 参考
 - [シャインオアレインのお手入れについて : 東西店長 語り尽くし \| SCOTCH GRAIN](http://sgrain2.exblog.jp/20825856/)
