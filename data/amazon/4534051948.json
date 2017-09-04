@@ -150,7 +150,7 @@
         "FormattedPrice": "￥ 109"
       },
       "TotalNew": "2",
-      "TotalUsed": "24",
+      "TotalUsed": "22",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -163,15 +163,14 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "r9lSWloiARHvS3dYXLDHwa9LSfTnCqqjz8z%2BuQaor86sjz0fb%2BbTke4v0LrFQKK9wXWVEGAA%2BLi%2Blc6wdL58ToIpTKwUjiug1wf72OCt7Dc%3D",
+          "OfferListingId": "vg7oZMOE%2FkwDdubxVJomd87PHH6DGFpolb5BQ1LGk9VoiGObvRQD4y0PTfmLuJVVtFn9BBsfsczmjgvOIAgzRqoXCjkQBe6zmcDIToJtZuw%3D",
           "Price": {
             "Amount": "1728",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 1,728"
           },
-          "Availability": "在庫あり。",
           "AvailabilityAttributes": {
-            "AvailabilityType": "now",
+            "AvailabilityType": "futureDate",
             "MinimumHours": "0",
             "MaximumHours": "0"
           },
@@ -179,15 +178,15 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "51",
+          "Points": "52",
           "TypicalRedemptionValue": {
-            "Amount": "51",
+            "Amount": "52",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 51"
+            "FormattedPrice": "￥ 52"
           }
         }
       }
     }
   },
-  "Lastmod": "2017-09-01 20:59:11 +0900"
+  "Lastmod": "2017-09-04 22:08:50 +0900"
 }

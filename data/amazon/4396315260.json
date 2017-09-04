@@ -111,12 +111,12 @@
         "FormattedPrice": "￥ 617"
       },
       "LowestUsedPrice": {
-        "Amount": "300",
+        "Amount": "320",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 300"
+        "FormattedPrice": "￥ 320"
       },
       "TotalNew": "1",
-      "TotalUsed": "10",
+      "TotalUsed": "7",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -129,31 +129,31 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "ISLICt42RuFtxm%2FJjJ%2FiL%2FAIvZDjo%2B3cpkfj50mOSBBMauhDHcO55vs%2BGciBPAE5e%2FEbze%2FLgGtj%2Ft29nStrklv%2B%2Bm7ykl7x5CVwWw95KYU%3D",
+          "OfferListingId": "pYQnwqISKUOli6p5XuM73myxhm%2FuKknFDjaj0b0aT4anoOugWJR6R6217HP07XUCl880BABpw3H9%2F664kc7pgnV%2BdBg2vmI1JzLx%2FaYAMj8%3D",
           "Price": {
             "Amount": "617",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 617"
           },
-          "Availability": "在庫あり。",
+          "Availability": "通常3～5週間以内に発送",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
+            "MinimumHours": "528",
+            "MaximumHours": "816"
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "11",
+          "Points": "20",
           "TypicalRedemptionValue": {
-            "Amount": "11",
+            "Amount": "20",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 11"
+            "FormattedPrice": "￥ 20"
           }
         }
       }
     }
   },
-  "Lastmod": "2017-09-01 20:58:08 +0900"
+  "Lastmod": "2017-09-04 22:07:29 +0900"
 }

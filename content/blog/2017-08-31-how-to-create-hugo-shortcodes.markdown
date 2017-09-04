@@ -10,13 +10,59 @@ slug: how-to-create-hugo-shortcodes
 img:
 ---
 
-Shortcodesの作り方
+Hugoでは、ちょっとしたHTMLタグを記事やテンプレートに差し込みたいと思った場合、ShortCodesという便利な機能が使えます。
+
 
 <!--more-->
 {{% googleadsense %}}
 
+例えば、
+
+- Twitterのツイート埋め込み
+- Slideshare, Speakerdeckなどのスライドの埋め込み
+- Youtubeなどの動画埋め込み
+- Amazonアフィリエイトリンク
+- Instagramの写真
+- imgタグ
+- Adsense
+
+などがあります。
+
+## Shortcodesのメリット
+
+HTMLタグを直書きと比べて何が嬉しいかというと、
+
+1. 変更に強い
+1. 見た目がシンプル
+
+の2点が挙げられます。
+
+埋め込みURLでよくあるパターンが、各記事に主導でコードを埋め込んだはいいが、ちょっと変更を加えたいときに、1つ1つ直していかなければいけないというものです。
+
+HTML直書きだと変更に対して明らかに弱いです。
+
+一方、Shortcodesにしておけば、コードは変えずにレイアウトを後からいくらでも変更できます。サイトのテーマを変えたとしても、Shortcodesは変わりません。
+
+このように**変更に強い**のはShortcodesのメリットです。
+
+AMP化をするときも、このShortcodesが役になってくれました。
+(img -> amp-imgも、Shortcodesのレイアウトを1箇所変換すれば、Shortcodesを埋め込んだ箇所全てが変更されます)
 
 
+次に、「見た目がシンプル」になるのがメリットです。
+
+HTML直打ちだと、divタグやらimgタグやらで、どうしてもごちゃごちゃしてしまいます。Shortcodesなら、`{{% espace "{{% img src='/test.jpg' %}}"%}}`と、シンプルに書くことができます。
+
+
+## Shortcodesのデメリット
+
+逆にShortcodesのデメリットはあまり思いつきません。強いて挙げるならば、各種Webサービスの埋め込みコードはHTML直書きに最適化されており、単純にそのまま貼り付けても使えない点です。
+
+一度、HTMLを貼り付けて、それを自分でShortcodes用に変換してあげる必要があります。難しいことはないのですが、ちょっと面倒です。
+
+
+
+# Shortcodesの例
 
 ## Speakerdeck
 
@@ -24,9 +70,9 @@ Shortcodesの作り方
 {{% espace "{{% speakerdeck XXXXXXX %}}" %}}
 ```
 
-### AMP version
+AMP version
 
-```
+```html
 {{ $id := .Get 0 }}
 
 <amp-iframe
@@ -41,9 +87,9 @@ Shortcodesの作り方
 ```
 
 
-## Amazon アフィリエイト
+## Amazonアフィリエイト
 
-例えば、以下のように名前付きと、引数１つの場合を切り分けたい場合、`.IsNamedParams`
+例えば、以下のように名前付きと、引数１つの場合を切り分けたい場合、`.IsNamedParams`を利用することで処理を分けることができます。
 
 ```
 {{% espace "{{% amazon 477418392X %}}" %}}
@@ -53,8 +99,31 @@ Shortcodesの作り方
 {{% espace "{{% amazon id=\"477418392X\" width=\"100\" height=\"100\" %}}" %}}
 ```
 
+ここでの注意点は、Go Templateの変数スコープです。一般的な変数スコープなら、以下のようにif文の中で再代入できると思ったのですが、Go Templateでは再代入・再割当ができないっぽいです。
 
 ```
+{{ $v := "init" }}
+{{ if true }}
+    {{ $v := "changed" }}
+{{ end }}
+v: {{ $v }} {{/* => init */}}
+```
+
+では、どのように回避するかというと、Hugoでは`Scratch`というFunctionを利用するそうです。
+
+[text/template: add support for nested variable assignment · Issue \#10608 · golang/go](https://github.com/golang/go/issues/10608)
+
+
+### Scratchの使い方
+
+
+- 設定 `$.Scratch.Add "Name" "Value"`
+- 取得 `$.Scratch.Get "Name"`
+
+
+改めて、AmazonアフィリエイトのShortcodesです。`$json`データは、Data Folderのファイルを読み込んでいます。
+
+```html
 {{ $associateId := "meganii-22" }}
 {{ $json := .Site.Data.amazon }}
 
@@ -115,3 +184,6 @@ Shortcodesの作り方
 {{ end }}
 <div>
 ```
+
+
+{{% amazon B01LMS7B1O %}}

@@ -407,9 +407,9 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "27064",
+        "Amount": "27320",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 27,064"
+        "FormattedPrice": "￥ 27,320"
       },
       "LowestUsedPrice": {
         "Amount": "1017",
@@ -417,7 +417,7 @@
         "FormattedPrice": "￥ 1,017"
       },
       "TotalNew": "1",
-      "TotalUsed": "12",
+      "TotalUsed": "11",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -427,5 +427,5 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2017-09-01 20:57:22 +0900"
+  "Lastmod": "2017-09-04 22:06:39 +0900"
 }
