@@ -1,0 +1,60 @@
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span></span>{{ $associateId := &quot;meganii-22&quot; }}
+{{ $json := .Site.Data.amazon }}
+
+{{ if .IsNamedParams }}
+  {{ $.Scratch.Add &quot;amazonItemId&quot; ( .Get &quot;id&quot;) }}
+  {{ $.Scratch.Add &quot;amazonItemWidth&quot; ( .Get &quot;width&quot;) }}
+  {{ $.Scratch.Add &quot;amazonItemHeight&quot; ( .Get &quot;height&quot;) }}
+{{ else }}
+  {{ $.Scratch.Add &quot;amazonItemId&quot; ( .Get 0) }}
+  {{ $.Scratch.Add &quot;amazonItemWidth&quot; &quot;100&quot; }}
+  {{ $.Scratch.Add &quot;amazonItemHeight&quot; &quot;100&quot; }}
+{{ end }}
+
+{{ $itemId := $.Scratch.Get &quot;amazonItemId&quot; }}
+{{ $imgWidth := $.Scratch.Get &quot;amazonItemWidth&quot; }}
+{{ $imgHeight := $.Scratch.Get &quot;amazonItemHeight&quot; }}
+
+<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+{{ range $json }}
+  {{ if eq .Item.ASIN $itemId }}
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;amazon-shortcode-box&quot;</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;amazon-shortcode-inner&quot;</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;amazon-shortcode-content&quot;</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;amazon-shortcode-image&quot;</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;amazon-shortcode&quot;</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">amp-img</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;thumb&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;{{ .Item.SmallImage.URL }}&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;{{ .title }}&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;{{ .Item.SmallImage.Width }}&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;{{ .Item.SmallImage.Height }}&quot;</span> <span class="na">layout</span><span class="o">=</span><span class="s">&quot;fixed&quot;</span> <span class="p">/&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;amazon-shortcode-body&quot;</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;amazon-shortcode-info&quot;</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">p</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;amazon-shortcode-title&quot;</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;amazon-shortcode&quot;</span><span class="p">&gt;</span>{{ .Item.ItemAttributes.Title }}<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+              <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+              {{ with .author }}
+                <span class="p">&lt;</span><span class="nt">p</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;amazon-shortcode-author&quot;</span><span class="p">&gt;</span>{{ . }}<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+              {{ end }}
+              <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;amazon-shortcode-detail&quot;</span><span class="p">&gt;</span>
+                {{ if or ( eq .productgroup &quot;Book&quot;) (eq .productgroup &quot;eBooks&quot;) }}
+                  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>出版社：{{ .publisher }}<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+                {{ else }}
+                  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>{{ .label }}<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+                {{ end }}
+                {{ with .publicationdate }}
+                  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>発売日：{{ . }}<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+                {{ end }}
+              <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;backport&quot;</span><span class="p">&gt;</span>
+                  <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;fa fa-amazon&quot;</span> <span class="na">aria-hidden</span><span class="o">=</span><span class="s">&quot;true&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span> Amazonで詳細を見る
+                <span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+              <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  {{ end }}
+{{ end }}
+<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+</code></pre></div>
