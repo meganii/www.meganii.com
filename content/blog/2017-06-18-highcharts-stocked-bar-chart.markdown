@@ -12,7 +12,7 @@ img: /images/2017/06/BS_PL-64x.png
 
 {{% img src="https://farm5.staticflickr.com/4347/36104167204_25d0bf7678_b.jpg" w="744" h="400" %}}
 
-<!--more-->
+
 {{% googleadsense %}}
 
 ## plotOptions
@@ -31,6 +31,8 @@ img: /images/2017/06/BS_PL-64x.png
       }
   },
 ```
+
+<!--more-->
 
 ```html
 <!DOCTYPE html>
