@@ -33,14 +33,13 @@ img: https://i.gyazo.com/thumb/200/_403a124a37d8ae1a3c1327d873df452c-png.jpg
 
 ### Google Search Console APIを有効化する
 
-[![https://gyazo.com/752b910f61f50470e43e61f0eb54e08b](https://i.gyazo.com/752b910f61f50470e43e61f0eb54e08b.png)](https://gyazo.com/752b910f61f50470e43e61f0eb54e08b)
+{{% img src="https://i.gyazo.com/752b910f61f50470e43e61f0eb54e08b.png" w="1120" h="372" %}}
 
-[![https://gyazo.com/79ea92c85a8acfaadc02154098cadbba](https://i.gyazo.com/79ea92c85a8acfaadc02154098cadbba.png)](https://gyazo.com/79ea92c85a8acfaadc02154098cadbba)
-
+{{% img src="https://i.gyazo.com/79ea92c85a8acfaadc02154098cadbba.png" w="791" h="249" %}}
 
 ### 資格情報を作成
 
-[![https://gyazo.com/b3550c1f12dbf42fdedc12c96f63771a](https://i.gyazo.com/b3550c1f12dbf42fdedc12c96f63771a.png)](https://gyazo.com/b3550c1f12dbf42fdedc12c96f63771a)
+{{% img src="https://i.gyazo.com/b3550c1f12dbf42fdedc12c96f63771a.png" w="785" h="266" %}}
 
 
 ### GoogleAppsScriptを利用できるように追加する
@@ -48,16 +47,15 @@ img: https://i.gyazo.com/thumb/200/_403a124a37d8ae1a3c1327d873df452c-png.jpg
 
 ### Google OAuth2ライブラリ追加
 
-[![https://gyazo.com/f06c6ffac99e13c481b8b039dd5f564d](https://i.gyazo.com/f06c6ffac99e13c481b8b039dd5f564d.png)](https://gyazo.com/f06c6ffac99e13c481b8b039dd5f564d)
+{{% img src="https://i.gyazo.com/f06c6ffac99e13c481b8b039dd5f564d.png" w="523" h="246" %}}
 
 Resources > Libraryから`1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsTQHhGBzBkMun4iDF`を追加する。
 
-[![https://gyazo.com/23fa3fb0e5d6eeee44c6a1c557cf44de](https://i.gyazo.com/23fa3fb0e5d6eeee44c6a1c557cf44de.png)](https://gyazo.com/23fa3fb0e5d6eeee44c6a1c557cf44de)
+{{% img src="https://i.gyazo.com/23fa3fb0e5d6eeee44c6a1c557cf44de.png" w="688" h="412" %}}
 
 Versionを指定して、保存すればOKです。
 
-[![https://gyazo.com/59388fa7bcb3e713ad8ad33904804bd0](https://i.gyazo.com/59388fa7bcb3e713ad8ad33904804bd0.png)](https://gyazo.com/59388fa7bcb3e713ad8ad33904804bd0)
-
+{{% img src="https://i.gyazo.com/59388fa7bcb3e713ad8ad33904804bd0.png" w="658" h="391" %}}
 
 ### Google Apps Scriptに処理を記述する
 
@@ -65,14 +63,16 @@ Versionを指定して、保存すればOKです。
 
 
 実行方法は、まず`openSheet`を実行する。
-[![https://gyazo.com/6ad8c768d69a872838a2205754061cd8](https://i.gyazo.com/6ad8c768d69a872838a2205754061cd8.png)](https://gyazo.com/6ad8c768d69a872838a2205754061cd8)
+
+{{% img src="https://i.gyazo.com/6ad8c768d69a872838a2205754061cd8.png" w="498" h="156" %}}
+
 
 その後、`Logs`から認証用のリンクに飛んで、OAuth認証を行います。
-[![https://gyazo.com/c2b4cef2bfb5ef60ba43d1f12a777eef](https://i.gyazo.com/c2b4cef2bfb5ef60ba43d1f12a777eef.png)](https://gyazo.com/c2b4cef2bfb5ef60ba43d1f12a777eef)
+
+{{% img src="https://i.gyazo.com/c2b4cef2bfb5ef60ba43d1f12a777eef.png" w="366" h="237" %}}
 
 
-
-```
+```javascript
 var CLIENT_ID = '{YOUR_CLIENT_ID}';
 var CLIENT_SECRET = '{YOUR_CLIENT_SECRET}';
 var SITE_URL = 'https%3A%2F%2Fmeganii.com';
@@ -85,18 +85,18 @@ function openSheet() {
   var spreadsheet = SpreadsheetApp.openById(SHEET_ID);
   var sheet = spreadsheet.getSheetByName("Sheet");  //この場合、あらかじめ「Sheet」シートを作成しておく
   sheet.clear();
-  
+
   var response = query();
   var json = JSON.parse(response.getContentText());
   var rows = json["rows"];
-  
+
   // Add Header
   sheet.getRange(1, 1).setValue("keys");
   sheet.getRange(1, 2).setValue("clicks");
   sheet.getRange(1, 3).setValue("ctr");
   sheet.getRange(1, 4).setValue("impressions");
   sheet.getRange(1, 5).setValue("position");
-  
+
   for (var i = 0; i < rows.length; i++) {
     sheet.getRange(i+2, 1).setValue(rows[i]["keys"]);
     sheet.getRange(i+2, 2).setValue(rows[i]["clicks"]);
@@ -116,16 +116,16 @@ function query() {
     dimensions: ["query"],
   }
   Logger.log(params);
-  
+
   var service = getService();
   if(!service.hasAccess()){
     alertAuth();
     return;
   }
-      
+
   var response = UrlFetchApp.fetch('https://www.googleapis.com/webmasters/v3/sites/'+ SITE_URL +'/searchAnalytics/query', {
     method : "post",
-    contentType: "application/json",   
+    contentType: "application/json",
     headers: {
       Authorization: 'Bearer ' + service.getAccessToken(),
     },
@@ -198,11 +198,12 @@ Google Apps Scriptには2種類存在する。
 
 ExcelマクロのようなGoogle SheetsやDocsに対するスクリプトです。
 
-[![https://gyazo.com/c4bc138b1b9d7f0dc0b4a288fd4f8714](https://i.gyazo.com/c4bc138b1b9d7f0dc0b4a288fd4f8714.png)](https://gyazo.com/c4bc138b1b9d7f0dc0b4a288fd4f8714)
+{{% img src="https://i.gyazo.com/c4bc138b1b9d7f0dc0b4a288fd4f8714.png" w="572" h="286" %}}
 
 ### Standalone Script
 
-[![https://gyazo.com/3bd5f95006f7780c4574c2516c3a9832](https://i.gyazo.com/3bd5f95006f7780c4574c2516c3a9832.png)](https://gyazo.com/3bd5f95006f7780c4574c2516c3a9832)
+{{% img src="https://i.gyazo.com/3bd5f95006f7780c4574c2516c3a9832.png" w="504" h="526" %}}
+
 
 ### Container Bound ScriptとStandalone Scriptの違い
 
