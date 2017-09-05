@@ -7,6 +7,7 @@ category: ['Tech']
 tags: ['FinTech','EDINET','Python']
 published: true
 slug: what-is-edinet-xbrl
+img: https://images-fe.ssl-images-amazon.com/images/I/41Nyynhmv5L._SL160_.jpg
 ---
 
 ## EDINETとは？
