@@ -6,7 +6,7 @@ category: ['Tech']
 tags: ['CircleCI','CI','Hugo']
 published: true
 slug: circle-ci-hugo-deploy
-img: https://qiita-image-store.s3.amazonaws.com/0/10564/f19fddc1-3b74-2798-9e5a-fa4fa1ce03fb.png
+img: https://farm9.staticflickr.com/8013/28804087283_ddef5db606_s.jpg
 ---
 
 {{% img src="https://farm5.staticflickr.com/4388/36747233782_a795b7ff4b_b.jpg" w="1024" h="761" %}}
