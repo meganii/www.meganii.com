@@ -41,9 +41,9 @@ Google Analyticsから情報を取得し、その結果を加工してJSONを返
 
 以下のページを参考に、Pythonのfalconでつくった。さくっとAPIサーバが構築できて非常に良い。
 
-[Falcon \- The minimalist Python WSGI framework](https://falconframework.org/)
-[Falconで光速のWeb APIサーバーを構築する \- Qiita](http://qiita.com/icoxfog417/items/913bb815d8d419148c33)
-[Python Falcon ちょっと本気のクイックスタート \- Qiita](http://qiita.com/yohjizzz/items/f46bb3bc7b7c40768836)
+- [Falcon \- The minimalist Python WSGI framework](https://falconframework.org/)
+- [Falconで光速のWeb APIサーバーを構築する \- Qiita](http://qiita.com/icoxfog417/items/913bb815d8d419148c33)
+- [Python Falcon ちょっと本気のクイックスタート \- Qiita](http://qiita.com/yohjizzz/items/f46bb3bc7b7c40768836)
 
 
 
