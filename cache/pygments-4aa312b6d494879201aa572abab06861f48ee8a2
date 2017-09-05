@@ -1,0 +1,111 @@
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span></span><span class="kd">var</span> <span class="nx">CLIENT_ID</span> <span class="o">=</span> <span class="s1">&#39;{YOUR_CLIENT_ID}&#39;</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">CLIENT_SECRET</span> <span class="o">=</span> <span class="s1">&#39;{YOUR_CLIENT_SECRET}&#39;</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">SITE_URL</span> <span class="o">=</span> <span class="s1">&#39;https%3A%2F%2Fmeganii.com&#39;</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">PER_RECORD</span> <span class="o">=</span> <span class="mi">500</span><span class="p">;</span>
+
+<span class="kd">var</span> <span class="nx">SHEET_ID</span> <span class="o">=</span> <span class="s1">&#39;{YOUR_SHEET_ID}&#39;</span><span class="p">;</span>
+
+
+<span class="kd">function</span> <span class="nx">openSheet</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">spreadsheet</span> <span class="o">=</span> <span class="nx">SpreadsheetApp</span><span class="p">.</span><span class="nx">openById</span><span class="p">(</span><span class="nx">SHEET_ID</span><span class="p">);</span>
+  <span class="kd">var</span> <span class="nx">sheet</span> <span class="o">=</span> <span class="nx">spreadsheet</span><span class="p">.</span><span class="nx">getSheetByName</span><span class="p">(</span><span class="s2">&quot;Sheet&quot;</span><span class="p">);</span>  <span class="c1">//この場合、あらかじめ「Sheet」シートを作成しておく</span>
+  <span class="nx">sheet</span><span class="p">.</span><span class="nx">clear</span><span class="p">();</span>
+
+  <span class="kd">var</span> <span class="nx">response</span> <span class="o">=</span> <span class="nx">query</span><span class="p">();</span>
+  <span class="kd">var</span> <span class="nx">json</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">getContentText</span><span class="p">());</span>
+  <span class="kd">var</span> <span class="nx">rows</span> <span class="o">=</span> <span class="nx">json</span><span class="p">[</span><span class="s2">&quot;rows&quot;</span><span class="p">];</span>
+
+  <span class="c1">// Add Header</span>
+  <span class="nx">sheet</span><span class="p">.</span><span class="nx">getRange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">).</span><span class="nx">setValue</span><span class="p">(</span><span class="s2">&quot;keys&quot;</span><span class="p">);</span>
+  <span class="nx">sheet</span><span class="p">.</span><span class="nx">getRange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">).</span><span class="nx">setValue</span><span class="p">(</span><span class="s2">&quot;clicks&quot;</span><span class="p">);</span>
+  <span class="nx">sheet</span><span class="p">.</span><span class="nx">getRange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">).</span><span class="nx">setValue</span><span class="p">(</span><span class="s2">&quot;ctr&quot;</span><span class="p">);</span>
+  <span class="nx">sheet</span><span class="p">.</span><span class="nx">getRange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">).</span><span class="nx">setValue</span><span class="p">(</span><span class="s2">&quot;impressions&quot;</span><span class="p">);</span>
+  <span class="nx">sheet</span><span class="p">.</span><span class="nx">getRange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">).</span><span class="nx">setValue</span><span class="p">(</span><span class="s2">&quot;position&quot;</span><span class="p">);</span>
+
+  <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">rows</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">sheet</span><span class="p">.</span><span class="nx">getRange</span><span class="p">(</span><span class="nx">i</span><span class="o">+</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">).</span><span class="nx">setValue</span><span class="p">(</span><span class="nx">rows</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="s2">&quot;keys&quot;</span><span class="p">]);</span>
+    <span class="nx">sheet</span><span class="p">.</span><span class="nx">getRange</span><span class="p">(</span><span class="nx">i</span><span class="o">+</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">).</span><span class="nx">setValue</span><span class="p">(</span><span class="nx">rows</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="s2">&quot;clicks&quot;</span><span class="p">]);</span>
+    <span class="nx">sheet</span><span class="p">.</span><span class="nx">getRange</span><span class="p">(</span><span class="nx">i</span><span class="o">+</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">).</span><span class="nx">setValue</span><span class="p">(</span><span class="nx">rows</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="s2">&quot;ctr&quot;</span><span class="p">]);</span>
+    <span class="nx">sheet</span><span class="p">.</span><span class="nx">getRange</span><span class="p">(</span><span class="nx">i</span><span class="o">+</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">).</span><span class="nx">setValue</span><span class="p">(</span><span class="nx">rows</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="s2">&quot;impressions&quot;</span><span class="p">]);</span>
+    <span class="nx">sheet</span><span class="p">.</span><span class="nx">getRange</span><span class="p">(</span><span class="nx">i</span><span class="o">+</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">).</span><span class="nx">setValue</span><span class="p">(</span><span class="nx">rows</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="s2">&quot;position&quot;</span><span class="p">]);</span>
+    <span class="nx">Logger</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">rows</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nx">query</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">date</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="s1">&#39;2016-12-01&#39;</span><span class="p">);</span>
+  <span class="kd">var</span> <span class="nx">params</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="nx">rowLimit</span><span class="o">:</span> <span class="nx">PER_RECORD</span><span class="p">,</span>
+    <span class="nx">startDate</span><span class="o">:</span> <span class="s1">&#39;2016-10-01&#39;</span><span class="p">,</span>
+    <span class="nx">endDate</span><span class="o">:</span>   <span class="s1">&#39;2016-12-31&#39;</span><span class="p">,</span>
+    <span class="nx">dimensions</span><span class="o">:</span> <span class="p">[</span><span class="s2">&quot;query&quot;</span><span class="p">],</span>
+  <span class="p">}</span>
+  <span class="nx">Logger</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">params</span><span class="p">);</span>
+
+  <span class="kd">var</span> <span class="nx">service</span> <span class="o">=</span> <span class="nx">getService</span><span class="p">();</span>
+  <span class="k">if</span><span class="p">(</span><span class="o">!</span><span class="nx">service</span><span class="p">.</span><span class="nx">hasAccess</span><span class="p">()){</span>
+    <span class="nx">alertAuth</span><span class="p">();</span>
+    <span class="k">return</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="kd">var</span> <span class="nx">response</span> <span class="o">=</span> <span class="nx">UrlFetchApp</span><span class="p">.</span><span class="nx">fetch</span><span class="p">(</span><span class="s1">&#39;https://www.googleapis.com/webmasters/v3/sites/&#39;</span><span class="o">+</span> <span class="nx">SITE_URL</span> <span class="o">+</span><span class="s1">&#39;/searchAnalytics/query&#39;</span><span class="p">,</span> <span class="p">{</span>
+    <span class="nx">method</span> <span class="o">:</span> <span class="s2">&quot;post&quot;</span><span class="p">,</span>
+    <span class="nx">contentType</span><span class="o">:</span> <span class="s2">&quot;application/json&quot;</span><span class="p">,</span>
+    <span class="nx">headers</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">Authorization</span><span class="o">:</span> <span class="s1">&#39;Bearer &#39;</span> <span class="o">+</span> <span class="nx">service</span><span class="p">.</span><span class="nx">getAccessToken</span><span class="p">(),</span>
+    <span class="p">},</span>
+    <span class="nx">payload</span><span class="o">:</span><span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">params</span><span class="p">),</span>
+  <span class="p">});</span>
+  <span class="nx">Logger</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">response</span><span class="p">);</span>
+  <span class="k">return</span> <span class="nx">response</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nx">alertAuth</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">service</span> <span class="o">=</span> <span class="nx">getService</span><span class="p">();</span>
+  <span class="kd">var</span> <span class="nx">authorizationUrl</span> <span class="o">=</span> <span class="nx">service</span><span class="p">.</span><span class="nx">getAuthorizationUrl</span><span class="p">();</span>
+  <span class="nx">Logger</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">authorizationUrl</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nx">getService</span><span class="p">()</span> <span class="p">{</span>
+  <span class="c1">// Create a new service with the given name. The name will be used when</span>
+  <span class="c1">// persisting the authorized token, so ensure it is unique within the</span>
+  <span class="c1">// scope of the property store.</span>
+  <span class="k">return</span> <span class="nx">OAuth2</span><span class="p">.</span><span class="nx">createService</span><span class="p">(</span><span class="s1">&#39;webmasters&#39;</span><span class="p">)</span>
+
+      <span class="c1">// Set the endpoint URLs, which are the same for all Google services.</span>
+      <span class="p">.</span><span class="nx">setAuthorizationBaseUrl</span><span class="p">(</span><span class="s1">&#39;https://accounts.google.com/o/oauth2/auth&#39;</span><span class="p">)</span>
+      <span class="p">.</span><span class="nx">setTokenUrl</span><span class="p">(</span><span class="s1">&#39;https://accounts.google.com/o/oauth2/token&#39;</span><span class="p">)</span>
+
+      <span class="c1">// Set the client ID and secret, from the Google Developers Console.</span>
+      <span class="p">.</span><span class="nx">setClientId</span><span class="p">(</span><span class="nx">CLIENT_ID</span><span class="p">)</span>
+      <span class="p">.</span><span class="nx">setClientSecret</span><span class="p">(</span><span class="nx">CLIENT_SECRET</span><span class="p">)</span>
+
+      <span class="c1">// Set the name of the callback function in the script referenced</span>
+      <span class="c1">// above that should be invoked to complete the OAuth flow.</span>
+      <span class="p">.</span><span class="nx">setCallbackFunction</span><span class="p">(</span><span class="s1">&#39;authCallback&#39;</span><span class="p">)</span>
+
+      <span class="c1">// Set the property store where authorized tokens should be persisted.</span>
+      <span class="p">.</span><span class="nx">setPropertyStore</span><span class="p">(</span><span class="nx">PropertiesService</span><span class="p">.</span><span class="nx">getUserProperties</span><span class="p">())</span>
+
+      <span class="c1">// Set the scopes to request (space-separated for Google services).</span>
+      <span class="p">.</span><span class="nx">setScope</span><span class="p">(</span><span class="s1">&#39;https://www.googleapis.com/auth/webmasters.readonly&#39;</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nx">authCallback</span><span class="p">(</span><span class="nx">request</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">service</span> <span class="o">=</span> <span class="nx">getService</span><span class="p">();</span>
+  <span class="kd">var</span> <span class="nx">isAuthorized</span> <span class="o">=</span> <span class="nx">service</span><span class="p">.</span><span class="nx">handleCallback</span><span class="p">(</span><span class="nx">request</span><span class="p">);</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">isAuthorized</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">HtmlService</span><span class="p">.</span><span class="nx">createHtmlOutput</span><span class="p">(</span><span class="s1">&#39;認証に成功しました。タブを閉じてください。&#39;</span><span class="p">);</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">HtmlService</span><span class="p">.</span><span class="nx">createHtmlOutput</span><span class="p">(</span><span class="s1">&#39;認証に失敗しました。タブを閉じてください。&#39;</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="cm">/**</span>
+<span class="cm"> * Reset the authorization state, so that it can be re-tested.</span>
+<span class="cm"> */</span>
+<span class="kd">function</span> <span class="nx">reset</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">service</span> <span class="o">=</span> <span class="nx">getService</span><span class="p">();</span>
+  <span class="nx">service</span><span class="p">.</span><span class="nx">reset</span><span class="p">();</span>
+<span class="p">}</span>
+</code></pre></div>
