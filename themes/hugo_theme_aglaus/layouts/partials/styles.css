@@ -74,9 +74,9 @@ main {
   padding: 0 1rem;
 }
 
-/* Parts:logo */
+/* 3:logo */
 .p-logo {
-  font-family: cursive;
+  font-family: sans-serif;
 }
 
 .p-logo a {
@@ -555,38 +555,53 @@ amazon-shortcode-detail {
 .amazon-shortcode-btn {
   height: 40px;
 }
-.affi_btn li {
-  display: inline;
+
+.c-btnlist {
+  margin: .5rem .5rem;
 }
-.square_btn {
+
+.c-btnlist__item {
+  display: inline-block;
+}
+
+.c-btn {
   display: block;
   text-decoration: none;
-  height:35px;
-  width: 6rem;
-  line-height: 37px;
-  text-align: center;
-  margin: 5px 5px 0 0;
+}
+
+.c-btn__ad {
   color: #fff;
   float: left;
-  background: #2bb6c1;
 }
-.square_btn:hover{
+
+.c-btn__ad:hover {
   background: #fff;
   color: #2bb6c1;
   border:solid 1px #2bb6c1;
 }
-.amazon {
+
+.c-btn__ad--amazon {
   background-color: #fc9711;
   border: 1px solid #000;
 }
-.rakuten {
-  background-color: #bd0000;
-  border: 1px solid #000;
-}
-.yahoo {
+
+.c-btn__ad--yahoo {
   background-color: #fff;
   color: #bd0000;
   border: 1px solid #bd0000;
+}
+
+.c-btn__ad--rakuten {
+  background-color: #bd0000;
+  border: 1px solid #000;
+}
+
+.u-mr3 {
+  margin-right: .3rem;
+}
+
+.u-p3 {
+  padding: .3rem;
 }
 
 .highlight .hll { background-color: #49483e }
