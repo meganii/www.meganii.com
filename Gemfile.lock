@@ -11,6 +11,7 @@ GEM
       ruby-hmac (~> 0.3)
     concurrent-ruby (1.0.5)
     crass (1.0.2)
+    dotenv (2.2.1)
     english (0.6.3)
       language
     i18n (0.8.1)
@@ -40,6 +41,7 @@ PLATFORMS
 DEPENDENCIES
   activesupport
   amazon-ecs
+  dotenv
   english
   json
   sanitize
