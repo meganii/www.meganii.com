@@ -533,6 +533,9 @@ amazon-shortcode-detail {
   -webkit-line-clamp: 3;
 }
 
+.amazon-shortcode-btn {
+  height: 40px;
+}
 .affi_btn li {
   display: inline;
 }
