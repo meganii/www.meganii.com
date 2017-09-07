@@ -16,6 +16,9 @@ Amazon::Ecs.configure do |options|
   options[:country] = 'jp'
 end
 
+RAKUTEN_ENDPOINT = "https://app.rakuten.co.jp/services/api/Product/Search/20170426?format=json&applicationId=#{ENV['RAKUTEN_APP_ID']}"
+YAHOO_ENDPOINT = "https://shopping.yahooapis.jp/ShoppingWebService/V1/json/itemSearch?appid=#{ENV['YAHOO_APP_ID']}"
+
 # extract amazon shortcode
 def extract_amazon_itemid_from_shortcode
   list = []
@@ -60,32 +63,62 @@ def cache_expired?(id)
   end
 end
 
-def get_rakuten_url_from(jan_code)
-  return '' if jan_code.empty?
+def get_rakuten_url_from(jan_list)
+  return '' if jan_list.empty?
 
-  endpoint = "https://app.rakuten.co.jp/services/api/Product/Search/20170426?format=json&applicationId=#{ENV['RAKUTEN_APP_ID']}"
-  url = "#{endpoint}&keyword=#{jan_code}"
-  open(url) do |res|
-    json = JSON.parse(res.read)
-    return '' if json['count'] == 0
-
-    product = json['Products'][0]['Product']
-
-    data = {
-      'productUrlPC' => product['productUrlPC'],
-      'productUrlMobile' => product['productUrlMobile']
-    }
-    return data
+  list = []
+  if jan_list.instance_of?(String)
+    list << jan_list
+  else
+    list = jan_list
   end
-  return ''
+
+  list.each do |jan_code|
+    sleep(1)
+    url = "#{RAKUTEN_ENDPOINT}&keyword=#{jan_code}"
+    open(url) do |res|
+      json = JSON.parse(res.read)
+      next if json['count'] == 0
+
+      product = json['Products'][0]['Product']
+
+      data = {
+        'productUrlPC' => product['productUrlPC'],
+        'productUrlMobile' => product['productUrlMobile']
+      }
+      return data
+    end
+  end
+
+  ''
 end
 
-def get_yahoo_url_from(jan_code)
-  return '' if jan_code.empty?
-  data = {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=#{jan_code}"
-  }
-  return data
+def get_yahoo_url_from(jan_list)
+  return '' if jan_list.empty?
+
+  list = []
+  if jan_list.instance_of?(String)
+    list << jan_list
+  else
+    list = jan_list
+  end
+
+
+  list.each do |jan_code|
+    sleep(1)
+    open("#{YAHOO_ENDPOINT}&jan=#{jan_code}") do |res|
+      json = JSON.parse(res.read)
+      puts json
+      next if json['ResultSet']['totalResultsAvailable'] == "0"
+
+      data = {
+        "productUrl": "https://shopping.yahoo.co.jp/search?p=#{jan_code}"
+      }
+      return data
+    end
+  end
+
+  ''
 end
 
 # main
@@ -99,14 +132,16 @@ id_list.each do |id|
     File.open("data/amazon/#{id}.json", 'w') do |f|
       begin
         data = get_amazon_jsondata(id)
-        jan_code = data['Item']['ItemAttributes']['EAN'] || ''
+        eanlist_elem = data['Item']['ItemAttributes']['EANList'] || ''
+        p eanlist_elem
+        jan_list = eanlist_elem.empty? ? '' : eanlist_elem['EANListElement']
 
-        result_rakuten = get_rakuten_url_from(jan_code)
+        result_rakuten = get_rakuten_url_from(jan_list)
         if !result_rakuten.empty?
           data['Rakuten'] = result_rakuten
         end
 
-        result_yahoo = get_yahoo_url_from(jan_code)
+        result_yahoo = get_yahoo_url_from(jan_list)
         if !result_yahoo.empty?
           data['Yahoo'] = result_yahoo
         end
@@ -124,3 +159,4 @@ id_list.each do |id|
 end
 
 # puts get_rakuten_url_from('9784152092670') #TEST
+# puts get_yahoo_url_from(["4960833503153", "4960833525773"])
