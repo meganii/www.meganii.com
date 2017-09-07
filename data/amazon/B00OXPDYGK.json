@@ -441,7 +441,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "PORIndPug3VaAYQFF4Hog4RZ%2FNMyIZjNSnSgI32UgR4%2BJAZy%2FzLddRlws0aLA3R9dtE7JVBXmL33mJPBTfy8FuR4YnjrUikE7mRoQ7TKAsyvwdch1Jq5P8KQ54dpQHgjAyFxibzYbIJipnvbuBpwFg%3D%3D",
+          "OfferListingId": "OXRoUWOZjNaO09KrjT0ZpOwTmKVVqJgDCssOooihaAOHJy2SJmbpDiw8r33fviyjltwFFnlQbMJN9mM0OUmmaQxe0cXQDsGcJzUXS4Tmw%2Fj2OW1XAqbRQw0CqVR5TqRF2JGWJ0fbhb9%2BOq1rlZwy6Q%3D%3D",
           "Price": {
             "Amount": "2680",
             "CurrencyCode": "JPY",
@@ -470,5 +470,12 @@
       }
     }
   },
-  "Lastmod": "2017-09-04 22:08:29 +0900"
+  "Lastmod": "2017-09-07 14:16:09 +0900",
+  "Rakuten": {
+    "productUrlPC": "https://product.rakuten.co.jp/product/-/3c16ee9685801ba48ca5147828dbd6ec/",
+    "productUrlMobile": "http://m.product.rakuten.co.jp/product/3c16ee9685801ba48ca5147828dbd6ec/"
+  },
+  "Yahoo": {
+    "productUrl": "https://shopping.yahoo.co.jp/search?p=4580370731200"
+  }
 }
