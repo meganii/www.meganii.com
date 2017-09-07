@@ -43,12 +43,6 @@ h2 { font-size: 1.4rem; line-height: 2rem; margin: 1.5rem 0; }
 h3 { font-size: 1.2rem; line-height: 1.5rem; margin: 1.5rem 0; }
 h4, h5, h6 { font-size: 1rem; line-height: 1.5rem; margin: 1.5rem 0; }
 
-.clearfix::after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
 main {
   display: block;
 }
@@ -606,6 +600,12 @@ amazon-shortcode-detail {
 
 /* Utitlity
    ----------------------------------------------------------------- */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 .u-mt {
   margin-top: 1rem;
 }
