@@ -44,11 +44,17 @@
                   <p>発売日：{{ . }}</p>
                 {{ end }}
               </div>
-              <p>
-                <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="backport">
-                  <i class="fa fa-amazon" aria-hidden="true"></i>&nbsp;Amazonで詳細を見る
-                </a>
-              </p>
+            </div>
+            <div class="amazon-shortcode-info">
+              <ul class="affi_btn">
+                <li><a class="square_btn amazon" href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="backport">Amazon</a></li>
+                {{ with .Yahoo }}
+                <li><a class="square_btn yahoo" href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884189678&vc_url={{ .productUrl }}" target="_blank" rel="nofollow"><amp-img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884189678" height="1" width="0"></amp-img>Yahoo!</a></li>
+                {{ end }}
+                {{ with .Rakuten }}
+                <li><a class="square_btn rakuten" href="https://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc={{ .productUrlPC }}&m={{ .productUrlMobile }}&link_type=text&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6InRlc3QiLCJjb2wiOjB9" target="_blank" rel="nofollow">楽天</a></li>
+                {{ end }}
+              </ul>
             </div>
           </div>
         </div>

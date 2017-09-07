@@ -533,6 +533,40 @@ amazon-shortcode-detail {
   -webkit-line-clamp: 3;
 }
 
+.affi_btn li {
+  display: inline;
+}
+.square_btn {
+  display: block;
+  text-decoration: none;
+  height:35px;
+  width: 5rem;
+  line-height: 37px;
+  text-align: center;
+  margin: 5px 5px 0 0;
+  color: #fff;
+  float: left;
+  background: #2bb6c1;
+}
+.square_btn:hover{
+  background: #fff;
+  color: #2bb6c1;
+  border:solid 1px #2bb6c1;
+}
+.amazon {
+  background-color: #fc9711;
+  border: 1px solid #000;
+}
+.rakuten {
+  background-color: #bd0000;
+  border: 1px solid #000;
+}
+.yahoo {
+  background-color: #fff;
+  color: #bd0000;
+  border: 1px solid #bd0000;
+}
+
 .highlight .hll { background-color: #49483e }
 .highlight  { background: #272822; color: #f8f8f2 }
 .highlight .c { color: #75715e } /* Comment */
