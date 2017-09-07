@@ -7,7 +7,6 @@ category: ['Tech']
 tags: ['headless']
 published: true
 slug: puppeteer
-img:
 ---
 
 
