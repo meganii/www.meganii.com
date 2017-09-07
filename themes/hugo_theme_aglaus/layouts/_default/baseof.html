@@ -13,6 +13,7 @@
 
       {{ range where .Site.Pages ".Params.thumbnail" "!=" nil }} .article-{{ .Source.Path | md5 }} .thumbnail { background-image: url({{ $.Site.BaseURL }}{{ .Params.thumbnail }});  } {{ end }}
     </style>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
 
   <body>
