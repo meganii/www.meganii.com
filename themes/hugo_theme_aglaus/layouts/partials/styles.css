@@ -434,21 +434,22 @@ article.li.sm .header-wrapper {
   color: #263238;
 }
 
-/* Google Adsense */
-.google-adsense p {
+.p-adsense {
+  margin-top: 1rem;
   font-size: .5rem;
   color: #818181;
 }
-/* Google Adsense */
-.google-adsense {
-  margin-top: 1rem;
+
+.p-adsense::after {
+  margin-bottom: 1rem;
 }
 
-.ad {
+.p-adsense__item {
   width: 21rem;
   height: 16.6rem;
   float : left;
 }
+
 
 /***** Amazon Shortcode *****/
 .amazon-shortcode-box {
@@ -605,6 +606,10 @@ amazon-shortcode-detail {
 
 /* Utitlity
    ----------------------------------------------------------------- */
+.u-mt {
+  margin-top: 1rem;
+}
+
 .u-mrs {
   margin-right: .3rem;
 }

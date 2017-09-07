@@ -20,9 +20,9 @@
 
   <div class="article-body">{{ .Content }}</div>
 
-  <div class="google-adsense">
+  <div class="p-adsense clearfix">
     <p>スポンサーリンク</p>
-    <div class="ad">
+    <div class="p-adsense__item">
       <amp-ad
         layout="responsive"
         width=300
@@ -32,7 +32,7 @@
         data-ad-slot="7368951150">
       </amp-ad>
     </div>
-    <div class="ad sp-none">
+    <div class="p-adsense__item sp-none">
       <amp-ad
         layout="responsive"
         width=300
@@ -43,8 +43,6 @@
       </amp-ad>
     </div>
   </div>
-
-  <div class="clearfix"></div>
 
   {{ partial "share.html" . }}
 
