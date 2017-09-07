@@ -273,7 +273,19 @@ article .header-wrapper {
   margin-bottom: 1.5rem;
 }
 
-article .thumbnail {
+.thumbnail {
+  display: block;
+  background-position: center;
+  background-size: cover;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  box-shadow: 0 0 3px 0 #333 inset;
+  float: left;
+  margin-right: 1rem;
+}
+
+/*article .thumbnail {
   display: block;
   background-position: center;
   background-size: cover;
@@ -284,7 +296,7 @@ article .thumbnail {
   box-shadow: 0 0 3px 0 #333 inset;
   float: left;
   margin-right: 1rem;
-}
+}*/
 
 article .summary {
   margin-bottom: 1.5rem;

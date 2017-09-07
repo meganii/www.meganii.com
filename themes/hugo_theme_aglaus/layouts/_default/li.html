@@ -1,6 +1,6 @@
 <article class="li article-{{ .Source.Path | md5 }}">
   <div class="header-wrapper">
-    <a href="{{ .Permalink }}" class="thumbnail" title="{{ .Title }}"></a>
+    <amp-img class="thumbnail" src="{{ if isset .Params "img" }}{{ if eq (substr .Params.img 0 4) "http" }}{{ .Params.img }}{{ else }}{{ $.Site.BaseURL }}{{ replaceRE "^/" "" .Params.img }}{{ end }}{{ else }}{{ $.Site.BaseURL }}images/nopicture.png{{ end }}" width="75" height="75" layout="fixed"></amp-img>
     <header class="article-header">
       <div class="clearfix">
         <h2 class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
