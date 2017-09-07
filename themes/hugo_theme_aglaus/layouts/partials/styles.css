@@ -64,7 +64,8 @@ main {
 .l-footer {
   font-size: .8rem;
   padding: 1rem 0;
-  border-top: 1px dashed #cfd8dc;
+  background-color: #333;
+  color: #fff;
 }
 
 .l-container {
@@ -283,6 +284,12 @@ article .header-wrapper {
   box-shadow: 0 0 3px 0 #333 inset;
   float: left;
   margin-right: 1rem;
+}
+
+.profile {
+  padding: 1rem;
+  width: 300px;
+  float: left;
 }
 
 /*article .thumbnail {

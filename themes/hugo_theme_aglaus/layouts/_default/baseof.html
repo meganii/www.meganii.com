@@ -51,6 +51,23 @@
 
     <footer class="l-footer">
       <div class="l-container">
+        <div class="profile">
+          <h1>Profile</h1>
+					<amp-img class="thumbnail" src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" width="60" height="60" layout="fixed"></amp-img>
+					{{ with .Site.Params.Twitter }}<p><a href="https://twitter.com/{{ . }}" target="_blank">@{{ . }}</a></p>{{ end }}
+					<p>{{ .Site.Params.profile }}</p>
+        </div>
+        <div class="profile">
+          <h1>Category</h1>
+          <ul class="footer-list footer-link">
+          {{ $url := .Site.BaseURL }}
+          {{ range $key, $value := .Site.Taxonomies.category }}
+            {{ if ne $key "" }}
+            <li><a href="{{$url}}category/{{$key}}">{{ title $key }}</a></li>
+            {{ end }}
+          {{ end }}
+        </div>
+        <div class="clearfix"></div>
         <p>{{ with .Site.Copyright }}{{ . | safeHTML }}{{ else }}<span class="h-logo">&copy; {{ .Site.Title }}</span>{{ end }}</p>
         <aside>
           <p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>
