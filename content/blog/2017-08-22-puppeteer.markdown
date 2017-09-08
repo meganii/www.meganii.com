@@ -1,7 +1,7 @@
 ---
 title: "puppeteerでAmazonアフィリエイトのレポートを取得する"
 date: 2017-08-22T21:43:50+09:00
-lastmod: 2017-08-22T21:43:50+09:00
+lastmod: 2017-09-08T21:43:50+09:00
 comments: true
 category: ['Tech']
 tags: ['headless']
@@ -37,6 +37,7 @@ const puppeteer = require('puppeteer');
   await page.click('#a-autoid-0-announce');
   await page.waitFor(2000);
 
+  await page.focus('#ap_email');
   await page.type('MAIL_ADDRESS');
 
   await page.focus('#ap_password');
