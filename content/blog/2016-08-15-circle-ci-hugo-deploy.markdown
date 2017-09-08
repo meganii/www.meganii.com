@@ -81,7 +81,7 @@ $ cat id_rsa.pub >> authorized_keys
 
 「1.さくらVPSで鍵を生成する」で生成した秘密鍵 id_rsa をコピーして、Circle CIの「SSH Permissions」から登録します。
 
-{{% img src="https://farm8.staticflickr.com/7648/28936345722_c7fc15ee85_z.jpg" w="640" h="407 "%}}
+{{% img src="https://farm8.staticflickr.com/7648/28936345722_c7fc15ee85_z.jpg" w="640" h="407" %}}
 
 
 #### 4. Circle CIのDebug Via SSHからSSHログインしてCircle CI側からさくらのレンタルサーバー側にログイン確認
