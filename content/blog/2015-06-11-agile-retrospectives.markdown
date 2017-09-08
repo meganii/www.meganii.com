@@ -1,5 +1,4 @@
 ---
-
 title: "『アジャイルレトロスペクティブズ』を読んで振り返りのやり方を学ぶ"
 date: 2015-06-11T22:47:00+09:00
 lastmod: 2017-02-18T13:26:00+09:00
@@ -51,7 +50,7 @@ slug: agile-retrospectives
 
 ## 2. データを収集する
 
-<a href="https://www.flickr.com/photos/garrettc/2575214144" title="Timeline detail by Garrett Coakley, on Flickr"><img src="https://c2.staticflickr.com/4/3002/2575214144_305e710e10_z.jpg" width="640" height="427" alt="Timeline detail"></a>
+{{% img src="https://c2.staticflickr.com/4/3002/2575214144_305e710e10_z.jpg" w="640" h="427" %}}
 
 <small>Photo: <a href='https://www.flickr.com/photos/garrettc/2575214144/in/photolist-cMWPc9-4VyDrS-4VmD8E-2ZcAU6' target='_blank'>undefined</a> by <a href='https://www.flickr.com/photos/garrettc/' target='_blank'>Garrett Coakley</a></small>
 
@@ -137,4 +136,3 @@ slug: agile-retrospectives
 ## 参考
 
 {{% amazon 4274066983 %}}
-
