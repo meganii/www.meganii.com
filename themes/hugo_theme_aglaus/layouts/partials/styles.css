@@ -542,16 +542,6 @@ article.li.sm .header-wrapper {
   display: table-cell;
 }
 
-.sp-none {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .sp-none {
-    display: block;
-  }
-}
-
 /* Utitlity
    ----------------------------------------------------------------- */
 .clearfix::after {
@@ -578,6 +568,16 @@ article.li.sm .header-wrapper {
 
 .u-mb {
   margin-bottom: 1rem;
+}
+
+.u-sp-none {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .u-sp-none {
+    display: block;
+  }
 }
 
 .highlight .hll { background-color: #49483e }
