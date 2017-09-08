@@ -17,47 +17,47 @@
 
 {{ range $json }}
   {{ if eq .Item.ASIN $itemId }}
-  <div class="amazon-shortcode-box">
-      <div class="amazon-shortcode-inner">
-        <div class="amazon-shortcode-content">
-          <div class="amazon-shortcode-image">
-            <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="amazon-shortcode">
-              <amp-img class="thumb" src="{{ .Item.SmallImage.URL }}" alt="{{ .title }}" width="{{ .Item.SmallImage.Width }}" height="{{ .Item.SmallImage.Height }}" layout="fixed" />
-            </a>
-          </div>
-          <div class="amazon-shortcode-body">
-            <div class="amazon-shortcode-info">
-              <p class="amazon-shortcode-title">
-                <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="amazon-shortcode">{{ .Item.ItemAttributes.Title }}</a>
-              </p>
-              {{ with .author }}
-                <p class="amazon-shortcode-author">{{ . }}</p>
+  <div class="c-flex c-card u-mb">
+    <div class="c-flex--vertical u-p">
+      <div class="c-flex--vertical__item c-flex">
+        <div class="c-flex__item">
+          <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="amazon-shortcode">
+            <amp-img class="thumb" src="{{ .Item.SmallImage.URL }}" alt="{{ .title }}" width="{{ .Item.SmallImage.Width }}" height="{{ .Item.SmallImage.Height }}" layout="fixed" />
+          </a>
+        </div>
+        <div class="c-flex__item">
+          <div>
+            <p class="p-aflink__title">
+              <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="amazon-shortcode">{{ .Item.ItemAttributes.Title }}</a>
+            </p>
+            {{ with .author }}
+            <p class="p-aflink__author">{{ . }}</p>
+            {{ end }}
+            <div class="p-aflink__detail">
+              {{ if or ( eq .productgroup "Book") (eq .productgroup "eBooks") }}
+              <p>出版社：{{ .publisher }}</p>
+              {{ else }}
+              <p>{{ .label }}</p>
               {{ end }}
-              <div class="amazon-shortcode-detail">
-                {{ if or ( eq .productgroup "Book") (eq .productgroup "eBooks") }}
-                  <p>出版社：{{ .publisher }}</p>
-                {{ else }}
-                  <p>{{ .label }}</p>
-                {{ end }}
-                {{ with .publicationdate }}
-                  <p>発売日：{{ . }}</p>
-                {{ end }}
-              </div>
+              {{ with .publicationdate }}
+              <p>発売日：{{ . }}</p>
+              {{ end }}
             </div>
-          </div>
-          <div class="amazon-shortcode-btn">
-            <ul class="c-btnlist">
-              <li class="c-btnlist__item"><a class="c-btn c-btn__ad c-btn__ad--amazon u-mrs u-ps" href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="backport"><i class="fa fa-amazon" aria-hidden="true"></i> Amazon</a></li>
-              {{ with .Yahoo }}
-              <li class="c-btnlist__item"><a class="c-btn c-btn__ad c-btn__ad--yahoo u-mrs u-ps" href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884189678&vc_url={{ .productUrl }}" target="_blank" rel="nofollow"><amp-img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884189678" height="1" width="0"></amp-img><i class="fa fa-yahoo" aria-hidden="true"></i> Yahoo!</a></li>
-              {{ end }}
-              {{ with .Rakuten }}
-              <li class="c-btnlist__item"><a class="c-btn c-btn__ad c-btn__ad--rakuten u-mrs u-ps" href="https://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc={{ .productUrlPC }}&m={{ .productUrlMobile }}&link_type=text&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6InRlc3QiLCJjb2wiOjB9" target="_blank" rel="nofollow"><i class="fa fa-registered" aria-hidden="true"></i> 楽天</a></li>
-              {{ end }}
-            </ul>
           </div>
         </div>
       </div>
+      <div class="c-flex--vertical__item">
+        <div class="c-flex">
+          <div class="c-flex__item"><a class="c-btn c-btn__ad c-btn__ad--amazon u-mrs u-ps" href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="backport"><i class="fa fa-amazon" aria-hidden="true"></i> Amazon</a></div>
+          {{ with .Yahoo }}
+          <div class="c-flex__item"><a class="c-btn c-btn__ad c-btn__ad--yahoo u-mrs u-ps" href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884189678&vc_url={{ .productUrl }}" target="_blank" rel="nofollow"><amp-img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884189678" height="1" width="0"></amp-img><i class="fa fa-yahoo" aria-hidden="true"></i> Yahoo!</a></div>
+          {{ end }}
+          {{ with .Rakuten }}
+          <div class="c-flex__item"><a class="c-btn c-btn__ad c-btn__ad--rakuten u-mrs u-ps" href="https://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc={{ .productUrlPC }}&m={{ .productUrlMobile }}&link_type=text&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6InRlc3QiLCJjb2wiOjB9" target="_blank" rel="nofollow"><i class="fa fa-registered" aria-hidden="true"></i> 楽天</a></div>
+          {{ end }}
+        </div>
+      </div>
     </div>
+  </div>
   {{ end }}
 {{ end }}

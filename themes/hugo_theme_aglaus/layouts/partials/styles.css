@@ -441,56 +441,6 @@ article.li.sm .header-wrapper {
   color: #263238;
 }
 
-/***** Amazon Shortcode *****/
-.amazon-shortcode-box {
-  display: table;
-  border: 1px solid #cccccc;
-  border-radius: 2px;
-  margin: 4px;
-  margin-bottom: 1em;
-  width: 100%;
-}
-
-.amazon-shortcode-box * {
-  word-wrap: break-word;
-  word-break: break-all;
-}
-
-.amazon-shortcode-inner {
-  padding: .8rem;
-}
-
-.amazon-shortcode-content {
-}
-
-.amazon-shortcode-image {
-  display: table-cell;
-  padding-right: 10px;
-  vertical-align: middle;
-}
-
-.amazon-shortcode-body {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.amazon-shortcode-info {
-  padding: 12px;
-}
-
-.amazon-shortcode-info p {
-  margin: 0;
-}
-
-p.amazon-shortcode-title {
-  line-height: 120%;
-}
-
-amazon-shortcode-detail {
-  margin-top: 1em;
-  margin-bottom: 0.4em;
-}
-
 .embed-wrapper {
   border: 1px solid #cccccc;
   margin: .2rem;
@@ -543,10 +493,6 @@ amazon-shortcode-detail {
   -webkit-line-clamp: 3;
 }
 
-.amazon-shortcode-btn {
-  height: 40px;
-}
-
 /* ==========================================================================
    Object
    ========================================================================== */
@@ -592,6 +538,19 @@ amazon-shortcode-detail {
 .c-btn__ad--rakuten {
   background-color: #bd0000;
   border: 1px solid #000;
+}
+
+.c-flex {
+  display: flex;
+}
+
+.c-flex--vertical {
+  flex-flow: column;
+}
+
+.c-card {
+  border: 1px solid #cccccc;
+  border-radius: 2px;
 }
 
 /* Project
@@ -642,6 +601,14 @@ amazon-shortcode-detail {
 
 .u-ps {
   padding: .3rem;
+}
+
+.u-p {
+  padding: 1rem;
+}
+
+.u-mb {
+  margin-bottom: 1rem;
 }
 
 .highlight .hll { background-color: #49483e }
