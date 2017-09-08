@@ -10,7 +10,7 @@ slug: sweet-love-shower-2014
 img: "https://c1.staticflickr.com/4/3902/14930345090_7fd8e45761_s.jpg"
 ---
 
-{{ img src="https://c1.staticflickr.com/4/3902/14930345090_7fd8e45761_z.jpg" w="640" h="480" }}
+{{% img src="https://c1.staticflickr.com/4/3902/14930345090_7fd8e45761_z.jpg" w="640" h="480" %}}
 
 
 ## 初めてのSLS
@@ -72,7 +72,7 @@ THE BAWDIESのHOTDOGの下りが今回も意味不明で面白かった。マッ
 
 <a href="https://px.a8.net/svt/ejp?a8mat=2BW14V+7OUL2Q+28X2+C8GHD" target="_blank">
 <amp-img layout="fixed" width="350" height="240" alt="" src="https://www28.a8.net/svt/bgt?aid=140902591465&wid=001&eno=01&mid=s00000010487002055000&mc=1"></amp-img></a>
-<amp-img width="1" height="1" src="http://www16.a8.net/0.gif?a8mat=2BW14V+7OUL2Q+28X2+C8GHD" alt="" layout="fixed">
+<amp-img width="1" height="1" src="http://www16.a8.net/0.gif?a8mat=2BW14V+7OUL2Q+28X2+C8GHD" alt="" layout="fixed"></amp-img>
 
 
 さて、復習しよう。
