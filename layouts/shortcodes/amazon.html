@@ -15,7 +15,6 @@
 {{ $imgWidth := $.Scratch.Get "amazonItemWidth" }}
 {{ $imgHeight := $.Scratch.Get "amazonItemHeight" }}
 
-<div>
 {{ range $json }}
   {{ if eq .Item.ASIN $itemId }}
   <div class="amazon-shortcode-box">
@@ -62,4 +61,3 @@
     </div>
   {{ end }}
 {{ end }}
-<div>
