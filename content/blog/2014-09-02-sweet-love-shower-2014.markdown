@@ -45,7 +45,7 @@ Fear, and Loathing in Las Vegas は、完全に初見だった。
 
 YOUR SONG IS GOOD は、最後の方しか見れなかったけど、いい感じだった。いい感じ過ぎて、ライブが終わったかと思ったぐらい。
 
-{{% youtube PRI0bA5VSL8 %}}
+{{% youtube id="PRI0bA5VSL8" width="560" height="315" %}}
 
 {{% amazon B00EXO4RU8 %}}
 
