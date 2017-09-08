@@ -451,48 +451,6 @@ article.li.sm .header-wrapper {
   word-break: break-all;
 }
 
-.embed-wrapper-inner {
-  padding: 12px;
-}
-
-.embed-content {
-  position: relative;
-  height: 100px;
-  overflow: hidden;
-}
-
-.thumb-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.entry-body {
-  margin-right: 110px;
-}
-
-.entry-title {
-  font-size: .9rem;
-  margin: 0;
-  padding: 0;
-}
-
-.entry-title a {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
-}
-
-.entry-content {
-  font-size: .8rem;
-  max-height: 72px;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-}
-
 /* ==========================================================================
    Object
    ========================================================================== */
@@ -553,6 +511,14 @@ article.li.sm .header-wrapper {
   border-radius: 2px;
 }
 
+.c-card__content {
+  font-size: .8rem;
+  max-height: 72px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
 /* Project
    ----------------------------------------------------------------- */
 
