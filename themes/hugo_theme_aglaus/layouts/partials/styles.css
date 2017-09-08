@@ -33,12 +33,12 @@ h4, h5, h6 { font-size: 1rem; line-height: 1.5rem; margin: 1.5rem 0; }
    ----------------------------------------------------------------- */
 
 html {
-  font-size: 18px;
+  font-size: 15px;
 }
 
-@media (max-width:  768px)  {
+@media (min-width: 768px)  {
   html {
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 
@@ -407,27 +407,26 @@ article.li.sm .header-wrapper {
   color: #ff5722;
 }
 
-.article-body figure { margin: 1.5rem -2rem; }
+.article-body figure { margin: 1.5rem -1rem; }
 .article-body figure.left,
 .article-body figure.right {
-  /*width: 15rem;
-  height: 12rem;*/
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
+  float: none;
+  margin: 0 -1rem;
+  width: auto;
+  height: auto;
 }
 .article-body figure.left { float: left; margin-right: 1rem; margin-left: -2rem; }
 .article-body figure.center { text-align: center;}
 
 
-@media (max-width: 768px) {
-  .article-body figure { margin: 1.5rem -1rem; }
+@media (min-width: 768px) {
+  .article-body figure { margin: 1.5rem -2rem; }
   .article-body figure.left,
   .article-body figure.right {
     float: none;
-    margin: 0 -1rem;
-    width: auto;
-    height: auto;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -543,9 +542,13 @@ article.li.sm .header-wrapper {
   display: table-cell;
 }
 
-@media (max-width: 768px) {
+.sp-none {
+  display: none;
+}
+
+@media (min-width: 768px) {
   .sp-none {
-    display: none;
+    display: block;
   }
 }
 
