@@ -17,7 +17,8 @@ Capybaraで、`style="display: none;"`となっているある要素を取得し
 
 どうやら下記の`visible`オプションがあるようです。知らなくて、しばらく途方にくれていました。
 
-http://www.rubydoc.info/github/jnicklas/capybara/master/Capybara/Node/Finders#all-instance_method
+[http://www.rubydoc.info/github/jnicklas/capybara/master/Capybara/Node/Finders#all-instance_method](http://www.rubydoc.info/github/jnicklas/capybara/master/Capybara/Node/Finders#all-instance_method)
+
 ```
 visible (Boolean, Symbol) — Only find elements with the specified visibility:
 true - only finds visible elements.
