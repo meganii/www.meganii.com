@@ -1,27 +1,12 @@
-html {
-  font-size: 18px;
-}
+/* ==========================================================================
+   Foundation
+   ========================================================================== */
 
-@media (max-width:  768px)  {
-  html {
-    font-size: 15px;
-  }
-}
-
-body {
-  font-family: 'Hiragino Kaku Gothic Pro',メイリオ,Meiryo,sans-serif;
-  font-size: inherit;
-  margin: 0;
-  color: #263238;
-}
+/* Reset
+   ----------------------------------------------------------------- */
 
 html, body {
   margin: 0;
-}
-
-a {
-  text-decoration: none;
-  color: #e91e63;
 }
 
 p {
@@ -43,11 +28,40 @@ h2 { font-size: 1.4rem; line-height: 2rem; margin: 1.5rem 0; }
 h3 { font-size: 1.2rem; line-height: 1.5rem; margin: 1.5rem 0; }
 h4, h5, h6 { font-size: 1rem; line-height: 1.5rem; margin: 1.5rem 0; }
 
+
+/* Base
+   ----------------------------------------------------------------- */
+
+html {
+  font-size: 18px;
+}
+
+@media (max-width:  768px)  {
+  html {
+    font-size: 15px;
+  }
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic Pro',メイリオ,Meiryo,sans-serif;
+  font-size: inherit;
+  margin: 0;
+  color: #263238;
+}
+
+a {
+  text-decoration: none;
+  color: #e91e63;
+}
+
 main {
   display: block;
 }
 
-/* Layouts */
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+
 .l-header {
   padding: .5rem 0;
   margin-bottom: 2rem;
@@ -415,7 +429,6 @@ article.li.sm .header-wrapper {
     width: auto;
     height: auto;
   }
-  .sp-none { display: none; }
 }
 
 .article-body figcaption {
@@ -427,23 +440,6 @@ article.li.sm .header-wrapper {
 .article-body figcaption a {
   color: #263238;
 }
-
-.p-adsense {
-  margin-top: 1rem;
-  font-size: .5rem;
-  color: #818181;
-}
-
-.p-adsense::after {
-  margin-bottom: 1rem;
-}
-
-.p-adsense__item {
-  width: 21rem;
-  height: 16.6rem;
-  float : left;
-}
-
 
 /***** Amazon Shortcode *****/
 .amazon-shortcode-box {
@@ -596,6 +592,36 @@ amazon-shortcode-detail {
 .c-btn__ad--rakuten {
   background-color: #bd0000;
   border: 1px solid #000;
+}
+
+/* Project
+   ----------------------------------------------------------------- */
+
+.p-adsense {
+  width: 100%;
+  margin-top: 1rem;
+  font-size: .5rem;
+  color: #818181;
+}
+
+.p-adsense::after {
+  margin-bottom: 1rem;
+}
+
+.p-adtable {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+
+.p-adtable__item {
+  display: table-cell;
+}
+
+@media (max-width: 768px) {
+  .sp-none {
+    display: none;
+  }
 }
 
 /* Utitlity
