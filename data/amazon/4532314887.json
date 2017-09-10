@@ -109,13 +109,18 @@
       "Title": "ワールド・カフェをやろう"
     },
     "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "400",
+      "LowestNewPrice": {
+        "Amount": "6820",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 400"
+        "FormattedPrice": "￥ 6,820"
       },
-      "TotalNew": "0",
-      "TotalUsed": "20",
+      "LowestUsedPrice": {
+        "Amount": "392",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 392"
+      },
+      "TotalNew": "1",
+      "TotalUsed": "21",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -125,7 +130,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2017-09-08 20:11:01 +0900",
+  "Lastmod": "2017-09-10 21:32:55 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/9f8d5ae2baecb87a5a1e2246b4cb15ba/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/9f8d5ae2baecb87a5a1e2246b4cb15ba/"

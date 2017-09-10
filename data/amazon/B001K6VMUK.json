@@ -109,9 +109,9 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "2100",
+        "Amount": "2480",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,100"
+        "FormattedPrice": "￥ 2,480"
       },
       "TotalNew": "11",
       "TotalUsed": "0",
@@ -127,18 +127,12 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "1mfygspNcRALMMiCn2bc%2FuIUEsAxIGDqsKoqoBs3dpE3b2tAmGQ2sHl%2BIlB5iDvKMXX4FLKf1AepjEUVvy1RzrHxBr%2Beb6GEdi1itzgC8G0P2FZ01i7kvEhgeucn4sSiOh9LWTVP3WlAfGbIYhq3u8%2FfyoBh9AdA",
+          "OfferListingId": "yy2udSK37Dv43BVDyGS4ZgRfn0%2F9wZiwdbhAJSFXStPVmeoi7Sr%2FbPCn%2BztD2u0tzqnYYlOyMUg%2BE4qmKbdA3FkGBvETeIJ%2Fu76Yro2nU4t3pmNK9ROWBlqrgehq6NfJolzoun5%2B3uRXFobJQrEgI%2Ft3vGpPNAbj",
           "Price": {
-            "Amount": "2100",
+            "Amount": "2700",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,100"
+            "FormattedPrice": "￥ 2,700"
           },
-          "AmountSaved": {
-            "Amount": "600",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 600"
-          },
-          "PercentageSaved": "22",
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
@@ -151,7 +145,7 @@
       }
     }
   },
-  "Lastmod": "2017-09-08 20:08:41 +0900",
+  "Lastmod": "2017-09-10 21:30:47 +0900",
   "Yahoo": {
     "productUrl": "https://shopping.yahoo.co.jp/search?p=4977513054553"
   }
