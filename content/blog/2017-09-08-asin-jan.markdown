@@ -1,0 +1,51 @@
+---
+title: "ASIN, JAN, ISBNコードについて"
+date: 2017-09-08T16:46:56+09:00
+lastmod: 2017-09-08T16:46:56+09:00
+comments: true
+category: ['Tech']
+tags: ['Amazon','API']
+published: false
+slug: asin-jan
+---
+
+ASIN, JAN, ISBNなどよく目にするものの、意味がわかっていないものを調べた時のメモです。
+
+<!--more-->
+{{% googleadsense %}}
+
+
+## JAN/EAN
+
+> JANコードは、日本の共通商品コードとして、流通情報システムの重要な基盤となっており、国際的にはEANコード（アメリカではUPCコード）として呼称され、世界100カ国以上で使用されています。EAN（European Article Number）は、米国外で生産された商品に使用される12－13桁からなる製品コードです。JAN（EAN）コードはメーカーコードと商品アイテムコード、チェックデジットにより構成されており、バーコードで商品の外側に表示されています。これら商品コードはカタログの品質向上や、商品の検索を容易にするなど小売業の経営管理をする上で重要なコードになります。JANメーカーコードは（財）流通システム開発センターが管理し、商品アイテムコードはJANメーカーコードの登録企業が設定、管理します。
+
+[https://www.amazon.co.jp/gp/seller/asin-upc-isbn-info.html](https://www.amazon.co.jp/gp/seller/asin-upc-isbn-info.html)
+
+JANは、Amazon Product Advertising APIで取得できる情報の`EAN`に相当するようです。
+
+
+## ISBN
+
+> ISBNとは国際標準図書番号（International Standard Book Number）を意味し、出版物（書籍、コミック・ムック、カセットテープ・ビデオ・CD等の電子出版物）の発行国、出版社、書名を特定する固有番号です。ISBNは主に10桁または13桁の識別番号で構成されており、2007年1月以降に付番されている番号はすべて13桁になっています。ISBNは、書籍の裏表紙などにバーコードが印刷されています。Amazon.co.jp カタログでは、ISBNはカタログのASINと同じ番号が使用されています。
+
+
+## ASIN
+
+> 「ASIN」は、「Amazon Standard Identification Number」の略で、Amazonグループが取り扱う、書籍以外の商品を識別する10桁の固有番号で、Amazonサイトの商品詳細ページに表示されています。書籍の場合、Amazon.co.jp カタログではASINはISBNの番号が使用されていますが、CD、DVD、ビデオ、ソフトウェア、ゲームなど書籍以外の商品は、新たな商品のカタログをアップロードする際にASINが作成されます。
+
+
+## ASIN => JAN変換
+
+Amazon Product Advertising APIの結果に含まれる`EAN`,`EANList`を参照すればよさそうです。
+
+しかし、1つのASINに対して複数のJANコードが含まれている場合があり、これが何を意味しているのかがわかりません。
+
+Amazon Product Advetising APIで取得したJANコードで、Yahooと楽天で検索を行ったところ見つからないものがあったため、EANListElementの分だけ存在チェックをする必要があるかもしれない。
+
+
+
+## 参考
+
+[雑誌コード、ISBN、JAN、ASINの変換](http://www.wakatta-blog.com/isbn.html)
+[Amazon\.co\.jp ヘルプ: ISBN/ASINについて](https://www.amazon.co.jp/gp/help/customer/display.html?nodeId=201889580)
+[Thought ISBN10とISBN13 \- @//メモ](https://hondou.homedns.org/pukiwiki/index.php?Thought%2520ISBN10%25A4%25C8ISBN13)
