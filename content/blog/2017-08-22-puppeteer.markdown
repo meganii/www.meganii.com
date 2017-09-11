@@ -128,4 +128,5 @@ for (let cookie of cookies) {
 
 ## 参考
 
+- [\-\-headless時代の本命？ Chrome を Node\.jsから操作するライブラリ puppeteer について \- Qiita](http://qiita.com/Quramy/items/26058e83e898ec2ec078)
 - [Nightmare\.jsでAmazonアフィリエイトのレポートを取得する \- SIS Lab](https://www.meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/)
