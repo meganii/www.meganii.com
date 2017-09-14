@@ -72,16 +72,17 @@ slug: baseball-club-yokyo
 前回の余興作成のときは、Final Cut Proの体験版を使えたので音声とか、文字入れとか楽だったが、今回は、iMovieでやりずらい。。
 お金出して、Final Cut Proを買おうと思うぐらい悩みました。
 
-<amp-iframe src="https://widgets.itunes.apple.com/widget.html?c=jp&brc=FFFFFF&blc=FFFFFF&trc=FFFFFF&tlc=FFFFFF&d=&t=&m=software&e=macSoftware&w=300&h=300&ids=408981434&wt=discovery&partnerId=&affiliate_id=&at=1l3vpSH&ct=" sandbox="allow-scripts allow-same-origin" width="300" height="300" layout="fixed"></amp-iframe>
+<a href="https://itunes.apple.com/jp/app/imovie/id408981434?mt=12&uo=4&at=1l3vpSH" rel="nofollow" target="_blank">iMovie</a><br />
 
-<amp-iframe src="https://widgets.itunes.apple.com/widget.html?c=jp&brc=FFFFFF&blc=FFFFFF&trc=FFFFFF&tlc=FFFFFF&d=&t=&m=software&e=macSoftware&w=300&h=300&ids=424389933&wt=discovery&partnerId=&affiliate_id=&at=1l3vpSH&ct=" sandbox="allow-scripts allow-same-origin" width="300" height="300" layout="fixed"></amp-iframe>
+<a href="https://itunes.apple.com/jp/app/final-cut-pro/id424389933?mt=12&uo=4&at=1l3vpSH" rel="nofollow" target="_blank">Final Cut Pro</a><br />
 
 ### Motion5
 
 ある固定のオブジェクトを追尾する「マッチムーブ」とか、爆発の効果など初めて使ってみました。
 使いこなすまでがなかなか難しい。
 
-<amp-iframe src="https://widgets.itunes.apple.com/widget.html?c=jp&brc=FFFFFF&blc=FFFFFF&trc=FFFFFF&tlc=FFFFFF&d=&t=&m=software&e=macSoftware&w=300&h=300&ids=434290957&wt=discovery&partnerId=&affiliate_id=&at=1l3vpSH&ct=" sandbox="allow-scripts allow-same-origin" width="300" height="300" layout="fixed"></amp-iframe>
+<a href="https://itunes.apple.com/jp/app/motion/id434290957?mt=12&uo=4&at=1l3vpSH" rel="nofollow" target="_blank">Motion5</a>
+
 
 ### OneDrive
 動画共有のサービスとして利用した。最初から、15GBのストレージとして使えるのでかなり便利です。
