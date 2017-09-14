@@ -1,6 +1,7 @@
 ---
 title: "サグラダ・ファミリア建設とシステム開発"
 date: 2016-04-21T23:03:37+09:00
+lastmod: 2017-09-14T23:03:37+09:00
 comments: true
 category: ['Tech']
 tags: ['book']
@@ -35,8 +36,9 @@ img: "https://images-na.ssl-images-amazon.com/images/I/31zTkBNcyuL._SL160_.jpg"
 
 ここで、システム開発に無理やり当てはめて考えてみます。システム開発の難しさを表した図として、下記の図がよく出てきます。簡単にいうと、システム開発において、まず顧客が自分が本当に望むものを上手く説明できない、またその話をいろんな人がそれぞれの考えて動いたため、全然違うものが出来上がってしまうというシステム開発の難しさを風刺した絵になっています。
 
-![システム開発の難しさ](/images/system_development.jpg)
-[図引用][プロジェクト・マネージャの「やってはいけない」 - ［姿勢編］理由無き要求は機能化してはいけない：ITpro](http://itpro.nikkeibp.co.jp/article/COLUMN/20080828/313626/)
+{{% img src="/images/system_development.jpg" w="600" h="492" %}}
+
+[図引用][プロジェクト・マネージャの「やってはいけない」 - ［姿勢編］理由無き要求は機能化してはいけない：ITpro]
 
 
 このような認識の相違を生まないために、ガウディは図面に頼らなくても、自分が立体で発想したイメージを、そのまま立体で、実際に建物を作る職人たちに伝えるコミュニケーションの手段を持っていました。それは、模型による伝達です。
@@ -71,6 +73,7 @@ img: "https://images-na.ssl-images-amazon.com/images/I/31zTkBNcyuL._SL160_.jpg"
 
 **「諸君、明日はもっと良いものをつくろう」** 自分もその精神で、仕事をしたい。
 
-<div class="booklink-box"><div class="booklink-image"><a href=http://www.amazon.co.jp/%E3%82%A8%E3%83%AA%E3%83%83%E3%82%AF%E3%83%BB%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%B9%E3%81%AE%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E9%A7%86%E5%8B%95%E8%A8%AD%E8%A8%88-IT-Architects%E2%80%99Archive-%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA%E3%81%AE%E5%AE%9F%E8%B7%B5-%E3%82%A8%E3%83%AA%E3%83%83%E3%82%AF%E3%83%BB%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%B9/dp/4798121967%3FSubscriptionId%3DAKIAI6MZOKQQCKBKJBLQ%26tag%3Dmeganii-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4798121967><img src="https://images-na.ssl-images-amazon.com/images/I/51f7WXHJYCL._SL160_.jpg" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="http://www.amazon.co.jp/exec/obidos/asin/4798121967/meganii-22/">エリック・エヴァンスのドメイン駆動設計 (IT Architects’Archive ソフトウェア開発の実践)</a></div><div class=shoplinkrakuten><a href="http://hb.afl.rakuten.co.jp/hgc/g00q0725.il1o2897.g00q0725.il1o3b57/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F11146351%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frms%2Fmsv%2FItem%3Fn%3D11146351%26surl%3Dbook">楽天で買う</a></div></div></div>
 
-<div class="booklink-box"><div class="booklink-image"><a href=http://www.amazon.co.jp/%E3%82%AC%E3%82%A6%E3%83%87%E3%82%A3%E3%81%AE%E4%BC%9D%E8%A8%80-%E5%85%89%E6%96%87%E7%A4%BE%E6%96%B0%E6%9B%B8-%E5%A4%96%E5%B0%BE-%E6%82%A6%E9%83%8E/dp/4334033644%3FSubscriptionId%3DAKIAI6MZOKQQCKBKJBLQ%26tag%3Dmeganii-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4334033644><img src="https://images-na.ssl-images-amazon.com/images/I/31zTkBNcyuL._SL160_.jpg" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="http://www.amazon.co.jp/exec/obidos/asin/4334033644/meganii-22/">ガウディの伝言 (光文社新書)</a></div><div class=shoplinkrakuten><a href="http://hb.afl.rakuten.co.jp/hgc/g00q0725.il1o2897.g00q0725.il1o3b57/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F4085765%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frms%2Fmsv%2FItem%3Fn%3D4085765%26surl%3Dbook">楽天で買う</a></div></div></div>
+{{% amazon 4798121967 %}}
+
+{{% amazon 4334033644 %}}
