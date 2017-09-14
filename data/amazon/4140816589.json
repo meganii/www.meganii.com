@@ -162,17 +162,17 @@
         "FormattedPrice": "￥ 1,500"
       },
       "LowestUsedPrice": {
-        "Amount": "1323",
+        "Amount": "1101",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,323"
+        "FormattedPrice": "￥ 1,101"
       },
       "LowestCollectiblePrice": {
         "Amount": "2412",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 2,412"
       },
-      "TotalNew": "5",
-      "TotalUsed": "24",
+      "TotalNew": "4",
+      "TotalUsed": "32",
       "TotalCollectible": "3",
       "TotalRefurbished": "0"
     },
@@ -185,33 +185,33 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "FbSdxg9qkO26dLNP704int3wyW0Yx0WfWuIeH1k0HpmLUDIdWbU6GiPgNReNFJasFenSSmlmBaXFnLmTxjiVwI0m65XKobCxfK8EHC%2BQrmE%3D",
+          "OfferListingId": "fuRTkGJfKF80MLMGPz3RAgHurgQySpMq4bYrfpPt79txXdentUyUXLMkOVu3mxtX%2B35mtQRoGet%2Fth2WvpR41BvGz%2FxV5PjmYts9zhvpEC0%3D",
           "Price": {
             "Amount": "1728",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 1,728"
           },
-          "Availability": "通常2～4週間以内に発送",
+          "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "336",
-            "MaximumHours": "624"
+            "MinimumHours": "0",
+            "MaximumHours": "0"
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "52",
+          "Points": "17",
           "TypicalRedemptionValue": {
-            "Amount": "52",
+            "Amount": "17",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 52"
+            "FormattedPrice": "￥ 17"
           }
         }
       }
     }
   },
-  "Lastmod": "2017-09-10 21:37:47 +0900",
+  "Lastmod": "2017-09-14 22:30:01 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/dfeb115f1f69d82a4c74398f9d6170a2/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/dfeb115f1f69d82a4c74398f9d6170a2/"
