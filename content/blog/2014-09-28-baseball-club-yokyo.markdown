@@ -1,5 +1,4 @@
 ---
-
 title: "福井-大阪-名古屋-東京。拠点が離れている中での結婚式余興作成"
 date: 2014-09-28T22:11:00+09:00
 comments: true
@@ -16,10 +15,7 @@ slug: baseball-club-yokyo
 
 当日まで、「ぽかーん」とする来賓者の顔しかイメージできなかったので、いやぁ、なんとかなって本当によかった。
 
-<a href="https://www.flickr.com/photos/35571855@N06/15432488581" title="えとピンチャレンジ by meganii, on Flickr"><img class="img-responsive" src="https://farm6.staticflickr.com/5598/15432488581_468bd350f1_c.jpg" width="800" height="560" alt="えとピンチャレンジ"></a>
-
-
-
+{{% img src="https://farm6.staticflickr.com/5598/15432488581_468bd350f1_c.jpg" w="800" h="560" %}}
 
 
 
@@ -56,7 +52,7 @@ slug: baseball-club-yokyo
 
 1. 同期が体を張ってくれた笑。(これがなによりもよかった)
 2. 数名いるときに、カタチを作った
-3. Motion5のマッチムーブと、効果をちょっと理解した。	
+3. Motion5のマッチムーブと、効果をちょっと理解した。
 
 なによりも、変な衣装を着ながら、体を張ってロケハンしてきてくれた同期のおかげです。
 
@@ -76,19 +72,19 @@ slug: baseball-club-yokyo
 前回の余興作成のときは、Final Cut Proの体験版を使えたので音声とか、文字入れとか楽だったが、今回は、iMovieでやりずらい。。
 お金出して、Final Cut Proを買おうと思うぐらい悩みました。
 
-<iframe src="https://widgets.itunes.apple.com/widget.html?c=jp&brc=FFFFFF&blc=FFFFFF&trc=FFFFFF&tlc=FFFFFF&d=&t=&m=software&e=macSoftware&w=300&h=300&ids=408981434&wt=discovery&partnerId=&affiliate_id=&at=1l3vpSH&ct=" frameborder=0 style="overflow-x:hidden;overflow-y:hidden;width:300px;height: 300px;border:0px"></iframe>
+<amp-iframe src="https://widgets.itunes.apple.com/widget.html?c=jp&brc=FFFFFF&blc=FFFFFF&trc=FFFFFF&tlc=FFFFFF&d=&t=&m=software&e=macSoftware&w=300&h=300&ids=408981434&wt=discovery&partnerId=&affiliate_id=&at=1l3vpSH&ct=" sandbox="allow-scripts allow-same-origin" width="300" height="300" layout="fixed"></amp-iframe>
 
-<iframe src="https://widgets.itunes.apple.com/widget.html?c=jp&brc=FFFFFF&blc=FFFFFF&trc=FFFFFF&tlc=FFFFFF&d=&t=&m=software&e=macSoftware&w=300&h=300&ids=424389933&wt=discovery&partnerId=&affiliate_id=&at=1l3vpSH&ct=" frameborder=0 style="overflow-x:hidden;overflow-y:hidden;width:300px;height: 300px;border:0px"></iframe>
+<amp-iframe src="https://widgets.itunes.apple.com/widget.html?c=jp&brc=FFFFFF&blc=FFFFFF&trc=FFFFFF&tlc=FFFFFF&d=&t=&m=software&e=macSoftware&w=300&h=300&ids=424389933&wt=discovery&partnerId=&affiliate_id=&at=1l3vpSH&ct=" sandbox="allow-scripts allow-same-origin" width="300" height="300" layout="fixed"></amp-iframe>
 
 ### Motion5
 
 ある固定のオブジェクトを追尾する「マッチムーブ」とか、爆発の効果など初めて使ってみました。
 使いこなすまでがなかなか難しい。
 
-<iframe src="https://widgets.itunes.apple.com/widget.html?c=jp&brc=FFFFFF&blc=FFFFFF&trc=FFFFFF&tlc=FFFFFF&d=&t=&m=software&e=macSoftware&w=300&h=300&ids=434290957&wt=discovery&partnerId=&affiliate_id=&at=1l3vpSH&ct=" frameborder=0 style="overflow-x:hidden;overflow-y:hidden;width:300px;height: 300px;border:0px"></iframe>
+<amp-iframe src="https://widgets.itunes.apple.com/widget.html?c=jp&brc=FFFFFF&blc=FFFFFF&trc=FFFFFF&tlc=FFFFFF&d=&t=&m=software&e=macSoftware&w=300&h=300&ids=434290957&wt=discovery&partnerId=&affiliate_id=&at=1l3vpSH&ct=" sandbox="allow-scripts allow-same-origin" width="300" height="300" layout="fixed"></amp-iframe>
 
 ### OneDrive
-動画共有のサービスとして利用した。最初から、15GBのストレージとして使えるのでかなり便利です。	
+動画共有のサービスとして利用した。最初から、15GBのストレージとして使えるのでかなり便利です。
 
 以下のリンクから登録してもらえれば、0.5GBの無料ストレージがついてきます。(私にも0.5GB付与されるのでぜひ！！)
 
@@ -101,8 +97,7 @@ slug: baseball-club-yokyo
 
 プログラムもそうだけど、映像を作るのもそんな気がした。
 
-<blockquote class="twitter-tweet" lang="en"><p>一つ一つのやり方はわかるけど、繋げて形にするってところまでには、大きな壁があると思ってる。一つ一つに分解すれば、漫画だって、線の集合だし、ブログラムだって、関数の集合体、映画だって、フレームの集まり。でも、誰もが繫げて形に出来るわけではない。</p>&mdash; めがにい (@meganii) <a href="https://twitter.com/meganii/status/508932666024927232">September 8, 2014</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{% twitter tweetid="508932666024927232" %}}
 
 
 あとは、毎回思うけど、「誰かのために、必死でやらないと技術って身につかないな」ってこと。
@@ -112,16 +107,3 @@ slug: baseball-club-yokyo
 
 
 本業の仕事でも、一緒だなと思った。お客さんのために、納期までに必死で、みんなと協力していいものを作ろうする中で、技術ってみにつくんだろうな。精進します。
-
-
-
-
-
-
-
-
-
-
-
-
-
