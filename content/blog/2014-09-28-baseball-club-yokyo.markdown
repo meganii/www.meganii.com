@@ -1,6 +1,7 @@
 ---
 title: "福井-大阪-名古屋-東京。拠点が離れている中での結婚式余興作成"
 date: 2014-09-28T22:11:00+09:00
+lastmod: 2017-09-14T22:11:00+09:00
 comments: true
 category: ['Movie']
 tags: ['Movie', '結婚式余興', 'iMovie', 'Motion5']
