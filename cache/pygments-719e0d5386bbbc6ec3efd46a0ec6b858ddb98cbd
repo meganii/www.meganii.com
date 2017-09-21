@@ -1,0 +1,156 @@
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span></span><span class="s1">&#39;use strict&#39;</span><span class="p">;</span>
+
+<span class="kr">const</span> <span class="nx">electron</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;electron&#39;</span><span class="p">);</span>
+<span class="c1">// Module to control application life.</span>
+<span class="kr">const</span> <span class="nx">app</span> <span class="o">=</span> <span class="nx">electron</span><span class="p">.</span><span class="nx">app</span><span class="p">;</span>
+<span class="c1">// Module to create native browser window.</span>
+<span class="kr">const</span> <span class="nx">BrowserWindow</span> <span class="o">=</span> <span class="nx">electron</span><span class="p">.</span><span class="nx">BrowserWindow</span><span class="p">;</span>
+
+<span class="kr">const</span> <span class="nx">ipcMain</span> <span class="o">=</span> <span class="nx">electron</span><span class="p">.</span><span class="nx">ipcMain</span><span class="p">;</span>
+<span class="kr">const</span> <span class="nx">util</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;util&#39;</span><span class="p">);</span>
+<span class="kr">const</span> <span class="nx">OperationHelper</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;apac&#39;</span><span class="p">).</span><span class="nx">OperationHelper</span><span class="p">;</span>
+<span class="kr">const</span> <span class="nx">XMLHttpRequest</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">&quot;xmlhttprequest&quot;</span><span class="p">).</span><span class="nx">XMLHttpRequest</span><span class="p">;</span>
+
+<span class="c1">// Keep a global reference of the window object, if you don&#39;t, the window will</span>
+<span class="c1">// be closed automatically when the JavaScript object is garbage collected.</span>
+<span class="kd">let</span> <span class="nx">mainWindow</span><span class="p">;</span>
+
+<span class="kd">function</span> <span class="nx">createWindow</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="c1">// Create the browser window.</span>
+  <span class="nx">mainWindow</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">BrowserWindow</span><span class="p">({</span>
+    <span class="nx">width</span><span class="o">:</span> <span class="mi">1200</span><span class="p">,</span>
+    <span class="nx">height</span><span class="o">:</span> <span class="mi">800</span><span class="p">,</span>
+    <span class="s1">&#39;min-width&#39;</span><span class="o">:</span> <span class="mi">500</span><span class="p">,</span>
+    <span class="s1">&#39;min-height&#39;</span><span class="o">:</span> <span class="mi">200</span><span class="p">,</span>
+    <span class="s1">&#39;accept-first-mouse&#39;</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="s1">&#39;title-bar-style&#39;</span><span class="o">:</span> <span class="s1">&#39;hidden&#39;</span>
+  <span class="p">});</span>
+
+  <span class="c1">// and load the index.html of the app.</span>
+  <span class="nx">mainWindow</span><span class="p">.</span><span class="nx">loadURL</span><span class="p">(</span><span class="s1">&#39;file://&#39;</span> <span class="o">+</span> <span class="nx">__dirname</span> <span class="o">+</span> <span class="s1">&#39;/index.html&#39;</span><span class="p">);</span>
+
+  <span class="c1">// Open the DevTools.</span>
+  <span class="c1">// mainWindow.webContents.openDevTools();</span>
+
+  <span class="c1">// Emitted when the window is closed.</span>
+  <span class="nx">mainWindow</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;closed&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// Dereference the window object, usually you would store windows</span>
+    <span class="c1">// in an array if your app supports multi windows, this is the time</span>
+    <span class="c1">// when you should delete the corresponding element.</span>
+    <span class="nx">mainWindow</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
+  <span class="p">});</span>
+<span class="p">}</span>
+
+<span class="c1">// This method will be called when Electron has finished</span>
+<span class="c1">// initialization and is ready to create browser windows.</span>
+<span class="nx">app</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;ready&#39;</span><span class="p">,</span> <span class="nx">createWindow</span><span class="p">);</span>
+
+<span class="c1">// Quit when all windows are closed.</span>
+<span class="nx">app</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;window-all-closed&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="c1">// On OS X it is common for applications and their menu bar</span>
+  <span class="c1">// to stay active until the user quits explicitly with Cmd + Q</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">process</span><span class="p">.</span><span class="nx">platform</span> <span class="o">!==</span> <span class="s1">&#39;darwin&#39;</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">app</span><span class="p">.</span><span class="nx">quit</span><span class="p">();</span>
+  <span class="p">}</span>
+<span class="p">});</span>
+
+<span class="nx">app</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;activate&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="c1">// On OS X it&#39;s common to re-create a window in the app when the</span>
+  <span class="c1">// dock icon is clicked and there are no other windows open.</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">mainWindow</span> <span class="o">===</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">createWindow</span><span class="p">();</span>
+  <span class="p">}</span>
+<span class="p">});</span>
+
+<span class="c1">// ---my code----------</span>
+<span class="nx">ipcMain</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;asynchronous-message-amazon&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">,</span> <span class="nx">arg</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">opHelper</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">OperationHelper</span><span class="p">({</span>
+    <span class="nx">endPoint</span><span class="o">:</span>   <span class="s1">&#39;webservices.amazon.co.jp&#39;</span><span class="p">,</span>
+    <span class="nx">awsId</span><span class="o">:</span>      <span class="s1">&#39;YOUR AWS ID&#39;</span><span class="p">,</span>
+    <span class="nx">awsSecret</span><span class="o">:</span>  <span class="s1">&#39;YOUR AWS SERCET&#39;</span><span class="p">,</span>
+    <span class="nx">assocId</span><span class="o">:</span>    <span class="s1">&#39;YOUR Amazon ASSOCIATE ID&#39;</span><span class="p">,</span>
+  <span class="p">});</span>
+  <span class="nx">opHelper</span><span class="p">.</span><span class="nx">execute</span><span class="p">(</span><span class="s1">&#39;ItemSearch&#39;</span><span class="p">,</span> <span class="p">{</span>
+    <span class="s1">&#39;SearchIndex&#39;</span><span class="o">:</span> <span class="s1">&#39;Books&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;Keywords&#39;</span><span class="o">:</span> <span class="nx">arg</span><span class="p">,</span>
+    <span class="s1">&#39;ResponseGroup&#39;</span><span class="o">:</span> <span class="s1">&#39;Images,ItemAttributes,Offers&#39;</span>
+  <span class="p">},</span> <span class="kd">function</span><span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">results</span><span class="p">)</span> <span class="p">{</span>
+      <span class="kd">var</span> <span class="nx">items</span> <span class="o">=</span> <span class="nx">results</span><span class="p">.</span><span class="nx">ItemSearchResponse</span><span class="p">.</span><span class="nx">Items</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">Item</span><span class="p">;</span>
+      <span class="nx">event</span><span class="p">.</span><span class="nx">sender</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">&#39;asynchronous-reply-amazon&#39;</span><span class="p">,</span> <span class="nx">items</span><span class="p">);</span>
+  <span class="p">});</span>
+<span class="p">});</span>
+
+<span class="c1">// create rakuten affiliateUrl</span>
+<span class="nx">ipcMain</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;asynchronous-message-rakuten&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">,</span> <span class="nx">arg</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;start&#39;</span><span class="p">);</span>
+  <span class="kd">var</span> <span class="nx">url</span> <span class="o">=</span> <span class="s1">&#39;https://app.rakuten.co.jp/services/api/BooksBook/Search/20130522?format=json&amp;affiliateId={YOUR_AFF_ID}&amp;applicationId={APP_ID}&amp;isbn=&#39;</span> <span class="o">+</span> <span class="nx">arg</span><span class="p">;</span>
+  <span class="nx">getRequsest</span><span class="p">(</span><span class="nx">url</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">result</span><span class="p">){</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">result</span><span class="p">.</span><span class="nx">Items</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">Item</span><span class="p">.</span><span class="nx">affiliateUrl</span><span class="p">);</span>
+    <span class="nx">event</span><span class="p">.</span><span class="nx">sender</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">&#39;asynchronous-reply-rakuten&#39;</span><span class="p">,</span> <span class="nx">result</span><span class="p">);</span>
+  <span class="p">});</span>
+<span class="p">});</span>
+
+<span class="nx">ipcMain</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;asynchronous-message-createUrl&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">,</span> <span class="nx">arg</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;start asynchronous-message-createUrl&#39;</span><span class="p">);</span>
+  <span class="kd">var</span> <span class="nx">item</span> <span class="o">=</span> <span class="nx">arg</span><span class="p">;</span>
+
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">item</span><span class="p">.</span><span class="nx">ItemAttributes</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">ISBN</span><span class="p">);</span>
+  <span class="c1">// rakuten</span>
+  <span class="kd">var</span> <span class="nx">url</span> <span class="o">=</span> <span class="s1">&#39;https://app.rakuten.co.jp/services/api/BooksBook/Search/20130522?format=json&amp;affiliateId={YOUR_AFF_ID}}&amp;applicationId={YOUR_APP_ID}&amp;isbn=&#39;</span> <span class="o">+</span> <span class="nx">item</span><span class="p">.</span><span class="nx">ItemAttributes</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">ISBN</span><span class="p">;</span>
+  <span class="nx">getRequsest</span><span class="p">(</span><span class="nx">url</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">result</span><span class="p">){</span>
+    <span class="kd">var</span> <span class="nx">url</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">;</span>
+    <span class="nx">url</span> <span class="o">+=</span> <span class="nx">item</span><span class="p">.</span><span class="nx">MediumImage</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">URL</span><span class="p">;</span>
+    <span class="kd">var</span> <span class="nx">src</span> <span class="o">=</span> <span class="nx">url</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/http:\/\/ecx\.images-amazon\.com\/images\//</span><span class="p">,</span> <span class="s1">&#39;https://images-na.ssl-images-amazon.com/images/&#39;</span><span class="p">);</span>
+
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">result</span><span class="p">.</span><span class="nx">Items</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">Item</span><span class="p">.</span><span class="nx">affiliateUrl</span><span class="p">);</span>
+    <span class="kd">var</span> <span class="nx">content</span> <span class="o">=</span>   <span class="s1">&#39;&lt;div class=&quot;booklink-box&quot;&gt;&#39;</span>
+                  <span class="o">+</span>   <span class="s1">&#39;&lt;div class=&quot;booklink-image&quot;&gt;&#39;</span>
+                  <span class="o">+</span>     <span class="s1">&#39;&lt;a href=&#39;</span> <span class="o">+</span> <span class="nx">item</span><span class="p">.</span><span class="nx">DetailPageURL</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;&gt;&quot;</span>
+                  <span class="o">+</span>       <span class="s1">&#39;&lt;img src=&quot;&#39;</span> <span class="o">+</span> <span class="nx">src</span> <span class="o">+</span> <span class="s1">&#39;&quot; /&gt;&#39;</span>
+                  <span class="o">+</span>     <span class="s1">&#39;&lt;/a&gt;&#39;</span>
+                  <span class="o">+</span>   <span class="s1">&#39;&lt;/div&gt;&#39;</span>
+                  <span class="o">+</span>   <span class="s1">&#39;&lt;div class=&quot;booklink-info&quot;&gt;&#39;</span>
+                  <span class="o">+</span>     <span class="s1">&#39;&lt;div class=&quot;booklink-name&quot;&gt;&#39;</span>
+                  <span class="o">+</span>       <span class="s1">&#39;&lt;a href=&quot;http://www.amazon.co.jp/exec/obidos/asin/&#39;</span> <span class="o">+</span> <span class="nx">item</span><span class="p">.</span><span class="nx">ASIN</span> <span class="o">+</span><span class="s1">&#39;/meganii-22/&quot;&gt;&#39;</span>
+                  <span class="o">+</span>         <span class="nx">item</span><span class="p">.</span><span class="nx">ItemAttributes</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">Title</span>
+                  <span class="o">+</span>       <span class="s1">&#39;&lt;/a&gt;&#39;</span>
+                  <span class="o">+</span>     <span class="s1">&#39;&lt;/div&gt;&#39;</span>
+                  <span class="o">+</span>     <span class="s1">&#39;&lt;div class=shoplinkrakuten&gt;&#39;</span>
+                  <span class="o">+</span>       <span class="s1">&#39;&lt;a href=&quot;&#39;</span> <span class="o">+</span> <span class="nx">result</span><span class="p">.</span><span class="nx">Items</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">Item</span><span class="p">.</span><span class="nx">affiliateUrl</span> <span class="o">+</span> <span class="s1">&#39;&quot;&gt;楽天で買う&lt;/a&gt;&#39;</span>
+                  <span class="o">+</span>     <span class="s1">&#39;&lt;/div&gt;&#39;</span>
+                  <span class="o">+</span>   <span class="s1">&#39;&lt;/div&gt;&#39;</span>
+                  <span class="o">+</span> <span class="s1">&#39;&lt;/div&gt;&#39;</span><span class="p">;</span>
+      <span class="nx">event</span><span class="p">.</span><span class="nx">sender</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">&#39;asynchronous-reply-createUrl&#39;</span><span class="p">,</span> <span class="nx">content</span><span class="p">);</span>
+  <span class="p">});</span>
+<span class="p">});</span>
+
+<span class="c1">// to get request</span>
+<span class="kd">var</span> <span class="nx">getRequsest</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">url</span><span class="p">,</span> <span class="nx">callback</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">url</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span><span class="p">;</span> <span class="p">}</span>
+  <span class="kd">var</span> <span class="nx">xhr</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">XMLHttpRequest</span><span class="p">();</span>
+  <span class="nx">xhr</span><span class="p">.</span><span class="nx">open</span><span class="p">(</span><span class="s1">&#39;GET&#39;</span><span class="p">,</span> <span class="nx">url</span><span class="p">,</span> <span class="kc">true</span><span class="p">);</span>
+  <span class="nx">xhr</span><span class="p">.</span><span class="nx">timeout</span> <span class="o">=</span> <span class="mi">30000</span><span class="p">;</span>
+  <span class="nx">xhr</span><span class="p">.</span><span class="nx">ontimeout</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;time out&#39;</span><span class="p">);</span>
+  <span class="p">};</span>
+  <span class="nx">xhr</span><span class="p">.</span><span class="nx">onerror</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;error&#39;</span><span class="p">);</span>
+  <span class="p">};</span>
+  <span class="nx">xhr</span><span class="p">.</span><span class="nx">onreadystatechange</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">readyState</span> <span class="o">!==</span> <span class="mi">4</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span><span class="p">;</span> <span class="p">}</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">status</span> <span class="o">===</span> <span class="mi">200</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">callback</span> <span class="o">===</span> <span class="s1">&#39;function&#39;</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">try</span> <span class="p">{</span>
+          <span class="kd">var</span> <span class="nx">result</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">responseText</span><span class="p">);</span>
+          <span class="nx">callback</span><span class="p">(</span><span class="nx">result</span><span class="p">);</span>
+        <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">){</span>
+          <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">e</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="k">return</span><span class="p">;</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+  <span class="p">};</span>
+  <span class="nx">xhr</span><span class="p">.</span><span class="nx">send</span><span class="p">();</span>
+<span class="p">};</span>
+</code></pre></div>

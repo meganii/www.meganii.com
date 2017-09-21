@@ -1,0 +1,7 @@
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span></span><span class="kd">var</span> <span class="nx">opHelper</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">OperationHelper</span><span class="p">({</span>
+  <span class="nx">endPoint</span><span class="o">:</span>   <span class="s1">&#39;webservices.amazon.co.jp&#39;</span><span class="p">,</span>
+  <span class="nx">awsId</span><span class="o">:</span>      <span class="s1">&#39;YOUR AWS ID&#39;</span><span class="p">,</span>
+  <span class="nx">awsSecret</span><span class="o">:</span>  <span class="s1">&#39;YOUR AWS SERCET&#39;</span><span class="p">,</span>
+  <span class="nx">assocId</span><span class="o">:</span>    <span class="s1">&#39;YOUR Amazon ASSOCIATE ID&#39;</span><span class="p">,</span>
+<span class="p">});</span>
+</code></pre></div>

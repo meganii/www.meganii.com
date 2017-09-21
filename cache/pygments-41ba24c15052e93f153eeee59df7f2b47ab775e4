@@ -1,0 +1,6 @@
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span></span><span class="nx">m</span><span class="p">.</span><span class="nx">request</span><span class="p">({</span>
+    <span class="nx">dataType</span><span class="o">:</span> <span class="s2">&quot;jsonp&quot;</span><span class="p">,</span>
+    <span class="nx">callbackKey</span><span class="o">:</span> <span class="s2">&quot;jsoncallback&quot;</span><span class="p">,</span>
+    <span class="nx">url</span><span class="o">:</span> <span class="s2">&quot;http://api.flickr.com/services/feeds/photos_public.gne?tags=monkey&amp;tagmode=any&amp;format=json&quot;</span>
+<span class="p">});</span>
+</code></pre></div>
