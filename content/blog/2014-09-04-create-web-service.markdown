@@ -1,11 +1,11 @@
 ---
-
 title: "ぐだぐだ言ってないでコードを書けよ、自分！ - 「Webサービスのつくり方」"
 date: 2014-09-04T22:43:00+09:00
+lastmod: 2017-09-04T22:43:00+09:00
 comments: true
 category: ['Tech']
 tags: ['book', 'WebService']
-published: true 
+published: true
 slug: create-web-service
 img: "https://images-na.ssl-images-amazon.com/images/I/51jdbeo%2BrmL._SL160_.jpg"
 ---
@@ -19,7 +19,9 @@ img: "https://images-na.ssl-images-amazon.com/images/I/51jdbeo%2BrmL._SL160_.jpg
 
 
 ## ぐだぐだ言ってないでコードを書けよ、ハゲ
-<div><a href="https://www.flickr.com/photos/riebart/4466482623/" target="_blank"><img class="img-responsive" src="https://farm3.staticflickr.com/2689/4466482623_6aea29d90a_z.jpg?zz=1" alt="Code" /></a><span>Code / Riebart</span></div>
+
+{{% img src="https://farm3.staticflickr.com/2689/4466482623_6aea29d90a_z.jpg" w="640" h="425" %}}
+<span>Code / Riebart</span>
 
 
 「あれが欲しい」「これが欲しい」「このサービスをもっとこうしたほうがいい」と批判するのは簡単であり、自分のアイデアの方がすごいと自慢する場合もある。しかし、実現していない、カタチになっていないものにはあまり価値がない。
@@ -39,7 +41,9 @@ img: "https://images-na.ssl-images-amazon.com/images/I/51jdbeo%2BrmL._SL160_.jpg
 
 
 ## なければつくる
-<a href="https://www.flickr.com/photos/jasleen_kaur/14477908267/" target="_blank"><img class="img-responsive" src="https://farm4.staticflickr.com/3887/14477908267_79bbdb0def_z.jpg?zz=1" alt="wheels" /></a><span>wheels / jasleen_kaur</span>
+
+{{% img src="https://farm4.staticflickr.com/3887/14477908267_79bbdb0def_z.jpg" w="640" h="481" %}}
+<span>wheels / jasleen_kaur</span>
 
 >車輪の再発明　・・・　ある目的を果たすためのライブラリや先行事例があるにもかかわらず、同じことを叶えるためについつい自分で作ってしまう行為。
 
@@ -49,7 +53,9 @@ img: "https://images-na.ssl-images-amazon.com/images/I/51jdbeo%2BrmL._SL160_.jpg
 
 
 ## 実装までにつくる「企画」の全て
-<a href="https://www.flickr.com/photos/anieto2k/8624484494/" target="_blank"><img class="img-responsive" src="https://farm9.staticflickr.com/8262/8624484494_664924de8d_z.jpg?zz=1" alt="180/365² Sin ideas"/></a><span>180/365² Sin ideas / anieto2k</span>
+
+{{% img src="https://farm9.staticflickr.com/8262/8624484494_664924de8d_z.jpg" w="640" h="427" %}}
+<span>180/365² Sin ideas / anieto2k</span>
 
 1. 哲学
 2. アイデア
@@ -108,6 +114,7 @@ iPadの場合、コンセプトは以下のような文章になる。
 
 
 ## やりたくなったこと
+
 - 何かWebサービスをつくる
 - Jekyll のプラグインをつくる
 - さくらVPSをもっと使い倒す
@@ -123,7 +130,6 @@ iPadの場合、コンセプトは以下のような文章になる。
 
 
 ## 参考
+
 - [「Webサービスのつくり方」 のつくり方](http://www.slideshare.net/yusukebe/web-16710062)
 - [個人で出来るWebサービスの作り方(YAPC::ASIA 2013) // Speaker Deck](https://speakerdeck.com/koba04/ge-ren-dechu-lai-ruwebsabisufalsezuo-rifang-yapc-asia-2013)
-
-
