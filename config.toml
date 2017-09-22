@@ -11,45 +11,47 @@ pygmentsuseclasses = true
 
 googleAnalytics = "UA-38171597-1"
 
+DefaultContentLanguage = "ja"
+
 [permalinks]
 blog = "/blog/:year/:month/:day/:slug/"
 
 [Languages]
-  [ja]
-    LanguageCode = 'ja'
-    lang = ""
-    title = "SIS Lab"
-    profile = "ギークを夢見るじょーぶん男子。「広く浅くから広く深く」を目指してブログを書いています。"
-    description = "元じょーぶん生によるメーカー系SIerブログ。趣味のプログラミング、旅行。日々、学んだことについて書きます。"
-  [en]
-    LanguageCode = 'en'
-    lang = "en/"
-    title = "SIS Lab"
-    profile = "I'm Software Engineer in Tokyo."
-    description = "I write about programming, traveling and studying."
-    weight = 2
+[Languages.ja]
+LanguageCode = 'ja'
+lang = ""
+title = "SIS Lab"
+profile = "ギークを夢見るじょーぶん男子。「広く浅くから広く深く」を目指してブログを書いています。"
+description = "元じょーぶん生によるメーカー系SIerブログ。趣味のプログラミング、旅行。日々、学んだことについて書きます。"
+[Languages.en]
+LanguageCode = 'en'
+lang = "en/"
+title = "SIS Lab"
+profile = "I'm Software Engineer in Tokyo."
+description = "I write about programming, traveling and studying."
+weight = 2
 
 [params]
-  Author = "meganii"
-  Birth = "Sun, March 3, 1988"
-  DateForm = "Mon, Jan 2, 2006"
-  GoogleAnalyticsUserID = "UA-38171597-1"
-  Twitter = "meganii"
-  Github = "https://github.com/meganii"
-  ShowTagCloud = true
-  ShowRelatedPost = true
-  Disqus = "meganii"
-  SyntaxHighlightTheme = "solarized_dark.min.css"
-  logo = "/images/meganii_logo.png"
-  AnalyticsURL = "https://us-central1-cloud-api-2e3ec.cloudfunctions.net/function-1"
-  dateformat = "Jan 2, 2006" # Optional
-  latestSize = 4 # Optional
-  ampscripts = """
+Author = "meganii"
+Birth = "Sun, March 3, 1988"
+DateForm = "Mon, Jan 2, 2006"
+GoogleAnalyticsUserID = "UA-38171597-1"
+Twitter = "meganii"
+Github = "https://github.com/meganii"
+ShowTagCloud = true
+ShowRelatedPost = true
+Disqus = "meganii"
+SyntaxHighlightTheme = "solarized_dark.min.css"
+logo = "/images/meganii_logo.png"
+AnalyticsURL = "https://us-central1-cloud-api-2e3ec.cloudfunctions.net/function-1"
+dateformat = "Jan 2, 2006" # Optional
+latestSize = 4 # Optional
+ampscripts = """
 <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
 <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
 <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
 """
-  profile = "ギークを夢見るじょーぶん男子。「広く浅くから広く深く」を目指してブログを書いています。"
+profile = "ギークを夢見るじょーぶん男子。「広く浅くから広く深く」を目指してブログを書いています。"
 
 
 [taxonomies]
