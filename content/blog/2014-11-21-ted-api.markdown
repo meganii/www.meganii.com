@@ -1,18 +1,21 @@
 ---
-
 title: "TED APIを触ってみる"
 date: 2014-11-21T22:34:00+09:00
+lastmode: 2017-09-21T22:34:00+09:00
 comments: true
 category: ['Tech']
 tags: ['api','ted']
-published: true 
+published: true
 slug: ted-api
 ---
 
-<a href="http://developer.ted.com/" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://developer.ted.com/" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://developer.ted.com/" target="_blank">TED - Welcome to TEDLabs</a><a href="http://b.hatena.ne.jp/entry/http://developer.ted.com/" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://developer.ted.com/" alt="" /></a><br style="clear:both;" /><br>
+[TED - Welcome to TEDLabs](https://developer.ted.com/)
 
 いつのまにかTEDのAPIが公開されていたので、少し触ってみる。
 
+#### 2017/09/01追記
+
+TED APIのサービスは終了となりました。
 
 
 {{% googleadsense %}}
@@ -22,7 +25,7 @@ slug: ted-api
 昔は、APIが公開されてなかったので、スクレイピングで取得していた。
 (htmlの構造が今は変わってるので、以下のコードでは取得できません)
 
-<a href="http://d.hatena.ne.jp/meganii/20120320/1332214416" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://d.hatena.ne.jp/meganii/20120320/1332214416" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://d.hatena.ne.jp/meganii/20120320/1332214416" target="_blank">TEDの英語原稿を取得する - ギークを夢見るじょーぶん男子</a><a href="http://b.hatena.ne.jp/entry/http://d.hatena.ne.jp/meganii/20120320/1332214416" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://d.hatena.ne.jp/meganii/20120320/1332214416" alt="" /></a><br style="clear:both;" /><br>
+[TEDの英語原稿を取得する - ギークを夢見るじょーぶん男子](http://d.hatena.ne.jp/meganii/20120320/1332214416)
 
 
 ```ruby
@@ -75,12 +78,15 @@ https://api.ted.com/v1/talks.json?api-key=#{TED_API}&filter=slug:matt_cutts_try_
 
 メモ書き程度に書き散らかす。
 
-<a href="http://developer.ted.com/io-docs" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://developer.ted.com/io-docs" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://developer.ted.com/io-docs" target="_blank">TED I/O Docs</a><a href="http://b.hatena.ne.jp/entry/http://developer.ted.com/io-docs" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://developer.ted.com/io-docs" alt="" /></a><br style="clear:both;" /><br>
+[TED I/O Docs](https://developer.ted.com/io-docs)
+
 
 
 ### Events
 
 TEDのイベントがあった箇所を取得する
+
+```json
 {
     "event": {
         "id": 1,
@@ -92,6 +98,7 @@ TEDのイベントがあった箇所を取得する
         "starts_at": "2008-02-27 00:00:00"
     }
 }
+```
 
 ### Ratings
 
@@ -103,6 +110,7 @@ TEDのイベントがあった箇所を取得する
 
 投票するときの、表現？
 
+```json
 {
     "rating_words": [{
         "rating_word": {
@@ -180,7 +188,7 @@ TEDのイベントがあった箇所を取得する
         "total": 14
     }
 }
-
+```
 
 ### Speakers
 
