@@ -118,5 +118,3 @@ slug: domino-yokyo
 
 
 {{% card src="https://www.meganii.com/blog/2014/09/06/domino-yokyo/" %}}
-
-{{% card src="https://www.meganii.com/blog/2017/07/29/cebu-plantation-bay-resort-spa/" %}}
