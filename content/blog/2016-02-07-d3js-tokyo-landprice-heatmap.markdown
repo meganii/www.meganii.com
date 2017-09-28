@@ -1,6 +1,7 @@
 ---
 title: "D3.jsで東京の地価データを可視化する"
 date: 2016-02-07T19:42:50+09:00
+lastmod: 2017-09-27T19:42:50+09:00
 comments: true
 category: ['Tech']
 tags: ['D3.js', 'JavaScript']
@@ -9,8 +10,7 @@ slug: d3js-tokyo-landprice-heatmap
 img: "https://farm2.staticflickr.com/1680/24844125586_c74f952e38_s.jpg"
 ---
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/24844125586" title="tokyo-landprice_heatmapby meganii, on Flickr"><img class="img-responsive" src="https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg" alt="tokyo-landprice_heatmap"></a></p>
-
+{{% img src="https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg" w="640" h="404" %}}
 
 {{% googleadsense %}}
 
@@ -70,7 +70,7 @@ OGRFeature(L01-15_13):2122
   L01_006 (String) = 273000
   L01_019 (String) = 東京都　江戸川区西瑞江５丁目１４番４６
   POINT (139.878173 35.67957)
-```  
+```
 
 > 次に、行政区域コード (L01_017) で制限をかけます。 東京都 (都道府県コードは13) の場合、 13101 から23区が始まり、13201 から市が始まり、13301 から村が始まります。 離島は 13320 より大きいものになります。 したがって、島嶼部を除くためには行政区域コードが 13320 より小さいものを指定します。 コード体系の詳細は Wikipedia の 全国地方公共団体コード を参照してください。
 
@@ -84,10 +84,10 @@ ogr2ogr -f GeoJSON -where "L01_017 < '13320'" tokyo-landprice-2015.geojson L01-1
 
 ## d3.jsで表示する
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/24844125586" title="tokyo-landprice_heatmapby meganii, on Flickr"><img class="img-responsive" src="https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg" alt="tokyo-landprice_heatmap"></a></p>
+{{% img src="https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg" w="640" h="404" %}}
 
 
-```
+```html
 <!DOCTYPE html>
 <html lang="ja">
   <head>
