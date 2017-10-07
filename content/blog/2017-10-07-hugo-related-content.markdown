@@ -13,7 +13,9 @@ img: /images/hugo_s.png
 - [Hugo \| Hugo 0\.27: Fast and Flexible Related Content\!](https://gohugo.io/news/0.27-relnotes/)
 - [Hugo \| Related Content](https://gohugo.io/content-management/related/)
 
-いつのまにかHugo 0.29から関連コンテンツ表示機能が追加されています。Jekyllでは簡単にプラグインでできていたのにHugoではできないというポイントが解消されました。もはや、Hugo最強説。
+いつのまにかHugo 0.29から関連コンテンツ表示機能が追加されています。これによって他のCMSではプラグインで簡単にできていたのに、Hugoではできないというポイントが解消されました。もはや、Hugo最強説！！。
+
+さっそくこのブログにも試してみました。
 
 <!--more-->
 {{% googleadsense %}}
@@ -33,7 +35,7 @@ img: /images/hugo_s.png
 {{ end }}
 ```
 
-そうすると、以下の通りいい感じで関連記事を出してくれます。
+そうすると、以下の通りいい感じで関連記事を出してくれます。関連記事表示のスニペットを入れたからといって、ビルド時間が遅くなったというのは感じられませんでした。(元々爆速なので)
 
 {{% img src="https://farm5.staticflickr.com/4470/36875101903_b778fc6630_o.png" w="781" h="371" %}}
 
