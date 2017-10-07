@@ -73,6 +73,16 @@
       </ul>
       {{ end }}
       {{ end }}
+
+      {{ $related := .Site.RegularPages.Related . | first 10 }}
+      {{ with $related }}
+      <h3>See Also</h3>
+      <ul>
+        {{ range . }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+      {{ end }}
     </section>
   </footer>
 </article>
