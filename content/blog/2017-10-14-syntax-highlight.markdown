@@ -5,7 +5,7 @@ lastmod: 2017-10-14T06:31:25+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo']
-published: false
+published: true
 slug: hugo-syntax-highlighting
 img: '/images/hugo_s.png'
 ---
