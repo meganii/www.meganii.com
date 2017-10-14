@@ -55,7 +55,7 @@ task :new_post, :title do |t, args|
     post.puts "<!--more-->"
     post.puts '{{% googleadsense %}}'
   end
-  sh "atom #{filename}"
+  sh "code #{filename}"
 end
 
 desc "Merge posts contents"
