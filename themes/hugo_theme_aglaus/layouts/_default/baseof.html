@@ -65,7 +65,7 @@
           {{ $url := .Site.BaseURL }}
           {{ range $key, $value := .Site.Taxonomies.category }}
             {{ if ne $key "" }}
-            <li><a href="{{$url}}category/{{$key}}">{{ title $key }}</a></li>
+            <li><a href="{{$url}}category/{{$key}}/">{{ title $key }}</a></li>
             {{ end }}
           {{ end }}
         </div>
