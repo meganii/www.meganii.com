@@ -338,10 +338,6 @@ article.li.sm .header-wrapper {
 
 .article-body h2:first-child { margin-top: 0; }
 
-.article-body h3 {
-  color: #cddc39;
-}
-
 .article-body h4 {
   border-left: solid .25rem #cddc39;
   padding: 0 .5rem;
@@ -398,7 +394,7 @@ article.li.sm .header-wrapper {
 }
 
 .article-body strong {
-  box-shadow: 0 -.5rem 0 0 #f06292 inset;
+  box-shadow: 0 -.2rem 0 0 #f06292 inset;
 }
 
 .article-body em {
