@@ -10,7 +10,7 @@ slug: macos-sierra-clean-install
 img: /images/2017/06/macOS-64x.png
 ---
 
-![](/images/2017/06/macOS.png)
+{{% img src="/images/2017/06/macOS.png" w="400" h="250" %}}
 
 
 macOS sierraをクリーンインストールして、開発環境を整えたのでそのときのメモです。
@@ -161,5 +161,6 @@ docker exec -it kenchan2_db_1 psql -U postgres kenchan2_productio
 
 
 ## 参考
+
 - [Macクリーンインストールからpython開発環境構築メモ【2017/4現在】 \- Qiita](http://qiita.com/sue_charo/items/2b0bca00ba2470965d1f)
 - [Postgresqlのシーケンスを再設定する：地方で活動するweb制作者の日々を綴るblog](http://blog.livedoor.jp/loopus/archives/50846480.html)
