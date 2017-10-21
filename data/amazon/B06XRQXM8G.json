@@ -162,14 +162,15 @@
         "EANListElement": "4960833604249"
       },
       "Feature": [
-        "こちらの商品は初回限定価格のためお一人様1本限りとさせていただきます。代理での購入は不可とさせていただきます。(ご本人様からのご注文に限ります）。2回目以降のご注文はキャンセルさせていただきます。",
         "逆さ噴射可能/遅乾タイプ",
         "シールチェーンに使用可能",
-        "低臭タイプ"
+        "低臭タイプ",
+        "こちらの商品は初回限定価格のためお一人様1本限りとさせていただきます。代理での購入は不可とさせていただきます。(ご本人様からのご注文に限ります）。2本以上ご注文された場合、システム上数量の変更が出来ず、すべてのご注文商品を一旦キャンセルさせていただくこととなりますので、何卒ご了承下さい。"
       ],
       "IsAutographed": "0",
       "IsMemorabilia": "0",
       "Label": "株式会社エーゼット",
+      "LegalDisclaimer": "こちらの商品は初回限定価格のためお一人様1本限りとさせていただきます。代理での購入は不可とさせていただきます。(ご本人様からのご注文に限ります）。2本以上ご注文された場合、システム上数量の変更が出来ず、すべてのご注文商品を一旦キャンセルさせていただくこととなりますので、何卒ご了承下さい。",
       "Manufacturer": "株式会社エーゼット",
       "ManufacturerPartsWarrantyDescription": "Parts",
       "MPN": "AW604",
@@ -184,9 +185,9 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "98",
+        "Amount": "298",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 98"
+        "FormattedPrice": "￥ 298"
       },
       "TotalNew": "1",
       "TotalUsed": "0",
@@ -202,11 +203,11 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "DoBUllth5t3IATfRGHy%2BDMGCe%2FNmp5BXjZ0la0TfE1IYs6COR4leukvqQ8uB3Z1WZY5qUWx05l5cTJ6a0htTmn4LzLOc8heMDBIWGU7jYlQ9SrK6g3utx99fjHG6zpqxbV61LiRT0TwCXzBbIL37ihGnMH%2FksGNu",
+          "OfferListingId": "wqMH1ciZy%2Fh7%2BY8BwE4qarhIvgd3fP3AsTQ4Iydqp9z23WbpX5Hz7xF7I7KCoNyoKFQs78syH7Y6Dbu1MtCCANohT6kGXWVaSXwwCZRp5UyDGij0ZOXcB4WkO4qVVcNR4YTiiSyJwCi%2FTs9Exl5ANc05DGj%2BI4Wc",
           "Price": {
-            "Amount": "98",
+            "Amount": "298",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 98"
+            "FormattedPrice": "￥ 298"
           },
           "Availability": "通常3～4営業日以内に発送",
           "AvailabilityAttributes": {
@@ -220,7 +221,7 @@
       }
     }
   },
-  "Lastmod": "2017-09-20 21:43:52 +0900",
+  "Lastmod": "2017-10-21 13:17:47 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/675750f194f1be7dc78ce356de5136ba/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/675750f194f1be7dc78ce356de5136ba/"
