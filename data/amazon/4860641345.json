@@ -137,10 +137,10 @@
       "Manufacturer": "ベレ出版",
       "NumberOfPages": "205",
       "PackageDimensions": {
-        "Height": "47",
-        "Length": "748",
-        "Weight": "65",
-        "Width": "531"
+        "Height": "55",
+        "Length": "724",
+        "Weight": "71",
+        "Width": "528"
       },
       "PackageQuantity": "1",
       "ProductGroup": "Book",
@@ -158,13 +158,18 @@
         "FormattedPrice": "￥ 1,628"
       },
       "LowestUsedPrice": {
-        "Amount": "1052",
+        "Amount": "1350",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,052"
+        "FormattedPrice": "￥ 1,350"
       },
-      "TotalNew": "3",
-      "TotalUsed": "28",
-      "TotalCollectible": "0",
+      "LowestCollectiblePrice": {
+        "Amount": "3774",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 3,774"
+      },
+      "TotalNew": "4",
+      "TotalUsed": "27",
+      "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -176,7 +181,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "cT17Stg6Xg8jA0vwZ3j%2Bh9h1WxJLHyeSv20X6TS%2FyxYKqtDRD9GzyhpRHoQ%2BSF31KgtluW6a1DpE2H7FZCAl8%2B%2BHyDNtxcKn",
+          "OfferListingId": "dP5gbvI%2BFwbm3xVj7fGG8LrJ%2Fo69129KjME7iqFcn0icEJNpyeH%2FORXYPHyowF6ppqiSVuYhT8oxDXobKktCMv0iiRq4MZfV",
           "Price": {
             "Amount": "1944",
             "CurrencyCode": "JPY",
@@ -202,7 +207,7 @@
       }
     }
   },
-  "Lastmod": "2017-10-21 13:16:57 +0900",
+  "Lastmod": "2017-10-27 07:05:32 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/3437a826f0de31191d33fffc36c03ae3/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/3437a826f0de31191d33fffc36c03ae3/"

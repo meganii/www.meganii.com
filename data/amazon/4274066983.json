@@ -110,23 +110,57 @@
       "Title": "アジャイルレトロスペクティブズ　強いチームを育てる「ふりかえり」の手引き"
     },
     "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "2298",
+      "LowestNewPrice": {
+        "Amount": "2592",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,298"
+        "FormattedPrice": "￥ 2,592"
       },
-      "TotalNew": "0",
+      "LowestUsedPrice": {
+        "Amount": "3793",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 3,793"
+      },
+      "TotalNew": "1",
       "TotalUsed": "6",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
+      "TotalOffers": "1",
+      "TotalOfferPages": "1",
+      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4274066983?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4274066983",
+      "Offer": {
+        "OfferAttributes": {
+          "Condition": "New"
+        },
+        "OfferListing": {
+          "OfferListingId": "SjDUErwvowXj%2Bw4JAefD9ab0xFABkWDct0f4FLQDP62GwtzW0ORRFzeDHaMtrOpeT%2FH4ANGo1qCSHAspmzIzsmTLDFWhGh1a",
+          "Price": {
+            "Amount": "2592",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 2,592"
+          },
+          "Availability": "一時的に在庫切れですが、商品が入荷次第配送します。配送予定日がわかり次第Eメールにてお知らせします。商品の代金は発送時に請求いたします。",
+          "AvailabilityAttributes": {
+            "AvailabilityType": "unknown",
+            "MinimumHours": "672",
+            "MaximumHours": "1008"
+          },
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "25",
+          "TypicalRedemptionValue": {
+            "Amount": "25",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 25"
+          }
+        }
+      }
     }
   },
-  "Lastmod": "2017-10-21 13:10:39 +0900",
+  "Lastmod": "2017-10-27 06:59:46 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/3dd95442e8b9438d0106bad52819b441/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/3dd95442e8b9438d0106bad52819b441/"
