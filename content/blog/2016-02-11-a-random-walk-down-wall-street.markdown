@@ -83,29 +83,4 @@ img: "https://images-na.ssl-images-amazon.com/images/I/51UMwuX4tjL._SL160_.jpg"
 アフィリエイト界隈だって、誰かありがたがってアフィリエイトで儲かるノウハウを欲する人がいる限り、儲かる仕組みなんだろうな。
 
 
-<div class="booklink-box">
-  <div class="booklink-image">
-    <a href="http://www.amazon.co.jp/exec/obidos/asin/4532354714/meganii-22/" target="_blank">
-      <img src="https://images-na.ssl-images-amazon.com/images/I/51UMwuX4tjL._SL160_.jpg" style="border: none;" />
-    </a>
-  </div>
-  <div class="booklink-info">
-    <div class="booklink-name">
-      <a href="http://www.amazon.co.jp/exec/obidos/asin/4532354714/meganii-22/" target="_blank" >ウォール街のランダム・ウォーカー　<原著第10版>―株式投資の不滅の真理</a>
-      <div class="booklink-powered-date">posted with <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div>
-    </div>
-    <div class="booklink-detail">バートン・マルキール 日本経済新聞出版社 2011-06-18</div>
-    <div class="booklink-link2">
-      <div class="shoplinkamazon">
-        <a href="http://www.amazon.co.jp/exec/obidos/asin/4532354714/meganii-22/" target="_blank" >Amazon</a>
-      </div>
-      <div class="shoplinkkindle">
-        <a href="http://www.amazon.co.jp/gp/search?keywords=%83E%83H%81%5B%83%8B%8AX%82%CC%83%89%83%93%83_%83%80%81E%83E%83H%81%5B%83J%81%5B%81%40%3C%8C%B4%92%98%91%E610%94%C5%3E%81%5C%8A%94%8E%AE%93%8A%8E%91%82%CC%95s%96%C5%82%CC%90%5E%97%9D&__mk_ja_JP=%83J%83%5E%83J%83i&url=node%3D2275256051&tag=meganii-22" target="_blank" >Kindle</a>
-      </div>
-      <div class="shoplinkrakuten">
-        <a href="http://hb.afl.rakuten.co.jp/hgc/13e181b2.b5761023.13e181b3.cbc7b217/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F11205114%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F" target="_blank" >楽天ブックス</a>
-      </div>
-    </div>
-  </div>
-  <div class="booklink-footer"></div>
-</div>
+{{% amazon 4532354714 %}}
