@@ -4,42 +4,33 @@ date: 2012-01-28
 category: ['Tech']
 tags: ['meetup']
 published: true
-slug: juso_coworking
+slug: juso-coworking
 ---
 
-&nbsp;<a href="http://juso-coworking.com/" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://juso-coworking.com/" alt="" width="150" height="130"></a><a style="color:#0070C5;" href="http://juso-coworking.com/" target="_blank">JUSO Coworking - 大阪・十三のコワーキングスペース</a><a href="http://b.hatena.ne.jp/entry/http://juso-coworking.com/" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://juso-coworking.com/" alt=""></a><br><strong>JUSO Coworkingに参加してきました！</strong><br style="clear:both;"><br>
-
-<a href="http://twitter.com/saiut" target="_blank">@saiut</a>に誘っていただき、<a href="http://twitter.com/LHnao" target="_blank">@LHnao</a>と参加してきました！楽しかったです！！<div><br>&nbsp;
+<a href="http://twitter.com/saiut" target="_blank">@saiut</a>に誘っていただき、<a href="http://twitter.com/LHnao" target="_blank">@LHnao</a>と[JUSO Coworking - 大阪・十三のコワーキングスペース](http://juso-coworking.com/)に参加してきました！楽しかったです！！
 
 
+## コワーキング(Coworking)って
 
-<h3>コワーキング(Coworking)って</h3>
-<a href="http://juso-coworking.com/about" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://juso-coworking.com/about" alt="" width="150" height="130"></a><a style="color:#0070C5;" href="http://juso-coworking.com/about" target="_blank">JUSO CoWorkingについて | JUSO Coworking - 大阪・十三のコワーキングスペース</a><a href="http://b.hatena.ne.jp/entry/http://juso-coworking.com/about" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://juso-coworking.com/about" alt=""></a><br><span style="color: #808080;font-size: 80%;">インターネットをはじめとする情報網の高度化・Twitterなど情報シェアのためのサービスの発達・そしてハードのモバイル化は、人々のはたらき方に大きな変化をもたらしました。必ず企業体に属せずとも高いパフ ...</span><br><strong>コワーキングとは</strong><br style="clear:both;"><br>
+[JUSO Coworkingについて \| スペース概要 \| JUSO Coworking](https://juso-coworking.com/outline/about.html)
 
-
-<p>
-  家族ラボということで、お子さん連れの方が多かったです。<br>
-  お父さん、お母さんが仕事で作業してるときに、お子さんがその姿を見てる、近寄って、じゃれてる姿は、なんだかいい雰囲気だなっと。実際にお子さんがいらっしゃる方は、そんなこと言ってる場合じゃないぐらい忙しいんだろうですけど。
-</p>
-
-<p>
-  その中で自分はLokkaと、GoogleAppEngineいじりに没頭。家でだらだらやってたら、ネットサーフィンだけで終わっていただろうけど、いろんな人と関わることができ、自分も作業が進められて有意義な時間を過ごすことが出来ました。また参加させてくださいー
-</p>
-
-
-<h3><br></h3><div><br></div><h3>一日の成果</h3>
-<ul>
-    <li>自己紹介LT</li>
-    <li>RSS生成</li>
-    <li>Lokkaいじり</li>
-</ul>
+>「コワーキング（Coworking）」とは、複数の人がひとつの場所を共有しながら、それぞれの仕事を持ち込んで働くワークスタイルです。様々な職種・スタイル・経験を持った人々が知恵やアイデアを共有しながらそれぞれの仕事をおこなう中で、ゆるやかなコミュニティを形成するのが一般的な形です。 また、コワーキングをおこなうために設定された場所を「コワーキングスペース」と呼びます。世界には2000を超えるコワーキングスペースが存在するとされ、現在もその数を増やし続けています。 JUSO Coworkingは日本で3つめ、大阪では初のコワーキングスペースとして2010年12月にスタートしました。
 
 
 
-<h3><br></h3><h3>参考</h3>
-<ul>
-    <li><a href="http://juso-coworking.com/">JUSO Coworking - 大阪・十三のコワーキングスペース</a></li>
-    <li><a href="http://matome.naver.jp/odai/2131917557651643401">コワーキングスペースまとめ - NAVER まとめ</a></li>
 
-</ul>
-</div>
+## 一日の成果
+
+- 自己紹介LT
+- RSS生成
+- Lokkaいじり
+
+家族ラボということで、お子さん連れの方が多かったです。  
+お父さん、お母さんが仕事で作業してるときに、お子さんがその姿を見てる、近寄って、じゃれてる姿は、なんだかいい雰囲気だなっと。実際にお子さんがいらっしゃる方は、そんなこと言ってる場合じゃないぐらい忙しいんだろうですけど。
+
+
+その中で自分はLokkaと、GoogleAppEngineいじりに没頭。家でだらだらやってたら、ネットサーフィンだけで終わっていただろうけど、いろんな人と関わることができ、自分も作業が進められて有意義な時間を過ごすことが出来ました。また参加させてくださいー。
+
+## 参考
+- <a href="http://juso-coworking.com/">JUSO Coworking - 大阪・十三のコワーキングスペース</a>
+- <a href="http://matome.naver.jp/odai/2131917557651643401">コワーキングスペースまとめ - NAVER まとめ</a>
