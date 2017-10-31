@@ -9,8 +9,7 @@ slug: statistics-is-literacy-for-the-next-generation-professional
 img: "https://images-na.ssl-images-amazon.com/images/I/51vZ69hPFHL._SL160_.jpg"
 ---
 
-<div class="booklink-box"><div class="booklink-image"><a href="http://www.amazon.co.jp/exec/obidos/asin/B00OYMOEUC/meganii-22/" target="_blank" ><img src="https://images-na.ssl-images-amazon.com/images/I/51vZ69hPFHL._SL160_.jpg" style="border: none;" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="http://www.amazon.co.jp/exec/obidos/asin/B00OYMOEUC/meganii-22/" target="_blank" >統計学が最強の学問である［実践編］[Kindle版]</a><div class="booklink-powered-date">posted with <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail">西内 啓 ダイヤモンド社 2014-11-04    </div><div class="booklink-link2"><div class="shoplinkkindle"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00OYMOEUC/meganii-22/" target="_blank" >Kindle</a></div><div class="shoplinkamazon"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4478028230/meganii-22/" target="_blank" >Amazon[書籍版]</a></div>                              	  	  	      </div></div><div class="booklink-footer"></div></div>
-
+{{% amazon B00OYMOEUC %}}
 
 
 
@@ -137,4 +136,4 @@ p26
 正規分布に従うデータであれば、この「4分の3以上」というボリュームはもっと大きくなり、平均値±2SD(正確には1.96SD)の範囲に95%のデータが存在する。
 
 
-[[こつこつ勉強]統計学入門#1 | じょーぶん部](http://meganii.com/blog/2014/11/04/statistics/)
+[[こつこつ勉強]統計学入門#1 | じょーぶん部](https://www.meganii.com/blog/2014/11/04/statistics/)
