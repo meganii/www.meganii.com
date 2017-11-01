@@ -5,10 +5,11 @@ lastmod: 2017-02-18T18:56:27+09:00
 category: ['Art']
 tags: ['book','english']
 published: true
-slug: study_english
+slug: study-english
 ---
 
 {{% amazon 4887598483 %}}
+
 
 ## 「第２言語」の概念
 
@@ -17,26 +18,32 @@ slug: study_english
 
 試験勉強のためでなく、実際に使うために学習するということを今までしてこなかったように感じる。英語の試験のために、構文、英単語を覚えてきた。でも、それじゃいつまでたっても英語を使えるようにならない。そろそろまともに使えるようになりたい。
 
+<!--more-->
+{{% googleadsense %}}
+
 ## そもそもなんで英語を身に着けたいか？
 
-- Evernote
-- Search
-- Travel
+1.Evernoteオフ会での悔しい思い出
+1.英語で探す。英語で学ぶ
+1.旅行先での英会話
 
-### Evernote
+### 1.Evernoteオフ会での悔しい思い出
 
-同時通訳の日本語でしか、完全に理解できないので、笑うタイミングが違うのは悔しい。フィルに話す機会があったのに、全然自分の言いたいこと、聞きたいことを聞けなかった悔しさ。自分の言いたいことを伝えられるようになりたい。自分の聞きたいことを聞けるようになりたい。
+同時通訳の日本語でしか話の内容を完全に理解できないので、英語をそのまま理解できる人と笑うタイミングが違う悔しさ。
 
-<a style="color:#0070C5;" href="http://d.hatena.ne.jp/meganii/20100625/1277428165" target="_blank">Evernote Meetup Tokyoに参加してきました！！ - ギークを夢見るじょーぶん男子</a><a href="http://b.hatena.ne.jp/entry/http://d.hatena.ne.jp/meganii/20100625/1277428165" target="_blank"><img border="0" src="https://b.hatena.ne.jp/entry/image/http://d.hatena.ne.jp/meganii/20100625/1277428165" alt=""></a><br><span style="color: #808080;font-size: 80%;">フィルのスピーチはもちろん英語。随時通訳が入っていたので、内容自体は理解することができました。でも、フィル冗談が言ったとき、会場とワンテンポ遅れて反応。なんだかすごく悔しかったです。  ほかにも、英語 ...</span><br style="clear:both;"><br>
+当時のCEOだったフィル氏と話す機会があったのに、全然自分の言いたいことや聞きたいことを話せなかった悔しさ。
 
-<a style="color:#0070C5;" href="http://d.hatena.ne.jp/meganii/20111111/1321017033" target="_blank">Evernoteオフ@名古屋「世界のえばちゃんオフだみゃあ」に行ってきました！！ - ギークを夢見るじょーぶん男子</a><a href="http://b.hatena.ne.jp/entry/http://d.hatena.ne.jp/meganii/20111111/1321017033" target="_blank"><img border="0" src="https://b.hatena.ne.jp/entry/image/http://d.hatena.ne.jp/meganii/20111111/1321017033" alt=""></a><br><span style="color: #808080;font-size: 80%;">悔しい。。  さらに、Philが目の前にいるのに、ろくな質問できなかった。   あぁーー悔しい。  自分の伝えたいこと、聞きたいことを聞ける人になりたい。 ...</span><br style="clear:both;"><br>
+自分の言いたいことを伝えられるようになりたい。自分の聞きたいことを聞けるようになりたい。
+
+- [Evernote Meetup Tokyoに参加してきました！！ - ギークを夢見るじょーぶん男子](http://d.hatena.ne.jp/meganii/20100625/1277428165)
+- [Evernoteオフ@名古屋「世界のえばちゃんオフだみゃあ」に行ってきました！！ - ギークを夢見るじょーぶん男子](http://d.hatena.ne.jp/meganii/20111111/1321017033)
 
 
-### Search
+### 2.英語で探す。英語で学ぶ
 
-日本語だと、自分の探したい情報が少なかったり、全然なかったりする。でも、英語だと何件もヒットすることがしばしばある。最初から英語で検索して、英語をスラスラ理解出来ればもうちょっと幸せになれる気がする。
+日本語だと自分の探したい情報が少なかったり、全然なかったりする。でも、英語だと何件もヒットすることがしばしばある。最初から英語で検索して、英語をスラスラ理解出来ればもうちょっと幸せになれる気がする。
 
-### Travel
+### 3.旅行先での英会話
 
 海外に旅行に行った時に、ガイドさんの力を借りないとまだまだ不安。それだと、行きたいところへ行けないし、なんだか薄っぺらい。ホテルと、フライトだけ押さえて、フラーっと海外行けるようになりたい。
 
@@ -49,6 +56,6 @@ slug: study_english
 
 ## 参考
 
-<a style="color:#0070C5;" href="http://homepage3.nifty.com/mutuno/" target="_blank">英語上達完全マップ</a><a href="http://b.hatena.ne.jp/entry/http://homepage3.nifty.com/mutuno/" target="_blank"><img border="0" src="https://b.hatena.ne.jp/entry/image/http://homepage3.nifty.com/mutuno/" alt=""></a><br style="clear:both;"><br>
+- [英語上達完全マップ](http://mutuno.o.oo7.jp/)  
 
 {{% amazon 4887598483 %}}
