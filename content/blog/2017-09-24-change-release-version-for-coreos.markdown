@@ -5,7 +5,7 @@ lastmod: 2017-09-24T20:08:41+09:00
 comments: true
 category: ['Tech']
 tags: ['CoreOS']
-published: false
+published: true
 slug: change-release-channels-for-coreos
 ---
 
