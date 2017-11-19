@@ -7,10 +7,10 @@ category: ['Life']
 tags: ['minimo','ミニモ']
 published: true
 slug: get-a-haircut-by-minimo
-img: "https://c5.staticflickr.com/6/5589/30324509396_9e63960c57_t.jpg"
+img: "https://res.cloudinary.com/meganii/image/upload/c_crop,f_auto,h_75,w_75/v1511099495/jecwzsscr9b0jrlgu5ni.jpg"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/q_auto/v1511040827/minimo_uakszz.jpg" w="640" h="443" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511040827/minimo_uakszz.jpg" w="640" h="443" %}}
 
 「カットモデル」ってなんだかすごく敷居が高くないですか？
 
