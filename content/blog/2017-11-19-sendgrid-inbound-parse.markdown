@@ -4,7 +4,7 @@ date: 2017-11-19T06:22:24+09:00
 lastmod: 2017-11-19T06:22:24+09:00
 comments: true
 category: ['Tech']
-tags: ['Sendgrid']
+tags: ['Sendgrid', 'Node.js', 'JavaScript']
 published: true
 slug: sendgrid-inbound-parse
 img: http://res.cloudinary.com/meganii/image/upload/c_scale,h_75,w_75/v1511097208/zbenj5jvtfhidsnduvhx.png
