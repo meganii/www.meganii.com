@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Sendgrid']
 published: true
 slug: sendgrid-inbound-parse
-img: 
+img: http://res.cloudinary.com/meganii/image/upload/c_scale,h_75,w_75/v1511097208/zbenj5jvtfhidsnduvhx.png
 ---
 
 「メール受信をトリガーになんらかの操作をしたい」ときに調べたときの調査結果
