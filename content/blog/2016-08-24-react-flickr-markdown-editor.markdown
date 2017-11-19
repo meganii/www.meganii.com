@@ -1,5 +1,4 @@
 ---
-
 title: "React + ElectronでFlickr連携可能なMarkdown Editorを作った"
 date: 2016-08-24T21:21:06+09:00
 lastmod: 2016-11-13T23:27:37+09:00
@@ -9,7 +8,6 @@ tags: ['Electron','JavaScript']
 published: true
 slug: react-flickr-markdown-editor
 img: "https://c1.staticflickr.com/9/8555/28577511064_1d5a39a929_m.jpg"
-
 ---
 
 ![React-Markdown-Editor](https://farm9.staticflickr.com/8455/29165784116_9084f95502_z.jpg)
@@ -57,7 +55,6 @@ git pushでブログデプロイ
       ipcRenderer.send('upload', file.path);  // file upload
       return false;
     };
-
 ```
 
 
