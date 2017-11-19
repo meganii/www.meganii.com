@@ -1,11 +1,10 @@
 ---
-
 title: "scrum boot camp the book"
 date: 2015-06-21T20:20:00+09:00
 comments: true
 category: ['Tech']
 tags: ['scrum','agile']
-published: true
+published: false
 slug: scrum-boot-camp-the-book
 img: "https://images-na.ssl-images-amazon.com/images/I/51q3GMM3rjL._SL160_.jpg"
 ---
