@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Sendgrid', 'Node.js', 'JavaScript']
 published: true
 slug: sendgrid-inbound-parse
-img: https://res.cloudinary.com/meganii/image/upload/c_scale,h_75,w_75/v1511097208/zbenj5jvtfhidsnduvhx.png
+img: https://res.cloudinary.com/meganii/image/upload/c_scale,h_75,w_75,f_auto/v1511097208/zbenj5jvtfhidsnduvhx.png
 ---
 
 「メール受信をトリガーになんらかの操作をしたい」ときに調べたときの調査結果
@@ -49,13 +49,13 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,h_75,w_75/v15110972
 
 Parse Webhook(Inbound Parse)を利用するためには、まずDomain Whitelabel設定が必要のため、以下の通りサブドメインを登録します。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/c_scale,w_640/v1511095930/f4wmdqgwy2pcne4f9nr7.png" w="640" h="354" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/c_scale,w_640,f_auto/v1511095930/f4wmdqgwy2pcne4f9nr7.png" w="640" h="354" %}}
 
 ### 3. [ドメイン設定] MXレコードとCNAMEを追加する。
 
 Domain Whitelabl登録時に表示されるCNAMEと、MXレコードをご自身のドメイン管理サイト(お名前.com)に、以下3レコードを追加します。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1511045848/gzkrcrwjrmivsqqhtw9h.jpg" w="640" h="190" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/c_scale,w_640,f_auto/v1511045848/gzkrcrwjrmivsqqhtw9h.jpg" w="640" h="190" %}}
 
 はじめ、Domain Whitelabel設定を行ったときに、これを登録しろと言われるCNAMEを全部登録した後にMXレコードを追加しようとしたが、お名前.com側で追加できなかった。
 
@@ -68,7 +68,7 @@ CNAMEに登録するのは、s1._domainkey.XXXX, s2._domainkey.XXXXの2つだけ
 
 Settings > Inbound Parse 対象ドメインのメール受信後にどのURLに対してPOSTするかを設定する。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1511051917/m3sgzyg5xzftm2c3c5pi.jpg" w="640" h="480" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/c_scale,w_640,f_auto/v1511051917/m3sgzyg5xzftm2c3c5pi.jpg" w="640" h="480" %}}
 
 
 
@@ -79,7 +79,7 @@ Settings > Inbound Parse 対象ドメインのメール受信後にどのURLに
 テスト時は後述する`RequestBin`や`ngrok`のURLを指定した。
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1511052504/ztj0duzot0rtit4olqc3.png" w="640" h="480" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/c_scale,w_640,f_auto/v1511052504/ztj0duzot0rtit4olqc3.png" w="640" h="480" %}}
 
 
 ### 5. POSTリクエストを受け取るアプリケーションを用意
@@ -128,7 +128,7 @@ node server.js
 
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1511048426/ga8ugnnbstfhbshvt9mz.jpg" w="640" h="480" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/c_scale,w_640,f_auto/v1511048426/ga8ugnnbstfhbshvt9mz.jpg" w="640" h="480" %}}
 
 
 その後、ローカルデバッグしたい場合は、`ngrok`を利用する。
