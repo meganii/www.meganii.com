@@ -1,12 +1,8 @@
 ---
 title: "About SIS Lab"
-date: 2017-11-23T15:23:39+09:00
+date: 2015-11-23T15:23:39+09:00
 img: 'images/meganii_logo.png'
 ---
-
-## SIS Labとは？
-
-
 
 ## じょーぶんとは？
 情報文化の略称。広く浅くから、広く深くを目指してます。
