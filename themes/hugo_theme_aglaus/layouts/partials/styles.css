@@ -240,6 +240,32 @@ section>header span {
   padding: 0 1rem;
 }
 
+/* Parts:navigation */
+.p-nav {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.p-nav__item {
+  display: table-cell;
+}
+
+.p-nav__item > a {
+  display: block;
+  padding: 5px 0;
+  margin-right: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: #222;
+}
+
+.p-nav__hr {
+  margin: 0;
+  padding: 0;
+}
+
 /* Parts:article */
 .p-articles {
   list-style: none;
