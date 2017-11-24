@@ -1,7 +1,7 @@
 ---
 title: "AZチェーンクリーナーでミニベロ「Bruno」のチェーン清掃にチャレンジ！"
 date: 2017-09-02T13:57:48+09:00
-lastmod: 2017-09-02T13:57:48+09:00
+lastmod: 2017-11-23T21:57:48+09:00
 comments: true
 category: ['Life']
 tags: ['Bike','自転車']
