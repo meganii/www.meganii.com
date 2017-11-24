@@ -173,7 +173,9 @@
         "商品サイズ (幅×奥行×高さ) :250mm×105mm×310mm",
         "原産国:日本",
         "内容量:1,050g",
-        "カロリー:1食分(21g)当たり エネルギー83kcal"
+        "カロリー:1食分(21g)当たり エネルギー83kcal",
+        "原材料名:乳清たんぱく、ココアパウダー、植物油脂、食塩、香料、増粘多糖類、乳化剤(大豆を含む)、V.C、甘味料(スクラロース、アセスルファムK)、ナイアシ ン、V.B1、V.B2、パントテン酸Ca、V.B6、葉酸、V.B12g",
+        "使用方法:牛乳または水200〜300mLに付属のスプーン3杯(約21g)を溶かします。 別売りのプロテインシェイカーを使用すると溶けやすく手軽にプロテインを摂取できます。 ※量は、お好みに応じて調整して下さい。 ※牛乳または水に溶かした後は、速やかにお飲みください。"
       ],
       "IsAdultProduct": "0",
       "ItemDimensions": {
@@ -193,10 +195,10 @@
       "Model": "2632317",
       "MPN": "CZ7427",
       "PackageDimensions": {
-        "Height": "429",
-        "Length": "996",
-        "Weight": "240",
-        "Width": "972"
+        "Height": "469",
+        "Length": "1201",
+        "Weight": "238",
+        "Width": "949"
       },
       "PackageQuantity": "1",
       "PartNumber": "CZ7427",
@@ -221,7 +223,7 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 3,880"
       },
-      "TotalNew": "98",
+      "TotalNew": "103",
       "TotalUsed": "0",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
@@ -235,23 +237,23 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "V47uuu06R0Jv7pcUFnudrLF5wyaIHNJeWZxYXfWOmSFEvqxbZfL6Qexc06FtNe%2F%2B3xaffSrcdcyyQYQDZUjMJeUmH8DZ9CtBKM6C8oGekvZkqPN5xVGDyZc0XfBDhr1VKfKEjCUb%2F0FcZmDKOQwnWw%3D%3D",
+          "OfferListingId": "4KDL%2BTwucxZIWvesX%2BT0xIhdc8e0yXxl3fMNSztDIAZ%2B0gP3Gtx9yANu9YzchG4tFJx4AW2CK6N%2FUWXy59kIMGEPaoRXvmKWB8RRxTpVWDA%3D",
           "Price": {
-            "Amount": "3980",
+            "Amount": "4280",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 3,980"
+            "FormattedPrice": "￥ 4,280"
           },
           "AmountSaved": {
-            "Amount": "2014",
+            "Amount": "1714",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,014"
+            "FormattedPrice": "￥ 1,714"
           },
-          "PercentageSaved": "34",
+          "PercentageSaved": "29",
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "24",
-            "MaximumHours": "24"
+            "MinimumHours": "0",
+            "MaximumHours": "0"
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
@@ -259,7 +261,7 @@
       }
     }
   },
-  "Lastmod": "2017-10-27 07:04:10 +0900",
+  "Lastmod": "2017-11-24 22:49:46 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/add0e801703de10533db8919705ba688/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/add0e801703de10533db8919705ba688/"

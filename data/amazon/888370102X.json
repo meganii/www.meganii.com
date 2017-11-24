@@ -390,9 +390,9 @@
         ]
       },
       "ListPrice": {
-        "Amount": "1325",
+        "Amount": "1358",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,325"
+        "FormattedPrice": "￥ 1,358"
       },
       "Manufacturer": "Moleskine",
       "ManufacturerMaximumAge": "1188",
@@ -412,6 +412,7 @@
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2008-01-01",
       "Publisher": "Moleskine",
+      "ReleaseDate": "2008-01-01",
       "Studio": "Moleskine",
       "Title": "Moleskine Pocket Squared Notebook Classic",
       "UPC": "844087000269",
@@ -424,16 +425,16 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1069",
+        "Amount": "1334",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,069"
+        "FormattedPrice": "￥ 1,334"
       },
       "LowestUsedPrice": {
         "Amount": "9815",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 9,815"
       },
-      "TotalNew": "31",
+      "TotalNew": "23",
       "TotalUsed": "1",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
@@ -447,12 +448,18 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "YILDdMyFV12lTgvYyjidBejbs2nRYR3EDvGU4NO%2BXbbQRzB15CzpLOvbtc%2Fl9czhspBsaxVSoRKHLTR8pIJHinGuOSmnZNSypD%2Bg01yBWvU%3D",
+          "OfferListingId": "irq5Hkp3R9IiBt0St627TCyfg1wdBWXt81DVcaoC8T2MgGQA%2BVKHB7ckOUM0Rjd%2BPEp%2BHIuoKltGe2DNe1EDHLk7%2FBZTvXlmAIobNRfontE%3D",
           "Price": {
-            "Amount": "1336",
+            "Amount": "1334",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,336"
+            "FormattedPrice": "￥ 1,334"
           },
+          "AmountSaved": {
+            "Amount": "24",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 24"
+          },
+          "PercentageSaved": "2",
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
@@ -465,7 +472,7 @@
       }
     }
   },
-  "Lastmod": "2017-10-27 06:59:33 +0900",
+  "Lastmod": "2017-11-24 22:44:22 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/5fc11c86dc31da4d38836037648ac442/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/5fc11c86dc31da4d38836037648ac442/"

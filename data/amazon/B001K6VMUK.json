@@ -109,12 +109,17 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "2000",
+        "Amount": "1680",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,000"
+        "FormattedPrice": "￥ 1,680"
       },
-      "TotalNew": "13",
-      "TotalUsed": "0",
+      "LowestUsedPrice": {
+        "Amount": "2500",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 2,500"
+      },
+      "TotalNew": "12",
+      "TotalUsed": "1",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -127,12 +132,18 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "MrYTV02Ry2YPuRMvXd%2BctoB0SAKzp7BiujI5f%2FmFfTFfqfKUbYFPC7u8nqf4NDRP%2Bny0uNsPiqsJ4Y2QURPfiIl%2BdeuEolje1z0HNpbFufKbCjBPJ7vNyhXcaYoX2nxvnC%2BPQU5edP9G2xQ%2B%2BcAWyQ%3D%3D",
+          "OfferListingId": "hurkpATvBjpWrggJmhixdTYnIec0k1taEHfQ5iAW5laE0EGQkx9JgD%2FdobiuQGkW1v0V3XIkXo%2FvktQOS%2FZXWLokuRO%2BMgOTs6sEyZcDWlu8vMUKpnKpR0R6MGDdpAOPTHGQ4KZzHXSuLtw7quLSCg%3D%3D",
           "Price": {
-            "Amount": "2700",
+            "Amount": "2380",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,700"
+            "FormattedPrice": "￥ 2,380"
           },
+          "AmountSaved": {
+            "Amount": "320",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 320"
+          },
+          "PercentageSaved": "12",
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
@@ -141,11 +152,19 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "55",
+          "TypicalRedemptionValue": {
+            "Amount": "55",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 55"
+          }
         }
       }
     }
   },
-  "Lastmod": "2017-10-27 06:57:52 +0900",
+  "Lastmod": "2017-11-24 22:42:26 +0900",
   "Yahoo": {
     "productUrl": "https://shopping.yahoo.co.jp/search?p=4977513054553"
   }

@@ -423,17 +423,12 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "2580",
+        "Amount": "2680",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,580"
+        "FormattedPrice": "￥ 2,680"
       },
-      "LowestUsedPrice": {
-        "Amount": "2580",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,580"
-      },
-      "TotalNew": "12",
-      "TotalUsed": "1",
+      "TotalNew": "9",
+      "TotalUsed": "0",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -446,23 +441,18 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "3mNsU75hEOVlQsG08VnR3ZoQGnFX4fo7r2y92H4DwRvl9Mu7UYguc4mqwa8uawKd8BeUsnGtQzEdFNz20sifV5SuuavenX6%2FwDtgqODHkE0zKRfNRWLiwd%2BgYVfGMRjJPTocSxdXNDB%2Bt46XxILv%2FQ%3D%3D",
+          "OfferListingId": "Y5gbQEtP9nrqoEMHB3OxGJOHDBA0kJ%2BERuCEmaidWMa18i5IUqZFPZ%2FhSCI7XqqHSgt8JEDZtOynSpNpAgNv%2FhMiaOCJufIQpuN8ndqcoYmpvFh5x7IoR1B8Jdtr7T5VdenSm94G0IsPR%2FB24Guu1g%3D%3D",
           "Price": {
             "Amount": "2680",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 2,680"
           },
-          "SalePrice": {
-            "Amount": "2580",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,580"
-          },
           "AmountSaved": {
-            "Amount": "100",
+            "Amount": "4300",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 100"
+            "FormattedPrice": "￥ 4,300"
           },
-          "PercentageSaved": "4",
+          "PercentageSaved": "62",
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
@@ -475,7 +465,7 @@
       }
     }
   },
-  "Lastmod": "2017-10-27 07:00:45 +0900",
+  "Lastmod": "2017-11-24 22:45:50 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/3c16ee9685801ba48ca5147828dbd6ec/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/3c16ee9685801ba48ca5147828dbd6ec/"
