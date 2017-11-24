@@ -290,6 +290,7 @@ section>header span {
 article .article-header {
   height: 6rem;
   vertical-align: middle;
+  display: table-cell;
 }
 
 article .title {
