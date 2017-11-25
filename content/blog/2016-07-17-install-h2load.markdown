@@ -27,7 +27,7 @@ img: https://farm6.staticflickr.com/5624/21367186743_cbcb0e5268_m.jpg
 - wrk
 - h2load
 
-真っ先に思い浮かぶのは、`ab`コマンドです。昔もapacheとnginxの比較をしようとしたときに使いました。[abコマンド実行時のエラーを回避する \- SIS Lab](https://meganii.com/blog/2013/05/27/benchmark-apache/)
+真っ先に思い浮かぶのは、`ab`コマンドです。昔もapacheとnginxの比較をしようとしたときに使いました。[abコマンド実行時のエラーを回避する \- SIS Lab](https://www.meganii.com/blog/2013/05/27/benchmark-apache/)
 
 `ab`コマンドよりも、モダンなのは、`wrk`らしいです。[HTTP ベンチマークツール wrk についてメモ \| Siguniang's Blog](https://siguniang.wordpress.com/2015/06/21/notes-on-wrk-http-benchmarking-tool/)
 [GitHub \- wg/wrk: Modern HTTP benchmarking tool](https://github.com/wg/wrk)
@@ -59,6 +59,7 @@ vagrant init ubuntu/trusty64; vagrant up --provider virtualbox
 ```
 
 ### ビルドに必要なパッケージのインストールと、spdylayのビルド
+
 ```
 mkdir -p /usr/local/src
 cd /usr/local/src
@@ -76,6 +77,7 @@ make install
 ```
 
 ### nghttp2をビルド
+
 ```
 cd /usr/local/src/
 git clone https://github.com/nghttp2/nghttp2     #h2loadはnghttp2に同梱されているため
@@ -102,7 +104,7 @@ ldconfig
 ### インストール完了
 
 ```
-h2load -n100000 -c100 -m100 https://meganii.com/
+h2load -n100000 -c100 -m100 https://www.meganii.com/
 starting benchmark...
 spawning thread #0: 100 total client(s). 100000 total requests
 TLS Protocol: TLSv1.2

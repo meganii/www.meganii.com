@@ -59,8 +59,8 @@ img: "https://c5.staticflickr.com/8/7719/27757786996_582c442d2e_s.jpg"
 
 革小物に興味がある人は、革カバー、革靴もよかったらみていってください。
 
-- [ほぼ日手帳におすすめの革カバー！HERZ\(ヘルツ\)の「ほぼ日手帳カバー\(KB\-104\)」](https://meganii.com/blog/2015/04/01/hobonichi-planner-leather-cover/)
-- [Scotch Grain\(スコッチグレイン\)の革靴「シャインオアレイン」なら雨の日でも快適通勤！！](https://meganii.com/blog/2016/07/23/scotch-grain-shine-or-rain/)
+- [ほぼ日手帳におすすめの革カバー！HERZ\(ヘルツ\)の「ほぼ日手帳カバー\(KB\-104\)」](https://www.meganii.com/blog/2015/04/01/hobonichi-planner-leather-cover/)
+- [Scotch Grain\(スコッチグレイン\)の革靴「シャインオアレイン」なら雨の日でも快適通勤！！](https://www.meganii.com/blog/2016/07/23/scotch-grain-shine-or-rain/)
 
 
 

@@ -94,8 +94,8 @@ Custom domainを設定して、その後、HTTPSを有効にします。
 ```
 
 ```bash
-https://meganii.netlify.com/* https://meganii.com/:splat 301!
-http://meganii.netlify.com/* https://meganii.com/:splat 301!
+https://meganii.netlify.com/* https://www.meganii.com/:splat 301!
+http://meganii.netlify.com/* https://www.meganii.com/:splat 301!
 ```
 
 `:splat`は、ワイルドカードのように使うみたいです。

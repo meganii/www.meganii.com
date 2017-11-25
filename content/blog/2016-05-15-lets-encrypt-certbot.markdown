@@ -8,12 +8,13 @@ published: true
 slug: lets-encrypt-certbot
 ---
 
-[Lets's Encryptでブログの常時SSL化にチャレンジ - SIS Lab](https://meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/)の方法で新しいドメインを認証しようとすると、モジュールが古いから新しいモジュールを利用してねと怒られました。
+[Lets's Encryptでブログの常時SSL化にチャレンジ - SIS Lab](https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/)の方法で新しいドメインを認証しようとすると、モジュールが古いから新しいモジュールを利用してねと怒られました。
+
+改めて、[Getting Started - Let's Encrypt - Free SSL/TLS Certificates](https://letsencrypt.org/getting-started/)を見ながら、クライアントソフトを入れなおして、再度発行を行いました。
 
 <!--more-->
 {{% googleadsense %}}
 
-改めて、[Getting Started - Let's Encrypt - Free SSL/TLS Certificates](https://letsencrypt.org/getting-started/)を見ながら、クライアントソフトを入れなおして、再度発行を行いました。
 
 ## クライアントソフトをインストール
 

@@ -27,7 +27,7 @@ slug: hold-a-world-cafe
 **「誰かに組合の魅力を伝えるためにはどうすれば良いか」**
 
 問いを作るためには、以下の記事も参考になれば！
-[ワールドカフェの問いを作るには？](https://meganii.com/blog/2015/06/28/what-is-good-questions-for-world-cafe/)
+[ワールドカフェの問いを作るには？](https://www.meganii.com/blog/2015/06/28/what-is-good-questions-for-world-cafe/)
 
 
 ## 構成

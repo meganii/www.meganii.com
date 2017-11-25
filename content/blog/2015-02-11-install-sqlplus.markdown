@@ -11,7 +11,7 @@ slug: install-sqlplus
 
 Oracle Express Edition 11gをインストールしたので、SQL*Plusも合わせてインストールする。
 
-[Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする](http://meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/)
+[Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする](https://www.meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/)
 
 
 

@@ -21,7 +21,7 @@ JekyllのPost用として書いたMarkdownのFrontFormatterの情報を読み込
 
 WebアプリケーションとしてViewerまでは作ったけど、編集まで考えるとなかなかめんどくさいので活用できなかった。(今どんな情報を書いていたのかは把握出来たが)
 
-[Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった](http://meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/)
+[Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった](https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/)
 
 Objective-Cは、ちょっと触りたくなかったが、SwiftでMacアプリケーションも作成できるらしいので試しにつくってみた。
 

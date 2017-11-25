@@ -109,14 +109,15 @@ func parseDateWith(s string, dates []string) (d time.Time, e error) {
 
 ## URLを決める
 
-Jekyllのときは、`http://meganii.com/blog/2015/08/30/title/`のようなURL形式だったため、その形式に合わせる。
+Jekyllのときは、`https://www.meganii.com/blog/2015/08/30/title/`のようなURL形式だったため、その形式に合わせる。
 
 合わせ方は、config.ymlで定義する。
 
 config.yml
+
 ```yaml
 ---
-baseurl: "http://meganii.com"
+baseurl: "https://www.meganii.com"
 permalinks:
   post: "/blog/:year/:month/:day/:slug/"
 ---
@@ -142,7 +143,7 @@ slug: marketing-22-raws
 ---
 ```
 
-自分は、[Swiftで初めてのMacOSXアプリケーション-FFViewer- | じょーぶん部](http://meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/)で作成したソフトを利用して、frontmatterを埋め込んでいった。
+自分は、[Swiftで初めてのMacOSXアプリケーション-FFViewer- | じょーぶん部](https://www.meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/)で作成したソフトを利用して、frontmatterを埋め込んでいった。
 
 ファイル名から判断して、slugを決めるようにした。
 

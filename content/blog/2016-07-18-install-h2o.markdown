@@ -9,7 +9,7 @@ slug: installing-h2o-with-ansible
 img: "/images/ansible.png"
 ---
 
-前回[http/2ベンチマークツール「h2load」をインストール \- SIS Lab](https://meganii.com/blog/2016/07/17/install-h2load/)でhttp/2ベンチマークツールをインストールしたので、いよいよ`h2o`をインストールします。
+前回[http/2ベンチマークツール「h2load」をインストール \- SIS Lab](https://www.meganii.com/blog/2016/07/17/install-h2load/)でhttp/2ベンチマークツールをインストールしたので、いよいよ`h2o`をインストールします。
 
 さくらVPSで運用しているCentOSは、Ansible経由で整備しているので今回もAnsibleのタスクを作成して、まずはローカルの開発環境でテスト、そしてさくらVPSのCentOSに適用します。
 
@@ -125,7 +125,7 @@ hosts:
       port: 80
     paths:
       "/":
-        redirect: https://meganii.com/
+        redirect: https://www.meganii.com/
   "meganii.com:443":
     listen:
       port: 443
