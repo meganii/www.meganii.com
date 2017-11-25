@@ -12,12 +12,13 @@ img: "https://farm2.staticflickr.com/1680/24844125586_c74f952e38_s.jpg"
 
 {{% img src="https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg" w="640" h="404" %}}
 
-{{% googleadsense %}}
 
-[d3js tutorial | じょーぶん部](https://meganii.com//blog/2016/02/06/d3js-tutorial/)で、一通りD3.jsのイメージを掴みつつ、次は、東京の地価データの可視化に挑戦する。方法については、下記のページを参考にした。
+[D3.js tutorial | SIS lab](https://www.meganii.com/blog/2016/02/06/d3js-tutorial/)で、一通りD3.jsのイメージを掴みつつ、次は、東京の地価データの可視化に挑戦する。方法については、下記のページを参考にした。
 
 [Ars longa, vita brevis: 東京の地価公示データを眺める](http://kshigeru.blogspot.jp/2013/07/tokyo-landprice.html)
 
+<!--more-->
+{{% googleadsense %}}
 
 
 ## 環境準備
@@ -37,7 +38,7 @@ brew install gdal
 地価公示データは、以下のページからダウンロードする。
 [国土数値情報　地価公示データの詳細](http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L01-v2_3.html)
 
-今回は、`L01-15_13_GML.zip`をダウンロードし、解凍すると以下のファイル
+今回は、`L01-15_13_GML.zip`をダウンロードし、解凍すると以下のファイルが出力される。
 
 ```
 KS-META-L01-15_13.xml  L01-15_13.dbf  L01-15_13.prj  L01-15_13.shp  L01-15_13.shx  L01-15_13.xml
@@ -82,7 +83,7 @@ ogr2ogr -f GeoJSON -where "L01_017 < '13320'" tokyo-landprice-2015.geojson L01-1
 
 
 
-## d3.jsで表示する
+## D3.jsで表示する
 
 {{% img src="https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg" w="640" h="404" %}}
 

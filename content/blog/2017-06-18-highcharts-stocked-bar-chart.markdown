@@ -13,8 +13,6 @@ img: /images/2017/06/BS_PL-64x.png
 {{% img src="https://farm5.staticflickr.com/4347/36104167204_25d0bf7678_b.jpg" w="744" h="400" %}}
 
 
-{{% googleadsense %}}
-
 ## plotOptions
 
 `pointPadding: 0`に指定することで、group内での間隔を0にできる。
@@ -33,6 +31,7 @@ img: /images/2017/06/BS_PL-64x.png
 ```
 
 <!--more-->
+{{% googleadsense %}}
 
 ```html
 <!DOCTYPE html>
