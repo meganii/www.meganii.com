@@ -10,17 +10,20 @@ slug: electron-amazon-link-builder
 img: 'https://farm2.staticflickr.com/1467/25143519475_14929051ec_z.jpg'
 ---
 
-[Electronでデスクトップアプリ作成](https://meganii.com//blog/2016/01/25/electron-tutorial/)に引き続き、Amazonアフィリエイトリンクビルダーのデスクトップアプリを作った。
+[Electronでデスクトップアプリ作成](https://www.meganii.com/blog/2016/01/25/electron-tutorial/)に引き続き、Amazonアフィリエイトリンクビルダーのデスクトップアプリを作った。
 
-{{% googleadsense %}}
 
 ## 動機
 
-Amazonのアフィリエイトリンクビルダーには、ヨメレバ、カエレバのようなブックマークレットもあるが、現時点でAmazonのリンクがhttpsに対応していないため、せっかくhttps化をしてもchromeのURLバーが緑色にならない。[Lets's Encryptでブログの常時SSL化にチャレンジ](https://meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/)
+Amazonのアフィリエイトリンクビルダーには、ヨメレバ、カエレバのようなブックマークレットもあるが、現時点でAmazonのリンクがhttpsに対応していないため、せっかくhttps化をしてもchromeのURLバーが緑色にならない。[Lets's Encryptでブログの常時SSL化にチャレンジ](https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/)
 
 これは困るということで、せっかくなのでElectronでデスクトップアプリを作ってみた。
 
 React.jsとか使ってオシャレに作りたかったのだけど、JavaScript初心者にはまずそもそも素のJavaScriptが何をしているのかがわかってなかったので、一度愚直に作った。
+
+<!--more-->
+{{% googleadsense %}}
+
 
 ## 外観
 
@@ -35,7 +38,7 @@ React.jsとか使ってオシャレに作りたかったのだけど、JavaScrip
 
 メインプロセス(main.js)とレンダラープロセス(index.htmlのscript)を意識して書く。レンダラープロセスは、画面の描画に関する記述、メインプロセスは、ファイル処理や主な処理に関する記述と役割が分かれている。
 
-Amazon Product Advertising APIは、`node-apac`というライブラリを利用した。
+Amazon Product Advertising APIは、`node-apac`というライブラリを利用した。  
 [dmcquay/node-apac: node-apac - Node.js client for the Amazon Product Advertising API, including support of Request Signatures](https://github.com/dmcquay/node-apac)
 
 少しハマった点は、Endpointの修正と、AWS IDとAWS Secretの取得の部分である。

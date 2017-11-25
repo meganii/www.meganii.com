@@ -45,4 +45,4 @@ img:
 - ワールドトリガー
 
 
-[連休にこそ初回31日無料のdTVの始めどき！「キングダム」を無料で観る！](https://meganii.com/blog/2016/12/22/dtv-kingdom/)
+[連休にこそ初回31日無料のdTVの始めどき！「キングダム」を無料で観る！](https://www.meganii.com/blog/2016/12/22/dtv-kingdom/)

@@ -205,7 +205,7 @@ openssl dhparam -text -in dhparam.pem -noout
 server {
   listen       80 default_server;
   server_name  meganii.com;
-  return       301 https://meganii.com$request_uri;
+  return       301 https://www.meganii.com$request_uri;
 }
 
 server {

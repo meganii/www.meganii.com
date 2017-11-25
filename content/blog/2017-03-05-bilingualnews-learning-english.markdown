@@ -42,7 +42,7 @@ img: "https://images-fe.ssl-images-amazon.com/images/I/51pu%2B0tZVxL._SL160_.jpg
 4. 次どうするか？
 
 
-[20歳を過ぎてから英語を学ぼうと決めた人たちへ](https://meganii.com/blog/2012/05/19/study_english/)
+[20歳を過ぎてから英語を学ぼうと決めた人たちへ](https://www.meganii.com/blog/2012/05/19/study_english/)
 
 {{% amazon 4887598483 %}}
 {{% amazon 4860641345 %}}

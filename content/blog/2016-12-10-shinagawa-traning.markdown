@@ -45,7 +45,7 @@ img: "/images/2016/12/shinagawa.jpg"
 
 また、以前の記事にも書きましたが、今も「やわこ」は愛用してます。
 
-[腰痛におすすめの「やわこ」でのセルフマッサージ \- SIS Lab](https://meganii.com/blog/2016/06/25/self-massage-tool-yawako/)
+[腰痛におすすめの「やわこ」でのセルフマッサージ \- SIS Lab](https://www.meganii.com/blog/2016/06/25/self-massage-tool-yawako/)
 
 
 ## 感想

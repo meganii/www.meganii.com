@@ -71,4 +71,4 @@ slug: fountain-pen-cleaning
 
 ## 万年筆をよく使われるなら
 
-<a href="https://meganii.com/blog/2015/03/01/moleskine-to-mdnote/">モレスキンからミドリMDノートに乗り換え(万年筆の利用、価格の観点)</a>
+<a href="https://www.meganii.com/blog/2015/03/01/moleskine-to-mdnote/">モレスキンからミドリMDノートに乗り換え(万年筆の利用、価格の観点)</a>

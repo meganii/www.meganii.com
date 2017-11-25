@@ -12,7 +12,7 @@ img: "https://c1.staticflickr.com/9/8555/28577511064_1d5a39a929_m.jpg"
 
 ![React-Markdown-Editor](https://farm9.staticflickr.com/8455/29165784116_9084f95502_z.jpg)
 
-[Electron \+ Mithril\.jsでFlickrアプリを作成する \- SIS Lab](https://meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/)で、自分専用のMarkdown-Editorを作りたいと思っていたので、今回Reactの勉強も兼ねて、Flickr連携できるMarkdown Editorを作成しました。
+[Electron \+ Mithril\.jsでFlickrアプリを作成する \- SIS Lab](https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/)で、自分専用のMarkdown-Editorを作りたいと思っていたので、今回Reactの勉強も兼ねて、Flickr連携できるMarkdown Editorを作成しました。
 
 >最終的には、自分専用Markdownデスクトップアプリを、Electronで作成することが目標だ。Kobitoは便利で使ってるのだけど、そのままEvernoteに連携して欲しかったり、リンク作成の機能がまとまってると嬉しい。
 
@@ -88,7 +88,7 @@ git pushでブログデプロイ
 - アイコンをつくる
 - frontformatterはメタ情報としてそれっぽく表示させる
 - ファイルツリーの表示
-- ~~シンタックスハイライト(Aceエディタの導入)~~  [AceエディタをElectronに組み込む \- SIS Lab](https://meganii.com/blog/2016/08/28/electron-ace-markdown-editor/)
+- ~~シンタックスハイライト(Aceエディタの導入)~~  [AceエディタをElectronに組み込む \- SIS Lab](https://www.meganii.com/blog/2016/08/28/electron-ace-markdown-editor/)
 - git連携
 - FlickrAPIはライブラリとして切り出す
 - FlickrAPIをPromiseで綺麗に書く

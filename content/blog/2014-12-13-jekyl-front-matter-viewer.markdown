@@ -67,10 +67,11 @@ end
 
 YAML Front Matterと、記事本文を分離する正規表現は、以下参照。
 
-[Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-](http://meganii.com/blog/2013/05/23/regexp-jekyll/)
+[Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-](https://www.meganii.com/blog/2013/05/23/regexp-jekyll/)
 
 
 ### import_md.rb 
+
 ```ruby
 require 'rubygems'
 require 'active_record'

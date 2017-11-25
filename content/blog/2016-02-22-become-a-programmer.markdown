@@ -9,7 +9,8 @@ slug: become-a-programmer
 img: "https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg"
 ---
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/williamarthur/4639772572/" title="Letters Play Important Roles in our Lives"><img src="https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg" width="400" height="265" alt="Letters Play Important Roles in our Lives"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+{{% img src="https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg" w="400" h="265" %}}
+
 
 「プログラマになりたいあなたへの手紙」という記事に対して感想を書いていたことをふと思い出し、読み返した。
 [プログラマになりたいあなたへ - ギークを夢見るじょーぶん男子](http://d.hatena.ne.jp/meganii/20090401/1238552061)  
@@ -40,9 +41,10 @@ img: "https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg"
 
 ## 世の中、すごいプログラマだけではない。もっと平均的でいいんだ！
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/evilerin/3723714381/" title="don&#x27;t worry be happy"><img src="https://farm3.staticflickr.com/2434/3723714381_6f71b277ec_z.jpg" width="640" height="426" alt="don&#x27;t worry be happy"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+{{% img src="https://farm3.staticflickr.com/2434/3723714381_6f71b277ec_z.jpg" w="400" h="265" %}}
 
-読み返して、次に連想したのは、Rebuild.fmのエモい回での「世の中、すごいプログラマだけではない。もっと平均的でいいんだ！」という言葉だ。[Rebuild: Aftershow 91: With PHP, Everything Is Acceptable (Naoya Ito)](http://rebuild.fm/91a/)
+読み返して、次に連想したのは、Rebuild.fmのエモい回での「世の中、すごいプログラマだけではない。もっと平均的でいいんだ！」という言葉だ。  
+[Rebuild: Aftershow 91: With PHP, Everything Is Acceptable (Naoya Ito)](http://rebuild.fm/91a/)
 
 もともとは、PyConの基調講演が元ネタだそうだ。一部のスーパープログラマーと、全然プログラムが書けない人の両極端ではなく、プログラマの能力も自然界の法則通りに正規分布する。新しいフレームワークを作ったり、ライブラリを作る人ようなスゴイプログラマーだけじゃなくて、もっと普通な人が多くいる。自分もその中の一人だという。
 
@@ -56,7 +58,7 @@ img: "https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg"
 
 
 - [rebuild.fm 91のafter showのエモい話を聞いて | Code And Passion Take Me Anywhere](http://blog.imaizu.me/2015/05/rebuildfm-91after-show.html)
-- [ぐだぐだ言ってないでコードを書けよ、自分！ - 「Webサービスのつくり方」 | じょーぶん部](https://meganii.com/blog/2014/09/04/create-web-service/)
+- [ぐだぐだ言ってないでコードを書けよ、自分！ - 「Webサービスのつくり方」 | SIS Lab](https://www.meganii.com/blog/2014/09/04/create-web-service/)
 
 ## こんなことやっていきたい
 
@@ -66,6 +68,5 @@ img: "https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg"
 
 情熱プログラマー、プログラマが知るべき９７のことを読み直してみようかな。
 
-<div class="booklink-box"><div class="booklink-image"><a href=http://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%81%8C%E7%9F%A5%E3%82%8B%E3%81%B9%E3%81%8D97%E3%81%AE%E3%81%93%E3%81%A8-%E5%92%8C%E7%94%B0-%E5%8D%93%E4%BA%BA/dp/4873114799%3FSubscriptionId%3DAKIAI6MZOKQQCKBKJBLQ%26tag%3Dmeganii-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4873114799><img src="https://images-na.ssl-images-amazon.com/images/I/511RPej0BNL._SL160_.jpg" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="http://www.amazon.co.jp/exec/obidos/asin/4873114799/meganii-22/">プログラマが知るべき97のこと</a></div><div class=shoplinkrakuten><a href="http://hb.afl.rakuten.co.jp/hgc/g00q0725.il1o2897.g00q0725.il1o3b57/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F6907852%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frms%2Fmsv%2FItem%3Fn%3D6907852%26surl%3Dbook">楽天で買う</a></div></div></div>
-
-<div class="booklink-box"><div class="booklink-image"><a href=http://www.amazon.co.jp/%E6%83%85%E7%86%B1%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC-%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA%E8%80%85%E3%81%AE%E5%B9%B8%E3%81%9B%E3%81%AA%E7%94%9F%E3%81%8D%E6%96%B9-Chad-Fowler/dp/4274067939%3FSubscriptionId%3DAKIAI6MZOKQQCKBKJBLQ%26tag%3Dmeganii-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4274067939><img src="https://images-na.ssl-images-amazon.com/images/I/51KYrsCBI2L._SL160_.jpg" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="http://www.amazon.co.jp/exec/obidos/asin/4274067939/meganii-22/">情熱プログラマー ソフトウェア開発者の幸せな生き方</a></div><div class=shoplinkrakuten><a href="http://hb.afl.rakuten.co.jp/hgc/g00q0725.il1o2897.g00q0725.il1o3b57/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F6395458%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frms%2Fmsv%2FItem%3Fn%3D6395458%26surl%3Dbook">楽天で買う</a></div></div></div>
+{{% amazon 4873114799 %}}
+{{% amazon 4274067939 %}}

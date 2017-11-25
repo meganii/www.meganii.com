@@ -10,7 +10,7 @@ slug: ssh-sakuravps
 
 新しくMacBookAirを買ったので、さくらVPSへSSH接続を行うための鍵の設定。
 
-<a href="http://meganii.com/blog/2013/06/18/macbookair/" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://meganii.com/blog/2013/06/18/macbookair/" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://meganii.com/blog/2013/06/18/macbookair/" target="_blank">念願のAir!! MacBookAir Mid 2013買いました - じょーぶん男子</a><a href="http://b.hatena.ne.jp/entry/http://meganii.com/blog/2013/06/18/macbookair/" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://meganii.com/blog/2013/06/18/macbookair/" alt="" /></a><br style="clear:both;" /><br>
+<a href="https://www.meganii.com/blog/2013/06/18/macbookair/" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?https://www.meganii.com/blog/2013/06/18/macbookair/" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="https://www.meganii.com/blog/2013/06/18/macbookair/" target="_blank">念願のAir!! MacBookAir Mid 2013買いました - じょーぶん男子</a><a href="http://b.hatena.ne.jp/entry/https://www.meganii.com/blog/2013/06/18/macbookair/" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/https://www.meganii.com/blog/2013/06/18/macbookair/" alt="" /></a><br style="clear:both;" /><br>
 
 
 {{% googleadsense %}}

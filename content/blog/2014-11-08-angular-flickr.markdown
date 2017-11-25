@@ -1,5 +1,4 @@
 ---
-
 title: "AngularJSでFlickrの埋め込みタグを作成する"
 date: 2014-11-08T20:37:00+09:00
 comments: true
@@ -10,8 +9,6 @@ slug: angular-flickr
 ---
 
 ブログ用に自分のFlickrフォトストリームから画像を選択して、貼り付け用URLを作りたくなったので、AngularJSで作ってみた。
-
-[meganii.com/angularjs-flickr.html](http://meganii.com/angularjs-flickr.html)
 
 
 ## 参考

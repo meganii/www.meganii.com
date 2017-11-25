@@ -1,5 +1,4 @@
 ---
-
 title: "Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた"
 date: 2016-09-06T07:21:53+09:00
 comments: true
@@ -8,7 +7,6 @@ tags: ['Python','Hugo']
 published: true
 slug: hugo-data-driven-content-for-polupar-posts
 img: '/images/hugo_s.png'
-
 ---
 
 Hugo Data-Driven Contentを試してみる。
@@ -28,13 +26,12 @@ Hugo Data-Driven Contentを試してみる。
 1. Hugo Data Files を利用する
 2. Hugo Data-driven content を利用する
 
-1つ目のData Filesは、関連記事表示の際に利用した([PythonでTF\-IDFによる文書推薦 \- SIS Lab](https://meganii.com/blog/2016/08/13/tf-idf-recommendation/))ので、今度は2つのHugo Data-driven Contentを試してみる。
+1つ目のData Filesは、関連記事表示の際に利用した([PythonでTF\-IDFによる文書推薦 \- SIS Lab](https://www.meganii.com/blog/2016/08/13/tf-idf-recommendation/))ので、今度は2つのHugo Data-driven Contentを試してみる。
 
 実装方法は、以下の通り。
 
-Google Analyticsから情報を取得し、その結果を加工してJSONを返すAPIサーバを作る。
-
-その後、HugoのData-driven contentの機能を利用して、APIを叩いてJSONを取得し、表示させる。
+- Google Analyticsから情報を取得し、その結果を加工してJSONを返すAPIサーバを作る。
+- その後、HugoのData-driven contentの機能を利用して、APIを叩いてJSONを取得し、表示させる。
 
 
 ## JSONを返すAPIサーバを立てる
@@ -81,7 +78,8 @@ if __name__ == "__main__":
 ## Hugo
 
 ### popular.html
-```
+
+```html
 {{ $dataJ := getJSON "http://localhost:3000/" }}
 <ul class="list-unstyled urllist">
 {{ range first 5 $dataJ.rows }}
