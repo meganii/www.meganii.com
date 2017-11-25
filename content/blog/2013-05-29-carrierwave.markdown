@@ -4,7 +4,7 @@ title: carrierwave
 date: 2013-05-29T07:09:00+09:00
 category: ['Tech']
 tags: ['ruby']
-published: true
+published: false
 slug: carrierwave
 ---
 

@@ -3,21 +3,21 @@ title: "slack-apiを利用してRubyからSlackへメッセージとファイル
 date: 2016-02-10T07:17:11+09:00
 comments: true
 category: ['Tech']
-tags: ['Slack']
+tags: ['Slack','Ruby']
 published: true
 slug: post-to-slack
 ---
 
 Slackで、Rubyからメッセージとファイルをポストする方法についてのメモ。
 
-以下の`slack-api`を利用する。
+以下の`slack-api`を利用する。  
 [aki017/slack-ruby-gem: A Ruby wrapper for the Slack API](https://github.com/aki017/slack-ruby-gem)
 
 {{% googleadsense %}}
 
 ファイルの組み立て方(?)が分からなかったのでFaradayにお任せした。
 
-```
+```ruby
 require 'slack'
 require 'faraday'
 

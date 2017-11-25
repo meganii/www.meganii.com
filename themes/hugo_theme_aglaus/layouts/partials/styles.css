@@ -408,7 +408,7 @@ article.li.sm .header-wrapper {
 .article-body blockquote {
   margin: 1.5rem 0;
   padding: .5rem 0;
-  font-size: .8rem;
+  font-size: 1rem;
   border-top: 1px solid #eceff1;
   border-bottom: 1px solid #eceff1;
   color: #607d8b;
@@ -416,7 +416,7 @@ article.li.sm .header-wrapper {
 
 .article-body blockquote p {
   margin: .5rem 0;
-  line-height: 1rem;
+  line-height: 1.2rem;
 }
 
 .article-body strong {
