@@ -1,10 +1,10 @@
 ---
-title: "GANZOの革財布を１年ほど使ってみて"
+title: "大人の高級皮財布 GANZOの革財布を１年ほど使ってみて"
 date: 2017-01-05T21:21:03+09:00
 lastmod: 2017-08-30T21:21:03+09:00
 comments: true
 category: ['Life']
-tags: ['革','財布']
+tags: ['革','財布','レザー']
 published: true
 slug: leatherwallet-ganzo
 img: "https://c5.staticflickr.com/8/7719/27757786996_582c442d2e_s.jpg"
