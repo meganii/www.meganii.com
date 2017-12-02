@@ -374,13 +374,18 @@
         "FormattedPrice": "￥ 6,900"
       },
       "LowestUsedPrice": {
-        "Amount": "4500",
+        "Amount": "4000",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 4,500"
+        "FormattedPrice": "￥ 4,000"
+      },
+      "LowestCollectiblePrice": {
+        "Amount": "19588",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 19,588"
       },
       "TotalNew": "2",
       "TotalUsed": "8",
-      "TotalCollectible": "0",
+      "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -389,7 +394,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2017-11-24 22:41:38 +0900",
+  "Lastmod": "2017-12-02 15:51:17 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/7be238edf2063f02489642a03d01e2a6/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/7be238edf2063f02489642a03d01e2a6/"
