@@ -5,7 +5,7 @@ lastmod: 2017-11-27T23:18:21+09:00
 comments: true
 category: ['Life']
 tags: ['東急ハンズ']
-published: false
+published: true
 slug: polish-my-shoes-tokyu-hands-workshop
 img: https://res.cloudinary.com/meganii/image/upload/c_thumb,f_auto,g_custom,h_75,q_auto,w_75/v1512185851/shoes_care_guide_qezexg.jpg
 ---
