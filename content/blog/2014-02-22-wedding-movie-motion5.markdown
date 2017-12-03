@@ -1,7 +1,7 @@
 ---
 title: iMovieとMotion5で作る結婚式余興ムービー
 date: 2014-02-22T14:35:00+09:00
-lastmod: 2017-02-18T11:38:00+09:00
+lastmod: 2017-12-03T11:38:00+09:00
 category: ['Movie']
 tags: ["iMovie", "Motion5", "Movie"]
 published: true
@@ -9,7 +9,7 @@ img: "https://images-na.ssl-images-amazon.com/images/I/51pXGkmlEUL._SL160_.jpg"
 slug: wedding-movie-motion5
 ---
 
-2013年9月の友人の結婚式に向けて、余興の動画をみんなで作りました。最近、動画の質問を受ける機会があったのでまとめてみました。
+友人の結婚式に向けて、余興の動画をみんなで作りました。その動画の質問を受ける機会があったので記事にまとめてみました。
 
 
 ざっくりまとめると、
