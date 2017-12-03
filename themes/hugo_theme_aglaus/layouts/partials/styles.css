@@ -564,6 +564,10 @@ article.li.sm .header-wrapper {
   display: table-cell;
 }
 
+.p-aflink__title {
+  padding-left: 1rem;
+}
+
 /* Utitlity
    ----------------------------------------------------------------- */
 .clearfix::after {
@@ -601,6 +605,45 @@ article.li.sm .header-wrapper {
     display: block;
   }
 }
+
+.u-related {
+  position: relative;
+  margin: 36px 0 16px;
+  padding: 16px 10px;
+  border: 2px solid #df8182;
+  background-color: #fffbf5;
+}
+
+.u-related::before {
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  padding: 0 10px 0 26px;
+  content: "関連記事";
+  background-color: #df8182;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.u-related::after {
+  position: absolute;
+  top: -16px;
+  left: 4px;
+  width: 28px;
+  height: 28px;
+  background-color: #df8182;
+  border-radius: 14px;
+  line-height: 25px;
+  text-align: center;
+  content: "\f010";
+  font-size: 18px;
+  font-family: "blogicon";
+  color: #fff;
+}
+
 
 /* Background */ .chroma { color: #f8f8f2; background-color: #272822 }
 /* Error */ .chroma .ss4 { color: #960050; background-color: #1e0010 }
