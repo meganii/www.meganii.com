@@ -89,3 +89,6 @@ img: /images/scotchgrain.jpg
 靴の手入れには、「Boot Black」のシューケア用品を使ってます。
 
 {{% amazon B00XDS9X40 %}}
+
+{{% related src="https://www.meganii.com/blog/2017/11/27/polish-my-shoes-tokyu-hands-workshop/" title="東急ハンズ「靴のお手入れ講座」に参加してきました - SIS Lab" %}}
+
