@@ -16,6 +16,7 @@ slug: fountain-pen-cleaning
 
 {{% amazon B0019XWYC4 %}}
 
+<!--more-->
 {{% googleadsense %}}
 
 
@@ -69,6 +70,4 @@ slug: fountain-pen-cleaning
 {{% amazon B000UUIZO8 %}}
 {{% amazon B01D40RE7O %}}
 
-## 万年筆をよく使われるなら
-
-<a href="https://www.meganii.com/blog/2015/03/01/moleskine-to-mdnote/">モレスキンからミドリMDノートに乗り換え(万年筆の利用、価格の観点)</a>
+{{% related src="https://www.meganii.com/blog/2015/03/01/moleskine-to-mdnote/" title="モレスキンからミドリMDノートに乗り換え(万年筆の利用、価格の観点)" %}}
