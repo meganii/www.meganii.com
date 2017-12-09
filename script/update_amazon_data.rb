@@ -1,5 +1,5 @@
-require "rubygems"
-require "amazon/ecs"
+require 'rubygems'
+require 'amazon/ecs'
 require 'rapa'
 require 'json'
 require 'active_support'
@@ -22,12 +22,12 @@ YAHOO_ENDPOINT = "https://shopping.yahooapis.jp/ShoppingWebService/V1/json/itemS
 # extract amazon shortcode
 def extract_amazon_itemid_from_shortcode
   list = []
-  Dir.glob("content/*/*.markdown") do |file|
+  Dir.glob('content/*/*.markdown') do |file|
     File.open(file) do |f|
-      m = f.read.scan(%r{\{\{\% amazon.* \%\}\}})
-      if !m.empty?
+      m = f.read.scan(/\{\{\% amazon.* \%\}\}/)
+      unless m.empty?
         m.each do |a|
-          id = a.match(%r{([A-Z]|[0-9]){10}})[0]
+          id = a.match(/([A-Z]|[0-9]){10}/)[0]
           list << id
         end
       end
@@ -36,8 +36,8 @@ def extract_amazon_itemid_from_shortcode
   list.uniq
 end
 
-def get_amazon_jsondata (item_id)
-  res = Amazon::Ecs.item_lookup(item_id, {'ResponseGroup': 'Images,ItemAttributes,Offers'})
+def get_amazon_jsondata(item_id)
+  res = Amazon::Ecs.item_lookup(item_id, 'ResponseGroup': 'Images,ItemAttributes,Offers')
   item = res.get_element('Item')
 
   hash = Hash.from_xml(item.to_s)
@@ -46,17 +46,17 @@ def get_amazon_jsondata (item_id)
 end
 
 def cache_expired?(id)
-  return true unless File.exists?("data/amazon/#{id}.json")
+  return true unless File.exist?("data/amazon/#{id}.json")
 
   content = File.open("data/amazon/#{id}.json", 'r').read
   return true if content.empty?
 
   json = JSON.parse(content)
-  return true if json['Lastmod'] == nil
+  return true if json['Lastmod'].nil?
 
   lastmod = DateTime.parse(json['Lastmod'])
   diff = ((DateTime.now - lastmod) * 24 * 60 * 60).to_i
-  if (86_400 < diff )
+  if diff > 86_400
     return true
   else
     return false
@@ -78,7 +78,7 @@ def get_rakuten_url_from(jan_list)
     url = "#{RAKUTEN_ENDPOINT}&keyword=#{jan_code}"
     open(url) do |res|
       json = JSON.parse(res.read)
-      next if json['count'] == 0
+      next if (json['count']).zero?
 
       product = json['Products'][0]['Product']
 
@@ -103,13 +103,11 @@ def get_yahoo_url_from(jan_list)
     list = jan_list
   end
 
-
   list.each do |jan_code|
     sleep(1)
     open("#{YAHOO_ENDPOINT}&jan=#{jan_code}") do |res|
       json = JSON.parse(res.read)
-      puts json
-      next if json['ResultSet']['totalResultsAvailable'] == "0"
+      next if json['ResultSet']['totalResultsAvailable'] == '0'
 
       data = {
         "productUrl": "https://shopping.yahoo.co.jp/search?p=#{jan_code}"
@@ -128,23 +126,18 @@ id_list.each do |id|
   puts 'sleep for 2s'
 
   if cache_expired?(id)
-    puts "cache expired"
+    puts 'cache expired'
     File.open("data/amazon/#{id}.json", 'w') do |f|
       begin
         data = get_amazon_jsondata(id)
         eanlist_elem = data['Item']['ItemAttributes']['EANList'] || ''
-        p eanlist_elem
         jan_list = eanlist_elem.empty? ? '' : eanlist_elem['EANListElement']
 
         result_rakuten = get_rakuten_url_from(jan_list)
-        if !result_rakuten.empty?
-          data['Rakuten'] = result_rakuten
-        end
+        data['Rakuten'] = result_rakuten unless result_rakuten.empty?
 
         result_yahoo = get_yahoo_url_from(jan_list)
-        if !result_yahoo.empty?
-          data['Yahoo'] = result_yahoo
-        end
+        data['Yahoo'] = result_yahoo unless result_yahoo.empty?
 
         f.write(JSON.pretty_generate(data))
       rescue Amazon::RequestError
@@ -154,7 +147,7 @@ id_list.each do |id|
     end
     sleep(2)
   else
-    puts "still cache"
+    puts 'still cache'
   end
 end
 
