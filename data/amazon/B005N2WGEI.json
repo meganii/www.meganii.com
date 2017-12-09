@@ -391,7 +391,12 @@
       "EANList": {
         "EANListElement": "4902805150019"
       },
-      "Feature": "縦148mm×横105mm×厚さ10mm",
+      "Feature": [
+        "サイズ:文庫(縦148mm×横105mm×厚さ10mm)",
+        "ページ数:176ページ",
+        "しおりひも付き",
+        "インデックスシール付き"
+      ],
       "ItemDimensions": {
         "Height": "43",
         "Length": "587",
@@ -428,7 +433,7 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 458"
       },
-      "TotalNew": "17",
+      "TotalNew": "15",
       "TotalUsed": "0",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
@@ -442,7 +447,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "5D1CopbFLEEC72gmsHB%2FDRDHClCBh%2BWvN5X5ieWA%2BqW1WhK7g7EohEfpy8UhdYstwp6CaA%2BiPT5%2BG%2BjiRoaQMutIroVlKYvU0C03bzgJYbQ%3D",
+          "OfferListingId": "L%2BOMlpm6YLHK9C6spJuX8kSg6MinMkq%2Ff%2FgoYPNnVDQ%2Fvhe7ArQGkUP0sgqTU0KHg116DP7l%2Fqv3Vyy6%2BGBfYaCf3mnNzJQccQetHi3EnA0%3D",
           "Price": {
             "Amount": "648",
             "CurrencyCode": "JPY",
@@ -460,7 +465,7 @@
       }
     }
   },
-  "Lastmod": "2017-12-02 15:54:21 +0900",
+  "Lastmod": "2017-12-09 22:27:56 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/fba76a5615cd48522d175e9c0c5a1d1f/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/fba76a5615cd48522d175e9c0c5a1d1f/"
