@@ -4,12 +4,11 @@ date: 2012-03-31
 category: ['Life']
 tags: ['成長']
 published: true
-slug: step_by_step
+slug: step-by-step
 ---
 
-<a href="http://www.flickr.com/photos/35571855@N06/6871592946/in/photostream" title="R0013838 by meganii, on Flickr"><img src="http://farm8.staticflickr.com/7245/6871592946_718275b063.jpg" width="400" /></a>
+{{% img src="https://farm8.staticflickr.com/7245/6871592946_16b179354b_z.jpg" w="640" h="480" %}}
 
-<br />
 
 <p>小さい成長を。一歩ずつ。step by step.</p>
 
