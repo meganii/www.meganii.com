@@ -35,8 +35,8 @@ slug: study-english
 
 自分の言いたいことを伝えられるようになりたい。自分の聞きたいことを聞けるようになりたい。
 
-- [Evernote Meetup Tokyoに参加してきました！！ - ギークを夢見るじょーぶん男子](http://d.hatena.ne.jp/meganii/20100625/1277428165)
-- [Evernoteオフ@名古屋「世界のえばちゃんオフだみゃあ」に行ってきました！！ - ギークを夢見るじょーぶん男子](http://d.hatena.ne.jp/meganii/20111111/1321017033)
+- [Evernote Meetup Tokyoに参加してきました！！ - ギークを夢見るじょーぶん男子](https://www.meganii.com/blog/2010/06/25/1277428165)
+- [Evernoteオフ@名古屋「世界のえばちゃんオフだみゃあ」に行ってきました！！ - ギークを夢見るじょーぶん男子](https://www.meganii.com/blog/2011/11/11/1321017033)
 
 
 ### 2.英語で探す。英語で学ぶ
