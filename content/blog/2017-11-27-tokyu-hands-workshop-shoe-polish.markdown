@@ -79,7 +79,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_thumb,f_auto,g_custom,h_7
 自分の手入れ方法を見直してみると、毎回リムーバーを使ってはいませんでした。しかし、前回までの残ったクリームも含めて綺麗にしてあげるという説明を聞いて、全くその通りだと感じました。次回以降は、毎回リムーバーを使って汚れを落とすようにしようと思います。
 
 
-{{% amazon B01M4RUNUU %}}
+{{% amazon B002A7QXIO %}}
 
 
 ステインリムーバーが乾いてからでないと次の作業をしてはいけないかというと、そういうわけではないということでした。
@@ -176,4 +176,4 @@ img: https://res.cloudinary.com/meganii/image/upload/c_thumb,f_auto,g_custom,h_7
 ぜひチャレンジしてみてください！
 
 
-{{% amazon B00XDS9X40 %}}
+{{% amazon B008R5I5WU %}}
