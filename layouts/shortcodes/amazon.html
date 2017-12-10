@@ -27,26 +27,28 @@
         </div>
         <div class="c-flex__item">
           <div>
-            <p class="p-aflink__title">
+            <div class="p-aflink__title">
               <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="amazon-shortcode">{{ .Item.ItemAttributes.Title }}</a>
-            </p>
-            {{ with .author }}
-            <p class="p-aflink__author">{{ . }}</p>
-            {{ end }}
+            </div>
             <div class="p-aflink__detail">
-              {{ if or ( eq .productgroup "Book") (eq .productgroup "eBooks") }}
-              <p>出版社：{{ .publisher }}</p>
-              {{ else }}
-              <p>{{ .label }}</p>
+              {{ with .Item.ItemAttributes.Author }}
+              <p class="p-aflink__author">{{ . }}</p>
               {{ end }}
-              {{ with .publicationdate }}
+              {{ if or ( eq .Item.ItemAttributes.ProductGroup "Book") (eq .Item.ItemAttributes.ProductGroup "eBooks") }}
+              <p>出版社：{{ .Item.ItemAttributes.Publisher }}</p>
+              {{ else if (eq .Item.ItemAAttributes.ProductGroup "Shoes") }}
+              <p>{{ .Item.ItemAttributes.Brand }}</p>
+              {{ else }}
+              <p>{{ .Item.ItemAttributes.Label }}</p>
+              {{ end }}
+              {{ with .Item.ItemAttributes.PublicationDate }}
               <p>発売日：{{ . }}</p>
               {{ end }}
             </div>
           </div>
         </div>
       </div>
-      <div class="c-flex--vertical__item">
+      <div class="c-flex--vertical__item u-mt">
         <div class="c-flex">
           <div class="c-flex__item"><a class="c-btn c-btn__ad c-btn__ad--amazon u-mrs u-ps" href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="backport"><i class="fa fa-amazon" aria-hidden="true"></i> Amazon</a></div>
           {{ with .Yahoo }}
