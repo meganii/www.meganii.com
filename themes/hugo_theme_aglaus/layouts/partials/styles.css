@@ -426,6 +426,7 @@ article.li.sm .header-wrapper {
   box-sizing: border-box;
   background: #efefef;
   color: #555;
+  overflow-wrap: break-word;
 }
 
 .article-body blockquote:before{
