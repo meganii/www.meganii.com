@@ -36,7 +36,7 @@
               {{ end }}
               {{ if or ( eq .Item.ItemAttributes.ProductGroup "Book") (eq .Item.ItemAttributes.ProductGroup "eBooks") }}
               <p>出版社：{{ .Item.ItemAttributes.Publisher }}</p>
-              {{ else if (eq .Item.ItemAAttributes.ProductGroup "Shoes") }}
+              {{ else if (eq .Item.ItemAttributes.ProductGroup "Shoes") }}
               <p>{{ .Item.ItemAttributes.Brand }}</p>
               {{ else }}
               <p>{{ .Item.ItemAttributes.Label }}</p>
