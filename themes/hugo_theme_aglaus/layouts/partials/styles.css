@@ -674,10 +674,12 @@ article.li.sm .header-wrapper {
   border-radius: 14px;
   line-height: 25px;
   text-align: center;
-  content: "\f010";
+  vertical-align: middle;
+  font-family: FontAwesome;
+  content: "\f046";
   font-size: 18px;
-  font-family: "blogicon";
   color: #fff;
+  padding-top: 2px;
 }
 
 
