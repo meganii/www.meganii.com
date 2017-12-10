@@ -75,12 +75,12 @@ GANZOは、あなたの手によって"世界最高"の完成品となる。
 
 決して安くはないですが、好きな人にはたまらない一品になると思います。
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/16382835.545aaec5.16382836.2bff5c0b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fajioka%2Fwgan57227%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fajioka%2Fi%2F10001489%2F&link_type=pict&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0Iiwic2l6ZSI6IjMwMHgzMDAiLCJuYW0iOjEsIm5hbXAiOiJkb3duIiwiY29tIjoxLCJjb21wIjoiZG93biIsInByaWNlIjoxLCJib3IiOjEsImNvbCI6MH0%3D" target="_blank" rel="nofollow" style="word-wrap:break-word;"  >
+<a href="https://hb.afl.rakuten.co.jp/hgc/16382835.545aaec5.16382836.2bff5c0b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fajioka%2Fwgan57227%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fajioka%2Fi%2F10001489%2F&link_type=pict&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0Iiwic2l6ZSI6IjMwMHgzMDAiLCJuYW0iOjEsIm5hbXAiOiJkb3duIiwiY29tIjoxLCJjb21wIjoiZG93biIsInByaWNlIjoxLCJib3IiOjEsImNvbCI6MH0%3D" target="_blank" rel="nofollow">
 
 {{% img src="https://hbb.afl.rakuten.co.jp/hgb/16382835.545aaec5.16382836.2bff5c0b/?me_id=1208252&item_id=10001489&m=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fajioka%2Fcabinet%2Fitem_ganzo_t_bridle%2F57227_001.jpg%3F_ex%3D80x80&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fajioka%2Fcabinet%2Fitem_ganzo_t_bridle%2F57227_001.jpg%3F_ex%3D300x300&s=300x300&t=pict" class="center" layout="fixed" w="300" h="300" %}}
 
 </a>
-<a href="https://hb.afl.rakuten.co.jp/hgc/16382835.545aaec5.16382836.2bff5c0b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fajioka%2Fwgan57227%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fajioka%2Fi%2F10001489%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJkb3duIiwiY29tIjoxLCJjb21wIjoibGVmdCIsInByaWNlIjowLCJib3IiOjEsImNvbCI6MH0%3D" target="_blank" rel="nofollow" style="word-wrap:break-word;"  >メンズ GANZO ガンゾ 2つ折り財布 折財布 ブライドル THIN BRIDLE　シンブライドル 折財布</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/16382835.545aaec5.16382836.2bff5c0b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fajioka%2Fwgan57227%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fajioka%2Fi%2F10001489%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJkb3duIiwiY29tIjoxLCJjb21wIjoibGVmdCIsInByaWNlIjowLCJib3IiOjEsImNvbCI6MH0%3D" target="_blank" rel="nofollow">メンズ GANZO ガンゾ 2つ折り財布 折財布 ブライドル THIN BRIDLE　シンブライドル 折財布</a>
 
 {{% amazon B00A4AR8BU %}}
 
