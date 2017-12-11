@@ -115,9 +115,9 @@
         "FormattedPrice": "￥ 1,296"
       },
       "LowestUsedPrice": {
-        "Amount": "1950",
+        "Amount": "1944",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,950"
+        "FormattedPrice": "￥ 1,944"
       },
       "LowestCollectiblePrice": {
         "Amount": "3199",
@@ -125,7 +125,7 @@
         "FormattedPrice": "￥ 3,199"
       },
       "TotalNew": "4",
-      "TotalUsed": "5",
+      "TotalUsed": "7",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -138,17 +138,17 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "%2FO8o1pbynYSq5J8h8Fd3Fb3piyZEHK4wt61rkDJuQx4aJK0z55ZStJO8C2GXP10otpcyla0honVa%2Bjk8lmZSAtYSb%2BGyIiPENDip8doQBrg%3D",
+          "OfferListingId": "IJ26NwOiA1H%2FaziOdiwCyW8mAR7ty%2FAUGA4ixRdn5CEf9oi5lrHIWyCFacLStMIdLTcR9bwoAv1r8Qz84wDe%2F0hZiHLms5%2BT%2FOKsBtgRkmM%3D",
           "Price": {
             "Amount": "1296",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 1,296"
           },
-          "Availability": "通常1～2か月以内に発送",
+          "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "312",
-            "MaximumHours": "1032"
+            "MinimumHours": "24",
+            "MaximumHours": "24"
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
@@ -164,7 +164,7 @@
       }
     }
   },
-  "Lastmod": "2017-12-09 23:12:48 +0900",
+  "Lastmod": "2017-12-11 22:08:12 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/adce12b378568e72c0c4d3cccdf3f03a/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/adce12b378568e72c0c4d3cccdf3f03a/"
