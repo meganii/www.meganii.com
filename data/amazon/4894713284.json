@@ -126,23 +126,18 @@
       "Title": "プレゼンテーションzen"
     },
     "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "3300",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,300"
-      },
       "LowestUsedPrice": {
-        "Amount": "693",
+        "Amount": "501",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 693"
+        "FormattedPrice": "￥ 501"
       },
       "LowestCollectiblePrice": {
         "Amount": "2480",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 2,480"
       },
-      "TotalNew": "1",
-      "TotalUsed": "39",
+      "TotalNew": "0",
+      "TotalUsed": "46",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -152,7 +147,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2017-12-11 23:00:01 +0900",
+  "Lastmod": "2017-12-15 22:10:18 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/b4ebe20c5124b3d4303faaa4648dae75/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/b4ebe20c5124b3d4303faaa4648dae75/"
