@@ -10,10 +10,12 @@ img: "https://images-na.ssl-images-amazon.com/images/I/41Xz5nbHwbL._SL160_.jpg"
 slug: world-cafe-case
 ---
 
+{{% img src="https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1513603156/World_Cafe_ahxh4n.png" w="828" h="315" %}}
+
+
 {{% amazon 4532314887 %}}
 
 書籍「ワールド・カフェをやろう！」には、企業・団体が実際に行なった事例が載っているため、内容をピックアップして、どんな目的や、どんな問いを行なっていたのかをみてみる。
-
 
 
 
