@@ -1,3 +1,22 @@
+{{ $baseurl := "https://res.cloudinary.com/meganii/image/upload/" }}
+
+{{ if and (hasPrefix (.Get "src") $baseurl) ( or (eq (.Get "layout") "center") ( eq (.Get "layout") "") ) }}
+{{ $itemid := .Get "src" | replaceRE "^https?://res.cloudinary.com/meganii/image/upload/.+/(.*)" "$1" }}
+<figure class="center">
+  <amp-img
+      src="{{ .Get "src" }}"
+      srcset="{{ $baseurl }}q_auto,f_auto,w_1000/{{ $itemid }} 1000w,
+              {{ $baseurl }}q_auto,f_auto,w_800/{{ $itemid }} 800w,
+              {{ $baseurl }}q_auto,f_auto,w_640/{{ $itemid }} 640w,
+              {{ $baseurl }}q_auto,f_auto,w_400/{{ $itemid }} 400w,
+              {{ $baseurl }}q_auto,f_auto,w_320/{{ $itemid }} 320w"
+      width="{{ .Get "w"}}"
+      height="{{ .Get "h" }}"
+      layout="responsive"
+      alt="image">
+  </amp-img>
+</figure>
+{{ else }}
 <figure{{ if .Get "class" }} class="{{ .Get "class" }}"{{ end }}>
   <amp-img src="
   {{ if eq (substr (.Get "src") 0 4) "http" }}{{ .Get "src"}}{{ else }}{{ $.Site.BaseURL }}{{ .Get "src" }}{{ end }}" alt="{{ .Page.Title }} {{ .Get "src" }}" width={{ .Get "w" | default "640" }} height={{ .Get "h" | default "400"}} layout={{ .Get "layout" | default "responsive" }}></amp-img>
@@ -11,3 +30,4 @@
   </figcaption>
   {{ end }}
 </figure>
+{{ end }}
