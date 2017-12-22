@@ -130,7 +130,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "8YGF7V2CSZ0R24as02je4tvav73X0AdD%2Fm4odzxGZccr%2BG6GDpv9BnG6%2FgKMM%2B75JEfBxdTbHhhGG4mQQdRKKelJWIow9Su5WL5T0XtqrEc%3D",
+          "OfferListingId": "c46%2FqJ2o4gEWljyMn8LggWgRp4KCxtJI8pbFdUkEgNR%2BsRW2xP9h7f1ejWy%2B5kekEGjxBUt7gnxOSKjGVlTnZxg9X4O4DAXr6wH%2FYq3tyS8%3D",
           "Price": {
             "Amount": "1470",
             "CurrencyCode": "JPY",
@@ -139,24 +139,16 @@
           "Availability": "通常1～2か月以内に発送",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "288",
-            "MaximumHours": "864"
+            "MinimumHours": "408",
+            "MaximumHours": "1104"
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "29",
-          "TypicalRedemptionValue": {
-            "Amount": "29",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 29"
-          }
         }
       }
     }
   },
-  "Lastmod": "2017-12-17 15:03:53 +0900",
+  "Lastmod": "2017-12-22 19:35:19 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/e91ebb3a373f4d28517cdc9be148bbd9/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/e91ebb3a373f4d28517cdc9be148bbd9/"

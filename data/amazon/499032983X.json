@@ -119,7 +119,7 @@
         "FormattedPrice": "￥ 2,183"
       },
       "TotalNew": "1",
-      "TotalUsed": "6",
+      "TotalUsed": "10",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -132,7 +132,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "V0NG3GtHRDWH9hqN4d%2FKjMvdEE3bNDjhpSo8yWWWlpIqrHhIT7PZ7MH4fLOM0PYFSiuQ3DtpUQROcSFoGAvUNtfg6L%2BwaTXl",
+          "OfferListingId": "61LQmMDsO7tB%2FTZaK769fOPO95zj2KkUfOi5ix2vfuKUe9%2Bd2F8bCPHOe5PGZA2Zd3t34CxI6eX00uzskRqWNft1rD0dpEe%2B",
           "Price": {
             "Amount": "3024",
             "CurrencyCode": "JPY",
@@ -146,11 +146,19 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "56",
+          "TypicalRedemptionValue": {
+            "Amount": "56",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 56"
+          }
         }
       }
     }
   },
-  "Lastmod": "2017-12-15 22:15:38 +0900",
+  "Lastmod": "2017-12-22 19:40:11 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/3c2af5be25c4f32c25aa5a4896e63a21/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/3c2af5be25c4f32c25aa5a4896e63a21/"
