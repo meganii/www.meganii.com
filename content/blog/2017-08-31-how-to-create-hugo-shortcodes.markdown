@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Hugo', 'shortcodes']
 published: true
 slug: how-to-create-hugo-shortcodes
-img: "/images/hugo_s.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514036568/thumbnail_hugo_icon.png"
 ---
 
 Hugoでは、ちょっとしたHTMLタグを記事やテンプレートに差し込みたいと思った場合、ShortCodesという便利な機能が使えます。
