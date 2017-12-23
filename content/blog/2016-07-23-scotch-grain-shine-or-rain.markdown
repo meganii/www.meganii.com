@@ -7,7 +7,7 @@ category: ['Life']
 tags: ['革靴','レザー','scotch grain']
 published: true
 slug: scotch-grain-shine-or-rain
-img: /images/scotchgrain.jpg
+img: "https://res.cloudinary.com/meganii/image/upload/c_thumb,f_auto,q_auto,w_75/v1514034054/thumbnail_shoes.png"
 ---
 
 {{% img src="/images/scotchgrain.jpg" w="600" h="560" %}}
