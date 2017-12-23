@@ -7,7 +7,7 @@ category: ['Life']
 tags: ['東急ハンズ','革靴','レザー']
 published: true
 slug: polish-my-shoes-tokyu-hands-workshop
-img: https://res.cloudinary.com/meganii/image/upload/c_thumb,f_auto,g_custom,h_75,q_auto,w_75/v1512185851/shoes_care_guide_qezexg.jpg
+img: "https://res.cloudinary.com/meganii/image/upload/c_thumb,f_auto,q_auto,w_75/v1514034054/thumbnail_shoes.png"
 ---
 
 綺麗でカッコいい革靴を買ったはいいけど、手入れはせずにそのまま続けているなんてことはないですか？
