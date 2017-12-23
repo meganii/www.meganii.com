@@ -7,6 +7,7 @@ category: ['IT']
 tags: ['工事完成基準','工事進行基準']
 published: true
 slug: percentage-of-completion-basis-and-completed-contract
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514038598/BOOK_1_v8p2op.png"
 ---
 
 
