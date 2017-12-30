@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['AWS']
 published: true
 slug: create-iam-user-for-amazon-product-advertising-api
-img: https://farm5.staticflickr.com/4406/36025382113_4cef01852b_s.jpg
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
 ---
 
 

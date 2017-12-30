@@ -7,6 +7,7 @@ category: ['Tech']
 tags: ['headless', 'puppeteer']
 published: true
 slug: puppeteer
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
 ---
 
 
