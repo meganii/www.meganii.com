@@ -369,7 +369,7 @@
       "ItemDimensions": {
         "Height": "563",
         "Length": "375",
-        "Weight": "31",
+        "Weight": "136.2",
         "Width": "50"
       },
       "Label": "Moleskine",
@@ -401,10 +401,10 @@
       "NumberOfItems": "1",
       "NumberOfPages": "192",
       "PackageDimensions": {
-        "Height": "63",
-        "Length": "559",
-        "Weight": "31",
-        "Width": "370"
+        "Height": "60",
+        "Length": "560",
+        "Weight": "30",
+        "Width": "360"
       },
       "PackageQuantity": "1",
       "PartNumber": "S0102X",
@@ -425,12 +425,17 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1336",
+        "Amount": "1147",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,336"
+        "FormattedPrice": "￥ 1,147"
       },
-      "TotalNew": "17",
-      "TotalUsed": "0",
+      "LowestUsedPrice": {
+        "Amount": "1330",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 1,330"
+      },
+      "TotalNew": "20",
+      "TotalUsed": "1",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -443,11 +448,11 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "qYCsN%2FfFScKqqz3Dzgrq09kp8a3iuPaIQSJjxEK3dE7kuM96xkSJ1rKriiBw8FwIa56gTOJXPT9O6N6pqy%2F%2F4aHGVyrJ7IYaMUfxVN1SuDg%3D",
+          "OfferListingId": "P9oYVAahdI4OE16FY0oo8cTg171htxAs7FI9peDjod769XPsOAiG5kkbe7nHDDw%2FWQHoyxIDln6ay28S72PGFacqgTI9muOoBEe%2B20JI7%2F0%3D",
           "Price": {
-            "Amount": "1363",
+            "Amount": "1369",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,363"
+            "FormattedPrice": "￥ 1,369"
           },
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
@@ -461,7 +466,7 @@
       }
     }
   },
-  "Lastmod": "2017-12-22 19:34:45 +0900",
+  "Lastmod": "2017-12-31 15:20:01 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/5fc11c86dc31da4d38836037648ac442/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/5fc11c86dc31da4d38836037648ac442/"

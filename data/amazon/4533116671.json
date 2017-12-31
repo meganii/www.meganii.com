@@ -114,57 +114,23 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 1,296"
       },
-      "LowestUsedPrice": {
-        "Amount": "1950",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,950"
-      },
       "LowestCollectiblePrice": {
         "Amount": "3199",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 3,199"
       },
-      "TotalNew": "3",
-      "TotalUsed": "4",
+      "TotalNew": "2",
+      "TotalUsed": "0",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4533116671?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4533116671",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "HrHl83SgWJq73naMSZ7OWPe%2F8QjRn0biRs7PxycSOK0aK2henojhc0dCdUHYcD9isgaThZUSMGV31NpFh8ks4o1jm32LzR5sXa7%2F%2BJ7xvTU%3D",
-          "Price": {
-            "Amount": "1296",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,296"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "39",
-          "TypicalRedemptionValue": {
-            "Amount": "39",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 39"
-          }
-        }
-      }
+      "TotalOffers": "0",
+      "TotalOfferPages": "0",
+      "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2017-12-22 19:43:37 +0900",
+  "Lastmod": "2017-12-31 15:29:25 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/adce12b378568e72c0c4d3cccdf3f03a/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/adce12b378568e72c0c4d3cccdf3f03a/"
