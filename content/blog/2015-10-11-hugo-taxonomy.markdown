@@ -50,7 +50,7 @@ Taxonomyは、map[string]WeightedPages
 
 
 
-###Channel とは
+### Channel とは
 
 >- Channel は goroutine 間でのメッセージパッシングをするためのもの
 - メッセージの型を指定できる
@@ -88,7 +88,7 @@ layouts := s.appendThemeTemplates(
 
 ### RenderTaxonomiesLists
 
-```
+```go
  func (s *Site) RenderTaxonomiesLists() error {
 
 	for singular, plural := range taxonomies {
@@ -177,7 +177,7 @@ RenderPages()の中で、go pageRenderer(s, pages, results, wg)を実施。
 newTaxonomyNodeで、すでにbaseが作られている。
 
 
-```
+```go
 func (s *Site) newTaxonomyNode(t taxRenderInfo) (*Node, string) {
 	key := t.key
 	n := s.NewNode()
