@@ -10,6 +10,8 @@ slug: polish-my-shoes-tokyu-hands-workshop
 img: "https://res.cloudinary.com/meganii/image/upload/c_thumb,f_auto,q_auto,w_75/v1514034054/thumbnail_shoes.png"
 ---
 
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1514702295/d-ng-tr-n-qu-c-104956_dqydcf.jpg" w="3000" h="1687" %}}
+
 綺麗でカッコいい革靴を買ったはいいけど、手入れはせずにそのまま続けているなんてことはないですか？
 
 いざ手入れをしようと思っても、どうやってやればいいのかって意外と分からなかったりしませんか？
