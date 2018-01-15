@@ -125,9 +125,9 @@
         "FormattedPrice": "￥ 1,572"
       },
       "LowestUsedPrice": {
-        "Amount": "980",
+        "Amount": "949",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 980"
+        "FormattedPrice": "￥ 949"
       },
       "LowestCollectiblePrice": {
         "Amount": "2122",
@@ -135,7 +135,7 @@
         "FormattedPrice": "￥ 2,122"
       },
       "TotalNew": "1",
-      "TotalUsed": "17",
+      "TotalUsed": "31",
       "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
@@ -148,33 +148,33 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "v8vl2roF9g5N4wP3Dgdqj61yLz4esZLIzPW89ZjfdZdzCCrCfHAX1v7%2FR6pNleyI9gelE5%2BDPEAOo8m4YyYTao9mctuKPx%2BhqNJiCv0aBl4%3D",
+          "OfferListingId": "8FFQHKV5NFiPXf0EPI4ZFeaoiBLxBHWfmpy%2BS2UGpMBgMSDjjeg66qtvwUgrmfN4GZh1Y5GD478dNii4SwJXmNcvitHefO2CcmgqEkrcgB4%3D",
           "Price": {
             "Amount": "1572",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 1,572"
           },
-          "Availability": "在庫あり。",
+          "Availability": "通常1～2か月以内に発送",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
+            "MinimumHours": "288",
+            "MaximumHours": "1080"
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "48",
+          "Points": "14",
           "TypicalRedemptionValue": {
-            "Amount": "48",
+            "Amount": "14",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 48"
+            "FormattedPrice": "￥ 14"
           }
         }
       }
     }
   },
-  "Lastmod": "2017-12-31 15:27:25 +0900",
+  "Lastmod": "2018-01-14 20:31:53 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/896de12dcca302f4a49ce538a339dd0e/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/896de12dcca302f4a49ce538a339dd0e/"

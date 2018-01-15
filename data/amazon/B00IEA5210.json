@@ -165,11 +165,14 @@
       "EANList": {
         "EANListElement": [
           "0792217598103",
+          "4580424253733",
           "0789015314349",
           "4902777323176"
         ]
       },
       "Feature": [
+        "ホエイプロテイン100",
+        "ココア味",
         "商品サイズ (幅×奥行×高さ) :250mm×105mm×310mm",
         "原産国:日本",
         "内容量:1,050g",
@@ -219,9 +222,9 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "3970",
+        "Amount": "3860",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,970"
+        "FormattedPrice": "￥ 3,860"
       },
       "TotalNew": "97",
       "TotalUsed": "0",
@@ -237,7 +240,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "En7sH%2FMhEvaOK2topOaFJKvmFvS4ZBTA4Sp5W6JC7cMxkI0fzVB288sSxUOMJ5n0a2WTgxRSirHtYF6I10JO3CFmc6wWUCZme%2Fs92fTu5qE%3D",
+          "OfferListingId": "ppBGZpx2J%2BoRG3s%2FFdWfDBekYluLhhOW8bWbAa31CtDQWtoaJ4IHPbCNzc69t9QuIvvJ6ijUEWga6n88VVpf8H6s7eSOQMiAac2pbKBmb9RKF%2BV05pNJL%2FAJXeYCjy7dWIRPXXSJ28Fh%2F798C3dIBA%3D%3D",
           "Price": {
             "Amount": "4150",
             "CurrencyCode": "JPY",
@@ -257,11 +260,19 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "2",
+          "TypicalRedemptionValue": {
+            "Amount": "2",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 2"
+          }
         }
       }
     }
   },
-  "Lastmod": "2017-12-31 15:31:14 +0900",
+  "Lastmod": "2018-01-14 20:35:34 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/add0e801703de10533db8919705ba688/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/add0e801703de10533db8919705ba688/"
