@@ -78,16 +78,6 @@
       {{ $related := .Site.RegularPages.Related . | first 10 }}
       {{ with $related }}
       <h3>See Also</h3>
-      <div class="p-adtable__item">
-          <amp-ad
-            layout="responsive"
-            width=300
-            height=250
-            type="adsense"
-            data-ad-client="ca-pub-5340212676785058"
-            data-ad-slot="8472083322">
-          </amp-ad>
-      </div>
       <ul>
         {{ range . }}
         <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
