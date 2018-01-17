@@ -24,3 +24,12 @@ pressing image files with Javascript when I drag & drop.
 # Amazon link
 
 preload
+
+
+# Thumbnail Images
+
+## Tech
+"https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
+
+## Book
+"https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514038598/BOOK_1_v8p2op.png"
