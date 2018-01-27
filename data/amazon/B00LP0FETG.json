@@ -225,17 +225,12 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "4860",
+        "Amount": "4930",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 4,860"
+        "FormattedPrice": "￥ 4,930"
       },
-      "LowestUsedPrice": {
-        "Amount": "1999",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,999"
-      },
-      "TotalNew": "2",
-      "TotalUsed": "1",
+      "TotalNew": "1",
+      "TotalUsed": "0",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -248,18 +243,18 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "Nq67j9%2F4hhiFpksd3H8xRUwwiXCQ4b0kjiZvEL4sUoQ0YQq2ewFf2nxGpXsRp2YOg%2F8ey4iXHM7CmpPq3aHtJOI5InY3RiGGRxgknAnxfOqsYMPu0TpblpOZVQDqYcqq3GoC2N8PgbiO1lnfhNLRzQ%3D%3D",
+          "OfferListingId": "xktpU6ydlB1O%2BcRlkh8O2j6UcEMf9KuJAp61vE%2BdE%2BLCNVGrH8fJxVXWS0Sq86tFgtReIpJdHcxrja5r10YB34yMCuoStSZCHoEjBu8djixh5eP2u7k6q0J1A%2F2p7YoJzJ8Q7hq8IbuprzxKlFYhpQ%3D%3D",
           "Price": {
-            "Amount": "4860",
+            "Amount": "4930",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 4,860"
+            "FormattedPrice": "￥ 4,930"
           },
           "AmountSaved": {
-            "Amount": "3996",
+            "Amount": "3926",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 3,996"
+            "FormattedPrice": "￥ 3,926"
           },
-          "PercentageSaved": "45",
+          "PercentageSaved": "44",
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
@@ -272,7 +267,7 @@
       }
     }
   },
-  "Lastmod": "2018-01-14 20:35:09 +0900",
+  "Lastmod": "2018-01-27 20:19:29 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/148c23b86fcb8cf74ff7ca92efff7a27/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/148c23b86fcb8cf74ff7ca92efff7a27/"

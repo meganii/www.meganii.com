@@ -149,13 +149,18 @@
       "Title": "フリーソフトでつくる音声認識システム パターン認識・機械学習の初歩から対話システムまで"
     },
     "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "1129",
+      "LowestNewPrice": {
+        "Amount": "12294",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,129"
+        "FormattedPrice": "￥ 12,294"
       },
-      "TotalNew": "0",
-      "TotalUsed": "24",
+      "LowestUsedPrice": {
+        "Amount": "849",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 849"
+      },
+      "TotalNew": "1",
+      "TotalUsed": "25",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -165,7 +170,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-01-14 20:35:58 +0900",
+  "Lastmod": "2018-01-27 20:20:17 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/f51c42a967d878f2425a994f80c5c542/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/f51c42a967d878f2425a994f80c5c542/"

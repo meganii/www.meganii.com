@@ -390,9 +390,9 @@
         ]
       },
       "ListPrice": {
-        "Amount": "1562",
+        "Amount": "1386",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,562"
+        "FormattedPrice": "￥ 1,386"
       },
       "Manufacturer": "Moleskine",
       "ManufacturerMaximumAge": "1188",
@@ -425,16 +425,16 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1160",
+        "Amount": "1162",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,160"
+        "FormattedPrice": "￥ 1,162"
       },
       "LowestUsedPrice": {
-        "Amount": "1125",
+        "Amount": "947",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,125"
+        "FormattedPrice": "￥ 947"
       },
-      "TotalNew": "20",
+      "TotalNew": "18",
       "TotalUsed": "2",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
@@ -448,11 +448,16 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "DTjPhSSnYCJx2LLuzsMc7x9Mz59nEVVeHIth4thvj4f7Vy6BUy8Q%2FO4%2FzmuzCNgyQfdKzWFmZ28mwhJacsBGE6vHfuqDpC9BwLYhe%2F0qjJI%3D",
+          "OfferListingId": "1ThAYtOMC8yanKvC2BK%2FUQMeyicM0vq45TLD6PrIO%2BL8PIHUpTJgkyicJXGbWI0g80tBztjbzxK2HXOS61dvVKZHr0Uzfhuau5XGpiNw2lU%3D",
           "Price": {
-            "Amount": "1583",
+            "Amount": "1385",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,583"
+            "FormattedPrice": "￥ 1,385"
+          },
+          "AmountSaved": {
+            "Amount": "1",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 1"
           },
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
@@ -466,7 +471,7 @@
       }
     }
   },
-  "Lastmod": "2018-01-14 20:25:34 +0900",
+  "Lastmod": "2018-01-27 20:09:55 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/5fc11c86dc31da4d38836037648ac442/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/5fc11c86dc31da4d38836037648ac442/"

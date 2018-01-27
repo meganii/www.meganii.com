@@ -85,6 +85,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4270000708",
+      "ItemDimensions": {
+        "Weight": "73"
+      },
       "Label": "ランダムハウス講談社",
       "Languages": {
         "Language": {
@@ -110,9 +113,9 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1700",
+        "Amount": "1190",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,700"
+        "FormattedPrice": "￥ 1,190"
       },
       "LowestUsedPrice": {
         "Amount": "1",
@@ -124,8 +127,8 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 2,000"
       },
-      "TotalNew": "24",
-      "TotalUsed": "85",
+      "TotalNew": "25",
+      "TotalUsed": "82",
       "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
@@ -135,7 +138,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-01-14 20:24:48 +0900",
+  "Lastmod": "2018-01-27 20:09:16 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/746101719f969f42f1074e9e283c3fc7/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/746101719f969f42f1074e9e283c3fc7/"

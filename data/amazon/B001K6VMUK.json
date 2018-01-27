@@ -109,16 +109,16 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1800",
+        "Amount": "1758",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,800"
+        "FormattedPrice": "￥ 1,758"
       },
       "LowestUsedPrice": {
         "Amount": "2500",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 2,500"
       },
-      "TotalNew": "9",
+      "TotalNew": "10",
       "TotalUsed": "1",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
@@ -132,18 +132,18 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "ntIxOdzPy9k9xkTWOWwvzOs%2B7hEEqlIdHXDZ6841q697BH4Zn%2FRJkXuTazwTAxxmEkOLz8O6YLE8nY9pP34mY1nLSkgsgeMjOLbMmEGp1s8qAg9ziLFwdS%2FTMHoi97ts9LnT6DDQoc8FQ76eLOXk3w%3D%3D",
+          "OfferListingId": "Swm6kGUTPds0ezY9mt5ZSguxVXUVON%2FROvASMSujrJLNY%2Bvrq9NMOMAAsuQSX%2FMfEQKJb9HklugMrG%2FC4vDKXtO%2F3G9llj%2BBELsrdDuRuvHCnomCRuJgXmfTc9Tqc7YhRBV6QnUvDwZA2U7wbvaksA%3D%3D",
           "Price": {
-            "Amount": "1800",
+            "Amount": "1758",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,800"
+            "FormattedPrice": "￥ 1,758"
           },
           "AmountSaved": {
-            "Amount": "900",
+            "Amount": "942",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 900"
+            "FormattedPrice": "￥ 942"
           },
-          "PercentageSaved": "33",
+          "PercentageSaved": "35",
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
@@ -154,17 +154,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "42",
+          "Points": "41",
           "TypicalRedemptionValue": {
-            "Amount": "42",
+            "Amount": "41",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 42"
+            "FormattedPrice": "￥ 41"
           }
         }
       }
     }
   },
-  "Lastmod": "2018-01-14 20:28:41 +0900",
+  "Lastmod": "2018-01-27 20:13:05 +0900",
   "Yahoo": {
     "productUrl": "https://shopping.yahoo.co.jp/search?p=4977513054553"
   }

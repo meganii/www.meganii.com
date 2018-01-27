@@ -117,22 +117,17 @@
       "Title": "金持ち父さん貧乏父さん"
     },
     "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "1718",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,718"
-      },
       "LowestUsedPrice": {
-        "Amount": "249",
+        "Amount": "1",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 249"
+        "FormattedPrice": "￥ 1"
       },
       "LowestCollectiblePrice": {
-        "Amount": "798",
+        "Amount": "1198",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 798"
+        "FormattedPrice": "￥ 1,198"
       },
-      "TotalNew": "3",
+      "TotalNew": "0",
       "TotalUsed": "271",
       "TotalCollectible": "7",
       "TotalRefurbished": "0"
@@ -143,7 +138,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-01-14 20:23:35 +0900",
+  "Lastmod": "2018-01-27 20:07:52 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/00be2bf432deac8dfd3e0e24913312fb/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/00be2bf432deac8dfd3e0e24913312fb/"

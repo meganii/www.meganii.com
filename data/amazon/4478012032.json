@@ -117,6 +117,9 @@
       "Edition": "第24",
       "IsAdultProduct": "0",
       "ISBN": "4478012032",
+      "ItemDimensions": {
+        "Weight": "79"
+      },
       "Label": "ダイヤモンド社",
       "Languages": {
         "Language": [
@@ -148,9 +151,9 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "690",
+        "Amount": "800",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 690"
+        "FormattedPrice": "￥ 800"
       },
       "LowestUsedPrice": {
         "Amount": "1",
@@ -158,13 +161,13 @@
         "FormattedPrice": "￥ 1"
       },
       "LowestCollectiblePrice": {
-        "Amount": "600",
+        "Amount": "348",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 600"
+        "FormattedPrice": "￥ 348"
       },
-      "TotalNew": "18",
-      "TotalUsed": "1276",
-      "TotalCollectible": "12",
+      "TotalNew": "21",
+      "TotalUsed": "1239",
+      "TotalCollectible": "14",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -176,7 +179,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "DRFiCU%2B7F3qlmWm3zAcER4%2FD2rHL%2Ft4TfAApeSRyX41HP%2Bd8kkjKY7XyM0Fjo1LTkUME16Vw2NaHbgtL5543qPkjmmjTgmXxtXVyPY9%2Fg5M%3D",
+          "OfferListingId": "rzbsrk%2BEJMlJJuplUMllL3dCPP0NvFCIJi4kYTNGkaqpd0ABNXZsKB9HMH%2BNfyagyFEHjb5KOxTULNKK%2BPqYmax0ZlziI7M4N4uZBDH%2BTHQ%3D",
           "Price": {
             "Amount": "1728",
             "CurrencyCode": "JPY",
@@ -192,17 +195,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "52",
+          "Points": "80",
           "TypicalRedemptionValue": {
-            "Amount": "52",
+            "Amount": "80",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 52"
+            "FormattedPrice": "￥ 80"
           }
         }
       }
     }
   },
-  "Lastmod": "2018-01-14 20:23:30 +0900",
+  "Lastmod": "2018-01-27 20:07:43 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/a4e194e830b37d6104208a4e93913e22/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/a4e194e830b37d6104208a4e93913e22/"
