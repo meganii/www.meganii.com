@@ -10,7 +10,7 @@ img: "https://c1.staticflickr.com/6/5447/9592275938_501b626375_s.jpg"
 
 2013/08/14〜08/15にかけて、上高地から奥穂高岳を登ってきました。天候にも恵まれ、大きな怪我もなく無事帰ってこれましたので、振り返りながらまとめてみます。
 
-
+<!--more-->
 {{% googleadsense %}}
 
 
@@ -19,23 +19,25 @@ img: "https://c1.staticflickr.com/6/5447/9592275938_501b626375_s.jpg"
 
 夜行バスの到着地、上高地は涼しいというよりは寒かった。急いで、上着を羽織って準備をする。
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/9592275938/in/photostream/" title="R0025042"><img src="https://c1.staticflickr.com/6/5447/9592275938_501b626375_z.jpg" width="640" height="480" alt="R0025042"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+{{% img src="https://c1.staticflickr.com/6/5447/9592275938_501b626375_z.jpg" w="640" h="480" %}}
 
 歩きやすいハイキングコースをひたすら歩いていく。途中のキャンプ場での色とりどりのテントがお出迎えしてくれた。朝ごはんのいい匂いでお腹も減った。
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/9589477349/in/photostream/" title="R0025052"><img src="https://c1.staticflickr.com/4/3753/9589477349_4be9d347e1_z.jpg" width="640" height="480" alt="R0025052"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+{{% img src="https://c1.staticflickr.com/4/3753/9589477349_4be9d347e1_z.jpg" w="640" h="480" %}}
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/9589471883/in/photostream/" title="R0025070"><img src="https://c1.staticflickr.com/3/2827/9589471883_7ef75d50d1_z.jpg" width="640" height="480" alt="R0025070"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+{{% img src="https://c1.staticflickr.com/3/2827/9589471883_7ef75d50d1_z.jpg" w="640" h="480" %}}
+
 
 屏風岩が見えてきた。屏風岩は、日本最大級の岩場だそうで、自分たちがいったときも何人かが壁を登っていた。あの崖を登るのは、かなりすごい。
 
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/9589559153/in/photostream/" title="R0025082"><img src="https://c1.staticflickr.com/8/7343/9589559153_90eb276980_z.jpg" width="640" height="480" alt="R0025082"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+{{% img src="https://c1.staticflickr.com/8/7343/9589559153_90eb276980_z.jpg" w="640" h="480" %}}
 
 
 雪が残っていることは、Twitterを見ていると分かっていた。しかし、分かってはいてもその場所にいって、雪が残っていることにただただ驚いた。
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/35571855@N06/9589570319/" title="snow"><img src="https://c1.staticflickr.com/3/2845/9589570319_a4a8d3d044_z.jpg" width="640" height="480" alt="snow"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+{{% img src="https://c1.staticflickr.com/3/2845/9589570319_a4a8d3d044_z.jpg" w="640" h="480" %}}
+
 
 涸沢は、場所によって全然寒さが違っていた。山からの吹き下ろしの風が吹くところでは、ちょっと立っているだけでどんどん体温が奪われる。一方、そこから山の方へ動くと、夏の山の暖かさを感じられる。
 
@@ -65,16 +67,15 @@ img: "https://c1.staticflickr.com/6/5447/9592275938_501b626375_s.jpg"
 
 周りの山々を一望できる。
 
-さて、登ったら降りないといけない。こっからの下りが辛かった。
-降りても降りても同じ景色が広がってくる不思議なダンジョン。
+さて、登ったら降りないといけない。こっからの下りが辛かった。降りても降りても同じ景色が広がってくる不思議なダンジョン。
 
 
 ## 今回の登山で揃えた用具
-・ライト
-・ダウン
+- ライト
+- ダウン
 
 
 ## 初めての外岩涸沢ボルダー
-・涸沢小屋でマットをお借りして、昼寝岩
-・クライミングシューズって意外と滑らない
-・さすがに腕が痛い
+- 涸沢小屋でマットをお借りして、昼寝岩
+- クライミングシューズって意外と滑らない
+- さすがに腕が痛い

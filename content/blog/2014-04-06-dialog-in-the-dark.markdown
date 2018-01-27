@@ -1,5 +1,5 @@
 ---
-title: 『みえない』から『みえる』暗闇体験〜Dialog In The Dark(ダイアログ・イン・ザ・ダーク)〜
+title: Dialog In The Dark(ダイアログ・イン・ザ・ダーク)〜『みえない』から『みえる』暗闇体験〜
 date: 2014-04-06T11:00:00+09:00
 lastmode: 2017-02-19T22:08:00+09:00
 category: ['Life']
@@ -14,7 +14,7 @@ img: "https://farm4.staticflickr.com/3707/13655946803_10ac7c61e4.jpg"
 
 {{% img src="https://farm4.staticflickr.com/3707/13655946803_10ac7c61e4.jpg" w="500" h="500" %}}
 
-
+<!--more-->
 {{% googleadsense %}}
 
 ## Dialog In The Dark(ダイアログ・イン・ザ・ダーク)とは？

@@ -9,22 +9,21 @@ slug: sqlite3-ruby
 
 sqlite3-rubyを使って、SQLite3にアクセスしてデータの取得、加工がしたい。
 
-db.executeした際に配列が帰ってきた。カラム名でアクセス出来る方法がないか探したところ、
-results_as_hash = trueにすれば、Hashで返ってくることがわかった。
+db.executeした際に配列が帰ってきた。カラム名でアクセス出来る方法がないか探したところ、`results_as_hash = true`にすれば、Hashで返ってくることがわかった。
 
-
+<!--more-->
 {{% googleadsense %}}
 
 [SQLite3/Ruby FAQ](http://sqlite-ruby.rubyforge.org/sqlite3/faq.html)
 
-##I’d like the rows to be indexible by column name.
+## I’d like the rows to be indexible by column name.
 >By default, each row from a query is returned as an Array of values. This means that you can only obtain values by their index. Sometimes, however, you would like to obtain values by their column name.
 
 >The first way to do this is to set the Database property “results_as_hash” to true. If you do this, then all rows will be returned as Hash objects, with the column names as the keys. (In this case, the “fields” property is unavailable on the row, although the “types” property remains.)
 
 デフォルトだと配列で返ってくるので、results_as_hashをtrueにすれば、ハッシュとして返却され、カラム名でアクセスできる。
 
-```
+```ruby
   db.results_as_hash = true
   db.execute( "select * from table" ) do |row|
     p row['column1']
@@ -34,7 +33,7 @@ results_as_hash = trueにすれば、Hashで返ってくることがわかった
 
 >The other way is to use Ara Howard’s ArrayFields module. Just require “arrayfields”, and all of your rows will be indexable by column name, even though they are still arrays!
 
-```
+```ruby
   require 'arrayfields'
 
   ...
@@ -47,7 +46,8 @@ results_as_hash = trueにすれば、Hashで返ってくることがわかった
 
 
 ## sqlite3ファイルから読み込み
-```
+
+```ruby
 require 'rubygems'
 require 'sqlite3'
 

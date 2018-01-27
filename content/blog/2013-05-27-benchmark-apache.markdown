@@ -1,5 +1,4 @@
 ---
-
 title: abコマンド実行時のエラーを回避する
 date: 2013-05-27T19:29:00+09:00
 category: ['Tech']
@@ -24,7 +23,7 @@ apr_socket_recv: Connection reset by peer (54)
 Total of 1 requests completed
 ```
 
-
+<!--more-->
 {{% googleadsense %}}
 
 調べてみると、Versionの問題みたい。
@@ -98,5 +97,5 @@ Percentage of the requests served within a certain time (ms)
 出来た！読み方を押さえておこう。
 
 ## 参考
-<a href="http://blog.verygoodtown.com/2012/05/apache-bench-ab/" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://blog.verygoodtown.com/2012/05/apache-bench-ab/" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://blog.verygoodtown.com/2012/05/apache-bench-ab/" target="_blank">Apache Benchを使った負荷テストのやり方 | Web活メモ帳</a><a href="http://b.hatena.ne.jp/entry/http://blog.verygoodtown.com/2012/05/apache-bench-ab/" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://blog.verygoodtown.com/2012/05/apache-bench-ab/" alt="" /></a><br style="clear:both;" /><br>
 
+- [Apache Benchを使った負荷テストのやり方 | Web活メモ帳](http://blog.verygoodtown.com/2012/05/apache-bench-ab/)
