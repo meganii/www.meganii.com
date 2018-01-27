@@ -12,7 +12,7 @@ img: "https://images-na.ssl-images-amazon.com/images/I/51rrLwOzq1L._SL160_.jpg"
 
 友人の結婚式余興や、プロフィールムービー作成を頼まれた際、Keynote, iMovie, Motion5, FinalCutPro(試用版)を使ってみて、なんとなくそれぞれの感覚をつかめたのでまとめておきます。
 
-
+<!--more-->
 {{% googleadsense %}}
 
 ## Keynote

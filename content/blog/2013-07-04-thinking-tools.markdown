@@ -3,7 +3,7 @@ title: 考えるための考具ってなんだろう？「考具 ―考えるた
 date: 2013-07-04T20:15:00+09:00
 category: ['Art']
 tags: ['book']
-published: true
+published: false
 slug: thinking-tools
 ---
 
