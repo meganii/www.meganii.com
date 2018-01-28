@@ -1,7 +1,7 @@
 ---
 title: "Scotch Grain(スコッチグレイン)の革靴「シャインオアレイン」なら雨の日でも快適通勤！！"
 date: 2016-07-23T15:05:40+09:00
-lastmod: 2017-07-01T11:01:40+09:00
+lastmod: 2018-01-28T10:01:40+09:00
 comments: true
 category: ['Life']
 tags: ['革靴','レザー','scotch grain']
@@ -49,6 +49,8 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_thumb,f_auto,q_auto,w_75
 
 ## ２．完全防水ではないが、十分防水してくれる
 
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1517100857/ericthriller-797_q98rcu.jpg" w="1024" h="683" %}}
+
 シャインオアレインを買うときに、雨用だが「完全防水」ではないと説明を受けました。じゃあそんなに雨に強くないのか？と不安になるかもしれません。しかし、実際に雨の日に履いてみると、今までだったら適当な革靴だと浸水してくるような雨でもこの「シャインオアレイン」だと全然気になりませんでした。
 
 これは自分の場合、**かなりのストレス低減** になりました。
@@ -61,6 +63,8 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_thumb,f_auto,q_auto,w_75
 
 
 ## ３．滑りやすい地面でも滑らないこと
+
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1517101484/muneeb-syed-253556_vfadvj.jpg" w="1024" h="683" %}}
 
 革靴を履いていると、雨の日に駅の通路やマンホールの上でスルッと滑るときはないでしょうか？
 
