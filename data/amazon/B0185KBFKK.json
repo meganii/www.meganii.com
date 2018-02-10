@@ -78,7 +78,6 @@
       }
     },
     "ItemAttributes": {
-      "Binding": "その他",
       "Brand": "エーゼット",
       "EAN": "4960833503153",
       "EANList": {
@@ -100,8 +99,8 @@
       "MPN": "AZ525",
       "PackageQuantity": "1",
       "PartNumber": "AZ525",
-      "ProductGroup": "Home Improvement",
-      "ProductTypeName": "TOOLS",
+      "ProductGroup": "Automotive Parts and Accessories",
+      "ProductTypeName": "AUTO_ACCESSORY",
       "Publisher": "株式会社エーゼット",
       "Size": "50ml",
       "Studio": "株式会社エーゼット",
@@ -127,17 +126,17 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "vilYhlPgUg0h8IFAiQ%2BwRm%2BTwqrjMmd7D%2BywLk6i4ImTYcV%2BUBXNXUvQYuovPn5%2B0N5qNDu6H0S6BOY3jAjBVAM8RMWVoa7npAlvxXvx00ZWnkZ2xMf01%2Bp3%2BioQhziBwONf4X2pAuhqiw5jycPjr7JCgSqzWOcd",
+          "OfferListingId": "iqNGf7Jos%2FRt9AYWChsf2qKA%2BaS97zrx%2Bk6lePDWCf8oRudUMI%2B5KCoMjk2JBHCcHgBYPcYs8vXMgmK%2BG1pMbfZjWmnvIWCuC7vjlPzn3Zc0tHLP13hyGM627SndTUyaBRU9WmpvLV6lI%2FIoqDHXtsZmXW5ptpeo",
           "Price": {
             "Amount": "98",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 98"
           },
-          "Availability": "通常4～5営業日以内に発送",
+          "Availability": "通常3～4営業日以内に発送",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "96",
-            "MaximumHours": "120"
+            "MinimumHours": "72",
+            "MaximumHours": "96"
           },
           "IsEligibleForSuperSaverShipping": "0",
           "IsEligibleForPrime": "0"
@@ -145,7 +144,7 @@
       }
     }
   },
-  "Lastmod": "2018-01-27 20:22:04 +0900",
+  "Lastmod": "2018-02-10 19:02:41 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/5e0122d371b4f71d26fbbbb503a3e9da/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/5e0122d371b4f71d26fbbbb503a3e9da/"

@@ -294,7 +294,7 @@
     },
     "ItemAttributes": {
       "Binding": "スポーツ用品",
-      "Brand": "CAPTAIN STAG(キャプテンスタッグ)",
+      "Brand": "キャプテンスタッグ(CAPTAIN STAG)",
       "CatalogNumberList": {
         "CatalogNumberListElement": "4976790773812"
       },
@@ -313,6 +313,11 @@
         "Weight": "65"
       },
       "Label": "キャプテンスタッグ(CAPTAIN STAG)",
+      "ListPrice": {
+        "Amount": "1750",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 1,750"
+      },
       "Manufacturer": "キャプテンスタッグ(CAPTAIN STAG)",
       "Model": "M-7381",
       "MPN": "m7381",
@@ -334,9 +339,9 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "542",
+        "Amount": "664",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 542"
+        "FormattedPrice": "￥ 664"
       },
       "TotalNew": "11",
       "TotalUsed": "0",
@@ -352,12 +357,18 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "meTqQJiyjK7evIDiw%2B5MdyzbNvEOUDNwegYq40G%2BznO9VzqdYmHt6xZDSHHAabcocIWm8on%2FwaEQxm3dvIabf8AKS1aSsEaa",
+          "OfferListingId": "VApN39MKklGhgYQkfp3bzgQdGb%2F5g18NYHoH8Q4PnhfM7JnMfkHQ6XUGStisNsJU1pHL4ghCo2ZMURXbHzEOl4s9urnyIXS6",
           "Price": {
             "Amount": "664",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 664"
           },
+          "AmountSaved": {
+            "Amount": "1086",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 1,086"
+          },
+          "PercentageSaved": "62",
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
@@ -370,7 +381,7 @@
       }
     }
   },
-  "Lastmod": "2018-01-27 20:15:40 +0900",
+  "Lastmod": "2018-02-10 18:53:47 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/d01f534d380bab969b3a1601f0716525/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/d01f534d380bab969b3a1601f0716525/"

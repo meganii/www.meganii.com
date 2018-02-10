@@ -121,9 +121,6 @@
       "Edition": "新",
       "IsAdultProduct": "0",
       "ISBN": "4478017166",
-      "ItemDimensions": {
-        "Weight": "132"
-      },
       "Label": "ダイヤモンド社",
       "Manufacturer": "ダイヤモンド社",
       "NumberOfPages": "280",
@@ -148,12 +145,12 @@
         "FormattedPrice": "￥ 2,376"
       },
       "LowestUsedPrice": {
-        "Amount": "1393",
+        "Amount": "1400",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,393"
+        "FormattedPrice": "￥ 1,400"
       },
-      "TotalNew": "2",
-      "TotalUsed": "29",
+      "TotalNew": "3",
+      "TotalUsed": "32",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -166,7 +163,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "Uq%2BbqacYvtqPDNX%2F28iuNtTuVyAStFiCau9Me65wxirwLekcCGxT35%2F0AdXgf5PQrclUeYtTxuV7E9cF8VIFkKKWlfE3nEHbvTPhjRr5bi8%3D",
+          "OfferListingId": "60OKRG9dLuJwOFo32gcBWdJnNvaAyiCirTADgNyxvGzZHnwytM656aaR8vTuw6vL0qc6Q%2FnRxrKM%2F1MZ64BUtQ9XtnD5S2TbuEwP0Hd%2Bct4%3D",
           "Price": {
             "Amount": "2376",
             "CurrencyCode": "JPY",
@@ -182,17 +179,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "110",
+          "Points": "69",
           "TypicalRedemptionValue": {
-            "Amount": "110",
+            "Amount": "69",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 110"
+            "FormattedPrice": "￥ 69"
           }
         }
       }
     }
   },
-  "Lastmod": "2018-01-27 20:13:17 +0900",
+  "Lastmod": "2018-02-10 18:50:07 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/c31c99320747f3fdef25c2757b17be5a/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/c31c99320747f3fdef25c2757b17be5a/"
