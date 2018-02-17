@@ -76,7 +76,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,h_75,q_auto
 <a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884269667&vc_url=https%3A%2F%2Fwww.hotpepper.jp%2FstrJ000003480%2F%3Fvos%3Dnhppvccp99002" target="_blank" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884269667" height="1" width="0" border="0"><img src='https://imgfp.hotp.jp/IMGH/49/36/P025514936/P025514936_238.jpg' border='0' /></a>
 
 
-# リピートしないと心に誓ったお店
+# 個人的にいまいちだったお店
 
 ## 居酒屋 個室 楽宴 池袋東口店
 
