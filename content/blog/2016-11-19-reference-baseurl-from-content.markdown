@@ -5,7 +5,7 @@ lastmod: 2016-11-19T11:12:36+09:00
 comments: true
 category: ['']
 tags: ['']
-published: true
+published: false
 slug: reference-baseurl-from-content
 img:
 ---

@@ -46,4 +46,5 @@ TODOを誰かにアサインする
 
 - [セーラー万年筆 どこでもシート 600×800](http://www.amazon.co.jp/gp/product/B004BEJ9MG/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B004BEJ9MG&linkCode=as2&tag=skyhigh0a-22)
 
-<div class="booklink-box"><div class="booklink-image"><a href="http://www.amazon.co.jp/exec/obidos/asin/B0081MA9K0/meganii-22/" target="_blank" ><img src="http://ecx.images-amazon.com/images/I/513w95PLFRL._SL160_.jpg" style="border: none;" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="http://www.amazon.co.jp/exec/obidos/asin/B0081MA9K0/meganii-22/" target="_blank" >ファシリテーターの道具箱[Kindle版]</a><div class="booklink-powered-date">posted with <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail">森 時彦,ファシリテーターの道具研究会 ダイヤモンド社 2012-11-06    </div><div class="booklink-link2"><div class="shoplinkkindle"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0081MA9K0/meganii-22/" target="_blank" >Kindle</a></div><div class="shoplinkamazon"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4478003963/meganii-22/" target="_blank" >Amazon[書籍版]</a></div>                              	  	  	      </div></div><div class="booklink-footer"></div></div>
+
+{{% amazon B0081MA9K0 %}}
