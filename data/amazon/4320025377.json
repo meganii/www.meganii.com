@@ -85,6 +85,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4320025377",
+      "ItemDimensions": {
+        "Weight": "88"
+      },
       "Label": "共立出版",
       "Languages": {
         "Language": {
@@ -115,9 +118,9 @@
         "FormattedPrice": "￥ 3,132"
       },
       "LowestUsedPrice": {
-        "Amount": "403",
+        "Amount": "900",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 403"
+        "FormattedPrice": "￥ 900"
       },
       "LowestCollectiblePrice": {
         "Amount": "2480",
@@ -125,7 +128,7 @@
         "FormattedPrice": "￥ 2,480"
       },
       "TotalNew": "3",
-      "TotalUsed": "47",
+      "TotalUsed": "43",
       "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
@@ -138,7 +141,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "RATsGjwTMzew0Ko5fHmeGWzvs3n2Yg3A0KHi0HY5irDWnUVFEoSrIh%2F%2BqAdjDw0Bx7DU4QaSfOeTdY1iYbsg873%2FefZXY1vHE%2BvxtE6PeIU%3D",
+          "OfferListingId": "MdjY37c%2FIqo0Oicxpd2ESIKpmrdf6gH3Rs1krNEaKJhiwxQ284oPmn3YVn%2BwadWR960ygaLa6Itk6FTA%2BioqvWC%2B7EMgJaHJmzcydWf4YII%3D",
           "Price": {
             "Amount": "3132",
             "CurrencyCode": "JPY",
@@ -164,7 +167,7 @@
       }
     }
   },
-  "Lastmod": "2018-02-10 18:55:09 +0900",
+  "Lastmod": "2018-02-16 22:22:26 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/f40bda9855cdb4756809e71fdc037f9d/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/f40bda9855cdb4756809e71fdc037f9d/"

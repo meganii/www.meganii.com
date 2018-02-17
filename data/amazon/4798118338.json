@@ -116,6 +116,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4798118338",
+      "ItemDimensions": {
+        "Weight": "84"
+      },
       "Label": "翔泳社",
       "Languages": {
         "Language": [
@@ -161,7 +164,7 @@
         "FormattedPrice": "￥ 4,980"
       },
       "TotalNew": "3",
-      "TotalUsed": "23",
+      "TotalUsed": "20",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -174,17 +177,17 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "%2BpH%2BSWiEZ6UfXJ5AbHLtGmIo0ee4d1I3nE51rm7GfWWIYRbchO1R%2Bq9po2L7CUYVz2All4weNMIZcicOmw5%2FMfruQ99IlpKo",
+          "OfferListingId": "tI9AfvqQ5cJJQza6QjpV7ErlEBH1w%2FXf%2FrbDZvXF1dDP5%2FyfrlJNwpMmSdxfoROdTrv%2BCgsESgtTPd66HVpLSrIQplsUimGc",
           "Price": {
             "Amount": "2376",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 2,376"
           },
-          "Availability": "通常1～2か月以内に発送",
+          "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "264",
-            "MaximumHours": "816"
+            "MinimumHours": "0",
+            "MaximumHours": "0"
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
@@ -200,7 +203,7 @@
       }
     }
   },
-  "Lastmod": "2018-02-10 18:46:45 +0900",
+  "Lastmod": "2018-02-16 22:15:14 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/3aae90a923518c568ba0ff539b8f7e21/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/3aae90a923518c568ba0ff539b8f7e21/"
