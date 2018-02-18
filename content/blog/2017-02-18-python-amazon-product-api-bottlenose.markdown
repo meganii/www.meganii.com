@@ -10,7 +10,7 @@ slug: python-amazon-product-api-bottlenose
 img: 
 ---
 
-{{% amazon_shortcode 4802510144 %}}
+{{% amazon 4802510144 %}}
 
 <!--more-->
 {{% googleadsense %}}
