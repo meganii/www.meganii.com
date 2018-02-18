@@ -98,6 +98,11 @@
       "Title": "われわれはどこから来たのか、われわれは何者か、われわれはどこへ行くのか (ハヤカワ新書juice)"
     },
     "OfferSummary": {
+      "LowestNewPrice": {
+        "Amount": "1512",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 1,512"
+      },
       "LowestUsedPrice": {
         "Amount": "1",
         "CurrencyCode": "JPY",
@@ -108,18 +113,47 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 2,480"
       },
-      "TotalNew": "0",
-      "TotalUsed": "11",
+      "TotalNew": "2",
+      "TotalUsed": "12",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
+      "TotalOffers": "1",
+      "TotalOfferPages": "1",
+      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4153200131?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4153200131",
+      "Offer": {
+        "OfferAttributes": {
+          "Condition": "New"
+        },
+        "OfferListing": {
+          "OfferListingId": "qQnERersikhr8D4nYucN37sHdRUff9yvfKBf77HoBZuxzsFQ5e0L2csb4CF5QSRWWvKWdjsPSB1XwHjEmAB8DP0AGDMYr%2BWGF2b8%2B8rZcZ8%3D",
+          "Price": {
+            "Amount": "1512",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 1,512"
+          },
+          "Availability": "一時的に在庫切れですが、商品が入荷次第配送します。配送予定日がわかり次第Eメールにてお知らせします。商品の代金は発送時に請求いたします。",
+          "AvailabilityAttributes": {
+            "AvailabilityType": "unknown",
+            "MinimumHours": "672",
+            "MaximumHours": "1008"
+          },
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "46",
+          "TypicalRedemptionValue": {
+            "Amount": "46",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 46"
+          }
+        }
+      }
     }
   },
-  "Lastmod": "2018-02-16 22:06:57 +0900",
+  "Lastmod": "2018-02-17 22:12:30 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/0769342eb11dfd60230c046317ee8aad/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/0769342eb11dfd60230c046317ee8aad/"
