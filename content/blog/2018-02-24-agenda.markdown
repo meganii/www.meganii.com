@@ -1,0 +1,41 @@
+---
+title: "MongoDBを利用したNode.jsのジョブ管理ツールagenda"
+date: 2018-02-24T21:56:16+09:00
+lastmod: 2018-02-24T21:56:16+09:00
+comments: true
+category: ['Tech']
+tags: ['agenda','nodejs']
+published: false
+slug: agenda
+img: 
+---
+
+Node.jsでジョブ管理をしたいとしたいときの調査結果。
+
+## ツール
+
+MongoDB
+- [Agenda](https://github.com/agenda/agenda)
+
+Redis
+- [kue](https://github.com/Automattic/kue)
+- [bull](https://github.com/OptimalBits/bull)
+
+
+- Job-queueのバックエンドとして、Redisを使うのであれば、bull, kue。
+- MongoDBを利用するなら、Agendaが良さそう。
+
+以下の理由で、まずはAgendaをつかってみました。
+
+- 今後データソースとして、MongoDBを利用する可能性がある
+- 比較的手軽に利用できそう
+
+<!--more-->
+{{% googleadsense %}}
+
+## 参考
+
+- [Awesome Node\.js : 素晴しい Node\.js フレームワーク・ライブラリ・ソフトウェア・リソースの数々 \- Qiita](https://qiita.com/h_digitalhearts/items/61030176a254cbe7ff2b)
+
+- [Node\.jsで使うJobQueueとcron型Scheduleのリソース \- Qiita](https://qiita.com/masato/items/fbe503dbf34e7cfd2fe3)
+
