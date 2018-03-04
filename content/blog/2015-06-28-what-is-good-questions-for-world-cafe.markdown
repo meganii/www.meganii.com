@@ -79,6 +79,6 @@ slug: what-is-good-questions-for-world-cafe
 
 ## 合わせて読みたい
 
-{{% card src="https://www.meganii.com/blog/2015/07/12/hold-a-world-cafe/" %}}
+{{% related src="https://www.meganii.com/blog/2015/07/12/hold-a-world-cafe/" %}}
 
-{{% card src="https://www.meganii.com/blog/2015/07/05/world-cafe-case/" %}}
+{{% related src="https://www.meganii.com/blog/2015/07/05/world-cafe-case/" %}}
