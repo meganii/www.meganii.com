@@ -1,5 +1,0 @@
-<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span></span><span class="c1">#cloud-config</span>
-
-<span class="l l-Scalar l-Scalar-Plain">ssh_authorized_keys</span><span class="p p-Indicator">:</span>
-  <span class="p p-Indicator">-</span> <span class="s">&quot;ssh-rsa</span><span class="nv"> </span><span class="s">・・・・&quot;</span>
-</code></pre></div>

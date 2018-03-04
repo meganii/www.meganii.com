@@ -1,7 +1,0 @@
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>$ wget https://drive.google.com/uc?export<span class="o">=</span>download<span class="p">&amp;</span><span class="nv">id</span><span class="o">=</span>0B4y35FiV1wh7cENtOXlicTFaRUE
-$ --2017-01-14 <span class="m">14</span>:26:57--  https://drive.google.com/uc?export<span class="o">=</span>download
-drive.google.com をDNSに問いあわせています... <span class="m">2404</span>:6800:4004:80e::200e, <span class="m">216</span>.58.197.206
-drive.google.com<span class="p">|</span><span class="m">2404</span>:6800:4004:80e::200e<span class="p">|</span>:443 に接続しています... 接続しました。
-HTTP による接続要求を送信しました、応答を待っています... <span class="m">400</span> Bad Request
-<span class="m">2017</span>-01-14 <span class="m">14</span>:26:58 エラー <span class="m">400</span>: Bad Request。
-</code></pre></div>

@@ -1,9 +1,0 @@
-<div class="highlight"><pre><code class="language-diff" data-lang="diff"><span></span>},
- &quot;homepage&quot;: &quot;https://github.com/meganii/electron-amazon-linkbuilder#readme&quot;,
- &quot;devDependencies&quot;: {
-<span class="gd">-    &quot;electron-prebuilt&quot;: &quot;^0.36.0&quot;,</span>
-<span class="gi">+    &quot;electron-prebuilt&quot;: &quot;^1.0.0&quot;,</span>
-   &quot;mithril&quot;: &quot;^0.2.4&quot;,
-   &quot;config&quot;: &quot;^1.20.0&quot;,
-   &quot;apac&quot;: &quot;1.5.0&quot;
-</code></pre></div>

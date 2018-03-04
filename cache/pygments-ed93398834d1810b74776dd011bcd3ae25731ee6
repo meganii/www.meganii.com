@@ -1,3 +1,0 @@
-<div class="highlight"><pre><code class="language-diff" data-lang="diff"><span></span><span class="gd">- tag_path(tag)</span>
-<span class="gi">+ tag_path(tag, blog_controller.name)</span>
-</code></pre></div>

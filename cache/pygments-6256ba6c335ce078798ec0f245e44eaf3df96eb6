@@ -1,2 +1,0 @@
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span></span><span class="nx">m</span><span class="p">.</span><span class="nx">request</span><span class="p">({</span><span class="nx">method</span><span class="o">:</span> <span class="s2">&quot;GET&quot;</span><span class="p">,</span> <span class="nx">url</span><span class="o">:</span> <span class="s2">&quot;/path/to/resource&quot;</span><span class="p">})</span>
-</code></pre></div>

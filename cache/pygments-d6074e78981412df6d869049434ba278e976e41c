@@ -1,8 +1,0 @@
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="nb">require</span> <span class="s1">&#39;rubygems&#39;</span>
-<span class="nb">require</span> <span class="s1">&#39;english&#39;</span>
-<span class="nb">require</span> <span class="s1">&#39;yaml&#39;</span>
-
-<span class="n">content</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s1">&#39;test.markdown&#39;</span><span class="p">)</span>
-<span class="n">content</span> <span class="o">=~</span> <span class="sr">/\A(---\s*\n.*?\n?)^(---\s*$\n?)/m</span>
-<span class="no">YAML</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="vg">$MATCH</span><span class="p">)</span>
-</code></pre></div>
