@@ -399,6 +399,12 @@
         "[入力／出力] DC 5V 2A ／ DC 5V 3.4A(合計) Auto-IC機能搭載",
         "[付属品] 本体充電用USB-MicroUSBケーブル、取扱説明書、保証書（1年保証）"
       ],
+      "ItemDimensions": {
+        "Height": "91",
+        "Length": "362",
+        "Weight": "71",
+        "Width": "315"
+      },
       "Label": "cheero",
       "ListPrice": {
         "Amount": "6980",
@@ -423,17 +429,12 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "2680",
+        "Amount": "2580",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,680"
+        "FormattedPrice": "￥ 2,580"
       },
-      "LowestUsedPrice": {
-        "Amount": "2658",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,658"
-      },
-      "TotalNew": "9",
-      "TotalUsed": "2",
+      "TotalNew": "10",
+      "TotalUsed": "0",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -446,18 +447,18 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "3od%2B9uoJYxYmcVSsMjAZp%2B060VKK9NnfBb8V4IQmBB67zYAo6hDIS4uYwgn5kHIEkAxRmp3XjbeaV48Z6xYIIJ1rRBYGAbB9aSzkkr4jwc3oZO%2Ftf91r%2ByLaeHz8K1L8WSlK97go5WRSFYBboug9ow%3D%3D",
+          "OfferListingId": "4CRRgXJaOWNuyydsfMjHxpAf9u0iGcmifjH5%2BoXcEQBn4fjb3gOv4KfVI8HnZyImQxoQOd8zCSW6vn0lZEWNjgb5L7GkJPEISpbcD%2FP%2BTMiuvgOXS4mL1sqvVkXwiFVin5IQYLetBJkBCU0OOLLMnw%3D%3D",
           "Price": {
-            "Amount": "2680",
+            "Amount": "2580",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,680"
+            "FormattedPrice": "￥ 2,580"
           },
           "AmountSaved": {
-            "Amount": "4300",
+            "Amount": "4400",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 4,300"
+            "FormattedPrice": "￥ 4,400"
           },
-          "PercentageSaved": "62",
+          "PercentageSaved": "63",
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
@@ -470,7 +471,7 @@
       }
     }
   },
-  "Lastmod": "2018-02-16 22:22:08 +0900",
+  "Lastmod": "2018-03-04 09:00:55 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/3c16ee9685801ba48ca5147828dbd6ec/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/3c16ee9685801ba48ca5147828dbd6ec/"

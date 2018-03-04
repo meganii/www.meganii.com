@@ -214,6 +214,11 @@
         "Width": "47"
       },
       "Label": "Pelikan",
+      "ListPrice": {
+        "Amount": "16200",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 16,200"
+      },
       "Manufacturer": "Pelikan",
       "Model": "M200",
       "MPN": "984104",
@@ -234,11 +239,11 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "10988",
+        "Amount": "11200",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 10,988"
+        "FormattedPrice": "￥ 11,200"
       },
-      "TotalNew": "7",
+      "TotalNew": "6",
       "TotalUsed": "0",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
@@ -252,12 +257,18 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "ZJ7smxWbK84slxTKZy4Srg1rMajLoRpJJUnIH%2FHrUHZmzT9ycGF4vIUCarth2tMmggEY5Q6vghBfbzxSfVdCAQ8tK52a%2FzHpKKEgSW02OAc%3D",
+          "OfferListingId": "OQfHSWeig9YF7yV1gTGILxgKmj%2BcPqVOhOMPjkYkQ8REnr1Xy2tLtlM3QuOEqI7emK09cTQ3Fec934%2BDTIEQDDXjz%2BJDrZhjfs9%2FNcYqAzo%3D",
           "Price": {
-            "Amount": "10988",
+            "Amount": "11543",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 10,988"
+            "FormattedPrice": "￥ 11,543"
           },
+          "AmountSaved": {
+            "Amount": "4657",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 4,657"
+          },
+          "PercentageSaved": "29",
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
@@ -270,7 +281,7 @@
       }
     }
   },
-  "Lastmod": "2018-02-16 22:20:07 +0900",
+  "Lastmod": "2018-03-04 08:59:43 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/3f28ad9e7cb0a6e04074facd44f9efe6/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/3f28ad9e7cb0a6e04074facd44f9efe6/"

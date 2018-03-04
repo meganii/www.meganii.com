@@ -88,6 +88,9 @@
       "Edition": "初版53刷",
       "IsAdultProduct": "0",
       "ISBN": "4906638015",
+      "ItemDimensions": {
+        "Weight": "220"
+      },
       "Label": "キングベアー出版",
       "Languages": {
         "Language": [
@@ -124,18 +127,18 @@
         "FormattedPrice": "￥ 2,000"
       },
       "LowestUsedPrice": {
-        "Amount": "337",
+        "Amount": "200",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 337"
+        "FormattedPrice": "￥ 200"
       },
       "LowestCollectiblePrice": {
         "Amount": "700",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 700"
       },
-      "TotalNew": "10",
-      "TotalUsed": "237",
-      "TotalCollectible": "11",
+      "TotalNew": "12",
+      "TotalUsed": "250",
+      "TotalCollectible": "12",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -144,7 +147,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-02-17 21:33:14 +0900",
+  "Lastmod": "2018-03-04 08:51:43 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/5b425561f92f4d6d1a1b9dd81b811151/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/5b425561f92f4d6d1a1b9dd81b811151/"

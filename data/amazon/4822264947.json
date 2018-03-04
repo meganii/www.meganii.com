@@ -155,51 +155,22 @@
         "FormattedPrice": "￥ 1,944"
       },
       "LowestUsedPrice": {
-        "Amount": "643",
+        "Amount": "496",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 643"
+        "FormattedPrice": "￥ 496"
       },
-      "TotalNew": "2",
-      "TotalUsed": "19",
+      "TotalNew": "1",
+      "TotalUsed": "24",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4822264947?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4822264947",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "UQUxYD3KTfPWfoZohA0ZXCBrDLcggxzw4xP%2FOPtIt4tsA586QjbWIQKsnn1VnD9xjS%2BxkFu6lmG%2FwOXMa%2F2o7Vbact%2Bv2EeWnZ2fQwY%2BzUc%3D",
-          "Price": {
-            "Amount": "1944",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,944"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "59",
-          "TypicalRedemptionValue": {
-            "Amount": "59",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 59"
-          }
-        }
-      }
+      "TotalOffers": "0",
+      "TotalOfferPages": "0",
+      "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-02-16 22:22:52 +0900",
+  "Lastmod": "2018-03-04 09:01:46 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/be7af638aa8e16403451de8212aed8cc/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/be7af638aa8e16403451de8212aed8cc/"

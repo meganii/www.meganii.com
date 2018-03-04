@@ -119,6 +119,7 @@
       "ItemDimensions": {
         "Height": "740",
         "Length": "79",
+        "Weight": "71",
         "Width": "512"
       },
       "Label": "ダイヤモンド社",
@@ -151,17 +152,17 @@
         "FormattedPrice": "￥ 1,212"
       },
       "LowestUsedPrice": {
-        "Amount": "214",
+        "Amount": "64",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 214"
+        "FormattedPrice": "￥ 64"
       },
       "LowestCollectiblePrice": {
         "Amount": "1290",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 1,290"
       },
-      "TotalNew": "11",
-      "TotalUsed": "95",
+      "TotalNew": "12",
+      "TotalUsed": "73",
       "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
@@ -174,7 +175,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "x5wtgjYJcyoD8pcNDapsnGNc7V%2BlQMjxpiq892mfRL2PJ233kBHHYs%2FFRrZYyiWQ63cTeMvkb%2FDLCEBd%2ByGVrTQRbR64AmlERP39PHvbs9U%3D",
+          "OfferListingId": "xMBZanGuozFnTF9vNvd5R12D8WJ4PutbxWPZ3RNqJp6kQ5hZFmKWqKv3644hp5Ka6Hf6tQBAL9bNfEPgXmYzZTZrsT%2ByqqgQVyGnWYhrwVI%3D",
           "Price": {
             "Amount": "1728",
             "CurrencyCode": "JPY",
@@ -200,7 +201,7 @@
       }
     }
   },
-  "Lastmod": "2018-02-16 22:19:43 +0900",
+  "Lastmod": "2018-03-04 08:59:12 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/93cea00507bc409d2bbe49dc13ceabf9/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/93cea00507bc409d2bbe49dc13ceabf9/"
