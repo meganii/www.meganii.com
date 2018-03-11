@@ -134,6 +134,9 @@
       ],
       "IsAutographed": "0",
       "IsMemorabilia": "0",
+      "ItemDimensions": {
+        "Weight": "2"
+      },
       "Label": "Platypus(プラティパス)",
       "ListPrice": {
         "Amount": "1512",
@@ -178,7 +181,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "dUuExcKtZUmsfJoM%2Byx2MIa7Y9SjP%2FUXhQOxSNI9xr3DcCZv%2Frodb69NOnVHVqpCSICb%2FB2B3z%2Bw1hXQSwuQ4v%2BpDxU5t2IY",
+          "OfferListingId": "NzFILtUB%2FGi6eohkAbgevBZAWxaACIrekNcIM%2BHh4rAQVhfbv1gxsEEHO2yYJzsOKeuXRpfMnHO%2FLyoUgADxftz2j5%2BbgpQw",
           "Price": {
             "Amount": "1474",
             "CurrencyCode": "JPY",
@@ -202,7 +205,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-04 08:56:29 +0900",
+  "Lastmod": "2018-03-11 22:10:21 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/4aedd79fea64aad53456f05e184ce5fb/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/4aedd79fea64aad53456f05e184ce5fb/"

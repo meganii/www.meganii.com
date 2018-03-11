@@ -149,19 +149,19 @@
       "Title": "実践 デザイン・シンキング"
     },
     "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "1944",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,944"
-      },
       "LowestUsedPrice": {
-        "Amount": "496",
+        "Amount": "494",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 496"
+        "FormattedPrice": "￥ 494"
       },
-      "TotalNew": "1",
+      "LowestCollectiblePrice": {
+        "Amount": "4710",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 4,710"
+      },
+      "TotalNew": "0",
       "TotalUsed": "24",
-      "TotalCollectible": "0",
+      "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -170,7 +170,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-03-04 09:01:46 +0900",
+  "Lastmod": "2018-03-11 22:20:33 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/be7af638aa8e16403451de8212aed8cc/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/be7af638aa8e16403451de8212aed8cc/"
