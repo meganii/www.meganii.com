@@ -22,7 +22,7 @@ LanguageCode = 'ja'
 lang = ""
 title = "SIS Lab"
 profile = "ギークを夢見るじょーぶん男子。「広く浅くから広く深く」を目指してブログを書いています。"
-description = "元じょーぶん生によるメーカー系SIerブログ。趣味のプログラミング、旅行。日々、学んだことについて書きます。"
+description = "メーカー系SIerブログ。趣味のプログラミング、旅行。日々、学んだことについて書きます。"
 [Languages.en]
 LanguageCode = 'en'
 lang = "en/"
@@ -55,7 +55,7 @@ profile = "ギークを夢見るじょーぶん男子。「広く浅くから広
 
 [related]
 # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
-threshold = 80
+threshold = 70
 # To get stable "See also" sections we, by default, exclude newer related pages.
 includeNewer = true
 # Will lower case keywords in both queries and in the indexes.
