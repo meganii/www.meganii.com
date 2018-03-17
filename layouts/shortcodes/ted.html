@@ -1,0 +1,14 @@
+{{ $id := .Get "id" }}
+{{ $width := .Get "width" }}
+{{ $height := .Get "height" }}
+{{ $src := .Get "src" }}
+
+<amp-iframe
+  width="854"
+  height="480"
+  sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"
+  layout="responsive"
+  frameborder="0"
+  src="{{$src}}"
+  scrolling="no" allowfullscreen>
+</amp-iframe>
