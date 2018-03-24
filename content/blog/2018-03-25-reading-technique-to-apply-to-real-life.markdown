@@ -56,4 +56,4 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 
 「GO　WILD 野生の体を取り戻せ！科学が教えるトレイルラン、低炭水化物、マインドフルネス」
 
-{{% amazon 4140816619 %}
+{{% amazon 4140816619 %}}
