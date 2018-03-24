@@ -1,5 +1,5 @@
 ---
-title: "botframework-slack"
+title: "Botframeworkを利用してSlack botを作る"
 date: 2018-03-10T19:27:40+09:00
 lastmod: 2018-03-10T19:27:40+09:00
 comments: true
@@ -72,3 +72,7 @@ const intents = new builder.IntentDialog({ recognizers: [recognizer] })
     });
 });
 ```
+
+## エンティティを抽出する
+
+[Recognize intents and entities with LUIS](https://docs.microsoft.com/en-us/bot-framework/nodejs/bot-builder-nodejs-recognize-intent-luis)
