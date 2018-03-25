@@ -273,7 +273,6 @@
     "ItemAttributes": {
       "Binding": "スポーツ用品",
       "Brand": "ラヴィ(La・VIE)",
-      "Color": "パープル",
       "EAN": "4986920470610",
       "EANList": {
         "EANListElement": "4986920470610"
@@ -287,6 +286,9 @@
       ],
       "IsAutographed": "0",
       "IsMemorabilia": "0",
+      "ItemDimensions": {
+        "Weight": "55"
+      },
       "Label": "La-VIE(ラヴィ)",
       "Manufacturer": "La-VIE(ラヴィ)",
       "Model": "3B-4706",
@@ -302,10 +304,8 @@
       "ProductGroup": "Sports",
       "ProductTypeName": "SPORTING_GOODS",
       "Publisher": "La-VIE(ラヴィ)",
-      "Size": "かため",
       "Studio": "La-VIE(ラヴィ)",
-      "Title": "La-VIE(ラヴィ) かたお  ストレッチ ボール マッサージボール",
-      "Warranty": "●健康な方を対象とした商品です。持病のある方や健康に不安のある方は、必ず医師に御相談の上使用してください。●正しく使用し、マッサージの目的以外には使用しないでください。"
+      "Title": "La-VIE(ラヴィ) かたお  ストレッチ ボール マッサージボール"
     },
     "OfferSummary": {
       "LowestNewPrice": {
@@ -313,7 +313,7 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 710"
       },
-      "TotalNew": "12",
+      "TotalNew": "11",
       "TotalUsed": "0",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
@@ -327,7 +327,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "NUxoHU7I5NCUnxpjtSFFrq7GVRLj0cblhO%2BFRwx3dyYqoV5J%2FHmIaK4SjwJ38SIENZqQdePP1HJBzMJ9zNv%2B5ilFjd6%2FITOegZlXwVzwqOU%3D",
+          "OfferListingId": "Fyd66%2Bkn4KJW6EVNZ8cl7GoKoLMFhgt4GnztKR2skKMBJiMmSjAcAP4oEu00QhEOtA9Y9C5bwipYXuvIkiS7UdYX%2FKfWp21fOlc%2BDUge4U8%3D",
           "Price": {
             "Amount": "962",
             "CurrencyCode": "JPY",
@@ -345,7 +345,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-11 22:23:21 +0900",
+  "Lastmod": "2018-03-25 09:02:05 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/378425b9640b406c9ef320732f160664/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/378425b9640b406c9ef320732f160664/"

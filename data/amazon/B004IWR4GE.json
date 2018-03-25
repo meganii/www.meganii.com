@@ -201,11 +201,11 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "17180",
+        "Amount": "17013",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 17,180"
+        "FormattedPrice": "￥ 17,013"
       },
-      "TotalNew": "12",
+      "TotalNew": "16",
       "TotalUsed": "0",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
@@ -219,31 +219,31 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "JzK7elF9VjIcsMJJosTzk6DW9sd58wuod6%2BARLwKG%2B8WG7MVolY3hjXmI8v2rH9jL8yHXjuuZc%2FMx1wpYEccI6tUeVDOCvo2V6Yptop2dLqvKgVek8AY1%2BNGz6wvEqW%2BUBwb%2BPj%2BHysTuqgwnE%2FMYg%3D%3D",
+          "OfferListingId": "ClUQ7KzsL%2F0X%2B4N4O3XuUMYa2nk4KkX7VQj%2FFpywdNwV6h4RY0duuCvuGU4DUvDZNr%2BasiwDF2RiNgc%2BXi3i7lQM2SAISWgsYxPE2liXtXU%3D",
           "Price": {
-            "Amount": "17180",
+            "Amount": "17013",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 17,180"
+            "FormattedPrice": "￥ 17,013"
           },
           "AmountSaved": {
-            "Amount": "4204",
+            "Amount": "4371",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 4,204"
+            "FormattedPrice": "￥ 4,371"
           },
           "PercentageSaved": "20",
-          "Availability": "通常4～5営業日以内に発送",
+          "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "96",
-            "MaximumHours": "120"
+            "MinimumHours": "0",
+            "MaximumHours": "0"
           },
-          "IsEligibleForSuperSaverShipping": "0",
-          "IsEligibleForPrime": "0"
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
         }
       }
     }
   },
-  "Lastmod": "2018-03-11 22:19:06 +0900",
+  "Lastmod": "2018-03-25 08:58:40 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/8b7908a43be99c914493780f6265ffcc/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/8b7908a43be99c914493780f6265ffcc/"

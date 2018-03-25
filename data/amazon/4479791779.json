@@ -132,6 +132,9 @@
       "Feature": "良い",
       "IsAdultProduct": "0",
       "ISBN": "4479791779",
+      "ItemDimensions": {
+        "Weight": "71"
+      },
       "Label": "大和書房",
       "Languages": {
         "Language": [
@@ -168,18 +171,18 @@
         "FormattedPrice": "￥ 1,728"
       },
       "LowestUsedPrice": {
-        "Amount": "500",
+        "Amount": "319",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 500"
+        "FormattedPrice": "￥ 319"
       },
       "LowestCollectiblePrice": {
-        "Amount": "1340",
+        "Amount": "1300",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,340"
+        "FormattedPrice": "￥ 1,300"
       },
       "TotalNew": "4",
-      "TotalUsed": "110",
-      "TotalCollectible": "4",
+      "TotalUsed": "132",
+      "TotalCollectible": "3",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -191,7 +194,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "s%2Fg4poKq%2F0DkmsifwJ%2F%2FjhWb1Fpm%2FcFzgEpPIRAFUKdzabhSDePtIPCymkZ%2Fg6w%2FnjSpXedfxXVWij1xJcx4owYtTH5kEv%2BZ",
+          "OfferListingId": "Hqt6Tys4VhWMudvwQNLbxUKflv1g5P%2B60Ge0Thv4XWjD%2FM8XL2gS%2FfnuFx2Jg%2Bk%2BLjksSShwl6IMJ8woZEVdnC5ECqZPMsWS",
           "Price": {
             "Amount": "1728",
             "CurrencyCode": "JPY",
@@ -217,7 +220,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-11 22:07:58 +0900",
+  "Lastmod": "2018-03-25 08:52:32 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/9a58d3242a00a4d441e3d053da17ecb3/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/9a58d3242a00a4d441e3d053da17ecb3/"
