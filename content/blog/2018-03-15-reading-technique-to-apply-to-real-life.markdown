@@ -39,6 +39,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 4. Facebooked やメルマガに書評、レビューを書く。
 
 ### 「本を読んだ」という定義
+
 - 内容を説明できること
 - 内容について議論できること
 
@@ -57,3 +58,10 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 「GO　WILD 野生の体を取り戻せ！科学が教えるトレイルラン、低炭水化物、マインドフルネス」
 
 {{% amazon 4140816619 %}}
+
+
+## Action Plan
+
+- [ ] ノートと鉛筆を持ち歩く
+- [x] Twitter, Instagram, MediaMarkerなどに感想を載せる
+- [ ] 簡単ではあるけどアウトプットしていくことで、自己肯定感を持つ（何にもできていない状態から脱却する）
