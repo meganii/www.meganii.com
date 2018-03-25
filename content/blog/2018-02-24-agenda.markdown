@@ -5,9 +5,9 @@ lastmod: 2018-02-24T21:56:16+09:00
 comments: true
 category: ['Tech']
 tags: ['agenda','nodejs']
-published: false
-slug: agenda
-img: 
+published: true
+slug: agenda-job-scheduling-for-nodejs
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
 ---
 
 Node.jsでジョブ管理をしたいとしたいときの調査結果。
@@ -37,3 +37,7 @@ Redis
 
 - [Node\.jsで使うJobQueueとcron型Scheduleのリソース \- Qiita](https://qiita.com/masato/items/fbe503dbf34e7cfd2fe3)
 
+
+## Action Plan
+
+- [x] Agendaでジョブスケジューリングを組む
