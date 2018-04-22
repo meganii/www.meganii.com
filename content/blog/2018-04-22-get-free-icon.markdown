@@ -5,9 +5,9 @@ lastmod: 2018-04-22T17:32:37+09:00
 comments: true
 category: ['Design']
 tags: ['icon','design']
-published: false
+published: true
 slug: get-free-icon
-img: 
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1524391676/Design_afc6hi.png"
 ---
 
 ちょっとしたデザインに使えるアイコン集のリンクです。
