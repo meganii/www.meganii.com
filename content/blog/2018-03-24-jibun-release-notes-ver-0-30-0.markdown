@@ -95,10 +95,8 @@ e.g.
 - [じぶん Release Notes (ver 0.33.11) - えいのうにっき](http://blog.a-know.me/entry/2016/03/08/220720)
     - じぶん Release Notesのやり方を参考にさせてもらいました
 - [イマドキの振り返り手法 \- YWT Release Note\(ver 0\.21\.8\) \- はっさんブログ](http://www.hassansan.me/entry/2016/11/01/093000)
-    - 
+- [じぶん Release Notes ver 0\.29\.03 \- Think \- g\.o\.a\.t](https://godgarden.goat.me/5TQFvknA)
 - [はてなインターンの振り返りをYWTを使ってやってみた \- だいくしー\(@daiksy\)のはてなブログ](https://daiksy.hatenablog.jp/entry/2016/10/31/080000)
-    - 
 - [Lv 1 \- てぃーびー 2017 年 1 月 冒険記録 \- 引っ越しとともに始まる旅 \- Tbpgr Blog](http://tbpgr.hatenablog.com/entry/2017/02/01/080000)
 - [Lv 2 \- てぃーびー 2017 年 2 月 冒険記録 \- 記録による可視化とその恩恵 \- Tbpgr Blog](http://tbpgr.hatenablog.com/entry/2017/03/01/080000)
     - 数値化して定量的に評価するって大事ですね
-
