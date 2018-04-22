@@ -59,25 +59,37 @@ e.g.
 
 ## Private
 - 30歳になってしまいました
+    - 目標は「健康大事」
 
 ## Input
 
 - 以下の本を読了
-    - 書くことについて
-    - 読書進化論
+    - [書くことについて](https://amzn.to/2HGBD8w)
+    - [読書進化論](https://amzn.to/2qRouzN)
     - [逆説のスタートアップ思考 \(中公新書ラクレ 578\) \| 馬田 隆明 \|本 \| 通販 \| Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4121505786/meganii-22/)
     - [フランス人は10着しか服を持たない~パリで学んだ“暮らしの質"を高める秘訣~ \| ジェニファー・L・スコット, 神崎 朗子 \|本 \| 通販 \| Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4479782990/meganii-22/)
     - [生命はなぜ生まれたのか―地球生物の起源の謎に迫る \(幻冬舎新書\) \| 高井 研 \|本 \| 通販 \| Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4344981987/meganii-22/ref=nosim)
     - [忘れる力 思考への知の条件 \| 外山 滋比古 \|本 \| 通販 \| Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/486581034X/meganii-22/)
 
+- Podcast「[rehash\.fm](http://rehash.fm/)」を新たに聴き始めた
+
 ## Output
 
-- 
+### Blog
+- [Botframeworkを利用してSlack botを作る \- SIS Lab](https://www.meganii.com/blog/2018/03/10/botframework-slack/)
+- [「読んだら忘れない読書術」 \- SIS Lab](https://www.meganii.com/blog/2018/03/15/reading-technique-to-apply-to-real-life/)
+
+
+## Events
+
+- 「 宇宙に命はあるのか」の出版イベントに参加
+    - [宇宙を目指して海を渡る　ＭＩＴで得た学び、ＮＡＳＡ転職を決めた理由](https://amzn.to/2HBXb6f)にサインいただく
 
 
 ## まとめ
 
-- 少しずつでも進んでいるという実感を得ることで、
+- 少しずつでも進んでいるという実感を得ることで、変な劣等感を感じずにしたい。じぶん推し大事。
+
 
 # 参考
 - [じぶん Release Notes (ver 0.33.11) - えいのうにっき](http://blog.a-know.me/entry/2016/03/08/220720)

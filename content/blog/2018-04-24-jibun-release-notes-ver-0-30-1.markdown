@@ -47,6 +47,9 @@ Monthly Reviewの代わりに
 
 - www.meganii.comにGoogle Adsense Auto Adsを導入
 
+- Fabcafeで3Dモデリングを体験
+
+- CloudGarageのDeveloper Assistant Program(DAP)申請が通り、VM 3台の運用スタート
 
 {{% quote %}}
 論文は、「新規性」が最も大事だが、アウトプットは「料理」と同じである。
@@ -59,6 +62,9 @@ Monthly Reviewの代わりに
 
 
 ## Events
+
+- [Global Azure Bootcamp 2018@Tokyo \- connpass](https://jazug.connpass.com/event/81865/)
+- [技術書典４ \| 技術書典](https://techbookfest.org/event/tbf04)
 
 # Action Plan
 
