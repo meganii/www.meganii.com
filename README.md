@@ -36,3 +36,9 @@ preload
 
 ## Jibun Release Notes
 "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1524315911/Release_Notes_nfcm5a.png"
+
+## Design
+"https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1524391676/Design_afc6hi.png"
+
+## Mobile
+"https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1524392324/Mobile_bvsi5k.png"
