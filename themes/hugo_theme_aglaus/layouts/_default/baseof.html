@@ -49,9 +49,6 @@
             layout="responsive">
           </amp-img>
         </a>
-        <!-- <div class="h-logo p-logo u-mt">
-          <a href="{{ .Site.BaseURL }}" class="h-logo">{{ .Site.Title }}</a>
-        </div> -->
         <div class="u-mt">
           {{ .Site.Params.description }}
         </div>
@@ -71,32 +68,41 @@
     {{ block "footer_before" . }}{{ end }}
 
     <footer class="l-footer">
-      <div class="l-container">
-        <div class="profile">
+      <div class="c-flex c-flex--footer">
+        <div class="c-col-3">
           <h1>Profile</h1>
-					<amp-img class="thumbnail" src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" width="60" height="60" layout="fixed"></amp-img>
-					{{ with .Site.Params.Twitter }}<p><a href="https://twitter.com/{{ . }}" target="_blank">@{{ . }}</a></p>{{ end }}
-					<p>{{ .Site.Params.profile }}</p>
+          <amp-img class="thumbnail" src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" width="60" height="60" layout="fixed"></amp-img>
+          {{ with .Site.Params.Twitter }}
+          <p><a href="https://twitter.com/{{ . }}" target="_blank">@{{ . }}</a></p>
+          {{ end }}
+          <p>{{ .Site.Params.profile }}</p>
         </div>
-        <div class="profile">
+        {{ $recent_articles := (where (where .Site.Pages ".Source.Path" "!=" .Source.Path) "IsPage" true) }}
+        <div class="c-col-3">
+          <h1>Latests</h1>
+          <ul class="c-tag__item">
+            {{ range first 3 $recent_articles }}<li>{{ .Render "li_ft" }}</li>{{ end }}
+          </ul>
+        </div>
+        <div class="c-col-3">
           <h1>Category</h1>
-          <ul class="footer-list footer-link">
+          <ul class="cloudtag">
           {{ $url := .Site.BaseURL }}
           {{ range $key, $value := .Site.Taxonomies.category }}
             {{ if ne $key "" }}
-            <li><a href="{{$url}}category/{{$key}}/">{{ title $key }}</a></li>
+            <li class="c-tag__item"><a href="{{$url}}category/{{$key}}/">{{ title $key }}</a></li>
             {{ end }}
           {{ end }}
         </div>
-        <div class="clearfix"></div>
+      </div>
+      <div class="p-copyright">
         <p>{{ with .Site.Copyright }}{{ . | safeHTML }}{{ else }}<span class="h-logo">&copy; {{ .Site.Title }}</span>{{ end }}</p>
         <aside>
-          <p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>
-          <p><a href="https://github.com/dim0627/hugo_theme_aglaus" class="h-logo">Aglaus</a> designed by <a href="http://yet.unresolved.xyz/">Daisuke Tsuji</a>.</p>
+          <p>Powered by <a href="https://gohugo.io/">Hugo</a>.  <a href="https://github.com/dim0627/hugo_theme_aglaus" class="h-logo">Aglaus</a> designed by <a href="http://yet.unresolved.xyz/">Daisuke Tsuji</a>.</p>
         </aside>
       </div>
+      
     </footer>
-
     <a href="#" class="p-movetop" title="ページ上部へ戻る" rel="nofollow"></a>
   </body>
 </html>
