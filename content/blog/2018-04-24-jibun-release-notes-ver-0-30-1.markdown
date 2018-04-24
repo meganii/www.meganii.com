@@ -5,7 +5,7 @@ lastmod: 2018-04-24T20:59:57+09:00
 comments: true
 category: ['Life']
 tags: ['Jibun Release Notes']
-published: false
+published: true
 slug: jibun-release-notes-ver-0-30-1
 img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1524315911/Release_Notes_nfcm5a.png
 ---
