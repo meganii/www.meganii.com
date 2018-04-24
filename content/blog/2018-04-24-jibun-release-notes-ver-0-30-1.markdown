@@ -21,9 +21,6 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100
 
 - FY2018が始まった
 
-
-## Private
-
 ## Input
 ### Podcast
 
@@ -54,6 +51,13 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100
     - 自分がモデリングしたモデルを現実世界に生成するのは面白い！
 - CloudGarageのDeveloper Assistant Program(DAP)申請が通り、VM 3台の運用スタート
     - Rancherによる運用に取り組む
+
+### Blog
+
+- [「読書進化論」を再読して読書後のアウトプットのヒントを得る \- SIS Lab](https://www.meganii.com/blog/2018/03/25/book-reading-evolution-theory/)
+- [Google Adsense Auto Adsを試す \- SIS Lab](https://www.meganii.com/blog/2018/04/14/google-adsense-auto-ads/)
+- [ScrapboxにAmazonの書影を取り込むブックマークレット \- SIS Lab](https://www.meganii.com/blog/2018/04/15/scrap-amazon-image-to-scrapbox/)
+- [ちょっとしたアイコンに使えるアイコン集 \- SIS Lab](https://www.meganii.com/blog/2018/04/22/get-free-icon/)
 
 ## Events
 
