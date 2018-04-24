@@ -39,6 +39,8 @@ e.g.
 
 ## Contents
 
+じぶんRelease Notesとしては、こんなことを書く予定。
+
 - Work 仕事の話
 - Private　プライベートの話
 - Events 参加イベント
