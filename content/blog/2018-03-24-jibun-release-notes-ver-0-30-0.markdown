@@ -1,5 +1,5 @@
 ---
-title: "じぶん Release Notes ver 0.30.0"
+title: "じぶん Release Notes (ver 0.30.0)"
 date: 2018-03-24T20:27:35+09:00
 lastmod: 2018-03-24T20:27:35+09:00
 comments: true
