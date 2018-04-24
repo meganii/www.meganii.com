@@ -1,5 +1,5 @@
 ---
-title: "Jibun Release Notes (ver 0.30.1)"
+title: "じぶん Release Notes (ver 0.30.1)"
 date: 2018-04-24T20:59:57+09:00
 lastmod: 2018-04-24T20:59:57+09:00
 comments: true
