@@ -29,10 +29,10 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100
 
 以下のPodcastを聴いた。
 
-- ajito.fm
+- [ajitofm](https://ajito.fm/)
     - @t_wadaさん回から聴き始めたのでナニコレ豪華！という感想
-- misreading.fm
-    - カジュアルに論文を読むという姿勢が素晴らしい。
+- [Misreading Chat – Nonsensical CS Paper Talk by Morrita and Mukai](https://misreading.chat/)
+    - カジュアルに論文を読むという姿勢が素晴らしい
 
 - どのPodcastか忘れてしまったのだが（たぶんajito.fm）以下のような言葉が印象深かった
     - 論文は「新規性」が最も大事だが、アウトプットは「料理」と同じである。
@@ -42,8 +42,8 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100
 
 以下の本を読了した。
 
-- Deep Work
-- 大局観
+- [大事なことに集中する―――気が散るものだらけの世界で生産性を最大化する科学的方法](https://amzn.to/2vEUSdH)
+- [大局観 自分と闘って負けない心](https://amzn.to/2FbOLgw)
 
 ## Output
 
