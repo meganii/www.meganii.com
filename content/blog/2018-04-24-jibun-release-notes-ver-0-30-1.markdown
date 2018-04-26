@@ -32,14 +32,19 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100
     - カジュアルに論文を読むという姿勢が素晴らしい
 
 - どのPodcastか忘れてしまったのだが（たぶんajito.fm）以下のような言葉が印象深かった
-    - 論文は「新規性」が最も大事だが、アウトプットは「料理」と同じである。
-    - オリジナルのレシピを作った人がいたとしても、そのレシピ通りにできたこと。少しアレンジを加えたことなどは、知見になり得る。
+    - 論文は「新規性」が最も大事だが、アウトプットは「料理」と同じである
+    - オリジナルのレシピを作った人がいたとしても、そのレシピ通りにできたこと。少しアレンジを加えたことなどは、知見になり得る
+    - 一番最初の人がもっとも尊くてそれ以外は価値がないという訳ではない
+    - 類似の情報発信であっても、今日情報発信することは大事
+- [ajito\.fm/23 を聴いて：「学びの話」「講演の話」 \- tamakiii](https://tamakiii.hatenablog.com/entry/ajitofm-23)でまとめてくださっているので読んでみるとよい
+
 
 ### Books
 
 以下の本を読了した。
 
 - [大事なことに集中する―――気が散るものだらけの世界で生産性を最大化する科学的方法](https://amzn.to/2vEUSdH)
+    - 普段から「シャロー・ワーク」の比重が高くて泣けてくる
 - [大局観 自分と闘って負けない心](https://amzn.to/2FbOLgw)
 
 ## Output
@@ -59,6 +64,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100
 - [ScrapboxにAmazonの書影を取り込むブックマークレット \- SIS Lab](https://www.meganii.com/blog/2018/04/15/scrap-amazon-image-to-scrapbox/)
 - [ちょっとしたアイコンに使えるアイコン集 \- SIS Lab](https://www.meganii.com/blog/2018/04/22/get-free-icon/)
 
+
 ## Events
 
 - [Global Azure Bootcamp 2018@Tokyo \- connpass](https://jazug.connpass.com/event/81865/)
@@ -68,6 +74,6 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100
 
 # Action Plan
 
-- [ ] Podcast => なんらかのアウトプットを残していく
+- [ ] Podcastを聴いたらなんらかのアウトプットを残していく
 - [ ] Google Adsense Auto Adsの効果測定
 - [ ] 技術書典4の感想を書く
