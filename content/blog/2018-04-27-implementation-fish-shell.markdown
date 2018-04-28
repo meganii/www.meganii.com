@@ -5,14 +5,14 @@ lastmod: 2018-04-27T06:37:42+09:00
 comments: true
 category: ['Tech']
 tags: ['fish','shell']
-published: false
+published: true
 slug: implementation-fish-shell
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
 ---
 
 ゴールデンウィークということで、環境周りを整備します。
 
-まずは、シェルの環境から！
+まずは、シェルの環境から！ Fishを導入します。
 
 <!--more-->
 {{% googleadsense %}}
