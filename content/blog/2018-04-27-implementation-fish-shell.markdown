@@ -27,7 +27,9 @@ fish, version 2.7.1
 
 ## Change Shell
 
-下記記事を読み、ログインシェルではなくiTerm2の設定で変更しました。
+- ログインシェルの変更ではなくiTerm2の設定や、VSCodeの設定で変更した
+
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1525181982/Change_shell_b80mlo.png" w="1030" h="680" alt="Change shell in iTerm2" %}}
 
 {{% quote %}}
 「homebrewでインストールしたfishにchshしていいのか?」というhsbtの指摘はその通りだと思ったので、同じようにterminal.appで設定することにした。ただ、そうするとtmuxが起動時に$SHELLで起動してしまうので、Mac用のtmux.confに以下の設定を入れたんだけどださい。なんかいい方法ないですか?  
@@ -53,7 +55,8 @@ curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fishe
 fisher omf/theme-agnoster
 ```
 
-記号を使っているらしく、powerlineのフォントがいるみたい。
+- テーマ`agnoster`は、特殊な記号を使っているらしく、powerlineのフォントが必要
+- 下記コマンドを実行してフォントをインストール
 
 ```
 ghq get https://github.com/powerline/fonts.git
@@ -61,12 +64,16 @@ cd powerline/fonts
 ./install.sh
 ```
 
+- インストールしたフォントをiTerm2の設定に反映
+
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1525181985/Change_font_i8vrez.png" w="1030" h="562" alt="Change font in iTerm2" %}}
+
+
 
 ## peco + ghq
 
 - 前提として、peco と ghqはインストール済
-
-`~/.config/fish/config.fish`に下記functionを追加した。
+- `~/.config/fish/config.fish`に下記functionを追加
 
 ```
 function fish_user_key_bindings
@@ -75,6 +82,29 @@ function fish_user_key_bindings
 end
 ```
 
+
+## VS Codeのターミナルの設定
+
+- settingsの下記項目を上書きすることで対応
+
+```json
+"terminal.integrated.shell.osx": "/usr/local/bin/fish",
+"terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+```
+
+- VS Code上でもfishで立ち上がってくる
+
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1525181585/terminal_in_VSCode_ccari2.png" w="1095" h="301" %}}
+
+
 ## Referece
 
+- [fish shellチュートリアル](http://fish.rubikitch.com/tutorial/)
 - [モダンなshell、fish を導入する \- 木木木](http://source.hatenadiary.jp/entry/2018/02/23/102037)
+- [fish shell を使いたい人生だった ｜ Developers\.IO](https://dev.classmethod.jp/etc/fish-shell-life/)
+- [ghq, peco, hubで快適Gitライフを手に入れよう！ \- Qiita](https://qiita.com/itkrt2y/items/0671d1f48e66f21241e2)
+- [詳解 fishでモダンなシェル環境の構築\(fish,tmux,powerline,peco,z,ghq,dracula\) \- Qiita](https://qiita.com/susieyy/items/ac2133e249f252dc9a34)
+- [fishを使いはじめた \| けんちゃんくんさんのWeb日記](https://diary.shu-cream.net/2018/02/20/hello-fish-shell.html)
+- [Configuration - Integrated Terminal in Visual Studio Code](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration)
+- [Terminal Display Settings - Integrated Terminal in Visual Studio Code](https://code.visualstudio.com/docs/editor/integrated-terminal#_terminal-display-settings)
+
