@@ -1,7 +1,7 @@
 ---
 title: "Fish Shell導入"
 date: 2018-04-27T06:37:42+09:00
-lastmod: 2018-04-27T06:37:42+09:00
+lastmod: 2018-05-07T23:37:42+09:00
 comments: true
 category: ['Tech']
 tags: ['fish','shell']
@@ -68,14 +68,83 @@ cd powerline/fonts
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1525181985/Change_font_i8vrez.png" w="1030" h="562" alt="Change font in iTerm2" %}}
 
+## rbenvのPATH
 
+```
+fisher rbenv
+```
+
+上記コマンドを実行すると、`~./.config/fish/conf.d/rbenv.fish`が生成され、その中に設定が記述される。
+
+
+~/.config/fish/conf.d/rbenv.fish
+
+```bash
+if not command -s rbenv > /dev/null
+    echo "rbenv: command not found. See https://github.com/rbenv/rbenv"
+    exit 1
+end
+
+set -l rbenv_root ''
+if test -z "$RBENV_ROOT"
+    set rbenv_root "$HOME/.rbenv"
+    set -x RBENV_ROOT "$HOME/.rbenv"
+else
+    set rbenv_root "$RBENV_ROOT"
+end
+
+set -x PATH $rbenv_root/shims $PATH
+set -x RBENV_SHELL fish
+if test ! -d "$rbenv_root/shims"; or test ! -d "$rbenv_root/versions"
+    command mkdir -p $rbenv_root/{shims,versions}
+end
+```
+
+## pyenv
+
+```
+fisher pyenv
+```
+
+上記コマンドを実行すると、`~./.config/fish/conf.d/pyenv.fish`が生成され、その中に設定が記述される。
+
+
+```bash
+if not command -s pyenv > /dev/null
+    echo "Install <github.com/yyuu/pyenv> to use 'pyenv'."
+    exit 1
+end
+
+set -l pyenv_root ""
+
+if test -z "$PYENV_ROOT"
+    set pyenv_root ~/.pyenv
+    set -x PYENV_ROOT "$pyenv_root"
+else
+    set pyenv_root "$PYENV_ROOT"
+end
+
+if status --is-login
+    set -x PATH "$pyenv_root/shims" $PATH
+    set -x PYENV_SHELL fish
+end
+command mkdir -p "$pyenv_root/"{shims,versions}
+```
+
+
+## nodebrew
+
+```bash
+set -x NODEBREW_ROOT /usr/local/var/nodebrew
+set -x PATH /usr/local/var/nodebrew/current/bin $PATH
+```
 
 ## peco + ghq
 
 - 前提として、peco と ghqはインストール済
 - `~/.config/fish/config.fish`に下記functionを追加
 
-```
+```bash
 function fish_user_key_bindings
   bind \cr 'peco_select_history (commandline -b)'
   bind \c] peco_select_ghq_repository
