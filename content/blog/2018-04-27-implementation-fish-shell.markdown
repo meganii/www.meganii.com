@@ -1,5 +1,5 @@
 ---
-title: "Fish Shell導入"
+title: "Fish Shellを導入しrbenv/pyenv/nodebrewのパスを通す"
 date: 2018-04-27T06:37:42+09:00
 lastmod: 2018-05-07T23:37:42+09:00
 comments: true
