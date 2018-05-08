@@ -10,10 +10,9 @@ slug: basic-auth-with-openfaas
 img: 
 ---
 
+OpenFaaS環境を導入できたはよいものの、インターネット上に素の状態で晒されるのはちょっと怖いので、認証方法を確認する。
+
 [Lock\-down OpenFaaS for the public Internet](https://blog.alexellis.io/lock-down-openfaas/)
-
-
-OpenFaaS環境を導入できたはよいものの、インターネット上に素の状態で晒されるのはちょっと怖いので、
 
 
 <!--more-->
