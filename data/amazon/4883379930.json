@@ -81,6 +81,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4883379930",
+      "ItemDimensions": {
+        "Weight": "176"
+      },
       "Label": "ソシム",
       "Languages": {
         "Language": {
@@ -89,6 +92,7 @@
         }
       },
       "Manufacturer": "ソシム",
+      "MPN": "43222-142610",
       "NumberOfPages": "432",
       "PackageDimensions": {
         "Height": "83",
@@ -96,6 +100,7 @@
         "Weight": "176",
         "Width": "717"
       },
+      "PartNumber": "43222-142610",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2015-08-31",
@@ -110,18 +115,13 @@
         "FormattedPrice": "￥ 3,456"
       },
       "LowestUsedPrice": {
-        "Amount": "2248",
+        "Amount": "1979",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,248"
+        "FormattedPrice": "￥ 1,979"
       },
-      "LowestCollectiblePrice": {
-        "Amount": "3200",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,200"
-      },
-      "TotalNew": "4",
-      "TotalUsed": "18",
-      "TotalCollectible": "1",
+      "TotalNew": "3",
+      "TotalUsed": "14",
+      "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -133,7 +133,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "BAg7SIaZb1ZmXo9Ag87jGkhB14HZZf9%2B3Z9WLUZjIaIbnxzPHikisjIltH43sk0ut7XDERLlOOywc1zjJpMbienV8QrYver0JhhNwS%2BKc98%3D",
+          "OfferListingId": "GubWlAIkSqb3UDQpmw9tvEgYLD6jtHxv%2BHtLi7T9D9D7Y2CiJ9L707mGmMUZNeFyahwu8QPARVLomvSDOrjxc2ck5pYd%2BXEqmRthpNQV7yE%3D",
           "Price": {
             "Amount": "3456",
             "CurrencyCode": "JPY",
@@ -159,7 +159,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 09:00:26 +0900",
+  "Lastmod": "2018-05-09 20:36:24 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/d11b963786836bf29f24bfd49fb51869/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/d11b963786836bf29f24bfd49fb51869/"

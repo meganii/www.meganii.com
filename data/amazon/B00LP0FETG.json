@@ -186,6 +186,7 @@
     "ItemAttributes": {
       "Binding": "ホーム&キッチン",
       "Brand": "T-fal (ティファール)",
+      "Color": "ピンク",
       "EAN": "3121042531035",
       "EANList": {
         "EANListElement": "3121042531035"
@@ -200,6 +201,9 @@
         "容量:270ml",
         "コード長:2m"
       ],
+      "ItemDimensions": {
+        "Weight": "311"
+      },
       "Label": "T-fal(ティファール)",
       "ListPrice": {
         "Amount": "8856",
@@ -224,50 +228,18 @@
       "Title": "ティファール スチームアイロン 「プリマグライド」 コード付き 特殊セラミック 2531 FV2531J3"
     },
     "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "5980",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 5,980"
-      },
-      "TotalNew": "3",
+      "TotalNew": "0",
       "TotalUsed": "0",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/B00LP0FETG?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00LP0FETG",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "AKSFyXTYiv0qDrdwO4W%2F%2F4Xg8xsCFdLWpZGCMG7eLqfyn%2FLzT3349IsLruxsPyQ32lJhjzvUOVhmPSGjCgWJ%2F9hVzOpFYlAs0HB6o8bKnkk4Ifa2cFKTfT36GzpaanGqtEBuwp%2F7xI9VK%2Bahz2wAIsnMHzPkFKa6",
-          "Price": {
-            "Amount": "5980",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 5,980"
-          },
-          "AmountSaved": {
-            "Amount": "2876",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,876"
-          },
-          "PercentageSaved": "32",
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        }
-      }
+      "TotalOffers": "0",
+      "TotalOfferPages": "0",
+      "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-03-25 09:02:46 +0900",
+  "Lastmod": "2018-05-09 20:38:47 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/148c23b86fcb8cf74ff7ca92efff7a27/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/148c23b86fcb8cf74ff7ca92efff7a27/"

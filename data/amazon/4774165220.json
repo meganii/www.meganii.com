@@ -116,6 +116,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4774165220",
+      "ItemDimensions": {
+        "Weight": "57"
+      },
       "Label": "技術評論社",
       "Languages": {
         "Language": {
@@ -124,6 +127,7 @@
         }
       },
       "Manufacturer": "技術評論社",
+      "MPN": "43222-126819",
       "NumberOfPages": "216",
       "PackageDimensions": {
         "Height": "87",
@@ -131,6 +135,7 @@
         "Weight": "57",
         "Width": "535"
       },
+      "PartNumber": "43222-126819",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2014-06-05",
@@ -140,17 +145,17 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1713",
+        "Amount": "1580",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,713"
+        "FormattedPrice": "￥ 1,580"
       },
       "LowestUsedPrice": {
-        "Amount": "498",
+        "Amount": "393",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 498"
+        "FormattedPrice": "￥ 393"
       },
-      "TotalNew": "3",
-      "TotalUsed": "18",
+      "TotalNew": "2",
+      "TotalUsed": "29",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -163,7 +168,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "n7GbB6xFux32orLl9wl9psKkkx9E4qCqIuv8ZdRG4CBRSDN%2FotKUFiu7PfCEUR%2F3k8lX6U7CQo2E%2FnGGKGEmQEOcrKL1L4Hdo28vI%2FGuXcQ%3D",
+          "OfferListingId": "txgccfBm7AbZCOxbA8jOqu2ZkH3T64BTF7jVAJtyk5GNQvSiyxD0Yw5XwEgDFZSZkjAZ9327fTfY4ozunYFiPi9Gvxa7cI6mMrpjWK9s3uc%3D",
           "Price": {
             "Amount": "1814",
             "CurrencyCode": "JPY",
@@ -189,7 +194,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 08:59:34 +0900",
+  "Lastmod": "2018-05-09 20:35:09 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/9c4319761b42de7a1ca6e4051c939f58/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/9c4319761b42de7a1ca6e4051c939f58/"

@@ -130,6 +130,7 @@
         }
       },
       "Manufacturer": "ダイヤモンド社",
+      "MPN": "43209-34745",
       "NumberOfPages": "320",
       "PackageDimensions": {
         "Height": "102",
@@ -138,6 +139,7 @@
         "Width": "520"
       },
       "PackageQuantity": "1",
+      "PartNumber": "43209-34745",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2013-01-24",
@@ -152,17 +154,17 @@
         "FormattedPrice": "￥ 1,143"
       },
       "LowestUsedPrice": {
-        "Amount": "306",
+        "Amount": "138",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 306"
+        "FormattedPrice": "￥ 138"
       },
       "LowestCollectiblePrice": {
         "Amount": "1290",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 1,290"
       },
-      "TotalNew": "11",
-      "TotalUsed": "79",
+      "TotalNew": "7",
+      "TotalUsed": "113",
       "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
@@ -175,11 +177,11 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "e3CBieIY8d5wHfFO2cvR%2BZ31%2B4pskmrYD%2BfPHkAttfSCIbV5T45%2FFxiwDYD%2FazpF81FhuFVJ9%2BrQFKIpe1PtkPALKYRUs6R9Xmt%2FoaRj5g0%3D",
+          "OfferListingId": "UYDAOBIZqFA6EqoBZZ%2BLlBuW%2Fg2Vbbcx%2B%2BeizPjJdEfHQvu9%2FQ5pv7sukUPnfB18RiSqavbj4gKJ1R1N9lMcW6nN9fno3wkrGJQAgwkb1eb%2BHxCqpUH9tJ3XHBwkm2JM%2FbhWftkcDkBuy3y0zmHvu%2F2EAAJjdvOn",
           "Price": {
-            "Amount": "1728",
+            "Amount": "1400",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,728"
+            "FormattedPrice": "￥ 1,400"
           },
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
@@ -189,19 +191,11 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "52",
-          "TypicalRedemptionValue": {
-            "Amount": "52",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 52"
-          }
         }
       }
     }
   },
-  "Lastmod": "2018-03-25 08:57:15 +0900",
+  "Lastmod": "2018-05-09 20:32:08 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/93cea00507bc409d2bbe49dc13ceabf9/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/93cea00507bc409d2bbe49dc13ceabf9/"

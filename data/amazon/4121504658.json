@@ -81,6 +81,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4121504658",
+      "ItemDimensions": {
+        "Weight": "0"
+      },
       "Label": "中央公論新社",
       "Languages": {
         "Language": {
@@ -110,11 +113,11 @@
         "FormattedPrice": "￥ 950"
       },
       "LowestUsedPrice": {
-        "Amount": "12",
+        "Amount": "1",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 12"
+        "FormattedPrice": "￥ 1"
       },
-      "TotalNew": "2",
+      "TotalNew": "1",
       "TotalUsed": "25",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
@@ -128,7 +131,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "YBSiHkzHVuXReDN9nIhQI3wRML2Gn7o3egp91Ie5V1cuJVu3rGSxySb%2F6mjv%2B3Y0WmsD6XciuuR3lrceITwq1p1C8FEmutTUMDxAkv0ggTo%3D",
+          "OfferListingId": "VN4dsUoP2RJZuCzMV8B5I3ubWwPoKy%2BwV67YckbVrEwSMdr7Ka6pNTs9YjHMLn1QN3SSSTr1WwXB%2FPQUSnC0rM9CIEHDgCGUq7UNsHBtWA8%3D",
           "Price": {
             "Amount": "950",
             "CurrencyCode": "JPY",
@@ -142,19 +145,11 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "29",
-          "TypicalRedemptionValue": {
-            "Amount": "29",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 29"
-          }
         }
       }
     }
   },
-  "Lastmod": "2018-03-25 09:03:47 +0900",
+  "Lastmod": "2018-05-09 20:39:57 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/53d5de99f343df67d1c3f7c9b105eb8f/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/53d5de99f343df67d1c3f7c9b105eb8f/"

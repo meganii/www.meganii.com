@@ -1,7 +1,7 @@
 {
   "Item": {
     "ASIN": "B01LZA2CQ6",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%81%8A%E4%B8%80%E4%BA%BA%E6%A7%981%E5%80%8B%E9%99%90%E3%82%8A-AZ%EF%BC%88%E3%82%A8%E3%83%BC%E3%82%BC%E3%83%83%E3%83%88%EF%BC%89-CBP-001-Power-%E3%83%91%E3%83%BC%E3%83%84%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC/dp/B01LZA2CQ6?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01LZA2CQ6",
+    "DetailPageURL": "https://www.amazon.co.jp/%E3%81%8A%E4%B8%80%E4%BA%BA%E6%A7%981%E5%80%8B%E9%99%90%E3%82%8A-AZ%EF%BC%88%E3%82%A8%E3%83%BC%E3%82%BC%E3%83%83%E3%83%88%EF%BC%89-CBP-001-%E3%83%91%E3%83%BC%E3%83%84%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC-AW804/dp/B01LZA2CQ6?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01LZA2CQ6",
     "ItemLinks": {
       "ItemLink": [
         {
@@ -156,13 +156,17 @@
       ]
     },
     "ItemAttributes": {
+      "Brand": "エーゼット",
       "EAN": "4960833804243",
       "EANList": {
         "EANListElement": "4960833804243"
       },
       "Label": "株式会社エーゼット",
       "Manufacturer": "株式会社エーゼット",
+      "Model": "AW804",
+      "MPN": "AW804",
       "PackageQuantity": "1",
+      "PartNumber": "AW804",
       "ProductGroup": "Automotive Parts and Accessories",
       "ProductTypeName": "AUTO_ACCESSORY",
       "Publisher": "株式会社エーゼット",
@@ -189,17 +193,17 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "O6xLVmbxKYQP34D5oOzi2MmTnj392ie4IdoNWtsv54WBLkvBMrFXnjeR8huOW6ERpVv5kgncsp0VVklNw4yE1LSAOw3TYutWB52eIoFAyZ4e%2FTbFiGYJQtMD6A06o548wLIWMPmWTdMDdBMdxNfz7cUtTgZNRCpE",
+          "OfferListingId": "7%2B%2BQ9yq%2FpWPb7yOhNf4DEUWMOQxXj6%2BN6pppQ7410hHd0NlSsUWT%2FdOoghEHchm7DbLLJN2PPKuNX7X3u92sO1CQETC135rhkOpWj9ZeS8IY0EUwJ6TyUgo30XeP%2BfQARRLtoef5SlCgi2i8skQX8v0UCblEhGcn",
           "Price": {
             "Amount": "198",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 198"
           },
-          "Availability": "通常2～3営業日以内に発送",
+          "Availability": "通常1～2営業日以内に発送",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "48",
-            "MaximumHours": "72"
+            "MinimumHours": "24",
+            "MaximumHours": "48"
           },
           "IsEligibleForSuperSaverShipping": "0",
           "IsEligibleForPrime": "0"
@@ -207,7 +211,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 09:04:51 +0900",
+  "Lastmod": "2018-05-09 20:41:43 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/c9f733f2950e96e2fa806d82b826b8c5/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/c9f733f2950e96e2fa806d82b826b8c5/"

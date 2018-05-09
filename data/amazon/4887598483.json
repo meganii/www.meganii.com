@@ -121,6 +121,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4887598483",
+      "ItemDimensions": {
+        "Weight": "66"
+      },
       "Label": "ディスカヴァー・トゥエンティワン",
       "Languages": {
         "Language": [
@@ -135,6 +138,7 @@
         ]
       },
       "Manufacturer": "ディスカヴァー・トゥエンティワン",
+      "MPN": "43209-41900",
       "NumberOfPages": "256",
       "PackageDimensions": {
         "Height": "87",
@@ -143,6 +147,7 @@
         "Width": "512"
       },
       "PackageQuantity": "1",
+      "PartNumber": "43209-41900",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2010-09-15",
@@ -166,8 +171,8 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 2,480"
       },
-      "TotalNew": "2",
-      "TotalUsed": "47",
+      "TotalNew": "3",
+      "TotalUsed": "46",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -180,11 +185,11 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "BNG1cznGcGcL%2FSyPKKXqJtPf2gt6YMq3YL5cHUsvDbHKW%2FsS%2F3eZIec22CifXDuvfLWaCaBzapu6vCZ%2Fn447Kl7Cgg9YKUgksQ8lwLNpOBA%3D",
+          "OfferListingId": "sP4ydQmpF1Xu0ZohoIPHt9hBrXURKRfYXsNZIpA5NO9BVwpx4%2B%2FSLf8D9BRaTFa8o1gLUAH99L9HbbjOLkCsj%2BYDPaKLjJNr1U1oQUNTnYjVkDUfR%2FST2iTjdgnS3aWmSJf%2F8Zi5xePlGCf1tlSWTg%3D%3D",
           "Price": {
-            "Amount": "1512",
+            "Amount": "1200",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,512"
+            "FormattedPrice": "￥ 1,200"
           },
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
@@ -194,19 +199,11 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "46",
-          "TypicalRedemptionValue": {
-            "Amount": "46",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 46"
-          }
         }
       }
     }
   },
-  "Lastmod": "2018-03-25 08:54:02 +0900",
+  "Lastmod": "2018-05-09 20:28:04 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/3c23fdd4c625036b6169f8707e030342/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/3c23fdd4c625036b6169f8707e030342/"

@@ -168,6 +168,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4152094338",
+      "ItemDimensions": {
+        "Weight": "0"
+      },
       "Label": "早川書房",
       "Languages": {
         "Language": {
@@ -197,12 +200,12 @@
         "FormattedPrice": "￥ 1,620"
       },
       "LowestUsedPrice": {
-        "Amount": "380",
+        "Amount": "489",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 380"
+        "FormattedPrice": "￥ 489"
       },
       "TotalNew": "1",
-      "TotalUsed": "12",
+      "TotalUsed": "23",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -215,7 +218,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "DJFYdJVXFxA%2F%2FNIsojMRz7a2hRYFFjpQ4JZcKS%2FYHUKPU1%2BU5gQMUHtKgru7rkU%2Bu%2FvIk29xiiIBDKUeRkNpPTxwasGXxpp%2FDksHhxrANrE%3D",
+          "OfferListingId": "e1BpEWTFgTkeMI%2FLldEU2iSM0O4HfSN8DyLXVZI1iGZhILoMcpVsZpEgy%2FhNmGOqRyVXgzto%2Fmh3LbA3mlF5h%2Bp0okPfQpOPDzj18AXN%2Ff0%3D",
           "Price": {
             "Amount": "1620",
             "CurrencyCode": "JPY",
@@ -241,7 +244,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 09:02:22 +0900",
+  "Lastmod": "2018-05-09 20:38:21 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/3059794bb1b66417a668ffab220d3739/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/3059794bb1b66417a668ffab220d3739/"

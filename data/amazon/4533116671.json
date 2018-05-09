@@ -109,18 +109,23 @@
       "Title": "るるぶスペイン'18 (るるぶ情報版海外)"
     },
     "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "800",
+      "LowestNewPrice": {
+        "Amount": "6429",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 800"
+        "FormattedPrice": "￥ 6,429"
+      },
+      "LowestUsedPrice": {
+        "Amount": "1288",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 1,288"
       },
       "LowestCollectiblePrice": {
         "Amount": "3199",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 3,199"
       },
-      "TotalNew": "0",
-      "TotalUsed": "6",
+      "TotalNew": "1",
+      "TotalUsed": "5",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -130,7 +135,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-03-25 09:01:25 +0900",
+  "Lastmod": "2018-05-09 20:37:20 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/adce12b378568e72c0c4d3cccdf3f03a/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/adce12b378568e72c0c4d3cccdf3f03a/"

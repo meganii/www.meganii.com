@@ -91,6 +91,7 @@
       "ItemDimensions": {
         "Height": "945",
         "Length": "197",
+        "Weight": "313",
         "Width": "748"
       },
       "Label": "オライリージャパン",
@@ -101,6 +102,7 @@
         }
       },
       "Manufacturer": "オライリージャパン",
+      "MPN": "43203-15825",
       "NumberOfPages": "840",
       "PackageDimensions": {
         "Height": "197",
@@ -109,6 +111,7 @@
         "Width": "748"
       },
       "PackageQuantity": "1",
+      "PartNumber": "43203-15825",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2012-08-10",
@@ -123,12 +126,12 @@
         "FormattedPrice": "￥ 4,536"
       },
       "LowestUsedPrice": {
-        "Amount": "2324",
+        "Amount": "2642",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,324"
+        "FormattedPrice": "￥ 2,642"
       },
       "TotalNew": "2",
-      "TotalUsed": "13",
+      "TotalUsed": "20",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -141,7 +144,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "2db1ZMkH0JReNJ55hrF1lPbnWnBfNENI2G3I7LlUHhEuVnGVZVB7MH%2BrJGZAW7hql83oHvp0yfJKAMxBTZWKXTfY7a5caYkDmGBGpa3zk0w%3D",
+          "OfferListingId": "5pcZQtUIdrOS8Xne0FoSfpCuCPspKkokrqM%2BXHXXmBb4gDP9IGi8qFXuzRZe2SiCcNPzV9Vy4ZDAgs4S5KlQ7Z5NSYHVXNCqtqQhSirIMeE%3D",
           "Price": {
             "Amount": "4536",
             "CurrencyCode": "JPY",
@@ -167,7 +170,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 08:56:59 +0900",
+  "Lastmod": "2018-05-09 20:31:45 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/4d852087e514f90eb9e803b938a2feab/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/4d852087e514f90eb9e803b938a2feab/"

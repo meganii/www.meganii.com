@@ -178,6 +178,11 @@
       "Brand": "GANZO(ガンゾ)",
       "Color": "ブラック",
       "Department": "メンズ",
+      "ListPrice": {
+        "Amount": "64800",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 64,800"
+      },
       "ProductGroup": "Shoes",
       "ProductTypeName": "BAG",
       "Title": "GANZO（ガンゾ）cordvan コードバン　折財布　ブラック"
@@ -194,10 +199,31 @@
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
+      "TotalOffers": "1",
+      "TotalOfferPages": "1",
+      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/B00A4AR8BU?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00A4AR8BU",
+      "Offer": {
+        "OfferAttributes": {
+          "Condition": "New"
+        },
+        "OfferListing": {
+          "OfferListingId": "LbMLOcuR6vWhE0yoB7XZSNKoGyI6ZPb%2FhOEOOAoDVpD77R12ce0gUPOhf7wJPfR2pec6ssmjaxkOMCVJzvLzLVzbthF8umN72yz1A3oYyrzqMviX0visWoEOpzoyWsR%2Boqz9ZZdnD77SLN2oZsdQ2Q%3D%3D",
+          "Price": {
+            "Amount": "64800",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 64,800"
+          },
+          "Availability": "通常2～3営業日以内に発送",
+          "AvailabilityAttributes": {
+            "AvailabilityType": "now",
+            "MinimumHours": "48",
+            "MaximumHours": "72"
+          },
+          "IsEligibleForSuperSaverShipping": "0",
+          "IsEligibleForPrime": "0"
+        }
+      }
     }
   },
-  "Lastmod": "2018-03-25 09:03:31 +0900"
+  "Lastmod": "2018-05-09 20:39:36 +0900"
 }

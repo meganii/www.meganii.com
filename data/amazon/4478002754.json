@@ -159,6 +159,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4478002754",
+      "ItemDimensions": {
+        "Weight": "57"
+      },
       "Label": "ダイヤモンド社",
       "Languages": {
         "Language": [
@@ -173,6 +176,7 @@
         ]
       },
       "Manufacturer": "ダイヤモンド社",
+      "MPN": "43209-48559",
       "NumberOfPages": "186",
       "PackageDimensions": {
         "Height": "79",
@@ -181,6 +185,7 @@
         "Width": "520"
       },
       "PackageQuantity": "1",
+      "PartNumber": "43209-48559",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2007-12-14",
@@ -190,22 +195,22 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1000",
+        "Amount": "1100",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,000"
+        "FormattedPrice": "￥ 1,100"
       },
       "LowestUsedPrice": {
-        "Amount": "1",
+        "Amount": "10",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1"
+        "FormattedPrice": "￥ 10"
       },
       "LowestCollectiblePrice": {
         "Amount": "248",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 248"
       },
-      "TotalNew": "3",
-      "TotalUsed": "112",
+      "TotalNew": "2",
+      "TotalUsed": "117",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -218,11 +223,11 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "OSN5Cj%2FUSaijFZZXw1Nk%2FJd2KtBdO8TRVtcgZHsmOFq6MwmyWvRdgjhThQVteOHcFa0vtGs7OGySQTJS17VHqMzDZJw7wptA",
+          "OfferListingId": "eJAi27iCYL9GC%2BuiwSzEISMxnGBGtAZoV6hMZdtHvTPY3a%2ByfuBm1WSd9J7D%2F8IFbDlqxLSjBwLTSmtOqyldugxaVorZ7cwTDB%2FmUaqx7Bbwlt2maW%2FAoSTiRaYiERTjX52yp1o6brAvGc5H2yXsCEpkR%2FtF42IV",
           "Price": {
-            "Amount": "1543",
+            "Amount": "1100",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,543"
+            "FormattedPrice": "￥ 1,100"
           },
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
@@ -232,19 +237,11 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "47",
-          "TypicalRedemptionValue": {
-            "Amount": "47",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 47"
-          }
         }
       }
     }
   },
-  "Lastmod": "2018-03-25 08:54:11 +0900",
+  "Lastmod": "2018-05-09 20:28:19 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/bd724e34d39214961e74e727e7463a3a/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/bd724e34d39214961e74e727e7463a3a/"

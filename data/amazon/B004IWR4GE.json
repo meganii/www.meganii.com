@@ -175,6 +175,9 @@
       ],
       "IsAutographed": "0",
       "IsMemorabilia": "0",
+      "ItemDimensions": {
+        "Weight": "1305"
+      },
       "Label": "コールマン(Coleman)",
       "ListPrice": {
         "Amount": "21384",
@@ -201,11 +204,11 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "17013",
+        "Amount": "15859",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 17,013"
+        "FormattedPrice": "￥ 15,859"
       },
-      "TotalNew": "16",
+      "TotalNew": "13",
       "TotalUsed": "0",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
@@ -219,31 +222,31 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "ClUQ7KzsL%2F0X%2B4N4O3XuUMYa2nk4KkX7VQj%2FFpywdNwV6h4RY0duuCvuGU4DUvDZNr%2BasiwDF2RiNgc%2BXi3i7lQM2SAISWgsYxPE2liXtXU%3D",
+          "OfferListingId": "7DMgXYlub%2B1hj3oox0buNHLjF2tRT3gnuV93RhmgyWG6i4vJiL8VGlGtRxot5xitLPsERPp0%2FxjvfModLavWhPhtSM50gjWRTKS2LIXveGBpXsEzTnhOP3MxygoblUSlMDWa0zne9%2F5N6OnqRqj5bgEwIZGdfcd1",
           "Price": {
-            "Amount": "17013",
+            "Amount": "19799",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 17,013"
+            "FormattedPrice": "￥ 19,799"
           },
           "AmountSaved": {
-            "Amount": "4371",
+            "Amount": "1585",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 4,371"
+            "FormattedPrice": "￥ 1,585"
           },
-          "PercentageSaved": "20",
-          "Availability": "在庫あり。",
+          "PercentageSaved": "7",
+          "Availability": "通常3～4営業日以内に発送",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
+            "MinimumHours": "72",
+            "MaximumHours": "96"
           },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
+          "IsEligibleForSuperSaverShipping": "0",
+          "IsEligibleForPrime": "0"
         }
       }
     }
   },
-  "Lastmod": "2018-03-25 08:58:40 +0900",
+  "Lastmod": "2018-05-09 20:34:09 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/8b7908a43be99c914493780f6265ffcc/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/8b7908a43be99c914493780f6265ffcc/"

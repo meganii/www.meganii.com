@@ -83,6 +83,9 @@
       "Edition": "改訂",
       "IsAdultProduct": "0",
       "ISBN": "4274067939",
+      "ItemDimensions": {
+        "Weight": "26"
+      },
       "Label": "オーム社",
       "Languages": {
         "Language": {
@@ -91,6 +94,7 @@
         }
       },
       "Manufacturer": "オーム社",
+      "MPN": "43222-120334",
       "NumberOfPages": "200",
       "PackageDimensions": {
         "Height": "63",
@@ -99,6 +103,7 @@
         "Width": "583"
       },
       "PackageQuantity": "1",
+      "PartNumber": "43222-120334",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2010-02-26",
@@ -113,12 +118,12 @@
         "FormattedPrice": "￥ 2,592"
       },
       "LowestUsedPrice": {
-        "Amount": "716",
+        "Amount": "835",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 716"
+        "FormattedPrice": "￥ 835"
       },
       "TotalNew": "2",
-      "TotalUsed": "21",
+      "TotalUsed": "20",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -131,7 +136,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "on39BgCjLLJsSRQ3XVDkBTOcqyF4iQx4YG%2FzlYWRxLXwAlwuGA%2F83aRFIXxuQBBa7tbME%2FJgxMP7fiJxDSlhbpK5kfcZqXveTxq9rThOVLE%3D",
+          "OfferListingId": "8iN9QclLlm0bwbaAukbY4Q3tYZXsDQPUEkZEZciYPuDOlXqVFP%2BtJvspNmowOGIKkejiDtbZpDpa9%2BPVltMR64knwf0V7k6FiLI5lpJJUpw%3D",
           "Price": {
             "Amount": "2592",
             "CurrencyCode": "JPY",
@@ -157,7 +162,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 08:51:20 +0900",
+  "Lastmod": "2018-05-09 20:36:49 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/293296be217306062f765246f05a735a/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/293296be217306062f765246f05a735a/"

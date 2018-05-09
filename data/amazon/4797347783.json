@@ -131,6 +131,9 @@
       "Edition": "2",
       "IsAdultProduct": "0",
       "ISBN": "4797347783",
+      "ItemDimensions": {
+        "Weight": "289"
+      },
       "Label": "SBクリエイティブ",
       "Languages": {
         "Language": [
@@ -145,6 +148,7 @@
         ]
       },
       "Manufacturer": "SBクリエイティブ",
+      "MPN": "43209-2245",
       "NumberOfPages": "712",
       "PackageDimensions": {
         "Height": "150",
@@ -152,6 +156,7 @@
         "Weight": "287",
         "Width": "724"
       },
+      "PartNumber": "43209-2245",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2008-07-01",
@@ -166,12 +171,12 @@
         "FormattedPrice": "￥ 6,264"
       },
       "LowestUsedPrice": {
-        "Amount": "7515",
+        "Amount": "4708",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 7,515"
+        "FormattedPrice": "￥ 4,708"
       },
       "TotalNew": "2",
-      "TotalUsed": "4",
+      "TotalUsed": "9",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -184,7 +189,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "UrXf54Da1n0TPc2EJ2ImDD4mvJnJrBDU2gg7RLM9tPmuJcFxS3UeUuZ6rNgcIT6wEhVnWW9cU3eG8b4JuXGJ2AtkywmjqXB9",
+          "OfferListingId": "78JtNP3yPx3JKFLYf%2FM3chm7j7Q5y8oI8fXNJb9nodqFlD6%2BsM4YTllvQggmtU6LUkK9lIo%2FD7PGmI3xypKz%2FkTeYl9evmEu",
           "Price": {
             "Amount": "6264",
             "CurrencyCode": "JPY",
@@ -210,7 +215,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 08:59:50 +0900",
+  "Lastmod": "2018-05-09 20:35:37 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/d30796f09dad18d067d470f69ddb32bb/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/d30796f09dad18d067d470f69ddb32bb/"

@@ -164,9 +164,6 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4763134507",
-      "ItemDimensions": {
-        "Weight": "132"
-      },
       "Label": "サンマーク出版",
       "Languages": {
         "Language": {
@@ -196,17 +193,17 @@
         "FormattedPrice": "￥ 1,333"
       },
       "LowestUsedPrice": {
-        "Amount": "90",
+        "Amount": "64",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 90"
+        "FormattedPrice": "￥ 64"
       },
       "LowestCollectiblePrice": {
         "Amount": "3499",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 3,499"
       },
-      "TotalNew": "5",
-      "TotalUsed": "56",
+      "TotalNew": "4",
+      "TotalUsed": "61",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -219,7 +216,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "%2FyAo%2FZSmakaOA0eUrBoSTbw5eDte4DrmEDbtjt8A%2B6riVO2i6Tu1gCR0%2BMI2apSUXrSl7qQQM6iBfibqRs6z9%2BGcWMRAOxSu5mpNZuHtcIw%3D",
+          "OfferListingId": "8LGst7JYJGfXkDcbrwThTF1G6Ds31pCTvNVKuvC%2Bbe66feWRRMjqCQo28FO%2FDkwaApCPOOta9y9oJuK1jSUA85OQ%2F7dl%2F9PEKEtWiP%2FktRg%3D",
           "Price": {
             "Amount": "1620",
             "CurrencyCode": "JPY",
@@ -245,7 +242,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 09:05:25 +0900",
+  "Lastmod": "2018-05-09 20:42:38 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/f517089b68727a1eae40fc79bd8fea8f/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/f517089b68727a1eae40fc79bd8fea8f/"

@@ -92,6 +92,9 @@
         "サイズ:US3~11(21~29cm)",
         "素材:アッパー/スエードレザー"
       ],
+      "ItemDimensions": {
+        "Weight": "119"
+      },
       "Label": "FIVE TEN(ファイブテン)",
       "ListPrice": {
         "Amount": "15660",
@@ -122,7 +125,7 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 15,660"
       },
-      "TotalNew": "2",
+      "TotalNew": "1",
       "TotalUsed": "0",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
@@ -136,25 +139,25 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "0zt%2Bn%2FuJ4KOIenMccDEglbpkMp0FYrzOZQSkhWiMacwV0OoHvFtL%2BeTLyNEq%2F5gveAL%2FXNJNAjWbvP6ciyvdlbC5pj5FYkJKBwTJ8CqGAcY%3D",
+          "OfferListingId": "370Qrn5rbwfDzkGWVgvgGTwxrOUfrhrotEzl4kQY%2FRtJRqEsejquUxhmt4calEiTyXExmopBAyUmMMwscClVP5zmD6M4FquQOAvrCQpRuwQG5EUGNPItbMRKQ9p8SWel1yR1%2Be75mZtt9u7KSPR89nqPfS9lKXHP",
           "Price": {
             "Amount": "15660",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 15,660"
           },
-          "Availability": "在庫あり。",
+          "Availability": "通常3～4営業日以内に発送",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
+            "MinimumHours": "72",
+            "MaximumHours": "96"
           },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
+          "IsEligibleForSuperSaverShipping": "0",
+          "IsEligibleForPrime": "0"
         }
       }
     }
   },
-  "Lastmod": "2018-03-25 08:54:32 +0900",
+  "Lastmod": "2018-05-09 20:28:24 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/2cc688652bb46c46895ebb8c1fabf74a/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/2cc688652bb46c46895ebb8c1fabf74a/"

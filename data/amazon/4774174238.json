@@ -97,6 +97,9 @@
       "Edition": "改訂新版;第2",
       "IsAdultProduct": "0",
       "ISBN": "4774174238",
+      "ItemDimensions": {
+        "Weight": "71"
+      },
       "Label": "技術評論社",
       "Languages": {
         "Language": {
@@ -105,6 +108,7 @@
         }
       },
       "Manufacturer": "技術評論社",
+      "MPN": "43206-46319",
       "NumberOfPages": "384",
       "PackageDimensions": {
         "Height": "102",
@@ -112,6 +116,7 @@
         "Weight": "71",
         "Width": "583"
       },
+      "PartNumber": "43206-46319",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2015-06-10",
@@ -126,12 +131,12 @@
         "FormattedPrice": "￥ 14,295"
       },
       "LowestUsedPrice": {
-        "Amount": "720",
+        "Amount": "1023",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 720"
+        "FormattedPrice": "￥ 1,023"
       },
       "TotalNew": "2",
-      "TotalUsed": "14",
+      "TotalUsed": "11",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -141,7 +146,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-03-25 09:02:32 +0900",
+  "Lastmod": "2018-05-09 20:38:35 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/ffb9688e2f631a0c78c6c057ac19f21a/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/ffb9688e2f631a0c78c6c057ac19f21a/"

@@ -126,6 +126,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4627847114",
+      "ItemDimensions": {
+        "Weight": "95"
+      },
       "Label": "森北出版",
       "Languages": {
         "Language": {
@@ -134,6 +137,7 @@
         }
       },
       "Manufacturer": "森北出版",
+      "MPN": "43223-142147",
       "NumberOfPages": "248",
       "PackageDimensions": {
         "Height": "71",
@@ -141,6 +145,7 @@
         "Weight": "93",
         "Width": "598"
       },
+      "PartNumber": "43223-142147",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2007-10-01",
@@ -149,13 +154,18 @@
       "Title": "フリーソフトでつくる音声認識システム パターン認識・機械学習の初歩から対話システムまで"
     },
     "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "558",
+      "LowestNewPrice": {
+        "Amount": "9264",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 558"
+        "FormattedPrice": "￥ 9,264"
       },
-      "TotalNew": "0",
-      "TotalUsed": "24",
+      "LowestUsedPrice": {
+        "Amount": "1440",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 1,440"
+      },
+      "TotalNew": "2",
+      "TotalUsed": "20",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -165,7 +175,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-03-25 09:03:24 +0900",
+  "Lastmod": "2018-05-09 20:39:24 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/f51c42a967d878f2425a994f80c5c542/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/f51c42a967d878f2425a994f80c5c542/"

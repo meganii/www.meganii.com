@@ -133,6 +133,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4140816589",
+      "ItemDimensions": {
+        "Weight": "84"
+      },
       "Label": "NHK出版",
       "Languages": {
         "Language": {
@@ -162,9 +165,9 @@
         "FormattedPrice": "￥ 1,728"
       },
       "LowestUsedPrice": {
-        "Amount": "935",
+        "Amount": "988",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 935"
+        "FormattedPrice": "￥ 988"
       },
       "LowestCollectiblePrice": {
         "Amount": "3799",
@@ -185,7 +188,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "YULl1qv0so%2Fcx9w0d7rnb1ySarZtvYob9HYwMZb5%2FJDamAnlGgGCmBTyoIv2R9Q2sdYQuvvZpY7ToOG3Gc%2FvOc%2BqqsECWeS%2FOCuzWatIBUk%3D",
+          "OfferListingId": "%2FNHJNkKSXkS%2FkrDOK%2Fojew6sKy1sRpQLk6qFibd%2FMDQoZdLMd7kN01TDK15OKKBwNCzdodJMQmttTS%2FPnkMAmIxkv79Uug%2F0%2FBsnIm%2F1XKs%3D",
           "Price": {
             "Amount": "1728",
             "CurrencyCode": "JPY",
@@ -199,19 +202,11 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "52",
-          "TypicalRedemptionValue": {
-            "Amount": "52",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 52"
-          }
         }
       }
     }
   },
-  "Lastmod": "2018-03-25 09:03:55 +0900",
+  "Lastmod": "2018-05-09 20:40:02 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/dfeb115f1f69d82a4c74398f9d6170a2/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/dfeb115f1f69d82a4c74398f9d6170a2/"

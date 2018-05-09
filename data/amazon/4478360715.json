@@ -81,8 +81,12 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4478360715",
+      "ItemDimensions": {
+        "Weight": "0"
+      },
       "Label": "ダイヤモンド社",
       "Manufacturer": "ダイヤモンド社",
+      "MPN": "43209-55338",
       "NumberOfPages": "353",
       "PackageDimensions": {
         "Height": "118",
@@ -91,6 +95,7 @@
         "Width": "520"
       },
       "PackageQuantity": "1",
+      "PartNumber": "43209-55338",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2004-11-12",
@@ -100,17 +105,17 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1000",
+        "Amount": "1728",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,000"
+        "FormattedPrice": "￥ 1,728"
       },
       "LowestUsedPrice": {
-        "Amount": "550",
+        "Amount": "159",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 550"
+        "FormattedPrice": "￥ 159"
       },
-      "TotalNew": "3",
-      "TotalUsed": "19",
+      "TotalNew": "1",
+      "TotalUsed": "25",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -123,7 +128,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "LnomSIKnKILZ887Pl9979KvDGTjtKcv6cvY2bJADOVQmGIDxQxOuGSEHDV9%2BwD1Csbr35HoKqlYkq%2F9t731TwC6GIbnetJaraT9HRG6mxKk%3D",
+          "OfferListingId": "0aIv2v8vD80muLTnpqv1cZTXCBIyBHkHK2wjAboZhB5OdHAn7NUEBNCkfXuyGt9rWMSImO7M7cuQgRfrBTvc7FrEM5plPBMwLCd0Q8Vj6ZI%3D",
           "Price": {
             "Amount": "1728",
             "CurrencyCode": "JPY",
@@ -149,7 +154,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 08:56:02 +0900",
+  "Lastmod": "2018-05-09 20:30:39 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/c1eb7a8e714fd5c67b1753dad31fa9c1/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/c1eb7a8e714fd5c67b1753dad31fa9c1/"

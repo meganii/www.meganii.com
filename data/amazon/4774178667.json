@@ -89,6 +89,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4774178667",
+      "ItemDimensions": {
+        "Weight": "84"
+      },
       "Label": "技術評論社",
       "Languages": {
         "Language": {
@@ -97,6 +100,7 @@
         }
       },
       "Manufacturer": "技術評論社",
+      "MPN": "43222-99154",
       "NumberOfPages": "304",
       "PackageDimensions": {
         "Height": "71",
@@ -104,6 +108,7 @@
         "Weight": "84",
         "Width": "587"
       },
+      "PartNumber": "43222-99154",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2016-01-16",
@@ -122,8 +127,8 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 1,931"
       },
-      "TotalNew": "4",
-      "TotalUsed": "8",
+      "TotalNew": "3",
+      "TotalUsed": "7",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -136,7 +141,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "CjDoOaO6J97OLYvyH3xkvJhjMBBabCPRZJuJKR7FkUgpS0O%2F4cxK77tlAqcKIPKL0Mf8NEBOL11YL2%2FlpLXdToENZAEApPpRldvtltDF5o8%3D",
+          "OfferListingId": "tXWDSL9UYm77iq0qsXBu%2FTTudJnGhkW%2BNghRmX5V30K9HyaR3vV0VuEhEdbgr6t05Srrq%2B2nEjgQOzdnJFOpKc6pN%2B4kuwN%2BTJlyPG1PXN0%3D",
           "Price": {
             "Amount": "2992",
             "CurrencyCode": "JPY",
@@ -162,7 +167,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 09:00:15 +0900",
+  "Lastmod": "2018-05-09 20:36:12 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/2540c3c4d28c99d649ace4b08401f0c9/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/2540c3c4d28c99d649ace4b08401f0c9/"

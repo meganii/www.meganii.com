@@ -345,6 +345,9 @@
       "Edition": "第2",
       "IsAdultProduct": "0",
       "ISBN": "4861009189",
+      "ItemDimensions": {
+        "Weight": "163"
+      },
       "Label": "ビー・エヌ・エヌ新社",
       "Languages": {
         "Language": {
@@ -353,6 +356,7 @@
         }
       },
       "Manufacturer": "ビー・エヌ・エヌ新社",
+      "MPN": "43206-55262",
       "NumberOfPages": "288",
       "PackageDimensions": {
         "Height": "102",
@@ -360,6 +364,7 @@
         "Weight": "163",
         "Width": "717"
       },
+      "PartNumber": "43206-55262",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2014-04-11",
@@ -369,18 +374,23 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "23529",
+        "Amount": "26514",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 23,529"
+        "FormattedPrice": "￥ 26,514"
       },
       "LowestUsedPrice": {
-        "Amount": "9982",
+        "Amount": "7917",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 9,982"
+        "FormattedPrice": "￥ 7,917"
+      },
+      "LowestCollectiblePrice": {
+        "Amount": "8172",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 8,172"
       },
       "TotalNew": "1",
-      "TotalUsed": "4",
-      "TotalCollectible": "0",
+      "TotalUsed": "8",
+      "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -389,7 +399,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-03-25 08:55:03 +0900",
+  "Lastmod": "2018-05-09 20:29:09 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/7be238edf2063f02489642a03d01e2a6/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/7be238edf2063f02489642a03d01e2a6/"

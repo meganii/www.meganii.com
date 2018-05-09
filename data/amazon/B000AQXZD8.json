@@ -1,7 +1,8 @@
 {
   "Item": {
     "ASIN": "B000AQXZD8",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%83%97%E3%83%AA%E3%83%A0%E3%82%B9-PRIMUS-IP-2245A-S-%E3%83%A9%E3%83%B3%E3%82%BF%E3%83%B3%E3%80%90%E6%97%A5%E6%9C%AC%E6%AD%A3%E8%A6%8F%E5%93%81%E3%80%91/dp/B000AQXZD8?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B000AQXZD8",
+    "ParentASIN": "B01N6IM6DT",
+    "DetailPageURL": "https://www.amazon.co.jp/%E3%83%97%E3%83%AA%E3%83%A0%E3%82%B9-PRIMUS-IP-2245A-S-%E3%83%A9%E3%83%B3%E3%82%BF%E3%83%B3%E3%80%90%E6%97%A5%E6%9C%AC%E6%AD%A3%E8%A6%8F%E5%93%81%E3%80%91/dp/B000AQXZD8?psc=1&SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B000AQXZD8",
     "ItemLinks": {
       "ItemLink": [
         {
@@ -121,11 +122,15 @@
           "IP-2245A-S"
         ]
       },
-      "Color": "マルチ",
+      "Color": "無",
+      "Creator": "0",
       "Department": "ユニセックス",
-      "EAN": "4901140300165",
+      "EAN": "2600126538678",
       "EANList": {
-        "EANListElement": "4901140300165"
+        "EANListElement": [
+          "2600126538678",
+          "4901140300165"
+        ]
       },
       "Feature": [
         "原産国:エストニア",
@@ -159,23 +164,23 @@
       "ProductTypeName": "SPORTING_GOODS",
       "Publisher": "プリムス(PRIMUS)",
       "ReleaseDate": "2012-04-17",
-      "Size": "One Size",
+      "Size": "ＦＦ",
       "Studio": "プリムス(PRIMUS)",
       "Title": "PRIMUS(プリムス) IP-2245A-S ランタン【日本正規品】"
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "9275",
+        "Amount": "9088",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 9,275"
+        "FormattedPrice": "￥ 9,088"
       },
       "LowestUsedPrice": {
-        "Amount": "8665",
+        "Amount": "8660",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 8,665"
+        "FormattedPrice": "￥ 8,660"
       },
       "TotalNew": "25",
-      "TotalUsed": "1",
+      "TotalUsed": "2",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -188,18 +193,18 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "lKwECXs%2Fpk16jPYgrbwE0%2FYYxNmOemMDoOCT%2F7x46NrRbDrmCcMj9k7M%2BFXE6UrMus9Q4%2B2ugYPRZBhsr9qXY1ue5vSeVaEW",
+          "OfferListingId": "VMXoKxYIuU7YtyAvfnv4tUmR%2FY0IVuvESDqndzuOtRjz7VOAlCEWyxiY674FpqyQeBNkX5B%2ByjvnFG124oHLqopyemBx8Dnb",
           "Price": {
-            "Amount": "9275",
+            "Amount": "9088",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 9,275"
+            "FormattedPrice": "￥ 9,088"
           },
           "AmountSaved": {
-            "Amount": "2065",
+            "Amount": "2252",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,065"
+            "FormattedPrice": "￥ 2,252"
           },
-          "PercentageSaved": "18",
+          "PercentageSaved": "20",
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
@@ -212,12 +217,12 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 08:58:56 +0900",
+  "Lastmod": "2018-05-09 20:34:24 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/66afdd66f36f4a8da28bf52ee0c29fee/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/66afdd66f36f4a8da28bf52ee0c29fee/"
   },
   "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=4901140300165"
+    "productUrl": "https://shopping.yahoo.co.jp/search?p=2600126538678"
   }
 }

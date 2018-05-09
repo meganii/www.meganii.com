@@ -81,6 +81,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4583045654",
+      "ItemDimensions": {
+        "Weight": "0"
+      },
       "Label": "ベースボールマガジン社",
       "Languages": {
         "Language": {
@@ -111,12 +114,12 @@
         "FormattedPrice": "￥ 2,160"
       },
       "LowestUsedPrice": {
-        "Amount": "7",
+        "Amount": "200",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 7"
+        "FormattedPrice": "￥ 200"
       },
       "TotalNew": "1",
-      "TotalUsed": "22",
+      "TotalUsed": "17",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -129,7 +132,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "QLNX%2BBJgHdutBfBlmScGmjaIgV3Cp%2B6FuzAZekPFIcVtTkpK3PfF%2BjOf4K0Mj9i7h3Ne4XYnpOfbpMA7CO0aSj2E7UvgEp%2BI",
+          "OfferListingId": "rfjg7pfqaRb6KxCWO1KYhOP6zJaSwW1yF5oAqQcoIbJGsaNs5EcTUxa0G3Sg99DShS4%2BJc9c%2FQfX6CGvhNz0bTIANRnJxteT",
           "Price": {
             "Amount": "2160",
             "CurrencyCode": "JPY",
@@ -145,17 +148,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "21",
+          "Points": "20",
           "TypicalRedemptionValue": {
-            "Amount": "21",
+            "Amount": "20",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 21"
+            "FormattedPrice": "￥ 20"
           }
         }
       }
     }
   },
-  "Lastmod": "2018-03-25 08:55:24 +0900",
+  "Lastmod": "2018-05-09 20:29:42 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/9367035502c7f24595bbe1df1a26b64a/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/9367035502c7f24595bbe1df1a26b64a/"

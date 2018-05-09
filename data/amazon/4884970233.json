@@ -89,6 +89,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4884970233",
+      "ItemDimensions": {
+        "Weight": "75"
+      },
       "Label": "東急エージェンシー出版部",
       "Languages": {
         "Language": [
@@ -125,18 +128,18 @@
         "FormattedPrice": "￥ 1,572"
       },
       "LowestUsedPrice": {
-        "Amount": "946",
+        "Amount": "470",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 946"
+        "FormattedPrice": "￥ 470"
       },
       "LowestCollectiblePrice": {
-        "Amount": "1047",
+        "Amount": "2122",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,047"
+        "FormattedPrice": "￥ 2,122"
       },
       "TotalNew": "1",
-      "TotalUsed": "27",
-      "TotalCollectible": "3",
+      "TotalUsed": "31",
+      "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -148,7 +151,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "HBXpFQzGUJbSSIwuppSyVWpIKcWIPYyDZMiU7C2a7xFRt5cB9AF%2FzxGysBEvl0bNPhzvmPXmKY133m8gye8mYUCpcY2aC9c89%2BijxaqnuXM%3D",
+          "OfferListingId": "UlXC4HQ8t7ir2sQ6kOEm3MQzkFxPW0pXh1SrJL1rzsanHiiDkZIsHII4KdLTMnDmbzZnYhDtgpuPhYgLoCfP0clEYcIJgxTc4mKc3K64jnY%3D",
           "Price": {
             "Amount": "1572",
             "CurrencyCode": "JPY",
@@ -162,19 +165,11 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "48",
-          "TypicalRedemptionValue": {
-            "Amount": "48",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 48"
-          }
         }
       }
     }
   },
-  "Lastmod": "2018-03-25 08:59:24 +0900",
+  "Lastmod": "2018-05-09 20:35:01 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/896de12dcca302f4a49ce538a339dd0e/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/896de12dcca302f4a49ce538a339dd0e/"

@@ -85,6 +85,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4844380605",
+      "ItemDimensions": {
+        "Weight": "154"
+      },
       "Label": "インプレス",
       "Languages": {
         "Language": {
@@ -93,6 +96,7 @@
         }
       },
       "Manufacturer": "インプレス",
+      "MPN": "43223-99119",
       "NumberOfPages": "456",
       "PackageDimensions": {
         "Height": "110",
@@ -100,6 +104,7 @@
         "Weight": "154",
         "Width": "472"
       },
+      "PartNumber": "43223-99119",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2016-06-30",
@@ -115,17 +120,17 @@
         "FormattedPrice": "￥ 4,320"
       },
       "LowestUsedPrice": {
-        "Amount": "3055",
+        "Amount": "2480",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,055"
+        "FormattedPrice": "￥ 2,480"
       },
       "LowestCollectiblePrice": {
         "Amount": "9980",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 9,980"
       },
-      "TotalNew": "5",
-      "TotalUsed": "19",
+      "TotalNew": "3",
+      "TotalUsed": "24",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -138,7 +143,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "037i8tMJZEPuPLRZYaa8reHv333vzDhw82AdhPvYQrhDWRcD13hLU1rYikeAuqX%2B5FZ2IOV62byvVCqMUMANCDOyE11I35pNU%2Fo02HDuPHU%3D",
+          "OfferListingId": "AnMHs5X%2FsMp5Jmv5VsJed7FCcDlmyxKdrajxf9F40%2FQ5YgmkSjmIfzWRzZyTxHlPm6U9uZjFh2I8JYEWeNvQgHr%2BvU9%2BKXIjZDO%2B%2FeAThoo%3D",
           "Price": {
             "Amount": "4320",
             "CurrencyCode": "JPY",
@@ -164,7 +169,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 09:02:27 +0900",
+  "Lastmod": "2018-05-09 20:38:27 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/a8d47bf96994e1a55c0f4a3e3ec737ca/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/a8d47bf96994e1a55c0f4a3e3ec737ca/"

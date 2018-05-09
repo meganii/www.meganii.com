@@ -126,6 +126,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4534051948",
+      "ItemDimensions": {
+        "Weight": "57"
+      },
       "Label": "日本実業出版社",
       "Languages": {
         "Language": {
@@ -134,6 +137,7 @@
         }
       },
       "Manufacturer": "日本実業出版社",
+      "MPN": "43222-71036",
       "NumberOfPages": "240",
       "PackageDimensions": {
         "Height": "79",
@@ -141,6 +145,7 @@
         "Weight": "57",
         "Width": "512"
       },
+      "PartNumber": "43222-71036",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2014-06-12",
@@ -155,12 +160,12 @@
         "FormattedPrice": "￥ 1,727"
       },
       "LowestUsedPrice": {
-        "Amount": "457",
+        "Amount": "264",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 457"
+        "FormattedPrice": "￥ 264"
       },
       "TotalNew": "2",
-      "TotalUsed": "19",
+      "TotalUsed": "20",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -173,7 +178,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "5eNMnilOBzf5Vq8h%2BfHNbVvLvxrWfiBM2ndUxzKPVfXP1qIVlscfQT4SDXI3esqHW55RyGndiapsHKgGn4zUomuV72%2FqmSLP7Dd0R1ictuk%3D",
+          "OfferListingId": "%2B2dqcmc2IqDr9PNiNzSHQrW1vFIFPguH5IuCCKlULYcglScwr5qwkyHd%2Biw4bEkeJyBeqLLor6H%2F%2BlZ3pK3frXDLJujXUClfH1uR2rUcjOA%3D",
           "Price": {
             "Amount": "1728",
             "CurrencyCode": "JPY",
@@ -199,7 +204,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 08:59:43 +0900",
+  "Lastmod": "2018-05-09 20:35:26 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/b57c7225642d25ac0ba35e717b012784/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/b57c7225642d25ac0ba35e717b012784/"

@@ -165,6 +165,7 @@
       "ItemDimensions": {
         "Height": "787",
         "Length": "1181",
+        "Weight": "0",
         "Width": "394"
       },
       "Label": "20世紀フォックス・ホーム・エンターテイメント・ジャパン",
@@ -221,17 +222,17 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "500",
+        "Amount": "600",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 500"
+        "FormattedPrice": "￥ 600"
       },
       "LowestUsedPrice": {
-        "Amount": "245",
+        "Amount": "428",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 245"
+        "FormattedPrice": "￥ 428"
       },
-      "TotalNew": "5",
-      "TotalUsed": "20",
+      "TotalNew": "13",
+      "TotalUsed": "22",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -244,16 +245,16 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "VDeFkjSnFI3H2pMf2HDtl9Slb7HNNQK9aIbcQOMBdlFTPbDpIVwacbxezE8FLRabwzU7X0%2B9ds8OmhVaKdqWY%2FrbqbyjvmTHGlVkx0JBDtSUwRv09EpuuLfo54sZfzxhkHyEaDnArL76b1WnvsGCO6NAT%2BCJwdQ5",
+          "OfferListingId": "hReGJmzKNyPfmDbRD2g2t6eUS8W0Fo00BmnGzUAPHLT2sxaLpVnIadjBvBYiWjO6AYSwbpxl7qmQ%2FS4evf%2BveSm2ErxgcPHClf6O%2BdP9BTmcQfzO0Z23K%2BgLW5rd8TSUhMdZLV2Z%2BB6bZpMyru%2Bx8O43r7QpnEP4",
           "Price": {
-            "Amount": "1694",
+            "Amount": "1690",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,694"
+            "FormattedPrice": "￥ 1,690"
           },
           "AmountSaved": {
-            "Amount": "1896",
+            "Amount": "1900",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,896"
+            "FormattedPrice": "￥ 1,900"
           },
           "PercentageSaved": "53",
           "Availability": "在庫あり。",
@@ -268,7 +269,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 08:55:43 +0900",
+  "Lastmod": "2018-05-09 20:30:03 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/9e1e7a450cbb38dc0c4c706c364e42e4/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/9e1e7a450cbb38dc0c4c706c364e42e4/"

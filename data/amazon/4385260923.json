@@ -126,6 +126,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4385260923",
+      "ItemDimensions": {
+        "Weight": "132"
+      },
       "Label": "三省堂",
       "Languages": {
         "Language": {
@@ -156,12 +159,12 @@
         "FormattedPrice": "￥ 2,754"
       },
       "LowestUsedPrice": {
-        "Amount": "1368",
+        "Amount": "1663",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,368"
+        "FormattedPrice": "￥ 1,663"
       },
-      "TotalNew": "5",
-      "TotalUsed": "31",
+      "TotalNew": "3",
+      "TotalUsed": "34",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -174,7 +177,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "GqYwE1c4RS7Q2Np8RVvWmd7L1Nu4QhYsqelAo7M1GqU2jfnBptd42RaESLgH73uqSlXBAd%2BptDzm3sxlAHCOhsJHWHnfxbNUcjQSEH1Jar0%3D",
+          "OfferListingId": "qzaby1XqbUJM6NV6q3RekVhTb8fqqoxtZkuB4Kv4uc8mJISt7SY3YUBBArl5bHBqeYj%2BH%2BozIB7fH%2BmjUMF8l7Gbi9zJj02RAfp8aHj0P8w%3D",
           "Price": {
             "Amount": "2754",
             "CurrencyCode": "JPY",
@@ -200,7 +203,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 08:57:03 +0900",
+  "Lastmod": "2018-05-09 20:31:50 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/889d167024e3b31d352ef0404ba2a3a5/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/889d167024e3b31d352ef0404ba2a3a5/"

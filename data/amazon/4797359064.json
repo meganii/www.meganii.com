@@ -159,6 +159,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4797359064",
+      "ItemDimensions": {
+        "Weight": "0"
+      },
       "Label": "SBクリエイティブ",
       "Languages": {
         "Language": [
@@ -213,7 +216,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "Gh2jic7QXt8zcohlHUaTHt5VJzQMELbIFtNbGHJlr1x0AvCX%2FhABgLXgBGmDOE9FLcuaLXS4nq1SMqE60IvZzb9gweSmFNfkbxAJ10OzePk%3D",
+          "OfferListingId": "yzUv8hKJYwxCSqhbz3ZJK%2FEfSKd3ovSCsSLfLAs1W7YAifI6D1Nv6s5u5jZ8k%2B%2BHMNbFBqDjmDO3fXhVKhFc1Q2fEX69zLJru6zvAk8dZCU%3D",
           "Price": {
             "Amount": "788",
             "CurrencyCode": "JPY",
@@ -229,17 +232,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "24",
+          "Points": "7",
           "TypicalRedemptionValue": {
-            "Amount": "24",
+            "Amount": "7",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 24"
+            "FormattedPrice": "￥ 7"
           }
         }
       }
     }
   },
-  "Lastmod": "2018-03-25 08:54:07 +0900",
+  "Lastmod": "2018-05-09 20:28:14 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/793796bf60bdeba24ff8f2b131117343/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/793796bf60bdeba24ff8f2b131117343/"
