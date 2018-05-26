@@ -1,5 +1,5 @@
 ---
-title: "「SCRAPBOX DRINKUP #04 TOKYO EDITION」イベントレポート"
+title: "「Scrapbox Drinkup ＃04 Tokyo Edition」イベントレポート"
 date: 2018-05-23T21:40:53+09:00
 lastmod: 2018-05-25T21:40:53+09:00
 comments: true
