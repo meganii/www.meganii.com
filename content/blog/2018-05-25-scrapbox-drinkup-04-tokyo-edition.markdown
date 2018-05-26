@@ -248,6 +248,8 @@ sbox list pages  | fzf | xargs -0 sbox browse
 
 ## Scrapbox書籍 増井さん(@masui)
 
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1527323605/masui_zobqbn.png"  w="1435" h="780" %}}
+
 - [増井俊之](https://scrapbox.io/masui/)
 - [@masui](http://twitter.com/masui/)
 
