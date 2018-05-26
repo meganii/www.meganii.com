@@ -13,7 +13,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1527252310/scrapbox_drinkup_04_fcn0xk.jpg" w="467" h="467" alt="Scrapbox Drinkup #04 TOKYO EDITION" %}}
 
 
-2018/05/23(水)に行われた「SCRAPBOX DRINKUP ＃04 TOKYO EDITION」に参加してきました。ブログ枠での参加でしたので、イベントレポートとしてまとめておきます。
+2018/05/23(水)に行われた「SCRAPBOX DRINKUP ＃04 TOKYO EDITION」に参加してきました。ブログ枠での参加でしたのでイベントレポートとしてまとめておきます。
 
 - 開催日
     - 2018/05/23(水) 19:00 〜 21:30
@@ -37,7 +37,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/
 
 ## 開始早々、ピザとビールで乾杯！
 
-- 正確には、開始前からピザが振舞われていました。ピザとビールで乾杯！！
+- ピザとビールで乾杯！！正確には、開始前からピザが振舞われていました
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1527316843/DRINKUP_mgduji.jpg" w="2686" h="2014" alt="DRINKUP" %}}
 
@@ -52,29 +52,29 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/
 
 - 「重大発表」とは思っていた通り、課金体系の発表でした
 - [https://scrapbox.io/pricing](https://scrapbox.io/pricing)
-    - business / community
-        - Scrapboxは個人または非営利のご利用と公開プロジェクトは常に無料
-        - 企業が非公開で使う場合、利用人数に応じて支払い
+    - 課金体系の発表　Business / Community
         - Community: 無料
+            - Scrapboxは個人または非営利のご利用と公開プロジェクトは常に無料
         - Business: ¥1,000/ユーザ/月
+            - 企業が非公開で使う場合、利用人数に応じて支払い
     - 他の課金の可能性
         - 現在出している機能は無料だが、今後追加する機能（アドオンや追加ファイルストレージ）を有料で出す可能性はある
-    - 機能制限があるのかと思ったが、機能制限なしとのこと。
-        - 無料版/有料版で機能差をつけると、コードベースが別れてしまい複雑になってしまう。
-        - 機能差なしというのは、開発の観点からは理にかなっている
+    - 機能制限なし
+        - 無料版/有料版で機能差をつけると、コードベースが別れてしまい複雑になってしまう
+        - 機能差なしというのは、開発の観点からも理にかなっている
         - 世界展開する上で機能差があると開発の足枷になる
 
 ### 抜群のサポート！
 
-- 「文字が書けないんだけど？」　安心してください。このような抽象的な質問も、掘り下げて確認していきます。
+- 「文字が書けないんだけど？」安心してください。このような抽象的な質問も、掘り下げて確認していきますとのこと
 - 問い合わせの９割はサポートで処理される。残り１割は開発も関係する難しいもの
-    - ZenDesk -> チケットように、Scrapboxページが作成され、その中で開発者が問題に対して対応していく
-    - サポート担当は、そのページを見て、適宜よしなにユーザに回答していく
+    - ZenDesk -> チケットのようにScrapboxページが作成され、その中で開発者が問題に対して対応していく
+    - サポート担当は、そのページを見て適宜よしなにユーザに回答していく
 - 回答は全て個人名で
 
 ### Notaは輸出企業
 
-- Gyazoは、売上の8割がドル。2017年に黒字化を達成とのこと
+- Gyazoは売上の8割がドル。2017年に黒字化を達成とのこと
 - 日本のスタートアップでは珍種（Gyazoのようなサービスは国内だけでは無理）
     - [洛西一周と増井俊之が語る、ドッグフーディングの重要性と、Gyazoで挑む世の中の課題解決 \- Nota Blog](http://blog.notainc.com/entry/2018/05/08/162143)
 
@@ -83,7 +83,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/
 > 他人が作った良い感じの概念や仕組みに乗っかり、使うことができる
 > 自分が作った仕組みを他人に使ってもらうことができる
 
-- 最初きいたときには、あんまりピンと来なかったけれど、おそらく再利用可能な情報を活用するということとの理解
+- 最初聞いたときにはあんまりピンと来なかったが、おそらく再利用可能な情報を簡単に活用できるという理解
 - 気軽にgem install, npm installすれば、やりたいことを実現できる。知りたい情報を得ることができる
     - sb get {some infomation} みたいな？
 
@@ -94,16 +94,14 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/
 - [@shokai](https://twitter.com/shokai)
 
 
-
 [/scrapbox-drinkup/Scrapbox最新情報2018/5 (shokai)](https://scrapbox.io/scrapbox-drinkup/Scrapbox%E6%9C%80%E6%96%B0%E6%83%85%E5%A0%B12018%2F5_(shokai))
 
 - favicon
-    - 先頭に[ピン留め](https://scrapbox.io/meganii/%E3%83%94%E3%83%B3%E7%95%99%E3%82%81)したページのタイトル画像が、projectのfaviconにもなる
+    - 先頭にピン留めしたページのタイトル画像がProjectのfaviconniになる
     - これ便利そう
 - Google MapのURLコピペ
-    - これも便利
+    - これも便利！
 - などなど、様々な改良が日々入っている
-
 
 ## 「HERPでのScrapbox活用について」 亀岡さん(@ryotakameoka)
 
@@ -114,7 +112,6 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/
 [/scrapbox-drinkup/HERPでのScrapbox活用について](https://scrapbox.io/scrapbox-drinkup/HERP%E3%81%A7%E3%81%AEScrapbox%E6%B4%BB%E7%94%A8%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
 
 - とりあえず書く場所としてのscrapbox
-- 
 
 ### 発表を聞いていて考えたこと
 
@@ -123,12 +120,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/
 そう考えると、情報基盤ツールとしてすごく優秀なんじゃないかと思えてきた。そもそも探したい情報は、PDF/EXCEL/WORDである必要がなく、簡単なテキストだけでよくて、ドキュメントを作る人も、探す人もWin x Win。これぞ **働き方改革では？**
 
 
-
-
-
 # Scrapboxユーザの参考になりすぎる事例紹介(LT)
-
-LTに関しては完全に興味のある部分のみピックアップするので、すみません。
 
 ## 「「３つの情報」でスクボの良さを伝えてみる」 長沢さん(@tnagasawa)
 
@@ -136,7 +128,7 @@ LTに関しては完全に興味のある部分のみピックアップするの
 
 {{% slideshare 2bEepfZDDjQydu %}}
 
-
+  
 - 3つの情報 (既成, 養殖, 野生)
 - 既成の情報をうまく整理するのが、今までの情報基盤ツール
 - しかし、それでは「野生」の情報をうまく扱えない
@@ -155,11 +147,11 @@ LTに関しては完全に興味のある部分のみピックアップするの
 
 [/scrapbox-drinkup/『書き心地』と『安心感』こそ「Scrapbox」の良さ（ootaki）](https://scrapbox.io/scrapbox-drinkup/%E3%80%8E%E6%9B%B8%E3%81%8D%E5%BF%83%E5%9C%B0%E3%80%8F%E3%81%A8%E3%80%8E%E5%AE%89%E5%BF%83%E6%84%9F%E3%80%8F%E3%81%93%E3%81%9D%E3%80%8CScrapbox%E3%80%8D%E3%81%AE%E8%89%AF%E3%81%95%EF%BC%88ootaki%EF%BC%89)
 
-- 嬉しそうに楽しそうにScrapboxを使っているのを見て、こちらも楽しくなってきた
+- 嬉しそうに楽しそうにScrapboxを使っているのを見てこちらも楽しくなってきた
 - 10,000ページ使うために、逆順でナンバリングしてページを作っているそう
 - IoT機器を介護に使う。インターホンを押せない。ならば、手元のスイッチで開けられるようにする
     - [/ootaki/9721 『ひとの役に立つ』ことはプラスアルファ、２番目に大切なことでいい](https://scrapbox.io/ootaki/9721_%E3%80%8E%E3%81%B2%E3%81%A8%E3%81%AE%E5%BD%B9%E3%81%AB%E7%AB%8B%E3%81%A4%E3%80%8F%E3%81%93%E3%81%A8%E3%81%AF%E3%83%97%E3%83%A9%E3%82%B9%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A1%E3%80%81%EF%BC%92%E7%95%AA%E7%9B%AE%E3%81%AB%E5%A4%A7%E5%88%87%E3%81%AA%E3%81%93%E3%81%A8%E3%81%A7%E3%81%84%E3%81%84)
-- 52歳からScrapboxを使い始めた
+- 52歳からScrapboxを使い始めたそう。何それ凄い。
 - なんだろう「基調講演」かと思った
 
 
@@ -204,12 +196,11 @@ LTに関しては完全に興味のある部分のみピックアップするの
 - [shio✨](https://scrapbox.io/shio/)
 - [@shiology](https://twitter.com/shiology)
 
-[塩澤一洋：教育におけるIT利用に関する著作権法改正案とScrapboxによるアクティブ・ラーニングの効用](https://scrapbox.io/shiozawa88/)
+[著作権法の論文に Scrapboxの解説を書きました \- scrapbox\-drinkup](https://scrapbox.io/scrapbox-drinkup/%E8%91%97%E4%BD%9C%E6%A8%A9%E6%B3%95%E3%81%AE%E8%AB%96%E6%96%87%E3%81%AB_Scrapbox%E3%81%AE%E8%A7%A3%E8%AA%AC%E3%82%92%E6%9B%B8%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F)
 
-- [著作権法の論文に Scrapboxの解説を書きました \- scrapbox\-drinkup](https://scrapbox.io/scrapbox-drinkup/%E8%91%97%E4%BD%9C%E6%A8%A9%E6%B3%95%E3%81%AE%E8%AB%96%E6%96%87%E3%81%AB_Scrapbox%E3%81%AE%E8%A7%A3%E8%AA%AC%E3%82%92%E6%9B%B8%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F)
+- [塩澤一洋：教育におけるIT利用に関する著作権法改正案とScrapboxによるアクティブ・ラーニングの効用](https://scrapbox.io/shiozawa88/)
 - [/shiozawa88](https://scrapbox.io/shiozawa88/)
-
-- 後で読んでみたい
+    - 後で読んでみたい
 
 
 ## 「Scrapboxのソート順序を変える実験」 西尾さん(@nishio)
@@ -267,7 +258,7 @@ sbox list pages  | fzf | xargs -0 sbox browse
 - オフライン対応
     - オフラインだと何もできないのはつらい
 - 画像が重たい
-    - Gyazoってキャプチャした画像をそのまま表示するので、スマフォ表示のときは最適化して欲しい
+    - Gyazoってキャプチャした画像をそのまま表示するのでスマフォ表示のときは最適化して欲しい
     - 手軽さとトレードオフ
 
 
