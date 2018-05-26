@@ -317,7 +317,7 @@ Scrapboxで電子書籍は「ちょっとやってみたいな」と思いまし
 ## 参考
 
 - [ssig33\.com \- Scrapbox Drinkup \#4 にいってきた](https://ssig33.com/text/scrapbox_drinkup_4)
-- [Scrapbox Drinkup Tokyo Edition \#4 めとめ \- Togetter](https://togetter.com/li/1230967)
+- [Scrapbox Drinkup Tokyo Edition \#4 まとめ \- Togetter](https://togetter.com/li/1230967)
 
 
 
