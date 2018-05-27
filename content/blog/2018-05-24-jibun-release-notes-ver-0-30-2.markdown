@@ -1,6 +1,6 @@
 ---
 title: "じぶん Release Notes (ver 0.30.2)"
-date: 2018-05-27T22:52:37+09:00
+date: 2018-05-24T22:52:37+09:00
 lastmod: 2018-05-27T22:52:37+09:00
 comments: true
 category: ['Life']
