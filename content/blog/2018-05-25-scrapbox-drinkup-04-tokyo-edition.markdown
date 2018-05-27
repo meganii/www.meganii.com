@@ -142,6 +142,21 @@ Scrapboxを社内利用できるユーザさんはぜひお試しあれ！
 
 # Scrapboxユーザの参考になりすぎる事例紹介(LT)
 
+## @niryuuさん
+
+- [@niryuu](https://twitter.com/niryuu/)
+
+[LT \- niryuu](https://scrapbox.io/niryuu/LT)
+
+- 複数人、とくに不特定の人が集まって知識を管理していくには互いに「他の人がわかるようにしていく」ような仕組みなりやり方が良い
+- 人々が何かを行う際，そこで何が起こっているか理解できていないと何もできない
+    - リアルはだいたい共通理解がある
+    - Webは知らない人が来る。企業内でも、互いに知らなかったりする
+    - 全ての知識をまとめるコラボレーションシステムは，この問題をどうにかしないとカオスになる
+- 他の人による「わかり」を維持していくことでオープンな共同作業ができそう
+
+[LTへのSuppliment \- niryuu](https://scrapbox.io/niryuu/LT%E3%81%B8%E3%81%AESuppliment)
+
 ## 「「３つの情報」でスクボの良さを伝えてみる」 長沢さん(@tnagasawa)
 
 - [@tnagasawa](https://twitter.com/tnagasawa)
