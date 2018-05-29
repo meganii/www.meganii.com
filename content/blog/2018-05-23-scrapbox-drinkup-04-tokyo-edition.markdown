@@ -1,7 +1,7 @@
 ---
 title: "「Scrapbox Drinkup ＃04 Tokyo Edition」イベントレポート"
 date: 2018-05-23T21:40:53+09:00
-lastmod: 2018-05-25T21:40:53+09:00
+lastmod: 2018-05-28T21:20:53+09:00
 comments: true
 category: ['Tech']
 tags: ['meetup','scrapbox']
@@ -334,6 +334,7 @@ Scrapboxで電子書籍は「ちょっとやってみたいな」と思いまし
 - [ssig33\.com \- Scrapbox Drinkup \#4 にいってきた](https://ssig33.com/text/scrapbox_drinkup_4)
 - [Scrapbox Drinkup \#4 Tokyo Edition に行ってきた \#Scrapbox\_Drinkup \- razokulover publog](https://razokulover.hateblo.jp/entry/2018/05/24/000246)
 - [Scrapbox Drinkup Tokyo Edition \#4 まとめ \- Togetter](https://togetter.com/li/1230967)
+- [Scrapbox Drinkup \#4 \- mactkg\-pub](https://scrapbox.io/mactkg-pub/Scrapbox_Drinkup_%234)
 
 
 
