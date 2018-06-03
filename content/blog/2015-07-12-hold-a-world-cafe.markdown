@@ -1,5 +1,5 @@
 ---
-title: "ワールド・カフェをやってみて"
+title: "ワールド・カフェ形式の振り返りをやってみた感想"
 date: 2015-07-12T22:16:00+09:00
 lastmod: 2017-02-18T13:00:21+09:00
 comments: true
@@ -27,6 +27,7 @@ slug: hold-a-world-cafe
 **「誰かに組合の魅力を伝えるためにはどうすれば良いか」**
 
 問いを作るためには、以下の記事も参考になれば！
+
 [ワールドカフェの問いを作るには？](https://www.meganii.com/blog/2015/06/28/what-is-good-questions-for-world-cafe/)
 
 
