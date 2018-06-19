@@ -1,12 +1,11 @@
 ---
 title: "このブログ「SIS Lab」について"
-type: about
 layout: single
-date: 2015-11-23T15:23:39+09:00
-lastmod: 2018-01-28T15:23:39+09:00
-img: 'images/meganii_logo.png'
----
+date: 2015-11-23 15:23:39 +0900
+lastmod: 2018-01-28 06:23:39 +0000
+img: images/meganii_logo.png
 
+---
 このブログ「SIS Lab」は、メーカー系SIerで働く`meganii`が運営しています。
 
 ## SIS Labとは？
@@ -42,7 +41,6 @@ Ruby合宿2009に参加して、Rubyに触れる
 ## 生い立ち
 - 福井県出身。小中高と福井の学校
 - 大学時代　名古屋大学
-- 
 
 
 ## プライバシーポリシー
