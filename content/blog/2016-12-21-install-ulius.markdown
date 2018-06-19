@@ -11,6 +11,8 @@ slug: install-julius
 img: https://images-fe.ssl-images-amazon.com/images/I/510B8-IOdUL._SL160_.jpg
 
 ---
+音声認識エンジンを調査したときのメモです。
+
 ## 音声認識エンジン
 
 * Apple - Siri
