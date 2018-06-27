@@ -17,8 +17,8 @@
 
 {{ range $json }}
   {{ if eq .Item.ASIN $itemId }}
-  <div class="c-flex c-card u-mb u-mt">
-    <div class="c-flex--vertical u-p">
+  <div class="c-flex c-card mb mt2">
+    <div class="c-flex--vertical p1">
       <div class="c-flex--vertical__item c-flex">
         <div class="c-flex__item">
           <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="amazon-shortcode">
@@ -48,14 +48,14 @@
           </div>
         </div>
       </div>
-      <div class="c-flex--vertical__item u-mt">
+      <div class="c-flex--vertical__item mt1">
         <div class="c-flex">
-          <div class="c-flex__item"><a class="c-btn c-btn__ad c-btn__ad--amazon u-mrs u-ps" href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="backport"><i class="fa fa-amazon" aria-hidden="true"></i> Amazon</a></div>
+          <div class="c-flex__item"><a class="c-btn c-btn__ad c-btn__ad--amazon mr1 p1" href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="backport"><i class="fa fa-amazon" aria-hidden="true"></i> Amazon</a></div>
           {{ with .Yahoo }}
-          <div class="c-flex__item"><a class="c-btn c-btn__ad c-btn__ad--yahoo u-mrs u-ps" href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884189678&vc_url={{ .productUrl }}" target="_blank" rel="nofollow"><amp-img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884189678" height="1" width="0"></amp-img><i class="fa fa-yahoo" aria-hidden="true"></i> Yahoo!</a></div>
+          <div class="c-flex__item"><a class="c-btn c-btn__ad c-btn__ad--yahoo mr1 p1" href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884189678&vc_url={{ .productUrl }}" target="_blank" rel="nofollow"><amp-img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884189678" height="1" width="0"></amp-img><i class="fa fa-yahoo" aria-hidden="true"></i> Yahoo!</a></div>
           {{ end }}
           {{ with .Rakuten }}
-          <div class="c-flex__item"><a class="c-btn c-btn__ad c-btn__ad--rakuten u-mrs u-ps" href="https://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc={{ .productUrlPC }}&m={{ .productUrlMobile }}&link_type=text&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6InRlc3QiLCJjb2wiOjB9" target="_blank" rel="nofollow"><i class="fa fa-registered" aria-hidden="true"></i> 楽天</a></div>
+          <div class="c-flex__item"><a class="c-btn c-btn__ad c-btn__ad--rakuten mr1 p1" href="https://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc={{ .productUrlPC }}&m={{ .productUrlMobile }}&link_type=text&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6InRlc3QiLCJjb2wiOjB9" target="_blank" rel="nofollow"><i class="fa fa-registered" aria-hidden="true"></i> 楽天</a></div>
           {{ end }}
         </div>
       </div>
