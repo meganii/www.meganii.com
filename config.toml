@@ -1,6 +1,6 @@
 baseurl = "https://www.meganii.com/"
 title = "SIS Lab"
-theme = "hugo_theme_aglaus"
+theme = "land-see"
 contentDir = "content"
 publishDir = "public"
 cacheDir = "cache"
@@ -8,8 +8,6 @@ hasCJKLanguage = true
 
 PygmentsCodeFences = true
 pygmentsUseClasses = true
-
-googleAnalytics = "UA-38171597-1"
 
 DefaultContentLanguage = "ja"
 
@@ -32,12 +30,20 @@ description = "I write about programming, traveling and studying."
 weight = 2
 
 [params]
+themeColor = "gray"
 Author = "meganii"
 Birth = "Sun, March 3, 1988"
 DateForm = "Mon, Jan 2, 2006"
+adsensePublisher = "ca-pub-5340212676785058"
+adsenseAd001 = "7368951150"
+googleAnalytics = "UA-38171597-1"
 GoogleAnalyticsUserID = "UA-38171597-1"
 Twitter = "meganii"
 Github = "https://github.com/meganii"
+Facebook = "meganiicom"
+Instagram = "meganii"
+Cloudinary = "meganii"
+CloudinaryTopBanner = "v1524390254/sislab_top_banner.png"
 ShowTagCloud = true
 ShowRelatedPost = true
 Disqus = "meganii"
@@ -45,7 +51,7 @@ SyntaxHighlightTheme = "solarized_dark.min.css"
 logo = "/images/meganii_logo.png"
 AnalyticsURL = "https://us-central1-cloud-api-2e3ec.cloudfunctions.net/function-1"
 dateformat = "Jan 2, 2006" # Optional
-latestSize = 4 # Optional
+latestSize = 8 # Optional
 ampscripts = """
 <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
 <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
@@ -84,3 +90,24 @@ category = "category"
 [author]
 name = "meganii"
 homepage = "https://www.meganii.com/"
+
+
+[menu]
+  [[menu.about]]
+  identifier = "about"
+  name = "This is the blog section"
+  title = "About"
+  url = "about/"
+  weight = -110
+  [[menu.about]]
+  identifier = "tech"
+  name = "This is the life section"
+  title = "Tech"
+  url = "category/tech/"
+  weight = 10
+  [[menu.about]]
+  identifier = "life"
+  name = "This is the life section"
+  title = "Life"
+  url = "category/life/"
+  weight = 20
