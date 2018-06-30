@@ -88,6 +88,11 @@
           "Type": "Unknown"
         }
       },
+      "ListPrice": {
+        "Amount": "1944",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 1,944"
+      },
       "Manufacturer": "かんき出版",
       "NumberOfPages": "176",
       "PackageDimensions": {
@@ -104,6 +109,11 @@
       "Title": "CIO(最高情報責任者)の新しい役割"
     },
     "OfferSummary": {
+      "LowestNewPrice": {
+        "Amount": "8491",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 8,491"
+      },
       "LowestUsedPrice": {
         "Amount": "135",
         "CurrencyCode": "JPY",
@@ -114,8 +124,8 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 3,780"
       },
-      "TotalNew": "0",
-      "TotalUsed": "9",
+      "TotalNew": "1",
+      "TotalUsed": "11",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -125,7 +135,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-05-09 20:36:00 +0900",
+  "Lastmod": "2018-06-30 20:18:43 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/8f2dcef12740d4ceee88bd823a6bbba8/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/8f2dcef12740d4ceee88bd823a6bbba8/"

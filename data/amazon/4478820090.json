@@ -88,6 +88,11 @@
           "Type": "Unknown"
         }
       },
+      "ListPrice": {
+        "Amount": "1944",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 1,944"
+      },
       "Manufacturer": "ダイヤモンド社",
       "NumberOfPages": "205",
       "PackageDimensions": {
@@ -111,17 +116,17 @@
         "FormattedPrice": "￥ 1,944"
       },
       "LowestUsedPrice": {
-        "Amount": "1374",
+        "Amount": "1200",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,374"
+        "FormattedPrice": "￥ 1,200"
       },
       "LowestCollectiblePrice": {
         "Amount": "2480",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 2,480"
       },
-      "TotalNew": "9",
-      "TotalUsed": "20",
+      "TotalNew": "11",
+      "TotalUsed": "49",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -134,7 +139,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "orisy68hXN27%2FNWhCgiLhCFPpon8TStRDgGtSV956fDf8x8JE03AmfQxKTscs9cHSWsSFe%2B2aGZ0x6nRj7wIoq5nblh%2BM3Ha",
+          "OfferListingId": "1YOvpBzS1QSq%2Fn5teB9Y2Psg%2FMzeKSOPmkB1oa2KIXyD9eArl9CCRnOIrUYdH5hCNQv4EVp52kX%2BSjZIEF%2BKu76dj1ln3nZS",
           "Price": {
             "Amount": "1944",
             "CurrencyCode": "JPY",
@@ -150,17 +155,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "18",
+          "Points": "59",
           "TypicalRedemptionValue": {
-            "Amount": "18",
+            "Amount": "59",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 18"
+            "FormattedPrice": "￥ 59"
           }
         }
       }
     }
   },
-  "Lastmod": "2018-05-09 20:31:02 +0900",
+  "Lastmod": "2018-06-30 20:14:25 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/0ebcf6a58e7370b19abfad9374b89452/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/0ebcf6a58e7370b19abfad9374b89452/"

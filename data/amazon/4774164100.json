@@ -126,6 +126,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4774164100",
+      "ItemDimensions": {
+        "Weight": "132"
+      },
       "Label": "技術評論社",
       "Languages": {
         "Language": {
@@ -155,12 +158,12 @@
         "FormattedPrice": "￥ 3,760"
       },
       "LowestUsedPrice": {
-        "Amount": "947",
+        "Amount": "572",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 947"
+        "FormattedPrice": "￥ 572"
       },
-      "TotalNew": "2",
-      "TotalUsed": "27",
+      "TotalNew": "3",
+      "TotalUsed": "38",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -173,7 +176,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "ywehoQbkBl79pbsD6hSDsAiuNpI%2BYjUBveSj41sMQwlKeMgKV6pHjHnvRAxIOyZiR362F5IOQVQyQfhttUj0hJxAwQoiiYvub%2FhPZr5KEeQ%3D",
+          "OfferListingId": "00VTQk930iTYXd300jQFIP6VxSTJSPvswKkn3g0ywDLM8N4PHBw%2FGBxNfqN%2FO9iT1iYGPhUC5RYi%2BR2v1hRrVseIxToUMSHCdQ7gCN3xteU%3D",
           "Price": {
             "Amount": "3780",
             "CurrencyCode": "JPY",
@@ -199,7 +202,7 @@
       }
     }
   },
-  "Lastmod": "2018-05-09 20:37:41 +0900",
+  "Lastmod": "2018-06-30 20:20:29 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/6a2930f534777cc824ca46edf97ee26b/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/6a2930f534777cc824ca46edf97ee26b/"

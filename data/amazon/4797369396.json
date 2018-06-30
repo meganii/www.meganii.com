@@ -126,9 +126,6 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4797369396",
-      "ItemDimensions": {
-        "Weight": "194"
-      },
       "Label": "SBクリエイティブ",
       "Languages": {
         "Language": {
@@ -137,7 +134,6 @@
         }
       },
       "Manufacturer": "SBクリエイティブ",
-      "MPN": "43206-54565",
       "NumberOfPages": "368",
       "PackageDimensions": {
         "Height": "134",
@@ -145,7 +141,6 @@
         "Weight": "194",
         "Width": "724"
       },
-      "PartNumber": "43206-54565",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2012-09-25",
@@ -160,17 +155,17 @@
         "FormattedPrice": "￥ 2,400"
       },
       "LowestUsedPrice": {
-        "Amount": "720",
+        "Amount": "52",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 720"
+        "FormattedPrice": "￥ 52"
       },
       "LowestCollectiblePrice": {
         "Amount": "5040",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 5,040"
       },
-      "TotalNew": "2",
-      "TotalUsed": "7",
+      "TotalNew": "3",
+      "TotalUsed": "14",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -183,7 +178,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "EZcx6w7U1PlG1Axb1cEXgj7tvzEcapXh3JxOEPyw6I1mIekdC8Yn1UEWaCXWmvYy1oRbCB65xiWmCBdx%2BCIIDgzvafLfiVFoCdPDHvG%2FCNzoYDWIZHzhyCvueVoWNA0gX2AeAdanvJQypQKh8yphj0YufRQLoebI",
+          "OfferListingId": "SzkhDLOIrnsL4AJD1Mf%2F8%2BIbEWhDCd0ZHGMPWQqMoBXj2YDq%2FiW914bz8FtRq73gKb6TeeB%2F%2BOBJpYfquVHePzITMLYeIl3UPRaAmTqBce9t4%2BEVLILk2QBnp43u4HbeiGEKub8i%2BSxvPtuMwiuQbSD1bFCrmnnd",
           "Price": {
             "Amount": "2400",
             "CurrencyCode": "JPY",
@@ -201,7 +196,7 @@
       }
     }
   },
-  "Lastmod": "2018-05-09 20:29:21 +0900",
+  "Lastmod": "2018-06-30 20:11:25 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/b0f013fe736056c11c04f3a4ba56f753/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/b0f013fe736056c11c04f3a4ba56f753/"

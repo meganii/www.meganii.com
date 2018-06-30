@@ -128,7 +128,7 @@
       "IsAdultProduct": "0",
       "ISBN": "9784860641344",
       "ItemDimensions": {
-        "Weight": "220"
+        "Weight": "71"
       },
       "Label": "ベレ出版",
       "Languages": {
@@ -160,13 +160,18 @@
         "FormattedPrice": "￥ 1,944"
       },
       "LowestUsedPrice": {
-        "Amount": "1146",
+        "Amount": "1223",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,146"
+        "FormattedPrice": "￥ 1,223"
       },
-      "TotalNew": "1",
-      "TotalUsed": "31",
-      "TotalCollectible": "0",
+      "LowestCollectiblePrice": {
+        "Amount": "3774",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 3,774"
+      },
+      "TotalNew": "4",
+      "TotalUsed": "33",
+      "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -178,7 +183,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "61JdapvAicF8O1z%2BTnETD8YOkPTTag5LgOeWc9RQDzIroLnxHreRNhn6Mncl9T1qZdl3CtJmwXCR0IYsTl%2FsS6Sgus7Axi%2BX",
+          "OfferListingId": "mNDJ0AwXJT37BC4P3aEienfXdahvqQGAk083uQg3HPiX%2B%2FAYZMBaBwCFj%2BzIimulvPE%2FudBCawmXANAWew1tRs3KNikeMIr4",
           "Price": {
             "Amount": "1944",
             "CurrencyCode": "JPY",
@@ -194,17 +199,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "59",
+          "Points": "57",
           "TypicalRedemptionValue": {
-            "Amount": "59",
+            "Amount": "57",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 59"
+            "FormattedPrice": "￥ 57"
           }
         }
       }
     }
   },
-  "Lastmod": "2018-05-09 20:40:43 +0900",
+  "Lastmod": "2018-06-30 20:23:32 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/3437a826f0de31191d33fffc36c03ae3/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/3437a826f0de31191d33fffc36c03ae3/"

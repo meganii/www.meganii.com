@@ -124,12 +124,12 @@
         "FormattedPrice": "￥ 1,400"
       },
       "LowestUsedPrice": {
-        "Amount": "14",
+        "Amount": "188",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 14"
+        "FormattedPrice": "￥ 188"
       },
-      "TotalNew": "3",
-      "TotalUsed": "27",
+      "TotalNew": "4",
+      "TotalUsed": "34",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -142,33 +142,33 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "sCdI%2F8tHsponZr0vVcvuirMt88N4vIJWYIyphIKjYunNjxTvD8SOmuhOgjeC7YkQbE1lHoOl%2FNldQ9E9v4xxPDnTPpjVbXBKHSPq7jA%2Fbhg%3D",
+          "OfferListingId": "062%2B88dTm6OjKAlBJ%2BoOdy%2BN2lmQAVIeW0n8KwHS7vUbpQmpZUIuiei0AEhTshytNpYNLL%2B0xJ%2FidlBxt3j%2FyDbTDn92N2RAclBgnEJzuW4%3D",
           "Price": {
             "Amount": "1400",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 1,400"
           },
-          "Availability": "在庫あり。",
+          "Availability": "一時的に在庫切れですが、商品が入荷次第配送します。配送予定日がわかり次第Eメールにてお知らせします。商品の代金は発送時に請求いたします。",
           "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
+            "AvailabilityType": "unknown",
+            "MinimumHours": "672",
+            "MaximumHours": "1008"
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "43",
+          "Points": "13",
           "TypicalRedemptionValue": {
-            "Amount": "43",
+            "Amount": "13",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 43"
+            "FormattedPrice": "￥ 13"
           }
         }
       }
     }
   },
-  "Lastmod": "2018-05-09 20:27:51 +0900",
+  "Lastmod": "2018-06-30 20:10:20 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/5adce0cf713460c512199b71fc6e8df2/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/5adce0cf713460c512199b71fc6e8df2/"

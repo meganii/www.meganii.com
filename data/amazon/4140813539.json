@@ -89,6 +89,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4140813539",
+      "ItemDimensions": {
+        "Weight": "0"
+      },
       "Label": "NHK出版",
       "Languages": {
         "Language": {
@@ -97,7 +100,6 @@
         }
       },
       "Manufacturer": "NHK出版",
-      "MPN": "43209-20210",
       "NumberOfPages": "350",
       "PackageDimensions": {
         "Height": "126",
@@ -106,13 +108,12 @@
         "Width": "520"
       },
       "PackageQuantity": "1",
-      "PartNumber": "43209-20210",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2009-03-20",
       "Publisher": "NHK出版",
       "Studio": "NHK出版",
-      "Title": "脳を鍛えるには運動しかない!  最新科学でわかった脳細胞の増やし方"
+      "Title": "脳を鍛えるには運動しかない! 最新科学でわかった脳細胞の増やし方"
     },
     "OfferSummary": {
       "LowestNewPrice": {
@@ -121,13 +122,18 @@
         "FormattedPrice": "￥ 2,268"
       },
       "LowestUsedPrice": {
-        "Amount": "1650",
+        "Amount": "1541",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,650"
+        "FormattedPrice": "￥ 1,541"
       },
-      "TotalNew": "2",
-      "TotalUsed": "28",
-      "TotalCollectible": "0",
+      "LowestCollectiblePrice": {
+        "Amount": "4197",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 4,197"
+      },
+      "TotalNew": "4",
+      "TotalUsed": "56",
+      "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -139,7 +145,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "IyP6qPKHDL3vNVy3LyNgbbylcXfnbz6vPjKSE69FERtiu%2F55qDi8l%2BE8lXuEK71qZqTlkQyfQuej%2Bq%2B8k2tPixyFu8CYNLYg37myRhxe7rI%3D",
+          "OfferListingId": "a633OK3TiZEk3%2F4E2Dq0muYOk7z%2BYKlddyf8UQpkoi3ZA%2BJaVC%2BDwrHoDT5l3GEyGnshakXUmityzWsCySHtDbTRf2OPhYfrktx8Zyv92yI%3D",
           "Price": {
             "Amount": "2268",
             "CurrencyCode": "JPY",
@@ -153,11 +159,19 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "69",
+          "TypicalRedemptionValue": {
+            "Amount": "69",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 69"
+          }
         }
       }
     }
   },
-  "Lastmod": "2018-05-09 20:42:43 +0900",
+  "Lastmod": "2018-06-30 20:25:11 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/d25e9f892c0fd7d52626754ee4cf4006/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/d25e9f892c0fd7d52626754ee4cf4006/"

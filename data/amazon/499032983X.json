@@ -83,12 +83,20 @@
       "Edition": "初",
       "IsAdultProduct": "0",
       "ISBN": "499032983X",
+      "ItemDimensions": {
+        "Weight": "0"
+      },
       "Label": "ヒューマンバリュー",
       "Languages": {
         "Language": {
           "Name": "日本語",
           "Type": "Unknown"
         }
+      },
+      "ListPrice": {
+        "Amount": "3024",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 3,024"
       },
       "Manufacturer": "ヒューマンバリュー",
       "NumberOfPages": "320",
@@ -114,12 +122,12 @@
         "FormattedPrice": "￥ 3,024"
       },
       "LowestUsedPrice": {
-        "Amount": "1930",
+        "Amount": "1398",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,930"
+        "FormattedPrice": "￥ 1,398"
       },
-      "TotalNew": "1",
-      "TotalUsed": "6",
+      "TotalNew": "2",
+      "TotalUsed": "17",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -132,7 +140,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "2W%2BTw59CGrBoZArNai%2BRJjHBnV3lfReVgh6whLJHbjS1P6uFtftWf8XSlLLs1gYegZWgbUzgYcPZsXJmf370OfQGehr%2BaYsU",
+          "OfferListingId": "gVllYmIWj5KRfUXS5%2BezKK9OT6EBQYSP2Aq18P1qWy2UEnVDIPe%2FaD119%2BhLU1zIiTW7oq9RnVZiiqgoG9lW65RtzkW%2By9UP",
           "Price": {
             "Amount": "3024",
             "CurrencyCode": "JPY",
@@ -150,7 +158,7 @@
       }
     }
   },
-  "Lastmod": "2018-05-09 20:33:51 +0900",
+  "Lastmod": "2018-06-30 20:16:36 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/3c2af5be25c4f32c25aa5a4896e63a21/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/3c2af5be25c4f32c25aa5a4896e63a21/"

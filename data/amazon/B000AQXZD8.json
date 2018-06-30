@@ -140,9 +140,6 @@
       ],
       "IsAutographed": "0",
       "IsMemorabilia": "0",
-      "ItemDimensions": {
-        "Weight": "79"
-      },
       "Label": "プリムス(PRIMUS)",
       "ListPrice": {
         "Amount": "11340",
@@ -170,16 +167,16 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "9088",
+        "Amount": "10206",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 9,088"
+        "FormattedPrice": "￥ 10,206"
       },
       "LowestUsedPrice": {
         "Amount": "8660",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 8,660"
       },
-      "TotalNew": "25",
+      "TotalNew": "24",
       "TotalUsed": "2",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
@@ -193,18 +190,18 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "VMXoKxYIuU7YtyAvfnv4tUmR%2FY0IVuvESDqndzuOtRjz7VOAlCEWyxiY674FpqyQeBNkX5B%2ByjvnFG124oHLqopyemBx8Dnb",
+          "OfferListingId": "WQW3g7x4FKUqtl9YSJGGHvpPYj84JLmLSlat8YCfrP%2F%2FfwKxrQog5DZIlW2IM7Sg1V6CDdSqanZS4TzUwPGy5hebWPeCf6kSsRVsIgaGR2mW96wsmWKH%2FFZPb0xrmH9iCOjJvSbVy2XtBY2d8E5sKA%3D%3D",
           "Price": {
-            "Amount": "9088",
+            "Amount": "10207",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 9,088"
+            "FormattedPrice": "￥ 10,207"
           },
           "AmountSaved": {
-            "Amount": "2252",
+            "Amount": "1133",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,252"
+            "FormattedPrice": "￥ 1,133"
           },
-          "PercentageSaved": "20",
+          "PercentageSaved": "10",
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
@@ -213,11 +210,19 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "510",
+          "TypicalRedemptionValue": {
+            "Amount": "510",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 510"
+          }
         }
       }
     }
   },
-  "Lastmod": "2018-05-09 20:34:24 +0900",
+  "Lastmod": "2018-06-30 20:17:11 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/66afdd66f36f4a8da28bf52ee0c29fee/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/66afdd66f36f4a8da28bf52ee0c29fee/"

@@ -86,6 +86,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4800710561",
+      "ItemDimensions": {
+        "Weight": "88"
+      },
       "Label": "ソーテック社",
       "Languages": {
         "Language": {
@@ -110,17 +113,17 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1200",
+        "Amount": "1598",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,200"
+        "FormattedPrice": "￥ 1,598"
       },
       "LowestUsedPrice": {
-        "Amount": "575",
+        "Amount": "400",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 575"
+        "FormattedPrice": "￥ 400"
       },
-      "TotalNew": "2",
-      "TotalUsed": "19",
+      "TotalNew": "3",
+      "TotalUsed": "36",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -133,7 +136,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "Zdbq%2Fi11TCqfFdgzCje8IuxPN9bFtRHWbQvmfRrDhnlGJSaP0VMV6jw%2ByaWmPFJVzE90hQMvh28GLq3vrzR79T3LUoJaqSHBG%2FpjsNLXKhE%3D",
+          "OfferListingId": "k4VnFOTPsN02cnUDP7ovyGeepQIW%2B1XYamOQSWYhmaGd2Ax12iSTmK1uf5x%2FM3B4r0wbQt8jsX4RGmgYmS3Sppc0G85MUQrA08ab8%2B%2FYNfQ%3D",
           "Price": {
             "Amount": "1598",
             "CurrencyCode": "JPY",
@@ -159,7 +162,7 @@
       }
     }
   },
-  "Lastmod": "2018-05-09 20:36:56 +0900",
+  "Lastmod": "2018-06-30 20:19:35 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/1f09d06f8db3d2d6b5b3d8521138ad00/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/1f09d06f8db3d2d6b5b3d8521138ad00/"

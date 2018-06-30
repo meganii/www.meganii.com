@@ -86,9 +86,6 @@
       },
       "Feature": "サイズ（約）：［牌］幅23×奥8×高46mm",
       "IsAdultProduct": "0",
-      "ItemDimensions": {
-        "Weight": "185"
-      },
       "Label": "ハナヤマ",
       "ListPrice": {
         "Amount": "2700",
@@ -97,7 +94,6 @@
       },
       "Manufacturer": "ハナヤマ",
       "ManufacturerMinimumAge": "72",
-      "MPN": "43173-79875",
       "PackageDimensions": {
         "Height": "220",
         "Length": "937",
@@ -105,7 +101,6 @@
         "Width": "488"
       },
       "PackageQuantity": "1",
-      "PartNumber": "43173-79875",
       "ProductGroup": "Toy",
       "ProductTypeName": "TOYS_AND_GAMES",
       "Publisher": "ハナヤマ",
@@ -119,17 +114,17 @@
         "FormattedPrice": "￥ 1,800"
       },
       "LowestUsedPrice": {
-        "Amount": "1790",
+        "Amount": "1500",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,790"
+        "FormattedPrice": "￥ 1,500"
       },
       "LowestCollectiblePrice": {
         "Amount": "2500",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 2,500"
       },
-      "TotalNew": "8",
-      "TotalUsed": "2",
+      "TotalNew": "9",
+      "TotalUsed": "1",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -142,31 +137,31 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "4AU4CvYFXYPim4vo7Swq9OncNYdVRuZXNijew9cWfO%2Fc3zR8KkOD1Xk0oBjofFwAr7Ug%2FdbnnCwGtdAxfk5nvbbCEL8cuuP1tUaPNRqXdW1ro%2Fq85sUDlZlttFTeAb3ovdHtYYOpMINWR8v8QdJw7ibNWWTFDdN2",
+          "OfferListingId": "%2BNZbHqqP01iVGYhHv1tHtpLqtmix2gRi%2BYHjwvzp%2FZbvUkQ0ZpVspgVXx799YXeAH%2FtyFyjsDTwsYD7LSmE7FWNOs5SoV5e1nyyDWgMJlb3sOEHqQdG9ubT%2F7N5KxIFTE2eNxyga9Z%2FrE5H5GtfqZQ%3D%3D",
           "Price": {
-            "Amount": "1800",
+            "Amount": "2399",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,800"
+            "FormattedPrice": "￥ 2,399"
           },
           "AmountSaved": {
-            "Amount": "900",
+            "Amount": "301",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 900"
+            "FormattedPrice": "￥ 301"
           },
-          "PercentageSaved": "33",
-          "Availability": "通常2～3営業日以内に発送",
+          "PercentageSaved": "11",
+          "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "48",
-            "MaximumHours": "72"
+            "MinimumHours": "0",
+            "MaximumHours": "0"
           },
-          "IsEligibleForSuperSaverShipping": "0",
-          "IsEligibleForPrime": "0"
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
         }
       }
     }
   },
-  "Lastmod": "2018-05-09 20:30:30 +0900",
+  "Lastmod": "2018-06-30 20:12:32 +0900",
   "Yahoo": {
     "productUrl": "https://shopping.yahoo.co.jp/search?p=4977513054553"
   }

@@ -117,6 +117,82 @@
           }
         },
         {
+          "Category": "variant",
+          "SwatchImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Y6pzySTUL._SL30_.jpg",
+            "Height": "30",
+            "Width": "22"
+          },
+          "SmallImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Y6pzySTUL._SL75_.jpg",
+            "Height": "75",
+            "Width": "56"
+          },
+          "ThumbnailImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Y6pzySTUL._SL75_.jpg",
+            "Height": "75",
+            "Width": "56"
+          },
+          "TinyImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Y6pzySTUL._SL110_.jpg",
+            "Height": "110",
+            "Width": "82"
+          },
+          "MediumImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Y6pzySTUL._SL160_.jpg",
+            "Height": "160",
+            "Width": "120"
+          },
+          "LargeImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Y6pzySTUL.jpg",
+            "Height": "500",
+            "Width": "375"
+          },
+          "HiResImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/81Ax4Av2FZL.jpg",
+            "Height": "2048",
+            "Width": "1536"
+          }
+        },
+        {
+          "Category": "variant",
+          "SwatchImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/313OZqfQUkL._SL30_.jpg",
+            "Height": "30",
+            "Width": "22"
+          },
+          "SmallImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/313OZqfQUkL._SL75_.jpg",
+            "Height": "75",
+            "Width": "56"
+          },
+          "ThumbnailImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/313OZqfQUkL._SL75_.jpg",
+            "Height": "75",
+            "Width": "56"
+          },
+          "TinyImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/313OZqfQUkL._SL110_.jpg",
+            "Height": "110",
+            "Width": "82"
+          },
+          "MediumImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/313OZqfQUkL._SL160_.jpg",
+            "Height": "160",
+            "Width": "120"
+          },
+          "LargeImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/313OZqfQUkL.jpg",
+            "Height": "500",
+            "Width": "375"
+          },
+          "HiResImage": {
+            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71x81hmJQyL.jpg",
+            "Height": "2048",
+            "Width": "1536"
+          }
+        },
+        {
           "Category": "primary",
           "SwatchImage": {
             "URL": "https://images-fe.ssl-images-amazon.com/images/I/41cAjctbMXL._SL30_.jpg",
@@ -159,21 +235,20 @@
     "ItemAttributes": {
       "Binding": "ウェア&シューズ",
       "Brand": "M.MOWBRAY（M.モゥブレィ）",
+      "Color": "60ml",
       "Department": "メンズ",
       "EAN": "4940356997691",
       "EANList": {
         "EANListElement": "4940356997691"
       },
       "Feature": [
-        "サイズ（約）：幅4×奥4×高11.5cm",
-        "容量（約）：60ml、素材：有機溶剤、界面活性剤、エチルパラペン、水、消泡剤",
-        "カラー：クリア",
-        "原産国：日本"
+        "カラー:クリア",
+        "内容量(約): 60ml",
+        "素材:有機溶剤、界面活性剤、エチルパラペン、水、消泡剤",
+        "用途:スムースレザー(一般的な表革)の靴、パンプス、ブーツ等",
+        "注意:用途以外の製品には使用できません。必ず目立たない部分でテストしてからご使用下さい"
       ],
       "IsAdultProduct": "0",
-      "ItemDimensions": {
-        "Weight": "4"
-      },
       "Label": "M.MOWBRAY",
       "ListPrice": {
         "Amount": "648",
@@ -182,7 +257,6 @@
       },
       "Manufacturer": "M.MOWBRAY",
       "Model": "3020",
-      "MPN": "43210-15407",
       "PackageDimensions": {
         "Height": "142",
         "Length": "394",
@@ -190,13 +264,12 @@
         "Width": "189"
       },
       "PackageQuantity": "1",
-      "PartNumber": "43210-15407",
       "ProductGroup": "Shoes",
       "ProductTypeName": "SHOES",
       "Publisher": "M.MOWBRAY",
       "Size": "60ml",
       "Studio": "M.MOWBRAY",
-      "Title": "[エム・モゥブレィ] 汚れ落とし M.モゥブレィ ステインリムーバー    60ml"
+      "Title": "[エム・モゥブレィ] 汚れ落とし M.モゥブレィ ステインリムーバー 60ml"
     },
     "OfferSummary": {
       "LowestNewPrice": {
@@ -204,7 +277,7 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 648"
       },
-      "TotalNew": "15",
+      "TotalNew": "16",
       "TotalUsed": "0",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
@@ -218,7 +291,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "bbYzqbNgBzFqW3XOIYBNoMr7wPhkS6bMc%2FB60fPlt3SCytDb%2BBjSAvOaM1%2FgOjn%2F%2FrFYYo6hk7c%2BomlrKgir3sB48I8fA33ArUEcfXd9j3o%3D",
+          "OfferListingId": "X5ViT2zDBgeHqWzc7wlNNSIbjgx66qk5fCtsvXxTH%2F2wEE0Cf1hLnoH1pC8n2UUjo93byduI79i2RgWyYotITaI2Luz6T1XTOad6tqi5Yw8%3D",
           "Price": {
             "Amount": "648",
             "CurrencyCode": "JPY",
@@ -231,12 +304,12 @@
             "MaximumHours": "0"
           },
           "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
+          "IsEligibleForPrime": "0"
         }
       }
     }
   },
-  "Lastmod": "2018-05-09 20:42:16 +0900",
+  "Lastmod": "2018-06-30 20:24:46 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/0a5de954b3ec3009c0cc4ea90802c148/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/0a5de954b3ec3009c0cc4ea90802c148/"

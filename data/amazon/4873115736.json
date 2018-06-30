@@ -91,7 +91,6 @@
       "ItemDimensions": {
         "Height": "945",
         "Length": "197",
-        "Weight": "313",
         "Width": "748"
       },
       "Label": "オライリージャパン",
@@ -102,7 +101,6 @@
         }
       },
       "Manufacturer": "オライリージャパン",
-      "MPN": "43203-15825",
       "NumberOfPages": "840",
       "PackageDimensions": {
         "Height": "197",
@@ -111,7 +109,6 @@
         "Width": "748"
       },
       "PackageQuantity": "1",
-      "PartNumber": "43203-15825",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2012-08-10",
@@ -126,12 +123,12 @@
         "FormattedPrice": "￥ 4,536"
       },
       "LowestUsedPrice": {
-        "Amount": "2642",
+        "Amount": "2269",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,642"
+        "FormattedPrice": "￥ 2,269"
       },
       "TotalNew": "2",
-      "TotalUsed": "20",
+      "TotalUsed": "21",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -144,17 +141,17 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "5pcZQtUIdrOS8Xne0FoSfpCuCPspKkokrqM%2BXHXXmBb4gDP9IGi8qFXuzRZe2SiCcNPzV9Vy4ZDAgs4S5KlQ7Z5NSYHVXNCqtqQhSirIMeE%3D",
+          "OfferListingId": "9GaEtfF5tA9tiTxbmCLaOYl1SQAdRRvU6PM1CnGVywp833oAm8tLKeyIyWuepbdtZeGYLdfFbkLCfbvP6HMxgp4CRJ0%2FDasMPwjHnic8eh0%3D",
           "Price": {
             "Amount": "4536",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 4,536"
           },
-          "Availability": "在庫あり。",
+          "Availability": "通常1～2か月以内に発送",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
+            "MinimumHours": "288",
+            "MaximumHours": "888"
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
@@ -170,7 +167,7 @@
       }
     }
   },
-  "Lastmod": "2018-05-09 20:31:45 +0900",
+  "Lastmod": "2018-06-30 20:15:00 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/4d852087e514f90eb9e803b938a2feab/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/4d852087e514f90eb9e803b938a2feab/"

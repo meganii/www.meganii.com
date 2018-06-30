@@ -87,6 +87,9 @@
       "Edition": "改訂第3",
       "IsAdultProduct": "0",
       "ISBN": "4478049998",
+      "ItemDimensions": {
+        "Weight": "53"
+      },
       "Label": "ダイヤモンド・ビッグ社",
       "Languages": {
         "Language": {
@@ -116,12 +119,12 @@
         "FormattedPrice": "￥ 1,296"
       },
       "LowestUsedPrice": {
-        "Amount": "600",
+        "Amount": "503",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 600"
+        "FormattedPrice": "￥ 503"
       },
       "TotalNew": "4",
-      "TotalUsed": "7",
+      "TotalUsed": "19",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -134,7 +137,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "pCGJBIht%2B%2F9zXbHf4iCjAD47TGkll8CXnHrSqEmXogmelc3F%2B7WPT8NTazRGKxvZnJKwOeihF64wZxqJGjUaeqpIYM9AzZezRHEcTwfuzGI%3D",
+          "OfferListingId": "m2wQ%2FCpkNt8zYM8kEHEBxqrGTsoZBemMo2rHLE1Yusl34gWolb%2Fo3BfkJGp2QiEJ%2Fpv0XNKHbwDOcYHLbbA4wuTlMCc4TesAot09Rj9F2ls%3D",
           "Price": {
             "Amount": "1296",
             "CurrencyCode": "JPY",
@@ -160,7 +163,7 @@
       }
     }
   },
-  "Lastmod": "2018-05-09 20:37:26 +0900",
+  "Lastmod": "2018-06-30 20:20:06 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/44a336145f512dc3bcdd0adf618293ae/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/44a336145f512dc3bcdd0adf618293ae/"

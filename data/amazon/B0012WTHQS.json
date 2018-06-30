@@ -100,7 +100,10 @@
       ],
       "IsAdultProduct": "0",
       "ItemDimensions": {
-        "Weight": "29"
+        "Height": "160",
+        "Length": "250",
+        "Weight": "29",
+        "Width": "170"
       },
       "Label": "中野製薬",
       "LegalDisclaimer": "使用中や使用後に刺激等の異常があらわれたときは、使用を中止し、専門医などへのご相談をおすすめします。",
@@ -125,11 +128,11 @@
       "Size": "90g",
       "Studio": "中野製薬",
       "Title": "ナカノ スタイリング ワックス 4 ハードタイプ 90g",
-      "UPC": "797978187146",
+      "UPC": "788796256879",
       "UPCList": {
         "UPCListElement": [
-          "797978187146",
           "788796256879",
+          "797978187146",
           "788396629547",
           "783318835976",
           "785525848480",
@@ -144,7 +147,7 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 599"
       },
-      "TotalNew": "75",
+      "TotalNew": "63",
       "TotalUsed": "0",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
@@ -158,7 +161,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "wtBI09w9JFCq3XkJ5224n5Ju4PSV6ELXArPJGb%2FuLTj65tWY3%2FHEtHqz9DwPKRNfOjgJi0lrBCZJ8w0kbI4o8dK6oJWUqfoPKs82BdIu6ds%3D",
+          "OfferListingId": "lkTXfVZHbC%2Fbjwv%2FLMCv9AJmGEHiS%2Bp5fAkTT%2FasEEh2Uro3dNoE%2BIM4L%2FJBNbO0U6GLxhKDEYidnGnwamtYjrBqc75R%2Fi890FKITFk2egw%3D",
           "Price": {
             "Amount": "810",
             "CurrencyCode": "JPY",
@@ -182,7 +185,7 @@
       }
     }
   },
-  "Lastmod": "2018-05-09 20:38:55 +0900",
+  "Lastmod": "2018-06-30 20:21:55 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/8df39887243ac4156542c22376e047e0/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/8df39887243ac4156542c22376e047e0/"

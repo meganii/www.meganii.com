@@ -86,6 +86,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4408026123",
+      "ItemDimensions": {
+        "Weight": "88"
+      },
       "Label": "実業之日本社",
       "Languages": {
         "Language": {
@@ -115,17 +118,17 @@
         "FormattedPrice": "￥ 1,836"
       },
       "LowestUsedPrice": {
-        "Amount": "820",
+        "Amount": "812",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 820"
+        "FormattedPrice": "￥ 812"
       },
       "LowestCollectiblePrice": {
         "Amount": "3999",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 3,999"
       },
-      "TotalNew": "4",
-      "TotalUsed": "11",
+      "TotalNew": "7",
+      "TotalUsed": "18",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -138,7 +141,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "pIHMaz5wOzl749%2BGeRdXudcLJWTk3UgzI0amiM6Eheg4y1m9u%2Bzl9sBrBibSDU8XA8piBz9o%2FqRVS8Q0khJcMRK3anonn42cxlAVG%2BOYYcA%3D",
+          "OfferListingId": "bzM5YadBW46BTNcUFyfH%2F28rSm%2B7PWQH9q7OGJJ6fc9ing1N4paVjC0rAVPb2SeGpcsbgX%2Fuz7d9PZoidAKcEQvoWv%2FGTgT5byHKvwkHZ6g%3D",
           "Price": {
             "Amount": "1836",
             "CurrencyCode": "JPY",
@@ -154,17 +157,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "56",
+          "Points": "54",
           "TypicalRedemptionValue": {
-            "Amount": "56",
+            "Amount": "54",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 56"
+            "FormattedPrice": "￥ 54"
           }
         }
       }
     }
   },
-  "Lastmod": "2018-05-09 20:27:41 +0900",
+  "Lastmod": "2018-06-30 20:10:07 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/24848e9962d75aa7c79e8aed671999e8/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/24848e9962d75aa7c79e8aed671999e8/"

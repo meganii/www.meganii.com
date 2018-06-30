@@ -130,7 +130,6 @@
         }
       },
       "Manufacturer": "ダイヤモンド社",
-      "MPN": "43209-34745",
       "NumberOfPages": "320",
       "PackageDimensions": {
         "Height": "102",
@@ -139,7 +138,6 @@
         "Width": "520"
       },
       "PackageQuantity": "1",
-      "PartNumber": "43209-34745",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2013-01-24",
@@ -149,23 +147,23 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1143",
+        "Amount": "1728",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,143"
+        "FormattedPrice": "￥ 1,728"
       },
       "LowestUsedPrice": {
-        "Amount": "138",
+        "Amount": "432",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 138"
+        "FormattedPrice": "￥ 432"
       },
       "LowestCollectiblePrice": {
         "Amount": "1290",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 1,290"
       },
-      "TotalNew": "7",
-      "TotalUsed": "113",
-      "TotalCollectible": "2",
+      "TotalNew": "4",
+      "TotalUsed": "130",
+      "TotalCollectible": "3",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -177,11 +175,11 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "UYDAOBIZqFA6EqoBZZ%2BLlBuW%2Fg2Vbbcx%2B%2BeizPjJdEfHQvu9%2FQ5pv7sukUPnfB18RiSqavbj4gKJ1R1N9lMcW6nN9fno3wkrGJQAgwkb1eb%2BHxCqpUH9tJ3XHBwkm2JM%2FbhWftkcDkBuy3y0zmHvu%2F2EAAJjdvOn",
+          "OfferListingId": "FSeFqEXnKb27t2doiVEs6vvRN6RDE8LKrcPKjMZ1hPHpNPYkkX870b2F%2BCBTNJynmxVVbwNcrhL3076VwF5YGJ%2B4ztZwmyrQ6XekOsC36n8%3D",
           "Price": {
-            "Amount": "1400",
+            "Amount": "1728",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,400"
+            "FormattedPrice": "￥ 1,728"
           },
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
@@ -191,11 +189,19 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "52",
+          "TypicalRedemptionValue": {
+            "Amount": "52",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 52"
+          }
         }
       }
     }
   },
-  "Lastmod": "2018-05-09 20:32:08 +0900",
+  "Lastmod": "2018-06-30 20:15:20 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/93cea00507bc409d2bbe49dc13ceabf9/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/93cea00507bc409d2bbe49dc13ceabf9/"

@@ -338,7 +338,6 @@
         ]
       },
       "Manufacturer": "CCCメディアハウス",
-      "MPN": "43209-11227",
       "NumberOfPages": "239",
       "PackageDimensions": {
         "Height": "79",
@@ -347,7 +346,6 @@
         "Width": "531"
       },
       "PackageQuantity": "1",
-      "PartNumber": "43209-11227",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2003-04-04",
@@ -362,18 +360,18 @@
         "FormattedPrice": "￥ 1,343"
       },
       "LowestUsedPrice": {
-        "Amount": "300",
+        "Amount": "317",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 300"
+        "FormattedPrice": "￥ 317"
       },
       "LowestCollectiblePrice": {
-        "Amount": "3599",
+        "Amount": "800",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,599"
+        "FormattedPrice": "￥ 800"
       },
-      "TotalNew": "2",
-      "TotalUsed": "52",
-      "TotalCollectible": "1",
+      "TotalNew": "4",
+      "TotalUsed": "99",
+      "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -385,7 +383,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "tjkBLz3hMu7eu0WXHGssNEn5MukWSfsikKCgQgB2qhEmxDaqbyNIJmukaV1RgjxYUXpB%2Bmo%2FQaI2aFfyNJ1mxtfq3Zm64IWnpSCCrWVHqNE%3D",
+          "OfferListingId": "HBv4Ma6uUv0qC9tCYXS9kwjUdX%2FizoXYnPw21Ea8%2FRpvOUxz0%2FYXlnD8yBUXhV%2BpTvbcWhkPGMOOy%2BI5Z0mHgotf7ipqTry%2BMpPI31p5BdY%3D",
           "Price": {
             "Amount": "1620",
             "CurrencyCode": "JPY",
@@ -399,11 +397,19 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "49",
+          "TypicalRedemptionValue": {
+            "Amount": "49",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 49"
+          }
         }
       }
     }
   },
-  "Lastmod": "2018-05-09 20:28:50 +0900",
+  "Lastmod": "2018-06-30 20:11:06 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/180575d5da2d39ce6c64b65ffc782517/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/180575d5da2d39ce6c64b65ffc782517/"

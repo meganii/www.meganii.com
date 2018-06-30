@@ -200,9 +200,9 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "500",
+        "Amount": "1440",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 500"
+        "FormattedPrice": "￥ 1,440"
       },
       "LowestUsedPrice": {
         "Amount": "1",
@@ -210,13 +210,13 @@
         "FormattedPrice": "￥ 1"
       },
       "LowestCollectiblePrice": {
-        "Amount": "498",
+        "Amount": "88",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 498"
+        "FormattedPrice": "￥ 88"
       },
-      "TotalNew": "16",
-      "TotalUsed": "204",
-      "TotalCollectible": "4",
+      "TotalNew": "13",
+      "TotalUsed": "284",
+      "TotalCollectible": "5",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -228,11 +228,11 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "aA8eJKKHVKXEHgCIDAmXve0VYwuPUnJj%2BiZ5dnaf4TRIeB6kDsWNK6%2FAvYSqNAH3DF28w%2FKdnKRjiKPvg23gZNnwLr2zbioMHO5IRSeIrzfaJjBmyK2fRoZ97P4%2FMGWFovFmQmCW2%2F9PCKH2F9V2E2O8h6TZrSNq",
+          "OfferListingId": "yAevsDinbb5rx3tYgNhlIOso8IkEVqBV1%2ByaV4zopBdy60drW90mMR%2F9d6g4zXTLA%2Fb3FrytOToRVOY%2FQ7Sau5UnfF2QRoYzA6%2F9boZ5DGg%3D",
           "Price": {
-            "Amount": "890",
+            "Amount": "1512",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 890"
+            "FormattedPrice": "￥ 1,512"
           },
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
@@ -242,11 +242,19 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "80",
+          "TypicalRedemptionValue": {
+            "Amount": "80",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 80"
+          }
         }
       }
     }
   },
-  "Lastmod": "2018-05-09 20:33:19 +0900",
+  "Lastmod": "2018-06-30 20:16:12 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/25054aef090bef0a4492781d0f7d684a/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/25054aef090bef0a4492781d0f7d684a/"

@@ -149,14 +149,24 @@
       "Title": "プロとしてのSQLチューニング入門"
     },
     "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "1070",
+      "LowestNewPrice": {
+        "Amount": "9937",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,070"
+        "FormattedPrice": "￥ 9,937"
       },
-      "TotalNew": "0",
-      "TotalUsed": "10",
-      "TotalCollectible": "0",
+      "LowestUsedPrice": {
+        "Amount": "616",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 616"
+      },
+      "LowestCollectiblePrice": {
+        "Amount": "1800",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 1,800"
+      },
+      "TotalNew": "1",
+      "TotalUsed": "8",
+      "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -165,7 +175,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-05-09 20:29:03 +0900",
+  "Lastmod": "2018-06-30 20:11:13 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/df2884d606757b213995f8e4c8eed4a1/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/df2884d606757b213995f8e4c8eed4a1/"

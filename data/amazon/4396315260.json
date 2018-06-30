@@ -133,6 +133,11 @@
           "Type": "Unknown"
         }
       },
+      "ListPrice": {
+        "Amount": "617",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 617"
+      },
       "Manufacturer": "祥伝社",
       "NumberOfPages": "256",
       "PackageDimensions": {
@@ -156,18 +161,13 @@
         "FormattedPrice": "￥ 617"
       },
       "LowestUsedPrice": {
-        "Amount": "230",
+        "Amount": "47",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 230"
+        "FormattedPrice": "￥ 47"
       },
-      "LowestCollectiblePrice": {
-        "Amount": "571",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 571"
-      },
-      "TotalNew": "1",
-      "TotalUsed": "5",
-      "TotalCollectible": "1",
+      "TotalNew": "2",
+      "TotalUsed": "8",
+      "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -179,7 +179,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "6%2BS9BKhyVHlTzyTgGbezqAofeoQJ%2BQIT6FpyDDMFcRLpX5ykhkYDcloQbFBobSgVr%2BsTg8E4UxfyltXsaazNCoZYHQ6bEVvtw5HJegMzbkg%3D",
+          "OfferListingId": "ifG6idxxpQJkSXxPvfhAia7JgR2MP8T7vLn5%2FA09c1dpw2ufKPqwS8e3AJjipfyhHB%2B0hzH1QU5Pf6%2FJ2f2Nf7pugCWmErVqTcqCck4KUlU%3D",
           "Price": {
             "Amount": "617",
             "CurrencyCode": "JPY",
@@ -195,17 +195,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "7",
+          "Points": "20",
           "TypicalRedemptionValue": {
-            "Amount": "7",
+            "Amount": "20",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 7"
+            "FormattedPrice": "￥ 20"
           }
         }
       }
     }
   },
-  "Lastmod": "2018-05-09 20:32:16 +0900",
+  "Lastmod": "2018-06-30 20:15:25 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/67b2bd4f02a16a6317e344e862e78c2c/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/67b2bd4f02a16a6317e344e862e78c2c/"

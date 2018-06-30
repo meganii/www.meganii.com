@@ -275,7 +275,10 @@
       "Brand": "ラヴィ(La・VIE)",
       "EAN": "4986920470610",
       "EANList": {
-        "EANListElement": "4986920470610"
+        "EANListElement": [
+          "4986920470610",
+          "0757183220250"
+        ]
       },
       "Feature": [
         "商品サイズ：幅140×高さ65×奥行65ｍｍ。",
@@ -286,9 +289,6 @@
       ],
       "IsAutographed": "0",
       "IsMemorabilia": "0",
-      "ItemDimensions": {
-        "Weight": "55"
-      },
       "Label": "La-VIE(ラヴィ)",
       "Manufacturer": "La-VIE(ラヴィ)",
       "Model": "3B-4706",
@@ -305,7 +305,11 @@
       "ProductTypeName": "SPORTING_GOODS",
       "Publisher": "La-VIE(ラヴィ)",
       "Studio": "La-VIE(ラヴィ)",
-      "Title": "La-VIE(ラヴィ) かたお  ストレッチ ボール マッサージボール"
+      "Title": "La-VIE(ラヴィ) かたお  ストレッチ ボール マッサージボール",
+      "UPC": "757183220250",
+      "UPCList": {
+        "UPCListElement": "757183220250"
+      }
     },
     "OfferSummary": {
       "LowestNewPrice": {
@@ -313,8 +317,13 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 710"
       },
-      "TotalNew": "13",
-      "TotalUsed": "0",
+      "LowestUsedPrice": {
+        "Amount": "650",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 650"
+      },
+      "TotalNew": "14",
+      "TotalUsed": "1",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -327,7 +336,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "1Qlqsw9oxXW2ElGGowW%2Ba5Z4H%2FbCVG0m9bSl5KJy1cRt%2B2MhE8hAN%2BdfxDMGtew374kbxMd49TsT4QuIombBYsB%2B9C6RdYNe1iHq4%2BUSb7U%3D",
+          "OfferListingId": "xCn6jTOBloKrNUEKeAlQQfxLvXSBq9%2FeksobIsSFHC2hPKDyvihuSZCRBXyGAOz0aVDgGOl60o8CDb3%2FsiBFxbUc05lAoQDCw5K7vxxKiWQ%3D",
           "Price": {
             "Amount": "962",
             "CurrencyCode": "JPY",
@@ -345,7 +354,7 @@
       }
     }
   },
-  "Lastmod": "2018-05-09 20:38:00 +0900",
+  "Lastmod": "2018-06-30 20:20:49 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/378425b9640b406c9ef320732f160664/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/378425b9640b406c9ef320732f160664/"

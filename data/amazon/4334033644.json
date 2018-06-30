@@ -81,9 +81,6 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4334033644",
-      "ItemDimensions": {
-        "Weight": "64"
-      },
       "Label": "光文社",
       "Languages": {
         "Language": {
@@ -92,7 +89,6 @@
         }
       },
       "Manufacturer": "光文社",
-      "MPN": "43209-27148",
       "NumberOfPages": "317",
       "PackageDimensions": {
         "Height": "71",
@@ -101,7 +97,6 @@
         "Width": "425"
       },
       "PackageQuantity": "1",
-      "PartNumber": "43209-27148",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2006-07-14",
@@ -117,18 +112,13 @@
         "FormattedPrice": "￥ 1,026"
       },
       "LowestUsedPrice": {
-        "Amount": "1",
+        "Amount": "192",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1"
+        "FormattedPrice": "￥ 192"
       },
-      "LowestCollectiblePrice": {
-        "Amount": "648",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 648"
-      },
-      "TotalNew": "1",
-      "TotalUsed": "19",
-      "TotalCollectible": "1",
+      "TotalNew": "2",
+      "TotalUsed": "26",
+      "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -140,7 +130,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "4SdEeRWpSdMfhA5hlOwlJxiCqRc%2F6NsRJYhrL1kd69LvN%2F%2F2n1NlNdoXVKKFkjgKRW9hUCVhOGRWj0Ys8IFcaFntPb8OAlWt",
+          "OfferListingId": "LNIDU%2FqZERFrcClDsgIuzt2ITF%2FYzbZg2vi%2BFEA8x8R4JlbAFIF2AXoADLeAABXpYQRRyUJ2fXWOe10iveR%2FQSoi%2BY6KK%2F9g",
           "Price": {
             "Amount": "1026",
             "CurrencyCode": "JPY",
@@ -166,7 +156,7 @@
       }
     }
   },
-  "Lastmod": "2018-05-09 20:37:15 +0900",
+  "Lastmod": "2018-06-30 20:19:53 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/e66be72fc326b14f076f6e87f1aeb2a0/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/e66be72fc326b14f076f6e87f1aeb2a0/"

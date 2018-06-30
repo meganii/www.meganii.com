@@ -127,7 +127,7 @@
       "IsAdultProduct": "0",
       "ISBN": "4344020383",
       "ItemDimensions": {
-        "Weight": "49"
+        "Weight": "0"
       },
       "Label": "幻冬舎",
       "Languages": {
@@ -137,7 +137,6 @@
         }
       },
       "Manufacturer": "幻冬舎",
-      "MPN": "43209-60395",
       "NumberOfPages": "125",
       "PackageDimensions": {
         "Height": "63",
@@ -146,7 +145,6 @@
         "Width": "583"
       },
       "PackageQuantity": "1",
-      "PartNumber": "43209-60395",
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2011-09-21",
@@ -170,8 +168,8 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 1,895"
       },
-      "TotalNew": "2",
-      "TotalUsed": "23",
+      "TotalNew": "3",
+      "TotalUsed": "47",
       "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
@@ -184,7 +182,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "b11xklL9FR6TJFFvIaSoYEMXbDTpW9BJInpDb1l8YjTrC4g02oCR77FQY38SvKHHn0sFUgGlarP4m7tHCSllhCWRct%2BX7tqUfllHZ6y6FvM%3D",
+          "OfferListingId": "HMIU6i0bgNsRPlzVAaPyHHrK6VpOoruk7B9VE1BgrOKB1DRzYtzz9ccX0DDK3vTVxCglb9Zg0QIhXQeGcTY81wCevpnHvXNZ4C9ruxJlyqQ%3D",
           "Price": {
             "Amount": "1404",
             "CurrencyCode": "JPY",
@@ -200,17 +198,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "14",
+          "Points": "42",
           "TypicalRedemptionValue": {
-            "Amount": "14",
+            "Amount": "42",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 14"
+            "FormattedPrice": "￥ 42"
           }
         }
       }
     }
   },
-  "Lastmod": "2018-05-09 20:38:06 +0900",
+  "Lastmod": "2018-06-30 20:20:54 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/206ddeecabd6b5610b85bad80fbc6f2a/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/206ddeecabd6b5610b85bad80fbc6f2a/"
