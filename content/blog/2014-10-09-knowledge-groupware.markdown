@@ -4,12 +4,13 @@ date: 2014-10-09T00:40:00+09:00
 lastmod: 2017-02-19T18:00:00+09:00
 comments: true
 category: ['Art']
-tags: ['book','ファシリテーション']
+tags: ['book','ファシリテーション', '会議']
 published: true 
 slug: knowledge-groupware
+img: "https://images-fe.ssl-images-amazon.com/images/I/516CBVX9JJL._SL160_.jpg"
 ---
 
-**『空中戦』を回避しながら、『論理を構造化』して『可視化』して共有する**
+**空中戦』を回避しながら、『論理を構造化』して『可視化』して共有する**
 
 議論を可視化することで、常に論理の構造が意識される。また、思考プロセスを個人の頭の外に出すことができる。
 そうやって、思考プロセスを外部化すれば、グループで知恵を合わせて考えることができる。

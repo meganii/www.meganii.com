@@ -2,9 +2,10 @@
 title: ホワイトボードでやってみたいこと
 date: 2013-01-21
 category: ['Art']
-tags: ['ファシリテーション', '会議']
+tags: ['ファシリテーション', '会議', 'ホワイトボード']
 published: true
 slug: whiteboard
+img: "https://images-fe.ssl-images-amazon.com/images/I/513w95PLFRL._SL160_.jpg"
 ---
 
 ## アジェンダリストを右端に残しておく

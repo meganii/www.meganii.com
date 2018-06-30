@@ -7,6 +7,7 @@ category: ['Book']
 tags: ['Amazon','Book']
 published: true
 slug: amazon-marketplace
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514038598/BOOK_1_v8p2op.png"
 ---
 
 引っ越しに伴い、本棚に積まれていた本を整理しました。今まではブックオフに持っていくということしか頭になかったのですが、色々調べてみるとAmazonマーケットプレイスやAmazon買い取りサービスなるものが存在して、比較的簡単に高く本を売却できそうだったので試してみることにしました。
