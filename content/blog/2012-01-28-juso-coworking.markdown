@@ -5,7 +5,10 @@ category: ['Tech']
 tags: ['meetup']
 published: true
 slug: juso-coworking
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_400/v1530366276/jusoworking_daojpu.png"
 ---
+
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1530366276/jusoworking_daojpu.png" w="1436" h="780" %}}
 
 <a href="http://twitter.com/saiut" target="_blank">@saiut</a>に誘っていただき、<a href="http://twitter.com/LHnao" target="_blank">@LHnao</a>と[JUSO Coworking - 大阪・十三のコワーキングスペース](http://juso-coworking.com/)に参加してきました！楽しかったです！！
 
