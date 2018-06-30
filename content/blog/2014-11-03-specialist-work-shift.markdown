@@ -1,5 +1,4 @@
 ---
-
 title: "ゼネラリストから「連続スペシャリスト」へ"
 date: 2014-11-03T15:25:00+09:00
 comments: true
@@ -7,6 +6,7 @@ category: ['Life']
 tags: ['book','WorkShift']
 published: true
 slug: specialist-work-shift
+img: "https://images-fe.ssl-images-amazon.com/images/I/41AvcbzqzDL._SL160_.jpg"
 ---
 
 **2025年、私たちはどんな風に働いているのだろうか？

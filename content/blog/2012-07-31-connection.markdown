@@ -6,9 +6,10 @@ category: ['Life']
 tags: ['人脈','book']
 published: true
 slug: connection
+img: "https://farm8.staticflickr.com/7132/7668706168_dfc1dcbfc1.jpg"
 ---
 
-{{% img src="http://farm8.staticflickr.com/7132/7668706168_dfc1dcbfc1.jpg" w="500" h="352" alt="レバレッジ人脈術" %}}
+{{% img src="https://farm8.staticflickr.com/7132/7668706168_dfc1dcbfc1.jpg" w="500" h="352" alt="レバレッジ人脈術" %}}
 
 ふと、人脈について考えるキッカケがあったので、考えてみたのだが、そもそも「人脈」ってなんだんだろうか。
 

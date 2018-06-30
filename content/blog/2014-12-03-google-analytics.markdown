@@ -3,7 +3,7 @@ title: "現場でプロが培った Google Analyticsの使い方"
 date: 2014-12-03T07:21:00+09:00
 comments: true
 category: ['Book']
-tags: ['book','GoogleAnalytics']
+tags: ['book','GoogleAnalytics','アクセス解析']
 published: true 
 slug: google-analytics
 img: "https://images-na.ssl-images-amazon.com/images/I/51gLaE5xkBL._SL160_.jpg"

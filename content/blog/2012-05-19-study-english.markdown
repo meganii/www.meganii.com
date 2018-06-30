@@ -6,6 +6,7 @@ category: ['Art']
 tags: ['book','english']
 published: true
 slug: study-english
+img: "https://images-fe.ssl-images-amazon.com/images/I/51dwdrg2K%2BL._SL160_.jpg"
 ---
 
 {{% amazon 4887598483 %}}
