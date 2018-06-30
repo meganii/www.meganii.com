@@ -43,7 +43,6 @@ Github = "https://github.com/meganii"
 Facebook = "meganiicom"
 Instagram = "meganii"
 Cloudinary = "meganii"
-CloudinaryTopBanner = "v1524390254/sislab_top_banner.png"
 ShowTagCloud = true
 ShowRelatedPost = true
 Disqus = "meganii"
@@ -59,6 +58,10 @@ ampscripts = """
 <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
 """
 profile = "ギークを夢見るじょーぶん男子。「広く浅くから広く深く」を目指してブログを書いています。"
+[params.topBanner]
+src = "v1524390254/sislab_top_banner.png"
+width = "1000"
+height = "250"
 
 [related]
 # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
