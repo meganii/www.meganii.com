@@ -3,8 +3,8 @@ title: "工事完成基準と工事進行基準"
 date: 2017-11-02T23:31:04+09:00
 lastmod: 2017-11-02T23:31:04+09:00
 comments: true
-category: ['IT']
-tags: ['工事完成基準','工事進行基準']
+category: ['Tech']
+tags: ['工事完成基準','工事進行基準', '契約']
 published: true
 slug: percentage-of-completion-basis-and-completed-contract
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514038598/BOOK_1_v8p2op.png"

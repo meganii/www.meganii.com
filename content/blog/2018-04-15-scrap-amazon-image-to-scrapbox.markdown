@@ -3,8 +3,8 @@ title: "ScrapboxにAmazonの書影を取り込むブックマークレット"
 date: 2018-04-15T22:29:00+09:00
 lastmod: 2018-04-15T22:29:00+09:00
 comments: true
-category: ['Life']
-tags: ['Scrapbox']
+category: ['Tech']
+tags: ['Scrapbox', 'Amazon', 'ブックマークレット']
 published: true
 slug: scrap-amazon-image-to-scrapbox
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"

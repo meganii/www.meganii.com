@@ -4,7 +4,7 @@ date: 2015-04-01T19:55:00+09:00
 lastmod: 2017-08-25T19:55:00+09:00
 comments: true
 category: ['Stationery']
-tags: ['ほぼ日手帳','革小物']
+tags: ['ほぼ日手帳','革小物', '文房具', '手帳カバー']
 published: true
 img: "https://farm8.staticflickr.com/7628/16989114741_12323fb8ba_s.jpg"
 slug: hobonichi-planner-leather-cover
