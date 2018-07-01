@@ -4,7 +4,7 @@ date: 2015-03-01T08:22:00+09:00
 lastmod: 2017-01-08T08:38:00+09:00
 comments: true
 category: ['Stationery']
-tags: ['ノート','万年筆']
+tags: ['ノート','万年筆', '文房具', 'モレスキン', 'ミドリMDノート']
 published: true
 img: "https://images-na.ssl-images-amazon.com/images/I/31cYjEMPI1L._SL160_.jpg"
 slug: moleskine-to-mdnote
