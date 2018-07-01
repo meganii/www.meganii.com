@@ -10,7 +10,7 @@ img: "https://farm6.staticflickr.com/5552/15070575427_884d9c6084_s.jpg"
 slug: domino-yokyo
 ---
 
-{{% img src="https://farm6.staticflickr.com/5552/15070575427_884d9c6084_c.jpg" w="800" h="534" %}}
+
 
 2014/08/03 友人の結婚式余興に、ドミノ倒しでお祝いの気持ちを伝えました!!
 今回も大変でした。
@@ -29,7 +29,7 @@ slug: domino-yokyo
 自分たちが作ったものを、会場の人に見てもらえる、反応してもらえるのってやっぱり嬉しい。
 いい経験になりました。ありがとう。
 
-<!-- more -->
+
 
 ドミノを使って、余興を考えている人にとってちょっとでも参考になればと思い残しておきます。
 
@@ -115,6 +115,3 @@ slug: domino-yokyo
 感覚を掴むためにも、まずはどんなもんかを実際に試してみるのが1番でした。自分たちは、Amazonでドミノ倒しキットを買って試しました。
 
 {{% amazon B001K6VMUK %}}
-
-
-{{% card src="https://www.meganii.com/blog/2014/09/06/domino-yokyo/" %}}
