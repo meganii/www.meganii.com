@@ -56,7 +56,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,h_75,q_auto
 <a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884269667&vc_url=https%3A%2F%2Fwww.hotpepper.jp%2FstrJ001100875%2F%3Fvos%3Dnhppvccp99002" target="_blank" rel="nofollow">
 {{% img src="https://imgfp.hotp.jp/IMGH/52/53/P025405253/P025405253_480.jpg" w="368" h="276" class="center" %}}
 写真提供：ホットペッパー グルメ
-<amp-img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884269667" height="1" width="0" border="0"></amp-img>
+<amp-img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884269667" height="1" width="0" layout="fixed"></amp-img>
 </a>
 
 ## 一粋 池袋店
@@ -68,7 +68,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,h_75,q_auto
 <a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884269667&vc_url=https%3A%2F%2Fwww.hotpepper.jp%2FstrJ000010335%2F" target="_blank" rel="nofollow">
 {{% img src="https://imgfp.hotp.jp/IMGH/31/60/P028293160/P028293160_480.jpg" w="480" h="480" class="center" %}}
 写真提供：ホットペッパー グルメ
-<amp-img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884269667" height="1" width="0" border="0"></amp-img>
+<amp-img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884269667" height="1" width="0" layout="fixed"></amp-img>
 </a>
 
 
