@@ -1,5 +1,4 @@
 ---
-
 title: ap bank fes'12 淡路島!!!
 date: 2012-08-09
 category: ['Travel']
