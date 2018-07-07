@@ -84,6 +84,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "477414259X",
+      "ItemDimensions": {
+        "Weight": "66"
+      },
       "Label": "技術評論社",
       "Languages": {
         "Language": [
@@ -114,18 +117,23 @@
       "Title": "IT業界を楽しく生き抜くための「つまみぐい勉強法」 (技評SE選書)"
     },
     "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "608",
+      "LowestNewPrice": {
+        "Amount": "7046",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 608"
+        "FormattedPrice": "￥ 7,046"
+      },
+      "LowestUsedPrice": {
+        "Amount": "294",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 294"
       },
       "LowestCollectiblePrice": {
         "Amount": "2480",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 2,480"
       },
-      "TotalNew": "0",
-      "TotalUsed": "12",
+      "TotalNew": "2",
+      "TotalUsed": "20",
       "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
@@ -135,7 +143,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-03-25 08:52:13 +0900",
+  "Lastmod": "2018-07-07 11:57:26 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/4a175f13a920db7bb806628132dfff5c/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/4a175f13a920db7bb806628132dfff5c/"

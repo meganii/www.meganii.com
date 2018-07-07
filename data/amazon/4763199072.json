@@ -87,6 +87,11 @@
           "Type": "Unknown"
         }
       },
+      "ListPrice": {
+        "Amount": "1404",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 1,404"
+      },
       "Manufacturer": "サンマーク出版",
       "NumberOfPages": "207",
       "PackageDimensions": {
@@ -105,9 +110,9 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1980",
+        "Amount": "4669",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,980"
+        "FormattedPrice": "￥ 4,669"
       },
       "LowestUsedPrice": {
         "Amount": "1",
@@ -115,7 +120,7 @@
         "FormattedPrice": "￥ 1"
       },
       "TotalNew": "1",
-      "TotalUsed": "32",
+      "TotalUsed": "33",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -125,7 +130,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-03-25 08:49:32 +0900",
+  "Lastmod": "2018-07-07 11:54:30 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/3bc6c4e5f18876869ccdf69d007dc433/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/3bc6c4e5f18876869ccdf69d007dc433/"

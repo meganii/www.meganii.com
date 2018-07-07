@@ -85,6 +85,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4478300593",
+      "ItemDimensions": {
+        "Weight": "1"
+      },
       "Label": "ダイヤモンド社",
       "Languages": {
         "Language": {
@@ -110,23 +113,23 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1652",
+        "Amount": "1597",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,652"
+        "FormattedPrice": "￥ 1,597"
       },
       "LowestUsedPrice": {
-        "Amount": "250",
+        "Amount": "119",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 250"
+        "FormattedPrice": "￥ 119"
       },
       "LowestCollectiblePrice": {
-        "Amount": "1498",
+        "Amount": "1298",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,498"
+        "FormattedPrice": "￥ 1,298"
       },
       "TotalNew": "8",
-      "TotalUsed": "80",
-      "TotalCollectible": "2",
+      "TotalUsed": "188",
+      "TotalCollectible": "4",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -138,7 +141,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "jEjC7Wnho%2Ff2H%2B7QgtgvgHXr%2BdYo8DHD%2B31xf3eIc%2FJIt5e18kGpPiC4VEmuzBYeF3iREW0xGXMBwMUiV8jsWWqrltcNnbkAUPrBkL9eGao%3D",
+          "OfferListingId": "i7Yfm8bucEYoT1QY8ViaH2yYP1RqAULHUNvfMhVGxn8HAnMlmNAWJvY49WU4ZcZVa3qQj4LmuVkfVZYiwIdkuJi%2FKceVjakNYaQgHQ62wbg%3D",
           "Price": {
             "Amount": "1944",
             "CurrencyCode": "JPY",
@@ -164,7 +167,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 08:49:37 +0900",
+  "Lastmod": "2018-07-07 11:54:38 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/0085b997e0a66b18135cb8a67c0562d9/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/0085b997e0a66b18135cb8a67c0562d9/"

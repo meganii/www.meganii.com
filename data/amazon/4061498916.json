@@ -126,6 +126,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4061498916",
+      "ItemDimensions": {
+        "Weight": "0"
+      },
       "Label": "講談社",
       "Languages": {
         "Language": {
@@ -161,12 +164,12 @@
         "FormattedPrice": "￥ 1"
       },
       "LowestCollectiblePrice": {
-        "Amount": "188",
+        "Amount": "226",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 188"
+        "FormattedPrice": "￥ 226"
       },
       "TotalNew": "5",
-      "TotalUsed": "192",
+      "TotalUsed": "237",
       "TotalCollectible": "5",
       "TotalRefurbished": "0"
     },
@@ -179,7 +182,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "KxxNmwpIizhZYMZRTyyk0R4sXKDdj5QeQ8Tf4LXyBrJzwgrpskiG%2FFujtpScbHiNyT2zMO6CzY%2BpGKQL6twcpDfdhTQvQWG2",
+          "OfferListingId": "%2FXE7z3TPat6nZ%2Byd9NdEnnwlppinjR6PC2io%2BZdMuP4AraCkRrG7dTQCqeSLfbYL3ocRsLWNBfa09UB3NmmS1z9H2nCqpL3b",
           "Price": {
             "Amount": "799",
             "CurrencyCode": "JPY",
@@ -205,7 +208,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 08:49:27 +0900",
+  "Lastmod": "2018-07-07 11:54:20 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/fd83390ec05190a9e3fb849597635eda/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/fd83390ec05190a9e3fb849597635eda/"

@@ -105,13 +105,18 @@
       "Title": "小飼弾のアルファギークに逢ってきた (WEB+DB PRESS plusシリーズ)"
     },
     "OfferSummary": {
+      "LowestNewPrice": {
+        "Amount": "6789",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 6,789"
+      },
       "LowestUsedPrice": {
         "Amount": "1",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 1"
       },
-      "TotalNew": "0",
-      "TotalUsed": "17",
+      "TotalNew": "1",
+      "TotalUsed": "24",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -121,7 +126,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-03-25 08:51:55 +0900",
+  "Lastmod": "2018-07-07 11:57:09 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/5fbb31d1ab28c6ce87597d014b587332/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/5fbb31d1ab28c6ce87597d014b587332/"

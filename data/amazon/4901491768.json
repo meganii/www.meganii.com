@@ -82,12 +82,20 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4901491768",
+      "ItemDimensions": {
+        "Weight": "0"
+      },
       "Label": "ナナ・コーポレート・コミュニケーション",
       "Languages": {
         "Language": {
           "Name": "日本語",
           "Type": "Unknown"
         }
+      },
+      "ListPrice": {
+        "Amount": "1404",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 1,404"
       },
       "Manufacturer": "ナナ・コーポレート・コミュニケーション",
       "NumberOfPages": "232",
@@ -121,9 +129,9 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 250"
       },
-      "TotalNew": "12",
-      "TotalUsed": "323",
-      "TotalCollectible": "7",
+      "TotalNew": "8",
+      "TotalUsed": "359",
+      "TotalCollectible": "6",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -135,7 +143,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "gBxtALlPKFGaSExDJnDw0oLdw7LHS%2BzczXy%2Fi%2BBaTJyYAYt5VlMQaU1CFInxcVzrJXPuLorwQWlfk1fOQpYH%2FHqAtPGJVKud",
+          "OfferListingId": "GRAjhH6KHFsT1F4l6oFjICMouGXNrGSy53o6ZZRKxfMU8NavE5JtiskV%2FMY02sH22eVJKzrV0k470qEhKuUoV2EILoZ%2FIgA5",
           "Price": {
             "Amount": "1404",
             "CurrencyCode": "JPY",
@@ -161,7 +169,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 08:51:24 +0900",
+  "Lastmod": "2018-07-07 11:56:33 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/dd46b3e60b4f8fa1d645045599a644a2/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/dd46b3e60b4f8fa1d645045599a644a2/"

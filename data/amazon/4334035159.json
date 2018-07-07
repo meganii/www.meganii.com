@@ -106,6 +106,11 @@
       "Title": "仕事するのにオフィスはいらない (光文社新書)"
     },
     "OfferSummary": {
+      "LowestNewPrice": {
+        "Amount": "12950",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 12,950"
+      },
       "LowestUsedPrice": {
         "Amount": "1",
         "CurrencyCode": "JPY",
@@ -116,8 +121,8 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 251"
       },
-      "TotalNew": "0",
-      "TotalUsed": "45",
+      "TotalNew": "1",
+      "TotalUsed": "67",
       "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
@@ -127,7 +132,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-03-25 08:51:45 +0900",
+  "Lastmod": "2018-07-07 11:56:57 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/9588e0370be3351ed5fae9ae3f278f5c/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/9588e0370be3351ed5fae9ae3f278f5c/"

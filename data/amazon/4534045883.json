@@ -159,6 +159,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4534045883",
+      "ItemDimensions": {
+        "Weight": "1"
+      },
       "Label": "日本実業出版社",
       "Languages": {
         "Language": [
@@ -196,12 +199,12 @@
         "FormattedPrice": "￥ 1,404"
       },
       "LowestUsedPrice": {
-        "Amount": "300",
+        "Amount": "1",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 300"
+        "FormattedPrice": "￥ 1"
       },
-      "TotalNew": "3",
-      "TotalUsed": "37",
+      "TotalNew": "4",
+      "TotalUsed": "112",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -214,7 +217,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "HHQskbzyVv6UluIQPZhP6hwrt0tdp4Ev6kyEOXs4%2FyJ6m%2BmGrFserJO0pj9h2I6X4TDqivGit6Qi%2BrG%2BQJNDxEMiiayy0l78W6e0kWMmAqc%3D",
+          "OfferListingId": "zmXmg2%2B2ZKkpZ322zSlSugvyO61ZjOUh3m6I9zBggvumT6uYTyGruYpOvZCTMXAMTNEhfeoHbhxmURX49g5ESJ3sSQs%2FaBIKJxEcXpEbiFk%3D",
           "Price": {
             "Amount": "1404",
             "CurrencyCode": "JPY",
@@ -240,7 +243,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 08:52:49 +0900",
+  "Lastmod": "2018-07-07 11:57:59 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/75f1e88ed324e24c0beda26e807fbd89/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/75f1e88ed324e24c0beda26e807fbd89/"

@@ -85,6 +85,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4532149479",
+      "ItemDimensions": {
+        "Weight": "93"
+      },
       "Label": "日本経済新聞出版社",
       "Languages": {
         "Language": [
@@ -116,9 +119,9 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1500",
+        "Amount": "1728",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,500"
+        "FormattedPrice": "￥ 1,728"
       },
       "LowestUsedPrice": {
         "Amount": "1",
@@ -130,18 +133,39 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 194"
       },
-      "TotalNew": "6",
-      "TotalUsed": "319",
+      "TotalNew": "2",
+      "TotalUsed": "349",
       "TotalCollectible": "6",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
+      "TotalOffers": "1",
+      "TotalOfferPages": "1",
+      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4532149479?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4532149479",
+      "Offer": {
+        "OfferAttributes": {
+          "Condition": "New"
+        },
+        "OfferListing": {
+          "OfferListingId": "uAbekgSbDfVmyKzU6V3S1zwC6lfBxPNdDC1YmOB%2FvO0PGM9aPzLfkK286JoFosYUKUGXvr%2Ft2gSJ7U40XeEeaR5n%2BbOJChPuz8yDWeTqDEvj8G9dX1SReOu0aPVjkArLrMYgQgEWO%2B%2ByF18Elu53rJBb1ewkGzSY",
+          "Price": {
+            "Amount": "1728",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 1,728"
+          },
+          "Availability": "在庫あり。",
+          "AvailabilityAttributes": {
+            "AvailabilityType": "now",
+            "MinimumHours": "24",
+            "MaximumHours": "24"
+          },
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        }
+      }
     }
   },
-  "Lastmod": "2018-03-25 08:49:16 +0900",
+  "Lastmod": "2018-07-07 11:54:05 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/9312055a1f3c1055736225e80fa588c2/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/9312055a1f3c1055736225e80fa588c2/"

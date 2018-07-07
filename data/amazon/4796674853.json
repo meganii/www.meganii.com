@@ -79,6 +79,7 @@
       "EANList": {
         "EANListElement": "9784796674850"
       },
+      "IsAdultProduct": "0",
       "ISBN": "4796674853",
       "Label": "宝島社",
       "Languages": {
@@ -111,6 +112,11 @@
       "Title": "ネットがあれば履歴書はいらない-ウェブ時代のセルフブランディング術 (宝島社新書)"
     },
     "OfferSummary": {
+      "LowestNewPrice": {
+        "Amount": "1179",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 1,179"
+      },
       "LowestUsedPrice": {
         "Amount": "1",
         "CurrencyCode": "JPY",
@@ -121,18 +127,39 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 101"
       },
-      "TotalNew": "0",
-      "TotalUsed": "32",
+      "TotalNew": "2",
+      "TotalUsed": "34",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
+      "TotalOffers": "1",
+      "TotalOfferPages": "1",
+      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4796674853?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4796674853",
+      "Offer": {
+        "OfferAttributes": {
+          "Condition": "New"
+        },
+        "OfferListing": {
+          "OfferListingId": "72%2FMuvCD0Or28PgTqiQHmIeez3SL%2B5L8HaDtp6QT6ZbtYgZD%2BAdETJ7xRwnqjmoU3ygtlN54Co08F2kLvP0DE9wDnZJFXeVWOEV1PRdRToB74%2BfxerdJiy2H13N16CZvMJD6TLNNLEGsQTtglXNwlzi7MiyVwU6I",
+          "Price": {
+            "Amount": "1179",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 1,179"
+          },
+          "Availability": "在庫あり。",
+          "AvailabilityAttributes": {
+            "AvailabilityType": "now",
+            "MinimumHours": "0",
+            "MaximumHours": "0"
+          },
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        }
+      }
     }
   },
-  "Lastmod": "2018-03-25 08:51:38 +0900",
+  "Lastmod": "2018-07-07 11:56:53 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/34abbfefc93fb49dde7c80b8f53347b2/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/34abbfefc93fb49dde7c80b8f53347b2/"

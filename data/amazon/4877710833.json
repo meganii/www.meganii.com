@@ -127,7 +127,15 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4877710833",
+      "ItemDimensions": {
+        "Weight": "0"
+      },
       "Label": "きこ書房",
+      "ListPrice": {
+        "Amount": "1404",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 1,404"
+      },
       "Manufacturer": "きこ書房",
       "NumberOfPages": "212",
       "PackageDimensions": {
@@ -151,18 +159,18 @@
         "FormattedPrice": "￥ 1,404"
       },
       "LowestUsedPrice": {
-        "Amount": "165",
+        "Amount": "163",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 165"
+        "FormattedPrice": "￥ 163"
       },
       "LowestCollectiblePrice": {
-        "Amount": "2000",
+        "Amount": "1020",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,000"
+        "FormattedPrice": "￥ 1,020"
       },
       "TotalNew": "3",
-      "TotalUsed": "37",
-      "TotalCollectible": "1",
+      "TotalUsed": "108",
+      "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -174,7 +182,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "CYQ%2F8kJoVyFzO2k02k%2FroYZAsGt9DgTocbik6Pw0EEyUHgxRyQyVzotMXMjAudflHXQBJG9eZ5T5UmnN95CksOYNUG4ayZ5w",
+          "OfferListingId": "MYTc5m57bbLgMMJCbHneNxImtU33bt2dzKkJ6eOiWuNvSC5RMtNMCay5Eghl2Mtn3HtK%2Bh0StJ3NB9eUeOutQsykTyblgSjQ",
           "Price": {
             "Amount": "1404",
             "CurrencyCode": "JPY",
@@ -200,7 +208,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 08:51:15 +0900",
+  "Lastmod": "2018-07-07 11:56:28 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/932efc19b86002ad856d1dbd8a184828/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/932efc19b86002ad856d1dbd8a184828/"

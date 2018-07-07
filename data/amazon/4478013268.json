@@ -131,6 +131,11 @@
           "Type": "Unknown"
         }
       },
+      "ListPrice": {
+        "Amount": "1543",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 1,543"
+      },
       "Manufacturer": "ダイヤモンド社",
       "NumberOfPages": "260",
       "PackageDimensions": {
@@ -154,17 +159,17 @@
         "FormattedPrice": "￥ 1,543"
       },
       "LowestUsedPrice": {
-        "Amount": "1",
+        "Amount": "55",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1"
+        "FormattedPrice": "￥ 55"
       },
       "LowestCollectiblePrice": {
         "Amount": "1186",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 1,186"
       },
-      "TotalNew": "1",
-      "TotalUsed": "27",
+      "TotalNew": "2",
+      "TotalUsed": "87",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -177,7 +182,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "nRFpZOiJ4nTG8GNT%2F%2FZ%2FdAak4WdEN%2Ft2nNtQ%2FX42%2BYAEvtCHKGnDRLSfQHkCy%2BVinmzQ2uxMo4fwUAAEfbN0733YafA2D2gm69iAZodtfSA%3D",
+          "OfferListingId": "%2BJEVpAPJ2CLHXsxyf4MWVkovZ7yFGVHItx5NtK%2FTgoT0UIC6s3ksbZMtQ0KFYN24x%2FyG2P3JfAYNvXwyDT3KSmXPGY7ghj1w%2Bf73t5O%2FoW4%3D",
           "Price": {
             "Amount": "1543",
             "CurrencyCode": "JPY",
@@ -193,17 +198,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "47",
+          "Points": "75",
           "TypicalRedemptionValue": {
-            "Amount": "47",
+            "Amount": "75",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 47"
+            "FormattedPrice": "￥ 75"
           }
         }
       }
     }
   },
-  "Lastmod": "2018-03-25 08:51:29 +0900",
+  "Lastmod": "2018-07-07 11:56:38 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/7bdf20f5d4ed3d55368c3c0b1fa74619/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/7bdf20f5d4ed3d55368c3c0b1fa74619/"

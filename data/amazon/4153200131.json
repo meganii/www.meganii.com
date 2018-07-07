@@ -82,6 +82,11 @@
       "IsAdultProduct": "0",
       "ISBN": "4153200131",
       "Label": "早川書房",
+      "ListPrice": {
+        "Amount": "1512",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 1,512"
+      },
       "Manufacturer": "早川書房",
       "NumberOfPages": "386",
       "PackageDimensions": {
@@ -104,17 +109,17 @@
         "FormattedPrice": "￥ 1,512"
       },
       "LowestUsedPrice": {
-        "Amount": "332",
+        "Amount": "493",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 332"
+        "FormattedPrice": "￥ 493"
       },
       "LowestCollectiblePrice": {
         "Amount": "2480",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 2,480"
       },
-      "TotalNew": "1",
-      "TotalUsed": "10",
+      "TotalNew": "2",
+      "TotalUsed": "8",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -127,7 +132,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "svvVB%2BGE13upKMLYHbcgPX26LMG6Zn3%2F09BhBvRgPaTfp1UTkWrlX3rRNFGvJ5DWpwpZ%2FFuagX5NxyyLF%2Biu%2BwtZjIckksTyQBzFguMBtSU%3D",
+          "OfferListingId": "FTDjvVraixoEx4YvdSn%2Fe8YTL3QlLjFausnY9aaDhrWF7wFKd9RpXGYurNR%2F8zh0%2FMw09TUkfnrbp%2BVh6dTDMmQwNzQqNMTTa%2BtUy%2FIMW%2FQ%3D",
           "Price": {
             "Amount": "1512",
             "CurrencyCode": "JPY",
@@ -153,7 +158,7 @@
       }
     }
   },
-  "Lastmod": "2018-03-25 08:50:49 +0900",
+  "Lastmod": "2018-07-07 11:56:01 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/0769342eb11dfd60230c046317ee8aad/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/0769342eb11dfd60230c046317ee8aad/"
