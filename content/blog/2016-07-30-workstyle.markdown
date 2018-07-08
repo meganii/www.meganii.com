@@ -3,7 +3,7 @@ title: "ワークスタイル改革とは何か？"
 date: 2016-07-30T08:14:23+09:00
 comments: true
 category: ['Tech']
-tags: ['ワークスタイル']
+tags: ['ワークスタイル', '仕事']
 published: true
 slug: workstyle
 img: "https://images-na.ssl-images-amazon.com/images/I/41nDcp8X7fL._SL160_.jpg"
