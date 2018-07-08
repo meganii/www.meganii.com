@@ -1,10 +1,10 @@
 ---
-title: "Scotch Grain(スコッチグレイン)の革靴「シャインオアレイン」なら雨の日でも快適通勤！！"
+title: "スコッチグレインの革靴「シャインオアレイン」なら雨の日でも快適通勤！！"
 date: 2016-07-23T15:05:40+09:00
-lastmod: 2018-01-28T10:01:40+09:00
+lastmod: 2018-07-08T10:01:40+09:00
 comments: true
 category: ['Life']
-tags: ['革靴','レザー','scotch grain']
+tags: ['革靴','レザー','scotch grain', 'スコッチグレイン']
 published: true
 slug: scotch-grain-shine-or-rain
 img: "https://res.cloudinary.com/meganii/image/upload/c_thumb,f_auto,q_auto,w_75/v1514034054/thumbnail_shoes.png"
