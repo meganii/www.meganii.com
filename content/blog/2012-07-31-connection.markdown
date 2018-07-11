@@ -3,7 +3,7 @@ title: 「レバレッジ人脈術」人脈ってなんだろう
 date: 2012-07-31
 lastmod: 2018-01-27T07:05:29+09:00
 category: ['Life']
-tags: ['人脈','book']
+tags: ['人脈','book', '読書']
 published: true
 slug: connection
 img: "https://farm8.staticflickr.com/7132/7668706168_dfc1dcbfc1.jpg"
