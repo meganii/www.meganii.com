@@ -117,54 +117,28 @@
       "Title": "金持ち父さん貧乏父さん"
     },
     "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "3000",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,000"
-      },
       "LowestUsedPrice": {
-        "Amount": "1",
+        "Amount": "200",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1"
+        "FormattedPrice": "￥ 200"
       },
       "LowestCollectiblePrice": {
         "Amount": "777",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 777"
       },
-      "TotalNew": "1",
-      "TotalUsed": "297",
+      "TotalNew": "0",
+      "TotalUsed": "291",
       "TotalCollectible": "7",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4480863303?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4480863303",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "QwYkgn2NmRGDj8lpQNMZNY6VSYRVWR8tBHUheewZ1i9%2F5Gjst0EnPTJ7f9r9V93ac5pDwS2P6wg0sM0AEN2aW6VkJMI2AonBfzhcWY4ImnR6p5DWZBZYxhkrOzamILY96PMBc%2F1it3dbnB%2BkgTh2mZn0vFcrAHKY",
-          "Price": {
-            "Amount": "3000",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 3,000"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "24",
-            "MaximumHours": "24"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        }
-      }
+      "TotalOffers": "0",
+      "TotalOfferPages": "0",
+      "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-07-11 21:38:53 +0900",
+  "Lastmod": "2018-07-15 22:36:04 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/00be2bf432deac8dfd3e0e24913312fb/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/00be2bf432deac8dfd3e0e24913312fb/"

@@ -393,9 +393,9 @@
         ]
       },
       "ListPrice": {
-        "Amount": "1504",
+        "Amount": "1538",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,504"
+        "FormattedPrice": "￥ 1,538"
       },
       "Manufacturer": "Moleskine",
       "ManufacturerMaximumAge": "1188",
@@ -428,9 +428,9 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1110",
+        "Amount": "1131",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,110"
+        "FormattedPrice": "￥ 1,131"
       },
       "LowestUsedPrice": {
         "Amount": "912",
@@ -451,12 +451,18 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "d8j376RvkaOoQEzExV8zfQmyciWQnG5CFcrBZFNRkPYJQzG1H9EsP8yjsXlUNds6UCNVz8VR4F%2FSR%2F1lzkz%2FLdbPqyllRd6wAeUMuvRf6zU%3D",
+          "OfferListingId": "qw5pBOjCmUNy9tVoM0KPHj9vrIMs7gZW6MdgJcOs1lU85icRAymD43rOoPy1Yr%2FRHKxIUi9lGQddk2ZuQjRNHg7PNiijwrdmeUY9VDEMTKM%3D",
           "Price": {
             "Amount": "1518",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 1,518"
           },
+          "AmountSaved": {
+            "Amount": "20",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 20"
+          },
+          "PercentageSaved": "1",
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
@@ -469,7 +475,7 @@
       }
     }
   },
-  "Lastmod": "2018-07-11 21:43:22 +0900",
+  "Lastmod": "2018-07-15 22:40:09 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/5fc11c86dc31da4d38836037648ac442/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/5fc11c86dc31da4d38836037648ac442/"
