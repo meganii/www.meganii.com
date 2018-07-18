@@ -117,28 +117,53 @@
       "Title": "金持ち父さん貧乏父さん"
     },
     "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "200",
+      "LowestNewPrice": {
+        "Amount": "2800",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 200"
+        "FormattedPrice": "￥ 2,800"
+      },
+      "LowestUsedPrice": {
+        "Amount": "1",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 1"
       },
       "LowestCollectiblePrice": {
         "Amount": "777",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 777"
       },
-      "TotalNew": "0",
-      "TotalUsed": "291",
-      "TotalCollectible": "7",
+      "TotalNew": "1",
+      "TotalUsed": "286",
+      "TotalCollectible": "6",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
+      "TotalOffers": "1",
+      "TotalOfferPages": "1",
+      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4480863303?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4480863303",
+      "Offer": {
+        "OfferAttributes": {
+          "Condition": "New"
+        },
+        "OfferListing": {
+          "OfferListingId": "fhByGaF4jCei6P%2FiI2icBKZJNzQg3WerEeC7gSZcdCDCw7%2BEubk2NhQs4SHqK4agMsL5QkCln8RVQgCDVPabVyqsIQmaffKiZuQIp4MOoAa2OUiccOfE4F5nYadJZo3rMrYMDH3cVGPqeZ81lztZkQ%3D%3D",
+          "Price": {
+            "Amount": "2800",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 2,800"
+          },
+          "AvailabilityAttributes": {
+            "AvailabilityType": "futureDate",
+            "MinimumHours": "0",
+            "MaximumHours": "0"
+          },
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        }
+      }
     }
   },
-  "Lastmod": "2018-07-15 22:36:04 +0900",
+  "Lastmod": "2018-07-18 22:54:40 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/00be2bf432deac8dfd3e0e24913312fb/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/00be2bf432deac8dfd3e0e24913312fb/"

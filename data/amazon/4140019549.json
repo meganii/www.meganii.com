@@ -106,23 +106,49 @@
       "Title": "NHKブックス 論文の教室 レポートから卒論まで"
     },
     "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "30",
+      "LowestNewPrice": {
+        "Amount": "1800",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 30"
+        "FormattedPrice": "￥ 1,800"
       },
-      "TotalNew": "0",
-      "TotalUsed": "44",
+      "LowestUsedPrice": {
+        "Amount": "1",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 1"
+      },
+      "TotalNew": "1",
+      "TotalUsed": "49",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
+      "TotalOffers": "1",
+      "TotalOfferPages": "1",
+      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4140019549?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4140019549",
+      "Offer": {
+        "OfferAttributes": {
+          "Condition": "New"
+        },
+        "OfferListing": {
+          "OfferListingId": "B3XjM1HfLs42iQJir0UBt%2FjdBwfRxiiNQUxv313UOeeO6zI1skYMnw5jj8Kv5dHoLV2XCrG2QJnvSbI%2F%2BLAvUWdgf3bIX7EZURmHmQNRpZoYp83m1pxjrc%2BYF7oNEDf6WEPHRU%2B2ru5q7rTS0bzGEwDC9jJ0%2Fyd%2F",
+          "Price": {
+            "Amount": "1800",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 1,800"
+          },
+          "Availability": "在庫あり。",
+          "AvailabilityAttributes": {
+            "AvailabilityType": "now",
+            "MinimumHours": "24",
+            "MaximumHours": "24"
+          },
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        }
+      }
     }
   },
-  "Lastmod": "2018-07-15 22:35:33 +0900",
+  "Lastmod": "2018-07-18 22:54:07 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/a002968905e865d6a2aa476e42f30830/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/a002968905e865d6a2aa476e42f30830/"

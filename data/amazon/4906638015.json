@@ -89,7 +89,7 @@
       "IsAdultProduct": "0",
       "ISBN": "4906638015",
       "ItemDimensions": {
-        "Weight": "1"
+        "Weight": "128"
       },
       "Label": "キングベアー出版",
       "Languages": {
@@ -121,11 +121,6 @@
       "Title": "7つの習慣-成功には原則があった!"
     },
     "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "3400",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,400"
-      },
       "LowestUsedPrice": {
         "Amount": "1",
         "CurrencyCode": "JPY",
@@ -136,39 +131,18 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 698"
       },
-      "TotalNew": "2",
-      "TotalUsed": "334",
+      "TotalNew": "0",
+      "TotalUsed": "347",
       "TotalCollectible": "10",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4906638015?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4906638015",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "YiHygKetk%2B%2F2qR6v7Mv0QXVyLaXLrmgwFohzymHWTQTbt32Mgk3452HyPZ5QVdTJ4cGwTCdwMGIwaKr2JAA%2Bi6ihYDc8n2DgajWPodX%2FvYrs4VCQzV1fQb0Ml%2FwCxkVdvl0woCNSGG6kqDXTIY%2Bm8MUypaTXIgM%2B",
-          "Price": {
-            "Amount": "3400",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 3,400"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        }
-      }
+      "TotalOffers": "0",
+      "TotalOfferPages": "0",
+      "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-07-15 22:35:17 +0900",
+  "Lastmod": "2018-07-18 22:53:48 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/5b425561f92f4d6d1a1b9dd81b811151/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/5b425561f92f4d6d1a1b9dd81b811151/"
