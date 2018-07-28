@@ -4,7 +4,7 @@ date: 2018-07-27T16:24:39+09:00
 lastmod: 2018-07-27T16:24:39+09:00
 comments: true
 category: ['Tech']
-tags: ['デブサミ', '教育', '学習方法']
+tags: ['デブサミ', '教育', '学習方法', 'Active Learning']
 published: true
 slug: developers-summit-2018-summer-edtech-loilo
 img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v1532741609/developers-summit-2018-summer_pcc1uq.png
@@ -62,6 +62,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v15327
 ## まとめ
 
 現代の学校教育から、以下の３つのワーク(手法)を学んだ。
+
 1. 200字要約
 2. ワンペーパーポートフォリオ評価
 3. パフォーマンスタスク
