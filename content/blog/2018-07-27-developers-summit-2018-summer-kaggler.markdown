@@ -1,12 +1,12 @@
 ---
-title: "dna"
+title: "[デブサミ2018夏]Kaggleで描く成長戦略〜個人編・組織編〜"
 date: 2018-07-27T17:03:51+09:00
 lastmod: 2018-07-27T17:03:51+09:00
 comments: true
 category: ['Tech']
 tags: ['Kaggle','データ分析']
 published: false
-slug: dna
+slug: developers-summit-summer-2018-kaggler
 img: 
 ---
 

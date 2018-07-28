@@ -1,12 +1,12 @@
 ---
-title: "github enterprise"
+title: "[デブサミ2018夏]富士フイルムソフトウエアはいかにして旧開発手法を捨ててGitHub Enterpriseを愛するようになったのか"
 date: 2018-07-27T14:03:21+09:00
 lastmod: 2018-07-27T14:03:21+09:00
 comments: true
 category: ['Tech']
 tags: ['Git', 'GitHubEnterprize']
 published: false
-slug: github-enterprise
+slug: developers-summit-2018-summer-github-enterprise
 img: 
 ---
 

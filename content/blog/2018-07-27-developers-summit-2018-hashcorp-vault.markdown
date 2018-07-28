@@ -1,12 +1,12 @@
 ---
-title: "vault"
+title: "[デブサミ2018夏]Hashicorp Vault on Google Cloud Platform"
 date: 2018-07-27T12:11:42+09:00
 lastmod: 2018-07-27T12:11:42+09:00
 comments: true
 category: ['Tech']
 tags: ['']
 published: false
-slug: developers-summit-summer-2018-vault
+slug: developers-summit-2018-hashcorp-vault
 img: 
 ---
 

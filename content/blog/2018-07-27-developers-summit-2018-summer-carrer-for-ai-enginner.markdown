@@ -1,12 +1,12 @@
 ---
-title: "developers summit summer 2018 ai enginner"
+title: "[デブサミ2018夏]AI時代におけるエンジニアの生存戦略"
 date: 2018-07-27T11:04:08+09:00
 lastmod: 2018-07-27T11:04:08+09:00
 comments: true
 category: ['Tech']
 tags: ['Developers Summit', 'デブサミ']
 published: false
-slug: developers-summit-summer-2018-ai-enginner
+slug: developers-summit-2018-summer-carrer-for-ai-enginner
 img: 
 ---
 
