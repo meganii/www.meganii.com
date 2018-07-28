@@ -1,5 +1,4 @@
 ---
-
 title: "AnsibleでさくらVPSの初期設定"
 date: 2015-03-02T07:31:00+09:00
 comments: true
@@ -407,10 +406,12 @@ vagrantで、centosを立てて、ansibleのテストを行なった。vagrant�
 
 
 ## 参考
+
 [Ansible でさくらのVPS の環境構築を自動化　～ハマりポイントとともに～ - akiyoko blog](http://akiyoko.hatenablog.jp/entry/2013/12/16/020529)
 
 SSDプランが月々685円から使える！<a href="http://px.a8.net/svt/ejp?a8mat=2NDW0A+8S5702+D8Y+C8O76" target="_blank">さくらのVPS</a>
-<img border="0" width="1" height="1" src="http://www19.a8.net/0.gif?a8mat=2NDW0A+8S5702+D8Y+C8O76" alt="">
+<amp-img width="1" height="1" src="http://www19.a8.net/0.gif?a8mat=2NDW0A+8S5702+D8Y+C8O76" layout="fixed"></amp-img>
 
 ## 参考(Infrastructure as Code)
-<div class="booklink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="booklink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://www.amazon.co.jp/exec/obidos/asin/B00BSPH158/meganii-22/" name="booklink" rel="nofollow" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/31u6VLGX2kL._SL160_.jpg" style="border: none;" /></a></div><div class="booklink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="booklink-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/asin/B00BSPH158/meganii-22/" rel="nofollow" name="booklink" target="_blank">入門Chef Solo - Infrastructure as Code[Kindle版]</a><div class="booklink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail" style="margin-bottom:5px;">伊藤直也 伊藤直也 2013-03-11    </div><div class="booklink-link2" style="margin-top:10px;"><div class="shoplinkkindle" style="display:inline;margin-right:5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00BSPH158/meganii-22/" rel="nofollow" target="_blank">Kindle</a></div><div class="shoplinkamazon" style="display:inline;margin-right:5px"><a href="http://www.amazon.co.jp/gp/search?keywords=%93%FC%96%E5Chef%20Solo%20-%20Infrastructure%20as%20Code&__mk_ja_JP=%83J%83%5E%83J%83i&url=search-alias%3Dstripbooks&tag=meganii-22" rel="nofollow" target="_blank">Amazon[書籍版]</a></div>                              	  	  	  	</div></div><div class="booklink-footer" style="clear: left"></div></div>
+
+{{% amazon B00BSPH158 %}}
