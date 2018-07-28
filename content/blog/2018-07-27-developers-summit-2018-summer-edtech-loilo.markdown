@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['']
 published: false
 slug: developers-summit-2018-summer-edtech-loilo
-img: 
+img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v1532741609/developers-summit-2018-summer_pcc1uq.png
 ---
 
 <!--more-->
