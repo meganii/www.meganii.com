@@ -1,9 +1,8 @@
 ---
-
 title: はてなダイアリーからJekyllへお引越し
 date: 2013-02-03T10:47:00+09:00
 category: ['Tech']
-tags: ['jekyll']
+tags: ['jekyll', 'Hatena']
 published: true
 slug: hatena2jekyll
 ---
@@ -12,9 +11,9 @@ slug: hatena2jekyll
 - Octpressを利用してます
 
 #### 参考ページ
-- <a href="http://tech.nitoyon.com/ja/blog/2012/09/20/moved-completed/" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://tech.nitoyon.com/ja/blog/2012/09/20/moved-completed/" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://tech.nitoyon.com/ja/blog/2012/09/20/moved-completed/" target="_blank">俺の最強ブログ システムが火を噴くぜ - てっく煮ブログ</a><a href="http://b.hatena.ne.jp/entry/http://tech.nitoyon.com/ja/blog/2012/09/20/moved-completed/" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://tech.nitoyon.com/ja/blog/2012/09/20/moved-completed/" alt="" /></a><br style="clear:both;" /><br>
 
-- <a href="http://gosyujin.github.com/2012/11/12/from-hatena-to-jekyll/" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://gosyujin.github.com/2012/11/12/from-hatena-to-jekyll/" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://gosyujin.github.com/2012/11/12/from-hatena-to-jekyll/" target="_blank">はてなダイアリーのエントリをJekyllへ移行する</a><a href="http://b.hatena.ne.jp/entry/http://gosyujin.github.com/2012/11/12/from-hatena-to-jekyll/" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://gosyujin.github.com/2012/11/12/from-hatena-to-jekyll/" alt="" /></a><br style="clear:both;" /><br>
+- [俺の最強ブログ システムが火を噴くぜ \- てっく煮ブログ](http://tech.nitoyon.com/ja/blog/2012/09/20/moved-completed/)
+- [はてなダイアリーのエントリをJekyllへ移行する \- kk\_Atakaの日記](http://gosyujin.github.io/2012/11/12/from-hatena-to-jekyll/)
 
 
 {{% googleadsense %}}
