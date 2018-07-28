@@ -5,19 +5,21 @@ date: 2013-05-08T21:06:00+09:00
 category: ['Tech']
 tags: ["dropbox","vps"]
 published: true
-slug: dropbox_cui
+slug: dropbox-cui
 ---
 
 ようやく重たい腰を上げて、さくらVPSにCUI版のDropboxをインストール。
 Python2.6が必要みたいです。
 
 以下のページを参考にさせてもらいました。
-<a href="http://cl.pocari.org/2012-04-05-1.html" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://cl.pocari.org/2012-04-05-1.html" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://cl.pocari.org/2012-04-05-1.html" target="_blank">cl.pocari.org - さくらの VPS (CentOS 6.2) にコマンドライン版 Dropbox をインストールする</a><a href="http://b.hatena.ne.jp/entry/http://cl.pocari.org/2012-04-05-1.html" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://cl.pocari.org/2012-04-05-1.html" alt="" /></a><br style="clear:both;" /><br>
+
+[cl\.pocari\.org \- さくらの VPS \(CentOS 6\.2\) にコマンドライン版 Dropbox をインストールする](https://cl.pocari.org/2012-04-05-1.html)
 
 
 {{% googleadsense %}}
 
 ### Dropbox CLIをダウンロード
+
 ```
 $ wget https://www.dropbox.com/download?dl=packages/dropbox.py
 ```
@@ -55,8 +57,7 @@ $ dropbox.py lansync n
 ```
 17500/udp でのブロードキャストが行われて大変みたいです。
 
-
-<a href="http://nefo.hatenablog.com/entry/20111001/1317481919" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://nefo.hatenablog.com/entry/20111001/1317481919" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://nefo.hatenablog.com/entry/20111001/1317481919" target="_blank">CLI DropboxのLAN Syncを止める - じゃ、ま、いっか</a><a href="http://b.hatena.ne.jp/entry/http://nefo.hatenablog.com/entry/20111001/1317481919" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://nefo.hatenablog.com/entry/20111001/1317481919" alt="" /></a><br style="clear:both;" /><br>
+[CLI DropboxのLAN Syncを止める \- じゃ、ま、いっか](http://nefo.hatenablog.com/entry/20111001/1317481919)
 
 
 
