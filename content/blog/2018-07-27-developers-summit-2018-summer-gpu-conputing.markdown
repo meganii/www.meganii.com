@@ -1,12 +1,12 @@
 ---
-title: "developers summit summer 2018 gpu conputing"
+title: "[デブサミ2018夏]AIを支えるGPUコンピューティングの今"
 date: 2018-07-27T10:04:56+09:00
 lastmod: 2018-07-27T10:04:56+09:00
 comments: true
 category: ['Tech']
 tags: ['Developers Summit', 'デブサミ', 'GPU']
 published: false
-slug: developers-summit-summer-2018-gpu-conputing
+slug: developers-summit-2018-summer-gpu-conputing
 img: 
 ---
 

@@ -1,12 +1,13 @@
 ---
-title: "ソーシャルゲーム"
+title: "[デブサミ2018夏]ソーシャルゲームを分析せよ！〜社内分析チームの立ち上げから学んだデータ分析のための組織と技術
+"
 date: 2018-07-27T15:05:22+09:00
 lastmod: 2018-07-27T15:05:22+09:00
 comments: true
 category: ['Tech']
 tags: ['Social Game', 'Data Analytics']
 published: false
-slug: gumi-social-game
+slug: developers-summit-2018-summer-gumi-social-game
 img: 
 ---
 

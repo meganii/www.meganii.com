@@ -1,12 +1,12 @@
 ---
-title: "developers-summit-summer-2018-cookpad"
+title: "[デブサミ2018夏]機械学習チームにおけるソフトウェアエンジニア〜役割、キャリア"
 date: 2018-07-27T13:03:22+09:00
 lastmod: 2018-07-27T13:03:22+09:00
 comments: true
 category: ['Tech']
 tags: ['データ分析基盤']
 published: false
-slug: developers-summit-summer-2018-cookpad
+slug: developers-summit-2018-summer-cookpad
 img: 
 ---
 

@@ -1,12 +1,12 @@
 ---
-title: "note"
+title: "[デブサミ2018夏]EdTechトップランナーに学ぶ！幸せに生きるための学び方"
 date: 2018-07-27T16:24:39+09:00
 lastmod: 2018-07-27T16:24:39+09:00
 comments: true
-category: ['']
+category: ['Tech']
 tags: ['']
 published: false
-slug: note
+slug: developers-summit-2018-summer-edtech-loilo
 img: 
 ---
 
