@@ -11,13 +11,11 @@ Jekyllを使うからには、Markdownをプレビュー出来るエディタが
 
 Markdownをプレビュー出来るエディタと言えば、[Kobito - プログラミングのメモやスニペットの記録に最適なMacアプリケーション](http://kobito.qiita.com/)が思い浮かぶ。リアルタイムプレビューの名にふさわしく、かなり快適。
 
-<a href="http://kobito.qiita.com/" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://kobito.qiita.com/" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://kobito.qiita.com/" target="_blank">Kobito - プログラミングのメモやスニペットの記録に最適なMacアプリケーション</a><a href="http://b.hatena.ne.jp/entry/http://kobito.qiita.com/" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://kobito.qiita.com/" alt="" /></a><br style="clear:both;" /><br>
-
+[Kobito - プログラミングのメモやスニペットの記録に最適なMacアプリケーション](http://kobito.qiita.com/)
 
 しばらくは、Kobitoでいいかと思っていたが、ターミナルから起動できても、ファイルの読み込みがどうも出来ない。どうせならターミナルからコマンドを叩いて、Markdownのひな形をシームレスに編集したい。
 
 探していたところ、Sublime Text 2のプラグインに、LiveReloadというものがあるみたいなので、試してみる。
-
 
 {{% googleadsense %}}
 
