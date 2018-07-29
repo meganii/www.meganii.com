@@ -1,10 +1,9 @@
 ---
-
 title: "ページ毎の検索キーワードを知る"
 date: 2015-04-11T19:27:00+09:00
 comments: true
 category: ['Tech']
-tags: ['GoogleAnalytics','web']
+tags: ['GoogleAnalytics','web', 'アクセス解析']
 published: true
 slug: search-keyword-by-page
 img: "https://farm9.staticflickr.com/8711/17105512542_883c372f86_z.jpg"
@@ -52,7 +51,7 @@ img: "https://farm9.staticflickr.com/8711/17105512542_883c372f86_z.jpg"
 そもそものアクセス数が少ないので、たいした解析なんてできないが、どんなキーワードで検索されているのかという興味を満たすことができるようになった。
 
 
-<table  border="0" cellpadding="5" style="border:none"><tr><td style="border:none;text-align:left"><a href="http://www.amazon.co.jp/exec/obidos/asin/B00IF0J7SI/meganii-22/" rel="nofollow" target="_top">無料でできる！ 世界一やさしいGoogle Analytics アクセス解析入門[Kindle版]</a></td></tr><tr><td style="border:none"><table  border="0" cellpadding="0" style="border:none"><tr><td valign="top" style="border:none"><a href="http://www.amazon.co.jp/exec/obidos/asin/B00IF0J7SI/meganii-22/" rel="nofollow" target="_top"><img src="https://images-na.ssl-images-amazon.com/images/I/51IHXENENEL._SL160_.jpg" border="0" style="margin-right:10px" /></a></td><td valign="top" style="border:none;text-align:left"><font size="-1"><br />丸山耕二 秀和システム 2014-02-13<br />            売り上げランキング : 9299<br /><table style="border:none"><tr><td style="border:none;text-align:left;"><div class="shoplinkkindle" style="margin-right:5px;background: url('http://img.yomereba.com/tam_y.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00IF0J7SI/meganii-22/" rel="nofollow" target="_blank">Kindle</a></div><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/tam_y.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798038415/meganii-22/" rel="nofollow" target="_blank">Amazon[書籍版]</a></div>                                                                                          				  				  				  				</td><td style="vertical-align:bottom;padding-left:10px;font-size:x-small;border:none">by <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></td></tr></table></font></td></tr></table></td></tr></table>
+{{% amazon B00IF0J7SI %}}
 
 
 

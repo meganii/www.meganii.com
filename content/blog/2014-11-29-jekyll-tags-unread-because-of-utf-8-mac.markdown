@@ -1,5 +1,4 @@
 ---
-
 title: "UTF-8-MACとは何か？〜Jekyllのカテゴリ(タグ)ページで濁点を含むページが表示されない〜"
 date: 2014-11-29T23:01:00+09:00
 comments: true
@@ -81,11 +80,8 @@ brew install rsync
 
 ## 参考
 
-<a href="http://gam0022.net/blog/2012/08/11/use-rsync-iconv-option/" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://gam0022.net/blog/2012/08/11/use-rsync-iconv-option/" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://gam0022.net/blog/2012/08/11/use-rsync-iconv-option/" target="_blank">カテゴリー名に濁点を含んだ日本語が使えない問題を解決する(Rsyncのiconvオプションを使う) - gam0022.net</a><a href="http://b.hatena.ne.jp/entry/http://gam0022.net/blog/2012/08/11/use-rsync-iconv-option/" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://gam0022.net/blog/2012/08/11/use-rsync-iconv-option/" alt="" /></a><br><span style="color: #808080;font-size: 80%;">brew tap homebrew/dupes #リポジトリを追加 brew install libiconv #iconvオプションを使うために必須のよう brew install rsync ...</span><br style="clear:both;" /><br>
-
-<a href="http://d.hatena.ne.jp/miau/20110805/1312555736" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://d.hatena.ne.jp/miau/20110805/1312555736" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://d.hatena.ne.jp/miau/20110805/1312555736" target="_blank">Mac OS Xの濁点ファイルがやってきた - miauの避難所</a><a href="http://b.hatena.ne.jp/entry/http://d.hatena.ne.jp/miau/20110805/1312555736" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://d.hatena.ne.jp/miau/20110805/1312555736" alt="" /></a><br style="clear:both;" /><br>
-
-<a href="http://macwiki.sourceforge.jp/wiki/index.php/UTF-8-MAC" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://macwiki.sourceforge.jp/wiki/index.php/UTF-8-MAC" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://macwiki.sourceforge.jp/wiki/index.php/UTF-8-MAC" target="_blank">MacWiki - UTF-8-MAC</a><a href="http://b.hatena.ne.jp/entry/http://macwiki.sourceforge.jp/wiki/index.php/UTF-8-MAC" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://macwiki.sourceforge.jp/wiki/index.php/UTF-8-MAC" alt="" /></a><br style="clear:both;" /><br>
-
-[UTF-8にもいろいろある - ザリガニが見ていた...。](http://d.hatena.ne.jp/zariganitosh/20131124/utf8_nfd_nfc_bom)
-[文字エンコードとロケールを体感する - ザリガニが見ていた...。](http://d.hatena.ne.jp/zariganitosh/20131118/text_encoding_locale_feeling)
+- [カテゴリー名に濁点を含んだ日本語が使えない問題を解決する\(Rsyncのiconvオプションを使う\) \| gam0022\.net](https://gam0022.net/blog/2012/08/11/use-rsync-iconv-option/)
+- [Mac OS Xの濁点ファイルがやってきた \- miauの避難所](http://d.hatena.ne.jp/miau/20110805/1312555736)
+- [UTF\-8\-MAC \- MacWiki](http://macwiki.osdn.jp/wiki/index.php/UTF-8-MAC)
+- [UTF-8にもいろいろある - ザリガニが見ていた...。](http://d.hatena.ne.jp/zariganitosh/20131124/utf8_nfd_nfc_bom)
+- [文字エンコードとロケールを体感する - ザリガニが見ていた...。](http://d.hatena.ne.jp/zariganitosh/20131118/text_encoding_locale_feeling)
