@@ -1,22 +1,20 @@
 ---
-
 title: Octopressに「続きを読む」のプラグイン導入
 date: 2013-04-24T20:16:00+09:00
 category: ['Tech']
-tags: ['jekyll']
+tags: ['jekyll', 'Octopress']
 published: true
 slug: readmore
 ---
 
-<a href="http://www.flickr.com/photos/35571855@N06/8678092756/" title="postmore.rb — octopress by upload, on Flickr"><img src="http://farm9.staticflickr.com/8390/8678092756_5af15344bf_m.jpg" width="200" /></a>
+{{% img src="https://farm9.staticflickr.com/8390/8678092756_5af15344bf_m.jpg" w="240" h="132" %}}
 
 「続きを読む」ように、記事を折りたたむプラグインを導入。
 
 
-
 {{% googleadsense %}}
 
-Octopressなら、/plagins ディレクトリに 以下の postmore.rbを設定する。
+Octopressなら、`/plagins`ディレクトリに 以下の`postmore.rb`を設定する。
 
 ```ruby
 module PostMore
