@@ -1,16 +1,15 @@
 ---
-
 title: 念願のAir!! MacBookAir Mid 2013買いました
 date: 2013-06-18T06:32:00+09:00
 category: ['Tech']
-tags: ['Mac']
+tags: ['Mac', 'MacBook']
 published: true
 slug: macbookair
 ---
 
 念願のMacBookAirをついに手に入れました！！
- 
-<a href="http://www.flickr.com/photos/35571855@N06/9068613142/" title="20130617211103 by , on Flickr"><img src="http://farm8.staticflickr.com/7285/9068613142_195584a353.jpg" width="400" /></a>
+
+{{% img src="https://farm8.staticflickr.com/7285/9068613142_195584a353.jpg" w="400" h="400" %}}
  
 発売日の翌日に、ネット上のMac情報をみていたら、いつのまにかぽちってました。後悔はしない。ずっと待ち続けていたのだから。	
 
@@ -18,17 +17,20 @@ slug: macbookair
 {{% googleadsense %}}
 
 ### 構成
+
 - CPU 1.7GHzデュアルコアIntel Core i7（Turbo Boost使用時最大3.3GHz）
 - メモリ 8GB
 - SSD 256GB
 
 なんとなくJISキーボードが飽きたので、USキーボードに変更。
+
 - [Lion 搭載の新型 MacBook Air を買う前に検討しておきたい US 配列キーボード - 彼女からは、おいちゃんと呼ばれています](http://d.hatena.ne.jp/inouetakuya/20110726/1311640787)
 - [JISとUSキーボードの違いと、乗り換える際に最低限やっておくべき2つの設定](http://ushigyu.net/2012/06/27/difference_between_jis_and_us_keyboard/)
 
 SSD使うの初めてで、なんだかすべてが早くなった気がする笑。(実際、再起動の速さは凄まじい)
 
 ## 衝動買いの理由
+
 - MacBookProを買って、4,5年経った
 - MacBookProは持ち運ぶのにちょっと重い
 - MacBookProをLIONにしてからもたつくことが増えた。

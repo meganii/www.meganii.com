@@ -1,5 +1,4 @@
 ---
-
 title: Sublime Text 2にパッケージコントロールを導入!!
 date: 2013-04-26T22:21:00+09:00
 category: ['Tech']
@@ -45,7 +44,7 @@ source .bash_profile
 
 ### Sublime Text 2に Pakage Controlを導入
 
-<a href="http://wbond.net/sublime_packages/package_control/installation" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://wbond.net/sublime_packages/package_control/installation" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://wbond.net/sublime_packages/package_control/installation" target="_blank">Installation – Sublime Package Control – a Sublime Text 2 Package Manager by wbond</a><a href="http://b.hatena.ne.jp/entry/http://wbond.net/sublime_packages/package_control/installation" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://wbond.net/sublime_packages/package_control/installation" alt="" /></a><br><strong>パッケージコントールを導入!!</strong><br style="clear:both;" /><br>
+[Installation \- Package Control](https://packagecontrol.io/installation)
 
 上記のサイトにアクセスして、以下のコマンドをコピー。
 
@@ -54,6 +53,7 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_p
 ```
 
 Sublime Text 2上で Ctrl + ` でコマンドラインを出す。
+
 <a href="http://www.flickr.com/photos/35571855@N06/8683705864/in/photostream" title="SublimeText2 by 35571855@N06, on Flickr"><img src="http://farm9.staticflickr.com/8400/8683705864_995fc97c47.jpg" width="400" /></a>
 
 コマンドラインに先ほどのコマンドを貼り付けて実行する。
