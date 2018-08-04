@@ -13,7 +13,7 @@ slug: jekyll-tag-cloud
 
 タグクラウドが欲しくなったので、以下のページを参考にタグクラウドタグを実装した。
 
-<a href="http://www.catrio.net/article/develop-jekyll-tag-cloud-plugin.html" target="_blank"><img class="alignleft" align="left" border="0" src="https://capture.heartrails.com/150x130/shadow?http://www.catrio.net/article/develop-jekyll-tag-cloud-plugin.html" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://www.catrio.net/article/develop-jekyll-tag-cloud-plugin.html" target="_blank">Jekyllのタグクラウドプラグインを開発する</a><a href="http://b.hatena.ne.jp/entry/http://www.catrio.net/article/develop-jekyll-tag-cloud-plugin.html" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://www.catrio.net/article/develop-jekyll-tag-cloud-plugin.html" alt="" /></a><br style="clear:both;" /><br>
+<a href="http://www.catrio.net/article/develop-jekyll-tag-cloud-plugin.html" target="_blank"><img class="alignleft" align="left" border="0" src="https://capture.heartrails.com/150x130/shadow?http://www.catrio.net/article/develop-jekyll-tag-cloud-plugin.html" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://www.catrio.net/article/develop-jekyll-tag-cloud-plugin.html" target="_blank">Jekyllのタグクラウドプラグインを開発する</a><a href="http://b.hatena.ne.jp/entry/http://www.catrio.net/article/develop-jekyll-tag-cloud-plugin.html" target="_blank"><img border="0" src="https://b.hatena.ne.jp/entry/image/http://www.catrio.net/article/develop-jekyll-tag-cloud-plugin.html" alt="" /></a><br style="clear:both;" /><br>
 
 
 

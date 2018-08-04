@@ -10,7 +10,7 @@ slug: lead-climbing-traning-day1
 
 Gravity-Researchなんばで、リードクライミングをすべくビレイ講習会を受けてきました。GRなんばだと、リードをやるのに、2日間のコースを受講するみたいです。
 
-<a href="http://www.gravity-research.jp/page.php?id=14186&target=15023" target="_blank"><img class="alignleft" align="left" border="0" src="https://capture.heartrails.com/150x130/shadow?http://www.gravity-research.jp/page.php?id=14186&target=15023" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://www.gravity-research.jp/page.php?id=14186&target=15023" target="_blank">Gravity Research なんば</a><a href="http://b.hatena.ne.jp/entry/http://www.gravity-research.jp/page.php?id=14186&target=15023" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://www.gravity-research.jp/page.php?id=14186&target=15023" alt="" /></a><br style="clear:both;" /><br>
+<a href="http://www.gravity-research.jp/page.php?id=14186&target=15023" target="_blank"><img class="alignleft" align="left" border="0" src="https://capture.heartrails.com/150x130/shadow?http://www.gravity-research.jp/page.php?id=14186&target=15023" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://www.gravity-research.jp/page.php?id=14186&target=15023" target="_blank">Gravity Research なんば</a><a href="http://b.hatena.ne.jp/entry/http://www.gravity-research.jp/page.php?id=14186&target=15023" target="_blank"><img border="0" src="https://b.hatena.ne.jp/entry/image/http://www.gravity-research.jp/page.php?id=14186&target=15023" alt="" /></a><br style="clear:both;" /><br>
 
 ## 用語の説明
 ハーネス、カラビナなどなど
