@@ -1,5 +1,5 @@
 ---
-title: "CAREER SKILLSで紹介されていた読んでおきたい良書"
+title: "CAREER SKILLSで紹介されていた「読んでおきたい良書」まとめ"
 date: 2018-08-04T09:00:30+09:00
 lastmod: 2018-08-04T09:00:30+09:00
 comments: true
@@ -7,10 +7,12 @@ category: ['Tech']
 tags: ['Book', '技術書', 'キャリア']
 published: true
 slug: career-skills-recommended-book-list
-img: 
+img: https://images-fe.ssl-images-amazon.com/images/I/41Jh62iphkL._SL160_.jpg 
 ---
 
-CARREER SKILLの「第59章　読んでおきたい良書」がリストアップされていたので、後から自分がチェックしやすいように、まとめてみました。
+CAREER SKILLsの「第59章　読んでおきたい良書」がリストアップされていたので、後から自分がチェックしやすいように、まとめてみました。
+
+{{% amazon B07FCYSNXT %}}
 
 <!--more-->
 {{% googleadsense %}}
