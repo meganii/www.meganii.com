@@ -14,7 +14,7 @@ slug: vagrant-install
 ## Vagrantとは
 >Vagrant は、Ruby で組まれたスクリプトで、仮想マシン上の開発環境の構築・配布の自動化を支援するためのツール。仮想マシン環境(VirtualBox) と構成管理ツール(Chef, Puppet)を利用することで実現している。これを使えば、コマンド一つで、開発に必要な環境を用意できるようになる。 [Vagrant で開発環境構築を自動化しよう - エンジニアきまぐれTips](http://d.hatena.ne.jp/okinaka/20110717/1310892601)
 
-<a href="http://docs.komagata.org/4673" target="_blank"><img class="alignleft" align="left" border="0" src="http://capture.heartrails.com/150x130/shadow?http://docs.komagata.org/4673" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://docs.komagata.org/4673" target="_blank">触りだけでも便利なVagrant - komagata</a><a href="http://b.hatena.ne.jp/entry/http://docs.komagata.org/4673" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://docs.komagata.org/4673" alt="" /></a><br style="clear:both;" /><br>
+<a href="http://docs.komagata.org/4673" target="_blank"><img class="alignleft" align="left" border="0" src="https://capture.heartrails.com/150x130/shadow?http://docs.komagata.org/4673" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://docs.komagata.org/4673" target="_blank">触りだけでも便利なVagrant - komagata</a><a href="http://b.hatena.ne.jp/entry/http://docs.komagata.org/4673" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/http://docs.komagata.org/4673" alt="" /></a><br style="clear:both;" /><br>
 
 
 
