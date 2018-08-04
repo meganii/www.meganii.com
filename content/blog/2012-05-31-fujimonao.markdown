@@ -22,7 +22,7 @@ slug: fujimonao
 ポップな感じで、<a href="https://twitter.com/#!/LHnao">@LHnao さんに描いてもらいました！ありがとうございます！！
 
 
-<a href="http://www.flickr.com/photos/35571855@N06/7297054794/" title="icon by meganii, on Flickr"><img src="http://farm9.staticflickr.com/8012/7297054794_073e527a90.jpg" width="256" height="256" alt="icon"></a>
+<a href="http://www.flickr.com/photos/35571855@N06/7297054794/" title="icon by meganii, on Flickr"><img src="https://farm9.staticflickr.com/8012/7297054794_073e527a90.jpg" width="256" height="256" alt="icon"></a>
 
 これで、ふじもなおファミリーの一員に笑!!。似顔絵アイコンでTwitterできるぞ笑！！
 

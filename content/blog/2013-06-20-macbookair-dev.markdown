@@ -73,7 +73,7 @@ Xcodeを開いて、Xcode > Preferences > Downloads
 
 
 
-<p><a href="http://www.flickr.com/photos/35571855%40N06/9085897322/" title="CommandLineToolsXcode by meganii, on Flickr" target="_blank"><img class="flickr_photo" src="http://farm3.staticflickr.com/2857/9085897322_378c2478b7.jpg"  alt="CommandLineToolsXcode" width="400px"/></a><br /><cite class="flickr_photographer"><img src="http://farm7.static.flickr.com/6002/5974401716_35b6041cdc.jpg" width="16" /><a href="http://www.flickr.com/photos/35571855%40N06/9085897322/">CommandLineToolsXcode</a> Photo by <a href="http://www.flickr.com/photos/35571855%40N06/">meganii</a></cite></p>
+<p><a href="http://www.flickr.com/photos/35571855%40N06/9085897322/" title="CommandLineToolsXcode by meganii, on Flickr" target="_blank"><img class="flickr_photo" src="https://farm3.staticflickr.com/2857/9085897322_378c2478b7.jpg"  alt="CommandLineToolsXcode" width="400px"/></a><br /><cite class="flickr_photographer"><img src="https://farm7.static.flickr.com/6002/5974401716_35b6041cdc.jpg" width="16" /><a href="http://www.flickr.com/photos/35571855%40N06/9085897322/">CommandLineToolsXcode</a> Photo by <a href="http://www.flickr.com/photos/35571855%40N06/">meganii</a></cite></p>
 
 
 再び、　brew doctor

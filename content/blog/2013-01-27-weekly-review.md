@@ -6,7 +6,7 @@ category: ['Life']
 tags: ["週次レビュー", 'Lifehack']
 published: true
 slug: weekly-review
-img: "http://farm9.staticflickr.com/8235/8420719015_e088db300d.jpg"
+img: "https://farm9.staticflickr.com/8235/8420719015_e088db300d.jpg"
 ---
 
 週次レビューをする習慣がちょっとずつ定着してきたので、現状の週次レビューの流れをまとめてみます。
@@ -17,7 +17,7 @@ img: "http://farm9.staticflickr.com/8235/8420719015_e088db300d.jpg"
 - ほぼ日手帳、モレスキン、ロディアに書きなぐったメモを見ながら、下の内容を洗い出す。
 - 洗いだした内容は、Evernoteのノートブックにストックする。
 
-{{% img src="http://farm9.staticflickr.com/8235/8420719015_e088db300d.jpg" w="400" h="200" %}}
+{{% img src="https://farm9.staticflickr.com/8235/8420719015_e088db300d.jpg" w="400" h="200" %}}
 
 
 {{% googleadsense %}}

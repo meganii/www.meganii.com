@@ -69,7 +69,7 @@ Jenkins起動
 ```
 service jenkins start
 ```
-<a href="http://www.flickr.com/photos/35571855@N06/8637967282/in/photostream" title="Jenkins by 35571855@N06, on Flickr"><img src="http://farm9.staticflickr.com/8241/8637967282_86cb181a2d.jpg" width="400" /></a>
+<a href="http://www.flickr.com/photos/35571855@N06/8637967282/in/photostream" title="Jenkins by 35571855@N06, on Flickr"><img src="https://farm9.staticflickr.com/8241/8637967282_86cb181a2d.jpg" width="400" /></a>
 
 Jenkinsさんが登場。このままだと誰でもログイン出来てしまうので、セキュリティの設定をする。
 
