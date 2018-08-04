@@ -48,7 +48,7 @@ slug: angular-flickr
           <li>
             <input type="checkbox" ng-model="photo" id="photo-{{photo.id}}" ng-change="selected({{$index}})">
             <h2>{{photo.title}}</h2>
-            <img ng-src="http://farm{{photo.farm}}.static.flickr.com/{{photo.server}}/{{photo.id}}_{{photo.secret}}_z.jpg">
+            <img ng-src="https://farm{{photo.farm}}.static.flickr.com/{{photo.server}}/{{photo.id}}_{{photo.secret}}_z.jpg">
           </li>
         </ul>
         </div>
@@ -59,7 +59,7 @@ slug: angular-flickr
         <textarea class="form-control" row="3">{{markdown}}</textarea>
         <div ng-repeat="photo in photos | filter:selectedFilter">
           <h2>{{photo.title}}</h2>
-          <img class="img-responsive" src="http://farm{{photo.farm}}.static.flickr.com/{{photo.server}}/{{photo.id}}_{{photo.secret}}_m.jpg">
+          <img class="img-responsive" src="https://farm{{photo.farm}}.static.flickr.com/{{photo.server}}/{{photo.id}}_{{photo.secret}}_m.jpg">
         </div>
     </div>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

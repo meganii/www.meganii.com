@@ -54,7 +54,7 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_p
 
 Sublime Text 2上で Ctrl + ` でコマンドラインを出す。
 
-<a href="http://www.flickr.com/photos/35571855@N06/8683705864/in/photostream" title="SublimeText2 by 35571855@N06, on Flickr"><img src="http://farm9.staticflickr.com/8400/8683705864_995fc97c47.jpg" width="400" /></a>
+<a href="http://www.flickr.com/photos/35571855@N06/8683705864/in/photostream" title="SublimeText2 by 35571855@N06, on Flickr"><img src="https://farm9.staticflickr.com/8400/8683705864_995fc97c47.jpg" width="400" /></a>
 
 コマンドラインに先ほどのコマンドを貼り付けて実行する。
 これで、パッケージコントロールが使えるようになりました。	
@@ -68,7 +68,7 @@ Sublime Text 2上で Ctrl + ` でコマンドラインを出す。
 ```Shift + Cmd + P``` で出てきた入力窓に install と入力。
 Package Control : Install Package　を選択。
 
-<a href="http://www.flickr.com/photos/35571855@N06/8683722130/in/photostream" title="2013-04-26-sublime-text-2-pakage-control.markdown by 35571855@N06, on Flickr"><img src="http://farm9.staticflickr.com/8266/8683722130_d1bd113402.jpg" width="400" /></a>
+<a href="http://www.flickr.com/photos/35571855@N06/8683722130/in/photostream" title="2013-04-26-sublime-text-2-pakage-control.markdown by 35571855@N06, on Flickr"><img src="https://farm9.staticflickr.com/8266/8683722130_d1bd113402.jpg" width="400" /></a>
 
 markdown previewを選択 -> インストール。これで、導入されました。
 
