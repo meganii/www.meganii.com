@@ -115,6 +115,7 @@
         "EANListElement": "9784478012031"
       },
       "Edition": "第24",
+      "Feature": "中古品",
       "IsAdultProduct": "0",
       "ISBN": "4478012032",
       "ItemDimensions": {
@@ -165,8 +166,8 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 600"
       },
-      "TotalNew": "14",
-      "TotalUsed": "1124",
+      "TotalNew": "12",
+      "TotalUsed": "1054",
       "TotalCollectible": "10",
       "TotalRefurbished": "0"
     },
@@ -179,11 +180,11 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "buu%2BTqcEND6hVN8JQDqOCa%2FRSMMJdA3aYlx4Y%2BkfXAFWCYPctZlzyRmsvSA7kik9%2BHM%2FEH4CBqQtd1XCF255QdkxajTv8UqhQTNgLs18EKX%2FsU0tchTtaGDjCzPG%2FZjYzK5f8%2BAdgLrJ9VSggeOtqA%3D%3D",
+          "OfferListingId": "Xh23Gh5Yrp9p%2Bfqk7hMiSLxKJbGewWOsdigxfQVZizIpvq%2FI5Ke6zUd%2FcBHHwqdJqvArWkIuUuTrXMSwuUBRf8nGx9%2BcVznMVru5SIFHlyI%3D",
           "Price": {
-            "Amount": "1300",
+            "Amount": "1728",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,300"
+            "FormattedPrice": "￥ 1,728"
           },
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
@@ -193,11 +194,19 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "52",
+          "TypicalRedemptionValue": {
+            "Amount": "52",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 52"
+          }
         }
       }
     }
   },
-  "Lastmod": "2018-07-18 22:56:43 +0900",
+  "Lastmod": "2018-08-04 09:08:01 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/a4e194e830b37d6104208a4e93913e22/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/a4e194e830b37d6104208a4e93913e22/"

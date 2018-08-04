@@ -412,7 +412,7 @@
       "PackageQuantity": "1",
       "PartNumber": "S0102X",
       "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
+      "ProductTypeName": "OFFICE_PRODUCTS",
       "PublicationDate": "2008-01-01",
       "Publisher": "Moleskine",
       "ReleaseDate": "2008-01-01",
@@ -428,17 +428,17 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1167",
+        "Amount": "1235",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,167"
+        "FormattedPrice": "￥ 1,235"
       },
       "LowestUsedPrice": {
         "Amount": "912",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 912"
       },
-      "TotalNew": "24",
-      "TotalUsed": "4",
+      "TotalNew": "25",
+      "TotalUsed": "3",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -451,16 +451,16 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "SGtFuSIklRZlZDcX%2BzB216xS7MXSQRI2Na%2BJPFNb0AJZysMsSv1IWm6mQ9aGi2gh2K2pzbytG3mOgdNLcNZSceQNMfciz950qgCP7gkPhh0%3D",
+          "OfferListingId": "AuE%2BpVocyR1NJDE3%2BeHhREeQeNlBfFHSHaFygD2THhWo3PYO1NMQib2EK0yr2yaWuT%2BzV8IbekK3EN9CPmqJSRuDd1R66pPAxMBVHYoQRkM%3D",
           "Price": {
-            "Amount": "1518",
+            "Amount": "1525",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,518"
+            "FormattedPrice": "￥ 1,525"
           },
           "AmountSaved": {
-            "Amount": "20",
+            "Amount": "13",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 20"
+            "FormattedPrice": "￥ 13"
           },
           "PercentageSaved": "1",
           "Availability": "在庫あり。",
@@ -475,7 +475,7 @@
       }
     }
   },
-  "Lastmod": "2018-07-18 23:00:20 +0900",
+  "Lastmod": "2018-08-04 09:10:03 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/5fc11c86dc31da4d38836037648ac442/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/5fc11c86dc31da4d38836037648ac442/"

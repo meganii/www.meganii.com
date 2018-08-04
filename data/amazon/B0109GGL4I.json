@@ -273,6 +273,7 @@
     "ItemAttributes": {
       "Binding": "スポーツ用品",
       "Brand": "ラヴィ(La・VIE)",
+      "Color": "グリーン",
       "EAN": "4986920470511",
       "EANList": {
         "EANListElement": "4986920470511"
@@ -301,8 +302,10 @@
       "ProductGroup": "Sports",
       "ProductTypeName": "SPORTING_GOODS",
       "Publisher": "La-VIE(ラヴィ)",
+      "Size": "やわらかめ",
       "Studio": "La-VIE(ラヴィ)",
-      "Title": "La-VIE(ラヴィ) やわこ ストレッチ ボール マッサージボール"
+      "Title": "La-VIE(ラヴィ) やわこ ストレッチ ボール マッサージボール",
+      "Warranty": "●健康な方を対象とした商品です。持病のある方や健康に不安のある方は、必ず医師に御相談の上使用してください。●正しく使用し、マッサージの目的以外には使用しないでください。"
     },
     "OfferSummary": {
       "LowestNewPrice": {
@@ -310,8 +313,13 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 710"
       },
-      "TotalNew": "10",
-      "TotalUsed": "0",
+      "LowestUsedPrice": {
+        "Amount": "600",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 600"
+      },
+      "TotalNew": "8",
+      "TotalUsed": "1",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -324,11 +332,11 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "u8PBrvcGW6zoU4tDyGVxAF%2BIQnXVEtUnrHCjXOdcKic%2FDdad1cDkDJzstg9VxRoxU6oOFBAXQZMU9%2BFfXSP%2B5OUAEuim3xZNyKdFjPI9ybQ%3D",
+          "OfferListingId": "sTGg7bSAa%2F1m3uQ9YhA1IKhsL%2FhAVIuSXyuBynUtO%2BxlHHgLBf6HxmItod1skdJIT9bA%2BthYP9E2XQDkmYlPUtZ5ByIIAuRx4IX2rXYlkPY%3D",
           "Price": {
-            "Amount": "959",
+            "Amount": "962",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 959"
+            "FormattedPrice": "￥ 962"
           },
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
@@ -342,7 +350,7 @@
       }
     }
   },
-  "Lastmod": "2018-07-07 11:31:31 +0900",
+  "Lastmod": "2018-08-04 10:01:40 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/2ce04e9576849e7ca37c2bf2d52981ab/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/2ce04e9576849e7ca37c2bf2d52981ab/"

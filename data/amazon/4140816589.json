@@ -134,7 +134,7 @@
       "IsAdultProduct": "0",
       "ISBN": "4140816589",
       "ItemDimensions": {
-        "Weight": "132"
+        "Weight": "84"
       },
       "Label": "NHK出版",
       "Languages": {
@@ -160,22 +160,22 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1676",
+        "Amount": "1728",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,676"
+        "FormattedPrice": "￥ 1,728"
       },
       "LowestUsedPrice": {
-        "Amount": "1049",
+        "Amount": "1051",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,049"
+        "FormattedPrice": "￥ 1,051"
       },
       "LowestCollectiblePrice": {
         "Amount": "3799",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 3,799"
       },
-      "TotalNew": "7",
-      "TotalUsed": "57",
+      "TotalNew": "4",
+      "TotalUsed": "70",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -188,7 +188,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "0J3wZ%2Bmp3x0Ea7e5uwoDupMGOO57COxjBxgHUTaFb1v1jfJK3bo9eN7LbONSp2zxTP68MU6XFAIrSPrMxSNnlJQuwGvEPn07d3poeT%2Bj%2BqI%3D",
+          "OfferListingId": "VRPOv2bmhHj8DpdM4sSqfBWKakw08E9aPfenNksWyHZw064etPyWCT77qNaq4VaZjnXVTn%2BDtESLyp41oLgGRjm1I11TkYUPmNLFBnX8yi0%3D",
           "Price": {
             "Amount": "1728",
             "CurrencyCode": "JPY",
@@ -204,17 +204,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "17",
+          "Points": "52",
           "TypicalRedemptionValue": {
-            "Amount": "17",
+            "Amount": "52",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 17"
+            "FormattedPrice": "￥ 52"
           }
         }
       }
     }
   },
-  "Lastmod": "2018-07-07 11:33:24 +0900",
+  "Lastmod": "2018-08-04 10:03:19 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/dfeb115f1f69d82a4c74398f9d6170a2/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/dfeb115f1f69d82a4c74398f9d6170a2/"

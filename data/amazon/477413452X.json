@@ -105,23 +105,49 @@
       "Title": "小飼弾のアルファギークに逢ってきた (WEB+DB PRESS plusシリーズ)"
     },
     "OfferSummary": {
+      "LowestNewPrice": {
+        "Amount": "1620",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 1,620"
+      },
       "LowestUsedPrice": {
         "Amount": "1",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 1"
       },
-      "TotalNew": "0",
-      "TotalUsed": "26",
+      "TotalNew": "1",
+      "TotalUsed": "29",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
+      "TotalOffers": "1",
+      "TotalOfferPages": "1",
+      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/477413452X?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=477413452X",
+      "Offer": {
+        "OfferAttributes": {
+          "Condition": "New"
+        },
+        "OfferListing": {
+          "OfferListingId": "Brj8oITkQnOOZySHBIR0Aj2ZoTocnZT5zPUfCG9NHGgJBqE6Fy%2FImQLg%2F9fubge8W4hHqb9nSC7SPvzpxylD9FNpt22yljov6K1gT6oZBTKRY%2FCnsD5jOUMPKlesc275yomrA3%2F33Wy6%2FcFeFCQE7YEdjs676fmP",
+          "Price": {
+            "Amount": "1620",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 1,620"
+          },
+          "Availability": "在庫あり。",
+          "AvailabilityAttributes": {
+            "AvailabilityType": "now",
+            "MinimumHours": "0",
+            "MaximumHours": "0"
+          },
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        }
+      }
     }
   },
-  "Lastmod": "2018-07-18 22:58:58 +0900",
+  "Lastmod": "2018-08-04 09:09:21 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/5fbb31d1ab28c6ce87597d014b587332/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/5fbb31d1ab28c6ce87597d014b587332/"

@@ -317,6 +317,9 @@
       "Edition": "第3",
       "IsAdultProduct": "0",
       "ISBN": "4802510144",
+      "ItemDimensions": {
+        "Weight": "132"
+      },
       "Label": "ビー・エヌ・エヌ新社",
       "Languages": {
         "Language": {
@@ -347,12 +350,12 @@
         "FormattedPrice": "￥ 3,456"
       },
       "LowestUsedPrice": {
-        "Amount": "3680",
+        "Amount": "2890",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,680"
+        "FormattedPrice": "￥ 2,890"
       },
       "TotalNew": "6",
-      "TotalUsed": "6",
+      "TotalUsed": "12",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -365,7 +368,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "phCQ%2BsitaLeIeN3d5jR3bFsa685km8tFQ2CeeGId3IPstStFG%2FXmAsl2lnczt78lUfneatpt3EkJJ2lu2bll2RHyEEcpzlZNZ2q06lS27Us%3D",
+          "OfferListingId": "Rpr1g3CPX2DTQ1raLeT%2Fd%2FulYSCAfmKd1vKEN19Hs8gPGuy9aTlpJuohAiDyxEFbp4wJ%2BmCUdwV%2Bc5xFvQR%2FRH39Vm2ky1ZAMr0EhXrUuQA%3D",
           "Price": {
             "Amount": "3456",
             "CurrencyCode": "JPY",
@@ -391,7 +394,7 @@
       }
     }
   },
-  "Lastmod": "2018-07-07 11:24:14 +0900",
+  "Lastmod": "2018-08-04 09:55:35 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/7645701dec9b7ee1dc43a05f41632355/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/7645701dec9b7ee1dc43a05f41632355/"
