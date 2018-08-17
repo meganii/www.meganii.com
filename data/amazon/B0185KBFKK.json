@@ -122,17 +122,17 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "mdMJl2fOn%2FmUfAeMRzTJ5GVuhhevRY0CiXpTUrjN%2FOTf7vEF4ER6yX4Li6nRZovBrm7AzfJIIm4YgVGR%2FUq%2B91n8iYwRjArY5fQLl2Yt86jNMGSAm8hP6%2FpuwnVVHuwvj0%2BA1r9U0xVRPyDm8k1qFq6p09W6jboh",
+          "OfferListingId": "aGoLasH0geIJneNPUXSFlSx9JjsrET9qpV3b5uuucYGVAp2s4CpI%2B3i%2F5I%2F%2BnzRTentNQTHUUCkErC97hG6t92AlKDEgA%2F2VvvDmJtRs8CIRubimfzVQNbBEay%2BBRSm6XWtBGS64Ym0uKAVW6WYa%2B4tVNhZMY82x",
           "Price": {
             "Amount": "98",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 98"
           },
-          "Availability": "通常2～3営業日以内に発送",
+          "Availability": "通常1～2営業日以内に発送",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "48",
-            "MaximumHours": "72"
+            "MinimumHours": "24",
+            "MaximumHours": "48"
           },
           "IsEligibleForSuperSaverShipping": "0",
           "IsEligibleForPrime": "0"
@@ -140,5 +140,5 @@
       }
     }
   },
-  "Lastmod": "2018-08-04 10:04:13 +0900"
+  "Lastmod": "2018-08-17 23:15:48 +0900"
 }

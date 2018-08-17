@@ -173,6 +173,7 @@
       "Feature": [
         "ホエイプロテイン100",
         "ココア味",
+        "タイプ:粉末",
         "内容量:1,050g (50食分)",
         "カロリー:1食分(21g)当たり エネルギー83kcal",
         "特徴:7種のビタミンB群・ビタミンC",
@@ -225,7 +226,7 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 3,659"
       },
-      "TotalNew": "99",
+      "TotalNew": "98",
       "TotalUsed": "0",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
@@ -239,7 +240,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "qRvRm8DVpOsOzzsihQcFA%2BMNjNLN80A%2FYuyAPRJ4Lt2Dm0ffSDnePxT%2BEx%2FYuu60cxYA3tcObu6XYwO85Us83F0VJzC6GCc8ksPfIqL7EZ0%3D",
+          "OfferListingId": "1Golf%2FsUVejDIV9xQKyuOS9x8vReiT2KqxrO%2FFR1Rs7yHPRsPHDDSMg2LYvorpj%2FNDon6JwuONGhnm7vQC0Ok%2FqV5JvKaESxZ%2BRxfMMWxiw%3D",
           "Price": {
             "Amount": "3925",
             "CurrencyCode": "JPY",
@@ -251,11 +252,10 @@
             "FormattedPrice": "￥ 2,069"
           },
           "PercentageSaved": "35",
-          "Availability": "在庫あり。",
           "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "24",
-            "MaximumHours": "24"
+            "AvailabilityType": "futureDate",
+            "MinimumHours": "0",
+            "MaximumHours": "0"
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
@@ -263,7 +263,7 @@
       }
     }
   },
-  "Lastmod": "2018-08-04 10:02:36 +0900",
+  "Lastmod": "2018-08-17 23:13:57 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/add0e801703de10533db8919705ba688/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/add0e801703de10533db8919705ba688/"

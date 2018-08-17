@@ -119,12 +119,12 @@
         "FormattedPrice": "￥ 1,296"
       },
       "LowestUsedPrice": {
-        "Amount": "763",
+        "Amount": "555",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 763"
+        "FormattedPrice": "￥ 555"
       },
-      "TotalNew": "4",
-      "TotalUsed": "14",
+      "TotalNew": "5",
+      "TotalUsed": "15",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -137,25 +137,33 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "zRKX3Rzbuh6idJ6MA2%2B%2FtTMF2NAJciEArbZ2LdwIv%2ByinWoZ9tHOKigUkAx2ythySdMRTqOVc%2FnPwNrfNgSJ%2B6FAhUTS3ZXR%2Fg3eYSeq%2Bgwv4YEL%2BEkefgi3Xg0%2B5KP5glBHOCaP5CYCjvPTNGUV6fwupm1%2FhLai",
+          "OfferListingId": "Ql5hlNSFvXHIH%2BBbqg7ZTfbqHeyE6qC5B4Cvl%2Bm%2B%2FHWACc5R20Y3bY%2FbKA%2BpKUmuhnB8fuTsxl88K2ctymlGM3ltzs%2FSGPh2%2FXkR3nD20fc%3D",
           "Price": {
             "Amount": "1296",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 1,296"
           },
-          "Availability": "通常1～2営業日以内に発送",
+          "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "24",
-            "MaximumHours": "48"
+            "MinimumHours": "0",
+            "MaximumHours": "0"
           },
-          "IsEligibleForSuperSaverShipping": "0",
-          "IsEligibleForPrime": "0"
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "39",
+          "TypicalRedemptionValue": {
+            "Amount": "39",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 39"
+          }
         }
       }
     }
   },
-  "Lastmod": "2018-08-04 10:01:17 +0900",
+  "Lastmod": "2018-08-17 23:12:35 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/44a336145f512dc3bcdd0adf618293ae/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/44a336145f512dc3bcdd0adf618293ae/"

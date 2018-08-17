@@ -121,6 +121,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4798121967",
+      "ItemDimensions": {
+        "Weight": "132"
+      },
       "Label": "翔泳社",
       "Languages": {
         "Language": {
@@ -150,12 +153,12 @@
         "FormattedPrice": "￥ 4,960"
       },
       "LowestUsedPrice": {
-        "Amount": "5610",
+        "Amount": "3980",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 5,610"
+        "FormattedPrice": "￥ 3,980"
       },
-      "TotalNew": "5",
-      "TotalUsed": "12",
+      "TotalNew": "4",
+      "TotalUsed": "16",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -168,7 +171,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "db8yLtlQYhMjcnbEbPqLmSkoEzLa4tU20QOafF3XLj093sWQJyof7dtop5hI%2B8SgYagH1wAwGDDmnqgxItwU9%2Fmk%2Fp10NF2tOVF7JO2eQgc%3D",
+          "OfferListingId": "cC0QG0IxTBe%2BsHEnlNW9jjAIR3VLrfe0yU07qAP2MvNuY%2Bdy3F2KlE23uNSXW0miVtY2jCQIkx6ub9VPGLaVPgWqdMtSoHcuiywln8RuGKM%3D",
           "Price": {
             "Amount": "5616",
             "CurrencyCode": "JPY",
@@ -194,7 +197,7 @@
       }
     }
   },
-  "Lastmod": "2018-08-04 10:01:02 +0900",
+  "Lastmod": "2018-08-17 22:46:18 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/3c5594910d18334092fa80b8a812ce64/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/3c5594910d18334092fa80b8a812ce64/"

@@ -200,9 +200,9 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "934",
+        "Amount": "1200",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 934"
+        "FormattedPrice": "￥ 1,200"
       },
       "LowestUsedPrice": {
         "Amount": "1",
@@ -214,9 +214,9 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 88"
       },
-      "TotalNew": "11",
-      "TotalUsed": "277",
-      "TotalCollectible": "6",
+      "TotalNew": "12",
+      "TotalUsed": "261",
+      "TotalCollectible": "5",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -228,11 +228,11 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "fu5D%2B2RMEkJilTbnxjwhrXt0Xvwea4svYhEJjnYSSknF3cgPtGyVlTvqMo80SnGMZamfrMdPi%2BBKdzpdQ99ILZM2cwaU%2FiI%2BC%2Fo1oJdjlOVKFEhWAOsGkibQuDSAxCKbxjV58hwBjN%2FPPs%2BT%2BUsGKSAJ8Izexq8X",
+          "OfferListingId": "kHwFrJdJ8SXaesAZfzoCcABRU1AINzMCJAxInoaG4W0KuYxACGFkS4dBruxZZPtXk0FJUMlYchHhXv4HqFDCmlKPQvYxvLUV7Em1CvRvWLnNuprjDWWTccyjOV7uUlKZ4KUPO8eqBX%2F%2FPkmZdOX3MrdbEKLp4ofB",
           "Price": {
-            "Amount": "934",
+            "Amount": "1512",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 934"
+            "FormattedPrice": "￥ 1,512"
           },
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
@@ -242,11 +242,19 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "333",
+          "TypicalRedemptionValue": {
+            "Amount": "333",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 333"
+          }
         }
       }
     }
   },
-  "Lastmod": "2018-08-04 09:58:17 +0900",
+  "Lastmod": "2018-08-17 22:42:53 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/25054aef090bef0a4492781d0f7d684a/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/25054aef090bef0a4492781d0f7d684a/"
