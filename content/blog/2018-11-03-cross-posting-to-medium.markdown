@@ -7,10 +7,10 @@ category: ['Tech']
 tags: ['Blog', 'Medium', 'Qrunch']
 published: true
 slug: cross-posting-to-qrunch-and-medium
-img: 
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
 ---
 
-もっと気軽にアウトプットできる技術ブログサービス「[Qrunch（クランチ）](https://qrunch.io/」では、重複コンテンツの心配をせずにクロス投稿ができることを知った。
+もっと気軽にアウトプットできる技術ブログサービス「[Qrunch（クランチ）](https://qrunch.io/)」では、重複コンテンツの心配をせずにクロス投稿ができることを知った。
 
 これが可能なのは、Canonicalに元のブログURLを指定できるためです。Canonicalに参照元のURLを明示的に示してあげることで、検索エンジンにコピー記事ではないことを伝えることができます！
 
@@ -24,8 +24,8 @@ img:
 {{% googleadsense %}}
 
 
-「クロス投稿」について調べてみると、[Medium]も同じことができそうです。
-[https://help.medium.com/hc/en-us/articles/217991468-SEO-and-duplicate-content SEO and duplicate content – Medium Support]
+「クロス投稿」について調べてみると、[Medium](https://medium.com/)も同じことができそうです。  
+[SEO and duplicate content – Medium Support](https://help.medium.com/hc/en-us/articles/217991468-SEO-and-duplicate-content)
 
 
 ## やりたいこと
