@@ -48,7 +48,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v15327
 - 商品の販売各区を予測する
 
 
-## Kaggleで学べること ≒ Data Sientistに必要なスキル
+## Kaggleで学べること ≒ Data Scientistに必要なスキル
 
 - データを扱う勘
     - このデータなんかおかしいとか、わかるらしい・・・

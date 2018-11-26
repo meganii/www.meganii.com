@@ -31,7 +31,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75
 ## やりたい流れ
 
 - 1.Scrapboxで雑にメモ書き
-- 2.Markdownでブログ(https://www.meganii.com)投稿
+- 2.Markdownでブログ投稿
 - 3.QrunchとMediumにクロス投稿(Canonicalは www.meganii.com に向ければ、SEO的にもバッチリなはず)
 
 ## Medium APIで記事を更新する
