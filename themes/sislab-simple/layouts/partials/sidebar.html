@@ -1,0 +1,30 @@
+{{ $BaseURL := .Site.BaseURL }}
+<!-- Start Sidebar -->
+<amp-sidebar id="header-sidebar" class="ampstart-sidebar px3  md-hide lg-hide " layout="nodisplay">
+  <nav class="ampstart-headerbar-nav ampstart-nav xs-hide sm-hide">
+    <ul class="list-reset center m0 p0 flex justify-center nowrap">
+      <li class="ampstart-nav-item ampstart-nav-dropdown relative">
+        <!-- Start Dropdown -->
+        <amp-accordion layout="container" disable-session-states="" class="ampstart-dropdown absolute top-0 left-0 right-0 bottom-0">
+          <section>
+            <header>Categories</header>
+            <ul class="ampstart-dropdown-items list-reset m0 p0">
+              {{range.Site.Menus.categories}}
+              <li class="ampstart-dropdown-item">
+                <a href="{{$BaseURL}}{{.URL}}" class="text-decoration-none">{{ .Title }}</a>
+              </li>
+              {{end}}
+            </ul>
+          </section>
+        </amp-accordion>
+        <!-- End Dropdown -->
+      </li>
+      {{range.Site.Menus.categories}}
+      <li class="ampstart-nav-item ">
+        <a href="{{$BaseURL}}{{.URL}}" class="text-decoration-none block">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+</amp-sidebar>
+<!-- End Sidebar -->
