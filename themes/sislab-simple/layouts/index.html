@@ -4,6 +4,27 @@
 {{- partial "head.html" . -}}
 
 <body>
+  <amp-auto-ads type="adsense" data-ad-client="{{.Site.Params.adsensePublisher}}"></amp-auto-ads>
+  {{ if ne (getenv "HUGO_ENV") "DEV" }}
+  {{ with .Site.Params.GoogleAnalytics }}
+  <amp-analytics type="googleanalytics" id="analytics1">
+    <script type="application/json">
+      {
+        "vars": {
+          "account": "{{ . }}"
+        },
+        "triggers": {
+          "trackPageview": {
+            "on": "visible",
+            "request": "pageview"
+          }
+        }
+      }
+    </script>
+  </amp-analytics>
+  {{ end }}
+  {{ end }}
+  
   {{- partial "header.html" . -}}
 
   <div>
