@@ -3,6 +3,12 @@
   {{ partial "head.html" . }}
   <body>
     <amp-auto-ads type="adsense" data-ad-client="{{.Site.Params.adsensePublisher}}"></amp-auto-ads>
+    <amp-install-serviceworker
+      src="https://www.meganii.com/js/sw.js"
+      layout="nodisplay"
+      data-no-service-worker-fallback-url-match=".*"
+      data-no-service-worker-fallback-shell-url="https://www.meganii.com/pwa">
+    </amp-install-serviceworker>
     {{ if ne (getenv "HUGO_ENV") "DEV" }}
     {{ with .Site.Params.GoogleAnalytics }}
     <amp-analytics type="googleanalytics" id="analytics1">
