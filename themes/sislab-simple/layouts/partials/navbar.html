@@ -3,175 +3,21 @@
   <div class="container">
     <div class="nav-container">
       <div class="left-nav alt">
-        <a href="/ja/" class="tab header-title"><span></span></a>
+        <a href="{{$BaseURL}}" class="tab header-title"><span>SIS Lab</span></a>
         <div class="tabs">
-          <div class="tab">
-            <a href="/ja/learn/overview/">Tech</a>
-            <div class="list-container">
-              <div class="list-shadow"></div>
-              <ul>
-                <li class="has-sublist">
-                  <a href="/ja/learn/overview/">Tech</a>
-                  <ul class="sublist">
-                    <li><a href="/ja/about/benefits/">メリット</a></li>
-                    <li><a href="/ja/about/amp-design-principles/">デザイン原則</a></li>
-                    <li><a href="/ja/about/mission/">Vision &amp; Mission</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="tab active">
-            <a href="/ja/docs/">ドキュメント</a>
-            <div class="list-container">
-              <div class="list-shadow"></div>
-              <ul>
-                <li>
-                  <a href="/ja/docs/">ガイドとチュートリアル</a>
-                </li>
-                <li>
-                  <a href="/ja/docs/reference/components.html">リファレンス</a>
-                </li>
-                <li class="external">
-                  <a href="https://ampbyexample.com/" target="_blank">実例</a>
-                </li>
-                <li class="external">
-                  <a href="https://youtube.com/TheAMPProject" target="_blank">動画</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="tab">
-            <a href="/ja/docs/reference/components.html">リファレンス</a>
-            <div class="list-container">
-              <div class="list-shadow"></div>
-              <ul>
-                <li>
-                  <a href="/ja/docs/reference/components.html">コンポーネント</a>
-                </li>
-                <li>
-                  <a href="/ja/docs/reference/experimental.html">試験的な機能</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="tab">
-            <a>ツール</a>
-            <div class="list-container">
-              <div class="list-shadow"></div>
-              <ul>
-                <li class="external">
-                  <a href="https://validator.ampproject.org" target="_blank">AMP 検証ツール</a>
-                </li>
-                <li class="external">
-                  <a href="https://ampbyexample.com" target="_blank">AMP By Example</a>
-                </li>
-                <li class="external">
-                  <a href="https://ampbyexample.com/playground/" target="_blank">AMP Playground</a>
-                </li>
-                <li class="external">
-                  <a href="https://www.ampstart.com" target="_blank">AMP の開始</a>
-                </li>
-                <li class="external">
-                  <a href="https://cdn.ampproject.org/experiments.html" target="_blank">AMP のテスト</a>
-                </li>
-                <li class="external">
-                  <a href="https://github.com/ampproject/amp-toolbox" target="_blank">AMP Toolbox</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="tab">
-            <a href="/ja/latest/">最新情報</a>
-            <div class="list-container">
-              <div class="list-shadow"></div>
-              <ul>
-                <li>
-                  <a href="/ja/latest/">最新ニュース</a>
-                </li>
-                <li>
-                  <a href="/ja/latest/blog/">ブログ</a>
-                </li>
-                <li>
-                  <a href="/ja/latest/event/">イベント</a>
-                </li>
-                <li>
-                  <a href="/ja/latest/roadmap/">ロードマップ</a>
-                </li>
-                <li class="external">
-                  <a href="https://services.google.com/fb/forms/ampnewsletter/" target="_blank">ニュースレター</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="tab">
-            <a href="/ja/support/">サポート</a>
-            <div class="list-container">
-              <div class="list-shadow"></div>
-              <ul>
-                <li class="has-sublist">
-                  <a href="/ja/support/faqs/">よくある質問</a>
-                  <ul class="sublist">
-                    <li>
-                      <a href="/ja/support/faqs/overview.html">AMP の概要</a>
-                    </li>
-                    <li>
-                      <a href="/ja/support/faqs/platform-involvement.html">プラットフォームとテクノロジー企業の参加</a>
-                    </li>
-                    <li>
-                      <a href="/ja/support/faqs/publisher-monetization.html">サイト運営者の収益化</a>
-                    </li>
-                    <li>
-                      <a href="/ja/support/faqs/supported-platforms.html">AMP に対応しているプラットフォーム、ベンダー、パートナー</a>
-                    </li>
-                    <li>
-                      <a href="/ja/support/faqs/supported-browsers.html">対応ブラウザ</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="/ja/support/developer/get_support.html">開発者サポート</a>
-                </li>
-                <li>
-                  <a href="/static/img/brand-guidelines.pdf">ブランド ガイドライン</a>
-                </li>
-                <li class="external">
-                  <a href="https://status.ampproject.org/" target="_blank">AMP のステータス</a>
-                </li>
-              </ul>
-            </div>
-          </div>
+          {{range.Site.Menus.categories}}
+          <div class="tab"><a href="{{$BaseURL}}{{.URL}}">{{ .Title }}</a></div>
+          {{end}}
         </div>
       </div>
       <div class="right alt">
-        <form action="//www.google.com/search" method="get" class="searchbar i-amphtml-form" target="_top" novalidate="">
-          <input class="query" name="q" type="text">
-          <input name="as_sitesearch" type="hidden" value="www.ampproject.org">
+        <form action="https://cse.google.com/cse" id="cse-search-box" class="searchbar i-amphtml-form"  target="_blank">
+          <input name="cx" type="hidden" value="partner-pub-5340212676785058:4989270283" />
+          <input name="ie" type="hidden" value="UTF-8" />
+          <input type="text" name="q" placeholder="Search" />
           <button name="search" type="submit"></button>
         </form>
-        <div class="language desktop">
-          <amp-accordion disable-session-states="" class="i-amphtml-element i-amphtml-layout-container i-amphtml-layout">
-            <section>
-              <h6 class="current flag-ja i-amphtml-accordion-header" role="button" aria-controls="13_AMP_content_0"
-                aria-expanded="false" tabindex="0"><span>日本語</span></h6>
-              <div class="others i-amphtml-accordion-content" id="13_AMP_content_0">
-                <div class="others-inner">
-                  <div><a href="/ar/docs/fundamentals/spec.html" class="flag-ar"><span>العربية</span></a></div>
-                  <div><a href="/docs/fundamentals/spec.html" class="flag-en"><span>English</span></a></div>
-                  <div><a href="/es/docs/fundamentals/spec.html" class="flag-es"><span>español</span></a></div>
-                  <div><a href="/fr/docs/fundamentals/spec.html" class="flag-fr"><span>français</span></a></div>
-                  <div><a href="/id/docs/fundamentals/spec.html" class="flag-id"><span>Indonesia</span></a></div>
-                  <div><a href="/it/docs/fundamentals/spec.html" class="flag-it"><span>italiano</span></a></div>
-                  <div><a href="/ko/docs/fundamentals/spec.html" class="flag-ko"><span>한국어</span></a></div>
-                  <div><a href="/pt_br/docs/fundamentals/spec.html" class="flag-pt_BR"><span>português</span></a></div>
-                  <div><a href="/ru/docs/fundamentals/spec.html" class="flag-ru"><span>русский</span></a></div>
-                  <div><a href="/tr/docs/fundamentals/spec.html" class="flag-tr"><span>Türkçe</span></a></div>
-                  <div><a href="/zh_cn/docs/fundamentals/spec.html" class="flag-zh_CN"><span>中文</span></a></div>
-                </div>
-              </div>
-            </section>
-          </amp-accordion>
-        </div> <button class="tab hamburger" id="menu-button" on="tap:sidebar.toggle"></button>
+        <button class="tab hamburger" id="menu-button" on="tap:sidebar.toggle"></button>
       </div>
     </div>
   </div>

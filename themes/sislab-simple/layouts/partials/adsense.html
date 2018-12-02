@@ -1,0 +1,27 @@
+{{ if ne (getenv "HUGO_ENV") "DEV" }}
+<div class="p-adsense clearfix">
+  <p>スポンサーリンク</p>
+  <div class="p-adtable">
+    <div class="p-adtable__item">
+      <amp-ad
+        layout="responsive"
+        width=300
+        height=250
+        type="adsense"
+        data-ad-client="{{.Site.Params.adsensePublisher}}"
+        data-ad-slot="{{.Site.Params.adsenseAd001}}">
+      </amp-ad>
+    </div>
+    <div class="p-adtable__item u-sp-none">
+      <amp-ad
+        layout="responsive"
+        width=300
+        height=250
+        type="adsense"
+        data-ad-client="{{.Site.Params.adsensePublisher}}"
+        data-ad-slot="{{.Site.Params.adsenseAd001}}">
+      </amp-ad>
+    </div>
+  </div>  
+</div>
+{{ end }}

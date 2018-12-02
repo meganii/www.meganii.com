@@ -1,8 +1,45 @@
 <!DOCTYPE html>
 
 <html ⚡="">
-  {{- partial "head.html" . -}}
-  <body>
-    {{- partial "header.html" . -}}
-  </body>
+{{- partial "head.html" . -}}
+
+<body>
+  {{- partial "header.html" . -}}
+
+  <div>
+    <a href="{{ .Site.BaseURL }}">
+      <amp-img src="https://res.cloudinary.com/{{ .Site.Params.Cloudinary }}/image/upload/{{ .Site.Params.topbanner.src }}"
+        srcset="https://res.cloudinary.com/{{ .Site.Params.Cloudinary }}/image/upload/q_auto,f_auto/{{ .Site.Params.topbanner.src }} 1000w,
+                    https://res.cloudinary.com/{{ .Site.Params.Cloudinary }}/image/upload/q_auto,f_auto,w_800/{{ .Site.Params.topbanner.src }} 800w,
+                    https://res.cloudinary.com/{{ .Site.Params.Cloudinary }}/image/upload/q_auto,f_auto,w_640/{{ .Site.Params.topbanner.src }} 640w,
+                    https://res.cloudinary.com/{{ .Site.Params.Cloudinary }}/image/upload/q_auto,f_auto,w_400/{{ .Site.Params.topbanner.src }} 400w,
+                    https://res.cloudinary.com/{{ .Site.Params.Cloudinary }}/image/upload/q_auto,f_auto,w_320/{{ .Site.Params.topbanner.src }} 320w"
+        width="{{.Site.Params.topbanner.width}}" height="{{.Site.Params.topbanner.height}}" layout="responsive">
+      </amp-img>
+    </a>
+  </div>
+
+  {{ $recent_articles := (where .Site.Pages "IsPage" true) }}
+  <div class="main">
+    <section class="card-container grid">
+      {{ $BaseURL := .Site.BaseURL }}
+
+      {{ range first ($.Site.Params.latestSize | default 16) $recent_articles }}
+      <div style="max-width: 400px;" class="card">
+        <div class="card-inner">
+          <div class="card-content">
+            <a href="{{.URL}}" class="text-decoration-none">
+              <amp-img class="" alt="Eyecatch" media="" width="409" height="305" layout="responsive" src="{{ if isset .Params "eyecatch" }}{{ .Params.Eyecatch }}{{ else if isset .Params "img" }}{{ .Params.img }}{{ else }}{{ .Site.BaseURL }}images/nopicture.png{{ end }}"></amp-img>
+            </a>
+            <h4 class="land-see-post-title ampstart-title-sm pt1"><a class="text-decoration-none" href="{{.URL}}">{{.Title}}</a></h4>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+
+    </section>
+  </div>
+  {{ partial "footer.html" . }}
+</body>
+
 </html>
