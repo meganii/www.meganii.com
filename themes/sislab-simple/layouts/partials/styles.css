@@ -203,7 +203,7 @@ body {
 body {
     background: #fff;
     color: #263238;
-    font-family: 'Hiragino Kaku Gothic Pro',メイリオ,Meiryo,sans-serif;
+    font-family: 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, sans-serif;
     padding-top: 80px;
     font-smooth: always;
     -webkit-font-smoothing: antialiased
@@ -2391,7 +2391,6 @@ amp-sidebar .return-button::before {
     transform: translateX(-100%)
 }
 
-
 .searchbar {
     padding-top: 30px;
 }
@@ -2844,111 +2843,115 @@ amp-social-share[type=pocket] {
     margin-top: 2rem;
     font-size: .5rem;
     color: #818181;
-  }
-  
-  .p-adsense::after {
+}
+
+.p-adsense::after {
     margin-bottom: 1rem;
-  }
-  
-  .p-adtable {
+}
+
+.p-adtable {
     width: 100%;
     display: table;
     table-layout: fixed;
-  }
-  
-  .p-adtable__item {
+}
+
+.p-adtable__item {
     display: table-cell;
-  }
-  
-  .p-aflink__detail {
+}
+
+.p-aflink__detail {
     font-size: .8rem;
     padding-left: 1rem;
-  }
-  
-  .p-aflink__detail p {
+}
+
+.p-aflink__detail p {
     margin: 0;
-  }
-  
-  .p-aflink__title {
+}
+
+.p-aflink__title {
     padding-left: 1rem;
     margin: 0;
-  }
-  
-  .c-btnlist {
+}
+
+.c-btnlist {
     margin: .5rem .5rem;
-  }
-  
-  .c-btnlist__item {
+}
+
+.c-btnlist__item {
     display: inline-block;
-  }
-  
-  .c-btn {
+}
+
+.c-btn {
     display: block;
     text-decoration: none;
-  }
-  
-  .c-btn__ad {
+}
+
+.c-btn__ad {
     color: #fff;
     float: left;
-  }
-  
-  .c-btn__ad:hover {
+}
+
+.c-btn__ad:hover {
     background: #fff;
     color: #2bb6c1;
-    border:solid 1px #2bb6c1;
-  }
-  
-  .c-btn__ad--amazon {
+    border: solid 1px #2bb6c1;
+}
+
+.c-btn__ad--amazon {
     background-color: #fc9711;
     border: 1px solid #000;
-  }
-  
-  .c-btn__ad--yahoo {
+}
+
+.c-btn__ad--yahoo {
     background-color: #fff;
     color: #bd0000;
     border: 1px solid #bd0000;
-  }
-  
-  .c-btn__ad--rakuten {
+}
+
+.c-btn__ad--rakuten {
     background-color: #bd0000;
     border: 1px solid #000;
-  }
-  
-  .c-flex {
+}
+
+.c-flex {
     display: flex;
-  }
-  
-  .c-flex--vertical {
+}
+
+.c-flex--vertical {
     flex-flow: column;
-  }
-  
-  .c-card {
+}
+
+.c-card {
     border: 1px solid #cccccc;
     border-radius: 2px;
-  }
-  
-  .c-card__content {
+}
+
+.c-card__content {
     font-size: .8rem;
     max-height: 72px;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
-  }
-  
+}
 
 .article-body {
     line-height: 1.7em;
 }
 
-.article-body ul,ol >li {
+.article-body ul,
+ol>li {
     padding-left: .5rem;
-    line-height:1.5;
+    line-height: 1.5;
     margin-left: 1rem;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 amp-fit-text {
     white-space: normal;
+}
+
+.article-sns {
+    margin-top: 1.5rem;
 }
