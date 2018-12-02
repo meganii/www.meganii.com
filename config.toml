@@ -1,9 +1,9 @@
 baseurl = "https://www.meganii.com/"
 title = "SIS Lab"
-theme = "land-see"
+theme = "sislab-simple"
 contentDir = "content"
 publishDir = "public"
-cacheDir = "cache"
+
 hasCJKLanguage = true
 
 PygmentsCodeFences = true
