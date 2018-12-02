@@ -14,7 +14,7 @@ img: "https://images-na.ssl-images-amazon.com/images/I/418S5FJ6RHL._SL160_.jpg"
 {{% amazon 4320025377 %}}
 
 
-## 本をから得たいこと
+## 本書から得たいこと
 
 - そもそも、コンサルタントとはどういうことか？
 - 問題解決する際に、気をつけるべきことは何か？

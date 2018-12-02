@@ -127,7 +127,7 @@ http://meganii.netlify.com/* https://www.meganii.com/:splat 301!
 NetlifyのAPIを利用することで、Manual Deployが可能なため、CIツールからデプロイすることが可能です。
 CircleCIの場合は、以下の通り`circle.yml`に記載します。
 
-```
+```yaml
 deployment:
   master:
     branch: master
