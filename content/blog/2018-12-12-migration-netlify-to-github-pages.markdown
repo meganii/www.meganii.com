@@ -22,15 +22,14 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75
 
 ### Before: 2018/10/14時点の Netlifyでのwww.meganii.com の結果
 
-[![Image](https://gyazo.com/f7d0b810038fe6c1c25599c84f0f529d/thumb/1000)](https://gyazo.com/f7d0b810038fe6c1c25599c84f0f529d)
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1544920407/ry8deumwuitojxcm8tvp.png" w="787" h="280" %}}
 
 
 
 ### After: meganii.github.io
-[![Image](https://gyazo.com/3edce795a9f3118db800ad2145ddf44d/thumb/1000)](https://gyazo.com/3edce795a9f3118db800ad2145ddf44d)
 
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1544920407/h1jrh3plvvyikxyirn0p.png" w="810" h="296" %}}
 
 ### www.meganii.com (meganii.github.io)
 
-[![Image](https://gyazo.com/9922617df329b36e9024de659cb523b3/thumb/1000)](https://gyazo.com/9922617df329b36e9024de659cb523b3)
-
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1544920406/gcvp3msrla2emzkeijuz.png" w="791" h="289" %}}
