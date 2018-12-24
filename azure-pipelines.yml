@@ -17,3 +17,7 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
+- script: |
+    git clone https://meganii$(GITHUB_PARSONAL_ACCESS_TOKEN)@github.com/meganii/test-deploy-to-gh-pages-from-azure-piplines.git
+  displayName: 'Deploy to GitHub Pages'
