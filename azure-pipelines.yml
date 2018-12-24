@@ -20,4 +20,11 @@ steps:
 
 - script: |
     git clone https://meganii$(GITHUB_PARSONAL_ACCESS_TOKEN)@github.com/meganii/test-deploy-to-gh-pages-from-azure-piplines.git
-  displayName: 'Deploy to GitHub Pages'
+    cd test-deploy-to-gh-pages-from-azure-piplines
+    git config --local user.name $(GIT_USER)
+    git config --local user.email $(GIT_EMAIL)
+    echo "hello from Azure" > index.html
+    git add --all
+    git commit -m "[skip ci] build from azure"
+    git push -f origin master
+    displayName: 'Deploy to GitHub Pages'
