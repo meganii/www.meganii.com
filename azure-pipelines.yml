@@ -27,4 +27,4 @@ steps:
     git add --all
     git commit -m "[skip ci] build from azure"
     git push -f origin master
-    displayName: 'Deploy to GitHub Pages'
+  displayName: 'Deploy to GitHub Pages'
