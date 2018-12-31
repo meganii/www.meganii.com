@@ -1,9 +1,18 @@
+{{ $id := 0 }}
+{{ $width := 4 }}
+{{ $height := 3 }}
 
-{{ $id := .Get 0 }}
+{{ if .IsNamedParams }}
+  {{ $id = ( .Get "id") }}
+  {{ $width = 16 }}
+  {{ $height = 9 }}
+{{ else }}
+  {{ $id = .Get 0 }}
+{{ end }}
 
 <amp-iframe
-  width="710"
-  height="596"
+  width="{{ $width }}"
+  height="{{ $height }}"
   allowfullscreen
   sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"
   layout="responsive"
