@@ -35,7 +35,7 @@ steps:
 
 - script: |
   hugo version
-  displayName: Check Hugo version
+  displayName: 'Check Hugo version'
 
 - script: |
     git clone https://meganii:$(GITHUB_PARSONAL_ACCESS_TOKEN)@github.com/meganii/test-deploy-to-gh-pages-from-azure-piplines.git
