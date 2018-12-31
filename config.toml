@@ -11,6 +11,8 @@ pygmentsUseClasses = true
 
 DefaultContentLanguage = "ja"
 
+enableGitInfo = true
+
 [permalinks]
 blog = "/blog/:year/:month/:day/:slug/"
 

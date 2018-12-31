@@ -1,7 +1,7 @@
 ---
 title: "「GitLab Meetup Tokyo #12： 2018年振り返り」に参加しました"
 date: 2018-12-22T10:44:01+09:00
-lastmod: 2018-12-22T10:44:01+09:00
+lastmod: ":git"
 comments: true
 category: ['Tech']
 tags: ['GitLab', 'CI/CD', 'GitLab Meetup Tokyo']
