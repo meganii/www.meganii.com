@@ -1,0 +1,30 @@
+---
+title: "[Ruby]mapメソッドの省略記法"
+date: 2017-06-25T22:21:06+09:00
+lastmod: 2017-06-25T22:21:06+09:00
+comments: true
+category: ['Tech']
+tags: ['Ruby']
+published: true
+slug: ruby-idiom-map
+---
+
+[Rubyのmapメソッドとは\|基本的なmapの記述方法と省略記法｜フリエン](https://furien.jp/columns/139/)
+
+`map { |x| x.chomp }`は、`map(&:chomp)`と省略することができる。省略記法を利用した場合は、全ての要素に対して&の後にシンボルで指定したメソッドが繰り返し実行され、結果が配列として返ってくる。
+
+
+```ruby
+conn = Faraday.new(url: 'https://www.google.com/finance/getprices') do |builder|
+  builder.request  :url_encoded
+  builder.adapter  :net_http
+end
+
+response = conn.get do |req|
+  req.params = params
+end
+
+lines = response.body.each_line.map(&:chomp)
+```
+
+{{% amazon 4797386290 %}}

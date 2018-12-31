@@ -1,0 +1,9 @@
+{{ $sid := .Get "sid" }}
+{{ $pid := .Get "pid" }}
+{{ $type := .Get "type" }}
+{{ $width := .Get "w" }}
+{{ $height := .Get "h" }}
+
+<div class="center">
+  <amp-ad width='{{ $width }}' height='{{ $height }}' type='{{ $type }}' data-sid='{{ $sid }}' data-pid='{{ $pid }}'></amp-ad>
+</div>

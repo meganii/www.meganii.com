@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html ⚡>
+  <head>
+    {{ partial "meta.html" . }}
+    <title>{{ block "title" . }}{{ end }}{{ .Site.Title }}</title>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    {{ if .Site.GoogleAnalytics }}<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>{{ end }}
+    {{ with .Site.Params.ampscripts }}{{ . | safeHTML }}{{ end }}
+    {{ block "meta" . }}{{ end }}
+    <style amp-custom>
+      {{ replaceRE " +" " " (replaceRE "\n" "" (partial "styles.css" .)) | safeCSS }}
+    </style>
+  </head>
+
+  <body>
+    <amp-auto-ads type="adsense" data-ad-client="ca-pub-5340212676785058"></amp-auto-ads>
+    {{ if ne (getenv "HUGO_ENV") "DEV" }}
+    {{ with .Site.GoogleAnalytics }}
+    <amp-analytics type="googleanalytics" id="analytics1">
+      <script type="application/json">
+        {
+          "vars": {
+            "account": "{{ . }}"
+          },
+          "triggers": {
+            "trackPageview": {
+              "on": "visible",
+              "request": "pageview"
+            }
+          }
+        }
+      </script>
+    </amp-analytics>
+    {{ end }}
+    {{ end }}
+    <header class="l-header">
+      <div class="l-container">
+        <a href="{{ .Site.BaseURL }}">
+          <amp-img
+            src="https://res.cloudinary.com/meganii/image/upload/v1524390254/sislab_top_banner.png"
+            srcset="https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1524390254/sislab_top_banner.png 1000w,
+                    https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/v1524390254/sislab_top_banner.png 800w,
+                    https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/v1524390254/sislab_top_banner.png 640w,
+                    https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/v1524390254/sislab_top_banner.png 400w,
+                    https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/v1524390254/sislab_top_banner.png 320w"
+            width="1000"
+            height="250"
+            layout="responsive">
+          </amp-img>
+        </a>
+        <div class="u-mt">
+          {{ .Site.Params.description }}
+        </div>
+        <ul class="p-nav u-mt">
+          <li class="p-nav__item"><a href="{{ .Site.BaseURL }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+          <li class="p-nav__item"><a href="{{ .Site.BaseURL }}about/"><i class="fa fa-address-book-o" aria-hidden="true"></i>   About</a></li>
+          <li class="p-nav__item"><a href="{{ .Site.BaseURL }}category/tech/"><i class="fa fa-code" aria-hidden="true"></i>   Tech</a></li>
+          <li class="p-nav__item"><a href="{{ .Site.BaseURL }}category/life/"><i class="fa fa-coffee" aria-hidden="true"></i>   Life</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    {{ block "footer_before" . }}{{ end }}
+
+    <footer class="l-footer">
+      <div class="c-flex c-flex--footer">
+        <div class="c-col-3">
+          <h1>Profile</h1>
+          <amp-img class="thumbnail" src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" width="60" height="60" layout="fixed"></amp-img>
+          {{ with .Site.Params.Twitter }}
+          <p><a href="https://twitter.com/{{ . }}" target="_blank">@{{ . }}</a></p>
+          {{ end }}
+          <p>{{ .Site.Params.profile }}</p>
+        </div>
+        {{ $recent_articles := (where (where .Site.Pages ".Source.Path" "!=" .Source.Path) "IsPage" true) }}
+        <div class="c-col-3">
+          <h1>Latests</h1>
+          <ul class="c-tag__item">
+            {{ range first 3 $recent_articles }}<li>{{ .Render "li_ft" }}</li>{{ end }}
+          </ul>
+        </div>
+        <div class="c-col-3">
+          <h1>Category</h1>
+          <ul class="cloudtag">
+          {{ $url := .Site.BaseURL }}
+          {{ range $key, $value := .Site.Taxonomies.category }}
+            {{ if ne $key "" }}
+            <li class="c-tag__item"><a href="{{$url}}category/{{$key}}/">{{ title $key }}</a></li>
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+      <div class="p-copyright">
+        <p>{{ with .Site.Copyright }}{{ . | safeHTML }}{{ else }}<span class="h-logo">&copy; {{ .Site.Title }}</span>{{ end }}</p>
+        <aside>
+          <p>Powered by <a href="https://gohugo.io/">Hugo</a>.  <a href="https://github.com/dim0627/hugo_theme_aglaus" class="h-logo">Aglaus</a> designed by <a href="http://yet.unresolved.xyz/">Daisuke Tsuji</a>.</p>
+        </aside>
+      </div>
+      
+    </footer>
+    <a href="#" class="p-movetop" title="ページ上部へ戻る" rel="nofollow"></a>
+  </body>
+</html>

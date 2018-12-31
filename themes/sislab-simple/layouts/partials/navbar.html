@@ -1,0 +1,24 @@
+{{ $BaseURL := .Site.BaseURL }}
+<header class="header fixed">
+  <div class="container">
+    <div class="nav-container">
+      <div class="left-nav alt">
+        <a href="{{$BaseURL}}" class="tab header-title"><span>SIS Lab</span></a>
+        <div class="tabs">
+          {{range.Site.Menus.categories}}
+          <div class="tab"><a href="{{$BaseURL}}{{.URL}}">{{ .Title }}</a></div>
+          {{end}}
+        </div>
+      </div>
+      <div class="right alt">
+        <form action="https://cse.google.com/cse" id="cse-search-box" class="searchbar"  target="_blank">
+          <input name="cx" type="hidden" value="partner-pub-5340212676785058:4989270283" />
+          <input name="ie" type="hidden" value="UTF-8" />
+          <input type="text" name="q" placeholder="Search" />
+          <button name="search" type="submit"></button>
+        </form>
+        <button class="tab hamburger" id="menu-button" on="tap:sidebar.toggle"></button>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,20 @@
+{{ if .IsNamedParams }}
+  {{ $.Scratch.Add "youtubeId" ( .Get "id") }}
+  {{ $.Scratch.Add "youtubeWidth" ( .Get "width") }}
+  {{ $.Scratch.Add "youtubeHeight" ( .Get "height") }}
+{{ else }}
+  {{ $.Scratch.Add "youtubeId" ( .Get 0) }}
+  {{ $.Scratch.Add "youtubeWidth" "800" }}
+  {{ $.Scratch.Add "youtubeHeight" "450" }}
+{{ end }}
+
+{{ $id := $.Scratch.Get "youtubeId" }}
+{{ $width := $.Scratch.Get "youtubeWidth" }}
+{{ $height := $.Scratch.Get "youtubeHeight" }}
+
+<amp-youtube
+	data-videoid="{{$id}}"
+	width="{{$width}}"
+	height="{{$height}}"
+	layout="responsive">
+</amp-youtube>

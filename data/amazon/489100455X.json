@@ -1,0 +1,182 @@
+{
+  "Item": {
+    "ASIN": "489100455X",
+    "DetailPageURL": "https://www.amazon.co.jp/CODE-COMPLETE-%E7%AC%AC2%E7%89%88-%E4%B8%8A-%E5%AE%8C%E5%85%A8%E3%81%AA%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%82%92%E7%9B%AE%E6%8C%87%E3%81%97%E3%81%A6/dp/489100455X?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=489100455X",
+    "ItemLinks": {
+      "ItemLink": [
+        {
+          "Description": "Add To Wishlist",
+          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=489100455X&SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=489100455X"
+        },
+        {
+          "Description": "Tell A Friend",
+          "URL": "https://www.amazon.co.jp/gp/pdp/taf/489100455X?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=489100455X"
+        },
+        {
+          "Description": "All Customer Reviews",
+          "URL": "https://www.amazon.co.jp/review/product/489100455X?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=489100455X"
+        },
+        {
+          "Description": "All Offers",
+          "URL": "https://www.amazon.co.jp/gp/offer-listing/489100455X?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=489100455X"
+        }
+      ]
+    },
+    "SmallImage": {
+      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51E1DYKHW7L._SL75_.jpg",
+      "Height": "75",
+      "Width": "58"
+    },
+    "MediumImage": {
+      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51E1DYKHW7L._SL160_.jpg",
+      "Height": "160",
+      "Width": "124"
+    },
+    "LargeImage": {
+      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51E1DYKHW7L.jpg",
+      "Height": "500",
+      "Width": "386"
+    },
+    "ImageSets": {
+      "ImageSet": {
+        "Category": "primary",
+        "SwatchImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51E1DYKHW7L._SL30_.jpg",
+          "Height": "30",
+          "Width": "23"
+        },
+        "SmallImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51E1DYKHW7L._SL75_.jpg",
+          "Height": "75",
+          "Width": "58"
+        },
+        "ThumbnailImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51E1DYKHW7L._SL75_.jpg",
+          "Height": "75",
+          "Width": "58"
+        },
+        "TinyImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51E1DYKHW7L._SL110_.jpg",
+          "Height": "110",
+          "Width": "85"
+        },
+        "MediumImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51E1DYKHW7L._SL160_.jpg",
+          "Height": "160",
+          "Width": "124"
+        },
+        "LargeImage": {
+          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51E1DYKHW7L.jpg",
+          "Height": "500",
+          "Width": "386"
+        }
+      }
+    },
+    "ItemAttributes": {
+      "Author": "スティーブ マコネル",
+      "Binding": "単行本",
+      "Creator": [
+        "Steve McConnell",
+        "クイープ"
+      ],
+      "EAN": "9784891004552",
+      "EANList": {
+        "EANListElement": "9784891004552"
+      },
+      "Edition": "第2",
+      "IsAdultProduct": "0",
+      "ISBN": "489100455X",
+      "Label": "日経BP社",
+      "Languages": {
+        "Language": [
+          {
+            "Name": "日本語",
+            "Type": "Published"
+          },
+          {
+            "Name": "日本語",
+            "Type": "Unknown"
+          }
+        ]
+      },
+      "Manufacturer": "日経BP社",
+      "NumberOfPages": "628",
+      "PackageDimensions": {
+        "Height": "126",
+        "Length": "921",
+        "Weight": "225",
+        "Width": "724"
+      },
+      "PackageQuantity": "1",
+      "ProductGroup": "Book",
+      "ProductTypeName": "ABIS_BOOK",
+      "PublicationDate": "2005-03-26",
+      "Publisher": "日経BP社",
+      "Studio": "日経BP社",
+      "Title": "CODE COMPLETE 第2版 上 完全なプログラミングを目指して"
+    },
+    "OfferSummary": {
+      "LowestNewPrice": {
+        "Amount": "6588",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 6,588"
+      },
+      "LowestUsedPrice": {
+        "Amount": "4200",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 4,200"
+      },
+      "LowestCollectiblePrice": {
+        "Amount": "17999",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 17,999"
+      },
+      "TotalNew": "3",
+      "TotalUsed": "16",
+      "TotalCollectible": "1",
+      "TotalRefurbished": "0"
+    },
+    "Offers": {
+      "TotalOffers": "1",
+      "TotalOfferPages": "1",
+      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/489100455X?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=489100455X",
+      "Offer": {
+        "OfferAttributes": {
+          "Condition": "New"
+        },
+        "OfferListing": {
+          "OfferListingId": "9zO%2BYGzrmeOioK26qL9c8Kbkil3%2BATbt%2FX%2B1rjByIUwPGOEYEzaqp4lU5fZjGydji1SZbrV3y%2B7rVWQWgDFBJko6jz2Yd8p9",
+          "Price": {
+            "Amount": "6588",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 6,588"
+          },
+          "Availability": "在庫あり。",
+          "AvailabilityAttributes": {
+            "AvailabilityType": "now",
+            "MinimumHours": "0",
+            "MaximumHours": "0"
+          },
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "198",
+          "TypicalRedemptionValue": {
+            "Amount": "198",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 198"
+          }
+        }
+      }
+    }
+  },
+  "Lastmod": "2018-08-17 23:16:52 +0900",
+  "Rakuten": {
+    "productUrlPC": "https://product.rakuten.co.jp/product/-/594400d0fb4164e1041ae72273bd7314/",
+    "productUrlMobile": "http://m.product.rakuten.co.jp/product/594400d0fb4164e1041ae72273bd7314/"
+  },
+  "Yahoo": {
+    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784891004552"
+  }
+}

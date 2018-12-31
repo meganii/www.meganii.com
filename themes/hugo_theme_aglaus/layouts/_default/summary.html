@@ -1,0 +1,89 @@
+<article class="single article-{{ .Source.Path | md5 }}">
+  <div class="header-wrapper">
+    <header>
+      <div class="clearfix">
+        <amp-img class="thumbnail" src="{{ if isset .Params "img" }}{{ if eq (substr .Params.img 0 4) "http" }}{{ .Params.img }}{{ else }}{{ $.Site.BaseURL }}{{ replaceRE "^/" "" .Params.img }}{{ end }}{{ else }}{{ $.Site.BaseURL }}images/nopicture.png{{ end }}" width="75" height="75" layout="fixed"></amp-img>
+        <h1 class="title">{{ .Title }}</h1>
+        <ul class="p-facts">
+          <li><time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05JST" }}">{{ .Lastmod.Format ( .Site.Params.dateformat | default "Jan 2, 2006") }}</time></li>
+          {{ with .Section }}<li><a href="{{ $.Site.BaseURL }}{{ . | urlize }}/">{{ . }}</a></li>{{ end }}
+          {{ if eq (getenv "HUGO_ENV") "DEV" }}
+          <li>{{ .WordCount }} Words</li>
+          {{ if .IsDraft }}<li style="color: #2196f3;">DRAFT</li>{{ end }}
+          {{ end }}
+        </ul>
+      </div>
+    </header>
+  </div>
+
+  {{ partial "share.html" . }}
+
+  <div class="article-body">{{ .Content }}</div>
+
+  <div class="p-adsense clearfix">
+    <p>スポンサーリンク</p>
+    <div class="p-adtable">
+      <div class="p-adtable__item">
+        <amp-ad
+          layout="responsive"
+          width=300
+          height=250
+          type="adsense"
+          data-ad-client="ca-pub-5340212676785058"
+          data-ad-slot="7368951150">
+        </amp-ad>
+      </div>
+      <div class="p-adtable__item u-sp-none">
+        <amp-ad
+          layout="responsive"
+          width=300
+          height=250
+          type="adsense"
+          data-ad-client="ca-pub-5340212676785058"
+          data-ad-slot="7368951150">
+        </amp-ad>
+      </div>
+    </div>
+  </div>
+
+  {{ partial "share.html" . }}
+
+  <footer class="article-footer">
+    <section>
+      <ol class="p-crumb">
+        <li><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></li>
+        {{ with .Section }}
+        <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="{{ $.Site.BaseURL }}{{ . | urlize }}/" itemprop="url"><span itemprop="title">{{ . }}</span></a></li>
+        {{ end }}
+        <li>{{ .Title }}</li>
+      </ol>
+
+      
+      {{ $params := .Params }}
+      {{ range $key, $value := $.Site.Taxonomies }}
+      {{ if isset $params $key }}
+      <ul class="p-facts">
+        <li>
+          <header><a href="{{ $.Site.BaseURL }}{{ $key | urlize }}/">{{ $key }}</a></header>
+          <ul>
+            {{ range (index $params $key) }}
+            <li><a href="{{ $.Site.BaseURL }}{{ $key | urlize }}/{{ . | urlize }}/">{{ . }}</a></li>
+            {{ end }}
+          </ul>
+        </li>
+      </ul>
+      {{ end }}
+      {{ end }}
+
+      {{ $related := .Site.RegularPages.Related . | first 10 }}
+      {{ with $related }}
+      <h3>See Also</h3>
+      <ul>
+        {{ range . }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </section>
+  </footer>
+</article>

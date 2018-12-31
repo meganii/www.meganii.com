@@ -1,0 +1,52 @@
+<!-- シェアボタン  -->
+<div class="sns">
+	<ul class="clearfix">
+		<!--ツイートボタン-->
+		<li class="twitter">
+  		<a onclick="window.open('//twitter.com/intent/tweet?url={{ .Permalink }}&amp;text={{ .Title }}&amp;via={{ .Site.Params.Twitter }}&amp;tw_p=tweetbutton', '', 'width=500,height=450'); return false;">
+        <i class="fa fa-twitter"></i>
+        <span class="snstext ">Twitter</span>
+      </a>
+		</li>
+
+		<!--Facebookボタン-->
+		<li class="facebook">
+  		<a href="//www.facebook.com/sharer.php?src=bm&amp;u={{ .Permalink }}&amp;t={{ .Title }}" target="_blank">
+        <i class="fa fa-facebook"></i><span class="snstext ">Facebook</span>
+  		</a>
+		</li>
+
+		<!--Google+1ボタン-->
+		<li class="googleplus">
+  		<a href="https://plus.google.com/share?url={{ .Permalink }}" target="_blank">
+        <i class="fa fa-google-plus"></i><span class="snstext ">Google+</span>
+      </a>
+		</li>
+
+		<!--ポケットボタン-->
+		<li class="pocket">
+  		<a onclick="window.open('//getpocket.com/edit?url={{ .Permalink }}&amp;title={{ .Title }}', '', 'width=500,height=350'); return false;">
+        <i class="fa fa-get-pocket"></i>
+        <span class="snstext ">Pocket</span>
+      </a>
+    </li>
+
+		<!--はてブボタン-->
+		<li class="hatebu">
+			<a href="//b.hatena.ne.jp/entry/s/{{ .Permalink }}" class="hatena-bookmark-button" data-hatena-bookmark-title="{{ .Title }}" data-hatena-bookmark-layout="simple" title="このエントリーをはてなブックマークに追加">
+				<span style="font-weight:bold" class="fa-hatena">B!</span>
+        <span class="snstext ">はてブ</span>
+			</a>
+			<script type="text/javascript" src="//cdn-ak.b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+		</li>
+
+		<!--LINEボタン-->
+		<li class="line">
+  		<a href="//line.me/R/msg/text/?{{ .Title }}{{ .Permalink }}" target="_blank">
+        <i class="fa fa-comment" aria-hidden="true"></i>
+        <span class="snstext">LINE</span>
+      </a>
+		</li>
+	</ul>
+</div>
+<!-- シェアボタン -->

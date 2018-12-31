@@ -1,0 +1,17 @@
+{{ $paths := (split (.Get "src") ".") }}
+{{ $imgfname := (index $paths 0) }}
+{{ $extname  := (index $paths 1) }}
+{{ $sets := (split (.Get "sets") ",") }}
+
+<p>
+  <img class="responsive-img" src='{{printf "%s.%s" $imgfname $extname}}'
+     srcset='
+     {{ range $i, $v := $sets }}
+       {{ if eq $i 0 }}
+        {{ print  $imgfname "-" $v "x."  $extname }} {{ print $v "w" }}
+       {{ else }}
+        {{ print "," $imgfname "-" $v "x."  $extname }} {{ print $v "w"}}
+       {{ end }}
+     {{ end }}'
+     sizes="75vw">
+</p>

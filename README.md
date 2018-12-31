@@ -1,20 +1,44 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# www.meganii.com
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+my blog source
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+# image files
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://www.visualstudio.com/en-us/docs/git/create-a-readme). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+/static/images/yyyy/mm/dd/filename.jpg
+/static/images/yyyy/mm/dd/filename-100x100.jpg (for eyecatch)
+
+ファイルをドラッグ&ドロップすると同時に、imagesファイルに
+圧縮、サイズ変更を行う。　=>
+
+or
+
+/static/images/filename.jpg
+
+
+## tips
+pressing image files with Javascript when I drag & drop.
+
+
+
+# Amazon link
+
+preload
+
+
+# Thumbnail Images
+
+## Tech
+"https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
+
+## Book
+"https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514038598/BOOK_1_v8p2op.png"
+
+## Jibun Release Notes
+"https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1524315911/Release_Notes_nfcm5a.png"
+
+## Design
+"https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1524391676/Design_afc6hi.png"
+
+## Mobile
+"https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1524392324/Mobile_bvsi5k.png"

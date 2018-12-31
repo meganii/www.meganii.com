@@ -1,0 +1,77 @@
+{{ define "main" }}
+<div class="l-container">
+  <header class="pt4">
+    <h1 class="ampstart-title-lg">{{ .Page.Title }}</h1>
+  </header>
+  <section class="article-body">
+    {{ .Content }}
+  </section>
+
+  <div class="article-sns c-flex">
+    <amp-social-share class="mr1" type="twitter"></amp-social-share>
+    <amp-social-share class="mr1" type="facebook" data-param-app_id="{{ .Params.FacebookAppId }}"></amp-social-share>
+    <amp-social-share class="mr1" type="gplus"></amp-social-share>
+    <amp-social-share class="mr1" type="line"></amp-social-share>
+    <amp-social-share
+      class="mr1"
+      type="hatena_bookmark"
+      layout="fixed"
+      width="60" height="44"
+      data-share-endpoint="http://b.hatena.ne.jp/append?SOURCE_URL">
+      B!
+    </amp-social-share>
+    <amp-social-share
+      class="mr1"
+      type="pocket"
+      layout="fixed"
+      width="60" height="44"
+      data-share-endpoint="http://getpocket.com/edit?url={{ .Site.BaseURL }}{{ .URL | replaceRE "^/" "" }}">
+    </amp-social-share>
+  </div>
+  
+  {{ partial "adsense.html" . }}
+</div>
+{{ end }}
+
+{{ define "aside" }}
+  {{ $related := .Site.RegularPages.Related . | first 8 }}
+  {{ $BaseURL := .Site.BaseURL }}
+  {{ with $related }}
+  <section style="padding: 1rem;" class="">
+    <h4 class="">Related contents</h4>
+    <div class="card-container">
+      <amp-carousel height="300" layout="fixed-height">
+        {{ range . }}
+        <div class="card">
+          <div class="card-inner">
+            <a href="{{.URL}}" class=""><amp-img class="card-icon" alt="eyecatch" media="" width="409" height="305" layout="responsive" src="{{ if isset .Params "eyecatch" }}{{ .Params.Eyecatch }}{{ else if isset .Params "img" }}{{ .Params.img }}{{ else }}{{ .Site.BaseURL }}images/nopicture.png{{ end }}"></amp-img></a>
+            <div class="card-content">
+              <amp-fit-text width="200" height="75" layout="fixed"><a class="" href="{{.URL}}">{{.Title}}</a></amp-fit-text>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </amp-carousel>
+    </div>
+  </section>
+  {{ end }}
+
+{{ $recent_articles := (where .Site.Pages "IsPage" true) }}
+<section style="padding: 1rem;" class="">
+    <h4 class="ml1">Latest contents</h4>
+    <div class="card-container">
+      <amp-carousel height="300" layout="fixed-height">
+        {{ range first ($.Site.Params.latestSize | default 16) $recent_articles }}
+        <div class="card">
+          <div style="width: 200px;" class="card-inner">
+            <a href="{{.URL}}" class=""><amp-img class="card-icon" alt="eyecatch" media="" width="409" height="305" layout="responsive" src="{{ if isset .Params "eyecatch" }}{{ .Params.Eyecatch }}{{ else if isset .Params "img" }}{{ .Params.img }}{{ else }}{{ .Site.BaseURL }}images/nopicture.png{{ end }}"></amp-img></a>
+            <div class="card-content">
+              <amp-fit-text width="200" height="75" layout="fixed"><a class="" href="{{.URL}}">{{.Title}}</a></amp-fit-text>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </amp-carousel>
+    </div>
+  </section>
+{{ end }}

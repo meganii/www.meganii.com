@@ -1,0 +1,18 @@
+{{ $baseurl := "https://www.meganii.com/" }}
+{{ $src := .Get "src" }}
+
+{{ range .Site.Pages }}
+  {{ if eq $src (add $baseurl (.URL | replaceRE "^/" "")) }}
+<div class="c-card c-flex u-mb embed-wrapper">
+  <div class="c-flex__item u-p">
+    <div class="c-flex">
+      <div class="c-flex__item c-card__content">
+        <div class="c-card__title"><a href="{{ .URL }}">{{ .Title }}</a></div>
+        <div class="c-card__summary">{{ .Summary  }}</div>
+      </div>
+      <div class="c-flex__item"><amp-img src="{{ .Params.img }}" width="100" height="100" layout="responsive" /></div>
+    </div>
+  </div>
+</div>
+  {{ end }}
+{{ end }}

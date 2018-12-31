@@ -1,0 +1,36 @@
+---
+title: "vue"
+date: 2017-11-23T15:13:46+09:00
+lastmod: 2017-11-23T15:13:46+09:00
+comments: true
+category: ['']
+tags: ['']
+published: false
+slug: vue
+img: 
+---
+
+<!--more-->
+{{% googleadsense %}}
+
+
+
+[MongoDBで変数でlike検索の実行](https://qiita.com/ryo2132/items/1452ee7c3fd6f5aac8bd)
+
+```javascript
+const word = "テスト"
+const query = ({test: "/" + word + "/"})
+testDB.find(query).function(err, item) {
+ //hogehoge
+}
+```
+
+`RegExp`を使うことで解決した。
+
+```javascript
+var word = "テスト"
+var query = ({test: new RegExp(".*" + word + ".*" , "i")})
+testDB.find(query).function(err, item) {
+ //hogehoge
+}
+```

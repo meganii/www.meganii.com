@@ -1,0 +1,28 @@
+{{ define "main" }}
+  <header class="p-page-title">
+    <h1 class="title">{{ .Title }}</h1>
+  </header>
+  <div class="main">
+  <section class="card-container grid">
+    {{ $BaseURL := .Site.BaseURL }}
+
+    {{ range .Paginator.Pages }}
+    <div style="max-width: 400px;" class="card">
+      <div class="card-inner">
+          <div class="card-content">
+              <a href="{{.URL}}" class="text-decoration-none">
+                  <amp-img class="" alt="Eyecatch" media="" width="409" height="305" layout="responsive" src="{{ if isset .Params "eyecatch" }}{{ .Params.Eyecatch }}{{ else if isset .Params "img" }}{{ .Params.img }}{{ else }}{{ .Site.BaseURL }}images/nopicture.png{{ end }}"></amp-img>
+                </a>
+                <h4 class="land-see-post-title ampstart-title-sm pt1"><a class="text-decoration-none" href="{{.URL}}">{{.Title}}</a></h4>
+          </div>
+      </div>
+    </div>
+    {{ end }}
+
+  </section>
+  </div>
+{{ end }}
+
+
+{{ define "aside" }}
+{{ end }}
