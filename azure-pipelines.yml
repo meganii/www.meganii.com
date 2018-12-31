@@ -9,14 +9,33 @@ trigger:
 pool:
   vmImage: 'Ubuntu-16.04'
 
+variables:
+  GOBIN:  '$(GOPATH)/bin' # Go binaries path
+  GOROOT: '/usr/local/go1.11' # Go installation path
+  GOPATH: '$(system.defaultWorkingDirectory)/gopath' # Go workspace path
+  modulePath: '$(GOPATH)/src/github.com/$(build.repository.name)' # Path to the module's code
+
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- script: |
+    mkdir -p '$(GOBIN)'
+    mkdir -p '$(GOPATH)/pkg'
+    mkdir -p '$(modulePath)'
+    shopt -s extglob
+    echo '##vso[task.prependpath]$(GOBIN)'
+    echo '##vso[task.prependpath]$(GOROOT)/bin'
+  displayName: 'Set up the Go workspace'
 
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+    mkdir ~/tmp
+    cd ~/tmp
+    wget 'https://github.com/gohugoio/hugo/releases/download/v0.53/hugo_0.53_Linux-64bit.tar.gz'
+    tar zxvf hugo_0.53_Linux-64bit.tar.gz
+    mv hugo $(GOBIN)
+    displayName: 'Set up Hugo'
+
+- script: |
+  hugo version
+  displayName: Check Hugo version
 
 - script: |
     git clone https://meganii:$(GITHUB_PARSONAL_ACCESS_TOKEN)@github.com/meganii/test-deploy-to-gh-pages-from-azure-piplines.git
