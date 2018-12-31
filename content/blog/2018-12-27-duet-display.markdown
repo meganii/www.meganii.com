@@ -1,7 +1,7 @@
 ---
 title: "「Duet Display」を利用して余っていたiPadを外部ディスプレイにする"
 date: 2018-12-27T20:47:04+09:00
-lastmod: 2018-12-27T20:47:04+09:00
+lastmod: ":git"
 comments: true
 category: ['Life']
 tags: ['App', 'Apple', 'Display', 'iPad']
