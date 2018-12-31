@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "common-misspellings": true,
+    "preset-japanese": true,
+    "max-ten": {
+      "max": 3
+    },
+    "spellcheck-tech-word": true,
+    "no-mix-dearu-desumasu": true
+  }
+}

@@ -1,0 +1,176 @@
+---
+title: "CoreOSの設定ファイルをcloud-config.ymlからIgnitionに変更する"
+date: 2017-09-30T22:53:17+09:00
+lastmod: 2017-09-30T22:53:17+09:00
+comments: true
+category: ['Tech']
+tags: ['CoreOS','VPS']
+published: false
+slug: coreos
+img:
+---
+
+CoreOSの設定ファイルである`cloud-config.yml`は、いつのまにか推奨されなくなっていました。その代わりに`Ignition`による設定に変更になったようです。
+
+> NOTE: coreos-cloudinit is no longer under active development and has been superseded by Ignition. For more information about the recommended tools for provisioning Container Linux, refer to the provisioning documentation.  
+[https://coreos.com/os/docs/1590.0.0/cloud-config.html](https://coreos.com/os/docs/1590.0.0/cloud-config.html)
+
+
+## Ignitionとcoreos-cloudinitの違い
+
+- YAMLではなくJSON
+- Ignitionは一度だけ動かせばよい
+
+
+
+
+
+<!--more-->
+{{% googleadsense %}}
+
+
+## Config transpiler
+
+[coreos/container\-linux\-config\-transpiler: Convert a Container Linux Config into Ignition](https://github.com/coreos/container-linux-config-transpiler)
+
+
+https://github.com/coreos/container-linux-config-transpiler/releases からビルド済のバイナリをダウンロードして、~/binにいれた。
+
+
+```
+$ ct -in-file container-linux-conf.yml -out-file dist/config.ign -platform gce -pretty -strict
+```
+
+## Cloud-config.ymlからの移行方法
+
+[https://coreos.com/os/docs/latest/migrating-to-clcs.html](https://coreos.com/os/docs/latest/migrating-to-clcs.html)
+
+
+## Local Side
+```
+ct -in-file container-linux-conf.yml -out-file dist/config.ign -platform gce -pretty -strict
+```
+
+Conoha VPSにアップロード
+```
+scp dist/config.ign core@conoha:/home/core/coreos
+```
+
+## Server Side
+
+```
+sudo coreos-install -d /dev/vda -i config.ign
+Downloading the signature for https://alpha.release.core-os.net/amd64-usr/1576.1.0/coreos_production_image.bin.bz2...
+2017-11-12 13:42:23 URL:https://alpha.release.core-os.net/amd64-usr/1576.1.0/coreos_production_image.bin.bz2.sig [566/566] -> "/tmp/coreos-install.vdMOgvRSTU/coreos_production_image.bin.bz2.sig" [1]
+Downloading, writing and verifying coreos_production_image.bin.bz2...
+
+Broadcast message from locksmithd at 2017-11-12 13:43:26.968917552 +0900 JST:
+System reboot in 5 minutes!
+
+2017-11-12 13:43:29 URL:https://alpha.release.core-os.net/amd64-usr/1576.1.0/coreos_production_image.bin.bz2 [337340573/337340573] -> "-" [1]
+gpg: Signature made Thu Oct 26 14:07:48 2017 JST
+gpg:                using RSA key 8826AD9569F575AD3F5643E7DE2F8F87EF4B4ED9
+gpg: key 50E0885593D2DCB4 marked as ultimately trusted
+gpg: checking the trustdb
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: Good signature from "CoreOS Buildbot (Offical Builds) <buildbot@coreos.com>" [ultimate]
+blockdev: ioctl error on BLKRRPART: Device or resource busy
+Failed to reread partitions on /dev/vda
+blockdev: ioctl error on BLKRRPART: Device or resource busy
+Failed to reread partitions on /dev/vda
+blockdev: ioctl error on BLKRRPART: Device or resource busy
+Failed to reread partitions on /dev/vda
+blockdev: ioctl error on BLKRRPART: Device or resource busy
+Failed to reread partitions on /dev/vda
+Error: return code 1 from read -rt 300 _disk_status 0<> "${WORKDIR}/disk_modified"
+wipefs: error: /dev/vda: probing initialization failed: Device or resource busy
+Connection to 150.95.148.60 closed.
+```
+
+サーバ死んだ。。。
+
+Imageが保存されているので、途中から元に戻せるが一旦初期化する。
+サーバー再起動
+
+
+## conoha-iso コマンド
+[https://github.com/hironobu-s/conoha-iso](https://github.com/hironobu-s/conoha-iso)
+
+```
+curl -sL https://github.com/hironobu-s/conoha-iso/releases/download/current/conoha-iso-osx.amd64.gz | zcat > conoha-iso && chmod +x ./conoha-iso
+```
+
+```
+./conoha-iso download -i https://beta.release.core-os.net/amd64-usr/current/coreos_production_iso_image.iso
+INFO[0001] Download request was accepted.
+```
+
+```
+./conoha-iso list
+[Image1]
+Name:  coreos_production_iso_image.iso
+Url:   https://beta.release.core-os.net/amd64-usr/current/coreos_production_iso_image.iso
+Path:  /mnt/isos/repos/tenant_iso_data/f4d7162265934927b4db72d1df18fb15/coreos_production_iso_image.iso
+Ctime: Thu May 28 09:07:56 2015
+```
+
+サーバ停止
+
+```
+./conoha-iso insert
+[1] vps-2017-04-16-11-07 (150-95-148-60)
+Please select VPS [1]: 1
+
+[1] coreos_production_iso_image.iso
+Please select ISO [1]: 1
+INFO[0013] ISO file was inserted and changed boot device.
+```
+
+
+一時的にパスワード設定
+```
+sudo passwd core
+```
+
+
+
+sudo coreos-install -d /dev/vda -C stable -c cloud-config.yml
+Checking availability of "local-file"
+Fetching user-data from datasource of type "local-file"
+Downloading the signature for http://stable.release.core-os.net/amd64-usr/681.0.0/coreos_production_image.bin.bz2...
+2017-11-12 16:38:30 URL:http://stable.release.core-os.net/amd64-usr/681.0.0/coreos_production_image.bin.bz2.sig [543/543] -> "/tmp/coreos-install.mvLeGcbt8H/coreos_production_image.bin.bz2.sig" [1]
+Downloading, writing and verifying coreos_production_image.bin.bz2...
+2017-11-12 16:39:19 URL:http://stable.release.core-os.net/amd64-usr/681.0.0/coreos_production_image.bin.bz2 [200347045/200347045] -> "-" [1]
+gpg: Signature made Thu May 14 09:54:23 2015 JST using RSA key ID E5676EFC
+gpg: key 93D2DCB4 marked as ultimately trusted
+gpg: checking the trustdb
+gpg: 3 marginal(s) needed, 1 complete(s) needed, PGP trust model
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: Good signature from "CoreOS Buildbot (Offical Builds) <buildbot@coreos.com>" [ultimate]
+gpg: Note: This key has expired!
+Primary key fingerprint: 0412 7D0B FABE C887 1FFB  2CCE 50E0 8855 93D2 DCB4
+     Subkey fingerprint: EEFA 7555 E481 D026 CC40  D8E6 A5A9 6635 E567 6EFC
+Installing cloud-config...
+Success! CoreOS stable 681.0.0 is installed on /dev/vda
+
+
+
+
+
+## docker-compose
+
+今回は、導入せずに置こうと思ったが、入れてしまった。
+
+CoreOSは`/opt/bin`にパスが通っている。`/opt/bin`ディレクトリを作成して`docker-compose`のバイナリを配置して、実行権限を付与すればO.K.
+
+[https://docs.docker.com/compose/install/#install-compose](https://docs.docker.com/compose/install/#install-compose)を参考に、最新の`docker-compose`を導入した。
+
+```
+sudo mkdir -p /opt/bin
+sudo curl -L https://github.com/docker/compose/releases/download/1.17.0/docker-compose-`uname -s`-`uname -m` -o /opt/bin/docker-compose
+sudo chmod +x /opt/bin/docker-compose
+docekr-compose --verison
+```
+
+
