@@ -84,8 +84,6 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_thumb,f_auto,q_auto,w_75
 
 いつも適当な革靴ばかり履いていた方も、ぜひ一度試してみていただけると良さがわかると思います。
 
-{{% amazon B015V64W7E %}}
-
 <a href="https://hb.afl.rakuten.co.jp/hgc/165daeff.f5e5bb21.165daf00.df2ff899/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcrispin%2Fsg_2726%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcrispin%2Fi%2F10000335%2F&link_type=pict&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0Iiwic2l6ZSI6IjMwMHgzMDAiLCJuYW0iOjEsIm5hbXAiOiJkb3duIiwiY29tIjoxLCJjb21wIjoiZG93biIsInByaWNlIjoxLCJib3IiOjEsImNvbCI6MH0%3D" target="_blank" rel="nofollow">
 <amp-img src="https://hbb.afl.rakuten.co.jp/hgb/165daeff.f5e5bb21.165daf00.df2ff899/?me_id=1217714&item_id=10000335&m=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fcrispin%2Fcabinet%2Fscotchgrain%2F2726_bl_11.jpg%3F_ex%3D80x80&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fcrispin%2Fcabinet%2Fscotchgrain%2F2726_bl_11.jpg%3F_ex%3D300x300&s=300x300&t=pict" width="300" height="200" layout="fixed"></amp-img></a>
 <p><a href="https://hb.afl.rakuten.co.jp/hgc/165daeff.f5e5bb21.165daf00.df2ff899/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcrispin%2Fsg_2726%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcrispin%2Fi%2F10000335%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjMwMHgzMDAiLCJuYW0iOjEsIm5hbXAiOiJkb3duIiwiY29tIjoxLCJjb21wIjoiZG93biIsInByaWNlIjoxLCJib3IiOjEsImNvbCI6MH0%3D" target="_blank" rel="nofollow">【2000円クーポン】スコッチグレイン　シャインオアレイン3　ストレートチップ　ブラック　（SCOTCHGRAIN　SHINE　or　RAIN　3　2726　BL）</a></p>
