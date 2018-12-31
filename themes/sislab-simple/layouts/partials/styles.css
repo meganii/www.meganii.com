@@ -22,11 +22,10 @@ html th,
 body th,
 .toc::before,
 amp-sidebar .return-button {
-    font-size: 14px;
+    font-size: 100%;
     font-weight: 400;
-    letter-spacing: .56px;
+    letter-spacing: .06rem;
     line-height: 16px;
-    text-transform: uppercase
 }
 
 @media only screen and (max-width: 956px) {
@@ -37,7 +36,7 @@ amp-sidebar .return-button {
     body th,
     .toc::before,
     amp-sidebar .return-button {
-        font-size: 12px
+        font-size: 18px
     }
 }
 
@@ -53,7 +52,7 @@ body,
 
 body,
 .card {
-    font-size: 20px;
+    font-size: 1rem;
     line-height: 28px
 }
 
@@ -227,12 +226,12 @@ h4,
 h5 {
     color: #263238;
     font-weight: 300;
-    margin: 0.25em 0
+    margin: 0.25rem 0
 }
 
 h1,
 h2.h1 {
-    font-size: 50px;
+    font-size: 2rem;
     font-weight: 100;
     line-height: 65px
 }
@@ -246,7 +245,7 @@ h2.h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 1.625rem;
     line-height: 50px;
     font-weight: 100
 }
@@ -260,7 +259,7 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 1.3125rem;
     line-height: 40px
 }
 
@@ -272,7 +271,7 @@ h3 {
 }
 
 h4 {
-    font-size: 24px;
+    font-size: 1.125rem;
     line-height: 32px
 }
 
@@ -634,9 +633,8 @@ amp-consent {
 }
 
 .header .left-nav .header-title {
-    color: #0379c4;
     margin: 0;
-    padding: 2em;
+    padding: 2rem;
     width: auto
 }
 
@@ -907,7 +905,7 @@ amp-consent {
 .main {
     align-items: stretch;
     display: flex;
-    margin: 1em;
+    margin: 1rem;
     min-height: calc(100vh - 274px);
 }
 
@@ -991,16 +989,16 @@ amp-consent {
 .main amp-img,
 .main amp-youtube,
 .main amp-iframe {
-    margin: 1em 0
+    margin: 1rem 0
 }
 
 .main .alignment-wrapper {
-    margin-bottom: 1em
+    margin-bottom: 1rem
 }
 
 .main .alignment-wrapper.left {
     float: left;
-    margin-right: 1em
+    margin-right: 1rem
 }
 
 @media only screen and (max-width: 460px) {
@@ -1012,7 +1010,7 @@ amp-consent {
 
 .main .alignment-wrapper.right {
     float: right;
-    margin-left: 1em
+    margin-left: 1rem
 }
 
 @media only screen and (max-width: 460px) {
@@ -1034,7 +1032,7 @@ amp-consent {
 }
 
 .main .alignment-wrapper.half {
-    width: calc(50% - 0.5em)
+    width: calc(50% - 0.5rem)
 }
 
 @media only screen and (max-width: 460px) {
@@ -1044,7 +1042,7 @@ amp-consent {
 }
 
 .main .alignment-wrapper.third {
-    width: calc(33% - 0.5em)
+    width: calc(33% - 0.5rem)
 }
 
 @media only screen and (max-width: 460px) {
@@ -1058,7 +1056,7 @@ amp-consent {
 }
 
 .main .alignment-wrapper.ninety {
-    width: calc(90% - 0.5em)
+    width: calc(90% - 0.5rem)
 }
 
 @media only screen and (max-width: 460px) {
@@ -1068,7 +1066,7 @@ amp-consent {
 }
 
 .main .alignment-wrapper.seventyfive {
-    width: calc(75% - 0.5em)
+    width: calc(75% - 0.5rem)
 }
 
 @media only screen and (max-width: 460px) {
@@ -1078,7 +1076,7 @@ amp-consent {
 }
 
 .main .alignment-wrapper.forty {
-    width: calc(40% - 0.5em)
+    width: calc(40% - 0.5rem)
 }
 
 @media only screen and (max-width: 460px) {
@@ -1092,10 +1090,10 @@ amp-consent {
 }
 
 .main .alignment-wrapper figcaption {
-    font-size: 0.8em;
+    font-size: 0.8rem;
     color: #666;
-    margin-top: 1em;
-    padding: 1em 0;
+    margin-top: 1rem;
+    padding: 1rem 0;
     border-top: 2px solid #f0f0f0;
     text-align: center
 }
@@ -1331,7 +1329,7 @@ code,
 kbd,
 samp {
     font-family: monospace, monospace;
-    font-size: 1em
+    font-size: 1rem
 }
 
 code {
@@ -1355,7 +1353,7 @@ h4 code,
 h5 code {
     background: none;
     border: 0;
-    font-size: 0.9em
+    font-size: 0.9rem
 }
 
 .rtl code {
@@ -1367,7 +1365,7 @@ pre {
     tab-size: 2;
     word-break: normal;
     line-height: 1.4;
-    padding: 1em;
+    padding: 1rem;
     direction: ltr
 }
 
@@ -1753,11 +1751,10 @@ body th {
 }
 
 aside {
-    background: #eff9fc;
+    background: #FAFAFA;
     display: block;
     font-size: 14px;
     line-height: 24px;
-    margin: 16px 0;
     position: relative;
     clear: both
 }
@@ -1903,7 +1900,7 @@ aside.read::before {
 }
 
 .toc li ul a {
-    font-size: 0.9em
+    font-size: 0.9rem
 }
 
 .toc a {
@@ -2099,7 +2096,7 @@ aside.read::before {
     display: block;
     flex: 1 0 auto;
     hyphens: none;
-    margin-bottom: 1em
+    margin-bottom: 1rem
 }
 
 .card-container.grid .card-title h2 {
@@ -2134,7 +2131,7 @@ aside.read::before {
     align-items: center;
     display: flex;
     height: 40px;
-    margin: 1em 0
+    margin: 1rem 0
 }
 
 @media only screen and (max-width: 956px) {
@@ -2146,7 +2143,7 @@ aside.read::before {
     }
     .card-container.grid .card-title,
     .card-container.case .card-title {
-        margin-bottom: 2em
+        margin-bottom: 2rem
     }
     .card-section-heading {
         margin: 50px 0 0
@@ -2490,16 +2487,16 @@ amp-sidebar .return-button::before {
 /* LineNumbersTable */
 
 .chroma .lnt {
-    margin-right: 0.4em;
-    padding: 0 0.4em 0 0.4em;
+    margin-right: 0.4rem;
+    padding: 0 0.4rem 0 0.4rem;
     display: block;
 }
 
 /* LineNumbers */
 
 .chroma .ln {
-    margin-right: 0.4em;
-    padding: 0 0.4em 0 0.4em;
+    margin-right: 0.4rem;
+    padding: 0 0.4rem 0 0.4rem;
 }
 
 /* Keyword */
@@ -2936,7 +2933,7 @@ amp-social-share[type=pocket] {
 }
 
 .article-body {
-    line-height: 1.7em;
+    line-height: 1.7rem;
 }
 
 .article-body ul,
@@ -2948,10 +2945,76 @@ ol>li {
     padding-bottom: 10px;
 }
 
+.article-body h2 {
+    font-size: 1.2rem;
+    letter-spacing: -1.25px;
+    color: #444444;
+    background: #f3f3f3;
+    margin: 1.5rem 0 ;
+    padding: 5px 15px;
+    border-left: 10px solid #888888;
+}
+
+.article-body h3 {
+    font-size: 1.2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1em;
+    padding-bottom: .3rem;
+    background: none;
+    border-bottom: solid 3px #eee;
+  }
+
 amp-fit-text {
     white-space: normal;
 }
 
 .article-sns {
     margin-top: 1.5rem;
+}
+
+footer {
+    background-color: #F0F0F0;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5rem 5rem 3rem;
+}
+
+.list-reset {
+    list-style: none
+}
+
+.flex {
+    display: flex;
+}
+
+.mt2 {
+    margin-top: 1rem;
+}
+
+.p1 {
+    padding: .5rem;
+}
+
+.mt1 {
+    margin-top: .5rem;
+}
+
+.mr1 {
+    margin-right: .5rem;
+}
+
+.u-sp-none {
+    display: none;
+}
+  
+@media (min-width: 768px) {
+    .u-sp-none {
+        display: block;
+    }
 }
