@@ -31,10 +31,10 @@ steps:
     wget 'https://github.com/gohugoio/hugo/releases/download/v0.53/hugo_0.53_Linux-64bit.tar.gz'
     tar zxvf hugo_0.53_Linux-64bit.tar.gz
     mv hugo $(GOBIN)
-    displayName: 'Set up Hugo'
+  displayName: 'Set up Hugo'
 
 - script: |
-  hugo version
+    hugo version
   displayName: 'Check Hugo version'
 
 - script: |
