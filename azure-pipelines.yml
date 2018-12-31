@@ -42,9 +42,9 @@ steps:
   displayName: 'Build content by hugo'
 
 - script: |
-    git clone https://meganii:$(GITHUB_PARSONAL_ACCESS_TOKEN)@github.com/meganii/test-deploy-to-gh-pages-from-azure-piplines.git
-    cp -rp public/* test-deploy-to-gh-pages-from-azure-piplines
-    cd test-deploy-to-gh-pages-from-azure-piplines
+    git clone https://meganii:$(GITHUB_PARSONAL_ACCESS_TOKEN)@github.com/meganii/www.meganii.com
+    cp -rp public/* www.meganii.com
+    cd www.meganii.com
     git config --local user.name $(GIT_USER)
     git config --local user.email $(GIT_EMAIL)
     git add --all
