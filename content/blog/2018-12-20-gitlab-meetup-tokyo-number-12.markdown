@@ -51,6 +51,8 @@ img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_160/v1545443513/2
 
 - [Hiroyuki Sato (@hiroponz79) | Twitter](https://twitter.com/hiroponz79) 氏
 - [クリエーションライン株式会社 (CREATIONLINE, INC.)](https://www.creationline.com/)
+- 発表資料: [GitLabとKubernetesではじめるAuto DevOps](https://docs.google.com/presentation/d/1Rx4u9F5dikbEHWRqONQkV62fsXx4MM8l2-x7YLzxULs/preview?slide=id.g4aa9a15c84_0_0)
+
 
 ### Auto DevOps
 
@@ -70,6 +72,9 @@ img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_160/v1545443513/2
 ## recap of KubeCon+CloudNativeCon 2018 (GitLab Serverless)
 
 - [tnir / Takuya Noguchi #KubeCon (@tn961ir) | Twitter](https://twitter.com/tn961ir) 氏
+
+
+{{% speakerdeck id="4b181f1bbfa5461c94939ee4c936a92c"  %}}
 
 - AWS re:Invent 2018 でGitLabのAWSサポートが発表された
 - DevOps Tax ・・・各種ツールを繋げることでそれぞれの設定がつらい問題

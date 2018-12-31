@@ -10,7 +10,7 @@ slug: how-to-use-submodule-for-hugo-theme
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514036568/thumbnail_hugo_icon.png"
 ---
 
-HugoのThemeプロジェクトをgit submoduleで扱う方法について調べました。
+HugoのThemeプロジェクトを`git submodule`で扱う方法について調べました。
 
 <!--more-->
 {{% googleadsense %}}
