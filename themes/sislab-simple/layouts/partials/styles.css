@@ -2936,13 +2936,12 @@ amp-social-share[type=pocket] {
     line-height: 1.7rem;
 }
 
-.article-body ul,
-ol>li {
+.article-body ul,ol, li {
     padding-left: .5rem;
     line-height: 1.5;
-    margin-left: 1rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-left: .5rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
 }
 
 .article-body h2 {
