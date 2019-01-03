@@ -41,4 +41,4 @@ img: realwantedly-4.jpg
 <img border="0" width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=2HUM2F+96FLIQ+2GDO+5ZU2A" alt="">
 
 
-開発の仕方を聞くと、だいたいGithub workflow, AWS, スクラム, 継続的インテグレーションは必須っぽい感じはしました。
+開発の仕方を聞くと、だいたいGitHub workflow, AWS, スクラム, 継続的インテグレーションは必須っぽい感じはしました。

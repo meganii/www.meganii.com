@@ -1,5 +1,5 @@
 ---
-title: "Github Pagesで複数の独自ドメインサイトを運用する"
+title: "GitHub Pagesで複数の独自ドメインサイトを運用する"
 date: 2018-12-13T06:59:48+09:00
 lastmod: 2018-12-13T06:59:48+09:00
 comments: true

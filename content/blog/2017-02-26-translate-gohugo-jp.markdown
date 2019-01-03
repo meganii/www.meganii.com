@@ -25,7 +25,7 @@ reset
 - [2016年新機能\! GitHubのmasterブランチをWebページとして公開する手順 \- Qiita](http://qiita.com/tonkotsuboy_com/items/f98667b89228b98bc096)
 - [サルでもわかるGit入門 〜バージョン管理を使いこなそう〜 \| どこでもプロジェクト管理バックログ](http://www.backlog.jp/git-guide/)
 - [gh\-pagesをサブディレクトリ内で管理 \- Qiita](http://qiita.com/tyfkda/items/1ee5e50a39729a301520)
-- [Change Fork Name For Github \- Stack Overflow](http://stackoverflow.com/questions/17268394/change-fork-name-for-github)
+- [Change Fork Name For GitHub \- Stack Overflow](http://stackoverflow.com/questions/17268394/change-fork-name-for-github)
 
 
 ### ドキュメント翻訳
