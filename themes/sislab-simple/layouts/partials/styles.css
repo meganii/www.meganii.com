@@ -1991,7 +1991,7 @@ aside.read::before {
 }
 
 .card::before {
-    background: linear-gradient(to right, #1c79c0, #0389ff, #0dd3ff);
+    background: #666666;
     content: '';
     left: 0;
     height: 2px;
