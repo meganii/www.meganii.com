@@ -410,11 +410,11 @@ a code.cta:hover::before,
 
 blockquote {
     color: #797c82;
+    background: #efefef;
     border-left: 4px solid #f9f9f9;
     padding-left: 15px;
     font-size: 18px;
     letter-spacing: -1px;
-    font-style: italic
 }
 
 blockquote>:last-child {
@@ -427,6 +427,57 @@ blockquote>:last-child {
     padding-left: 0;
     padding-right: 15px
 }
+
+.article-body blockquote {
+    position: relative;
+    padding: 30px 10px 8px 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    background: #FAFAFA;
+    color: #555;
+    overflow-wrap: break-word;
+  }
+  
+  .article-body blockquote:before{
+    display: inline-block;
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    vertical-align: middle;
+    content: "\f10d";
+    font-family: FontAwesome;
+    color: #cfcfcf;
+    font-size: 28px;
+    line-height: 1;
+  }
+  
+  .article-body blockquote p {
+    padding: 0;
+    margin: 10px 0;
+    line-height: 1.7;
+  }
+  
+  .article-body blockquote cite {
+    display: block;
+    text-align: right;
+    color: #888888;
+    font-size: 0.9em;
+  }  
+
+/* Parts:paginator */
+.p-paginator {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-top: 2rem;
+  }
+  
+  .p-paginator a {
+    display: inline-block;
+    border: 2px solid #eceff1;
+    color: #263238;
+    line-height: 2rem;
+    padding: 0 1rem;
+  }
 
 p:last-child {
     margin-bottom: 0
