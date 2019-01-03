@@ -40,7 +40,7 @@ site.yml
 
 ### tasks/main.yml
 
-```
+```yaml
 ---
 - name: install cmake
   yum: name=cmake state=present
@@ -110,7 +110,7 @@ site.yml
 
 ### templates/h2o.conf
 
-```
+```yaml
 access-log: /var/log/h2o/access.log
 error-log:  /var/log/h2o/error.log
 pid-file:   /usr/local/etc/h2o/h2o.pid
@@ -151,7 +151,7 @@ hosts:
 
 また、管理画面の表示がうまくいないのは、nginxでいうところのRewriteの部分が影響しているとかんがえられる。これは、h2oでどのように書くのがよいのか要調査。
 
-```
+```conf
 # Rewrite multisite '.../wp-.*' and '.../*.php'.
 if (!-e $request_filename) {
         rewrite ^/[_0-9a-zA-Z-]+(/wp-.*) $1 last;
@@ -163,7 +163,7 @@ if (!-e $request_filename) {
 
 ### h2o.conf
 
-```
+```yaml
 user: wordpress
 file.custom-handler:
   extension: .php
@@ -197,7 +197,7 @@ file.custom-handler:
 
 ### /etc/php-fpm.d/wordpress.conf
 
-```
+```conf
 [wordpress]
 listen = /var/run/php-fpm/wordpress.sock
 listen.owner = nginx
