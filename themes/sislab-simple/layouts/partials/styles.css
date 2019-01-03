@@ -1971,7 +1971,7 @@ aside.read::before {
 .card-container {
     box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 20px 5px
 }
 
@@ -1980,11 +1980,9 @@ aside.read::before {
     box-shadow: 0px 3px 20px 0 rgba(0, 0, 0, 0.075);
     box-sizing: border-box;
     display: inline-block;
-    flex: 0 0 20%;
-    flex: 0 0 calc(25% - 30px);
     flex-basis: calc(25% - 30px);
     height: 90%;
-    margin: 10px 5px;
+    margin: 0 30px 30px 0;
     padding: 10px;
     position: relative;
     transition: transform 0.3s, box-shadow 0.3s
@@ -2042,6 +2040,10 @@ aside.read::before {
     text-transform: none
 }
 
+.card-content a {
+    color: #333;
+}
+
 .card-content h4 {
     hyphens: auto
 }
@@ -2077,7 +2079,7 @@ aside.read::before {
 .card-container.grid .card {
     display: flex;
     height: auto;
-    min-height: 400px;
+    min-height: 300px;
     padding: 0
 }
 
@@ -2088,7 +2090,7 @@ aside.read::before {
 .card-container.grid .card-inner {
     display: flex;
     height: auto;
-    padding: 50px;
+    padding: 1rem;
     width: 100%
 }
 
@@ -2982,6 +2984,14 @@ footer {
     margin-left: auto;
     margin-right: auto;
     padding: 5rem 5rem 3rem;
+}
+
+.footer-content a {
+    color: #333;
+}
+
+.footer-content a:hover {
+    color: #666666;
 }
 
 .list-reset {
