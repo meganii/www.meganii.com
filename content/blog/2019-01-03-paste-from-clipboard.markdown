@@ -1,10 +1,10 @@
 ---
-title: "macOSでClipboardから画像をペーストする"
+title: "macOSでClipboardの画像を保存する"
 date: 2019-01-03T12:17:55+09:00
 lastmod: 2019-01-03T12:17:55+09:00
 comments: true
 category: ['Tech']
-tags: ['Visual Studio Code']
+tags: ['Visual Studio Code', 'macOS']
 published: true
 slug: paste-from-clipboard
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
@@ -12,11 +12,10 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75
 
 Visual Studio Code Extensionを作成するために、調べた結果をまとめます。
 
-
 <!--more-->
 {{% googleadsense %}}
 
-macOSでClipboard操作を行うときに分かったこと。
+## macOSでClipboard操作について分かったこと
 
 - `pbpaste`はImageはペーストできない（Textのみ）
     - [macos - Binary (image) data clipboard (OS X) - Stack Overflow](https://stackoverflow.com/questions/3146692/binary-image-data-clipboard-os-x)
@@ -33,7 +32,7 @@ macOSでClipboard操作を行うときに分かったこと。
     - [jcsalterego/pngpaste: Paste PNG into files, much like pbpaste does for text.](https://github.com/jcsalterego/pngpaste)
     - 別途`brew install`が必要
 
-Visual Studio CodeのExtensionで完結しないのはいかがなものかと思い、「1.AppleScriptを利用する」で実装することにしました。
+Visual Studio CodeのExtension内で完結しないのはいかがなものかと思い、「1.AppleScriptを利用する」で実装することにしました。
 
 ## AppleScriptでClipboradの画像をpng保存する
 
