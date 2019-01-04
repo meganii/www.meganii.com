@@ -5,7 +5,7 @@ lastmod: 2018-12-13T06:59:48+09:00
 comments: true
 category: ['Tech']
 tags: ['GitHub', 'GithHub Pages']
-published: false
+published: true
 slug: github-pages
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
 ---
