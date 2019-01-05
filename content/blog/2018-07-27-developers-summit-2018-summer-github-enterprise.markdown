@@ -19,7 +19,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v15327
     - マージ作業が大幅なコスト
     - SVNのブランチ状態は混沌
     - trunk, trunk2, trunk3 ...
-- 開発環境もリファクタリングできるチャンスGithubを導入したい
+- 開発環境もリファクタリングできるチャンスGitHubを導入したい
 - 期待した効果
     - マージコスト
     - コードレビュー
@@ -32,7 +32,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v15327
 ## 導入に対する壁
 
 - GitHub.com
-- GithubEnterprise
+- GitHubEnterprise
     - セキュリティ観点
     - サポートツール
 
@@ -41,7 +41,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v15327
 
 - GitHubおじさん
 - Gitトレーニング
-- キーワードは「GithubはSEにとってのSNSなんだよ！」
+- キーワードは「GitHubはSEにとってのSNSなんだよ！」
 
 ## 導入効果
 
@@ -99,4 +99,4 @@ img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v15327
 
 - 組織全体での開発効率が4倍向上
 - ソフトウェアの内部品質が向上
-- 使えることがメリットではなく、Githubを使えないのがデメリット
+- 使えることがメリットではなく、GitHubを使えないのがデメリット

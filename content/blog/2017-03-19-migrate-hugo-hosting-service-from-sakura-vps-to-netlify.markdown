@@ -19,7 +19,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 - GitHub Pages
 - Netlify
 
-自分の中では`Github Pages`か`Netlify`の2択でした。静的サイトのコンテンツはGitHubにコミットしているため、最初は、`Github Pages`にしようとしていました。しかし、現状HTTP/2に対応していないことからあまり気乗りしませんでした。もともとVPSを利用していたときには、[Lets's Encryptでブログの常時SSL化にチャレンジ](https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/)のように、常時SSLに対応したり、h2oをインストールしてなんとかHTTP/2に対応した経緯もあり、せっかくなら対応できると嬉しいです。
+自分の中では`GitHub Pages`か`Netlify`の2択でした。静的サイトのコンテンツはGitHubにコミットしているため、最初は、`GitHub Pages`にしようとしていました。しかし、現状HTTP/2に対応していないことからあまり気乗りしませんでした。もともとVPSを利用していたときには、[Lets's Encryptでブログの常時SSL化にチャレンジ](https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/)のように、常時SSLに対応したり、h2oをインストールしてなんとかHTTP/2に対応した経緯もあり、せっかくなら対応できると嬉しいです。
 
 その点、`Netlify`を試してみたら「これで決まり！」と思うぐらい良かったのでまずはNetlifyで運用してみます。
 

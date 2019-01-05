@@ -7,7 +7,6 @@ category: ['Tech']
 tags: ['MeCab','Linux']
 published: true
 slug: can-not-download-with-wget
-img:
 ---
 
 I faced trouble that Circle CI had build error. I search solution and deal with it.

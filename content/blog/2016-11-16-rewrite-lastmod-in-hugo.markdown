@@ -5,7 +5,7 @@ lastmod: 2016-11-16T23:08:54+09:00
 comments: true
 category: ['Tech']
 tags: ['Electron']
-published: true
+published: false
 slug: rewrite-lastmod-in-hugo
 img: ""
 ---
