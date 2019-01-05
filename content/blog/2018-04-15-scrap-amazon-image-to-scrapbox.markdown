@@ -10,9 +10,9 @@ slug: scrap-amazon-image-to-scrapbox
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
 ---
 
-読書メモをScrapboxにするに当たって、書籍の画像が欲しくなったので、参考URLのブログを参考にブックマークレットを作成しました。
+Scrapboxで読書メモを管理にするにあたり、書籍の画像が欲しくなったので、参考URLのブログを参考にブックマークレットを作成しました。
 
-久しぶりにブックマークレットを作りましたが、ES2015(ES6)がモダンなブラウザでは標準で使えるようになったので嬉しいですね。
+久しぶりにブックマークレットを作りましたが、モダンなブラウザではES2015(ES6)が標準で使えるようになったので嬉しいですね。
 
 
 <!--more-->
