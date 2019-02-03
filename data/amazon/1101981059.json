@@ -166,6 +166,7 @@
       "ItemDimensions": {
         "Height": "930",
         "Length": "630",
+        "Weight": "90",
         "Width": "90"
       },
       "Label": "Portfolio",
@@ -186,18 +187,18 @@
         ]
       },
       "ListPrice": {
-        "Amount": "3245",
+        "Amount": "3175",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,245"
+        "FormattedPrice": "￥ 3,175"
       },
       "Manufacturer": "Portfolio",
       "MPN": "44037561",
       "NumberOfItems": "1",
       "NumberOfPages": "240",
       "PackageDimensions": {
-        "Height": "110",
-        "Length": "920",
-        "Weight": "80",
+        "Height": "100",
+        "Length": "910",
+        "Weight": "95",
         "Width": "630"
       },
       "PackageQuantity": "1",
@@ -212,17 +213,17 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "2487",
+        "Amount": "2282",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,487"
+        "FormattedPrice": "￥ 2,282"
       },
       "LowestUsedPrice": {
-        "Amount": "2600",
+        "Amount": "2339",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,600"
+        "FormattedPrice": "￥ 2,339"
       },
-      "TotalNew": "14",
-      "TotalUsed": "5",
+      "TotalNew": "20",
+      "TotalUsed": "9",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -235,18 +236,18 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "As7Xhjhscd2Qf1BKEIcFje4MTzzUtGI3PVTmmU5RAQsa8mIgzM%2BGyHyPVwgO7lMKkvdY5NAe8iU3T9Bf%2FdGHm8EIp2Kfv5q3WKZ2P%2FE9LZUCBngxsPFpoBmjzybbS%2F9KgM4CprtmaW9IrCCCtbrvxA%3D%3D",
+          "OfferListingId": "d9F60kGj87mWbJC2Dp56GNS%2BoSGaJfYM5kAFQrhKmpohc90QhRaPZdqqhNhYGKuuJZjpOpJr%2Bk1US7gN5zpxMmU3zOYdTpRqhxhX%2BZprY5aqbSdDnlRffAfSqj%2Bf9GA4fZhCa90Tvh3q1CDOLT3TJw%3D%3D",
           "Price": {
-            "Amount": "2487",
+            "Amount": "2537",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,487"
+            "FormattedPrice": "￥ 2,537"
           },
           "AmountSaved": {
-            "Amount": "758",
+            "Amount": "638",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 758"
+            "FormattedPrice": "￥ 638"
           },
-          "PercentageSaved": "23",
+          "PercentageSaved": "20",
           "Availability": "通常1～2営業日以内に発送",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
@@ -259,7 +260,7 @@
       }
     }
   },
-  "Lastmod": "2018-12-22 21:53:53 +0900",
+  "Lastmod": "2019-02-03 09:33:30 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/83d7ca7b05d658d417e7409aaba5a7be/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/83d7ca7b05d658d417e7409aaba5a7be/"

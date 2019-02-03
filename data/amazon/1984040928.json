@@ -125,10 +125,11 @@
         "EANListElement": "9781984040923"
       },
       "IsAdultProduct": "0",
-      "ISBN": "9781984040923",
+      "ISBN": "1984040928",
       "ItemDimensions": {
         "Height": "800",
         "Length": "500",
+        "Weight": "16",
         "Width": "14"
       },
       "Label": "CreateSpace Independent Publishing Platform",
@@ -170,12 +171,17 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1347",
+        "Amount": "1335",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,347"
+        "FormattedPrice": "￥ 1,335"
       },
-      "TotalNew": "3",
-      "TotalUsed": "0",
+      "LowestUsedPrice": {
+        "Amount": "8037",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 8,037"
+      },
+      "TotalNew": "5",
+      "TotalUsed": "1",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -188,7 +194,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "iD6gt2bZRJYbY9xID9fugBNcPB3tUyYBeGgrgojWnbab8Vdp8GiOHvt702ph38Ogcasm8TLvEvyEi5UQ2yS%2Fbibsy22QipEVb4zffJ1eKB8%3D",
+          "OfferListingId": "CcuAdMrvzIduL1kdONl7M3yNQhyYD6qojtvaqZ7j0PnQ1bxRNfhEn%2FuukqeAWcMYBammXomuLUEUNAS%2BVcAnuqAD24SmtzaQN9ewnCryGqM%3D",
           "Price": {
             "Amount": "1347",
             "CurrencyCode": "JPY",
@@ -206,5 +212,5 @@
       }
     }
   },
-  "Lastmod": "2018-12-22 21:53:48 +0900"
+  "Lastmod": "2019-02-03 09:33:25 +0900"
 }

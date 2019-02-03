@@ -82,7 +82,7 @@
       },
       "Edition": "改訂",
       "IsAdultProduct": "0",
-      "ISBN": "9784274067938",
+      "ISBN": "4274067939",
       "Label": "オーム社",
       "Languages": {
         "Language": {
@@ -113,27 +113,56 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "4592",
+        "Amount": "2592",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 4,592"
+        "FormattedPrice": "￥ 2,592"
       },
       "LowestUsedPrice": {
-        "Amount": "1169",
+        "Amount": "1540",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,169"
+        "FormattedPrice": "￥ 1,540"
       },
-      "TotalNew": "3",
-      "TotalUsed": "25",
+      "TotalNew": "5",
+      "TotalUsed": "24",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
+      "TotalOffers": "1",
+      "TotalOfferPages": "1",
+      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4274067939?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4274067939",
+      "Offer": {
+        "OfferAttributes": {
+          "Condition": "New"
+        },
+        "OfferListing": {
+          "OfferListingId": "HjwGohiwR7qbs%2BBhd%2FYwQq%2F8G5No2TA%2BMvOPQp1Tc6ZaugFB1quBC2Bzbopz5bO2lg9nCLkaX4AdK4P%2FowEoNa%2BMvotFQkNqZqEjMgKU8yM%3D",
+          "Price": {
+            "Amount": "2592",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 2,592"
+          },
+          "Availability": "在庫あり。",
+          "AvailabilityAttributes": {
+            "AvailabilityType": "now",
+            "MinimumHours": "0",
+            "MaximumHours": "0"
+          },
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "78",
+          "TypicalRedemptionValue": {
+            "Amount": "78",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 78"
+          }
+        }
+      }
     }
   },
-  "Lastmod": "2018-12-22 21:51:02 +0900",
+  "Lastmod": "2019-02-03 09:30:52 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/293296be217306062f765246f05a735a/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/293296be217306062f765246f05a735a/"

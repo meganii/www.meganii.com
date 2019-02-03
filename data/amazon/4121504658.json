@@ -80,7 +80,7 @@
         "EANListElement": "9784121504654"
       },
       "IsAdultProduct": "0",
-      "ISBN": "9784121504654",
+      "ISBN": "4121504658",
       "Label": "中央公論新社",
       "Languages": {
         "Language": {
@@ -114,9 +114,14 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 1"
       },
+      "LowestCollectiblePrice": {
+        "Amount": "299",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 299"
+      },
       "TotalNew": "3",
-      "TotalUsed": "34",
-      "TotalCollectible": "0",
+      "TotalUsed": "35",
+      "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -128,7 +133,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "G8U%2F3fiKtA32rk6uOhSdVTWaNmzF7LchlUOKCo1nN65sZcFxrkWoGBvRduQNDp6FyhLtc4yrdvdd2jR%2Bq098rMqlptxjEPLPS3cqNSucpiI%3D",
+          "OfferListingId": "OV5LJNOPclPIW3DQbl0UXkWtqyqpBc6T3cX9mGOXfWSi%2BQ2UUqCdu0DJ%2F1vGD2mLt%2FMYrdrlhRrI7vFEvkgEUxMxFeW%2FwudpEmSHz2oU21E%3D",
           "Price": {
             "Amount": "950",
             "CurrencyCode": "JPY",
@@ -154,7 +159,7 @@
       }
     }
   },
-  "Lastmod": "2018-12-22 21:54:58 +0900",
+  "Lastmod": "2019-02-03 09:34:32 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/53d5de99f343df67d1c3f7c9b105eb8f/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/53d5de99f343df67d1c3f7c9b105eb8f/"

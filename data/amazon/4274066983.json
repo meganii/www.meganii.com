@@ -85,9 +85,6 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4274066983",
-      "ItemDimensions": {
-        "Weight": "0"
-      },
       "Label": "オーム社",
       "Languages": {
         "Language": {
@@ -119,17 +116,17 @@
         "FormattedPrice": "￥ 2,592"
       },
       "LowestUsedPrice": {
-        "Amount": "1980",
+        "Amount": "1706",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,980"
+        "FormattedPrice": "￥ 1,706"
       },
       "LowestCollectiblePrice": {
         "Amount": "4980",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 4,980"
       },
-      "TotalNew": "3",
-      "TotalUsed": "12",
+      "TotalNew": "2",
+      "TotalUsed": "20",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -142,33 +139,25 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "OVeJv4EH9%2FziVrNqBWrBH%2FS%2FJU%2FNm3s6DlPeF07jIgfHAr8sHseumNVU5ezuiq%2F8Rli6ufRlKH8athIGWgNWj0iC9hTF7l7V",
+          "OfferListingId": "OD38DPU65c1BA61QotUtjGZCOEwAwjaHpCHnB5Y%2FrS4MebbfSgIJGDJpv6VjCRAKMG%2Bf52OMMwP%2BPS4zVSbbm2qpzIQrzLDU%2Bud%2FlDAX9sU4oIQg5JaR9Hv76zjHnta7ma42uCbgXoInkbyI6z%2BJ%2BpcTHzUpWwef",
           "Price": {
             "Amount": "2592",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 2,592"
           },
-          "Availability": "在庫あり。",
+          "Availability": "通常4～5営業日以内に発送",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
+            "MinimumHours": "96",
+            "MaximumHours": "120"
           },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "78",
-          "TypicalRedemptionValue": {
-            "Amount": "78",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 78"
-          }
+          "IsEligibleForSuperSaverShipping": "0",
+          "IsEligibleForPrime": "0"
         }
       }
     }
   },
-  "Lastmod": "2018-12-22 23:20:10 +0900",
+  "Lastmod": "2019-02-03 09:39:13 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/3dd95442e8b9438d0106bad52819b441/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/3dd95442e8b9438d0106bad52819b441/"

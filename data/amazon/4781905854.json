@@ -110,13 +110,18 @@
       "Title": "コンパイラ―原理・技法・ツール〈1〉 (Information & Computing)"
     },
     "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "650",
+      "LowestNewPrice": {
+        "Amount": "20375",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 650"
+        "FormattedPrice": "￥ 20,375"
       },
-      "TotalNew": "0",
-      "TotalUsed": "15",
+      "LowestUsedPrice": {
+        "Amount": "589",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 589"
+      },
+      "TotalNew": "1",
+      "TotalUsed": "16",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -126,7 +131,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-12-22 21:53:15 +0900",
+  "Lastmod": "2019-02-03 09:32:55 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/43425106e448f50f607104652207b0f2/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/43425106e448f50f607104652207b0f2/"

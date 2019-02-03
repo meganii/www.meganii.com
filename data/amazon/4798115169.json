@@ -152,48 +152,27 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "2592",
+        "Amount": "4980",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,592"
+        "FormattedPrice": "￥ 4,980"
       },
       "LowestUsedPrice": {
-        "Amount": "733",
+        "Amount": "640",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 733"
+        "FormattedPrice": "￥ 640"
       },
-      "TotalNew": "3",
-      "TotalUsed": "31",
+      "TotalNew": "2",
+      "TotalUsed": "33",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4798115169?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798115169",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "iC2QHyq71XH2yy54FeJ1T1wX9q3RFsdZJT7FQheFOSz47KpfklqF76yEL4qQ%2BGFBExt0ygVLRx%2F9PJvLzxbUxnEAbLSTm5E6WgD9mYiVAJWwLFaqvAlsGqRvYGrJZ6gmiGLhWjMG9gs0VzOxQXvpVcofKMyB4R07",
-          "Price": {
-            "Amount": "2592",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,592"
-          },
-          "Availability": "通常3～4営業日以内に発送",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "72",
-            "MaximumHours": "96"
-          },
-          "IsEligibleForSuperSaverShipping": "0",
-          "IsEligibleForPrime": "0"
-        }
-      }
+      "TotalOffers": "0",
+      "TotalOfferPages": "0",
+      "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-12-22 21:49:47 +0900",
+  "Lastmod": "2019-02-03 08:08:01 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/60ec75ebc1b3e69fb6ba9a3531fe678e/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/60ec75ebc1b3e69fb6ba9a3531fe678e/"

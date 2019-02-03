@@ -91,6 +91,7 @@
       "ItemDimensions": {
         "Height": "945",
         "Length": "197",
+        "Weight": "132",
         "Width": "748"
       },
       "Label": "オライリージャパン",
@@ -123,12 +124,12 @@
         "FormattedPrice": "￥ 4,536"
       },
       "LowestUsedPrice": {
-        "Amount": "2320",
+        "Amount": "635",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,320"
+        "FormattedPrice": "￥ 635"
       },
-      "TotalNew": "3",
-      "TotalUsed": "18",
+      "TotalNew": "4",
+      "TotalUsed": "23",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -141,7 +142,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "Zay7roSbz8mTXAVY1fxyJEVfBiGQYgHAph4eGguMI2iELcXrgcL6iGCJk8jcmAvHBRfIbX918bb691CQELFn3Sm4JWVUzozvnxQQul%2BmMZg%3D",
+          "OfferListingId": "rdXqoLE6OEqWSqyN6AlEf%2FoZX3Z8ws%2FtxH79rtBahNlSA7fW%2Fd6BLHPiJ6TdLwpH1xrRb1YyduqF%2FBSJrNq0satBj2TXPm5ZXMpBivBzo7k%3D",
           "Price": {
             "Amount": "4536",
             "CurrencyCode": "JPY",
@@ -157,17 +158,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "273",
+          "Points": "137",
           "TypicalRedemptionValue": {
-            "Amount": "273",
+            "Amount": "137",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 273"
+            "FormattedPrice": "￥ 137"
           }
         }
       }
     }
   },
-  "Lastmod": "2018-12-22 21:49:22 +0900",
+  "Lastmod": "2019-02-03 08:07:38 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/4d852087e514f90eb9e803b938a2feab/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/4d852087e514f90eb9e803b938a2feab/"

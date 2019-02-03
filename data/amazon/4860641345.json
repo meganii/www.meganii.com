@@ -130,7 +130,7 @@
       "ItemDimensions": {
         "Height": "55",
         "Length": "724",
-        "Weight": "71",
+        "Weight": "0",
         "Width": "528"
       },
       "Label": "ベレ出版",
@@ -158,23 +158,23 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1900",
+        "Amount": "1890",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,900"
+        "FormattedPrice": "￥ 1,890"
       },
       "LowestUsedPrice": {
-        "Amount": "780",
+        "Amount": "582",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 780"
+        "FormattedPrice": "￥ 582"
       },
       "LowestCollectiblePrice": {
         "Amount": "3774",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 3,774"
       },
-      "TotalNew": "4",
-      "TotalUsed": "78",
-      "TotalCollectible": "1",
+      "TotalNew": "5",
+      "TotalUsed": "84",
+      "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -186,7 +186,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "87v8XSarmOiPV4NRyCZJpaC%2FnBtknSIO2vvzgH4r6WfonAz3BCEIhpCtaEcubXi3R1bCB5BceE%2FUUMGu5Y7LCfJrUXYFY26w",
+          "OfferListingId": "F%2FFbq9zDICrlCJgrdLMBP2JLBouAbi28sL%2FcJgVUS7Yit55dDRMMGQ4h7JjdPhyfVB8azsOQ1iPVH0HlOA16ffw9MvtJ3crV",
           "Price": {
             "Amount": "1944",
             "CurrencyCode": "JPY",
@@ -202,17 +202,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "117",
+          "Points": "59",
           "TypicalRedemptionValue": {
-            "Amount": "117",
+            "Amount": "59",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 117"
+            "FormattedPrice": "￥ 59"
           }
         }
       }
     }
   },
-  "Lastmod": "2018-12-22 23:23:01 +0900",
+  "Lastmod": "2019-02-03 09:41:31 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/3437a826f0de31191d33fffc36c03ae3/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/3437a826f0de31191d33fffc36c03ae3/"

@@ -127,7 +127,7 @@
       "IsAdultProduct": "0",
       "ISBN": "4883379930",
       "ItemDimensions": {
-        "Weight": "0"
+        "Weight": "132"
       },
       "Label": "ソシム",
       "Languages": {
@@ -153,27 +153,48 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "7980",
+        "Amount": "3456",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 7,980"
+        "FormattedPrice": "￥ 3,456"
       },
       "LowestUsedPrice": {
-        "Amount": "2333",
+        "Amount": "1750",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,333"
+        "FormattedPrice": "￥ 1,750"
       },
-      "TotalNew": "2",
-      "TotalUsed": "23",
+      "TotalNew": "3",
+      "TotalUsed": "25",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
+      "TotalOffers": "1",
+      "TotalOfferPages": "1",
+      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4883379930?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4883379930",
+      "Offer": {
+        "OfferAttributes": {
+          "Condition": "New"
+        },
+        "OfferListing": {
+          "OfferListingId": "7jIvNZmByuwT3i%2Bxe6aIAolrPRbj%2F6RhQheYaAoVnhdk%2B3OWVp7vbhUB5s36eXVYAaBU4j0h4MWQJwL8E6GUoj%2BsVKzA9ymuyfl5X7PBaaDYcDRpShz4aqSLtja%2BCf%2B1SK%2Bi%2B6vbSL%2B5ygw0Y0FRhDBLEPR4db%2BW",
+          "Price": {
+            "Amount": "3456",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 3,456"
+          },
+          "Availability": "通常4～5営業日以内に発送",
+          "AvailabilityAttributes": {
+            "AvailabilityType": "now",
+            "MinimumHours": "96",
+            "MaximumHours": "120"
+          },
+          "IsEligibleForSuperSaverShipping": "0",
+          "IsEligibleForPrime": "0"
+        }
+      }
     }
   },
-  "Lastmod": "2018-12-22 23:23:09 +0900",
+  "Lastmod": "2019-02-03 09:41:38 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/d11b963786836bf29f24bfd49fb51869/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/d11b963786836bf29f24bfd49fb51869/"

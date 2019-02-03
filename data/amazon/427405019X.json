@@ -198,12 +198,12 @@
         "FormattedPrice": "￥ 4,536"
       },
       "LowestUsedPrice": {
-        "Amount": "6199",
+        "Amount": "3326",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 6,199"
+        "FormattedPrice": "￥ 3,326"
       },
-      "TotalNew": "4",
-      "TotalUsed": "5",
+      "TotalNew": "3",
+      "TotalUsed": "12",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -216,33 +216,25 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "MSr98XawGmGdN3UDEe%2BdVO49IDvAOw3sanvndILDzky%2BNFklBNuddsAo3c9WHu%2BCmpN%2BVTikJeaZWAG3L9EUyftKGtrecIsdKhMZOSM5aog%3D",
+          "OfferListingId": "cbv8MjYFMZc4H6HsN4IYhWFwVC4YSxIHvCuRhO%2FY6Hwd9P%2F6iHJsF%2BQUFrdfUTT%2FOlxqr2S%2Fl%2Bg97Af2z9%2FcKT8qklKWzRDg8br4HWI68p9HDBxA9N40WzjFzBkjUSdWnuYuDgAjhFzr7B8Ho48gMA2dJzegDqIO",
           "Price": {
             "Amount": "4536",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 4,536"
           },
-          "Availability": "在庫あり。",
+          "Availability": "通常4～5営業日以内に発送",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
+            "MinimumHours": "96",
+            "MaximumHours": "120"
           },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "273",
-          "TypicalRedemptionValue": {
-            "Amount": "273",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 273"
-          }
+          "IsEligibleForSuperSaverShipping": "0",
+          "IsEligibleForPrime": "0"
         }
       }
     }
   },
-  "Lastmod": "2018-12-22 21:52:07 +0900",
+  "Lastmod": "2019-02-03 09:31:53 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/612ea469e18a46cc30435500a8a4ef77/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/612ea469e18a46cc30435500a8a4ef77/"

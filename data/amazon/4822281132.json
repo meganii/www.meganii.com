@@ -85,7 +85,7 @@
         "EANListElement": "9784822281137"
       },
       "IsAdultProduct": "0",
-      "ISBN": "9784822281137",
+      "ISBN": "4822281132",
       "Label": "日経BP社",
       "Languages": {
         "Language": {
@@ -109,17 +109,22 @@
       "Title": "基本から学ぶソフトウェアテスト"
     },
     "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "853",
+      "LowestNewPrice": {
+        "Amount": "10301",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 853"
+        "FormattedPrice": "￥ 10,301"
+      },
+      "LowestUsedPrice": {
+        "Amount": "822",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 822"
       },
       "LowestCollectiblePrice": {
         "Amount": "6561",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 6,561"
       },
-      "TotalNew": "0",
+      "TotalNew": "2",
       "TotalUsed": "21",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
@@ -130,7 +135,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-12-22 21:51:51 +0900",
+  "Lastmod": "2019-02-03 09:31:38 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/7d2dbef0ad059a6ef00033445cd8ddc0/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/7d2dbef0ad059a6ef00033445cd8ddc0/"

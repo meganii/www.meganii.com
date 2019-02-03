@@ -84,7 +84,7 @@
         "EANListElement": "9784873114507"
       },
       "IsAdultProduct": "0",
-      "ISBN": "9784873114507",
+      "ISBN": "4873114500",
       "Label": "オライリージャパン",
       "Languages": {
         "Language": [
@@ -114,13 +114,18 @@
       "Title": "正規表現クックブック"
     },
     "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "2890",
+      "LowestNewPrice": {
+        "Amount": "6900",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,890"
+        "FormattedPrice": "￥ 6,900"
       },
-      "TotalNew": "0",
-      "TotalUsed": "10",
+      "LowestUsedPrice": {
+        "Amount": "2840",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 2,840"
+      },
+      "TotalNew": "2",
+      "TotalUsed": "11",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -130,7 +135,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-12-22 23:23:50 +0900",
+  "Lastmod": "2019-02-03 09:42:15 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/fd41c82cb9e7d89ba3ebe9c46c44a51b/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/fd41c82cb9e7d89ba3ebe9c46c44a51b/"

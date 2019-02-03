@@ -117,7 +117,10 @@
       "Binding": "スポーツ用品",
       "Brand": "プリムス(PRIMUS)",
       "CatalogNumberList": {
-        "CatalogNumberListElement": "4901140300165"
+        "CatalogNumberListElement": [
+          "4901140300165",
+          "IP-2245A-S"
+        ]
       },
       "Color": "無",
       "Creator": "0",
@@ -164,16 +167,16 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "10206",
+        "Amount": "8729",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 10,206"
+        "FormattedPrice": "￥ 8,729"
       },
       "LowestUsedPrice": {
         "Amount": "8660",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 8,660"
       },
-      "TotalNew": "7",
+      "TotalNew": "21",
       "TotalUsed": "2",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
@@ -187,39 +190,31 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "6f4t1g3cO5EsB7waqKP4UkhhlyrbPEeOyupkzhdWRj8y%2Fuy4SBEC9MZmzzCVmZcJXlY0tU5Eyo8GuNqW%2BucJcQjQCwVPNBQsAYePNBBrEC7kAgjcin1G4vesoExgCP5Wtl%2FZMW3dFN2epH14If6buA%3D%3D",
+          "OfferListingId": "V%2BwZt4T2cR%2BecNKVVuWjBw%2BqCJinKx6NMiL2CMNTFp%2B9%2B5HEsPPQRwg6tOw%2BTENv5YCeG%2B5OO4GtRXWmIM7yLJ9wQ1FcfcbP",
           "Price": {
-            "Amount": "10206",
+            "Amount": "8729",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 10,206"
+            "FormattedPrice": "￥ 8,729"
           },
           "AmountSaved": {
-            "Amount": "1134",
+            "Amount": "2611",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,134"
+            "FormattedPrice": "￥ 2,611"
           },
-          "PercentageSaved": "10",
-          "Availability": "通常3～4営業日以内に発送",
+          "PercentageSaved": "23",
+          "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "72",
-            "MaximumHours": "96"
+            "MinimumHours": "0",
+            "MaximumHours": "0"
           },
-          "IsEligibleForSuperSaverShipping": "0",
-          "IsEligibleForPrime": "0"
-        },
-        "LoyaltyPoints": {
-          "Points": "1020",
-          "TypicalRedemptionValue": {
-            "Amount": "1020",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,020"
-          }
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
         }
       }
     }
   },
-  "Lastmod": "2018-12-22 21:56:57 +0900",
+  "Lastmod": "2019-02-03 09:36:26 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/66afdd66f36f4a8da28bf52ee0c29fee/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/66afdd66f36f4a8da28bf52ee0c29fee/"

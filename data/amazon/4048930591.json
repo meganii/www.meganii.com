@@ -85,6 +85,7 @@
       "EANList": {
         "EANListElement": "9784048930598"
       },
+      "IsAdultProduct": "0",
       "ISBN": "4048930591",
       "Label": "KADOKAWA",
       "Languages": {
@@ -112,53 +113,27 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "4104",
+        "Amount": "6290",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 4,104"
+        "FormattedPrice": "￥ 6,290"
       },
       "LowestUsedPrice": {
-        "Amount": "5629",
+        "Amount": "4454",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 5,629"
-      },
-      "LowestCollectiblePrice": {
-        "Amount": "6380",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 6,380"
+        "FormattedPrice": "￥ 4,454"
       },
       "TotalNew": "3",
-      "TotalUsed": "9",
-      "TotalCollectible": "1",
+      "TotalUsed": "7",
+      "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4048930591?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4048930591",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "BmgtyMwdT%2Fiobkxwt4JNVfUuk08%2BR%2F0PXfh8rVlg356rBzD1GIh%2BKPOzNVHaXrPPs0%2BxyBq8%2BCnxN1xvJfA%2BvXCKxmetwPDoSjvV9A%2B8Ftg%3D",
-          "Price": {
-            "Amount": "4104",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 4,104"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        }
-      }
+      "TotalOffers": "0",
+      "TotalOfferPages": "0",
+      "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-12-22 21:51:36 +0900",
+  "Lastmod": "2019-02-03 09:31:24 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/733c41c1de16fdd437bf2f7e89a7e680/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/733c41c1de16fdd437bf2f7e89a7e680/"
