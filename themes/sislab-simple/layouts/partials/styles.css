@@ -2216,6 +2216,10 @@ aside.read::before {
     }
 }
 
+amp-img.card-icon img {
+    object-fit: contain;
+}
+
 :lang(ko) .card-content {
     font-weight: 400
 }
@@ -3103,4 +3107,9 @@ footer {
   
 .article-body pre code {
     background-color: transparent;
+}
+
+.fixed-container {
+    position: relative;
+    height: 200px;
 }
