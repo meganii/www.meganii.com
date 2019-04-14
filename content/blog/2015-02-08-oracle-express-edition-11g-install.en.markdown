@@ -60,9 +60,7 @@ end
 
 Creating share folder to access by Guest OS.
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/16444231326" title="Vagrant share folderby meganii, on Flickr"><img class="img-responsive" src="https://farm8.staticflickr.com/7423/16444231326_e7bed11e94_z.jpg" alt="Vagrant share folder"></a></p>
-
-
+{{% img src="https://farm8.staticflickr.com/7423/16444231326_e7bed11e94_z.jpg" w="3" h="2" %}}
 
 ### Boot OS
 
@@ -183,7 +181,7 @@ Username and password are the following.
 
 You can access and check oracle work well.
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/16468400201" title="oracle xe installby meganii, on Flickr"><img class="img-responsive" src="https://farm9.staticflickr.com/8640/16468400201_39ccfefbac_z.jpg" alt="oracle xe install"></a></p>
+{{% img src="https://farm9.staticflickr.com/8640/16468400201_39ccfefbac_z.jpg" w="3" h="2" %}}
 
 ## Ref
 - [ swapon /swapfile](https://gist.github.com/koudaiii/0ed6a8558aa297af463e)
