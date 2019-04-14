@@ -45,9 +45,7 @@ width: 100% ;
 
 以下は、レスポンシブ化されたYouTube埋め込みタグです。
 
-<div class="youtubeWrapper">
-<iframe width="560" height="315" src="//www.youtube.com/embed/PRI0bA5VSL8" frameborder="0" allowfullscreen></iframe>
-</div>
+{{% youtube PRI0bA5VSL8 %}}
 
 
 ## 参考
