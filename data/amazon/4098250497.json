@@ -1,24 +1,24 @@
 {
   "Item": {
     "ASIN": "4098250497",
-    "DetailPageURL": "https://www.amazon.co.jp/%E7%9B%AE%E7%AB%8B%E3%81%A4%E5%8A%9B-%E5%B0%8F%E5%AD%A6%E9%A4%A8101%E6%96%B0%E6%9B%B8-49-%E5%8B%9D%E9%96%93-%E5%92%8C%E4%BB%A3/dp/4098250497?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4098250497",
+    "DetailPageURL": "https://www.amazon.co.jp/%E7%9B%AE%E7%AB%8B%E3%81%A4%E5%8A%9B-%E5%B0%8F%E5%AD%A6%E9%A4%A8101%E6%96%B0%E6%9B%B8-49-%E5%8B%9D%E9%96%93-%E5%92%8C%E4%BB%A3/dp/4098250497?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4098250497",
     "ItemLinks": {
       "ItemLink": [
         {
           "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4098250497&SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4098250497"
+          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4098250497&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4098250497"
         },
         {
           "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4098250497?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4098250497"
+          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4098250497?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4098250497"
         },
         {
           "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4098250497?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4098250497"
+          "URL": "https://www.amazon.co.jp/review/product/4098250497?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4098250497"
         },
         {
           "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4098250497?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4098250497"
+          "URL": "https://www.amazon.co.jp/gp/offer-listing/4098250497?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4098250497"
         }
       ]
     },
@@ -122,19 +122,20 @@
       "IsAdultProduct": "0",
       "ISBN": "4098250497",
       "ItemDimensions": {
-        "Weight": "35"
+        "Weight": "0"
       },
       "Label": "小学館",
       "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Unknown"
-        }
-      },
-      "ListPrice": {
-        "Amount": "799",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 799"
+        "Language": [
+          {
+            "Name": "日本語",
+            "Type": "Published"
+          },
+          {
+            "Name": "日本語",
+            "Type": "Unknown"
+          }
+        ]
       },
       "Manufacturer": "小学館",
       "NumberOfPages": "256",
@@ -153,18 +154,23 @@
       "Title": "目立つ力 (小学館101新書 49)"
     },
     "OfferSummary": {
+      "LowestNewPrice": {
+        "Amount": "3494",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 3,494"
+      },
       "LowestUsedPrice": {
         "Amount": "1",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 1"
       },
       "LowestCollectiblePrice": {
-        "Amount": "250",
+        "Amount": "298",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 250"
+        "FormattedPrice": "￥ 298"
       },
-      "TotalNew": "0",
-      "TotalUsed": "70",
+      "TotalNew": "1",
+      "TotalUsed": "78",
       "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
@@ -174,7 +180,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2018-08-04 09:08:29 +0900",
+  "Lastmod": "2019-04-14 21:30:06 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/401e8d25fd72da36e33c81194ae952db/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/401e8d25fd72da36e33c81194ae952db/"

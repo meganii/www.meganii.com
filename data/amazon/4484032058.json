@@ -325,7 +325,7 @@
       "IsAdultProduct": "0",
       "ISBN": "4484032058",
       "ItemDimensions": {
-        "Weight": "132"
+        "Weight": "60"
       },
       "Label": "CCCメディアハウス",
       "Languages": {
@@ -363,17 +363,17 @@
         "FormattedPrice": "￥ 1,620"
       },
       "LowestUsedPrice": {
-        "Amount": "565",
+        "Amount": "414",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 565"
+        "FormattedPrice": "￥ 414"
       },
       "LowestCollectiblePrice": {
         "Amount": "3599",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 3,599"
       },
-      "TotalNew": "4",
-      "TotalUsed": "69",
+      "TotalNew": "3",
+      "TotalUsed": "63",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -386,7 +386,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "eE8JZu5VfaN%2FhrC9eQHRUVS4qrOop6tejoRl7JcB5lZ2ui1851P3vm%2FuqQbxZu1137YHLuIKFmx7b%2B7oN9gO1EArP0G2vt1jRBL5iwB12NY%3D",
+          "OfferListingId": "ECbeN9o5FK5q98ZapOTfOva0eHtNjMdhfLJzT2BgqCk%2BWK9gm2mh0Nzulqdegucb5whrsPj9uweCtpME7%2F%2F4jXsonl0XrXPCWm6A4vHiXvU%3D",
           "Price": {
             "Amount": "1620",
             "CurrencyCode": "JPY",
@@ -402,17 +402,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "80",
+          "Points": "48",
           "TypicalRedemptionValue": {
-            "Amount": "80",
+            "Amount": "48",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 80"
+            "FormattedPrice": "￥ 48"
           }
         }
       }
     }
   },
-  "Lastmod": "2019-02-03 09:40:46 +0900",
+  "Lastmod": "2019-04-14 20:54:27 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/180575d5da2d39ce6c64b65ffc782517/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/180575d5da2d39ce6c64b65ffc782517/"

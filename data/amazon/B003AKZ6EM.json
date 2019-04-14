@@ -462,9 +462,6 @@
     "ItemAttributes": {
       "Binding": "スポーツ用品",
       "Brand": "キャプテンスタッグ(CAPTAIN STAG)",
-      "CatalogNumberList": {
-        "CatalogNumberListElement": "M-3473"
-      },
       "Color": "ブルー",
       "EAN": "0787766607413",
       "EANList": {
@@ -514,16 +511,16 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1355",
+        "Amount": "1400",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,355"
+        "FormattedPrice": "￥ 1,400"
       },
       "LowestUsedPrice": {
         "Amount": "2000",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 2,000"
       },
-      "TotalNew": "14",
+      "TotalNew": "17",
       "TotalUsed": "1",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
@@ -537,23 +534,23 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "0OU6SZggcU1pBuwnXGk7LO6MWis%2Fz06h7rfIiCoE%2BSbHAYj7KRtsBhAXDtvHjUbBhX5YTgB2bH0Nmm0G3hp%2B5dIbc1spIOaS%2F57B%2FDNfX%2Bg%3D",
+          "OfferListingId": "I%2BrNgeYnN4MkV60X85P2VYuULKQM4cSOJlwYmHidfsQwCL1FHVgPU41jmOpKmxcSpvA1okJioWDHt3yJ3WsV%2B0gXZFp3OU7sk81BsbyIq3E%3D",
           "Price": {
-            "Amount": "1355",
+            "Amount": "1443",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,355"
+            "FormattedPrice": "￥ 1,443"
           },
           "AmountSaved": {
-            "Amount": "4244",
+            "Amount": "4156",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 4,244"
+            "FormattedPrice": "￥ 4,156"
           },
-          "PercentageSaved": "76",
-          "Availability": "通常1～3週間以内に発送",
+          "PercentageSaved": "74",
+          "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "168",
-            "MaximumHours": "384"
+            "MinimumHours": "0",
+            "MaximumHours": "0"
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
@@ -561,7 +558,7 @@
       }
     }
   },
-  "Lastmod": "2019-02-03 09:36:37 +0900",
+  "Lastmod": "2019-04-14 20:49:37 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/ceea9a5c65bc926e9c72b5eb7e904fb0/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/ceea9a5c65bc926e9c72b5eb7e904fb0/"

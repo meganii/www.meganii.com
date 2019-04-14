@@ -158,56 +158,27 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "2138",
+        "Amount": "5820",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,138"
+        "FormattedPrice": "￥ 5,820"
       },
       "LowestUsedPrice": {
-        "Amount": "1663",
+        "Amount": "3365",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,663"
+        "FormattedPrice": "￥ 3,365"
       },
-      "TotalNew": "4",
-      "TotalUsed": "16",
+      "TotalNew": "1",
+      "TotalUsed": "8",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/477418392X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=477418392X",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "epAcpZASawsYsPGkhSfcq65p5B2OMewzAC8PaKUbuFLNAEhYN3Jl%2BTXwr3%2FX3B4JbUR6CIZo5Kt1809byNHvQa1P8OB6vXBtdzV6RYlu8%2Fw%3D",
-          "Price": {
-            "Amount": "2138",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,138"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "65",
-          "TypicalRedemptionValue": {
-            "Amount": "65",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 65"
-          }
-        }
-      }
+      "TotalOffers": "0",
+      "TotalOfferPages": "0",
+      "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2019-02-03 09:38:30 +0900",
+  "Lastmod": "2019-04-14 20:51:55 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/0234e5c15bd645d0d3fde959c26051c7/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/0234e5c15bd645d0d3fde959c26051c7/"

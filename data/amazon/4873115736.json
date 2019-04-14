@@ -124,12 +124,12 @@
         "FormattedPrice": "￥ 4,536"
       },
       "LowestUsedPrice": {
-        "Amount": "635",
+        "Amount": "1750",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 635"
+        "FormattedPrice": "￥ 1,750"
       },
-      "TotalNew": "4",
-      "TotalUsed": "23",
+      "TotalNew": "1",
+      "TotalUsed": "19",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -142,33 +142,25 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "rdXqoLE6OEqWSqyN6AlEf%2FoZX3Z8ws%2FtxH79rtBahNlSA7fW%2Fd6BLHPiJ6TdLwpH1xrRb1YyduqF%2FBSJrNq0satBj2TXPm5ZXMpBivBzo7k%3D",
+          "OfferListingId": "%2BWvzu92gguq1KgArIXmx4mKQXcboJyvjcOyhqLD8Hg7vDXjF8gtUWQyhkbOTG9ZvHRaC365y%2B1ML6VEUnJlwwPztktskJEkYR7rNQSBlpZkWUWJqT%2FoP0QUpuzD%2B5izQ4Zbog761XCwBGL0AgldlNVqLlz%2BAvY17",
           "Price": {
             "Amount": "4536",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 4,536"
           },
-          "Availability": "在庫あり。",
+          "Availability": "通常6～10営業日以内に発送",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
+            "MinimumHours": "144",
+            "MaximumHours": "240"
           },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "137",
-          "TypicalRedemptionValue": {
-            "Amount": "137",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 137"
-          }
+          "IsEligibleForSuperSaverShipping": "0",
+          "IsEligibleForPrime": "0"
         }
       }
     }
   },
-  "Lastmod": "2019-02-03 08:07:38 +0900",
+  "Lastmod": "2019-04-14 20:19:50 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/4d852087e514f90eb9e803b938a2feab/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/4d852087e514f90eb9e803b938a2feab/"

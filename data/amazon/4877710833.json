@@ -1,24 +1,24 @@
 {
   "Item": {
     "ASIN": "4877710833",
-    "DetailPageURL": "https://www.amazon.co.jp/%E4%BB%95%E4%BA%8B%E3%81%AF%E6%A5%BD%E3%81%97%E3%81%84%E3%81%8B%E3%81%AD-2-%E3%83%87%E3%82%A4%E3%83%AB%E3%83%BB%E3%83%89%E3%83%BC%E3%83%86%E3%83%B3/dp/4877710833?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4877710833",
+    "DetailPageURL": "https://www.amazon.co.jp/%E4%BB%95%E4%BA%8B%E3%81%AF%E6%A5%BD%E3%81%97%E3%81%84%E3%81%8B%E3%81%AD-2-%E3%83%87%E3%82%A4%E3%83%AB%E3%83%BB%E3%83%89%E3%83%BC%E3%83%86%E3%83%B3/dp/4877710833?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4877710833",
     "ItemLinks": {
       "ItemLink": [
         {
           "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4877710833&SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4877710833"
+          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4877710833&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4877710833"
         },
         {
           "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4877710833?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4877710833"
+          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4877710833?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4877710833"
         },
         {
           "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4877710833?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4877710833"
+          "URL": "https://www.amazon.co.jp/review/product/4877710833?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4877710833"
         },
         {
           "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4877710833?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4877710833"
+          "URL": "https://www.amazon.co.jp/gp/offer-listing/4877710833?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4877710833"
         }
       ]
     },
@@ -131,10 +131,17 @@
         "Weight": "0"
       },
       "Label": "きこ書房",
-      "ListPrice": {
-        "Amount": "1404",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,404"
+      "Languages": {
+        "Language": [
+          {
+            "Name": "日本語",
+            "Type": "Published"
+          },
+          {
+            "Name": "日本語",
+            "Type": "Unknown"
+          }
+        ]
       },
       "Manufacturer": "きこ書房",
       "NumberOfPages": "212",
@@ -154,35 +161,35 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1404",
+        "Amount": "827",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,404"
+        "FormattedPrice": "￥ 827"
       },
       "LowestUsedPrice": {
-        "Amount": "199",
+        "Amount": "1",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 199"
+        "FormattedPrice": "￥ 1"
       },
       "LowestCollectiblePrice": {
         "Amount": "1020",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 1,020"
       },
-      "TotalNew": "2",
-      "TotalUsed": "107",
+      "TotalNew": "4",
+      "TotalUsed": "95",
       "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
     "Offers": {
       "TotalOffers": "1",
       "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4877710833?SubscriptionId=AKIAIFNQRIHCQ2MT437A&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4877710833",
+      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4877710833?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4877710833",
       "Offer": {
         "OfferAttributes": {
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "i7%2Bz0mtON5tUPbhtZdnIaq3bmT7%2FZNcr0cfEvY4GZJ2I08FYElRlCL5t00VoeUwhNbHWfBUoG8KZZNjKkG9sDBE%2Fp5ErKncl",
+          "OfferListingId": "%2BzLdClO12cQu6USYg0vn2jSpknCjjr5VQXeTnlKbLY8TNe8neDKZ5qu3ACrK1xbk24fR%2FUf30AGzg%2FMovW2YH7gCkY65yPDR",
           "Price": {
             "Amount": "1404",
             "CurrencyCode": "JPY",
@@ -198,17 +205,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "43",
+          "Points": "42",
           "TypicalRedemptionValue": {
-            "Amount": "43",
+            "Amount": "42",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 43"
+            "FormattedPrice": "￥ 42"
           }
         }
       }
     }
   },
-  "Lastmod": "2018-08-04 09:08:38 +0900",
+  "Lastmod": "2019-04-14 21:28:50 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/932efc19b86002ad856d1dbd8a184828/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/932efc19b86002ad856d1dbd8a184828/"

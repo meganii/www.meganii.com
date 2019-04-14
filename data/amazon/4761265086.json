@@ -109,6 +109,11 @@
       "Title": "CIO(最高情報責任者)の新しい役割"
     },
     "OfferSummary": {
+      "LowestNewPrice": {
+        "Amount": "7891",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 7,891"
+      },
       "LowestUsedPrice": {
         "Amount": "1",
         "CurrencyCode": "JPY",
@@ -119,8 +124,8 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 3,780"
       },
-      "TotalNew": "0",
-      "TotalUsed": "20",
+      "TotalNew": "1",
+      "TotalUsed": "16",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -130,7 +135,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2019-02-03 09:39:17 +0900",
+  "Lastmod": "2019-04-14 20:52:45 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/8f2dcef12740d4ceee88bd823a6bbba8/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/8f2dcef12740d4ceee88bd823a6bbba8/"

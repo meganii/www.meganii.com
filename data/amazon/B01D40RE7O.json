@@ -213,7 +213,10 @@
         "アルスター サファリ abc用"
       ],
       "ItemDimensions": {
-        "Weight": "1"
+        "Height": "50",
+        "Length": "50",
+        "Weight": "1",
+        "Width": "300"
       },
       "Label": "LAMY",
       "ListPrice": {
@@ -240,16 +243,16 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "625",
+        "Amount": "606",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 625"
+        "FormattedPrice": "￥ 606"
       },
       "LowestUsedPrice": {
         "Amount": "1568",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 1,568"
       },
-      "TotalNew": "12",
+      "TotalNew": "16",
       "TotalUsed": "1",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
@@ -263,18 +266,18 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "yPHAuNoRCY0FRBO9d%2B9d64Z%2Fn7OZw80U0Ks7ziQnKyqJ%2FBNqe95E10vIp4mKdZ7lYitRPe55%2Fjl5k3wu9sb1Q%2FtNlHGP1rSttV2IHbHi1Mw%3D",
+          "OfferListingId": "o%2B9EG%2BbfFn9yzNi0oN0gy6nccWECZN%2FwD6sP5YceoEIvnkqLYBdetL%2F5ai%2BxyS7us9qwJ4z3X96wMwVLXxZve8jic8qJKtegY4hJS9%2F4OCU%3D",
           "Price": {
-            "Amount": "627",
+            "Amount": "608",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 627"
+            "FormattedPrice": "￥ 608"
           },
           "AmountSaved": {
-            "Amount": "237",
+            "Amount": "256",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 237"
+            "FormattedPrice": "￥ 256"
           },
-          "PercentageSaved": "27",
+          "PercentageSaved": "30",
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
@@ -287,7 +290,7 @@
       }
     }
   },
-  "Lastmod": "2019-02-03 09:35:25 +0900",
+  "Lastmod": "2019-04-14 20:48:10 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/f92e4f14f2c99cc669849daf70e1b21e/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/f92e4f14f2c99cc669849daf70e1b21e/"

@@ -157,9 +157,9 @@
         "EANListElement": "4988142011015"
       },
       "Format": [
-        "Color",
-        "Dolby",
-        "Widescreen"
+        "色",
+        "ドルビー",
+        "ワイドスクリーン"
       ],
       "IsAdultProduct": "0",
       "ItemDimensions": {
@@ -222,17 +222,17 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1190",
+        "Amount": "1000",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,190"
+        "FormattedPrice": "￥ 1,000"
       },
       "LowestUsedPrice": {
-        "Amount": "437",
+        "Amount": "9",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 437"
+        "FormattedPrice": "￥ 9"
       },
-      "TotalNew": "6",
-      "TotalUsed": "42",
+      "TotalNew": "9",
+      "TotalUsed": "58",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -245,18 +245,18 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "kl298fx3HtQEgRVPpwP4aPIcXaxVMaUKBJClacGy9dSvb%2F2Vz2bLs7lOXgx9jm0%2FuqKYaXZX5ehAM10SIB9ebr%2FtA8RiPRyIfRZlTtL3K2UYsnBjK0sAOGDsyKFu1iKTTh%2F030JaI%2B0oxK2vT37u0w%3D%3D",
+          "OfferListingId": "WVrSTh3kcS7tI4X0rLkasQ%2FA2%2BZJkK4dLjktYbNfeb0T6%2BCTq9L0KyFV3oC6q0w1QtuyfL89BH%2FHmFr0VfrzUQGoHTPgD9N8yiZrkywnP3%2BW35Wdy%2FPWwyz78uRiTzJnPAnb3p7VMx6y00iGiiX8sQ%3D%3D",
           "Price": {
-            "Amount": "1780",
+            "Amount": "1045",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,780"
+            "FormattedPrice": "￥ 1,045"
           },
           "AmountSaved": {
-            "Amount": "1810",
+            "Amount": "2545",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,810"
+            "FormattedPrice": "￥ 2,545"
           },
-          "PercentageSaved": "50",
+          "PercentageSaved": "71",
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
@@ -269,7 +269,7 @@
       }
     }
   },
-  "Lastmod": "2019-02-03 09:36:49 +0900",
+  "Lastmod": "2019-04-14 20:49:50 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/9e1e7a450cbb38dc0c4c706c364e42e4/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/9e1e7a450cbb38dc0c4c706c364e42e4/"

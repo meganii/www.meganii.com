@@ -158,12 +158,12 @@
         "FormattedPrice": "￥ 3,456"
       },
       "LowestUsedPrice": {
-        "Amount": "1750",
+        "Amount": "1622",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,750"
+        "FormattedPrice": "￥ 1,622"
       },
-      "TotalNew": "3",
-      "TotalUsed": "25",
+      "TotalNew": "4",
+      "TotalUsed": "31",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -176,25 +176,33 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "7jIvNZmByuwT3i%2Bxe6aIAolrPRbj%2F6RhQheYaAoVnhdk%2B3OWVp7vbhUB5s36eXVYAaBU4j0h4MWQJwL8E6GUoj%2BsVKzA9ymuyfl5X7PBaaDYcDRpShz4aqSLtja%2BCf%2B1SK%2Bi%2B6vbSL%2B5ygw0Y0FRhDBLEPR4db%2BW",
+          "OfferListingId": "ctsiJQ0RZIaxJWztmGdKofzafvv0Gz1jXP0gxKNiNz7U8aBxAV2E%2BwUFPQR6%2Bs1gQ6uXU%2FEoqJV%2B%2FvodmBbzUoLZYENcEO8UJhCF0P3jHMw%3D",
           "Price": {
             "Amount": "3456",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 3,456"
           },
-          "Availability": "通常4～5営業日以内に発送",
+          "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "96",
-            "MaximumHours": "120"
+            "MinimumHours": "0",
+            "MaximumHours": "0"
           },
-          "IsEligibleForSuperSaverShipping": "0",
-          "IsEligibleForPrime": "0"
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "32",
+          "TypicalRedemptionValue": {
+            "Amount": "32",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 32"
+          }
         }
       }
     }
   },
-  "Lastmod": "2019-02-03 09:41:38 +0900",
+  "Lastmod": "2019-04-14 20:55:26 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/d11b963786836bf29f24bfd49fb51869/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/d11b963786836bf29f24bfd49fb51869/"

@@ -928,6 +928,7 @@
       "ItemDimensions": {
         "Height": "827",
         "Length": "79",
+        "Weight": "0",
         "Width": "591"
       },
       "Label": "オライリージャパン",
@@ -959,12 +960,12 @@
         "FormattedPrice": "￥ 2,808"
       },
       "LowestUsedPrice": {
-        "Amount": "1499",
+        "Amount": "1398",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,499"
+        "FormattedPrice": "￥ 1,398"
       },
-      "TotalNew": "3",
-      "TotalUsed": "7",
+      "TotalNew": "1",
+      "TotalUsed": "11",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -977,33 +978,25 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "Cw%2Bn1WMCa7mSyzU86cbLHVpRwGUrZKqKnvpvRKS7LrN5H9caq1zJjYe5L9blWALmXxBWq7ON5M8iIDG49kYd7IBvWgy9EeYnqDgg2xRV24I%3D",
+          "OfferListingId": "JxG%2FwWoyeA3o8UPw7Z7zfjFw4H%2FnXOlRBqMJM3MtRpfspcIRoaUDJZ3xEDEG%2FJcqtg2k4FZX1U18LN39A6hFMFdFLXKaE9JXL6ylvxHWm1p5Y4oLEeaW5AH3ECKIdp7uAbp%2FWVzYn0zQvYSUXUfcdnkhIhoE3QVO",
           "Price": {
             "Amount": "2808",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 2,808"
           },
-          "Availability": "在庫あり。",
+          "Availability": "通常4～5営業日以内に発送",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
+            "MinimumHours": "96",
+            "MaximumHours": "120"
           },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "85",
-          "TypicalRedemptionValue": {
-            "Amount": "85",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 85"
-          }
+          "IsEligibleForSuperSaverShipping": "0",
+          "IsEligibleForPrime": "0"
         }
       }
     }
   },
-  "Lastmod": "2019-02-03 09:40:30 +0900",
+  "Lastmod": "2019-04-14 20:54:10 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/a4e7462d302934d7e634623dfca7a99a/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/a4e7462d302934d7e634623dfca7a99a/"

@@ -127,7 +127,7 @@
       "IsAdultProduct": "0",
       "ISBN": "4797336080",
       "ItemDimensions": {
-        "Weight": "132"
+        "Weight": "101"
       },
       "Label": "ソフトバンク クリエイティブ",
       "Languages": {
@@ -152,19 +152,19 @@
       "Title": "プロとしてのSQLチューニング入門"
     },
     "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "21892",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 21,892"
-      },
       "LowestUsedPrice": {
-        "Amount": "400",
+        "Amount": "468",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 400"
+        "FormattedPrice": "￥ 468"
       },
-      "TotalNew": "1",
-      "TotalUsed": "26",
-      "TotalCollectible": "0",
+      "LowestCollectiblePrice": {
+        "Amount": "5800",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 5,800"
+      },
+      "TotalNew": "0",
+      "TotalUsed": "23",
+      "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -173,7 +173,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2019-02-03 09:38:16 +0900",
+  "Lastmod": "2019-04-14 20:51:38 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/df2884d606757b213995f8e4c8eed4a1/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/df2884d606757b213995f8e4c8eed4a1/"

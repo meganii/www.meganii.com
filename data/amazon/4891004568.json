@@ -86,6 +86,9 @@
       "Edition": "第2",
       "IsAdultProduct": "0",
       "ISBN": "4891004568",
+      "ItemDimensions": {
+        "Weight": "0"
+      },
       "Label": "日経BP社",
       "Languages": {
         "Language": {
@@ -116,12 +119,12 @@
         "FormattedPrice": "￥ 6,588"
       },
       "LowestUsedPrice": {
-        "Amount": "2722",
+        "Amount": "4264",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,722"
+        "FormattedPrice": "￥ 4,264"
       },
-      "TotalNew": "2",
-      "TotalUsed": "26",
+      "TotalNew": "1",
+      "TotalUsed": "23",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -134,7 +137,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "DAEnAG3F%2Bd8HGNLlSEc6uW6U1zJmIf9VtD%2BZWGz%2BLxyjxKxSlKyh7sP3WeUINnoKCJb%2BiwOMbR0NlfkkOaPeIMPWMymkNjNj",
+          "OfferListingId": "8gSzUBXL4DLVpnr20UuGt8XWqcM8PSN0RL6R1ENY2ohKL%2BA%2BcKYk56oIVATdRPvJckXub5SMGzpIOFAd%2Bk8igq1bY0YyicdW",
           "Price": {
             "Amount": "6588",
             "CurrencyCode": "JPY",
@@ -150,17 +153,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "198",
+          "Points": "195",
           "TypicalRedemptionValue": {
-            "Amount": "198",
+            "Amount": "195",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 198"
+            "FormattedPrice": "￥ 195"
           }
         }
       }
     }
   },
-  "Lastmod": "2019-02-03 09:31:20 +0900",
+  "Lastmod": "2019-04-14 20:22:13 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/a934f26976ac20c31d6460c01f758cb3/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/a934f26976ac20c31d6460c01f758cb3/"

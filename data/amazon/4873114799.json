@@ -124,12 +124,12 @@
         "FormattedPrice": "￥ 2,052"
       },
       "LowestUsedPrice": {
-        "Amount": "867",
+        "Amount": "693",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 867"
+        "FormattedPrice": "￥ 693"
       },
       "TotalNew": "4",
-      "TotalUsed": "24",
+      "TotalUsed": "29",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -142,33 +142,25 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "nS9r%2FtJ3WhoQ98VZZe0SPW8BDpJrGpP7i9HnejO88KoCr%2F6sC0tz1aRpzTHJ9lPVY7kGh6tsIAkd6i4yi65ubOtShgwLcCIXPaRVhuwlWXY%3D",
+          "OfferListingId": "miODUWf%2BYfp11e2juLGHiE7gHlM8gbJwZone7%2B918LGf%2FBoLnqgTXr25EXxMTOXud%2BHPiv89P7Np%2BekINiza6YiVZmgFdEL44R8hW%2FNXaL0dJ%2BAzAqXGimWl%2FnCLg1MyEMUhVehODLd%2FAMLWdQhYqg%3D%3D",
           "Price": {
-            "Amount": "2052",
+            "Amount": "2499",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,052"
+            "FormattedPrice": "￥ 2,499"
           },
-          "Availability": "在庫あり。",
+          "Availability": "通常1～2営業日以内に発送",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
+            "MinimumHours": "24",
+            "MaximumHours": "48"
           },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "62",
-          "TypicalRedemptionValue": {
-            "Amount": "62",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 62"
-          }
+          "IsEligibleForSuperSaverShipping": "0",
+          "IsEligibleForPrime": "0"
         }
       }
     }
   },
-  "Lastmod": "2019-02-03 09:30:47 +0900",
+  "Lastmod": "2019-04-14 20:21:36 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/f9e3f17ae06060da314436a6170b832a/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/f9e3f17ae06060da314436a6170b832a/"

@@ -147,22 +147,22 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1728",
+        "Amount": "999",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,728"
+        "FormattedPrice": "￥ 999"
       },
       "LowestUsedPrice": {
-        "Amount": "350",
+        "Amount": "296",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 350"
+        "FormattedPrice": "￥ 296"
       },
       "LowestCollectiblePrice": {
         "Amount": "1290",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 1,290"
       },
-      "TotalNew": "3",
-      "TotalUsed": "176",
+      "TotalNew": "4",
+      "TotalUsed": "184",
       "TotalCollectible": "5",
       "TotalRefurbished": "0"
     },
@@ -175,7 +175,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "oXyqvwT9qA2gv8mqfSLU%2BDMJLdDNfkHD6Gu52S1QfFwd9HgjxUw0aWa5G3FthX0uTvNH8hHX%2Fl9zeVH2NHD%2F7EBv8xScbjIKPB4W4rYR6AM%3D",
+          "OfferListingId": "Ccqlr99m8NHONaTW7dR%2FpNxn%2BfMhpDThB%2BUxwuRFZPJXtQtaIS2ShBMk4ln%2F8%2BAtsDsDfE%2Fq5qDslK2MwWqKT4Ty5Apt7yoetuA7W65TtjA%3D",
           "Price": {
             "Amount": "1728",
             "CurrencyCode": "JPY",
@@ -191,17 +191,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "52",
+          "Points": "51",
           "TypicalRedemptionValue": {
-            "Amount": "52",
+            "Amount": "51",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 52"
+            "FormattedPrice": "￥ 51"
           }
         }
       }
     }
   },
-  "Lastmod": "2019-02-03 08:07:24 +0900",
+  "Lastmod": "2019-04-14 20:19:35 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/93cea00507bc409d2bbe49dc13ceabf9/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/93cea00507bc409d2bbe49dc13ceabf9/"

@@ -244,6 +244,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4839960100",
+      "ItemDimensions": {
+        "Weight": "132"
+      },
       "Label": "マイナビ出版",
       "Languages": {
         "Language": {
@@ -275,12 +278,12 @@
         "FormattedPrice": "￥ 4,104"
       },
       "LowestUsedPrice": {
-        "Amount": "3329",
+        "Amount": "5618",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,329"
+        "FormattedPrice": "￥ 5,618"
       },
-      "TotalNew": "4",
-      "TotalUsed": "15",
+      "TotalNew": "6",
+      "TotalUsed": "9",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -293,7 +296,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "uCN8tTIwIpsJfNOgbFVj2G8NCSLYBbNvDIavwaMzXH4Uy922F2peUN0nvERFD6Nfi7g0mwajKWFoLMNuqDXHv7bRbIFzcMpW%2BIH2RdSCjwQ%3D",
+          "OfferListingId": "jmSu32U0Rim3b8mKm6kq8ln4A9mBXMpRfN6x24%2FPkradjdzCk1Lv9LujrhKl%2Fk58QLbTRkKAMFBuuHybWM6a9LoxfG9qUwfR33zKzZL5Wsw%3D",
           "Price": {
             "Amount": "4104",
             "CurrencyCode": "JPY",
@@ -307,19 +310,11 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "124",
-          "TypicalRedemptionValue": {
-            "Amount": "124",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 124"
-          }
         }
       }
     }
   },
-  "Lastmod": "2019-02-03 09:32:46 +0900",
+  "Lastmod": "2019-04-14 20:23:44 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/7e3685b8527ff229bef1eb0a06b26dc7/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/7e3685b8527ff229bef1eb0a06b26dc7/"

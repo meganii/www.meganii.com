@@ -116,17 +116,17 @@
         "FormattedPrice": "￥ 2,592"
       },
       "LowestUsedPrice": {
-        "Amount": "1706",
+        "Amount": "1515",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,706"
+        "FormattedPrice": "￥ 1,515"
       },
       "LowestCollectiblePrice": {
-        "Amount": "4980",
+        "Amount": "4780",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 4,980"
+        "FormattedPrice": "￥ 4,780"
       },
       "TotalNew": "2",
-      "TotalUsed": "20",
+      "TotalUsed": "21",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -139,25 +139,33 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "OD38DPU65c1BA61QotUtjGZCOEwAwjaHpCHnB5Y%2FrS4MebbfSgIJGDJpv6VjCRAKMG%2Bf52OMMwP%2BPS4zVSbbm2qpzIQrzLDU%2Bud%2FlDAX9sU4oIQg5JaR9Hv76zjHnta7ma42uCbgXoInkbyI6z%2BJ%2BpcTHzUpWwef",
+          "OfferListingId": "wy9TvOyEmINv43S7Vh6asvQWTuLCviwxQE2p2OfGDpJZa%2BaWD0D6OL0fl9mVGibiqxXQyqw6L7T%2FEgL%2FOe%2BlsRvOlSpNfcP7",
           "Price": {
             "Amount": "2592",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 2,592"
           },
-          "Availability": "通常4～5営業日以内に発送",
+          "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "96",
-            "MaximumHours": "120"
+            "MinimumHours": "0",
+            "MaximumHours": "0"
           },
-          "IsEligibleForSuperSaverShipping": "0",
-          "IsEligibleForPrime": "0"
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "25",
+          "TypicalRedemptionValue": {
+            "Amount": "25",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 25"
+          }
         }
       }
     }
   },
-  "Lastmod": "2019-02-03 09:39:13 +0900",
+  "Lastmod": "2019-04-14 20:52:40 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/3dd95442e8b9438d0106bad52819b441/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/3dd95442e8b9438d0106bad52819b441/"

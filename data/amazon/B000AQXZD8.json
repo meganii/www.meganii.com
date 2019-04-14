@@ -117,10 +117,7 @@
       "Binding": "スポーツ用品",
       "Brand": "プリムス(PRIMUS)",
       "CatalogNumberList": {
-        "CatalogNumberListElement": [
-          "4901140300165",
-          "IP-2245A-S"
-        ]
+        "CatalogNumberListElement": "4901140300165"
       },
       "Color": "無",
       "Creator": "0",
@@ -167,16 +164,16 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "8729",
+        "Amount": "8540",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 8,729"
+        "FormattedPrice": "￥ 8,540"
       },
       "LowestUsedPrice": {
         "Amount": "8660",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 8,660"
       },
-      "TotalNew": "21",
+      "TotalNew": "24",
       "TotalUsed": "2",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
@@ -190,18 +187,18 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "V%2BwZt4T2cR%2BecNKVVuWjBw%2BqCJinKx6NMiL2CMNTFp%2B9%2B5HEsPPQRwg6tOw%2BTENv5YCeG%2B5OO4GtRXWmIM7yLJ9wQ1FcfcbP",
+          "OfferListingId": "ze2rNbH76yP4%2FxzOaSlsSbx%2FR6NPPlA0AcVBBCRO%2B4QW5bt7Icwnmc7ofaO1VjMMFGZsSaEoHHIy%2B5Q9274cFud7fRxQVmcv",
           "Price": {
-            "Amount": "8729",
+            "Amount": "8540",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 8,729"
+            "FormattedPrice": "￥ 8,540"
           },
           "AmountSaved": {
-            "Amount": "2611",
+            "Amount": "2800",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,611"
+            "FormattedPrice": "￥ 2,800"
           },
-          "PercentageSaved": "23",
+          "PercentageSaved": "25",
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
@@ -214,7 +211,7 @@
       }
     }
   },
-  "Lastmod": "2019-02-03 09:36:26 +0900",
+  "Lastmod": "2019-04-14 20:49:20 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/66afdd66f36f4a8da28bf52ee0c29fee/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/66afdd66f36f4a8da28bf52ee0c29fee/"

@@ -253,6 +253,7 @@
       "ItemDimensions": {
         "Height": "57",
         "Length": "543",
+        "Weight": "9",
         "Width": "57"
       },
       "Label": "LAMY",
@@ -288,7 +289,7 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 2,100"
       },
-      "TotalNew": "24",
+      "TotalNew": "25",
       "TotalUsed": "0",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
@@ -302,18 +303,18 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "tuv6kq0aEtd7ehof6Rkc%2BPPnt1sQLWNtKYP7jNKJmppv0m%2F83UjXTU8TZ4a34QyJrbZuYyXAs0zoFrfrKRV49vLOWmoTrGveGRMfhZvtscs%3D",
+          "OfferListingId": "1CSi7swZ2%2FGk%2BAVYD19dJWptKZh38sMBXrrL%2F8AtVT6v4BhgryVdYmD1BD%2BJp3u6RtLJ4ZXsWIZ0ZZND8uoLKQx1CzcXASPauZ7mssElv5U%3D",
           "Price": {
-            "Amount": "2290",
+            "Amount": "2353",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,290"
+            "FormattedPrice": "￥ 2,353"
           },
           "AmountSaved": {
-            "Amount": "2030",
+            "Amount": "1967",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,030"
+            "FormattedPrice": "￥ 1,967"
           },
-          "PercentageSaved": "47",
+          "PercentageSaved": "46",
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
@@ -326,7 +327,7 @@
       }
     }
   },
-  "Lastmod": "2019-02-03 09:35:20 +0900",
+  "Lastmod": "2019-04-14 20:48:05 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/a99428b10c0f9c1bd8392062cd50b227/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/a99428b10c0f9c1bd8392062cd50b227/"

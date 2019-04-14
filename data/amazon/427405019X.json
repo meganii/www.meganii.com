@@ -198,12 +198,12 @@
         "FormattedPrice": "￥ 4,536"
       },
       "LowestUsedPrice": {
-        "Amount": "3326",
+        "Amount": "3620",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,326"
+        "FormattedPrice": "￥ 3,620"
       },
       "TotalNew": "3",
-      "TotalUsed": "12",
+      "TotalUsed": "11",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -216,25 +216,33 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "cbv8MjYFMZc4H6HsN4IYhWFwVC4YSxIHvCuRhO%2FY6Hwd9P%2F6iHJsF%2BQUFrdfUTT%2FOlxqr2S%2Fl%2Bg97Af2z9%2FcKT8qklKWzRDg8br4HWI68p9HDBxA9N40WzjFzBkjUSdWnuYuDgAjhFzr7B8Ho48gMA2dJzegDqIO",
+          "OfferListingId": "zZc8Q7%2Fc%2FupcCVwS%2FPv6zjgYzXS7J4%2FUb7OI75dI9zNGEFijlMxQljr%2FAA1LkVLJ41xvy7fyUdINVOlvZ%2BE4dAs3F1T3w9vhJ6LeoNt%2BvA8%3D",
           "Price": {
             "Amount": "4536",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 4,536"
           },
-          "Availability": "通常4～5営業日以内に発送",
+          "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "96",
-            "MaximumHours": "120"
+            "MinimumHours": "0",
+            "MaximumHours": "0"
           },
-          "IsEligibleForSuperSaverShipping": "0",
-          "IsEligibleForPrime": "0"
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "135",
+          "TypicalRedemptionValue": {
+            "Amount": "135",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 135"
+          }
         }
       }
     }
   },
-  "Lastmod": "2019-02-03 09:31:53 +0900",
+  "Lastmod": "2019-04-14 20:22:48 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/612ea469e18a46cc30435500a8a4ef77/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/612ea469e18a46cc30435500a8a4ef77/"
