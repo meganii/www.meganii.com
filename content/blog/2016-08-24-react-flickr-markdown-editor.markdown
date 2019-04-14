@@ -10,7 +10,8 @@ slug: react-flickr-markdown-editor
 img: "https://c1.staticflickr.com/9/8555/28577511064_1d5a39a929_m.jpg"
 ---
 
-![React-Markdown-Editor](https://farm9.staticflickr.com/8455/29165784116_9084f95502_z.jpg)
+{{% img src="https://farm9.staticflickr.com/8455/29165784116_9084f95502_z.jpg" w="3" h="2" alt="React-Markdown-Editor" %}}
+
 
 [Electron \+ Mithril\.jsでFlickrアプリを作成する \- SIS Lab](https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/)で、自分専用のMarkdown-Editorを作りたいと思っていたので、今回Reactの勉強も兼ねて、Flickr連携できるMarkdown Editorを作成しました。
 
