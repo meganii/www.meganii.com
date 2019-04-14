@@ -9,7 +9,8 @@ slug: umeda-bold
 
 2013/06/29(土) 梅田にあるクライミングジム BOLDに行って来ました。
 
-[![https://gyazo.com/1f9cd430dd333cc68e03139fb4bd49cb](https://i.gyazo.com/1f9cd430dd333cc68e03139fb4bd49cb.png)](https://gyazo.com/1f9cd430dd333cc68e03139fb4bd49cb)
+
+{{% img src="https://i.gyazo.com/1f9cd430dd333cc68e03139fb4bd49cb.png" w="3" h="2" %}}
 
 <a style="color:#0070C5;" href="http://bold-gym.com/" target="_blank">大阪　クライミングジム　BOLD</a>
 
@@ -30,8 +31,7 @@ slug: umeda-bold
 
 ## 広さ
 
-,なんばGR >> 神戸GR  > 梅田GR > BOLD > Tobitoって感覚です。
-
+なんばGR >> 神戸GR  > 梅田GR > BOLD > Tobitoって感覚です。
 
 ２階へは、ハシゴで登っていく。秘密基地に登っていくみたいだった。
 
