@@ -9,7 +9,8 @@ slug: real-wantedly
 img: realwantedly-4.jpg
 ---
 
-![wantedly](/images/realwantedly-4.jpg)
+{{% img src="/images/realwantedly-4.jpg" w="3" h="2" alt="wantedly" %}}
+
 
 [「第4回 リアル・ウォンテッドリー」運命のチームやシゴト・インターンに出会えるイベント　by Wantedly](https://www.wantedly.com/campaign/real_wantedly_4)
 
@@ -36,9 +37,8 @@ img: realwantedly-4.jpg
 自分がやったことが、直に見える、やったことが直接フィードバックされるっていうことには憧れるけど、それって例えば、自分でWebサービスを作ってみても同じことが言えるのかもしれない。もっとも、みんなに使ってもらっているサービスを改善していけるというのは面白いのかもしれないけど、ちょっと考えてみれば、どんな仕事でも工夫次第なのかと。
 
 
-
 <a href="https://px.a8.net/svt/ejp?a8mat=2HUM2F+96FLIQ+2GDO+5ZU2A&aspbid=a14081853587" target="_blank">リクナビNEXT</a>
-<img border="0" width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=2HUM2F+96FLIQ+2GDO+5ZU2A" alt="">
+<amp-img width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=2HUM2F+96FLIQ+2GDO+5ZU2A" alt="" layout="fixed"></amp-img>
 
 
 開発の仕方を聞くと、だいたいGitHub workflow, AWS, スクラム, 継続的インテグレーションは必須っぽい感じはしました。
