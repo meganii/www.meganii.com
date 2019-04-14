@@ -39,9 +39,11 @@ me.from_pydata(coords,[],faces)
 me.update(calc_edges=True)
 ```
 
-<iframe src="https://www.flickr.com/photos/35571855@N06/14479984155/in/photostream/player/" width="500" height="281" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+{{% img src="https://live.staticflickr.com/3878/14479984155_348fbedd9d.jpg" w="500" h="281" alt="Pyramid" %}}
+
 
 ## ドミノ
+
 ```python
 import bpy
 for y in range(0,5):
@@ -55,9 +57,11 @@ for y in range(0,5):
 	me.update(calc_edges=True)
 ```
 
-<iframe src="https://www.flickr.com/photos/35571855@N06/14500120233/player/" width="500" height="281" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+{{% img src="https://live.staticflickr.com/5545/14500120233_7a6416072d.jpg" w="500" h="281" alt="domino5" %}}
+
 
 ## ドミノ part2
+
 ```python
 import bpy
 
@@ -77,11 +81,12 @@ for y in reversed(range(100)):
 		create_cube(x, y)
 	loop = loop + 1
 ```
-<iframe src="https://www.flickr.com/photos/35571855@N06/14483105314/player/" width="500" height="276" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
+
+{{% img src="https://live.staticflickr.com/2914/14483105314_fc858148c2.jpg" w="500" h="276" alt="100domino.blender" %}}
 
 
 ## 参考
-- <a href="http://tips.hecomi.com/entry/20120818/1345307205" target="_blank"><img class="alignleft" align="left" border="0" src="https://capture.heartrails.com/150x130/shadow?http://tips.hecomi.com/entry/20120818/1345307205" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://tips.hecomi.com/entry/20120818/1345307205" target="_blank">Blender 2.63 での Python の使い方についてまとめてみた - 凹みTips</a><a href="http://b.hatena.ne.jp/entry/http://tips.hecomi.com/entry/20120818/1345307205" target="_blank"><img border="0" src="https://b.hatena.ne.jp/entry/image/http://tips.hecomi.com/entry/20120818/1345307205" alt="" /></a><br style="clear:both;" /><br>
-- <a href="http://wiki.theprovingground.org/blender-py-mathmesh" target="_blank"><img class="alignleft" align="left" border="0" src="https://capture.heartrails.com/150x130/shadow?http://wiki.theprovingground.org/blender-py-mathmesh" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://wiki.theprovingground.org/blender-py-mathmesh" target="_blank">Blender Python: Mathematical Mesh - THE PROVING GROUND</a><a href="http://b.hatena.ne.jp/entry/http://wiki.theprovingground.org/blender-py-mathmesh" target="_blank"><img border="0" src="https://b.hatena.ne.jp/entry/image/http://wiki.theprovingground.org/blender-py-mathmesh" alt="" /></a><br style="clear:both;" /><br>
 
+- [Blender 2\.63 での Python の使い方についてまとめてみた \- 凹みTips](http://tips.hecomi.com/entry/20120818/1345307205)
+- [Blender Python: Mathematical Mesh \- THE PROVING GROUND](http://wiki.theprovingground.org/blender-py-mathmesh)
