@@ -9,7 +9,7 @@ slug: ssh-sakuravps
 
 新しくMacBookAirを買ったので、さくらVPSへSSH接続を行うための鍵の設定。
 
-<a href="https://www.meganii.com/blog/2013/06/18/macbookair/" target="_blank"><img class="alignleft" align="left" border="0" src="https://capture.heartrails.com/150x130/shadow?https://www.meganii.com/blog/2013/06/18/macbookair/" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="https://www.meganii.com/blog/2013/06/18/macbookair/" target="_blank">念願のAir!! MacBookAir Mid 2013買いました - じょーぶん男子</a><a href="http://b.hatena.ne.jp/entry/https://www.meganii.com/blog/2013/06/18/macbookair/" target="_blank"><img border="0" src="https://b.hatena.ne.jp/entry/image/https://www.meganii.com/blog/2013/06/18/macbookair/" alt="" /></a><br style="clear:both;" /><br>
+[念願のAir!! MacBookAir Mid 2013買いました - SIS Lab](https://www.meganii.com/blog/2013/06/18/macbookair/)
 
 
 {{% googleadsense %}}
@@ -73,5 +73,4 @@ PasswordAuthentication yes
 - [sshd](http://open-groove.net/linux/sshd-restart/)
 
 
-<a href="http://www.amazon.co.jp/exec/obidos/ASIN/B008B3AMMO/" target="_blank"><img class="alignleft" align="left" border="0" src="https://capture.heartrails.com/150x130/shadow?http://www.amazon.co.jp/exec/obidos/ASIN/B008B3AMMO/" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://www.amazon.co.jp/exec/obidos/ASIN/B008B3AMMO/" target="_blank">Amazon.co.jp： APPLE MacBook Air 1.8GHz Core i5/13.3/4GB/128GB MD231J/A: パソコン・周辺機器</a><a href="http://b.hatena.ne.jp/entry/http://www.amazon.co.jp/exec/obidos/ASIN/B008B3AMMO/" target="_blank"><img border="0" src="https://b.hatena.ne.jp/entry/image/http://www.amazon.co.jp/exec/obidos/ASIN/B008B3AMMO/" alt="" /></a><br style="clear:both;" /><br>
-
+{{% amazon B008B3AMMO %}}
