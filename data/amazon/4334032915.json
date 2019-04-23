@@ -407,11 +407,6 @@
       "Title": "さおだけ屋はなぜ潰れないのか? 身近な疑問からはじめる会計学 (光文社新書)"
     },
     "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "756",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 756"
-      },
       "LowestUsedPrice": {
         "Amount": "1",
         "CurrencyCode": "JPY",
@@ -422,47 +417,18 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 750"
       },
-      "TotalNew": "1",
-      "TotalUsed": "633",
+      "TotalNew": "0",
+      "TotalUsed": "603",
       "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4334032915?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4334032915",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "b%2B%2BMINZ2JE6hMA0ZS0WMM%2F%2FgS5WzP%2FnBFe7JT7V29SvgVRmpx4NklGI7L%2FYl71WUWiMnxQkzrs8ioNMrfNSmETRhJ6AobswNrVS572e45ZM%3D",
-          "Price": {
-            "Amount": "756",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 756"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "7",
-          "TypicalRedemptionValue": {
-            "Amount": "7",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 7"
-          }
-        }
-      }
+      "TotalOffers": "0",
+      "TotalOfferPages": "0",
+      "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2019-04-14 21:27:13 +0900",
+  "Lastmod": "2019-04-24 06:42:15 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/e8b12556a126b50a60e5d9b2af786fe6/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/e8b12556a126b50a60e5d9b2af786fe6/"

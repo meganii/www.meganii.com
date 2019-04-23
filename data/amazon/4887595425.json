@@ -117,13 +117,18 @@
       "Title": "マニャーナの法則 明日できることを今日やるな"
     },
     "OfferSummary": {
+      "LowestNewPrice": {
+        "Amount": "5000",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 5,000"
+      },
       "LowestUsedPrice": {
         "Amount": "1",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 1"
       },
-      "TotalNew": "0",
-      "TotalUsed": "30",
+      "TotalNew": "1",
+      "TotalUsed": "21",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -133,7 +138,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2019-04-14 21:24:33 +0900",
+  "Lastmod": "2019-04-24 06:39:25 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/d0e429836c4000ccea1142eb55e5f67f/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/d0e429836c4000ccea1142eb55e5f67f/"
