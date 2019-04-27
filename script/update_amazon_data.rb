@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rubygems'
 require 'amazon/ecs'
 require 'rapa'
@@ -10,8 +12,8 @@ require 'open-uri'
 require 'JSON'
 
 Amazon::Ecs.configure do |options|
-  options[:AWS_access_key_id] = ENV['AWS_ACCESS_KEY']
-  options[:AWS_secret_key] = ENV['AWS_SECRET_KEY']
+  options[:AWS_access_key_id] = ENV['AWS_ACCESS_KEY_ID']
+  options[:AWS_secret_key] = ENV['AWS_SECRET_ACCESS_KEY']
   options[:associate_tag] = 'meganii-22'
   options[:country] = 'jp'
 end
@@ -20,9 +22,9 @@ RAKUTEN_ENDPOINT = "https://app.rakuten.co.jp/services/api/Product/Search/201704
 YAHOO_ENDPOINT = "https://shopping.yahooapis.jp/ShoppingWebService/V1/json/itemSearch?appid=#{ENV['YAHOO_APP_ID']}"
 
 # extract amazon shortcode
-def extract_amazon_itemid_from_shortcode
+def extract_asin_from_shortcode
   list = []
-  Dir.glob('content/*/*.markdown') do |file|
+  Dir.glob('content/*/*.md') do |file|
     File.open(file) do |f|
       m = f.read.scan(/\{\{\% amazon.* \%\}\}/)
       unless m.empty?
@@ -120,7 +122,7 @@ def get_yahoo_url_from(jan_list)
 end
 
 # main
-id_list = extract_amazon_itemid_from_shortcode
+id_list = extract_asin_from_shortcode
 id_list.each do |id|
   puts id
   puts 'sleep for 2s'
@@ -153,3 +155,4 @@ end
 
 # puts get_rakuten_url_from('9784152092670') #TEST
 # puts get_yahoo_url_from(["4960833503153", "4960833525773"])
+# puts get_amazon_jsondata('B01NADS36I')
