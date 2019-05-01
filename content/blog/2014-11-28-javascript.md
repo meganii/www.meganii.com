@@ -1,5 +1,4 @@
 ---
-
 title: "[コツコツ勉強]よくわからないままJavaScriptを使っている自分へ"
 date: 2014-11-28T23:32:00+09:00
 comments: true
@@ -49,15 +48,14 @@ jQuery、AngularJSとかサンプルを触ってみるけど、いまいちJavaS
 
 
 
+{{% img src="https://i.gyazo.com/9edc5cbcac919d8f1e243f3716a1096f.jpg" w="400" h="300"%}}
 
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/15904453412" title="2014年11月29日11時09分37秒000by meganii, on Flickr"><img class="img-responsive" src="https://farm9.staticflickr.com/8626/15904453412_16fcf9d124_z.jpg" alt="2014年11月29日11時09分37秒000"></a></p>
+{{% img src="https://i.gyazo.com/d43a749b9fd9567bbb5471695cd6476c.jpg" w="400" h="300" %}}
 
-
-
-<p><a href="https://www.flickr.com/photos/35571855@N06/15904454052" title="2014年11月29日11時09分37秒by meganii, on Flickr"><img class="img-responsive" src="https://farm8.staticflickr.com/7581/15904454052_ea152fb630_z.jpg" alt="2014年11月29日11時09分37秒"></a></p>
 
 ## 参考
+
 - [JavaScript 徹底入門のための資料＆書籍まとめ - 酒と泪とRubyとRailsと](http://morizyun.github.io/blog/javascript-learning-tech-yourself_01/)
 - [jQueryのソースコードを読むための参考サイト２０選 - DQNEO起業日記](http://dqn.sakusakutto.jp/2012/05/jquery-sourcecode-reading.html)
 - [[JavaScript]　猿でもわかるクロージャ超入門　まとめ - DQNEO起業日記](http://dqn.sakusakutto.jp/2009/01/javascript_5.html)
