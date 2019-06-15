@@ -129,6 +129,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4797380357",
+      "ItemDimensions": {
+        "Weight": "137"
+      },
       "Label": "SBクリエイティブ",
       "Languages": {
         "Language": {
@@ -152,62 +155,28 @@
       "Title": "Rubyによるクローラー開発技法 巡回・解析機能の実装と21の運用例"
     },
     "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "3218",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,218"
-      },
       "LowestUsedPrice": {
-        "Amount": "399",
+        "Amount": "429",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 399"
+        "FormattedPrice": "￥ 429"
       },
       "LowestCollectiblePrice": {
         "Amount": "1880",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 1,880"
       },
-      "TotalNew": "2",
-      "TotalUsed": "32",
+      "TotalNew": "0",
+      "TotalUsed": "29",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4797380357?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4797380357",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "ilOgyJ87VhxS0mjhtbfnoHxBf0LV3QUByirbY1qmSwhsP44s02fv9%2FJ%2BBkqzo4fLiPEqYkCJfc8mm1skkXS7ei%2Bshl52%2F159bxl6VeE1UBE%3D",
-          "Price": {
-            "Amount": "3218",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 3,218"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "29",
-          "TypicalRedemptionValue": {
-            "Amount": "29",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 29"
-          }
-        }
-      }
+      "TotalOffers": "0",
+      "TotalOfferPages": "0",
+      "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2019-04-14 20:50:32 +0900",
+  "Lastmod": "2019-06-15 21:15:15 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/b2dabdf1abd4b3bf9856c30fad7809ca/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/b2dabdf1abd4b3bf9856c30fad7809ca/"

@@ -165,7 +165,7 @@
       "IsAdultProduct": "0",
       "ISBN": "4763134507",
       "ItemDimensions": {
-        "Weight": "0"
+        "Weight": "66"
       },
       "Label": "サンマーク出版",
       "Languages": {
@@ -196,13 +196,18 @@
         "FormattedPrice": "￥ 1,620"
       },
       "LowestUsedPrice": {
-        "Amount": "1",
+        "Amount": "176",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1"
+        "FormattedPrice": "￥ 176"
       },
-      "TotalNew": "2",
-      "TotalUsed": "135",
-      "TotalCollectible": "0",
+      "LowestCollectiblePrice": {
+        "Amount": "537",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 537"
+      },
+      "TotalNew": "3",
+      "TotalUsed": "127",
+      "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -214,7 +219,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "6JFfIQ2Uh0tlrqtb2odIT9wHmUe2j%2FKJhFJWD8BuIqPdAVCXyp3g2pI%2Bt3cKdhvJre9xVuoaPIXzvpS0Q7547OpQB5FUDWvGLng5yQ7TPQA%3D",
+          "OfferListingId": "sObs2gsBsEfp2XvoGP0Xv5Fq%2Bp9cH78QKqVh5jScaDDnPx9X%2FUrGG1E8JTgW94FCuPW%2BHbPnfxs43ECKRurTzYhiukxrEMKUpABaHNiIjFs%3D",
           "Price": {
             "Amount": "1620",
             "CurrencyCode": "JPY",
@@ -230,17 +235,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "48",
+          "Points": "16",
           "TypicalRedemptionValue": {
-            "Amount": "48",
+            "Amount": "16",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 48"
+            "FormattedPrice": "￥ 16"
           }
         }
       }
     }
   },
-  "Lastmod": "2019-04-14 20:57:43 +0900",
+  "Lastmod": "2019-06-15 21:15:28 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/f517089b68727a1eae40fc79bd8fea8f/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/f517089b68727a1eae40fc79bd8fea8f/"

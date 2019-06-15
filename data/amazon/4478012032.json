@@ -118,7 +118,7 @@
       "IsAdultProduct": "0",
       "ISBN": "9784478012031",
       "ItemDimensions": {
-        "Weight": "0"
+        "Weight": "79"
       },
       "Label": "ダイヤモンド社",
       "Languages": {
@@ -151,9 +151,9 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1256",
+        "Amount": "1380",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,256"
+        "FormattedPrice": "￥ 1,380"
       },
       "LowestUsedPrice": {
         "Amount": "1",
@@ -165,8 +165,8 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 1,000"
       },
-      "TotalNew": "17",
-      "TotalUsed": "878",
+      "TotalNew": "20",
+      "TotalUsed": "897",
       "TotalCollectible": "7",
       "TotalRefurbished": "0"
     },
@@ -179,11 +179,11 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "SkxJoxa0Gv%2FanHJFvJdAxTJvDQFq6xWjBGk0oHZ3h0QaaZv8Z%2BNiZoS1ON0CuUHCPXzv8%2BpRe%2BvY9f8i5B2yvB%2FCj%2Ft6h2HZq3BBvFeOXrufjfSAVKJO0iV1jf%2BKIjrR6%2FsskVGbAdcT%2BP0%2F66TDapHAi0pm%2BNcx",
+          "OfferListingId": "xo1j%2Bq06dl0v5J7g45QfwzbNqh8a%2BoTyGZ1B3rBxBmci078z0dgC%2BpYY3JT%2Bqi6IWJh8j2BtmkKBhWvHOdCxmhslz%2B9ZutpRg0TsBfDagXbRUr0E6pI%2BP9fqcbdv7%2FBHw3FNPv5eHZl8nEL9pXg58%2B7D3s4%2F1fBa",
           "Price": {
-            "Amount": "1256",
+            "Amount": "1728",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,256"
+            "FormattedPrice": "￥ 1,728"
           },
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
@@ -193,11 +193,19 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "349",
+          "TypicalRedemptionValue": {
+            "Amount": "349",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 349"
+          }
         }
       }
     }
   },
-  "Lastmod": "2019-04-24 06:45:33 +0900",
+  "Lastmod": "2019-06-15 21:15:21 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/a4e194e830b37d6104208a4e93913e22/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/a4e194e830b37d6104208a4e93913e22/"
