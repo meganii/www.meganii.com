@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['働き方','AI']
 published: true
 slug: "a-new-way-of-thinking-in-the-era-of-artificial-intelligence"
-img: 
+img: "https://i.gyazo.com/thumb/400/85b19cf413b5dbe220e82e4ba5df6056-png.png"
 ---
 
 <!--more-->
