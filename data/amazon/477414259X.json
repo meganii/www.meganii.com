@@ -117,28 +117,54 @@
       "Title": "IT業界を楽しく生き抜くための「つまみぐい勉強法」 (技評SE選書)"
     },
     "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "320",
+      "LowestNewPrice": {
+        "Amount": "2980",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 320"
+        "FormattedPrice": "￥ 2,980"
+      },
+      "LowestUsedPrice": {
+        "Amount": "400",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 400"
       },
       "LowestCollectiblePrice": {
         "Amount": "2480",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 2,480"
       },
-      "TotalNew": "0",
-      "TotalUsed": "17",
+      "TotalNew": "2",
+      "TotalUsed": "22",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
+      "TotalOffers": "1",
+      "TotalOfferPages": "1",
+      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/477414259X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=477414259X",
+      "Offer": {
+        "OfferAttributes": {
+          "Condition": "New"
+        },
+        "OfferListing": {
+          "OfferListingId": "dnB%2Fc71n09Sp5kowu8mPxWI%2BcAmziKamx0pnkom8rOc9Dj6oKem%2B8PvWgVYHItJVcQ%2FwxxVR%2FpJFW7YnOdwbWxxidzaNOosG7jCFT2WeLV3RjBl7t325d%2FHuaIpuYJQrHmQZts7gzwIAM6tFll187w%3D%3D",
+          "Price": {
+            "Amount": "2980",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 2,980"
+          },
+          "Availability": "在庫あり。",
+          "AvailabilityAttributes": {
+            "AvailabilityType": "now",
+            "MinimumHours": "0",
+            "MaximumHours": "0"
+          },
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        }
+      }
     }
   },
-  "Lastmod": "2019-04-24 06:45:14 +0900",
+  "Lastmod": "2019-06-15 21:14:38 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/4a175f13a920db7bb806628132dfff5c/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/4a175f13a920db7bb806628132dfff5c/"

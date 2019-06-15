@@ -121,9 +121,6 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4098250497",
-      "ItemDimensions": {
-        "Weight": "0"
-      },
       "Label": "小学館",
       "Languages": {
         "Language": [
@@ -154,6 +151,11 @@
       "Title": "目立つ力 (小学館101新書 49)"
     },
     "OfferSummary": {
+      "LowestNewPrice": {
+        "Amount": "3494",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 3,494"
+      },
       "LowestUsedPrice": {
         "Amount": "1",
         "CurrencyCode": "JPY",
@@ -164,8 +166,8 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 298"
       },
-      "TotalNew": "0",
-      "TotalUsed": "63",
+      "TotalNew": "1",
+      "TotalUsed": "62",
       "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
@@ -175,7 +177,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2019-04-24 06:44:46 +0900",
+  "Lastmod": "2019-06-15 21:13:54 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/401e8d25fd72da36e33c81194ae952db/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/401e8d25fd72da36e33c81194ae952db/"

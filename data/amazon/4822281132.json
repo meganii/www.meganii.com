@@ -86,14 +86,14 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4822281132",
-      "Label": "日経BP社",
+      "Label": "日経BP",
       "Languages": {
         "Language": {
           "Name": "日本語",
           "Type": "Published"
         }
       },
-      "Manufacturer": "日経BP社",
+      "Manufacturer": "日経BP",
       "NumberOfPages": "471",
       "PackageDimensions": {
         "Height": "118",
@@ -104,38 +104,59 @@
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2001-11-25",
-      "Publisher": "日経BP社",
-      "Studio": "日経BP社",
+      "Publisher": "日経BP",
+      "Studio": "日経BP",
       "Title": "基本から学ぶソフトウェアテスト"
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "9788",
+        "Amount": "3980",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 9,788"
+        "FormattedPrice": "￥ 3,980"
       },
       "LowestUsedPrice": {
-        "Amount": "1063",
+        "Amount": "450",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,063"
+        "FormattedPrice": "￥ 450"
       },
       "LowestCollectiblePrice": {
         "Amount": "6561",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 6,561"
       },
-      "TotalNew": "1",
-      "TotalUsed": "21",
-      "TotalCollectible": "2",
+      "TotalNew": "2",
+      "TotalUsed": "19",
+      "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
+      "TotalOffers": "1",
+      "TotalOfferPages": "1",
+      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4822281132?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4822281132",
+      "Offer": {
+        "OfferAttributes": {
+          "Condition": "New"
+        },
+        "OfferListing": {
+          "OfferListingId": "3QIqD9rgZp0iMd9aY0WFKFmmr7e4zPNRYycO%2BM6wzpjOQ0ILoOX%2FfssYhI7%2B%2FeJI4fs29%2FhcRl3w9SeKWByEJyMcPl3msXnDNDANhLqwTSE9vr23B17wdD0JCwLjkoVK0Mz6pu8GUpiLOuRXDIyHhq9jKBjoqd7X",
+          "Price": {
+            "Amount": "3980",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 3,980"
+          },
+          "Availability": "在庫あり。",
+          "AvailabilityAttributes": {
+            "AvailabilityType": "now",
+            "MinimumHours": "0",
+            "MaximumHours": "0"
+          },
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        }
+      }
     }
   },
-  "Lastmod": "2019-04-14 20:22:33 +0900",
+  "Lastmod": "2019-06-15 20:44:10 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/7d2dbef0ad059a6ef00033445cd8ddc0/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/7d2dbef0ad059a6ef00033445cd8ddc0/"

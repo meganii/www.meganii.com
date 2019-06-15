@@ -85,12 +85,21 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "477478401X",
+      "ItemDimensions": {
+        "Weight": "128"
+      },
       "Label": "コスミック出版",
       "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
+        "Language": [
+          {
+            "Name": "日本語",
+            "Type": "Published"
+          },
+          {
+            "Name": "日本語",
+            "Type": "Unknown"
+          }
+        ]
       },
       "Manufacturer": "コスミック出版",
       "NumberOfItems": "1",
@@ -116,12 +125,12 @@
         "FormattedPrice": "￥ 780"
       },
       "LowestUsedPrice": {
-        "Amount": "168",
+        "Amount": "163",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 168"
+        "FormattedPrice": "￥ 163"
       },
       "TotalNew": "2",
-      "TotalUsed": "10",
+      "TotalUsed": "13",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -134,7 +143,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "STlcJFBUb2om4GYz7o2OyISiv%2B4ukyGiOwcK3JwzH5cWfrSyddhCTVQ56YuOvfKYImdPYJx20TAEFVSHd%2FnRPnORkuzJRuRHHM4QrxHuA7o%3D",
+          "OfferListingId": "34lPsbdhICkhfpPoNg%2FbBCtznahTnjkHu38t9Eqst7WR3fTW%2Fe6xR%2Bc6Gl%2Fchijsm7rAsJgged6LMFfElPk%2BVGJP7AnDKAonEycOPHtu6gE%3D",
           "Price": {
             "Amount": "780",
             "CurrencyCode": "JPY",
@@ -148,11 +157,19 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "8",
+          "TypicalRedemptionValue": {
+            "Amount": "8",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 8"
+          }
         }
       }
     }
   },
-  "Lastmod": "2019-04-14 20:51:07 +0900",
+  "Lastmod": "2019-06-15 20:42:12 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/aa91d07703273377085b582dce4b434d/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/aa91d07703273377085b582dce4b434d/"

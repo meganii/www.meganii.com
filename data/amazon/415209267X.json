@@ -174,9 +174,6 @@
       "Edition": "完全",
       "IsAdultProduct": "0",
       "ISBN": "415209267X",
-      "ItemDimensions": {
-        "Weight": "0"
-      },
       "Label": "早川書房",
       "Languages": {
         "Language": {
@@ -207,13 +204,18 @@
         "FormattedPrice": "￥ 1,620"
       },
       "LowestUsedPrice": {
-        "Amount": "498",
+        "Amount": "139",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 498"
+        "FormattedPrice": "￥ 139"
       },
-      "TotalNew": "1",
-      "TotalUsed": "24",
-      "TotalCollectible": "0",
+      "LowestCollectiblePrice": {
+        "Amount": "500",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 500"
+      },
+      "TotalNew": "2",
+      "TotalUsed": "57",
+      "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -225,25 +227,33 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "F7nstwkw%2F407ysV0sY6RMtzzmPdZdETDby%2B94pY99ktX7CmHTJFKk%2BoBYEtKSKLb1RjmN5km1VFyt6JR7NOcJsNhSoVp30VhiiYtqAnoAE8%3D",
+          "OfferListingId": "b7DYy5gnjoXjt3uJ2sqCyCKFgJcva9WSWmaSq0KnjpXQDlT9O0mUrnVeyf5CI%2BENZX1lb2HvRRTga7QWqkgulIx3QsdphTOj84N4j4E0WxY%3D",
           "Price": {
             "Amount": "1620",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 1,620"
           },
-          "Availability": "一時的に在庫切れですが、商品が入荷次第配送します。配送予定日がわかり次第Eメールにてお知らせします。商品の代金は発送時に請求いたします。",
+          "Availability": "在庫あり。",
           "AvailabilityAttributes": {
-            "AvailabilityType": "unknown",
-            "MinimumHours": "672",
-            "MaximumHours": "1008"
+            "AvailabilityType": "now",
+            "MinimumHours": "0",
+            "MaximumHours": "0"
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "48",
+          "TypicalRedemptionValue": {
+            "Amount": "48",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 48"
+          }
         }
       }
     }
   },
-  "Lastmod": "2019-04-14 20:50:39 +0900",
+  "Lastmod": "2019-06-15 20:34:13 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/52cd2d842ac569113aff3cb1cf0d4f3c/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/52cd2d842ac569113aff3cb1cf0d4f3c/"

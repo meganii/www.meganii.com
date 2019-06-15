@@ -126,14 +126,17 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4822264947",
-      "Label": "日経BP社",
+      "ItemDimensions": {
+        "Weight": "75"
+      },
+      "Label": "日経BP",
       "Languages": {
         "Language": {
           "Name": "日本語",
           "Type": "Published"
         }
       },
-      "Manufacturer": "日経BP社",
+      "Manufacturer": "日経BP",
       "NumberOfItems": "1",
       "NumberOfPages": "272",
       "PackageDimensions": {
@@ -145,29 +148,24 @@
       "ProductGroup": "Book",
       "ProductTypeName": "ABIS_BOOK",
       "PublicationDate": "2014-12-12",
-      "Publisher": "日経BP社",
-      "Studio": "日経BP社",
+      "Publisher": "日経BP",
+      "Studio": "日経BP",
       "Title": "実践 デザイン・シンキング"
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "7342",
+        "Amount": "3780",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 7,342"
+        "FormattedPrice": "￥ 3,780"
       },
       "LowestUsedPrice": {
-        "Amount": "445",
+        "Amount": "148",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 445"
+        "FormattedPrice": "￥ 148"
       },
-      "LowestCollectiblePrice": {
-        "Amount": "4710",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 4,710"
-      },
-      "TotalNew": "1",
-      "TotalUsed": "17",
-      "TotalCollectible": "1",
+      "TotalNew": "3",
+      "TotalUsed": "24",
+      "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -176,7 +174,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2019-04-14 20:48:58 +0900",
+  "Lastmod": "2019-06-15 20:36:58 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/be7af638aa8e16403451de8212aed8cc/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/be7af638aa8e16403451de8212aed8cc/"

@@ -127,7 +127,7 @@
       "IsAdultProduct": "0",
       "ISBN": "4627847114",
       "ItemDimensions": {
-        "Weight": "0"
+        "Weight": "93"
       },
       "Label": "森北出版",
       "Languages": {
@@ -152,13 +152,18 @@
       "Title": "フリーソフトでつくる音声認識システム パターン認識・機械学習の初歩から対話システムまで"
     },
     "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "4",
+      "LowestNewPrice": {
+        "Amount": "10055",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 4"
+        "FormattedPrice": "￥ 10,055"
       },
-      "TotalNew": "0",
-      "TotalUsed": "29",
+      "LowestUsedPrice": {
+        "Amount": "210",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 210"
+      },
+      "TotalNew": "1",
+      "TotalUsed": "21",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -168,7 +173,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2019-04-14 20:46:00 +0900",
+  "Lastmod": "2019-06-15 21:12:41 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/f51c42a967d878f2425a994f80c5c542/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/f51c42a967d878f2425a994f80c5c542/"

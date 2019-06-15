@@ -86,9 +86,6 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4763195093",
-      "ItemDimensions": {
-        "Weight": "132"
-      },
       "Label": "サンマーク出版",
       "Languages": {
         "Language": [
@@ -120,23 +117,23 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1260",
+        "Amount": "827",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,260"
+        "FormattedPrice": "￥ 827"
       },
       "LowestUsedPrice": {
-        "Amount": "1",
+        "Amount": "20",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1"
+        "FormattedPrice": "￥ 20"
       },
       "LowestCollectiblePrice": {
         "Amount": "333",
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 333"
       },
-      "TotalNew": "4",
-      "TotalUsed": "247",
-      "TotalCollectible": "7",
+      "TotalNew": "12",
+      "TotalUsed": "244",
+      "TotalCollectible": "5",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -148,7 +145,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "RE4ARP1WrqVm7CJ89N%2F57cKgfKIhRr8aPAQemUM4K2abPvvKfRfD16137W9pqTA8iDBq5Cy0xAyrOi4fkO5fkJxLZAqJfqRxDhxsSpDR3tY%3D",
+          "OfferListingId": "T5vYIEQQrZW2IerPrGgcNJvunYLJLRRkurrSx2rHUOVNcGK%2FkjXgct5JiAC2qyTpcR7I1BmdHTvM%2BV%2Fhqtnv3P6zTBU3qqgZOzk2Vz4EEHw%3D",
           "Price": {
             "Amount": "1296",
             "CurrencyCode": "JPY",
@@ -164,17 +161,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "36",
+          "Points": "12",
           "TypicalRedemptionValue": {
-            "Amount": "36",
+            "Amount": "12",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 36"
+            "FormattedPrice": "￥ 12"
           }
         }
       }
     }
   },
-  "Lastmod": "2019-04-14 20:23:17 +0900",
+  "Lastmod": "2019-06-15 20:44:58 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/1844d26a30a2bb23c92c8f60a7bb912c/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/1844d26a30a2bb23c92c8f60a7bb912c/"

@@ -86,9 +86,6 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4800710561",
-      "ItemDimensions": {
-        "Weight": "0"
-      },
       "Label": "ソーテック社",
       "Languages": {
         "Language": {
@@ -122,8 +119,8 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 1"
       },
-      "TotalNew": "2",
-      "TotalUsed": "60",
+      "TotalNew": "3",
+      "TotalUsed": "63",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -136,7 +133,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "H9mwUNsdgcBZuGOWUR2BT93HQtMmVvO4zpvc%2FhAhF45gKmPOBwtn9Q3b57Q2hPh51B5rjVT9JZ6OEUeKC3FsGuysr5BstHpkAPvwAEH%2BxmQ%3D",
+          "OfferListingId": "HF5%2FPoV0lS31wFge%2BO3HIA4jC%2BJtDl%2FlAzUIH5MwLZKw7yHGLZCIs8doqm7RnzxY8fFORXFTGM1cvtpbMEWV3icbjG3Ivpl2vY06Vaqw6DCDYvyDr6ZX6SSvIbcSXfWtSmOfkEstY7zGLBpxctGg3A%3D%3D",
           "Price": {
             "Amount": "1598",
             "CurrencyCode": "JPY",
@@ -145,24 +142,24 @@
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
+            "MinimumHours": "24",
+            "MaximumHours": "24"
           },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
+          "IsEligibleForSuperSaverShipping": "0",
+          "IsEligibleForPrime": "0"
         },
         "LoyaltyPoints": {
-          "Points": "45",
+          "Points": "288",
           "TypicalRedemptionValue": {
-            "Amount": "45",
+            "Amount": "288",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 45"
+            "FormattedPrice": "￥ 288"
           }
         }
       }
     }
   },
-  "Lastmod": "2019-04-14 20:53:57 +0900",
+  "Lastmod": "2019-06-15 20:29:03 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/1f09d06f8db3d2d6b5b3d8521138ad00/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/1f09d06f8db3d2d6b5b3d8521138ad00/"

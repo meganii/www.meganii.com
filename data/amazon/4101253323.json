@@ -167,7 +167,6 @@
       "ItemDimensions": {
         "Height": "79",
         "Length": "583",
-        "Weight": "0",
         "Width": "413"
       },
       "Label": "新潮社",
@@ -194,9 +193,9 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "497",
+        "Amount": "529",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 497"
+        "FormattedPrice": "￥ 529"
       },
       "LowestUsedPrice": {
         "Amount": "1",
@@ -209,7 +208,7 @@
         "FormattedPrice": "￥ 3,200"
       },
       "TotalNew": "2",
-      "TotalUsed": "413",
+      "TotalUsed": "433",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -222,7 +221,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "X5bWU5S9EutLKtrG5xJWuORQoUgEn4Yn4DjK57JPMgasukVe%2FGHWEdPzXCZCzUrB8tLReTRFJaVb04mPBDkxkw%2BXGseTqTFLai%2F9xR1olms%3D",
+          "OfferListingId": "1GsOPccyrNP9LxkSNK%2FeCt4w2gGJntCM04OZqeiystGg3%2Bgzu%2Boww33ZLtOhnXIggP422U0ExGRpmjKCnt6mm%2Bp8rXrX6GZvRGD7qdxj%2FRM%3D",
           "Price": {
             "Amount": "529",
             "CurrencyCode": "JPY",
@@ -238,17 +237,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "5",
+          "Points": "15",
           "TypicalRedemptionValue": {
-            "Amount": "5",
+            "Amount": "15",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 5"
+            "FormattedPrice": "￥ 15"
           }
         }
       }
     }
   },
-  "Lastmod": "2019-04-24 06:44:55 +0900",
+  "Lastmod": "2019-06-15 21:14:06 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/6469360be31f5823c37f7cb811689dff/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/6469360be31f5823c37f7cb811689dff/"

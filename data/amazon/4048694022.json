@@ -96,6 +96,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4048694022",
+      "ItemDimensions": {
+        "Weight": "0"
+      },
       "Label": "KADOKAWA",
       "Languages": {
         "Language": {
@@ -127,12 +130,12 @@
         "FormattedPrice": "￥ 5,184"
       },
       "LowestUsedPrice": {
-        "Amount": "4560",
+        "Amount": "4250",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 4,560"
+        "FormattedPrice": "￥ 4,250"
       },
       "TotalNew": "2",
-      "TotalUsed": "9",
+      "TotalUsed": "12",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -145,7 +148,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "nmYMWvRZDrTxjcjxj503ca0ugfL4QEzGqLaRxu51mXRTEe5BpdsMIE2%2BhtE1uvO1sL7%2FkHOJJkZgS5U9wwSEWf7cMCUeUA2RXM4lrs9xyP8%3D",
+          "OfferListingId": "v2sv1Jjomb3VMDD%2BPze4ddH5fD5RMocVVirpj1isxAu2vzB040ZNeENJEvwhtq%2FqQkJYOwU2A5yV4hJ04OMn1APNKlC0ZXVITbbJOdqwk60%3D",
           "Price": {
             "Amount": "5184",
             "CurrencyCode": "JPY",
@@ -171,7 +174,7 @@
       }
     }
   },
-  "Lastmod": "2019-04-14 20:23:52 +0900",
+  "Lastmod": "2019-06-15 20:45:31 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/25bde707677f1c6ad32fd41412e9fee5/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/25bde707677f1c6ad32fd41412e9fee5/"

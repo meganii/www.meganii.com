@@ -111,6 +111,11 @@
       "Title": "海馬/脳は疲れない ほぼ日ブックス"
     },
     "OfferSummary": {
+      "LowestNewPrice": {
+        "Amount": "2280",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 2,280"
+      },
       "LowestUsedPrice": {
         "Amount": "1",
         "CurrencyCode": "JPY",
@@ -121,18 +126,39 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 1,303"
       },
-      "TotalNew": "0",
-      "TotalUsed": "57",
+      "TotalNew": "2",
+      "TotalUsed": "75",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
+      "TotalOffers": "1",
+      "TotalOfferPages": "1",
+      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4255001545?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4255001545",
+      "Offer": {
+        "OfferAttributes": {
+          "Condition": "New"
+        },
+        "OfferListing": {
+          "OfferListingId": "9Pmi71YssLag8zbpV%2ByncQsUMRHhzmFSd%2F93nzhNTiE7VGu8vHHYPYQYvaFo9FJKuTFspOk0HpJunDsqckWHcjjp7lo9HlAQvwERZwYzq0SDgHju1Amqofrs2Rz1JMBERjFtYwqV42u3MQgT0DlLsA%3D%3D",
+          "Price": {
+            "Amount": "2280",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 2,280"
+          },
+          "Availability": "在庫あり。",
+          "AvailabilityAttributes": {
+            "AvailabilityType": "now",
+            "MinimumHours": "0",
+            "MaximumHours": "0"
+          },
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        }
+      }
     }
   },
-  "Lastmod": "2019-04-24 06:41:30 +0900",
+  "Lastmod": "2019-06-15 20:32:15 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/b337533738e731d8371b6d08ae220dfa/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/b337533738e731d8371b6d08ae220dfa/"

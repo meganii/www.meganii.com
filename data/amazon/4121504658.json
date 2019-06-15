@@ -110,13 +110,18 @@
         "FormattedPrice": "￥ 950"
       },
       "LowestUsedPrice": {
-        "Amount": "1",
+        "Amount": "9",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1"
+        "FormattedPrice": "￥ 9"
       },
-      "TotalNew": "1",
-      "TotalUsed": "24",
-      "TotalCollectible": "0",
+      "LowestCollectiblePrice": {
+        "Amount": "88",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 88"
+      },
+      "TotalNew": "2",
+      "TotalUsed": "32",
+      "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -128,25 +133,33 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "sY%2Fw4AGnILTDvQ3rSAX04jH5Dv21QEKZDF9299VZY9apPIwZ3ai4iwdArEbqMHlQojYVkf2HFf8M%2BXuPCtx%2FwkkZiTSiRN6DmON%2Bm2unD4M%3D",
+          "OfferListingId": "6UfQCXhIOlpueKuzDL6Uk%2B7zDHAFTAVoY6MxKzbA78Iild5EbBIG5krHbp7vdfbbfW6j88Q6dnNaJRczx6PTz7UjbmV0%2BuIiM5MVxUm9bow%3D",
           "Price": {
             "Amount": "950",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 950"
           },
-          "Availability": "一時的に在庫切れですが、商品が入荷次第配送します。配送予定日がわかり次第Eメールにてお知らせします。商品の代金は発送時に請求いたします。",
+          "Availability": "在庫あり。",
           "AvailabilityAttributes": {
-            "AvailabilityType": "unknown",
-            "MinimumHours": "672",
-            "MaximumHours": "1008"
+            "AvailabilityType": "now",
+            "MinimumHours": "0",
+            "MaximumHours": "0"
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "9",
+          "TypicalRedemptionValue": {
+            "Amount": "9",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 9"
+          }
         }
       }
     }
   },
-  "Lastmod": "2019-04-14 20:47:14 +0900",
+  "Lastmod": "2019-06-15 20:35:31 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/53d5de99f343df67d1c3f7c9b105eb8f/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/53d5de99f343df67d1c3f7c9b105eb8f/"

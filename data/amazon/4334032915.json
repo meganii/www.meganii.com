@@ -381,7 +381,7 @@
       "IsAdultProduct": "0",
       "ISBN": "9784334032913",
       "ItemDimensions": {
-        "Weight": "0"
+        "Weight": "44"
       },
       "Label": "光文社",
       "Languages": {
@@ -407,6 +407,11 @@
       "Title": "さおだけ屋はなぜ潰れないのか? 身近な疑問からはじめる会計学 (光文社新書)"
     },
     "OfferSummary": {
+      "LowestNewPrice": {
+        "Amount": "756",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 756"
+      },
       "LowestUsedPrice": {
         "Amount": "1",
         "CurrencyCode": "JPY",
@@ -417,18 +422,47 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 750"
       },
-      "TotalNew": "0",
-      "TotalUsed": "603",
+      "TotalNew": "2",
+      "TotalUsed": "597",
       "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
+      "TotalOffers": "1",
+      "TotalOfferPages": "1",
+      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4334032915?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4334032915",
+      "Offer": {
+        "OfferAttributes": {
+          "Condition": "New"
+        },
+        "OfferListing": {
+          "OfferListingId": "f7KYLJjRlmI%2BN7YXcCxD%2Bjr3Lc5c2gqA6n6Y7Jw8xnrg7CB2Bf0RkhINkz0Q4q1lZ7yz4eZ63n%2F1D3cTnnh32ibpUjSMK42hvP%2Fmf7HI7Sg%3D",
+          "Price": {
+            "Amount": "756",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 756"
+          },
+          "Availability": "在庫あり。",
+          "AvailabilityAttributes": {
+            "AvailabilityType": "now",
+            "MinimumHours": "0",
+            "MaximumHours": "0"
+          },
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "7",
+          "TypicalRedemptionValue": {
+            "Amount": "7",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 7"
+          }
+        }
+      }
     }
   },
-  "Lastmod": "2019-04-24 06:42:15 +0900",
+  "Lastmod": "2019-06-15 20:33:37 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/e8b12556a126b50a60e5d9b2af786fe6/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/e8b12556a126b50a60e5d9b2af786fe6/"

@@ -90,11 +90,6 @@
         "Width": "551"
       },
       "Label": "リコー",
-      "ListPrice": {
-        "Amount": "48137",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 48,137"
-      },
       "Manufacturer": "リコー",
       "ManufacturerPartsWarrantyDescription": "メーカー保証:1年",
       "Model": "CX2(BK)",
@@ -117,23 +112,49 @@
       "Title": "RICOH デジタルカメラ CX2 ブラック CX2BK"
     },
     "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "4180",
+      "LowestNewPrice": {
+        "Amount": "24800",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 4,180"
+        "FormattedPrice": "￥ 24,800"
       },
-      "TotalNew": "0",
-      "TotalUsed": "21",
+      "LowestUsedPrice": {
+        "Amount": "3280",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 3,280"
+      },
+      "TotalNew": "1",
+      "TotalUsed": "27",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
     "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
+      "TotalOffers": "1",
+      "TotalOfferPages": "1",
+      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/B002M51C5S?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B002M51C5S",
+      "Offer": {
+        "OfferAttributes": {
+          "Condition": "New"
+        },
+        "OfferListing": {
+          "OfferListingId": "OdS%2BYXQL6TcIim9X5v3PDix2uTRsBheJy%2B75Zff%2FWXu5R8If41mTt1vCJJXlC%2F4Pt5oPxWkPmkXSKCWHquYSPhEp10cNFIMeu87hEbLXoCeP9blS3TjrzZhHFnVqM2LSwgG4CtZcOcEooRIoPbB7mlXLfqDrUN0m",
+          "Price": {
+            "Amount": "24800",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 24,800"
+          },
+          "Availability": "在庫あり。",
+          "AvailabilityAttributes": {
+            "AvailabilityType": "now",
+            "MinimumHours": "0",
+            "MaximumHours": "0"
+          },
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        }
+      }
     }
   },
-  "Lastmod": "2019-04-24 06:43:06 +0900",
+  "Lastmod": "2019-06-15 20:37:26 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/a3bc19648b03009f43a761e645dba5b3/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/a3bc19648b03009f43a761e645dba5b3/"

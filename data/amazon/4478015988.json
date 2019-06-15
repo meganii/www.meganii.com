@@ -180,13 +180,13 @@
       "PublicationDate": "2011-09-30",
       "Publisher": "ダイヤモンド社",
       "Studio": "ダイヤモンド社",
-      "Title": "たった一度の人生を記録しなさい 自分を整理・再発見するライフログ入門"
+      "Title": "たった一度の人生を記録しなさい  自分を整理・再発見するライフログ入門"
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "1620",
+        "Amount": "827",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,620"
+        "FormattedPrice": "￥ 827"
       },
       "LowestUsedPrice": {
         "Amount": "1",
@@ -199,7 +199,7 @@
         "FormattedPrice": "￥ 300"
       },
       "TotalNew": "4",
-      "TotalUsed": "30",
+      "TotalUsed": "29",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -212,12 +212,23 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "7ed4apeo8S6OJBXcMRn2T0iqLA7FsSWyqswkmAHmXXS5ONbHTL57oaowdDEU9GlSQL%2BR7knGSjamlEekWnWGSZ%2BRWzaVlCI8iE6dyfqhLwPDGvP%2FAdr3n7RhNU0YFWUvXr71r%2FbctUr0GJ9YkEqHwQ%3D%3D",
+          "OfferListingId": "fmI%2FznYjXu5ZmGJpeDHMulNuUF%2BOKTzVUV%2BNOZ7PNSsDKgJvcStY6Ch%2FC4GTavsbvj2bRrYH8%2BewEzgghv9mzOR4cPQhwq%2BPjCRk9hysh6K737vFyi88lsmTSGhWMppSNnh0C60vA5NgR6vuunIi%2F4SvZW%2BeuUtn",
           "Price": {
             "Amount": "1620",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 1,620"
           },
+          "SalePrice": {
+            "Amount": "827",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 827"
+          },
+          "AmountSaved": {
+            "Amount": "793",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 793"
+          },
+          "PercentageSaved": "49",
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
@@ -226,19 +237,11 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "324",
-          "TypicalRedemptionValue": {
-            "Amount": "324",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 324"
-          }
         }
       }
     }
   },
-  "Lastmod": "2019-04-24 06:41:53 +0900",
+  "Lastmod": "2019-06-15 20:32:51 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/5c6dc373efd9889ac8a3e6e2e8c11886/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/5c6dc373efd9889ac8a3e6e2e8c11886/"

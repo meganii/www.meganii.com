@@ -85,9 +85,6 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4873114799",
-      "ItemDimensions": {
-        "Weight": "0"
-      },
       "Label": "オライリージャパン",
       "Languages": {
         "Language": [
@@ -124,12 +121,12 @@
         "FormattedPrice": "￥ 2,052"
       },
       "LowestUsedPrice": {
-        "Amount": "476",
+        "Amount": "729",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 476"
+        "FormattedPrice": "￥ 729"
       },
       "TotalNew": "3",
-      "TotalUsed": "26",
+      "TotalUsed": "32",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -142,17 +139,17 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "PB7ITdoJ5ZykBo%2FRxztIc0WgOtvFedvk0jhDLFH%2ByaOOjm671aC7pAnYkQ4SxCLCje2phKJMovI3yTq%2B%2FNlHnAmnK6mSRUjIp%2FDa2xCXOJnTdKJZJWjVeJQzbY9IRyjOclf2Duo2vjygr5SyzCOOsxrjhK5eXp0x",
+          "OfferListingId": "wEyjoQMhSeYzabwtOT13LTaFbnoMG5iyMQYnqSfNC7fMoJUsNwWmxXSSVpboJoCxHJf2JoXaUabx%2BtXz7ry8F%2Fzm5QseAVzWNogCCJB03XvVSHJ9UyQQWPVzFv3Ixcgz5f0tDBXd6TikmRrHjzZeJogiluizxl9l",
           "Price": {
             "Amount": "2052",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 2,052"
           },
-          "Availability": "通常4～5営業日以内に発送",
+          "Availability": "通常3～4営業日以内に発送",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "96",
-            "MaximumHours": "120"
+            "MinimumHours": "72",
+            "MaximumHours": "96"
           },
           "IsEligibleForSuperSaverShipping": "0",
           "IsEligibleForPrime": "0"
@@ -160,7 +157,7 @@
       }
     }
   },
-  "Lastmod": "2019-04-24 06:40:44 +0900",
+  "Lastmod": "2019-06-15 20:28:46 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/f9e3f17ae06060da314436a6170b832a/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/f9e3f17ae06060da314436a6170b832a/"

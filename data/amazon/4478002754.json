@@ -159,9 +159,6 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4478002754",
-      "ItemDimensions": {
-        "Weight": "0"
-      },
       "Label": "ダイヤモンド社",
       "Languages": {
         "Language": [
@@ -198,9 +195,9 @@
         "FormattedPrice": "￥ 1,543"
       },
       "LowestUsedPrice": {
-        "Amount": "1",
+        "Amount": "7",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1"
+        "FormattedPrice": "￥ 7"
       },
       "LowestCollectiblePrice": {
         "Amount": "248",
@@ -208,7 +205,7 @@
         "FormattedPrice": "￥ 248"
       },
       "TotalNew": "5",
-      "TotalUsed": "128",
+      "TotalUsed": "123",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -221,7 +218,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "5zOSs3uZCx%2FUGywQDjxHI0HV743v2TEXTV496Bau6aPeuhZ4YypIEuEMPkSm9to%2FgNvNovevdgM4fq6GezZ0uOXyV0fxqxKe",
+          "OfferListingId": "TYFPBe82lia2OFf9fFgJoLhm%2FYxOrfMDnH3nzSI0Rh1RieBjR1EHAklaIjiWBeBC8JMxwrcj6baK4Zbt8l5YcCIfdLHBcePg",
           "Price": {
             "Amount": "1543",
             "CurrencyCode": "JPY",
@@ -247,7 +244,7 @@
       }
     }
   },
-  "Lastmod": "2019-04-14 20:53:04 +0900",
+  "Lastmod": "2019-06-15 20:39:09 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/bd724e34d39214961e74e727e7463a3a/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/bd724e34d39214961e74e727e7463a3a/"

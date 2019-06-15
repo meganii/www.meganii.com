@@ -87,6 +87,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4887595425",
+      "ItemDimensions": {
+        "Weight": "44"
+      },
       "Label": "ディスカヴァー・トゥエンティワン",
       "Languages": {
         "Language": [
@@ -118,17 +121,17 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "5000",
+        "Amount": "2399",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 5,000"
+        "FormattedPrice": "￥ 2,399"
       },
       "LowestUsedPrice": {
-        "Amount": "1",
+        "Amount": "137",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1"
+        "FormattedPrice": "￥ 137"
       },
       "TotalNew": "1",
-      "TotalUsed": "21",
+      "TotalUsed": "28",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -138,7 +141,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2019-04-24 06:39:25 +0900",
+  "Lastmod": "2019-06-15 20:26:24 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/d0e429836c4000ccea1142eb55e5f67f/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/d0e429836c4000ccea1142eb55e5f67f/"

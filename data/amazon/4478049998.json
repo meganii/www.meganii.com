@@ -88,7 +88,7 @@
       "IsAdultProduct": "0",
       "ISBN": "4478049998",
       "ItemDimensions": {
-        "Weight": "53"
+        "Weight": "132"
       },
       "Label": "ダイヤモンド・ビッグ社",
       "Languages": {
@@ -120,12 +120,12 @@
         "FormattedPrice": "￥ 1,296"
       },
       "LowestUsedPrice": {
-        "Amount": "365",
+        "Amount": "194",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 365"
+        "FormattedPrice": "￥ 194"
       },
       "TotalNew": "2",
-      "TotalUsed": "16",
+      "TotalUsed": "25",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -138,7 +138,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "esjqfnnzViHgRNmkr5KzPV6Izw77gP50o3QBkXgPlyXV9HwAv5yYvXl34c6tiQHf7XITQEb1y3o86RrAzJ4%2FUNBgsUhI2x628i%2BctuqUXPs%3D",
+          "OfferListingId": "%2Fv0YTCOGyw5%2F632o1vUdIJiFo5XbkhpbDIOrSo87yLgGeB8bHiHrp1k3fVPM3drGq5f9XeaOvH7PhZc4vmMUPXQ7f8QKrkhyNRxkS0nrobI%3D",
           "Price": {
             "Amount": "1296",
             "CurrencyCode": "JPY",
@@ -152,11 +152,19 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "13",
+          "TypicalRedemptionValue": {
+            "Amount": "13",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 13"
+          }
         }
       }
     }
   },
-  "Lastmod": "2019-04-14 20:48:38 +0900",
+  "Lastmod": "2019-06-15 20:30:55 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/44a336145f512dc3bcdd0adf618293ae/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/44a336145f512dc3bcdd0adf618293ae/"

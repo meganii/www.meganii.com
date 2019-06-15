@@ -113,9 +113,9 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "827",
+        "Amount": "1850",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 827"
+        "FormattedPrice": "￥ 1,850"
       },
       "LowestUsedPrice": {
         "Amount": "1",
@@ -127,8 +127,8 @@
         "CurrencyCode": "JPY",
         "FormattedPrice": "￥ 1,800"
       },
-      "TotalNew": "8",
-      "TotalUsed": "84",
+      "TotalNew": "9",
+      "TotalUsed": "99",
       "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
@@ -141,25 +141,33 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "ou3w%2F1pbfpbwaubJ6hE6IG0ZetKma1HTCzaZrPr7hGcNZZKBOgOPY6sNcwTQIAj9blvF9ZqDFzqy2KapVdDNG%2BebPV%2BWBuHYCoE6LSQBnODaQxBD6QAnlas5qgPwJragOL56XorVXQNkTkjeP5zWDw%3D%3D",
+          "OfferListingId": "8A1Zcf4gmYSA68DzNCVXD0dNJOc%2BlmVGWJE2D9yRbWwF5ZatV17FM4KplGRu3Us8ZizjuDE3aCEoHi9EZDN750dwTj1H5OxOJSTV7A%2Bhlexpj3g08EoBCPVgoyt%2Fcn7IcqQc4RqkRRKlXoncuPHSs9fL1%2BRav3Pv",
           "Price": {
-            "Amount": "827",
+            "Amount": "2052",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 827"
+            "FormattedPrice": "￥ 2,052"
           },
-          "Availability": "通常1～2営業日以内に発送",
+          "Availability": "在庫あり。",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "24",
-            "MaximumHours": "48"
+            "MinimumHours": "0",
+            "MaximumHours": "0"
           },
-          "IsEligibleForSuperSaverShipping": "0",
-          "IsEligibleForPrime": "0"
+          "IsEligibleForSuperSaverShipping": "1",
+          "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "451",
+          "TypicalRedemptionValue": {
+            "Amount": "451",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 451"
+          }
         }
       }
     }
   },
-  "Lastmod": "2019-04-24 06:39:29 +0900",
+  "Lastmod": "2019-06-15 20:26:29 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/746101719f969f42f1074e9e283c3fc7/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/746101719f969f42f1074e9e283c3fc7/"

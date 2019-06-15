@@ -126,9 +126,6 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4798124702",
-      "ItemDimensions": {
-        "Weight": "132"
-      },
       "Label": "翔泳社",
       "Languages": {
         "Language": {
@@ -158,9 +155,9 @@
         "FormattedPrice": "￥ 2,808"
       },
       "LowestUsedPrice": {
-        "Amount": "2271",
+        "Amount": "1950",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,271"
+        "FormattedPrice": "￥ 1,950"
       },
       "LowestCollectiblePrice": {
         "Amount": "5999",
@@ -168,7 +165,7 @@
         "FormattedPrice": "￥ 5,999"
       },
       "TotalNew": "2",
-      "TotalUsed": "9",
+      "TotalUsed": "25",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -181,7 +178,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "LeJNbGnaC6J8Jl0Erg%2F%2Bxs4G7aPrkfPdfJaC0Sq3qQohXwPgdMUUkbiwmfSgo%2FRjpjxhcAY32S86WY5kd1PlheaHbiEVC4nwsHNr2xkKx7c%3D",
+          "OfferListingId": "RRtlIpWW%2B0hCXrygthSUtSmLfT%2FBRmUDh2QcEVxI8RwCTyKrp1zmnn1YPlxGqmcnUptLVBhabAqVaxx%2BXt1eOb5gDEny0fb%2B%2FI7s4I2y%2FjU%3D",
           "Price": {
             "Amount": "2808",
             "CurrencyCode": "JPY",
@@ -197,17 +194,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "280",
+          "Points": "28",
           "TypicalRedemptionValue": {
-            "Amount": "280",
+            "Amount": "28",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 280"
+            "FormattedPrice": "￥ 28"
           }
         }
       }
     }
   },
-  "Lastmod": "2019-04-14 20:20:23 +0900",
+  "Lastmod": "2019-06-15 20:34:18 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/3b6bb3a291a2addfa3e570596402153f/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/3b6bb3a291a2addfa3e570596402153f/"

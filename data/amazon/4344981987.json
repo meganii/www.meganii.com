@@ -126,9 +126,6 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4344981987",
-      "ItemDimensions": {
-        "Weight": "0"
-      },
       "Label": "幻冬舎",
       "Languages": {
         "Language": {
@@ -159,9 +156,9 @@
         "FormattedPrice": "￥ 864"
       },
       "LowestUsedPrice": {
-        "Amount": "9",
+        "Amount": "2",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 9"
+        "FormattedPrice": "￥ 2"
       },
       "LowestCollectiblePrice": {
         "Amount": "139",
@@ -169,7 +166,7 @@
         "FormattedPrice": "￥ 139"
       },
       "TotalNew": "2",
-      "TotalUsed": "22",
+      "TotalUsed": "24",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -182,7 +179,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "HvcuWVwxaS9X8viM4Gjlr3F5XRRCIKNYLES3D90wkeZrpzc%2Bd8NYJSGZx97tg0lIdFNaHdDTI6XDROffOPsA%2BpbOxlnKVM4R%2FPmBUb4Sf48%3D",
+          "OfferListingId": "IB40EmcD2ST%2FlAza5gpkInCLJ8czhF3LJRMEqxrbSA46%2BHhFE1%2FTJWRo0bpNrJs%2FjbJKSvQKn%2BHP5tEXk2FcPsr9UR4kESpVCiKtIWovIdw%3D",
           "Price": {
             "Amount": "864",
             "CurrencyCode": "JPY",
@@ -198,17 +195,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "8",
+          "Points": "24",
           "TypicalRedemptionValue": {
-            "Amount": "8",
+            "Amount": "24",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 8"
+            "FormattedPrice": "￥ 24"
           }
         }
       }
     }
   },
-  "Lastmod": "2019-04-14 20:48:26 +0900",
+  "Lastmod": "2019-06-15 20:40:20 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/3f7856bfd886f0f72440b42736b7e082/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/3f7856bfd886f0f72440b42736b7e082/"

@@ -83,6 +83,9 @@
       "Edition": "文庫",
       "IsAdultProduct": "0",
       "ISBN": "442210098X",
+      "ItemDimensions": {
+        "Weight": "40"
+      },
       "Label": "創元社",
       "Languages": {
         "Language": {
@@ -113,13 +116,18 @@
         "FormattedPrice": "￥ 702"
       },
       "LowestUsedPrice": {
-        "Amount": "1",
+        "Amount": "262",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1"
+        "FormattedPrice": "￥ 262"
       },
-      "TotalNew": "5",
-      "TotalUsed": "46",
-      "TotalCollectible": "0",
+      "LowestCollectiblePrice": {
+        "Amount": "405",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 405"
+      },
+      "TotalNew": "6",
+      "TotalUsed": "45",
+      "TotalCollectible": "3",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -131,7 +139,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "8VejrWEozAVd%2BSE1nRiIN8qGCImRC%2FWahfGNc762gssEhZfyAKxaBIR7D02vUjd%2Bb17iCZCZ%2BuPTxlYd%2BZjpvzlWOaUzHj6ZS2zpCHaVUX4%3D",
+          "OfferListingId": "kvOWNkXkxrlbjxRd4qHGR%2Bs73W2XtnjvBNFy82rj55kxSvl4fNucg9oFYWn51d%2Fb0M%2FDh30AAm%2FlC5M56PfYOx2p%2F16HlPkRMMGyvRICZEo%3D",
           "Price": {
             "Amount": "702",
             "CurrencyCode": "JPY",
@@ -157,7 +165,7 @@
       }
     }
   },
-  "Lastmod": "2019-04-14 20:23:12 +0900",
+  "Lastmod": "2019-06-15 20:44:52 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/de3c2ae9dbaec0ccdcd797fcf0f863c4/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/de3c2ae9dbaec0ccdcd797fcf0f863c4/"

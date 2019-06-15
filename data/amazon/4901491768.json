@@ -84,9 +84,6 @@
       "Feature": "単行本",
       "IsAdultProduct": "0",
       "ISBN": "4901491768",
-      "ItemDimensions": {
-        "Weight": "0"
-      },
       "Label": "ナナ・コーポレート・コミュニケーション",
       "Languages": {
         "Language": [
@@ -128,13 +125,13 @@
         "FormattedPrice": "￥ 1"
       },
       "LowestCollectiblePrice": {
-        "Amount": "180",
+        "Amount": "450",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 180"
+        "FormattedPrice": "￥ 450"
       },
       "TotalNew": "18",
-      "TotalUsed": "303",
-      "TotalCollectible": "6",
+      "TotalUsed": "327",
+      "TotalCollectible": "5",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -146,11 +143,11 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "bWklfXYgjXRhfyntDQurlIIyFRW3uu2qxyIUgltpYbfqRr6uDZ26DQrTLPxnHTZ1hd39M0O%2Fg1QrJZmW5FafvnaklWUTIsBRY6GZ%2FBQxI5Rst6xSsoSk5PvcWGaZFKdqrH7aKw4whwXhmeC%2FBD2tqrWT8J1xwnhh",
+          "OfferListingId": "pU%2BQ3jwh5FAuadC0aJNKTMduXXPT8NYFxzRvVIhT5Nm6ye%2F9x4s3OwPRn7oXcBZGouGfJ%2BaSfOFzjLoG9KnQpVaY8kzYVtkK5%2F0oQmhVCIHpfQQzeCS1Xpo920I5QSeh2Y9dYQvQgcrJOpbN8Idtm3CavUnkUz8u",
           "Price": {
-            "Amount": "1300",
+            "Amount": "1404",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,300"
+            "FormattedPrice": "￥ 1,404"
           },
           "Availability": "在庫あり。",
           "AvailabilityAttributes": {
@@ -160,11 +157,19 @@
           },
           "IsEligibleForSuperSaverShipping": "1",
           "IsEligibleForPrime": "1"
+        },
+        "LoyaltyPoints": {
+          "Points": "281",
+          "TypicalRedemptionValue": {
+            "Amount": "281",
+            "CurrencyCode": "JPY",
+            "FormattedPrice": "￥ 281"
+          }
         }
       }
     }
   },
-  "Lastmod": "2019-04-24 06:44:50 +0900",
+  "Lastmod": "2019-06-15 21:14:00 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/dd46b3e60b4f8fa1d645045599a644a2/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/dd46b3e60b4f8fa1d645045599a644a2/"

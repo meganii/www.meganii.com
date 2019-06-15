@@ -126,6 +126,9 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4798115169",
+      "ItemDimensions": {
+        "Weight": "101"
+      },
       "Label": "翔泳社",
       "Languages": {
         "Language": {
@@ -151,13 +154,18 @@
       "Title": "達人に学ぶ SQL徹底指南書 (CodeZine BOOKS)"
     },
     "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "970",
+      "LowestNewPrice": {
+        "Amount": "3600",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 970"
+        "FormattedPrice": "￥ 3,600"
       },
-      "TotalNew": "0",
-      "TotalUsed": "29",
+      "LowestUsedPrice": {
+        "Amount": "575",
+        "CurrencyCode": "JPY",
+        "FormattedPrice": "￥ 575"
+      },
+      "TotalNew": "2",
+      "TotalUsed": "33",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -167,7 +175,7 @@
       "MoreOffersUrl": "0"
     }
   },
-  "Lastmod": "2019-04-14 20:20:18 +0900",
+  "Lastmod": "2019-06-15 20:37:46 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/60ec75ebc1b3e69fb6ba9a3531fe678e/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/60ec75ebc1b3e69fb6ba9a3531fe678e/"

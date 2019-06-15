@@ -83,6 +83,9 @@
       "Edition": "改訂",
       "IsAdultProduct": "0",
       "ISBN": "4274067939",
+      "ItemDimensions": {
+        "Weight": "26"
+      },
       "Label": "オーム社",
       "Languages": {
         "Language": {
@@ -118,9 +121,9 @@
         "FormattedPrice": "￥ 2,592"
       },
       "LowestUsedPrice": {
-        "Amount": "703",
+        "Amount": "935",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 703"
+        "FormattedPrice": "￥ 935"
       },
       "LowestCollectiblePrice": {
         "Amount": "4780",
@@ -128,7 +131,7 @@
         "FormattedPrice": "￥ 4,780"
       },
       "TotalNew": "3",
-      "TotalUsed": "28",
+      "TotalUsed": "26",
       "TotalCollectible": "1",
       "TotalRefurbished": "0"
     },
@@ -141,17 +144,17 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "8TwNrSKFjbIuv%2BX4M1%2FBy%2FJAlRAufbjRGUFdrBpWxRfRkEvrfXrQlwCKaO5chDAt2BlTHjyYQJbAf2YeOtgv0LyC6i1IKJpqROhSwZOZHzc%2Bv1Pq1562RjTJuy3YGaH60Xni2o7ggFPJ6IsJ07IUKV55uElR%2FnOd",
+          "OfferListingId": "I5tnCdFNaD%2BDxI0dW1qEbHAa%2FtsECPPEiVwcN73xYbhWaLdG8D81JQURdj25g%2FG7elkeSSvvNwgZ%2BQa5wJZwJ3gkYnatlTv%2FSvzInV7uOO9ABLN5lte9WnDznoawWsUxskDiEzDWJwlZBjOhzkN8XZzHs6vY4mtG",
           "Price": {
             "Amount": "2592",
             "CurrencyCode": "JPY",
             "FormattedPrice": "￥ 2,592"
           },
-          "Availability": "通常4～5営業日以内に発送",
+          "Availability": "通常6～10営業日以内に発送",
           "AvailabilityAttributes": {
             "AvailabilityType": "now",
-            "MinimumHours": "96",
-            "MaximumHours": "120"
+            "MinimumHours": "144",
+            "MaximumHours": "240"
           },
           "IsEligibleForSuperSaverShipping": "0",
           "IsEligibleForPrime": "0"
@@ -159,7 +162,7 @@
       }
     }
   },
-  "Lastmod": "2019-04-24 06:40:11 +0900",
+  "Lastmod": "2019-06-15 20:27:26 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/293296be217306062f765246f05a735a/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/293296be217306062f765246f05a735a/"

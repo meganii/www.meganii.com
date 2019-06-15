@@ -126,9 +126,6 @@
       },
       "IsAdultProduct": "0",
       "ISBN": "4344020383",
-      "ItemDimensions": {
-        "Weight": "0"
-      },
       "Label": "幻冬舎",
       "Languages": {
         "Language": {
@@ -154,23 +151,23 @@
     },
     "OfferSummary": {
       "LowestNewPrice": {
-        "Amount": "911",
+        "Amount": "859",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 911"
+        "FormattedPrice": "￥ 859"
       },
       "LowestUsedPrice": {
-        "Amount": "106",
+        "Amount": "2",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 106"
+        "FormattedPrice": "￥ 2"
       },
       "LowestCollectiblePrice": {
-        "Amount": "1895",
+        "Amount": "300",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,895"
+        "FormattedPrice": "￥ 300"
       },
       "TotalNew": "5",
-      "TotalUsed": "44",
-      "TotalCollectible": "1",
+      "TotalUsed": "41",
+      "TotalCollectible": "2",
       "TotalRefurbished": "0"
     },
     "Offers": {
@@ -182,11 +179,11 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "526GVY5cgfeA%2F3tFSOPf50xC8JJn8XGSMSMvm720%2BjDZxr7jZpZQoXO%2FWA%2FoqxOHE0Bp25Kor1PjeNcOSX7KuaMW48di85FYrrVIQy11wQyjnwM%2BB7WYm5Vvjey5oPFqKyaT%2B%2FFJ8BCdDyYGwXawp%2Fifa2Cky0a2",
+          "OfferListingId": "mqcOeDmU%2FXb83I59%2B%2Bz21%2FtEawXr5JyaQVr9MiVghoJ4I26oPc5b4nWtVvkiC9UscjmaSk5AfcM0iqnfF6uMIe4PYrZ0IDnxnizOSyFCmDP1K3oQnNUyFiIEtC3K%2BSC65qHt9P5xh50VDXyCee%2FwkID9xgXYPni4",
           "Price": {
-            "Amount": "911",
+            "Amount": "859",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 911"
+            "FormattedPrice": "￥ 859"
           },
           "Availability": "通常1～2営業日以内に発送",
           "AvailabilityAttributes": {
@@ -200,7 +197,7 @@
       }
     }
   },
-  "Lastmod": "2019-04-14 20:54:56 +0900",
+  "Lastmod": "2019-06-15 20:39:32 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/206ddeecabd6b5610b85bad80fbc6f2a/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/206ddeecabd6b5610b85bad80fbc6f2a/"
