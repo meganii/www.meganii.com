@@ -52,8 +52,9 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,h_75,q_auto
 
 値段は若干高いですが安定感はあります。ドリンクがなかなか来ないことが多いですが、料理は美味しいです。
 
-- {{% valuecommerce sid="3067752" pid="885007851" url="https%3A%2F%2Ftabelog.com%2Ftokyo%2FA1305%2FA130501%2F13172962%2F" text="[食べログ]創作酒庵　彩蔵　池袋サンシャイン通り店" %}}
-- {{% valuecommerce sid="3067752" pid="884269667" url="https%3A%2F%2Fwww.hotpepper.jp%2FstrJ001100875%2F%3Fvos%3Dnhppvccp99002" text="[ホットペッパー]創作酒庵　彩蔵　池袋サンシャイン通り店" %}}
+{{% valuecommerce sid="3067752" pid="885007851" url="https%3A%2F%2Ftabelog.com%2Ftokyo%2FA1305%2FA130501%2F13172962%2F" text="[食べログ]創作酒庵　彩蔵　池袋サンシャイン通り店" %}}
+
+{{% valuecommerce sid="3067752" pid="884269667" url="https%3A%2F%2Fwww.hotpepper.jp%2FstrJ001100875%2F%3Fvos%3Dnhppvccp99002" text="[ホットペッパー]創作酒庵　彩蔵　池袋サンシャイン通り店" %}}
 
 <a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884269667&vc_url=https%3A%2F%2Fwww.hotpepper.jp%2FstrJ001100875%2F%3Fvos%3Dnhppvccp99002" target="_blank" rel="nofollow">
 {{% img src="https://imgfp.hotp.jp/IMGH/52/53/P025405253/P025405253_480.jpg" w="368" h="276" class="center" %}}
