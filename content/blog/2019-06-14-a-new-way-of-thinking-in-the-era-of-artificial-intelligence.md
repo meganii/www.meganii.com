@@ -14,7 +14,7 @@ img: "https://i.gyazo.com/thumb/400/85b19cf413b5dbe220e82e4ba5df6056-png.png"
 {{% googleadsense %}}
 
 
-[![Image](https://gyazo.com/85b19cf413b5dbe220e82e4ba5df6056/thumb/1000)](https://gyazo.com/85b19cf413b5dbe220e82e4ba5df6056)<br>
+{{% img src="https://i.gyazo.com/thumb/1000/85b19cf413b5dbe220e82e4ba5df6056-png.png" w="1442" h="292" %}}
 
 
 ## 日時・場所
