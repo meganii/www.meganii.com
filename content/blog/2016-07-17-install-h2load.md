@@ -9,7 +9,7 @@ slug: install-h2load
 img: https://farm6.staticflickr.com/5624/21367186743_cbcb0e5268_m.jpg
 ---
 
-![4 Good Reasons for Using HTTP/2](https://farm6.staticflickr.com/5624/21367186743_cbcb0e5268_z.jpg?zz=1 "4 Good Reasons for Using HTTP/2")
+{{% img src="https://farm6.staticflickr.com/5624/21367186743_cbcb0e5268_z.jpg" h="313" w="640" alt="4 Good Reasons for Using HTTP/2" %}}
 
 [4 Good Reasons for Using HTTP/2 / Tsahi Levent-Levi](https://www.flickr.com/photos/86979666@N00/21367186743/ "4 Good Reasons for Using HTTP/2 / Tsahi Levent-Levi")
 
