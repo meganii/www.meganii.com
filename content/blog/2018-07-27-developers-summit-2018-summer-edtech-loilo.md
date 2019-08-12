@@ -37,7 +37,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v15327
 {{% googleadsense %}}
 
 
-## Work2 「ワンペーパーポートフォリオ」
+## ワーク2 「ワンペーパーポートフォリオ」
 
 - 手順
     - そのセッションで答えられるようになりたい「本質的な問い」を作って臨む
@@ -46,7 +46,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v15327
 - これをロイロノートでやることで、デジタルでできる（紙だとどうしても後から見返すことが難しい）
 
 
-## Work3　「パフォーマンスタスク」
+## ワーク3　「パフォーマンスタスク」
 
 [パフォーマンス タスク \- 杉山浩二のScrapbox](https://scrapbox.io/koji-loilo/%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9_%E3%82%BF%E3%82%B9%E3%82%AF)
 
@@ -61,7 +61,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v15327
 
 ## まとめ
 
-現代の学校教育から、以下の３つのワーク(手法)を学んだ。
+現代の学校教育から、以下の3つのワーク(手法)を学んだ。
 
 1. 200字要約
 2. ワンペーパーポートフォリオ評価
