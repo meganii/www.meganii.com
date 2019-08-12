@@ -57,12 +57,12 @@
       <div style="max-width: 400px;" class="card">
         <div class="card-inner">
           <div class="card-content">
-            <a href="{{.URL}}" class="text-decoration-none">
+            <a href="{{.Permalink}}" class="text-decoration-none">
               <div class="fixed-container">
                 <amp-img class="card-icon" alt="Eyecatch" media="" width="409" height="305" layout="responsive" src="{{ if isset .Params "eyecatch" }}{{ .Params.Eyecatch }}{{ else if isset .Params "img" }}{{ .Params.img }}{{ else }}{{ .Site.BaseURL }}images/nopicture.png{{ end }}"></amp-img>
               </div>
             </a>
-            <h4 class="land-see-post-title ampstart-title-sm pt1"><a class="text-decoration-none" href="{{.URL}}">{{.Title}}</a></h4>
+            <h4 class="land-see-post-title ampstart-title-sm pt1"><a class="text-decoration-none" href="{{.Permalink}}">{{.Title}}</a></h4>
           </div>
         </div>
       </div>
