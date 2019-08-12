@@ -9,12 +9,13 @@ slug: slackline
 img: "https://farm4.static.flickr.com/3410/5835456186_5a358ed4d2.jpg"
 ---
 
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1565608317/mauricio-santanna-6SNF2Nt2zsc-unsplash_vmwk2n.jpg" w="3872" h="2592" %}}
+
 最近ボルダリングの合間にハマってます。ただ、立つだけ、ただ歩くだけで出来たときは楽しい!!
 
 ## スラックラインって？
 
 [スラックライン\(Slackline\)とは？ \| スラックラインの歩き方](https://slackline.jp/2010/04/08191200/)
-
 
 
 {{% googleadsense %}}

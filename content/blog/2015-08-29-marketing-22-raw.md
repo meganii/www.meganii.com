@@ -6,13 +6,13 @@ comments: true
 category: ['Book']
 tags: ['book','マーケティング']
 published: true
-img: "https://farm6.staticflickr.com/5631/20737197559_f22008a21c_s.jpg"
+img: "https://res.cloudinary.com/meganii/image/upload/v1565609697/marketing-22_pmhi3a.png"
 slug: marketing-22-raws
 ---
 
 22の法則もあって、読んでても繋がりが頭にはいってこなかったので、1枚の図にまとめてみました。
 
-{{% img src="https://farm6.staticflickr.com/5631/20737197559_f22008a21c_z.jpg" w="640" h="492" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1565609697/marketing-22_pmhi3a.png" w="640" h="492" %}}
 
 
 [「マーケティング22の法則図解」拡大版](https://cacoo.com/diagrams/REbndUQXEFksOf2j/simple#8F3BB)
