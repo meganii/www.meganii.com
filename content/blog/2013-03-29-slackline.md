@@ -6,7 +6,7 @@ category: ['Activity']
 tags: ['スラックライン','ボルダリング']
 published: true
 slug: slackline
-img: "https://farm4.static.flickr.com/3410/5835456186_5a358ed4d2.jpg"
+img: "https://res.cloudinary.com/meganii/image/upload/w_600/v1565608317/mauricio-santanna-6SNF2Nt2zsc-unsplash_vmwk2n.jpg"
 ---
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1565608317/mauricio-santanna-6SNF2Nt2zsc-unsplash_vmwk2n.jpg" w="3872" h="2592" %}}
