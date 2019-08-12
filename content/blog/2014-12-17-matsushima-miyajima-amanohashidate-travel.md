@@ -58,6 +58,7 @@ ARABAKI RockFEST.14 に行った際に、松島へ行ってきました！
 
 「牡蠣屋」の牡蠣が美味しいと聞いたので、しばしならんで食す。美味かった。
 
+[牡蠣屋 （かきや） \- 宮島/魚介料理・海鮮料理 \[食べログ\]](https://tabelog.com/hiroshima/A3402/A340202/34003363/)
 
 {{% img src="https://farm8.staticflickr.com/7480/15856148769_68d29fb6d5_z.jpg" w="400" h="300" %}}
 
