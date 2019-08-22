@@ -10,29 +10,39 @@ slug: repair-google-pixel-3a
 img: https://res.cloudinary.com/meganii/image/upload/ar_16:9,c_fill,e_sharpen,f_auto,g_auto,q_auto,w_400/v1561292791/IMG_3984_cm9p0a.jpg
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/c_fill,e_sharpen,f_auto,g_auto,q_auto,w_400/v1561292791/IMG_3984_cm9p0a.jpg" w="400" h="225" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/c_fill,e_sharpen,f_auto,g_auto,q_auto,w_400/v1561292791/IMG_3984_cm9p0a.jpg" w="400" h="533" %}}
 
-Pixel 3aを手に入れて一ヶ月もしないうちに落として画面を割ってしまいました。
+Google Pixel 3aを手に入れて一ヶ月もしないうちに落として画面を割ってしまいました。
 
-海外旅行へ行くまでの道すがらに破損したので、もしかしたらエポスカードゴールドの携行品破損保険が適用できるかもしれないと思い申請中です。旅行までにかなりテンション下がりました。。。
+海外旅行へ行くまでの道すがらに破損したので、もしかしたらエポスカードゴールドの携行品破損保険が適用できるかもしれないと思い申請中です。旅行前にかなりテンション下がりました。
 
 帰国後、割れたまま使い続けるのも気分が悪いため、修理する方向で、調べてみました。
 
 <!--more-->
 {{% googleadsense %}}
 
+{{% toc %}}
 
-## まずどこに持っていけば修理してもらえるのか
 
-iPhoneの場合は、Apple Storeに持っていけばなんとかしてくれますが、Googleから直接購入したSIMフリーのPixelの場合はどこに相談すればよいのでしょうか。
+## どこに持っていけば修理してもらえるのか
 
-調べてみると、Google Pixelの公式修理店としては、iCracked Japanのみのようです。
+iPhoneの場合は、Apple Storeに持っていけばなんとかしてくれますが、Googleから直接購入したSIMフリーのPixel 3aの場合はどこに相談すればよいのでしょうか。
+
+調べてみると、Google Pixelの公式修理店としては「iCracked Japan」のみのようです。
 
 
 [Pixel修理 \| iPhone修理・故障ならiCracked](https://www.icracked.jp/service/google-repair.html)
 
 
-### 値段
+全国にも展開していますので以下の店舗一覧からご確認ください。東京だと、銀座、南青山、西新宿、新宿、渋谷、池袋、吉祥寺などなどがありますね。
+
+[店舗一覧 \| iPhone修理・故障ならiCracked](https://www.icracked.jp/storelist)
+
+
+私は、池袋ロフト店で修理を依頼しました。
+
+
+## 修理にどのぐらい掛かるのか？(修理費用と修理期間)
 
 Pixel 3aの修理代は以下の通りです。
 
@@ -46,14 +56,15 @@ Pixel 3aの修理代は以下の通りです。
 | 基板交換         | 38,800円 (60分) | 38,800円 (60分) |
 
 
-今回は、画面と背面カバーの修理で3万。一週間ぐらいかかるのかと思いきや、数時間で終わるとのこと。意外とすぐに終わりますね。
+今回は、画面と背面カバーの修理で3万円でした。とほほ。
 
-実際の修理は、画面と背面カバーで、1時間程度で終わりました。
+修理期間としては、一週間ぐらいかかるのかと思いきや、数時間で終わると言われ、実際の修理も画面と背面カバーで、1時間程度で終わりました。
 
+意外と早いですね。
 
-## iCracked紹介プログラム
+## iCracked紹介プログラムで少しでも修理代を安くしませんか？
 
-コード「137321」を伝えていただくと、修理代金より1,000円値引きになるみたいなのでぜひご活用ください！
+iCrackedでの修理時にコード「137321」を伝えていただくと、修理代金から1,000円値引きになるみたいなのでぜひご活用ください！
 
 [icracked紹介プログラム \| iPhone修理・故障ならiCracked](https://www.icracked.jp/cp/referral-program/)
 
@@ -65,3 +76,6 @@ Pixel 3aの修理代は以下の通りです。
 <a href="https://hb.afl.rakuten.co.jp/hgc/18b50ef7.2b4fad8f.18b50ef8.f673d0c6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F0842776107152%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F12381470%2F&link_type=pict&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjF9" target="_blank" rel="nofollow noopener noreferrer" style="word-wrap:break-word;"  ><amp-img src="https://hbb.afl.rakuten.co.jp/hgb/18b50ef7.2b4fad8f.18b50ef8.f673d0c6/?me_id=1269553&item_id=12381470&m=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbiccamera%2Fcabinet%2Fproduct%2F3900%2F00000006043548_a01.jpg%3F_ex%3D80x80&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbiccamera%2Fcabinet%2Fproduct%2F3900%2F00000006043548_a01.jpg%3F_ex%3D240x240&s=240x240&t=pict" layout="fixed" width="250" height="250" alt="" title=""></amp-img></a>
 
 <a href="https://hb.afl.rakuten.co.jp/hgc/18b50ef7.2b4fad8f.18b50ef8.f673d0c6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F0842776107152%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F12381470%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjF9" target="_blank" rel="nofollow noopener noreferrer" style="word-wrap:break-word;"  >Google グーグル Fabric Case for Pixel 3(グレー) ZUA05N</a>
+
+
+iPhone 6sのときは落としても
