@@ -1,5 +1,5 @@
 ---
-title: "Google Pixel3aの修理"
+title: "iCracked JapanでのGoogle Pixel3a修理"
 date: 2019-06-23T21:07:54+09:00
 lastmod: 2019-06-23T21:07:54+09:00
 comments: true
