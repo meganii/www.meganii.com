@@ -78,4 +78,4 @@ iCrackedでの修理時にコード「137321」を伝えていただくと、修
 <a href="https://hb.afl.rakuten.co.jp/hgc/18b50ef7.2b4fad8f.18b50ef8.f673d0c6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F0842776107152%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F12381470%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjF9" target="_blank" rel="nofollow noopener noreferrer" style="word-wrap:break-word;"  >Google グーグル Fabric Case for Pixel 3(グレー) ZUA05N</a>
 
 
-iPhone 6sのときは落としても
+iPhone 6sのときは落としても大丈夫だったんですけどね・・・。
