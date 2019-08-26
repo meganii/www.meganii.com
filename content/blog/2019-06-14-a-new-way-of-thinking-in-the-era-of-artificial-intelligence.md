@@ -10,11 +10,12 @@ slug: "a-new-way-of-thinking-in-the-era-of-artificial-intelligence"
 img: "https://i.gyazo.com/thumb/400/85b19cf413b5dbe220e82e4ba5df6056-png.png"
 ---
 
+{{% img src="https://i.gyazo.com/thumb/1000/85b19cf413b5dbe220e82e4ba5df6056-png.png" w="1442" h="292" %}}
+
 <!--more-->
 {{% googleadsense %}}
 
-
-{{% img src="https://i.gyazo.com/thumb/1000/85b19cf413b5dbe220e82e4ba5df6056-png.png" w="1442" h="292" %}}
+2019年6月14日に立教大学で行われた公開講演「AI時代の新しい思考法〜本当に幸せな働き方、新しい価値の作り方〜」に参加してきましたので、メモを残しておきます。
 
 
 ## 日時・場所
