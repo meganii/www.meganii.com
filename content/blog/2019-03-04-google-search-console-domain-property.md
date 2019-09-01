@@ -26,15 +26,15 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75
 
 `Domain`に自分が保有しているドメインを登録し、CONTINUEボタンをクリックすると、Ownership auto verifiedと表示される。
 
-{{% img src="https://i.gyazo.com/thumb/1000/0ad7912fe14caa9258716370030179e6-png.png" w="632" h="502" %}}
+{{% img src="https://i.gyazo.com/thumb/1000/0ad7912fe14caa9258716370030179e6-png.png" w="652" h="295" %}}
 
 
-{{% img src="https://i.gyazo.com/thumb/1000/2b099101e8801ff9ab35c2e0503e7dbf-png.png" w="632" h="502" %}}
+{{% img src="https://i.gyazo.com/thumb/1000/2b099101e8801ff9ab35c2e0503e7dbf-png.png" w="509" h="502" %}}
 
 
 - `Domain property`が登録された
 
-{{% img src="https://i.gyazo.com/thumb/1000/7d49b9a8c71a2907e994d79fd71f5e7d-png.png" w="632" h="502" %}}
+{{% img src="https://i.gyazo.com/thumb/1000/7d49b9a8c71a2907e994d79fd71f5e7d-png.png" w="314" h="125" %}}
 
 
 
