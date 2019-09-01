@@ -66,38 +66,35 @@ some cases like Translate, only an API key is needed.
 
 [https://console.developers.google.com](https://console.developers.google.com) からプロジェクトを作成する。
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/27189242280" title="1__Create_Projectby meganii, on Flickr"><img class="img-responsive" src="https://farm8.staticflickr.com/7385/27189242280_b0ec5e22db_z.jpg" alt="1__Create_Project"></a></p>
+{{% img src="https://farm8.staticflickr.com/7385/27189242280_b0ec5e22db_z.jpg" w="1440" h="502" %}}
 
-
-<p><a href="https://www.flickr.com/photos/35571855@N06/27366603062" title="2__Input_Project_Nameby meganii, on Flickr"><img class="img-responsive" src="https://farm8.staticflickr.com/7191/27366603062_9b6662f0c7_z.jpg" alt="2__Input_Project_Name"></a></p>
+{{% img src="https://farm8.staticflickr.com/7191/27366603062_9b6662f0c7_z.jpg" w="1440" h="502" %}}
 
 
 ## 2. API Managerで利用したいAPI(ここではAdsense Management API)を有効化
 
+{{% img src="https://farm8.staticflickr.com/7305/27394115551_0612eb23fb_z.jpg" w="1440" h="502" %}}
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/27394115551" title="3__Complete_creating_project_and_Go_to_Adsenes_Management_APIby meganii, on Flickr"><img class="img-responsive" src="https://farm8.staticflickr.com/7305/27394115551_0612eb23fb_z.jpg" alt="3__Complete_creating_project_and_Go_to_Adsenes_Management_API"></a></p>
-
-
-<p><a href="https://www.flickr.com/photos/35571855@N06/27189242110" title="4__Enable_AdSense_Management_APIby meganii, on Flickr"><img class="img-responsive" src="https://farm8.staticflickr.com/7325/27189242110_7d5f40f3fa_z.jpg" alt="4__Enable_AdSense_Management_API"></a></p>
+{{% img src="https://farm8.staticflickr.com/7325/27189242110_7d5f40f3fa_z.jpg" w="1440" h="502" %}}
 
 
 ## 3. 利用するAPIに応じた認証を作成
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/27189242330" title="5__Go_to_Credentials_pageby meganii, on Flickr"><img class="img-responsive" src="https://farm8.staticflickr.com/7376/27189242330_102f846d72_z.jpg" alt="5__Go_to_Credentials_page"></a></p>
+{{% img src="https://farm8.staticflickr.com/7376/27189242330_102f846d72_z.jpg" w="1440" h="502" %}}
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/27189241950" title="6__Credentials_wizardby meganii, on Flickr"><img class="img-responsive" src="https://farm8.staticflickr.com/7611/27189241950_b5766e0ff2_z.jpg" alt="6__Credentials_wizard"></a></p>
+{{% img src="https://farm8.staticflickr.com/7611/27189241950_b5766e0ff2_z.jpg" w="1440" h="502" %}}
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/27189241850" title="7__Credentials_wizard_-_test-meganii-projectby meganii, on Flickr"><img class="img-responsive" src="https://farm8.staticflickr.com/7437/27189241850_bc23e5d7d8_z.jpg" alt="7__Credentials_wizard_-_test-meganii-project"></a></p>
+{{% img src="https://farm8.staticflickr.com/7437/27189241850_bc23e5d7d8_z.jpg" w="1440" h="502" %}}
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/27189241810" title="8__Credentials_wizardby meganii, on Flickr"><img class="img-responsive" src="https://farm8.staticflickr.com/7324/27189241810_9813ce7c15_z.jpg" alt="8__Credentials_wizard"></a></p>
+{{% img src="https://farm8.staticflickr.com/7324/27189241810_9813ce7c15_z.jpg" w="1440" h="502" %}}
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/27394115421" title="9__Credentials_wizardby meganii, on Flickr"><img class="img-responsive" src="https://farm8.staticflickr.com/7613/27394115421_079882466f_z.jpg" alt="9__Credentials_wizard"></a></p>
+{{% img src="https://farm8.staticflickr.com/7613/27394115421_079882466f_z.jpg" w="1440" h="502" %}}
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/27366602942" title="10__Credentials_wizardby meganii, on Flickr"><img class="img-responsive" src="https://farm8.staticflickr.com/7743/27366602942_a666affcbd_z.jpg" alt="10__Credentials_wizard"></a></p>
+{{% img src="https://farm8.staticflickr.com/7743/27366602942_a666affcbd_z.jpg" w="1440" h="502" %}}
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/27189241920" title="11__Credentialsby meganii, on Flickr"><img class="img-responsive" src="https://farm8.staticflickr.com/7664/27189241920_4c7713f2c1_z.jpg" alt="11__Credentials"></a></p>
+{{% img src="https://farm8.staticflickr.com/7664/27189241920_4c7713f2c1_z.jpg" w="1440" h="502" %}}
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/27189241770" title="12__OAuth_clientby meganii, on Flickr"><img class="img-responsive" src="https://farm8.staticflickr.com/7505/27189241770_dde3819202_z.jpg" alt="12__OAuth_client"></a></p>
+{{% img src="https://farm8.staticflickr.com/7505/27189241770_dde3819202_z.jpg" w="1440" h="502" %}}
 
 
 ## 4. '.env'ファイルに「3.」で作成した認証情報を設定
@@ -115,8 +112,6 @@ GOOGLE_CREDENTIAL_STORE=credentials.yaml
 ## 5. 5. google-api-samples コマンドを実行し認証
 
 google-api-samples コマンドを実行して出力されたURLにアクセスして、認証を行う。
-
-
 
 
 ## Adsense用コード
