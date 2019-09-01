@@ -3,8 +3,8 @@
   <header class="pt4">
     <h1 class="ampstart-title-lg">{{ .Page.Title }}</h1>
     <div class="p1">
-      <span class="mr1"><i class="fa fa-calendar" aria-hidden="true"></i> {{ .Date.Format "2006/01/02" }}</span>
-      <span class="mr1"><i class="fa fa-refresh" aria-hidden="true"></i> {{ .Lastmod.Format "2006/01/02" }}</span>
+      <span class="mr1"><i class="fa fa-refresh" aria-hidden="true"></i> 更新日:{{ .Lastmod.Format "2006/01/02" }}</span>
+      <span class="mr1"><i class="fa fa-calendar" aria-hidden="true"></i> 作成日:{{ .Date.Format "2006/01/02" }}</span>
   </div>
   </header>
   <section class="article-body">
