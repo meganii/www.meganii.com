@@ -4,14 +4,6 @@
 
 <body>
   <amp-auto-ads type="adsense" data-ad-client="{{.Site.Params.adsensePublisher}}"></amp-auto-ads>
-  <amp-link-rewriter layout="nodisplay">
-    <script type="application/json">
-        {
-          "output": "https://lsr.valuecommerce.com/ard?p=${vc_pid}&u=${href}&vcptn=${vc_ptn}&s=SOURCE_URL&r=DOCUMENT_REFERRER",
-          "vars": { "vc_pid": "885972052", "vc_ptn": "ampls" }
-        }
-      </script>
-  </amp-link-rewriter>
 
   {{ if ne (getenv "HUGO_ENV") "DEV" }}
     {{ with .Site.Params.GoogleAnalytics }}
