@@ -5,27 +5,19 @@
   </header>
   <section>
     <div class="rr">
-      <div class="rr">
-        {{ $BaseURL := .Site.BaseURL }}
-        {{ range .Paginator.Pages }}
-        <div class="rcx12">
-          <a href="{{.Permalink}}">
-            <div class="rcx3 rtxr">
-              <amp-img class="" alt="Eyecatch" media="" width="100" height="100" layout="fixed"
-                src="{{ if isset .Params "eyecatch" }}{{ .Params.Eyecatch }}{{ else if isset .Params "img" }}{{ .Params.img }}{{ else }}{{ .Site.BaseURL }}images/nopicture.png{{ end }}">
-              </amp-img>
-            </div>
-            <div class="rcx9">
-              <h4 class="title">{{.Title}}</h4>
-            </div>
-          </a>
-        </div>
-        {{ end }}
+      {{ $BaseURL := .Site.BaseURL }}
+      {{ range .Paginator.Pages }}
+      <div class="rcx12">
+        <a href="{{.Permalink}}">
+          <amp-img class="thumbnail" alt="Eyecatch" media="" width="75" height="75" layout="fixed"
+            src="{{ if isset .Params "eyecatch" }}{{ .Params.Eyecatch }}{{ else if isset .Params "img" }}{{ .Params.img }}{{ else }}{{ .Site.BaseURL }}images/nopicture.png{{ end }}">
+          </amp-img>
+          <h4 class="title">{{.Title}}</h4>
+        </a>
       </div>
-      <div class="rr">
-        <div class="rcx12 rtxc">
-          {{ partial "pagination.html" . }}
-        </div>
+      {{ end }}
+      <div class="rcx12 rtxc rmt2">
+        {{ partial "pagination.html" . }}
       </div>
     </div>
   </section>
