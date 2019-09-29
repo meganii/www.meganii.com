@@ -244,3 +244,15 @@ h3, .h3{font-size:28px;line-height:1.25}
     font-size: 28px;
     line-height: 1;
 }
+
+.thumbnail {
+  display: block;
+  background-position: center;
+  background-size: cover;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  box-shadow: 0 0 3px 0 #333 inset;
+  float: left;
+  margin-right: 1rem;
+}

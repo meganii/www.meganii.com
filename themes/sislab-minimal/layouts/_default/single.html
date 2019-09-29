@@ -28,14 +28,10 @@
     {{ range . }}
     <div class="rcx12">
         <a href="{{.Permalink}}">
-          <div class="rcx3 rtxl">
-            <amp-img class="" alt="Eyecatch" media="" width="75" height="75" layout="fixed"
+            <amp-img class="thumbnail" alt="Eyecatch" media="" width="75" height="75" layout="fixed"
               src="{{ if isset .Params "eyecatch" }}{{ .Params.Eyecatch }}{{ else if isset .Params "img" }}{{ .Params.img }}{{ else }}{{ .Site.BaseURL }}images/nopicture.png{{ end }}">
             </amp-img>
-          </div>
-          <div class="rcx9 rtxl">
             <h4 class="title">{{.Title}}</h4>
-          </div>
         </a>
       </div>
     {{ end }}
