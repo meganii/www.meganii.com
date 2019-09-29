@@ -157,8 +157,10 @@ end
 - settingsの下記項目を上書きすることで対応
 
 ```json
-"terminal.integrated.shell.osx": "/usr/local/bin/fish",
-"terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+{
+    "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+}
 ```
 
 - VS Code上でもfishで立ち上がってくる
