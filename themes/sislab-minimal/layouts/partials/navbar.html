@@ -16,7 +16,7 @@
             {{end}}
           </div>
         </div>
-        <div role="button" aria-label="open menu" on="tap:nav.toggle" tabindex="0" class="no">?</div>
+        <div role="button" aria-label="open menu" on="tap:nav.toggle" tabindex="0" class="no">☰</div>
       </div>
     </div>
   </nav>
@@ -25,11 +25,8 @@
 <amp-sidebar id="nav" layout="nodisplay" side="right">
   <div role="button" aria-label="close menu" on="tap:nav.toggle" tabindex="0" class="nc">X</div>
   <ul class="ns">
-    <li>
-      <a href="/">Home</a>
-    </li>
-    <li>
-      <a href="/documentation/">Documentation</a>
-    </li>
+    {{range.Site.Menus.categories}}
+    <li><a href="{{$BaseURL}}{{.URL}}">{{ .Title }}</a></li>
+    {{end}}
   </ul>
 </amp-sidebar>
