@@ -221,3 +221,26 @@ h3, .h3{font-size:28px;line-height:1.25}
 .toc ul ul {
     list-style-type: disc;
 }
+
+.post blockquote {
+    position: relative;
+    padding: 30px 10px 8px 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    background: #FAFAFA;
+    color: #555;
+    overflow-wrap: break-word;
+}
+  
+.post blockquote:before{
+    display: inline-block;
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    vertical-align: middle;
+    content: "\f10d";
+    font-family: FontAwesome;
+    color: #cfcfcf;
+    font-size: 28px;
+    line-height: 1;
+}
