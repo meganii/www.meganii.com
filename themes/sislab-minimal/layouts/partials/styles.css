@@ -63,7 +63,9 @@ h4, .h4{font-size:18px;line-height:1.11;font-weight:normal}
 
 /* Extra small screens only */
 @media (max-width:599px){.hx{display:none}
-
+    .u-sp-none {
+        display: none;
+    }
 }
 
 /* Small screens only */
@@ -78,7 +80,7 @@ h1, .h1{font-size:40px;line-height:1.125}
 h2, .h2{font-size:32px;line-height:1.25}
 h3, .h3{font-size:24px;line-height:1.25}
 h4, .h4{font-size:18px;line-height:1.22}
-
+.u-sp-none{display:block}
 }
 
 /* Medium screens only */
@@ -93,12 +95,9 @@ h2, .h2{font-size:36px;line-height:1.25}
 h3, .h3{font-size:28px;line-height:1.25}
 }
 
-.u-sp-none {
-    display: none;
-}
 
 /* Large screens only */
-@media all and (min-width: 1200px){.hl{display:none}.rw{width:980px}.rcl12{width:100%}.rcl11{width:91.66666667%}.rcl10{width:83.33333333%}.rcl9{width:75%}.rcl8{width:66.66666667%}.rcl7{width:58.33333333%}.rcl6{width:50%}.rcl5{width:41.66666667%}.rcl4{width:33.33333333%}.rcl3{width:25%}.rcl2{width:16.66666667%}.rcl1{width:8.33333333%}.rol11{margin-left:91.66666667%}.rol10{margin-left:83.33333333%}.rol9{margin-left:75%}.rol8{margin-left:66.66666667%}.rol7{margin-left:58.33333333%}.rol6{margin-left:50%}.rol5{margin-left:41.66666667%}.rol4{margin-left:33.33333333%}.rol3{margin-left:25%}.rol2{margin-left:16.66666667%}.rol1{margin-left:8.33333333%}.rol0{margin-left:0}.rtll{text-align:left}.rtlr{text-align:right}.rtlc{text-align:center}.rtlj{text-align:justify}.rpln{padding-top:0;padding-bottom:0}.rpls{padding-top:20px;padding-bottom:20px}.rplm{padding-top:40px;padding-bottom:40px}.rpll{padding-top:60px;padding-bottom:60px}.rmln{margin-bottom:0}.rmls{margin-bottom:20px}.rmlm{margin-bottom:40px}.rmll{margin-bottom:60px}.u-sp-none{display:block}
+@media all and (min-width: 1200px){.hl{display:none}.rw{width:980px}.rcl12{width:100%}.rcl11{width:91.66666667%}.rcl10{width:83.33333333%}.rcl9{width:75%}.rcl8{width:66.66666667%}.rcl7{width:58.33333333%}.rcl6{width:50%}.rcl5{width:41.66666667%}.rcl4{width:33.33333333%}.rcl3{width:25%}.rcl2{width:16.66666667%}.rcl1{width:8.33333333%}.rol11{margin-left:91.66666667%}.rol10{margin-left:83.33333333%}.rol9{margin-left:75%}.rol8{margin-left:66.66666667%}.rol7{margin-left:58.33333333%}.rol6{margin-left:50%}.rol5{margin-left:41.66666667%}.rol4{margin-left:33.33333333%}.rol3{margin-left:25%}.rol2{margin-left:16.66666667%}.rol1{margin-left:8.33333333%}.rol0{margin-left:0}.rtll{text-align:left}.rtlr{text-align:right}.rtlc{text-align:center}.rtlj{text-align:justify}.rpln{padding-top:0;padding-bottom:0}.rpls{padding-top:20px;padding-bottom:20px}.rplm{padding-top:40px;padding-bottom:40px}.rpll{padding-top:60px;padding-bottom:60px}.rmln{margin-bottom:0}.rmls{margin-bottom:20px}.rmlm{margin-bottom:40px}.rmll{margin-bottom:60px}
 
 }
 
