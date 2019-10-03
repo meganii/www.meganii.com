@@ -2,7 +2,7 @@
 title: リードクライミングのためのビレイ講習会@グラビティリサーチなんば
 date: 2014-02-21T06:06:00+09:00
 category: ['Activity']
-tags: ['リードクライミング']
+tags: ['リードクライミング', 'クライミング', 'なんば']
 published: true
 slug: lead-climbing-traning-day1
 ---
