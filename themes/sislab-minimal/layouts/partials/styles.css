@@ -260,5 +260,6 @@ h3, .h3{font-size:28px;line-height:1.25}
 .embed {
   border: 1px solid #f2f2f2;
   border-radius: 4px;
-  margin: 1rem;
 }
+
+.upn {padding-right: 0;padding-left: 0}

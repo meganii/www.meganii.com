@@ -19,9 +19,9 @@
 {{ range $json }}
   {{ if eq .Item.ASIN $itemId }}
   <div class="embed">
-    <div class="rw embededContainer">
+    <div class="rw embededContainer upn">
       <div class="rc">
-        <div class="rcx12 rcm3 rtxc rpxs rpls">
+        <div class="rcx12 rcm3 rtxc rpxs rpls upn">
             <a href="https://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/">
               <div>
                   <amp-img class="" src="{{ .Item.MediumImage.URL }}" alt="{{ .title }}"
@@ -29,13 +29,13 @@
               </div>
             </a>
         </div>
-        <div class="rcx12 rcm9 rpls">
+        <div class="rcx12 rcm9 rpls upn">
           <a href="https://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/">{{ .Item.ItemAttributes.Title }}</a>
           {{ if (or ( eq .Item.ItemAttributes.ProductGroup "Book") (eq .Item.ItemAttributes.ProductGroup "eBooks")) }}<div>出版社：{{ .Item.ItemAttributes.Publisher }}</div>{{ else if (eq .Item.ItemAttributes.ProductGroup "Shoes") }}<div>{{ .Item.ItemAttributes.Brand }}</div>{{ else }}<div>{{ .Item.ItemAttributes.Label }}</div>{{ end }}
           {{ with .Item.ItemAttributes.Author }}<div>著者: {{ . }}</div>{{ end }}
           {{ with .Item.ItemAttributes.PublicationDate }}<div>発売日: {{ . }}</div> {{ end }}
         </div>
-        <div class="rcx12">
+        <div class="rcx12 upn">
           <a href="https://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" class="bp">Amazonで購入する</a>
         </div>
       </div>
