@@ -16,41 +16,29 @@
 {{ $imgHeight := $.Scratch.Get "amazonItemHeight" }}
 
 {{ range $json }}
-{{ if eq .Item.ASIN $itemId }}
-<div class="c-flex c-card mb mt2">
-  <div class="c-flex--vertical p1">
-    <div class="c-flex--vertical__item c-flex">
-      <div class="c-flex__item">
-        <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" name="amazon-shortcode">
-          <amp-img class="thumb" src="{{ .Item.MediumImage.URL }}" alt="{{ .title }}"
-            width="{{ .Item.MediumImage.Width }}" height="{{ .Item.MediumImage.Height }}" layout="fixed" />
-        </a>
-      </div>
-      <div class="c-flex__item">
-        <div class="affiliate-box">
-          <div class="p-aflink__title">
-            <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/"
-              name="amazon-shortcode">{{ .Item.ItemAttributes.Title }}</a>
-          </div>
-          <div class="p-aflink__detail">
-            {{ with .Item.ItemAttributes.Author }}
-            <p class="p-aflink__author">{{ . }}</p>
-            {{ end }}
-            {{ if or ( eq .Item.ItemAttributes.ProductGroup "Book") (eq .Item.ItemAttributes.ProductGroup "eBooks") }}
-            <p>出版社：{{ .Item.ItemAttributes.Publisher }}</p>
-            {{ else if (eq .Item.ItemAttributes.ProductGroup "Shoes") }}
-            <p>{{ .Item.ItemAttributes.Brand }}</p>
-            {{ else }}
-            <p>{{ .Item.ItemAttributes.Label }}</p>
-            {{ end }}
-            {{ with .Item.ItemAttributes.PublicationDate }}
-            <p>発売日：{{ . }}</p>
-            {{ end }}
-          </div>
+  {{ if eq .Item.ASIN $itemId }}
+  <figure class="embed">
+    <div class="rw embededContainer">
+      <div class="rc">
+        <div class="rcx12 rcm3 rtxc rpxs rpls">
+            <a href="https://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/">
+              <div>
+                  <amp-img class="" src="{{ .Item.MediumImage.URL }}" alt="{{ .title }}"
+                  width="{{ .Item.MediumImage.Width }}" height="{{ .Item.MediumImage.Height }}" layout="fixed" />
+              </div>
+            </a>
+        </div>
+        <div class="rcx12 rcm9 rpls">
+          <a href="https://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/">{{ .Item.ItemAttributes.Title }}</a>
+          {{ if (or ( eq .Item.ItemAttributes.ProductGroup "Book") (eq .Item.ItemAttributes.ProductGroup "eBooks")) }}<div>出版社：{{ .Item.ItemAttributes.Publisher }}</div>{{ else if (eq .Item.ItemAttributes.ProductGroup "Shoes") }}<div>{{ .Item.ItemAttributes.Brand }}</div>{{ else }}<div>{{ .Item.ItemAttributes.Label }}</div>{{ end }}
+          {{ with .Item.ItemAttributes.Author }}<div>著者: {{ . }}</div>{{ end }}
+          {{ with .Item.ItemAttributes.PublicationDate }}<div>発売日: {{ . }}</div> {{ end }}
+        </div>
+        <div class="rcx12">
+          <a href="https://www.amazon.co.jp/exec/obidos/ASIN/{{ $itemId }}/{{ $associateId }}/" class="bp">Amazonで購入する</a>
         </div>
       </div>
     </div>
-  </div>
-</div>
-{{ end }}
+  </figure>
+  {{ end }}
 {{ end }}
