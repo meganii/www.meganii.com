@@ -15,9 +15,10 @@
 {{ $imgWidth := $.Scratch.Get "amazonItemWidth" }}
 {{ $imgHeight := $.Scratch.Get "amazonItemHeight" }}
 
+<p></p><!-- Avoid overriding list -->
 {{ range $json }}
   {{ if eq .Item.ASIN $itemId }}
-  <figure class="embed">
+  <div class="embed">
     <div class="rw embededContainer">
       <div class="rc">
         <div class="rcx12 rcm3 rtxc rpxs rpls">
@@ -39,6 +40,6 @@
         </div>
       </div>
     </div>
-  </figure>
+  </div>
   {{ end }}
 {{ end }}
