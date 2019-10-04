@@ -63,9 +63,6 @@ h4, .h4{font-size:18px;line-height:1.11;font-weight:normal}
 
 /* Extra small screens only */
 @media (max-width:599px){.hx{display:none}
-    .u-sp-none {
-        display: none;
-    }
 }
 
 /* Small screens only */
@@ -80,7 +77,7 @@ h1, .h1{font-size:40px;line-height:1.125}
 h2, .h2{font-size:32px;line-height:1.25}
 h3, .h3{font-size:24px;line-height:1.25}
 h4, .h4{font-size:18px;line-height:1.22}
-.u-sp-none{display:block}
+
 }
 
 /* Medium screens only */
@@ -258,25 +255,4 @@ h3, .h3{font-size:28px;line-height:1.25}
   box-shadow: 0 0 3px 0 #333 inset;
   float: left;
   margin-right: 1rem;
-}
-
-.p-adsense {
-    width: 100%;
-    margin-top: 2rem;
-    font-size: .5rem;
-    color: #818181;
-}
-
-.p-adsense::after {
-    margin-bottom: 1rem;
-}
-
-.p-adtable {
-    width: 100%;
-    display: table;
-    table-layout: fixed;
-}
-
-.p-adtable__item {
-    display: table-cell;
 }
