@@ -42,7 +42,7 @@ h4, .h4{font-size:18px;line-height:1.11;font-weight:normal}
 
 /* Navigation */
 #nav{background-color:#fff;width:100%}
-.no,.nc{font-weight:bold;color:#660080;font-size:36px; display:inline-block;position:absolute;top:15px;right:20px;cursor:pointer}
+.no,.nclose{font-weight:bold;color:#660080;font-size:36px; display:inline-block;position:absolute;top:15px;right:20px;cursor:pointer}
 .ni{display:none}
 .ns{margin:70px 40px 0 40px;padding:0;font-size:22px}
 /* .nt{margin:0 0 0 20px;padding:0} */

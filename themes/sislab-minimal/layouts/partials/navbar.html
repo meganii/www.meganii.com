@@ -23,7 +23,7 @@
 </header>
 
 <amp-sidebar id="nav" layout="nodisplay" side="right">
-  <div role="button" aria-label="close menu" on="tap:nav.toggle" tabindex="0" class="nc">X</div>
+  <div role="button" aria-label="close menu" on="tap:nav.toggle" tabindex="0" class="nclose">X</div>
   <ul class="ns">
     {{range.Site.Menus.categories}}
     <li><a href="{{$BaseURL}}{{.URL}}">{{ .Title }}</a></li>
