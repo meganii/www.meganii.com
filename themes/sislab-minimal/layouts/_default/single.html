@@ -1,23 +1,33 @@
 {{ define "main" }}
-<div class="rw">
-
-  <header class="">
-    <h1 class="">{{ .Page.Title }}</h1>
-    <div class="">
-      <span class=""><i class="fa fa-refresh" aria-hidden="true"></i> 更新日:{{ .Lastmod.Format "2006/01/02" }}</span>
-      <span class=""><i class="fa fa-calendar" aria-hidden="true"></i> 作成日:{{ .Date.Format "2006/01/02" }}</span>
+<article class="">
+  <div class="rw">
+    <div class="rr">
+      <div class="rcx12">
+        <div class="">{{ partial "breadcrumb.html" . }}</div>
+        <h1 class="title">{{ .Page.Title }}</h1>
+        <div class="">
+          <span class=""><i class="fa fa-refresh" aria-hidden="true"></i> 更新日:{{ .Lastmod.Format "2006/01/02" }}</span>
+          <span class=""><i class="fa fa-calendar" aria-hidden="true"></i> 作成日:{{ .Date.Format "2006/01/02" }}</span>
+        </div>
+      </div>
     </div>
-  </header>
-
-  <section class="rpxs post">
-    {{ .Content }}
-  </section>
-
-  {{ partial "share.html" .}}
-
-  {{ partial "adsense.html" .Site }}
-
-</div>
+    <div class="rr">
+      <div class="rcx12 rpxs post">
+        {{ .Content }}
+      </div>
+    </div>
+    <div class="rr">
+      <div class="rcx12">
+        {{ partial "share.html" .}}
+      </div>
+    </div>
+    <div class="rr">
+      <div class="rcx12">
+        {{ partial "adsense.html" .Site }}
+      </div>
+    </div>
+  </div>
+</article>
 {{ end }}
 
 {{ define "aside" }}

@@ -259,3 +259,15 @@ h3, .h3{font-size:28px;line-height:1.25}
 }
 
 .upn {padding-right: 0;padding-left: 0}
+
+.breadcrumb {
+  padding: 0;
+}
+.breadcrumb li {
+  display: inline;
+  list-style: none;
+}
+.breadcrumb li:not(:last-child)::after {
+  content: '>';
+  padding: 0 0.2rem;
+}
