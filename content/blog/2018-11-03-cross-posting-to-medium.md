@@ -4,7 +4,7 @@ date: 2018-11-03T14:10:16+09:00
 lastmod: 2018-11-03T14:10:16+09:00
 comments: true
 category: ['Tech']
-tags: ['Blog', 'Medium', 'Qrunch']
+tags: ['Blog', 'Medium', 'Qrunch', 'ブログ']
 published: true
 slug: cross-posting-to-qrunch-and-medium
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"

@@ -10,7 +10,7 @@ slug: repair-google-pixel-3a
 img: https://res.cloudinary.com/meganii/image/upload/ar_16:9,c_fill,e_sharpen,f_auto,g_auto,q_auto,w_400/v1561292791/IMG_3984_cm9p0a.jpg
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/c_fill,e_sharpen,f_auto,g_auto,q_auto,w_400/v1561292791/IMG_3984_cm9p0a.jpg" w="400" h="533" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/c_fill,e_sharpen,f_auto,g_auto,q_auto,w_400/v1561292791/IMG_3984_cm9p0a.jpg" w="400" h="533" alt="Google Pixel3a 修理" %}}
 
 Google Pixel 3aを手に入れて一ヶ月もしないうちに落として画面を割ってしまいました。
 
