@@ -8,6 +8,8 @@ hasCJKLanguage = true
 
 PygmentsCodeFences = true
 pygmentsUseClasses = true
+pygmentsStyle = "monokailight"
+pygmentsOptions = "noclasses=true"
 
 DefaultContentLanguage = "ja"
 
