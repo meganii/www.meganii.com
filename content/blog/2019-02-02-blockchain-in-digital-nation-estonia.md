@@ -10,7 +10,7 @@ slug: blockchain-in-digital-nation-estonia
 img: https://i.gyazo.com/d688db816678c52f3312e9e0421f1be2.png
 ---
 
-{{% img src="https://i.gyazo.com/d688db816678c52f3312e9e0421f1be2.png" w="2" h="1" %}}
+{{% img src="https://i.gyazo.com/d688db816678c52f3312e9e0421f1be2.png" w="2" h="1" alt="電子国家エストニアを通してブロックチェーンの未来を見" %}}
 
 2019/02/01、株式会社GIGさんが開催している「Tech Trend Talk #12」に参加してきました。
 
@@ -82,6 +82,7 @@ img: https://i.gyazo.com/d688db816678c52f3312e9e0421f1be2.png
     - 勉強会に、理事会の偉い人が参加していたりする
 
 ### Why Estonia
+
 - e Goverment
 - e-Regidency
 - ESTCOIN
