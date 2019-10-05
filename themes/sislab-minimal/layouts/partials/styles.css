@@ -216,8 +216,8 @@ h3, .h3{font-size:28px;line-height:1.25}
 
 .post blockquote {
     position: relative;
-    padding: 30px 10px 8px 10px;
-    margin: 5px;
+    padding: 3rem 1rem 1.5rem 1rem;
+    margin: .5rem;
     box-sizing: border-box;
     background: #FAFAFA;
     color: #555;
