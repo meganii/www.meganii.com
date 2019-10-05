@@ -28,7 +28,7 @@ body .cf:after, body .cf:before, body .rf:after, body .rf:before, body .rr:after
 
 footer {background-color:#F0F0F0}
 /* Typeography */
-body{font-family:'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, sans-serif;line-height:1.7;font-size:16px;color:#263238;}
+body{font-family:-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,Hiragino Kaku Gothic ProN,Hiragino Sans,ヒラギノ角ゴ ProN W3,Arial,メイリオ,Meiryo,sans-serif;line-height:1.7;font-size:16px;color:#263238;}
 h1, .h1{font-size:32px;line-height:1.25;font-weight:normal}
 h2, .h2{font-size:26px;line-height:1.15;font-weight:normal}
 h3, .h3{font-size:22px;line-height:1.14;font-weight:normal}
