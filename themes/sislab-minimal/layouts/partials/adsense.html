@@ -2,7 +2,10 @@
   <span>スポンサーリンク</span>
   <div class="rr">
     <div class="rcm6 rcx12">
-      <amp-ad width="100vw" height=320
+      <amp-ad
+        media="(max-width: 480px)"
+        width="100vw"
+        height=320
         type="adsense"
         data-ad-client="ca-pub-5340212676785058"
         data-ad-slot="7368951150"
@@ -10,15 +13,23 @@
         data-full-width>
         <div overflow></div>
       </amp-ad>
-    </div>
-    <div class="rcm6 hx">
-      <amp-ad width="100vw" height=320
+      <amp-ad
+        media="(min-width: 481px)"
+        layout="fixed-height"
+        height=200
         type="adsense"
         data-ad-client="ca-pub-5340212676785058"
-        data-ad-slot="7368951150"
-        data-auto-format="rspv"
-        data-full-width>
-        <div overflow></div>
+        data-ad-slot="7368951150">
+      </amp-ad>
+    </div>
+    <div class="rcm6 hx">
+      <amp-ad
+        media="(min-width: 481px)"
+        layout="fixed-height"
+        height=200
+        type="adsense"
+        data-ad-client="ca-pub-5340212676785058"
+        data-ad-slot="7368951150">
       </amp-ad>
     </div>
   </div>
