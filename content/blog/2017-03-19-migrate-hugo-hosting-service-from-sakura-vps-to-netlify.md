@@ -14,6 +14,8 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 
 良い機会であるため、静的サイトのホスティングをVPSではなくクラウドサービスを利用しようと検討しました。
 
+{{% toc %}}
+
 ## 移行先検討
 
 - GitHub Pages
