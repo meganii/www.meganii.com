@@ -145,7 +145,7 @@ h3, .h3{font-size:28px;line-height:1.25}
 
 .post blockquote {
     position: relative;
-    padding: 3rem 1rem 1.5rem 1rem;
+    padding: 1.5rem 1rem 1.5rem 1rem;
     margin: .5rem;
     box-sizing: border-box;
     background: #FAFAFA;
@@ -154,16 +154,12 @@ h3, .h3{font-size:28px;line-height:1.25}
 }
   
 .post blockquote:before{
-    display: inline-block;
-    position: absolute;
-    top: 13px;
-    left: 15px;
-    vertical-align: middle;
-    content: "\f10d";
-    font-family: FontAwesome;
-    color: #cfcfcf;
-    font-size: 28px;
-    line-height: 1;
+  display: inline-block;
+  content: " ";
+	background-image: url(/images/quote.svg);
+  background-size: 2.4rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .thumbnail {
