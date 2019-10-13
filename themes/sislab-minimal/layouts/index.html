@@ -4,7 +4,6 @@
 {{- partial "head.html" . -}}
 
 <body>
-  <amp-auto-ads type="adsense" data-ad-client="{{.Site.Params.adsensePublisher}}"></amp-auto-ads>
   {{ if ne (getenv "HUGO_ENV") "DEV" }}
   {{ with .Site.Params.GoogleAnalytics }}
   {{ partial "analytics.html" . }}
