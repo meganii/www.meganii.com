@@ -5,7 +5,7 @@ lastmod: 2019-10-11T22:19:49+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo', 'AMP', 'Blog']
-published: false
+published: true
 slug: optimize-amp
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
 ---
