@@ -4,7 +4,7 @@ date: 2017-10-07T14:40:16+09:00
 lastmod: 2017-10-07T14:40:16+09:00
 comments: true
 category: ['Tech']
-tags: ['Hugo']
+tags: ['Hugo', '関連記事', 'Blog']
 published: true
 slug: hugo-related-content
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514036568/thumbnail_hugo_icon.png"
@@ -16,6 +16,8 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 いつのまにかHugo 0.29から関連コンテンツ表示機能が追加されています。これによって他のCMSではプラグインで簡単にできていたのに、Hugoではできないというポイントが解消されました。もはや、Hugo最強説！！。
 
 さっそくこのブログにも試してみました。
+
+{{% toc %}}
 
 <!--more-->
 {{% googleadsense %}}
