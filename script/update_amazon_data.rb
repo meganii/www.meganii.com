@@ -122,7 +122,8 @@ def get_yahoo_url_from(jan_list)
 end
 
 # main
-id_list = extract_asin_from_shortcode
+# id_list = extract_asin_from_shortcode
+id_list = ['B0728K5JZV']
 id_list.each do |id|
   puts id
   puts 'sleep for 2s'
