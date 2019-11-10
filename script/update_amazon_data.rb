@@ -123,7 +123,7 @@ end
 
 # main
 # id_list = extract_asin_from_shortcode
-id_list = ['B0728K5JZV']
+id_list = ['4798055832', '4839970874']
 id_list.each do |id|
   puts id
   puts 'sleep for 2s'
