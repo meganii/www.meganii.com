@@ -14,7 +14,7 @@
       width="{{ .Get "w"}}"
       height="{{ .Get "h" }}"
       layout="responsive"
-      alt="image">
+      alt="{{.Get "alt" | default $.Page.Title }}">
   </amp-img>
 </figure>
 {{ else }}
