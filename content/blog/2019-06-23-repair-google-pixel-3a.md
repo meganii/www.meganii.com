@@ -7,16 +7,16 @@ category: ['Tech']
 tags: ['Google Pixel 3a', 'Google', 'スマートフォン']
 published: true
 slug: repair-google-pixel-3a
-img: https://res.cloudinary.com/meganii/image/upload/ar_16:9,c_fill,e_sharpen,f_auto,g_auto,q_auto,w_400/v1561292791/IMG_3984_cm9p0a.jpg
+img: https://res.cloudinary.com/meganii/image/upload/v1573386402/Fix_Pixel3a_seb7cv.png
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/c_fill,e_sharpen,f_auto,g_auto,q_auto,w_400/v1561292791/IMG_3984_cm9p0a.jpg" w="400" h="533" alt="Google Pixel3a 修理" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1573386402/Fix_Pixel3a_seb7cv.png" w="560" h="315" alt="Google Pixel3a 修理" %}}
 
 Google Pixel 3aを手に入れて一ヶ月もしないうちに落として画面を割ってしまいました。
 
 海外旅行へ行くまでの道すがらに破損したので、もしかしたらエポスカードゴールドの携行品破損保険が適用できるかもしれないと思い申請中です。旅行前にかなりテンション下がりました。
 
-帰国後、割れたまま使い続けるのも気分が悪いため、修理する方向で、調べてみました。
+帰国後、割れたまま使い続けるのも気分が悪いため、修理する方向で調べてみました。
 
 <!--more-->
 {{% googleadsense %}}
@@ -64,7 +64,7 @@ Pixel 3aの修理代は以下の通りです。
 
 ## iCracked紹介プログラムで少しでも修理代を安くしませんか？
 
-iCrackedでの修理時にコード「137321」を伝えていただくと、修理代金から1,000円値引きになるみたいなのでぜひご活用ください！
+iCrackedでの修理時にコード **「137321」** を伝えていただくと、修理代金から1,000円値引きになるみたいなのでぜひご活用ください！
 
 [icracked紹介プログラム \| iPhone修理・故障ならiCracked](https://www.icracked.jp/cp/referral-program/)
 
