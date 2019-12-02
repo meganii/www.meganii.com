@@ -673,11 +673,6 @@
           "Type": "発行済み"
         }
       },
-      "ListPrice": {
-        "Amount": "3509",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,509"
-      },
       "Manufacturer": "マイナビ出版",
       "NumberOfItems": "1",
       "NumberOfPages": "320",
@@ -702,12 +697,12 @@
         "FormattedPrice": "￥ 3,509"
       },
       "LowestUsedPrice": {
-        "Amount": "5341",
+        "Amount": "5211",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 5,341"
+        "FormattedPrice": "￥ 5,211"
       },
-      "TotalNew": "4",
-      "TotalUsed": "5",
+      "TotalNew": "5",
+      "TotalUsed": "8",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -720,7 +715,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "UCl5NEya19THCTggcI4yAlK0knHgM4SeTlp5w8F9eKyzlUgFoMvaBCwLARs1oAg4ZJ%2BizTCUHCwPLU6PokT4fKe%2BibMggYCUNkU5VNufjMQ%3D",
+          "OfferListingId": "DRStqxtdEDscuUsU0kj0LxdMKF4v82nHYYjb5HGx%2Fj6UTU0IEHp6dcsPxZ6Y2zQau%2BmVhJnrGjg7bB74QHgkmWMPbMdcEC35qAV%2B1mLdXdM%3D",
           "Price": {
             "Amount": "3509",
             "CurrencyCode": "JPY",
@@ -736,17 +731,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "70",
+          "Points": "35",
           "TypicalRedemptionValue": {
-            "Amount": "70",
+            "Amount": "35",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 70"
+            "FormattedPrice": "￥ 35"
           }
         }
       }
     }
   },
-  "Lastmod": "2019-11-10 16:04:31 +0900",
+  "Lastmod": "2019-12-02 22:33:31 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/df6c4ce585bdbb0097a0fa6b2793e235/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/df6c4ce585bdbb0097a0fa6b2793e235/"

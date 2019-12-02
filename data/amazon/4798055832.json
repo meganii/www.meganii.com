@@ -138,11 +138,6 @@
           "Type": "発行済み"
         }
       },
-      "ListPrice": {
-        "Amount": "3300",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,300"
-      },
       "Manufacturer": "秀和システム",
       "NumberOfItems": "1",
       "NumberOfPages": "412",
@@ -166,12 +161,12 @@
         "FormattedPrice": "￥ 3,300"
       },
       "LowestUsedPrice": {
-        "Amount": "2300",
+        "Amount": "1900",
         "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,300"
+        "FormattedPrice": "￥ 1,900"
       },
       "TotalNew": "5",
-      "TotalUsed": "11",
+      "TotalUsed": "12",
       "TotalCollectible": "0",
       "TotalRefurbished": "0"
     },
@@ -184,7 +179,7 @@
           "Condition": "New"
         },
         "OfferListing": {
-          "OfferListingId": "Sh8WLvVcYvF6i1tUDgL1WpzHYc5YQKyHnDJaAO8SaLDQj%2BviYZPkFIsE3bjUA6G3USsa7Kh0S9ybzSve%2FlJsLHnp%2FSa6YtigNwbFe3xJtgM%3D",
+          "OfferListingId": "6FpqH51pSgrmRr9Wu1h2ctxWZdUAsEsKrD41FOyqnRAAQsdqbW%2B%2FlmrhOEI1xOKaYV76PXce5JR5XmAKMNczVx2b6y67hh%2BQFkuCfbDcDV0%3D",
           "Price": {
             "Amount": "3300",
             "CurrencyCode": "JPY",
@@ -200,17 +195,17 @@
           "IsEligibleForPrime": "1"
         },
         "LoyaltyPoints": {
-          "Points": "60",
+          "Points": "33",
           "TypicalRedemptionValue": {
-            "Amount": "60",
+            "Amount": "33",
             "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 60"
+            "FormattedPrice": "￥ 33"
           }
         }
       }
     }
   },
-  "Lastmod": "2019-11-10 16:04:26 +0900",
+  "Lastmod": "2019-12-02 22:33:25 +0900",
   "Rakuten": {
     "productUrlPC": "https://product.rakuten.co.jp/product/-/e0ea0f11d1a94b01bc5659fecc54fb32/",
     "productUrlMobile": "http://m.product.rakuten.co.jp/product/e0ea0f11d1a94b01bc5659fecc54fb32/"
