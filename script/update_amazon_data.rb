@@ -2,7 +2,6 @@
 
 require 'rubygems'
 require 'amazon/ecs'
-require 'rapa'
 require 'json'
 require 'active_support'
 require 'active_support/core_ext'
@@ -123,7 +122,7 @@ end
 
 # main
 # id_list = extract_asin_from_shortcode
-id_list = ['4798055832', '4839970874']
+id_list = ['4798059838']
 id_list.each do |id|
   puts id
   puts 'sleep for 2s'

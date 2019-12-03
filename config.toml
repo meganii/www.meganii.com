@@ -143,3 +143,10 @@ homepage = "https://www.meganii.com/"
   title = "Book"
   url = "category/book/"
   weight = 50
+
+
+[markup]
+defaultMarkdownHandler = "goldmark"
+[markup.goldmark]
+  [markup.goldmark.renderer]
+    unsafe = true
