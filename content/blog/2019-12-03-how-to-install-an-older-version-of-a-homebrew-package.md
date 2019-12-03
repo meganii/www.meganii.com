@@ -91,9 +91,9 @@ Hugo Static Site Generator v0.58.3/extended darwin/amd64 BuildDate: unknown
 これで、*マークがついているバージョンに切り替わりました。
 
 
-## 3. `brew upgrade hugo`などで最新版のバージョンしかない場合は、Formulaのファイルをgit checkoutで対象のバージョンに戻す
+## 3. 最新版のバージョンしかない場合はFormulaのファイルをgit checkoutで対象のバージョンに戻す
 
-私はこのパターンでした。
+新規インストールした場合、もしくは`brew upgrade hugo`などで既存のパッケージを上書きしてしまった場合などはこの状況かと思います。私もこのパターンでした。
 
 まずは以下の通り、Formulaファイル格納場所へ移動し、対象のライブラリ(ここでは`hugo.rb`)の任意のバージョンのコミットハッシュ値を調べます。
 
@@ -163,12 +163,4 @@ brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/1eb598bac6
 - [Tips and Tricks — Homebrew Documentation](https://docs.brew.sh/Tips-N'-Tricks)
 - [\[2018/10\]homebrewで過去バージョンのパッケージをインストールする \- Qiita](https://qiita.com/nghryuki/items/7d65d8f55ea65b95310d)
 - [Homebrewで旧バージョンのパッケージをインストールしたい \- Qiita](https://qiita.com/KyoheiG3/items/912bcc27462871487845)
-
-
-
-
-
-
-
-
 
