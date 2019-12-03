@@ -25,6 +25,7 @@ GEM
     nokogumbo (1.4.9)
       nokogiri
     pkg-config (1.1.7)
+    rake (12.0.0)
     ruby-hmac (0.4.0)
     sanitize (4.1.0)
       crass (~> 1.0.2)
@@ -44,8 +45,9 @@ DEPENDENCIES
   dotenv
   english
   json
+  rake
   sanitize
   stringex
 
 BUNDLED WITH
-   1.14.6
+   2.0.2
