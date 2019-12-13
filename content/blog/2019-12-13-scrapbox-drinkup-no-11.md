@@ -10,6 +10,9 @@ slug: scrapbox-drinkup-no-11
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1576248535/Scrapbox_Drinkup_11_Xmas_Edition_emnkxn.png"
 ---
 
+
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1576248812/Scrapbox_Drinkup_11_Xmas_Edition-header_l7hjdh.png" w="560" h="315" %}}
+
 2019/12/11(水) Scrapbox Drinkup No.11 に参加してきました！気になった点をまとめてみます。
 
 [Scrapbox Drinkup \#11 \- connpass](https://nota.connpass.com/event/156484/)
