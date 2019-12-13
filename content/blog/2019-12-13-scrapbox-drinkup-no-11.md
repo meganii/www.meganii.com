@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Meetup', 'Scrapbox', 'LT']
 published: true
 slug: scrapbox-drinkup-no-11
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514038598/BOOK_1_v8p2op.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1576248535/Scrapbox_Drinkup_11_Xmas_Edition_emnkxn.png"
 ---
 
 2019/12/11(水) Scrapbox Drinkup No.11 に参加してきました！気になった点をまとめてみます。
