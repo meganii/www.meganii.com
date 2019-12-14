@@ -80,7 +80,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 
 気になる方はぜひ参加してみてはいかがでしょうか。 => [つくばexpress\.js \#1 \- connpass](https://txjs.connpass.com/event/153123/)
 
-また、LT後半のアクセサビリティの話では、普段あまり意識しないこともあり、インタビューしないとわからない部分があるよなぁと改めて実感しました。
+また、LT後半のアクセシビリティの話では、普段あまり意識しないこともあり、インタビューしないとわからない部分があるよなぁと改めて実感しました。
 
 
 ## Scrapboxの平凡な使い方 - @ShinoTatwu さん
