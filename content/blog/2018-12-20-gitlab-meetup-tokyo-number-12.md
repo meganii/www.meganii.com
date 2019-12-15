@@ -157,7 +157,7 @@ The Cloud Native Computing Foundation seeks to drive adoption of this paradigm b
 - [【エンジニアのキャリアアップを語る】日々のアウトプットが変える！あなたのエンジニア・ライフ - connpass](https://forkwell.connpass.com/event/102045/)
 - [実践的アウトプット入門 なぜ？なにを？どうやって？ / Kwappa さん - ニコナレ](https://niconare.nicovideo.jp/watch/kn3513)
 - [「日々のアウトプットが変える！あなたのエンジニア・ライフ」というイベントに登壇してきたよ #forkwell | Kwappa研究開発室](http://randd.kwappa.net/2018/10/10/705)
-- `Qurunch`もおすすめとのこと
+- [Qrunch](https://qrunch.net/)もおすすめとのこと
     - Forkwellがスポンサーになっていたはず
 
 
@@ -175,7 +175,7 @@ GitLab Meetup Tokyoには初めて参加させていただきました。
 ## Next Action
 
 - [x] ブログを書く
-- [ ] アウトプット関連記事を漁ってみる
+- [x] アウトプット関連記事を漁ってみる
 - [ ] インフラCI実践ガイド Ansible/GitLabを使ったインフラ改善サイクルの実現を読んでCIの勘どころを掴む
 - [ ] 社内開発フローに浸透させる
 
