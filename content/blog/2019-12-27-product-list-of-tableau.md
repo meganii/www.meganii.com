@@ -7,8 +7,11 @@ category: ['Tech']
 tags: ['Tableau']
 published: true
 slug: product-list-of-tableau
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/v1577416646/tableaupublic_xd3mun.png"
 ---
+
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1577416646/tableaupublic_xd3mun.png" w="556" h="329" alt="Tableau Public" %}}
+
 
 最近、Tableauを触る機会が出てきたので、調べながら学んだ点を残しておきます。
 
