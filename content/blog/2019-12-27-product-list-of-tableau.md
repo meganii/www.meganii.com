@@ -57,17 +57,21 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1577416646/tableaupublic_
 
 「Tableau Public」を使ってGoogle Analyticsに簡単に接続できれば、アクセス解析とか簡単にできるのではないか！と思いましたが、そこは上手くできているようで、機能制限がありました。
 
-とはいえ、Excelファイルやcsv, jsonなどのテキストファイルは普通に読み込めるので、必要に応じてGoogle Analyticsのデータを出力することで対応できるかもしれません。
+とはいえ、Excelファイルやcsv, jsonなどのテキストファイルは普通に読み込めるので、必要に応じてGoogle Analyticsのデータを出力することで対応できそうです。
 
 
 
-また、ローカルに保存できず、保存する場合は`Tableau Public Gallary`で全世界公開されるという仕様があるので、機密情報や公にできないデータを扱うには向きません。
+また、ローカルに作成したVizを保存できず、保存する場合は`Tableau Public Gallary`で全世界公開されるという仕様があるので、機密情報や公にできないデータを扱うには向きません。
 
 
 
-一方、個人利用でオープンデータを利用する場合、`Tableau Public`は`Tableau Desktop`の分析機能を無償でフル活用できるので非常に強力なツールになると思います。
+一方、個人でオープンデータを利用する場合、`Tableau Public`は`Tableau Desktop`の分析機能を無償でフル活用できるので非常に強力なツールになると思います。
 
 
+## まとめ
+
+- オープンデータを個人で分析する場合は「Tableau Public」が有効！
+- Tableau Prep Builderの無償版に相当するツールは存在しないため、別途手作業やPythonなどで前処理が必要
 
 
 ## 参考
