@@ -10,12 +10,16 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1565609697/marketing-22_p
 slug: marketing-22-raws
 ---
 
+
 22の法則もあって、読んでても繋がりが頭にはいってこなかったので、1枚の図にまとめてみました。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1565609697/marketing-22_pmhi3a.png" w="640" h="492" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1565609697/marketing-22_pmhi3a.png" w="640" h="492" alt="マーケティング22の法則　図解" %}}
 
 
 [「マーケティング22の法則図解」拡大版](https://cacoo.com/diagrams/REbndUQXEFksOf2j/simple#8F3BB)
+
+
+{{% toc %}}
 
 
 ## 「マーケティングとは、商品をめぐる戦いではなく、知覚をめぐる戦いである」。知覚の法則、心の法則
