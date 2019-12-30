@@ -171,6 +171,10 @@ h3, .h3{font-size:28px;line-height:1.25}
   height: 2rem;
 }
 
+.list .title {
+  margin: 0;
+}
+
 .thumbnail {
   display: block;
   background-position: center;
