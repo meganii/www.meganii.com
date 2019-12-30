@@ -4,7 +4,7 @@ date: 2016-02-11T22:08:28+09:00
 lastmod: 2017-07-01T15:53:29+09:00
 comments: true
 category: ['Book']
-tags: ['Money','株式']
+tags: ['Money','株式','投資']
 published: true
 slug: a-random-walk-down-wall-street
 img: "https://images-na.ssl-images-amazon.com/images/I/51UMwuX4tjL._SL160_.jpg"
@@ -23,6 +23,8 @@ img: "https://images-na.ssl-images-amazon.com/images/I/51UMwuX4tjL._SL160_.jpg"
 - 配当や金利、賃貸料などかなり確実性の高い収入で利益を上げること
 - 長期間保有して値上がり益を得ることを目的とした金融資産の購入
 
+のこと。
+
 どのような期間で投資リターンを考えるか、リターンが合理的に予測できるかという点で、投機とは異なる。
 
 
@@ -34,7 +36,8 @@ img: "https://images-na.ssl-images-amazon.com/images/I/51UMwuX4tjL._SL160_.jpg"
 - 90%が心理的で10%が合理的な判断で株価は動くと信じている
 
 砂上の楼閣(さじょうのろうかく)理論に基づいて的確な売り買いのタイミングを予測する。
-> 見かけはりっぱであるが、基礎がしっかりしていないために長く維持できない物事のたとえ。また、実現不可能なことのたとえ。
+
+> 砂上の楼閣：見かけはりっぱであるが、基礎がしっかりしていないために長く維持できない物事のたとえ。また、実現不可能なことのたとえ。
 
 
 ### ファンダメンタル分析
@@ -63,6 +66,8 @@ img: "https://images-na.ssl-images-amazon.com/images/I/51UMwuX4tjL._SL160_.jpg"
 
 まとめると、
 成長が期待でき、かつ低PERの銘柄を探そう。もしも成長が実現したら、利益成長と株価収益率の上昇による２重のボーナスが得られる。
+
+
 逆に、将来の成長がすでに織り込み済みの高PERの銘柄には注意。利益減少と株価収益率の低下による２重の損失になる。
 最後の３点目は、必ずしも周りが合理的な判断で投資を行っているわけではないため、信用するだけのストーリーを持っているかどうかを判断する。
 
@@ -83,4 +88,4 @@ img: "https://images-na.ssl-images-amazon.com/images/I/51UMwuX4tjL._SL160_.jpg"
 アフィリエイト界隈だって、誰かありがたがってアフィリエイトで儲かるノウハウを欲する人がいる限り、儲かる仕組みなんだろうな。
 
 
-{{% amazon 4532354714 %}}
+{{% amazon B07VR1CCHV %}}
