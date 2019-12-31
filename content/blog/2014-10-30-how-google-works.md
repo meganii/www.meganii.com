@@ -4,7 +4,7 @@ date: 2014-10-30T22:52:00+09:00
 lastmod: 2017-02-24T22:52:00+09:00
 comments: true
 category: ['Life']
-tags: ['book','キャリア']
+tags: ['Book','キャリア']
 published: true
 slug: how-google-works
 img: https://images-na.ssl-images-amazon.com/images/I/51lusOSU33L._SL160_.jpg
@@ -19,6 +19,8 @@ img: https://images-na.ssl-images-amazon.com/images/I/51lusOSU33L._SL160_.jpg
 
 たまたまTwitterのTLで見かけたので、読んでみた。
 
+
+{{% toc %}}
 
 
 ## この本から得たいことは？
@@ -81,7 +83,7 @@ img: https://images-na.ssl-images-amazon.com/images/I/51lusOSU33L._SL160_.jpg
 
 **「目的地がどこかわからないときは、注意したほうがいい。おそらくそこに辿りつけないから」**
 
-最近目的地が、分からなくなっている。どこへ向かっているのだろう？どこへ向かっていっているのだろう？
+最近目的地が、分からなくなっている。どこへ向かっているのだろう？どこへ向かうべきだろうか。
 
 
 
