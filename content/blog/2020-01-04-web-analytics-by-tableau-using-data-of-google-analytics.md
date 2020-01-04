@@ -5,7 +5,7 @@ lastmod: 2020-01-04T10:35:50+09:00
 comments: true
 category: ['Tech']
 tags: ['Tableau','アクセス解析', 'Google Analytics']
-published: false
+published: true
 slug: web-analytics-by-tableau-using-data-of-google-analytics
 img: https://res.cloudinary.com/meganii/image/upload/v1578102972/weekly_pageview_jxyuee.png
 ---
