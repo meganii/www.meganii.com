@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Tableau', 'BI', 'ホワイトペーパー']
 published: true
 slug: tableau-whitepater-traditional-bi-vs-modern-bi
-img: https://res.cloudinary.com/meganii/image/upload/v1578747122/modern_bi_nj04jw.jpg
+img: https://res.cloudinary.com/meganii/image/upload/v1578747121/traditional_bi_mldrza.jpg
 ---
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1578669810/tableaulogo_highres_t9alev.png" w="2000" h="450" %}}
