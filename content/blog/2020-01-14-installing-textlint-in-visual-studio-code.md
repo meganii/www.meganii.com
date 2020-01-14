@@ -120,6 +120,37 @@ npx textlint {hogehoge.md}
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1579010049/textlint_fix_auto_xxwhhc.png" w="622" h="135" alt="textlint fix auto" %}}
 
 
+### HugoのShortcodesを除外ルールに追加
+
+冒頭にも書いたHugoのShortcodesを除外するルールを追加します。
+
+ホワイトリストを作るために`textlint-filter-rule-whitelist`を追加でインストールします。
+
+```
+npm install --save-dev textlint-filter-rule-whitelist
+```
+
+続いて、`.textlintrc`の`filters`に以下の通り追加します。
+これは、`Shortcodes`として`{{% escape "{{%" %}} shortcodes {{% escape "%}}" %}}`を利用しているためです。
+
+```
+{
+  "filters": {
+    "whitelist": {
+      "allow": [
+        "{{% escape "/{{%[\\s\\S]*?%}}/m" %}}"
+      ]
+    }
+  },
+  "rules": {
+    "preset-ja-technical-writing": true,
+    "preset-jtf-style": true
+  }
+}
+```
+
+
+
 ## まとめ
 
 ようやく`textlint`を用いた日本語校正が行えるようになりました。
@@ -137,3 +168,4 @@ npx textlint {hogehoge.md}
 
 ## 参考
 
+{{% amazon 4121006240 %}}
