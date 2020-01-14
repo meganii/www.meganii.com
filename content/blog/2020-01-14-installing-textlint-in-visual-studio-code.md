@@ -6,7 +6,7 @@ comments: true
 category: ['Tech']
 tags: ['VSCode', 'textlint']
 published: true
-slug: installing-textlint-with-vscode
+slug: installing-textlint-in-visual-studio-code
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
 ---
 
