@@ -4,7 +4,7 @@ date: 2019-12-16T05:48:56+09:00
 lastmod: 2019-12-16T05:48:56+09:00
 comments: true
 category: ['Book']
-tags: ['書評', '習慣化', 'Lifehacks']
+tags: ['書評', '習慣化', 'Lifehack', '習慣']
 published: true
 slug: mini-habits-smaller-habits-bigger-results
 img:  "https://images-fe.ssl-images-amazon.com/images/I/41zWnQerCoL._SL75_.jpg"
