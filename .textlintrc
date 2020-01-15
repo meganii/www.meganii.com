@@ -2,11 +2,12 @@
   "filters": {
     "whitelist": {
       "allow": [
-        "/{{[\\s\\S]*?}}/m"
+        "/{{%[\\s\\S]*?%}}/m"
       ]
     }
   },
   "rules": {
     "preset-ja-technical-writing": true,
+    "preset-jtf-style": true
   }
 }
