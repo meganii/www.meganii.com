@@ -109,12 +109,14 @@ h3, .h3{font-size:28px;line-height:1.25}
     overflow: auto;
 }
 
-.post code {
-  margin: 1.5rem 0;
-  font-size: .9rem;
-  background-color: #FAFAFA;
-  color: #333;
-  overflow: auto;
+.post p>code {
+  font-size: 90%;
+  padding: 2px 4px;
+  margin: 0 2px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  color: mediumvioletred;
 }
 
 .post h1 {
