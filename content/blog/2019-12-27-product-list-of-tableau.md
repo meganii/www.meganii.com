@@ -23,7 +23,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1577416646/tableaupublic_
 
 ## Tableauとは
 
-いわゆるBIツールの一つです。少し触ってみた感じだと、ドラッグ&ドロップで簡単にデータをビジュアル化でき、触っていて楽しいツールです。
+いわゆるBIツールの1つです。少し触ってみた感じだと、ドラッグ&ドロップで簡単にデータをビジュアル化でき、触っていて楽しいツールです。
 
 公式ページによると、下記の通り`データ分析プラットフォーム`として位置付けているようです。
 
@@ -31,9 +31,9 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1577416646/tableaupublic_
 >[Tableau とは? \| Tableau Software](https://www.tableau.com/ja-jp/products/what-is-tableau)
 
 
-## Tableau製品には何があるのか？
+## Tableau製品には何があるのか
 
-個人でTableauを使いたいと思った場合、なかなか有償版購入という選択肢は取れないと思いますので、有償版/無償版という切り口でTableau製品を分類しました。
+個人でTableauを使いたいと思った場合、なかなか有償版購入という選択肢は取れませんので、有償版/無償版という切り口でTableau製品を分類しました。
 
 ### 有償版
 
@@ -55,22 +55,23 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1577416646/tableaupublic_
 - 接続できるデータソースが限られる
 - 作成したグラフやダッシュボードをローカルに保存できない（Tableau Public Gallary）
 
-「Tableau Public」を使ってGoogle Analyticsに簡単に接続できれば、アクセス解析とか簡単にできるのではないか！と思いましたが、そこは上手くできているようで、機能制限がありました。
+「Tableau Public」を使ってGoogle Analyticsに簡単に接続できれば、アクセス解析とか簡単にできると考えました。
+
+しかし、そこは上手くできているようで、接続できるデータソースに機能制限があります。
 
 とはいえ、Excelファイルやcsv, jsonなどのテキストファイルは普通に読み込めるので、必要に応じてGoogle Analyticsのデータを出力することで対応できそうです。
 
 
 
-また、ローカルに作成したVizを保存できず、保存する場合は`Tableau Public Gallary`で全世界公開されるという仕様があるので、機密情報や公にできないデータを扱うには向きません。
+また、作成したVizをローカルに保存できません。保存する場合は`Tableau Public Gallary`が利用できるのですが、これは全世界公開されるという仕様です。そのため、機密情報や公にできないデータを扱うには向きません。
 
 
-
-一方、個人でオープンデータを利用する場合、`Tableau Public`は`Tableau Desktop`の分析機能を無償でフル活用できるので非常に強力なツールになると思います。
+一方、個人でオープンデータを利用する場合は、`Tableau Public`は`Tableau Desktop`の分析機能を無償でフル活用できるので非常に強力なツールになります。
 
 
 ## まとめ
 
-- オープンデータを個人で分析する場合は「Tableau Public」が有効！
+- オープンデータを個人で分析する場合は「Tableau Public」が有効
 - Tableau Prep Builderの無償版に相当するツールは存在しないため、別途手作業やPythonなどで前処理が必要
 
 

@@ -18,18 +18,18 @@ img: ""
 {{% googleadsense %}}
 
 
-## Tableau製品には何があるのか？
+## Tableau製品には何があるのか
 
-個人でTableauを使いたいと思った場合、なかなか有償版購入という選択肢が取れないと思いますので、有償版/無償版という切り口で分類しました。
+個人でTableauを使いたいと思った場合、なかなか有償版購入という選択肢が取れません。そこで、有償版/無償版という切り口で分類しました。
 
-有償版
-- Tableau Prep　ETLツール
-- Tableau Desktop　分析・作成ツール
-- Tableau Server / Tableau Online　共有ツール
+- 有償版
+    - Tableau Prep　ETLツール
+    - Tableau Desktop　分析・作成ツール
+    - Tableau Server / Tableau Online　共有ツール
 
-無償版
-- Tableau Plublic　分析・作成ツール
-- Tableau Public Gallery　共有ツール（サービス）
+- 無償版
+    - Tableau Plublic　分析・作成ツール
+    - Tableau Public Gallery　共有ツール（サービス）
 
 
 それぞれフェーズ毎に分類すると下表の通りです。
