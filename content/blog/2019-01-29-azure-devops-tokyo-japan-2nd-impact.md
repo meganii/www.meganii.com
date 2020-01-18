@@ -9,7 +9,16 @@ published: true
 slug: azure-devops-tokyo-japan-2nd-impact
 ---
 
-2019/01/29に開催された[Azure DevOps Tokyo, Japan 2nd impact \- connpass](https://jazug.connpass.com/event/106316/)に参加してきました。
+2019/01/29に開催された[Azure DevOps Tokyo, Japan 2nd impact \- connpass](https://jazug.connpass.com/event/106316/)へ参加してきました。
+
+このイベントの開催概要は以下の通りです。
+
+> `Azure DevOps` が `Visual Studio Team Services`(`VSTS`) から名称がかわり、新サービスとして提供されました！ OSSプロジェクトではビルド時間がなんと無制限！プライベートリポジトリでも無料枠があるため、誰でも気軽に利用できます。 近頃よく聞く `DevOps` ってなんだ？という初心者も大歓迎です。
+
+## なぜ参加したのか
+
+- `Azure DevOps`のサービス概要を掴みたかったから
+- `Azure Devops`を利用して、ソースコード管理および`CI/CI`の環境を構築したいと考えていたから
 
 <!--more-->
 {{% googleadsense %}}
@@ -26,7 +35,7 @@ slug: azure-devops-tokyo-japan-2nd-impact
 
 
 
-### セッションB: サイドプロジェクトで使う Azure DevOps
+### セッションB: サイドプロジェクトで使う`Azure DevOps`
 
 {{% slideshare fVK2Z8L237ISSG %}}
 
@@ -34,7 +43,7 @@ slug: azure-devops-tokyo-japan-2nd-impact
 - 趣味プロジェクトのため、「金額大事」ってのはスゴくわかる
 
 
-### セッションC: Azure DevOps ミニライブ
+### セッションC: `Azure DevOps`ミニライブ
 
 [Azure DevOps Live! - slideship.com](https://slideship.com/users/@miyake/presentations/2019/01/BwXa8724KBiL4q5x2gq2Du/)
 
@@ -42,12 +51,12 @@ slug: azure-devops-tokyo-japan-2nd-impact
 - ライブセッションのため、Azure DevOpsを利用した開発フローを一緒に体感でき、参考になった
 
 
-### セッションD: changeworld の 3? 分でわかる devops
+### セッションD: changeworldの3分でわかるdevops
 
 {{% speakerdeck id="401c7f1f10634b588b7eae2042732782" %}}
 
 
-- そもそもDevOpsの考え方について
+- そもそも`DevOps`の考え方について
 
 
 
