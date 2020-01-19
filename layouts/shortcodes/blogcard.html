@@ -1,0 +1,18 @@
+{{ $url := ( .Get 0) }}
+{{ $getURL := printf "http://localhost:6060/getogp?%s" (querify "url" $url ) }}
+{{ $ogpjson := getJSON $getURL }}
+{{ $getSizeURL := printf "http://localhost:6060/size?%s" (querify "url" $ogpjson.image ) }}
+{{ $imgjson := getJSON $getSizeURL }}
+
+<div class="c-card c-flex u-mb embed-wrapper">
+    <div class="c-flex__item u-p">
+        <div class="c-flex">
+            <div class="c-flex__item c-card__content">
+                <div class="c-card__title"><a href="{{ $ogpjson.url }}">{{ $ogpjson.title }}</a></div>
+            </div>
+            <div class="c-flex__item">
+                <amp-img src="{{ $ogpjson.image }}" width="{{ $imgjson.width }}" height="{{ $imgjson.height }}" layout="fixed" />
+            </div>
+        </div>
+    </div>
+</div>
