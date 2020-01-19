@@ -42,7 +42,7 @@ steps:
   displayName: 'Setup npm module'
 
 - script: |
-    npx ts-node src/app.ts
+    npx ts-node src/app.ts &
   displayName: 'Run json api server'
 
 - script: |
