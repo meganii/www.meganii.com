@@ -38,6 +38,10 @@ steps:
   displayName: 'Check Hugo version'
 
 - script: |
+    npx ts-node script/app.ts
+  displayName: 'Run json api server'
+
+- script: |
     hugo
   displayName: 'Build content by hugo'
 
