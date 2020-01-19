@@ -38,6 +38,10 @@ steps:
   displayName: 'Check Hugo version'
 
 - script: |
+    npm install
+  displayName: 'Setup npm module'
+
+  - script: |
     npx ts-node script/app.ts
   displayName: 'Run json api server'
 
