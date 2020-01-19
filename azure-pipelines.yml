@@ -41,7 +41,7 @@ steps:
     npm install
   displayName: 'Setup npm module'
 
-  - script: |
+- script: |
     npx ts-node script/app.ts
   displayName: 'Run json api server'
 
