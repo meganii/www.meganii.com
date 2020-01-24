@@ -14,7 +14,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/
 
 `Tableau Desktop`と`Tableau Prep Builder`は両方とも結合、ピボット、クリーニングなどの処理が行えます。この2つのツールはどのように使い分ければよいのでしょうか。
 
-以下のホワイトペーパーを読んで、ポイントをまとめてみました。2018年に公開された情報ですが、今のバージョンのTableau Desktop / Tableau Prepでも有用な情報です。
+以下は2018年に公開されたホワイトペーパーですが、今のバージョンのTableau Desktop / Tableau Prepでも有用な情報でしたので、ポイントをまとめてみました。
 
 [Should I use Tableau Prep or Desktop for data prep? The answer: Why not both? \| Tableau Software](https://www.tableau.com/about/blog/2018/7/should-i-use-tableau-prep-or-desktop-data-prep-answer-why-not-both-90902)
 
@@ -56,7 +56,8 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/
 
 [Should I use Tableau Prep or Desktop for data prep? The answer: Why not both? \| Tableau Software](https://www.tableau.com/about/blog/2018/7/should-i-use-tableau-prep-or-desktop-data-prep-answer-why-not-both-90902)
 
-財務と営業は同じ販売データを利用した分析を行うが、それぞれ見たい情報が異なります。
+財務と営業は同じ販売データを利用した分析を行いますが、それぞれ見たい情報が異なります。
+
 - 財務は、個々の注文の粒度でコストを把握したい
 - 営業は、個々の製品の粒度で調査したい
 
@@ -73,6 +74,6 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/
 
 ## まとめ
 
-- `Tableau Desktop`と`Tableau Prep Builder`の使い分けのポイントは、目的と問題の複雑さ
-- 目的がデータ分析前のデータ準備であれば、`Tableau Prep Builder`
-- 目的がいち早くデータ分析を行うことであれば、`Tableau Desktop`
+- Tableau DesktopとTableau Prep Builderの使い分けのポイントは、目的と問題の複雑さ
+- 目的がデータ分析前のデータ準備であれば、Tableau Prep Builder
+- 目的がいち早くデータ分析を行うことであれば、Tableau Desktop
