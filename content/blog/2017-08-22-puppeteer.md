@@ -1,10 +1,10 @@
 ---
-title: "puppeteerでAmazonアフィリエイトのレポートを取得する"
+title: "PuppeteerでAmazonアフィリエイトのレポートを取得する"
 date: 2017-08-22T21:43:50+09:00
 lastmod: 2017-09-10T21:43:50+09:00
 comments: true
 category: ['Tech']
-tags: ['headless', 'puppeteer']
+tags: ['headless', 'Puppeteer']
 published: true
 slug: puppeteer
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"

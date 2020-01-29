@@ -4,7 +4,7 @@ date: 2016-02-01T22:52:47+09:00
 lastmod: 2016-02-01T22:52:47+09:00
 comments: true
 category: ['Tech']
-tags: ['Nightmare','JavaScript']
+tags: ['Nightmare','JavaScript', 'スクレイピング']
 published: true
 slug: how-to-get-amazon-affiliate-reports-with-nightmarejs
 img: 'https://images-na.ssl-images-amazon.com/images/I/61DHJGf1uSL._SL160_.jpg'
