@@ -4,13 +4,17 @@ date: 2017-01-14T23:02:29+09:00
 lastmod: 2017-01-14T23:02:29+09:00
 comments: true
 category: ['Tech']
-tags: ['Hugo']
+tags: ['Hugo', 'CircleCI', 'MeCab']
 published: true
 slug: circle-ci-settings-for-mecab-hugo
 img: /images/hugo_s.png
 ---
 
-Circle CIで、PythonからMeCab、sklearnを利用して関連記事を作成し、Hugoでビルド＆さくらVPSでブログを公開するためのコンテナの設定がやっと落ち着いたので備忘録として残しておきます。
+以下のコンテナ設定が掴めてきましたので、備忘録として残しておきます。
+
+- Circle CIで、PythonからMeCab、sklearnを利用して関連記事を作成
+- Hugoでビルド＆さくらVPSにブログを公開
+
 
 <!--more-->
 {{% googleadsense %}}
@@ -103,7 +107,7 @@ deployment:
 - cd /home/ubuntu/.go_workspace/src/github.com/spf13/hugo && govendor sync && go install
 ```
 
-### 変更後(バイナリをダウンロード)
+### 変更後（バイナリをダウンロード）
 
 ```yaml
 - >
