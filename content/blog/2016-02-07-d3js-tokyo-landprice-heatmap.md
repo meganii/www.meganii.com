@@ -4,7 +4,7 @@ date: 2016-02-07T19:42:50+09:00
 lastmod: 2017-09-27T19:42:50+09:00
 comments: true
 category: ['Tech']
-tags: ['D3.js', 'JavaScript']
+tags: ['D3.js', 'JavaScript', 'データ可視化']
 published: true
 slug: d3js-tokyo-landprice-heatmap
 img: "https://farm2.staticflickr.com/1680/24844125586_c74f952e38_s.jpg"
@@ -13,7 +13,7 @@ img: "https://farm2.staticflickr.com/1680/24844125586_c74f952e38_s.jpg"
 {{% img src="https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg" w="640" h="404" %}}
 
 
-[D3.js tutorial | SIS lab](https://www.meganii.com/blog/2016/02/06/d3js-tutorial/)で、一通りD3.jsのイメージを掴みつつ、次は、東京の地価データの可視化に挑戦する。方法については、下記のページを参考にした。
+[D3.js tutorial | SIS lab](https://www.meganii.com/blog/2016/02/06/d3js-tutorial/)で、一通りD3.jsのイメージを掴みつつ、東京の地価データの可視化に挑戦する。方法については、下記のページを参考にした。
 
 [Ars longa, vita brevis: 東京の地価公示データを眺める](http://kshigeru.blogspot.jp/2013/07/tokyo-landprice.html)
 
@@ -26,7 +26,7 @@ img: "https://farm2.staticflickr.com/1680/24844125586_c74f952e38_s.jpg"
 [D3.js と TopoJSON で地図を作る](http://ja.d3js.node.ws/blocks/mike/map/)を元に、環境を準備する。
 
 
-### Geospatial Data Abstraction Library （地理空間データ抽出ライブラリ）のインストール
+### Geospatial Data Abstraction Library（地理空間データ抽出ライブラリ）のインストール
 
 ```
 brew install gdal
