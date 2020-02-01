@@ -10,7 +10,10 @@ slug: how-to-get-amazon-affiliate-reports-with-nightmarejs
 img: 'https://images-na.ssl-images-amazon.com/images/I/61DHJGf1uSL._SL160_.jpg'
 ---
 
-この本を読んで、Ruby, Capybaraから取得することはできていたが、そもそもCapybaraは、PhantomJS/PoltergeistというJavaScriptライブラリのラッパーであり、JavaScriptから直接操作するにはどんな方法があり、どんな書き方になるのかを知りたかったので、調べてみました。これを機会に、JavaScriptを書けるようになりたいとも願いつつ。。。
+[次の本](https://amzn.to/2OjNtaz)を読み進めることで、`Ruby`のライブラリである`Capybara`, `Poltergeist`を利用してスクレイピングを行うことができました。`Poltergeist`は`PhantomJS`というHeadless Browserを操作するための`Capybara`用Driverです。
+
+`PhantomJS`は`JavaScript`ライブラリということで、`JavaScript`から`PhantomJS`を操作するにはどのような方法があるのか調べてみました。これを機会に`JavaScript`を書けるようになりたい。
+
 
 {{% amazon B00TO6KMEK %}}
 
@@ -18,9 +21,9 @@ img: 'https://images-na.ssl-images-amazon.com/images/I/61DHJGf1uSL._SL160_.jpg'
 {{% googleadsense %}}
 
 
-## Nightmareとは？
+## Nightmareとは
 
-Nightmare.jsは、ブラウザの挙動を自動化できるJavaScriptライブラリです。以前は、PhantomJSのラッパーだったみたいだが、現在は内部的にElectronを利用するようになった。
+`Nightmare.js`は、ブラウザの挙動を自動化できる`JavaScript`ライブラリです。以前は、`PhantomJS`のラッパーでしたが、現在は内部的に`Electron`を利用するようになりました。
 
 [segmentio/nightmare: A high-level browser automation library.](https://github.com/segmentio/nightmare)
 
@@ -30,7 +33,7 @@ npm install nightmare
 
 
 
-## Amazon アフィリエイトの前日のレポートを取得する
+## Amazonアフィリエイトの前日のレポートを取得する
 
 まずは、完成品をどうぞ。
 
@@ -64,9 +67,15 @@ npm install nightmare vo
 node --harmony yahoo.js
 ```
 
-JavaScript初心者な自分にとっては、まず下記のサンプルコードが動かせなかったし、何が原因かわからなかった。よくよくJavaScriptの背景と現状を追ってみると、'function* ', 'yield'などのコードを含むのは、ES2015(ES6)のバージョンの書き方であり、Node.jsのバージョンが古いと動かせないことがわかった。
+`JavaScript`初心者の自分は、まず下記のサンプルコードが動かせず、何が原因かわかりませんでした。
 
-Node.jsのバージョンをv5.5.0に上げて、再実行したところ、Electronが立ち上がり、yahoo.comに検索しに行くのを確認できる。
+
+`JavaScript`の背景と現状を追ってみると、次のことがわかりました。
+
+- `function*`, `yield`などのコードを含むのは、`ES2015(ES6)`のバージョンの書き方である
+- `Node.js`のバージョンが古いと`ES2015(ES6)`で書かれたコードを動かせないこと
+
+`Node.js`のバージョンを`v5.5.0`に上げて、再実行したところ、Electronが立ち上がり、yahoo.comを検索するのを確認できます。
 
 ```javascript
 var Nightmare = require('nightmare');
@@ -90,10 +99,10 @@ vo(function* () {
 });
 ```
 
-### Genaratar function* って？
+### Genaratar function*とは何か
 
-ここ数日の自分の理解だと、「非同期処理を同期的に記述する」ための記述方法であるという理解。`yield`によって処理を途中で止めることができる。
-(もう少し理解がまとまったら、追記したい)
+ここ数日の自分の理解だと、「非同期処理を同期的に記述する」ための記述方法であるという理解です。`yield`によって処理を途中で止めることができます。
+(もう少し理解がまとまったら、追記したい）
 
 
 ## 参考
@@ -101,7 +110,7 @@ vo(function* () {
 - [Nightmareがv2(Electronベース)になり、使いやすく感動したのでLIGブログのPV/UUデータ取得を自動化してみた。 - Qiita](http://qiita.com/n0bisuke/items/8a7a52321380e5cf0379)
 - [ChatOps + NightmareでメトリクスグラフとBIレポートをSlackに投げるようにした - Glide Note - グライドノート](http://blog.glidenote.com/blog/2015/10/01/nightmare-screenshots/)
 - [Nightmare.jsでQiitaのコントリビューション数をスクレイピング - Qiita](http://qiita.com/n0bisuke/items/75b238ec88c96aa0dee8)
-- [Web scraping with Nightmare.js | azurelogic.com](https://azurelogic.com/posts/web-scraping-with-nightmare-js/) (PhantomJSの時の例)
+- [Web scraping with Nightmare.js | azurelogic.com](https://azurelogic.com/posts/web-scraping-with-nightmare-js/) (PhantomJSの時の例）
 
 ## 参考図書
 
