@@ -9,7 +9,7 @@ slug: hugo-data-driven-content-for-polupar-posts
 img: '/images/hugo_s.png'
 ---
 
-Hugo Data-Driven Contentを試してみる。
+`Hugo Data-Driven Content`を試してみる。
 
 
 ## 目的
@@ -23,10 +23,12 @@ Hugo Data-Driven Contentを試してみる。
 
 ## 対応方法
 
-1. Hugo Data Files を利用する
-2. Hugo Data-driven content を利用する
+1. Hugo Data Filesを利用する
+2. Hugo Data-driven contentを利用する
 
-1つ目のData Filesは、関連記事表示の際に利用した([PythonでTF\-IDFによる文書推薦 \- SIS Lab](https://www.meganii.com/blog/2016/08/13/tf-idf-recommendation/))ので、今度は2つのHugo Data-driven Contentを試してみる。
+1つ目の`Data Files`は、関連記事表示の際に利用したので、今度は2つの`Hugo Data-driven Content`を試してみる。
+
+[PythonでTF\-IDFによる文書推薦 \- SIS Lab](https://www.meganii.com/blog/2016/08/13/tf-idf-recommendation/)
 
 実装方法は、以下の通り。
 
@@ -36,7 +38,7 @@ Hugo Data-Driven Contentを試してみる。
 
 ## JSONを返すAPIサーバを立てる
 
-以下のページを参考に、Pythonのfalconでつくった。さくっとAPIサーバが構築できて非常に良い。
+以下のページを参考に、Pythonの`falcon`でつくった。さくっとAPIサーバが構築できて非常に良い。
 
 - [Falcon \- The minimalist Python WSGI framework](https://falconframework.org/)
 - [Falconで光速のWeb APIサーバーを構築する \- Qiita](http://qiita.com/icoxfog417/items/913bb815d8d419148c33)
@@ -101,12 +103,12 @@ if __name__ == "__main__":
 hugo server -t hugo-zen
 ```
 
-あとは、いつも通り、`hugo server`やbuildを実行すれば、動的にJSONリソースにアクセスして、ページを生成してくれる。
+あとは、いつも通り`hugo server`や`hugo build`を実行すれば、動的にJSONリソースにアクセスしてページを生成してくれる。
 
 
 気をつけないといけないのは、キャッシュされていること。値が変わらないときは、キャッシュされていることを忘れていた。
 
-`--ignoreCache`とかオプションに指定してあげれば、キャッシュしないようにできます。
+`--ignoreCache`とかオプションに指定してあげれば、キャッシュしないようにできる。
 
 [Hugo \- Data\-driven Content](https://gohugo.io/extras/datadrivencontent)
 
@@ -122,6 +124,6 @@ Hubotをデーモン化したときに利用した`pm2`を使用した。Node.js
 
 ## まとめ
 
-Pythonで簡単に、APIサーバを構築して、静的サイトジェネレータで、動的にサイトを生成できた。
+Pythonで簡単にAPIサーバを構築して、静的サイトジェネレータで動的にサイトを生成できた。
 
-後は、Circle CIに組み込めば、git push したときに人気記事を読込直して生成してくれる。
+後は、Circle CIに組み込めば、`git push`したときに人気記事を読込直して生成してくれる。
