@@ -32,7 +32,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 {{% blogcard "https://nasust.com/hugo/shortcode/blogcard/" %}}
 
 
-`blogcard`というShortcodeを利用することで、対象ページのTitle, Desctiption, OGPを取得して表示します。
+`blogcard`というShortcodeを利用することで、対象ページのTitle, Description, OGPを取得して表示します。
 
 Shortcode`blogcard`の実装は以下の通りです。ローカルに立ち上げたAPIサーバ（Express）に対して`getJSON`を行うことで、ビルド時に情報を取得します。
 
@@ -169,7 +169,7 @@ CI上でも実行できるように事前にJSON API Serverを実行するよう
 
 今まで、Hugoの`getJSON`を使うときには、外部にAPIサーバを立てないといけないという固定観念がありました。しかし、よく考えればローカルAPIサーバでも問題なく動作するので、使い方に幅が出そうです。
 
-ただし、「動的にコンテンツを生成するのはHugoの哲学に沿っているのか」という点は少し検討すべきです。ビルドが超高速なため編集・確認までをシームレスに行えるのがHugoの魅力です。`getJSON`を利用することでビルド速度が落ちてしまったら、魅力が半減してしまうことを懸念しています。（`getJSON`はキャッシュを行うので一度情報取得してしまえば問題ない可能性もあります）
+ただし、「動的にコンテンツを生成するのはHugoの哲学に沿っているのか」という点は少し検討すべきです。ビルドが超高速なため、編集・確認までをシームレスに行えるのがHugoの魅力です。`getJSON`を利用することでビルド速度が落ちてしまったら、魅力が半減してしまうことを懸念しています。（`getJSON`はキャッシュを行うので一度情報取得してしまえば問題ない可能性もあります）
 
 しばらくは、試しながら様子を見てみます。
 
