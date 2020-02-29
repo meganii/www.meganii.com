@@ -224,3 +224,11 @@ td:first-child {
 th:last-child,
 td:last-child {
   padding-right: 0; }
+
+.a-tag {
+  border: 1px solid #7b9cb0;
+  background-color: #dee5e9;
+  text-decoration: none;
+  border-radius: 5px;
+  padding:.15em .3em .1em;
+}
