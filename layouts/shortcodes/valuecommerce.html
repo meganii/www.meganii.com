@@ -1,1 +1,8 @@
-{{ $sid := .Get "sid" }}{{ $pid := .Get "pid" }}{{ $url := .Get "url" }}{{ $text := .Get "text"}}<a href='{{ printf "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=%s&pid=%s&vc_url=%s" $sid $pid $url }}' target="_blank" rel="nofollow">{{$text}}<amp-img class="border-none"src='{{ printf "https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=%s&pid=%s" $sid $pid }}' height="1" width="0" layout="fixed"></amp-img></a>
+{{ $sid := .Get "sid" }}
+{{ $pid := .Get "pid" }}
+{{ $url := .Get "url" }}
+{{ $text := .Get "text"}}
+<a href='{{ printf "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=%s&pid=%s&vc_url=%s" $sid $pid $url }}' target="_blank" rel="nofollow">
+{{$text}}
+<amp-img class="border-none"src='{{ printf "https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=%s&pid=%s" $sid $pid }}' height="1" width="0" layout="fixed"></amp-img>
+</a>
