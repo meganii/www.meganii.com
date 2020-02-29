@@ -28,8 +28,8 @@ steps:
 - script: |
     mkdir ~/tmp
     cd ~/tmp
-    wget 'https://github.com/gohugoio/hugo/releases/download/v0.58.3/hugo_0.58.3_Linux-64bit.tar.gz'
-    tar zxvf hugo_0.58.3_Linux-64bit.tar.gz
+    wget 'https://github.com/gohugoio/hugo/releases/download/v0.65.3/hugo_0.65.3_Linux-64bit.tar.gz'
+    tar zxvf hugo_0.65.3_Linux-64bit.tar.gz
     mv hugo $(GOBIN)
   displayName: 'Set up Hugo'
 
