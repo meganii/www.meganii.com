@@ -9,6 +9,11 @@
           <span class=""><i class="fa fa-refresh" aria-hidden="true"></i> 更新日:{{ .Lastmod.Format "2006/01/02" }}</span>
           <span class=""><i class="fa fa-calendar" aria-hidden="true"></i> 作成日:{{ .Date.Format "2006/01/02" }}</span>
         </div>
+        <div class="" style="margin-top: 1rem;">
+        {{ range (.GetTerms "tags") }}
+        <span style="margin-right: .5rem;"><i class="fa fa-tags"></i><a class="a-tag" href="{{ .Permalink }}"> #{{ .LinkTitle }} </a></span>
+        {{ end }}
+        </div>
       </div>
     </div>
     <div class="rr">
@@ -18,11 +23,6 @@
     </div>
     <hr />
     <div class="rr">
-      <div class="rcx12" style="margin-bottom: 2rem;">
-        {{ range (.GetTerms "tags") }}
-        <span style="margin-right: .5rem;"><i class="fa fa-tags"></i><a class="a-tag" href="{{ .Permalink }}"> #{{ .LinkTitle }} </a></span>
-        {{ end }}
-      </div>
       <div class="rcx12">
         {{ partial "share.html" .}}
       </div>
