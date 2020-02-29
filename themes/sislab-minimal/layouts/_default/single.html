@@ -20,7 +20,7 @@
     <div class="rr">
       <div class="rcx12" style="margin-bottom: 2rem;">
         {{ range (.GetTerms "tags") }}
-        <span style="margin-right: .5rem;"><i class="fa fa-tags"></i><a class="a-tag" href="/tags/{{ .Permalink }}"> #{{ .LinkTitle }} </a></span>
+        <span style="margin-right: .5rem;"><i class="fa fa-tags"></i><a class="a-tag" href="{{ .Permalink }}"> #{{ .LinkTitle }} </a></span>
         {{ end }}
       </div>
       <div class="rcx12">
