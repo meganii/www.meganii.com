@@ -1,0 +1,15 @@
+{{ $width := .Get "w" }}
+{{ $height := .Get "h" }}
+{{ $src := .Get "src" }}
+
+<div style="border-width: 1px;border-style: solid;border-color: E3E3E3;">
+<amp-iframe
+  width="{{$width}}"
+  height="{{$height}}"
+  sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"
+  layout="responsive"
+  frameborder="0"
+  src="{{$src}}?:showVizHome=no&:embed=yes"
+  scrolling="no" allowfullscreen>
+</amp-iframe>
+</div>
