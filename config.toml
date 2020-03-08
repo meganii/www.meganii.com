@@ -5,12 +5,6 @@ contentDir = "content"
 publishDir = "public"
 
 hasCJKLanguage = true
-
-PygmentsCodeFences = true
-pygmentsUseClasses = true
-pygmentsStyle = "monokailight"
-pygmentsOptions = "noclasses=true"
-
 DefaultContentLanguage = "ja"
 
 enableGitInfo = true
@@ -150,3 +144,13 @@ homepage = "https://www.meganii.com/"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "tango"
+    tabWidth = 4
