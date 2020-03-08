@@ -16,6 +16,7 @@ DefaultContentLanguage = "ja"
 enableGitInfo = true
 Paginate = 12
 
+preserveTaxonomyNames = true
 
 [permalinks]
 blog = "/blog/:year/:month/:day/:slug/"
