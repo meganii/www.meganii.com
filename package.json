@@ -8,7 +8,7 @@
     "serve": "ts-node src/app.ts",
     "serve:prod": "ts-node src/app.ts &",
     "dev": "hugo server -D",
-    "build": "run-p serve:prod build:hugo",
+    "build": "run-s serve:prod build:hugo",
     "build:hugo": "hugo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
