@@ -42,12 +42,8 @@ steps:
   displayName: 'Setup npm module'
 
 - script: |
-    npx ts-node src/app.ts &
-  displayName: 'Run json api server'
-
-- script: |
-    hugo
-  displayName: 'Build content by hugo'
+    npx ts-node src/app.ts & hugo
+  displayName: 'Run json api server & Build content by Hugo'
 
 - script: |
     git clone https://meganii:$(GITHUB_PARSONAL_ACCESS_TOKEN)@github.com/meganii/www.meganii.com
