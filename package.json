@@ -6,7 +6,7 @@
   "scripts": {
     "start": "run-p serve dev",
     "serve": "ts-node src/app.ts",
-    "serve:prod": "ts-node src/app.ts &",
+    "serve:prod": "nohup ts-node src/app.ts &",
     "stop": "kill -9 $(lsof -t -i:6060)",
     "dev": "hugo server -D",
     "build": "run-s serve:prod build:hugo stop",
