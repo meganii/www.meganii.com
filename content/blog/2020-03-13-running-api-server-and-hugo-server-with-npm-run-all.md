@@ -6,7 +6,7 @@ comments: true
 category: ['Tech']
 tags: ['Hugo', 'Blog']
 published: true
-slug: npm-run-all
+slug: running-api-server-and-hugo-server-with-npm-run-all
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514036568/thumbnail_hugo_icon.png"
 ---
 
