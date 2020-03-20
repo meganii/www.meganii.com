@@ -5,7 +5,7 @@ lastmod: 2020-03-20T17:10:26+09:00
 comments: true
 category: ['Tech']
 tags: ['Tableau', 'リファレンスライン']
-published: false
+published: true
 slug: stack-chart-with-sum-value
 img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1579905055/thumb_tableau_czhjxd.png
 ---
