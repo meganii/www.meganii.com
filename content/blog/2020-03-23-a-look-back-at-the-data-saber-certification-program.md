@@ -13,7 +13,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v15847
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1584785388/datasaber_y5ziiu.png" w="1440" h="798" alt="DATA Saber認定試験" %}}
 
 
-2019/12/15-2020/3/15の期間で「DATA Saber認定制度」にチャレンジし、2020/3/13の最終技術試験・口頭試問を経て、「DATA Saber」として認定をいただきました。
+2019/12/16-2020/3/15の期間で「DATA Saber認定制度」にチャレンジし、2020/3/13の最終技術試験・口頭試問を経て、「DATA Saber」として認定をいただきました。
 
 自分自身の振り返りのため、また今から「DATA Saber認定制度」を受けようとしている方に向けて活動を振り返って書き残しておきます。
 
