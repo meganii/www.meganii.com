@@ -43,7 +43,7 @@ await page.waitForNavigation({ waitUntil: 'load'});
 ```JavaScript
 await page.goto('http://example.com');
 await Promise.all([
-    page.awaitForNavigation({ waitUntil: 'load'}),
+    page.waitForNavigation({ waitUntil: 'load'}),
     page.click('.some .a'),
 ]);
 ```
