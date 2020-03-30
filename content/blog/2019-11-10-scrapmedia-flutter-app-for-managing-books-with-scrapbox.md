@@ -17,7 +17,7 @@ img: https://res.cloudinary.com/meganii/image/upload/v1573366825/playstore_icon_
 {{% googleadsense %}}
 
 
-「Scrapboxで読書管理がしたい！」そんな自分のために、書籍情報を書影付きで簡単にScrapboxに送れるFlutter(Android)アプリを作りました。
+「Scrapboxで読書管理がしたい」そんな自分のために、書籍情報を書影付きで簡単にScrapboxに送れるFlutter(Android)アプリを作りました。
 
 
 ## モチベーション
