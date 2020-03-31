@@ -3,12 +3,21 @@
     <div class="text-sm">{{ partial "breadcrumb.html" . }}</div>
     <section class="post">
         <h1 class="text-4xl mt-4">{{ .Title }}</h1>
+        <div class="text-sm">
+            <span class="mr-1">更新日:{{ .Lastmod.Format "2006.01.02" }}</span>
+            <span class="">作成日:{{ .Date.Format "2006.01.02" }}</span>
+        </div>
+        <div class="text-sm mt-1">
+          {{ range (.GetTerms "tags") }}
+          <span class="mr-1 bg-gray-200 rounded p-1"><a class="" href="{{ .Permalink }}">#{{ .LinkTitle }}</a></span>
+          {{ end }}
+        </div>
         <div class="leading-relaxed mt-2">
             {{ .Content }}
         </div>
     </section>
 
-    <div>
+    <div class="mt-8">
         {{ partial "share.html" .}}
     </div>
 
