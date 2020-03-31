@@ -46,7 +46,7 @@ steps:
   displayName: 'Run json api server'
 
 - script: |
-    hugo
+    hugo --gc
   displayName: 'Build content by hugo'
 
 - script: |
