@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Tableau']
 published: true
 slug: showing-top-and-bottom-n-per-category-in-tableau
-img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1579905055/thumb_tableau_czhjxd.png
+img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1579905055/thumb_tableau_czhjxd.png
 ---
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1582756643/tableau-top-and-bottom_bvivwx.png" w="1226" h="457" alt="top and bottom" %}}

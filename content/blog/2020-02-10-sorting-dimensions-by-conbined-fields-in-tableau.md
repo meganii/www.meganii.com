@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Tableau']
 published: true
 slug: sorting-dimensions-by-conbined-fields-in-tableau
-img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1579905055/thumb_tableau_czhjxd.png
+img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1579905055/thumb_tableau_czhjxd.png
 ---
 
 
