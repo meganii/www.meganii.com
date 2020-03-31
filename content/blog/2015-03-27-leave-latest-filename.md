@@ -4,7 +4,7 @@ title: "数世代バージョンを持つファイル名から最新版以外を
 date: 2015-03-27T23:54:00+09:00
 comments: true
 category: ['Tech']
-tags: ['ruby']
+tags: ['Ruby']
 published: true 
 slug: leave-latest-filename
 ---

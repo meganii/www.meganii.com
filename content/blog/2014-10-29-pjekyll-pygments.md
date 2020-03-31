@@ -4,7 +4,7 @@ title: "JekyllでPygmentsを使ってのシンタックスハイライト"
 date: 2014-10-29T23:15:00+09:00
 comments: true
 category: ['Tech']
-tags: ['jekyll','blog']
+tags: ['jekyll','Blog']
 published: true
 slug: pjekyll-pygments
 ---

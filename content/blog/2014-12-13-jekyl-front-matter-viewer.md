@@ -4,7 +4,7 @@ title: "Jekyllのタグとカテゴリを整理するために、一覧表示す
 date: 2014-12-13T18:15:00+09:00
 comments: true
 category: ['Tech']
-tags: ['jekyll','ruby']
+tags: ['jekyll','Ruby']
 published: true
 slug: jekyl-front-matter-viewer
 img: "https://farm9.staticflickr.com/8650/16007934641_502fe07015_z.jpg"
