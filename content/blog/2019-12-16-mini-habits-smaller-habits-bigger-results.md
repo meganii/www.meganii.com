@@ -4,10 +4,10 @@ date: 2019-12-16T05:48:56+09:00
 lastmod: 2019-12-16T05:48:56+09:00
 comments: true
 category: ['Book']
-tags: ['書評', '習慣化', 'Lifehack', '習慣']
+tags: ['書評', '習慣化', 'Lifehack', '習慣', '小さな習慣']
 published: true
 slug: mini-habits-smaller-habits-bigger-results
-img:  "https://images-fe.ssl-images-amazon.com/images/I/41zWnQerCoL._SL75_.jpg"
+img:  "https://images-fe.ssl-images-amazon.com/images/I/41-SgavV5cL._SL160_.jpg"
 ---
 
 2019年12月から[@kakakakakku](https://twitter.com/kakakakakku)さんのブログメンタリングを受けており、次の書籍をおすすめされたので読んで、その内容をまとめてみる。
