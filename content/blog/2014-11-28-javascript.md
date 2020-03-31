@@ -3,7 +3,7 @@ title: "[コツコツ勉強]よくわからないままJavaScriptを使ってい
 date: 2014-11-28T23:32:00+09:00
 comments: true
 category: ['Tech']
-tags: ['javascript']
+tags: ['JavaScript']
 published: true 
 slug: javascript
 img: "https://images-na.ssl-images-amazon.com/images/I/51c9uCrhHgL._SL160_.jpg"

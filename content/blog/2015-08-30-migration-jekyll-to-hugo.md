@@ -3,7 +3,7 @@ title: "JekyllからHugoへの移行ポイント"
 date: "2015-08-30T11:56:00+09:00"
 comments: true
 category: ['Tech']
-tags: ['jekyll','hugo']
+tags: ['jekyll','Hugo']
 published: true
 slug: migration-jekyll-to-hugo
 img: "/images/hugo_s.png"

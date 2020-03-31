@@ -2,7 +2,7 @@
 title: sqlite3-rubyを使ってSQLite3ファイルからの検索結果をHashとして読み込む
 date: 2013-05-18T12:06:00+09:00
 category: ['Tech']
-tags: ['ruby','sqlite3']
+tags: ['Ruby','sqlite3']
 published: true
 slug: sqlite3-ruby
 ---

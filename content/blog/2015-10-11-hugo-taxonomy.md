@@ -3,7 +3,7 @@ title: "Hugoソースコードリーディング〜Taxonomy〜"
 date: 2015-10-11T22:03:56+09:00
 comments: true
 category: ['Tech']
-tags: ['hugo']
+tags: ['Hugo']
 slug: hugo-taxonomy
 published: true
 img: "/images/hugo_s.png"

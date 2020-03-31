@@ -4,7 +4,7 @@ date: 2016-02-28T22:13:24+09:00
 lastmod: 2017-09-21T22:13:24+09:00
 comments: true
 category: ['Tech']
-tags: ['electron','Mithril.js']
+tags: ['Electron','Mithril.js']
 published: true
 slug: electron-mithriljs-flickr-app
 img: "https://www.oreilly.co.jp/books/images/picture978-4-87311-744-7.gif"

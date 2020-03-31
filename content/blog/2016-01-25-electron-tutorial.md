@@ -4,7 +4,7 @@ date: 2016-01-25T07:15:22+09:00
 lastmode: 2017-08-29T19:15:22+09:00
 comments: true
 category: ['Tech']
-tags: ['electron','React.js']
+tags: ['Electron','React.js']
 published: true
 slug: electron-tutorial
 img: "https://farm2.staticflickr.com/1653/24649661356_a4251f1e29_n.jpg"

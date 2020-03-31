@@ -4,7 +4,7 @@ date: 2017-12-22T19:33:34+09:00
 lastmod: 2017-12-22T19:33:34+09:00
 comments: true
 category: ['Tech']
-tags: ['ブログ','Hugo']
+tags: ['Blog','Hugo']
 published: true
 slug: migration-hatena-diary-to-custom-domain-via-hatena-blog
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"

@@ -3,7 +3,7 @@ title: "Circle CIでテストを定期実行する"
 date: 2016-09-08T22:33:29+09:00
 comments: true
 category: ['Tech']
-tags: ['CircleCI','blog', 'hugo']
+tags: ['CircleCI','Blog', 'Hugo']
 published: true
 slug: circle-ci-nightly-build
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514036568/thumbnail_hugo_icon.png"
