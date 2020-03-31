@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Tableau', 'Tableau Public']
 published: true
 slug: embeded-tableau-public-view
-img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1579905055/thumb_tableau_czhjxd.png
+img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1579905055/thumb_tableau_czhjxd.png
 ---
 
 `Tableau Desktop`で作成したVizは`Tableau Public`と呼ばれるギャラリーサイトに公開できます。一度`Tableau Public`に公開すればTableau Public上でのURLが発行されます。
