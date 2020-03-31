@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Hugo', 'Blog']
 published: true
 slug: running-api-server-and-hugo-server-with-npm-run-all
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514036568/thumbnail_hugo_icon.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514036568/thumbnail_hugo_icon.png"
 ---
 
 このブログではローカルでAPIサーバ（Express）を動かし、HugoのShortcodesから利用しています（2020/03/13現在）。

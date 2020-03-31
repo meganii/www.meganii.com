@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Cloudinary']
 published: true
 slug: cloudinary-imagesets
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
 ---
 
 HTML配信のプラクティスとして、PC、スマートフォンなど画面サイズに応じて適切な画像サイズを配信するというものがあります。

@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Netlify','Hugo']
 published: true
 slug: migrate-hugo-hosting-service-from-sakura-vps-to-netlify
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514036568/thumbnail_hugo_icon.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514036568/thumbnail_hugo_icon.png"
 ---
 
 現在(2017/3月)、Hugoで生成した静的サイトをホストするためにさくらVPSを利用しています。さくらVPSは２年近く使ってきましたが、そろそろ更新時期した(1年まとめて契約しているため)。自分が契約したタイプはデイスクがHDDのままSSDに変更できないタイプだったので、新規契約し直すか、Conoha VPSに切り替えるか、それともVPS自体を契約しないとするか迷っています。

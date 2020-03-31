@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['VSCode', 'textlint', '文章', 'Writing']
 published: true
 slug: installing-textlint-in-visual-studio-code
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
 ---
 
 ブログメンタリング受講者の方々が書いた`textlint`の記事に触発され、`Visual Studio Code`（以降`VS Code`）に`textlint`を導入しました。ブログメンタリングに関しては[技術ブロガーを育てる！ブログメンタリングで何を教えているのか \- kakakakakku blog](https://kakakakakku.hatenablog.com/entry/2019/06/24/070816)を読んでみてください。

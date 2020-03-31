@@ -6,7 +6,7 @@ category: ['Tech']
 tags: ['JavaScript','d3js','データ可視化']
 published: true
 slug: d3js-tutorial
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
 ---
 
 以前から着手してみたかったD3.jsによる可視化の方法を学ぶために、ドットインストールにちょうど良い教材があったためそれを見ながら、確認していく。
