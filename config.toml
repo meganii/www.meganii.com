@@ -1,10 +1,11 @@
 baseurl = "https://www.meganii.com/"
 title = "SIS Lab"
-theme = "sislab-minimal"
+theme = "tailwindcss"
 contentDir = "content"
 publishDir = "public"
 
 hasCJKLanguage = true
+summaryLength = 20
 DefaultContentLanguage = "ja"
 
 enableGitInfo = true
