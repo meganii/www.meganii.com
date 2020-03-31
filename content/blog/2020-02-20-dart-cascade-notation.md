@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['dart']
 published: true
 slug: dart-cascade-notation
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
 ---
 
 Dartを触っていて`..`という書き方を見ましたが、どういったものか、そもそも読み方からして分からなかったので自分用のメモです。

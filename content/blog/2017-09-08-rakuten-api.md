@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['API','楽天']
 published: true
 slug: rakuten-api
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
 ---
 
 ASINからJANコードを引っ張れないかと、楽天APIを調べたときのメモです。

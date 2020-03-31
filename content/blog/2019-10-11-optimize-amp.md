@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Hugo', 'AMP', 'Blog']
 published: true
 slug: optimize-amp
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
 ---
 
 このサイトも`AMP`対応したのだから、`Lighthouse`や`PageSpeed Insights`のスコアもきっと高いはずと計測してみたところ、全然スコアが出ていなかったので改善しました。その時のメモを残しておきます。

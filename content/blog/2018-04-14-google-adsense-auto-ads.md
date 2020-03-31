@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['adsense']
 published: true
 slug: google-adsense-auto-ads
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
 ---
 
 Google Adsenseの`Auto Ads`を試してみます。

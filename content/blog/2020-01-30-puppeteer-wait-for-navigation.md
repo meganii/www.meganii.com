@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Puppeteer', 'スクレイピング']
 published: true
 slug: puppeteer-wait-for-navigation
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
 ---
 
 [「Puppeteer入門 スクレイピング+Web操作自動処理プログラミング」](https://amzn.to/2RXyTqt)を読むまで、`Puppeteer`の`waitForNavigation`の動きを誤って理解していました。

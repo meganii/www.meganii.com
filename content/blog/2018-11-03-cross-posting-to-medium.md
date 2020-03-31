@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Blog', 'Medium', 'Qrunch']
 published: true
 slug: cross-posting-to-qrunch-and-medium
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
 ---
 
 もっと気軽にアウトプットできる技術ブログサービス「[Qrunch（クランチ）](https://qrunch.io/)」では、重複コンテンツの心配をせずにクロス投稿ができることを知りました。

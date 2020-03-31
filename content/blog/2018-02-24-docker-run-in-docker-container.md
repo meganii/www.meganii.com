@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Docker','container', 'RancherOS']
 published: true
 slug: docker-run-in-docker-container
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
 ---
 
 要は、あるdockerコンテナの中から新たにDockerコンテナを生成したい。

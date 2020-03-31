@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Hugo', 'Design']
 published: true
 slug: hugo-syntax-highlighting
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514036568/thumbnail_hugo_icon.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514036568/thumbnail_hugo_icon.png"
 ---
 
 `Hugo 0.28`から`Python Pygments`に頼らず、Goの機能でシンタックスハイライトが可能になりました。これにより、シンタックスハイライトを行なっているコンテンツがあったとしても、キャッシュなしで高速なビルドができるようになっています。

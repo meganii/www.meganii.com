@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Blog','Hugo']
 published: true
 slug: migration-hatena-diary-to-custom-domain-via-hatena-blog
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
 ---
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1514030618/hatenadiary_qoqemm.png" w="1024" h="512" %}}

@@ -6,7 +6,7 @@ category: ['Tech']
 tags: ['CircleCI','CI','Hugo']
 published: true
 slug: circle-ci-hugo-deploy
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514036568/thumbnail_hugo_icon.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514036568/thumbnail_hugo_icon.png"
 ---
 
 {{% img src="https://farm5.staticflickr.com/4388/36747233782_a795b7ff4b_b.jpg" w="1024" h="761" %}}

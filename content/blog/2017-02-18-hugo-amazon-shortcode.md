@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Hugo','アフィリエイト']
 published: true
 slug: hugo-amazon-shortcode
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514036568/thumbnail_hugo_icon.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514036568/thumbnail_hugo_icon.png"
 ---
 
 技術書の紹介をする際も、カエレバのようなリンクビルダーを利用してきましたが、重い腰を上げてHugoの`shortcodes`と`Data-driven Content`で対応しました。

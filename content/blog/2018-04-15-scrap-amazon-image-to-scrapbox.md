@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Scrapbox', 'Amazon', 'ブックマークレット']
 published: true
 slug: scrap-amazon-image-to-scrapbox
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
 ---
 
 Scrapboxで読書メモを管理にするにあたり、書籍の画像が欲しくなったので、参考URLのブログを参考にブックマークレットを作成しました。

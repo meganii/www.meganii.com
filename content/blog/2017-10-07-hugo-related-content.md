@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Hugo', '関連記事', 'Blog']
 published: true
 slug: hugo-related-content
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514036568/thumbnail_hugo_icon.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514036568/thumbnail_hugo_icon.png"
 ---
 
 - [Hugo \| Hugo 0\.27: Fast and Flexible Related Content\!](https://gohugo.io/news/0.27-relnotes/)

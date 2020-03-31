@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Google Search Console']
 published: true
 slug: google-search-console-domain-property
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
 ---
 
 ドメインプロパティ機能がリリースされたとのことなので試してみました。
