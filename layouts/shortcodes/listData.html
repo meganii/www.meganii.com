@@ -1,0 +1,5 @@
+
+{{ $itemId := index .Params 0 }}
+{{ $json := getJSON "data/amazon/" $itemId ".json" }}
+
+{{$json}}
