@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{ range .Paginator.Pages }}
+    <article class="m-4 relative border border-grey-light rounded
+            trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
+            md:m-4 md:mx-auto
+            lg:flex lg:my-4 lg:mx-auto">
+        <div class="h-64 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2">
+            <amp-img class="contain" src="{{ .Params.img }}" layout="fill" />
+        </div>
+        <div class="p-4 flex flex-col justify-between leading-normal">
+            <div class="mb-8 px-1">
+                <p class="text-sm text-grey-dark flex items-center">{{ range .Params.category }}{{.|upper}}{{ end }}</p>
+                <p class="text-grey-dark">{{ .Date.Format "2006.01.02" }}</p>
+                <div class="text-black font-bold text-xl mb-2">{{ .Title }}</div>
+                <p class="text-gray-700 text-base">{{ .Summary | plainify | truncate 200 }}</p>
+            </div>
+        </div>
+        <a href="{{ .Permalink }}" class="block absolute top-0 left-0 w-full h-full"></a>
+    </article>    
+{{ end }}
+<div>
+    {{ partial "pagination.html" . }}
+</div>
+{{ end }}

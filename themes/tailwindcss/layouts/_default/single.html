@@ -1,0 +1,45 @@
+{{ define "main" }}
+<article class="mx-4 sm:mx-12">
+    <div class="text-sm">{{ partial "breadcrumb.html" . }}</div>
+    <section class="post">
+        <h1 class="text-4xl mt-4">{{ .Title }}</h1>
+        <div class="leading-relaxed mt-2">
+            {{ .Content }}
+        </div>
+    </section>
+
+    <div>
+        {{ partial "share.html" .}}
+    </div>
+
+    {{ $related := .Site.RegularPages.Related . | first 8 }}
+    {{ $BaseURL := .Site.BaseURL }}
+    {{ with $related }}
+    
+    <section class="">
+        <h4 class="">Related contents</h4>
+        {{ range . }}
+        <article class="m-4 pt-3 relative border-t border-grey-light rounded
+        trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
+        md:m-4 md:mx-auto
+        lg:flex lg:my-4 lg:mx-auto">
+            <div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2">
+                <amp-img class="contain" alt="Eyecatch" media="" layout="fill"
+                    src="{{ if isset .Params "eyecatch" }}{{ .Params.Eyecatch }}{{ else if isset .Params "img" }}{{ .Params.img }}{{ else }}{{ .Site.BaseURL }}images/nopicture.png{{ end }}">
+                </amp-img>
+            </div>
+            <div class="p-4 flex flex-col justify-between leading-normal">
+                <div class="px-1">
+                    <p class="text-sm text-grey-dark flex items-center">{{ range .Params.category }}{{. | upper }}{{ end }}</p>
+                    <p class="text-grey-dark">{{ .Date.Format "2006.01.02" }}</p>
+                    <div class="text-black text-xl mb-2">{{ .Title }}</div>
+                </div>
+            </div>
+            <a href="{{ .Permalink }}" class="block absolute top-0 left-0 w-full h-full"></a>
+        </article>
+        {{ end }}
+    </section>
+    {{ end }}
+
+</article>
+{{ end }}

@@ -1,0 +1,42 @@
+{{ define "main" }}
+<div class="text-gray-700">
+    <a href="{{ .Site.BaseURL }}">
+        <amp-img
+          src="https://res.cloudinary.com/{{ .Site.Params.Cloudinary }}/image/upload/{{ .Site.Params.topbanner.src }}"
+          srcset="https://res.cloudinary.com/{{ .Site.Params.Cloudinary }}/image/upload/q_auto,f_auto/{{ .Site.Params.topbanner.src }} 1000w,
+                        https://res.cloudinary.com/{{ .Site.Params.Cloudinary }}/image/upload/q_auto,f_auto,w_800/{{ .Site.Params.topbanner.src }} 800w,
+                        https://res.cloudinary.com/{{ .Site.Params.Cloudinary }}/image/upload/q_auto,f_auto,w_640/{{ .Site.Params.topbanner.src }} 640w,
+                        https://res.cloudinary.com/{{ .Site.Params.Cloudinary }}/image/upload/q_auto,f_auto,w_400/{{ .Site.Params.topbanner.src }} 400w,
+                        https://res.cloudinary.com/{{ .Site.Params.Cloudinary }}/image/upload/q_auto,f_auto,w_320/{{ .Site.Params.topbanner.src }} 320w"
+          width="{{.Site.Params.topbanner.width}}" height="{{.Site.Params.topbanner.height}}" layout="responsive">
+        </amp-img>
+      </a>
+    {{ $recent_articles := (where .Site.Pages "IsPage" true) }}
+    {{ range first ($.Site.Params.latestSize | default 3) $recent_articles }}
+    <article class="m-4 relative border border-grey-light rounded
+            trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
+            md:m-4 md:mx-auto
+            lg:flex lg:my-4 lg:mx-auto">
+        <div class="h-64 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2">
+            <amp-img class="contain" src="{{ .Params.img }}" layout="fill" />
+        </div>
+        <div class="p-4 flex flex-col justify-between leading-normal">
+            <div class="mb-8 px-1">
+                <p class="text-sm text-grey-dark flex items-center">{{ range .Params.category }}{{.}}{{ end }}</p>
+                <p class="text-grey-dark">{{ .Date.Format "2006.01.02" }}</p>
+                <div class="text-black font-bold text-xl mb-2">{{ .Title }}</div>
+                <p class="text-gray-700 text-base">{{ .Summary | plainify | truncate 200 }}</p>
+            </div>
+        </div>
+        <a href="{{ .Permalink }}" class="block absolute top-0 left-0 w-full h-full"></a>
+    </article>    
+    {{ end }}
+    <div class="text-center my-4">
+      <a href="/blog/" class="">
+        <button class="bg-transparent hover:bg-gray-500 bg-gray-700 text-white font-semibold hover:text-white py-2 px-4 border border-gray-100 hover:border-transparent rounded mr-2">
+          Blog Archives
+        </button>
+      </a>
+    </div>
+</article>
+{{ end }}
