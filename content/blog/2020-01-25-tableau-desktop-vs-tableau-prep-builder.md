@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Tableau']
 published: true
 slug: tableau-desktop-vs-tableau-prep-builder
-img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1579905055/thumb_tableau_czhjxd.png
+img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1579905055/thumb_tableau_czhjxd.png
 ---
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1579905322/tableau_prep_xdbbz6.jpg" w="1920" h="1080" alt="Tableau Prep Builder" %}}
