@@ -31,7 +31,7 @@
     {{ if gt (len (findRE "amp-twitter" .Content)) 1 }}
     <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
     {{ end }}
-    {{ if eq .IsHome false }}
+    {{ if eq .IsPage true }}
     <script async custom-element="amp-addthis" src="https://cdn.ampproject.org/v0/amp-addthis-0.1.js"></script>
     {{ end }}
 
