@@ -5,7 +5,9 @@
             md:m-4 md:mx-auto
             lg:flex lg:my-4 lg:mx-auto">
         <div class="h-64 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2">
-            <amp-img class="contain" src="{{ .Params.img }}" layout="fill" />
+            <amp-img class="contain" alt="Eyecatch" media="" layout="fill" 
+                src="{{ if isset .Params "eyecatch" }}{{ .Params.Eyecatch }}{{ else if isset .Params "img" }}{{ .Params.img }}{{ else }}{{ $.Site.BaseURL }}images/nopicture.png{{ end }}">
+            </amp-img>
         </div>
         <div class="p-4 flex flex-col justify-between leading-normal">
             <div class="mb-8 px-1">
