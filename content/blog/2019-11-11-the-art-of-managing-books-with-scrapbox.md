@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Scrapbox', '読書', '読書メモ']
 published: true
 slug: the-art-of-managing-books-with-scrapbox
-img: https://res.cloudinary.com/meganii/image/upload/w_100,ar_1:1,c_fill,g_auto/v1573478168/rule_of_managing_books_with_scrapbox_yl3uka.png
+img: https://res.cloudinary.com/meganii/image/upload/w_1024/v1573478168/rule_of_managing_books_with_scrapbox_yl3uka.png
 ---
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1573478168/rule_of_managing_books_with_scrapbox_yl3uka.png" w="1500" h="500" alt="Scrapboxで読書管理をするときのじぶんルール" %}}
