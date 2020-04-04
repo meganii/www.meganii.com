@@ -4,7 +4,7 @@ title: "YouTube埋め込みタグをレスポンシブ化する"
 date: 2014-09-03T23:26:00+09:00
 comments: true
 category: ['Tech']
-tags: ["youtube", "design", "jekyll"]
+tags: ["youtube", "Design", "jekyll"]
 published: true 
 slug: youtube-responsive
 ---
