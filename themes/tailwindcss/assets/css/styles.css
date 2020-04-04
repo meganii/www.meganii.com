@@ -19,6 +19,7 @@
   @apply pb-1;
   @apply border-gray-300;
 }
+
 .post h3 {
   @apply text-lg;
   @apply mt-4;
@@ -32,12 +33,6 @@
   @apply bg-gray-100;
 }
 
-/* padding: .2em .4em;
-margin: 0;
-font-size: 85%;
-background-color: rgba(27,31,35,.05);
-border-radius: 3px; */
-
 .post p > code {
   @apply text-sm;
   @apply m-0;
@@ -48,8 +43,6 @@ border-radius: 3px; */
   @apply rounded;
   @apply bg-gray-100;
 }
-
-
 
 .post a{
   @apply underline;
