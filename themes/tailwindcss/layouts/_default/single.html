@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article class="mx-4 sm:mx-12">
-    <div class="text-sm">{{ partial "breadcrumb.html" . }}</div>
-    <section class="post">
+    <div class="text-sm">{{- partial "breadcrumb.html" . -}}</div>
+    <section class="">
         <h1 class="text-4xl mt-4">{{ .Title }}</h1>
         <div class="text-sm">
             <span class="mr-1">更新日:{{ .Lastmod.Format "2006.01.02" }}</span>
@@ -9,10 +9,10 @@
         </div>
         <div class="text-sm mt-1">
           {{ range (.GetTerms "tags") }}
-          <span class="mr-1 bg-gray-200 rounded p-1"><a class="" href="{{ .Permalink }}">#{{ .LinkTitle }}</a></span>
+          <a class="no-underline" href="{{ .Permalink }}"><span class="mr-1 mt-1 p-1 text-white bg-gray-700 rounded">#{{ .LinkTitle }}</span></a>
           {{ end }}
         </div>
-        <div class="leading-relaxed mt-2">
+        <div class="post leading-relaxed mt-2">
             {{ .Content }}
         </div>
     </section>
