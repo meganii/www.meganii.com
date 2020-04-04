@@ -12,7 +12,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_30
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1514030618/hatenadiary_qoqemm.png" w="1024" h="512" %}}
 
-# 概要
+## 概要
 
 今まで、はてなダイアリー(d.hatena.ne.jp.meganii)の記事は移行せずにそのまま残していました。しかし、Scrapboxのユーザー会に参加して過去コンテンツの重要性に気付き、今のブログに全て集約したいと考えました。
 
@@ -24,7 +24,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_30
 {{% googleadsense %}}
 
 
-# 移行理由
+## 移行理由
 
 Scrapboxのユーザー会に参加して、過去に書かれた文章と今の自分を繋ぐことができるという点に感銘を受けました。
 
@@ -33,7 +33,7 @@ Scrapboxのユーザー会に参加して、過去に書かれた文章と今の
 よって、はてなダイアリーのコンテンツを独自ドメインのブログに移行しました。
 
 
-# 結果どうだったか
+## 結果どうだったか
 
 移行した直後の記事のデザイン崩れや、メタデータ（タグやカテゴリ）の損失は仕方ないと割り切って移行しました。えいやっと移行したので、重複コンテンツやうまくGoogleに認識されない不安に襲われましたが、なんとかなったようです。
 
@@ -42,7 +42,7 @@ Scrapboxのユーザー会に参加して、過去に書かれた文章と今の
 また、過去記事へアクセスも、Googleに移行が認められたような挙動になっていましたので安心しました。
 
 
-# 移行の考え方
+## 移行の考え方
 
 ブログ移行をGoogleに伝えるには`301リダイレクト`が推奨されています。
 
@@ -65,7 +65,7 @@ Scrapboxのユーザー会に参加して、過去に書かれた文章と今の
 
 
 
-# やったこと
+## やったこと
 
 1. Google Search Consoleに3つのブログを追加しておく
 2. はてなダイアリーからはてなブログへの移行処理
@@ -74,7 +74,7 @@ Scrapboxのユーザー会に参加して、過去に書かれた文章と今の
 5. はてなブログにJavaScriptによるリダイレクトを設定する
 6. GoogleにIndexされるのを待つ
 
-## 1. Google Search Consoleに3つのブログを追加しておく
+### 1. Google Search Consoleに3つのブログを追加しておく
 
 どこまで効果があるかわかりませんが、Googleにそれぞれ自分の所有サイトであることを伝えるために、Google Search Console上で以下の3つのサイトを追加しました。
 
@@ -82,7 +82,7 @@ Scrapboxのユーザー会に参加して、過去に書かれた文章と今の
 1. 経由先（はてなブログ）
 1. 移行先（独自ドメインのブログ）
 
-## 2. はてなダイアリーからはてなブログへの移行処理
+### 2. はてなダイアリーからはてなブログへの移行処理
 
 ブログ移行って面倒だなぁと思っていましたが、いざやってみるとなんてことはなく、以下の記事に従うと簡単に移行できました。
 
@@ -103,13 +103,13 @@ STEP1記事のインポート、STEP2はてなブックマークの移行、STEP
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1513943538/hatena_bookmark_lxi3sd.jpg" w="802" h="673" %}}
 
 
-## 3. はてなブログから記事エクスポート
+### 3. はてなブログから記事エクスポート
 
 問題なくはてなダイアリーからはてなブログにサイトが移行されたことを確認した後に、はてなブログから記事をエクスポートします。
 
 [記事データをエクスポートできるようにしました。ブログのバックアップ等にご利用ください \- はてなブログ開発ブログ](http://staff.hatenablog.com/entry/2014/08/22/180000)
 
-## 4. MT形式をMarkdownに変換
+### 4. MT形式をMarkdownに変換
 
 記事は、MT（Movable Type）形式でエクスポートされます。そのため、MT形式をMarkdownに変換します。
 
@@ -205,11 +205,11 @@ end
 ```
 
 
-## 5. はてなブログにJavaScriptによるリダイレクトを設定する
+### 5. はてなブログにJavaScriptによるリダイレクトを設定する
 
 リダイレクトのJavaScriptを記事下と、フッタに記述しました。
 
-### 記事下
+#### 記事下
 
 ```html
 <p>移転しました。
@@ -242,7 +242,7 @@ end
 </script>
 ```
 
-### フッタ
+#### フッタ
 
 ```html
 <script type="text/javascript" language="javascript">
@@ -266,7 +266,7 @@ end
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1513945201/javascript_redirect_sohtvr.png" w="428" h="556"  %}}
 
 
-## 6. GoogleにIndexされるのを待つ
+### 6. GoogleにIndexされるのを待つ
 
 - 移行直後：　検索結果に`d.hatena.ne.jp/meganii`のみ表示される。
 - 移行してしばらく： 検索結果に`d.hatena.ne.jp/meganii`と`meganii.hatenablog.com`が表示される。
