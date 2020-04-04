@@ -4,7 +4,7 @@ date: 2018-04-22T17:32:37+09:00
 lastmod: 2018-04-22T17:32:37+09:00
 comments: true
 category: ['Design']
-tags: ['icon','design']
+tags: ['icon','Design']
 published: true
 slug: get-free-icon
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1524391676/Design_afc6hi.png"
