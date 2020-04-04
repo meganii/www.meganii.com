@@ -22,7 +22,7 @@
         </div>
         <div class="p-4 flex flex-col justify-between leading-normal">
             <div class="mb-8 px-1">
-                <p class="text-sm text-grey-dark flex items-center">{{ range .Params.category }}{{.}}{{ end }}</p>
+                <p class="text-sm text-grey-dark flex items-center">{{ range .Params.category }}{{.|upper}}{{ end }}</p>
                 <p class="text-grey-dark">{{ .Date.Format "2006.01.02" }}</p>
                 <div class="text-black font-bold text-xl mb-2">{{ .Title }}</div>
                 <p class="text-gray-700 text-base">{{ .Summary | plainify | truncate 200 }}</p>
