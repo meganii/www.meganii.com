@@ -15,13 +15,15 @@
 .post h2 {
   @apply text-xl;
   @apply border-b-2;
+  @apply border-gray-300;
   @apply mt-6;
   @apply pb-1;
-  @apply border-gray-300;
 }
 
 .post h3 {
   @apply text-lg;
+  @apply border-l-4;
+  @apply pl-4;
   @apply mt-4;
 }
 
