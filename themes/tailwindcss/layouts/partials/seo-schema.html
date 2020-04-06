@@ -1,0 +1,31 @@
+{{ if .IsPage }}
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {{ .Permalink }},
+    "headline": "{{ .Title }}",
+    "datePublished": "{{ .Date.Format "2006-01-02T15:04:05JST" }}",
+    "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05JST" }}",
+    "description": "{{ replaceRE "\n" "" ((.Description | default .Summary) | plainify) }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ .Site.Params.Author }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SIS Lab",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.meganii.com/images/site-logo.png",
+        "width": 600,
+        "height": 60
+      }
+    },
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{ if isset .Params "eyecatch" }}{{ .Params.Eyecatch }}{{ else if isset .Params "img" }}{{ .Params.img }}{{ else }}{{ $.Site.BaseURL }}images/nopicture.png{{ end }}"
+    }
+  }
+</script>
+{{ end }}
