@@ -1,5 +1,5 @@
 ---
-title: "PuppeteerでQrunchへクロス投稿する"
+title: "Puppeteerを使ってQrunchへクロス投稿する"
 date: 2020-04-20T19:45:50+09:00
 lastmod: 2020-04-20T19:45:50+09:00
 comments: true
