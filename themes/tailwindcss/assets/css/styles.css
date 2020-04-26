@@ -27,6 +27,11 @@
   @apply mt-4;
 }
 
+.post h4 {
+  @apply text-lg;
+  @apply mt-4;
+}
+
 .post pre {
   @apply mt-4;
   @apply mb-4;
