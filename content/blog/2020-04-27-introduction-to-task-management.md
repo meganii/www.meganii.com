@@ -3,7 +3,7 @@ title: "「デルタ状の実践」〜「やること地獄」を終わらせる
 date: 2020-04-27T06:00:00+09:00
 lastmod: 2020-04-27T06:00:00+09:00
 category: ['Book']
-tags: ['タスク管理', '習慣']
+tags: ['タスク管理', '習慣', '読書']
 published: true
 slug: introduction-to-task-management
 img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_600/v1587879130/delta-practice_xyfyxj.jpg
