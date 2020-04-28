@@ -110,4 +110,4 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_600
 本書を読むことで用語整理およびタスク管理における心構えをアップデートできたので、現状の自分の「タスク管理システム」の見直しを行なって、次のほんの少しの改良に繋げたいです。
 
 
-[「やること地獄」を終わらせるタスク管理「超」入門』](https://amzn.to/3aGQsm3)
+{{% amazon 4065151562 %}}
