@@ -1,216 +1,79 @@
 {
-  "Item": {
     "ASIN": "4798055832",
-    "DetailPageURL": "https://www.amazon.co.jp/Android-iOS%E3%82%AF%E3%83%AD%E3%82%B9%E9%96%8B%E7%99%BA%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF-Flutter%E5%85%A5%E9%96%80-%E6%8E%8C%E7%94%B0%E6%B4%A5%E8%80%B6%E4%B9%83/dp/4798055832?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4798055832",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4798055832&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798055832"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4798055832?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798055832"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4798055832?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798055832"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4798055832?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798055832"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4798055832?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/3110n4Q2NCL.jpg",
+                "Width": 389
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/3110n4Q2NCL._SL160_.jpg",
+                "Width": 124
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/3110n4Q2NCL._SL75_.jpg",
+                "Width": 58
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/3110n4Q2NCL._SL75_.jpg",
-      "Height": "75",
-      "Width": "58"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/3110n4Q2NCL._SL160_.jpg",
-      "Height": "160",
-      "Width": "124"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/3110n4Q2NCL.jpg",
-      "Height": "500",
-      "Width": "389"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31mTfmOGbqL._SL30_.jpg",
-            "Height": "30",
-            "Width": "23"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31mTfmOGbqL._SL75_.jpg",
-            "Height": "75",
-            "Width": "58"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31mTfmOGbqL._SL75_.jpg",
-            "Height": "75",
-            "Width": "58"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31mTfmOGbqL._SL110_.jpg",
-            "Height": "110",
-            "Width": "86"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31mTfmOGbqL._SL160_.jpg",
-            "Height": "160",
-            "Width": "124"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31mTfmOGbqL.jpg",
-            "Height": "500",
-            "Width": "389"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71QvMW6duyL.jpg",
-            "Height": "2056",
-            "Width": "1601"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "掌田津耶乃",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "秀和システム",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/3110n4Q2NCL._SL30_.jpg",
-            "Height": "30",
-            "Width": "23"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/3110n4Q2NCL._SL75_.jpg",
-            "Height": "75",
-            "Width": "58"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/3110n4Q2NCL._SL75_.jpg",
-            "Height": "75",
-            "Width": "58"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/3110n4Q2NCL._SL110_.jpg",
-            "Height": "110",
-            "Width": "86"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/3110n4Q2NCL._SL160_.jpg",
-            "Height": "160",
-            "Width": "124"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/3110n4Q2NCL.jpg",
-            "Height": "500",
-            "Width": "389"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/716g8Apau7L.jpg",
-            "Height": "2045",
-            "Width": "1593"
-          }
-        }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": "掌田津耶乃",
-      "Binding": "単行本",
-      "EAN": "9784798055831",
-      "EANList": {
-        "EANListElement": "9784798055831"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4798055832",
-      "ItemDimensions": {
-        "Height": "921",
-        "Length": "717",
-        "Width": "87"
-      },
-      "Label": "秀和システム",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "発行済み"
-        }
-      },
-      "Manufacturer": "秀和システム",
-      "NumberOfItems": "1",
-      "NumberOfPages": "412",
-      "PackageDimensions": {
-        "Height": "91",
-        "Length": "929",
-        "Weight": "176",
-        "Width": "724"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2018-09-14",
-      "Publisher": "秀和システム",
-      "Studio": "秀和システム",
-      "Title": "Android/iOSクロス開発フレームワーク Flutter入門"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "3300",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,300"
-      },
-      "LowestUsedPrice": {
-        "Amount": "1900",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,900"
-      },
-      "TotalNew": "5",
-      "TotalUsed": "12",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4798055832?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798055832",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "OfferListing": {
-          "OfferListingId": "6FpqH51pSgrmRr9Wu1h2ctxWZdUAsEsKrD41FOyqnRAAQsdqbW%2B%2FlmrhOEI1xOKaYV76PXce5JR5XmAKMNczVx2b6y67hh%2BQFkuCfbDcDV0%3D",
-          "Price": {
-            "Amount": "3300",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 3,300"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 412,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2018-09-14T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "LoyaltyPoints": {
-          "Points": "33",
-          "TypicalRedemptionValue": {
-            "Amount": "33",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 33"
-          }
+        "Title": {
+            "DisplayValue": "Android/iOSクロス開発フレームワーク Flutter入門",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
     }
-  },
-  "Lastmod": "2019-12-02 22:33:25 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/e0ea0f11d1a94b01bc5659fecc54fb32/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/e0ea0f11d1a94b01bc5659fecc54fb32/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784798055831"
-  }
 }

@@ -1,301 +1,54 @@
 {
-  "Item": {
     "ASIN": "B00N3M7604",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%82%A8%E3%83%BC%E3%82%BC%E3%83%83%E3%83%88-%E8%87%AA%E8%BB%A2%E8%BB%8A%E7%94%A8-%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3%E6%B4%97%E6%B5%84%E5%99%A8-%E6%B4%97%E6%B5%84%E6%A9%9F%E3%83%BB%E5%9B%9E%E8%BB%A2%E3%83%96%E3%83%A9%E3%82%B7-KD060/dp/B00N3M7604?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00N3M7604",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=B00N3M7604&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00N3M7604"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/B00N3M7604?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00N3M7604"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/B00N3M7604?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00N3M7604"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/B00N3M7604?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00N3M7604"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B00N3M7604?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51oBKBbsx3L.jpg",
+                "Width": 500
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51oBKBbsx3L._SL160_.jpg",
+                "Width": 160
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51oBKBbsx3L._SL75_.jpg",
+                "Width": 75
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51oBKBbsx3L._SL75_.jpg",
-      "Height": "75",
-      "Width": "75"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51oBKBbsx3L._SL160_.jpg",
-      "Height": "160",
-      "Width": "160"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51oBKBbsx3L.jpg",
-      "Height": "500",
-      "Width": "500"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61ldLg4xZ0L._SL30_.jpg",
-            "Height": "30",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61ldLg4xZ0L._SL75_.jpg",
-            "Height": "75",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61ldLg4xZ0L._SL75_.jpg",
-            "Height": "75",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61ldLg4xZ0L._SL110_.jpg",
-            "Height": "110",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61ldLg4xZ0L._SL160_.jpg",
-            "Height": "160",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61ldLg4xZ0L.jpg",
-            "Height": "500",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71EH43WwuwL.jpg",
-            "Height": "1000",
-            "Width": "1000"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "エーゼット",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
+            "Manufacturer": {
+                "DisplayValue": "AZ(エーゼット)",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61Wi%2BxNKqBL._SL30_.jpg",
-            "Height": "30",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61Wi%2BxNKqBL._SL75_.jpg",
-            "Height": "75",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61Wi%2BxNKqBL._SL75_.jpg",
-            "Height": "75",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61Wi%2BxNKqBL._SL110_.jpg",
-            "Height": "110",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61Wi%2BxNKqBL._SL160_.jpg",
-            "Height": "160",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61Wi%2BxNKqBL.jpg",
-            "Height": "500",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71El7CF3ZwL.jpg",
-            "Height": "1000",
-            "Width": "1000"
-          }
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "スポーツ用品",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Sports",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61cF1ANHN1L._SL30_.jpg",
-            "Height": "27",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61cF1ANHN1L._SL75_.jpg",
-            "Height": "68",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61cF1ANHN1L._SL75_.jpg",
-            "Height": "68",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61cF1ANHN1L._SL110_.jpg",
-            "Height": "100",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61cF1ANHN1L._SL160_.jpg",
-            "Height": "146",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61cF1ANHN1L.jpg",
-            "Height": "455",
-            "Width": "500"
-          }
-        },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51mRjJsKPTL._SL30_.jpg",
-            "Height": "30",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51mRjJsKPTL._SL75_.jpg",
-            "Height": "75",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51mRjJsKPTL._SL75_.jpg",
-            "Height": "75",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51mRjJsKPTL._SL110_.jpg",
-            "Height": "110",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51mRjJsKPTL._SL160_.jpg",
-            "Height": "160",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51mRjJsKPTL.jpg",
-            "Height": "500",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61hbpoXgNVL.jpg",
-            "Height": "1000",
-            "Width": "1000"
-          }
-        },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51oBKBbsx3L._SL30_.jpg",
-            "Height": "30",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51oBKBbsx3L._SL75_.jpg",
-            "Height": "75",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51oBKBbsx3L._SL75_.jpg",
-            "Height": "75",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51oBKBbsx3L._SL110_.jpg",
-            "Height": "110",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51oBKBbsx3L._SL160_.jpg",
-            "Height": "160",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51oBKBbsx3L.jpg",
-            "Height": "500",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61NBoA%2BIgxL.jpg",
-            "Height": "1000",
-            "Width": "1000"
-          }
+        "Title": {
+            "DisplayValue": "AZ(エーゼット) 自転車用 チェーン洗浄器 DX (洗浄機・回転ブラシ) KD060",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      ]
-    },
-    "ItemAttributes": {
-      "Binding": "スポーツ用品",
-      "Brand": "エーゼット",
-      "EAN": "4960833060168",
-      "EANList": {
-        "EANListElement": "4960833060168"
-      },
-      "Feature": "材質:PC(ポリカーボネート)",
-      "Label": "AZ(エーゼット)",
-      "Manufacturer": "AZ(エーゼット)",
-      "Model": "KD060",
-      "MPN": "KD060",
-      "PackageDimensions": {
-        "Height": "244",
-        "Length": "783",
-        "Weight": "54",
-        "Width": "591"
-      },
-      "PackageQuantity": "1",
-      "PartNumber": "KD060",
-      "ProductGroup": "Sports",
-      "ProductTypeName": "SPORTING_GOODS",
-      "Publisher": "AZ(エーゼット)",
-      "Studio": "AZ(エーゼット)",
-      "Title": "AZ(エーゼット) 自転車用 チェーン洗浄器 DX (洗浄機・回転ブラシ) KD060"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "780",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 780"
-      },
-      "TotalNew": "3",
-      "TotalUsed": "0",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/B00N3M7604?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00N3M7604",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "JGuiWLE3o%2FCwnS2DCZa8cR48QxDZj%2Brp7Bq7cSiqlVY8K9aVjdn0ocn2mbroUNMBBFKGJIpRfPCDfzZ4%2B16dSIUqkbeQBCXKCrPm7vZO1eU%3D",
-          "Price": {
-            "Amount": "1088",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,088"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:38:41 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/9de26de1f265fe4e24235ab67087b625/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/9de26de1f265fe4e24235ab67087b625/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=4960833060168"
-  }
 }

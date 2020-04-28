@@ -1,205 +1,86 @@
 {
-  "Item": {
     "ASIN": "4478017166",
-    "DetailPageURL": "https://www.amazon.co.jp/%E6%96%B0%E7%89%88-%E3%82%B6%E3%83%BB%E3%83%9E%E3%82%A4%E3%83%B3%E3%83%89%E3%83%9E%E3%83%83%E3%83%97-R-%E3%83%88%E3%83%8B%E3%83%BC%E3%83%BB%E3%83%96%E3%82%B6%E3%83%B3/dp/4478017166?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4478017166",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4478017166&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478017166"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4478017166?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478017166"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4478017166?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478017166"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4478017166?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478017166"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4478017166?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51kqLnpx5tL.jpg",
+                "Width": 353
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51kqLnpx5tL._SL160_.jpg",
+                "Width": 113
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51kqLnpx5tL._SL75_.jpg",
+                "Width": 53
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kqLnpx5tL._SL75_.jpg",
-      "Height": "75",
-      "Width": "53"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kqLnpx5tL._SL160_.jpg",
-      "Height": "160",
-      "Width": "113"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kqLnpx5tL.jpg",
-      "Height": "500",
-      "Width": "353"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51och3EPCRL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51och3EPCRL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51och3EPCRL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51och3EPCRL._SL110_.jpg",
-            "Height": "110",
-            "Width": "78"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51och3EPCRL._SL160_.jpg",
-            "Height": "160",
-            "Width": "113"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51och3EPCRL.jpg",
-            "Height": "500",
-            "Width": "353"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "トニー・ブザン",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "バリー・ブザン",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "近田 美季子",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "ダイヤモンド社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kqLnpx5tL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kqLnpx5tL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kqLnpx5tL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kqLnpx5tL._SL110_.jpg",
-            "Height": "110",
-            "Width": "78"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kqLnpx5tL._SL160_.jpg",
-            "Height": "160",
-            "Width": "113"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kqLnpx5tL.jpg",
-            "Height": "500",
-            "Width": "353"
-          }
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
+        },
+        "ContentInfo": {
+            "Edition": {
+                "DisplayValue": "新",
+                "Label": "Edition",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 280,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2013-02-16T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
+        },
+        "Title": {
+            "DisplayValue": "新版 ザ・マインドマップ(R)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": [
-        "トニー・ブザン",
-        "バリー・ブザン"
-      ],
-      "Binding": "単行本",
-      "Creator": "近田 美季子",
-      "EAN": "9784478017166",
-      "EANList": {
-        "EANListElement": "9784478017166"
-      },
-      "Edition": "新",
-      "IsAdultProduct": "0",
-      "ISBN": "4478017166",
-      "Label": "ダイヤモンド社",
-      "ListPrice": {
-        "Amount": "2376",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,376"
-      },
-      "Manufacturer": "ダイヤモンド社",
-      "NumberOfPages": "280",
-      "PackageDimensions": {
-        "Height": "110",
-        "Length": "835",
-        "Weight": "123",
-        "Width": "614"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2013-02-16",
-      "Publisher": "ダイヤモンド社",
-      "Studio": "ダイヤモンド社",
-      "Title": "新版 ザ・マインドマップ(R)"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "2376",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,376"
-      },
-      "LowestUsedPrice": {
-        "Amount": "1189",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,189"
-      },
-      "TotalNew": "2",
-      "TotalUsed": "56",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4478017166?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478017166",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "IPTgzj5degJlnwlV7xbQa2JYHA%2FS9AMkWA6qSpvKi%2BuOPjVxpgWHe0J57VE9DvhefylEuL3Ib6mUbTp5BoCT44d0N3CHnTtNrEwReIpq1RQ%3D",
-          "Price": {
-            "Amount": "2376",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,376"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "23",
-          "TypicalRedemptionValue": {
-            "Amount": "23",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 23"
-          }
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:27:53 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/c31c99320747f3fdef25c2757b17be5a/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/c31c99320747f3fdef25c2757b17be5a/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784478017166"
-  }
 }

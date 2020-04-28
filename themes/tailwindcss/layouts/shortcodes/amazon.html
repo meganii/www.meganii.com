@@ -25,12 +25,23 @@
             md:m-4 md:mx-auto
             lg:flex lg:my-4 lg:mx-auto">
     <div class="h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2">
-        <amp-img class="contain" src="{{ $json.Item.LargeImage.URL }}" alt="{{ $json.Item.ItemAttributes.Title }}" layout="fill" />
+        <amp-img class="contain" src="{{ $json.Images.Primary.Large.URL }}" alt="{{ $json.ItemInfo.Title.DisplayValue }}" layout="fill" />
     </div>
     <div class="p-4 flex flex-col justify-between leading-normal">
         <div class="mb-8 px-1">
-            {{ if (or ( eq $json.Item.ItemAttributes.ProductGroup "Book") (eq $json.Item.ItemAttributes.ProductGroup "eBooks")) }}<div>出版社：{{ $json.Item.ItemAttributes.Publisher }}</div>{{ else if (eq $json.Item.ItemAttributes.ProductGroup "Shoes") }}<div>{{ $json.Item.ItemAttributes.Brand }}</div>{{ else }}<div>{{ $json.Item.ItemAttributes.Label }}</div>{{ end }}{{ with $json.Item.ItemAttributes.Author }}<div>著者: {{ . }}</div>{{ end }}{{ with $json.Item.ItemAttributes.PublicationDate }}<div>発売日: {{ . }}</div> {{ end }}
+            <div>{{ $json.ItemInfo.Title.DisplayValue }}</div>
+            {{- if (or ( eq $json.ItemInfo.Classifications.ProductGroup.DisplayValue "Book") (eq $json.ItemInfo.Classifications.ProductGroup.DisplayValue "Digital Ebook Purchas")) -}}
+            <div>出版社：{{ $json.ItemInfo.ByLineInfo.Manufacturer.DisplayValue }}</div>
+            {{- else if (eq $json.ItemInfo.Classifications.ProductGroup.DisplayValue "Shoes") -}}
+            <div>{{ $json.Item.ItemAttributes.Brand }}</div>
+            {{- else -}}
+            <div></div>
+            {{- end -}}
+            {{- with $json.ItemInfo.ByLineInfo.Contributors -}}
+            <div>著者: {{- range . -}}<span class="ml-3">{{ .Name }}</span>{{- end -}}</div>
+            {{- end -}}
+            {{- with $json.ItemInfo.ContentInfo.PublicationDate.DisplayValue -}}<div>発売日: {{ . | dateFormat "2006.01.02" }}</div> {{- end -}}
         </div>
     </div>
-    <a href="{{ $json.Item.DetailPageURL }}" class="block absolute inset-y-auto w-full h-full"></a>
+    <a href="{{ $json.DetailPageURL }}" class="block absolute inset-y-auto w-full h-full"></a>
 </div>

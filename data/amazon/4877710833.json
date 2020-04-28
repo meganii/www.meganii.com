@@ -1,223 +1,89 @@
 {
-  "Item": {
     "ASIN": "4877710833",
-    "DetailPageURL": "https://www.amazon.co.jp/%E4%BB%95%E4%BA%8B%E3%81%AF%E6%A5%BD%E3%81%97%E3%81%84%E3%81%8B%E3%81%AD-2-%E3%83%87%E3%82%A4%E3%83%AB%E3%83%BB%E3%83%89%E3%83%BC%E3%83%86%E3%83%B3/dp/4877710833?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4877710833",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4877710833&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4877710833"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4877710833?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4877710833"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4877710833?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4877710833"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4877710833?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4877710833"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4877710833?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51wrTy224IL.jpg",
+                "Width": 345
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51wrTy224IL._SL160_.jpg",
+                "Width": 110
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51wrTy224IL._SL75_.jpg",
+                "Width": 52
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51-pl4r4-qL._SL75_.jpg",
-      "Height": "75",
-      "Width": "52"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51-pl4r4-qL._SL160_.jpg",
-      "Height": "160",
-      "Width": "110"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51-pl4r4-qL.jpg",
-      "Height": "500",
-      "Width": "344"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/310YYxSNjNL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/310YYxSNjNL._SL75_.jpg",
-            "Height": "75",
-            "Width": "51"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/310YYxSNjNL._SL75_.jpg",
-            "Height": "75",
-            "Width": "51"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/310YYxSNjNL._SL110_.jpg",
-            "Height": "110",
-            "Width": "75"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/310YYxSNjNL._SL160_.jpg",
-            "Height": "160",
-            "Width": "110"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/310YYxSNjNL.jpg",
-            "Height": "500",
-            "Width": "343"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71uqn5nCSXL.jpg",
-            "Height": "2301",
-            "Width": "1577"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "デイル・ドーテン",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "野津 智子",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "きこ書房",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51-pl4r4-qL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51-pl4r4-qL._SL75_.jpg",
-            "Height": "75",
-            "Width": "52"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51-pl4r4-qL._SL75_.jpg",
-            "Height": "75",
-            "Width": "52"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51-pl4r4-qL._SL110_.jpg",
-            "Height": "110",
-            "Width": "76"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51-pl4r4-qL._SL160_.jpg",
-            "Height": "160",
-            "Width": "110"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51-pl4r4-qL.jpg",
-            "Height": "500",
-            "Width": "344"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/91u03yURQrL.jpg",
-            "Height": "2247",
-            "Width": "1545"
-          }
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
+        },
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    },
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "不明"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 212,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2002-07-26T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
+        },
+        "Title": {
+            "DisplayValue": "仕事は楽しいかね? 2",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": "デイル・ドーテン",
-      "Binding": "単行本",
-      "Creator": "野津 智子",
-      "EAN": "9784877710835",
-      "EANList": {
-        "EANListElement": "9784877710835"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4877710833",
-      "Label": "きこ書房",
-      "Languages": {
-        "Language": [
-          {
-            "Name": "日本語",
-            "Type": "Published"
-          },
-          {
-            "Name": "日本語",
-            "Type": "Unknown"
-          }
-        ]
-      },
-      "Manufacturer": "きこ書房",
-      "NumberOfPages": "212",
-      "PackageDimensions": {
-        "Height": "94",
-        "Length": "748",
-        "Weight": "79",
-        "Width": "528"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2002-07-26",
-      "Publisher": "きこ書房",
-      "Studio": "きこ書房",
-      "Title": "仕事は楽しいかね? 2"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "827",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 827"
-      },
-      "LowestUsedPrice": {
-        "Amount": "42",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 42"
-      },
-      "LowestCollectiblePrice": {
-        "Amount": "1020",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,020"
-      },
-      "TotalNew": "4",
-      "TotalUsed": "103",
-      "TotalCollectible": "2",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4877710833?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4877710833",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "XsTHTEj5GNAH4Pg7U%2BC2xQj0dwOuzGQlkEOjA8D3QrHxW0DnKQRPOo7bP7bgxh80OP0CcwRLsmEzI%2BodrFOHtBnf8uAABjRI",
-          "Price": {
-            "Amount": "1404",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,404"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "14",
-          "TypicalRedemptionValue": {
-            "Amount": "14",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 14"
-          }
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:39:46 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/932efc19b86002ad856d1dbd8a184828/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/932efc19b86002ad856d1dbd8a184828/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784877710835"
-  }
 }

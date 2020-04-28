@@ -1,222 +1,95 @@
 {
-  "Item": {
     "ASIN": "4480864245",
-    "DetailPageURL": "https://www.amazon.co.jp/%E6%94%B9%E8%A8%82%E7%89%88-%E9%87%91%E6%8C%81%E3%81%A1%E7%88%B6%E3%81%95%E3%82%93-%E8%B2%A7%E4%B9%8F%E7%88%B6%E3%81%95%E3%82%93-%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%81%AE%E9%87%91%E6%8C%81%E3%81%A1%E3%81%8C%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%82%8C%E3%82%8B%E3%81%8A%E9%87%91%E3%81%AE%E5%93%B2%E5%AD%A6-%E5%8D%98%E8%A1%8C%E6%9C%AC/dp/4480864245?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4480864245",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4480864245&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4480864245"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4480864245?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4480864245"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4480864245?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4480864245"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4480864245?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4480864245"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4480864245?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/513DrKnhloL.jpg",
+                "Width": 352
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/513DrKnhloL._SL160_.jpg",
+                "Width": 113
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/513DrKnhloL._SL75_.jpg",
+                "Width": 53
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51GQxBvUiBL._SL75_.jpg",
-      "Height": "75",
-      "Width": "53"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51GQxBvUiBL._SL160_.jpg",
-      "Height": "160",
-      "Width": "114"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51GQxBvUiBL.jpg",
-      "Height": "500",
-      "Width": "355"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YXcBviEHL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YXcBviEHL._SL75_.jpg",
-            "Height": "75",
-            "Width": "54"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YXcBviEHL._SL75_.jpg",
-            "Height": "75",
-            "Width": "54"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YXcBviEHL._SL110_.jpg",
-            "Height": "110",
-            "Width": "79"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YXcBviEHL._SL160_.jpg",
-            "Height": "160",
-            "Width": "115"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YXcBviEHL.jpg",
-            "Height": "500",
-            "Width": "358"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71KhEzbgTlL.jpg",
-            "Height": "1773",
-            "Width": "1271"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "筑摩書房",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "ロバート キヨサキ",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "白根 美保子",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "筑摩書房",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51GQxBvUiBL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51GQxBvUiBL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51GQxBvUiBL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51GQxBvUiBL._SL110_.jpg",
-            "Height": "110",
-            "Width": "78"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51GQxBvUiBL._SL160_.jpg",
-            "Height": "160",
-            "Width": "114"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51GQxBvUiBL.jpg",
-            "Height": "500",
-            "Width": "355"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/81MQAQfsTlL.jpg",
-            "Height": "1782",
-            "Width": "1264"
-          }
-        }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": "ロバート キヨサキ",
-      "Binding": "単行本（ソフトカバー）",
-      "Creator": "白根 美保子",
-      "EAN": "9784480864246",
-      "EANList": {
-        "EANListElement": "9784480864246"
-      },
-      "Edition": "改訂",
-      "IsAdultProduct": "0",
-      "ISBN": "4480864245",
-      "ItemDimensions": {
-        "Weight": "84"
-      },
-      "Label": "筑摩書房",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "筑摩書房",
-      "NumberOfItems": "1",
-      "NumberOfPages": "272",
-      "PackageDimensions": {
-        "Height": "87",
-        "Length": "819",
-        "Weight": "84",
-        "Width": "583"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2013-11-08",
-      "Publisher": "筑摩書房",
-      "Studio": "筑摩書房",
-      "Title": "改訂版 金持ち父さん 貧乏父さん:アメリカの金持ちが教えてくれるお金の哲学 (単行本)"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "1728",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,728"
-      },
-      "LowestUsedPrice": {
-        "Amount": "843",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 843"
-      },
-      "LowestCollectiblePrice": {
-        "Amount": "1600",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,600"
-      },
-      "TotalNew": "5",
-      "TotalUsed": "102",
-      "TotalCollectible": "2",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4480864245?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4480864245",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "OfferListing": {
-          "OfferListingId": "Y1dsGoVixLJ9IGQS3VjI180xEiQZduTg%2F70rYdbj4y3QTPJBBIR2mAY3jAlfftaITRyZYmb03Gz3v6mDgteKfOjm30%2F5nXWlAfEQzrIAFrA%3D",
-          "Price": {
-            "Amount": "1728",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,728"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
+        "ContentInfo": {
+            "Edition": {
+                "DisplayValue": "改訂",
+                "Label": "Edition",
+                "Locale": "ja_JP"
+            },
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 272,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2013-11-08T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "LoyaltyPoints": {
-          "Points": "17",
-          "TypicalRedemptionValue": {
-            "Amount": "17",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 17"
-          }
+        "Title": {
+            "DisplayValue": "改訂版 金持ち父さん 貧乏父さん:アメリカの金持ちが教えてくれるお金の哲学 (単行本)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
     }
-  },
-  "Lastmod": "2019-08-12 20:02:53 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/54f1e16140337f4d4aaa9a12e0d3757d/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/54f1e16140337f4d4aaa9a12e0d3757d/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784480864246"
-  }
 }

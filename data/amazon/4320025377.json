@@ -1,178 +1,91 @@
 {
-  "Item": {
     "ASIN": "4320025377",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88%E3%81%AE%E7%A7%98%E5%AF%86%E2%80%95%E6%8A%80%E8%A1%93%E3%82%A2%E3%83%89%E3%83%90%E3%82%A4%E3%82%B9%E3%81%AE%E4%BA%BA%E9%96%93%E5%AD%A6-G-M-%E3%83%AF%E3%82%A4%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B0/dp/4320025377?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4320025377",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4320025377&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4320025377"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4320025377?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4320025377"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4320025377?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4320025377"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4320025377?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4320025377"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4320025377?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/418S5FJ6RHL._SL500_.jpg",
+                "Width": 361
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/418S5FJ6RHL._SL160_.jpg",
+                "Width": 116
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/418S5FJ6RHL._SL75_.jpg",
+                "Width": 54
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/418S5FJ6RHL._SL75_.jpg",
-      "Height": "75",
-      "Width": "54"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/418S5FJ6RHL._SL160_.jpg",
-      "Height": "160",
-      "Width": "116"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/418S5FJ6RHL.jpg",
-      "Height": "475",
-      "Width": "343"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/418S5FJ6RHL._SL30_.jpg",
-          "Height": "30",
-          "Width": "22"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "G.M.ワインバーグ",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "木村 泉",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "ジェラルド・M・ワインバーグ",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "共立出版",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/418S5FJ6RHL._SL75_.jpg",
-          "Height": "75",
-          "Width": "54"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/418S5FJ6RHL._SL75_.jpg",
-          "Height": "75",
-          "Width": "54"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 254,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "1990-12-01T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/418S5FJ6RHL._SL110_.jpg",
-          "Height": "110",
-          "Width": "79"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/418S5FJ6RHL._SL160_.jpg",
-          "Height": "160",
-          "Width": "116"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/418S5FJ6RHL.jpg",
-          "Height": "475",
-          "Width": "343"
+        "Title": {
+            "DisplayValue": "コンサルタントの秘密―技術アドバイスの人間学",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": [
-        "G.M.ワインバーグ",
-        "木村 泉",
-        "ジェラルド・M・ワインバーグ"
-      ],
-      "Binding": "単行本",
-      "EAN": "9784320025370",
-      "EANList": {
-        "EANListElement": "9784320025370"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4320025377",
-      "ItemDimensions": {
-        "Weight": "88"
-      },
-      "Label": "共立出版",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "共立出版",
-      "NumberOfPages": "254",
-      "PackageDimensions": {
-        "Height": "71",
-        "Length": "827",
-        "Weight": "88",
-        "Width": "591"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "1990-12-01",
-      "Publisher": "共立出版",
-      "Studio": "共立出版",
-      "Title": "コンサルタントの秘密―技術アドバイスの人間学"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "3132",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,132"
-      },
-      "LowestUsedPrice": {
-        "Amount": "626",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 626"
-      },
-      "LowestCollectiblePrice": {
-        "Amount": "6399",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 6,399"
-      },
-      "TotalNew": "2",
-      "TotalUsed": "43",
-      "TotalCollectible": "1",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4320025377?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4320025377",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "D3%2B2C%2FqiHJf2SApsLo37oTmW%2BVvniRQARc59UgfL3%2B%2F8EWCJLtAbiANpeNI5Fi2G3lI5OzfTtLAD1rlGb73W1tvNZpHGM%2FoBF0vwxiX031g%3D",
-          "Price": {
-            "Amount": "3132",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 3,132"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "31",
-          "TypicalRedemptionValue": {
-            "Amount": "31",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 31"
-          }
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 21:12:47 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/f40bda9855cdb4756809e71fdc037f9d/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/f40bda9855cdb4756809e71fdc037f9d/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784320025370"
-  }
 }

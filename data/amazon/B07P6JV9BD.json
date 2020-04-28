@@ -1,104 +1,79 @@
 {
-  "Item": {
     "ASIN": "B07P6JV9BD",
-    "DetailPageURL": "https://www.amazon.co.jp/1%E6%97%A53%E6%99%82%E9%96%93%E3%81%A0%E3%81%91%E5%83%8D%E3%81%84%E3%81%A6%E3%81%8A%E3%81%A0%E3%82%84%E3%81%8B%E3%81%AB%E6%9A%AE%E3%82%89%E3%81%99%E3%81%9F%E3%82%81%E3%81%AE%E6%80%9D%E8%80%83%E6%B3%95-%E5%B1%B1%E5%8F%A3-%E6%8F%9A%E5%B9%B3-ebook/dp/B07P6JV9BD?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07P6JV9BD",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=B07P6JV9BD&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B07P6JV9BD"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/B07P6JV9BD?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B07P6JV9BD"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/B07P6JV9BD?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B07P6JV9BD"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/B07P6JV9BD?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B07P6JV9BD"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B07P6JV9BD?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51gJS7xegvL.jpg",
+                "Width": 346
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51gJS7xegvL._SL160_.jpg",
+                "Width": 111
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51gJS7xegvL._SL75_.jpg",
+                "Width": 52
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51gJS7xegvL._SL75_.jpg",
-      "Height": "75",
-      "Width": "52"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51gJS7xegvL._SL160_.jpg",
-      "Height": "160",
-      "Width": "111"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51gJS7xegvL.jpg",
-      "Height": "500",
-      "Width": "346"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51gJS7xegvL._SL30_.jpg",
-          "Height": "30",
-          "Width": "21"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "山口 揚平",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "プレジデント社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51gJS7xegvL._SL75_.jpg",
-          "Height": "75",
-          "Width": "52"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "Kindle版",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Digital Ebook Purchas",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51gJS7xegvL._SL75_.jpg",
-          "Height": "75",
-          "Width": "52"
+        "ContentInfo": {
+            "Edition": {
+                "DisplayValue": "1",
+                "Label": "Edition",
+                "Locale": "ja_JP"
+            },
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2019-03-01T00:00:00.000Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51gJS7xegvL._SL110_.jpg",
-          "Height": "110",
-          "Width": "76"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51gJS7xegvL._SL160_.jpg",
-          "Height": "160",
-          "Width": "111"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51gJS7xegvL.jpg",
-          "Height": "500",
-          "Width": "346"
-        },
-        "HiResImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/91tPNd4bbVL.jpg",
-          "Height": "2560",
-          "Width": "1772"
+        "Title": {
+            "DisplayValue": "1日3時間だけ働いておだやかに暮らすための思考法",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "山口 揚平",
-      "Binding": "Kindle版",
-      "Edition": "1",
-      "Format": "Kindle本",
-      "IsAdultProduct": "0",
-      "Label": "プレジデント社",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "プレジデント社",
-      "ProductGroup": "eBooks",
-      "ProductTypeName": "ABIS_EBOOKS",
-      "PublicationDate": "2019-03-01",
-      "Publisher": "プレジデント社",
-      "ReleaseDate": "2019-03-01",
-      "Studio": "プレジデント社",
-      "Title": "1日3時間だけ働いておだやかに暮らすための思考法"
     }
-  },
-  "Lastmod": "2019-06-15 20:39:51 +0900"
 }

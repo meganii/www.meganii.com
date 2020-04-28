@@ -1,180 +1,91 @@
 {
-  "Item": {
     "ASIN": "4576082116",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AEGTD-%E3%82%B9%E3%83%88%E3%83%AC%E3%82%B9%E3%83%95%E3%83%AA%E3%83%BC%E3%81%AE%E6%95%B4%E7%90%86%E8%A1%93-%E3%83%87%E3%83%93%E3%83%83%E3%83%89%E3%83%BB%E3%82%A2%E3%83%AC%E3%83%B3/dp/4576082116?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4576082116",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4576082116&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4576082116"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4576082116?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4576082116"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4576082116?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4576082116"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4576082116?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4576082116"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4576082116?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51umAMmeSlL.jpg",
+                "Width": 350
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51umAMmeSlL._SL160_.jpg",
+                "Width": 112
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51umAMmeSlL._SL75_.jpg",
+                "Width": 52
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51umAMmeSlL._SL75_.jpg",
-      "Height": "75",
-      "Width": "52"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51umAMmeSlL._SL160_.jpg",
-      "Height": "160",
-      "Width": "112"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51umAMmeSlL.jpg",
-      "Height": "500",
-      "Width": "350"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51eUpI3t4HL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51eUpI3t4HL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51eUpI3t4HL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51eUpI3t4HL._SL110_.jpg",
-            "Height": "110",
-            "Width": "77"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51eUpI3t4HL._SL160_.jpg",
-            "Height": "160",
-            "Width": "112"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51eUpI3t4HL.jpg",
-            "Height": "500",
-            "Width": "351"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "デビッド・アレン",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "田口 元",
+                    "Role": "監修",
+                    "RoleType": "consultant_editor"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "田口 元",
+                    "Role": "監修",
+                    "RoleType": "reader"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "二見書房",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51umAMmeSlL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51umAMmeSlL._SL75_.jpg",
-            "Height": "75",
-            "Width": "52"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51umAMmeSlL._SL75_.jpg",
-            "Height": "75",
-            "Width": "52"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51umAMmeSlL._SL110_.jpg",
-            "Height": "110",
-            "Width": "77"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51umAMmeSlL._SL160_.jpg",
-            "Height": "160",
-            "Width": "112"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51umAMmeSlL.jpg",
-            "Height": "500",
-            "Width": "350"
-          }
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本（ソフトカバー）",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
+        },
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "不明"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 294,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2008-12-24T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
+        },
+        "Title": {
+            "DisplayValue": "はじめてのGTD ストレスフリーの整理術",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": "デビッド・アレン",
-      "Binding": "単行本（ソフトカバー）",
-      "Creator": [
-        "田口 元",
-        "田口 元"
-      ],
-      "EAN": "9784576082110",
-      "EANList": {
-        "EANListElement": "9784576082110"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4576082116",
-      "ItemDimensions": {
-        "Weight": "70"
-      },
-      "Label": "二見書房",
-      "Languages": {
-        "Language": [
-          {
-            "Name": "日本語",
-            "Type": "Published"
-          },
-          {
-            "Name": "日本語",
-            "Type": "Unknown"
-          }
-        ]
-      },
-      "Manufacturer": "二見書房",
-      "NumberOfPages": "294",
-      "PackageDimensions": {
-        "Height": "94",
-        "Length": "732",
-        "Weight": "70",
-        "Width": "504"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2008-12-24",
-      "Publisher": "二見書房",
-      "Studio": "二見書房",
-      "Title": "はじめてのGTD ストレスフリーの整理術"
-    },
-    "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "429",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 429"
-      },
-      "TotalNew": "0",
-      "TotalUsed": "55",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
     }
-  },
-  "Lastmod": "2019-06-15 20:26:57 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/f53b88a0856c6b196f568439c469da8f/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/f53b88a0856c6b196f568439c469da8f/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784576082110"
-  }
 }

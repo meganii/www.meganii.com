@@ -1,473 +1,97 @@
 {
-  "Item": {
     "ASIN": "888370102X",
-    "DetailPageURL": "https://www.amazon.co.jp/Moleskine-Pocket-Squared-Notebook-Classic/dp/888370102X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=888370102X",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=888370102X&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=888370102X"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/888370102X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=888370102X"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/888370102X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=888370102X"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/888370102X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=888370102X"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/888370102X?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 333,
+                "URL": "https://m.media-amazon.com/images/I/31I1CROMmxL.jpg",
+                "Width": 500
+            },
+            "Medium": {
+                "Height": 107,
+                "URL": "https://m.media-amazon.com/images/I/31I1CROMmxL._SL160_.jpg",
+                "Width": 160
+            },
+            "Small": {
+                "Height": 50,
+                "URL": "https://m.media-amazon.com/images/I/31I1CROMmxL._SL75_.jpg",
+                "Width": 75
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/31I1CROMmxL._SL75_.jpg",
-      "Height": "50",
-      "Width": "75"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/31I1CROMmxL._SL160_.jpg",
-      "Height": "107",
-      "Width": "160"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/31I1CROMmxL.jpg",
-      "Height": "333",
-      "Width": "500"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "swatch",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/214a%2BXdvJ1L._SL30_.jpg",
-            "Height": "30",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/214a%2BXdvJ1L._SL75_.jpg",
-            "Height": "74",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/214a%2BXdvJ1L._SL75_.jpg",
-            "Height": "74",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/214a%2BXdvJ1L._SL110_.jpg",
-            "Height": "108",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/214a%2BXdvJ1L._SL160_.jpg",
-            "Height": "158",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/214a%2BXdvJ1L.jpg",
-            "Height": "354",
-            "Width": "359"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "モレスキン(Moleskine)",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "Moleskine",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "モレスキン(Moleskine)",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/21p3rA7EkHL._SL30_.jpg",
-            "Height": "20",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/21p3rA7EkHL._SL75_.jpg",
-            "Height": "50",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/21p3rA7EkHL._SL75_.jpg",
-            "Height": "50",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/21p3rA7EkHL._SL110_.jpg",
-            "Height": "73",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/21p3rA7EkHL._SL160_.jpg",
-            "Height": "107",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/21p3rA7EkHL.jpg",
-            "Height": "333",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61e-bwGlvHL.jpg",
-            "Height": "1200",
-            "Width": "1800"
-          }
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "ハードカバー",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Office Product",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/21EsXiKFHKL._SL30_.jpg",
-            "Height": "20",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/21EsXiKFHKL._SL75_.jpg",
-            "Height": "50",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/21EsXiKFHKL._SL75_.jpg",
-            "Height": "50",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/21EsXiKFHKL._SL110_.jpg",
-            "Height": "73",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/21EsXiKFHKL._SL160_.jpg",
-            "Height": "107",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/21EsXiKFHKL.jpg",
-            "Height": "333",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/615Hkaxd7rL.jpg",
-            "Height": "1200",
-            "Width": "1800"
-          }
+        "ContentInfo": {
+            "Edition": {
+                "DisplayValue": "Ntb",
+                "Label": "Edition",
+                "Locale": "ja_JP"
+            },
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "英語",
+                        "Type": "発行済み"
+                    },
+                    {
+                        "DisplayValue": "英語",
+                        "Type": "原語"
+                    },
+                    {
+                        "DisplayValue": "英語",
+                        "Type": "不明"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 192,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2008-01-01T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/21urps452ZL._SL30_.jpg",
-            "Height": "20",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/21urps452ZL._SL75_.jpg",
-            "Height": "50",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/21urps452ZL._SL75_.jpg",
-            "Height": "50",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/21urps452ZL._SL110_.jpg",
-            "Height": "73",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/21urps452ZL._SL160_.jpg",
-            "Height": "107",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/21urps452ZL.jpg",
-            "Height": "333",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51FJ0RmMOML.jpg",
-            "Height": "1200",
-            "Width": "1800"
-          }
-        },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31pnicNkwrL._SL30_.jpg",
-            "Height": "20",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31pnicNkwrL._SL75_.jpg",
-            "Height": "50",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31pnicNkwrL._SL75_.jpg",
-            "Height": "50",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31pnicNkwrL._SL110_.jpg",
-            "Height": "73",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31pnicNkwrL._SL160_.jpg",
-            "Height": "107",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31pnicNkwrL.jpg",
-            "Height": "333",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61cDrMPWMoL.jpg",
-            "Height": "1200",
-            "Width": "1800"
-          }
-        },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/215ArzOCPVL._SL30_.jpg",
-            "Height": "20",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/215ArzOCPVL._SL75_.jpg",
-            "Height": "50",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/215ArzOCPVL._SL75_.jpg",
-            "Height": "50",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/215ArzOCPVL._SL110_.jpg",
-            "Height": "73",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/215ArzOCPVL._SL160_.jpg",
-            "Height": "107",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/215ArzOCPVL.jpg",
-            "Height": "333",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51vLdl1GkPL.jpg",
-            "Height": "1200",
-            "Width": "1800"
-          }
-        },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/314R4kXuD0L._SL30_.jpg",
-            "Height": "20",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/314R4kXuD0L._SL75_.jpg",
-            "Height": "50",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/314R4kXuD0L._SL75_.jpg",
-            "Height": "50",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/314R4kXuD0L._SL110_.jpg",
-            "Height": "73",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/314R4kXuD0L._SL160_.jpg",
-            "Height": "107",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/314R4kXuD0L.jpg",
-            "Height": "333",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61ufjThVpjL.jpg",
-            "Height": "1200",
-            "Width": "1800"
-          }
-        },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31I1CROMmxL._SL30_.jpg",
-            "Height": "20",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31I1CROMmxL._SL75_.jpg",
-            "Height": "50",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31I1CROMmxL._SL75_.jpg",
-            "Height": "50",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31I1CROMmxL._SL110_.jpg",
-            "Height": "73",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31I1CROMmxL._SL160_.jpg",
-            "Height": "107",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31I1CROMmxL.jpg",
-            "Height": "333",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/613jtzLhJJL.jpg",
-            "Height": "1200",
-            "Width": "1800"
-          }
+        "Title": {
+            "DisplayValue": "Moleskine Pocket Squared Notebook Classic",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": "Moleskine",
-      "Binding": "ハードカバー",
-      "Brand": "Business & School Supply",
-      "CatalogNumberList": {
-        "CatalogNumberListElement": [
-          "888370102X",
-          "15172608031"
-        ]
-      },
-      "EAN": "9788883701023",
-      "EANList": {
-        "EANListElement": [
-          "0844087000023",
-          "0844087000269",
-          "9788883701023",
-          "7487993823688"
-        ]
-      },
-      "Edition": "Ntb",
-      "IsAdultProduct": "0",
-      "IsAutographed": "0",
-      "ISBN": "888370102X",
-      "IsMemorabilia": "0",
-      "ItemDimensions": {
-        "Height": "575",
-        "Length": "375",
-        "Weight": "30",
-        "Width": "63"
-      },
-      "Label": "Moleskine",
-      "Languages": {
-        "Language": [
-          {
-            "Name": "英語",
-            "Type": "Published"
-          },
-          {
-            "Name": "英語",
-            "Type": "Original Language"
-          },
-          {
-            "Name": "英語",
-            "Type": "Unknown"
-          }
-        ]
-      },
-      "ListPrice": {
-        "Amount": "1656",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,656"
-      },
-      "Manufacturer": "Moleskine",
-      "ManufacturerMaximumAge": "1188",
-      "Model": "S0102X",
-      "MPN": "S0102X",
-      "NumberOfItems": "1",
-      "NumberOfPages": "192",
-      "PackageDimensions": {
-        "Height": "50",
-        "Length": "580",
-        "Weight": "30",
-        "Width": "380"
-      },
-      "PackageQuantity": "1",
-      "PartNumber": "S0102X",
-      "ProductGroup": "Office Product",
-      "ProductTypeName": "OFFICE_PRODUCTS",
-      "PublicationDate": "2008-01-01",
-      "Publisher": "Moleskine",
-      "ReleaseDate": "2008-01-01",
-      "Studio": "Moleskine",
-      "Title": "Moleskine Pocket Squared Notebook Classic",
-      "UPC": "844087000269",
-      "UPCList": {
-        "UPCListElement": [
-          "844087000269",
-          "844087000023"
-        ]
-      }
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "1008",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,008"
-      },
-      "TotalNew": "10",
-      "TotalUsed": "0",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/888370102X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=888370102X",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "OYf3VhxwF2Y%2F93e1lHDXJijWPEGrio0pmkqBFkTW3Lvd3yp346FcGsdqmWuDqUthBZLaXdUCMXjCYzJcyM32aH1Pv%2BavuRH%2FV83Za8m0BZ1bUSKWuMohQI5hqjc9vkuzCFT%2FutokCayNRATIwe0euA%3D%3D",
-          "Price": {
-            "Amount": "1008",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,008"
-          },
-          "AmountSaved": {
-            "Amount": "648",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 648"
-          },
-          "PercentageSaved": "39",
-          "Availability": "通常1～2営業日以内に発送",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "24",
-            "MaximumHours": "48"
-          },
-          "IsEligibleForSuperSaverShipping": "0",
-          "IsEligibleForPrime": "0"
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:27:08 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/5fc11c86dc31da4d38836037648ac442/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/5fc11c86dc31da4d38836037648ac442/"
-  }
 }

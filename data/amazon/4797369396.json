@@ -1,207 +1,79 @@
 {
-  "Item": {
     "ASIN": "4797369396",
-    "DetailPageURL": "https://www.amazon.co.jp/Photoshop-10%E5%B9%B4%E4%BD%BF%E3%81%88%E3%82%8B%E9%80%86%E5%BC%95%E3%81%8D%E6%89%8B%E5%B8%96%E3%80%90CS6-%E5%AF%BE%E5%BF%9C%E3%80%91%E3%80%90Mac-%E3%81%82%E3%81%82%E3%81%97%E3%81%9F%E3%81%84%E3%80%82%E3%81%93%E3%81%86%E3%81%97%E3%81%9F%E3%81%84-%E3%81%82%E3%81%82%E3%81%97%E3%81%9F%E3%81%84%E3%80%82%E3%81%93%E3%81%86%E3%81%97%E3%81%9F%E3%81%84%E3%80%82/dp/4797369396?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4797369396",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4797369396&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4797369396"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4797369396?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4797369396"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4797369396?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4797369396"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4797369396?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4797369396"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4797369396?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51PQ0viPR-L.jpg",
+                "Width": 392
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51PQ0viPR-L._SL160_.jpg",
+                "Width": 125
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51PQ0viPR-L._SL75_.jpg",
+                "Width": 59
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51PQ0viPR-L._SL75_.jpg",
-      "Height": "75",
-      "Width": "59"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51PQ0viPR-L._SL160_.jpg",
-      "Height": "160",
-      "Width": "125"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51PQ0viPR-L.jpg",
-      "Height": "500",
-      "Width": "392"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51PEH9ETSzL._SL30_.jpg",
-            "Height": "30",
-            "Width": "24"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51PEH9ETSzL._SL75_.jpg",
-            "Height": "75",
-            "Width": "59"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51PEH9ETSzL._SL75_.jpg",
-            "Height": "75",
-            "Width": "59"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51PEH9ETSzL._SL110_.jpg",
-            "Height": "110",
-            "Width": "87"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51PEH9ETSzL._SL160_.jpg",
-            "Height": "160",
-            "Width": "126"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51PEH9ETSzL.jpg",
-            "Height": "500",
-            "Width": "394"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71tBAAyFtlL.jpg",
-            "Height": "1000",
-            "Width": "788"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "藤本 圭",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "SBクリエイティブ",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51PQ0viPR-L._SL30_.jpg",
-            "Height": "30",
-            "Width": "24"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51PQ0viPR-L._SL75_.jpg",
-            "Height": "75",
-            "Width": "59"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51PQ0viPR-L._SL75_.jpg",
-            "Height": "75",
-            "Width": "59"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51PQ0viPR-L._SL110_.jpg",
-            "Height": "110",
-            "Width": "86"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51PQ0viPR-L._SL160_.jpg",
-            "Height": "160",
-            "Width": "125"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51PQ0viPR-L.jpg",
-            "Height": "500",
-            "Width": "392"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61DikyChEqL.jpg",
-            "Height": "1000",
-            "Width": "785"
-          }
-        }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": "藤本 圭",
-      "Binding": "単行本",
-      "EAN": "9784797369397",
-      "EANList": {
-        "EANListElement": "9784797369397"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4797369396",
-      "Label": "SBクリエイティブ",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "SBクリエイティブ",
-      "NumberOfPages": "368",
-      "PackageDimensions": {
-        "Height": "134",
-        "Length": "913",
-        "Weight": "194",
-        "Width": "724"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2012-09-25",
-      "Publisher": "SBクリエイティブ",
-      "Studio": "SBクリエイティブ",
-      "Title": "Photoshop 10年使える逆引き手帖【CS6/CS5/CS4/CS3 対応】【Mac OS X & Windows 対応】[ああしたい。こうしたい] (ああしたい。こうしたい。)"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "2592",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,592"
-      },
-      "LowestUsedPrice": {
-        "Amount": "50",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 50"
-      },
-      "LowestCollectiblePrice": {
-        "Amount": "3600",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,600"
-      },
-      "TotalNew": "2",
-      "TotalUsed": "15",
-      "TotalCollectible": "2",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4797369396?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4797369396",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "OfferListing": {
-          "OfferListingId": "eFz%2BkWVjKpIfPqsnMFiWSmhcDvSIS8zDtiXgVBEDqo7xl8Q64HfmrI5uwzSyIeDzeotHEWXg4cubh0DyL9wKbQO3WiiEKCQZQYR67xRBL3Sp9%2Fv9AvhZoa%2BCTYohmr7Rl%2BUh0bH6b8ZDh%2BDHjCl0gF39maERJEPT",
-          "Price": {
-            "Amount": "2592",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,592"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 368,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2012-09-25T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
+        },
+        "Title": {
+            "DisplayValue": "Photoshop 10年使える逆引き手帖【CS6/CS5/CS4/CS3 対応】【Mac OS X & Windows 対応】[ああしたい。こうしたい] (ああしたい。こうしたい。)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:28:32 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/b0f013fe736056c11c04f3a4ba56f753/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/b0f013fe736056c11c04f3a4ba56f753/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784797369397"
-  }
 }

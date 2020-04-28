@@ -1,146 +1,91 @@
 {
-  "Item": {
     "ASIN": "4873114500",
-    "DetailPageURL": "https://www.amazon.co.jp/%E6%AD%A3%E8%A6%8F%E8%A1%A8%E7%8F%BE%E3%82%AF%E3%83%83%E3%82%AF%E3%83%96%E3%83%83%E3%82%AF-Jan-Goyvaerts/dp/4873114500?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4873114500",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4873114500&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4873114500"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4873114500?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4873114500"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4873114500?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4873114500"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4873114500?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4873114500"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4873114500?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51v9IZgj+eL.jpg",
+                "Width": 385
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51v9IZgj+eL._SL160_.jpg",
+                "Width": 123
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51v9IZgj+eL._SL75_.jpg",
+                "Width": 58
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51v9IZgj%2BeL._SL75_.jpg",
-      "Height": "75",
-      "Width": "58"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51v9IZgj%2BeL._SL160_.jpg",
-      "Height": "160",
-      "Width": "123"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51v9IZgj%2BeL.jpg",
-      "Height": "500",
-      "Width": "385"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51v9IZgj%2BeL._SL30_.jpg",
-          "Height": "30",
-          "Width": "23"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "Jan Goyvaerts",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "Steven Levithan",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "長尾 高弘",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "オライリージャパン",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51v9IZgj%2BeL._SL75_.jpg",
-          "Height": "75",
-          "Width": "58"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "大型本",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51v9IZgj%2BeL._SL75_.jpg",
-          "Height": "75",
-          "Width": "58"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "不明"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 552,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2010-04-15T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51v9IZgj%2BeL._SL110_.jpg",
-          "Height": "110",
-          "Width": "85"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51v9IZgj%2BeL._SL160_.jpg",
-          "Height": "160",
-          "Width": "123"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51v9IZgj%2BeL.jpg",
-          "Height": "500",
-          "Width": "385"
+        "Title": {
+            "DisplayValue": "正規表現クックブック",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": [
-        "Jan Goyvaerts",
-        "Steven Levithan"
-      ],
-      "Binding": "大型本",
-      "Creator": "長尾 高弘",
-      "EAN": "9784873114507",
-      "EANList": {
-        "EANListElement": "9784873114507"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4873114500",
-      "Label": "オライリージャパン",
-      "Languages": {
-        "Language": [
-          {
-            "Name": "日本語",
-            "Type": "Published"
-          },
-          {
-            "Name": "日本語",
-            "Type": "Unknown"
-          }
-        ]
-      },
-      "Manufacturer": "オライリージャパン",
-      "NumberOfPages": "552",
-      "PackageDimensions": {
-        "Height": "118",
-        "Length": "913",
-        "Weight": "207",
-        "Width": "724"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2010-04-15",
-      "Publisher": "オライリージャパン",
-      "Studio": "オライリージャパン",
-      "Title": "正規表現クックブック"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "18049",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 18,049"
-      },
-      "LowestUsedPrice": {
-        "Amount": "6246",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 6,246"
-      },
-      "TotalNew": "1",
-      "TotalUsed": "10",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
     }
-  },
-  "Lastmod": "2019-06-15 20:38:17 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/fd41c82cb9e7d89ba3ebe9c46c44a51b/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/fd41c82cb9e7d89ba3ebe9c46c44a51b/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784873114507"
-  }
 }

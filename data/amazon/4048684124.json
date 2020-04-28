@@ -1,136 +1,83 @@
 {
-  "Item": {
     "ASIN": "4048684124",
-    "DetailPageURL": "https://www.amazon.co.jp/%E7%8F%BE%E5%A0%B4%E3%81%A7%E3%83%97%E3%83%AD%E3%81%8C%E5%9F%B9%E3%81%A3%E3%81%9F-Google-Analytics%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9-WEB-PROFESSIONAL/dp/4048684124?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4048684124",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4048684124&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4048684124"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4048684124?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4048684124"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4048684124?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4048684124"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4048684124?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4048684124"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4048684124?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51gLaE5xkBL.jpg",
+                "Width": 352
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51gLaE5xkBL._SL160_.jpg",
+                "Width": 113
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51gLaE5xkBL._SL75_.jpg",
+                "Width": 53
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51gLaE5xkBL._SL75_.jpg",
-      "Height": "75",
-      "Width": "53"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51gLaE5xkBL._SL160_.jpg",
-      "Height": "160",
-      "Width": "113"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51gLaE5xkBL.jpg",
-      "Height": "500",
-      "Width": "352"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51gLaE5xkBL._SL30_.jpg",
-          "Height": "30",
-          "Width": "21"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "中野 克平",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "アスキー・メディアワークス",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51gLaE5xkBL._SL75_.jpg",
-          "Height": "75",
-          "Width": "53"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本（ソフトカバー）",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51gLaE5xkBL._SL75_.jpg",
-          "Height": "75",
-          "Width": "53"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    },
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "不明"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 256,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2010-02-12T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51gLaE5xkBL._SL110_.jpg",
-          "Height": "110",
-          "Width": "77"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51gLaE5xkBL._SL160_.jpg",
-          "Height": "160",
-          "Width": "113"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51gLaE5xkBL.jpg",
-          "Height": "500",
-          "Width": "352"
+        "Title": {
+            "DisplayValue": "現場でプロが培った Google Analyticsの使い方 (WEB PROFESSIONAL)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "中野 克平",
-      "Binding": "単行本（ソフトカバー）",
-      "EAN": "9784048684125",
-      "EANList": {
-        "EANListElement": "9784048684125"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4048684124",
-      "Label": "アスキー・メディアワークス",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Unknown"
-        }
-      },
-      "Manufacturer": "アスキー・メディアワークス",
-      "NumberOfPages": "256",
-      "PackageDimensions": {
-        "Height": "94",
-        "Length": "827",
-        "Weight": "75",
-        "Width": "591"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2010-02-12",
-      "Publisher": "アスキー・メディアワークス",
-      "Studio": "アスキー・メディアワークス",
-      "Title": "現場でプロが培った Google Analyticsの使い方 (WEB PROFESSIONAL)"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "11345",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 11,345"
-      },
-      "LowestUsedPrice": {
-        "Amount": "1",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1"
-      },
-      "TotalNew": "1",
-      "TotalUsed": "21",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
     }
-  },
-  "Lastmod": "2019-06-15 20:35:51 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/79ed2d7fb75af82782b37442b91c2d08/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/79ed2d7fb75af82782b37442b91c2d08/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784048684125"
-  }
 }

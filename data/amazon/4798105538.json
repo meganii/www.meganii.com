@@ -1,170 +1,91 @@
 {
-  "Item": {
     "ASIN": "4798105538",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%82%A8%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%97%E3%83%A9%E3%82%A4%E3%82%BA-%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3-Object-Oriented-SELECTION/dp/4798105538?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4798105538",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4798105538&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798105538"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4798105538?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798105538"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4798105538?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798105538"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4798105538?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798105538"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4798105538?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51TVM1CFHKL.jpg",
+                "Width": 395
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51TVM1CFHKL._SL160_.jpg",
+                "Width": 126
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51TVM1CFHKL._SL75_.jpg",
+                "Width": 59
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51TVM1CFHKL._SL75_.jpg",
-      "Height": "75",
-      "Width": "59"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51TVM1CFHKL._SL160_.jpg",
-      "Height": "160",
-      "Width": "126"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51TVM1CFHKL.jpg",
-      "Height": "500",
-      "Width": "395"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51TVM1CFHKL._SL30_.jpg",
-          "Height": "30",
-          "Width": "24"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "マーチン・ファウラー",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "長瀬 嘉秀",
+                    "Role": "監訳",
+                    "RoleType": "co_editor"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "株式会社 テクノロジックアート",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "翔泳社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51TVM1CFHKL._SL75_.jpg",
-          "Height": "75",
-          "Width": "59"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "大型本",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51TVM1CFHKL._SL75_.jpg",
-          "Height": "75",
-          "Width": "59"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 548,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2005-04-21T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51TVM1CFHKL._SL110_.jpg",
-          "Height": "110",
-          "Width": "87"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51TVM1CFHKL._SL160_.jpg",
-          "Height": "160",
-          "Width": "126"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51TVM1CFHKL.jpg",
-          "Height": "500",
-          "Width": "395"
+        "Title": {
+            "DisplayValue": "エンタープライズ アプリケーションアーキテクチャパターン (Object Oriented SELECTION)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "マーチン・ファウラー",
-      "Binding": "大型本",
-      "Creator": [
-        "長瀬 嘉秀",
-        "株式会社 テクノロジックアート"
-      ],
-      "EAN": "9784798105536",
-      "EANList": {
-        "EANListElement": "9784798105536"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "9784798105536",
-      "Label": "翔泳社",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "翔泳社",
-      "NumberOfPages": "548",
-      "PackageDimensions": {
-        "Height": "134",
-        "Length": "882",
-        "Weight": "247",
-        "Width": "732"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2005-04-21",
-      "Publisher": "翔泳社",
-      "Studio": "翔泳社",
-      "Title": "エンタープライズ アプリケーションアーキテクチャパターン (Object Oriented SELECTION)"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "6264",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 6,264"
-      },
-      "LowestUsedPrice": {
-        "Amount": "1888",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,888"
-      },
-      "TotalNew": "2",
-      "TotalUsed": "15",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4798105538?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798105538",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "NUO1ct9EyRtQ6sB0mTK5j81LN5zKMHCBydM%2Bu78kGU6D4pm9r3lPaxUutdOPnq%2BrzEnF%2FogzrgYVH5hnHyP8NLInZLqL6qX%2B",
-          "Price": {
-            "Amount": "6264",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 6,264"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "124",
-          "TypicalRedemptionValue": {
-            "Amount": "124",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 124"
-          }
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:44:21 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/a73ce8238ddcd6f26eb676c11a06fb77/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/a73ce8238ddcd6f26eb676c11a06fb77/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784798105536"
-  }
 }

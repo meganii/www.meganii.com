@@ -1,132 +1,69 @@
 {
-  "Item": {
     "ASIN": "477413452X",
-    "DetailPageURL": "https://www.amazon.co.jp/%E5%B0%8F%E9%A3%BC%E5%BC%BE%E3%81%AE%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A1%E3%82%AE%E3%83%BC%E3%82%AF%E3%81%AB%E9%80%A2%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F-WEB-DB-PRESS-plus%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/dp/477413452X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=477413452X",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=477413452X&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=477413452X"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/477413452X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=477413452X"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/477413452X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=477413452X"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/477413452X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=477413452X"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/477413452X?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51utUwM+N+L.jpg",
+                "Width": 341
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51utUwM+N+L._SL160_.jpg",
+                "Width": 109
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51utUwM+N+L._SL75_.jpg",
+                "Width": 51
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51utUwM%2BN%2BL._SL75_.jpg",
-      "Height": "75",
-      "Width": "51"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51utUwM%2BN%2BL._SL160_.jpg",
-      "Height": "160",
-      "Width": "109"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51utUwM%2BN%2BL.jpg",
-      "Height": "500",
-      "Width": "341"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51utUwM%2BN%2BL._SL30_.jpg",
-          "Height": "30",
-          "Width": "20"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "小飼 弾",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "技術評論社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51utUwM%2BN%2BL._SL75_.jpg",
-          "Height": "75",
-          "Width": "51"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本（ソフトカバー）",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51utUwM%2BN%2BL._SL75_.jpg",
-          "Height": "75",
-          "Width": "51"
+        "ContentInfo": {
+            "PagesCount": {
+                "DisplayValue": 240,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2008-04-14T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51utUwM%2BN%2BL._SL110_.jpg",
-          "Height": "110",
-          "Width": "75"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51utUwM%2BN%2BL._SL160_.jpg",
-          "Height": "160",
-          "Width": "109"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51utUwM%2BN%2BL.jpg",
-          "Height": "500",
-          "Width": "341"
+        "Title": {
+            "DisplayValue": "小飼弾のアルファギークに逢ってきた (WEB+DB PRESS plusシリーズ)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "小飼 弾",
-      "Binding": "単行本（ソフトカバー）",
-      "EAN": "9784774134529",
-      "EANList": {
-        "EANListElement": "9784774134529"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "477413452X",
-      "Label": "技術評論社",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "技術評論社",
-      "NumberOfPages": "240",
-      "PackageDimensions": {
-        "Height": "79",
-        "Length": "732",
-        "Weight": "75",
-        "Width": "512"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2008-04-14",
-      "Publisher": "技術評論社",
-      "SKU": "001-95638",
-      "Studio": "技術評論社",
-      "Title": "小飼弾のアルファギークに逢ってきた (WEB+DB PRESS plusシリーズ)"
-    },
-    "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "2",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2"
-      },
-      "TotalNew": "0",
-      "TotalUsed": "26",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
     }
-  },
-  "Lastmod": "2019-06-15 21:14:43 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/5fbb31d1ab28c6ce87597d014b587332/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/5fbb31d1ab28c6ce87597d014b587332/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784774134529"
-  }
 }

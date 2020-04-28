@@ -1,141 +1,90 @@
 {
-  "Item": {
     "ASIN": "489471499X",
-    "DetailPageURL": "https://www.amazon.co.jp/Effective-Java-%E7%AC%AC2%E7%89%88-Joshua-Bloch/dp/489471499X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=489471499X",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=489471499X&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=489471499X"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/489471499X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=489471499X"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/489471499X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=489471499X"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/489471499X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=489471499X"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/489471499X?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51E1m-weAXL.jpg",
+                "Width": 396
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51E1m-weAXL._SL160_.jpg",
+                "Width": 127
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51E1m-weAXL._SL75_.jpg",
+                "Width": 59
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51E1m-weAXL._SL75_.jpg",
-      "Height": "75",
-      "Width": "59"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51E1m-weAXL._SL160_.jpg",
-      "Height": "160",
-      "Width": "127"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51E1m-weAXL.jpg",
-      "Height": "500",
-      "Width": "396"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51E1m-weAXL._SL30_.jpg",
-          "Height": "30",
-          "Width": "24"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "Joshua Bloch",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "柴田芳樹",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "ピアソンエデュケーション",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51E1m-weAXL._SL75_.jpg",
-          "Height": "75",
-          "Width": "59"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本（ソフトカバー）",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51E1m-weAXL._SL75_.jpg",
-          "Height": "75",
-          "Width": "59"
+        "ContentInfo": {
+            "Edition": {
+                "DisplayValue": "第2",
+                "Label": "Edition",
+                "Locale": "ja_JP"
+            },
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "不明"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 327,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2008-11-27T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51E1m-weAXL._SL110_.jpg",
-          "Height": "110",
-          "Width": "87"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51E1m-weAXL._SL160_.jpg",
-          "Height": "160",
-          "Width": "127"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51E1m-weAXL.jpg",
-          "Height": "500",
-          "Width": "396"
+        "Title": {
+            "DisplayValue": "Effective Java 第2版 (The Java Series)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "Joshua Bloch",
-      "Binding": "単行本（ソフトカバー）",
-      "Creator": "柴田芳樹",
-      "EAN": "9784894714991",
-      "EANList": {
-        "EANListElement": "9784894714991"
-      },
-      "Edition": "第2",
-      "IsAdultProduct": "0",
-      "ISBN": "489471499X",
-      "Label": "ピアソンエデュケーション",
-      "Languages": {
-        "Language": [
-          {
-            "Name": "日本語",
-            "Type": "Published"
-          },
-          {
-            "Name": "日本語",
-            "Type": "Unknown"
-          }
-        ]
-      },
-      "Manufacturer": "ピアソンエデュケーション",
-      "NumberOfPages": "327",
-      "PackageDimensions": {
-        "Height": "87",
-        "Length": "906",
-        "Weight": "146",
-        "Width": "717"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2008-11-27",
-      "Publisher": "ピアソンエデュケーション",
-      "SKU": "111011-1156",
-      "Studio": "ピアソンエデュケーション",
-      "Title": "Effective Java 第2版 (The Java Series)"
-    },
-    "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "1",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1"
-      },
-      "TotalNew": "0",
-      "TotalUsed": "31",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
     }
-  },
-  "Lastmod": "2019-06-15 20:31:13 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/4e466fdc3f9b1e0aedf81510aa3f9404/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/4e466fdc3f9b1e0aedf81510aa3f9404/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784894714991"
-  }
 }

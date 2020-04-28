@@ -1,133 +1,79 @@
 {
-  "Item": {
     "ASIN": "4334035159",
-    "DetailPageURL": "https://www.amazon.co.jp/%E4%BB%95%E4%BA%8B%E3%81%99%E3%82%8B%E3%81%AE%E3%81%AB%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B9%E3%81%AF%E3%81%84%E3%82%89%E3%81%AA%E3%81%84-%E5%85%89%E6%96%87%E7%A4%BE%E6%96%B0%E6%9B%B8-%E4%BD%90%E3%80%85%E6%9C%A8-%E4%BF%8A%E5%B0%9A/dp/4334035159?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4334035159",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4334035159&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4334035159"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4334035159?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4334035159"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4334035159?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4334035159"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4334035159?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4334035159"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4334035159?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41YuNKqo1XL._SL500_.jpg",
+                "Width": 311
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41YuNKqo1XL._SL160_.jpg",
+                "Width": 100
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41YuNKqo1XL._SL75_.jpg",
+                "Width": 47
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YuNKqo1XL._SL75_.jpg",
-      "Height": "75",
-      "Width": "47"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YuNKqo1XL._SL160_.jpg",
-      "Height": "160",
-      "Width": "100"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YuNKqo1XL.jpg",
-      "Height": "482",
-      "Width": "300"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YuNKqo1XL._SL30_.jpg",
-          "Height": "30",
-          "Width": "19"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "佐々木 俊尚",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "光文社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YuNKqo1XL._SL75_.jpg",
-          "Height": "75",
-          "Width": "47"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "新書",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YuNKqo1XL._SL75_.jpg",
-          "Height": "75",
-          "Width": "47"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 248,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2009-07-16T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YuNKqo1XL._SL110_.jpg",
-          "Height": "110",
-          "Width": "68"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YuNKqo1XL._SL160_.jpg",
-          "Height": "160",
-          "Width": "100"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YuNKqo1XL.jpg",
-          "Height": "482",
-          "Width": "300"
+        "Title": {
+            "DisplayValue": "仕事するのにオフィスはいらない (光文社新書)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "佐々木 俊尚",
-      "Binding": "新書",
-      "EAN": "9784334035150",
-      "EANList": {
-        "EANListElement": "9784334035150"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4334035159",
-      "Label": "光文社",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "光文社",
-      "NumberOfPages": "248",
-      "PackageDimensions": {
-        "Height": "71",
-        "Length": "677",
-        "Weight": "31",
-        "Width": "425"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2009-07-16",
-      "Publisher": "光文社",
-      "SKU": "20120512-217",
-      "Studio": "光文社",
-      "Title": "仕事するのにオフィスはいらない (光文社新書)"
-    },
-    "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "1",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1"
-      },
-      "TotalNew": "0",
-      "TotalUsed": "67",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
     }
-  },
-  "Lastmod": "2019-06-15 20:41:20 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/9588e0370be3351ed5fae9ae3f278f5c/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/9588e0370be3351ed5fae9ae3f278f5c/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784334035150"
-  }
 }

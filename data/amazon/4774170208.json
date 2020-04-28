@@ -1,213 +1,85 @@
 {
-  "Item": {
     "ASIN": "4774170208",
-    "DetailPageURL": "https://www.amazon.co.jp/MariaDB-MySQL%E5%85%A8%E6%A9%9F%E8%83%BD%E3%83%90%E3%82%A4%E3%83%96%E3%83%AB-%E9%88%B4%E6%9C%A8-%E5%95%93%E4%BF%AE/dp/4774170208?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4774170208",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4774170208&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774170208"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4774170208?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774170208"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4774170208?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774170208"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4774170208?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774170208"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4774170208?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/518F33lmwPL.jpg",
+                "Width": 355
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/518F33lmwPL._SL160_.jpg",
+                "Width": 114
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/518F33lmwPL._SL75_.jpg",
+                "Width": 53
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/518F33lmwPL._SL75_.jpg",
-      "Height": "75",
-      "Width": "53"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/518F33lmwPL._SL160_.jpg",
-      "Height": "160",
-      "Width": "114"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/518F33lmwPL.jpg",
-      "Height": "500",
-      "Width": "355"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41IseUAoxVL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41IseUAoxVL._SL75_.jpg",
-            "Height": "75",
-            "Width": "52"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41IseUAoxVL._SL75_.jpg",
-            "Height": "75",
-            "Width": "52"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41IseUAoxVL._SL110_.jpg",
-            "Height": "110",
-            "Width": "77"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41IseUAoxVL._SL160_.jpg",
-            "Height": "160",
-            "Width": "111"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41IseUAoxVL.jpg",
-            "Height": "500",
-            "Width": "348"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61EfYOvrHPL.jpg",
-            "Height": "1803",
-            "Width": "1255"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "鈴木 啓修",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "山田 奈緒子",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "技術評論社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/518F33lmwPL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/518F33lmwPL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/518F33lmwPL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/518F33lmwPL._SL110_.jpg",
-            "Height": "110",
-            "Width": "78"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/518F33lmwPL._SL160_.jpg",
-            "Height": "160",
-            "Width": "114"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/518F33lmwPL.jpg",
-            "Height": "500",
-            "Width": "355"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71h7GRDwqfL.jpg",
-            "Height": "1814",
-            "Width": "1288"
-          }
-        }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": [
-        "鈴木 啓修",
-        "山田 奈緒子"
-      ],
-      "Binding": "単行本（ソフトカバー）",
-      "EAN": "9784774170206",
-      "EANList": {
-        "EANListElement": "9784774170206"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4774170208",
-      "Label": "技術評論社",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "技術評論社",
-      "NumberOfPages": "576",
-      "PackageDimensions": {
-        "Height": "118",
-        "Length": "827",
-        "Weight": "168",
-        "Width": "591"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2014-12-18",
-      "Publisher": "技術評論社",
-      "Studio": "技術評論社",
-      "Title": "MariaDB&MySQL全機能バイブル"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "3780",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,780"
-      },
-      "LowestUsedPrice": {
-        "Amount": "2640",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,640"
-      },
-      "TotalNew": "2",
-      "TotalUsed": "6",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4774170208?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774170208",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本（ソフトカバー）",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "OfferListing": {
-          "OfferListingId": "dIRSeVCqEox0zpFq6%2BjEzIsqhWBErd5lrXmG%2F7rdGvZ5abFIRnws1jJLmpD7jSzsaNqxupOeoyIqU1DSENlPsM13%2FvnLKa%2BGzfjPwkmLbNg%3D",
-          "Price": {
-            "Amount": "3780",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 3,780"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 576,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2014-12-18T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "LoyaltyPoints": {
-          "Points": "37",
-          "TypicalRedemptionValue": {
-            "Amount": "37",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 37"
-          }
+        "Title": {
+            "DisplayValue": "MariaDB&MySQL全機能バイブル",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:32:04 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/3216984f66a639c0d1c14f6ee13d1d3e/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/3216984f66a639c0d1c14f6ee13d1d3e/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784774170206"
-  }
 }

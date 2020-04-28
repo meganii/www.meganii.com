@@ -1,224 +1,102 @@
 {
-  "Item": {
     "ASIN": "4274068765",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%AA%E3%83%B3%E3%82%B0TCP-IP-%E5%85%A5%E9%96%80%E7%B7%A8-%E7%AC%AC5%E7%89%88-%E7%AB%B9%E4%B8%8B/dp/4274068765?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4274068765",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4274068765&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4274068765"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4274068765?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4274068765"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4274068765?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4274068765"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4274068765?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4274068765"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4274068765?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41ITFptUSgL.jpg",
+                "Width": 360
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41ITFptUSgL._SL160_.jpg",
+                "Width": 115
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41ITFptUSgL._SL75_.jpg",
+                "Width": 54
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41ITFptUSgL._SL75_.jpg",
-      "Height": "75",
-      "Width": "54"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41ITFptUSgL._SL160_.jpg",
-      "Height": "160",
-      "Width": "115"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41ITFptUSgL.jpg",
-      "Height": "500",
-      "Width": "360"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31Xo1cEurwL._SL30_.jpg",
-            "Height": "30",
-            "Width": "22"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31Xo1cEurwL._SL75_.jpg",
-            "Height": "75",
-            "Width": "54"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31Xo1cEurwL._SL75_.jpg",
-            "Height": "75",
-            "Width": "54"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31Xo1cEurwL._SL110_.jpg",
-            "Height": "110",
-            "Width": "79"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31Xo1cEurwL._SL160_.jpg",
-            "Height": "160",
-            "Width": "115"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31Xo1cEurwL.jpg",
-            "Height": "500",
-            "Width": "360"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71qKn8P9-1L.jpg",
-            "Height": "2183",
-            "Width": "1571"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "竹下 隆史",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "村山 公保",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "荒井 透",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "苅田 幸雄",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "オーム社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41ITFptUSgL._SL30_.jpg",
-            "Height": "30",
-            "Width": "22"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41ITFptUSgL._SL75_.jpg",
-            "Height": "75",
-            "Width": "54"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41ITFptUSgL._SL75_.jpg",
-            "Height": "75",
-            "Width": "54"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41ITFptUSgL._SL110_.jpg",
-            "Height": "110",
-            "Width": "79"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41ITFptUSgL._SL160_.jpg",
-            "Height": "160",
-            "Width": "115"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41ITFptUSgL.jpg",
-            "Height": "500",
-            "Width": "360"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71Pfb7yVF9L.jpg",
-            "Height": "2190",
-            "Width": "1575"
-          }
-        }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": [
-        "竹下 隆史",
-        "村山 公保",
-        "荒井 透",
-        "苅田 幸雄"
-      ],
-      "Binding": "単行本（ソフトカバー）",
-      "EAN": "9784274068768",
-      "EANList": {
-        "EANListElement": "9784274068768"
-      },
-      "Edition": "第5",
-      "IsAdultProduct": "0",
-      "ISBN": "4274068765",
-      "ItemDimensions": {
-        "Weight": "132"
-      },
-      "Label": "オーム社",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "オーム社",
-      "NumberOfPages": "376",
-      "PackageDimensions": {
-        "Height": "106",
-        "Length": "1039",
-        "Weight": "181",
-        "Width": "728"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2012-02-25",
-      "Publisher": "オーム社",
-      "Studio": "オーム社",
-      "Title": "マスタリングTCP/IP 入門編 第5版"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "2376",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,376"
-      },
-      "LowestUsedPrice": {
-        "Amount": "1536",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,536"
-      },
-      "LowestCollectiblePrice": {
-        "Amount": "4999",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 4,999"
-      },
-      "TotalNew": "8",
-      "TotalUsed": "25",
-      "TotalCollectible": "1",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4274068765?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4274068765",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本（ソフトカバー）",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "OfferListing": {
-          "OfferListingId": "1%2FEqd2EcBoZDgQLMkoiBM0DOmTQA2CqsrTTLsYHm8EOtSLVvoHi2MUj9pXmqrdxXsApSAvHz58MKfR8iLznWSxaHIrVY0Va7AIAoEUzjpMM%3D",
-          "Price": {
-            "Amount": "2376",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,376"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
+        "ContentInfo": {
+            "Edition": {
+                "DisplayValue": "第5",
+                "Label": "Edition",
+                "Locale": "ja_JP"
+            },
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 376,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2012-02-25T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "LoyaltyPoints": {
-          "Points": "23",
-          "TypicalRedemptionValue": {
-            "Amount": "23",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 23"
-          }
+        "Title": {
+            "DisplayValue": "マスタリングTCP/IP 入門編 第5版",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:31:26 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/a58377e1146261865748335b478e6c9a/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/a58377e1146261865748335b478e6c9a/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784274068768"
-  }
 }

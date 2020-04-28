@@ -1,105 +1,85 @@
 {
-  "Item": {
     "ASIN": "B00O1VJZLO",
-    "DetailPageURL": "https://www.amazon.co.jp/%E7%81%AB%E6%98%9F%E3%81%AE%E4%BA%BA-%E3%82%A2%E3%83%B3%E3%83%87%E3%82%A3-%E3%82%A6%E3%82%A3%E3%82%A2%E3%83%BC-ebook/dp/B00O1VJZLO?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00O1VJZLO",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=B00O1VJZLO&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00O1VJZLO"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/B00O1VJZLO?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00O1VJZLO"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/B00O1VJZLO?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00O1VJZLO"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/B00O1VJZLO?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00O1VJZLO"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B00O1VJZLO?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51DLzSbrC9L.jpg",
+                "Width": 335
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51DLzSbrC9L._SL160_.jpg",
+                "Width": 107
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51DLzSbrC9L._SL75_.jpg",
+                "Width": 50
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51DLzSbrC9L._SL75_.jpg",
-      "Height": "75",
-      "Width": "50"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51DLzSbrC9L._SL160_.jpg",
-      "Height": "160",
-      "Width": "107"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51DLzSbrC9L.jpg",
-      "Height": "500",
-      "Width": "335"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51DLzSbrC9L._SL30_.jpg",
-          "Height": "30",
-          "Width": "20"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "アンディ ウィアー",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "小野田和子",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "早川書房",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51DLzSbrC9L._SL75_.jpg",
-          "Height": "75",
-          "Width": "50"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "Kindle版",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Digital Ebook Purchas",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51DLzSbrC9L._SL75_.jpg",
-          "Height": "75",
-          "Width": "50"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 497,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2014-08-25T00:00:00.000Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51DLzSbrC9L._SL110_.jpg",
-          "Height": "110",
-          "Width": "74"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51DLzSbrC9L._SL160_.jpg",
-          "Height": "160",
-          "Width": "107"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51DLzSbrC9L.jpg",
-          "Height": "500",
-          "Width": "335"
-        },
-        "HiResImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/8159Xw9lNmL.jpg",
-          "Height": "1920",
-          "Width": "1287"
+        "Title": {
+            "DisplayValue": "火星の人",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "アンディ ウィアー",
-      "Binding": "Kindle版",
-      "Creator": "小野田和子",
-      "Format": "Kindle本",
-      "IsAdultProduct": "0",
-      "Label": "早川書房",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "早川書房",
-      "NumberOfPages": "592",
-      "ProductGroup": "eBooks",
-      "ProductTypeName": "ABIS_EBOOKS",
-      "PublicationDate": "2014-08-25",
-      "Publisher": "早川書房",
-      "ReleaseDate": "2014-09-30",
-      "Studio": "早川書房",
-      "Title": "火星の人"
     }
-  },
-  "Lastmod": "2019-06-15 20:45:52 +0900"
 }

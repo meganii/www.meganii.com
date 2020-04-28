@@ -1,366 +1,62 @@
 {
-  "Item": {
     "ASIN": "B000AQRPAM",
-    "DetailPageURL": "https://www.amazon.co.jp/Platypus-%E3%83%97%E3%83%A9%E3%83%86%E3%82%A3%E3%83%91%E3%82%B9-%E3%82%A2%E3%82%A6%E3%83%88%E3%83%89%E3%82%A2-25601-%E3%80%90%E6%97%A5%E6%9C%AC%E6%AD%A3%E8%A6%8F%E5%93%81%E3%80%91/dp/B000AQRPAM?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B000AQRPAM",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=B000AQRPAM&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B000AQRPAM"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/B000AQRPAM?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B000AQRPAM"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/B000AQRPAM?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B000AQRPAM"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/B000AQRPAM?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B000AQRPAM"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B000AQRPAM?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/318GZXmzxYL.jpg",
+                "Width": 267
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/318GZXmzxYL._SL160_.jpg",
+                "Width": 85
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/318GZXmzxYL._SL75_.jpg",
+                "Width": 40
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/318GZXmzxYL._SL75_.jpg",
-      "Height": "75",
-      "Width": "40"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/318GZXmzxYL._SL160_.jpg",
-      "Height": "160",
-      "Width": "85"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/318GZXmzxYL.jpg",
-      "Height": "500",
-      "Width": "267"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "swatch",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31GD0JPFZ6L._SL30_.jpg",
-            "Height": "30",
-            "Width": "15"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31GD0JPFZ6L._SL75_.jpg",
-            "Height": "75",
-            "Width": "39"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31GD0JPFZ6L._SL75_.jpg",
-            "Height": "75",
-            "Width": "39"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31GD0JPFZ6L._SL110_.jpg",
-            "Height": "110",
-            "Width": "57"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31GD0JPFZ6L._SL160_.jpg",
-            "Height": "160",
-            "Width": "83"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/31GD0JPFZ6L.jpg",
-            "Height": "310",
-            "Width": "160"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "プラティパス(Platypus)",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "0",
+                    "Role": "デザイン",
+                    "RoleType": "designer"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "Platypus(プラティパス)",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51HFqmmwUoL._SL30_.jpg",
-            "Height": "20",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51HFqmmwUoL._SL75_.jpg",
-            "Height": "50",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51HFqmmwUoL._SL75_.jpg",
-            "Height": "50",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51HFqmmwUoL._SL110_.jpg",
-            "Height": "73",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51HFqmmwUoL._SL160_.jpg",
-            "Height": "107",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51HFqmmwUoL.jpg",
-            "Height": "333",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71Jz6o9NgfL.jpg",
-            "Height": "1000",
-            "Width": "1501"
-          }
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "スポーツ用品",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Sports",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/4194senI%2BDL._SL30_.jpg",
-            "Height": "18",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/4194senI%2BDL._SL75_.jpg",
-            "Height": "46",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/4194senI%2BDL._SL75_.jpg",
-            "Height": "46",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/4194senI%2BDL._SL110_.jpg",
-            "Height": "68",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/4194senI%2BDL._SL160_.jpg",
-            "Height": "98",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/4194senI%2BDL.jpg",
-            "Height": "307",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71Icf-M4ZFL.jpg",
-            "Height": "1227",
-            "Width": "2000"
-          }
-        },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41juxUYnjuL._SL30_.jpg",
-            "Height": "30",
-            "Width": "13"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41juxUYnjuL._SL75_.jpg",
-            "Height": "75",
-            "Width": "32"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41juxUYnjuL._SL75_.jpg",
-            "Height": "75",
-            "Width": "32"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41juxUYnjuL._SL110_.jpg",
-            "Height": "110",
-            "Width": "47"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41juxUYnjuL._SL160_.jpg",
-            "Height": "160",
-            "Width": "68"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41juxUYnjuL.jpg",
-            "Height": "500",
-            "Width": "214"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71GeyY876KL.jpg",
-            "Height": "2445",
-            "Width": "1046"
-          }
-        },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51IRJkIk9FL._SL30_.jpg",
-            "Height": "30",
-            "Width": "23"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51IRJkIk9FL._SL75_.jpg",
-            "Height": "75",
-            "Width": "59"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51IRJkIk9FL._SL75_.jpg",
-            "Height": "75",
-            "Width": "59"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51IRJkIk9FL._SL110_.jpg",
-            "Height": "110",
-            "Width": "86"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51IRJkIk9FL._SL160_.jpg",
-            "Height": "160",
-            "Width": "125"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51IRJkIk9FL.jpg",
-            "Height": "500",
-            "Width": "391"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71IW4Rvb1JL.jpg",
-            "Height": "1500",
-            "Width": "1173"
-          }
-        },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/318GZXmzxYL._SL30_.jpg",
-            "Height": "30",
-            "Width": "16"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/318GZXmzxYL._SL75_.jpg",
-            "Height": "75",
-            "Width": "40"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/318GZXmzxYL._SL75_.jpg",
-            "Height": "75",
-            "Width": "40"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/318GZXmzxYL._SL110_.jpg",
-            "Height": "110",
-            "Width": "59"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/318GZXmzxYL._SL160_.jpg",
-            "Height": "160",
-            "Width": "85"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/318GZXmzxYL.jpg",
-            "Height": "500",
-            "Width": "267"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61fZ6ci3XaL.jpg",
-            "Height": "2001",
-            "Width": "1067"
-          }
+        "Title": {
+            "DisplayValue": "Platypus(プラティパス) アウトドア 給水用 ボトル プラティ 容量2L 25601 【日本正規品】",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      ]
-    },
-    "ItemAttributes": {
-      "Binding": "スポーツ用品",
-      "Brand": "プラティパス(Platypus)",
-      "CatalogNumberList": {
-        "CatalogNumberListElement": "4515785256017"
-      },
-      "ClothingSize": "(2.5L)",
-      "Color": "2L",
-      "Department": "ユニセックス",
-      "EAN": "4515785256017",
-      "EANList": {
-        "EANListElement": "4515785256017"
-      },
-      "Feature": [
-        "容量:2510ml",
-        "サイズ:19×36cm",
-        "重量:36g"
-      ],
-      "IsAutographed": "0",
-      "IsMemorabilia": "0",
-      "ItemDimensions": {
-        "Weight": "2"
-      },
-      "Label": "Platypus(プラティパス)",
-      "ListPrice": {
-        "Amount": "1512",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,512"
-      },
-      "Manufacturer": "Platypus(プラティパス)",
-      "Model": "25601",
-      "MPN": "25601",
-      "PackageDimensions": {
-        "Height": "98",
-        "Length": "1465",
-        "Weight": "2",
-        "Width": "780"
-      },
-      "PartNumber": "25601",
-      "ProductGroup": "Sports",
-      "ProductTypeName": "SPORTING_GOODS",
-      "Publisher": "Platypus(プラティパス)",
-      "ReleaseDate": "2011-03-08",
-      "Size": "(2.5L)",
-      "Studio": "Platypus(プラティパス)",
-      "Title": "Platypus(プラティパス) アウトドア 給水用 ボトル プラティ 容量2L 25601 【日本正規品】"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "1474",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,474"
-      },
-      "TotalNew": "32",
-      "TotalUsed": "0",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/B000AQRPAM?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B000AQRPAM",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "mDpszGQdGiNT%2BlyN85uu0KySMd4zyNsAl1xpCopKIcBNANoA5FdbwTpxb1176XA1581tARlurcb8PHOIDQLPVX1ZujGqPM%2Fx",
-          "Price": {
-            "Amount": "1474",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,474"
-          },
-          "AmountSaved": {
-            "Amount": "38",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 38"
-          },
-          "PercentageSaved": "3",
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:37:04 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/4aedd79fea64aad53456f05e184ce5fb/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/4aedd79fea64aad53456f05e184ce5fb/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=4515785256017"
-  }
 }

@@ -1,169 +1,83 @@
 {
-  "Item": {
     "ASIN": "4887597304",
-    "DetailPageURL": "https://www.amazon.co.jp/%E6%B8%9B%E3%82%89%E3%81%99%E6%8A%80%E8%A1%93-Power-LESS-%E3%83%AC%E3%82%AA%E3%83%BB%E3%83%90%E3%83%9C%E3%83%BC%E3%82%BF/dp/4887597304?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4887597304",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4887597304&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4887597304"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4887597304?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4887597304"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4887597304?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4887597304"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4887597304?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4887597304"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4887597304?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51+1TmW69IL._SL500_.jpg",
+                "Width": 345
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51+1TmW69IL._SL160_.jpg",
+                "Width": 110
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51+1TmW69IL._SL75_.jpg",
+                "Width": 52
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51%2B1TmW69IL._SL75_.jpg",
-      "Height": "75",
-      "Width": "52"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51%2B1TmW69IL._SL160_.jpg",
-      "Height": "160",
-      "Width": "110"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51%2B1TmW69IL.jpg",
-      "Height": "435",
-      "Width": "300"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51%2B1TmW69IL._SL30_.jpg",
-          "Height": "30",
-          "Width": "21"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "レオ・バボータ",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "ディスカヴァー・トゥエンティワン",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51%2B1TmW69IL._SL75_.jpg",
-          "Height": "75",
-          "Width": "52"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本（ソフトカバー）",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51%2B1TmW69IL._SL75_.jpg",
-          "Height": "75",
-          "Width": "52"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    },
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "不明"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 232,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2009-08-05T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51%2B1TmW69IL._SL110_.jpg",
-          "Height": "110",
-          "Width": "76"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51%2B1TmW69IL._SL160_.jpg",
-          "Height": "160",
-          "Width": "110"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51%2B1TmW69IL.jpg",
-          "Height": "435",
-          "Width": "300"
+        "Title": {
+            "DisplayValue": "減らす技術 The Power of LESS",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "レオ・バボータ",
-      "Binding": "単行本（ソフトカバー）",
-      "EAN": "9784887597303",
-      "EANList": {
-        "EANListElement": "9784887597303"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4887597304",
-      "Label": "ディスカヴァー・トゥエンティワン",
-      "Languages": {
-        "Language": [
-          {
-            "Name": "日本語",
-            "Type": "Published"
-          },
-          {
-            "Name": "日本語",
-            "Type": "Unknown"
-          }
-        ]
-      },
-      "Manufacturer": "ディスカヴァー・トゥエンティワン",
-      "NumberOfPages": "232",
-      "PackageDimensions": {
-        "Height": "79",
-        "Length": "740",
-        "Weight": "57",
-        "Width": "512"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2009-08-05",
-      "Publisher": "ディスカヴァー・トゥエンティワン",
-      "Studio": "ディスカヴァー・トゥエンティワン",
-      "Title": "減らす技術 The Power of LESS"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "827",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 827"
-      },
-      "LowestUsedPrice": {
-        "Amount": "1",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1"
-      },
-      "LowestCollectiblePrice": {
-        "Amount": "698",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 698"
-      },
-      "TotalNew": "6",
-      "TotalUsed": "52",
-      "TotalCollectible": "2",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4887597304?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4887597304",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "3PKuGTeKy4fACpXGveGzCZ%2Fg46NA8I33TtmGvFf3tt17AuHfyc3eIZBqpjyplqNhhlmAWyvi4p%2FzfrQsu2GxuLtzDilVP%2B1SITpYN8KTU4%2Fm6l3O0uYvLkX%2FsQOfh0Vide%2Bxs%2FTtmoLq9YRn1Bb10w%3D%3D",
-          "Price": {
-            "Amount": "827",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 827"
-          },
-          "Availability": "通常1～2営業日以内に発送",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "24",
-            "MaximumHours": "48"
-          },
-          "IsEligibleForSuperSaverShipping": "0",
-          "IsEligibleForPrime": "0"
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 21:15:09 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/2aea4168cbb9b5813227df096de8b215/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/2aea4168cbb9b5813227df096de8b215/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784887597303"
-  }
 }

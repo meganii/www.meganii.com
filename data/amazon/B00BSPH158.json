@@ -1,105 +1,84 @@
 {
-  "Item": {
     "ASIN": "B00BSPH158",
-    "DetailPageURL": "https://www.amazon.co.jp/%E5%85%A5%E9%96%80Chef-Solo-Infrastructure-as-Code-ebook/dp/B00BSPH158?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00BSPH158",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=B00BSPH158&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00BSPH158"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/B00BSPH158?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00BSPH158"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/B00BSPH158?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00BSPH158"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/B00BSPH158?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00BSPH158"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B00BSPH158?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/31u6VLGX2kL.jpg",
+                "Width": 313
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/31u6VLGX2kL._SL160_.jpg",
+                "Width": 100
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/31u6VLGX2kL._SL75_.jpg",
+                "Width": 47
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/31u6VLGX2kL._SL75_.jpg",
-      "Height": "75",
-      "Width": "47"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/31u6VLGX2kL._SL160_.jpg",
-      "Height": "160",
-      "Width": "100"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/31u6VLGX2kL.jpg",
-      "Height": "500",
-      "Width": "313"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/31u6VLGX2kL._SL30_.jpg",
-          "Height": "30",
-          "Width": "19"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "伊藤直也",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "伊藤直也",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/31u6VLGX2kL._SL75_.jpg",
-          "Height": "75",
-          "Width": "47"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "Kindle版",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Digital Ebook Purchas",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/31u6VLGX2kL._SL75_.jpg",
-          "Height": "75",
-          "Width": "47"
+        "ContentInfo": {
+            "Edition": {
+                "DisplayValue": "1",
+                "Label": "Edition",
+                "Locale": "ja_JP"
+            },
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 170,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2013-03-11T00:00:00.000Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/31u6VLGX2kL._SL110_.jpg",
-          "Height": "110",
-          "Width": "69"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/31u6VLGX2kL._SL160_.jpg",
-          "Height": "160",
-          "Width": "100"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/31u6VLGX2kL.jpg",
-          "Height": "500",
-          "Width": "313"
-        },
-        "HiResImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/61kDOROXwbL.jpg",
-          "Height": "2500",
-          "Width": "1563"
+        "Title": {
+            "DisplayValue": "入門Chef Solo - Infrastructure as Code",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "伊藤直也",
-      "Binding": "Kindle版",
-      "Edition": "1",
-      "Format": "Kindle本",
-      "IsAdultProduct": "0",
-      "Label": "伊藤直也",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "伊藤直也",
-      "NumberOfPages": "170",
-      "ProductGroup": "eBooks",
-      "ProductTypeName": "ABIS_EBOOKS",
-      "PublicationDate": "2013-03-11",
-      "Publisher": "伊藤直也",
-      "ReleaseDate": "2013-03-11",
-      "Studio": "伊藤直也",
-      "Title": "入門Chef Solo - Infrastructure as Code"
     }
-  },
-  "Lastmod": "2019-06-15 20:36:04 +0900"
 }

@@ -1,150 +1,87 @@
 {
-  "Item": {
     "ASIN": "4480863877",
-    "DetailPageURL": "https://www.amazon.co.jp/%E9%87%91%E6%8C%81%E3%81%A1%E7%88%B6%E3%81%95%E3%82%93%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%8A%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%ABIQ-%E3%83%AD%E3%83%90%E3%83%BC%E3%83%88%E3%83%BB%E3%82%AD%E3%83%A8%E3%82%B5%E3%82%AD/dp/4480863877?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4480863877",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4480863877&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4480863877"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4480863877?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4480863877"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4480863877?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4480863877"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4480863877?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4480863877"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4480863877?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/5100bbQn1TL._SL500_.jpg",
+                "Width": 351
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/5100bbQn1TL._SL160_.jpg",
+                "Width": 112
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/5100bbQn1TL._SL75_.jpg",
+                "Width": 53
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/5100bbQn1TL._SL75_.jpg",
-      "Height": "75",
-      "Width": "53"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/5100bbQn1TL._SL160_.jpg",
-      "Height": "160",
-      "Width": "112"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/5100bbQn1TL.jpg",
-      "Height": "427",
-      "Width": "300"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/5100bbQn1TL._SL30_.jpg",
-          "Height": "30",
-          "Width": "21"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "ロバート・キヨサキ",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "筑摩書房",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/5100bbQn1TL._SL75_.jpg",
-          "Height": "75",
-          "Width": "53"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "ペーパーバック",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/5100bbQn1TL._SL75_.jpg",
-          "Height": "75",
-          "Width": "53"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    },
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "原語"
+                    },
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "不明"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 276,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2008-11-05T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/5100bbQn1TL._SL110_.jpg",
-          "Height": "110",
-          "Width": "77"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/5100bbQn1TL._SL160_.jpg",
-          "Height": "160",
-          "Width": "112"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/5100bbQn1TL.jpg",
-          "Height": "427",
-          "Width": "300"
+        "Title": {
+            "DisplayValue": "金持ち父さんのファイナンシャルIQ",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "ロバート・キヨサキ",
-      "Binding": "ペーパーバック",
-      "EAN": "9784480863874",
-      "EANList": {
-        "EANListElement": "9784480863874"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4480863877",
-      "ItemDimensions": {
-        "Height": "70",
-        "Length": "820",
-        "Weight": "0",
-        "Width": "580"
-      },
-      "Label": "筑摩書房",
-      "Languages": {
-        "Language": [
-          {
-            "Name": "日本語",
-            "Type": "Published"
-          },
-          {
-            "Name": "日本語",
-            "Type": "Original Language"
-          },
-          {
-            "Name": "日本語",
-            "Type": "Unknown"
-          }
-        ]
-      },
-      "Manufacturer": "筑摩書房",
-      "NumberOfItems": "1",
-      "NumberOfPages": "276",
-      "PackageDimensions": {
-        "Height": "110",
-        "Length": "819",
-        "Weight": "97",
-        "Width": "591"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2008-11-05",
-      "Publisher": "筑摩書房",
-      "SKU": "1110201112-1520",
-      "Studio": "筑摩書房",
-      "Title": "金持ち父さんのファイナンシャルIQ"
-    },
-    "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "265",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 265"
-      },
-      "TotalNew": "0",
-      "TotalUsed": "43",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
     }
-  },
-  "Lastmod": "2019-06-15 20:33:42 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/9aac2bb4ed7e1f5ea32ce85d0e43c076/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/9aac2bb4ed7e1f5ea32ce85d0e43c076/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784480863874"
-  }
 }

@@ -1,752 +1,108 @@
 {
-  "Item": {
     "ASIN": "4839970874",
-    "DetailPageURL": "https://www.amazon.co.jp/Flutter-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA%E9%96%8B%E7%99%BA%E3%83%90%E3%82%A4%E3%83%96%E3%83%AB-%E5%8D%97%E9%87%8C%E5%8B%87%E6%B0%97/dp/4839970874?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4839970874",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4839970874&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4839970874"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4839970874?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4839970874"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4839970874?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4839970874"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4839970874?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4839970874"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4839970874?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/515VbPSMuuL.jpg",
+                "Width": 392
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/515VbPSMuuL._SL160_.jpg",
+                "Width": 125
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/515VbPSMuuL._SL75_.jpg",
+                "Width": 59
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/515VbPSMuuL._SL75_.jpg",
-      "Height": "75",
-      "Width": "59"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/515VbPSMuuL._SL160_.jpg",
-      "Height": "160",
-      "Width": "125"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/515VbPSMuuL.jpg",
-      "Height": "500",
-      "Width": "392"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41A8OVEPDbL._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41A8OVEPDbL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41A8OVEPDbL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41A8OVEPDbL._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41A8OVEPDbL._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41A8OVEPDbL.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71rys-xT35L.jpg",
-            "Height": "999",
-            "Width": "1555"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "マイナビ出版",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "南里勇気",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "太田佳敬",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "矢田裕基",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "片桐 寛貴",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "丸山 弘詩",
+                    "Role": "編集",
+                    "RoleType": "editor"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "マイナビ出版",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41a8mtVzRKL._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41a8mtVzRKL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41a8mtVzRKL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41a8mtVzRKL._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41a8mtVzRKL._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41a8mtVzRKL.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71A2qX0h6LL.jpg",
-            "Height": "999",
-            "Width": "1555"
-          }
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本（ソフトカバー）",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41OOanYsnaL._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41OOanYsnaL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41OOanYsnaL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41OOanYsnaL._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41OOanYsnaL._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41OOanYsnaL.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71mBy2wqWmL.jpg",
-            "Height": "999",
-            "Width": "1555"
-          }
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 320,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2019-10-31T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41f0G28GDSL._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41f0G28GDSL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41f0G28GDSL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41f0G28GDSL._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41f0G28GDSL._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41f0G28GDSL.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/718q6UomI4L.jpg",
-            "Height": "999",
-            "Width": "1555"
-          }
-        },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nhrc1LLCL._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nhrc1LLCL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nhrc1LLCL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nhrc1LLCL._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nhrc1LLCL._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nhrc1LLCL.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71tBzXScbDL.jpg",
-            "Height": "999",
-            "Width": "1555"
-          }
-        },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Y5N%2BgeQOL._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Y5N%2BgeQOL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Y5N%2BgeQOL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Y5N%2BgeQOL._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Y5N%2BgeQOL._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Y5N%2BgeQOL.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/714w0E407UL.jpg",
-            "Height": "999",
-            "Width": "1555"
-          }
-        },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nF1IpoYFL._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nF1IpoYFL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nF1IpoYFL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nF1IpoYFL._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nF1IpoYFL._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nF1IpoYFL.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71m8UvG28cL.jpg",
-            "Height": "999",
-            "Width": "1555"
-          }
-        },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41yxHg21tIL._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41yxHg21tIL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41yxHg21tIL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41yxHg21tIL._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41yxHg21tIL._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41yxHg21tIL.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71TrMxWaQOL.jpg",
-            "Height": "999",
-            "Width": "1555"
-          }
-        },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Hllm%2BJRML._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Hllm%2BJRML._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Hllm%2BJRML._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Hllm%2BJRML._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Hllm%2BJRML._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Hllm%2BJRML.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/714Ecu3BjEL.jpg",
-            "Height": "999",
-            "Width": "1555"
-          }
-        },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Xg-L2QFdL._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Xg-L2QFdL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Xg-L2QFdL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Xg-L2QFdL._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Xg-L2QFdL._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Xg-L2QFdL.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/712ZOPD02tL.jpg",
-            "Height": "999",
-            "Width": "1555"
-          }
-        },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41EXxoID6%2BL._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41EXxoID6%2BL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41EXxoID6%2BL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41EXxoID6%2BL._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41EXxoID6%2BL._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41EXxoID6%2BL.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/713ZsyoYL8L.jpg",
-            "Height": "999",
-            "Width": "1555"
-          }
-        },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41eO%2BC9IqLL._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41eO%2BC9IqLL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41eO%2BC9IqLL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41eO%2BC9IqLL._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41eO%2BC9IqLL._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41eO%2BC9IqLL.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71BBu9JfRYL.jpg",
-            "Height": "999",
-            "Width": "1555"
-          }
-        },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nuDJWugCL._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nuDJWugCL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nuDJWugCL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nuDJWugCL._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nuDJWugCL._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nuDJWugCL.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71eUnwXvJhL.jpg",
-            "Height": "999",
-            "Width": "1555"
-          }
-        },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41cU%2BBGsA-L._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41cU%2BBGsA-L._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41cU%2BBGsA-L._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41cU%2BBGsA-L._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41cU%2BBGsA-L._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41cU%2BBGsA-L.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71cF5vwoaTL.jpg",
-            "Height": "999",
-            "Width": "1555"
-          }
-        },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41bbTammGWL._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41bbTammGWL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41bbTammGWL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41bbTammGWL._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41bbTammGWL._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41bbTammGWL.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71AWV7HvysL.jpg",
-            "Height": "999",
-            "Width": "1555"
-          }
-        },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/515VbPSMuuL._SL30_.jpg",
-            "Height": "30",
-            "Width": "24"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/515VbPSMuuL._SL75_.jpg",
-            "Height": "75",
-            "Width": "59"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/515VbPSMuuL._SL75_.jpg",
-            "Height": "75",
-            "Width": "59"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/515VbPSMuuL._SL110_.jpg",
-            "Height": "110",
-            "Width": "86"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/515VbPSMuuL._SL160_.jpg",
-            "Height": "160",
-            "Width": "125"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/515VbPSMuuL.jpg",
-            "Height": "500",
-            "Width": "392"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71cggi9-A3L.jpg",
-            "Height": "1000",
-            "Width": "783"
-          }
+        "Title": {
+            "DisplayValue": "Flutter モバイルアプリ開発バイブル",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": [
-        "南里勇気",
-        "太田佳敬",
-        "矢田裕基",
-        "片桐 寛貴"
-      ],
-      "Binding": "単行本（ソフトカバー）",
-      "Brand": "マイナビ出版",
-      "Creator": "丸山 弘詩",
-      "EAN": "9784839970871",
-      "EANList": {
-        "EANListElement": "9784839970871"
-      },
-      "Genre": "3055",
-      "IsAdultProduct": "0",
-      "ISBN": "4839970874",
-      "Label": "マイナビ出版",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "発行済み"
-        }
-      },
-      "Manufacturer": "マイナビ出版",
-      "NumberOfItems": "1",
-      "NumberOfPages": "320",
-      "PackageDimensions": {
-        "Height": "87",
-        "Length": "921",
-        "Weight": "132",
-        "Width": "724"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2019-10-31",
-      "Publisher": "マイナビ出版",
-      "ReleaseDate": "2019-10-31",
-      "Studio": "マイナビ出版",
-      "Title": "Flutter モバイルアプリ開発バイブル"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "3509",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,509"
-      },
-      "LowestUsedPrice": {
-        "Amount": "5211",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 5,211"
-      },
-      "TotalNew": "5",
-      "TotalUsed": "8",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4839970874?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4839970874",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "DRStqxtdEDscuUsU0kj0LxdMKF4v82nHYYjb5HGx%2Fj6UTU0IEHp6dcsPxZ6Y2zQau%2BmVhJnrGjg7bB74QHgkmWMPbMdcEC35qAV%2B1mLdXdM%3D",
-          "Price": {
-            "Amount": "3509",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 3,509"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "35",
-          "TypicalRedemptionValue": {
-            "Amount": "35",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 35"
-          }
-        }
-      }
     }
-  },
-  "Lastmod": "2019-12-02 22:33:31 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/df6c4ce585bdbb0097a0fa6b2793e235/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/df6c4ce585bdbb0097a0fa6b2793e235/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784839970871"
-  }
 }

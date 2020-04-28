@@ -1,188 +1,83 @@
 {
-  "Item": {
     "ASIN": "4098250497",
-    "DetailPageURL": "https://www.amazon.co.jp/%E7%9B%AE%E7%AB%8B%E3%81%A4%E5%8A%9B-%E5%B0%8F%E5%AD%A6%E9%A4%A8101%E6%96%B0%E6%9B%B8-49-%E5%8B%9D%E9%96%93-%E5%92%8C%E4%BB%A3/dp/4098250497?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4098250497",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4098250497&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4098250497"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4098250497?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4098250497"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4098250497?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4098250497"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4098250497?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4098250497"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4098250497?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41DwB0HojIL.jpg",
+                "Width": 323
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41DwB0HojIL._SL160_.jpg",
+                "Width": 103
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41DwB0HojIL._SL75_.jpg",
+                "Width": 48
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41DwB0HojIL._SL75_.jpg",
-      "Height": "75",
-      "Width": "48"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41DwB0HojIL._SL160_.jpg",
-      "Height": "160",
-      "Width": "103"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41DwB0HojIL.jpg",
-      "Height": "500",
-      "Width": "323"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51EsMlfST7L._SL30_.jpg",
-            "Height": "30",
-            "Width": "19"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51EsMlfST7L._SL75_.jpg",
-            "Height": "75",
-            "Width": "48"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51EsMlfST7L._SL75_.jpg",
-            "Height": "75",
-            "Width": "48"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51EsMlfST7L._SL110_.jpg",
-            "Height": "110",
-            "Width": "70"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51EsMlfST7L._SL160_.jpg",
-            "Height": "160",
-            "Width": "102"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51EsMlfST7L.jpg",
-            "Height": "500",
-            "Width": "318"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71GuobzDwML.jpg",
-            "Height": "1500",
-            "Width": "954"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "勝間 和代",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "小学館",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41DwB0HojIL._SL30_.jpg",
-            "Height": "30",
-            "Width": "19"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41DwB0HojIL._SL75_.jpg",
-            "Height": "75",
-            "Width": "48"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41DwB0HojIL._SL75_.jpg",
-            "Height": "75",
-            "Width": "48"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41DwB0HojIL._SL110_.jpg",
-            "Height": "110",
-            "Width": "71"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41DwB0HojIL._SL160_.jpg",
-            "Height": "160",
-            "Width": "103"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41DwB0HojIL.jpg",
-            "Height": "500",
-            "Width": "323"
-          }
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
+        },
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    },
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "不明"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 256,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2009-10-01T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
+        },
+        "Title": {
+            "DisplayValue": "目立つ力 (小学館101新書 49)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": "勝間 和代",
-      "Binding": "単行本",
-      "EAN": "9784098250493",
-      "EANList": {
-        "EANListElement": "9784098250493"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4098250497",
-      "Label": "小学館",
-      "Languages": {
-        "Language": [
-          {
-            "Name": "日本語",
-            "Type": "Published"
-          },
-          {
-            "Name": "日本語",
-            "Type": "Unknown"
-          }
-        ]
-      },
-      "Manufacturer": "小学館",
-      "NumberOfPages": "256",
-      "PackageDimensions": {
-        "Height": "63",
-        "Length": "677",
-        "Weight": "35",
-        "Width": "433"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2009-10-01",
-      "Publisher": "小学館",
-      "SKU": "3ARBK-T-47-005",
-      "Studio": "小学館",
-      "Title": "目立つ力 (小学館101新書 49)"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "3494",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,494"
-      },
-      "LowestUsedPrice": {
-        "Amount": "1",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1"
-      },
-      "LowestCollectiblePrice": {
-        "Amount": "298",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 298"
-      },
-      "TotalNew": "1",
-      "TotalUsed": "62",
-      "TotalCollectible": "2",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
     }
-  },
-  "Lastmod": "2019-06-15 21:13:54 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/401e8d25fd72da36e33c81194ae952db/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/401e8d25fd72da36e33c81194ae952db/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784098250493"
-  }
 }

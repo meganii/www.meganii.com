@@ -1,155 +1,54 @@
 {
-  "Item": {
     "ASIN": "B001J2LZ2A",
-    "ParentASIN": "B00DHMO8VU",
-    "DetailPageURL": "https://www.amazon.co.jp/FIVE-TEN-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%96%E3%83%86%E3%83%B3-MoccAsym-1400162/dp/B001J2LZ2A?psc=1&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B001J2LZ2A",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=B001J2LZ2A&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B001J2LZ2A"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/B001J2LZ2A?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B001J2LZ2A"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/B001J2LZ2A?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B001J2LZ2A"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/B001J2LZ2A?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B001J2LZ2A"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B001J2LZ2A?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 348,
+                "URL": "https://m.media-amazon.com/images/I/414V3oPDhWL.jpg",
+                "Width": 500
+            },
+            "Medium": {
+                "Height": 111,
+                "URL": "https://m.media-amazon.com/images/I/414V3oPDhWL._SL160_.jpg",
+                "Width": 160
+            },
+            "Small": {
+                "Height": 52,
+                "URL": "https://m.media-amazon.com/images/I/414V3oPDhWL._SL75_.jpg",
+                "Width": 75
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/414V3oPDhWL._SL75_.jpg",
-      "Height": "52",
-      "Width": "75"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/414V3oPDhWL._SL160_.jpg",
-      "Height": "111",
-      "Width": "160"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/414V3oPDhWL.jpg",
-      "Height": "348",
-      "Width": "500"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/414V3oPDhWL._SL30_.jpg",
-          "Height": "21",
-          "Width": "30"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "FIVE TEN(ファイブテン)",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
+            "Manufacturer": {
+                "DisplayValue": "FIVE TEN(ファイブテン)",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/414V3oPDhWL._SL75_.jpg",
-          "Height": "52",
-          "Width": "75"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "スポーツ用品",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Sports",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/414V3oPDhWL._SL75_.jpg",
-          "Height": "52",
-          "Width": "75"
-        },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/414V3oPDhWL._SL110_.jpg",
-          "Height": "77",
-          "Width": "110"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/414V3oPDhWL._SL160_.jpg",
-          "Height": "111",
-          "Width": "160"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/414V3oPDhWL.jpg",
-          "Height": "348",
-          "Width": "500"
-        },
-        "HiResImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/71p5InkVqPL.jpg",
-          "Height": "1043",
-          "Width": "1500"
+        "Title": {
+            "DisplayValue": "FIVE TEN(ファイブテン) MoccAsym モカシム(レッド) 1400162 RED 6",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Binding": "スポーツ用品",
-      "Brand": "FIVE TEN(ファイブテン)",
-      "Color": "RED",
-      "Department": "ボルダリング初心者",
-      "EAN": "4535436900632",
-      "EANList": {
-        "EANListElement": "4535436900632"
-      },
-      "Feature": [
-        "サイズ:US3~11(21~29cm)",
-        "素材:アッパー/スエードレザー"
-      ],
-      "ItemDimensions": {
-        "Weight": "119"
-      },
-      "Label": "FIVE TEN(ファイブテン)",
-      "Manufacturer": "FIVE TEN(ファイブテン)",
-      "Model": "1400162",
-      "MPN": "1400162",
-      "PackageDimensions": {
-        "Height": "386",
-        "Length": "1260",
-        "Weight": "119",
-        "Width": "598"
-      },
-      "PackageQuantity": "1",
-      "PartNumber": "1400162",
-      "ProductGroup": "Sports",
-      "ProductTypeName": "SPORTING_GOODS",
-      "Publisher": "FIVE TEN(ファイブテン)",
-      "Size": "6",
-      "Studio": "FIVE TEN(ファイブテン)",
-      "Title": "FIVE TEN(ファイブテン) MoccAsym モカシム(レッド) 1400162 RED 6"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "14040",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 14,040"
-      },
-      "TotalNew": "1",
-      "TotalUsed": "0",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/B001J2LZ2A?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B001J2LZ2A",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "agZJhFwYsBQjfywoiG185QjxbypRrsHSLgmfTRWPDLx85gHtF3qvpms6QcjobQqjICFAPCaceaTia6eDjDc6UQ2NvM4zdgS%2Ba7MR6nzz7%2BUxJbXsM64e3ti6b%2BtVqI7DAUJ7jN0hn5%2FHtJNqR9MMng%3D%3D",
-          "Price": {
-            "Amount": "14040",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 14,040"
-          },
-          "Availability": "通常2～3営業日以内に発送",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "48",
-            "MaximumHours": "72"
-          },
-          "IsEligibleForSuperSaverShipping": "0",
-          "IsEligibleForPrime": "0"
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:28:07 +0900"
 }

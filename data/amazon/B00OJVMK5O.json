@@ -1,109 +1,97 @@
 {
-  "Item": {
     "ASIN": "B00OJVMK5O",
-    "DetailPageURL": "https://www.amazon.co.jp/How-Google-Works-%E3%82%A8%E3%83%AA%E3%83%83%E3%82%AF%E3%83%BB%E3%82%B7%E3%83%A5%E3%83%9F%E3%83%83%E3%83%88-ebook/dp/B00OJVMK5O?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00OJVMK5O",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=B00OJVMK5O&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00OJVMK5O"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/B00OJVMK5O?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00OJVMK5O"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/B00OJVMK5O?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00OJVMK5O"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/B00OJVMK5O?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00OJVMK5O"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B00OJVMK5O?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51lusOSU33L.jpg",
+                "Width": 349
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51lusOSU33L._SL160_.jpg",
+                "Width": 112
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51lusOSU33L._SL75_.jpg",
+                "Width": 52
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51lusOSU33L._SL75_.jpg",
-      "Height": "75",
-      "Width": "52"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51lusOSU33L._SL160_.jpg",
-      "Height": "160",
-      "Width": "112"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51lusOSU33L.jpg",
-      "Height": "500",
-      "Width": "349"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51lusOSU33L._SL30_.jpg",
-          "Height": "30",
-          "Width": "21"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "エリック・シュミット",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "ジョナサン・ローゼンバーグ",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "アラン・イーグル",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "ラリー・ペイジ",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "日経BP",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51lusOSU33L._SL75_.jpg",
-          "Height": "75",
-          "Width": "52"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "Kindle版",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Digital Ebook Purchas",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51lusOSU33L._SL75_.jpg",
-          "Height": "75",
-          "Width": "52"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 369,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2014-10-08T00:00:00.000Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51lusOSU33L._SL110_.jpg",
-          "Height": "110",
-          "Width": "77"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51lusOSU33L._SL160_.jpg",
-          "Height": "160",
-          "Width": "112"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51lusOSU33L.jpg",
-          "Height": "500",
-          "Width": "349"
-        },
-        "HiResImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/81AziSQNDUL.jpg",
-          "Height": "2560",
-          "Width": "1785"
+        "Title": {
+            "DisplayValue": "How Google Works (日本経済新聞出版)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": [
-        "エリック・シュミット",
-        "ジョナサン・ローゼンバーグ",
-        "アラン・イーグル",
-        "ラリー・ペイジ"
-      ],
-      "Binding": "Kindle版",
-      "Format": "Kindle本",
-      "IsAdultProduct": "0",
-      "Label": "日本経済新聞出版社",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "日本経済新聞出版社",
-      "NumberOfPages": "291",
-      "ProductGroup": "eBooks",
-      "ProductTypeName": "ABIS_EBOOKS",
-      "PublicationDate": "2014-10-08",
-      "Publisher": "日本経済新聞出版社",
-      "ReleaseDate": "2014-10-17",
-      "Studio": "日本経済新聞出版社",
-      "Title": "How Google Works"
     }
-  },
-  "Lastmod": "2019-06-15 20:34:11 +0900"
 }

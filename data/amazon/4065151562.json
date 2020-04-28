@@ -1,61 +1,49 @@
 {
-    "ASIN": "4763195093",
-    "DetailPageURL": "https://www.amazon.co.jp/dp/4763195093?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "ASIN": "4065151562",
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4065151562?tag=meganii-22&linkCode=ogi&th=1&psc=1",
     "Images": {
         "Primary": {
             "Large": {
                 "Height": 500,
-                "URL": "https://m.media-amazon.com/images/I/41DXPHP16KL._SL500_.jpg",
-                "Width": 340
+                "URL": "https://m.media-amazon.com/images/I/31yz41bTULL.jpg",
+                "Width": 304
             },
             "Medium": {
                 "Height": 160,
-                "URL": "https://m.media-amazon.com/images/I/41DXPHP16KL._SL160_.jpg",
-                "Width": 109
+                "URL": "https://m.media-amazon.com/images/I/31yz41bTULL._SL160_.jpg",
+                "Width": 97
             },
             "Small": {
                 "Height": 75,
-                "URL": "https://m.media-amazon.com/images/I/41DXPHP16KL._SL75_.jpg",
-                "Width": 51
+                "URL": "https://m.media-amazon.com/images/I/31yz41bTULL._SL75_.jpg",
+                "Width": 46
             }
         }
     },
     "ItemInfo": {
         "ByLineInfo": {
             "Brand": {
-                "DisplayValue": "サンマーク出版",
+                "DisplayValue": "星海社",
                 "Label": "Brand",
                 "Locale": "ja_JP"
             },
             "Contributors": [
                 {
                     "Locale": "ja_JP",
-                    "Name": "ジェームズ アレン",
+                    "Name": "倉下 忠憲",
                     "Role": "著",
                     "RoleType": "author"
-                },
-                {
-                    "Locale": "ja_JP",
-                    "Name": "Allen,James",
-                    "Role": "原著",
-                    "RoleType": "original_name"
-                },
-                {
-                    "Locale": "ja_JP",
-                    "Name": "貢一, 坂本",
-                    "Role": "翻訳",
-                    "RoleType": "translator"
                 }
             ],
             "Manufacturer": {
-                "DisplayValue": "サンマーク出版",
+                "DisplayValue": "講談社",
                 "Label": "Manufacturer",
                 "Locale": "ja_JP"
             }
         },
         "Classifications": {
             "Binding": {
-                "DisplayValue": "単行本",
+                "DisplayValue": "新書",
                 "Label": "Binding",
                 "Locale": "ja_JP"
             },
@@ -71,28 +59,24 @@
                     {
                         "DisplayValue": "日本語",
                         "Type": "発行済み"
-                    },
-                    {
-                        "DisplayValue": "日本語",
-                        "Type": "不明"
                     }
                 ],
                 "Label": "Language",
                 "Locale": "ja_JP"
             },
             "PagesCount": {
-                "DisplayValue": 95,
+                "DisplayValue": 240,
                 "Label": "NumberOfPages",
                 "Locale": "en_US"
             },
             "PublicationDate": {
-                "DisplayValue": "2003-04-15T00:00:01Z",
+                "DisplayValue": "2019-02-24T00:00:01Z",
                 "Label": "PublicationDate",
                 "Locale": "en_US"
             }
         },
         "Title": {
-            "DisplayValue": "「原因」と「結果」の法則",
+            "DisplayValue": "「やること地獄」を終わらせるタスク管理「超」入門 (星海社新書)",
             "Label": "Title",
             "Locale": "ja_JP"
         }

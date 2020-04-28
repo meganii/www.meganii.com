@@ -1,273 +1,87 @@
 {
-  "Item": {
     "ASIN": "1101981059",
-    "DetailPageURL": "https://www.amazon.co.jp/Be-Obsessed-Average-Grant-Cardone/dp/1101981059?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1101981059",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=1101981059&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=1101981059"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/1101981059?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=1101981059"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/1101981059?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=1101981059"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/1101981059?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=1101981059"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/1101981059?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51vWXg21HZL.jpg",
+                "Width": 331
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51vWXg21HZL._SL160_.jpg",
+                "Width": 106
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51vWXg21HZL._SL75_.jpg",
+                "Width": 50
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51vWXg21HZL._SL75_.jpg",
-      "Height": "75",
-      "Width": "50"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51vWXg21HZL._SL160_.jpg",
-      "Height": "160",
-      "Width": "106"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51vWXg21HZL.jpg",
-      "Height": "500",
-      "Width": "331"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "swatch",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/515BVQBNQVL._SL30_.jpg",
-            "Height": "30",
-            "Width": "20"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/515BVQBNQVL._SL75_.jpg",
-            "Height": "75",
-            "Width": "50"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/515BVQBNQVL._SL75_.jpg",
-            "Height": "75",
-            "Width": "50"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/515BVQBNQVL._SL110_.jpg",
-            "Height": "110",
-            "Width": "73"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/515BVQBNQVL._SL160_.jpg",
-            "Height": "160",
-            "Width": "106"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/515BVQBNQVL.jpg",
-            "Height": "500",
-            "Width": "331"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/7123XG9crLL.jpg",
-            "Height": "1200",
-            "Width": "794"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "Cardone, Grant",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "Portfolio",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51GctUvsoxL._SL30_.jpg",
-            "Height": "30",
-            "Width": "20"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51GctUvsoxL._SL75_.jpg",
-            "Height": "75",
-            "Width": "50"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51GctUvsoxL._SL75_.jpg",
-            "Height": "75",
-            "Width": "50"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51GctUvsoxL._SL110_.jpg",
-            "Height": "110",
-            "Width": "74"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51GctUvsoxL._SL160_.jpg",
-            "Height": "160",
-            "Width": "108"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51GctUvsoxL.jpg",
-            "Height": "500",
-            "Width": "336"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/81vSEYOPWML.jpg",
-            "Height": "1992",
-            "Width": "1339"
-          }
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "ハードカバー",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51vWXg21HZL._SL30_.jpg",
-            "Height": "30",
-            "Width": "20"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51vWXg21HZL._SL75_.jpg",
-            "Height": "75",
-            "Width": "50"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51vWXg21HZL._SL75_.jpg",
-            "Height": "75",
-            "Width": "50"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51vWXg21HZL._SL110_.jpg",
-            "Height": "110",
-            "Width": "73"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51vWXg21HZL._SL160_.jpg",
-            "Height": "160",
-            "Width": "106"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51vWXg21HZL.jpg",
-            "Height": "500",
-            "Width": "331"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/81SbC-kLmXL.jpg",
-            "Height": "2550",
-            "Width": "1688"
-          }
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "英語",
+                        "Type": "発行済み"
+                    },
+                    {
+                        "DisplayValue": "英語",
+                        "Type": "原語"
+                    },
+                    {
+                        "DisplayValue": "英語",
+                        "Type": "不明"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 240,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2016-10-11T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
+        },
+        "Title": {
+            "DisplayValue": "Be Obsessed or Be Average",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": "Grant Cardone",
-      "Binding": "ハードカバー",
-      "EAN": "9781101981054",
-      "EANList": {
-        "EANListElement": "9781101981054"
-      },
-      "ISBN": "9781101981054",
-      "ItemDimensions": {
-        "Height": "926",
-        "Length": "617",
-        "Weight": "90",
-        "Width": "88"
-      },
-      "Label": "Portfolio",
-      "Languages": {
-        "Language": [
-          {
-            "Name": "英語",
-            "Type": "Published"
-          },
-          {
-            "Name": "英語",
-            "Type": "Original Language"
-          },
-          {
-            "Name": "英語",
-            "Type": "Unknown"
-          }
-        ]
-      },
-      "ListPrice": {
-        "Amount": "3160",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,160"
-      },
-      "Manufacturer": "Portfolio",
-      "MPN": "44037561",
-      "NumberOfItems": "1",
-      "NumberOfPages": "240",
-      "PackageDimensions": {
-        "Height": "110",
-        "Length": "890",
-        "Weight": "85",
-        "Width": "614"
-      },
-      "PackageQuantity": "1",
-      "PartNumber": "44037561",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2016-10-11",
-      "Publisher": "Portfolio",
-      "ReleaseDate": "2016-10-11",
-      "Studio": "Portfolio",
-      "Title": "Be Obsessed or Be Average"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "1541",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,541"
-      },
-      "LowestUsedPrice": {
-        "Amount": "2397",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,397"
-      },
-      "LowestCollectiblePrice": {
-        "Amount": "3339",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,339"
-      },
-      "TotalNew": "18",
-      "TotalUsed": "5",
-      "TotalCollectible": "1",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/1101981059?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=1101981059",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "9ACEC707H9CkfirBJ2ipICmN5FMhb3DqXG4LpwIKcvAjPEfG2DrXfDbH5hZfWq3vtGhN%2FbEkz29IuqdecvyeTPGRM62kj4wT93j2Ze07vogvtlkX%2FAN949O6%2FY9X5bI49wwGuRAvzcnd2pXJhl8NmQ%3D%3D",
-          "Price": {
-            "Amount": "2420",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,420"
-          },
-          "AmountSaved": {
-            "Amount": "740",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 740"
-          },
-          "PercentageSaved": "23",
-          "Availability": "通常1～2営業日以内に発送",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "24",
-            "MaximumHours": "48"
-          },
-          "IsEligibleForSuperSaverShipping": "0",
-          "IsEligibleForPrime": "0"
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 21:12:25 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/83d7ca7b05d658d417e7409aaba5a7be/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/83d7ca7b05d658d417e7409aaba5a7be/"
-  }
 }

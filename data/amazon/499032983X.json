@@ -1,178 +1,94 @@
 {
-  "Item": {
     "ASIN": "499032983X",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%83%BB%E3%82%AB%E3%83%95%E3%82%A7~%E3%82%AB%E3%83%95%E3%82%A7%E7%9A%84%E4%BC%9A%E8%A9%B1%E3%81%8C%E6%9C%AA%E6%9D%A5%E3%82%92%E5%89%B5%E3%82%8B~-%E3%82%A2%E3%83%8B%E3%83%BC%E3%82%BF-%E3%83%87%E3%82%A4%E3%83%93%E3%83%83%E3%83%89-%E3%82%A2%E3%82%A4%E3%82%B6%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%83%BB%E3%82%AB%E3%83%95%E3%82%A7%E3%83%BB%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3/dp/499032983X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=499032983X",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=499032983X&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=499032983X"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/499032983X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=499032983X"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/499032983X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=499032983X"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/499032983X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=499032983X"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/499032983X?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51HYAe3SrUL.jpg",
+                "Width": 338
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51HYAe3SrUL._SL160_.jpg",
+                "Width": 108
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51HYAe3SrUL._SL75_.jpg",
+                "Width": 51
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51HYAe3SrUL._SL75_.jpg",
-      "Height": "75",
-      "Width": "51"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51HYAe3SrUL._SL160_.jpg",
-      "Height": "160",
-      "Width": "108"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51HYAe3SrUL.jpg",
-      "Height": "500",
-      "Width": "338"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51HYAe3SrUL._SL30_.jpg",
-          "Height": "30",
-          "Width": "20"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "アニータ ブラウン / デイビッド アイザックス / ワールド・カフェ・コミュニティ",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "香取 一昭 / 川口 大輔",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "ヒューマンバリュー",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51HYAe3SrUL._SL75_.jpg",
-          "Height": "75",
-          "Width": "51"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本（ソフトカバー）",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51HYAe3SrUL._SL75_.jpg",
-          "Height": "75",
-          "Width": "51"
+        "ContentInfo": {
+            "Edition": {
+                "DisplayValue": "初",
+                "Label": "Edition",
+                "Locale": "ja_JP"
+            },
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    },
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "不明"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 320,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2007-09-28T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51HYAe3SrUL._SL110_.jpg",
-          "Height": "110",
-          "Width": "74"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51HYAe3SrUL._SL160_.jpg",
-          "Height": "160",
-          "Width": "108"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51HYAe3SrUL.jpg",
-          "Height": "500",
-          "Width": "338"
+        "Title": {
+            "DisplayValue": "ワールド・カフェ~カフェ的会話が未来を創る~",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "アニータ ブラウン / デイビッド アイザックス / ワールド・カフェ・コミュニティ",
-      "Binding": "単行本（ソフトカバー）",
-      "Creator": "香取 一昭 / 川口 大輔",
-      "EAN": "9784990329839",
-      "EANList": {
-        "EANListElement": "9784990329839"
-      },
-      "Edition": "初",
-      "IsAdultProduct": "0",
-      "ISBN": "499032983X",
-      "ItemDimensions": {
-        "Weight": "132"
-      },
-      "Label": "ヒューマンバリュー",
-      "Languages": {
-        "Language": [
-          {
-            "Name": "日本語",
-            "Type": "Published"
-          },
-          {
-            "Name": "日本語",
-            "Type": "Unknown"
-          }
-        ]
-      },
-      "Manufacturer": "ヒューマンバリュー",
-      "NumberOfPages": "320",
-      "PackageDimensions": {
-        "Height": "87",
-        "Length": "890",
-        "Weight": "137",
-        "Width": "606"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2007-09-28",
-      "Publisher": "ヒューマンバリュー",
-      "SKU": "BBK252945",
-      "Studio": "ヒューマンバリュー",
-      "Title": "ワールド・カフェ~カフェ的会話が未来を創る~"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "3024",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,024"
-      },
-      "LowestUsedPrice": {
-        "Amount": "1435",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,435"
-      },
-      "TotalNew": "1",
-      "TotalUsed": "16",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/499032983X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=499032983X",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "1LAB%2BtBeYJqXsmOkZ3yWzUoR4SaUtyU0%2BYleMtbFjkQ78Yt6BXAMTV5cWotbvlYLCmHj13AnU12pheBuVqM9op3UGluYmTmF",
-          "Price": {
-            "Amount": "3024",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 3,024"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "28",
-          "TypicalRedemptionValue": {
-            "Amount": "28",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 28"
-          }
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 21:14:59 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/3c2af5be25c4f32c25aa5a4896e63a21/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/3c2af5be25c4f32c25aa5a4896e63a21/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784990329839"
-  }
 }

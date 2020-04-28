@@ -1,173 +1,90 @@
 {
-  "Item": {
     "ASIN": "4274067939",
-    "DetailPageURL": "https://www.amazon.co.jp/%E6%83%85%E7%86%B1%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC-%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA%E8%80%85%E3%81%AE%E5%B9%B8%E3%81%9B%E3%81%AA%E7%94%9F%E3%81%8D%E6%96%B9-Chad-Fowler/dp/4274067939?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4274067939",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4274067939&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4274067939"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4274067939?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4274067939"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4274067939?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4274067939"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4274067939?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4274067939"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4274067939?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51KYrsCBI2L.jpg",
+                "Width": 355
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51KYrsCBI2L._SL160_.jpg",
+                "Width": 114
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51KYrsCBI2L._SL75_.jpg",
+                "Width": 53
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51KYrsCBI2L._SL75_.jpg",
-      "Height": "75",
-      "Width": "53"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51KYrsCBI2L._SL160_.jpg",
-      "Height": "160",
-      "Width": "114"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51KYrsCBI2L.jpg",
-      "Height": "500",
-      "Width": "355"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51KYrsCBI2L._SL30_.jpg",
-          "Height": "30",
-          "Width": "21"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "Chad Fowler",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "でびあんぐる",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "オーム社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51KYrsCBI2L._SL75_.jpg",
-          "Height": "75",
-          "Width": "53"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本（ソフトカバー）",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51KYrsCBI2L._SL75_.jpg",
-          "Height": "75",
-          "Width": "53"
+        "ContentInfo": {
+            "Edition": {
+                "DisplayValue": "改訂",
+                "Label": "Edition",
+                "Locale": "ja_JP"
+            },
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "不明"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 200,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2010-02-26T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51KYrsCBI2L._SL110_.jpg",
-          "Height": "110",
-          "Width": "78"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51KYrsCBI2L._SL160_.jpg",
-          "Height": "160",
-          "Width": "114"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51KYrsCBI2L.jpg",
-          "Height": "500",
-          "Width": "355"
+        "Title": {
+            "DisplayValue": "情熱プログラマー ソフトウェア開発者の幸せな生き方",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "Chad Fowler",
-      "Binding": "単行本（ソフトカバー）",
-      "Creator": "でびあんぐる",
-      "EAN": "9784274067938",
-      "EANList": {
-        "EANListElement": "9784274067938"
-      },
-      "Edition": "改訂",
-      "IsAdultProduct": "0",
-      "ISBN": "4274067939",
-      "ItemDimensions": {
-        "Weight": "26"
-      },
-      "Label": "オーム社",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Unknown"
-        }
-      },
-      "ListPrice": {
-        "Amount": "2592",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,592"
-      },
-      "Manufacturer": "オーム社",
-      "NumberOfPages": "200",
-      "PackageDimensions": {
-        "Height": "63",
-        "Length": "827",
-        "Weight": "26",
-        "Width": "583"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2010-02-26",
-      "Publisher": "オーム社",
-      "Studio": "オーム社",
-      "Title": "情熱プログラマー ソフトウェア開発者の幸せな生き方"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "2592",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,592"
-      },
-      "LowestUsedPrice": {
-        "Amount": "935",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 935"
-      },
-      "LowestCollectiblePrice": {
-        "Amount": "4780",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 4,780"
-      },
-      "TotalNew": "3",
-      "TotalUsed": "26",
-      "TotalCollectible": "1",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4274067939?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4274067939",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "I5tnCdFNaD%2BDxI0dW1qEbHAa%2FtsECPPEiVwcN73xYbhWaLdG8D81JQURdj25g%2FG7elkeSSvvNwgZ%2BQa5wJZwJ3gkYnatlTv%2FSvzInV7uOO9ABLN5lte9WnDznoawWsUxskDiEzDWJwlZBjOhzkN8XZzHs6vY4mtG",
-          "Price": {
-            "Amount": "2592",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,592"
-          },
-          "Availability": "通常6～10営業日以内に発送",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "144",
-            "MaximumHours": "240"
-          },
-          "IsEligibleForSuperSaverShipping": "0",
-          "IsEligibleForPrime": "0"
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:27:26 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/293296be217306062f765246f05a735a/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/293296be217306062f765246f05a735a/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784274067938"
-  }
 }

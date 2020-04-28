@@ -1,167 +1,110 @@
 {
-  "Item": {
     "ASIN": "4894713438",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9EJava-Java-%E3%82%B1%E3%83%B3-%E3%82%A2%E3%83%BC%E3%83%8E%E3%83%AB%E3%83%89/dp/4894713438?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4894713438",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4894713438&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4894713438"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4894713438?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4894713438"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4894713438?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4894713438"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4894713438?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4894713438"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4894713438?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51YQX2TKTJL._SL500_.jpg",
+                "Width": 398
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51YQX2TKTJL._SL160_.jpg",
+                "Width": 127
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51YQX2TKTJL._SL75_.jpg",
+                "Width": 60
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51YQX2TKTJL._SL75_.jpg",
-      "Height": "75",
-      "Width": "60"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51YQX2TKTJL._SL160_.jpg",
-      "Height": "160",
-      "Width": "127"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51YQX2TKTJL.jpg",
-      "Height": "475",
-      "Width": "378"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51YQX2TKTJL._SL30_.jpg",
-          "Height": "30",
-          "Width": "24"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "アーノルド,ケン",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "ホームズ,デビッド",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "ゴスリン,ジェームズ",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "Arnold,Ken",
+                    "Role": "原著",
+                    "RoleType": "original_name"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "Holmes,David",
+                    "Role": "原著",
+                    "RoleType": "original_name"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "Gosling,James",
+                    "Role": "原著",
+                    "RoleType": "original_name"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "芳樹, 柴田",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "ピアソンエデュケーション",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51YQX2TKTJL._SL75_.jpg",
-          "Height": "75",
-          "Width": "60"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51YQX2TKTJL._SL75_.jpg",
-          "Height": "75",
-          "Width": "60"
+        "ContentInfo": {
+            "Edition": {
+                "DisplayValue": "第3",
+                "Label": "Edition",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 597,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2001-06-01",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51YQX2TKTJL._SL110_.jpg",
-          "Height": "110",
-          "Width": "88"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51YQX2TKTJL._SL160_.jpg",
-          "Height": "160",
-          "Width": "127"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51YQX2TKTJL.jpg",
-          "Height": "475",
-          "Width": "378"
+        "Title": {
+            "DisplayValue": "プログラミング言語Java (The Java Series)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": [
-        "ケン アーノルド",
-        "デビッド ホームズ",
-        "ジェームズ ゴスリン"
-      ],
-      "Binding": "単行本",
-      "Creator": [
-        "Ken Arnold",
-        "David Holmes",
-        "James Gosling",
-        "柴田 芳樹"
-      ],
-      "EAN": "9784894713437",
-      "EANList": {
-        "EANListElement": "9784894713437"
-      },
-      "Edition": "第3",
-      "ISBN": "4894713438",
-      "Label": "ピアソンエデュケーション",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "ピアソンエデュケーション",
-      "NumberOfPages": "597",
-      "PackageDimensions": {
-        "Height": "134",
-        "Length": "906",
-        "Weight": "247",
-        "Width": "709"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2001-06",
-      "Publisher": "ピアソンエデュケーション",
-      "Studio": "ピアソンエデュケーション",
-      "Title": "プログラミング言語Java (The Java Series)"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "1480",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,480"
-      },
-      "LowestUsedPrice": {
-        "Amount": "198",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 198"
-      },
-      "TotalNew": "1",
-      "TotalUsed": "9",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4894713438?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4894713438",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "urkoBXwCrG96PXB091AtZ54jjhyQFvycskxTBG2g3alkvnuorATJrWQnGviZQp2PI%2F8VM6hb5IjbH14MAihxY796gwh4o7A08iw7GrUojK9Tk5WYxne9B65Su9Uy6x4GcOWho25ecmeONwE%2Febu6NQ%3D%3D",
-          "Price": {
-            "Amount": "1480",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,480"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:34:26 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/2f200553b8d112cc7912e240847e3975/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/2f200553b8d112cc7912e240847e3975/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784894713437"
-  }
 }

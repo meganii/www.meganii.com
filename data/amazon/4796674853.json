@@ -1,165 +1,83 @@
 {
-  "Item": {
     "ASIN": "4796674853",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%83%8D%E3%83%83%E3%83%88%E3%81%8C%E3%81%82%E3%82%8C%E3%81%B0%E5%B1%A5%E6%AD%B4%E6%9B%B8%E3%81%AF%E3%81%84%E3%82%89%E3%81%AA%E3%81%84-%E3%82%A6%E3%82%A7%E3%83%96%E6%99%82%E4%BB%A3%E3%81%AE%E3%82%BB%E3%83%AB%E3%83%95%E3%83%96%E3%83%A9%E3%83%B3%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E8%A1%93-%E5%AE%9D%E5%B3%B6%E7%A4%BE%E6%96%B0%E6%9B%B8-%E4%BD%90%E3%80%85%E6%9C%A8-%E4%BF%8A%E5%B0%9A/dp/4796674853?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4796674853",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4796674853&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4796674853"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4796674853?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4796674853"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4796674853?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4796674853"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4796674853?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4796674853"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4796674853?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41uddK51VSL.jpg",
+                "Width": 313
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41uddK51VSL._SL160_.jpg",
+                "Width": 100
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41uddK51VSL._SL75_.jpg",
+                "Width": 47
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41uddK51VSL._SL75_.jpg",
-      "Height": "75",
-      "Width": "47"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41uddK51VSL._SL160_.jpg",
-      "Height": "160",
-      "Width": "100"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41uddK51VSL.jpg",
-      "Height": "500",
-      "Width": "313"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41uddK51VSL._SL30_.jpg",
-          "Height": "30",
-          "Width": "19"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "佐々木 俊尚",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "宝島社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41uddK51VSL._SL75_.jpg",
-          "Height": "75",
-          "Width": "47"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "新書",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41uddK51VSL._SL75_.jpg",
-          "Height": "75",
-          "Width": "47"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    },
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "不明"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 223,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2010-01-09T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41uddK51VSL._SL110_.jpg",
-          "Height": "110",
-          "Width": "69"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41uddK51VSL._SL160_.jpg",
-          "Height": "160",
-          "Width": "100"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41uddK51VSL.jpg",
-          "Height": "500",
-          "Width": "313"
+        "Title": {
+            "DisplayValue": "ネットがあれば履歴書はいらない-ウェブ時代のセルフブランディング術 (宝島社新書)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "佐々木 俊尚",
-      "Binding": "新書",
-      "EAN": "9784796674850",
-      "EANList": {
-        "EANListElement": "9784796674850"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4796674853",
-      "Label": "宝島社",
-      "Languages": {
-        "Language": [
-          {
-            "Name": "日本語",
-            "Type": "Published"
-          },
-          {
-            "Name": "日本語",
-            "Type": "Unknown"
-          }
-        ]
-      },
-      "Manufacturer": "宝島社",
-      "NumberOfPages": "223",
-      "PackageDimensions": {
-        "Height": "63",
-        "Length": "677",
-        "Weight": "35",
-        "Width": "417"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2010-01-09",
-      "Publisher": "宝島社",
-      "ReleaseDate": "2010-01-09",
-      "SKU": "book_221",
-      "Studio": "宝島社",
-      "Title": "ネットがあれば履歴書はいらない-ウェブ時代のセルフブランディング術 (宝島社新書)"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "700",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 700"
-      },
-      "LowestUsedPrice": {
-        "Amount": "1",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1"
-      },
-      "TotalNew": "1",
-      "TotalUsed": "37",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4796674853?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4796674853",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "4D5IBOR0JqQVsaMzLP%2FXVHaxydbj9QS86jYZoQdKrlhEr0MCeCFgDgwuP0j3YR9AjlMzClSqHTT6p0wWGSBJkCEWvt9kFiQTJjUGxCJU4POECJr4fdGbOO9AeQf7jT2lpt5rGTSfT6O5n9P4hsEjwnkCITqgEMQ1",
-          "Price": {
-            "Amount": "700",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 700"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:31:07 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/34abbfefc93fb49dde7c80b8f53347b2/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/34abbfefc93fb49dde7c80b8f53347b2/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784796674850"
-  }
 }

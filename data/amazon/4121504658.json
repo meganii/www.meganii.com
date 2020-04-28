@@ -1,170 +1,79 @@
 {
-  "Item": {
     "ASIN": "4121504658",
-    "DetailPageURL": "https://www.amazon.co.jp/%E8%8B%A5%E8%80%85%E3%81%A8%E5%8A%B4%E5%83%8D-%E3%80%8C%E5%85%A5%E7%A4%BE%E3%80%8D%E3%81%AE%E4%BB%95%E7%B5%84%E3%81%BF%E3%81%8B%E3%82%89%E8%A7%A3%E3%81%8D%E3%81%BB%E3%81%90%E3%81%99-%E4%B8%AD%E5%85%AC%E6%96%B0%E6%9B%B8%E3%83%A9%E3%82%AF%E3%83%AC-%E6%BF%B1%E5%8F%A3-%E6%A1%82%E4%B8%80%E9%83%8E/dp/4121504658?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4121504658",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4121504658&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4121504658"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4121504658?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4121504658"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4121504658?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4121504658"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4121504658?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4121504658"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4121504658?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41X0vmrrb0L.jpg",
+                "Width": 314
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41X0vmrrb0L._SL160_.jpg",
+                "Width": 100
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41X0vmrrb0L._SL75_.jpg",
+                "Width": 47
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41X0vmrrb0L._SL75_.jpg",
-      "Height": "75",
-      "Width": "47"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41X0vmrrb0L._SL160_.jpg",
-      "Height": "160",
-      "Width": "100"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41X0vmrrb0L.jpg",
-      "Height": "500",
-      "Width": "314"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41X0vmrrb0L._SL30_.jpg",
-          "Height": "30",
-          "Width": "19"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "濱口 桂一郎",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "中央公論新社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41X0vmrrb0L._SL75_.jpg",
-          "Height": "75",
-          "Width": "47"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "新書",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41X0vmrrb0L._SL75_.jpg",
-          "Height": "75",
-          "Width": "47"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 290,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2013-08-10T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41X0vmrrb0L._SL110_.jpg",
-          "Height": "110",
-          "Width": "69"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41X0vmrrb0L._SL160_.jpg",
-          "Height": "160",
-          "Width": "100"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41X0vmrrb0L.jpg",
-          "Height": "500",
-          "Width": "314"
+        "Title": {
+            "DisplayValue": "若者と労働 「入社」の仕組みから解きほぐす (中公新書ラクレ)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "濱口 桂一郎",
-      "Binding": "新書",
-      "EAN": "9784121504654",
-      "EANList": {
-        "EANListElement": "9784121504654"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4121504658",
-      "Label": "中央公論新社",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "中央公論新社",
-      "NumberOfPages": "290",
-      "PackageDimensions": {
-        "Height": "63",
-        "Length": "677",
-        "Weight": "35",
-        "Width": "425"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2013-08-10",
-      "Publisher": "中央公論新社",
-      "Studio": "中央公論新社",
-      "Title": "若者と労働 「入社」の仕組みから解きほぐす (中公新書ラクレ)"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "950",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 950"
-      },
-      "LowestUsedPrice": {
-        "Amount": "9",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 9"
-      },
-      "LowestCollectiblePrice": {
-        "Amount": "88",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 88"
-      },
-      "TotalNew": "2",
-      "TotalUsed": "32",
-      "TotalCollectible": "2",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4121504658?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4121504658",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "6UfQCXhIOlpueKuzDL6Uk%2B7zDHAFTAVoY6MxKzbA78Iild5EbBIG5krHbp7vdfbbfW6j88Q6dnNaJRczx6PTz7UjbmV0%2BuIiM5MVxUm9bow%3D",
-          "Price": {
-            "Amount": "950",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 950"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "9",
-          "TypicalRedemptionValue": {
-            "Amount": "9",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 9"
-          }
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:35:31 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/53d5de99f343df67d1c3f7c9b105eb8f/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/53d5de99f343df67d1c3f7c9b105eb8f/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784121504654"
-  }
 }

@@ -1,178 +1,91 @@
 {
-  "Item": {
     "ASIN": "4478300593",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A7%E3%83%83%E3%82%B7%E3%83%A7%E3%83%8A%E3%83%AB%E3%81%AE%E6%9D%A1%E4%BB%B6%E2%80%95%E2%80%95%E3%81%84%E3%81%8B%E3%81%AB%E6%88%90%E6%9E%9C%E3%82%92%E3%81%82%E3%81%92%E3%80%81%E6%88%90%E9%95%B7%E3%81%99%E3%82%8B%E3%81%8B-%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E8%AA%AD%E3%82%80%E3%83%89%E3%83%A9%E3%83%83%E3%82%AB%E3%83%BC-%E8%87%AA%E5%B7%B1%E5%AE%9F%E7%8F%BE%E7%B7%A8-P%E3%83%BBF-%E3%83%89%E3%83%A9%E3%83%83%E3%82%AB%E3%83%BC/dp/4478300593?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4478300593",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4478300593&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478300593"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4478300593?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478300593"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4478300593?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478300593"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4478300593?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478300593"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4478300593?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51EG2EG9X3L._SL500_.jpg",
+                "Width": 340
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51EG2EG9X3L._SL160_.jpg",
+                "Width": 109
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51EG2EG9X3L._SL75_.jpg",
+                "Width": 51
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51EG2EG9X3L._SL75_.jpg",
-      "Height": "75",
-      "Width": "51"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51EG2EG9X3L._SL160_.jpg",
-      "Height": "160",
-      "Width": "109"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51EG2EG9X3L.jpg",
-      "Height": "475",
-      "Width": "323"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51EG2EG9X3L._SL30_.jpg",
-          "Height": "30",
-          "Width": "20"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "P・F. ドラッカー",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "Peter F. Drucker",
+                    "Role": "原著",
+                    "RoleType": "original_name"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "上田 惇生",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "ダイヤモンド社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51EG2EG9X3L._SL75_.jpg",
-          "Height": "75",
-          "Width": "51"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51EG2EG9X3L._SL75_.jpg",
-          "Height": "75",
-          "Width": "51"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 266,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2000-07-01T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51EG2EG9X3L._SL110_.jpg",
-          "Height": "110",
-          "Width": "75"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51EG2EG9X3L._SL160_.jpg",
-          "Height": "160",
-          "Width": "109"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51EG2EG9X3L.jpg",
-          "Height": "475",
-          "Width": "323"
+        "Title": {
+            "DisplayValue": "プロフェッショナルの条件――いかに成果をあげ、成長するか (はじめて読むドラッカー (自己実現編))",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "P・F. ドラッカー",
-      "Binding": "単行本",
-      "Creator": [
-        "Peter F. Drucker",
-        "上田 惇生"
-      ],
-      "EAN": "9784478300596",
-      "EANList": {
-        "EANListElement": "9784478300596"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "9784478300596",
-      "ItemDimensions": {
-        "Weight": "1"
-      },
-      "Label": "ダイヤモンド社",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "ダイヤモンド社",
-      "NumberOfPages": "266",
-      "PackageDimensions": {
-        "Height": "98",
-        "Length": "768",
-        "Weight": "93",
-        "Width": "551"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2000-07-01",
-      "Publisher": "ダイヤモンド社",
-      "Studio": "ダイヤモンド社",
-      "Title": "プロフェッショナルの条件――いかに成果をあげ、成長するか (はじめて読むドラッカー (自己実現編))"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "1944",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,944"
-      },
-      "LowestUsedPrice": {
-        "Amount": "135",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 135"
-      },
-      "LowestCollectiblePrice": {
-        "Amount": "1520",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,520"
-      },
-      "TotalNew": "4",
-      "TotalUsed": "223",
-      "TotalCollectible": "3",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4478300593?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478300593",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "UqwYjUme%2BDYnl9DLikh8yZVBgp9XFghj4wAwL41mSsbQgR015NlcrYKUFxvIymiMIP9K8ZWHXoEK3%2F81JpNXYB4D545RQXLlVm1l5yhy6uA%3D",
-          "Price": {
-            "Amount": "1944",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,944"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "19",
-          "TypicalRedemptionValue": {
-            "Amount": "19",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 19"
-          }
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 21:13:09 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/0085b997e0a66b18135cb8a67c0562d9/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/0085b997e0a66b18135cb8a67c0562d9/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784478300596"
-  }
 }

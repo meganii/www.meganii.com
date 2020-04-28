@@ -1,254 +1,97 @@
 {
-  "Item": {
     "ASIN": "4798055204",
-    "DetailPageURL": "https://www.amazon.co.jp/Puppeteer%E5%85%A5%E9%96%80-%E3%82%B9%E3%82%AF%E3%83%AC%E3%82%A4%E3%83%94%E3%83%B3%E3%82%B0-Web%E6%93%8D%E4%BD%9C%E8%87%AA%E5%8B%95%E5%87%A6%E7%90%86%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-%E3%83%B4%E3%82%A7%E3%83%8D%E3%83%81%E3%82%A2%E5%86%92%E9%99%BA%E5%9C%98/dp/4798055204?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4798055204",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4798055204&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798055204"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4798055204?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798055204"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4798055204?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798055204"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4798055204?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798055204"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4798055204?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51FIezhfvvL.jpg",
+                "Width": 387
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51FIezhfvvL._SL160_.jpg",
+                "Width": 124
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51FIezhfvvL._SL75_.jpg",
+                "Width": 58
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51FIezhfvvL._SL75_.jpg",
-      "Height": "75",
-      "Width": "58"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51FIezhfvvL._SL160_.jpg",
-      "Height": "160",
-      "Width": "124"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51FIezhfvvL.jpg",
-      "Height": "500",
-      "Width": "387"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41RZNdtYb6L._SL30_.jpg",
-            "Height": "30",
-            "Width": "23"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41RZNdtYb6L._SL75_.jpg",
-            "Height": "75",
-            "Width": "58"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41RZNdtYb6L._SL75_.jpg",
-            "Height": "75",
-            "Width": "58"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41RZNdtYb6L._SL110_.jpg",
-            "Height": "110",
-            "Width": "85"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41RZNdtYb6L._SL160_.jpg",
-            "Height": "160",
-            "Width": "124"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41RZNdtYb6L.jpg",
-            "Height": "500",
-            "Width": "388"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "ヴェネチア冒険團",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "美崎 薫",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "小原 亮一",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "酒井 一成",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "秀和システム",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51a9LPphh2L._SL30_.jpg",
-            "Height": "30",
-            "Width": "23"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51a9LPphh2L._SL75_.jpg",
-            "Height": "75",
-            "Width": "58"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51a9LPphh2L._SL75_.jpg",
-            "Height": "75",
-            "Width": "58"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51a9LPphh2L._SL110_.jpg",
-            "Height": "110",
-            "Width": "85"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51a9LPphh2L._SL160_.jpg",
-            "Height": "160",
-            "Width": "124"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51a9LPphh2L.jpg",
-            "Height": "500",
-            "Width": "387"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/81IXRwgfMZL.jpg",
-            "Height": "1268",
-            "Width": "982"
-          }
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51FIezhfvvL._SL30_.jpg",
-            "Height": "30",
-            "Width": "23"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51FIezhfvvL._SL75_.jpg",
-            "Height": "75",
-            "Width": "58"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51FIezhfvvL._SL75_.jpg",
-            "Height": "75",
-            "Width": "58"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51FIezhfvvL._SL110_.jpg",
-            "Height": "110",
-            "Width": "85"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51FIezhfvvL._SL160_.jpg",
-            "Height": "160",
-            "Width": "124"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51FIezhfvvL.jpg",
-            "Height": "500",
-            "Width": "387"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/81qn5wK2c9L.jpg",
-            "Height": "1268",
-            "Width": "982"
-          }
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 384,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2018-09-19T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
+        },
+        "Title": {
+            "DisplayValue": "Puppeteer入門 スクレイピング+Web操作自動処理プログラミング",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": [
-        "ヴェネチア冒険團",
-        "美崎 薫",
-        "小原 亮一",
-        "酒井 一成"
-      ],
-      "Binding": "単行本",
-      "EAN": "9784798055206",
-      "EANList": {
-        "EANListElement": "9784798055206"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4798055204",
-      "Label": "秀和システム",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "発行済み"
-        }
-      },
-      "ListPrice": {
-        "Amount": "3080",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,080"
-      },
-      "Manufacturer": "秀和システム",
-      "NumberOfItems": "1",
-      "NumberOfPages": "384",
-      "PackageDimensions": {
-        "Height": "91",
-        "Length": "933",
-        "Weight": "168",
-        "Width": "724"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2018-09-19",
-      "Publisher": "秀和システム",
-      "Studio": "秀和システム",
-      "Title": "Puppeteer入門 スクレイピング+Web操作自動処理プログラミング"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "3080",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,080"
-      },
-      "LowestUsedPrice": {
-        "Amount": "1429",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,429"
-      },
-      "TotalNew": "5",
-      "TotalUsed": "14",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4798055204?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798055204",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "IKbpRWYyzvK4WbrPibeJku1KKTGathsKe1%2FmQcvBdwpoXuVm3ImHLNdjmKJsCrh559Zqh21qmE4pvaCw55eu%2B6lSJ%2BeNc1fLNq8cHc%2Bg52U%3D",
-          "Price": {
-            "Amount": "3080",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 3,080"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "31",
-          "TypicalRedemptionValue": {
-            "Amount": "31",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 31"
-          }
-        }
-      }
     }
-  },
-  "Lastmod": "2020-01-30 07:33:01 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/7a1c7bad1d0931b6c3cf51c2512c4ab0/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/7a1c7bad1d0931b6c3cf51c2512c4ab0/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784798055206"
-  }
 }

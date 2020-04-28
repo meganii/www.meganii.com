@@ -1,168 +1,83 @@
 {
-  "Item": {
     "ASIN": "4098250012",
-    "DetailPageURL": "https://www.amazon.co.jp/%E8%AA%AD%E6%9B%B8%E9%80%B2%E5%8C%96%E8%AB%96%E2%80%BE%E4%BA%BA%E3%81%AF%E3%82%A6%E3%82%A7%E3%83%96%E3%81%A7%E5%A4%89%E3%82%8F%E3%82%8B%E3%81%AE%E3%81%8B%E3%80%82%E6%9C%AC%E3%81%AF%E3%82%A6%E3%82%A7%E3%83%96%E3%81%AB%E8%B2%A0%E3%81%91%E3%81%9F%E3%81%AE%E3%81%8B%E2%80%BE-%E5%B0%8F%E5%AD%A6%E9%A4%A8101%E6%96%B0%E6%9B%B8-%E5%8B%9D%E9%96%93-%E5%92%8C%E4%BB%A3/dp/4098250012?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4098250012",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4098250012&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4098250012"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4098250012?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4098250012"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4098250012?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4098250012"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4098250012?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4098250012"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4098250012?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41nC9Nn4AWL._SL500_.jpg",
+                "Width": 312
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41nC9Nn4AWL._SL160_.jpg",
+                "Width": 100
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41nC9Nn4AWL._SL75_.jpg",
+                "Width": 47
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nC9Nn4AWL._SL75_.jpg",
-      "Height": "75",
-      "Width": "47"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nC9Nn4AWL._SL160_.jpg",
-      "Height": "160",
-      "Width": "100"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nC9Nn4AWL.jpg",
-      "Height": "481",
-      "Width": "300"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nC9Nn4AWL._SL30_.jpg",
-          "Height": "30",
-          "Width": "19"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "勝間 和代",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "小学館",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nC9Nn4AWL._SL75_.jpg",
-          "Height": "75",
-          "Width": "47"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "新書",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nC9Nn4AWL._SL75_.jpg",
-          "Height": "75",
-          "Width": "47"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    },
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "不明"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 256,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2008-10-01T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nC9Nn4AWL._SL110_.jpg",
-          "Height": "110",
-          "Width": "69"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nC9Nn4AWL._SL160_.jpg",
-          "Height": "160",
-          "Width": "100"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41nC9Nn4AWL.jpg",
-          "Height": "481",
-          "Width": "300"
+        "Title": {
+            "DisplayValue": "読書進化論‾人はウェブで変わるのか。本はウェブに負けたのか‾ (小学館101新書)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "勝間 和代",
-      "Binding": "新書",
-      "EAN": "9784098250011",
-      "EANList": {
-        "EANListElement": "9784098250011"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4098250012",
-      "Label": "小学館",
-      "Languages": {
-        "Language": [
-          {
-            "Name": "日本語",
-            "Type": "Published"
-          },
-          {
-            "Name": "日本語",
-            "Type": "Unknown"
-          }
-        ]
-      },
-      "Manufacturer": "小学館",
-      "NumberOfPages": "256",
-      "PackageDimensions": {
-        "Height": "79",
-        "Length": "677",
-        "Weight": "35",
-        "Width": "433"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2008-10-01",
-      "Publisher": "小学館",
-      "Studio": "小学館",
-      "Title": "読書進化論‾人はウェブで変わるのか。本はウェブに負けたのか‾ (小学館101新書)"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "1480",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,480"
-      },
-      "LowestUsedPrice": {
-        "Amount": "1",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1"
-      },
-      "LowestCollectiblePrice": {
-        "Amount": "316",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 316"
-      },
-      "TotalNew": "1",
-      "TotalUsed": "138",
-      "TotalCollectible": "6",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4098250012?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4098250012",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "2S8kZ0SIzzgIvnrdNTrjB1TNpl3zRrtbGTleuTkXf6Yl0YCtnmlctDPbm6Wt7bjQOoLjeRj%2FxYtz7Y0uxM7Jd2xNLFTkWlSn65XiHdVWC0EIYDrkHT2PM5r1uy5kZGk%2Bdjm4r4AZVUpae7Df8ditOEcfLCLWX1Wo",
-          "Price": {
-            "Amount": "1480",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,480"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:36:42 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/468c1996319f9b217ee64901af4f94d2/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/468c1996319f9b217ee64901af4f94d2/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784098250011"
-  }
 }

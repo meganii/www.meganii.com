@@ -1,216 +1,88 @@
 {
-  "Item": {
     "ASIN": "4478012032",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%82%82%E3%81%97%E9%AB%98%E6%A0%A1%E9%87%8E%E7%90%83%E3%81%AE%E5%A5%B3%E5%AD%90%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC%E3%81%8C%E3%83%89%E3%83%A9%E3%83%83%E3%82%AB%E3%83%BC%E3%81%AE%E3%80%8E%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88%E3%80%8F%E3%82%92%E8%AA%AD%E3%82%93%E3%81%A0%E3%82%89-%E5%B2%A9%E5%B4%8E-%E5%A4%8F%E6%B5%B7/dp/4478012032?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4478012032",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4478012032&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478012032"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4478012032?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478012032"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4478012032?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478012032"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4478012032?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478012032"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4478012032?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51xgGdRt0QL.jpg",
+                "Width": 351
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51xgGdRt0QL._SL160_.jpg",
+                "Width": 112
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51xgGdRt0QL._SL75_.jpg",
+                "Width": 53
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51xgGdRt0QL._SL75_.jpg",
-      "Height": "75",
-      "Width": "53"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51xgGdRt0QL._SL160_.jpg",
-      "Height": "160",
-      "Width": "112"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51xgGdRt0QL.jpg",
-      "Height": "500",
-      "Width": "351"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/510hcG0vyZL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/510hcG0vyZL._SL75_.jpg",
-            "Height": "75",
-            "Width": "52"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/510hcG0vyZL._SL75_.jpg",
-            "Height": "75",
-            "Width": "52"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/510hcG0vyZL._SL110_.jpg",
-            "Height": "110",
-            "Width": "76"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/510hcG0vyZL._SL160_.jpg",
-            "Height": "160",
-            "Width": "111"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/510hcG0vyZL.jpg",
-            "Height": "500",
-            "Width": "346"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "岩崎 夏海",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "ダイヤモンド社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51xgGdRt0QL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51xgGdRt0QL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51xgGdRt0QL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51xgGdRt0QL._SL110_.jpg",
-            "Height": "110",
-            "Width": "77"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51xgGdRt0QL._SL160_.jpg",
-            "Height": "160",
-            "Width": "112"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51xgGdRt0QL.jpg",
-            "Height": "500",
-            "Width": "351"
-          }
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
+        },
+        "ContentInfo": {
+            "Edition": {
+                "DisplayValue": "第五",
+                "Label": "Edition",
+                "Locale": "ja_JP"
+            },
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    },
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "不明"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 272,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2009-12-04T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
+        },
+        "Title": {
+            "DisplayValue": "もし高校野球の女子マネージャーがドラッカーの『マネジメント』を読んだら",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": "岩崎 夏海",
-      "Binding": "単行本",
-      "EAN": "9784478012031",
-      "EANList": {
-        "EANListElement": "9784478012031"
-      },
-      "Edition": "第24",
-      "IsAdultProduct": "0",
-      "ISBN": "9784478012031",
-      "ItemDimensions": {
-        "Weight": "79"
-      },
-      "Label": "ダイヤモンド社",
-      "Languages": {
-        "Language": [
-          {
-            "Name": "日本語",
-            "Type": "Published"
-          },
-          {
-            "Name": "日本語",
-            "Type": "Unknown"
-          }
-        ]
-      },
-      "Manufacturer": "ダイヤモンド社",
-      "NumberOfPages": "272",
-      "PackageDimensions": {
-        "Height": "94",
-        "Length": "732",
-        "Weight": "79",
-        "Width": "512"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2009-12-04",
-      "Publisher": "ダイヤモンド社",
-      "Studio": "ダイヤモンド社",
-      "Title": "もし高校野球の女子マネージャーがドラッカーの『マネジメント』を読んだら"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "1380",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,380"
-      },
-      "LowestUsedPrice": {
-        "Amount": "1",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1"
-      },
-      "LowestCollectiblePrice": {
-        "Amount": "1000",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,000"
-      },
-      "TotalNew": "20",
-      "TotalUsed": "897",
-      "TotalCollectible": "7",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4478012032?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478012032",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "xo1j%2Bq06dl0v5J7g45QfwzbNqh8a%2BoTyGZ1B3rBxBmci078z0dgC%2BpYY3JT%2Bqi6IWJh8j2BtmkKBhWvHOdCxmhslz%2B9ZutpRg0TsBfDagXbRUr0E6pI%2BP9fqcbdv7%2FBHw3FNPv5eHZl8nEL9pXg58%2B7D3s4%2F1fBa",
-          "Price": {
-            "Amount": "1728",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,728"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "349",
-          "TypicalRedemptionValue": {
-            "Amount": "349",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 349"
-          }
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 21:15:21 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/a4e194e830b37d6104208a4e93913e22/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/a4e194e830b37d6104208a4e93913e22/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784478012031"
-  }
 }

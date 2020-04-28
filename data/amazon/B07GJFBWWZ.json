@@ -1,104 +1,79 @@
 {
-  "Item": {
     "ASIN": "B07GJFBWWZ",
-    "DetailPageURL": "https://www.amazon.co.jp/Scrapbox%E6%83%85%E5%A0%B1%E6%95%B4%E7%90%86%E8%A1%93-%E5%80%89%E4%B8%8B%E5%BF%A0%E6%86%B2-ebook/dp/B07GJFBWWZ?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07GJFBWWZ",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=B07GJFBWWZ&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B07GJFBWWZ"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/B07GJFBWWZ?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B07GJFBWWZ"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/B07GJFBWWZ?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B07GJFBWWZ"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/B07GJFBWWZ?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B07GJFBWWZ"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B07GJFBWWZ?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51yMZ+QU40L.jpg",
+                "Width": 352
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51yMZ+QU40L._SL160_.jpg",
+                "Width": 113
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51yMZ+QU40L._SL75_.jpg",
+                "Width": 53
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51yMZ%2BQU40L._SL75_.jpg",
-      "Height": "75",
-      "Width": "53"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51yMZ%2BQU40L._SL160_.jpg",
-      "Height": "160",
-      "Width": "113"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51yMZ%2BQU40L.jpg",
-      "Height": "500",
-      "Width": "352"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51yMZ%2BQU40L._SL30_.jpg",
-          "Height": "30",
-          "Width": "21"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "倉下忠憲",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "シーアンドアール研究所",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51yMZ%2BQU40L._SL75_.jpg",
-          "Height": "75",
-          "Width": "53"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "Kindle版",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Digital Ebook Purchas",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51yMZ%2BQU40L._SL75_.jpg",
-          "Height": "75",
-          "Width": "53"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 253,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2018-08-13T00:00:00.000Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51yMZ%2BQU40L._SL110_.jpg",
-          "Height": "110",
-          "Width": "77"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51yMZ%2BQU40L._SL160_.jpg",
-          "Height": "160",
-          "Width": "113"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51yMZ%2BQU40L.jpg",
-          "Height": "500",
-          "Width": "352"
-        },
-        "HiResImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/811IfYJ2SKL.jpg",
-          "Height": "2150",
-          "Width": "1512"
+        "Title": {
+            "DisplayValue": "Scrapbox情報整理術",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "倉下忠憲",
-      "Binding": "Kindle版",
-      "Format": "Kindle本",
-      "IsAdultProduct": "0",
-      "Label": "シーアンドアール研究所",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "シーアンドアール研究所",
-      "NumberOfPages": "253",
-      "ProductGroup": "eBooks",
-      "ProductTypeName": "ABIS_EBOOKS",
-      "PublicationDate": "2018-08-13",
-      "Publisher": "シーアンドアール研究所",
-      "ReleaseDate": "2018-08-16",
-      "Studio": "シーアンドアール研究所",
-      "Title": "Scrapbox情報整理術"
     }
-  },
-  "Lastmod": "2019-06-15 20:39:38 +0900"
 }

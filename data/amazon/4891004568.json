@@ -1,174 +1,96 @@
 {
-  "Item": {
     "ASIN": "4891004568",
-    "DetailPageURL": "https://www.amazon.co.jp/CODE-COMPLETE-%E7%AC%AC2%E7%89%88-%E4%B8%8B-%E5%AE%8C%E5%85%A8%E3%81%AA%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%82%92%E7%9B%AE%E6%8C%87%E3%81%97%E3%81%A6/dp/4891004568?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4891004568",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4891004568&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4891004568"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4891004568?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4891004568"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4891004568?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4891004568"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4891004568?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4891004568"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4891004568?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/510NHJ2MX1L.jpg",
+                "Width": 386
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/510NHJ2MX1L._SL160_.jpg",
+                "Width": 124
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/510NHJ2MX1L._SL75_.jpg",
+                "Width": 58
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/510NHJ2MX1L._SL75_.jpg",
-      "Height": "75",
-      "Width": "58"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/510NHJ2MX1L._SL160_.jpg",
-      "Height": "160",
-      "Width": "124"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/510NHJ2MX1L.jpg",
-      "Height": "500",
-      "Width": "386"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/510NHJ2MX1L._SL30_.jpg",
-          "Height": "30",
-          "Width": "23"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "スティーブ マコネル",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "McConnell,Steve",
+                    "Role": "原著",
+                    "RoleType": "original_name"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "クイープ",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "日経BP",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/510NHJ2MX1L._SL75_.jpg",
-          "Height": "75",
-          "Width": "58"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/510NHJ2MX1L._SL75_.jpg",
-          "Height": "75",
-          "Width": "58"
+        "ContentInfo": {
+            "Edition": {
+                "DisplayValue": "第2",
+                "Label": "Edition",
+                "Locale": "ja_JP"
+            },
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 545,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2005-03-26T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/510NHJ2MX1L._SL110_.jpg",
-          "Height": "110",
-          "Width": "85"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/510NHJ2MX1L._SL160_.jpg",
-          "Height": "160",
-          "Width": "124"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/510NHJ2MX1L.jpg",
-          "Height": "500",
-          "Width": "386"
+        "Title": {
+            "DisplayValue": "CODE COMPLETE 第2版 下 完全なプログラミングを目指して",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "スティーブ マコネル",
-      "Binding": "単行本",
-      "Creator": [
-        "Steve McConnell",
-        "クイープ"
-      ],
-      "EAN": "9784891004569",
-      "EANList": {
-        "EANListElement": "9784891004569"
-      },
-      "Edition": "第2",
-      "IsAdultProduct": "0",
-      "ISBN": "4891004568",
-      "ItemDimensions": {
-        "Weight": "0"
-      },
-      "Label": "日経BP",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "日経BP",
-      "NumberOfPages": "545",
-      "PackageDimensions": {
-        "Height": "118",
-        "Length": "921",
-        "Weight": "203",
-        "Width": "724"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2005-03-26",
-      "Publisher": "日経BP",
-      "Studio": "日経BP",
-      "Title": "CODE COMPLETE 第2版 下 完全なプログラミングを目指して"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "6588",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 6,588"
-      },
-      "LowestUsedPrice": {
-        "Amount": "3030",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,030"
-      },
-      "TotalNew": "2",
-      "TotalUsed": "25",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4891004568?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4891004568",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "LIOknGhuHNQfQf7L0314HtRHDlG6gYQudQNlMgAx5Ti5nK%2FhcHpKjRyM0Cv2qUXJ1x3jRVIJSWDPM8MhcUDE85mLJqySCldP",
-          "Price": {
-            "Amount": "6588",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 6,588"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "65",
-          "TypicalRedemptionValue": {
-            "Amount": "65",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 65"
-          }
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:43:54 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/a934f26976ac20c31d6460c01f758cb3/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/a934f26976ac20c31d6460c01f758cb3/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784891004569"
-  }
 }

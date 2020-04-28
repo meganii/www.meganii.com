@@ -1,135 +1,91 @@
 {
-  "Item": {
     "ASIN": "4150113521",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%82%B9%E3%83%8E%E3%82%A6%E3%83%BB%E3%82%AF%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5%E3%80%88%E4%B8%8B%E3%80%89-%E3%83%8F%E3%83%A4%E3%82%AB%E3%83%AF%E6%96%87%E5%BA%ABSF-%E3%83%8B%E3%83%BC%E3%83%AB%E3%83%BB%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%B4%E3%83%B3%E3%82%B9%E3%83%B3/dp/4150113521?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4150113521",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4150113521&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4150113521"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4150113521?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4150113521"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4150113521?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4150113521"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4150113521?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4150113521"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4150113521?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/518PCPSNN7L._SL500_.jpg",
+                "Width": 347
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/518PCPSNN7L._SL160_.jpg",
+                "Width": 111
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/518PCPSNN7L._SL75_.jpg",
+                "Width": 52
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/518PCPSNN7L._SL75_.jpg",
-      "Height": "75",
-      "Width": "52"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/518PCPSNN7L._SL160_.jpg",
-      "Height": "160",
-      "Width": "111"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/518PCPSNN7L.jpg",
-      "Height": "475",
-      "Width": "330"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/518PCPSNN7L._SL30_.jpg",
-          "Height": "30",
-          "Width": "21"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "ニール・スティーヴンスン",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "Neal Stephenson",
+                    "Role": "原著",
+                    "RoleType": "original_name"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "日暮 雅通",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "早川書房",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/518PCPSNN7L._SL75_.jpg",
-          "Height": "75",
-          "Width": "52"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "文庫",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/518PCPSNN7L._SL75_.jpg",
-          "Height": "75",
-          "Width": "52"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 395,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2001-04-01",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/518PCPSNN7L._SL110_.jpg",
-          "Height": "110",
-          "Width": "76"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/518PCPSNN7L._SL160_.jpg",
-          "Height": "160",
-          "Width": "111"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/518PCPSNN7L.jpg",
-          "Height": "475",
-          "Width": "330"
+        "Title": {
+            "DisplayValue": "スノウ・クラッシュ〈下〉 (ハヤカワ文庫SF)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "ニール・スティーヴンスン",
-      "Binding": "文庫",
-      "Creator": [
-        "Neal Stephenson",
-        "日暮 雅通"
-      ],
-      "EAN": "9784150113520",
-      "EANList": {
-        "EANListElement": "9784150113520"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4150113521",
-      "Label": "早川書房",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "早川書房",
-      "NumberOfPages": "395",
-      "PackageDimensions": {
-        "Height": "71",
-        "Length": "591",
-        "Weight": "57",
-        "Width": "425"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2001-04",
-      "Publisher": "早川書房",
-      "Studio": "早川書房",
-      "Title": "スノウ・クラッシュ〈下〉 (ハヤカワ文庫SF)"
-    },
-    "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "632",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 632"
-      },
-      "TotalNew": "0",
-      "TotalUsed": "14",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
     }
-  },
-  "Lastmod": "2019-06-15 20:45:59 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/d1b96c0075eb76dc8a54dfc45e537d8d/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/d1b96c0075eb76dc8a54dfc45e537d8d/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784150113520"
-  }
 }

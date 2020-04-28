@@ -1,173 +1,85 @@
 {
-  "Item": {
     "ASIN": "4774178667",
-    "DetailPageURL": "https://www.amazon.co.jp/nginx%E5%AE%9F%E8%B7%B5%E5%85%A5%E9%96%80-WEB-DB-PRESS-plus/dp/4774178667?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4774178667",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4774178667&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774178667"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4774178667?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774178667"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4774178667?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774178667"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4774178667?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774178667"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4774178667?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/511NShYrT8L.jpg",
+                "Width": 352
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/511NShYrT8L._SL160_.jpg",
+                "Width": 113
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/511NShYrT8L._SL75_.jpg",
+                "Width": 53
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/511NShYrT8L._SL75_.jpg",
-      "Height": "75",
-      "Width": "53"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/511NShYrT8L._SL160_.jpg",
-      "Height": "160",
-      "Width": "113"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/511NShYrT8L.jpg",
-      "Height": "500",
-      "Width": "352"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/511NShYrT8L._SL30_.jpg",
-          "Height": "30",
-          "Width": "21"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "久保 達彦",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "道井 俊介",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "技術評論社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/511NShYrT8L._SL75_.jpg",
-          "Height": "75",
-          "Width": "53"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本（ソフトカバー）",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/511NShYrT8L._SL75_.jpg",
-          "Height": "75",
-          "Width": "53"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 304,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2016-01-16T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/511NShYrT8L._SL110_.jpg",
-          "Height": "110",
-          "Width": "77"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/511NShYrT8L._SL160_.jpg",
-          "Height": "160",
-          "Width": "113"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/511NShYrT8L.jpg",
-          "Height": "500",
-          "Width": "352"
-        },
-        "HiResImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/61LbDMjddRL.jpg",
-          "Height": "1000",
-          "Width": "704"
+        "Title": {
+            "DisplayValue": "nginx実践入門 (WEB+DB PRESS plus)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": [
-        "久保 達彦",
-        "道井 俊介"
-      ],
-      "Binding": "単行本（ソフトカバー）",
-      "EAN": "9784774178660",
-      "EANList": {
-        "EANListElement": "9784774178660"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4774178667",
-      "Label": "技術評論社",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "技術評論社",
-      "NumberOfPages": "304",
-      "PackageDimensions": {
-        "Height": "71",
-        "Length": "835",
-        "Weight": "84",
-        "Width": "587"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2016-01-16",
-      "Publisher": "技術評論社",
-      "Studio": "技術評論社",
-      "Title": "nginx実践入門 (WEB+DB PRESS plus)"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "2992",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,992"
-      },
-      "LowestUsedPrice": {
-        "Amount": "1939",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,939"
-      },
-      "TotalNew": "4",
-      "TotalUsed": "16",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4774178667?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774178667",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "4QQ0aL0Kmz5suq2Y2WMP3uZAdwkBW3yEnd5FfCgLuL%2Bc0u%2BVDGA9PPr08BFoDOw%2BU1EqIzN5WgS3vDoJqqmfT3obpNCVCPxBuzhflmfBbf4%3D",
-          "Price": {
-            "Amount": "2992",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,992"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "30",
-          "TypicalRedemptionValue": {
-            "Amount": "30",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 30"
-          }
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:41:44 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/2540c3c4d28c99d649ace4b08401f0c9/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/2540c3c4d28c99d649ace4b08401f0c9/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784774178660"
-  }
 }

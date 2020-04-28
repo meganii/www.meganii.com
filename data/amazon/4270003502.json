@@ -1,167 +1,91 @@
 {
-  "Item": {
     "ASIN": "4270003502",
-    "DetailPageURL": "https://www.amazon.co.jp/%E6%9C%80%E5%BE%8C%E3%81%AE%E6%8E%88%E6%A5%AD-DVD%E4%BB%98%E3%81%8D%E7%89%88-%E3%81%BC%E3%81%8F%E3%81%AE%E5%91%BD%E3%81%8C%E3%81%82%E3%82%8B%E3%81%86%E3%81%A1%E3%81%AB-%E3%83%A9%E3%83%B3%E3%83%87%E3%82%A3-%E3%83%91%E3%82%A6%E3%82%B7%E3%83%A5/dp/4270003502?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4270003502",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4270003502&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4270003502"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4270003502?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4270003502"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4270003502?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4270003502"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4270003502?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4270003502"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4270003502?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41QNuNeuKNL._SL500_.jpg",
+                "Width": 349
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41QNuNeuKNL._SL160_.jpg",
+                "Width": 112
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41QNuNeuKNL._SL75_.jpg",
+                "Width": 52
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41QNuNeuKNL._SL75_.jpg",
-      "Height": "75",
-      "Width": "52"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41QNuNeuKNL._SL160_.jpg",
-      "Height": "160",
-      "Width": "112"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41QNuNeuKNL.jpg",
-      "Height": "430",
-      "Width": "300"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41QNuNeuKNL._SL30_.jpg",
-          "Height": "30",
-          "Width": "21"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "ランディ パウシュ",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "ジェフリー ザスロー",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "矢羽野 薫",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "武田ランダムハウスジャパン",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41QNuNeuKNL._SL75_.jpg",
-          "Height": "75",
-          "Width": "52"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41QNuNeuKNL._SL75_.jpg",
-          "Height": "75",
-          "Width": "52"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 256,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2008-06-19T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41QNuNeuKNL._SL110_.jpg",
-          "Height": "110",
-          "Width": "77"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41QNuNeuKNL._SL160_.jpg",
-          "Height": "160",
-          "Width": "112"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41QNuNeuKNL.jpg",
-          "Height": "430",
-          "Width": "300"
+        "Title": {
+            "DisplayValue": "最後の授業 DVD付き版 ぼくの命があるうちに",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": [
-        "ランディ パウシュ",
-        "ジェフリー ザスロー"
-      ],
-      "Binding": "単行本",
-      "Creator": "矢羽野 薫",
-      "EAN": "9784270003503",
-      "EANList": {
-        "EANListElement": "9784270003503"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4270003502",
-      "Label": "武田ランダムハウスジャパン",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "武田ランダムハウスジャパン",
-      "NumberOfPages": "256",
-      "PackageDimensions": {
-        "Height": "94",
-        "Length": "748",
-        "Weight": "75",
-        "Width": "543"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2008-06-19",
-      "Publisher": "武田ランダムハウスジャパン",
-      "Studio": "武田ランダムハウスジャパン",
-      "Title": "最後の授業 DVD付き版 ぼくの命があるうちに"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "2376",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,376"
-      },
-      "LowestUsedPrice": {
-        "Amount": "1",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1"
-      },
-      "LowestCollectiblePrice": {
-        "Amount": "388",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 388"
-      },
-      "TotalNew": "2",
-      "TotalUsed": "32",
-      "TotalCollectible": "2",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4270003502?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4270003502",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "UxMpGXupY5jcZiU9Goyc7eT2sykV%2B6ORusiiUeKkc9VLwscM%2BirrjVXL8VBX7Grvk0SijZcwe%2FRjuAHy6LzEmBsBRtlGChzwHOMdkMp0wIuxy%2BnwQH6Eb8lETCDGVgzF1RTuSS7CpAA%2BNo649Rxxgg%3D%3D",
-          "Price": {
-            "Amount": "2376",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,376"
-          },
-          "Availability": "通常1～2営業日以内に発送",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "24",
-            "MaximumHours": "48"
-          },
-          "IsEligibleForSuperSaverShipping": "0",
-          "IsEligibleForPrime": "0"
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 21:13:49 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/bfa847355fcc3d3a4687abbe13ce63d6/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/bfa847355fcc3d3a4687abbe13ce63d6/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784270003503"
-  }
 }

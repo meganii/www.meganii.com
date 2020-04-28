@@ -1,187 +1,85 @@
 {
-  "Item": {
     "ASIN": "4797380357",
-    "DetailPageURL": "https://www.amazon.co.jp/Ruby%E3%81%AB%E3%82%88%E3%82%8B%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%A9%E3%83%BC%E9%96%8B%E7%99%BA%E6%8A%80%E6%B3%95-%E5%B7%A1%E5%9B%9E%E3%83%BB%E8%A7%A3%E6%9E%90%E6%A9%9F%E8%83%BD%E3%81%AE%E5%AE%9F%E8%A3%85%E3%81%A821%E3%81%AE%E9%81%8B%E7%94%A8%E4%BE%8B-%E4%BD%90%E3%80%85%E6%9C%A8-%E6%8B%93%E9%83%8E/dp/4797380357?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4797380357",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4797380357&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4797380357"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4797380357?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4797380357"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4797380357?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4797380357"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4797380357?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4797380357"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4797380357?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51Pvu7X75QL.jpg",
+                "Width": 351
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51Pvu7X75QL._SL160_.jpg",
+                "Width": 112
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51Pvu7X75QL._SL75_.jpg",
+                "Width": 53
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Pvu7X75QL._SL75_.jpg",
-      "Height": "75",
-      "Width": "53"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Pvu7X75QL._SL160_.jpg",
-      "Height": "160",
-      "Width": "112"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Pvu7X75QL.jpg",
-      "Height": "500",
-      "Width": "351"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51n148-dVtL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51n148-dVtL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51n148-dVtL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51n148-dVtL._SL110_.jpg",
-            "Height": "110",
-            "Width": "77"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51n148-dVtL._SL160_.jpg",
-            "Height": "160",
-            "Width": "112"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51n148-dVtL.jpg",
-            "Height": "500",
-            "Width": "351"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61fQc-dR3pL.jpg",
-            "Height": "1032",
-            "Width": "725"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "佐々木 拓郎",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "るびきち",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "SBクリエイティブ",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Pvu7X75QL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Pvu7X75QL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Pvu7X75QL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Pvu7X75QL._SL110_.jpg",
-            "Height": "110",
-            "Width": "77"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Pvu7X75QL._SL160_.jpg",
-            "Height": "160",
-            "Width": "112"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Pvu7X75QL.jpg",
-            "Height": "500",
-            "Width": "351"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71NaJwDbKML.jpg",
-            "Height": "1031",
-            "Width": "724"
-          }
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
+        },
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 448,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2014-08-23T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
+        },
+        "Title": {
+            "DisplayValue": "Rubyによるクローラー開発技法 巡回・解析機能の実装と21の運用例",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": [
-        "佐々木 拓郎",
-        "るびきち"
-      ],
-      "Binding": "単行本",
-      "EAN": "9784797380354",
-      "EANList": {
-        "EANListElement": "9784797380354"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4797380357",
-      "ItemDimensions": {
-        "Weight": "137"
-      },
-      "Label": "SBクリエイティブ",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "SBクリエイティブ",
-      "NumberOfPages": "448",
-      "PackageDimensions": {
-        "Height": "110",
-        "Length": "827",
-        "Weight": "137",
-        "Width": "583"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2014-08-23",
-      "Publisher": "SBクリエイティブ",
-      "Studio": "SBクリエイティブ",
-      "Title": "Rubyによるクローラー開発技法 巡回・解析機能の実装と21の運用例"
-    },
-    "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "429",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 429"
-      },
-      "LowestCollectiblePrice": {
-        "Amount": "1880",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,880"
-      },
-      "TotalNew": "0",
-      "TotalUsed": "29",
-      "TotalCollectible": "1",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
     }
-  },
-  "Lastmod": "2019-06-15 21:15:15 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/b2dabdf1abd4b3bf9856c30fad7809ca/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/b2dabdf1abd4b3bf9856c30fad7809ca/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784797380354"
-  }
 }

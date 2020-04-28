@@ -1,200 +1,54 @@
 {
-  "Item": {
     "ASIN": "B008R5I5WU",
-    "ParentASIN": "B00W4MDFAO",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%83%96%E3%83%BC%E3%83%88%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-SHOE-CARE-TONIC-BB%E3%82%B8%E3%83%B3%E3%83%88%E3%83%8B%E3%83%83%E3%82%AF/dp/B008R5I5WU?psc=1&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B008R5I5WU",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=B008R5I5WU&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B008R5I5WU"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/B008R5I5WU?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B008R5I5WU"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/B008R5I5WU?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B008R5I5WU"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/B008R5I5WU?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B008R5I5WU"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B008R5I5WU?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51kySzoZviL.jpg",
+                "Width": 479
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51kySzoZviL._SL160_.jpg",
+                "Width": 153
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51kySzoZviL._SL75_.jpg",
+                "Width": 72
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kySzoZviL._SL75_.jpg",
-      "Height": "75",
-      "Width": "72"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kySzoZviL._SL160_.jpg",
-      "Height": "160",
-      "Width": "153"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kySzoZviL.jpg",
-      "Height": "500",
-      "Width": "479"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "swatch",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kySzoZviL._SL30_.jpg",
-            "Height": "30",
-            "Width": "29"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kySzoZviL._SL75_.jpg",
-            "Height": "75",
-            "Width": "72"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kySzoZviL._SL75_.jpg",
-            "Height": "75",
-            "Width": "72"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kySzoZviL._SL110_.jpg",
-            "Height": "110",
-            "Width": "105"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kySzoZviL._SL160_.jpg",
-            "Height": "160",
-            "Width": "153"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kySzoZviL.jpg",
-            "Height": "500",
-            "Width": "479"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/917G4sx42UL.jpg",
-            "Height": "2560",
-            "Width": "2454"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "BootBlack(ブートブラック)",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
+            "Manufacturer": {
+                "DisplayValue": "BootBlack",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kySzoZviL._SL30_.jpg",
-            "Height": "30",
-            "Width": "29"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kySzoZviL._SL75_.jpg",
-            "Height": "75",
-            "Width": "72"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kySzoZviL._SL75_.jpg",
-            "Height": "75",
-            "Width": "72"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kySzoZviL._SL110_.jpg",
-            "Height": "110",
-            "Width": "105"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kySzoZviL._SL160_.jpg",
-            "Height": "160",
-            "Width": "153"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kySzoZviL.jpg",
-            "Height": "500",
-            "Width": "479"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/917G4sx42UL.jpg",
-            "Height": "2560",
-            "Width": "2454"
-          }
-        }
-      ]
-    },
-    "ItemAttributes": {
-      "Binding": "ウェア&シューズ",
-      "Brand": "BootBlack(ブートブラック)",
-      "Color": "紙箱",
-      "Department": "メンズ",
-      "EAN": "4971671011809",
-      "EANList": {
-        "EANListElement": "4971671011809"
-      },
-      "Feature": "成分:シュークリーム:ろう、油脂、有機溶剤 ツーフェイスプラスローション:有機溶剤(イソパラフィン系炭化水素)、ノニオン系界面活性剤、エタノール、水",
-      "IsAdultProduct": "0",
-      "Label": "BootBlack",
-      "ListPrice": {
-        "Amount": "2808",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,808"
-      },
-      "Manufacturer": "BootBlack",
-      "Model": "BBジントニック",
-      "PackageDimensions": {
-        "Height": "197",
-        "Length": "551",
-        "Weight": "75",
-        "Width": "457"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Shoes",
-      "ProductTypeName": "SHOES",
-      "Publisher": "BootBlack",
-      "Size": "3・_",
-      "Studio": "BootBlack",
-      "Title": "[ブートブラック] SHOE CARE SET GIN AND TONIC BBジントニック (紙箱3点)"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "2808",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,808"
-      },
-      "TotalNew": "4",
-      "TotalUsed": "0",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/B008R5I5WU?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B008R5I5WU",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "ウェア&シューズ",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Shoes",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "OfferListing": {
-          "OfferListingId": "omgUsxboLUPO5S9%2BjOXYg76kI7bwznauuLG2Rq8qoQ%2FJxUhXFgcTCcG0UeSE3RlLsBoW6WkwuE0p7hKLADZ956qFkpg4ATTHEKtI0unPVYA%3D",
-          "Price": {
-            "Amount": "2808",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,808"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
+        "Title": {
+            "DisplayValue": "[ブートブラック] SHOE CARE SET GIN AND TONIC BBジントニック (紙箱3点)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 21:13:29 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/4e01b4c7bfb7944be3a81c94cd2ae32f/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/4e01b4c7bfb7944be3a81c94cd2ae32f/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=4971671011809"
-  }
 }

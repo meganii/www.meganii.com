@@ -1,274 +1,93 @@
 {
-  "Item": {
     "ASIN": "4478001251",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%BB%E3%82%B9%E3%83%AF%E3%83%B3-%E4%B8%8A-%E2%80%95%E4%B8%8D%E7%A2%BA%E5%AE%9F%E6%80%A7%E3%81%A8%E3%83%AA%E3%82%B9%E3%82%AF%E3%81%AE%E6%9C%AC%E8%B3%AA-%E3%83%8A%E3%82%B7%E3%83%BC%E3%83%A0%E3%83%BB%E3%83%8B%E3%82%B3%E3%83%A9%E3%82%B9%E3%83%BB%E3%82%BF%E3%83%AC%E3%83%96/dp/4478001251?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4478001251",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4478001251&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478001251"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4478001251?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478001251"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4478001251?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478001251"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4478001251?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478001251"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4478001251?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41YtC8L14BL.jpg",
+                "Width": 351
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41YtC8L14BL._SL160_.jpg",
+                "Width": 112
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41YtC8L14BL._SL75_.jpg",
+                "Width": 53
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YtC8L14BL._SL75_.jpg",
-      "Height": "75",
-      "Width": "53"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YtC8L14BL._SL160_.jpg",
-      "Height": "160",
-      "Width": "112"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YtC8L14BL.jpg",
-      "Height": "500",
-      "Width": "351"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41SezWfw4hL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41SezWfw4hL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41SezWfw4hL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41SezWfw4hL._SL110_.jpg",
-            "Height": "110",
-            "Width": "77"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41SezWfw4hL._SL160_.jpg",
-            "Height": "160",
-            "Width": "113"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41SezWfw4hL.jpg",
-            "Height": "500",
-            "Width": "352"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71iD0ou4F4L.jpg",
-            "Height": "1643",
-            "Width": "1158"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "ナシーム・ニコラス・タレブ",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "望月 衛",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "ダイヤモンド社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51%2BniOjdsSL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51%2BniOjdsSL._SL75_.jpg",
-            "Height": "75",
-            "Width": "52"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51%2BniOjdsSL._SL75_.jpg",
-            "Height": "75",
-            "Width": "52"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51%2BniOjdsSL._SL110_.jpg",
-            "Height": "110",
-            "Width": "76"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51%2BniOjdsSL._SL160_.jpg",
-            "Height": "160",
-            "Width": "111"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51%2BniOjdsSL.jpg",
-            "Height": "500",
-            "Width": "346"
-          }
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "ハードカバー",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YtC8L14BL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YtC8L14BL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YtC8L14BL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YtC8L14BL._SL110_.jpg",
-            "Height": "110",
-            "Width": "77"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YtC8L14BL._SL160_.jpg",
-            "Height": "160",
-            "Width": "112"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YtC8L14BL.jpg",
-            "Height": "500",
-            "Width": "351"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71LXQaX5PTL.jpg",
-            "Height": "1638",
-            "Width": "1151"
-          }
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    },
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "原語"
+                    },
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "不明"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 312,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2009-06-19T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
+        },
+        "Title": {
+            "DisplayValue": "ブラック・スワン[上]―不確実性とリスクの本質",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": "ナシーム・ニコラス・タレブ",
-      "Binding": "ハードカバー",
-      "Creator": "望月 衛",
-      "EAN": "9784478001257",
-      "EANList": {
-        "EANListElement": "9784478001257"
-      },
-      "Feature": [
-        "「 ブラック・スワン 上」不確実性とリスクの本質",
-        "著者　ナシーム・ニコラス・タレプは文芸評論家、実証主義者、非常のデリバティブ・トレーダー",
-        "ナシーム・ニコラス・タレプはレバノン生まれ。ニューヨーク在住。大学教授",
-        "第三章　投機家と売春婦・・・よく読むと面白い",
-        "川の深さは4フィート(平均で)ならわたつてはいけない・・・"
-      ],
-      "IsAdultProduct": "0",
-      "ISBN": "4478001251",
-      "ItemDimensions": {
-        "Height": "100",
-        "Length": "750",
-        "Weight": "79",
-        "Width": "540"
-      },
-      "Label": "ダイヤモンド社",
-      "Languages": {
-        "Language": [
-          {
-            "Name": "日本語",
-            "Type": "Published"
-          },
-          {
-            "Name": "日本語",
-            "Type": "Original Language"
-          },
-          {
-            "Name": "日本語",
-            "Type": "Unknown"
-          }
-        ]
-      },
-      "Manufacturer": "ダイヤモンド社",
-      "NumberOfItems": "1",
-      "NumberOfPages": "312",
-      "PackageDimensions": {
-        "Height": "110",
-        "Length": "748",
-        "Weight": "79",
-        "Width": "504"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2009-06-19",
-      "Publisher": "ダイヤモンド社",
-      "Studio": "ダイヤモンド社",
-      "Title": "ブラック・スワン[上]―不確実性とリスクの本質"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "1944",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,944"
-      },
-      "LowestUsedPrice": {
-        "Amount": "21",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 21"
-      },
-      "LowestCollectiblePrice": {
-        "Amount": "1500",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,500"
-      },
-      "TotalNew": "3",
-      "TotalUsed": "90",
-      "TotalCollectible": "4",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4478001251?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478001251",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "NqEqdvPi5tLw%2BdrDVvtsThahcqwXRyUYBVjHvlV84wTeDN0t1dtLtX5xcUORghXVoWeqR1FCiX8J72eiZ1KxM7CaVzuUuimPHqZWZfHYkGY%3D",
-          "Price": {
-            "Amount": "1944",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,944"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "19",
-          "TypicalRedemptionValue": {
-            "Amount": "19",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 19"
-          }
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:36:53 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/afdc2ac212c212f184bbf22c707c0892/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/afdc2ac212c212f184bbf22c707c0892/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784478001257"
-  }
 }

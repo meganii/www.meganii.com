@@ -1,177 +1,109 @@
 {
-  "Item": {
     "ASIN": "4774176737",
-    "DetailPageURL": "https://www.amazon.co.jp/Amazon-Web-Services%E5%AE%9F%E8%B7%B5%E5%85%A5%E9%96%80-PRESS-plus/dp/4774176737?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4774176737",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4774176737&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774176737"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4774176737?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774176737"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4774176737?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774176737"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4774176737?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774176737"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4774176737?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51Ay+X9EixL.jpg",
+                "Width": 352
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51Ay+X9EixL._SL160_.jpg",
+                "Width": 113
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51Ay+X9EixL._SL75_.jpg",
+                "Width": 53
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Ay%2BX9EixL._SL75_.jpg",
-      "Height": "75",
-      "Width": "53"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Ay%2BX9EixL._SL160_.jpg",
-      "Height": "160",
-      "Width": "113"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Ay%2BX9EixL.jpg",
-      "Height": "500",
-      "Width": "352"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Ay%2BX9EixL._SL30_.jpg",
-          "Height": "30",
-          "Width": "21"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "舘岡 守",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "今井 智明",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "永淵 恭子",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "間瀬 哲也",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "三浦 悟",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "柳瀬 任章",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "技術評論社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Ay%2BX9EixL._SL75_.jpg",
-          "Height": "75",
-          "Width": "53"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本（ソフトカバー）",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Ay%2BX9EixL._SL75_.jpg",
-          "Height": "75",
-          "Width": "53"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 368,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2015-11-10T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Ay%2BX9EixL._SL110_.jpg",
-          "Height": "110",
-          "Width": "77"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Ay%2BX9EixL._SL160_.jpg",
-          "Height": "160",
-          "Width": "113"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Ay%2BX9EixL.jpg",
-          "Height": "500",
-          "Width": "352"
-        },
-        "HiResImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/61OHe9jM7sL.jpg",
-          "Height": "1000",
-          "Width": "704"
+        "Title": {
+            "DisplayValue": "Amazon Web Services実践入門 (WEB+DB PRESS plus)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": [
-        "舘岡 守",
-        "今井 智明",
-        "永淵 恭子",
-        "間瀬 哲也",
-        "三浦 悟",
-        "柳瀬 任章"
-      ],
-      "Binding": "単行本（ソフトカバー）",
-      "EAN": "9784774176734",
-      "EANList": {
-        "EANListElement": "9784774176734"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4774176737",
-      "Label": "技術評論社",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "技術評論社",
-      "NumberOfPages": "368",
-      "PackageDimensions": {
-        "Height": "94",
-        "Length": "827",
-        "Weight": "97",
-        "Width": "559"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2015-11-10",
-      "Publisher": "技術評論社",
-      "Studio": "技術評論社",
-      "Title": "Amazon Web Services実践入門 (WEB+DB PRESS plus)"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "2786",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,786"
-      },
-      "LowestUsedPrice": {
-        "Amount": "1281",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,281"
-      },
-      "TotalNew": "5",
-      "TotalUsed": "42",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4774176737?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4774176737",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "o7GmXTsysPdZVduYNDpqxLnnRrkw%2BcvLMD9glTPQQiEwnREYLhZM88xTTh81jT%2FS3XiVBHG8LSKkIDz3k%2BriUPIk5n1Y8EfKOBNLQUH%2BDGo%3D",
-          "Price": {
-            "Amount": "2786",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,786"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "27",
-          "TypicalRedemptionValue": {
-            "Amount": "27",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 27"
-          }
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:37:41 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/6d8a603224585b20a1eddc5134857691/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/6d8a603224585b20a1eddc5134857691/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784774176734"
-  }
 }

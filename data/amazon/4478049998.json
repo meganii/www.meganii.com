@@ -1,175 +1,84 @@
 {
-  "Item": {
     "ASIN": "4478049998",
-    "DetailPageURL": "https://www.amazon.co.jp/%E5%9C%B0%E7%90%83%E3%81%AE%E6%AD%A9%E3%81%8D%E6%96%B9-aruco-%E3%82%B9%E3%83%9A%E3%82%A4%E3%83%B3-2017~2018-%E5%9C%B0%E7%90%83%E3%81%AE%E6%AD%A9%E3%81%8D%E6%96%B9aruco/dp/4478049998?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4478049998",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4478049998&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478049998"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4478049998?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478049998"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4478049998?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478049998"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4478049998?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478049998"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4478049998?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/61B9mk+qH9L.jpg",
+                "Width": 386
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/61B9mk+qH9L._SL160_.jpg",
+                "Width": 124
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/61B9mk+qH9L._SL75_.jpg",
+                "Width": 58
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/61B9mk%2BqH9L._SL75_.jpg",
-      "Height": "75",
-      "Width": "58"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/61B9mk%2BqH9L._SL160_.jpg",
-      "Height": "160",
-      "Width": "124"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/61B9mk%2BqH9L.jpg",
-      "Height": "500",
-      "Width": "386"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/61B9mk%2BqH9L._SL30_.jpg",
-          "Height": "30",
-          "Width": "23"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "地球の歩き方編集室",
+                    "Role": "編集",
+                    "RoleType": "editor"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "ダイヤモンド・ビッグ社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/61B9mk%2BqH9L._SL75_.jpg",
-          "Height": "75",
-          "Width": "58"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本（ソフトカバー）",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/61B9mk%2BqH9L._SL75_.jpg",
-          "Height": "75",
-          "Width": "58"
+        "ContentInfo": {
+            "Edition": {
+                "DisplayValue": "改訂第3",
+                "Label": "Edition",
+                "Locale": "ja_JP"
+            },
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 192,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2016-12-17T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/61B9mk%2BqH9L._SL110_.jpg",
-          "Height": "110",
-          "Width": "85"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/61B9mk%2BqH9L._SL160_.jpg",
-          "Height": "160",
-          "Width": "124"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/61B9mk%2BqH9L.jpg",
-          "Height": "500",
-          "Width": "386"
-        },
-        "HiResImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/813JV9bnRAL.jpg",
-          "Height": "1296",
-          "Width": "1000"
+        "Title": {
+            "DisplayValue": "21 地球の歩き方 aruco スペイン 2017~2018 (地球の歩き方aruco)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Binding": "単行本（ソフトカバー）",
-      "Creator": "地球の歩き方編集室",
-      "EAN": "9784478049990",
-      "EANList": {
-        "EANListElement": "9784478049990"
-      },
-      "Edition": "改訂第3",
-      "IsAdultProduct": "0",
-      "ISBN": "4478049998",
-      "ItemDimensions": {
-        "Weight": "132"
-      },
-      "Label": "ダイヤモンド・ビッグ社",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "ダイヤモンド・ビッグ社",
-      "NumberOfItems": "1",
-      "NumberOfPages": "192",
-      "PackageDimensions": {
-        "Height": "55",
-        "Length": "748",
-        "Weight": "53",
-        "Width": "583"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2016-12-17",
-      "Publisher": "ダイヤモンド・ビッグ社",
-      "Studio": "ダイヤモンド・ビッグ社",
-      "Title": "21 地球の歩き方 aruco スペイン 2017~2018 (地球の歩き方aruco)"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "1296",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,296"
-      },
-      "LowestUsedPrice": {
-        "Amount": "194",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 194"
-      },
-      "TotalNew": "2",
-      "TotalUsed": "25",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4478049998?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4478049998",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "%2Fv0YTCOGyw5%2F632o1vUdIJiFo5XbkhpbDIOrSo87yLgGeB8bHiHrp1k3fVPM3drGq5f9XeaOvH7PhZc4vmMUPXQ7f8QKrkhyNRxkS0nrobI%3D",
-          "Price": {
-            "Amount": "1296",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,296"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "13",
-          "TypicalRedemptionValue": {
-            "Amount": "13",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 13"
-          }
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:30:55 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/44a336145f512dc3bcdd0adf618293ae/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/44a336145f512dc3bcdd0adf618293ae/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784478049990"
-  }
 }

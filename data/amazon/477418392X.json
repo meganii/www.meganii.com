@@ -1,218 +1,115 @@
 {
-  "Item": {
     "ASIN": "477418392X",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AEGo%E8%A8%80%E8%AA%9E%E3%80%90%E7%8F%BE%E5%A0%B4%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8B%E5%AE%9F%E8%B7%B5%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF%E3%80%91-%E6%9D%BE%E6%9C%A8%E9%9B%85%E5%B9%B8/dp/477418392X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=477418392X",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=477418392X&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=477418392X"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/477418392X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=477418392X"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/477418392X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=477418392X"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/477418392X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=477418392X"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/477418392X?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/61EL3Dc95dL.jpg",
+                "Width": 354
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/61EL3Dc95dL._SL160_.jpg",
+                "Width": 113
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/61EL3Dc95dL._SL75_.jpg",
+                "Width": 53
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/61EL3Dc95dL._SL75_.jpg",
-      "Height": "75",
-      "Width": "53"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/61EL3Dc95dL._SL160_.jpg",
-      "Height": "160",
-      "Width": "113"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/61EL3Dc95dL.jpg",
-      "Height": "500",
-      "Width": "354"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/412hAn2ACuL._SL30_.jpg",
-            "Height": "14",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/412hAn2ACuL._SL75_.jpg",
-            "Height": "34",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/412hAn2ACuL._SL75_.jpg",
-            "Height": "34",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/412hAn2ACuL._SL110_.jpg",
-            "Height": "50",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/412hAn2ACuL._SL160_.jpg",
-            "Height": "72",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/412hAn2ACuL.jpg",
-            "Height": "226",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/81IkZ0Ps%2BrL.jpg",
-            "Height": "1118",
-            "Width": "2476"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "松木雅幸",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "mattn",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "藤原俊一郎",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "中島大一",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "牧 大輔",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "鈴木健太",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "稲葉貴洋",
+                    "Role": "イラスト",
+                    "RoleType": "illustrator"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "技術評論社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61EL3Dc95dL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61EL3Dc95dL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61EL3Dc95dL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61EL3Dc95dL._SL110_.jpg",
-            "Height": "110",
-            "Width": "78"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61EL3Dc95dL._SL160_.jpg",
-            "Height": "160",
-            "Width": "113"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61EL3Dc95dL.jpg",
-            "Height": "500",
-            "Width": "354"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71RTk7xAUkL.jpg",
-            "Height": "1000",
-            "Width": "708"
-          }
-        }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": [
-        "松木雅幸",
-        "mattn",
-        "藤原俊一郎",
-        "中島大一",
-        "牧 大輔",
-        "鈴木健太"
-      ],
-      "Binding": "大型本",
-      "Creator": "稲葉貴洋",
-      "EAN": "9784774183923",
-      "EANList": {
-        "EANListElement": "9784774183923"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "477418392X",
-      "Label": "技術評論社",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "技術評論社",
-      "NumberOfPages": "144",
-      "PackageDimensions": {
-        "Height": "31",
-        "Length": "1000",
-        "Weight": "110",
-        "Width": "717"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2016-09-09",
-      "Publisher": "技術評論社",
-      "Studio": "技術評論社",
-      "Title": "みんなのGo言語【現場で使える実践テクニック】"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "2138",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,138"
-      },
-      "LowestUsedPrice": {
-        "Amount": "1886",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,886"
-      },
-      "TotalNew": "6",
-      "TotalUsed": "11",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/477418392X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=477418392X",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "大型本",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "OfferListing": {
-          "OfferListingId": "hz3ExswQatfDpSh8xqyrEOqVeyBy600XQ15Tgj9B7p1emf9uSIikZ1giYk4GyIZcuUfx%2ByMYT6x57r4JRRUxFBRu9g1g6l3Uld986VrTnD4%3D",
-          "Price": {
-            "Amount": "2138",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,138"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 144,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2016-09-09T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "LoyaltyPoints": {
-          "Points": "21",
-          "TypicalRedemptionValue": {
-            "Amount": "21",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 21"
-          }
+        "Title": {
+            "DisplayValue": "みんなのGo言語【現場で使える実践テクニック】",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:36:06 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/0234e5c15bd645d0d3fde959c26051c7/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/0234e5c15bd645d0d3fde959c26051c7/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784774183923"
-  }
 }

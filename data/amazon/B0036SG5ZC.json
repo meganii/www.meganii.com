@@ -1,192 +1,54 @@
 {
-  "Item": {
     "ASIN": "B0036SG5ZC",
-    "ParentASIN": "B073WFS38K",
-    "DetailPageURL": "https://www.amazon.co.jp/MOBILE-Pocket-%E3%82%A4%E3%83%BC%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB-D25HW-%E3%83%97%E3%83%AA%E3%83%9A%E3%82%A4%E3%83%89%E5%9E%8B%E3%83%87%E3%83%BC%E3%82%BF%E9%80%9A%E4%BF%A1%E3%82%AB%E3%83%BC%E3%83%89/dp/B0036SG5ZC?psc=1&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0036SG5ZC",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=B0036SG5ZC&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B0036SG5ZC"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/B0036SG5ZC?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B0036SG5ZC"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/B0036SG5ZC?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B0036SG5ZC"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/B0036SG5ZC?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B0036SG5ZC"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B0036SG5ZC?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41jF9lZqkzL.jpg",
+                "Width": 500
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41jF9lZqkzL._SL160_.jpg",
+                "Width": 160
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41jF9lZqkzL._SL75_.jpg",
+                "Width": 75
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41jF9lZqkzL._SL75_.jpg",
-      "Height": "75",
-      "Width": "75"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41jF9lZqkzL._SL160_.jpg",
-      "Height": "160",
-      "Width": "160"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41jF9lZqkzL.jpg",
-      "Height": "500",
-      "Width": "500"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51FXNMf4aTL._SL30_.jpg",
-            "Height": "30",
-            "Width": "22"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51FXNMf4aTL._SL75_.jpg",
-            "Height": "75",
-            "Width": "54"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51FXNMf4aTL._SL75_.jpg",
-            "Height": "75",
-            "Width": "54"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51FXNMf4aTL._SL110_.jpg",
-            "Height": "110",
-            "Width": "79"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51FXNMf4aTL._SL160_.jpg",
-            "Height": "160",
-            "Width": "116"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51FXNMf4aTL.jpg",
-            "Height": "500",
-            "Width": "361"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "トレミール",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
+            "Manufacturer": {
+                "DisplayValue": "トレミール",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/315cYOMMexL._SL30_.jpg",
-            "Height": "30",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/315cYOMMexL._SL75_.jpg",
-            "Height": "75",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/315cYOMMexL._SL75_.jpg",
-            "Height": "75",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/315cYOMMexL._SL110_.jpg",
-            "Height": "110",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/315cYOMMexL._SL160_.jpg",
-            "Height": "160",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/315cYOMMexL.jpg",
-            "Height": "500",
-            "Width": "500"
-          }
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "エレクトロニクス",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Wireless",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41jF9lZqkzL._SL30_.jpg",
-            "Height": "30",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41jF9lZqkzL._SL75_.jpg",
-            "Height": "75",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41jF9lZqkzL._SL75_.jpg",
-            "Height": "75",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41jF9lZqkzL._SL110_.jpg",
-            "Height": "110",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41jF9lZqkzL._SL160_.jpg",
-            "Height": "160",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41jF9lZqkzL.jpg",
-            "Height": "500",
-            "Width": "500"
-          }
+        "Title": {
+            "DisplayValue": "TRE MOBILE PACK Pocket Wifi(2ヵ月+初月分) イーモバイル D25HW プリペイド型データ通信カード",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      ]
-    },
-    "ItemAttributes": {
-      "Binding": "エレクトロニクス",
-      "Brand": "トレミール",
-      "Color": "ホワイト",
-      "EAN": "4571237765421",
-      "EANList": {
-        "EANListElement": "4571237765421"
-      },
-      "Label": "トレミール",
-      "Manufacturer": "トレミール",
-      "Model": "D25HW",
-      "MPN": "D25HW",
-      "PackageDimensions": {
-        "Height": "299",
-        "Length": "1071",
-        "Weight": "100",
-        "Width": "866"
-      },
-      "PackageQuantity": "1",
-      "PartNumber": "D25HW",
-      "ProductGroup": "CE",
-      "ProductTypeName": "PHONE_ACCESSORY",
-      "Publisher": "トレミール",
-      "ReleaseDate": "2010-01-29",
-      "Studio": "トレミール",
-      "Title": "TRE MOBILE PACK Pocket Wifi(2ヵ月+初月分) イーモバイル D25HW プリペイド型データ通信カード"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "29800",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 29,800"
-      },
-      "TotalNew": "1",
-      "TotalUsed": "0",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
     }
-  },
-  "Lastmod": "2019-06-15 20:37:36 +0900",
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=4571237765421"
-  }
 }

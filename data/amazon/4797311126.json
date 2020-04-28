@@ -1,228 +1,133 @@
 {
-  "Item": {
     "ASIN": "4797311126",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E6%8C%87%E5%90%91%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E5%86%8D%E5%88%A9%E7%94%A8%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3-%E3%82%A8%E3%83%AA%E3%83%83%E3%82%AF-%E3%82%AC%E3%83%B3%E3%83%9E/dp/4797311126?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4797311126",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4797311126&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4797311126"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4797311126?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4797311126"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4797311126?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4797311126"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4797311126?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4797311126"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4797311126?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51DuWqWrujL.jpg",
+                "Width": 359
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51DuWqWrujL._SL160_.jpg",
+                "Width": 115
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51DuWqWrujL._SL75_.jpg",
+                "Width": 54
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51DuWqWrujL._SL75_.jpg",
-      "Height": "75",
-      "Width": "54"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51DuWqWrujL._SL160_.jpg",
-      "Height": "160",
-      "Width": "115"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51DuWqWrujL.jpg",
-      "Height": "500",
-      "Width": "359"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41JKcYOhoTL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41JKcYOhoTL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41JKcYOhoTL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41JKcYOhoTL._SL110_.jpg",
-            "Height": "110",
-            "Width": "77"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41JKcYOhoTL._SL160_.jpg",
-            "Height": "160",
-            "Width": "112"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41JKcYOhoTL.jpg",
-            "Height": "500",
-            "Width": "351"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/612FrZDmI3L.jpg",
-            "Height": "1022",
-            "Width": "717"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "Sbクリエイティブ",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "ガンマ,エリック",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "ジョンソン,ラルフ",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "ヘルム,リチャード",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "ブリシディース,ジョン",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "Gamma,Erich",
+                    "Role": "原著",
+                    "RoleType": "original_name"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "Johnson,Ralph",
+                    "Role": "原著",
+                    "RoleType": "original_name"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "Helm,Richard",
+                    "Role": "原��",
+                    "RoleType": "original_name"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "Vlissides,John",
+                    "Role": "原著",
+                    "RoleType": "original_name"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "真一, 本位田",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "和樹, 吉田",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "ソフトバンククリエイティブ",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51DuWqWrujL._SL30_.jpg",
-            "Height": "30",
-            "Width": "22"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51DuWqWrujL._SL75_.jpg",
-            "Height": "75",
-            "Width": "54"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51DuWqWrujL._SL75_.jpg",
-            "Height": "75",
-            "Width": "54"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51DuWqWrujL._SL110_.jpg",
-            "Height": "110",
-            "Width": "79"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51DuWqWrujL._SL160_.jpg",
-            "Height": "160",
-            "Width": "115"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51DuWqWrujL.jpg",
-            "Height": "500",
-            "Width": "359"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61zDpaqhh7L.jpg",
-            "Height": "1021",
-            "Width": "733"
-          }
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
+        },
+        "ContentInfo": {
+            "Edition": {
+                "DisplayValue": "改訂",
+                "Label": "Edition",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 414,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "1999-10-01",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
+        },
+        "Title": {
+            "DisplayValue": "オブジェクト指向における再利用のためのデザインパターン",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": [
-        "エリック ガンマ",
-        "ラルフ ジョンソン",
-        "リチャード ヘルム",
-        "ジョン ブリシディース"
-      ],
-      "Binding": "単行本",
-      "Brand": "Sbクリエイティブ",
-      "Creator": [
-        "Erich Gamma",
-        "Ralph Johnson",
-        "Richard Helm",
-        "John Vlissides",
-        "本位田 真一",
-        "吉田 和樹"
-      ],
-      "EAN": "9784797311129",
-      "EANList": {
-        "EANListElement": "9784797311129"
-      },
-      "Edition": "改訂",
-      "IsAdultProduct": "0",
-      "ISBN": "4797311126",
-      "ItemDimensions": {
-        "Weight": "132"
-      },
-      "Label": "ソフトバンククリエイティブ",
-      "ListPrice": {
-        "Amount": "5184",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 5,184"
-      },
-      "Manufacturer": "ソフトバンククリエイティブ",
-      "NumberOfPages": "414",
-      "PackageDimensions": {
-        "Height": "126",
-        "Length": "1008",
-        "Weight": "251",
-        "Width": "732"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "1999-10",
-      "Publisher": "ソフトバンククリエイティブ",
-      "Studio": "ソフトバンククリエイティブ",
-      "Title": "オブジェクト指向における再利用のためのデザインパターン"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "5184",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 5,184"
-      },
-      "LowestUsedPrice": {
-        "Amount": "1298",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,298"
-      },
-      "TotalNew": "3",
-      "TotalUsed": "34",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4797311126?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4797311126",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "G5wwJCo1lVw%2Bmw4%2B%2Be%2FtRWl%2FDqmjXcEFD6O99mFq4%2F7CfhvgC%2BofAbp9zcJtBUuLcA2kI8acfgvLcLRJEdu4svjcW8bcfyD2evMcAeuS6KE%3D",
-          "Price": {
-            "Amount": "5184",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 5,184"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "51",
-          "TypicalRedemptionValue": {
-            "Amount": "51",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 51"
-          }
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:44:04 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/80cd3ab3113c2e4b04e2a042701f73a3/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/80cd3ab3113c2e4b04e2a042701f73a3/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784797311129"
-  }
 }

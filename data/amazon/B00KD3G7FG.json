@@ -1,280 +1,120 @@
 {
-  "Item": {
     "ASIN": "B00KD3G7FG",
-    "DetailPageURL": "https://www.amazon.co.jp/LIFE-%E3%83%A9%E3%82%A4%E3%83%95-DVD-%E3%83%99%E3%83%B3%E3%83%BB%E3%82%B9%E3%83%86%E3%82%A3%E3%83%A9%E3%83%BC/dp/B00KD3G7FG?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00KD3G7FG",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=B00KD3G7FG&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00KD3G7FG"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/B00KD3G7FG?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00KD3G7FG"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/B00KD3G7FG?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00KD3G7FG"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/B00KD3G7FG?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00KD3G7FG"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B00KD3G7FG?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51YJjmNUmvL.jpg",
+                "Width": 353
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51YJjmNUmvL._SL160_.jpg",
+                "Width": 113
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51YJjmNUmvL._SL75_.jpg",
+                "Width": 53
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51YJjmNUmvL._SL75_.jpg",
-      "Height": "75",
-      "Width": "53"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51YJjmNUmvL._SL160_.jpg",
-      "Height": "160",
-      "Width": "113"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51YJjmNUmvL.jpg",
-      "Height": "500",
-      "Width": "353"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/517w%2Bie85wL._SL30_.jpg",
-            "Height": "30",
-            "Width": "18"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/517w%2Bie85wL._SL75_.jpg",
-            "Height": "75",
-            "Width": "45"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/517w%2Bie85wL._SL75_.jpg",
-            "Height": "75",
-            "Width": "45"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/517w%2Bie85wL._SL110_.jpg",
-            "Height": "110",
-            "Width": "66"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/517w%2Bie85wL._SL160_.jpg",
-            "Height": "160",
-            "Width": "96"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/517w%2Bie85wL.jpg",
-            "Height": "500",
-            "Width": "300"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "20th Century Fox Jp",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "ベン・スティラー",
+                    "Role": "出演",
+                    "RoleType": "actor"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "クリステン・ウィグ",
+                    "Role": "出演",
+                    "RoleType": "actor"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "シャーリー・マクレーン",
+                    "Role": "出演",
+                    "RoleType": "actor"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "アダム・スコット",
+                    "Role": "出演",
+                    "RoleType": "actor"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "ショーン・ペン",
+                    "Role": "出演",
+                    "RoleType": "actor"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "ベン・スティラー",
+                    "Role": "監督",
+                    "RoleType": "director"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "20世紀フォックス・ホーム・エンターテイメント・ジャパン",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51x0e7uKqOL._SL30_.jpg",
-            "Height": "30",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51x0e7uKqOL._SL75_.jpg",
-            "Height": "75",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51x0e7uKqOL._SL75_.jpg",
-            "Height": "75",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51x0e7uKqOL._SL110_.jpg",
-            "Height": "110",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51x0e7uKqOL._SL160_.jpg",
-            "Height": "160",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51x0e7uKqOL.jpg",
-            "Height": "500",
-            "Width": "500"
-          }
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "DVD",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "DVD",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51YJjmNUmvL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51YJjmNUmvL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51YJjmNUmvL._SL75_.jpg",
-            "Height": "75",
-            "Width": "53"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51YJjmNUmvL._SL110_.jpg",
-            "Height": "110",
-            "Width": "78"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51YJjmNUmvL._SL160_.jpg",
-            "Height": "160",
-            "Width": "113"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51YJjmNUmvL.jpg",
-            "Height": "500",
-            "Width": "353"
-          }
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "字幕"
+                    },
+                    {
+                        "DisplayValue": "英語",
+                        "Type": "字幕"
+                    },
+                    {
+                        "DisplayValue": "英語",
+                        "Type": "原語"
+                    },
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "原語"
+                    },
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "不明"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            }
+        },
+        "Title": {
+            "DisplayValue": "LIFE!/ライフ [DVD]",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      ]
-    },
-    "ItemAttributes": {
-      "Actor": [
-        "ベン・スティラー",
-        "クリステン・ウィグ",
-        "シャーリー・マクレーン",
-        "アダム・スコット",
-        "ショーン・ペン"
-      ],
-      "AspectRatio": "2.35:1",
-      "Binding": "DVD",
-      "Brand": "20th Century Fox Jp",
-      "Director": "ベン・スティラー",
-      "EAN": "4988142011015",
-      "EANList": {
-        "EANListElement": "4988142011015"
-      },
-      "Format": [
-        "色",
-        "ドルビー",
-        "ワイドスクリーン"
-      ],
-      "IsAdultProduct": "0",
-      "ItemDimensions": {
-        "Height": "787",
-        "Length": "1181",
-        "Weight": "0",
-        "Width": "394"
-      },
-      "Label": "20世紀フォックス・ホーム・エンターテイメント・ジャパン",
-      "Languages": {
-        "Language": [
-          {
-            "Name": "日本語",
-            "Type": "Subtitled"
-          },
-          {
-            "Name": "英語",
-            "Type": "Subtitled"
-          },
-          {
-            "Name": "英語",
-            "Type": "Original Language",
-            "AudioFormat": "Dolby Digital 5.1"
-          },
-          {
-            "Name": "日本語",
-            "Type": "Original Language",
-            "AudioFormat": "Dolby Digital 5.1"
-          },
-          {
-            "Name": "日本語",
-            "Type": "Unknown",
-            "AudioFormat": "Dolby Digital 5.1"
-          }
-        ]
-      },
-      "ListPrice": {
-        "Amount": "3590",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,590"
-      },
-      "Manufacturer": "20世紀フォックス・ホーム・エンターテイメント・ジャパン",
-      "NumberOfDiscs": "1",
-      "NumberOfItems": "1",
-      "PackageDimensions": {
-        "Height": "47",
-        "Length": "748",
-        "Weight": "18",
-        "Width": "535"
-      },
-      "ProductGroup": "DVD",
-      "ProductTypeName": "ABIS_DVD",
-      "Publisher": "20世紀フォックス・ホーム・エンターテイメント・ジャパン",
-      "RegionCode": "2",
-      "ReleaseDate": "2014-08-02",
-      "RunningTime": "115",
-      "SeikodoProductCode": "FXBA-56538",
-      "Studio": "20世紀フォックス・ホーム・エンターテイメント・ジャパン",
-      "Title": "LIFE!/ライフ [DVD]"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "1080",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,080"
-      },
-      "LowestUsedPrice": {
-        "Amount": "60",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 60"
-      },
-      "TotalNew": "7",
-      "TotalUsed": "62",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/B00KD3G7FG?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00KD3G7FG",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "bg5ccCBCR3LQN3xB7YNkzwCei1GZpMtvF6VE%2BTtbNcfU6UJF91O1jfcMNxRlsvrY1ZEAe3l5hiWvvzOOWMytBrYdXsTkrSnR6FbT70PauuBpzbsm28YGYueqgwT0xgBy2JLZfKz4m9IDgt57XhnTlp6K8xqbh9dR",
-          "Price": {
-            "Amount": "1730",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,730"
-          },
-          "AmountSaved": {
-            "Amount": "1860",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,860"
-          },
-          "PercentageSaved": "52",
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:42:17 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/9e1e7a450cbb38dc0c4c706c364e42e4/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/9e1e7a450cbb38dc0c4c706c364e42e4/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=4988142011015"
-  }
 }

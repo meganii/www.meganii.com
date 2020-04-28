@@ -1,224 +1,108 @@
 {
-  "Item": {
     "ASIN": "427405019X",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%83%AA%E3%83%95%E3%82%A1%E3%82%AF%E3%82%BF%E3%83%AA%E3%83%B3%E3%82%B0%E2%80%95%E6%97%A2%E5%AD%98%E3%81%AE%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E5%AE%89%E5%85%A8%E3%81%AB%E6%94%B9%E5%96%84%E3%81%99%E3%82%8B%E2%80%95-OBJECT-TECHNOLOGY-Martin-Fowler/dp/427405019X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=427405019X",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=427405019X&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=427405019X"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/427405019X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=427405019X"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/427405019X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=427405019X"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/427405019X?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=427405019X"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/427405019X?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51RWpUlhNxL.jpg",
+                "Width": 387
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51RWpUlhNxL._SL160_.jpg",
+                "Width": 124
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51RWpUlhNxL._SL75_.jpg",
+                "Width": 58
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51RWpUlhNxL._SL75_.jpg",
-      "Height": "75",
-      "Width": "58"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51RWpUlhNxL._SL160_.jpg",
-      "Height": "160",
-      "Width": "124"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51RWpUlhNxL.jpg",
-      "Height": "500",
-      "Width": "387"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41AveKKRI%2BL._SL30_.jpg",
-            "Height": "30",
-            "Width": "23"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41AveKKRI%2BL._SL75_.jpg",
-            "Height": "75",
-            "Width": "58"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41AveKKRI%2BL._SL75_.jpg",
-            "Height": "75",
-            "Width": "58"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41AveKKRI%2BL._SL110_.jpg",
-            "Height": "110",
-            "Width": "85"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41AveKKRI%2BL._SL160_.jpg",
-            "Height": "160",
-            "Width": "124"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41AveKKRI%2BL.jpg",
-            "Height": "500",
-            "Width": "386"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "Martin Fowler",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "児玉 公信",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "友野 晶夫",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "平澤 章",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "梅澤 真史",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "オーム社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51SZWtmj7sL._SL30_.jpg",
-            "Height": "30",
-            "Width": "23"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51SZWtmj7sL._SL75_.jpg",
-            "Height": "75",
-            "Width": "58"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51SZWtmj7sL._SL75_.jpg",
-            "Height": "75",
-            "Width": "58"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51SZWtmj7sL._SL110_.jpg",
-            "Height": "110",
-            "Width": "85"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51SZWtmj7sL._SL160_.jpg",
-            "Height": "160",
-            "Width": "124"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51SZWtmj7sL.jpg",
-            "Height": "500",
-            "Width": "387"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/91Zo4BdfTmL.jpg",
-            "Height": "2560",
-            "Width": "1983"
-          }
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本（ソフトカバー）",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51RWpUlhNxL._SL30_.jpg",
-            "Height": "30",
-            "Width": "23"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51RWpUlhNxL._SL75_.jpg",
-            "Height": "75",
-            "Width": "58"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51RWpUlhNxL._SL75_.jpg",
-            "Height": "75",
-            "Width": "58"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51RWpUlhNxL._SL110_.jpg",
-            "Height": "110",
-            "Width": "85"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51RWpUlhNxL._SL160_.jpg",
-            "Height": "160",
-            "Width": "124"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51RWpUlhNxL.jpg",
-            "Height": "500",
-            "Width": "387"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71SE4R7l1AL.jpg",
-            "Height": "1291",
-            "Width": "1000"
-          }
+        "ContentInfo": {
+            "Edition": {
+                "DisplayValue": "新装",
+                "Label": "Edition",
+                "Locale": "ja_JP"
+            },
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 480,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2014-07-26T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
+        },
+        "Title": {
+            "DisplayValue": "新装版 リファクタリング―既存のコードを安全に改善する― (OBJECT TECHNOLOGY SERIES)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": "Martin Fowler",
-      "Binding": "単行本（ソフトカバー）",
-      "Creator": [
-        "児玉 公信",
-        "友野 晶夫",
-        "平澤 章",
-        "梅澤 真史"
-      ],
-      "EAN": "9784274050190",
-      "EANList": {
-        "EANListElement": "9784274050190"
-      },
-      "Edition": "新装",
-      "IsAdultProduct": "0",
-      "ISBN": "427405019X",
-      "ItemDimensions": {
-        "Weight": "132"
-      },
-      "Label": "オーム社",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "オーム社",
-      "NumberOfPages": "480",
-      "PackageDimensions": {
-        "Height": "118",
-        "Length": "921",
-        "Weight": "203",
-        "Width": "717"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2014-07-26",
-      "Publisher": "オーム社",
-      "Studio": "オーム社",
-      "Title": "新装版 リファクタリング―既存のコードを安全に改善する― (OBJECT TECHNOLOGY SERIES)"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "6777",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 6,777"
-      },
-      "LowestUsedPrice": {
-        "Amount": "6522",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 6,522"
-      },
-      "TotalNew": "2",
-      "TotalUsed": "8",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
     }
-  },
-  "Lastmod": "2019-06-15 20:44:26 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/612ea469e18a46cc30435500a8a4ef77/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/612ea469e18a46cc30435500a8a4ef77/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784274050190"
-  }
 }

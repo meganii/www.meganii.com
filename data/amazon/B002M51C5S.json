@@ -1,165 +1,54 @@
 {
-  "Item": {
     "ASIN": "B002M51C5S",
-    "ParentASIN": "B002OHCOC4",
-    "DetailPageURL": "https://www.amazon.co.jp/RICOH-%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%AB%E3%83%A1%E3%83%A9-CX2-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-CX2BK/dp/B002M51C5S?psc=1&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B002M51C5S",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=B002M51C5S&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B002M51C5S"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/B002M51C5S?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B002M51C5S"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/B002M51C5S?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B002M51C5S"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/B002M51C5S?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B002M51C5S"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B002M51C5S?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 324,
+                "URL": "https://m.media-amazon.com/images/I/51O+kI7PjgL.jpg",
+                "Width": 500
+            },
+            "Medium": {
+                "Height": 104,
+                "URL": "https://m.media-amazon.com/images/I/51O+kI7PjgL._SL160_.jpg",
+                "Width": 160
+            },
+            "Small": {
+                "Height": 49,
+                "URL": "https://m.media-amazon.com/images/I/51O+kI7PjgL._SL75_.jpg",
+                "Width": 75
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51O%2BkI7PjgL._SL75_.jpg",
-      "Height": "49",
-      "Width": "75"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51O%2BkI7PjgL._SL160_.jpg",
-      "Height": "104",
-      "Width": "160"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51O%2BkI7PjgL.jpg",
-      "Height": "324",
-      "Width": "500"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51O%2BkI7PjgL._SL30_.jpg",
-          "Height": "19",
-          "Width": "30"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "リコー",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
+            "Manufacturer": {
+                "DisplayValue": "リコー",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51O%2BkI7PjgL._SL75_.jpg",
-          "Height": "49",
-          "Width": "75"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "Camera",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Camera",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51O%2BkI7PjgL._SL75_.jpg",
-          "Height": "49",
-          "Width": "75"
-        },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51O%2BkI7PjgL._SL110_.jpg",
-          "Height": "71",
-          "Width": "110"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51O%2BkI7PjgL._SL160_.jpg",
-          "Height": "104",
-          "Width": "160"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51O%2BkI7PjgL.jpg",
-          "Height": "324",
-          "Width": "500"
+        "Title": {
+            "DisplayValue": "RICOH デジタルカメラ CX2 ブラック CX2BK",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Binding": "Camera",
-      "Brand": "リコー",
-      "Color": "ブラック",
-      "EAN": "4961311855214",
-      "EANList": {
-        "EANListElement": "4961311855214"
-      },
-      "Feature": "●RICOH CX2 ブラック●RICOH",
-      "Format": "不明な形式",
-      "ItemDimensions": {
-        "Height": "315",
-        "Length": "866",
-        "Weight": "41",
-        "Width": "551"
-      },
-      "Label": "リコー",
-      "Manufacturer": "リコー",
-      "ManufacturerPartsWarrantyDescription": "メーカー保証:1年",
-      "Model": "CX2(BK)",
-      "MPN": "CX2(BK)",
-      "OperatingSystem": "not_machine_specific",
-      "PackageDimensions": {
-        "Height": "315",
-        "Length": "858",
-        "Weight": "146",
-        "Width": "543"
-      },
-      "PackageQuantity": "1",
-      "PartNumber": "CX2(BK)",
-      "Platform": "Not Machine Specific",
-      "ProductGroup": "Photography",
-      "ProductTypeName": "CAMERA_DIGITAL",
-      "Publisher": "リコー",
-      "ReleaseDate": "2009-09-11",
-      "Studio": "リコー",
-      "Title": "RICOH デジタルカメラ CX2 ブラック CX2BK"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "24800",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 24,800"
-      },
-      "LowestUsedPrice": {
-        "Amount": "3280",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,280"
-      },
-      "TotalNew": "1",
-      "TotalUsed": "27",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/B002M51C5S?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B002M51C5S",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "OdS%2BYXQL6TcIim9X5v3PDix2uTRsBheJy%2B75Zff%2FWXu5R8If41mTt1vCJJXlC%2F4Pt5oPxWkPmkXSKCWHquYSPhEp10cNFIMeu87hEbLXoCeP9blS3TjrzZhHFnVqM2LSwgG4CtZcOcEooRIoPbB7mlXLfqDrUN0m",
-          "Price": {
-            "Amount": "24800",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 24,800"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:37:26 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/a3bc19648b03009f43a761e645dba5b3/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/a3bc19648b03009f43a761e645dba5b3/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=4961311855214"
-  }
 }

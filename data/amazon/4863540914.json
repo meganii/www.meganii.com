@@ -1,167 +1,69 @@
 {
-  "Item": {
     "ASIN": "4863540914",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E6%99%82%E4%BB%A3%E3%81%AE%E3%83%8F%E3%82%A4%E3%83%96%E3%83%AA%E3%83%83%E3%83%89%E6%89%8B%E5%B8%B3%E8%A1%93-%E5%80%89%E4%B8%8B%E5%BF%A0%E6%86%B2/dp/4863540914?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4863540914",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4863540914&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4863540914"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4863540914?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4863540914"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4863540914?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4863540914"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4863540914?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4863540914"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4863540914?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51f4RT2URdL.jpg",
+                "Width": 353
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51f4RT2URdL._SL160_.jpg",
+                "Width": 113
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51f4RT2URdL._SL75_.jpg",
+                "Width": 53
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51f4RT2URdL._SL75_.jpg",
-      "Height": "75",
-      "Width": "53"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51f4RT2URdL._SL160_.jpg",
-      "Height": "160",
-      "Width": "113"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51f4RT2URdL.jpg",
-      "Height": "500",
-      "Width": "353"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51f4RT2URdL._SL30_.jpg",
-          "Height": "30",
-          "Width": "21"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "倉下忠憲",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "シーアンドアール研究所",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51f4RT2URdL._SL75_.jpg",
-          "Height": "75",
-          "Width": "53"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本（ソフトカバー）",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51f4RT2URdL._SL75_.jpg",
-          "Height": "75",
-          "Width": "53"
+        "ContentInfo": {
+            "PagesCount": {
+                "DisplayValue": 231,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2011-09-23T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51f4RT2URdL._SL110_.jpg",
-          "Height": "110",
-          "Width": "78"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51f4RT2URdL._SL160_.jpg",
-          "Height": "160",
-          "Width": "113"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/51f4RT2URdL.jpg",
-          "Height": "500",
-          "Width": "353"
+        "Title": {
+            "DisplayValue": "クラウド時代のハイブリッド手帳術",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "倉下忠憲",
-      "Binding": "単行本（ソフトカバー）",
-      "EAN": "9784863540910",
-      "EANList": {
-        "EANListElement": "9784863540910"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4863540914",
-      "Label": "シーアンドアール研究所",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "シーアンドアール研究所",
-      "NumberOfPages": "231",
-      "PackageDimensions": {
-        "Height": "83",
-        "Length": "732",
-        "Weight": "55",
-        "Width": "520"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2011-09-23",
-      "Publisher": "シーアンドアール研究所",
-      "SKU": "120421-293",
-      "Studio": "シーアンドアール研究所",
-      "Title": "クラウド時代のハイブリッド手帳術"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "1470",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,470"
-      },
-      "LowestUsedPrice": {
-        "Amount": "83",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 83"
-      },
-      "TotalNew": "3",
-      "TotalUsed": "23",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4863540914?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4863540914",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "CRBsH4PSFtrVejAs626qwNZsQ818tZzZfufuUteD6ou%2Bf08MMMLY1n%2FZjE9DozR08WlhD%2BEz6XW746wtZEPY%2FV4%2F4aM%2BrMYZ4Ye8FZIMc5o%3D",
-          "Price": {
-            "Amount": "1470",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,470"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "15",
-          "TypicalRedemptionValue": {
-            "Amount": "15",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 15"
-          }
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:32:25 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/e91ebb3a373f4d28517cdc9be148bbd9/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/e91ebb3a373f4d28517cdc9be148bbd9/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784863540910"
-  }
 }

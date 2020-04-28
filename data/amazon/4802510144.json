@@ -1,406 +1,84 @@
 {
-  "Item": {
     "ASIN": "4802510144",
-    "DetailPageURL": "https://www.amazon.co.jp/Final-Cut-Motion-Standard-Techniques/dp/4802510144?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4802510144",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4802510144&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4802510144"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4802510144?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4802510144"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4802510144?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4802510144"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4802510144?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4802510144"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4802510144?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/61qnys+bILL.jpg",
+                "Width": 388
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/61qnys+bILL._SL160_.jpg",
+                "Width": 124
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/61qnys+bILL._SL75_.jpg",
+                "Width": 58
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/61qnys%2BbILL._SL75_.jpg",
-      "Height": "75",
-      "Width": "58"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/61qnys%2BbILL._SL160_.jpg",
-      "Height": "160",
-      "Width": "124"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/61qnys%2BbILL.jpg",
-      "Height": "500",
-      "Width": "388"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kl600lR2L._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kl600lR2L._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kl600lR2L._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kl600lR2L._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kl600lR2L._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51kl600lR2L.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71qHKkvCzaL.jpg",
-            "Height": "823",
-            "Width": "1280"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "石坂 アツシ",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "ビー・エヌ・エヌ新社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/515wcKbPZKL._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/515wcKbPZKL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/515wcKbPZKL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/515wcKbPZKL._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/515wcKbPZKL._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/515wcKbPZKL.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71efi9S1LPL.jpg",
-            "Height": "823",
-            "Width": "1280"
-          }
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本（ソフトカバー）",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51rGWY-rNeL._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51rGWY-rNeL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51rGWY-rNeL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51rGWY-rNeL._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51rGWY-rNeL._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51rGWY-rNeL.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71PQRxCjoDL.jpg",
-            "Height": "823",
-            "Width": "1280"
-          }
+        "ContentInfo": {
+            "Edition": {
+                "DisplayValue": "第3",
+                "Label": "Edition",
+                "Locale": "ja_JP"
+            },
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 352,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2016-02-24T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51QbS21CxQL._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51QbS21CxQL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51QbS21CxQL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51QbS21CxQL._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51QbS21CxQL._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51QbS21CxQL.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/710WvFU6EiL.jpg",
-            "Height": "823",
-            "Width": "1280"
-          }
-        },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51836x11IjL._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51836x11IjL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51836x11IjL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51836x11IjL._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51836x11IjL._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51836x11IjL.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71E3rnSLHeL.jpg",
-            "Height": "823",
-            "Width": "1280"
-          }
-        },
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51V%2BK6btysL._SL30_.jpg",
-            "Height": "19",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51V%2BK6btysL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51V%2BK6btysL._SL75_.jpg",
-            "Height": "48",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51V%2BK6btysL._SL110_.jpg",
-            "Height": "71",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51V%2BK6btysL._SL160_.jpg",
-            "Height": "103",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51V%2BK6btysL.jpg",
-            "Height": "321",
-            "Width": "500"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71uUnOxQ70L.jpg",
-            "Height": "823",
-            "Width": "1280"
-          }
-        },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61qnys%2BbILL._SL30_.jpg",
-            "Height": "30",
-            "Width": "23"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61qnys%2BbILL._SL75_.jpg",
-            "Height": "75",
-            "Width": "58"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61qnys%2BbILL._SL75_.jpg",
-            "Height": "75",
-            "Width": "58"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61qnys%2BbILL._SL110_.jpg",
-            "Height": "110",
-            "Width": "85"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61qnys%2BbILL._SL160_.jpg",
-            "Height": "160",
-            "Width": "124"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/61qnys%2BbILL.jpg",
-            "Height": "500",
-            "Width": "388"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/816jGkbxh8L.jpg",
-            "Height": "1280",
-            "Width": "993"
-          }
+        "Title": {
+            "DisplayValue": "Final Cut Pro X + Motion 5  Standard Techniques[第3版]",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": "石坂 アツシ",
-      "Binding": "単行本（ソフトカバー）",
-      "EAN": "9784802510141",
-      "EANList": {
-        "EANListElement": "9784802510141"
-      },
-      "Edition": "第3",
-      "IsAdultProduct": "0",
-      "ISBN": "4802510144",
-      "ItemDimensions": {
-        "Weight": "132"
-      },
-      "Label": "ビー・エヌ・エヌ新社",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "ビー・エヌ・エヌ新社",
-      "NumberOfItems": "1",
-      "NumberOfPages": "352",
-      "PackageDimensions": {
-        "Height": "98",
-        "Length": "921",
-        "Weight": "190",
-        "Width": "720"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2016-02-24",
-      "Publisher": "ビー・エヌ・エヌ新社",
-      "ReleaseDate": "2016-02-24",
-      "Studio": "ビー・エヌ・エヌ新社",
-      "Title": "Final Cut Pro X + Motion 5  Standard Techniques[第3版]"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "3456",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,456"
-      },
-      "LowestUsedPrice": {
-        "Amount": "2186",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,186"
-      },
-      "TotalNew": "3",
-      "TotalUsed": "7",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4802510144?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4802510144",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "Lkja5M3GfjeH%2BrfaSgS3OAlbw3BMMz%2Fm91xxGiDSyByn66pH1qYFYnKnzpBtfqZsyWGqljkh1iEBxk%2BBzYX4iLLaZ3oPkDHhtdtfJj79GHc%3D",
-          "Price": {
-            "Amount": "3456",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 3,456"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "35",
-          "TypicalRedemptionValue": {
-            "Amount": "35",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 35"
-          }
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:28:41 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/7645701dec9b7ee1dc43a05f41632355/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/7645701dec9b7ee1dc43a05f41632355/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784802510141"
-  }
 }

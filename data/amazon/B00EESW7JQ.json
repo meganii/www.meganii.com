@@ -1,107 +1,90 @@
 {
-  "Item": {
     "ASIN": "B00EESW7JQ",
-    "DetailPageURL": "https://www.amazon.co.jp/Effective-JavaScript-JavaScript%E3%82%92%E4%BD%BF%E3%81%86%E3%81%A8%E3%81%8D%E3%81%AB%E7%9F%A5%E3%81%A3%E3%81%A6%E3%81%8A%E3%81%8D%E3%81%9F%E3%81%8468%E3%81%AE%E5%86%B4%E3%81%88%E3%81%9F%E3%82%84%E3%82%8A%E6%96%B9-Devid-Herman-ebook/dp/B00EESW7JQ?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00EESW7JQ",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=B00EESW7JQ&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00EESW7JQ"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/B00EESW7JQ?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00EESW7JQ"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/B00EESW7JQ?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00EESW7JQ"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/B00EESW7JQ?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B00EESW7JQ"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B00EESW7JQ?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/517tJs+++nL.jpg",
+                "Width": 396
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/517tJs+++nL._SL160_.jpg",
+                "Width": 127
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/517tJs+++nL._SL75_.jpg",
+                "Width": 59
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/517tJs%2B%2B%2BnL._SL75_.jpg",
-      "Height": "75",
-      "Width": "59"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/517tJs%2B%2B%2BnL._SL160_.jpg",
-      "Height": "160",
-      "Width": "127"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/517tJs%2B%2B%2BnL.jpg",
-      "Height": "500",
-      "Width": "396"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/517tJs%2B%2B%2BnL._SL30_.jpg",
-          "Height": "30",
-          "Width": "24"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "Devid Herman",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "吉川邦夫",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "翔泳社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/517tJs%2B%2B%2BnL._SL75_.jpg",
-          "Height": "75",
-          "Width": "59"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "Kindle版",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Digital Ebook Purchas",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/517tJs%2B%2B%2BnL._SL75_.jpg",
-          "Height": "75",
-          "Width": "59"
+        "ContentInfo": {
+            "Edition": {
+                "DisplayValue": "1",
+                "Label": "Edition",
+                "Locale": "ja_JP"
+            },
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 269,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2013-02-18T00:00:00.000Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/517tJs%2B%2B%2BnL._SL110_.jpg",
-          "Height": "110",
-          "Width": "87"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/517tJs%2B%2B%2BnL._SL160_.jpg",
-          "Height": "160",
-          "Width": "127"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/517tJs%2B%2B%2BnL.jpg",
-          "Height": "500",
-          "Width": "396"
-        },
-        "HiResImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/71eqZTBoENL.jpg",
-          "Height": "1811",
-          "Width": "1433"
+        "Title": {
+            "DisplayValue": "Effective JavaScript　JavaScriptを使うときに知っておきたい68の冴えたやり方",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "Devid Herman",
-      "Binding": "Kindle版",
-      "Creator": "吉川邦夫",
-      "Edition": "1",
-      "EISBN": "9784798131528",
-      "Format": "Kindle本",
-      "IsAdultProduct": "0",
-      "Label": "翔泳社",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "翔泳社",
-      "NumberOfPages": "269",
-      "ProductGroup": "eBooks",
-      "ProductTypeName": "ABIS_EBOOKS",
-      "PublicationDate": "2013-02-18",
-      "Publisher": "翔泳社",
-      "ReleaseDate": "2013-04-13",
-      "Studio": "翔泳社",
-      "Title": "Effective JavaScript　JavaScriptを使うときに知っておきたい68の冴えたやり方"
     }
-  },
-  "Lastmod": "2019-06-15 20:33:47 +0900"
 }

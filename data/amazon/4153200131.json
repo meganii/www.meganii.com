@@ -1,176 +1,83 @@
 {
-  "Item": {
     "ASIN": "4153200131",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%82%8F%E3%82%8C%E3%82%8F%E3%82%8C%E3%81%AF%E3%81%A9%E3%81%93%E3%81%8B%E3%82%89%E6%9D%A5%E3%81%9F%E3%81%AE%E3%81%8B%E3%80%81%E3%82%8F%E3%82%8C%E3%82%8F%E3%82%8C%E3%81%AF%E4%BD%95%E8%80%85%E3%81%8B%E3%80%81%E3%82%8F%E3%82%8C%E3%82%8F%E3%82%8C%E3%81%AF%E3%81%A9%E3%81%93%E3%81%B8%E8%A1%8C%E3%81%8F%E3%81%AE%E3%81%8B-%E3%83%8F%E3%83%A4%E3%82%AB%E3%83%AF%E6%96%B0%E6%9B%B8juice-%E5%B8%AF%E5%88%80%E7%9B%8A%E5%A4%AB/dp/4153200131?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4153200131",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4153200131&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4153200131"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4153200131?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4153200131"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4153200131?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4153200131"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4153200131?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4153200131"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4153200131?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41pn+5RqtfL._SL500_.jpg",
+                "Width": 335
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41pn+5RqtfL._SL160_.jpg",
+                "Width": 107
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41pn+5RqtfL._SL75_.jpg",
+                "Width": 50
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41pn%2B5RqtfL._SL75_.jpg",
-      "Height": "75",
-      "Width": "50"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41pn%2B5RqtfL._SL160_.jpg",
-      "Height": "160",
-      "Width": "107"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41pn%2B5RqtfL.jpg",
-      "Height": "448",
-      "Width": "300"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41pn%2B5RqtfL._SL30_.jpg",
-          "Height": "30",
-          "Width": "20"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "帯刀益夫",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "早川書房",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41pn%2B5RqtfL._SL75_.jpg",
-          "Height": "75",
-          "Width": "50"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "新書",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41pn%2B5RqtfL._SL75_.jpg",
-          "Height": "75",
-          "Width": "50"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    },
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "不明"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 386,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2010-05-21T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41pn%2B5RqtfL._SL110_.jpg",
-          "Height": "110",
-          "Width": "74"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41pn%2B5RqtfL._SL160_.jpg",
-          "Height": "160",
-          "Width": "107"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41pn%2B5RqtfL.jpg",
-          "Height": "448",
-          "Width": "300"
+        "Title": {
+            "DisplayValue": "われわれはどこから来たのか、われわれは何者か、われわれはどこへ行くのか (ハヤカワ新書juice)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Author": "帯刀益夫",
-      "Binding": "新書",
-      "EAN": "9784153200135",
-      "EANList": {
-        "EANListElement": "9784153200135"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4153200131",
-      "Label": "早川書房",
-      "Languages": {
-        "Language": [
-          {
-            "Name": "日本語",
-            "Type": "Published"
-          },
-          {
-            "Name": "日本語",
-            "Type": "Unknown"
-          }
-        ]
-      },
-      "Manufacturer": "早川書房",
-      "NumberOfPages": "386",
-      "PackageDimensions": {
-        "Height": "87",
-        "Length": "685",
-        "Weight": "66",
-        "Width": "457"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2010-05-21",
-      "Publisher": "早川書房",
-      "Studio": "早川書房",
-      "Title": "われわれはどこから来たのか、われわれは何者か、われわれはどこへ行くのか (ハヤカワ新書juice)"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "1512",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,512"
-      },
-      "LowestUsedPrice": {
-        "Amount": "294",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 294"
-      },
-      "LowestCollectiblePrice": {
-        "Amount": "2480",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 2,480"
-      },
-      "TotalNew": "2",
-      "TotalUsed": "13",
-      "TotalCollectible": "1",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4153200131?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4153200131",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
-        },
-        "OfferListing": {
-          "OfferListingId": "t5F3gvblBeOcaicwssDoNv0%2BXV%2BOcgRNIu3w%2BUiiPGvBph%2Ftq2zZ489kxiLpafV0r3hVcwEOcHgvcVq%2BGPuNdIrQaaws0ZPhbSaPSGhuLsM%3D",
-          "Price": {
-            "Amount": "1512",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,512"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
-        },
-        "LoyaltyPoints": {
-          "Points": "15",
-          "TypicalRedemptionValue": {
-            "Amount": "15",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 15"
-          }
-        }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:29:34 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/0769342eb11dfd60230c046317ee8aad/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/0769342eb11dfd60230c046317ee8aad/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784153200135"
-  }
 }

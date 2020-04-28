@@ -1,208 +1,97 @@
 {
-  "Item": {
     "ASIN": "4798121967",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%82%A8%E3%83%AA%E3%83%83%E3%82%AF%E3%83%BB%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%B9%E3%81%AE%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E9%A7%86%E5%8B%95%E8%A8%AD%E8%A8%88-Architects%E2%80%99Archive-%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA%E3%81%AE%E5%AE%9F%E8%B7%B5-%E3%82%A8%E3%83%AA%E3%83%83%E3%82%AF%E3%83%BB%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%B9/dp/4798121967?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4798121967",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4798121967&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798121967"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4798121967?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798121967"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4798121967?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798121967"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4798121967?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798121967"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4798121967?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51f7WXHJYCL.jpg",
+                "Width": 393
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51f7WXHJYCL._SL160_.jpg",
+                "Width": 126
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51f7WXHJYCL._SL75_.jpg",
+                "Width": 59
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51f7WXHJYCL._SL75_.jpg",
-      "Height": "75",
-      "Width": "59"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51f7WXHJYCL._SL160_.jpg",
-      "Height": "160",
-      "Width": "126"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51f7WXHJYCL.jpg",
-      "Height": "500",
-      "Width": "393"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51rgnUkmlzL._SL30_.jpg",
-            "Height": "30",
-            "Width": "24"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51rgnUkmlzL._SL75_.jpg",
-            "Height": "75",
-            "Width": "60"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51rgnUkmlzL._SL75_.jpg",
-            "Height": "75",
-            "Width": "60"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51rgnUkmlzL._SL110_.jpg",
-            "Height": "110",
-            "Width": "88"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51rgnUkmlzL._SL160_.jpg",
-            "Height": "160",
-            "Width": "128"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51rgnUkmlzL.jpg",
-            "Height": "500",
-            "Width": "399"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "エリック・エヴァンス",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "今関 剛",
+                    "Role": "監修",
+                    "RoleType": "consultant_editor"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "和智 右桂",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "牧野 祐子",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "翔泳社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51f7WXHJYCL._SL30_.jpg",
-            "Height": "30",
-            "Width": "24"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51f7WXHJYCL._SL75_.jpg",
-            "Height": "75",
-            "Width": "59"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51f7WXHJYCL._SL75_.jpg",
-            "Height": "75",
-            "Width": "59"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51f7WXHJYCL._SL110_.jpg",
-            "Height": "110",
-            "Width": "86"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51f7WXHJYCL._SL160_.jpg",
-            "Height": "160",
-            "Width": "126"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51f7WXHJYCL.jpg",
-            "Height": "500",
-            "Width": "393"
-          }
-        }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": "エリック・エヴァンス",
-      "Binding": "大型本",
-      "Creator": [
-        "今関 剛",
-        "和智 右桂",
-        "牧野 祐子"
-      ],
-      "EAN": "9784798121963",
-      "EANList": {
-        "EANListElement": "9784798121963"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4798121967",
-      "ItemDimensions": {
-        "Weight": "132"
-      },
-      "Label": "翔泳社",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "翔泳社",
-      "NumberOfPages": "576",
-      "PackageDimensions": {
-        "Height": "134",
-        "Length": "906",
-        "Weight": "194",
-        "Width": "709"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2011-04-09",
-      "Publisher": "翔泳社",
-      "Studio": "翔泳社",
-      "Title": "エリック・エヴァンスのドメイン駆動設計 (IT Architects’Archive ソフトウェア開発の実践)"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "5616",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 5,616"
-      },
-      "LowestUsedPrice": {
-        "Amount": "3880",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,880"
-      },
-      "TotalNew": "2",
-      "TotalUsed": "16",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4798121967?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4798121967",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "大型本",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "OfferListing": {
-          "OfferListingId": "0TOn45gcDNCvJKQjNJohL4OSdTjk99DXnJyZClREEY435jgIvgSmayo8IuvYJtlWJX5oMbK5sqjiec6v1BiN%2FIVRINT6wdRcv%2BDW5dhLiyA%3D",
-          "Price": {
-            "Amount": "5616",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 5,616"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 576,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2011-04-09T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "LoyaltyPoints": {
-          "Points": "56",
-          "TypicalRedemptionValue": {
-            "Amount": "56",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 56"
-          }
+        "Title": {
+            "DisplayValue": "エリック・エヴァンスのドメイン駆動設計 (IT Architects’Archive ソフトウェア開発の実践)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:42:46 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/3c5594910d18334092fa80b8a812ce64/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/3c5594910d18334092fa80b8a812ce64/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784798121963"
-  }
 }

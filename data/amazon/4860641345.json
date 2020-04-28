@@ -1,223 +1,84 @@
 {
-  "Item": {
     "ASIN": "4860641345",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%81%A9%E3%82%93%E3%81%A9%E3%82%93%E8%A9%B1%E3%81%99%E3%81%9F%E3%82%81%E3%81%AE%E7%9E%AC%E9%96%93%E8%8B%B1%E4%BD%9C%E6%96%87%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0-CD-BOOK-%E6%A3%AE%E6%B2%A2-%E6%B4%8B%E4%BB%8B/dp/4860641345?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4860641345",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4860641345&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4860641345"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4860641345?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4860641345"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4860641345?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4860641345"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4860641345?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4860641345"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4860641345?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51pu+0tZVxL.jpg",
+                "Width": 345
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51pu+0tZVxL._SL160_.jpg",
+                "Width": 110
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51pu+0tZVxL._SL75_.jpg",
+                "Width": 52
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51pu%2B0tZVxL._SL75_.jpg",
-      "Height": "75",
-      "Width": "52"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51pu%2B0tZVxL._SL160_.jpg",
-      "Height": "160",
-      "Width": "110"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51pu%2B0tZVxL.jpg",
-      "Height": "500",
-      "Width": "345"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51jeZtK1YCL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51jeZtK1YCL._SL75_.jpg",
-            "Height": "75",
-            "Width": "51"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51jeZtK1YCL._SL75_.jpg",
-            "Height": "75",
-            "Width": "51"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51jeZtK1YCL._SL110_.jpg",
-            "Height": "110",
-            "Width": "75"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51jeZtK1YCL._SL160_.jpg",
-            "Height": "160",
-            "Width": "110"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51jeZtK1YCL.jpg",
-            "Height": "500",
-            "Width": "343"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/91WeGoXRhoL.jpg",
-            "Height": "2308",
-            "Width": "1581"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "ベレ出版",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "森沢 洋介",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "ベレ出版",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51pu%2B0tZVxL._SL30_.jpg",
-            "Height": "30",
-            "Width": "21"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51pu%2B0tZVxL._SL75_.jpg",
-            "Height": "75",
-            "Width": "52"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51pu%2B0tZVxL._SL75_.jpg",
-            "Height": "75",
-            "Width": "52"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51pu%2B0tZVxL._SL110_.jpg",
-            "Height": "110",
-            "Width": "76"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51pu%2B0tZVxL._SL160_.jpg",
-            "Height": "160",
-            "Width": "110"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51pu%2B0tZVxL.jpg",
-            "Height": "500",
-            "Width": "345"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/81b78hGquyL.jpg",
-            "Height": "2306",
-            "Width": "1591"
-          }
-        }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": "森沢 洋介",
-      "Binding": "単行本（ソフトカバー）",
-      "Brand": "ベレ出版",
-      "EAN": "9784860641344",
-      "EANList": {
-        "EANListElement": "9784860641344"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "9784860641344",
-      "ItemDimensions": {
-        "Height": "55",
-        "Length": "724",
-        "Weight": "71",
-        "Width": "528"
-      },
-      "Label": "ベレ出版",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "ベレ出版",
-      "NumberOfPages": "205",
-      "PackageDimensions": {
-        "Height": "55",
-        "Length": "724",
-        "Weight": "71",
-        "Width": "528"
-      },
-      "PackageQuantity": "1",
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2006-10-25",
-      "Publisher": "ベレ出版",
-      "Studio": "ベレ出版",
-      "Title": "どんどん話すための瞬間英作文トレーニング (CD BOOK)"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "1490",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,490"
-      },
-      "LowestUsedPrice": {
-        "Amount": "1021",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 1,021"
-      },
-      "LowestCollectiblePrice": {
-        "Amount": "3774",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 3,774"
-      },
-      "TotalNew": "4",
-      "TotalUsed": "93",
-      "TotalCollectible": "2",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/4860641345?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4860641345",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本（ソフトカバー）",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "OfferListing": {
-          "OfferListingId": "g1IZIKfoDHIMDnga%2FmsQLgVem8%2FXPajhMj6%2BE%2FYC74fW6nwDNykRrNYdZ%2FvjjE7kNfimm1JI%2FlLYrCh8DkXu3E9kAA3mGBHk",
-          "Price": {
-            "Amount": "1944",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 1,944"
-          },
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 205,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2006-10-25T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "LoyaltyPoints": {
-          "Points": "19",
-          "TypicalRedemptionValue": {
-            "Amount": "19",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 19"
-          }
+        "Title": {
+            "DisplayValue": "どんどん話すための瞬間英作文トレーニング (CD BOOK)",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:42:35 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/3437a826f0de31191d33fffc36c03ae3/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/3437a826f0de31191d33fffc36c03ae3/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784860641344"
-  }
 }

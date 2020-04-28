@@ -1,104 +1,79 @@
 {
-  "Item": {
     "ASIN": "B01BOJ4XNU",
-    "DetailPageURL": "https://www.amazon.co.jp/%E5%B1%8B%E4%B9%85%E5%B3%B6%E3%83%96%E3%83%83%E3%82%AF2016-%E5%B1%B1%E3%81%A8%E6%BA%AA%E8%B0%B7%E7%A4%BE%E7%B7%A8-ebook/dp/B01BOJ4XNU?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01BOJ4XNU",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=B01BOJ4XNU&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B01BOJ4XNU"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/B01BOJ4XNU?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B01BOJ4XNU"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/B01BOJ4XNU?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B01BOJ4XNU"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/B01BOJ4XNU?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B01BOJ4XNU"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B01BOJ4XNU?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41BTWU3mQKL.jpg",
+                "Width": 375
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41BTWU3mQKL._SL160_.jpg",
+                "Width": 120
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41BTWU3mQKL._SL75_.jpg",
+                "Width": 56
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41BTWU3mQKL._SL75_.jpg",
-      "Height": "75",
-      "Width": "56"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41BTWU3mQKL._SL160_.jpg",
-      "Height": "160",
-      "Width": "120"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41BTWU3mQKL.jpg",
-      "Height": "500",
-      "Width": "375"
-    },
-    "ImageSets": {
-      "ImageSet": {
-        "Category": "primary",
-        "SwatchImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41BTWU3mQKL._SL30_.jpg",
-          "Height": "30",
-          "Width": "22"
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "山と溪谷社編",
+                    "Role": "編集",
+                    "RoleType": "editor"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "山と溪谷社",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        "SmallImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41BTWU3mQKL._SL75_.jpg",
-          "Height": "75",
-          "Width": "56"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "Kindle版",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Digital Ebook Purchas",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "ThumbnailImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41BTWU3mQKL._SL75_.jpg",
-          "Height": "75",
-          "Width": "56"
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 114,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2016-02-13T00:00:00.000Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
         },
-        "TinyImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41BTWU3mQKL._SL110_.jpg",
-          "Height": "110",
-          "Width": "82"
-        },
-        "MediumImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41BTWU3mQKL._SL160_.jpg",
-          "Height": "160",
-          "Width": "120"
-        },
-        "LargeImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/41BTWU3mQKL.jpg",
-          "Height": "500",
-          "Width": "375"
-        },
-        "HiResImage": {
-          "URL": "https://images-fe.ssl-images-amazon.com/images/I/719MseCQeIL.jpg",
-          "Height": "1536",
-          "Width": "1152"
+        "Title": {
+            "DisplayValue": "屋久島ブック2016",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
-    },
-    "ItemAttributes": {
-      "Binding": "Kindle版",
-      "Creator": "山と溪谷社編",
-      "Format": "Kindle本",
-      "IsAdultProduct": "0",
-      "Label": "山と溪谷社",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "山と溪谷社",
-      "NumberOfPages": "114",
-      "ProductGroup": "eBooks",
-      "ProductTypeName": "ABIS_EBOOKS",
-      "PublicationDate": "2016-02-13",
-      "Publisher": "山と溪谷社",
-      "ReleaseDate": "2016-02-13",
-      "Studio": "山と溪谷社",
-      "Title": "屋久島ブック2016"
     }
-  },
-  "Lastmod": "2019-06-15 21:14:57 +0900"
 }

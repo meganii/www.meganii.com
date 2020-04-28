@@ -1,174 +1,75 @@
 {
-  "Item": {
     "ASIN": "4797342730",
-    "DetailPageURL": "https://www.amazon.co.jp/%E8%80%83%E3%81%88%E3%82%8B%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0Java-C-%E3%81%A7%E5%AD%A6%E3%81%B6%E9%81%BA%E4%BC%9D%E7%9A%84-%E9%80%B2%E5%8C%96%E7%9A%84-%E5%85%8D%E7%96%AB%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0/dp/4797342730?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4797342730",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=4797342730&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4797342730"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/4797342730?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4797342730"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/4797342730?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4797342730"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/4797342730?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=4797342730"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4797342730?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51uk1+krA6L.jpg",
+                "Width": 383
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51uk1+krA6L._SL160_.jpg",
+                "Width": 123
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51uk1+krA6L._SL75_.jpg",
+                "Width": 57
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51uk1%2BkrA6L._SL75_.jpg",
-      "Height": "75",
-      "Width": "57"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51uk1%2BkrA6L._SL160_.jpg",
-      "Height": "160",
-      "Width": "123"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/51uk1%2BkrA6L.jpg",
-      "Height": "500",
-      "Width": "383"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "variant",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/511md%2Bg4iAL._SL30_.jpg",
-            "Height": "30",
-            "Width": "23"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/511md%2Bg4iAL._SL75_.jpg",
-            "Height": "75",
-            "Width": "57"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/511md%2Bg4iAL._SL75_.jpg",
-            "Height": "75",
-            "Width": "57"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/511md%2Bg4iAL._SL110_.jpg",
-            "Height": "110",
-            "Width": "84"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/511md%2Bg4iAL._SL160_.jpg",
-            "Height": "160",
-            "Width": "123"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/511md%2Bg4iAL.jpg",
-            "Height": "500",
-            "Width": "383"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "Alberto Palacios Pawlovsky",
+                    "Role": "著",
+                    "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "橋本 晋之介",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "ソフトバンククリエイティブ",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51uk1%2BkrA6L._SL30_.jpg",
-            "Height": "30",
-            "Width": "23"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51uk1%2BkrA6L._SL75_.jpg",
-            "Height": "75",
-            "Width": "57"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51uk1%2BkrA6L._SL75_.jpg",
-            "Height": "75",
-            "Width": "57"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51uk1%2BkrA6L._SL110_.jpg",
-            "Height": "110",
-            "Width": "84"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51uk1%2BkrA6L._SL160_.jpg",
-            "Height": "160",
-            "Width": "123"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/51uk1%2BkrA6L.jpg",
-            "Height": "500",
-            "Width": "383"
-          }
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "単行本",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
+        },
+        "ContentInfo": {
+            "PagesCount": {
+                "DisplayValue": 200,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2007-09-15T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
+        },
+        "Title": {
+            "DisplayValue": "考えるコンピュータのアルゴリズムJava　& C++で学ぶ遺伝的/進化的/免疫アルゴリズム",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      ]
-    },
-    "ItemAttributes": {
-      "Author": [
-        "Alberto Palacios Pawlovsky",
-        "橋本 晋之介"
-      ],
-      "Binding": "単行本",
-      "EAN": "9784797342734",
-      "EANList": {
-        "EANListElement": "9784797342734"
-      },
-      "IsAdultProduct": "0",
-      "ISBN": "4797342730",
-      "Label": "ソフトバンククリエイティブ",
-      "Languages": {
-        "Language": {
-          "Name": "日本語",
-          "Type": "Published"
-        }
-      },
-      "Manufacturer": "ソフトバンククリエイティブ",
-      "NumberOfPages": "200",
-      "PackageDimensions": {
-        "Height": "71",
-        "Length": "913",
-        "Weight": "97",
-        "Width": "717"
-      },
-      "ProductGroup": "Book",
-      "ProductTypeName": "ABIS_BOOK",
-      "PublicationDate": "2007-09-15",
-      "Publisher": "ソフトバンククリエイティブ",
-      "Studio": "ソフトバンククリエイティブ",
-      "Title": "考えるコンピュータのアルゴリズムJava　& C++で学ぶ遺伝的/進化的/免疫アルゴリズム"
-    },
-    "OfferSummary": {
-      "LowestUsedPrice": {
-        "Amount": "510",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 510"
-      },
-      "LowestCollectiblePrice": {
-        "Amount": "5178",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 5,178"
-      },
-      "TotalNew": "0",
-      "TotalUsed": "22",
-      "TotalCollectible": "1",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "0",
-      "TotalOfferPages": "0",
-      "MoreOffersUrl": "0"
     }
-  },
-  "Lastmod": "2019-06-15 20:26:18 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/2b2d2916e3744ef3e278bccb708b9862/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/2b2d2916e3744ef3e278bccb708b9862/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=9784797342734"
-  }
 }
