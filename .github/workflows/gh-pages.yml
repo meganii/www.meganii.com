@@ -21,10 +21,10 @@ jobs:
 
       - name: Setup package.json
         run: npm install
-  
+
       - name: Run API server
         run: npm run serve:prod
-  
+
       - name: Build
         run: hugo --gc
 
