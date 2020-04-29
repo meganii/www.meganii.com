@@ -1,6 +1,6 @@
 # www.meganii.com
 
-my blog source
+my blog source.
 
 
 # image files
