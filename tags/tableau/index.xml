@@ -17,21 +17,20 @@
       <pubDate>Tue, 28 Apr 2020 18:50:23 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/04/28/organizing-the-terms-in-reading-tableau-blueprint/</guid>
-      <description>&lt;div class=&#34;&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1587899115/Blueprint-Subway_ja-JP_mh6xmb.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/Blueprint-Subway_ja-JP_mh6xmb.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/Blueprint-Subway_ja-JP_mh6xmb.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/Blueprint-Subway_ja-JP_mh6xmb.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/Blueprint-Subway_ja-JP_mh6xmb.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/Blueprint-Subway_ja-JP_mh6xmb.png 320w&#34;
-        width=&#34;1280&#34;
-        height=&#34;720&#34;
-        heights=&#34;(min-width:640px) 400px, 100%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Tableau Blueprint&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1587899115/Blueprint-Subway_ja-JP_mh6xmb.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/Blueprint-Subway_ja-JP_mh6xmb.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/Blueprint-Subway_ja-JP_mh6xmb.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/Blueprint-Subway_ja-JP_mh6xmb.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/Blueprint-Subway_ja-JP_mh6xmb.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/Blueprint-Subway_ja-JP_mh6xmb.png 320w&#34;
+      width=&#34;1280&#34;
+      height=&#34;720&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Tableau Blueprint&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.tableau.com/ja-jp/learn/blueprint&#34;&gt;Tableau Blueprint の紹介 | Tableau Software&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Tableau Blueprintを読み進めている上で、英語の用語がいまいちピンときませんでしたので、調べてみました。&lt;/p&gt;
 &lt;aside&gt;
@@ -56,21 +55,20 @@
       <pubDate>Mon, 23 Mar 2020 06:33:37 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/03/23/a-look-back-at-the-data-saber-certification-program/</guid>
-      <description>&lt;div class=&#34;&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1584785388/datasaber_y5ziiu.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/datasaber_y5ziiu.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/datasaber_y5ziiu.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/datasaber_y5ziiu.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/datasaber_y5ziiu.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/datasaber_y5ziiu.png 320w&#34;
-        width=&#34;1440&#34;
-        height=&#34;798&#34;
-        heights=&#34;(min-width:640px) 400px, 100%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;DATA Saber認定試験&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1584785388/datasaber_y5ziiu.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/datasaber_y5ziiu.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/datasaber_y5ziiu.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/datasaber_y5ziiu.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/datasaber_y5ziiu.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/datasaber_y5ziiu.png 320w&#34;
+      width=&#34;1440&#34;
+      height=&#34;798&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;DATA Saber認定試験&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;2019/12/16-2020/3/15の期間で「DATA Saber認定制度」にチャレンジし、2020/3/13の最終技術試験・口頭試問を経て、「DATA Saber」として認定をいただきました。&lt;/p&gt;
 &lt;p&gt;自分自身の振り返りのため、また今から「DATA Saber認定制度」を受けようとしている方に向けて活動を振り返って書き残しておきます。&lt;/p&gt;
 &lt;aside&gt;
@@ -118,37 +116,35 @@
 &lt;h2 id=&#34;困ったこと&#34;&gt;困ったこと&lt;/h2&gt;
 &lt;p&gt;スーパーサンプルストアを例にします。&lt;/p&gt;
 &lt;p&gt;「オーダー日」毎の「売上」表示する場合、何も考えなくてもラベルを表示すれば、「オーダー日」（ここでは年）毎の合計値が積み上げ棒グラフの上部に表示されます。&lt;/p&gt;
-&lt;div class=&#34;&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1584692694/tableau_stack_chart_label_jlnjzv.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/tableau_stack_chart_label_jlnjzv.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/tableau_stack_chart_label_jlnjzv.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau_stack_chart_label_jlnjzv.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau_stack_chart_label_jlnjzv.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau_stack_chart_label_jlnjzv.png 320w&#34;
-        width=&#34;351&#34;
-        height=&#34;424&#34;
-        heights=&#34;(min-width:640px) 400px, 100%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;【Tableau】積み上げ棒グラフの合計値をラベル表示する方法&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1584692694/tableau_stack_chart_label_jlnjzv.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableau_stack_chart_label_jlnjzv.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableau_stack_chart_label_jlnjzv.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau_stack_chart_label_jlnjzv.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau_stack_chart_label_jlnjzv.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau_stack_chart_label_jlnjzv.png 320w&#34;
+      width=&#34;351&#34;
+      height=&#34;424&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;【Tableau】積み上げ棒グラフの合計値をラベル表示する方法&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;しかし、「カテゴリ」で色付けするとラベルは内訳を表示してしまうため、合計値が表示されません。&lt;/p&gt;
-&lt;div class=&#34;&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1584692694/tableau_stack_chart_label_n7mqnk.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/tableau_stack_chart_label_n7mqnk.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/tableau_stack_chart_label_n7mqnk.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau_stack_chart_label_n7mqnk.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau_stack_chart_label_n7mqnk.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau_stack_chart_label_n7mqnk.png 320w&#34;
-        width=&#34;351&#34;
-        height=&#34;424&#34;
-        heights=&#34;(min-width:640px) 400px, 100%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;【Tableau】積み上げ棒グラフの合計値をラベル表示する方法&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1584692694/tableau_stack_chart_label_n7mqnk.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableau_stack_chart_label_n7mqnk.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableau_stack_chart_label_n7mqnk.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau_stack_chart_label_n7mqnk.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau_stack_chart_label_n7mqnk.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau_stack_chart_label_n7mqnk.png 320w&#34;
+      width=&#34;351&#34;
+      height=&#34;424&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;【Tableau】積み上げ棒グラフの合計値をラベル表示する方法&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;この状態で「合計値も表示できるようにしてよ」と言われた場合、あなたならどのように実装しますか。&lt;/p&gt;</description>
     </item>
     
@@ -168,21 +164,20 @@
       <pubDate>Thu, 27 Feb 2020 07:31:54 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/02/27/showing-top-and-bottom-n-per-category-in-tableau/</guid>
-      <description>&lt;div class=&#34;&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1582756643/tableau-top-and-bottom_bvivwx.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/tableau-top-and-bottom_bvivwx.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/tableau-top-and-bottom_bvivwx.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau-top-and-bottom_bvivwx.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau-top-and-bottom_bvivwx.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau-top-and-bottom_bvivwx.png 320w&#34;
-        width=&#34;1226&#34;
-        height=&#34;457&#34;
-        heights=&#34;(min-width:640px) 400px, 100%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;top and bottom&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1582756643/tableau-top-and-bottom_bvivwx.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableau-top-and-bottom_bvivwx.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableau-top-and-bottom_bvivwx.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau-top-and-bottom_bvivwx.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau-top-and-bottom_bvivwx.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau-top-and-bottom_bvivwx.png 320w&#34;
+      width=&#34;1226&#34;
+      height=&#34;457&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;top and bottom&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;上位N個もしくは下位N個を個別で表示することは&lt;code&gt;ディメンションフィルター&lt;/code&gt;を利用することで比較的簡単に実装できます。&lt;/p&gt;
 &lt;p&gt;しかし、上位N個と下位N個を1つのグラフ上に表現する場合はちょっとした工夫が必要でしたので、メモしておきます。&lt;/p&gt;</description>
     </item>
@@ -195,21 +190,20 @@
       <guid>https://www.meganii.com/blog/2020/02/10/sorting-dimensions-by-conbined-fields-in-tableau/</guid>
       <description>&lt;p&gt;Excelだと簡単にできるソートも、Tableauだと意外と苦戦する場合があります。&lt;/p&gt;
 &lt;p&gt;例えば以下のように各店舗、席タイプ、サービスメニューごとの価格の一覧があったとします。「価格でソートし、最安値となるサービスメニューを探したい」となった場合、ディメンション毎のソートとなってしまい、なかなか意図するソート順になりません。&lt;/p&gt;
-&lt;div class=&#34;&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1581277712/bagus_dimension_sort_qausg0.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/bagus_dimension_sort_qausg0.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/bagus_dimension_sort_qausg0.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/bagus_dimension_sort_qausg0.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/bagus_dimension_sort_qausg0.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/bagus_dimension_sort_qausg0.png 320w&#34;
-        width=&#34;1010&#34;
-        height=&#34;689&#34;
-        heights=&#34;(min-width:640px) 400px, 100%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Tableau&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;</description>
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1581277712/bagus_dimension_sort_qausg0.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/bagus_dimension_sort_qausg0.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/bagus_dimension_sort_qausg0.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/bagus_dimension_sort_qausg0.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/bagus_dimension_sort_qausg0.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/bagus_dimension_sort_qausg0.png 320w&#34;
+      width=&#34;1010&#34;
+      height=&#34;689&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Tableau&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;</description>
     </item>
     
     <item>
@@ -218,21 +212,20 @@
       <pubDate>Sat, 25 Jan 2020 06:55:35 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/01/25/tableau-desktop-vs-tableau-prep-builder/</guid>
-      <description>&lt;div class=&#34;&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1579905322/tableau_prep_xdbbz6.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/tableau_prep_xdbbz6.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/tableau_prep_xdbbz6.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau_prep_xdbbz6.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau_prep_xdbbz6.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau_prep_xdbbz6.jpg 320w&#34;
-        width=&#34;1920&#34;
-        height=&#34;1080&#34;
-        heights=&#34;(min-width:640px) 400px, 100%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Tableau Prep Builder&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1579905322/tableau_prep_xdbbz6.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableau_prep_xdbbz6.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableau_prep_xdbbz6.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau_prep_xdbbz6.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau_prep_xdbbz6.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau_prep_xdbbz6.jpg 320w&#34;
+      width=&#34;1920&#34;
+      height=&#34;1080&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Tableau Prep Builder&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;&lt;code&gt;Tableau Desktop&lt;/code&gt;と&lt;code&gt;Tableau Prep Builder&lt;/code&gt;は両方とも結合、ピボット、クリーニングなどの処理が行えます。この2つのツールはどのように使い分ければよいのでしょうか。&lt;/p&gt;
 &lt;p&gt;以下は2018年に公開されたホワイトペーパーですが、今のバージョンのTableau Desktop / Tableau Prepでも有用な情報でしたので、ポイントをまとめてみました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.tableau.com/about/blog/2018/7/should-i-use-tableau-prep-or-desktop-data-prep-answer-why-not-both-90902&#34;&gt;Should I use Tableau Prep or Desktop for data prep? The answer: Why not both? | Tableau Software&lt;/a&gt;&lt;/p&gt;</description>
@@ -244,21 +237,20 @@
       <pubDate>Thu, 09 Jan 2020 22:37:43 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/01/09/tableau-whitepater-traditional-bi-vs-modern-bi/</guid>
-      <description>&lt;div class=&#34;&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1578669810/tableaulogo_highres_t9alev.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/tableaulogo_highres_t9alev.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/tableaulogo_highres_t9alev.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableaulogo_highres_t9alev.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableaulogo_highres_t9alev.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableaulogo_highres_t9alev.png 320w&#34;
-        width=&#34;2000&#34;
-        height=&#34;450&#34;
-        heights=&#34;(min-width:640px) 400px, 100%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Tableauホワイトペーパーから読み解く「トラディショナルBIとモダンBIの違い」&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1578669810/tableaulogo_highres_t9alev.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableaulogo_highres_t9alev.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableaulogo_highres_t9alev.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableaulogo_highres_t9alev.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableaulogo_highres_t9alev.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableaulogo_highres_t9alev.png 320w&#34;
+      width=&#34;2000&#34;
+      height=&#34;450&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Tableauホワイトペーパーから読み解く「トラディショナルBIとモダンBIの違い」&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;TableauのホワイトペーパーやWebinerを読み聞きし、&lt;code&gt;トラディショナルBI&lt;/code&gt;と&lt;code&gt;モダンBI&lt;/code&gt;の違いについて自分なりにまとめてみました。&lt;/p&gt;
 &lt;aside&gt;
     &lt;div class=&#34;toc&#34;&gt;
@@ -322,21 +314,20 @@
       <pubDate>Fri, 27 Dec 2019 11:18:08 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2019/12/27/product-list-of-tableau/</guid>
-      <description>&lt;div class=&#34;&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1577416646/tableaupublic_xd3mun.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/tableaupublic_xd3mun.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/tableaupublic_xd3mun.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableaupublic_xd3mun.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableaupublic_xd3mun.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableaupublic_xd3mun.png 320w&#34;
-        width=&#34;556&#34;
-        height=&#34;329&#34;
-        heights=&#34;(min-width:640px) 400px, 100%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Tableau Public&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1577416646/tableaupublic_xd3mun.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableaupublic_xd3mun.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableaupublic_xd3mun.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableaupublic_xd3mun.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableaupublic_xd3mun.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableaupublic_xd3mun.png 320w&#34;
+      width=&#34;556&#34;
+      height=&#34;329&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Tableau Public&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;最近、Tableauを触る機会が出てきたので、調べながら学んだ点を残しておきます。&lt;/p&gt;
 &lt;aside&gt;
     &lt;div class=&#34;toc&#34;&gt;
