@@ -1,82 +1,1533 @@
-<!doctype html><html ⚡ lang=ja class=text-gray-800><head><meta charset=utf-8><meta name=viewport content="width=device-width,minimum-scale=1,initial-scale=1"><meta name=theme-color content="#2196f3"><meta name=description content="for((i=0;i&amp;lt;5;i++));do java Ga_binary &amp;gt; R&amp;quot;$i&amp;quot;.dat;done シェルスクリプトの変数名には慣習的に大文字が使われることが多い。使い捨ての変数は小文字、それ以外は大文字を使用するのが、メジャーみたい。 これで、毎回処理が終わるまで待たなくても結果を得ること"><meta property="og:title" content="シェルスプリクトのお勉強 - SIS Lab"><meta property="og:type" content="article"><meta property="og:url" content="https://www.meganii.com/blog/2009/06/22/1245684139/"><meta property="og:image" content="https://www.meganii.com/images/nopicture.png"><meta property="og:site_name" content="SIS Lab"><meta property="og:description" content="for((i=0;i&amp;lt;5;i++));do java Ga_binary &amp;gt; R&amp;quot;$i&amp;quot;.dat;done シェルスクリプトの変数名には慣習的に大文字が使われることが多い。使い捨ての変数は小文字、それ以外は大文字を使用するのが、メジャーみたい。 これで、毎回処理が終わるまで待たなくても結果を得ること"><meta property="og:locale" content="ja_JP"><meta name=twitter:card content="summary"><meta name=twitter:site content="SIS Lab"><meta name=twitter:url content="https://www.meganii.com/blog/2009/06/22/1245684139/"><meta name=twitter:title content="シェルスプリクトのお勉強 - SIS Lab"><meta name=twitter:description content="for((i=0;i&amp;lt;5;i++));do java Ga_binary &amp;gt; R&amp;quot;$i&amp;quot;.dat;done シェルスクリプトの変数名には慣習的に大文字が使われることが多い。使い捨ての変数は小文字、それ以外は大文字を使用するのが、メジャーみたい。 これで、毎回処理が終わるまで待たなくても結果を得ること"><meta name=twitter:image content="https://www.meganii.com/images/nopicture.png"><meta property="fb:app_id" content="385471528156440"><meta http-equiv=x-dns-prefetch-control content="on"><link rel="preconnect dns-prefetch" href=//cdn.ampproject.org crossorigin><link rel="preconnect dns-prefetch" href=//pagead2.googlesyndication.com crossorigin><link rel="preconnect dns-prefetch" href=//fonts.gstatic.com crossorigin><link rel="preconnect dns-prefetch" href=//fonts.googleapis.com crossorigin><link rel="preconnect dns-prefetch" href=//googleads.g.doubleclick.net crossorigin><link rel="preconnect dns-prefetch" href=//stats.g.doubleclick.net crossorigin><link rel="preconnect dns-prefetch" href=//static.doubleclick.net crossorigin><link rel="preconnect dns-prefetch" href=//tpc.googlesyndication.com crossorigin><link rel="preconnect dns-prefetch" href=//res.cloudinary.com crossorigin><link rel="preconnect dns-prefetch" href=//www.google-analytics.com crossorigin><link rel="preconnect dns-prefetch" href=//adservice.google.com crossorigin><link rel="preconnect dns-prefetch" href=//m.addthis.com crossorigin><link rel=preload as=script href=https://cdn.ampproject.org/v0.js><script async src=https://cdn.ampproject.org/v0.js></script><script async custom-element=amp-sidebar src=https://cdn.ampproject.org/v0/amp-sidebar-0.1.js></script><script async custom-element=amp-analytics src=https://cdn.ampproject.org/v0/amp-analytics-0.1.js></script><script async custom-element=amp-ad src=https://cdn.ampproject.org/v0/amp-ad-0.1.js></script><script async custom-element=amp-addthis src=https://cdn.ampproject.org/v0/amp-addthis-0.1.js></script><link rel=manifest href=https://www.meganii.com/manifest.json><script async custom-element=amp-install-serviceworker src=https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js></script><style amp-custom>/*!normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css*/html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}a{background-color:transparent}strong{font-weight:bolder}img{border-style:none}button{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button{overflow:visible}button{text-transform:none}button,[type=button]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring{outline:1px dotted ButtonText}summary{display:list-item}template{display:none}[hidden]{display:none}blockquote,h1,h2,h3,h4,figure,p{margin:0}button{background-color:transparent;background-image:none;padding:0}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}ol,ul{list-style:none;margin:0;padding:0}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;line-height:1.5}*,::before,::after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e0e0e0}img{border-style:solid}button,[role=button]{cursor:pointer}h1,h2,h3,h4{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}button{padding:0;line-height:inherit;color:inherit}img,svg,embed{display:block;vertical-align:middle}img{max-width:100%;height:auto}.post p{margin-top:1rem;margin-bottom:1rem}.post h2{font-size:1.25rem;border-bottom-width:2px;border-color:#e0e0e0;margin-top:1.5rem;padding-bottom:.25rem}.post h3{font-size:1.125rem;border-left-width:4px;padding-left:1rem;margin-top:1rem}.post h4{font-size:1.125rem;margin-top:1rem}.post pre{margin-top:1rem;margin-bottom:1rem;padding:1.5rem;overflow:auto;background-color:#f8f8f8}.post p>code{font-size:.875rem;margin:0;padding-top:.25rem;padding-bottom:.25rem;padding-left:.5rem;padding-right:.5rem;border-radius:.25rem;background-color:#f8f8f8}.post a{text-decoration:underline}.post ol,ul{list-style-position:inside;padding-left:1.25rem;padding-top:1rem}.post ol>li{list-style-type:decimal;margin-top:.25rem}.post ul>li{list-style-type:disc;margin-top:.25rem}.post ol li ol,.post ul li ul,.post ol li ul{margin-top:-1rem}.post li li{list-style-type:circle}.post blockquote{background-color:#f8f8f8;margin-top:.75rem;padding:1rem}amp-img.contain img{-o-object-fit:contain;object-fit:contain}.container{width:100%}@media(min-width:640px){.container{max-width:640px}}@media(min-width:768px){.container{max-width:768px}}@media(min-width:1024px){.container{max-width:1024px}}@media(min-width:1280px){.container{max-width:1280px}}.bg-transparent{background-color:transparent}.bg-gray-200{background-color:#eee}.bg-gray-700{background-color:#616161}.hover\:bg-gray-500:hover{background-color:#9e9e9e}.border-gray-100{border-color:#f8f8f8}.border-gray-200{border-color:#eee}.hover\:border-transparent:hover{border-color:transparent}.rounded{border-radius:.25rem}.border-none{border-style:none}.border{border-width:1px}.border-t{border-top-width:1px}.block{display:block}.inline-block{display:inline-block}.inline{display:inline}.flex{display:flex}.hidden{display:none}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.flex-1{flex:1 1 0%}.flex-grow{flex-grow:1}.clearfix:after{content:"";display:table;clear:both}.font-semibold{font-weight:600}.font-bold{font-weight:700}.h-4{height:1rem}.h-24{height:6rem}.h-56{height:14rem}.h-64{height:16rem}.h-full{height:100%}.text-xs{font-size:.75rem}.text-sm{font-size:.875rem}.text-base{font-size:1rem}.text-xl{font-size:1.25rem}.text-4xl{font-size:2.25rem}.leading-normal{line-height:1.5}.leading-relaxed{line-height:1.625}.leading-loose{line-height:2}.m-4{margin:1rem}.my-2{margin-top:.5rem;margin-bottom:.5rem}.my-4{margin-top:1rem;margin-bottom:1rem}.mx-4{margin-left:1rem;margin-right:1rem}.mx-12{margin-left:3rem;margin-right:3rem}.mx-auto{margin-left:auto;margin-right:auto}.mt-1{margin-top:.25rem}.mr-1{margin-right:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.mb-2{margin-bottom:.5rem}.ml-2{margin-left:.5rem}.ml-3{margin-left:.75rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.mb-8{margin-bottom:2rem}.min-h-screen{min-height:100vh}.opacity-100{opacity:1}.hover\:opacity-75:hover{opacity:.75}.p-1{padding:.25rem}.p-3{padding:.75rem}.p-4{padding:1rem}.px-1{padding-left:.25rem;padding-right:.25rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.px-4{padding-left:1rem;padding-right:1rem}.pt-3{padding-top:.75rem}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-y-auto{top:auto;bottom:auto}.top-0{top:0}.bottom-0{bottom:0}.left-0{left:0}.fill-current{fill:currentColor}.text-center{text-align:center}.text-right{text-align:right}.text-black{color:#000}.text-white{color:#fff}.text-gray-400{color:#bdbdbd}.text-gray-500{color:#9e9e9e}.text-gray-700{color:#616161}.text-gray-800{color:#424242}.hover\:text-white:hover{color:#fff}.hover\:text-blue-400:hover{color:#63b3ed}.hover\:text-blue-500:hover{color:#4299e1}.uppercase{text-transform:uppercase}.underline{text-decoration:underline}.no-underline{text-decoration:none}.truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.w-4{width:1rem}.w-4\/5{width:80%}.w-full{width:100%}.transform{--transform-translate-x: 0;--transform-translate-y: 0;--transform-rotate: 0;--transform-skew-x: 0;--transform-skew-y: 0;--transform-scale-x: 1;--transform-scale-y: 1;transform:translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y))}.duration-200{transition-duration:200ms}@media(min-width:640px){.sm\:block{display:block}.sm\:flex{display:flex}.sm\:hidden{display:none}.sm\:mx-4{margin-left:1rem;margin-right:1rem}.sm\:mx-12{margin-left:3rem;margin-right:3rem}.sm\:mt-0{margin-top:0}.sm\:px-2{padding-left:.5rem;padding-right:.5rem}.sm\:w-auto{width:auto}}@media(min-width:768px){.md\:m-4{margin:1rem}.md\:mx-12{margin-left:3rem;margin-right:3rem}.md\:mx-auto{margin-left:auto;margin-right:auto}}@media(min-width:1024px){.lg\:flex{display:flex}.lg\:flex-auto{flex:1 1 auto}.lg\:flex-none{flex:none}.lg\:mx-2{margin-left:.5rem;margin-right:.5rem}.lg\:my-4{margin-top:1rem;margin-bottom:1rem}.lg\:mx-40{margin-left:10rem;margin-right:10rem}.lg\:mx-auto{margin-left:auto;margin-right:auto}.lg\:px-2{padding-left:.5rem;padding-right:.5rem}.lg\:py-4{padding-top:1rem;padding-bottom:1rem}.lg\:w-1\/5{width:20%}.lg\:w-2\/5{width:40%}}</style><link rel=apple-touch-icon type=image/png href=/images/icons/apple-touch-icon-180x180.png><link rel=icon type=image/png href=/images/icons/icon-192x192.png><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end)0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end)0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end)0s 1 normal both;animation:-amp-start 8s steps(1,end)0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","mainEntityOfPage":"https://www.meganii.com/blog/2009/06/22/1245684139/","headline":"シェルスプリクトのお勉強","datePublished":"2009-06-22T00:22:19JST","dateModified":"2018-05-09T21:41:04JST","description":"for((i=0;i\u0026lt;5;i++));do java Ga_binary \u0026gt; R\u0026quot;$i\u0026quot;.dat;done シェルスクリプトの変数名には慣習的に大文字が使われることが多い。使い捨ての変数は小文字、それ以外は大文字を使用するのが、メジャーみたい。 これで、毎回処理が終わるまで待たなくても結果を得ること","author":{"@type":"Person","name":"meganii"},"publisher":{"@type":"Organization","name":"SIS Lab","logo":{"@type":"ImageObject","url":"https://www.meganii.com/images/site-logo.png","width":600,"height":60}},"image":{"@type":"ImageObject","url":"https:\/\/www.meganii.com\/images/nopicture.png"}}</script><link rel=canonical href=https://www.meganii.com/blog/2009/06/22/1245684139/><title>シェルスプリクトのお勉強 - SIS Lab</title></head><body><amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-T5DJZ8Q&gtm.url=SOURCE_URL" data-credentials=include></amp-analytics><div class="container mx-auto flex flex-col min-h-screen"><header class="w-full p-4"><nav class="flex items-center justify-between flex-wrap"><a href=https://www.meganii.com/ class="flex items-center text-gray-700 font-bold">SIS Lab</a><div class="block sm:hidden"><button role=button aria-label="open menu" on=tap:nav.toggle tabindex=0 id=nav-open class="flex items-center text-gray-500 hover:text-blue-500"><svg class="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg></button>
-<button id=nav-close class="hidden flex items-center text-gray-700 hover:text-blue-500" role=button aria-label="close menu" on=tap:nav.toggle tabindex=0><svg class="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu Close</title><polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2" transform="rotate(45 10 10)" /></svg></button></div><ul id=nav-menu class="w-full flex-grow sm:flex items-center sm:w-auto hidden sm:block justify-end list-reset mt-2 sm:mt-0"><li><a class="inline-block text-gray-500 sm:px-2 hover:text-blue-400" href=https://www.meganii.com/category/tech/>Tech</a></li><li><a class="inline-block text-gray-500 sm:px-2 hover:text-blue-400" href=https://www.meganii.com/category/life/>Life</a></li><li><a class="inline-block text-gray-500 sm:px-2 hover:text-blue-400" href=https://www.meganii.com/category/activity/>Activity</a></li><li><a class="inline-block text-gray-500 sm:px-2 hover:text-blue-400" href=https://www.meganii.com/category/travel/>Travel</a></li><li><a class="inline-block text-gray-500 sm:px-2 hover:text-blue-400" href=https://www.meganii.com/category/stationery/>Stationery</a></li><li><a class="inline-block text-gray-500 sm:px-2 hover:text-blue-400" href=https://www.meganii.com/category/book/>Book</a></li></ul></nav></header><amp-sidebar id=nav layout=nodisplay side=right><svg class="text-right fill-current h-4 w-4" tabindex="0" role="button" aria-label="close menu" on="tap:nav.toggle" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu Close</title><polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2" transform="rotate(45 10 10)" /></svg><ul class=ns><li><a href=https://www.meganii.com/category/tech/>Tech</a></li><li><a href=https://www.meganii.com/category/life/>Life</a></li><li><a href=https://www.meganii.com/category/activity/>Activity</a></li><li><a href=https://www.meganii.com/category/travel/>Travel</a></li><li><a href=https://www.meganii.com/category/stationery/>Stationery</a></li><li><a href=https://www.meganii.com/category/book/>Book</a></li></ul></amp-sidebar><main class="flex-1 sm:mx-4 md:mx-12 lg:mx-40"><article class="mx-4 sm:mx-12"><div class=text-sm><ol><li class=inline><a class=underline href=https://www.meganii.com/>SIS Lab</a></li><li class=inline>></li><li class=inline><a class=underline href=https://www.meganii.com/blog/>Blog</a></li><li class=inline>></li><li class="inline active:text-black">シェルスプリクトのお勉強</li></ol></div><section><h1 class="text-4xl mt-4">シェルスプリクトのお勉強</h1><div class=text-sm><span class=mr-1>更新日:2018.05.09</span>
-<span>作成日:2009.06.22</span></div><div class="text-sm mt-1"><a class=no-underline href=https://www.meganii.com/tags/shell/><span class="mr-1 mt-1 p-1 text-white bg-gray-700 rounded">#shell</span></a>
-<a class=no-underline href=https://www.meganii.com/tags/programming/><span class="mr-1 mt-1 p-1 text-white bg-gray-700 rounded">#Programming</span></a></div><div class="post leading-loose mt-2"><pre><code>for((i=0;i&lt;5;i++));do java Ga_binary &gt; R&quot;$i&quot;.dat;done 
-</code></pre><p>シェルスクリプトの変数名には慣習的に大文字が使われることが多い。使い捨ての変数は小文字、それ以外は大文字を使用するのが、メジャーみたい。</p><p>これで、毎回処理が終わるまで待たなくても結果を得ることが出来る。</p><h2 id=参考>参考</h2><ul><li><a href="http://codezine.jp/article/detail/3014?p=2">業務で楽するためのUNIXテクニック集</a></li><li><a href=http://www.geocities.jp/geo_sunisland/index.html>UNIX&Linuxコマンド シェルスクリプトリファレンス</a></li></ul></div></section><div><div><span class=text-xs>スポンサーリンク</span><div><amp-ad media="(max-width: 480px)" width=100vw height=320 type=adsense data-ad-client=ca-pub-5340212676785058 data-ad-slot=7368951150 data-auto-format=rspv data-full-width><div overflow></div></amp-ad></div><div class=lg:flex><div class=lg:flex-auto><amp-ad media="(min-width: 481px)" layout=fixed-height height=320 type=adsense data-ad-client=ca-pub-5340212676785058 data-ad-slot=7368951150></amp-ad></div><div class=lg:flex-auto><amp-ad media="(min-width: 481px)" layout=fixed-height height=320 type=adsense data-ad-client=ca-pub-5340212676785058 data-ad-slot=7368951150></amp-ad></div></div></div></div><div class=mt-8><amp-addthis media="(max-width: 480px)" width=320 height=92 data-pub-id=ra-5d8fda9f5accd108 data-widget-id=pzg6 data-widget-type=inline data-url=https://www.meganii.com/blog/2009/06/22/1245684139/></amp-addthis><amp-addthis media="(min-width: 481px)" width=600 height=92 data-pub-id=ra-5d8fda9f5accd108 data-widget-id=pzg6 data-widget-type=inline data-url=https://www.meganii.com/blog/2009/06/22/1245684139/></amp-addthis></div><section><h4>Related contents</h4><article class="m-4 pt-3 relative border-t border-grey-light rounded
-trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
-md:m-4 md:mx-auto
-lg:flex lg:my-4 lg:mx-auto"><div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2"><amp-img class=contain alt=Eyecatch media layout=fill src=https://www.meganii.com/images/nopicture.png></amp-img></div><div class="p-4 flex flex-col justify-between leading-normal"><div class=px-1><p class="text-sm text-grey-dark flex items-center">TECH</p><p class=text-grey-dark>2009.07.29</p><div class="text-black text-xl mb-2">mixiで全文検索するプログラムをRubyで作ってみた</div></div></div><a href=https://www.meganii.com/blog/2009/07/29/1248835525/ class="block absolute top-0 left-0 w-full h-full"></a></article><article class="m-4 pt-3 relative border-t border-grey-light rounded
-trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
-md:m-4 md:mx-auto
-lg:flex lg:my-4 lg:mx-auto"><div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2"><amp-img class=contain alt=Eyecatch media layout=fill src=https://www.meganii.com/images/nopicture.png></amp-img></div><div class="p-4 flex flex-col justify-between leading-normal"><div class=px-1><p class="text-sm text-grey-dark flex items-center">TECH</p><p class=text-grey-dark>2009.07.17</p><div class="text-black text-xl mb-2">ペアプログラミング</div></div></div><a href=https://www.meganii.com/blog/2009/07/17/1247832093/ class="block absolute top-0 left-0 w-full h-full"></a></article><article class="m-4 pt-3 relative border-t border-grey-light rounded
-trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
-md:m-4 md:mx-auto
-lg:flex lg:my-4 lg:mx-auto"><div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2"><amp-img class=contain alt=Eyecatch media layout=fill src=https://www.meganii.com/images/nopicture.png></amp-img></div><div class="p-4 flex flex-col justify-between leading-normal"><div class=px-1><p class="text-sm text-grey-dark flex items-center">TECH</p><p class=text-grey-dark>2009.07.12</p><div class="text-black text-xl mb-2">cutとsortをパイプで繋げる</div></div></div><a href=https://www.meganii.com/blog/2009/07/12/1247390690/ class="block absolute top-0 left-0 w-full h-full"></a></article><article class="m-4 pt-3 relative border-t border-grey-light rounded
-trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
-md:m-4 md:mx-auto
-lg:flex lg:my-4 lg:mx-auto"><div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2"><amp-img class=contain alt=Eyecatch media layout=fill src=https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png></amp-img></div><div class="p-4 flex flex-col justify-between leading-normal"><div class=px-1><p class="text-sm text-grey-dark flex items-center">TECH</p><p class=text-grey-dark>2018.04.27</p><div class="text-black text-xl mb-2">Fish Shellを導入してrbenv, pyenv, nodebrewのパスを通す</div></div></div><a href=https://www.meganii.com/blog/2018/04/27/implementation-fish-shell/ class="block absolute top-0 left-0 w-full h-full"></a></article><article class="m-4 pt-3 relative border-t border-grey-light rounded
-trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
-md:m-4 md:mx-auto
-lg:flex lg:my-4 lg:mx-auto"><div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2"><amp-img class=contain alt=Eyecatch media layout=fill src=https://images-fe.ssl-images-amazon.com/images/I/514Cj0GxqgL._SL160_.jpg></amp-img></div><div class="p-4 flex flex-col justify-between leading-normal"><div class=px-1><p class="text-sm text-grey-dark flex items-center">TECH</p><p class=text-grey-dark>2010.01.22</p><div class="text-black text-xl mb-2">Scalaスケーラブルプログラミング</div></div></div><a href=https://www.meganii.com/blog/2010/01/22/1264115183/ class="block absolute top-0 left-0 w-full h-full"></a></article><article class="m-4 pt-3 relative border-t border-grey-light rounded
-trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
-md:m-4 md:mx-auto
-lg:flex lg:my-4 lg:mx-auto"><div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2"><amp-img class=contain alt=Eyecatch media layout=fill src=https://www.meganii.com/images/nopicture.png></amp-img></div><div class="p-4 flex flex-col justify-between leading-normal"><div class=px-1><p class="text-sm text-grey-dark flex items-center">TECH</p><p class=text-grey-dark>2010.01.20</p><div class="text-black text-xl mb-2">Flexでウェブアルバムが作りたい！！(5)</div></div></div><a href=https://www.meganii.com/blog/2010/01/20/1264003149/ class="block absolute top-0 left-0 w-full h-full"></a></article><article class="m-4 pt-3 relative border-t border-grey-light rounded
-trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
-md:m-4 md:mx-auto
-lg:flex lg:my-4 lg:mx-auto"><div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2"><amp-img class=contain alt=Eyecatch media layout=fill src=https://www.meganii.com/images/nopicture.png></amp-img></div><div class="p-4 flex flex-col justify-between leading-normal"><div class=px-1><p class="text-sm text-grey-dark flex items-center">TECH</p><p class=text-grey-dark>2008.11.28</p><div class="text-black text-xl mb-2">processingによる可視化</div></div></div><a href=https://www.meganii.com/blog/2008/11/28/1227873393/ class="block absolute top-0 left-0 w-full h-full"></a></article><article class="m-4 pt-3 relative border-t border-grey-light rounded
-trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
-md:m-4 md:mx-auto
-lg:flex lg:my-4 lg:mx-auto"><div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2"><amp-img class=contain alt=Eyecatch media layout=fill src=https://cdn-ak.f.st-hatena.com/images/fotolife/m/meganii/20081011/20081011193214.jpg></amp-img></div><div class="p-4 flex flex-col justify-between leading-normal"><div class=px-1><p class="text-sm text-grey-dark flex items-center">TECH</p><p class=text-grey-dark>2008.10.12</p><div class="text-black text-xl mb-2">施設引き継ぎ資料</div></div></div><a href=https://www.meganii.com/blog/2008/10/12/1223769776/ class="block absolute top-0 left-0 w-full h-full"></a></article></section></article></main></div><footer class="w-full border-t border-gray-200 p-4 bottom-0 bg-gray-200"><div class="lg:flex lg:mx-40"><div class="mt-2 lg:flex-none lg:w-2/5"><section><article><h3 class=font-bold>Profile</h3><div class=flex><amp-img class=rounded src=/images/meganii_logo.png width=80 height=80 layout=fixed></amp-img><div class="flex-1 ml-2"><p>meganii(めがにい)</p><div><a href=https://twitter.com/meganii/ rel=noopener target=_blank class="inline-block p1" aria-label="Link to AMP HTML Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="22.2" viewbox="0 0 53 49"><title>Twitter</title><path d="M45 6.9c-1.6 1-3.3 1.6-5.2 2-1.5-1.6-3.6-2.6-5.9-2.6-4.5.0-8.2 3.7-8.2 8.3.0.6.1 1.3.2 1.9-6.8-.4-12.8-3.7-16.8-8.7C8.4 9 8 10.5 8 12c0 2.8 1.4 5.4 3.6 6.9-1.3-.1-2.6-.5-3.7-1.1v.1c0 4 2.8 7.4 6.6 8.1-.7.2-1.5.3-2.2.3-.5.0-1 0-1.5-.1 1 3.3 4 5.7 7.6 5.7-2.8 2.2-6.3 3.6-10.2 3.6-.6.0-1.3-.1-1.9-.1 3.6 2.3 7.9 3.7 12.5 3.7 15.1.0 23.3-12.6 23.3-23.6.0-.3.0-.7-.1-1 1.6-1.2 3-2.7 4.1-4.3-1.4.6-3 1.1-4.7 1.3 1.7-1 3-2.7 3.6-4.6" class="ampstart-icon ampstart-icon-twitter"/></svg></a><a href=https://www.facebook.com/meganiicom/ rel=noopener target=_blank class="inline-block p1" aria-label="Link to AMP HTML Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="23.6" viewbox="0 0 56 55"><title>Facebook</title><path d="M47.5 43c0 1.2-.9 2.1-2.1 2.1h-10V30h5.1l.8-5.9h-5.9v-3.7c0-1.7.5-2.9 3-2.9h3.1v-5.3c-.6.0-2.4-.2-4.6-.2-4.5.0-7.5 2.7-7.5 7.8v4.3h-5.1V30h5.1v15.1H10.7c-1.2.0-2.2-.9-2.2-2.1V8.3c0-1.2 1-2.2 2.2-2.2h34.7c1.2.0 2.1 1 2.1 2.2V43" class="ampstart-icon ampstart-icon-fb"/></svg></a><a href=https://www.instagram.com/meganii/ rel=noopener target=_blank class="inline-block p1" aria-label="Link to AMP HTML Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 54 54"><title>instagram</title><path d="M27.2 6.1c-5.1.0-5.8.0-7.8.1s-3.4.4-4.6.9-2.3 1.1-3.3 2.2c-1.1 1-1.7 2.1-2.2 3.3-.5 1.2-.8 2.6-.9 4.6s-.1 2.7-.1 7.8.0 5.8.1 7.8.4 3.4.9 4.6 1.1 2.3 2.2 3.3c1 1.1 2.1 1.7 3.3 2.2s2.6.8 4.6.9c2 .1 2.7.1 7.8.1s5.8.0 7.8-.1 3.4-.4 4.6-.9 2.3-1.1 3.3-2.2c1.1-1 1.7-2.1 2.2-3.3.5-1.2.8-2.6.9-4.6s.1-2.7.1-7.8.0-5.8-.1-7.8-.4-3.4-.9-4.6-1.1-2.3-2.2-3.3c-1-1.1-2.1-1.7-3.3-2.2-1.2-.5-2.6-.8-4.6-.9-2-.1-2.7-.1-7.8-.1zm0 3.4c5 0 5.6.0 7.6.1 1.9.1 2.9.4 3.5.7.9.3 1.6.7 2.2 1.4.7.6 1.1 1.3 1.4 2.2.3.6.6 1.6.7 3.5.1 2 .1 2.6.1 7.6s0 5.6-.1 7.6c-.1 1.9-.4 2.9-.7 3.5-.3.9-.7 1.6-1.4 2.2-.7.7-1.3 1.1-2.2 1.4-.6.3-1.7.6-3.5.7-2 .1-2.6.1-7.6.1-5.1.0-5.7.0-7.7-.1-1.8-.1-2.9-.4-3.5-.7-.9-.3-1.5-.7-2.2-1.4-.7-.7-1.1-1.3-1.4-2.2-.3-.6-.6-1.7-.7-3.5.0-2-.1-2.6-.1-7.6.0-5.1.1-5.7.1-7.7.1-1.8.4-2.8.7-3.5.3-.9.7-1.5 1.4-2.2.7-.6 1.3-1.1 2.2-1.4.6-.3 1.6-.6 3.5-.7h7.7zm0 5.8c-5.4.0-9.7 4.3-9.7 9.7s4.3 9.7 9.7 9.7c5.4.0 9.7-4.3 9.7-9.7.0-5.4-4.3-9.7-9.7-9.7zm0 16c-3.5.0-6.3-2.8-6.3-6.3s2.8-6.3 6.3-6.3 6.3 2.8 6.3 6.3-2.8 6.3-6.3 6.3zm12.4-16.4c0 1.3-1.1 2.3-2.3 2.3-1.3.0-2.3-1-2.3-2.3.0-1.2 1-2.3 2.3-2.3 1.2.0 2.3 1.1 2.3 2.3z" class="ampstart-icon ampstart-icon-instagram"/></svg></a></div></div></div><div class="text-sm leading-relaxed mt-2">電機メーカーの社内SEとしてインフラ周りを担当しています🖥 DATA Saber目指してTableau勉強中。学んだことをTwitterやHugoのブログで発信しています(ブログメンタリングで週に1記事更新を目標)【興味分野】Azure / AWS / Tableau / SEO / AMP / Puppeteer / Flutter</div></article></section></div><div class="mt-2 lg:flex-none lg:w-2/5"><section><h3 class=font-bold>Latest Posts</h4><article class="relative m-4 pt-3 border-t border-grey-light rounded
-trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
-md:m-4 md:mx-auto
-lg:flex lg:my-4 lg:mx-auto"><div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2"><amp-img class=contain alt=Eyecatch media layout=fill src=https://res.cloudinary.com/meganii/image/upload/v1587899115/Blueprint-Subway_ja-JP_mh6xmb.png></amp-img></div><div class="p-4 flex flex-col justify-between leading-normal"><div class=px-1><p class="uppercase text-sm text-grey-dark flex items-center">book</p><p class=text-grey-dark>2020.04.28</p><div class="text-black text-sm mb-2">「Tableau Blueprint」を読み進める上での用語整理</div></div></div><a href=https://www.meganii.com/blog/2020/04/28/organizing-the-terms-in-reading-tableau-blueprint/ class="block absolute top-0 left-0 w-full h-full"></a></article><article class="relative m-4 pt-3 border-t border-grey-light rounded
-trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
-md:m-4 md:mx-auto
-lg:flex lg:my-4 lg:mx-auto"><div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2"><amp-img class=contain alt=Eyecatch media layout=fill src=https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_600/v1587879130/delta-practice_xyfyxj.jpg></amp-img></div><div class="p-4 flex flex-col justify-between leading-normal"><div class=px-1><p class="uppercase text-sm text-grey-dark flex items-center">book</p><p class=text-grey-dark>2020.04.27</p><div class="text-black text-sm mb-2">「デルタ状の実践」〜「やること地獄」を終わらせるタスク管理「超」入門〜</div></div></div><a href=https://www.meganii.com/blog/2020/04/27/introduction-to-task-management/ class="block absolute top-0 left-0 w-full h-full"></a></article><article class="relative m-4 pt-3 border-t border-grey-light rounded
-trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
-md:m-4 md:mx-auto
-lg:flex lg:my-4 lg:mx-auto"><div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2"><amp-img class=contain alt=Eyecatch media layout=fill src=https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png></amp-img></div><div class="p-4 flex flex-col justify-between leading-normal"><div class=px-1><p class="uppercase text-sm text-grey-dark flex items-center">tech</p><p class=text-grey-dark>2020.04.20</p><div class="text-black text-sm mb-2">Puppeteerを使ってQrunchへクロス投稿する</div></div></div><a href=https://www.meganii.com/blog/2020/04/20/blog-cross-posting-to-qrunch-automatically-by-puppeteer/ class="block absolute top-0 left-0 w-full h-full"></a></article><article class="relative m-4 pt-3 border-t border-grey-light rounded
-trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
-md:m-4 md:mx-auto
-lg:flex lg:my-4 lg:mx-auto"><div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2"><amp-img class=contain alt=Eyecatch media layout=fill src=https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png></amp-img></div><div class="p-4 flex flex-col justify-between leading-normal"><div class=px-1><p class="uppercase text-sm text-grey-dark flex items-center">tech</p><p class=text-grey-dark>2020.04.17</p><div class="text-black text-sm mb-2">Bitlyでの短縮URL作成（v3からv4への移行）</div></div></div><a href=https://www.meganii.com/blog/2020/04/17/bitly-api-migrating-from-v3/ class="block absolute top-0 left-0 w-full h-full"></a></article><article class="relative m-4 pt-3 border-t border-grey-light rounded
-trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
-md:m-4 md:mx-auto
-lg:flex lg:my-4 lg:mx-auto"><div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2"><amp-img class=contain alt=Eyecatch media layout=fill src=https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png></amp-img></div><div class="p-4 flex flex-col justify-between leading-normal"><div class=px-1><p class="uppercase text-sm text-grey-dark flex items-center">tech</p><p class=text-grey-dark>2020.04.10</p><div class="text-black text-sm mb-2">Blog KPI Collector（GAS）で各種KPIを自動取得する</div></div></div><a href=https://www.meganii.com/blog/2020/04/10/collecting-blog-kpi-with-google-apps-script-blog-kpi-collector/ class="block absolute top-0 left-0 w-full h-full"></a></article></section></div><div class="mt-2 lg:flex-none lg:w-1/5"><section><h3 class=font-bold>Category</h3><a class="ml-2 mt-2 block hover:text-grey-200" href=https://www.meganii.com/category/tech/>Tech</a>
-<a class="ml-2 mt-2 block hover:text-grey-200" href=https://www.meganii.com/category/life/>Life</a>
-<a class="ml-2 mt-2 block hover:text-grey-200" href=https://www.meganii.com/category/activity/>Activity</a>
-<a class="ml-2 mt-2 block hover:text-grey-200" href=https://www.meganii.com/category/travel/>Travel</a>
-<a class="ml-2 mt-2 block hover:text-grey-200" href=https://www.meganii.com/category/stationery/>Stationery</a>
-<a class="ml-2 mt-2 block hover:text-grey-200" href=https://www.meganii.com/category/book/>Book</a></section><section class="mt-2 p-1"><h3 class=font-bold>Tags</h3><a href=https://www.meganii.com/tags/%E8%AA%AD%E6%9B%B8/>読書(46)</a>
-<a href=https://www.meganii.com/tags/think/>Think(34)</a>
-<a href=https://www.meganii.com/tags/%E5%8B%89%E5%BC%B7%E4%BC%9A/>勉強会(29)</a>
-<a href=https://www.meganii.com/tags/%E5%B0%B1%E6%B4%BB/>就活(26)</a>
-<a href=https://www.meganii.com/tags/book/>book(25)</a>
-<a href=https://www.meganii.com/tags/hugo/>Hugo(25)</a>
-<a href=https://www.meganii.com/tags/ruby/>Ruby(20)</a>
-<a href=https://www.meganii.com/tags/blog/>Blog(20)</a>
-<a href=https://www.meganii.com/tags/jekyll/>jekyll(16)</a>
-<a href=https://www.meganii.com/tags/%E7%A0%94%E7%A9%B6/>研究(15)</a>
-<a href=https://www.meganii.com/tags/javascript/>JavaScript(14)</a>
-<a href=https://www.meganii.com/tags/programming/>Programming(13)</a>
-<a href=https://www.meganii.com/tags/lifehack/>Lifehack(11)</a>
-<a href=https://www.meganii.com/tags/event/>event(11)</a>
-<a href=https://www.meganii.com/tags/%E5%90%8D%E5%A4%A7/>名大(10)</a>
-<a href=https://www.meganii.com/tags/evernote/>Evernote(10)</a>
-<a href=https://www.meganii.com/tags/tableau/>Tableau(10)</a>
-<a href=https://www.meganii.com/tags/%E6%97%85%E8%A1%8C%E8%A8%98/>旅行記(9)</a>
-<a href=https://www.meganii.com/tags/python/>Python(9)</a>
-<a href=https://www.meganii.com/tags/%E3%83%95%E3%82%A1%E3%82%B7%E3%83%AA%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/>ファシリテーション(9)</a>
-<a href=https://www.meganii.com/tags/%E3%83%87%E3%83%96%E3%82%B5%E3%83%9F/>デブサミ(9)</a>
-<a href=https://www.meganii.com/tags/mac/>Mac(9)</a>
-<a href=https://www.meganii.com/tags/java/>Java(8)</a>
-<a href=https://www.meganii.com/tags/meetup/>Meetup(8)</a>
-<a href=https://www.meganii.com/tags/%E5%A4%A7%E9%98%AA/>大阪(8)</a>
-<a href=https://www.meganii.com/tags/%E5%90%8D%E5%8F%A4%E5%B1%8B/>名古屋(8)</a>
-<a href=https://www.meganii.com/tags/ubuntu/>Ubuntu(8)</a>
-<a href=https://www.meganii.com/tags/english/>English(7)</a>
-<a href=https://www.meganii.com/tags/design/>Design(7)</a>
-<a href=https://www.meganii.com/tags/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2/>キャリア(7)</a>
-<a href=https://www.meganii.com/tags/travel/>travel(6)</a>
-<a href=https://www.meganii.com/tags/movie/>movie(6)</a>
-<a href=https://www.meganii.com/tags/db/>DB(6)</a>
-<a href=https://www.meganii.com/tags/electron/>Electron(6)</a></section></div></div><div class="text-xs text-gray-400 text-center"><p>made with <a href=https://gohugo.io class="underline hover:text-blue-400">Hugo</a> and <a href=https://tailwindcss.com class="underline hover:text-blue-400">TailwindCSS</a></p></div></footer><amp-install-serviceworker src=https://www.meganii.com/sw.js data-iframe-src=https://www.meganii.com/install-sw.html layout=nodisplay></amp-install-serviceworker></body></html>
+<!DOCTYPE html>
+<html ⚡ lang='ja' class="text-gray-800"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <meta name="theme-color" content="#2196f3">
+    <meta name="description" content="for((i=0;i&amp;lt;5;i&#43;&#43;));do java Ga_binary &amp;gt; R&amp;quot;$i&amp;quot;.dat;done シェルスクリプトの変数名には慣習的に大文字が使われることが多い。使い捨ての変数は小文字、それ以外は大文字を使用するのが、メジャーみたい。 これで、毎回処理が終わるまで待たなくても結果を得ること">
+
+<meta property="og:title" content="シェルスプリクトのお勉強 - SIS Lab">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.meganii.com/blog/2009/06/22/1245684139/">
+<meta property="og:image" content="https://www.meganii.com/images/nopicture.png">
+<meta property="og:site_name" content="SIS Lab">
+<meta property="og:description" content="for((i=0;i&amp;lt;5;i&#43;&#43;));do java Ga_binary &amp;gt; R&amp;quot;$i&amp;quot;.dat;done シェルスクリプトの変数名には慣習的に大文字が使われることが多い。使い捨ての変数は小文字、それ以外は大文字を使用するのが、メジャーみたい。 これで、毎回処理が終わるまで待たなくても結果を得ること">
+<meta property="og:locale" content="ja_JP">
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="SIS Lab">
+<meta name="twitter:url" content="https://www.meganii.com/blog/2009/06/22/1245684139/">
+<meta name="twitter:title" content="シェルスプリクトのお勉強 - SIS Lab">
+<meta name="twitter:description" content="for((i=0;i&amp;lt;5;i&#43;&#43;));do java Ga_binary &amp;gt; R&amp;quot;$i&amp;quot;.dat;done シェルスクリプトの変数名には慣習的に大文字が使われることが多い。使い捨ての変数は小文字、それ以外は大文字を使用するのが、メジャーみたい。 これで、毎回処理が終わるまで待たなくても結果を得ること">
+<meta name="twitter:image" content="https://www.meganii.com/images/nopicture.png">
+
+<meta property="fb:app_id" content="385471528156440" />
+
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="preconnect dns-prefetch" href="//cdn.ampproject.org" crossorigin>
+    <link rel="preconnect dns-prefetch" href="//pagead2.googlesyndication.com" crossorigin>
+    <link rel="preconnect dns-prefetch" href="//fonts.gstatic.com" crossorigin>
+    <link rel="preconnect dns-prefetch" href="//fonts.googleapis.com" crossorigin>
+    <link rel="preconnect dns-prefetch" href="//googleads.g.doubleclick.net" crossorigin>
+    <link rel="preconnect dns-prefetch" href="//stats.g.doubleclick.net" crossorigin>
+    <link rel="preconnect dns-prefetch" href="//static.doubleclick.net" crossorigin>
+    <link rel="preconnect dns-prefetch" href="//tpc.googlesyndication.com" crossorigin>
+    <link rel="preconnect dns-prefetch" href="//res.cloudinary.com" crossorigin>
+    <link rel="preconnect dns-prefetch" href="//www.google-analytics.com" crossorigin>
+    <link rel="preconnect dns-prefetch" href="//adservice.google.com" crossorigin>
+    <link rel="preconnect dns-prefetch" href="//m.addthis.com" crossorigin>
+    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    
+    
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+    
+    
+    <script async custom-element="amp-addthis" src="https://cdn.ampproject.org/v0/amp-addthis-0.1.js"></script>
+    
+    <link rel="manifest" href="https://www.meganii.com/manifest.json">
+    <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+
+
+    
+  
+    
+    
+    
+    <style amp-custom>/*!normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css*/html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}a{background-color:transparent}strong{font-weight:bolder}img{border-style:none}button{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button{overflow:visible}button{text-transform:none}button,[type=button]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring{outline:1px dotted ButtonText}summary{display:list-item}template{display:none}[hidden]{display:none}blockquote,h1,h2,h3,h4,figure,p{margin:0}button{background-color:transparent;background-image:none;padding:0}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}ol,ul{list-style:none;margin:0;padding:0}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;line-height:1.5}*,::before,::after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e0e0e0}img{border-style:solid}button,[role=button]{cursor:pointer}h1,h2,h3,h4{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}button{padding:0;line-height:inherit;color:inherit}img,svg,embed{display:block;vertical-align:middle}img{max-width:100%;height:auto}.post p{margin-top:1rem;margin-bottom:1rem}.post h2{font-size:1.25rem;border-bottom-width:2px;border-color:#e0e0e0;margin-top:1.5rem;padding-bottom:.25rem}.post h3{font-size:1.125rem;border-left-width:4px;padding-left:1rem;margin-top:1rem}.post h4{font-size:1.125rem;margin-top:1rem}.post pre{margin-top:1rem;margin-bottom:1rem;padding:1.5rem;overflow:auto;background-color:#f8f8f8}.post p>code{font-size:.875rem;margin:0;padding-top:.25rem;padding-bottom:.25rem;padding-left:.5rem;padding-right:.5rem;border-radius:.25rem;background-color:#f8f8f8}.post a{text-decoration:underline}.post ol,ul{list-style-position:inside;padding-left:1.25rem;padding-top:1rem}.post ol>li{list-style-type:decimal;margin-top:.25rem}.post ul>li{list-style-type:disc;margin-top:.25rem}.post ol li ol,.post ul li ul,.post ol li ul{margin-top:-1rem}.post li li{list-style-type:circle}.post blockquote{background-color:#f8f8f8;margin-top:.75rem;padding:1rem}amp-img.contain img{-o-object-fit:contain;object-fit:contain}.container{width:100%}@media(min-width:640px){.container{max-width:640px}}@media(min-width:768px){.container{max-width:768px}}@media(min-width:1024px){.container{max-width:1024px}}@media(min-width:1280px){.container{max-width:1280px}}.bg-transparent{background-color:transparent}.bg-gray-200{background-color:#eee}.bg-gray-700{background-color:#616161}.hover\:bg-gray-500:hover{background-color:#9e9e9e}.border-gray-100{border-color:#f8f8f8}.border-gray-200{border-color:#eee}.hover\:border-transparent:hover{border-color:transparent}.rounded{border-radius:.25rem}.border-none{border-style:none}.border{border-width:1px}.border-t{border-top-width:1px}.block{display:block}.inline-block{display:inline-block}.inline{display:inline}.flex{display:flex}.hidden{display:none}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.flex-1{flex:1 1 0%}.flex-grow{flex-grow:1}.clearfix:after{content:"";display:table;clear:both}.font-semibold{font-weight:600}.font-bold{font-weight:700}.h-4{height:1rem}.h-24{height:6rem}.h-56{height:14rem}.h-64{height:16rem}.h-full{height:100%}.text-xs{font-size:.75rem}.text-sm{font-size:.875rem}.text-base{font-size:1rem}.text-xl{font-size:1.25rem}.text-4xl{font-size:2.25rem}.leading-normal{line-height:1.5}.leading-relaxed{line-height:1.625}.leading-loose{line-height:2}.m-4{margin:1rem}.my-2{margin-top:.5rem;margin-bottom:.5rem}.my-4{margin-top:1rem;margin-bottom:1rem}.mx-4{margin-left:1rem;margin-right:1rem}.mx-12{margin-left:3rem;margin-right:3rem}.mx-auto{margin-left:auto;margin-right:auto}.mt-1{margin-top:.25rem}.mr-1{margin-right:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.mb-2{margin-bottom:.5rem}.ml-2{margin-left:.5rem}.ml-3{margin-left:.75rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.mb-8{margin-bottom:2rem}.min-h-screen{min-height:100vh}.opacity-100{opacity:1}.hover\:opacity-75:hover{opacity:.75}.p-1{padding:.25rem}.p-3{padding:.75rem}.p-4{padding:1rem}.px-1{padding-left:.25rem;padding-right:.25rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.px-4{padding-left:1rem;padding-right:1rem}.pt-3{padding-top:.75rem}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-y-auto{top:auto;bottom:auto}.top-0{top:0}.bottom-0{bottom:0}.left-0{left:0}.fill-current{fill:currentColor}.text-center{text-align:center}.text-right{text-align:right}.text-black{color:#000}.text-white{color:#fff}.text-gray-400{color:#bdbdbd}.text-gray-500{color:#9e9e9e}.text-gray-700{color:#616161}.text-gray-800{color:#424242}.hover\:text-white:hover{color:#fff}.hover\:text-blue-400:hover{color:#63b3ed}.hover\:text-blue-500:hover{color:#4299e1}.uppercase{text-transform:uppercase}.underline{text-decoration:underline}.no-underline{text-decoration:none}.truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.w-4{width:1rem}.w-4\/5{width:80%}.w-full{width:100%}.transform{--transform-translate-x: 0;--transform-translate-y: 0;--transform-rotate: 0;--transform-skew-x: 0;--transform-skew-y: 0;--transform-scale-x: 1;--transform-scale-y: 1;transform:translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y))}.duration-200{transition-duration:200ms}@media(min-width:640px){.sm\:block{display:block}.sm\:flex{display:flex}.sm\:hidden{display:none}.sm\:mx-4{margin-left:1rem;margin-right:1rem}.sm\:mx-12{margin-left:3rem;margin-right:3rem}.sm\:mt-0{margin-top:0}.sm\:px-2{padding-left:.5rem;padding-right:.5rem}.sm\:w-auto{width:auto}}@media(min-width:768px){.md\:m-4{margin:1rem}.md\:mx-12{margin-left:3rem;margin-right:3rem}.md\:mx-auto{margin-left:auto;margin-right:auto}}@media(min-width:1024px){.lg\:flex{display:flex}.lg\:flex-auto{flex:1 1 auto}.lg\:flex-none{flex:none}.lg\:mx-2{margin-left:.5rem;margin-right:.5rem}.lg\:my-4{margin-top:1rem;margin-bottom:1rem}.lg\:mx-40{margin-left:10rem;margin-right:10rem}.lg\:mx-auto{margin-left:auto;margin-right:auto}.lg\:px-2{padding-left:.5rem;padding-right:.5rem}.lg\:py-4{padding-top:1rem;padding-bottom:1rem}.lg\:w-1\/5{width:20%}.lg\:w-2\/5{width:40%}}</style>
+
+  
+    
+
+    <link rel="apple-touch-icon" type="image/png" href="/images/icons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/images/icons/icon-192x192.png">
+
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://www.meganii.com/blog/2009/06/22/1245684139/",
+    "headline": "シェルスプリクトのお勉強",
+    "datePublished": "2009-06-22T00:22:19JST",
+    "dateModified": "2018-05-09T21:41:04JST",
+    "description": "for((i=0;i\u0026lt;5;i++));do java Ga_binary \u0026gt; R\u0026quot;$i\u0026quot;.dat;done シェルスクリプトの変数名には慣習的に大文字が使われることが多い。使い捨ての変数は小文字、それ以外は大文字を使用するのが、メジャーみたい。 これで、毎回処理が終わるまで待たなくても結果を得ること",
+    "author": {
+      "@type": "Person",
+      "name": "meganii"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SIS Lab",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.meganii.com/images/site-logo.png",
+        "width": 600,
+        "height": 60
+      }
+    },
+    "image": {
+      "@type": "ImageObject",
+      "url": "https:\/\/www.meganii.com\/images/nopicture.png"
+    }
+  }
+</script>
+
+    <link rel="canonical" href="https://www.meganii.com/blog/2009/06/22/1245684139/">
+    <title>シェルスプリクトのお勉強 - SIS Lab</title>
+</head><body>
+  
+    
+  <amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-T5DJZ8Q&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
+  
+  
+  <div class="container mx-auto flex flex-col min-h-screen"><header class="w-full p-4">
+    
+    <nav class="flex items-center justify-between flex-wrap">
+        <a href="https://www.meganii.com/" class="flex items-center text-gray-700 font-bold">
+            SIS Lab
+        </a>
+        <div class="block sm:hidden">
+            <button role="button" aria-label="open menu" on="tap:nav.toggle" tabindex="0" id="nav-open" class="flex items-center text-gray-500 hover:text-blue-500">
+                <svg class="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                </svg>
+            </button>
+            <button id="nav-close" class="hidden flex items-center text-gray-700 hover:text-blue-500" role="button" aria-label="close menu" on="tap:nav.toggle" tabindex="0">
+                <svg class="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu Close</title>
+                    <polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+                        transform="rotate(45 10 10)" />
+                </svg>
+            </button>
+        </div>
+        <ul id="nav-menu" class="w-full flex-grow sm:flex items-center sm:w-auto hidden sm:block justify-end list-reset mt-2 sm:mt-0">
+            
+            
+            <li><a class="inline-block text-gray-500 sm:px-2 hover:text-blue-400" href="https://www.meganii.com/category/tech/">Tech</a></li>
+            
+            <li><a class="inline-block text-gray-500 sm:px-2 hover:text-blue-400" href="https://www.meganii.com/category/life/">Life</a></li>
+            
+            <li><a class="inline-block text-gray-500 sm:px-2 hover:text-blue-400" href="https://www.meganii.com/category/activity/">Activity</a></li>
+            
+            <li><a class="inline-block text-gray-500 sm:px-2 hover:text-blue-400" href="https://www.meganii.com/category/travel/">Travel</a></li>
+            
+            <li><a class="inline-block text-gray-500 sm:px-2 hover:text-blue-400" href="https://www.meganii.com/category/stationery/">Stationery</a></li>
+            
+            <li><a class="inline-block text-gray-500 sm:px-2 hover:text-blue-400" href="https://www.meganii.com/category/book/">Book</a></li>
+            
+
+        </ul>
+    </nav>
+</header>
+
+<amp-sidebar id="nav" layout="nodisplay" side="right">
+    <svg class="text-right fill-current h-4 w-4" tabindex="0" role="button" aria-label="close menu" on="tap:nav.toggle" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <title>Menu Close</title>
+        <polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+            transform="rotate(45 10 10)" />
+    </svg>
+    <ul class="ns">
+        
+        <li><a href="https://www.meganii.com/category/tech/">Tech</a></li>
+        
+        <li><a href="https://www.meganii.com/category/life/">Life</a></li>
+        
+        <li><a href="https://www.meganii.com/category/activity/">Activity</a></li>
+        
+        <li><a href="https://www.meganii.com/category/travel/">Travel</a></li>
+        
+        <li><a href="https://www.meganii.com/category/stationery/">Stationery</a></li>
+        
+        <li><a href="https://www.meganii.com/category/book/">Book</a></li>
+        
+    </ul>
+  </amp-sidebar><main class="flex-1 sm:mx-4 md:mx-12 lg:mx-40">
+<article class="mx-4 sm:mx-12">
+    <div class="text-sm"><ol>
+  
+    
+  
+    
+  
+<li class="inline">
+  
+    <a class="underline" href="https://www.meganii.com/">SIS Lab</a>
+  
+</li>
+<li class="inline">></li>
+  
+<li class="inline">
+  
+    <a class="underline" href="https://www.meganii.com/blog/">Blog</a>
+  
+</li>
+<li class="inline">></li>
+  
+<li class="inline active:text-black">
+  シェルスプリクトのお勉強
+</li>
+</ol>
+
+</div>
+    <section class="">
+        <h1 class="text-4xl mt-4">シェルスプリクトのお勉強</h1>
+        <div class="text-sm">
+            <span class="mr-1">更新日:2018.05.09</span>
+            <span class="">作成日:2009.06.22</span>
+        </div>
+        <div class="text-sm mt-1">
+          
+          <a class="no-underline" href="https://www.meganii.com/tags/shell/"><span class="mr-1 mt-1 p-1 text-white bg-gray-700 rounded">#shell</span></a>
+          
+          <a class="no-underline" href="https://www.meganii.com/tags/programming/"><span class="mr-1 mt-1 p-1 text-white bg-gray-700 rounded">#Programming</span></a>
+          
+        </div>
+        <div class="post leading-loose mt-2">
+            <pre><code>for((i=0;i&lt;5;i++));do java Ga_binary &gt; R&quot;$i&quot;.dat;done 
+</code></pre><p>シェルスクリプトの変数名には慣習的に大文字が使われることが多い。使い捨ての変数は小文字、それ以外は大文字を使用するのが、メジャーみたい。</p>
+<p>これで、毎回処理が終わるまで待たなくても結果を得ることが出来る。</p>
+<h2 id="参考">参考</h2>
+<ul>
+<li><a href="http://codezine.jp/article/detail/3014?p=2">業務で楽するためのUNIXテクニック集</a></li>
+<li><a href="http://www.geocities.jp/geo_sunisland/index.html">UNIX&amp;Linuxコマンド シェルスクリプトリファレンス</a></li>
+</ul>
+
+        </div>
+    </section>
+
+    <div>
+        <div class="">
+  <span class="text-xs">スポンサーリンク</span>
+  <div>
+    <amp-ad
+        media="(max-width: 480px)"
+        width="100vw"
+        height=320
+        type="adsense"
+        data-ad-client="ca-pub-5340212676785058"
+        data-ad-slot="7368951150"
+        data-auto-format="rspv"
+        data-full-width>
+        <div overflow></div>
+      </amp-ad>
+  </div>
+  <div class="lg:flex">
+    <div class="lg:flex-auto">
+      <amp-ad
+        media="(min-width: 481px)"
+        layout="fixed-height"
+        height=320
+        type="adsense"
+        data-ad-client="ca-pub-5340212676785058"
+        data-ad-slot="7368951150">
+      </amp-ad>
+    </div>
+    <div class="lg:flex-auto">
+      <amp-ad
+        media="(min-width: 481px)"
+        layout="fixed-height"
+        height=320
+        type="adsense"
+        data-ad-client="ca-pub-5340212676785058"
+        data-ad-slot="7368951150">
+      </amp-ad>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+    <div class="mt-8">
+        <amp-addthis
+    media="(max-width: 480px)"
+    width="320"
+    height="92"
+    data-pub-id="ra-5d8fda9f5accd108"
+    data-widget-id="pzg6"
+    data-widget-type="inline"
+    data-url="https://www.meganii.com/blog/2009/06/22/1245684139/"
+></amp-addthis>
+<amp-addthis
+    media="(min-width: 481px)"
+    width="600"
+    height="92"
+    data-pub-id="ra-5d8fda9f5accd108"
+    data-widget-id="pzg6"
+    data-widget-type="inline"
+    data-url="https://www.meganii.com/blog/2009/06/22/1245684139/"
+></amp-addthis>
+    </div>
+
+    
+    
+    
+    
+    <section class="">
+        <h4 class="">Related contents</h4>
+        
+        <article class="m-4 pt-3 relative border-t border-grey-light rounded
+        trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
+        md:m-4 md:mx-auto
+        lg:flex lg:my-4 lg:mx-auto">
+            <div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2">
+                <amp-img class="contain" alt="Eyecatch" media="" layout="fill"
+                    src="https://www.meganii.com/images/nopicture.png">
+                </amp-img>
+            </div>
+            <div class="p-4 flex flex-col justify-between leading-normal">
+                <div class="px-1">
+                    <p class="text-sm text-grey-dark flex items-center">TECH</p>
+                    <p class="text-grey-dark">2009.07.29</p>
+                    <div class="text-black text-xl mb-2">mixiで全文検索するプログラムをRubyで作ってみた</div>
+                </div>
+            </div>
+            <a href="https://www.meganii.com/blog/2009/07/29/1248835525/" class="block absolute top-0 left-0 w-full h-full"></a>
+        </article>
+        
+        <article class="m-4 pt-3 relative border-t border-grey-light rounded
+        trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
+        md:m-4 md:mx-auto
+        lg:flex lg:my-4 lg:mx-auto">
+            <div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2">
+                <amp-img class="contain" alt="Eyecatch" media="" layout="fill"
+                    src="https://www.meganii.com/images/nopicture.png">
+                </amp-img>
+            </div>
+            <div class="p-4 flex flex-col justify-between leading-normal">
+                <div class="px-1">
+                    <p class="text-sm text-grey-dark flex items-center">TECH</p>
+                    <p class="text-grey-dark">2009.07.17</p>
+                    <div class="text-black text-xl mb-2">ペアプログラミング</div>
+                </div>
+            </div>
+            <a href="https://www.meganii.com/blog/2009/07/17/1247832093/" class="block absolute top-0 left-0 w-full h-full"></a>
+        </article>
+        
+        <article class="m-4 pt-3 relative border-t border-grey-light rounded
+        trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
+        md:m-4 md:mx-auto
+        lg:flex lg:my-4 lg:mx-auto">
+            <div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2">
+                <amp-img class="contain" alt="Eyecatch" media="" layout="fill"
+                    src="https://www.meganii.com/images/nopicture.png">
+                </amp-img>
+            </div>
+            <div class="p-4 flex flex-col justify-between leading-normal">
+                <div class="px-1">
+                    <p class="text-sm text-grey-dark flex items-center">TECH</p>
+                    <p class="text-grey-dark">2009.07.12</p>
+                    <div class="text-black text-xl mb-2">cutとsortをパイプで繋げる</div>
+                </div>
+            </div>
+            <a href="https://www.meganii.com/blog/2009/07/12/1247390690/" class="block absolute top-0 left-0 w-full h-full"></a>
+        </article>
+        
+        <article class="m-4 pt-3 relative border-t border-grey-light rounded
+        trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
+        md:m-4 md:mx-auto
+        lg:flex lg:my-4 lg:mx-auto">
+            <div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2">
+                <amp-img class="contain" alt="Eyecatch" media="" layout="fill"
+                    src="https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png">
+                </amp-img>
+            </div>
+            <div class="p-4 flex flex-col justify-between leading-normal">
+                <div class="px-1">
+                    <p class="text-sm text-grey-dark flex items-center">TECH</p>
+                    <p class="text-grey-dark">2018.04.27</p>
+                    <div class="text-black text-xl mb-2">Fish Shellを導入してrbenv, pyenv, nodebrewのパスを通す</div>
+                </div>
+            </div>
+            <a href="https://www.meganii.com/blog/2018/04/27/implementation-fish-shell/" class="block absolute top-0 left-0 w-full h-full"></a>
+        </article>
+        
+        <article class="m-4 pt-3 relative border-t border-grey-light rounded
+        trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
+        md:m-4 md:mx-auto
+        lg:flex lg:my-4 lg:mx-auto">
+            <div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2">
+                <amp-img class="contain" alt="Eyecatch" media="" layout="fill"
+                    src="https://images-fe.ssl-images-amazon.com/images/I/514Cj0GxqgL._SL160_.jpg">
+                </amp-img>
+            </div>
+            <div class="p-4 flex flex-col justify-between leading-normal">
+                <div class="px-1">
+                    <p class="text-sm text-grey-dark flex items-center">TECH</p>
+                    <p class="text-grey-dark">2010.01.22</p>
+                    <div class="text-black text-xl mb-2">Scalaスケーラブルプログラミング</div>
+                </div>
+            </div>
+            <a href="https://www.meganii.com/blog/2010/01/22/1264115183/" class="block absolute top-0 left-0 w-full h-full"></a>
+        </article>
+        
+        <article class="m-4 pt-3 relative border-t border-grey-light rounded
+        trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
+        md:m-4 md:mx-auto
+        lg:flex lg:my-4 lg:mx-auto">
+            <div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2">
+                <amp-img class="contain" alt="Eyecatch" media="" layout="fill"
+                    src="https://www.meganii.com/images/nopicture.png">
+                </amp-img>
+            </div>
+            <div class="p-4 flex flex-col justify-between leading-normal">
+                <div class="px-1">
+                    <p class="text-sm text-grey-dark flex items-center">TECH</p>
+                    <p class="text-grey-dark">2010.01.20</p>
+                    <div class="text-black text-xl mb-2">Flexでウェブアルバムが作りたい！！(5)</div>
+                </div>
+            </div>
+            <a href="https://www.meganii.com/blog/2010/01/20/1264003149/" class="block absolute top-0 left-0 w-full h-full"></a>
+        </article>
+        
+        <article class="m-4 pt-3 relative border-t border-grey-light rounded
+        trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
+        md:m-4 md:mx-auto
+        lg:flex lg:my-4 lg:mx-auto">
+            <div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2">
+                <amp-img class="contain" alt="Eyecatch" media="" layout="fill"
+                    src="https://www.meganii.com/images/nopicture.png">
+                </amp-img>
+            </div>
+            <div class="p-4 flex flex-col justify-between leading-normal">
+                <div class="px-1">
+                    <p class="text-sm text-grey-dark flex items-center">TECH</p>
+                    <p class="text-grey-dark">2008.11.28</p>
+                    <div class="text-black text-xl mb-2">processingによる可視化</div>
+                </div>
+            </div>
+            <a href="https://www.meganii.com/blog/2008/11/28/1227873393/" class="block absolute top-0 left-0 w-full h-full"></a>
+        </article>
+        
+        <article class="m-4 pt-3 relative border-t border-grey-light rounded
+        trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
+        md:m-4 md:mx-auto
+        lg:flex lg:my-4 lg:mx-auto">
+            <div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2">
+                <amp-img class="contain" alt="Eyecatch" media="" layout="fill"
+                    src="https://cdn-ak.f.st-hatena.com/images/fotolife/m/meganii/20081011/20081011193214.jpg">
+                </amp-img>
+            </div>
+            <div class="p-4 flex flex-col justify-between leading-normal">
+                <div class="px-1">
+                    <p class="text-sm text-grey-dark flex items-center">TECH</p>
+                    <p class="text-grey-dark">2008.10.12</p>
+                    <div class="text-black text-xl mb-2">施設引き継ぎ資料</div>
+                </div>
+            </div>
+            <a href="https://www.meganii.com/blog/2008/10/12/1223769776/" class="block absolute top-0 left-0 w-full h-full"></a>
+        </article>
+        
+    </section>
+    
+
+</article>
+
+    </main>
+  </div><footer class="w-full border-t border-gray-200 p-4 bottom-0 bg-gray-200">
+    <div class="lg:flex lg:mx-40">
+        <div class="mt-2 lg:flex-none lg:w-2/5">
+            <section>
+                <article class="">
+                    <h3 class="font-bold">Profile</h3>
+                    <div class="flex">
+                        <amp-img class="rounded" src="/images/meganii_logo.png" width="80" height="80" layout="fixed"></amp-img>
+                        <div class="flex-1 ml-2">
+                            <p>meganii(めがにい)</p>
+                            <div class="">
+                                <a href="https://twitter.com/meganii/" rel="noopener" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="22.2" viewbox="0 0 53 49"><title>Twitter</title><path d="M45 6.9c-1.6 1-3.3 1.6-5.2 2-1.5-1.6-3.6-2.6-5.9-2.6-4.5 0-8.2 3.7-8.2 8.3 0 .6.1 1.3.2 1.9-6.8-.4-12.8-3.7-16.8-8.7C8.4 9 8 10.5 8 12c0 2.8 1.4 5.4 3.6 6.9-1.3-.1-2.6-.5-3.7-1.1v.1c0 4 2.8 7.4 6.6 8.1-.7.2-1.5.3-2.2.3-.5 0-1 0-1.5-.1 1 3.3 4 5.7 7.6 5.7-2.8 2.2-6.3 3.6-10.2 3.6-.6 0-1.3-.1-1.9-.1 3.6 2.3 7.9 3.7 12.5 3.7 15.1 0 23.3-12.6 23.3-23.6 0-.3 0-.7-.1-1 1.6-1.2 3-2.7 4.1-4.3-1.4.6-3 1.1-4.7 1.3 1.7-1 3-2.7 3.6-4.6" class="ampstart-icon ampstart-icon-twitter"></path></svg></a>
+                                <a href="https://www.facebook.com/meganiicom/" rel="noopener" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="23.6" viewbox="0 0 56 55"><title>Facebook</title><path d="M47.5 43c0 1.2-.9 2.1-2.1 2.1h-10V30h5.1l.8-5.9h-5.9v-3.7c0-1.7.5-2.9 3-2.9h3.1v-5.3c-.6 0-2.4-.2-4.6-.2-4.5 0-7.5 2.7-7.5 7.8v4.3h-5.1V30h5.1v15.1H10.7c-1.2 0-2.2-.9-2.2-2.1V8.3c0-1.2 1-2.2 2.2-2.2h34.7c1.2 0 2.1 1 2.1 2.2V43" class="ampstart-icon ampstart-icon-fb"></path></svg></a>
+                                <a href="https://www.instagram.com/meganii/" rel="noopener" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 54 54"><title>instagram</title><path d="M27.2 6.1c-5.1 0-5.8 0-7.8.1s-3.4.4-4.6.9c-1.2.5-2.3 1.1-3.3 2.2-1.1 1-1.7 2.1-2.2 3.3-.5 1.2-.8 2.6-.9 4.6-.1 2-.1 2.7-.1 7.8s0 5.8.1 7.8.4 3.4.9 4.6c.5 1.2 1.1 2.3 2.2 3.3 1 1.1 2.1 1.7 3.3 2.2 1.2.5 2.6.8 4.6.9 2 .1 2.7.1 7.8.1s5.8 0 7.8-.1 3.4-.4 4.6-.9c1.2-.5 2.3-1.1 3.3-2.2 1.1-1 1.7-2.1 2.2-3.3.5-1.2.8-2.6.9-4.6.1-2 .1-2.7.1-7.8s0-5.8-.1-7.8-.4-3.4-.9-4.6c-.5-1.2-1.1-2.3-2.2-3.3-1-1.1-2.1-1.7-3.3-2.2-1.2-.5-2.6-.8-4.6-.9-2-.1-2.7-.1-7.8-.1zm0 3.4c5 0 5.6 0 7.6.1 1.9.1 2.9.4 3.5.7.9.3 1.6.7 2.2 1.4.7.6 1.1 1.3 1.4 2.2.3.6.6 1.6.7 3.5.1 2 .1 2.6.1 7.6s0 5.6-.1 7.6c-.1 1.9-.4 2.9-.7 3.5-.3.9-.7 1.6-1.4 2.2-.7.7-1.3 1.1-2.2 1.4-.6.3-1.7.6-3.5.7-2 .1-2.6.1-7.6.1-5.1 0-5.7 0-7.7-.1-1.8-.1-2.9-.4-3.5-.7-.9-.3-1.5-.7-2.2-1.4-.7-.7-1.1-1.3-1.4-2.2-.3-.6-.6-1.7-.7-3.5 0-2-.1-2.6-.1-7.6 0-5.1.1-5.7.1-7.7.1-1.8.4-2.8.7-3.5.3-.9.7-1.5 1.4-2.2.7-.6 1.3-1.1 2.2-1.4.6-.3 1.6-.6 3.5-.7h7.7zm0 5.8c-5.4 0-9.7 4.3-9.7 9.7 0 5.4 4.3 9.7 9.7 9.7 5.4 0 9.7-4.3 9.7-9.7 0-5.4-4.3-9.7-9.7-9.7zm0 16c-3.5 0-6.3-2.8-6.3-6.3s2.8-6.3 6.3-6.3 6.3 2.8 6.3 6.3-2.8 6.3-6.3 6.3zm12.4-16.4c0 1.3-1.1 2.3-2.3 2.3-1.3 0-2.3-1-2.3-2.3 0-1.2 1-2.3 2.3-2.3 1.2 0 2.3 1.1 2.3 2.3z" class="ampstart-icon ampstart-icon-instagram"></path></svg></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-sm leading-relaxed mt-2">電機メーカーの社内SEとしてインフラ周りを担当しています🖥 DATA Saber目指してTableau勉強中。学んだことをTwitterやHugoのブログで発信しています(ブログメンタリングで週に1記事更新を目標)【興味分野】Azure / AWS / Tableau / SEO / AMP / Puppeteer / Flutter</div>
+                </article>
+            </section>
+        </div>
+        <div class="mt-2 lg:flex-none lg:w-2/5">
+            
+            <section class="">
+                <h3 class="font-bold">Latest Posts</h4>
+                
+                <article class="relative m-4 pt-3 border-t border-grey-light rounded
+                trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
+                md:m-4 md:mx-auto
+                lg:flex lg:my-4 lg:mx-auto">
+                    <div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2">
+                        <amp-img class="contain" alt="Eyecatch" media="" layout="fill"
+                            src="https://res.cloudinary.com/meganii/image/upload/v1587899115/Blueprint-Subway_ja-JP_mh6xmb.png">
+                        </amp-img>
+                    </div>
+                    <div class="p-4 flex flex-col justify-between leading-normal">
+                        <div class="px-1">
+                            <p class="uppercase text-sm text-grey-dark flex items-center">book</p>
+                            <p class="text-grey-dark">2020.04.28</p>
+                            <div class="text-black text-sm mb-2">「Tableau Blueprint」を読み進める上での用語整理</div>
+                        </div>
+                    </div>
+                    <a href="https://www.meganii.com/blog/2020/04/28/organizing-the-terms-in-reading-tableau-blueprint/" class="block absolute top-0 left-0 w-full h-full"></a>
+                </article>
+                
+                <article class="relative m-4 pt-3 border-t border-grey-light rounded
+                trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
+                md:m-4 md:mx-auto
+                lg:flex lg:my-4 lg:mx-auto">
+                    <div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2">
+                        <amp-img class="contain" alt="Eyecatch" media="" layout="fill"
+                            src="https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_600/v1587879130/delta-practice_xyfyxj.jpg">
+                        </amp-img>
+                    </div>
+                    <div class="p-4 flex flex-col justify-between leading-normal">
+                        <div class="px-1">
+                            <p class="uppercase text-sm text-grey-dark flex items-center">book</p>
+                            <p class="text-grey-dark">2020.04.27</p>
+                            <div class="text-black text-sm mb-2">「デルタ状の実践」〜「やること地獄」を終わらせるタスク管理「超」入門〜</div>
+                        </div>
+                    </div>
+                    <a href="https://www.meganii.com/blog/2020/04/27/introduction-to-task-management/" class="block absolute top-0 left-0 w-full h-full"></a>
+                </article>
+                
+                <article class="relative m-4 pt-3 border-t border-grey-light rounded
+                trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
+                md:m-4 md:mx-auto
+                lg:flex lg:my-4 lg:mx-auto">
+                    <div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2">
+                        <amp-img class="contain" alt="Eyecatch" media="" layout="fill"
+                            src="https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png">
+                        </amp-img>
+                    </div>
+                    <div class="p-4 flex flex-col justify-between leading-normal">
+                        <div class="px-1">
+                            <p class="uppercase text-sm text-grey-dark flex items-center">tech</p>
+                            <p class="text-grey-dark">2020.04.20</p>
+                            <div class="text-black text-sm mb-2">Puppeteerを使ってQrunchへクロス投稿する</div>
+                        </div>
+                    </div>
+                    <a href="https://www.meganii.com/blog/2020/04/20/blog-cross-posting-to-qrunch-automatically-by-puppeteer/" class="block absolute top-0 left-0 w-full h-full"></a>
+                </article>
+                
+                <article class="relative m-4 pt-3 border-t border-grey-light rounded
+                trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
+                md:m-4 md:mx-auto
+                lg:flex lg:my-4 lg:mx-auto">
+                    <div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2">
+                        <amp-img class="contain" alt="Eyecatch" media="" layout="fill"
+                            src="https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png">
+                        </amp-img>
+                    </div>
+                    <div class="p-4 flex flex-col justify-between leading-normal">
+                        <div class="px-1">
+                            <p class="uppercase text-sm text-grey-dark flex items-center">tech</p>
+                            <p class="text-grey-dark">2020.04.17</p>
+                            <div class="text-black text-sm mb-2">Bitlyでの短縮URL作成（v3からv4への移行）</div>
+                        </div>
+                    </div>
+                    <a href="https://www.meganii.com/blog/2020/04/17/bitly-api-migrating-from-v3/" class="block absolute top-0 left-0 w-full h-full"></a>
+                </article>
+                
+                <article class="relative m-4 pt-3 border-t border-grey-light rounded
+                trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
+                md:m-4 md:mx-auto
+                lg:flex lg:my-4 lg:mx-auto">
+                    <div class="h-24 relative rounded lg:flex-none lg:w-1/5 lg:px-2 lg:py-4 lg:mx-2">
+                        <amp-img class="contain" alt="Eyecatch" media="" layout="fill"
+                            src="https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png">
+                        </amp-img>
+                    </div>
+                    <div class="p-4 flex flex-col justify-between leading-normal">
+                        <div class="px-1">
+                            <p class="uppercase text-sm text-grey-dark flex items-center">tech</p>
+                            <p class="text-grey-dark">2020.04.10</p>
+                            <div class="text-black text-sm mb-2">Blog KPI Collector（GAS）で各種KPIを自動取得する</div>
+                        </div>
+                    </div>
+                    <a href="https://www.meganii.com/blog/2020/04/10/collecting-blog-kpi-with-google-apps-script-blog-kpi-collector/" class="block absolute top-0 left-0 w-full h-full"></a>
+                </article>
+                
+            </section>
+
+        </div>
+        <div class="mt-2 lg:flex-none lg:w-1/5">
+            <section>
+                <h3 class="font-bold">Category</h3>
+                
+                
+                <a class="ml-2 mt-2 block hover:text-grey-200" href="https://www.meganii.com/category/tech/">Tech</a>
+                
+                <a class="ml-2 mt-2 block hover:text-grey-200" href="https://www.meganii.com/category/life/">Life</a>
+                
+                <a class="ml-2 mt-2 block hover:text-grey-200" href="https://www.meganii.com/category/activity/">Activity</a>
+                
+                <a class="ml-2 mt-2 block hover:text-grey-200" href="https://www.meganii.com/category/travel/">Travel</a>
+                
+                <a class="ml-2 mt-2 block hover:text-grey-200" href="https://www.meganii.com/category/stationery/">Stationery</a>
+                
+                <a class="ml-2 mt-2 block hover:text-grey-200" href="https://www.meganii.com/category/book/">Book</a>
+                
+            </section>
+            <section class="mt-2 p-1">
+                <h3 class="font-bold">Tags</h3>
+                
+                <a class="" href="https://www.meganii.com/tags/%E8%AA%AD%E6%9B%B8/">読書(46)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/think/">Think(34)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/%E5%8B%89%E5%BC%B7%E4%BC%9A/">勉強会(29)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/%E5%B0%B1%E6%B4%BB/">就活(26)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/hugo/">Hugo(25)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/book/">book(25)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/ruby/">Ruby(20)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/blog/">Blog(20)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/jekyll/">jekyll(16)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/%E7%A0%94%E7%A9%B6/">研究(15)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/javascript/">JavaScript(14)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/programming/">Programming(13)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/lifehack/">Lifehack(11)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/event/">event(11)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/tableau/">Tableau(10)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/%E5%90%8D%E5%A4%A7/">名大(10)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/evernote/">Evernote(10)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/%E3%83%87%E3%83%96%E3%82%B5%E3%83%9F/">デブサミ(9)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/%E6%97%85%E8%A1%8C%E8%A8%98/">旅行記(9)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/python/">Python(9)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/%E3%83%95%E3%82%A1%E3%82%B7%E3%83%AA%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/">ファシリテーション(9)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/mac/">Mac(9)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/meetup/">Meetup(8)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/%E5%A4%A7%E9%98%AA/">大阪(8)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/%E5%90%8D%E5%8F%A4%E5%B1%8B/">名古屋(8)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/ubuntu/">Ubuntu(8)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/java/">Java(8)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/english/">English(7)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/design/">Design(7)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2/">キャリア(7)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/db/">DB(6)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/movie/">movie(6)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/electron/">Electron(6)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/travel/">travel(6)</a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </section>
+        </div>
+    </div>
+    <div class="text-xs text-gray-400 text-center">
+        <p>made with <a href="https://gohugo.io" class="underline hover:text-blue-400">Hugo</a> and <a href="https://tailwindcss.com" class="underline hover:text-blue-400">TailwindCSS</a></p>
+    </div>
+</footer><amp-install-serviceworker
+    src="https://www.meganii.com/sw.js"
+    data-iframe-src="https://www.meganii.com/install-sw.html"
+    layout="nodisplay">
+</amp-install-serviceworker></body>
+</html>
