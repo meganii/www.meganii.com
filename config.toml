@@ -52,12 +52,6 @@ logo = "/images/meganii_logo.png"
 AnalyticsURL = "https://us-central1-cloud-api-2e3ec.cloudfunctions.net/function-1"
 dateformat = "Jan 2, 2006" # Optional
 latestSize = 5 # Optional
-ampscripts = """
-<script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
-<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
-<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
-<script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
-"""
 profile = "ギークを夢見るじょーぶん男子。「広く浅くから広く深く」を目指してブログを書いています。"
 [params.topBanner]
 src = "v1524390254/sislab_top_banner.png"
