@@ -17,20 +17,21 @@
       <pubDate>Sat, 16 Nov 2019 19:25:36 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2019/11/16/amp-real-url-with-cloudflare/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1574561130/AMP_%EF%B8%8F_Real_URL_a1iiwa.png&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 320w&#34;
-      width=&#34;560&#34;
-      height=&#34;315&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;Cloudflare AMP Real URLをブログに導入する&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1574561130/AMP_%EF%B8%8F_Real_URL_a1iiwa.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 320w&#34;
+        width=&#34;560&#34;
+        height=&#34;315&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;Cloudflare AMP Real URLをブログに導入する&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;AMPページをGoogleドメインではなく、自ドメインで表示することができる「AMP Real URL」をこのブログにも導入しました。「AMP Real URL」に関する日本語のページがあまりなかったので、手順をまとめてみました。&lt;/p&gt;
 &lt;p&gt;ブログに適用したいと思うのは物好きしかいない、かつ、企業で導入するにはまだまだ早いということでしょうか。
 まだまだ発展途上の仕組みだとは思いますが、個人のブログなのでなんの気兼ねなく試してみます。&lt;/p&gt;</description>
