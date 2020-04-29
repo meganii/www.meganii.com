@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VPS on SIS Lab</title>
+    <link>https://www.meganii.com/tags/vps/</link>
+    <description>Recent content in VPS on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 11 Jun 2017 14:01:22 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/vps/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>さくらVPSからConoha VPSへのお引越し</title>
+      <link>https://www.meganii.com/blog/2017/06/11/migration-sakura-vps-to-conoha-vps/</link>
+      <pubDate>Sun, 11 Jun 2017 14:01:22 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/06/11/migration-sakura-vps-to-conoha-vps/</guid>
+      <description>&lt;figure&gt;
+  &lt;amp-img src=&#34;
+  https://www.meganii.com//images/2017/06/conoha_vps.png&#34; alt=&#34;さくらVPSからConoha VPSへのお引越し /images/2017/06/conoha_vps.png&#34; width=640 height=249 layout=responsive&gt;&lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;GMOの株主優待を活かすためにさくらVPSからGMOインターネットのConoha VPSに引っ越しました。これを機に、Dockerでの運用をしたいと考えていたため、合わせてその作業を行いました。&lt;/p&gt;
+&lt;h2 id=&#34;vps引越しの動機&#34;&gt;VPS引越しの動機&lt;/h2&gt;
+&lt;p&gt;昨年、GMOインターネット株式会社の株を購入し、株主優待を受けられるようになりました。GMOインターネットの株主優待では、サービス利用料金のうち年に2回 5,000円のキャッシュバックを受けることができます。株主優待を利用できるサービスには、Conoha VPSやお名前.comなどがありますので、普段VPSやドメイン取得を行っている人にとっては大変ありがたい優待です。&lt;/p&gt;
+&lt;p&gt;この優待を有効活用するために、VPSを引越しました。また、さくらVPSではCentOS6系で運用していたのですが、昨今のDockerブームに乗っかりDocker化を試みました。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Conoha VPSにCoreOSをインストールする</title>
+      <link>https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/</link>
+      <pubDate>Sun, 16 Apr 2017 21:14:51 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/04/16/installing-coreos-with-conoha-vps/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://qiita.com/miyasakura_/items/4d81dc5fe6f9de0f0dd5&#34;&gt;ConoHaのVPSにCoreOSをインストール - Qiita&lt;/a&gt;を参考に&lt;a href=&#34;https://px.a8.net/svt/ejp?a8mat=2TGARC+63OZ02+50+4YR6O2&#34; target=&#34;_blank&#34; rel=&#34;nofollow&#34;&gt;Conoha VPS&lt;/a&gt;
+&lt;amp-img width=&#34;1&#34; height=&#34;1&#34; layout=&#34;fixed&#34; src=&#34;https://www13.a8.net/0.gif?a8mat=2TGARC+63OZ02+50+4YR6O2&#34; alt=&#34;&#34;&gt;&lt;/amp-img&gt;にCoreOSをインストールしました。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>さくらVPSにDropboxをインストール</title>
+      <link>https://www.meganii.com/blog/2013/05/08/dropbox-cui/</link>
+      <pubDate>Wed, 08 May 2013 21:06:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/05/08/dropbox-cui/</guid>
+      <description>ようやく重たい腰を上げて、さくらVPSにCUI版のDropboxをインストール。 Python2.6が必要みたいです。 以下のページを参考にさせてもらいました。 cl.pocari.org - さくらの VPS (CentOS 6.2) にコマンドライン版 Dropbox をイン</description>
+    </item>
+    
+    <item>
+      <title>さくらVPSの設定メモ書き</title>
+      <link>https://www.meganii.com/blog/2012/05/07/1336405413/</link>
+      <pubDate>Mon, 07 May 2012 00:43:33 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/05/07/1336405413/</guid>
+      <description>以下を参考に、さくらVPSを設定する。 1,000円を切る低価格で登場、「さくらのVPS」をチェック――サーバー構築編 - SourceForge.JP Magazine : オープンソースの話題満載 １．リモートコンソールからログイン rootからログイ</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>xpath on SIS Lab</title>
+    <link>https://www.meganii.com/tags/xpath/</link>
+    <description>Recent content in xpath on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 19 Feb 2014 22:09:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/xpath/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>XPathでの属性値の取得</title>
+      <link>https://www.meganii.com/blog/2014/02/19/xpath-java/</link>
+      <pubDate>Wed, 19 Feb 2014 22:09:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/02/19/xpath-java/</guid>
+      <description>知っててよかったXPath。 XMLのノードを特定するときに使う。 XPath使い方 XPath xpath = XPathFactory.newInstance().newXPath(); String expression = &amp;#34;/widgets/widget&amp;#34;; InputSource inputSource = new InputSource(&amp;#34;widgets.xml&amp;#34;); NodeList nodes = (NodeList) xpath.evaluate(expression, inputSource, XPathConstants.NODESET); ルートノードの選択 html 属性値の取得方法 //html/body/hoge[@id=&#39;test&#39;] id属性が&amp;rsquo;test&#39;のhog</description>
+    </item>
+    
+  </channel>
+</rss>

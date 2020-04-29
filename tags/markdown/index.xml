@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on SIS Lab</title>
+    <link>https://www.meganii.com/tags/markdown/</link>
+    <description>Recent content in Markdown on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 25 Feb 2017 23:21:20 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HugoのMarkdownでtarget=&#39;_blank&#39;を実現する方法</title>
+      <link>https://www.meganii.com/blog/2017/02/25/hugo-markdown-href-target-blank/</link>
+      <pubDate>Sat, 25 Feb 2017 23:21:20 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/02/25/hugo-markdown-href-target-blank/</guid>
+      <description>&lt;p&gt;HugoのMarkdownエンジンは、&lt;a href=&#34;https://github.com/russross/blackfriday&#34;&gt;blackfriday&lt;/a&gt;を利用しているため、そのオプションに&lt;code&gt;hrefTargetBlank&lt;/code&gt;があります。この&lt;code&gt;hrefTargetBlank&lt;/code&gt;オプションを有効にすれば、外部リンクを別タブ、別ウィンドウで開く&lt;code&gt;&amp;lt;a href=&amp;quot;&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;&lt;/code&gt;をMarkdownで実現できる。&lt;/p&gt;
+&lt;p&gt;そもそも、Markdownに直接HTMLも記述できるので、&lt;code&gt;&amp;lt;a href=&amp;quot;&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;&lt;/code&gt;と直接書いてもよいが、せっかくMarkdownで書いているので、極力タグは使いたくありません。Markdown記法で書けるのであれば、すっきりと記載できるので嬉しいです。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

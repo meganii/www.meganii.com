@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>middleman on SIS Lab</title>
+    <link>https://www.meganii.com/tags/middleman/</link>
+    <description>Recent content in middleman on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 10 May 2015 09:05:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/middleman/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Middlemanで静的サイト構築 -Middlemanで複数ブログを構築-</title>
+      <link>https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/</link>
+      <pubDate>Sun, 10 May 2015 09:05:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2015/05/10/middleman-multiple-blogs/</guid>
+      <description>Middlemanで複数ブログを設定する際のメモ。 Middleman Sass - Middleman を使ってブログを作る (心折られずに) - Qiita 上記のサイトを見ながら、middleman-blog-bootstrap-templateを導入済み。</description>
+    </item>
+    
+    <item>
+      <title>Middleman getting start</title>
+      <link>https://www.meganii.com/blog/2015/05/09/middleman-getting-start/</link>
+      <pubDate>Sat, 09 May 2015 12:57:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2015/05/09/middleman-getting-start/</guid>
+      <description>Middlemanでの構築メモ。 MiddlemanにBlog機能を持たせる 素の状態のMiddlemanでmiddleman init new_siteをしたときに、デザインがあまりにもアレだったので、心が折られ</description>
+    </item>
+    
+  </channel>
+</rss>

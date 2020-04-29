@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TED on SIS Lab</title>
+    <link>https://www.meganii.com/tags/ted/</link>
+    <description>Recent content in TED on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 21 Nov 2014 22:34:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/ted/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TED APIを触ってみる</title>
+      <link>https://www.meganii.com/blog/2014/11/21/ted-api/</link>
+      <pubDate>Fri, 21 Nov 2014 22:34:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/11/21/ted-api/</guid>
+      <description>TED - Welcome to TEDLabs いつのまにかTEDのAPIが公開されていたので、少し触ってみる。 2017/09/01追記 TED APIのサービスは終了となりました。 昔は、APIが公開されてなかったので、スクレイピングで取得してい</description>
+    </item>
+    
+    <item>
+      <title>Happiness 私たちが幸せを感じる理由</title>
+      <link>https://www.meganii.com/blog/2012/04/23/happiness/</link>
+      <pubDate>Mon, 23 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/04/23/happiness/</guid>
+      <description>Dan Gilbert asks, Why are we happy? | Video on TED.com 日本語訳 &#34;The great source of both the misery and disorders of human life seems to arise from overrating the difference between one permanent situation and another ... Some of these situations may, no doubt, deserve to be preferred to others, but none of them can deserve to be pursued with that passionate ardor which drives us to violate the rules either of prudence or of justice, or to corrupt the future tranquility of our minds, either by shame from the remembrance of our own folly, or</description>
+    </item>
+    
+    <item>
+      <title>TEDの英語原稿を取得する</title>
+      <link>https://www.meganii.com/blog/2012/03/20/1332214416/</link>
+      <pubDate>Tue, 20 Mar 2012 12:33:36 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/03/20/1332214416/</guid>
+      <description>方針 http://www.ted.com/talks/subtitles/id/#{固有のID}/lang/en を叩くと、英語原稿のjsonが返ってくる。 TEDのビデオの固有のIDを取得して、API叩</description>
+    </item>
+    
+    <item>
+      <title>Try something new for 30 days</title>
+      <link>https://www.meganii.com/blog/2012/02/03/ted-try-somethin-new-for-30-days/</link>
+      <pubDate>Fri, 03 Feb 2012 00:29:26 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/02/03/ted-try-somethin-new-for-30-days/</guid>
+      <description>So here’s my question to you: What are you waiting for? I guarantee you the next 30 days are going to pass whether you like it or not, so why not think about something you have always wanted to try and give it a shot for the next 30 days.  I realize that I&amp;rsquo;m waiting for something happen. What am I want to try?</description>
+    </item>
+    
+  </channel>
+</rss>

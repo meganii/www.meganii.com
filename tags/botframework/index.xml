@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BotFramework on SIS Lab</title>
+    <link>https://www.meganii.com/tags/botframework/</link>
+    <description>Recent content in BotFramework on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 10 Mar 2018 19:27:40 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/botframework/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Botframeworkを利用してSlack botを作る</title>
+      <link>https://www.meganii.com/blog/2018/03/10/botframework-slack/</link>
+      <pubDate>Sat, 10 Mar 2018 19:27:40 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/03/10/botframework-slack/</guid>
+      <description>&lt;p&gt;LUISを利用したBot FrameworkからSlackへ投稿するときに困ったこと。&lt;/p&gt;
+&lt;h1 id=&#34;必要なこと&#34;&gt;必要なこと&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Slackの&lt;code&gt;Interactive Messages&lt;/code&gt;を有効にする必要がある&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+To create a full-fidelity Slack message, set the Activity object&#39;s channelData property to a JSON object that specifies Slack messages, Slack attachments, and/or Slack buttons.
+&lt;p&gt;Note
+To support buttons in Slack messages, you must enable Interactive Messages when you connect your bot to the Slack channel.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://api.slack.com/docs/message-formatting&#34;&gt;Basic message formatting | Slack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://api.slack.com/docs/message-buttons&#34;&gt;Attaching interactive message buttons&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

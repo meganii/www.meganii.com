@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>El Capitan on SIS Lab</title>
+    <link>https://www.meganii.com/tags/el-capitan/</link>
+    <description>Recent content in El Capitan on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 16 May 2016 20:50:35 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/el-capitan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MacでVirtualbox、Vagrantをインストールするときにいつまで経っても検証が終わらない場合の対処法としてコマンドラインからインストールする</title>
+      <link>https://www.meganii.com/blog/2016/05/16/install-virtualbox-and-vagrant-in-el-capitan/</link>
+      <pubDate>Mon, 16 May 2016 20:50:35 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/05/16/install-virtualbox-and-vagrant-in-el-capitan/</guid>
+      <description>&lt;p&gt;久々に、vagrantを触ろうと思い、どうせならバージョンアップしてから使おうと思い、Virtualboxから入れ直そうとしたらちょっとハマった時の話です。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

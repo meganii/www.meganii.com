@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on SIS Lab</title>
+    <link>https://www.meganii.com/tags/mac/</link>
+    <description>Recent content in Mac on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 03 Jan 2019 12:17:55 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>macOS sierraクリーンインストール時に行ったこと</title>
+      <link>https://www.meganii.com/blog/2017/04/30/macos-sierra-clean-install/</link>
+      <pubDate>Sun, 30 Apr 2017 18:10:38 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/04/30/macos-sierra-clean-install/</guid>
+      <description>&lt;figure&gt;
+  &lt;amp-img src=&#34;
+  https://www.meganii.com//images/2017/06/macOS.png&#34; alt=&#34;macOS sierraクリーンインストール時に行ったこと /images/2017/06/macOS.png&#34; width=400 height=250 layout=responsive&gt;&lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;macOS sierraをクリーンインストールして、開発環境を整えたのでそのときのメモです。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MacでVirtualbox、Vagrantをインストールするときにいつまで経っても検証が終わらない場合の対処法としてコマンドラインからインストールする</title>
+      <link>https://www.meganii.com/blog/2016/05/16/install-virtualbox-and-vagrant-in-el-capitan/</link>
+      <pubDate>Mon, 16 May 2016 20:50:35 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/05/16/install-virtualbox-and-vagrant-in-el-capitan/</guid>
+      <description>&lt;p&gt;久々に、vagrantを触ろうと思い、どうせならバージョンアップしてから使おうと思い、Virtualboxから入れ直そうとしたらちょっとハマった時の話です。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>El Capitanへのアップグレード時AppStoreに接続できなくなった場合(さらにキーチェーンアクセスでも対処できなかった時)の対処法 </title>
+      <link>https://www.meganii.com/blog/2016/01/23/el-capitan-upgrade-error/</link>
+      <pubDate>Sat, 23 Jan 2016 20:51:43 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/01/23/el-capitan-upgrade-error/</guid>
+      <description>今朝、El Capitanのアップグレードしたのだが、いつものごとくエラーが出たので対処方法をまとめておく。 起きた現象 App Storeにアクセスできない 通信が遅い App Storeから気軽にアップデートを行い、意</description>
+    </item>
+    
+    <item>
+      <title>リモートディスクを利用してMacBookProのDVDドライブからMacBookAirにソフトウェアをインストール</title>
+      <link>https://www.meganii.com/blog/2013/06/25/remote-disk/</link>
+      <pubDate>Tue, 25 Jun 2013 20:45:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/06/25/remote-disk/</guid>
+      <description>MacBookAirには、CD/DVDドライブがついていない。過去のソフトをどうやって新しく買ったインストールしようかと思って、なんとかMacBookProのDVDドライブを使えないか調べてみると、「</description>
+    </item>
+    
+    <item>
+      <title>MacBookAir Mid 2013環境構築</title>
+      <link>https://www.meganii.com/blog/2013/06/20/macbookair-dev/</link>
+      <pubDate>Thu, 20 Jun 2013 00:58:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/06/20/macbookair-dev/</guid>
+      <description>MabBookAirの環境設定。 とりあえず、Homebrewとrbenvを入れたときの備忘録。 Xcodeのインストール App StoreからXcodeをインストール。 Homebrewのインストール $ ruby -e &amp;quot;$(curl -fsSL</description>
+    </item>
+    
+    <item>
+      <title>念願のAir!! MacBookAir Mid 2013買いました</title>
+      <link>https://www.meganii.com/blog/2013/06/18/macbookair/</link>
+      <pubDate>Tue, 18 Jun 2013 06:32:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/06/18/macbookair/</guid>
+      <description>念願のMacBookAirをついに手に入れました！！ 発売日の翌日に、ネット上のMac情報をみていたら、いつのまにかぽちってました。後悔はしない。ずっと待ち続けていたのだから。 構成 CPU 1.7GHzデュアル</description>
+    </item>
+    
+    <item>
+      <title>MacBookProにLionをクリーンインストールしたから、心機一転Homebrewを入れてみた</title>
+      <link>https://www.meganii.com/blog/2011/08/13/1313190654/</link>
+      <pubDate>Sat, 13 Aug 2011 08:10:54 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2011/08/13/1313190654/</guid>
+      <description>MacBookProにLionをクリーンインストールしたので、MacPortsではなくて、Homebrewを入れてみました。 Homebrew MacPorts、Finkと違って、もともと入ってるものはそれを使ってくれ</description>
+    </item>
+    
+    <item>
+      <title>Lionクリーンインストールしてみた。</title>
+      <link>https://www.meganii.com/blog/2011/07/24/1311469834/</link>
+      <pubDate>Sun, 24 Jul 2011 10:10:34 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2011/07/24/1311469834/</guid>
+      <description>周りにちょっと出遅れながらも、Lionインストールしました。 最近、MacBookProの処理が重たくなってきて、綺麗さっぱりさせたかったので、クリーンインストールしました。 MacStoreからLion</description>
+    </item>
+    
+    <item>
+      <title>MacBookProを一週間使ってみて</title>
+      <link>https://www.meganii.com/blog/2009/10/13/1255435237/</link>
+      <pubDate>Tue, 13 Oct 2009 21:00:37 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/10/13/1255435237/</guid>
+      <description>MacBookを買ってから、いつのまにか一週間以上が過ぎ去っていました。 そして、この一週間で、すっかりMacの虜になっている自分もいました。 まず、ずっと使ってみての感想としては、やっぱり美しい。外見も</description>
+    </item>
+    
+  </channel>
+</rss>

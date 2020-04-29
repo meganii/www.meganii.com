@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Puppeteer on SIS Lab</title>
+    <link>https://www.meganii.com/tags/puppeteer/</link>
+    <description>Recent content in Puppeteer on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 20 Apr 2020 19:45:50 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/puppeteer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Puppeteerを使ってQrunchへクロス投稿する</title>
+      <link>https://www.meganii.com/blog/2020/04/20/blog-cross-posting-to-qrunch-automatically-by-puppeteer/</link>
+      <pubDate>Mon, 20 Apr 2020 19:45:50 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/04/20/blog-cross-posting-to-qrunch-automatically-by-puppeteer/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.meganii.com/blog/2018/11/03/cross-posting-to-qrunch-and-medium/&#34;&gt;QrunchとMediumに技術メモをクロス投稿する - SIS Lab&lt;/a&gt;で「Qrunchに自動投稿できる仕組みを作る」という課題があったので、&lt;code&gt;Puppeteer&lt;/code&gt;で自動投稿できるようにしました。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PuppeteerのwaitForNavigationで正しくページ遷移を待つ</title>
+      <link>https://www.meganii.com/blog/2020/01/30/puppeteer-wait-for-navigation/</link>
+      <pubDate>Thu, 30 Jan 2020 07:11:59 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/01/30/puppeteer-wait-for-navigation/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://amzn.to/2RXyTqt&#34;&gt;「Puppeteer入門 スクレイピング+Web操作自動処理プログラミング」&lt;/a&gt;を読むまで、&lt;code&gt;Puppeteer&lt;/code&gt;の&lt;code&gt;waitForNavigation&lt;/code&gt;の動きを誤って理解していました。&lt;/p&gt;
+&lt;p&gt;ここでは、&lt;code&gt;Puppeteer&lt;/code&gt;を利用して「ページ遷移を待つ」というよくある処理における誤った実装と正しい実装を紹介します。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PuppeteerでAmazonアフィリエイトのレポートを取得する</title>
+      <link>https://www.meganii.com/blog/2017/08/22/puppeteer/</link>
+      <pubDate>Tue, 22 Aug 2017 21:43:50 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/08/22/puppeteer/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/GoogleChrome/puppeteer&#34;&gt;GoogleChrome/puppeteer: Headless Chrome Node API&lt;/a&gt; というHeadless Chromeを操作するJavaScriptライブラリが出たので使ってみました。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

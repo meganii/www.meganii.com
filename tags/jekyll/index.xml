@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jekyll on SIS Lab</title>
+    <link>https://www.meganii.com/tags/jekyll/</link>
+    <description>Recent content in jekyll on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 08 Jan 2017 15:58:45 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する</title>
+      <link>https://www.meganii.com/blog/2017/01/08/static-site-generator-hugo/</link>
+      <pubDate>Sun, 08 Jan 2017 15:58:45 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/01/08/static-site-generator-hugo/</guid>
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511562368/yjhod8fty2uwipjwyiyt.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/yjhod8fty2uwipjwyiyt.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/yjhod8fty2uwipjwyiyt.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/yjhod8fty2uwipjwyiyt.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/yjhod8fty2uwipjwyiyt.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/yjhod8fty2uwipjwyiyt.png 320w&#34;
+      width=&#34;685&#34;
+      height=&#34;368&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;今、自分でブログ・サイトを構築するとしたら、どんな選択肢があるでしょうか？&lt;/p&gt;
+&lt;p&gt;さすがにHTMLを自分で手打ちするのは大変なので、なんらかのCMS(Content Management System コンテンツ管理システム)を利用することになりますが、そのCMSにもさまざまな種類があり、どれを選んだらよいのでしょうか？&lt;/p&gt;
+&lt;p&gt;私自身、CMSとしては&lt;a href=&#34;http://lokka.org/&#34;&gt;Lokka&lt;/a&gt;(Ruby), &lt;a href=&#34;https://ja.wordpress.org&#34;&gt;WordPress&lt;/a&gt;(PHP), &lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;(Ruby), &lt;a href=&#34;http://octopress.org/&#34;&gt;Octopress&lt;/a&gt;(Ruby)、&lt;a href=&#34;https://middlemanapp.com/jp/&#34;&gt;Middleman&lt;/a&gt;(Ruby)と利用してきました。&lt;/p&gt;
+&lt;p&gt;どのCMSも一長一短ですが、Ruby, PHPなどの動的スクリプトで構成されるCMSは共通してビルドの遅さを感じます。&lt;/p&gt;
+&lt;p&gt;そこで、ビルドが高速という噂の&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;(Golang)に移行したところ、快適でシンプルなブログサイトを構築できましたので、今回はその&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;の紹介をします。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JekyllからHugoへの移行ポイント</title>
+      <link>https://www.meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/</link>
+      <pubDate>Sun, 30 Aug 2015 11:56:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/</guid>
+      <description>Hugoが爆速であること、HugoがGolangで作られていて読みながら勉強したいという理由からJekyllからHugoに移行することにした。 基本的には、_postディレクトリにあるものを、Hugoで</description>
+    </item>
+    
+    <item>
+      <title>Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった</title>
+      <link>https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/</link>
+      <pubDate>Sat, 13 Dec 2014 18:15:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/</guid>
+      <description>カテゴリ名を一括変換したり、タグ名を整理する際に、今どうなっているか一覧にしたかったので、Railsで作ってみた。 無事一覧が出来たので気持ちいい。こういう庭いじり好きかも笑。 https://github.com/meganii/JekyllFFviewer Postsテーブル作成 m</description>
+    </item>
+    
+    <item>
+      <title>Jekyllに月別アーカイブを実装する</title>
+      <link>https://www.meganii.com/blog/2014/12/02/jekyll-monthly-archive/</link>
+      <pubDate>Tue, 02 Dec 2014 07:54:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/12/02/jekyll-monthly-archive/</guid>
+      <description>以下のページを参考に、月別アーカイブを実装した。 参考 Octopress - 月別アーカイブ！ - mk-mode BLOG shigeya/jekyll-monthly-archive-plugin 用途 monthly_archive_plugin.rb 月別アーカイブページを生成 monthly_archive.html 月別アーカイブページのレイアウト monthly_archive.rb 月別アーカイブの出力カスタムタグ monthly_archive_plugin.rb module Jekyll module MonthlyArchiveUtil def self.archive_base(site) site.config[&amp;#39;monthly_archive&amp;#39;] &amp;amp;&amp;amp; site.config[&amp;#39;monthly_archive&amp;#39;][&amp;#39;path&amp;#39;]</description>
+    </item>
+    
+    <item>
+      <title>Jekyllにタグクラウドを実装する</title>
+      <link>https://www.meganii.com/blog/2014/12/01/jekyll-tag-cloud/</link>
+      <pubDate>Mon, 01 Dec 2014 07:46:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/12/01/jekyll-tag-cloud/</guid>
+      <description>タグクラウドが欲しくなったので、タグクラウドタグを実装した。 tag_generator.rb module Jekyll class TagPage &amp;lt; Page def initialize(site, base, dir, tag) @site = site @base = base @dir = dir @name = &amp;#39;index.html&amp;#39; self.process(@name) self.read_yaml(File.join(base, &amp;#39;_layouts&amp;#39;), &amp;#39;tag_index.html&amp;#39;) self.data[&amp;#39;tag&amp;#39;] = tag tag_title_prefix = &amp;#39;Tag: &amp;#39; self.data[&amp;#39;title&amp;#39;] = &amp;#34;#{tag_title_prefix}#{tag}&amp;#34; end end class TagPageGenerator &amp;lt; Generator safe true def generate(site) if site.layouts.key? &amp;#39;tag_index&amp;#39; dir = site.config[&amp;#39;tag_path&amp;#39;] || &amp;#39;tag&amp;#39; site.tags.keys.each do |tag| site.pages &amp;lt;&amp;lt; TagPage.new(site, site.source, File.join(dir, tag), tag) end end end end</description>
+    </item>
+    
+    <item>
+      <title>UTF-8-MACとは何か？〜Jekyllのカテゴリ(タグ)ページで濁点を含むページが表示されない〜</title>
+      <link>https://www.meganii.com/blog/2014/11/29/jekyll-tags-unread-because-of-utf-8-mac/</link>
+      <pubDate>Sat, 29 Nov 2014 23:01:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/11/29/jekyll-tags-unread-because-of-utf-8-mac/</guid>
+      <description>Macでファイル作成し、その後、rsyncでさくらVPS(CentOS)に転送しているのだが、濁点を含むファイルだけが表示されない。 例えば、「リファクタリング」など。 https://www.megan</description>
+    </item>
+    
+    <item>
+      <title>Macのsedで改行コードを出力させる 〜改行コードの違い再確認〜</title>
+      <link>https://www.meganii.com/blog/2014/11/25/sed-cr-lf/</link>
+      <pubDate>Tue, 25 Nov 2014 22:55:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/11/25/sed-cr-lf/</guid>
+      <description>&lt;p&gt;Octpressで各ブログ記事に利用していた`&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JekyllでPygmentsを使ってのシンタックスハイライト</title>
+      <link>https://www.meganii.com/blog/2014/10/29/pjekyll-pygments/</link>
+      <pubDate>Wed, 29 Oct 2014 23:15:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/10/29/pjekyll-pygments/</guid>
+      <description>シンタックスハイライトに、Pygmentsを使いたくなったので変更する。 1.pygmentsをインストールする。 pip install pygments 2. 以下のコマンドでcssを生成する。 pygmentize -a .highlight -S monokai -f html &amp;gt; css/monokai.css 3. Gemfileにpygme</description>
+    </item>
+    
+    <item>
+      <title>Jekyllでページ分割する -pagenation-</title>
+      <link>https://www.meganii.com/blog/2014/10/21/jekyll-pagenation/</link>
+      <pubDate>Tue, 21 Oct 2014 07:37:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/10/21/jekyll-pagenation/</guid>
+      <description>Jekyllでやりたいこと Jekyllを使っていて、トップページにすべての記事が出てくるのもうっとおしい。 トップページの表示記事を5〜10件にして、そのほかの記事を「次へ」、「戻る」で遷移させたい。 解</description>
+    </item>
+    
+    <item>
+      <title>YouTube埋め込みタグをレスポンシブ化する</title>
+      <link>https://www.meganii.com/blog/2014/09/03/youtube-responsive/</link>
+      <pubDate>Wed, 03 Sep 2014 23:26:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/09/03/youtube-responsive/</guid>
+      <description>せっかくのレスポンシブデザインなので、YouTubeの埋め込みもレスポンシブ化してみた。 main.css .youtubeWrapper{ position: relative ; margin-top: 1.2em ; margin-bottom: 1.2em ; padding-top: 69px ; padding-bottom: 50% ; overflow: hidden ; } .youtubeWrapper iframe { position: absolute ; top: 0 ; left: 0 ; height: 100% ; width: 100% ; } default.html &amp;lt;div class=&amp;quot;youtubeWrapper&amp;quot;&amp;gt; &amp;lt;iframe width=&amp;quot;560&amp;quot; height=&amp;quot;315&amp;quot; src=&amp;quot;//www.youtube.com/embed/PRI0bA5VSL8&amp;quot; frameborder=&amp;quot;0&amp;quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt; &amp;lt;/div&amp;gt; 以下は、レス</description>
+    </item>
+    
+    <item>
+      <title>jekyll front matter</title>
+      <link>https://www.meganii.com/blog/2014/06/24/jekyll-front-matter/</link>
+      <pubDate>Tue, 24 Jun 2014 07:12:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/06/24/jekyll-front-matter/</guid>
+      <description>require &amp;#39;rubygems&amp;#39; require &amp;#39;english&amp;#39; require &amp;#39;yaml&amp;#39; content = File.read(&amp;#39;test.markdown&amp;#39;) content =~ /\A(---\s*\n.*?\n?)^(---\s*$\n?)/m YAML.load($MATCH) 参考 Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現- – じょーぶん部 Front-matter Module: English (Ruby 2.0.0)</description>
+    </item>
+    
+    <item>
+      <title>Jekyllのバージョンアップ</title>
+      <link>https://www.meganii.com/blog/2013/11/24/jekyll-versionup/</link>
+      <pubDate>Sun, 24 Nov 2013 21:34:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/11/24/jekyll-versionup/</guid>
+      <description>Jekyllのバージョンがいつの間にか1.3になっているので、バージョンアップする。 brew update Xcodeが古くなっているので、AppStoreから最新をダウンロード rbenv install 2.0.0-p195 brew update # Homebrew自体とfomu</description>
+    </item>
+    
+    <item>
+      <title>Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-</title>
+      <link>https://www.meganii.com/blog/2013/05/23/regexp-jekyll/</link>
+      <pubDate>Thu, 23 May 2013 07:19:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/05/23/regexp-jekyll/</guid>
+      <description>JekyllのYAML部分と記事本文を分離していると思われる正規表現を確認する。 正規表現 /\A(---\s*\n.*?\n?)^(---\s*$\n?)/m こんな感じらしい # Read the YAML frontmatter. # # base - The String path to the dir containing the file. # name - The String filename of the file. # # Returns nothing. def read_yaml(base, name) begin self.content = File.read(File.join(base, name)) if self.content =~ /\A(---\s*\n.*?\n?)^(---\s*$\n?)/m self.content = $POSTMATCH self.data</description>
+    </item>
+    
+    <item>
+      <title>Sublime Text 2にLiveReloadを導入してMarkdown Previewを快適に!!</title>
+      <link>https://www.meganii.com/blog/2013/05/20/livereloaded/</link>
+      <pubDate>Mon, 20 May 2013 22:05:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/05/20/livereloaded/</guid>
+      <description>Jekyllを使うからには、Markdownをプレビュー出来るエディタが欲しくなる。 Markdownをプレビュー出来るエディタと言えば、Kobito - プログラミングのメモやスニペットの記録に最適なMa</description>
+    </item>
+    
+    <item>
+      <title>Octopressに「続きを読む」のプラグイン導入</title>
+      <link>https://www.meganii.com/blog/2013/04/24/readmore/</link>
+      <pubDate>Wed, 24 Apr 2013 20:16:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/04/24/readmore/</guid>
+      <description>「続きを読む」ように、記事を折りたたむプラグインを導入。 Octopressなら、/plaginsディレクトリに 以下のpostmore.rbを設定する。 module PostMore def postmorefilter(input, url, text) if input.include? &amp;#34; &amp;lt;amp-ad media=&amp;#34;(max-width: 480px)&amp;#34; width=&amp;#34;100vw&amp;#34; height=320 type=&amp;#34;adsense&amp;#34; data-ad-client=&amp;#34;ca-pub-5340212676785058&amp;#34; data-ad-slot=&amp;#34;4566541958&amp;#34; data-auto-format=&amp;#34;rspv&amp;#34; data-full-width&amp;gt; &amp;lt;div overflow&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/amp-ad&amp;gt; &amp;lt;amp-ad media=&amp;#34;(min-width: 481px)&amp;#34;</description>
+    </item>
+    
+    <item>
+      <title>はてなダイアリーからJekyllへお引越し</title>
+      <link>https://www.meganii.com/blog/2013/02/03/hatena2jekyll/</link>
+      <pubDate>Sun, 03 Feb 2013 10:47:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/02/03/hatena2jekyll/</guid>
+      <description>前提 Octpressを利用してます 参考ページ 俺の最強ブログ システムが火を噴くぜ - てっく煮ブログ はてなダイアリーのエントリをJekyllへ移行する - kk_Atakaの日記 1. てっく煮ブログをローカルで動作</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on SIS Lab</title>
+    <link>https://www.meganii.com/tags/java/</link>
+    <description>Recent content in Java on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 17 Apr 2020 19:32:09 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>大阪EffectiveJava読書会 第１回に行ってきました！！</title>
+      <link>https://www.meganii.com/blog/2011/04/18/1303078785/</link>
+      <pubDate>Mon, 18 Apr 2011 07:19:45 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2011/04/18/1303078785/</guid>
+      <description>EffectiveJavaを持ってるけど、なかなか読めない。読んでいても、すぐに聞ける人が周りにいない。2年目になるのに、結局Javaを理解していない。そんなところに、大阪EffectiveJava読</description>
+    </item>
+    
+    <item>
+      <title>GAEでデータストア登録 -サークルIT化のお手伝い</title>
+      <link>https://www.meganii.com/blog/2010/09/23/1285205073/</link>
+      <pubDate>Thu, 23 Sep 2010 10:24:33 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2010/09/23/1285205073/</guid>
+      <description>勝手に思ってるサークルの問題点に勝手に取り組むシリーズ改め、「サークルIT化のお手伝い」で引き続きやっていこうと思います。今回は、GAEでデータストア登録です。 おさらい -こんなことがしたいんです！ 新入</description>
+    </item>
+    
+    <item>
+      <title>GAEでメール受信＆メール送信 〜勝手に思ってるサークルの問題点に、勝手に取り組む</title>
+      <link>https://www.meganii.com/blog/2010/09/18/1284773521/</link>
+      <pubDate>Sat, 18 Sep 2010 10:32:01 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2010/09/18/1284773521/</guid>
+      <description>勝手に思ってるサークルの問題点に、勝手に取り組むシリーズ 第二弾~新入生メールアドレス自動登録編~ やりたいこと 煩雑なメール登録作業の軽減がしたい!! 毎年、新入生歓迎の時期になると多くの新入生がサークルに</description>
+    </item>
+    
+    <item>
+      <title>TDDBootCamp名古屋の１日目の課題にリトライ！</title>
+      <link>https://www.meganii.com/blog/2010/07/13/1278975779/</link>
+      <pubDate>Tue, 13 Jul 2010 08:02:59 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2010/07/13/1278975779/</guid>
+      <description>set(),get(),dump()の実装。うーん、上手くかけない＞＜.. package file; import static org.junit.Assert.*; import org.junit.Test; public class FileStoreTest { @Test public void testdump() throws Exception { FileStore fs = new FileStore(); fs.set(&amp;#34;hoge&amp;#34;,&amp;#34;piyo&amp;#34;); assertEquals(&amp;#34;hoge:piyo&amp;#34;, fs.dump()); fs.set(&amp;#34;foo&amp;#34;, &amp;#34;bar&amp;#34;); assertEquals(&amp;#34;hoge:piyo,foo:bar&amp;#34;, fs.dump()); fs.set(&amp;#34;bar&amp;#34;, &amp;#34;baz&amp;#34;); assertEquals(&amp;#34;hoge:piyo,foo:bar,bar:baz&amp;#34;, fs.dump()); } @Test public void testget() throws Exception { FileStore fs = new FileStore(); fs.set(&amp;#34;hoge&amp;#34;, &amp;#34;piyo&amp;#34;); assertEquals(&amp;#34;piyo&amp;#34;, fs.get(&amp;#34;hoge&amp;#34;)); fs.set(&amp;#34;foo&amp;#34;, &amp;#34;bar&amp;#34;); assertEqua</description>
+    </item>
+    
+    <item>
+      <title>ありえるえりあ勉強会に行ってきましたー！！</title>
+      <link>https://www.meganii.com/blog/2010/05/29/1275094837/</link>
+      <pubDate>Sat, 29 May 2010 10:00:37 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2010/05/29/1275094837/</guid>
+      <description>ありえるえりあ勉強会@溜池山王 〜第1回ディープすぎるJava・・・〜EffectiveでPerfectなJava勉強会 ありえるえりあ勉強会@溜池山王 ～第1回ディープすぎるJava・・・～ : ATND そもそも、</description>
+    </item>
+    
+    <item>
+      <title>JAVA</title>
+      <link>https://www.meganii.com/blog/2009/05/19/1242741930/</link>
+      <pubDate>Tue, 19 May 2009 23:05:30 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/05/19/1242741930/</guid>
+      <description>Javaで学ぶ遺伝的アルゴリズム 作者: 森直樹出版社/メーカー: 共立出版発売日: 2007/11/22メディア: 単行本 クリック: 4回この商品を含むブログ (2件) を見る キャストとは・・・ Java実行環境が暗</description>
+    </item>
+    
+    <item>
+      <title>Java言語で学ぶデザインパターン入門#1</title>
+      <link>https://www.meganii.com/blog/2009/05/14/1242311740/</link>
+      <pubDate>Thu, 14 May 2009 23:35:40 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/05/14/1242311740/</guid>
+      <description>Amazonでチェックする -- 今日やったこと デザインパターンに慣れる Iterater Adapter サブクラスに任せる Template Method メソッド、継承、実装、インスタンスあたりの用語についてちょっとイメージがつかめてきた。ただ、関数において変数</description>
+    </item>
+    
+    <item>
+      <title>Java 今の時間を表示させる</title>
+      <link>https://www.meganii.com/blog/2008/05/31/1212187128/</link>
+      <pubDate>Sat, 31 May 2008 07:38:48 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2008/05/31/1212187128/</guid>
+      <description>Java勉強中ですー。自分のためにちゅくちょく書いたコードをブログに載せていこうと思う。 第一弾 今の時間を表示させる import java.applet.*; import java.util.*; import java.awt.Button; import java.awt.event.*; import java.awt.Graphics; public class time extends Applet implements ActionListener{ Button b = new Button(&amp;#34;now time&amp;#34;); String moji; public void init(){ add(b); b.addActionListener(this); } public void actionPerformed(ActionEvent e){ moji = e.getActionCommand(); repaint(); } public void paint(Graphics</description>
+    </item>
+    
+  </channel>
+</rss>

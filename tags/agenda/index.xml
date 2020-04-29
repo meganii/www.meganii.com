@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>agenda on SIS Lab</title>
+    <link>https://www.meganii.com/tags/agenda/</link>
+    <description>Recent content in agenda on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 24 Feb 2018 21:56:16 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/agenda/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MongoDBを利用したNode.jsのジョブ管理ツールagenda</title>
+      <link>https://www.meganii.com/blog/2018/02/24/agenda-job-scheduling-for-nodejs/</link>
+      <pubDate>Sat, 24 Feb 2018 21:56:16 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/02/24/agenda-job-scheduling-for-nodejs/</guid>
+      <description>Node.jsでジョブ管理をしたいとしたいときの調査結果。 ツール MongoDB Agenda Redis kue bull Job-queueのバックエンドとして、Redisを使うのであれば、bull, kue。 MongoDBを利用するなら、Agend</description>
+    </item>
+    
+  </channel>
+</rss>

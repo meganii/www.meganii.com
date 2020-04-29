@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on SIS Lab</title>
+    <link>https://www.meganii.com/tags/ruby/</link>
+    <description>Recent content in Ruby on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 25 Jun 2017 22:21:06 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Ruby]mapメソッドの省略記法</title>
+      <link>https://www.meganii.com/blog/2017/06/25/ruby-idiom-map/</link>
+      <pubDate>Sun, 25 Jun 2017 22:21:06 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/06/25/ruby-idiom-map/</guid>
+      <description>Rubyのmapメソッドとは|基本的なmapの記述方法と省略記法｜フリエン map { |x| x.chomp }は、map(&amp;amp;:chomp)と省略することができる。省略記法を利用した場合は、全ての要素に対して&amp;amp;の</description>
+    </item>
+    
+    <item>
+      <title>[Ruby]Moduleの使い方</title>
+      <link>https://www.meganii.com/blog/2017/06/24/ruby-iduom-module/</link>
+      <pubDate>Sat, 24 Jun 2017 18:00:35 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/06/24/ruby-iduom-module/</guid>
+      <description>メソッドをクラスのインスタンスメソッドとして取り込む module Greetable def greet_to(name) puts &amp;#34;Hello #{name}. My name is #{self.class}&amp;#34; ends end class Alice include Greetable end alice = Alice.new alice.greet_to(&amp;#39;meganii&amp;#39;)</description>
+    </item>
+    
+    <item>
+      <title>google-api-ruby-clientからGoogle Adsense Management APIを操作する方法</title>
+      <link>https://www.meganii.com/blog/2016/06/05/ruby-google-api-client/</link>
+      <pubDate>Sun, 05 Jun 2016 09:58:34 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/06/05/ruby-google-api-client/</guid>
+      <description>&lt;h2 id=&#34;何をしたいか&#34;&gt;何をしたいか？&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;google-api-ruby-client&lt;/code&gt;を利用して、Google Adsenseの収益情報を取得したい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;概要何が書いてあるか&#34;&gt;概要(何が書いてあるか)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/google/google-api-ruby-client&#34;&gt;https://github.com/google/google-api-ruby-client&lt;/a&gt;のサンプルを参考に、プロジェクトの作成の仕方から、認証情報の作り方、Adsense用のコード&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;どこにハマったか&#34;&gt;どこにハマったか？&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;google-api-ruby-client&lt;/code&gt;のversion 0.9以降の方法がなかなか見つからず試行錯誤した&lt;/li&gt;
+&lt;li&gt;特に、認証周りがよく分からず、苦労した&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最終的には、googleのサンプルコードをベースに作成することでレポート取得ができることができた。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>slack-apiを利用してRubyからSlackへメッセージとファイルをポストする方法</title>
+      <link>https://www.meganii.com/blog/2016/02/10/post-to-slack/</link>
+      <pubDate>Wed, 10 Feb 2016 07:17:11 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/02/10/post-to-slack/</guid>
+      <description>Slackで、Rubyからメッセージとファイルをポストする方法についてのメモ。 以下のslack-apiを利用する。 aki017/slack-ruby-gem: A Ruby wrapper for the Slack API ファイルの組み立て方(?)が分からなかったのでFaradayにお任せし</description>
+    </item>
+    
+    <item>
+      <title>数世代バージョンを持つファイル名から最新版以外を抽出する</title>
+      <link>https://www.meganii.com/blog/2015/03/27/leave-latest-filename/</link>
+      <pubDate>Fri, 27 Mar 2015 23:54:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2015/03/27/leave-latest-filename/</guid>
+      <description>数世代バージョンを持っているようなファイルから、最新版だけ残す(2世代以上持っているものを抽出する)方法。 前提 ファイル名_yyyymmddという形式になっている。 あらかじめファイル名をソートしておく。</description>
+    </item>
+    
+    <item>
+      <title>Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった</title>
+      <link>https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/</link>
+      <pubDate>Sat, 13 Dec 2014 18:15:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/</guid>
+      <description>カテゴリ名を一括変換したり、タグ名を整理する際に、今どうなっているか一覧にしたかったので、Railsで作ってみた。 無事一覧が出来たので気持ちいい。こういう庭いじり好きかも笑。 https://github.com/meganii/JekyllFFviewer Postsテーブル作成 m</description>
+    </item>
+    
+    <item>
+      <title>sqlite3-rubyを使ってSQLite3ファイルからの検索結果をHashとして読み込む</title>
+      <link>https://www.meganii.com/blog/2013/05/18/sqlite3-ruby/</link>
+      <pubDate>Sat, 18 May 2013 12:06:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/05/18/sqlite3-ruby/</guid>
+      <description>&lt;p&gt;sqlite3-rubyを使って、SQLite3にアクセスしてデータの取得、加工がしたい。&lt;/p&gt;
+&lt;p&gt;db.executeした際に配列が帰ってきた。カラム名でアクセス出来る方法がないか探したところ、&lt;code&gt;results_as_hash = true&lt;/code&gt;にすれば、Hashで返ってくることがわかった。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RubyからGMailを使ってメール送信</title>
+      <link>https://www.meganii.com/blog/2012/04/19/1334787470/</link>
+      <pubDate>Thu, 19 Apr 2012 07:17:50 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/04/19/1334787470/</guid>
+      <description>Evernote Developer Documentation APIを利用して、mp3ファイルを送信しようとしたのだがうまくいかない。 とりあえず、メールで送信する方法を試すため、以下を参考にした。 GMailのSMTPサーバーを使ってメールを送信するサンプル</description>
+    </item>
+    
+    <item>
+      <title>Padrinoを触ってみた</title>
+      <link>https://www.meganii.com/blog/2012/04/03/1333406632/</link>
+      <pubDate>Tue, 03 Apr 2012 07:43:52 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/04/03/1333406632/</guid>
+      <description>Padrino - The Elegant Ruby Web Framework チュートリアルを参考にしながら、作ってみました。 このページを参考にしました。 Padrino - Basic Projects インストール gem install padrino プロジェクトの作成 padrino g project test_app -d datamapper -e haml -d ORMの選択 -e テンプレートエンジンの選択 作業ポイ</description>
+    </item>
+    
+    <item>
+      <title>TEDから取得したmp3に英語原稿を埋め込む</title>
+      <link>https://www.meganii.com/blog/2012/03/21/1332282428/</link>
+      <pubDate>Wed, 21 Mar 2012 07:27:08 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/03/21/1332282428/</guid>
+      <description>TEDの英語原稿を取得する - ギークを夢見るじょーぶん男子 で取得した英語原稿をダウンロードしたmp3ファイルに埋め込みたい。 調べてみると、id3lib-rubyが使えそう。 id3lib-rubyを利用し</description>
+    </item>
+    
+    <item>
+      <title>TEDの英語原稿を取得する</title>
+      <link>https://www.meganii.com/blog/2012/03/20/1332214416/</link>
+      <pubDate>Tue, 20 Mar 2012 12:33:36 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/03/20/1332214416/</guid>
+      <description>方針 http://www.ted.com/talks/subtitles/id/#{固有のID}/lang/en を叩くと、英語原稿のjsonが返ってくる。 TEDのビデオの固有のIDを取得して、API叩</description>
+    </item>
+    
+    <item>
+      <title>RubyからEvernoteAPIを使う-Web Application編-</title>
+      <link>https://www.meganii.com/blog/2012/03/05/1330895587/</link>
+      <pubDate>Mon, 05 Mar 2012 06:13:07 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/03/05/1330895587/</guid>
+      <description>前回のエントリ(RubyからEvernoteAPIを使ってノートブックの取得と、ノートの作成をする - ギークを夢見るじょーぶん男子)で、クライアントからAPIを使ってノートブックの取得と、ノートの作成は</description>
+    </item>
+    
+    <item>
+      <title>RubyからEvernoteAPIを使ってノートブックの取得と、ノートの作成をする</title>
+      <link>https://www.meganii.com/blog/2012/03/04/1330859467/</link>
+      <pubDate>Sun, 04 Mar 2012 20:11:07 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/03/04/1330859467/</guid>
+      <description>APIキーの取得 ここでは、まず、自分の手元で動かしたかったので、「ClientApplication」でAPIキーを発行しました。 WebApplicationを選択した場合、OAuthでの認証が必要に</description>
+    </item>
+    
+    <item>
+      <title>Sinatra触ってると出てくるRackって何？</title>
+      <link>https://www.meganii.com/blog/2012/02/01/1328105758/</link>
+      <pubDate>Wed, 01 Feb 2012 23:15:58 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/02/01/1328105758/</guid>
+      <description>Sinatraを触ってると、Rackがいろんなところで出てくるが、いまいちわからないので調べた。以下のページを参考。 Ruby Freaks Lounge：第23回 Rackとは何か（1）Rackの生まれた背景｜gihyo.</description>
+    </item>
+    
+    <item>
+      <title>Lokkaプラグインlokka-twitter_urlを作ってみた</title>
+      <link>https://www.meganii.com/blog/2012/01/30/1327934314/</link>
+      <pubDate>Mon, 30 Jan 2012 23:38:34 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/01/30/1327934314/</guid>
+      <description>大したものじゃないけど、Lokkaプラグイン作ってみた。 [twitter:meganii] って、やると、http://twitter.com/meganiiへのリンクに置換するよ。 以下、参考にさせてもらいましたー!! lokka-twitter_url.rb module Lokka module TwitterUrl def self.registered(app) %w(posts</description>
+    </item>
+    
+    <item>
+      <title>テンプレートエンジン？eRuby、Haml/Sass、Slimってなによ？</title>
+      <link>https://www.meganii.com/blog/2011/12/15/1323962258/</link>
+      <pubDate>Thu, 15 Dec 2011 00:17:38 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2011/12/15/1323962258/</guid>
+      <description>いろいろ紛らわしい、名前が多いから調べてみた。 eRubyって？ JavaでいうJSP, それがRubyだとeRuby eRuby: 任意のテキストファイルに Ruby スクリプトを埋め込む書式の仕様 eruby: 前田修吾さん作の eRuby の C による</description>
+    </item>
+    
+    <item>
+      <title>InstagramのAPIを叩く</title>
+      <link>https://www.meganii.com/blog/2011/12/14/1323813720/</link>
+      <pubDate>Wed, 14 Dec 2011 07:02:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2011/12/14/1323813720/</guid>
+      <description>require &#39;uri&#39; require &#39;net/https&#39; require &#39;json&#39; url = &#39;https://api.instagram.com/v1/users/3/media/recent/&#39; access_token = YOUR_ACCESS_TOKEN param = &amp;quot;access_token=#{access_token}&amp;quot; uri = URI.parse(url) https = Net::HTTP.new(uri.host,443) https.use_ssl = true https.start { response = https.get(uri.path + &amp;quot;?#{param}&amp;quot;) json = JSON.parse(response.body) print json } 参考 library net/https Instagram Read it LaterをRubyで取得する - kk_Atakaの日記</description>
+    </item>
+    
+    <item>
+      <title>CotEditorからmixi,はてなダイアリー,社内SNSへ同時投稿するスプリクト</title>
+      <link>https://www.meganii.com/blog/2009/10/07/1254923890/</link>
+      <pubDate>Wed, 07 Oct 2009 22:58:10 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/10/07/1254923890/</guid>
+      <description>長年の夢（いやそこまででもないけど、）だったmixi,はてなダイアリー,社内SNSへの日記同時投稿の環境が整いました！！これで何気ないことも、３つすべてにログが残る。残るとマズい記事もあるだろうけど。</description>
+    </item>
+    
+    <item>
+      <title>島根で開催されたRuby合宿一日目</title>
+      <link>https://www.meganii.com/blog/2009/08/08/1249769235/</link>
+      <pubDate>Sat, 08 Aug 2009 07:07:15 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/08/08/1249769235/</guid>
+      <description>8月 8日(土)〜8月12日(水)の4泊5日、島根県立 松江商業高等学校 はい、現在Ruby合宿に来ております。 名古屋から片道11時間近くかけて青春18切符を使って、松江入り。意外となんとかなりました。 Ru</description>
+    </item>
+    
+    <item>
+      <title>簡単なtwitter_botをRubyで作るまで</title>
+      <link>https://www.meganii.com/blog/2009/07/27/1248664327/</link>
+      <pubDate>Mon, 27 Jul 2009 12:12:07 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/07/27/1248664327/</guid>
+      <description>とりあえずまずは、rubyの環境を整えるところから。思いだしながら書いているので、若干おかしな部分があるかもしれません。 sudo apt-get ruby sudo apt-get rubygems このような環境で以下のmain.rbを動かそうとしたところ、なんやら</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloudinary on SIS Lab</title>
+    <link>https://www.meganii.com/tags/cloudinary/</link>
+    <description>Recent content in Cloudinary on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 17 Jan 2018 20:06:20 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/cloudinary/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cloudinaryを利用したレスポンシブ配信</title>
+      <link>https://www.meganii.com/blog/2018/01/17/cloudinary-imagesets/</link>
+      <pubDate>Wed, 17 Jan 2018 20:06:20 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/01/17/cloudinary-imagesets/</guid>
+      <description>&lt;p&gt;HTML配信のプラクティスとして、PC、スマートフォンなど画面サイズに応じて適切な画像サイズを配信するというものがあります。&lt;/p&gt;
+&lt;p&gt;PC画面と比べて画面サイズが小さいスマートフォンに対して、高画質の画像を配信することは無駄ですので、画面サイズに合わせた画像サイズを選択することが必要です。&lt;/p&gt;
+&lt;p&gt;そこで、Cloudinaryという画像変換サービスを利用して、レスポンシブ対応しました。&lt;/p&gt;
+&lt;p&gt;今まで写真などの画像は、基本的にはFlickrを利用していました。
+実験的にCloudinaryを利用して、無料枠に収まるかを確認しています。&lt;/p&gt;
+&lt;p&gt;Cloudinary専用の&lt;code&gt;shortcodes&lt;/code&gt;を用意しても良かったのですが、&lt;code&gt;{{% img %}}&lt;/code&gt;タグの中で吸収する形式をとりました。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>画像ホスティング、画像変換サービスCloudinary</title>
+      <link>https://www.meganii.com/blog/2017/11/20/cloudinary/</link>
+      <pubDate>Mon, 20 Nov 2017 21:06:14 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/11/20/cloudinary/</guid>
+      <description>&lt;p&gt;画像ホスティング、画像変換サービスのCloudinaryを調べたときのメモ。&lt;/p&gt;
+&lt;h2 id=&#34;どのようにcloudinaryが容量をカウントしているのか&#34;&gt;どのようにCloudinaryが容量をカウントしているのか？&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://support.cloudinary.com/hc/en-us/articles/203125631-How-does-Cloudinary-count-my-plan-s-quotas-and-what-does-every-quota-mean-&#34;&gt;How does Cloudinary count my plan&amp;rsquo;s quotas and what does every quota mean? – Cloudinary Support&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

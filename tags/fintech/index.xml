@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FinTech on SIS Lab</title>
+    <link>https://www.meganii.com/tags/fintech/</link>
+    <description>Recent content in FinTech on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 18 Jun 2017 21:54:26 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/fintech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>EDINETとXBRLとは何か？Pythonで財務諸表のデータを取得する</title>
+      <link>https://www.meganii.com/blog/2017/06/18/what-is-edinet-xbrl/</link>
+      <pubDate>Sun, 18 Jun 2017 21:54:26 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/06/18/what-is-edinet-xbrl/</guid>
+      <description>&lt;h2 id=&#34;edinetとは&#34;&gt;EDINETとは？&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Electronic Disclosure for Investor&amp;rsquo;s NETworkの略&lt;/li&gt;
+&lt;li&gt;EDINETは、金融庁により運用されている「金融商品取引法に基づく有価証券報告書等の開示書類に関する電子開示システム」&lt;/li&gt;
+&lt;li&gt;2008年のリニューアルで、財務諸表をXBRL形式による提出が義務付けられた&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

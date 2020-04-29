@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on SIS Lab</title>
+    <link>https://www.meganii.com/tags/design/</link>
+    <description>Recent content in Design on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 16 Nov 2019 19:25:36 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cloudflare AMP Real URLをブログに導入する</title>
+      <link>https://www.meganii.com/blog/2019/11/16/amp-real-url-with-cloudflare/</link>
+      <pubDate>Sat, 16 Nov 2019 19:25:36 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2019/11/16/amp-real-url-with-cloudflare/</guid>
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1574561130/AMP_%EF%B8%8F_Real_URL_a1iiwa.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 320w&#34;
+      width=&#34;560&#34;
+      height=&#34;315&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Cloudflare AMP Real URLをブログに導入する&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;AMPページをGoogleドメインではなく、自ドメインで表示することができる「AMP Real URL」をこのブログにも導入しました。「AMP Real URL」に関する日本語のページがあまりなかったので、手順をまとめてみました。&lt;/p&gt;
+&lt;p&gt;ブログに適用したいと思うのは物好きしかいない、かつ、企業で導入するにはまだまだ早いということでしょうか。
+まだまだ発展途上の仕組みだとは思いますが、個人のブログなのでなんの気兼ねなく試してみます。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugoのテーマでsubmoduleを使う方法</title>
+      <link>https://www.meganii.com/blog/2018/07/11/how-to-use-submodule-for-hugo-theme/</link>
+      <pubDate>Wed, 11 Jul 2018 21:25:48 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/07/11/how-to-use-submodule-for-hugo-theme/</guid>
+      <description>&lt;p&gt;HugoのThemeプロジェクトを&lt;code&gt;git submodule&lt;/code&gt;で扱う方法について調べました。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ちょっとしたアイコンに使えるアイコン集</title>
+      <link>https://www.meganii.com/blog/2018/04/22/get-free-icon/</link>
+      <pubDate>Sun, 22 Apr 2018 17:32:37 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/04/22/get-free-icon/</guid>
+      <description>&lt;p&gt;ちょっとしたデザインに使えるアイコン集のリンクです。&lt;/p&gt;
+&lt;p&gt;よく忘れるのでメモしておきます。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>HugoでのシンタックスハイライトにPython Pygmentsが不要となった</title>
+      <link>https://www.meganii.com/blog/2017/10/14/hugo-syntax-highlighting/</link>
+      <pubDate>Sat, 14 Oct 2017 06:31:25 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/10/14/hugo-syntax-highlighting/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Hugo 0.28&lt;/code&gt;から&lt;code&gt;Python Pygments&lt;/code&gt;に頼らず、Goの機能でシンタックスハイライトが可能になりました。これにより、シンタックスハイライトを行なっているコンテンツがあったとしても、キャッシュなしで高速なビルドができるようになっています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/news/0.28-relnotes/&#34;&gt;Hugo | Hugo 0.28: High-speed Syntax Highlighting!&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo-ZenをベースにHugoのデザインを変えてみた</title>
+      <link>https://www.meganii.com/blog/2016/04/17/hugo-zen/</link>
+      <pubDate>Sun, 17 Apr 2016 19:57:49 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/04/17/hugo-zen/</guid>
+      <description>春になったので、BlogのデザインをHugoをベースに変えてみました。 前々からjQueryに依存するBootstrapをやめたいって思っていたので、Hugoの中でもミニマムなテーマであるHugo-Ze</description>
+    </item>
+    
+    <item>
+      <title>オープン・イノベーションとデザイン・シンキング</title>
+      <link>https://www.meganii.com/blog/2015/10/31/open-inovation-and-design-thinking/</link>
+      <pubDate>Sat, 31 Oct 2015 10:49:04 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2015/10/31/open-inovation-and-design-thinking/</guid>
+      <description>目次 そもそもイノベーションとは？ Open Innovation, Design Thinkingとは？ Open Innovation Design Thinking Design Thinkingの３つのCore Balance Technology with Human Treat Life as an Experiment Leverage the power of storytelling 日本人以外は、日本人を世界一クリエイティブだと思っている 参考 そもそもイ</description>
+    </item>
+    
+    <item>
+      <title>YouTube埋め込みタグをレスポンシブ化する</title>
+      <link>https://www.meganii.com/blog/2014/09/03/youtube-responsive/</link>
+      <pubDate>Wed, 03 Sep 2014 23:26:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/09/03/youtube-responsive/</guid>
+      <description>せっかくのレスポンシブデザインなので、YouTubeの埋め込みもレスポンシブ化してみた。 main.css .youtubeWrapper{ position: relative ; margin-top: 1.2em ; margin-bottom: 1.2em ; padding-top: 69px ; padding-bottom: 50% ; overflow: hidden ; } .youtubeWrapper iframe { position: absolute ; top: 0 ; left: 0 ; height: 100% ; width: 100% ; } default.html &amp;lt;div class=&amp;quot;youtubeWrapper&amp;quot;&amp;gt; &amp;lt;iframe width=&amp;quot;560&amp;quot; height=&amp;quot;315&amp;quot; src=&amp;quot;//www.youtube.com/embed/PRI0bA5VSL8&amp;quot; frameborder=&amp;quot;0&amp;quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt; &amp;lt;/div&amp;gt; 以下は、レス</description>
+    </item>
+    
+  </channel>
+</rss>

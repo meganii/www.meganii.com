@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hubot on SIS Lab</title>
+    <link>https://www.meganii.com/tags/hubot/</link>
+    <description>Recent content in Hubot on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 03 Sep 2016 09:53:38 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/hubot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hubotで外部コマンドを実行する</title>
+      <link>https://www.meganii.com/blog/2016/09/03/hubot-execute-command-child-process/</link>
+      <pubDate>Sat, 03 Sep 2016 09:53:38 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/09/03/hubot-execute-command-child-process/</guid>
+      <description>Node.jsで外部コマンドを実行するために、Child Processを利用する。 Child Process | Node.js v6.5.0 Documentation const exec = require(&amp;#39;child_process&amp;#39;).exec; exec(&amp;#39;cat *.js bad_file | wc -l&amp;#39;, (error, stdout, stderr) =&amp;gt; { if (error) { console.error(`exec error: ${error}`); return; } console.log(`stdout: ${stdout}`); console.log(`stderr: ${stderr}`); }); Hubotの例 child_process = require &amp;#39;child_process&amp;#39; module.exports = (robot) -&amp;gt; robot.hear /ruby/i, (res) -&amp;gt; child_process.exec &amp;#34;ruby -v&amp;#34;, (error, stdout, stderr)</description>
+    </item>
+    
+  </channel>
+</rss>

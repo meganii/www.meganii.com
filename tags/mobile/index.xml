@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile on SIS Lab</title>
+    <link>https://www.meganii.com/tags/mobile/</link>
+    <description>Recent content in Mobile on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 02 Dec 2018 12:28:58 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AMPページがモバイル表示で引っ掛かる件</title>
+      <link>https://www.meganii.com/blog/2018/12/02/amp-page-does-not-scroll-smoothly/</link>
+      <pubDate>Sun, 02 Dec 2018 12:28:58 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/12/02/amp-page-does-not-scroll-smoothly/</guid>
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1543721510/IMG_3186_fl7ifm.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG_3186_fl7ifm.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG_3186_fl7ifm.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_3186_fl7ifm.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_3186_fl7ifm.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_3186_fl7ifm.jpg 320w&#34;
+      width=&#34;215&#34;
+      height=&#34;384&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;AMP page&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;現象&#34;&gt;現象&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;iPhone 6Sで、&lt;a href=&#34;https://scrapbox.io/meganii/AMP&#34;&gt;AMP&lt;/a&gt;ページを表示するとスクロールが意図しない動きになる&lt;/li&gt;
+&lt;li&gt;HeaderとMain Contentの間で、スクロールが止まる&lt;/li&gt;
+&lt;li&gt;本家のland-seeAMPページでも引っかかりを感じるので再現性あり
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ampstart.com/templates&#34;&gt;https://www.ampstart.com/templates&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>ソフトバンク債権回収室から電話があった。</title>
+      <link>https://www.meganii.com/blog/2018/02/09/softbank-08002221263/</link>
+      <pubDate>Fri, 09 Feb 2018 10:33:19 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/02/09/softbank-08002221263/</guid>
+      <description>&lt;p&gt;ある日、番号08002221263から留守番電話が入っており、何事かと思って調べて見た時のメモです。&lt;/p&gt;
+&lt;p&gt;結論から言うと、大方の場合以下の通り問題ないと思います。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;番号08002221263は**「ソフトバンク債権回収室」**という実在する組織&lt;/li&gt;
+&lt;li&gt;「ソフトバンク債権回収室」から電話があった理由は、過去この番号を利用していた人、もしくはこの番号に関係のある人の債務に関する問い合わせ&lt;/li&gt;
+&lt;li&gt;全く関係がないことを伝えれば「今後同様の電話はかけない」と約束してくれる&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

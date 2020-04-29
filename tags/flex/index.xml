@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flex on SIS Lab</title>
+    <link>https://www.meganii.com/tags/flex/</link>
+    <description>Recent content in Flex on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 17 Jan 2010 00:15:03 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/flex/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ウェブアルバムが作りたい！！(4)〜PopUpWindow〜</title>
+      <link>https://www.meganii.com/blog/2010/01/17/1263741303/</link>
+      <pubDate>Sun, 17 Jan 2010 00:15:03 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2010/01/17/1263741303/</guid>
+      <description>http://meganii.sakura.ne.jp/flickr/FlickrSearch.html flickrAPIを使って、tags=appleの画像を取得 クリックすると、ポップアップされ、closeを押すと閉じるところまでまで実装。 次は、クリックした画像を拡大させたいのでなんとか頑張るっ</description>
+    </item>
+    
+    <item>
+      <title>Flexでウェブアルバムが作りたい！！(3)〜MVCパターンの考え方〜</title>
+      <link>https://www.meganii.com/blog/2010/01/15/1263533665/</link>
+      <pubDate>Fri, 15 Jan 2010 14:34:25 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2010/01/15/1263533665/</guid>
+      <description>MVCパターンの考え方 アプリケーションの機能を「ビュー」「モデル」「コントローラ」という３つのモジュールに分割する設計方法 ビュー ユーザーインターフェースの部分。モデルに格納されたデータをユーザに提示し</description>
+    </item>
+    
+    <item>
+      <title>Flexでウェブアルバムが作りたい！！(2)</title>
+      <link>https://www.meganii.com/blog/2009/12/25/1261753985/</link>
+      <pubDate>Fri, 25 Dec 2009 00:13:05 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/12/25/1261753985/</guid>
+      <description>先日、作ろうと思ったモチベーションを書いたわけですけど、そのときのソースコード。 url=&amp;quot;http://api.flickr.com/services/feeds/photos_public.gne?id=hogehoge@hoge&amp;quot; hogehoge@hogeの部分は、自分のFlickrのidに置き換えてください。 FlickrRIA.mxml &amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-8&amp;quot;?&amp;gt; &amp;lt;mx:Application xmlns:mx=&amp;quot;http://www.adobe.com/2006/mxml&amp;quot; backgroundGradientColors=&amp;quot;[0xFFFFFF, 0xAAAAAA]&amp;quot; horizontalAlign=&amp;quot;left&amp;quot; verticalGap=&amp;quot;15&amp;quot; horizontalGap=&amp;quot;15&amp;quot;&amp;gt; &amp;lt;mx:Script&amp;gt; &amp;lt;![CDATA[ import mx.collections.ArrayCollection; import mx.rpc.events.ResultEvent; [Bindable]</description>
+    </item>
+    
+    <item>
+      <title>Flexでウェブアルバムが作りたい！！(1)</title>
+      <link>https://www.meganii.com/blog/2009/12/22/1261500349/</link>
+      <pubDate>Tue, 22 Dec 2009 01:45:49 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/12/22/1261500349/</guid>
+      <description>はい。題名の通り、自分の思い通りのウェブアルバムが作りたい！！ってことで、Flex+ActionScriptでFlickrのAPIを使って、ウェブアルバムを作っていきたいと思います。手始めに、検索ボッ</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>研究 on SIS Lab</title>
+    <link>https://www.meganii.com/tags/%E7%A0%94%E7%A9%B6/</link>
+    <description>Recent content in 研究 on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 11 Mar 2010 23:14:46 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>情報処理学会創立５０周年記念全国大会へ行ってきたよ</title>
+      <link>https://www.meganii.com/blog/2010/03/11/1268316886/</link>
+      <pubDate>Thu, 11 Mar 2010 23:14:46 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2010/03/11/1268316886/</guid>
+      <description>無事情報処理学会の発表が終わり、ほっとしています。 情報処理学会創立50周年記念（第72回）全国大会 プレゼンってなかなか上手くならないです。ってきっと練習不足なんでしょうけど・・・ 今回の学生セッション（</description>
+    </item>
+    
+    <item>
+      <title>あるB4のボロボロな発表を見て一言</title>
+      <link>https://www.meganii.com/blog/2009/12/09/1260326026/</link>
+      <pubDate>Wed, 09 Dec 2009 11:33:46 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/12/09/1260326026/</guid>
+      <description>って、あるB4って自分のことなんですけどね・・・昨日の研究室内ミーティングで、発表したときにかなりボロボロで色々とアドバイスを頂きました。ありがとうございます。そのときのもらったアドバイスを自分へのメ</description>
+    </item>
+    
+    <item>
+      <title>Stochastic universal sampling</title>
+      <link>https://www.meganii.com/blog/2009/08/02/1249216010/</link>
+      <pubDate>Sun, 02 Aug 2009 21:26:50 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/08/02/1249216010/</guid>
+      <description>Stochastic universal sampling 個体数N 適応度に応じて、並べ替える 適応度の合計を計算し、Fとする ０〜F/Nの間をStartとし Ptrs = （Start + i*F/N）をi=0 -&amp;gt; N-1まで Roulette Wheel Selectionに Ptrs分を突っ込む 参考 http://en.wikipedia.org/wiki/Stochastic_universal_sampling</description>
+    </item>
+    
+    <item>
+      <title>gnuplotをループさせる</title>
+      <link>https://www.meganii.com/blog/2009/07/08/1247027906/</link>
+      <pubDate>Wed, 08 Jul 2009 13:38:26 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/07/08/1247027906/</guid>
+      <description>自分へのメモ データせっせと吐き出したはいいけれど、それをグラフで可視化したい場合の処理をさせたかった。以下のページを参考に書いてみた。 #!/bin/sh # `seq 0 N`で0-29までの整数を読み込み for i in `seq 0 29` do #---シ</description>
+    </item>
+    
+    <item>
+      <title>研究室ミーティング090602</title>
+      <link>https://www.meganii.com/blog/2009/06/02/1243942623/</link>
+      <pubDate>Tue, 02 Jun 2009 20:37:03 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/06/02/1243942623/</guid>
+      <description>「More is different」・・・多いと違う 要素からは、把握できないものもあるという、要素還元主義に対する反論。 その反論のさらに強いものが、 「More really is different」 要素還元主義だけじゃ説</description>
+    </item>
+    
+    <item>
+      <title>ミーティング090528</title>
+      <link>https://www.meganii.com/blog/2009/05/29/1243589248/</link>
+      <pubDate>Fri, 29 May 2009 18:27:28 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/05/29/1243589248/</guid>
+      <description>頭に残ったこと、気付いたこと APIとしてのOpenAL これは、ステレオで擬似的な3D空間を表現できるものらしい。 逆見本の導入 ある遺伝子型があって、それに似ないように選択圧をかけるというもの 自分が思い描</description>
+    </item>
+    
+    <item>
+      <title>ミーティング090526</title>
+      <link>https://www.meganii.com/blog/2009/05/26/1243338111/</link>
+      <pubDate>Tue, 26 May 2009 20:41:51 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/05/26/1243338111/</guid>
+      <description>気付いたこと どこが上手くいっていないのか理解するため簡単に分かる問題でチューンナップする 進化圧のかけ方に注意する。 わからなかったこと 乱数 seed 普通は、毎回初期化するもの。C言語だと毎回乱数を発生させること</description>
+    </item>
+    
+    <item>
+      <title>遺伝的アルゴリズム</title>
+      <link>https://www.meganii.com/blog/2009/05/25/1243258571/</link>
+      <pubDate>Mon, 25 May 2009 22:36:11 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/05/25/1243258571/</guid>
+      <description>GAを実際に最適化問題に適用する場合 個体の表現方法 どのように解を個体として表現するか 個体の評価方法 どのように個体を評価するか 解探索のための操作の設計 どのように個体を進化させるか についてまず考える必要が</description>
+    </item>
+    
+    <item>
+      <title>研究室ミーティング090521</title>
+      <link>https://www.meganii.com/blog/2009/05/21/1242899006/</link>
+      <pubDate>Thu, 21 May 2009 18:43:26 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/05/21/1242899006/</guid>
+      <description>ミーティングでの気付き 自分の研究のモチベーションはどこにあるのか？何を目指すのか？ はっきりさせないと議論が進まない 論文紹介では、しっかりと紹介する論文を読み、他の論文もいろいろ読んで比較しないといけな</description>
+    </item>
+    
+    <item>
+      <title>人工生命#1</title>
+      <link>https://www.meganii.com/blog/2009/05/17/1242562419/</link>
+      <pubDate>Sun, 17 May 2009 21:13:39 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/05/17/1242562419/</guid>
+      <description>第一章 根本的な論点</description>
+    </item>
+    
+    <item>
+      <title>Competitive Coevolutionary Algorithms can Solve Function Optimization Problems</title>
+      <link>https://www.meganii.com/blog/2009/05/17/1242524916/</link>
+      <pubDate>Sun, 17 May 2009 10:48:36 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/05/17/1242524916/</guid>
+      <description>ポイント 共進化 同種・他種間の相互作用によって現れる作用 進化集団を複数用意してその集団中の個体間の相互作用 協調型 競合型 適応度において、一方の増加が他方の減少に繋がる。 競合型共進化アルゴリズム メリット 両集</description>
+    </item>
+    
+    <item>
+      <title>研究室ミーティング090514</title>
+      <link>https://www.meganii.com/blog/2009/05/15/1242342976/</link>
+      <pubDate>Fri, 15 May 2009 08:16:16 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/05/15/1242342976/</guid>
+      <description>ミーティングでの気づき 言葉の定義を明白に 言葉の持つ意味によって、聞き手に勘違いさせてしまう場合がある。今回、協調行動、利他的行動のmissreading 平均の仕方に注意 今回、場所・種類の違うもの同士を</description>
+    </item>
+    
+    <item>
+      <title>研究テーマ</title>
+      <link>https://www.meganii.com/blog/2009/05/08/1241766470/</link>
+      <pubDate>Fri, 08 May 2009 16:07:50 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/05/08/1241766470/</guid>
+      <description>自分の中で考えているテーマ サークルにおける合宿時のメンバー割り振りをコンピュータによって最適化を試みる。 背景 合宿時のメンバー割り振りは、さまざまな制約条件があるためなかなか決めることが難しい。しかも、</description>
+    </item>
+    
+    <item>
+      <title>研究テーマ</title>
+      <link>https://www.meganii.com/blog/2009/04/22/1240357121/</link>
+      <pubDate>Wed, 22 Apr 2009 08:38:41 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/04/22/1240357121/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>研究室ミーティング</title>
+      <link>https://www.meganii.com/blog/2009/04/14/1239728618/</link>
+      <pubDate>Tue, 14 Apr 2009 02:03:38 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/04/14/1239728618/</guid>
+      <description>逆シミュレーション 普通のシミュレーションであれば、あるパラメータの設定において結果が出る。 でも、逆シミュレーションは、進化のさせ方自体をシミュレーションさせ、最適な結果（自分が望んでいるもの）を実現さ</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ドライバ on SIS Lab</title>
+    <link>https://www.meganii.com/tags/%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90/</link>
+    <description>Recent content in ドライバ on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 14 Sep 2009 11:30:30 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ubuntuでEPSON PM A890が動かない件について</title>
+      <link>https://www.meganii.com/blog/2009/09/14/1252895430/</link>
+      <pubDate>Mon, 14 Sep 2009 11:30:30 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/09/14/1252895430/</guid>
+      <description>解決方法を発見したので、忘れないうちにメモメモ。ドライバのインストール時に、素直にEPSONA-890のドライバではなくて、A-820のドライバをインストールすれば問題なく動かなくなることをようやく発</description>
+    </item>
+    
+  </channel>
+</rss>

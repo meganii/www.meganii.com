@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hashcorp on SIS Lab</title>
+    <link>https://www.meganii.com/tags/hashcorp/</link>
+    <description>Recent content in Hashcorp on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 27 Jul 2018 12:11:42 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/hashcorp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[デブサミ2018夏]Hashicorp Vault on Google Cloud Platform</title>
+      <link>https://www.meganii.com/blog/2018/07/27/developers-summit-2018-hashcorp-vault/</link>
+      <pubDate>Fri, 27 Jul 2018 12:11:42 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/07/27/developers-summit-2018-hashcorp-vault/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://event.shoeisha.jp/devsumi/20180727/session/1766/&#34;&gt;【C-3】 Hashicorp Vault on Google Cloud Platform&lt;/a&gt;のメモ。&lt;/p&gt;
+&lt;h2 id=&#34;vaultの思想&#34;&gt;Vaultの思想&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Credential管理に開けるパラダイムシフト&lt;/li&gt;
+&lt;li&gt;煩雑になって来ている問題を解決するソリューションを提供するソフトウェア&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>browser on SIS Lab</title>
+    <link>https://www.meganii.com/en/tags/browser/</link>
+    <description>Recent content in browser on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Mar 2017 22:15:35 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/en/tags/browser/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Enable swipe by using Vivaldi</title>
+      <link>https://www.meganii.com/en/blog/2017/03/02/vivaldi-swipe-gestures/</link>
+      <pubDate>Thu, 02 Mar 2017 22:15:35 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/en/blog/2017/03/02/vivaldi-swipe-gestures/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m using Vivaldi web browser, but I can&amp;rsquo;t back history or forward histoy by swiping. So, I find the solution.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Since Vivaldi is based on the Chromium browser, most solutions for Google Chrome also works on Vivaldi too. I took the answer from here and applied it to Vivaldi. Just had to find what Vivaldi&amp;rsquo;s .plist file was and use that instead.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

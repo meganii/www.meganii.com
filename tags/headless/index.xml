@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>headless on SIS Lab</title>
+    <link>https://www.meganii.com/tags/headless/</link>
+    <description>Recent content in headless on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 22 Aug 2017 21:43:50 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/headless/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PuppeteerでAmazonアフィリエイトのレポートを取得する</title>
+      <link>https://www.meganii.com/blog/2017/08/22/puppeteer/</link>
+      <pubDate>Tue, 22 Aug 2017 21:43:50 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/08/22/puppeteer/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/GoogleChrome/puppeteer&#34;&gt;GoogleChrome/puppeteer: Headless Chrome Node API&lt;/a&gt; というHeadless Chromeを操作するJavaScriptライブラリが出たので使ってみました。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

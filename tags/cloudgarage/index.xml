@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CloudGarage on SIS Lab</title>
+    <link>https://www.meganii.com/tags/cloudgarage/</link>
+    <description>Recent content in CloudGarage on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 01 May 2018 20:40:49 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/cloudgarage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RancherOSで全てのコンテナを削除する方法</title>
+      <link>https://www.meganii.com/blog/2018/05/01/delete-all-containers-on-rancheros/</link>
+      <pubDate>Tue, 01 May 2018 20:40:49 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/05/01/delete-all-containers-on-rancheros/</guid>
+      <description>docker rm -f $(docker ps -qa) sudo reboot sudo rm -rf /var/lib/rancher/state Refarence After remove a host from rancher, how to clean agent containers and iptable rules? - Rancher - Rancher Forums</description>
+    </item>
+    
+  </channel>
+</rss>

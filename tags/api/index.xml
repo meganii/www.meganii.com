@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>api on SIS Lab</title>
+    <link>https://www.meganii.com/tags/api/</link>
+    <description>Recent content in api on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 08 Sep 2017 16:46:56 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ASIN, JAN, ISBNコードについて</title>
+      <link>https://www.meganii.com/blog/2017/09/08/asin-jan-isbn/</link>
+      <pubDate>Fri, 08 Sep 2017 16:46:56 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/09/08/asin-jan-isbn/</guid>
+      <description>&lt;p&gt;ASIN, JAN, ISBNなどよく目にするものの、意味がわかっていないものを調べた時のメモです。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>楽天APIの調査結果</title>
+      <link>https://www.meganii.com/blog/2017/09/08/rakuten-api/</link>
+      <pubDate>Fri, 08 Sep 2017 16:36:29 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/09/08/rakuten-api/</guid>
+      <description>&lt;p&gt;ASINからJANコードを引っ張れないかと、楽天APIを調べたときのメモです。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Amazon Product Advertising APIを利用するためのIAMユーザ登録とアクセスキーの発行</title>
+      <link>https://www.meganii.com/blog/2017/02/19/how-to-register-amazon-product-advertising-api/</link>
+      <pubDate>Sun, 19 Feb 2017 11:06:41 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/02/19/how-to-register-amazon-product-advertising-api/</guid>
+      <description>&lt;p&gt;プログラムからAmazon Product Advertising APIを利用するためには、Amazon Web Servicesからアクセスキーを発行する必要があります。&lt;/p&gt;
+&lt;p&gt;GitHubにAWSアクセスキーを誤ってCommitしてしまったため、アクセスキーを再取得したのでそのときの備忘録を載せておきます。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>google-api-ruby-clientからGoogle Adsense Management APIを操作する方法</title>
+      <link>https://www.meganii.com/blog/2016/06/05/ruby-google-api-client/</link>
+      <pubDate>Sun, 05 Jun 2016 09:58:34 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/06/05/ruby-google-api-client/</guid>
+      <description>&lt;h2 id=&#34;何をしたいか&#34;&gt;何をしたいか？&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;google-api-ruby-client&lt;/code&gt;を利用して、Google Adsenseの収益情報を取得したい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;概要何が書いてあるか&#34;&gt;概要(何が書いてあるか)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/google/google-api-ruby-client&#34;&gt;https://github.com/google/google-api-ruby-client&lt;/a&gt;のサンプルを参考に、プロジェクトの作成の仕方から、認証情報の作り方、Adsense用のコード&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;どこにハマったか&#34;&gt;どこにハマったか？&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;google-api-ruby-client&lt;/code&gt;のversion 0.9以降の方法がなかなか見つからず試行錯誤した&lt;/li&gt;
+&lt;li&gt;特に、認証周りがよく分からず、苦労した&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最終的には、googleのサンプルコードをベースに作成することでレポート取得ができることができた。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>TED APIを触ってみる</title>
+      <link>https://www.meganii.com/blog/2014/11/21/ted-api/</link>
+      <pubDate>Fri, 21 Nov 2014 22:34:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/11/21/ted-api/</guid>
+      <description>TED - Welcome to TEDLabs いつのまにかTEDのAPIが公開されていたので、少し触ってみる。 2017/09/01追記 TED APIのサービスは終了となりました。 昔は、APIが公開されてなかったので、スクレイピングで取得してい</description>
+    </item>
+    
+  </channel>
+</rss>

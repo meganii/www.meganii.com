@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>正規表現 on SIS Lab</title>
+    <link>https://www.meganii.com/tags/%E6%AD%A3%E8%A6%8F%E8%A1%A8%E7%8F%BE/</link>
+    <description>Recent content in 正規表現 on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 23 May 2013 07:19:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/%E6%AD%A3%E8%A6%8F%E8%A1%A8%E7%8F%BE/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-</title>
+      <link>https://www.meganii.com/blog/2013/05/23/regexp-jekyll/</link>
+      <pubDate>Thu, 23 May 2013 07:19:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/05/23/regexp-jekyll/</guid>
+      <description>JekyllのYAML部分と記事本文を分離していると思われる正規表現を確認する。 正規表現 /\A(---\s*\n.*?\n?)^(---\s*$\n?)/m こんな感じらしい # Read the YAML frontmatter. # # base - The String path to the dir containing the file. # name - The String filename of the file. # # Returns nothing. def read_yaml(base, name) begin self.content = File.read(File.join(base, name)) if self.content =~ /\A(---\s*\n.*?\n?)^(---\s*$\n?)/m self.content = $POSTMATCH self.data</description>
+    </item>
+    
+  </channel>
+</rss>

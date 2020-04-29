@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Electron on SIS Lab</title>
+    <link>https://www.meganii.com/tags/electron/</link>
+    <description>Recent content in Electron on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 28 Aug 2016 09:02:38 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/electron/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AceエディタをElectronに組み込む</title>
+      <link>https://www.meganii.com/blog/2016/08/28/electron-ace-markdown-editor/</link>
+      <pubDate>Sun, 28 Aug 2016 09:02:38 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/08/28/electron-ace-markdown-editor/</guid>
+      <description>&lt;figure&gt;
+  &lt;amp-img src=&#34;
+  https://farm9.staticflickr.com/8537/29243326176_ea1c871651_z.jpg&#34; alt=&#34;AceエディタをElectronに組み込む https://farm9.staticflickr.com/8537/29243326176_ea1c871651_z.jpg&#34; width=640 height=428 layout=responsive&gt;&lt;/amp-img&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>React &#43; ElectronでFlickr連携可能なMarkdown Editorを作った</title>
+      <link>https://www.meganii.com/blog/2016/08/24/react-flickr-markdown-editor/</link>
+      <pubDate>Wed, 24 Aug 2016 21:21:06 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/08/24/react-flickr-markdown-editor/</guid>
+      <description>&lt;figure&gt;
+  &lt;amp-img src=&#34;
+  https://farm9.staticflickr.com/8455/29165784116_9084f95502_z.jpg&#34; alt=&#34;React &amp;#43; ElectronでFlickr連携可能なMarkdown Editorを作った https://farm9.staticflickr.com/8455/29165784116_9084f95502_z.jpg&#34; width=3 height=2 layout=responsive&gt;&lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/&#34;&gt;Electron + Mithril.jsでFlickrアプリを作成する - SIS Lab&lt;/a&gt;で、自分専用のMarkdown-Editorを作りたいと思っていたので、今回Reactの勉強も兼ねて、Flickr連携できるMarkdown Editorを作成しました。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;最終的には、自分専用Markdownデスクトップアプリを、Electronで作成することが目標だ。Kobitoは便利で使ってるのだけど、そのままEvernoteに連携して欲しかったり、リンク作成の機能がまとまってると嬉しい。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;実装したい機能は、こんな感じ。Kobitoをベースに自分専用の機能を盛り込みたい。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Markdownエディター(オートプレビュー)
+Flickr連携(アップロード、リンク作成)
+Evernote連携(自動保存)
+Amazonリンク作成
+ASP一括検索
+git pushでブログデプロイ&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Electronがv1.0.0になったのでMithril.jsと合わせてAmazonアフィリエイトリンクビルダーを作った</title>
+      <link>https://www.meganii.com/blog/2016/05/11/electron-mithril-amazon-linkbuilder/</link>
+      <pubDate>Wed, 11 May 2016 22:05:30 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/05/11/electron-mithril-amazon-linkbuilder/</guid>
+      <description>ElectronがElectron 1.0になったということで、以前作ったAmazon LinkbuilderをMithril.jsで置き換えてみました。(Electron v1.0.0がなったことはあまり</description>
+    </item>
+    
+    <item>
+      <title>Electron &#43; Mithril.jsでFlickrアプリを作成する</title>
+      <link>https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/</link>
+      <pubDate>Sun, 28 Feb 2016 22:13:24 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/</guid>
+      <description>以前、Angular.jsで作成したFlickrアプリを、Electron + Mithril.jsで焼き直した。 Angular.jsは重厚長大な感があり、個人で使う分にはちょっと過剰すぎる気がする。どう</description>
+    </item>
+    
+    <item>
+      <title>ElectronでAmazonアフィリエイトリンクビルダーを作った</title>
+      <link>https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/</link>
+      <pubDate>Sat, 20 Feb 2016 17:51:18 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.meganii.com/blog/2016/01/25/electron-tutorial/&#34;&gt;Electronでデスクトップアプリ作成&lt;/a&gt;に引き続き、Amazonアフィリエイトリンクビルダーのデスクトップアプリを作った。&lt;/p&gt;
+&lt;h2 id=&#34;動機&#34;&gt;動機&lt;/h2&gt;
+&lt;p&gt;Amazonのアフィリエイトリンクビルダーには、ヨメレバ、カエレバのようなブックマークレットもあるが、現時点でAmazonのリンクがhttpsに対応していないため、せっかくhttps化をしてもchromeのURLバーが緑色にならない。&lt;a href=&#34;https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/&#34;&gt;Lets&amp;rsquo;s Encryptでブログの常時SSL化にチャレンジ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;これは困るということで、せっかくなのでElectronでデスクトップアプリを作ってみた。&lt;/p&gt;
+&lt;p&gt;React.jsとか使ってオシャレに作りたかったのだけど、JavaScript初心者にはまずそもそも素のJavaScriptが何をしているのかがわかってなかったので、一度愚直に作った。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Electronでデスクトップアプリ作成</title>
+      <link>https://www.meganii.com/blog/2016/01/25/electron-tutorial/</link>
+      <pubDate>Mon, 25 Jan 2016 07:15:22 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/01/25/electron-tutorial/</guid>
+      <description>Electronを使って自分用のデスクトップアプリを作りたいと思い、調べてみた。 JavaScriptの開発環境を整える node.jsのバージョンをみると、未だに 0.1系だった。2016/01/25現在</description>
+    </item>
+    
+  </channel>
+</rss>

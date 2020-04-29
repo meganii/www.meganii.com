@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on SIS Lab</title>
+    <link>https://www.meganii.com/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 14 Sep 2009 11:30:30 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ubuntuでEPSON PM A890が動かない件について</title>
+      <link>https://www.meganii.com/blog/2009/09/14/1252895430/</link>
+      <pubDate>Mon, 14 Sep 2009 11:30:30 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/09/14/1252895430/</guid>
+      <description>解決方法を発見したので、忘れないうちにメモメモ。ドライバのインストール時に、素直にEPSONA-890のドライバではなくて、A-820のドライバをインストールすれば問題なく動かなくなることをようやく発</description>
+    </item>
+    
+    <item>
+      <title>Mac4linを試してみた</title>
+      <link>https://www.meganii.com/blog/2009/06/21/1245593987/</link>
+      <pubDate>Sun, 21 Jun 2009 23:19:47 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/06/21/1245593987/</guid>
+      <description>LinuxにインストールするだけでMac風にしてくれる「Mac4Lin」 http://www.lifehacker.jp/2009/06/post_938.html この記事に触発されて、試しにインストールしてみた。 実際にやってみたところ評判どおり非常に手軽にMac風にテーマを変えることがで</description>
+    </item>
+    
+    <item>
+      <title>eclipseの問題</title>
+      <link>https://www.meganii.com/blog/2009/05/25/1243217774/</link>
+      <pubDate>Mon, 25 May 2009 11:16:14 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/05/25/1243217774/</guid>
+      <description>エラー PrintStreamが未定義です。 インストール済みのJREにおいて、 古いバージョン java-1.5.0が入っていたことが原因。 新しいバージョン java-sun-6 を導入することによって、解決できた。</description>
+    </item>
+    
+    <item>
+      <title>ubuntuでスキャナを有効にするまで</title>
+      <link>https://www.meganii.com/blog/2009/05/22/1243001522/</link>
+      <pubDate>Fri, 22 May 2009 23:12:02 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/05/22/1243001522/</guid>
+      <description>インストール手順 libltdl3 &amp;lt;blockquote&amp;gt; &amp;lt;p&amp;gt;iscanというアプリケーションを使って、スキャンをするわけですが、このアプリは「libltdl3&amp;lt;br /&amp;gt; 」というパッケージに依存しています。 ところが、この</description>
+    </item>
+    
+    <item>
+      <title>音が出ない</title>
+      <link>https://www.meganii.com/blog/2009/04/29/1240979850/</link>
+      <pubDate>Wed, 29 Apr 2009 13:37:30 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/04/29/1240979850/</guid>
+      <description>音量アイコンをダブルクリックして出てくるウィンドウの中の Internal Speakerがミュートになっていた。このチェックを外したら、音が出るようになった。 いぇぃ</description>
+    </item>
+    
+    <item>
+      <title>バックスラッシュが打てなくなった</title>
+      <link>https://www.meganii.com/blog/2009/04/26/1240753469/</link>
+      <pubDate>Sun, 26 Apr 2009 22:44:29 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/04/26/1240753469/</guid>
+      <description>Xorgの設定ファイルはxorg.confと呼ばれ、/etc/X11に存在します。 Xorg-X11パッケージはあなた自身の設定を作成できるよう &amp;hellip; まずxorg.conf.newを/etc/X11/xor</description>
+    </item>
+    
+    <item>
+      <title>ubuntu×XP　デュアルブート</title>
+      <link>https://www.meganii.com/blog/2009/04/25/1240661196/</link>
+      <pubDate>Sat, 25 Apr 2009 21:06:36 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/04/25/1240661196/</guid>
+      <description>初めて、デュアルブートというものにチャレンジしました。 まず、最初に苦戦したのは、パーティションの分割。 初期状態だと、</description>
+    </item>
+    
+    <item>
+      <title>研究室のパソコンにVirtualBox×ubuntu</title>
+      <link>https://www.meganii.com/blog/2009/04/20/1240200159/</link>
+      <pubDate>Mon, 20 Apr 2009 13:02:39 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/04/20/1240200159/</guid>
+      <description>VirtualBox2.20 ubuntu 7.4 マウスの統合の仕方 代わりに端末を開いて、$ cd /media/cdrom0を実行。これで、先程ファイルブラウザで開かれていたディレクトリに移動したことになる。 ここでsudo -sを実行して管理者権限に</description>
+    </item>
+    
+  </channel>
+</rss>

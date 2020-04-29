@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deploy on SIS Lab</title>
+    <link>https://www.meganii.com/tags/deploy/</link>
+    <description>Recent content in deploy on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 11 Jan 2017 22:22:15 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/deploy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>静的サイトジェネレータ「Hugo」〜公開方法〜</title>
+      <link>https://www.meganii.com/blog/2017/01/11/deploy-site-with-hugo/</link>
+      <pubDate>Wed, 11 Jan 2017 22:22:15 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/01/11/deploy-site-with-hugo/</guid>
+      <description>&lt;h2 id=&#34;公開-deploy&#34;&gt;公開 Deploy&lt;/h2&gt;
+&lt;p&gt;Hugoには、サイトを生成する仕組みはありますが公開する仕組みは持っていません。そのため、Hugoで生成した生成物(HTML+CSS)を何らかの方法で、Webサーバに持っていってあげなければいけません。&lt;/p&gt;
+&lt;p&gt;必要なのは、どこに公開するかと、どうやって公開するかです。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

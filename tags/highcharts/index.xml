@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>highcharts on SIS Lab</title>
+    <link>https://www.meganii.com/tags/highcharts/</link>
+    <description>Recent content in highcharts on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 18 Jun 2017 14:49:27 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/highcharts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Highchartsを使って財務諸表(BS/PL)のグラフを出力する</title>
+      <link>https://www.meganii.com/blog/2017/06/18/highcharts-stocked-bar-chart/</link>
+      <pubDate>Sun, 18 Jun 2017 14:49:27 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/06/18/highcharts-stocked-bar-chart/</guid>
+      <description>&lt;figure&gt;
+  &lt;amp-img src=&#34;
+  https://farm5.staticflickr.com/4347/36104167204_25d0bf7678_b.jpg&#34; alt=&#34;Highchartsを使って財務諸表(BS/PL)のグラフを出力する https://farm5.staticflickr.com/4347/36104167204_25d0bf7678_b.jpg&#34; width=744 height=400 layout=responsive&gt;&lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;plotoptions&#34;&gt;plotOptions&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;pointPadding: 0&lt;/code&gt;に指定することで、group内での間隔を0にできる。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;  &lt;span style=&#34;color:#000&#34;&gt;plotOptions&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+      &lt;span style=&#34;color:#000&#34;&gt;column&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+          &lt;span style=&#34;color:#000&#34;&gt;stacking&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;normal&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+      &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;},&lt;/span&gt;
+      &lt;span style=&#34;color:#000&#34;&gt;series&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+          &lt;span style=&#34;color:#000&#34;&gt;pointPadding&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+          &lt;span style=&#34;color:#000&#34;&gt;borderWidth&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+          &lt;span style=&#34;color:#000&#34;&gt;shadow&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;false&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+      &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+  &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;},&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

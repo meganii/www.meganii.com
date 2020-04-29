@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>データ可視化 on SIS Lab</title>
+    <link>https://www.meganii.com/tags/%E3%83%87%E3%83%BC%E3%82%BF%E5%8F%AF%E8%A6%96%E5%8C%96/</link>
+    <description>Recent content in データ可視化 on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 07 Feb 2016 19:42:50 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/%E3%83%87%E3%83%BC%E3%82%BF%E5%8F%AF%E8%A6%96%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>D3.jsで東京の地価データを可視化する</title>
+      <link>https://www.meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/</link>
+      <pubDate>Sun, 07 Feb 2016 19:42:50 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/</guid>
+      <description>&lt;figure&gt;
+  &lt;amp-img src=&#34;
+  https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg&#34; alt=&#34;D3.jsで東京の地価データを可視化する https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg&#34; width=640 height=404 layout=responsive&gt;&lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.meganii.com/blog/2016/02/06/d3js-tutorial/&#34;&gt;D3.js tutorial | SIS lab&lt;/a&gt;で、一通りD3.jsのイメージを掴みつつ、東京の地価データの可視化に挑戦する。方法については、下記のページを参考にした。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kshigeru.blogspot.jp/2013/07/tokyo-landprice.html&#34;&gt;Ars longa, vita brevis: 東京の地価公示データを眺める&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>D3.jsチュートリアル</title>
+      <link>https://www.meganii.com/blog/2016/02/06/d3js-tutorial/</link>
+      <pubDate>Sat, 06 Feb 2016 12:46:18 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/02/06/d3js-tutorial/</guid>
+      <description>&lt;p&gt;以前から着手してみたかったD3.jsによる可視化の方法を学ぶために、ドットインストールにちょうど良い教材があったためそれを見ながら、確認していく。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://dotinstall.com/lessons/basic_d3js&#34;&gt;D3.js入門 (全17回) - プログラミングならドットインストール&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

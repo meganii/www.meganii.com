@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MeCab on SIS Lab</title>
+    <link>https://www.meganii.com/en/tags/mecab/</link>
+    <description>Recent content in MeCab on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 14 Jan 2017 14:14:02 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/en/tags/mecab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cannot download with wget</title>
+      <link>https://www.meganii.com/en/blog/2017/01/14/can-not-download-with-wget/</link>
+      <pubDate>Sat, 14 Jan 2017 14:14:02 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/en/blog/2017/01/14/can-not-download-with-wget/</guid>
+      <description>&lt;p&gt;I faced trouble that Circle CI had build error. I search solution and deal with it.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://taku910.github.io/mecab/&#34;&gt;MeCab: Yet Another Part-of-Speech and Morphological Analyzer&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

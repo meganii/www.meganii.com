@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sqlite3 on SIS Lab</title>
+    <link>https://www.meganii.com/tags/sqlite3/</link>
+    <description>Recent content in sqlite3 on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 18 May 2013 12:06:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/sqlite3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>sqlite3-rubyを使ってSQLite3ファイルからの検索結果をHashとして読み込む</title>
+      <link>https://www.meganii.com/blog/2013/05/18/sqlite3-ruby/</link>
+      <pubDate>Sat, 18 May 2013 12:06:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/05/18/sqlite3-ruby/</guid>
+      <description>&lt;p&gt;sqlite3-rubyを使って、SQLite3にアクセスしてデータの取得、加工がしたい。&lt;/p&gt;
+&lt;p&gt;db.executeした際に配列が帰ってきた。カラム名でアクセス出来る方法がないか探したところ、&lt;code&gt;results_as_hash = true&lt;/code&gt;にすれば、Hashで返ってくることがわかった。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

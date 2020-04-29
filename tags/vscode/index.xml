@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VSCode on SIS Lab</title>
+    <link>https://www.meganii.com/tags/vscode/</link>
+    <description>Recent content in VSCode on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 14 Jan 2020 21:07:50 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VS Codeにtextlintを導入して文章を校正する</title>
+      <link>https://www.meganii.com/blog/2020/01/14/installing-textlint-in-visual-studio-code/</link>
+      <pubDate>Tue, 14 Jan 2020 21:07:50 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/01/14/installing-textlint-in-visual-studio-code/</guid>
+      <description>&lt;p&gt;ブログメンタリング受講者の方々が書いた&lt;code&gt;textlint&lt;/code&gt;の記事に触発され、&lt;code&gt;Visual Studio Code&lt;/code&gt;（以降&lt;code&gt;VS Code&lt;/code&gt;）に&lt;code&gt;textlint&lt;/code&gt;を導入しました。ブログメンタリングに関しては&lt;a href=&#34;https://kakakakakku.hatenablog.com/entry/2019/06/24/070816&#34;&gt;技術ブロガーを育てる！ブログメンタリングで何を教えているのか - kakakakakku blog&lt;/a&gt;を読んでみてください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chikoblog.hatenablog.jp/entry/2020/01/09/104935&#34;&gt;VS Codeでtextlintを導入してみた - chikoblog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code-log.hatenablog.com/entry/2019/12/29/191207&#34;&gt;Vim + textlintで良質なブログ記事を書こう! - code-log&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;基本的には、上記記事の方法と同様です。しかし、少し異なるのは私の&lt;a href=&#34;https://www.meganii.com/blog/&#34;&gt;ブログ&lt;/a&gt;が&lt;code&gt;Hugo&lt;/code&gt;で構築している点です。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Hugo&lt;/code&gt;は、通常の&lt;code&gt;Markdown&lt;/code&gt;の文章の中に&lt;code&gt;Hugo&lt;/code&gt;独自の記法（&lt;code&gt;Shortcodes&lt;/code&gt;）を利用できます。&lt;code&gt;textlint&lt;/code&gt;とそのルールプリセットを導入すると、&lt;code&gt;Shortcodes&lt;/code&gt;の部分がエラーになってしまう（文字数制限）ため、その除外方法（フィルター方法）を付け加えています。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#textlintとは&#34;&gt;textlintとは&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#vs-codeにtextlintを導入する&#34;&gt;VS Codeにtextlintを導入する&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#1-textlintインストール&#34;&gt;1. textlintインストール&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#2-textlintルール定義&#34;&gt;2. textlintルール定義&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#3-vs-codeにtextlintのextenstionをインストール&#34;&gt;3. VS CodeにtextlintのExtenstionをインストール&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#4-hugoのshortcodesを除外ルールに追加&#34;&gt;4. HugoのShortcodesを除外ルールに追加&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

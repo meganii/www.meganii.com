@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ドメイン駆動開発 on SIS Lab</title>
+    <link>https://www.meganii.com/tags/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA/</link>
+    <description>Recent content in ドメイン駆動開発 on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 25 Nov 2015 20:34:53 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ドメインサービスとは？</title>
+      <link>https://www.meganii.com/blog/2015/11/25/domain-services/</link>
+      <pubDate>Wed, 25 Nov 2015 20:34:53 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2015/11/25/domain-services/</guid>
+      <description>&lt;h2 id=&#34;ドメインサービスとは&#34;&gt;ドメインサービスとは？&lt;/h2&gt;
+&lt;p&gt;Windows Communication Foundation(WCF), Silverlight周りで出てくるドメインサービスとは一体なにものだろうか。ドメイン駆動設計(DDD)の文脈から読み解いてみる。&lt;/p&gt;
+&lt;p&gt;「サービス」と聞くと、粒度の粗いコンポーネント(リモートクライアントから複雑な業務システムを利用できるようにするもの)を想像するかもしれないが、ドメインサービスは違う。また、アプリケーションサービスも頭に思い浮かぶかもしれないが、それも違う。&lt;/p&gt;
+&lt;p&gt;アプリケーションサービスには、ビジネスロジックを組み込みたくないが、ドメインサービスにはビジネスロジックを組み込んでおきたい。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;時には単純に「物」や「値」にはできないこともある。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;ドメインにおける重要なプロセスや変換処理が、エンティティや値オブジェクトの自然な責務でない場合、その操作は、サービスとして宣言される独立したインターフェースとしてモデルに追加すること&lt;/li&gt;
+&lt;li&gt;モデルの言語を用いてインターフェースを定義し、操作名が必ずユビキタス言語の1部になるようにすること&lt;/li&gt;
+&lt;li&gt;サービスには状態を持たせないこと&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

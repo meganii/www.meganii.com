@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dart on SIS Lab</title>
+    <link>https://www.meganii.com/tags/dart/</link>
+    <description>Recent content in dart on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 20 Feb 2020 06:11:06 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/dart/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DartのCascade notation（カスケード表記）とは</title>
+      <link>https://www.meganii.com/blog/2020/02/20/dart-cascade-notation/</link>
+      <pubDate>Thu, 20 Feb 2020 06:11:06 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/02/20/dart-cascade-notation/</guid>
+      <description>&lt;p&gt;Dartを触っていて&lt;code&gt;..&lt;/code&gt;という書き方を見ましたが、どういったものか、そもそも読み方からして分からなかったので自分用のメモです。&lt;/p&gt;
+&lt;p&gt;どうやら、&lt;code&gt;..&lt;/code&gt;は&lt;code&gt;Cascade notation&lt;/code&gt;というDartのSyntaxのようです。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#cascade-notationカスケード表記とは&#34;&gt;Cascade notation/カスケード表記とは&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#cascade-notationを利用する場合&#34;&gt;Cascade notationを利用する場合&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#cascade-notationを利用しない場合&#34;&gt;Cascade notationを利用しない場合&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#cascade-notationカスケード表記の利用シーン&#34;&gt;Cascade notation/カスケード表記の利用シーン&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#cascade-notation利用時の注意点&#34;&gt;Cascade notation利用時の注意点&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AngularJS on SIS Lab</title>
+    <link>https://www.meganii.com/tags/angularjs/</link>
+    <description>Recent content in AngularJS on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 08 Nov 2014 20:37:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/angularjs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AngularJSでFlickrの埋め込みタグを作成する</title>
+      <link>https://www.meganii.com/blog/2014/11/08/angular-flickr/</link>
+      <pubDate>Sat, 08 Nov 2014 20:37:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/11/08/angular-flickr/</guid>
+      <description>ブログ用に自分のFlickrフォトストリームから画像を選択して、貼り付け用URLを作りたくなったので、AngularJSで作ってみた。 参考 AngularJS — Superheroic JavaScript MVW Framework AngularJS入門 (全12回) - プログラミング</description>
+    </item>
+    
+  </channel>
+</rss>

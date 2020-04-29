@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>関連記事 on SIS Lab</title>
+    <link>https://www.meganii.com/tags/%E9%96%A2%E9%80%A3%E8%A8%98%E4%BA%8B/</link>
+    <description>Recent content in 関連記事 on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 07 Oct 2017 14:40:16 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/%E9%96%A2%E9%80%A3%E8%A8%98%E4%BA%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HugoのRelated Contentを利用して関連記事を表示する</title>
+      <link>https://www.meganii.com/blog/2017/10/07/hugo-related-content/</link>
+      <pubDate>Sat, 07 Oct 2017 14:40:16 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/10/07/hugo-related-content/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/news/0.27-relnotes/&#34;&gt;Hugo | Hugo 0.27: Fast and Flexible Related Content!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/related/&#34;&gt;Hugo | Related Content&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;いつのまにかHugo 0.29から関連コンテンツ表示機能が追加されています。これによって他のCMSではプラグインで簡単にできていたのに、Hugoではできないというポイントが解消されました。もはや、Hugo最強説！！。&lt;/p&gt;
+&lt;p&gt;さっそくこのブログにも試してみました。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

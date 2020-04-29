@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cron on SIS Lab</title>
+    <link>https://www.meganii.com/tags/cron/</link>
+    <description>Recent content in cron on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 16 Jan 2016 22:34:08 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/cron/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Capyabara &#43; PhantomJS(poltergeist)のRubyスクリプトをcronで流したい</title>
+      <link>https://www.meganii.com/blog/2016/01/16/how-to-run-bundle-exec-with-cron/</link>
+      <pubDate>Sat, 16 Jan 2016 22:34:08 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/01/16/how-to-run-bundle-exec-with-cron/</guid>
+      <description>Capyabara + PhantomJS(poltergeist)のRubyスクリプトをcronで流したいと思った時のお話。 シェルにログインして実行すると、上手く動作するのに、cronからは動かない。 結論から言うと、自</description>
+    </item>
+    
+  </channel>
+</rss>

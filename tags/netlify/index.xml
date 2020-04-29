@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Netlify on SIS Lab</title>
+    <link>https://www.meganii.com/tags/netlify/</link>
+    <description>Recent content in Netlify on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 12 Dec 2018 23:23:35 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NetlifyからGitHub Pagesに移行した件</title>
+      <link>https://www.meganii.com/blog/2018/12/12/migration-netlify-to-github-pages/</link>
+      <pubDate>Wed, 12 Dec 2018 23:23:35 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/12/12/migration-netlify-to-github-pages/</guid>
+      <description>NetlifyからGitHub Pagesに移行した。 結果、体感としてはだいぶ早くなった。 Netlifyの表示スピードがいまいちパフォーマンスを発揮できていない件 Before: 2018/10/14時点の Netlif</description>
+    </item>
+    
+    <item>
+      <title>NetlifyでServer Pushを利用する</title>
+      <link>https://www.meganii.com/blog/2017/07/23/http2-server-push-on-netlify/</link>
+      <pubDate>Sun, 23 Jul 2017 08:19:02 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/07/23/http2-server-push-on-netlify/</guid>
+      <description>&lt;p&gt;いつのまにかNetlifyでServer Pushができるようになったようです。このアナウンスに伴い、今までFreeアカウントでは利用できなかった&lt;code&gt;_headers&lt;/code&gt;ファイルが有効になっています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.netlify.com/blog/2017/07/18/http/2-server-push-on-netlify/&#34;&gt;HTTP/2 Server Push on Netlify | Netlify&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;HTTP/2, Server Pushの詳細を理解しているわけではないので詳しくは説明できないのですが、Server Pushにより1回分の通信を節約でき、レンダリングブロックとなるCSSのクリティカルパスを解消できるとの理解です。&lt;/p&gt;
+&lt;p&gt;HTTP/2については&lt;a href=&#34;https://twitter.com/kazuho&#34;&gt;@kazuho&lt;/a&gt;さんのスライドが超絶参考になります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.slideshare.net/kazuho/http2-51888328&#34;&gt;HTTP/2時代のウェブサイト設計&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.slideshare.net/kazuho/http2-70006550&#34;&gt;HTTP/2の課題と将来&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugoで生成した静的サイトのホスト先をさくらVPSからNetlifyに変更する</title>
+      <link>https://www.meganii.com/blog/2017/03/19/migrate-hugo-hosting-service-from-sakura-vps-to-netlify/</link>
+      <pubDate>Sun, 19 Mar 2017 19:46:06 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/03/19/migrate-hugo-hosting-service-from-sakura-vps-to-netlify/</guid>
+      <description>&lt;p&gt;現在(2017/3月)、Hugoで生成した静的サイトをホストするためにさくらVPSを利用しています。さくらVPSは２年近く使ってきましたが、そろそろ更新時期した(1年まとめて契約しているため)。自分が契約したタイプはデイスクがHDDのままSSDに変更できないタイプだったので、新規契約し直すか、Conoha VPSに切り替えるか、それともVPS自体を契約しないとするか迷っています。&lt;/p&gt;
+&lt;p&gt;良い機会であるため、静的サイトのホスティングをVPSではなくクラウドサービスを利用しようと検討しました。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#移行先検討&#34;&gt;移行先検討&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#netlifyとは&#34;&gt;Netlifyとは？&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#カスタムドメインの設定方法&#34;&gt;カスタムドメインの設定方法&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#お名前comでの設定&#34;&gt;お名前.comでの設定&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#appnetlifycomでの設定&#34;&gt;app.netlify.comでの設定&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#リダイレクト処理&#34;&gt;リダイレクト処理&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#netlifyでhugoを使うときの注意点&#34;&gt;NetlifyでHugoを使うときの注意点&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#_headers&#34;&gt;_headers&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#ビルドにnetlify以外のciツールを利用する場合&#34;&gt;ビルドにNetlify以外のCIツールを利用する場合&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;
+&lt;h2 id=&#34;移行先検討&#34;&gt;移行先検討&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub Pages&lt;/li&gt;
+&lt;li&gt;Netlify&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;自分の中では&lt;code&gt;GitHub Pages&lt;/code&gt;か&lt;code&gt;Netlify&lt;/code&gt;の2択でした。静的サイトのコンテンツはGitHubにコミットしているため、最初は、&lt;code&gt;GitHub Pages&lt;/code&gt;にしようとしていました。しかし、現状HTTP/2に対応していないことからあまり気乗りしませんでした。もともとVPSを利用していたときには、&lt;a href=&#34;https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/&#34;&gt;Lets&amp;rsquo;s Encryptでブログの常時SSL化にチャレンジ&lt;/a&gt;のように、常時SSLに対応したり、h2oをインストールしてなんとかHTTP/2に対応した経緯もあり、せっかくなら対応できると嬉しいです。&lt;/p&gt;
+&lt;p&gt;その点、&lt;code&gt;Netlify&lt;/code&gt;を試してみたら「これで決まり！」と思うぐらい良かったのでまずはNetlifyで運用してみます。&lt;/p&gt;
+&lt;figure&gt;
+  &lt;amp-img src=&#34;
+  https://www.meganii.com//images/2017/03/netlify.png&#34; alt=&#34;Hugoで生成した静的サイトのホスト先をさくらVPSからNetlifyに変更する /images/2017/03/netlify.png&#34; width=640 height=348 layout=responsive&gt;&lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.netlify.com/&#34;&gt;Netlify: All-in-one platform for automating modern web projects&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

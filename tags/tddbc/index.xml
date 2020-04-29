@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TDDBC on SIS Lab</title>
+    <link>https://www.meganii.com/tags/tddbc/</link>
+    <description>Recent content in TDDBC on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 13 Jul 2010 08:02:59 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/tddbc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TDDBootCamp名古屋の１日目の課題にリトライ！</title>
+      <link>https://www.meganii.com/blog/2010/07/13/1278975779/</link>
+      <pubDate>Tue, 13 Jul 2010 08:02:59 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2010/07/13/1278975779/</guid>
+      <description>set(),get(),dump()の実装。うーん、上手くかけない＞＜.. package file; import static org.junit.Assert.*; import org.junit.Test; public class FileStoreTest { @Test public void testdump() throws Exception { FileStore fs = new FileStore(); fs.set(&amp;#34;hoge&amp;#34;,&amp;#34;piyo&amp;#34;); assertEquals(&amp;#34;hoge:piyo&amp;#34;, fs.dump()); fs.set(&amp;#34;foo&amp;#34;, &amp;#34;bar&amp;#34;); assertEquals(&amp;#34;hoge:piyo,foo:bar&amp;#34;, fs.dump()); fs.set(&amp;#34;bar&amp;#34;, &amp;#34;baz&amp;#34;); assertEquals(&amp;#34;hoge:piyo,foo:bar,bar:baz&amp;#34;, fs.dump()); } @Test public void testget() throws Exception { FileStore fs = new FileStore(); fs.set(&amp;#34;hoge&amp;#34;, &amp;#34;piyo&amp;#34;); assertEquals(&amp;#34;piyo&amp;#34;, fs.get(&amp;#34;hoge&amp;#34;)); fs.set(&amp;#34;foo&amp;#34;, &amp;#34;bar&amp;#34;); assertEqua</description>
+    </item>
+    
+    <item>
+      <title>楽しい悔しいTDDBC名古屋</title>
+      <link>https://www.meganii.com/blog/2010/07/12/1278889818/</link>
+      <pubDate>Mon, 12 Jul 2010 08:10:18 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2010/07/12/1278889818/</guid>
+      <description>７月１０、１１日に行われたTDDBootCamp名古屋に参加してきました！ http://kokucheese.com/event/index/2467/ 非常に濃い二日間はあっという間に終わってしまいました。ただ、ガッツリやっただけのことはあって得られたものも多かった気がします</description>
+    </item>
+    
+  </channel>
+</rss>

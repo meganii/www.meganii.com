@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GoogleAppsScript on SIS Lab</title>
+    <link>https://www.meganii.com/tags/googleappsscript/</link>
+    <description>Recent content in GoogleAppsScript on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 12 Feb 2017 16:54:25 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/googleappsscript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Apps ScriptでGoogle Search Consoleの情報を取得する</title>
+      <link>https://www.meganii.com/blog/2017/02/12/google-apps-script-search-console/</link>
+      <pubDate>Sun, 12 Feb 2017 16:54:25 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/02/12/google-apps-script-search-console/</guid>
+      <description>&lt;p&gt;検索ワードは、Google Search ConsoleでWeb管理画面からも確認できますが以下の制限があります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;データは90日間しか保管されない&lt;/li&gt;
+&lt;li&gt;1000件までしか表示されない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの制限を回避するためには、Googleが提供する&lt;code&gt;Google Search Console API&lt;/code&gt;を利用して自分自身で取得する必要があります。
+ここでは、Google Apps Scriptを利用してGoogle Sheetsに結果を出力する方法を紹介します。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

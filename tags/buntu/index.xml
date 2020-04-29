@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>buntu on SIS Lab</title>
+    <link>https://www.meganii.com/tags/buntu/</link>
+    <description>Recent content in buntu on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 01 May 2009 01:45:24 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/buntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>pdfファイルの日本語が通らない</title>
+      <link>https://www.meganii.com/blog/2009/05/01/1241196324/</link>
+      <pubDate>Fri, 01 May 2009 01:45:24 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/05/01/1241196324/</guid>
+      <description>必要なパッケージのインストール sudo apt-get install evince ghostscript cmap-adobe-japan1 xpdf-japanese CMap関係のファイルを検索してくれるようにシンボリックリンクを作成。 sudo mkdir -p /usr/share/poppler/cidToUnicode sudo ln --symbolic /usr/share/xpdf/japanese/Adobe-Japan1.cidToUnicode \ /usr/share/poppler/cidToUnicode/Adobe-Japan1 sudo mkdir -p /usr/share/poppler/cMap sudo ln --symbolic /usr/share/fonts/cmap/adobe-japan1 /usr/share/poppler/cMap/Adobe-Japan1 ここまでで日本語が通るようになるはずが、 sudo mkdir -p /usr/share/poppler/cidToUnicode</description>
+    </item>
+    
+  </channel>
+</rss>

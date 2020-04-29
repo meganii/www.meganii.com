@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RancherOS on SIS Lab</title>
+    <link>https://www.meganii.com/tags/rancheros/</link>
+    <description>Recent content in RancherOS on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 01 May 2018 20:40:49 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/rancheros/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RancherOSで全てのコンテナを削除する方法</title>
+      <link>https://www.meganii.com/blog/2018/05/01/delete-all-containers-on-rancheros/</link>
+      <pubDate>Tue, 01 May 2018 20:40:49 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/05/01/delete-all-containers-on-rancheros/</guid>
+      <description>docker rm -f $(docker ps -qa) sudo reboot sudo rm -rf /var/lib/rancher/state Refarence After remove a host from rancher, how to clean agent containers and iptable rules? - Rancher - Rancher Forums</description>
+    </item>
+    
+    <item>
+      <title>Dockerコンテナ内からホスト側のDockerを操作する</title>
+      <link>https://www.meganii.com/blog/2018/02/24/docker-run-in-docker-container/</link>
+      <pubDate>Sat, 24 Feb 2018 12:38:02 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/02/24/docker-run-in-docker-container/</guid>
+      <description>要は、あるdockerコンテナの中から新たにDockerコンテナを生成したい。 手順 1.dockerコマンドをインストールする FROMalpineRUN apk --update --no-cache add dockerCMD docker version2.ホストのdocker.sockを-vオプショ</description>
+    </item>
+    
+    <item>
+      <title>ConohaVPSでCoreOSやRancherOSを入れる際に困ったこと</title>
+      <link>https://www.meganii.com/blog/2018/02/18/rancher-os/</link>
+      <pubDate>Sun, 18 Feb 2018 21:54:35 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/02/18/rancher-os/</guid>
+      <description>&lt;h2 id=&#34;coreos&#34;&gt;CoreOS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;久しぶりにCoreOSを入れ直そうと、ISOからBootさせてインストールを行ったところ、失敗。メモリが2GBが必要になってきたのかもしれない。&lt;/li&gt;
+&lt;li&gt;昔保存したv1500ぐらいのイメージから、アップデートすれば最新版にできたが、直接最新版にするとインストール失敗した。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

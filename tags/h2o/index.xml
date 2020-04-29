@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>h2o on SIS Lab</title>
+    <link>https://www.meganii.com/tags/h2o/</link>
+    <description>Recent content in h2o on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 18 Jul 2016 21:44:52 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/h2o/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール</title>
+      <link>https://www.meganii.com/blog/2016/07/18/installing-h2o-with-ansible/</link>
+      <pubDate>Mon, 18 Jul 2016 21:44:52 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/07/18/installing-h2o-with-ansible/</guid>
+      <description>&lt;p&gt;前回&lt;a href=&#34;https://www.meganii.com/blog/2016/07/17/install-h2load/&#34;&gt;http/2ベンチマークツール「h2load」をインストール - SIS Lab&lt;/a&gt;でhttp/2ベンチマークツールをインストールしたので、いよいよ&lt;code&gt;h2o&lt;/code&gt;をインストールします。&lt;/p&gt;
+&lt;p&gt;さくらVPSで運用しているCentOSは、Ansible経由で整備しているので今回もAnsibleのタスクを作成して、まずはローカルの開発環境でテスト、そしてさくらVPSのCentOSに適用します。&lt;/p&gt;
+&lt;p&gt;Wordpressも、&lt;code&gt;h2o&lt;/code&gt;で動かそうと思ったのですが、うまくリソースが取得できませんでした。下記の設定では、静的ジェネレータ&lt;code&gt;hugo&lt;/code&gt;で作成するファイルだけ&lt;code&gt;h2o&lt;/code&gt;で公開するときの設定です。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>http/2ベンチマークツール「h2load」をインストール</title>
+      <link>https://www.meganii.com/blog/2016/07/17/install-h2load/</link>
+      <pubDate>Sun, 17 Jul 2016 20:19:21 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/07/17/install-h2load/</guid>
+      <description>&lt;figure&gt;
+  &lt;amp-img src=&#34;
+  https://farm6.staticflickr.com/5624/21367186743_cbcb0e5268_z.jpg&#34; alt=&#34;http/2ベンチマークツール「h2load」をインストール https://farm6.staticflickr.com/5624/21367186743_cbcb0e5268_z.jpg&#34; width=640 height=313 layout=responsive&gt;&lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/86979666@N00/21367186743/&#34; title=&#34;4 Good Reasons for Using HTTP/2 / Tsahi Levent-Levi&#34;&gt;4 Good Reasons for Using HTTP/2 / Tsahi Levent-Levi&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

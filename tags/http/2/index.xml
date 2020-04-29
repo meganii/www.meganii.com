@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>http/2 on SIS Lab</title>
+    <link>https://www.meganii.com/tags/http/2/</link>
+    <description>Recent content in http/2 on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    
+	<atom:link href="https://www.meganii.com/tags/http/2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NetlifyでServer Pushを利用する</title>
+      <link>https://www.meganii.com/blog/2017/07/23/http2-server-push-on-netlify/</link>
+      <pubDate>Sun, 23 Jul 2017 08:19:02 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/07/23/http2-server-push-on-netlify/</guid>
+      <description>&lt;p&gt;いつのまにかNetlifyでServer Pushができるようになったようです。このアナウンスに伴い、今までFreeアカウントでは利用できなかった&lt;code&gt;_headers&lt;/code&gt;ファイルが有効になっています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.netlify.com/blog/2017/07/18/http/2-server-push-on-netlify/&#34;&gt;HTTP/2 Server Push on Netlify | Netlify&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;HTTP/2, Server Pushの詳細を理解しているわけではないので詳しくは説明できないのですが、Server Pushにより1回分の通信を節約でき、レンダリングブロックとなるCSSのクリティカルパスを解消できるとの理解です。&lt;/p&gt;
+&lt;p&gt;HTTP/2については&lt;a href=&#34;https://twitter.com/kazuho&#34;&gt;@kazuho&lt;/a&gt;さんのスライドが超絶参考になります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.slideshare.net/kazuho/http2-51888328&#34;&gt;HTTP/2時代のウェブサイト設計&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.slideshare.net/kazuho/http2-70006550&#34;&gt;HTTP/2の課題と将来&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール</title>
+      <link>https://www.meganii.com/blog/2016/07/18/installing-h2o-with-ansible/</link>
+      <pubDate>Mon, 18 Jul 2016 21:44:52 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/07/18/installing-h2o-with-ansible/</guid>
+      <description>&lt;p&gt;前回&lt;a href=&#34;https://www.meganii.com/blog/2016/07/17/install-h2load/&#34;&gt;http/2ベンチマークツール「h2load」をインストール - SIS Lab&lt;/a&gt;でhttp/2ベンチマークツールをインストールしたので、いよいよ&lt;code&gt;h2o&lt;/code&gt;をインストールします。&lt;/p&gt;
+&lt;p&gt;さくらVPSで運用しているCentOSは、Ansible経由で整備しているので今回もAnsibleのタスクを作成して、まずはローカルの開発環境でテスト、そしてさくらVPSのCentOSに適用します。&lt;/p&gt;
+&lt;p&gt;Wordpressも、&lt;code&gt;h2o&lt;/code&gt;で動かそうと思ったのですが、うまくリソースが取得できませんでした。下記の設定では、静的ジェネレータ&lt;code&gt;hugo&lt;/code&gt;で作成するファイルだけ&lt;code&gt;h2o&lt;/code&gt;で公開するときの設定です。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

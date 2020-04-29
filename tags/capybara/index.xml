@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>capybara on SIS Lab</title>
+    <link>https://www.meganii.com/tags/capybara/</link>
+    <description>Recent content in capybara on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 24 Jun 2017 11:39:13 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/capybara/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Capybaraで非表示要素を検索できない</title>
+      <link>https://www.meganii.com/blog/2017/06/24/capybara-cannot-find-invisible-element/</link>
+      <pubDate>Sat, 24 Jun 2017 11:39:13 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/06/24/capybara-cannot-find-invisible-element/</guid>
+      <description>&lt;p&gt;Capybaraで、&lt;code&gt;style=&amp;quot;display: none;&amp;quot;&lt;/code&gt;となっているある要素を取得しようと思ったら、思わぬところでハマった。
+&lt;code&gt;page.screenshot&lt;/code&gt;でスクリーンショットを取っても、&lt;code&gt;print page.html&lt;/code&gt;でDOMを取得しても、そこにある要素がfindやhas_selector?メソッドから取得できなくて困った。&lt;/p&gt;
+&lt;p&gt;結論は、&lt;code&gt;style=&amp;quot;display: none;&amp;quot;&lt;/code&gt;のような非表示の要素は、デフォルトでは検索条件にならない。&lt;/p&gt;
+&lt;p&gt;どうやら下記の&lt;code&gt;visible&lt;/code&gt;オプションがあるようです。知らなくて、しばらく途方にくれていました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.rubydoc.info/github/jnicklas/capybara/master/Capybara/Node/Finders#all-instance_method&#34;&gt;http://www.rubydoc.info/github/jnicklas/capybara/master/Capybara/Node/Finders#all-instance_method&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;visible (Boolean, Symbol) — Only find elements with the specified visibility:
+true - only finds visible elements.
+false - finds invisible and visible elements.
+:all - same as false; finds visible and invisible elements.
+:hidden - only finds invisible elements.
+:visible - same as true; only finds visible elements.
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>Capybaraで「Request failed to reach server, check DNS and/or server status」のエラー</title>
+      <link>https://www.meganii.com/blog/2015/07/25/capybara-connect-error/</link>
+      <pubDate>Sat, 25 Jul 2015 17:29:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2015/07/25/capybara-connect-error/</guid>
+      <description>現象 Capybaraでhttpsのサイトにvisit(&#39;&#39;)したときに、以下のエラーが発生する。 Request failed to reach server, check DNS and/or server status /usr/local/lib/ruby/gems/2.1.0/gems/poltergeist-1.6.0/lib/capybara/poltergeist/browser.rb:323:in `command&#39;: Request failed to reach server, check DNS and/or server status (Capybara::Poltergeist::StatusFailError) from /usr/local/lib/ruby/gems/2.1.0/gems/poltergeist-1.6.0/lib/capybara/poltergeist/browser.rb:31:in `visit&#39; from /usr/local/lib/ruby/gems/2.1.0/gems/poltergeist-1.6.0/lib/capybara/poltergeist/driver.rb:95:in `visit&#39; from /usr/local/lib/ruby/gems/2.1.0/gems/capybara-2.4.4/lib/capybara/session.rb:227:in `visit&#39; from /usr/local/lib/ruby/gems/2.1.0/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in &amp;lt;module:DSL&amp;gt;&#39; from itunes.rb:24:in `login&#39; from itunes.rb:61:in `&amp;lt;main&amp;gt;&#39; 原因 SSLの通</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lokka on SIS Lab</title>
+    <link>https://www.meganii.com/tags/lokka/</link>
+    <description>Recent content in lokka on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 29 Jan 2012 22:27:28 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/lokka/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>お名前.comで取得したドメインでHeroku×Lokkaを動かすまで</title>
+      <link>https://www.meganii.com/blog/2012/01/29/1327843648/</link>
+      <pubDate>Sun, 29 Jan 2012 22:27:28 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/01/29/1327843648/</guid>
+      <description>最近、Heroku上でLokkaを動かして遊んでいます。せっかく、勢いで独自ドメインを取ったので、独自ドメインで運用してみようと思ったときの備忘録です。 参考にさせてもらったページ 基本的に、ここのページ</description>
+    </item>
+    
+    <item>
+      <title>LokkaでHamlテンプレートの利用</title>
+      <link>https://www.meganii.com/blog/2011/12/18/1324216219/</link>
+      <pubDate>Sun, 18 Dec 2011 22:50:19 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2011/12/18/1324216219/</guid>
+      <description>hamlで、admin/layoutのテンプレートを利用するまでできた。 Lokkaのthemeのレイアウトテンプレートを使うにはどうすればいいんだろう？ module Lokka module Hello def self.registered(app) app.get &#39;/hello&#39; do require &#39;uri&#39; require &#39;net/https&#39; require &#39;json&#39; require &#39;haml&#39; url = &amp;lt;span class=&amp;quot;synSpecial&amp;quot;&amp;gt;&#39;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;synConstant&amp;quot;&amp;gt;https://api.instagram.com/v1/users/1250725/media/recent&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;synSpecial&amp;quot;&amp;gt;&#39;&amp;lt;/span&amp;gt; access_token</description>
+    </item>
+    
+    <item>
+      <title>undefined method `bytesize&amp;#39; for エラー。 -Instagramのプラグインが作りたい-</title>
+      <link>https://www.meganii.com/blog/2011/12/15/1323900923/</link>
+      <pubDate>Thu, 15 Dec 2011 07:15:23 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2011/12/15/1323900923/</guid>
+      <description>Lokkaのプラグイン hello.rb を改造してみる。試しに、Instagramのプラグインでも作ってみたいという願望。 でも、ここでエラーが。。 module Lokka module Hello def self.registered(app) app.get &#39;/hello&#39; do require &#39;uri&#39; require &#39;net/https&#39; require &#39;json&#39; url = &amp;lt;span class=&amp;quot;synSpecial&amp;quot;&amp;gt;&#39;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;synConstant&amp;quot;&amp;gt;https://api.instagram.com/v1/users/{YOUR_ID}/media/recent&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;synSpecial&amp;quot;&amp;gt;&#39;&amp;lt;/span&amp;gt; access_token = &amp;lt;span class=&amp;quot;synType&amp;quot;&amp;gt;YOUR_ACCESS_TOKEN&amp;lt;/span&amp;gt; param = &amp;lt;span class=&amp;quot;synSpecial&amp;quot;&amp;gt;&amp;amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;synConstant&amp;quot;&amp;gt;access_token=&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;synSpecial&amp;quot;&amp;gt;#{&amp;lt;/span&amp;gt;access_token&amp;lt;span class=&amp;quot;synSpecial&amp;quot;&amp;gt;}&amp;amp;quot;&amp;lt;/span&amp;gt; json = &amp;lt;span</description>
+    </item>
+    
+    <item>
+      <title>Lokkaインストール。bundle installではまった。</title>
+      <link>https://www.meganii.com/blog/2011/12/13/1323728949/</link>
+      <pubDate>Tue, 13 Dec 2011 07:29:09 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2011/12/13/1323728949/</guid>
+      <description>RubyとGitのお勉強をしようと、HerokuにLokkaをインストール。 gemsetの設定 mkdir lokka cd lokka rvm gemset create lokka-heroku &amp;amp;#39;lokka-heroku&amp;amp;#39; gemset created (/Users/meganii/.rvm/gems/ruby-1.9.2-p290@lokka-heroku). rvm gemset use lokka-heroku Lokkaのインストール git clone git://github.com/komagata/lokka.git get install heroku heroku create himitsukichi Creating himitsukichi... done, stack is bamboo-mri-1.9.2 http://himitsukichi.heroku.com/ | git@heroku.com:himitsukichi.git Git remote heroku added git push heroku</description>
+    </item>
+    
+  </channel>
+</rss>

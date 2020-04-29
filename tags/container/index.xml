@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>container on SIS Lab</title>
+    <link>https://www.meganii.com/tags/container/</link>
+    <description>Recent content in container on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 24 Feb 2018 12:38:02 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/container/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dockerコンテナ内からホスト側のDockerを操作する</title>
+      <link>https://www.meganii.com/blog/2018/02/24/docker-run-in-docker-container/</link>
+      <pubDate>Sat, 24 Feb 2018 12:38:02 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/02/24/docker-run-in-docker-container/</guid>
+      <description>要は、あるdockerコンテナの中から新たにDockerコンテナを生成したい。 手順 1.dockerコマンドをインストールする FROMalpineRUN apk --update --no-cache add dockerCMD docker version2.ホストのdocker.sockを-vオプショ</description>
+    </item>
+    
+  </channel>
+</rss>

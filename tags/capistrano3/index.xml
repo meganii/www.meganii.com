@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Capistrano3 on SIS Lab</title>
+    <link>https://www.meganii.com/tags/capistrano3/</link>
+    <description>Recent content in Capistrano3 on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 23 Nov 2016 19:50:01 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/capistrano3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Capistrano3でRails5&#43;Unicornのアプリをデプロイしたときに環境変数SECRET_KEY_BASEが読み込まれない</title>
+      <link>https://www.meganii.com/blog/2016/11/23/capistrano3-can-not-read-env/</link>
+      <pubDate>Wed, 23 Nov 2016 19:50:01 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/11/23/capistrano3-can-not-read-env/</guid>
+      <description>&lt;h2 id=&#34;現象&#34;&gt;現象&lt;/h2&gt;
+&lt;p&gt;Capistrano3を利用して、Rails5のアプリをデプロイしたときに、&lt;code&gt;SECRET_KEY_BASE&lt;/code&gt;が指定されていないという以下のエラーメッセージが表示される。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Missing `secret_token` and `secret_key_base` for &#39;production&#39; environment, set these values in `config/secrets.yml`
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Rails 5.0.0.1&lt;/li&gt;
+&lt;li&gt;Capistrano Version: 3.6.1 (Rake Version: 11.3.0)&lt;/li&gt;
+&lt;li&gt;ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-darwin15]&lt;/li&gt;
+&lt;li&gt;unicorn v5.2.0&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

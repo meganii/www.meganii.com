@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sqlplus on SIS Lab</title>
+    <link>https://www.meganii.com/en/tags/sqlplus/</link>
+    <description>Recent content in sqlplus on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 11 Feb 2015 22:54:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/en/tags/sqlplus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to install SQL*Plus in MacOSX Marverics</title>
+      <link>https://www.meganii.com/en/blog/2015/02/11/how-to-install-sqlplus-in-macosx/</link>
+      <pubDate>Wed, 11 Feb 2015 22:54:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/en/blog/2015/02/11/how-to-install-sqlplus-in-macosx/</guid>
+      <description>What is this article This article explain how to install SQL*Plus after installing Oracle Express Edition 11g. How to install Oracle Database Express Edition11g on Vagrant CentOS6.4 How to install Download files blow url http://www.oracle.com/technetwork/topics/intel-macsoft-096467.html) instantclient-basic-macos.x64-11.2.0.4.0.zip instantclient-jdbc-macos.x64-11.2.0.4.0.zip instantclient-sqlplus-macos.x64-11.2.0.4.0.zip instantclient-sdk-macos.x64-11.2.0.4.0.zip Expand zip files mkdir ~/bin/sqlplus unzip instantclient-basic-macos.x32-11.2.0.4.0.zip -d ~/bin/sqlplus/ unzip instantclient-jdbc-macos.x32-11.2.0.4.0.zip -d ~/bin/sqlplus/ unzip instantclient-sdk-macos.x32-11.2.0.4.0.zip -d ~/bin/sqlplus/ unzip instantclient-sqlplus-macos.x32-11.2.0.4.0.zip -d ~/bin/sqlplus/ Setting Path vim ~/.bash_profile ## oracle client export ORACLE_HOME=~/bin/sqlplus/instantclient_11_2 export PATH=$ORACLE_HOME:$PATH export DYLD_LIBRARY_PATH=~/bin/sqlplus/instantclient_11_2 export NLS_LANG=American_America.AL32UTF8 source ~/.bash_profile Installing rlwrap You can&amp;rsquo;t display command history default. rlwrap is able to remember command histories and display them. You can install by brew</description>
+    </item>
+    
+  </channel>
+</rss>

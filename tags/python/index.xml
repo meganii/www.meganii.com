@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on SIS Lab</title>
+    <link>https://www.meganii.com/tags/python/</link>
+    <description>Recent content in Python on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 18 Jun 2017 21:54:26 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>EDINETとXBRLとは何か？Pythonで財務諸表のデータを取得する</title>
+      <link>https://www.meganii.com/blog/2017/06/18/what-is-edinet-xbrl/</link>
+      <pubDate>Sun, 18 Jun 2017 21:54:26 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/06/18/what-is-edinet-xbrl/</guid>
+      <description>&lt;h2 id=&#34;edinetとは&#34;&gt;EDINETとは？&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Electronic Disclosure for Investor&amp;rsquo;s NETworkの略&lt;/li&gt;
+&lt;li&gt;EDINETは、金融庁により運用されている「金融商品取引法に基づく有価証券報告書等の開示書類に関する電子開示システム」&lt;/li&gt;
+&lt;li&gt;2008年のリニューアルで、財務諸表をXBRL形式による提出が義務付けられた&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた</title>
+      <link>https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/</link>
+      <pubDate>Tue, 06 Sep 2016 07:21:53 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Hugo Data-Driven Content&lt;/code&gt;を試してみる。&lt;/p&gt;
+&lt;h2 id=&#34;目的&#34;&gt;目的&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;サイドバーの人気記事をJavascriptを利用せずに、表示できるようにしたい。&lt;/li&gt;
+&lt;li&gt;脱サードパーティアプリ。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>PythonでTF-IDFによる文書推薦</title>
+      <link>https://www.meganii.com/blog/2016/08/13/tf-idf-recommendation/</link>
+      <pubDate>Sat, 13 Aug 2016 18:43:18 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/08/13/tf-idf-recommendation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>文書推薦</title>
+      <link>https://www.meganii.com/blog/2016/08/12/recommend-engine/</link>
+      <pubDate>Fri, 12 Aug 2016 18:35:30 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/08/12/recommend-engine/</guid>
+      <description>&lt;p&gt;Hugoで関連記事を表示させるためは、ある記事がどの記事と似ているかを機械的に処理する必要があります。では、この判断をどのようにすればいいのでしょうか？&lt;/p&gt;
+&lt;h2 id=&#34;この記事に書いてあること&#34;&gt;この記事に書いてあること&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;関連記事を出すために考えること&lt;/li&gt;
+&lt;li&gt;文書推薦のための手法(コンテンツベース、協調フィルタリング)&lt;/li&gt;
+&lt;li&gt;実装方法&lt;/li&gt;
+&lt;li&gt;word2doc&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugoで関連記事を表示する方法</title>
+      <link>https://www.meganii.com/blog/2016/08/11/hugo-related-post/</link>
+      <pubDate>Thu, 11 Aug 2016 13:54:52 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/08/11/hugo-related-post/</guid>
+      <description>&lt;p&gt;静的サイトジェネレータを使っていて困るのは、関連記事の表示です。Jekyllのときもそうでしたが、Hugoにしてもこの悩みは同じでした。&lt;/p&gt;
+&lt;p&gt;Wordpressを利用していれば、関連記事プラグインで簡単に表示させることも可能ですが、静的サイトジェネレーターを利用した場合に「これがベスト」という方法がいまいちわかっていません。&lt;/p&gt;
+&lt;p&gt;私が考える方法には、以下の4つあります。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;手動で頑張る&lt;/li&gt;
+&lt;li&gt;Hugoテンプレート&lt;/li&gt;
+&lt;li&gt;JavaScript&lt;/li&gt;
+&lt;li&gt;Hugo DataFiles&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>短縮URLを展開する</title>
+      <link>https://www.meganii.com/blog/2012/01/28/1327735662/</link>
+      <pubDate>Sat, 28 Jan 2012 16:27:42 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/01/28/1327735662/</guid>
+      <description>import sys import urllib2 URL = &amp;quot;http://t.co/lWhYkfyK&amp;quot; url = urllib2.urlopen(URL).geturl() print url</description>
+    </item>
+    
+    <item>
+      <title>Pythonのループの書き方いろいろ</title>
+      <link>https://www.meganii.com/blog/2011/11/21/1321884656/</link>
+      <pubDate>Mon, 21 Nov 2011 23:10:56 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2011/11/21/1321884656/</guid>
+      <description>Pythonでのループで書き方ってどうするんだろうって思って、ちょっと調べてみました。 通常のループ for x in range(0, 10): print x 辞書のループ keys = [u&amp;#34;名前&amp;#34;, u&amp;#34;ヨミガナ&amp;#34;, u&amp;#34</description>
+    </item>
+    
+    <item>
+      <title>Pythonでスクレイピングに挑戦。〜mixiの日記をEvernoteへ放り込みたい〜</title>
+      <link>https://www.meganii.com/blog/2011/11/15/1321370201/</link>
+      <pubDate>Tue, 15 Nov 2011 00:16:41 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2011/11/15/1321370201/</guid>
+      <description>mechanizeの記事を見かけたので、Pythonでスクレイピングに挑戦。 mixiの過去の日記をEvernoteに送りたいなぁと思ってます。 mechanizeとBeautifulSoupのインストー</description>
+    </item>
+    
+    <item>
+      <title>いまさらだけど、Bot作る〜お天気取得〜</title>
+      <link>https://www.meganii.com/blog/2011/11/14/1321282662/</link>
+      <pubDate>Mon, 14 Nov 2011 23:57:42 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2011/11/14/1321282662/</guid>
+      <description>最近、いまさらだけどBotでも作りながら勉強しようと思って、Pythonやり始めてます。 お天気取得編。 #! /usr/bin/python # -*- mode:python; coding:utf-8 -*- from xml.etree.ElementTree import * import urllib2 url = &amp;#34;http://weather.livedoor.com/forecast/webservice/rest/v1?city=81&amp;amp;day=today&amp;#34; io = urllib2.urlopen(url) dom = ElementTree(file=io) telop = dom.findtext(&amp;#39;telop&amp;#39;).encode(&amp;#39;utf-8&amp;#39;) print telop 参考 お天気Webサービス仕様 - Weather Hacks - livedoor 天気情</description>
+    </item>
+    
+  </channel>
+</rss>

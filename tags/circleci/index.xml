@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CircleCI on SIS Lab</title>
+    <link>https://www.meganii.com/tags/circleci/</link>
+    <description>Recent content in CircleCI on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 14 Jan 2017 23:02:29 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/circleci/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CircleCIでMeCabを利用してHugoビルドする</title>
+      <link>https://www.meganii.com/blog/2017/01/14/circle-ci-settings-for-mecab-hugo/</link>
+      <pubDate>Sat, 14 Jan 2017 23:02:29 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/01/14/circle-ci-settings-for-mecab-hugo/</guid>
+      <description>&lt;p&gt;以下のコンテナ設定が掴めてきましたので、備忘録として残しておきます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Circle CIで、PythonからMeCab、sklearnを利用して関連記事を作成&lt;/li&gt;
+&lt;li&gt;Hugoでビルド＆さくらVPSにブログを公開&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Circle CIでテストを定期実行する</title>
+      <link>https://www.meganii.com/blog/2016/09/08/circle-ci-nightly-build/</link>
+      <pubDate>Thu, 08 Sep 2016 22:33:29 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/09/08/circle-ci-nightly-build/</guid>
+      <description>&lt;p&gt;前回、HugoのData-driven contenを試した。
+&lt;a href=&#34;https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/&#34;&gt;Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた - SIS Lab&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;これによって、毎回&lt;code&gt;hugo build&lt;/code&gt;することによって、人気記事を更新する仕組みができた。後は、Cicle CIを定期実行させる。これは、Circle CIのAPIを利用すれば実現できる。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Circle CIでHugoのビルド・デプロイを実行する</title>
+      <link>https://www.meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/</link>
+      <pubDate>Mon, 15 Aug 2016 15:53:59 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/</guid>
+      <description>この記事で書くこと Circle CIの設定 Circle CIからさくらVPS(CentOS 6.4)へのrsyncでハマったこと circle.ymlのRuby, Pythonの設定 実現したいこと GitHubのリポジトリに、git</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on SIS Lab</title>
+    <link>https://www.meganii.com/tags/windows/</link>
+    <description>Recent content in Windows on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 23 Nov 2015 21:06:57 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NetBIOSとは？</title>
+      <link>https://www.meganii.com/blog/2015/11/23/netbios/</link>
+      <pubDate>Mon, 23 Nov 2015 21:06:57 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2015/11/23/netbios/</guid>
+      <description>NetBIOSとは？ 昔 Windowsネットワークのベースになっているもの。 NetBIOS名でやりとりをしていた。 今 NetBIOS over TCP/IP TCP/IPの上でNetBIOSのAPIを出来るようにした。 ⇛ Active Director</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>アフィリエイト on SIS Lab</title>
+    <link>https://www.meganii.com/tags/%E3%82%A2%E3%83%95%E3%82%A3%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%88/</link>
+    <description>Recent content in アフィリエイト on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 18 Feb 2017 21:04:17 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/%E3%82%A2%E3%83%95%E3%82%A3%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HugoのShortcodesを利用してAmazon紹介リンクタグを作成</title>
+      <link>https://www.meganii.com/blog/2017/02/18/hugo-amazon-shortcode/</link>
+      <pubDate>Sat, 18 Feb 2017 21:04:17 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/02/18/hugo-amazon-shortcode/</guid>
+      <description>&lt;p&gt;技術書の紹介をする際も、カエレバのようなリンクビルダーを利用してきましたが、重い腰を上げてHugoの&lt;code&gt;shortcodes&lt;/code&gt;と&lt;code&gt;Data-driven Content&lt;/code&gt;で対応しました。&lt;/p&gt;
+&lt;h2 id=&#34;使用方法&#34;&gt;使用方法&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;{{% amazon 477418392X %}}&lt;/code&gt;と記述することで、以下の結果を得ることができます。&lt;/p&gt;
+&lt;div class=&#34;embed&#34;&gt;
+  &lt;div class=&#34;rf&#34;&gt;
+    &lt;div class=&#34;rr&#34;&gt;
+      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
+        &lt;a href=&#34;&#34;&gt;
+          &lt;div&gt;
+            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
+          &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
+        &lt;div class=&#34;rf&#34;&gt;
+          &lt;div class=&#34;rr&#34;&gt;
+            &lt;div class=&#34;rcx12 body&#34;&gt;
+              &lt;a class=&#34;utdn&#34; 
+                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;rcm12 hx&#34;&gt;
+              &lt;div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;rr&#34;&gt;
+      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
+        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt; --&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

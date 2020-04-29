@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Analytics on SIS Lab</title>
+    <link>https://www.meganii.com/tags/google-analytics/</link>
+    <description>Recent content in Google Analytics on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 04 Jan 2020 10:35:50 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/google-analytics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google AnalyticsをデータソースとしてTableau Desktopでアクセス解析を行う</title>
+      <link>https://www.meganii.com/blog/2020/01/04/web-analytics-by-tableau-using-data-of-google-analytics/</link>
+      <pubDate>Sat, 04 Jan 2020 10:35:50 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/01/04/web-analytics-by-tableau-using-data-of-google-analytics/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Tableau Desktop&lt;/code&gt;の14日間トライアルを実施しました。その中で、Google Analyticsを&lt;code&gt;データソース&lt;/code&gt;として利用したアクセス解析を試してみましたので、その内容をまとめます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.tableau.com/ja-jp/products/trial&#34;&gt;Tableau 無料トライアルの開始: トライアル版のダウンロードはこちらから&lt;/a&gt;&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#google-analyticsへのログイン&#34;&gt;Google Analyticsへのログイン&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#1-接続--サーバへ--その他からgoogleアナリティクスを選択&#34;&gt;1. 接続 &amp;gt; サーバへ &amp;gt; &lt;code&gt;その他...&lt;/code&gt;からGoogleアナリティクスを選択&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#2-google-analyticsへの認証&#34;&gt;2. Google Analyticsへの認証&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#3-接続許可を実施&#34;&gt;3. 接続許可を実施&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#4-接続完了&#34;&gt;4. 接続完了&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#曜日毎のページビュー数を眺めてみる&#34;&gt;「曜日毎のページビュー数」を眺めてみる&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#twitterへの投稿は何時がベストか&#34;&gt;Twitterへの投稿は何時がベストか&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

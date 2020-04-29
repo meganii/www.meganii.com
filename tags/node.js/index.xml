@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Node.js on SIS Lab</title>
+    <link>https://www.meganii.com/tags/node.js/</link>
+    <description>Recent content in Node.js on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 19 Nov 2017 06:22:24 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SendGridのInbound Parseでメール受信をトリガーに処理を実行する</title>
+      <link>https://www.meganii.com/blog/2017/11/19/sendgrid-inbound-parse/</link>
+      <pubDate>Sun, 19 Nov 2017 06:22:24 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/11/19/sendgrid-inbound-parse/</guid>
+      <description>&lt;p&gt;「メール受信をトリガーになんらかの操作をしたい」ときに調べたときの調査結果&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

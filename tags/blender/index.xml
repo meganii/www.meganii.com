@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blender on SIS Lab</title>
+    <link>https://www.meganii.com/tags/blender/</link>
+    <description>Recent content in blender on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 22 Jun 2014 18:12:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/blender/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PythonでBlender</title>
+      <link>https://www.meganii.com/blog/2014/06/22/blender-python/</link>
+      <pubDate>Sun, 22 Jun 2014 18:12:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/06/22/blender-python/</guid>
+      <description>PythonでBlenderを操作するためのメモ。 メッシュ(mesh)の構成 頂点 (x, y, z)の座標を指定するみたい エッジ よくわかっていない 面 頂点で指定した座標をつなげることで、面を形成する メソッド デフォル</description>
+    </item>
+    
+  </channel>
+</rss>

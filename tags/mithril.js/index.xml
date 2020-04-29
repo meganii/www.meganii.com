@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mithril.js on SIS Lab</title>
+    <link>https://www.meganii.com/tags/mithril.js/</link>
+    <description>Recent content in Mithril.js on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 11 May 2016 22:05:30 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/mithril.js/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Electronがv1.0.0になったのでMithril.jsと合わせてAmazonアフィリエイトリンクビルダーを作った</title>
+      <link>https://www.meganii.com/blog/2016/05/11/electron-mithril-amazon-linkbuilder/</link>
+      <pubDate>Wed, 11 May 2016 22:05:30 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/05/11/electron-mithril-amazon-linkbuilder/</guid>
+      <description>ElectronがElectron 1.0になったということで、以前作ったAmazon LinkbuilderをMithril.jsで置き換えてみました。(Electron v1.0.0がなったことはあまり</description>
+    </item>
+    
+    <item>
+      <title>Electron &#43; Mithril.jsでFlickrアプリを作成する</title>
+      <link>https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/</link>
+      <pubDate>Sun, 28 Feb 2016 22:13:24 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/</guid>
+      <description>以前、Angular.jsで作成したFlickrアプリを、Electron + Mithril.jsで焼き直した。 Angular.jsは重厚長大な感があり、個人で使う分にはちょっと過剰すぎる気がする。どう</description>
+    </item>
+    
+  </channel>
+</rss>

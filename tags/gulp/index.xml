@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gulp on SIS Lab</title>
+    <link>https://www.meganii.com/tags/gulp/</link>
+    <description>Recent content in gulp on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 09 Apr 2017 12:11:44 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/gulp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>gulpで画像の最適化</title>
+      <link>https://www.meganii.com/blog/2017/04/09/gulp-image-optimization/</link>
+      <pubDate>Sun, 09 Apr 2017 12:11:44 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/04/09/gulp-image-optimization/</guid>
+      <description>&lt;p&gt;完全に自己満足かもしれませんが、以下の理由で画像の最適化に取り組みました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Google PageSpeed Insightsで毎回画像サイズが最適化されていないと毎回怒られる&lt;/li&gt;
+&lt;li&gt;画像ファイルのサイズが無駄に大きいため、iPhoneからアクセスした時に余計なパケットを消費するのが悔しい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;画像の最適化を全て手動でやると挫折してしまうので、タスクランナーである&lt;code&gt;gulp&lt;/code&gt;で自動化を行いました。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

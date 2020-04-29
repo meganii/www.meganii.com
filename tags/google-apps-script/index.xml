@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Apps Script on SIS Lab</title>
+    <link>https://www.meganii.com/tags/google-apps-script/</link>
+    <description>Recent content in Google Apps Script on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 10 Apr 2020 18:28:55 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/google-apps-script/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog KPI Collector（GAS）で各種KPIを自動取得する</title>
+      <link>https://www.meganii.com/blog/2020/04/10/collecting-blog-kpi-with-google-apps-script-blog-kpi-collector/</link>
+      <pubDate>Fri, 10 Apr 2020 18:28:55 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/04/10/collecting-blog-kpi-with-google-apps-script-blog-kpi-collector/</guid>
+      <description>&lt;p&gt;ブログメンタリング期間中は、事前に設定したブログKPI（ページビュー数、ユーザ数、Twitterフォロワーなど）を報告するため、毎週日曜日に手動で取得していました。&lt;/p&gt;
+&lt;p&gt;しかし、ブログメンタリング終了後、報告する必要がなくなるとどうしてもめんどくさいことはやらなくなってしまいます。&lt;/p&gt;
+&lt;p&gt;そこで、今まで取得していたKPIを&lt;code&gt;Google Apps Script&lt;/code&gt;で自動取得するように設定してみました。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#google-apps-scriptblog-kpi-collectorの導入&#34;&gt;Google Apps Script（Blog KPI Collector）の導入&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#claspインストール&#34;&gt;claspインストール&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#blog-kpi-collectorインストール&#34;&gt;Blog KPI Collectorインストール&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#google-sheet作成&#34;&gt;Google Sheet作成&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#初回のみgoogle-apps-script-apiの有効化&#34;&gt;（初回のみ）Google Apps Script APIの有効化&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#google-apps-scriptをpull--push&#34;&gt;Google Apps Scriptをpull &amp;amp; push&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#google-apps-scriptを実行する&#34;&gt;Google Apps Scriptを実行する&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#スクリプトのプロパティを設定する&#34;&gt;「スクリプトのプロパティ」を設定する&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#google-analyticsとの連携方法&#34;&gt;Google Analyticsとの連携方法&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#トリガーによる自動実行の設定&#34;&gt;トリガーによる自動実行の設定&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

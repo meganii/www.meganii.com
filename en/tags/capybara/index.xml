@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>capybara on SIS Lab</title>
+    <link>https://www.meganii.com/en/tags/capybara/</link>
+    <description>Recent content in capybara on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 25 Jul 2015 17:29:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/en/tags/capybara/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Capybara「Request failed to reach server, check DNS and/or server status」</title>
+      <link>https://www.meganii.com/en/blog/2015/07/25/capybara-connect-error/</link>
+      <pubDate>Sat, 25 Jul 2015 17:29:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/en/blog/2015/07/25/capybara-connect-error/</guid>
+      <description>Problem I faced below error when capybara accessed https site by visit(&#39;&#39;) command.
+Request failed to reach server, check DNS and/or server status
+/usr/local/lib/ruby/gems/2.1.0/gems/poltergeist-1.6.0/lib/capybara/poltergeist/browser.rb:323:in `command&#39;: Request failed to reach server, check DNS and/or server status (Capybara::Poltergeist::StatusFailError) from /usr/local/lib/ruby/gems/2.1.0/gems/poltergeist-1.6.0/lib/capybara/poltergeist/browser.rb:31:in `visit&#39; from /usr/local/lib/ruby/gems/2.1.0/gems/poltergeist-1.6.0/lib/capybara/poltergeist/driver.rb:95:in `visit&#39; from /usr/local/lib/ruby/gems/2.1.0/gems/capybara-2.4.4/lib/capybara/session.rb:227:in `visit&#39; from /usr/local/lib/ruby/gems/2.1.0/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in &amp;lt;module:DSL&amp;gt;&#39; from itunes.rb:24:in `login&#39; from itunes.rb:61:in `&amp;lt;main&amp;gt;&#39;   
+Cause It happened SSL certificate errors.
+ The problem is most likely due to SSL certificate errors. If you start phantomjs with the &amp;ndash;ignore-ssl-errors=yes option, it should proceed to load the page as it would if there were no SSL errors: screen scraping - PhantomJS failing to open HTTPS site - Stack Overflow</description>
+    </item>
+    
+  </channel>
+</rss>

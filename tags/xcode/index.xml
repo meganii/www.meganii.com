@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xcode on SIS Lab</title>
+    <link>https://www.meganii.com/tags/xcode/</link>
+    <description>Recent content in Xcode on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 04 Jul 2015 18:23:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/xcode/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Swiftで初めてのMacOSXアプリケーション-FFViewer-</title>
+      <link>https://www.meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/</link>
+      <pubDate>Sat, 04 Jul 2015 18:23:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/</guid>
+      <description>つくりたいもの JekyllのPost用として書いたMarkdownのFrontFormatterの情報を読み込んで表示し、編集、再出力ができるツール。 WebアプリケーションとしてViewerまでは作っ</description>
+    </item>
+    
+  </channel>
+</rss>

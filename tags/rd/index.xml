@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RD on SIS Lab</title>
+    <link>https://www.meganii.com/tags/rd/</link>
+    <description>Recent content in RD on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 17 Nov 2015 08:04:04 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/rd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Azureのリモートデスクトップ周りの調査</title>
+      <link>https://www.meganii.com/blog/2015/11/17/remote-desktop-protocol/</link>
+      <pubDate>Tue, 17 Nov 2015 08:04:04 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2015/11/17/remote-desktop-protocol/</guid>
+      <description>Gateway 異なるネットワーク・プロトコルを使用する2つのネットワークを接続する任意のコンピュータ。 Remote Desktop Gateway 承認されたユーザが「インターネット接続可能な任意のコンピュータ」から「企業ネットワーク上のリモートコンピ</description>
+    </item>
+    
+  </channel>
+</rss>

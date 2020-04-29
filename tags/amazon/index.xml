@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amazon on SIS Lab</title>
+    <link>https://www.meganii.com/tags/amazon/</link>
+    <description>Recent content in Amazon on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 15 Apr 2018 22:29:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/amazon/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ScrapboxにAmazonの書影を取り込むブックマークレット</title>
+      <link>https://www.meganii.com/blog/2018/04/15/scrap-amazon-image-to-scrapbox/</link>
+      <pubDate>Sun, 15 Apr 2018 22:29:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/04/15/scrap-amazon-image-to-scrapbox/</guid>
+      <description>&lt;p&gt;Scrapboxで読書メモを管理にするにあたり、書籍の画像が欲しくなったので、参考URLのブログを参考にブックマークレットを作成しました。&lt;/p&gt;
+&lt;p&gt;久しぶりにブックマークレットを作りましたが、モダンなブラウザではES2015(ES6)が標準で使えるようになったので嬉しいですね。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ASIN, JAN, ISBNコードについて</title>
+      <link>https://www.meganii.com/blog/2017/09/08/asin-jan-isbn/</link>
+      <pubDate>Fri, 08 Sep 2017 16:46:56 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/09/08/asin-jan-isbn/</guid>
+      <description>&lt;p&gt;ASIN, JAN, ISBNなどよく目にするものの、意味がわかっていないものを調べた時のメモです。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Amazon Product Advertising APIを利用するためのIAMユーザ登録とアクセスキーの発行</title>
+      <link>https://www.meganii.com/blog/2017/02/19/how-to-register-amazon-product-advertising-api/</link>
+      <pubDate>Sun, 19 Feb 2017 11:06:41 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/02/19/how-to-register-amazon-product-advertising-api/</guid>
+      <description>&lt;p&gt;プログラムからAmazon Product Advertising APIを利用するためには、Amazon Web Servicesからアクセスキーを発行する必要があります。&lt;/p&gt;
+&lt;p&gt;GitHubにAWSアクセスキーを誤ってCommitしてしまったため、アクセスキーを再取得したのでそのときの備忘録を載せておきます。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Amazonマーケットプレイスで裁断本を含む不要な本を出品してみたら思いのほか簡単に売れた！</title>
+      <link>https://www.meganii.com/blog/2015/10/03/amazon-marketplace/</link>
+      <pubDate>Sat, 03 Oct 2015 10:25:48 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2015/10/03/amazon-marketplace/</guid>
+      <description>&lt;p&gt;引っ越しに伴い、本棚に積まれていた本を整理しました。今まではブックオフに持っていくということしか頭になかったのですが、色々調べてみるとAmazonマーケットプレイスやAmazon買い取りサービスなるものが存在して、比較的簡単に高く本を売却できそうだったので試してみることにしました。&lt;/p&gt;
+&lt;p&gt;結論としては、ブックオフに持っていくより断然、高値で売ることが出来たのでHAPPYになりました。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>メモ on SIS Lab</title>
+    <link>https://www.meganii.com/tags/%E3%83%A1%E3%83%A2/</link>
+    <description>Recent content in メモ on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 19 Dec 2009 06:09:30 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/%E3%83%A1%E3%83%A2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ディレクトリの数だけループさせる</title>
+      <link>https://www.meganii.com/blog/2009/12/19/1261170570/</link>
+      <pubDate>Sat, 19 Dec 2009 06:09:30 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/12/19/1261170570/</guid>
+      <description>自分へのメモ書き 先頭が0.002のディレクトリ(ファイル)の文だけループさせる。 for FILE in `\ls | grep ^0.002` -a オプションでファイルに追加で書き込み tee -a ファイル #!/bin/sh for FILE in \ls | grep ^0.002 do cd ${FILE} sh ~/src/script/sort.sh &amp;gt; output.dat sh ~/src/script/ave.sh | tee -a ~/src/script/param.dat cd .. done</description>
+    </item>
+    
+  </channel>
+</rss>

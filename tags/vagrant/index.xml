@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vagrant on SIS Lab</title>
+    <link>https://www.meganii.com/tags/vagrant/</link>
+    <description>Recent content in vagrant on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 05 Apr 2015 19:23:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/vagrant/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>vagrant plugin install hostmanager実行時のnokogiriインストールエラーの解決</title>
+      <link>https://www.meganii.com/blog/2015/04/05/vagrant-plugin-install-hostmanager-nokogiri-error/</link>
+      <pubDate>Sun, 05 Apr 2015 19:23:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2015/04/05/vagrant-plugin-install-hostmanager-nokogiri-error/</guid>
+      <description>マルチドメインのテストがしたくて、vagrantでホスト名を指定するにはどうすればよいか調べた。vagrant-hostmanagerというプラグインが使えそうなのでインストールしてみたところ、nok</description>
+    </item>
+    
+    <item>
+      <title>勉強用に簡単に作っては壊せる仮想環境をVagrantで構築する</title>
+      <link>https://www.meganii.com/blog/2013/06/30/vagrant-install/</link>
+      <pubDate>Sun, 30 Jun 2013 06:39:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/06/30/vagrant-install/</guid>
+      <description>簡単に作っては壊せる環境があれば、勉強にはいいのかなと思い、まずは、簡単に仮想環境を作る環境を探しました。すると、Vagrantというツールがあることが分かりましたので、インストールして、環境構築を行</description>
+    </item>
+    
+    <item>
+      <title>vagrant</title>
+      <link>https://www.meganii.com/blog/2013/05/28/vagrant/</link>
+      <pubDate>Tue, 28 May 2013 07:13:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/05/28/vagrant/</guid>
+      <description>1.VirtualBoxのダウンロード https://www.virtualbox.org/wiki/Downloads 2.Vagrantのダウンロード gem install vagrant vagrant box add centos64_64 http://developer.nrel.gov/downloads/vagrant-boxes/CentOS-6.4-x86_64-v20130309.box</description>
+    </item>
+    
+  </channel>
+</rss>

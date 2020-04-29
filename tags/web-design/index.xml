@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Design on SIS Lab</title>
+    <link>https://www.meganii.com/tags/web-design/</link>
+    <description>Recent content in Web Design on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 06 Oct 2019 12:28:21 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/web-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AMP向けのミニマルCSSフレームワーク「1BX」をHugoに導入した</title>
+      <link>https://www.meganii.com/blog/2019/10/06/1bx-minimal-css-framework-for-amp/</link>
+      <pubDate>Sun, 06 Oct 2019 12:28:21 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2019/10/06/1bx-minimal-css-framework-for-amp/</guid>
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1570334428/1bx-screenshot_oqm0gr.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/1bx-screenshot_oqm0gr.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/1bx-screenshot_oqm0gr.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/1bx-screenshot_oqm0gr.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/1bx-screenshot_oqm0gr.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/1bx-screenshot_oqm0gr.png 320w&#34;
+      width=&#34;1440&#34;
+      height=&#34;766&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;ミニマルCSSフレームワーク「1BX」を試してみました&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;ミニマルCSSフレームワーク「&lt;a href=&#34;https://1bx.uk/&#34;&gt;A Responsive CSS Grid for AMP | 1BX&lt;/a&gt;」を試してみました。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#tldr&#34;&gt;TL;DR&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#amp用のcssフレームワークに求められること&#34;&gt;AMP用のCSSフレームワークに求められること&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#1bxとは&#34;&gt;1BXとは&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#ハマった点&#34;&gt;ハマった点&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#解決方法&#34;&gt;解決方法&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;
+&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugoで作成するようなブログにおいては&lt;a href=&#34;https://1bx.uk/&#34;&gt;1BX&lt;/a&gt;で十分構成可能&lt;/li&gt;
+&lt;li&gt;サイズが小さくても、グリッドレイアウトを利用可能&lt;/li&gt;
+&lt;li&gt;2文字クラス名を多用しているため、HugoのSyntax Highlighting(Chroma)のクラス名と衝突するが、Inlineオプションを利用することで回避可能&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Adsense広告をレスポンシブデザインでPCビュー2つ横並び、モバイル1つにする方法</title>
+      <link>https://www.meganii.com/blog/2016/04/11/display-none-google-adsense/</link>
+      <pubDate>Mon, 11 Apr 2016 23:28:02 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/04/11/display-none-google-adsense/</guid>
+      <description>Adsenseのレスポンシブ広告は、レスポンシブデザインの時に便利で使っているが、レクタングル広告を横に２つ並べた場合、モバイルで問題になることが多い。 どういうことかというと、PCで横に２つ並べた時、</description>
+    </item>
+    
+  </channel>
+</rss>

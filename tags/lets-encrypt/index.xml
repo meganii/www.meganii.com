@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lets Encrypt on SIS Lab</title>
+    <link>https://www.meganii.com/tags/lets-encrypt/</link>
+    <description>Recent content in Lets Encrypt on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 09 Jul 2016 08:06:50 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/lets-encrypt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lets&#39;s Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化</title>
+      <link>https://www.meganii.com/blog/2016/07/09/invalid-ssl-certificate/</link>
+      <pubDate>Sat, 09 Jul 2016 08:06:50 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/07/09/invalid-ssl-certificate/</guid>
+      <description>&lt;figure&gt;
+  &lt;amp-img src=&#34;
+  https://i.gyazo.com/aa727ee506684862329b98313fcce28a.png&#34; alt=&#34;Lets&amp;#39;s Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化 https://i.gyazo.com/aa727ee506684862329b98313fcce28a.png&#34; width=829 height=446 layout=responsive&gt;&lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;この&lt;a href=&#34;https://www.meganii.com&#34;&gt;meganii.com&lt;/a&gt;は、Lets&amp;rsquo;s Encryptで証明書を発行しています。しばらくは、仕組みがよく分かっていないので手動で更新しようと、3ヶ月に一回は更新するようにしていたのですが、ついに昨日、証明書の期限切れでアクセス出来ない状態になりました。。。(なんというお間抜けな話)&lt;/p&gt;
+&lt;p&gt;慌ててcertbotを実行させて証明書を更新しようとしたのですが、前回の更新が上手くいっていなかったみたいでrenewできませんでした。&lt;/p&gt;
+&lt;p&gt;古い証明書を消して、新規で発行すればできたのでそのメモを残しておきます。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>lets encrypt certbot</title>
+      <link>https://www.meganii.com/blog/2016/05/15/lets-encrypt-certbot/</link>
+      <pubDate>Sun, 15 May 2016 21:02:12 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/05/15/lets-encrypt-certbot/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/&#34;&gt;Lets&amp;rsquo;s Encryptでブログの常時SSL化にチャレンジ - SIS Lab&lt;/a&gt;の方法で新しいドメインを認証しようとすると、モジュールが古いから新しいモジュールを利用してねと怒られました。&lt;/p&gt;
+&lt;p&gt;改めて、&lt;a href=&#34;https://letsencrypt.org/getting-started/&#34;&gt;Getting Started - Let&amp;rsquo;s Encrypt - Free SSL/TLS Certificates&lt;/a&gt;を見ながら、クライアントソフトを入れなおして、再度発行を行いました。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Lets&#39;s Encryptでブログの常時SSL化にチャレンジ</title>
+      <link>https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/</link>
+      <pubDate>Sun, 17 Jan 2016 22:44:45 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/</guid>
+      <description>管理画面とか、APIのエンドポイントを作るためになんとなく、httpsにしておきたいと常々思ってたので、無料で証明書を発行できるLets&amp;rsquo;s Encryptを利用して、これを機にブログも常時</description>
+    </item>
+    
+  </channel>
+</rss>

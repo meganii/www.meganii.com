@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sinatra on SIS Lab</title>
+    <link>https://www.meganii.com/tags/sinatra/</link>
+    <description>Recent content in Sinatra on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 05 Mar 2012 06:13:07 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/sinatra/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RubyからEvernoteAPIを使う-Web Application編-</title>
+      <link>https://www.meganii.com/blog/2012/03/05/1330895587/</link>
+      <pubDate>Mon, 05 Mar 2012 06:13:07 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/03/05/1330895587/</guid>
+      <description>前回のエントリ(RubyからEvernoteAPIを使ってノートブックの取得と、ノートの作成をする - ギークを夢見るじょーぶん男子)で、クライアントからAPIを使ってノートブックの取得と、ノートの作成は</description>
+    </item>
+    
+    <item>
+      <title>HerokuのチュートリアルからFacebookアプリを作る！</title>
+      <link>https://www.meganii.com/blog/2012/02/29/1330525584/</link>
+      <pubDate>Wed, 29 Feb 2012 23:26:24 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/02/29/1330525584/</guid>
+      <description>前回のTODOアプリをなんとかFacebookに絡めてみようと思って、Facebookアプリを作ってみる。SinatraでTwitterBootstrapを使ってTODOアプリを作ってみよう - ギークを</description>
+    </item>
+    
+    <item>
+      <title>SinatraでTwitterBootstrapを使ってTODOアプリを作ってみよう</title>
+      <link>https://www.meganii.com/blog/2012/02/29/1330467948/</link>
+      <pubDate>Wed, 29 Feb 2012 07:25:48 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/02/29/1330467948/</guid>
+      <description>Bootstrap, from Twitter TwitterBootstrapを使ってみたいと思っていたところに、ドットインストールでTwitterBootstrapのレッスンがあることを発見。 Twitter Bootstrap (v2.0)の基礎 - ドットインストール 改め</description>
+    </item>
+    
+    <item>
+      <title>Sinatra触ってると出てくるRackって何？</title>
+      <link>https://www.meganii.com/blog/2012/02/01/1328105758/</link>
+      <pubDate>Wed, 01 Feb 2012 23:15:58 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/02/01/1328105758/</guid>
+      <description>Sinatraを触ってると、Rackがいろんなところで出てくるが、いまいちわからないので調べた。以下のページを参考。 Ruby Freaks Lounge：第23回 Rackとは何か（1）Rackの生まれた背景｜gihyo.</description>
+    </item>
+    
+  </channel>
+</rss>

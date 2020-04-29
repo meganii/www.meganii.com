@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tableau on SIS Lab</title>
+    <link>https://www.meganii.com/tags/tableau/</link>
+    <description>Recent content in Tableau on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 28 Apr 2020 18:50:23 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/tableau/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>「Tableau Blueprint」を読み進める上での用語整理</title>
+      <link>https://www.meganii.com/blog/2020/04/28/organizing-the-terms-in-reading-tableau-blueprint/</link>
+      <pubDate>Tue, 28 Apr 2020 18:50:23 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/04/28/organizing-the-terms-in-reading-tableau-blueprint/</guid>
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1587899115/Blueprint-Subway_ja-JP_mh6xmb.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/Blueprint-Subway_ja-JP_mh6xmb.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/Blueprint-Subway_ja-JP_mh6xmb.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/Blueprint-Subway_ja-JP_mh6xmb.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/Blueprint-Subway_ja-JP_mh6xmb.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/Blueprint-Subway_ja-JP_mh6xmb.png 320w&#34;
+      width=&#34;1280&#34;
+      height=&#34;720&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Tableau Blueprint&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.tableau.com/ja-jp/learn/blueprint&#34;&gt;Tableau Blueprint の紹介 | Tableau Software&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tableau Blueprintを読み進めている上で、英語の用語がいまいちピンときませんでしたので、調べてみました。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#エグゼクティブスポンサー-executive-sponsor&#34;&gt;エグゼクティブ・スポンサー Executive Sponsor&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#エグゼクティブアドボカシー-executive-advocacy&#34;&gt;エグゼクティブアドボカシー Executive Advocacy&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#lob-line-of-business&#34;&gt;LOB (Line Of Business)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#coe-center-of-excellence&#34;&gt;CoE (Center of Excellence)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+    <item>
+      <title>「DATA Saber認定制度」のふりかえり</title>
+      <link>https://www.meganii.com/blog/2020/03/23/a-look-back-at-the-data-saber-certification-program/</link>
+      <pubDate>Mon, 23 Mar 2020 06:33:37 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/03/23/a-look-back-at-the-data-saber-certification-program/</guid>
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1584785388/datasaber_y5ziiu.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/datasaber_y5ziiu.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/datasaber_y5ziiu.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/datasaber_y5ziiu.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/datasaber_y5ziiu.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/datasaber_y5ziiu.png 320w&#34;
+      width=&#34;1440&#34;
+      height=&#34;798&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;DATA Saber認定試験&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;2019/12/16-2020/3/15の期間で「DATA Saber認定制度」にチャレンジし、2020/3/13の最終技術試験・口頭試問を経て、「DATA Saber」として認定をいただきました。&lt;/p&gt;
+&lt;p&gt;自分自身の振り返りのため、また今から「DATA Saber認定制度」を受けようとしている方に向けて活動を振り返って書き残しておきます。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#data-saber--data-saber認定制度とは&#34;&gt;DATA Saber / DATA Saber認定制度とは&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#data-saberとは&#34;&gt;DATA Saberとは&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#data-saber認定制度に参加するためには&#34;&gt;DATA Saber認定制度に参加するためには&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#data-saber認定制度への参加動機&#34;&gt;DATA Saber認定制度への参加動機&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#data-saber認定制度を受けた所感&#34;&gt;DATA Saber認定制度を受けた所感&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#タイムマネジメント大事&#34;&gt;タイムマネジメント大事&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#3つの課題&#34;&gt;3つの課題&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#data-saber認定制度を通じて身につくこと身につかないこと&#34;&gt;DATA Saber認定制度を通じて身につくこと/身につかないこと&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#身につくこと&#34;&gt;身につくこと&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#身につかないこと&#34;&gt;身につかないこと&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#今後の展望&#34;&gt;今後の展望&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+    <item>
+      <title>【Tableau】積み上げ棒グラフの合計値をラベル表示する方法</title>
+      <link>https://www.meganii.com/blog/2020/03/20/stack-chart-with-sum-value/</link>
+      <pubDate>Fri, 20 Mar 2020 17:10:26 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/03/20/stack-chart-with-sum-value/</guid>
+      <description>&lt;h2 id=&#34;tableauでやりたいこと&#34;&gt;Tableauでやりたいこと&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;積み上げ棒グラフの内訳を表示しつつ、合計値も併せて表示する&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;困ったこと&#34;&gt;困ったこと&lt;/h2&gt;
+&lt;p&gt;スーパーサンプルストアを例にします。&lt;/p&gt;
+&lt;p&gt;「オーダー日」毎の「売上」表示する場合、何も考えなくてもラベルを表示すれば、「オーダー日」（ここでは年）毎の合計値が積み上げ棒グラフの上部に表示されます。&lt;/p&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1584692694/tableau_stack_chart_label_jlnjzv.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableau_stack_chart_label_jlnjzv.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableau_stack_chart_label_jlnjzv.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau_stack_chart_label_jlnjzv.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau_stack_chart_label_jlnjzv.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau_stack_chart_label_jlnjzv.png 320w&#34;
+      width=&#34;351&#34;
+      height=&#34;424&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;【Tableau】積み上げ棒グラフの合計値をラベル表示する方法&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;しかし、「カテゴリ」で色付けするとラベルは内訳を表示してしまうため、合計値が表示されません。&lt;/p&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1584692694/tableau_stack_chart_label_n7mqnk.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableau_stack_chart_label_n7mqnk.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableau_stack_chart_label_n7mqnk.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau_stack_chart_label_n7mqnk.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau_stack_chart_label_n7mqnk.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau_stack_chart_label_n7mqnk.png 320w&#34;
+      width=&#34;351&#34;
+      height=&#34;424&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;【Tableau】積み上げ棒グラフの合計値をラベル表示する方法&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;この状態で「合計値も表示できるようにしてよ」と言われた場合、あなたならどのように実装しますか。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tableau PublicのVizをiframeでブログに埋め込む方法</title>
+      <link>https://www.meganii.com/blog/2020/03/06/embeded-tableau-public-view/</link>
+      <pubDate>Fri, 06 Mar 2020 17:24:18 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/03/06/embeded-tableau-public-view/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Tableau Desktop&lt;/code&gt;で作成したVizは&lt;code&gt;Tableau Public&lt;/code&gt;と呼ばれるギャラリーサイトに公開できます。一度&lt;code&gt;Tableau Public&lt;/code&gt;に公開すればTableau Public上でのURLが発行されます。&lt;/p&gt;
+&lt;p&gt;このURLを共有すればVizの共有ができますが、Vizをブログに埋め込みたい場合はどのようにすればよいでしょうか。調べた結果を記載します。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【Tableau】カテゴリ別の上位と下位Nを表示する</title>
+      <link>https://www.meganii.com/blog/2020/02/27/showing-top-and-bottom-n-per-category-in-tableau/</link>
+      <pubDate>Thu, 27 Feb 2020 07:31:54 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/02/27/showing-top-and-bottom-n-per-category-in-tableau/</guid>
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1582756643/tableau-top-and-bottom_bvivwx.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableau-top-and-bottom_bvivwx.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableau-top-and-bottom_bvivwx.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau-top-and-bottom_bvivwx.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau-top-and-bottom_bvivwx.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau-top-and-bottom_bvivwx.png 320w&#34;
+      width=&#34;1226&#34;
+      height=&#34;457&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;top and bottom&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;上位N個もしくは下位N個を個別で表示することは&lt;code&gt;ディメンションフィルター&lt;/code&gt;を利用することで比較的簡単に実装できます。&lt;/p&gt;
+&lt;p&gt;しかし、上位N個と下位N個を1つのグラフ上に表現する場合はちょっとした工夫が必要でしたので、メモしておきます。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tableauの「結合済みフィールド」(Combined Fields)を利用して任意のソート順を定義する</title>
+      <link>https://www.meganii.com/blog/2020/02/10/sorting-dimensions-by-conbined-fields-in-tableau/</link>
+      <pubDate>Mon, 10 Feb 2020 04:50:23 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/02/10/sorting-dimensions-by-conbined-fields-in-tableau/</guid>
+      <description>&lt;p&gt;Excelだと簡単にできるソートも、Tableauだと意外と苦戦する場合があります。&lt;/p&gt;
+&lt;p&gt;例えば以下のように各店舗、席タイプ、サービスメニューごとの価格の一覧があったとします。「価格でソートし、最安値となるサービスメニューを探したい」となった場合、ディメンション毎のソートとなってしまい、なかなか意図するソート順になりません。&lt;/p&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1581277712/bagus_dimension_sort_qausg0.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/bagus_dimension_sort_qausg0.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/bagus_dimension_sort_qausg0.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/bagus_dimension_sort_qausg0.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/bagus_dimension_sort_qausg0.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/bagus_dimension_sort_qausg0.png 320w&#34;
+      width=&#34;1010&#34;
+      height=&#34;689&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Tableau&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>データ準備におけるTableau DesktopとTableau Prep Builderの使い分け</title>
+      <link>https://www.meganii.com/blog/2020/01/25/tableau-desktop-vs-tableau-prep-builder/</link>
+      <pubDate>Sat, 25 Jan 2020 06:55:35 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/01/25/tableau-desktop-vs-tableau-prep-builder/</guid>
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1579905322/tableau_prep_xdbbz6.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableau_prep_xdbbz6.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableau_prep_xdbbz6.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau_prep_xdbbz6.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau_prep_xdbbz6.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau_prep_xdbbz6.jpg 320w&#34;
+      width=&#34;1920&#34;
+      height=&#34;1080&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Tableau Prep Builder&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;code&gt;Tableau Desktop&lt;/code&gt;と&lt;code&gt;Tableau Prep Builder&lt;/code&gt;は両方とも結合、ピボット、クリーニングなどの処理が行えます。この2つのツールはどのように使い分ければよいのでしょうか。&lt;/p&gt;
+&lt;p&gt;以下は2018年に公開されたホワイトペーパーですが、今のバージョンのTableau Desktop / Tableau Prepでも有用な情報でしたので、ポイントをまとめてみました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.tableau.com/about/blog/2018/7/should-i-use-tableau-prep-or-desktop-data-prep-answer-why-not-both-90902&#34;&gt;Should I use Tableau Prep or Desktop for data prep? The answer: Why not both? | Tableau Software&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tableauホワイトペーパーから読み解く「トラディショナルBIとモダンBIの違い」</title>
+      <link>https://www.meganii.com/blog/2020/01/09/tableau-whitepater-traditional-bi-vs-modern-bi/</link>
+      <pubDate>Thu, 09 Jan 2020 22:37:43 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/01/09/tableau-whitepater-traditional-bi-vs-modern-bi/</guid>
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1578669810/tableaulogo_highres_t9alev.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableaulogo_highres_t9alev.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableaulogo_highres_t9alev.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableaulogo_highres_t9alev.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableaulogo_highres_t9alev.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableaulogo_highres_t9alev.png 320w&#34;
+      width=&#34;2000&#34;
+      height=&#34;450&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Tableauホワイトペーパーから読み解く「トラディショナルBIとモダンBIの違い」&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;TableauのホワイトペーパーやWebinerを読み聞きし、&lt;code&gt;トラディショナルBI&lt;/code&gt;と&lt;code&gt;モダンBI&lt;/code&gt;の違いについて自分なりにまとめてみました。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#traditional-bi--トラディショナルbi&#34;&gt;Traditional BI / トラディショナルBI&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#トラディショナルbiとは&#34;&gt;トラディショナルBIとは&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#トラディショナルbiの問題点とは&#34;&gt;トラディショナルBIの問題点とは&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#modern-bi--モダンbi&#34;&gt;Modern BI / モダンBI&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#モダンbiとは&#34;&gt;モダンBIとは&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#モダンbiの特徴効果は&#34;&gt;モダンBIの特徴・効果は&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#所感&#34;&gt;所感&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+    <item>
+      <title>Google AnalyticsをデータソースとしてTableau Desktopでアクセス解析を行う</title>
+      <link>https://www.meganii.com/blog/2020/01/04/web-analytics-by-tableau-using-data-of-google-analytics/</link>
+      <pubDate>Sat, 04 Jan 2020 10:35:50 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/01/04/web-analytics-by-tableau-using-data-of-google-analytics/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Tableau Desktop&lt;/code&gt;の14日間トライアルを実施しました。その中で、Google Analyticsを&lt;code&gt;データソース&lt;/code&gt;として利用したアクセス解析を試してみましたので、その内容をまとめます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.tableau.com/ja-jp/products/trial&#34;&gt;Tableau 無料トライアルの開始: トライアル版のダウンロードはこちらから&lt;/a&gt;&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#google-analyticsへのログイン&#34;&gt;Google Analyticsへのログイン&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#1-接続--サーバへ--その他からgoogleアナリティクスを選択&#34;&gt;1. 接続 &amp;gt; サーバへ &amp;gt; &lt;code&gt;その他...&lt;/code&gt;からGoogleアナリティクスを選択&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#2-google-analyticsへの認証&#34;&gt;2. Google Analyticsへの認証&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#3-接続許可を実施&#34;&gt;3. 接続許可を実施&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#4-接続完了&#34;&gt;4. 接続完了&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#曜日毎のページビュー数を眺めてみる&#34;&gt;「曜日毎のページビュー数」を眺めてみる&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#twitterへの投稿は何時がベストか&#34;&gt;Twitterへの投稿は何時がベストか&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tableau製品とTableau Publicで「できること」「できないこと」</title>
+      <link>https://www.meganii.com/blog/2019/12/27/product-list-of-tableau/</link>
+      <pubDate>Fri, 27 Dec 2019 11:18:08 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2019/12/27/product-list-of-tableau/</guid>
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1577416646/tableaupublic_xd3mun.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableaupublic_xd3mun.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableaupublic_xd3mun.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableaupublic_xd3mun.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableaupublic_xd3mun.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableaupublic_xd3mun.png 320w&#34;
+      width=&#34;556&#34;
+      height=&#34;329&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Tableau Public&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;最近、Tableauを触る機会が出てきたので、調べながら学んだ点を残しておきます。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#tableauとは&#34;&gt;Tableauとは&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#tableau製品には何があるのか&#34;&gt;Tableau製品には何があるのか&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#有償版&#34;&gt;有償版&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#無償版&#34;&gt;無償版&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#tableau-publicの機能制限&#34;&gt;Tableau Publicの機能制限&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

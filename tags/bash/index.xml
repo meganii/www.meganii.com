@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bash on SIS Lab</title>
+    <link>https://www.meganii.com/tags/bash/</link>
+    <description>Recent content in bash on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 08 Jul 2009 13:38:26 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>gnuplotをループさせる</title>
+      <link>https://www.meganii.com/blog/2009/07/08/1247027906/</link>
+      <pubDate>Wed, 08 Jul 2009 13:38:26 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/07/08/1247027906/</guid>
+      <description>自分へのメモ データせっせと吐き出したはいいけれど、それをグラフで可視化したい場合の処理をさせたかった。以下のページを参考に書いてみた。 #!/bin/sh # `seq 0 N`で0-29までの整数を読み込み for i in `seq 0 29` do #---シ</description>
+    </item>
+    
+  </channel>
+</rss>

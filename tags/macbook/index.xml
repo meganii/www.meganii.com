@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MacBook on SIS Lab</title>
+    <link>https://www.meganii.com/tags/macbook/</link>
+    <description>Recent content in MacBook on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 21 Jun 2013 21:16:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/macbook/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2台目のMacBookAirからさくらVPSへSSH接続を行うための鍵の設定</title>
+      <link>https://www.meganii.com/blog/2013/06/21/ssh-sakuravps/</link>
+      <pubDate>Fri, 21 Jun 2013 21:16:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/06/21/ssh-sakuravps/</guid>
+      <description>新しくMacBookAirを買ったので、さくらVPSへSSH接続を行うための鍵の設定。 念願のAir!! MacBookAir Mid 2013買いました - SIS Lab su vim /etc/ssh/sshd_config パスワードによるログインを許可する PasswordAuthentication yes 設定を変えたら、sshdを</description>
+    </item>
+    
+    <item>
+      <title>念願のAir!! MacBookAir Mid 2013買いました</title>
+      <link>https://www.meganii.com/blog/2013/06/18/macbookair/</link>
+      <pubDate>Tue, 18 Jun 2013 06:32:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/06/18/macbookair/</guid>
+      <description>念願のMacBookAirをついに手に入れました！！ 発売日の翌日に、ネット上のMac情報をみていたら、いつのまにかぽちってました。後悔はしない。ずっと待ち続けていたのだから。 構成 CPU 1.7GHzデュアル</description>
+    </item>
+    
+  </channel>
+</rss>

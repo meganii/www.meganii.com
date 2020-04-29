@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>スクレイピング on SIS Lab</title>
+    <link>https://www.meganii.com/tags/%E3%82%B9%E3%82%AF%E3%83%AC%E3%82%A4%E3%83%94%E3%83%B3%E3%82%B0/</link>
+    <description>Recent content in スクレイピング on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 30 Jan 2020 07:11:59 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/%E3%82%B9%E3%82%AF%E3%83%AC%E3%82%A4%E3%83%94%E3%83%B3%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PuppeteerのwaitForNavigationで正しくページ遷移を待つ</title>
+      <link>https://www.meganii.com/blog/2020/01/30/puppeteer-wait-for-navigation/</link>
+      <pubDate>Thu, 30 Jan 2020 07:11:59 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/01/30/puppeteer-wait-for-navigation/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://amzn.to/2RXyTqt&#34;&gt;「Puppeteer入門 スクレイピング+Web操作自動処理プログラミング」&lt;/a&gt;を読むまで、&lt;code&gt;Puppeteer&lt;/code&gt;の&lt;code&gt;waitForNavigation&lt;/code&gt;の動きを誤って理解していました。&lt;/p&gt;
+&lt;p&gt;ここでは、&lt;code&gt;Puppeteer&lt;/code&gt;を利用して「ページ遷移を待つ」というよくある処理における誤った実装と正しい実装を紹介します。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nightmare.jsでAmazonアフィリエイトのレポートを取得する</title>
+      <link>https://www.meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/</link>
+      <pubDate>Mon, 01 Feb 2016 22:52:47 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://amzn.to/2OjNtaz&#34;&gt;次の本&lt;/a&gt;を読み進めることで、&lt;code&gt;Ruby&lt;/code&gt;のライブラリである&lt;code&gt;Capybara&lt;/code&gt;, &lt;code&gt;Poltergeist&lt;/code&gt;を利用してスクレイピングを行うことができました。&lt;code&gt;Poltergeist&lt;/code&gt;は&lt;code&gt;PhantomJS&lt;/code&gt;というHeadless Browserを操作するための&lt;code&gt;Capybara&lt;/code&gt;用Driverです。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;PhantomJS&lt;/code&gt;は&lt;code&gt;JavaScript&lt;/code&gt;ライブラリということで、&lt;code&gt;JavaScript&lt;/code&gt;から&lt;code&gt;PhantomJS&lt;/code&gt;を操作するにはどのような方法があるのか調べてみました。これを機会に&lt;code&gt;JavaScript&lt;/code&gt;を書けるようになりたい。&lt;/p&gt;
+&lt;div class=&#34;embed&#34;&gt;
+  &lt;div class=&#34;rf&#34;&gt;
+    &lt;div class=&#34;rr&#34;&gt;
+      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
+        &lt;a href=&#34;&#34;&gt;
+          &lt;div&gt;
+            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
+          &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
+        &lt;div class=&#34;rf&#34;&gt;
+          &lt;div class=&#34;rr&#34;&gt;
+            &lt;div class=&#34;rcx12 body&#34;&gt;
+              &lt;a class=&#34;utdn&#34; 
+                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;rcm12 hx&#34;&gt;
+              &lt;div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;rr&#34;&gt;
+      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
+        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt; --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pythonでスクレイピングに挑戦。〜mixiの日記をEvernoteへ放り込みたい〜</title>
+      <link>https://www.meganii.com/blog/2011/11/15/1321370201/</link>
+      <pubDate>Tue, 15 Nov 2011 00:16:41 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2011/11/15/1321370201/</guid>
+      <description>mechanizeの記事を見かけたので、Pythonでスクレイピングに挑戦。 mixiの過去の日記をEvernoteに送りたいなぁと思ってます。 mechanizeとBeautifulSoupのインストー</description>
+    </item>
+    
+  </channel>
+</rss>

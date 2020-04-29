@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bitly on SIS Lab</title>
+    <link>https://www.meganii.com/tags/bitly/</link>
+    <description>Recent content in Bitly on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 17 Apr 2020 19:32:09 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/bitly/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bitlyでの短縮URL作成（v3からv4への移行）</title>
+      <link>https://www.meganii.com/blog/2020/04/17/bitly-api-migrating-from-v3/</link>
+      <pubDate>Fri, 17 Apr 2020 19:32:09 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/04/17/bitly-api-migrating-from-v3/</guid>
+      <description>&lt;p&gt;Bitly API v3までは以下の通り、access_tokenと共に短縮したいURLをリクエストパラメタに乗せて、GETリクエストを行う方法でした。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;https://api-ssl.bitly.com/v3/shorten?access_token=$apiKey&amp;amp;longUrl=hogehoge&#39;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;v4からはheaderに&lt;code&gt;Authorization: Bearer {token}&lt;/code&gt;を入れてPOSTリクエストをする必要があります。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.memory-lovers.blog/entry/2019/07/14/123000&#34;&gt;bitly APIで短縮URL(TwitterのURLバン対策 パート2) - くらげになりたい。&lt;/a&gt;を参考にさせていただき、v3からv4へ移行しました。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

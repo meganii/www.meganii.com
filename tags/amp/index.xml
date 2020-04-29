@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AMP on SIS Lab</title>
+    <link>https://www.meganii.com/tags/amp/</link>
+    <description>Recent content in AMP on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 02 Feb 2020 22:25:06 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/amp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HugoでAMP対応のブログカードを作る</title>
+      <link>https://www.meganii.com/blog/2020/02/02/blogcard-in-hugo/</link>
+      <pubDate>Sun, 02 Feb 2020 22:25:06 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/02/02/blogcard-in-hugo/</guid>
+      <description>&lt;p&gt;「Hugoでもブログカードを利用したい」&lt;/p&gt;
+&lt;p&gt;そう考えているところに以下の記事がTwitterのTLで流れてきたので、試してみました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://nasust.com/hugo/shortcode/blogcard/&#34;&gt;Hugoでブログカードに対応する | Hugo 入門 / 解説 | nasust dev blog&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>AMPページの最適化〜ぼくのAMPサイトがこんなに遅い訳がない〜</title>
+      <link>https://www.meganii.com/blog/2019/10/11/optimize-amp/</link>
+      <pubDate>Fri, 11 Oct 2019 22:19:49 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2019/10/11/optimize-amp/</guid>
+      <description>&lt;p&gt;このサイトも&lt;code&gt;AMP&lt;/code&gt;対応したのだから、&lt;code&gt;Lighthouse&lt;/code&gt;や&lt;code&gt;PageSpeed Insights&lt;/code&gt;のスコアもきっと高いはずと計測してみたところ、全然スコアが出ていなかったので改善しました。その時のメモを残しておきます。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#tldr&#34;&gt;TL;DR&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#計測&#34;&gt;計測&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#セルフホストしたamp-pagesを最適化する&#34;&gt;セルフホストしたAMP Pagesを最適化する&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#1-最初のタグはmeta-charest-tagで始めその後残りのmeta-tagを記述する&#34;&gt;1. 最初のタグは&lt;code&gt;meta charest tag&lt;/code&gt;で始め、その後残りの&lt;code&gt;meta tag&lt;/code&gt;を記述する&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#2-amp-runtime-v0jsをpreloadする&#34;&gt;2. AMP runtime v0.jsをpreloadする&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#3-render-delaying-extensionsが含まれているのであればpreloadする&#34;&gt;3. &lt;code&gt;Render-delaying extensions&lt;/code&gt;が含まれているのであれば、preloadする&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#4-preconnectを利用して異なるドメインに対するコネクション確立を高速化する&#34;&gt;4. preconnectを利用して異なるドメインに対するコネクション確立を高速化する&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#5-amp-runtimeを読み込む&#34;&gt;5. &lt;code&gt;AMP runtime&lt;/code&gt;を読み込む&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#6-render-delaying-extensionsのscriptを指定する&#34;&gt;6. &lt;code&gt;Render-delaying extensions&lt;/code&gt;のscriptを指定する&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#6-残りのamp-extensionsのscriptを指定する&#34;&gt;6. 残りのAMP extensionsのscriptを指定する&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#7-amp-customを指定する&#34;&gt;7. &lt;code&gt;amp-custom&lt;/code&gt;を指定する&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#8-そのほかのheadタグで記述するものを指定する&#34;&gt;8. そのほかのheadタグで記述するものを指定する&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#9-amp-boilerplateを指定する&#34;&gt;9. AMP boilerplateを指定する&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#改善前と改善後&#34;&gt;改善前と改善後&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#before&#34;&gt;Before&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#after&#34;&gt;After&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+    <item>
+      <title>AMP向けのミニマルCSSフレームワーク「1BX」をHugoに導入した</title>
+      <link>https://www.meganii.com/blog/2019/10/06/1bx-minimal-css-framework-for-amp/</link>
+      <pubDate>Sun, 06 Oct 2019 12:28:21 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2019/10/06/1bx-minimal-css-framework-for-amp/</guid>
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1570334428/1bx-screenshot_oqm0gr.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/1bx-screenshot_oqm0gr.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/1bx-screenshot_oqm0gr.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/1bx-screenshot_oqm0gr.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/1bx-screenshot_oqm0gr.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/1bx-screenshot_oqm0gr.png 320w&#34;
+      width=&#34;1440&#34;
+      height=&#34;766&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;ミニマルCSSフレームワーク「1BX」を試してみました&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;ミニマルCSSフレームワーク「&lt;a href=&#34;https://1bx.uk/&#34;&gt;A Responsive CSS Grid for AMP | 1BX&lt;/a&gt;」を試してみました。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#tldr&#34;&gt;TL;DR&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#amp用のcssフレームワークに求められること&#34;&gt;AMP用のCSSフレームワークに求められること&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#1bxとは&#34;&gt;1BXとは&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#ハマった点&#34;&gt;ハマった点&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#解決方法&#34;&gt;解決方法&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;
+&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugoで作成するようなブログにおいては&lt;a href=&#34;https://1bx.uk/&#34;&gt;1BX&lt;/a&gt;で十分構成可能&lt;/li&gt;
+&lt;li&gt;サイズが小さくても、グリッドレイアウトを利用可能&lt;/li&gt;
+&lt;li&gt;2文字クラス名を多用しているため、HugoのSyntax Highlighting(Chroma)のクラス名と衝突するが、Inlineオプションを利用することで回避可能&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>AMPページがモバイル表示で引っ掛かる件</title>
+      <link>https://www.meganii.com/blog/2018/12/02/amp-page-does-not-scroll-smoothly/</link>
+      <pubDate>Sun, 02 Dec 2018 12:28:58 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/12/02/amp-page-does-not-scroll-smoothly/</guid>
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1543721510/IMG_3186_fl7ifm.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG_3186_fl7ifm.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG_3186_fl7ifm.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_3186_fl7ifm.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_3186_fl7ifm.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_3186_fl7ifm.jpg 320w&#34;
+      width=&#34;215&#34;
+      height=&#34;384&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;AMP page&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;現象&#34;&gt;現象&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;iPhone 6Sで、&lt;a href=&#34;https://scrapbox.io/meganii/AMP&#34;&gt;AMP&lt;/a&gt;ページを表示するとスクロールが意図しない動きになる&lt;/li&gt;
+&lt;li&gt;HeaderとMain Contentの間で、スクロールが止まる&lt;/li&gt;
+&lt;li&gt;本家のland-seeAMPページでも引っかかりを感じるので再現性あり
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ampstart.com/templates&#34;&gt;https://www.ampstart.com/templates&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

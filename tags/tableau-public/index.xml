@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tableau Public on SIS Lab</title>
+    <link>https://www.meganii.com/tags/tableau-public/</link>
+    <description>Recent content in Tableau Public on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 06 Mar 2020 17:24:18 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/tableau-public/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tableau PublicのVizをiframeでブログに埋め込む方法</title>
+      <link>https://www.meganii.com/blog/2020/03/06/embeded-tableau-public-view/</link>
+      <pubDate>Fri, 06 Mar 2020 17:24:18 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/03/06/embeded-tableau-public-view/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Tableau Desktop&lt;/code&gt;で作成したVizは&lt;code&gt;Tableau Public&lt;/code&gt;と呼ばれるギャラリーサイトに公開できます。一度&lt;code&gt;Tableau Public&lt;/code&gt;に公開すればTableau Public上でのURLが発行されます。&lt;/p&gt;
+&lt;p&gt;このURLを共有すればVizの共有ができますが、Vizをブログに埋め込みたい場合はどのようにすればよいでしょうか。調べた結果を記載します。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

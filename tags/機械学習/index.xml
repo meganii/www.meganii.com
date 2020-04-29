@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>機械学習 on SIS Lab</title>
+    <link>https://www.meganii.com/tags/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92/</link>
+    <description>Recent content in 機械学習 on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 18 Sep 2016 10:58:35 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>building machine learning systems with python</title>
+      <link>https://www.meganii.com/blog/2016/09/18/building-machine-learning-systems-with-python/</link>
+      <pubDate>Sun, 18 Sep 2016 10:58:35 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/09/18/building-machine-learning-systems-with-python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>文書推薦</title>
+      <link>https://www.meganii.com/blog/2016/08/12/recommend-engine/</link>
+      <pubDate>Fri, 12 Aug 2016 18:35:30 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/08/12/recommend-engine/</guid>
+      <description>&lt;p&gt;Hugoで関連記事を表示させるためは、ある記事がどの記事と似ているかを機械的に処理する必要があります。では、この判断をどのようにすればいいのでしょうか？&lt;/p&gt;
+&lt;h2 id=&#34;この記事に書いてあること&#34;&gt;この記事に書いてあること&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;関連記事を出すために考えること&lt;/li&gt;
+&lt;li&gt;文書推薦のための手法(コンテンツベース、協調フィルタリング)&lt;/li&gt;
+&lt;li&gt;実装方法&lt;/li&gt;
+&lt;li&gt;word2doc&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>database on SIS Lab</title>
+    <link>https://www.meganii.com/en/tags/database/</link>
+    <description>Recent content in database on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Feb 2015 15:11:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/en/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installing Oracle Database Express Edition11g on Vagrant(CentOS 6.4)</title>
+      <link>https://www.meganii.com/en/blog/2015/02/08/oracle-express-edition-11g-install/</link>
+      <pubDate>Sun, 08 Feb 2015 15:11:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/en/blog/2015/02/08/oracle-express-edition-11g-install/</guid>
+      <description>I&amp;rsquo;d like to learn about Oracle, so I installed Oracle 11g Express Edition on Vagrant(CentOS). Environment VirtualBox version 4.3.14 Vagrant 1.6.3 Oracle Database Express Edition 11g R2 Host OS: Mac OS X Mavericks Guest OS: CentOS 6.4 x86_64 Minimal(20140116) Release CentOS 6.4 x86_64 Minimal (2014-01-16) · 2creatives/vagrant-centos Installing Oracle11g Setting Vagrant(Host OS) Downloading Oracle Database Express Edition 11g(Host OS) Installing package for installing Oracle(Guest OS) Installing Oracle(Guest OS) Status Check 1. Setting Vagrant(Host OS) Installing VirtualBox and Vagrant I&amp;rsquo;ll omit installing VirtualBox and Vagrant. Setting for network Adding IP address in Vagrantfile. # Vagrantfile API/syntax version. Don&#39;t touch unless you</description>
+    </item>
+    
+  </channel>
+</rss>

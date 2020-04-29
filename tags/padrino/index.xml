@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Padrino on SIS Lab</title>
+    <link>https://www.meganii.com/tags/padrino/</link>
+    <description>Recent content in Padrino on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 03 Apr 2012 07:43:52 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/padrino/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Padrinoを触ってみた</title>
+      <link>https://www.meganii.com/blog/2012/04/03/1333406632/</link>
+      <pubDate>Tue, 03 Apr 2012 07:43:52 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/04/03/1333406632/</guid>
+      <description>Padrino - The Elegant Ruby Web Framework チュートリアルを参考にしながら、作ってみました。 このページを参考にしました。 Padrino - Basic Projects インストール gem install padrino プロジェクトの作成 padrino g project test_app -d datamapper -e haml -d ORMの選択 -e テンプレートエンジンの選択 作業ポイ</description>
+    </item>
+    
+  </channel>
+</rss>

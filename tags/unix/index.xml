@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>unix on SIS Lab</title>
+    <link>https://www.meganii.com/tags/unix/</link>
+    <description>Recent content in unix on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 25 Nov 2014 22:55:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/unix/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Macのsedで改行コードを出力させる 〜改行コードの違い再確認〜</title>
+      <link>https://www.meganii.com/blog/2014/11/25/sed-cr-lf/</link>
+      <pubDate>Tue, 25 Nov 2014 22:55:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/11/25/sed-cr-lf/</guid>
+      <description>&lt;p&gt;Octpressで各ブログ記事に利用していた`&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>abコマンド実行時のエラーを回避する</title>
+      <link>https://www.meganii.com/blog/2013/05/27/benchmark-apache/</link>
+      <pubDate>Mon, 27 May 2013 19:29:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/05/27/benchmark-apache/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;ab -c 10 -n 100 http://hostname.com/
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;ベンチマークを取ろうと、上記のようなabコマンドを実行すると、毎回怒られる。以下、エラー内容。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;This is ApacheBench, Version 2.3 &amp;lt;$Revision: 655654 $&amp;gt;
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking havelog.ayumusato.com (be patient)...Send request failed!
+apr_socket_recv: Connection reset by peer (54)
+Total of 1 requests completed
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

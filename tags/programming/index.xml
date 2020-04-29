@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on SIS Lab</title>
+    <link>https://www.meganii.com/tags/programming/</link>
+    <description>Recent content in Programming on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 22 Jan 2010 08:06:23 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scalaスケーラブルプログラミング</title>
+      <link>https://www.meganii.com/blog/2010/01/22/1264115183/</link>
+      <pubDate>Fri, 22 Jan 2010 08:06:23 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2010/01/22/1264115183/</guid>
+      <description>Amazonでチェックする -- 第１章〜第２章までざっと読んでみましたが、関数型プログラミングという概念にうまく適応出来ません。。。 for文にしても、 args.foreach(arg =&amp;gt; println(arg)) とか for (arg &amp;lt;- args) println(arg) とか見慣れない形が出てきて、混乱気</description>
+    </item>
+    
+    <item>
+      <title>Flexでウェブアルバムが作りたい！！(5)</title>
+      <link>https://www.meganii.com/blog/2010/01/20/1264003149/</link>
+      <pubDate>Wed, 20 Jan 2010 00:59:09 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2010/01/20/1264003149/</guid>
+      <description>user_idとapi_keyは各自のものに置き換えてください。そして、かなりコードはつぎはぎだらけで汚いですがなんとか動いています。なんとか試行錯誤していくうちに、 EventListenerの概念 デ</description>
+    </item>
+    
+    <item>
+      <title>mixiで全文検索するプログラムをRubyで作ってみた</title>
+      <link>https://www.meganii.com/blog/2009/07/29/1248835525/</link>
+      <pubDate>Wed, 29 Jul 2009 11:45:25 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/07/29/1248835525/</guid>
+      <description>基本的には、http://d.hatena.ne.jp/con_mame/20080726でのソースを参考にさせていただきました。ありがとうございます。 しかし、そのままでは、日記の本文を取得できなかっ</description>
+    </item>
+    
+    <item>
+      <title>ペアプログラミング</title>
+      <link>https://www.meganii.com/blog/2009/07/17/1247832093/</link>
+      <pubDate>Fri, 17 Jul 2009 21:01:33 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/07/17/1247832093/</guid>
+      <description>今日は、一日バイトでした。 バイト先ではいつも、HTMLしか触っていないのですが、今日はphpを使ったウェブサイト構築のお手伝いをさせてもらいました。 phpについては、まったくの無知でありましたので、手</description>
+    </item>
+    
+    <item>
+      <title>cutとsortをパイプで繋げる</title>
+      <link>https://www.meganii.com/blog/2009/07/12/1247390690/</link>
+      <pubDate>Sun, 12 Jul 2009 18:24:50 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/07/12/1247390690/</guid>
+      <description>for((i =0;i&amp;lt;30;i++)); do cut -d&amp;#34; &amp;#34; -f1,2 result$i.dat | sort -k 2 &amp;gt;sortOutputResult$i.dat; done cut -d&amp;quot; &amp;quot; -f1,2 result.dat これで 区切りを &amp;quot; &amp;quot; つまり空白にして、その上で 1と２の部分を切り出している。切り出した情報を -k キーを2にしてsortをかけている。 参考 以下のページを参考にさせていた</description>
+    </item>
+    
+    <item>
+      <title>シェルスプリクトのお勉強</title>
+      <link>https://www.meganii.com/blog/2009/06/22/1245684139/</link>
+      <pubDate>Mon, 22 Jun 2009 00:22:19 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/06/22/1245684139/</guid>
+      <description>for((i=0;i&amp;lt;5;i++));do java Ga_binary &amp;gt; R&amp;quot;$i&amp;quot;.dat;done シェルスクリプトの変数名には慣習的に大文字が使われることが多い。使い捨ての変数は小文字、それ以外は大文字を使用するのが、メジャーみたい。 これで、毎回処理が終わるまで待たなくても結果を得ること</description>
+    </item>
+    
+    <item>
+      <title>processingによる可視化</title>
+      <link>https://www.meganii.com/blog/2008/11/28/1227873393/</link>
+      <pubDate>Fri, 28 Nov 2008 20:56:33 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2008/11/28/1227873393/</guid>
+      <description>Simulation http://www7b.biglobe.ne.jp/meganii/java/simulation/index.html 今度の授業は、この前のjavaのモデリングをprocessingというプログラミング言語によって可視化するというもの。一つ一つの円は、要素の数を表し、円の大きさは、要素の数によって変動する。中盤か</description>
+    </item>
+    
+    <item>
+      <title>施設引き継ぎ資料</title>
+      <link>https://www.meganii.com/blog/2008/10/12/1223769776/</link>
+      <pubDate>Sun, 12 Oct 2008 09:02:56 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2008/10/12/1223769776/</guid>
+      <description>iMacrosのインストール iMacros for Firefox – Firefox 向けアドオン 定型作業を記録して再生できるFirefox拡張『iMacros』 | POP*POP マクロの記録 まず、ネットあいち施設予約システムへ行き、recordをクリックして、</description>
+    </item>
+    
+    <item>
+      <title>文系的IT業と理系的IT業</title>
+      <link>https://www.meganii.com/blog/2008/08/30/1220082592/</link>
+      <pubDate>Sat, 30 Aug 2008 16:49:52 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2008/08/30/1220082592/</guid>
+      <description>文系的IT業と理系的IT業 自分もこの著者同様に、理系・文系どっちつかずの人間であって、さらにIT業を目指している。だから、このページを見てふと気になった。 プログラミングにも理系的なプログラミングと文系</description>
+    </item>
+    
+    <item>
+      <title>プログラム</title>
+      <link>https://www.meganii.com/blog/2008/06/30/1214799304/</link>
+      <pubDate>Mon, 30 Jun 2008 13:15:04 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2008/06/30/1214799304/</guid>
+      <description>for (i=0; i&amp;lt;20; i++) { glColor3f(0.0, 0.7+0.5*i, 0.5); /* 色指定 */ glutSolidTorus(0.5+5.0*i, 0.9+5.0*i, 20, 20); /* トーラスを描画 */ } なんかブラックホールみたいだけど、自分でもどうなっているのか全然わからない・・・。 とりあえず、こんな路線で頑張ってみようかな。</description>
+    </item>
+    
+    <item>
+      <title>数理情報学４ pivot 枢軸選択つきガウスの消去法</title>
+      <link>https://www.meganii.com/blog/2008/06/06/1212759334/</link>
+      <pubDate>Fri, 06 Jun 2008 22:35:34 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2008/06/06/1212759334/</guid>
+      <description>#include #define N 4 main() { double a[N][N],b[N],ell,a_max; int pivot[N],i,j,k,m,m_opt,k_step_old; //初期設定 a[0][0]= 1.0; a[0][1]= 1.0; a[0][2]= 1.0; a[0][3]= 1.0; a[1][0]= 1.0; a[1][1]= 1.0; a[1][2]= 2.0; a[1][3]= 2.0; a[2][0]= 1.0; a[2][1]= 2.0; a[2][2]= -1.0; a[2][3]= 2.0; a[3][0]= 1.0; a[3][1]= 2.0; a[3][2]= 2.0; a[3][3]= -1.0; b[0]= 1.0; b[1]= 2.0; b[2]= 1.0; b[3]= 2.0; //仮のピボット選択 for(i=0;ia_max){ a_max = fabs(a[pivot[m]][k]); m_opt = m; } } /* m_opt != kのとき「k段のピポット」と「m_opt段の</description>
+    </item>
+    
+    <item>
+      <title>シュレディンガーの猫</title>
+      <link>https://www.meganii.com/blog/2008/06/03/1212449163/</link>
+      <pubDate>Tue, 03 Jun 2008 08:26:03 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2008/06/03/1212449163/</guid>
+      <description>最近プログラミングの授業で、物理や数学の話が出てくる。 そのどれもが聞いたことがあるだけで、全然理解できない。差分法、オイラー法 前進消去、後退消去 シュレディンガー方程式 http://hp.vector.co.jp/authors/VA011700/physics/catwjs.htm http://openblog.meblog.biz/article/117039.html http://d.hatena.ne.jp/fromdusktildawn/20060618/1150590590 固有値問題 etc.あぁ、もう</description>
+    </item>
+    
+    <item>
+      <title>Java 今の時間を表示させる</title>
+      <link>https://www.meganii.com/blog/2008/05/31/1212187128/</link>
+      <pubDate>Sat, 31 May 2008 07:38:48 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2008/05/31/1212187128/</guid>
+      <description>Java勉強中ですー。自分のためにちゅくちょく書いたコードをブログに載せていこうと思う。 第一弾 今の時間を表示させる import java.applet.*; import java.util.*; import java.awt.Button; import java.awt.event.*; import java.awt.Graphics; public class time extends Applet implements ActionListener{ Button b = new Button(&amp;#34;now time&amp;#34;); String moji; public void init(){ add(b); b.addActionListener(this); } public void actionPerformed(ActionEvent e){ moji = e.getActionCommand(); repaint(); } public void paint(Graphics</description>
+    </item>
+    
+  </channel>
+</rss>

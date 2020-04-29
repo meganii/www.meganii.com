@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MariaDB on SIS Lab</title>
+    <link>https://www.meganii.com/tags/mariadb/</link>
+    <description>Recent content in MariaDB on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 29 May 2016 15:55:28 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/mariadb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MariaDBの日本語文字化けを解消するための設定</title>
+      <link>https://www.meganii.com/blog/2016/05/29/mariadb-utf8/</link>
+      <pubDate>Sun, 29 May 2016 15:55:28 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/05/29/mariadb-utf8/</guid>
+      <description>Ruby on RailsからMariaDBを利用した時に、文字化けが発生したのでMariaDBの設定内容を見直した。 前提 MariaDBのバージョン Server version: 10.1.10-MariaDB MariaDB Server 文字化けする character_set_server, character_set_databa</description>
+    </item>
+    
+  </channel>
+</rss>

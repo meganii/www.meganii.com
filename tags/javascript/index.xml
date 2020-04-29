@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on SIS Lab</title>
+    <link>https://www.meganii.com/tags/javascript/</link>
+    <description>Recent content in JavaScript on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 17 Apr 2020 19:32:09 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bitlyでの短縮URL作成（v3からv4への移行）</title>
+      <link>https://www.meganii.com/blog/2020/04/17/bitly-api-migrating-from-v3/</link>
+      <pubDate>Fri, 17 Apr 2020 19:32:09 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/04/17/bitly-api-migrating-from-v3/</guid>
+      <description>&lt;p&gt;Bitly API v3までは以下の通り、access_tokenと共に短縮したいURLをリクエストパラメタに乗せて、GETリクエストを行う方法でした。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;https://api-ssl.bitly.com/v3/shorten?access_token=$apiKey&amp;amp;longUrl=hogehoge&#39;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;v4からはheaderに&lt;code&gt;Authorization: Bearer {token}&lt;/code&gt;を入れてPOSTリクエストをする必要があります。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.memory-lovers.blog/entry/2019/07/14/123000&#34;&gt;bitly APIで短縮URL(TwitterのURLバン対策 パート2) - くらげになりたい。&lt;/a&gt;を参考にさせていただき、v3からv4へ移行しました。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>HugoでAMP対応のブログカードを作る</title>
+      <link>https://www.meganii.com/blog/2020/02/02/blogcard-in-hugo/</link>
+      <pubDate>Sun, 02 Feb 2020 22:25:06 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/02/02/blogcard-in-hugo/</guid>
+      <description>&lt;p&gt;「Hugoでもブログカードを利用したい」&lt;/p&gt;
+&lt;p&gt;そう考えているところに以下の記事がTwitterのTLで流れてきたので、試してみました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://nasust.com/hugo/shortcode/blogcard/&#34;&gt;Hugoでブログカードに対応する | Hugo 入門 / 解説 | nasust dev blog&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SendGridのInbound Parseでメール受信をトリガーに処理を実行する</title>
+      <link>https://www.meganii.com/blog/2017/11/19/sendgrid-inbound-parse/</link>
+      <pubDate>Sun, 19 Nov 2017 06:22:24 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/11/19/sendgrid-inbound-parse/</guid>
+      <description>&lt;p&gt;「メール受信をトリガーになんらかの操作をしたい」ときに調べたときの調査結果&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hubotで外部コマンドを実行する</title>
+      <link>https://www.meganii.com/blog/2016/09/03/hubot-execute-command-child-process/</link>
+      <pubDate>Sat, 03 Sep 2016 09:53:38 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/09/03/hubot-execute-command-child-process/</guid>
+      <description>Node.jsで外部コマンドを実行するために、Child Processを利用する。 Child Process | Node.js v6.5.0 Documentation const exec = require(&amp;#39;child_process&amp;#39;).exec; exec(&amp;#39;cat *.js bad_file | wc -l&amp;#39;, (error, stdout, stderr) =&amp;gt; { if (error) { console.error(`exec error: ${error}`); return; } console.log(`stdout: ${stdout}`); console.log(`stderr: ${stderr}`); }); Hubotの例 child_process = require &amp;#39;child_process&amp;#39; module.exports = (robot) -&amp;gt; robot.hear /ruby/i, (res) -&amp;gt; child_process.exec &amp;#34;ruby -v&amp;#34;, (error, stdout, stderr)</description>
+    </item>
+    
+    <item>
+      <title>AceエディタをElectronに組み込む</title>
+      <link>https://www.meganii.com/blog/2016/08/28/electron-ace-markdown-editor/</link>
+      <pubDate>Sun, 28 Aug 2016 09:02:38 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/08/28/electron-ace-markdown-editor/</guid>
+      <description>&lt;figure&gt;
+  &lt;amp-img src=&#34;
+  https://farm9.staticflickr.com/8537/29243326176_ea1c871651_z.jpg&#34; alt=&#34;AceエディタをElectronに組み込む https://farm9.staticflickr.com/8537/29243326176_ea1c871651_z.jpg&#34; width=640 height=428 layout=responsive&gt;&lt;/amp-img&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>React &#43; ElectronでFlickr連携可能なMarkdown Editorを作った</title>
+      <link>https://www.meganii.com/blog/2016/08/24/react-flickr-markdown-editor/</link>
+      <pubDate>Wed, 24 Aug 2016 21:21:06 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/08/24/react-flickr-markdown-editor/</guid>
+      <description>&lt;figure&gt;
+  &lt;amp-img src=&#34;
+  https://farm9.staticflickr.com/8455/29165784116_9084f95502_z.jpg&#34; alt=&#34;React &amp;#43; ElectronでFlickr連携可能なMarkdown Editorを作った https://farm9.staticflickr.com/8455/29165784116_9084f95502_z.jpg&#34; width=3 height=2 layout=responsive&gt;&lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/&#34;&gt;Electron + Mithril.jsでFlickrアプリを作成する - SIS Lab&lt;/a&gt;で、自分専用のMarkdown-Editorを作りたいと思っていたので、今回Reactの勉強も兼ねて、Flickr連携できるMarkdown Editorを作成しました。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;最終的には、自分専用Markdownデスクトップアプリを、Electronで作成することが目標だ。Kobitoは便利で使ってるのだけど、そのままEvernoteに連携して欲しかったり、リンク作成の機能がまとまってると嬉しい。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;実装したい機能は、こんな感じ。Kobitoをベースに自分専用の機能を盛り込みたい。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Markdownエディター(オートプレビュー)
+Flickr連携(アップロード、リンク作成)
+Evernote連携(自動保存)
+Amazonリンク作成
+ASP一括検索
+git pushでブログデプロイ&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Electronがv1.0.0になったのでMithril.jsと合わせてAmazonアフィリエイトリンクビルダーを作った</title>
+      <link>https://www.meganii.com/blog/2016/05/11/electron-mithril-amazon-linkbuilder/</link>
+      <pubDate>Wed, 11 May 2016 22:05:30 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/05/11/electron-mithril-amazon-linkbuilder/</guid>
+      <description>ElectronがElectron 1.0になったということで、以前作ったAmazon LinkbuilderをMithril.jsで置き換えてみました。(Electron v1.0.0がなったことはあまり</description>
+    </item>
+    
+    <item>
+      <title>ElectronでAmazonアフィリエイトリンクビルダーを作った</title>
+      <link>https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/</link>
+      <pubDate>Sat, 20 Feb 2016 17:51:18 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.meganii.com/blog/2016/01/25/electron-tutorial/&#34;&gt;Electronでデスクトップアプリ作成&lt;/a&gt;に引き続き、Amazonアフィリエイトリンクビルダーのデスクトップアプリを作った。&lt;/p&gt;
+&lt;h2 id=&#34;動機&#34;&gt;動機&lt;/h2&gt;
+&lt;p&gt;Amazonのアフィリエイトリンクビルダーには、ヨメレバ、カエレバのようなブックマークレットもあるが、現時点でAmazonのリンクがhttpsに対応していないため、せっかくhttps化をしてもchromeのURLバーが緑色にならない。&lt;a href=&#34;https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/&#34;&gt;Lets&amp;rsquo;s Encryptでブログの常時SSL化にチャレンジ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;これは困るということで、せっかくなのでElectronでデスクトップアプリを作ってみた。&lt;/p&gt;
+&lt;p&gt;React.jsとか使ってオシャレに作りたかったのだけど、JavaScript初心者にはまずそもそも素のJavaScriptが何をしているのかがわかってなかったので、一度愚直に作った。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>D3.jsで東京の地価データを可視化する</title>
+      <link>https://www.meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/</link>
+      <pubDate>Sun, 07 Feb 2016 19:42:50 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/02/07/d3js-tokyo-landprice-heatmap/</guid>
+      <description>&lt;figure&gt;
+  &lt;amp-img src=&#34;
+  https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg&#34; alt=&#34;D3.jsで東京の地価データを可視化する https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg&#34; width=640 height=404 layout=responsive&gt;&lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.meganii.com/blog/2016/02/06/d3js-tutorial/&#34;&gt;D3.js tutorial | SIS lab&lt;/a&gt;で、一通りD3.jsのイメージを掴みつつ、東京の地価データの可視化に挑戦する。方法については、下記のページを参考にした。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kshigeru.blogspot.jp/2013/07/tokyo-landprice.html&#34;&gt;Ars longa, vita brevis: 東京の地価公示データを眺める&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Ninjaの極意 「関数の呼び出し」</title>
+      <link>https://www.meganii.com/blog/2016/02/07/javascript-ninja/</link>
+      <pubDate>Sun, 07 Feb 2016 12:42:51 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/02/07/javascript-ninja/</guid>
+      <description>&lt;h2 id=&#34;関数の呼び出し&#34;&gt;関数の呼び出し&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;関数として呼び出す&lt;/li&gt;
+&lt;li&gt;メソッドとして呼び出す&lt;/li&gt;
+&lt;li&gt;コンストラクタとして呼び出す&lt;/li&gt;
+&lt;li&gt;関数のapplay()またはcall()メソッドを介して呼び出す&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>D3.jsチュートリアル</title>
+      <link>https://www.meganii.com/blog/2016/02/06/d3js-tutorial/</link>
+      <pubDate>Sat, 06 Feb 2016 12:46:18 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/02/06/d3js-tutorial/</guid>
+      <description>&lt;p&gt;以前から着手してみたかったD3.jsによる可視化の方法を学ぶために、ドットインストールにちょうど良い教材があったためそれを見ながら、確認していく。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://dotinstall.com/lessons/basic_d3js&#34;&gt;D3.js入門 (全17回) - プログラミングならドットインストール&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nightmare.jsでAmazonアフィリエイトのレポートを取得する</title>
+      <link>https://www.meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/</link>
+      <pubDate>Mon, 01 Feb 2016 22:52:47 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://amzn.to/2OjNtaz&#34;&gt;次の本&lt;/a&gt;を読み進めることで、&lt;code&gt;Ruby&lt;/code&gt;のライブラリである&lt;code&gt;Capybara&lt;/code&gt;, &lt;code&gt;Poltergeist&lt;/code&gt;を利用してスクレイピングを行うことができました。&lt;code&gt;Poltergeist&lt;/code&gt;は&lt;code&gt;PhantomJS&lt;/code&gt;というHeadless Browserを操作するための&lt;code&gt;Capybara&lt;/code&gt;用Driverです。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;PhantomJS&lt;/code&gt;は&lt;code&gt;JavaScript&lt;/code&gt;ライブラリということで、&lt;code&gt;JavaScript&lt;/code&gt;から&lt;code&gt;PhantomJS&lt;/code&gt;を操作するにはどのような方法があるのか調べてみました。これを機会に&lt;code&gt;JavaScript&lt;/code&gt;を書けるようになりたい。&lt;/p&gt;
+&lt;div class=&#34;embed&#34;&gt;
+  &lt;div class=&#34;rf&#34;&gt;
+    &lt;div class=&#34;rr&#34;&gt;
+      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
+        &lt;a href=&#34;&#34;&gt;
+          &lt;div&gt;
+            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
+          &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
+        &lt;div class=&#34;rf&#34;&gt;
+          &lt;div class=&#34;rr&#34;&gt;
+            &lt;div class=&#34;rcx12 body&#34;&gt;
+              &lt;a class=&#34;utdn&#34; 
+                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;rcm12 hx&#34;&gt;
+              &lt;div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;rr&#34;&gt;
+      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
+        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt; --&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Effective JavaScript]クロージャ</title>
+      <link>https://www.meganii.com/blog/2016/01/30/effective-javascript-closure/</link>
+      <pubDate>Sat, 30 Jan 2016 16:14:46 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/01/30/effective-javascript-closure/</guid>
+      <description>Amazonでチェックする -- いい加減、JavaScriptも使えるようになっておきたいので、お勉強。やっぱりよく分からないクロージャについて。 項目１１ クロージャと仲良くしよう ポイント１ JavaScri</description>
+    </item>
+    
+    <item>
+      <title>[コツコツ勉強]よくわからないままJavaScriptを使っている自分へ</title>
+      <link>https://www.meganii.com/blog/2014/11/28/javascript/</link>
+      <pubDate>Fri, 28 Nov 2014 23:32:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/11/28/javascript/</guid>
+      <description>jQuery、AngularJSとかサンプルを触ってみるけど、いまいちJavaScript自身がわかっていないので全然ピンと来ないので、巷でうわさの「サイ本」を読んでみる。 Amazonでチェックする --</description>
+    </item>
+    
+  </channel>
+</rss>

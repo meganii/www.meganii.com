@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DB on SIS Lab</title>
+    <link>https://www.meganii.com/tags/db/</link>
+    <description>Recent content in DB on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 29 May 2016 15:55:28 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/db/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MariaDBの日本語文字化けを解消するための設定</title>
+      <link>https://www.meganii.com/blog/2016/05/29/mariadb-utf8/</link>
+      <pubDate>Sun, 29 May 2016 15:55:28 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/05/29/mariadb-utf8/</guid>
+      <description>Ruby on RailsからMariaDBを利用した時に、文字化けが発生したのでMariaDBの設定内容を見直した。 前提 MariaDBのバージョン Server version: 10.1.10-MariaDB MariaDB Server 文字化けする character_set_server, character_set_databa</description>
+    </item>
+    
+    <item>
+      <title>正規化とは何か？</title>
+      <link>https://www.meganii.com/blog/2015/08/07/normalization/</link>
+      <pubDate>Fri, 07 Aug 2015 08:46:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2015/08/07/normalization/</guid>
+      <description>達人に学ぶDB設計を読んだときのメモ。 第１正規形 スカラ値(Scalar value) 「１つのセルの中には１つの値しか含まない」 関数従属性(functional dependency) Y = f(X) : 入力Xに対して出力Yを決めるための式 このとき</description>
+    </item>
+    
+    <item>
+      <title>[SQL実践入門]内部結合と外部結合のイメージ</title>
+      <link>https://www.meganii.com/blog/2015/06/10/inner-join-outer-join/</link>
+      <pubDate>Wed, 10 Jun 2015 07:58:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2015/06/10/inner-join-outer-join/</guid>
+      <description>内部結合と外部結合の「内部」と「外部」はどこから来ているのかクロス結合を元に説明している箇所を抜き出してまとめる。 Amazonでチェックする -- クロス結合(Cross Join) すべての結合の母体 数学的には、直積</description>
+    </item>
+    
+    <item>
+      <title>[SQL実践入門]結合のアルゴリズム Nested Loops, Hash, Sort Merge</title>
+      <link>https://www.meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/</link>
+      <pubDate>Mon, 01 Jun 2015 00:48:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/</guid>
+      <description>データベースの結合のイメージがいまいち掴めていなかったため、「SQL実践入門」を読んで、結合のアルゴリズムをまとめておく。 Amazonでチェックする -- 結合の種類 結合の種類としては、以下の3種類が存在す</description>
+    </item>
+    
+    <item>
+      <title>達人に学ぶSQL, DB設計をぽちった</title>
+      <link>https://www.meganii.com/blog/2014/12/24/kindle-db-sql/</link>
+      <pubDate>Wed, 24 Dec 2014 23:34:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/12/24/kindle-db-sql/</guid>
+      <description>Kindleで安くなってたので、勢いでポチった。 SQL周り、モデリング周りの理論武装しておきたいと思って買った2冊。 Amazonでチェックする -- Amazonでチェックする -- ちょっとずつ、読み進めていき</description>
+    </item>
+    
+    <item>
+      <title>索引設計についてのまとめ</title>
+      <link>https://www.meganii.com/blog/2013/10/02/index/</link>
+      <pubDate>Wed, 02 Oct 2013 21:45:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/10/02/index/</guid>
+      <description>&lt;p&gt;DBMSにおいて、索引（インデックス）が重要なことは認識している。
+しかし、次の点の理解が浅かったため、参考図書・参考URLを元に索引設計の心得をまとめておく。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;そもそもどんな索引にはどんな種類があるのか&lt;/li&gt;
+&lt;li&gt;どんな場合に索引をつければよいのか&lt;/li&gt;
+&lt;li&gt;索引をつけた場合のデメリットにはどんなものがあるのか&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

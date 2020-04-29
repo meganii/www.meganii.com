@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>索引設計 on SIS Lab</title>
+    <link>https://www.meganii.com/tags/%E7%B4%A2%E5%BC%95%E8%A8%AD%E8%A8%88/</link>
+    <description>Recent content in 索引設計 on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 02 Oct 2013 21:45:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/%E7%B4%A2%E5%BC%95%E8%A8%AD%E8%A8%88/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>索引設計についてのまとめ</title>
+      <link>https://www.meganii.com/blog/2013/10/02/index/</link>
+      <pubDate>Wed, 02 Oct 2013 21:45:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/10/02/index/</guid>
+      <description>&lt;p&gt;DBMSにおいて、索引（インデックス）が重要なことは認識している。
+しかし、次の点の理解が浅かったため、参考図書・参考URLを元に索引設計の心得をまとめておく。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;そもそもどんな索引にはどんな種類があるのか&lt;/li&gt;
+&lt;li&gt;どんな場合に索引をつければよいのか&lt;/li&gt;
+&lt;li&gt;索引をつけた場合のデメリットにはどんなものがあるのか&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

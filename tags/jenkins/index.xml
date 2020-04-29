@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jenkins on SIS Lab</title>
+    <link>https://www.meganii.com/tags/jenkins/</link>
+    <description>Recent content in jenkins on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 11 Apr 2013 00:08:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>さくらVPSにJenkinsインストール</title>
+      <link>https://www.meganii.com/blog/2013/04/11/jenkins/</link>
+      <pubDate>Thu, 11 Apr 2013 00:08:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/04/11/jenkins/</guid>
+      <description>Jenkinsで定期実行するJobを管理したほうが良い３つの理由｜Pimp my Code. @wataru420定期実行させるJobを無理矢理作って、Jenkinsを触ってみる。 今までCronで動かしていた天気Bo</description>
+    </item>
+    
+  </channel>
+</rss>

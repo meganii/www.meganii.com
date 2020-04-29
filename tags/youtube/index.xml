@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>youtube on SIS Lab</title>
+    <link>https://www.meganii.com/tags/youtube/</link>
+    <description>Recent content in youtube on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 03 Sep 2014 23:26:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>YouTube埋め込みタグをレスポンシブ化する</title>
+      <link>https://www.meganii.com/blog/2014/09/03/youtube-responsive/</link>
+      <pubDate>Wed, 03 Sep 2014 23:26:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/09/03/youtube-responsive/</guid>
+      <description>せっかくのレスポンシブデザインなので、YouTubeの埋め込みもレスポンシブ化してみた。 main.css .youtubeWrapper{ position: relative ; margin-top: 1.2em ; margin-bottom: 1.2em ; padding-top: 69px ; padding-bottom: 50% ; overflow: hidden ; } .youtubeWrapper iframe { position: absolute ; top: 0 ; left: 0 ; height: 100% ; width: 100% ; } default.html &amp;lt;div class=&amp;quot;youtubeWrapper&amp;quot;&amp;gt; &amp;lt;iframe width=&amp;quot;560&amp;quot; height=&amp;quot;315&amp;quot; src=&amp;quot;//www.youtube.com/embed/PRI0bA5VSL8&amp;quot; frameborder=&amp;quot;0&amp;quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt; &amp;lt;/div&amp;gt; 以下は、レス</description>
+    </item>
+    
+  </channel>
+</rss>

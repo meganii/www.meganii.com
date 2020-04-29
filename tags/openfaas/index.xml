@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenFaaS on SIS Lab</title>
+    <link>https://www.meganii.com/tags/openfaas/</link>
+    <description>Recent content in OpenFaaS on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 02 May 2018 10:02:29 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/openfaas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Basic Auth with OpenFaaS</title>
+      <link>https://www.meganii.com/blog/2018/05/02/basic-auth-with-openfaas/</link>
+      <pubDate>Wed, 02 May 2018 10:02:29 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/05/02/basic-auth-with-openfaas/</guid>
+      <description>&lt;p&gt;OpenFaaS環境を導入できたはよいものの、インターネット上に素の状態で晒されるのはちょっと怖いので、認証方法を確認する。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.alexellis.io/lock-down-openfaas/&#34;&gt;Lock-down OpenFaaS for the public Internet&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

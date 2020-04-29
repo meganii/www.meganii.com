@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>さくらVPS on SIS Lab</title>
+    <link>https://www.meganii.com/tags/%E3%81%95%E3%81%8F%E3%82%89vps/</link>
+    <description>Recent content in さくらVPS on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 02 Mar 2015 07:31:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/%E3%81%95%E3%81%8F%E3%82%89vps/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AnsibleでさくらVPSの初期設定</title>
+      <link>https://www.meganii.com/blog/2015/03/02/ansible-sakura-vps/</link>
+      <pubDate>Mon, 02 Mar 2015 07:31:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2015/03/02/ansible-sakura-vps/</guid>
+      <description>行き当たりばったりで、設定を繰り返してきた、さくらのVPS。 いい加減、自動化したいと思い、CentOSを初期化して、Ansibleで初期設定をしていきます。 方針 rootでの初期設定 nginxの設定 ro</description>
+    </item>
+    
+    <item>
+      <title>2台目のMacBookAirからさくらVPSへSSH接続を行うための鍵の設定</title>
+      <link>https://www.meganii.com/blog/2013/06/21/ssh-sakuravps/</link>
+      <pubDate>Fri, 21 Jun 2013 21:16:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2013/06/21/ssh-sakuravps/</guid>
+      <description>新しくMacBookAirを買ったので、さくらVPSへSSH接続を行うための鍵の設定。 念願のAir!! MacBookAir Mid 2013買いました - SIS Lab su vim /etc/ssh/sshd_config パスワードによるログインを許可する PasswordAuthentication yes 設定を変えたら、sshdを</description>
+    </item>
+    
+    <item>
+      <title>さくらVPSの設定メモ書き</title>
+      <link>https://www.meganii.com/blog/2012/05/07/1336405413/</link>
+      <pubDate>Mon, 07 May 2012 00:43:33 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/05/07/1336405413/</guid>
+      <description>以下を参考に、さくらVPSを設定する。 1,000円を切る低価格で登場、「さくらのVPS」をチェック――サーバー構築編 - SourceForge.JP Magazine : オープンソースの話題満載 １．リモートコンソールからログイン rootからログイ</description>
+    </item>
+    
+  </channel>
+</rss>

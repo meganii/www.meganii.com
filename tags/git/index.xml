@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on SIS Lab</title>
+    <link>https://www.meganii.com/tags/git/</link>
+    <description>Recent content in git on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 22 Dec 2018 10:44:01 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[デブサミ2018夏]富士フイルムソフトウエアはいかにして旧開発手法を捨ててGitHub Enterpriseを愛するようになったのか</title>
+      <link>https://www.meganii.com/blog/2018/07/27/developers-summit-2018-summer-github-enterprise/</link>
+      <pubDate>Fri, 27 Jul 2018 14:03:21 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/07/27/developers-summit-2018-summer-github-enterprise/</guid>
+      <description>&lt;h2 id=&#34;導入経緯&#34;&gt;導入経緯&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;課題 デバイスが異なり、開発プラットフォームが異なる&lt;/li&gt;
+&lt;li&gt;クロスプラットフォーム開発を目指した&lt;/li&gt;
+&lt;li&gt;計画
+&lt;ul&gt;
+&lt;li&gt;マージ作業が大幅なコスト&lt;/li&gt;
+&lt;li&gt;SVNのブランチ状態は混沌&lt;/li&gt;
+&lt;li&gt;trunk, trunk2, trunk3 &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;開発環境もリファクタリングできるチャンスGitHubを導入したい&lt;/li&gt;
+&lt;li&gt;期待した効果
+&lt;ul&gt;
+&lt;li&gt;マージコスト&lt;/li&gt;
+&lt;li&gt;コードレビュー&lt;/li&gt;
+&lt;li&gt;CI, 課題管理ツールとの連携&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugoのテーマでsubmoduleを使う方法</title>
+      <link>https://www.meganii.com/blog/2018/07/11/how-to-use-submodule-for-hugo-theme/</link>
+      <pubDate>Wed, 11 Jul 2018 21:25:48 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/07/11/how-to-use-submodule-for-hugo-theme/</guid>
+      <description>&lt;p&gt;HugoのThemeプロジェクトを&lt;code&gt;git submodule&lt;/code&gt;で扱う方法について調べました。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
