@@ -1,40 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>GitLab on SIS Lab</title>
-    <link>https://www.meganii.com/tags/gitlab/</link>
-    <description>Recent content in GitLab on SIS Lab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
-    <lastBuildDate>Sat, 22 Dec 2018 10:44:01 +0900</lastBuildDate>
-    
-	<atom:link href="https://www.meganii.com/tags/gitlab/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>「GitLab Meetup Tokyo #12： 2018年振り返り」に参加しました</title>
-      <link>https://www.meganii.com/blog/2018/12/22/gitlab-meetup-tokyo-number-12/</link>
-      <pubDate>Sat, 22 Dec 2018 10:44:01 +0900</pubDate>
-      
-      <guid>https://www.meganii.com/blog/2018/12/22/gitlab-meetup-tokyo-number-12/</guid>
-      <description>&lt;div class=&#34;&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1545443513/2018-12-22-gitlab-meetup-tokyo_xy7flc.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/2018-12-22-gitlab-meetup-tokyo_xy7flc.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/2018-12-22-gitlab-meetup-tokyo_xy7flc.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/2018-12-22-gitlab-meetup-tokyo_xy7flc.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/2018-12-22-gitlab-meetup-tokyo_xy7flc.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/2018-12-22-gitlab-meetup-tokyo_xy7flc.png 320w&#34;
-        width=&#34;670&#34;
-        height=&#34;384&#34;
-        heights=&#34;(min-width:640px) 400px, 100%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;「GitLab Meetup Tokyo #12： 2018年振り返り」に参加しました&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;https://gitlab-jp.connpass.com/event/111427/&#34;&gt;GitLab Meetup Tokyo #12: 2018年振り返り - connpass&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;12月20日(木)に、「GitLab Meetup Tokyo #12: 2018年振り返り」に参加してきました。SNSシェア/ブログ枠で申し込んだため、感じたこと得たことを残しておきます。&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GitLab on SIS Lab</title><link>https://www.meganii.com/tags/gitlab/</link><description>Recent content in GitLab on SIS Lab</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sat, 22 Dec 2018 10:44:01 +0900</lastBuildDate><atom:link href="https://www.meganii.com/tags/gitlab/index.xml" rel="self" type="application/rss+xml"/><item><title>「GitLab Meetup Tokyo #12： 2018年振り返り」に参加しました</title><link>https://www.meganii.com/blog/2018/12/22/gitlab-meetup-tokyo-number-12/</link><pubDate>Sat, 22 Dec 2018 10:44:01 +0900</pubDate><guid>https://www.meganii.com/blog/2018/12/22/gitlab-meetup-tokyo-number-12/</guid><description>&lt;div class="">
+&lt;amp-img class="contain"
+src="https://res.cloudinary.com/meganii/image/upload/v1545443513/2018-12-22-gitlab-meetup-tokyo_xy7flc.png"
+srcset="https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/2018-12-22-gitlab-meetup-tokyo_xy7flc.png 1024w,
+https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/2018-12-22-gitlab-meetup-tokyo_xy7flc.png 864w,
+https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/2018-12-22-gitlab-meetup-tokyo_xy7flc.png 640w,
+https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/2018-12-22-gitlab-meetup-tokyo_xy7flc.png 400w,
+https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/2018-12-22-gitlab-meetup-tokyo_xy7flc.png 320w"
+width="670"
+height="384"
+heights="(min-width:640px) 400px, 100%"
+layout="responsive"
+alt="「GitLab Meetup Tokyo #12： 2018年振り返り」に参加しました">
+&lt;/amp-img>
+&lt;/div>
+&lt;p>&lt;a href="https://gitlab-jp.connpass.com/event/111427/">GitLab Meetup Tokyo #12: 2018年振り返り - connpass&lt;/a>&lt;/p>
+&lt;p>12月20日(木)に、「GitLab Meetup Tokyo #12: 2018年振り返り」に参加してきました。SNSシェア/ブログ枠で申し込んだため、感じたこと得たことを残しておきます。&lt;/p></description></item></channel></rss>

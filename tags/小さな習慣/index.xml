@@ -1,116 +1,84 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>小さな習慣 on SIS Lab</title>
-    <link>https://www.meganii.com/tags/%E5%B0%8F%E3%81%95%E3%81%AA%E7%BF%92%E6%85%A3/</link>
-    <description>Recent content in 小さな習慣 on SIS Lab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
-    <lastBuildDate>Tue, 31 Mar 2020 21:00:52 +0900</lastBuildDate>
-    
-	<atom:link href="https://www.meganii.com/tags/%E5%B0%8F%E3%81%95%E3%81%AA%E7%BF%92%E6%85%A3/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>小さな習慣・アウトプット駆動生活〜ブログメンタリングのふりかえり〜</title>
-      <link>https://www.meganii.com/blog/2020/03/31/reflections-on-blog-mentoring/</link>
-      <pubDate>Tue, 31 Mar 2020 21:00:52 +0900</pubDate>
-      
-      <guid>https://www.meganii.com/blog/2020/03/31/reflections-on-blog-mentoring/</guid>
-      <description>&lt;div class=&#34;&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring_j15qwo.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/blog-mentoring_j15qwo.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/blog-mentoring_j15qwo.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/blog-mentoring_j15qwo.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/blog-mentoring_j15qwo.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/blog-mentoring_j15qwo.png 320w&#34;
-        width=&#34;1024&#34;
-        height=&#34;512&#34;
-        heights=&#34;(min-width:640px) 400px, 100%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;小さな習慣・アウトプット駆動生活〜ブログメンタリングのふりかえり〜&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
-&lt;p&gt;2019/12月〜2020/2月の期間で&lt;a href=&#34;https://twitter.com/kakakakakku&#34;&gt;@kakakakakku&lt;/a&gt;さんのブログメンタリングを受けて、「ブログを毎週1記事必ず書く」という目標にチャレンジしました。結果としては、&lt;a href=&#34;https://twitter.com/kakakakakku&#34;&gt;@kakakakakku&lt;/a&gt;さんのサポートもあり3か月間毎週1記事以上書くことができ、目標を達成しました。&lt;/p&gt;
-&lt;p&gt;同じ期間でTableauの「DATA Saber認定制度」も同時並行で進めていたので、図らずとも「学んだことをブログに書く」という相乗効果を得ることができました。&lt;/p&gt;
-&lt;p&gt;ブログメンタリングの志望動機、流れ、成果、学んだことをふりかえります。&lt;/p&gt;
-&lt;aside&gt;
-    &lt;div class=&#34;toc&#34;&gt;
-    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
-    &lt;nav id=&#34;TableOfContents&#34;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#ブログメンタリングとは&#34;&gt;ブログメンタリングとは&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#ブログメンタリングの志望動機&#34;&gt;ブログメンタリングの志望動機&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#ブログメンタリングの流れ&#34;&gt;ブログメンタリングの流れ&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#ブログメンタリングの成果&#34;&gt;ブログメンタリングの成果&lt;/a&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#定量的評価&#34;&gt;定量的評価&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#定性的評価&#34;&gt;定性的評価&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#ブログメンタリングを通じて学んだこと&#34;&gt;ブログメンタリングを通じて学んだこと&lt;/a&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#1-平日記事を公開することの大切さ&#34;&gt;1. 平日記事を公開することの大切さ&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#2-hugoテンプレートデザインの作り込みの甘さ&#34;&gt;2. Hugoテンプレートデザインの作り込みの甘さ&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#3-書評記事の書き方&#34;&gt;3. 書評記事の書き方&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#4-イベント参加レポートのタイトルやtwitterでの投稿内容&#34;&gt;4. イベント参加レポートのタイトルやTwitterでの投稿内容&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#5-結論書ける&#34;&gt;5. 結論「書ける」&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;
-    &lt;/div&gt;
-&lt;/aside&gt;</description>
-    </item>
-    
-    <item>
-      <title>モチベーションに頼らない習慣化 /「小さな習慣」</title>
-      <link>https://www.meganii.com/blog/2019/12/16/mini-habits-smaller-habits-bigger-results/</link>
-      <pubDate>Mon, 16 Dec 2019 05:48:56 +0900</pubDate>
-      
-      <guid>https://www.meganii.com/blog/2019/12/16/mini-habits-smaller-habits-bigger-results/</guid>
-      <description>&lt;p&gt;2019年12月から&lt;a href=&#34;https://twitter.com/kakakakakku&#34;&gt;@kakakakakku&lt;/a&gt;さんのブログメンタリングを受けており、次の書籍をおすすめされたので読んで、その内容をまとめてみる。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://kakakakakku.hatenablog.com/entry/2018/08/19/134518&#34;&gt;小さすぎて失敗すらできないステップを毎日繰り返そう /「小さな習慣」を読んだ - kakakakakku blog&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;embed&#34;&gt;
-  &lt;div class=&#34;rf&#34;&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
-        &lt;a href=&#34;&#34;&gt;
-          &lt;div&gt;
-            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
-          &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
-        &lt;div class=&#34;rf&#34;&gt;
-          &lt;div class=&#34;rr&#34;&gt;
-            &lt;div class=&#34;rcx12 body&#34;&gt;
-              &lt;a class=&#34;utdn&#34; 
-                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;rcm12 hx&#34;&gt;
-              &lt;div&gt;&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
-        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt; --&gt;
-&lt;h1 id=&#34;本書から何を得たいか&#34;&gt;本書から何を得たいか&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;「小さな習慣」とはどういったものか&lt;/li&gt;
-&lt;li&gt;「習慣化」はどうやって行えばよいのか&lt;/li&gt;
-&lt;li&gt;タスク管理をする際の粒度のヒント&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>小さな習慣 on SIS Lab</title><link>https://www.meganii.com/tags/%E5%B0%8F%E3%81%95%E3%81%AA%E7%BF%92%E6%85%A3/</link><description>Recent content in 小さな習慣 on SIS Lab</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Tue, 31 Mar 2020 21:00:52 +0900</lastBuildDate><atom:link href="https://www.meganii.com/tags/%E5%B0%8F%E3%81%95%E3%81%AA%E7%BF%92%E6%85%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>小さな習慣・アウトプット駆動生活〜ブログメンタリングのふりかえり〜</title><link>https://www.meganii.com/blog/2020/03/31/reflections-on-blog-mentoring/</link><pubDate>Tue, 31 Mar 2020 21:00:52 +0900</pubDate><guid>https://www.meganii.com/blog/2020/03/31/reflections-on-blog-mentoring/</guid><description>&lt;div class="">
+&lt;amp-img class="contain"
+src="https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring_j15qwo.png"
+srcset="https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/blog-mentoring_j15qwo.png 1024w,
+https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/blog-mentoring_j15qwo.png 864w,
+https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/blog-mentoring_j15qwo.png 640w,
+https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/blog-mentoring_j15qwo.png 400w,
+https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/blog-mentoring_j15qwo.png 320w"
+width="1024"
+height="512"
+heights="(min-width:640px) 400px, 100%"
+layout="responsive"
+alt="小さな習慣・アウトプット駆動生活〜ブログメンタリングのふりかえり〜">
+&lt;/amp-img>
+&lt;/div>
+&lt;p>2019/12月〜2020/2月の期間で&lt;a href="https://twitter.com/kakakakakku">@kakakakakku&lt;/a>さんのブログメンタリングを受けて、「ブログを毎週1記事必ず書く」という目標にチャレンジしました。結果としては、&lt;a href="https://twitter.com/kakakakakku">@kakakakakku&lt;/a>さんのサポートもあり3か月間毎週1記事以上書くことができ、目標を達成しました。&lt;/p>
+&lt;p>同じ期間でTableauの「DATA Saber認定制度」も同時並行で進めていたので、図らずとも「学んだことをブログに書く」という相乗効果を得ることができました。&lt;/p>
+&lt;p>&lt;/p>
+&lt;div class="border border-grey-light rounded my-2">
+&lt;div class="flex mx-12 p-3">
+&lt;div class="w-4/5">
+&lt;a class="block" href="https://www.meganii.com/blog/2020/03/23/a-look-back-at-the-data-saber-certification-program/">&lt;strong>「DATA Saber認定制度」のふりかえり - SIS Lab&lt;/strong>&lt;/a>
+&lt;span class="text-sm"> 2019/12/16-2020/3/15の期間で「DATA Saber認定制度」にチャレンジし、2020/3/13の最終技術試験・口頭試問を経て、「DATA Saber」として認定をいただきまし …&lt;/span>
+&lt;/div>
+&lt;div class="ml-4">
+&lt;a href="https://www.meganii.com/blog/2020/03/23/a-look-back-at-the-data-saber-certification-program/">
+&lt;div>
+&lt;amp-img class="" src="https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v1584785388/datasaber_y5ziiu.png"
+alt="「DATA Saber認定制度」のふりかえり - SIS Lab" width="75" height="75" layout="fixed">&lt;/amp-img>
+&lt;/div>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>ブログメンタリングの志望動機、流れ、成果、学んだことをふりかえります。&lt;/p>
+&lt;aside>
+&lt;div class="toc">
+&lt;header>&lt;h2 class="">目次&lt;/h2>&lt;/header>
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#ブログメンタリングとは">ブログメンタリングとは&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#ブログメンタリングの志望動機">ブログメンタリングの志望動機&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#ブログメンタリングの流れ">ブログメンタリングの流れ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#ブログメンタリングの成果">ブログメンタリングの成果&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#定量的評価">定量的評価&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#定性的評価">定性的評価&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#ブログメンタリングを通じて学んだこと">ブログメンタリングを通じて学んだこと&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#1-平日記事を公開することの大切さ">1. 平日記事を公開することの大切さ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-hugoテンプレートデザインの作り込みの甘さ">2. Hugoテンプレートデザインの作り込みの甘さ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-書評記事の書き方">3. 書評記事の書き方&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-イベント参加レポートのタイトルやtwitterでの投稿内容">4. イベント参加レポートのタイトルやTwitterでの投稿内容&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-結論書ける">5. 結論「書ける」&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#まとめ">まとめ&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/aside></description></item><item><title>モチベーションに頼らない習慣化 /「小さな習慣」</title><link>https://www.meganii.com/blog/2019/12/16/mini-habits-smaller-habits-bigger-results/</link><pubDate>Mon, 16 Dec 2019 05:48:56 +0900</pubDate><guid>https://www.meganii.com/blog/2019/12/16/mini-habits-smaller-habits-bigger-results/</guid><description>&lt;p>2019年12月から&lt;a href="https://twitter.com/kakakakakku">@kakakakakku&lt;/a>さんのブログメンタリングを受けており、次の書籍をおすすめされたので読んで、その内容をまとめてみる。&lt;/p>
+&lt;p>&lt;a href="https://kakakakakku.hatenablog.com/entry/2018/08/19/134518">小さすぎて失敗すらできないステップを毎日繰り返そう /「小さな習慣」を読んだ - kakakakakku blog&lt;/a>&lt;/p>
+&lt;p>&lt;/p>
+&lt;div class="m-4 relative border border-grey-light rounded
+trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
+md:m-4 md:mx-auto
+lg:flex lg:my-4 lg:mx-auto">
+&lt;div class="h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2">
+&lt;amp-img class="contain" src="https://m.media-amazon.com/images/I/41-SgavV5cL.jpg" alt="小さな習慣" layout="fill" />
+&lt;/div>
+&lt;div class="p-4 flex flex-col justify-between leading-normal">
+&lt;div class="mb-8 px-1">
+&lt;div>小さな習慣&lt;/div>&lt;div>出版社：ダイヤモンド社&lt;/div>&lt;div>著者:&lt;span class="ml-3">スティーヴン・ガイズ&lt;/span>&lt;span class="ml-3">田口 未和&lt;/span>&lt;/div>&lt;div>発売日: 2017.04.26&lt;/div>&lt;/div>
+&lt;/div>
+&lt;a href="https://www.amazon.co.jp/dp/B072B8S2YN?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1" class="block absolute inset-y-auto w-full h-full">&lt;/a>
+&lt;/div>
+&lt;h1 id="本書から何を得たいか">本書から何を得たいか&lt;/h1>
+&lt;ul>
+&lt;li>「小さな習慣」とはどういったものか&lt;/li>
+&lt;li>「習慣化」はどうやって行えばよいのか&lt;/li>
+&lt;li>タスク管理をする際の粒度のヒント&lt;/li>
+&lt;/ul></description></item></channel></rss>

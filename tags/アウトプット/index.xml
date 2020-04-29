@@ -1,69 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>アウトプット on SIS Lab</title>
-    <link>https://www.meganii.com/tags/%E3%82%A2%E3%82%A6%E3%83%88%E3%83%97%E3%83%83%E3%83%88/</link>
-    <description>Recent content in アウトプット on SIS Lab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
-    <lastBuildDate>Tue, 31 Mar 2020 21:00:52 +0900</lastBuildDate>
-    
-	<atom:link href="https://www.meganii.com/tags/%E3%82%A2%E3%82%A6%E3%83%88%E3%83%97%E3%83%83%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>小さな習慣・アウトプット駆動生活〜ブログメンタリングのふりかえり〜</title>
-      <link>https://www.meganii.com/blog/2020/03/31/reflections-on-blog-mentoring/</link>
-      <pubDate>Tue, 31 Mar 2020 21:00:52 +0900</pubDate>
-      
-      <guid>https://www.meganii.com/blog/2020/03/31/reflections-on-blog-mentoring/</guid>
-      <description>&lt;div class=&#34;&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring_j15qwo.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/blog-mentoring_j15qwo.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/blog-mentoring_j15qwo.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/blog-mentoring_j15qwo.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/blog-mentoring_j15qwo.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/blog-mentoring_j15qwo.png 320w&#34;
-        width=&#34;1024&#34;
-        height=&#34;512&#34;
-        heights=&#34;(min-width:640px) 400px, 100%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;小さな習慣・アウトプット駆動生活〜ブログメンタリングのふりかえり〜&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
-&lt;p&gt;2019/12月〜2020/2月の期間で&lt;a href=&#34;https://twitter.com/kakakakakku&#34;&gt;@kakakakakku&lt;/a&gt;さんのブログメンタリングを受けて、「ブログを毎週1記事必ず書く」という目標にチャレンジしました。結果としては、&lt;a href=&#34;https://twitter.com/kakakakakku&#34;&gt;@kakakakakku&lt;/a&gt;さんのサポートもあり3か月間毎週1記事以上書くことができ、目標を達成しました。&lt;/p&gt;
-&lt;p&gt;同じ期間でTableauの「DATA Saber認定制度」も同時並行で進めていたので、図らずとも「学んだことをブログに書く」という相乗効果を得ることができました。&lt;/p&gt;
-&lt;p&gt;ブログメンタリングの志望動機、流れ、成果、学んだことをふりかえります。&lt;/p&gt;
-&lt;aside&gt;
-    &lt;div class=&#34;toc&#34;&gt;
-    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
-    &lt;nav id=&#34;TableOfContents&#34;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#ブログメンタリングとは&#34;&gt;ブログメンタリングとは&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#ブログメンタリングの志望動機&#34;&gt;ブログメンタリングの志望動機&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#ブログメンタリングの流れ&#34;&gt;ブログメンタリングの流れ&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#ブログメンタリングの成果&#34;&gt;ブログメンタリングの成果&lt;/a&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#定量的評価&#34;&gt;定量的評価&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#定性的評価&#34;&gt;定性的評価&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#ブログメンタリングを通じて学んだこと&#34;&gt;ブログメンタリングを通じて学んだこと&lt;/a&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#1-平日記事を公開することの大切さ&#34;&gt;1. 平日記事を公開することの大切さ&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#2-hugoテンプレートデザインの作り込みの甘さ&#34;&gt;2. Hugoテンプレートデザインの作り込みの甘さ&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#3-書評記事の書き方&#34;&gt;3. 書評記事の書き方&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#4-イベント参加レポートのタイトルやtwitterでの投稿内容&#34;&gt;4. イベント参加レポートのタイトルやTwitterでの投稿内容&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#5-結論書ける&#34;&gt;5. 結論「書ける」&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;
-    &lt;/div&gt;
-&lt;/aside&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>アウトプット on SIS Lab</title><link>https://www.meganii.com/tags/%E3%82%A2%E3%82%A6%E3%83%88%E3%83%97%E3%83%83%E3%83%88/</link><description>Recent content in アウトプット on SIS Lab</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Tue, 31 Mar 2020 21:00:52 +0900</lastBuildDate><atom:link href="https://www.meganii.com/tags/%E3%82%A2%E3%82%A6%E3%83%88%E3%83%97%E3%83%83%E3%83%88/index.xml" rel="self" type="application/rss+xml"/><item><title>小さな習慣・アウトプット駆動生活〜ブログメンタリングのふりかえり〜</title><link>https://www.meganii.com/blog/2020/03/31/reflections-on-blog-mentoring/</link><pubDate>Tue, 31 Mar 2020 21:00:52 +0900</pubDate><guid>https://www.meganii.com/blog/2020/03/31/reflections-on-blog-mentoring/</guid><description>&lt;div class="">
+&lt;amp-img class="contain"
+src="https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring_j15qwo.png"
+srcset="https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/blog-mentoring_j15qwo.png 1024w,
+https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/blog-mentoring_j15qwo.png 864w,
+https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/blog-mentoring_j15qwo.png 640w,
+https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/blog-mentoring_j15qwo.png 400w,
+https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/blog-mentoring_j15qwo.png 320w"
+width="1024"
+height="512"
+heights="(min-width:640px) 400px, 100%"
+layout="responsive"
+alt="小さな習慣・アウトプット駆動生活〜ブログメンタリングのふりかえり〜">
+&lt;/amp-img>
+&lt;/div>
+&lt;p>2019/12月〜2020/2月の期間で&lt;a href="https://twitter.com/kakakakakku">@kakakakakku&lt;/a>さんのブログメンタリングを受けて、「ブログを毎週1記事必ず書く」という目標にチャレンジしました。結果としては、&lt;a href="https://twitter.com/kakakakakku">@kakakakakku&lt;/a>さんのサポートもあり3か月間毎週1記事以上書くことができ、目標を達成しました。&lt;/p>
+&lt;p>同じ期間でTableauの「DATA Saber認定制度」も同時並行で進めていたので、図らずとも「学んだことをブログに書く」という相乗効果を得ることができました。&lt;/p>
+&lt;p>&lt;/p>
+&lt;div class="border border-grey-light rounded my-2">
+&lt;div class="flex mx-12 p-3">
+&lt;div class="w-4/5">
+&lt;a class="block" href="https://www.meganii.com/blog/2020/03/23/a-look-back-at-the-data-saber-certification-program/">&lt;strong>「DATA Saber認定制度」のふりかえり - SIS Lab&lt;/strong>&lt;/a>
+&lt;span class="text-sm"> 2019/12/16-2020/3/15の期間で「DATA Saber認定制度」にチャレンジし、2020/3/13の最終技術試験・口頭試問を経て、「DATA Saber」として認定をいただきまし …&lt;/span>
+&lt;/div>
+&lt;div class="ml-4">
+&lt;a href="https://www.meganii.com/blog/2020/03/23/a-look-back-at-the-data-saber-certification-program/">
+&lt;div>
+&lt;amp-img class="" src="https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v1584785388/datasaber_y5ziiu.png"
+alt="「DATA Saber認定制度」のふりかえり - SIS Lab" width="75" height="75" layout="fixed">&lt;/amp-img>
+&lt;/div>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>ブログメンタリングの志望動機、流れ、成果、学んだことをふりかえります。&lt;/p>
+&lt;aside>
+&lt;div class="toc">
+&lt;header>&lt;h2 class="">目次&lt;/h2>&lt;/header>
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#ブログメンタリングとは">ブログメンタリングとは&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#ブログメンタリングの志望動機">ブログメンタリングの志望動機&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#ブログメンタリングの流れ">ブログメンタリングの流れ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#ブログメンタリングの成果">ブログメンタリングの成果&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#定量的評価">定量的評価&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#定性的評価">定性的評価&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#ブログメンタリングを通じて学んだこと">ブログメンタリングを通じて学んだこと&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#1-平日記事を公開することの大切さ">1. 平日記事を公開することの大切さ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-hugoテンプレートデザインの作り込みの甘さ">2. Hugoテンプレートデザインの作り込みの甘さ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-書評記事の書き方">3. 書評記事の書き方&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-イベント参加レポートのタイトルやtwitterでの投稿内容">4. イベント参加レポートのタイトルやTwitterでの投稿内容&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-結論書ける">5. 結論「書ける」&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#まとめ">まとめ&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/aside></description></item></channel></rss>
