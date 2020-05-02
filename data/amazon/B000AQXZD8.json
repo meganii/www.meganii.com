@@ -1,222 +1,62 @@
 {
-  "Item": {
     "ASIN": "B000AQXZD8",
-    "ParentASIN": "B01N6IM6DT",
-    "DetailPageURL": "https://www.amazon.co.jp/%E3%83%97%E3%83%AA%E3%83%A0%E3%82%B9-PRIMUS-IP-2245A-S-%E3%83%A9%E3%83%B3%E3%82%BF%E3%83%B3%E3%80%90%E6%97%A5%E6%9C%AC%E6%AD%A3%E8%A6%8F%E5%93%81%E3%80%91/dp/B000AQXZD8?psc=1&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B000AQXZD8",
-    "ItemLinks": {
-      "ItemLink": [
-        {
-          "Description": "Add To Wishlist",
-          "URL": "https://www.amazon.co.jp/gp/registry/wishlist/add-item.html?asin.0=B000AQXZD8&SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B000AQXZD8"
-        },
-        {
-          "Description": "Tell A Friend",
-          "URL": "https://www.amazon.co.jp/gp/pdp/taf/B000AQXZD8?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B000AQXZD8"
-        },
-        {
-          "Description": "All Customer Reviews",
-          "URL": "https://www.amazon.co.jp/review/product/B000AQXZD8?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B000AQXZD8"
-        },
-        {
-          "Description": "All Offers",
-          "URL": "https://www.amazon.co.jp/gp/offer-listing/B000AQXZD8?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B000AQXZD8"
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B000AQXZD8?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41lmYplYaFL.jpg",
+                "Width": 405
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41lmYplYaFL._SL160_.jpg",
+                "Width": 130
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41lmYplYaFL._SL75_.jpg",
+                "Width": 61
+            }
         }
-      ]
     },
-    "SmallImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41lmYplYaFL._SL75_.jpg",
-      "Height": "75",
-      "Width": "61"
-    },
-    "MediumImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41lmYplYaFL._SL160_.jpg",
-      "Height": "160",
-      "Width": "130"
-    },
-    "LargeImage": {
-      "URL": "https://images-fe.ssl-images-amazon.com/images/I/41lmYplYaFL.jpg",
-      "Height": "500",
-      "Width": "405"
-    },
-    "ImageSets": {
-      "ImageSet": [
-        {
-          "Category": "swatch",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41E3KHH15VL._SL30_.jpg",
-            "Height": "30",
-            "Width": "30"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41E3KHH15VL._SL75_.jpg",
-            "Height": "75",
-            "Width": "75"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41E3KHH15VL._SL75_.jpg",
-            "Height": "75",
-            "Width": "75"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41E3KHH15VL._SL110_.jpg",
-            "Height": "110",
-            "Width": "110"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41E3KHH15VL._SL160_.jpg",
-            "Height": "160",
-            "Width": "160"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41E3KHH15VL.jpg",
-            "Height": "339",
-            "Width": "340"
-          }
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "プリムス(PRIMUS)",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "0",
+                    "Role": "デザイン",
+                    "RoleType": "designer"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "プリムス(PRIMUS)",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
         },
-        {
-          "Category": "primary",
-          "SwatchImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41lmYplYaFL._SL30_.jpg",
-            "Height": "30",
-            "Width": "24"
-          },
-          "SmallImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41lmYplYaFL._SL75_.jpg",
-            "Height": "75",
-            "Width": "61"
-          },
-          "ThumbnailImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41lmYplYaFL._SL75_.jpg",
-            "Height": "75",
-            "Width": "61"
-          },
-          "TinyImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41lmYplYaFL._SL110_.jpg",
-            "Height": "110",
-            "Width": "89"
-          },
-          "MediumImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41lmYplYaFL._SL160_.jpg",
-            "Height": "160",
-            "Width": "130"
-          },
-          "LargeImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/41lmYplYaFL.jpg",
-            "Height": "500",
-            "Width": "405"
-          },
-          "HiResImage": {
-            "URL": "https://images-fe.ssl-images-amazon.com/images/I/71FalYj4QRL.jpg",
-            "Height": "1530",
-            "Width": "1238"
-          }
-        }
-      ]
-    },
-    "ItemAttributes": {
-      "Binding": "スポーツ用品",
-      "Brand": "プリムス(PRIMUS)",
-      "CatalogNumberList": {
-        "CatalogNumberListElement": "4901140300165"
-      },
-      "Color": "無",
-      "Creator": "0",
-      "Department": "ユニセックス",
-      "EAN": "2600126538678",
-      "EANList": {
-        "EANListElement": [
-          "2600126538678",
-          "4901140300165"
-        ]
-      },
-      "Feature": [
-        "原産国:エストニア",
-        "使用マントル:IP8052N(マントルA)",
-        "出力:100W相当",
-        "ガス消費量:30g"
-      ],
-      "IsAutographed": "0",
-      "IsMemorabilia": "0",
-      "Label": "プリムス(PRIMUS)",
-      "ListPrice": {
-        "Amount": "11340",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 11,340"
-      },
-      "Manufacturer": "プリムス(PRIMUS)",
-      "Model": "IP-2245A-S",
-      "MPN": "IP-2245A-S",
-      "PackageDimensions": {
-        "Height": "354",
-        "Length": "520",
-        "Weight": "79",
-        "Width": "354"
-      },
-      "PackageQuantity": "1",
-      "PartNumber": "IP-2245A-S",
-      "ProductGroup": "Sports",
-      "ProductTypeName": "SPORTING_GOODS",
-      "Publisher": "プリムス(PRIMUS)",
-      "ReleaseDate": "2012-04-17",
-      "Size": "ＦＦ",
-      "Studio": "プリムス(PRIMUS)",
-      "Title": "PRIMUS(プリムス) IP-2245A-S ランタン【日本正規品】"
-    },
-    "OfferSummary": {
-      "LowestNewPrice": {
-        "Amount": "8808",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 8,808"
-      },
-      "LowestUsedPrice": {
-        "Amount": "8660",
-        "CurrencyCode": "JPY",
-        "FormattedPrice": "￥ 8,660"
-      },
-      "TotalNew": "17",
-      "TotalUsed": "2",
-      "TotalCollectible": "0",
-      "TotalRefurbished": "0"
-    },
-    "Offers": {
-      "TotalOffers": "1",
-      "TotalOfferPages": "1",
-      "MoreOffersUrl": "https://www.amazon.co.jp/gp/offer-listing/B000AQXZD8?SubscriptionId=AKIAIBVFMNXZGJGYTQ7Q&tag=meganii-22&linkCode=xm2&camp=2025&creative=5143&creativeASIN=B000AQXZD8",
-      "Offer": {
-        "OfferAttributes": {
-          "Condition": "New"
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "スポーツ用品",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Sports",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
         },
-        "OfferListing": {
-          "OfferListingId": "PkYJOfwMrM7xp59zKC6oVAQAU76T11WzKsGX6%2BF0ht%2BUxX%2BYIHYNGaemgswxaMqPrcgvZSIOvkI%2B4k78CQcpQrUvs50A0uv6",
-          "Price": {
-            "Amount": "8808",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 8,808"
-          },
-          "AmountSaved": {
-            "Amount": "2532",
-            "CurrencyCode": "JPY",
-            "FormattedPrice": "￥ 2,532"
-          },
-          "PercentageSaved": "22",
-          "Availability": "在庫あり。",
-          "AvailabilityAttributes": {
-            "AvailabilityType": "now",
-            "MinimumHours": "0",
-            "MaximumHours": "0"
-          },
-          "IsEligibleForSuperSaverShipping": "1",
-          "IsEligibleForPrime": "1"
+        "Title": {
+            "DisplayValue": "PRIMUS(プリムス) IP-2245A-S ランタン【日本正規品】",
+            "Label": "Title",
+            "Locale": "ja_JP"
         }
-      }
     }
-  },
-  "Lastmod": "2019-06-15 20:29:55 +0900",
-  "Rakuten": {
-    "productUrlPC": "https://product.rakuten.co.jp/product/-/66afdd66f36f4a8da28bf52ee0c29fee/",
-    "productUrlMobile": "http://m.product.rakuten.co.jp/product/66afdd66f36f4a8da28bf52ee0c29fee/"
-  },
-  "Yahoo": {
-    "productUrl": "https://shopping.yahoo.co.jp/search?p=2600126538678"
-  }
 }
