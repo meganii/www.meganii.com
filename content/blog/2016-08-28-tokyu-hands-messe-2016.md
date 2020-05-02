@@ -39,5 +39,3 @@ img: "https://images-fe.ssl-images-amazon.com/images/I/41etud8KE9L._SL160_.jpg"
 <!--more-->
 {{% googleadsense %}}
 
-
-{{% amazon B00LP0FETG %}}
