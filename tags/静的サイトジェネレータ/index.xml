@@ -17,20 +17,21 @@
       <pubDate>Sun, 08 Jan 2017 15:58:45 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2017/01/08/static-site-generator-hugo/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511562368/yjhod8fty2uwipjwyiyt.png&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/yjhod8fty2uwipjwyiyt.png 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/yjhod8fty2uwipjwyiyt.png 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/yjhod8fty2uwipjwyiyt.png 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/yjhod8fty2uwipjwyiyt.png 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/yjhod8fty2uwipjwyiyt.png 320w&#34;
-      width=&#34;685&#34;
-      height=&#34;368&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511562368/yjhod8fty2uwipjwyiyt.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/yjhod8fty2uwipjwyiyt.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/yjhod8fty2uwipjwyiyt.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/yjhod8fty2uwipjwyiyt.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/yjhod8fty2uwipjwyiyt.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/yjhod8fty2uwipjwyiyt.png 320w&#34;
+        width=&#34;685&#34;
+        height=&#34;368&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;今、自分でブログ・サイトを構築するとしたら、どんな選択肢があるでしょうか？&lt;/p&gt;
 &lt;p&gt;さすがにHTMLを自分で手打ちするのは大変なので、なんらかのCMS(Content Management System コンテンツ管理システム)を利用することになりますが、そのCMSにもさまざまな種類があり、どれを選んだらよいのでしょうか？&lt;/p&gt;
 &lt;p&gt;私自身、CMSとしては&lt;a href=&#34;http://lokka.org/&#34;&gt;Lokka&lt;/a&gt;(Ruby), &lt;a href=&#34;https://ja.wordpress.org&#34;&gt;WordPress&lt;/a&gt;(PHP), &lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;(Ruby), &lt;a href=&#34;http://octopress.org/&#34;&gt;Octopress&lt;/a&gt;(Ruby)、&lt;a href=&#34;https://middlemanapp.com/jp/&#34;&gt;Middleman&lt;/a&gt;(Ruby)と利用してきました。&lt;/p&gt;

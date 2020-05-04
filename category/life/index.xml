@@ -18,20 +18,21 @@
       
       <guid>https://www.meganii.com/blog/2018/12/27/duet-display/</guid>
       <description>&lt;p&gt;「Duet Display」を利用して、iPadをMacBook Airの外部ディスプレイにしました！！&lt;/p&gt;
-&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1545912024/IMG_3354_mitbmm.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG_3354_mitbmm.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG_3354_mitbmm.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_3354_mitbmm.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_3354_mitbmm.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_3354_mitbmm.jpg 320w&#34;
-      width=&#34;4032&#34;
-      height=&#34;3024&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;「Duet Display」を利用して余っていたiPadを外部ディスプレイにする&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1545912024/IMG_3354_mitbmm.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG_3354_mitbmm.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG_3354_mitbmm.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_3354_mitbmm.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_3354_mitbmm.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_3354_mitbmm.jpg 320w&#34;
+        width=&#34;4032&#34;
+        height=&#34;3024&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;「Duet Display」を利用して余っていたiPadを外部ディスプレイにする&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;念願のデュアルディスプレイ！！&lt;/p&gt;
 &lt;p&gt;定価は2,400円だが、今なら(2018/12/27現在)半額セールが行われており、なんと1,200円！！これは買うしかないということで、クリスマスプレゼントとして購入しました。&lt;/p&gt;</description>
     </item>
@@ -43,51 +44,54 @@
       
       <guid>https://www.meganii.com/blog/2018/07/05/cores-gold-coffee-filter/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://amzn.to/2u7Q24D&#34;&gt;コレス ゴールドフィルター&lt;/a&gt;を手に入れました。&lt;/p&gt;
-&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2817_jjmfro.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG_2817_jjmfro.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG_2817_jjmfro.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2817_jjmfro.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2817_jjmfro.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2817_jjmfro.jpg 320w&#34;
-      width=&#34;3024&#34;
-      height=&#34;3024&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;コレス ゴールドフィルターを使ってハンドドリップコーヒーを楽しむ&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2817_jjmfro.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG_2817_jjmfro.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG_2817_jjmfro.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2817_jjmfro.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2817_jjmfro.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2817_jjmfro.jpg 320w&#34;
+        width=&#34;3024&#34;
+        height=&#34;3024&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;コレス ゴールドフィルターを使ってハンドドリップコーヒーを楽しむ&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;てってれー金に輝くゴールドフィルター&#34;&gt;てってれー！金に輝くゴールドフィルター&lt;/h2&gt;
 &lt;p&gt;フィルターを配置するホルダー付きです。&lt;/p&gt;
-&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2813_zf0mui.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG_2813_zf0mui.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG_2813_zf0mui.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2813_zf0mui.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2813_zf0mui.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2813_zf0mui.jpg 320w&#34;
-      width=&#34;3024&#34;
-      height=&#34;3024&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;コレス ゴールドフィルターを使ってハンドドリップコーヒーを楽しむ&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2813_zf0mui.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG_2813_zf0mui.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG_2813_zf0mui.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2813_zf0mui.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2813_zf0mui.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2813_zf0mui.jpg 320w&#34;
+        width=&#34;3024&#34;
+        height=&#34;3024&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;コレス ゴールドフィルターを使ってハンドドリップコーヒーを楽しむ&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;コーヒー粉を入れるとこんな感じになります。&lt;/p&gt;
-&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2816_wvcsiq.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG_2816_wvcsiq.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG_2816_wvcsiq.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2816_wvcsiq.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2816_wvcsiq.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2816_wvcsiq.jpg 320w&#34;
-      width=&#34;3024&#34;
-      height=&#34;3024&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;コレス ゴールドフィルターを使ってハンドドリップコーヒーを楽しむ&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;</description>
+&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2816_wvcsiq.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG_2816_wvcsiq.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG_2816_wvcsiq.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2816_wvcsiq.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2816_wvcsiq.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2816_wvcsiq.jpg 320w&#34;
+        width=&#34;3024&#34;
+        height=&#34;3024&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;コレス ゴールドフィルターを使ってハンドドリップコーヒーを楽しむ&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -239,20 +243,21 @@
       <pubDate>Mon, 27 Nov 2017 23:18:21 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2017/11/27/polish-my-shoes-tokyu-hands-workshop/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1514702295/d-ng-tr-n-qu-c-104956_dqydcf.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/d-ng-tr-n-qu-c-104956_dqydcf.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/d-ng-tr-n-qu-c-104956_dqydcf.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/d-ng-tr-n-qu-c-104956_dqydcf.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/d-ng-tr-n-qu-c-104956_dqydcf.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/d-ng-tr-n-qu-c-104956_dqydcf.jpg 320w&#34;
-      width=&#34;3000&#34;
-      height=&#34;1687&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;東急ハンズ「靴のお手入れ講座」に参加してきました&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1514702295/d-ng-tr-n-qu-c-104956_dqydcf.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/d-ng-tr-n-qu-c-104956_dqydcf.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/d-ng-tr-n-qu-c-104956_dqydcf.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/d-ng-tr-n-qu-c-104956_dqydcf.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/d-ng-tr-n-qu-c-104956_dqydcf.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/d-ng-tr-n-qu-c-104956_dqydcf.jpg 320w&#34;
+        width=&#34;3000&#34;
+        height=&#34;1687&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;東急ハンズ「靴のお手入れ講座」に参加してきました&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;綺麗でカッコいい革靴を買ったはいいけど、手入れはせずにそのまま続けているなんてことはないですか？&lt;/p&gt;
 &lt;p&gt;いざ手入れをしようと思っても、どうやってやればいいのかって意外と分からなかったりしませんか？&lt;/p&gt;
 &lt;p&gt;私もずっと、ネットで読んだ知識を頼りに自己流で靴の手入れをしていました。&lt;/p&gt;
@@ -482,20 +487,21 @@ GANZOは、あなたの手によって&amp;quot;世界最高&amp;quot;の完成�
       <pubDate>Sun, 16 Oct 2016 21:45:48 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2016/10/16/get-a-haircut-by-minimo/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511040827/minimo_uakszz.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/minimo_uakszz.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/minimo_uakszz.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/minimo_uakszz.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/minimo_uakszz.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/minimo_uakszz.jpg 320w&#34;
-      width=&#34;640&#34;
-      height=&#34;443&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;minimo(ミニモ)で初めてのメンズカットモデル&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511040827/minimo_uakszz.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/minimo_uakszz.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/minimo_uakszz.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/minimo_uakszz.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/minimo_uakszz.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/minimo_uakszz.jpg 320w&#34;
+        width=&#34;640&#34;
+        height=&#34;443&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;minimo(ミニモ)で初めてのメンズカットモデル&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;「カットモデル」ってなんだかすごく敷居が高くないですか？&lt;/p&gt;
 &lt;p&gt;例えば、カット”モデル&amp;quot;というのだから、モデルさんのようにシュッとしていないといけない。カットされた写真を撮られてWebや雑誌に掲載される。美容師がやりたいことだけが優先されて自分の希望は通らない。そもそも無料でカットしてもらえるなんて恐ろしい。などなど、私は勝手に想像してハードルを上げていました。&lt;/p&gt;
 &lt;p&gt;しかし、「minimo(ミニモ)」というアプリなら気軽にカットモデルとして切ってもらえるということを教えてもらい、本当に安く(無料で)カットしてもらえるのなら度試してみることにしました。&lt;/p&gt;
