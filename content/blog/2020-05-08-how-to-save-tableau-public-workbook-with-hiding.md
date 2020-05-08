@@ -15,6 +15,10 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_102
 しかし、Twitterで「`Tableau Public`のVizを非表示にするというキーワード」が目に止まりました。
 気になって調べてみると**実はデフォルト「非表示」で公開するオプション**があり、あまり知られていなさそうな設定だったので記事にまとめてみました。
 
+{{% toc %}}
+
+<!--more-->
+{{% googleadsense %}}
 
 ## 設定方法
 
