@@ -6,10 +6,19 @@
     <description>Recent content in Tableau Public on SIS Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 06 Mar 2020 17:24:18 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2020 21:50:23 +0900</lastBuildDate>
     
 	<atom:link href="https://www.meganii.com/tags/tableau-public/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tableau Publicにデフォルト「非表示」で保存する方法</title>
+      <link>https://www.meganii.com/blog/2020/05/08/how-to-save-tableau-public-workbook-with-hiding/</link>
+      <pubDate>Fri, 08 May 2020 21:50:23 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/05/08/how-to-save-tableau-public-workbook-with-hiding/</guid>
+      <description>Tableau Publicって保存するときは、必ずTableau Public Galallyに「公開」されるものだと思われていないでしょうか。 少なくとも私は、Tableau Publicで作成したVizは絶対に「公開」されるも</description>
+    </item>
     
     <item>
       <title>Tableau PublicのVizをiframeでブログに埋め込む方法</title>

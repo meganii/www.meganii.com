@@ -6,10 +6,19 @@
     <description>Recent content in Tech on SIS Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 20 Apr 2020 19:45:50 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2020 21:50:23 +0900</lastBuildDate>
     
 	<atom:link href="https://www.meganii.com/category/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tableau Publicにデフォルト「非表示」で保存する方法</title>
+      <link>https://www.meganii.com/blog/2020/05/08/how-to-save-tableau-public-workbook-with-hiding/</link>
+      <pubDate>Fri, 08 May 2020 21:50:23 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/05/08/how-to-save-tableau-public-workbook-with-hiding/</guid>
+      <description>Tableau Publicって保存するときは、必ずTableau Public Galallyに「公開」されるものだと思われていないでしょうか。 少なくとも私は、Tableau Publicで作成したVizは絶対に「公開」されるも</description>
+    </item>
     
     <item>
       <title>Puppeteerを使ってQrunchへクロス投稿する</title>
