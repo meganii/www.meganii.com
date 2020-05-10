@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vercel on SIS Lab</title>
+    <link>https://www.meganii.com/tags/vercel/</link>
+    <description>Recent content in Vercel on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 11 May 2020 07:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/tags/vercel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vercelにカスタムドメインを設定する（Cloudflareネームサーバ利用）</title>
+      <link>https://www.meganii.com/blog/2020/05/11/how-to-configure-custom-domain-using-cloudflare-in-vercel/</link>
+      <pubDate>Mon, 11 May 2020 07:00:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/05/11/how-to-configure-custom-domain-using-cloudflare-in-vercel/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Cloudflare&lt;/code&gt;のネームサーバを利用して&lt;code&gt;Vercel&lt;/code&gt;にカスタムドメインを設定する際、キャッシュがクリアされない、SSL接続が確立しないなど苦労した点がありましたので、備忘録として残しておきます。一言でいうと自分の設定漏れでした。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#前提&#34;&gt;前提&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#現象&#34;&gt;現象&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#原因&#34;&gt;原因&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#ドメイン認証の流れ&#34;&gt;ドメイン認証の流れ&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#解決方法&#34;&gt;解決方法&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#1-yourdomainwell-knownacme-challengeに対するhttp-getリクエストが通るように以下の設定を実施&#34;&gt;1. &lt;code&gt;{yourdomain}/.well-known/acme-challenge&lt;/code&gt;に対するHTTP GETリクエストが通るように以下の設定を実施&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#2-ssltls-encryption-modeをfullstrictに変更&#34;&gt;2. SSL/TLS encryption modeをFull(Strict)に変更&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#3-cloudflareのdns設定を再設定proxy-statusをdns-onlyに変更しproxiedに戻す&#34;&gt;3. CloudflareのDNS設定を再設定（Proxy StatusをDNS Onlyに変更し、Proxiedに戻す）&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#4-下記コマンドでエラーが返ってくることを確認&#34;&gt;4. 下記コマンドでエラーが返ってくることを確認&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
