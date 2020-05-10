@@ -17,20 +17,21 @@
       <pubDate>Thu, 09 Jan 2020 22:37:43 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/01/09/tableau-whitepater-traditional-bi-vs-modern-bi/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1578669810/tableaulogo_highres_t9alev.png&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableaulogo_highres_t9alev.png 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableaulogo_highres_t9alev.png 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableaulogo_highres_t9alev.png 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableaulogo_highres_t9alev.png 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableaulogo_highres_t9alev.png 320w&#34;
-      width=&#34;2000&#34;
-      height=&#34;450&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;Tableauホワイトペーパーから読み解く「トラディショナルBIとモダンBIの違い」&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1578669810/tableaulogo_highres_t9alev.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/tableaulogo_highres_t9alev.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/tableaulogo_highres_t9alev.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableaulogo_highres_t9alev.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableaulogo_highres_t9alev.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableaulogo_highres_t9alev.png 320w&#34;
+        width=&#34;2000&#34;
+        height=&#34;450&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;Tableauホワイトペーパーから読み解く「トラディショナルBIとモダンBIの違い」&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;TableauのホワイトペーパーやWebinerを読み聞きし、&lt;code&gt;トラディショナルBI&lt;/code&gt;と&lt;code&gt;モダンBI&lt;/code&gt;の違いについて自分なりにまとめてみました。&lt;/p&gt;
 &lt;aside&gt;
     &lt;div class=&#34;toc&#34;&gt;
