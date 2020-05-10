@@ -4,8 +4,7 @@ date: 2020-05-11T07:00:00+09:00
 lastmod: 2020-05-11T07:00:00+09:00
 published: true
 category: ["Tech"]
-tags: ["Cloudflare", "Vercel"]
-comment: true
+tags: ["Cloudflare", "Vercel", 'Gatsby.js']
 slug: "how-to-configure-custom-domain-using-cloudflare-in-vercel"
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
 ---
@@ -120,6 +119,7 @@ $ curl http://{yourdomain}/.well-known/acme-challenge
 
 ## 参考
 
+- [Dashboard \- Vercel](https://vercel.com/dashboard)
 - [Vercel + Cloudflare Domain Setup (formerly ZEIT)](https://ahmadawais.com/vercel-cloudflare-domain-setup/)
 - [How to Set Up Cloudflare with Vercel (formerly ZEIT) | Level Up Coding](https://levelup.gitconnected.com/how-to-set-up-cloudflare-with-zeit-93daa7d45dd)
 - [https://community.cloudflare.com/t/setup-for-zeit-now-deployments/14170/4](https://community.cloudflare.com/t/setup-for-zeit-now-deployments/14170/4)
