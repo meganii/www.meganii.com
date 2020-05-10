@@ -119,7 +119,7 @@ $ curl http://{yourdomain}/.well-known/acme-challenge
 
 ## 参考
 
-- [Dashboard \- Vercel](https://vercel.com/dashboard)
+- [Develop\. Preview\. Ship\. \- Vercel](https://vercel.com/)
 - [Vercel + Cloudflare Domain Setup (formerly ZEIT)](https://ahmadawais.com/vercel-cloudflare-domain-setup/)
 - [How to Set Up Cloudflare with Vercel (formerly ZEIT) | Level Up Coding](https://levelup.gitconnected.com/how-to-set-up-cloudflare-with-zeit-93daa7d45dd)
 - [https://community.cloudflare.com/t/setup-for-zeit-now-deployments/14170/4](https://community.cloudflare.com/t/setup-for-zeit-now-deployments/14170/4)
