@@ -17,7 +17,20 @@
       <pubDate>Thu, 03 Jan 2019 12:17:55 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2019/01/03/paste-from-clipboard/</guid>
-      <description>&lt;p&gt;Visual Studio Code Extensionを作成するために、調べた結果をまとめます。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;code&gt;Visual Studio Code Extension&lt;/code&gt;を作成するために、調べた結果をまとめます。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#macosでclipboard操作について分かったこと&#34;&gt;macOSでClipboard操作について分かったこと&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#対応方法&#34;&gt;対応方法&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#applescriptでclipboradの画像をpng保存する&#34;&gt;AppleScriptでClipboradの画像をpng保存する&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
     </item>
     
     <item>
