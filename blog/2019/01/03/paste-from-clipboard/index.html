@@ -73,7 +73,7 @@
     "mainEntityOfPage": "https://www.meganii.com/blog/2019/01/03/paste-from-clipboard/",
     "headline": "macOSでClipboardの画像を保存する",
     "datePublished": "2019-01-03T12:17:55JST",
-    "dateModified": "2020-05-13T20:46:31JST",
+    "dateModified": "2020-05-13T21:10:27JST",
     "description": "Visual Studio Code Extensionを作成するために、調べた結果をまとめます。 目次  macOSでClipboard操作について分かったこと 対応方法 AppleScriptでClipboradの画像をpng保存する 参考    ",
     "author": {
       "@type": "Person",
@@ -258,23 +258,13 @@ data-ad-slot="4566541958">
 </ul>
 <h2 id="対応方法">対応方法</h2>
 <ul>
-<li>
-<ol>
-<li><a href="https://scrapbox.io/meganii/AppleScript">AppleScript</a>を利用する</li>
-</ol>
-</li>
-<li>
-<ol start="2">
-<li>Electron APIを利用する</li>
-</ol>
+<li>1.<code>AppleScript</code>を利用する</li>
+<li>2.<code>Electron API</code>を利用する
 <ul>
-<li><a href="https://github.com/njleonzhang/vscode-extension-mardown-image-paste">njleonzhang/vscode-extension-mardown-image-paste: read the image from system clipborad, optimize the size, upload to CDN, and return you the CDN link.</a> のExtensionを見ると、Electron APIを利用してやりたいことがほぼできているのだけれど、<code>electron-image-ipc-server</code>を別途動かしておかないといけない</li>
+<li><a href="https://github.com/njleonzhang/vscode-extension-mardown-image-paste">njleonzhang/vscode-extension-mardown-image-paste: read the image from system clipborad, optimize the size, upload to CDN, and return you the CDN link.</a> のExtensionを見ると、Electron APIを利用してやりたいことがほぼできているのだが、<code>electron-image-ipc-server</code>を別途動かしておかないといけない</li>
 </ul>
 </li>
-<li>
-<ol start="3">
-<li><code>pngpaste</code>を利用する</li>
-</ol>
+<li>3.<code>pngpaste</code>を利用する
 <ul>
 <li><a href="https://github.com/jcsalterego/pngpaste">jcsalterego/pngpaste: Paste PNG into files, much like pbpaste does for text.</a></li>
 <li>別途<code>brew install</code>が必要</li>
@@ -283,7 +273,7 @@ data-ad-slot="4566541958">
 </ul>
 <p><code>Visual Studio Code</code>の<code>Extension</code>内で完結しないのはいかがなものかと思い、「1.AppleScriptを利用する」で実装することにしました。</p>
 <h2 id="applescriptでclipboradの画像をpng保存する">AppleScriptでClipboradの画像をpng保存する</h2>
-<p>そういえば、AppleScriptを書いたことがなかったので、調べながら書きました。基本的には次のコードを参考にさせていただき作成しました。</p>
+<p>そういえば、<code>AppleScript</code>を書いたことがなかったので、調べながら書きました。基本的には次のコードを参考にさせていただき作成しました。</p>
 <p><a href="https://github.com/mushanshitiancai/vscode-paste-image">mushanshitiancai/vscode-paste-image: paste image from clipboard to markdown/asciidoc directly!</a></p>
 <p>下記の想定です。</p>
 <ul>
@@ -641,41 +631,41 @@ end getType
                 
                 <a class="" href="https://www.meganii.com/tags/lifehack/">Lifehack(11)</a>
                 
-                <a class="" href="https://www.meganii.com/tags/evernote/">Evernote(10)</a>
-                
                 <a class="" href="https://www.meganii.com/tags/%E5%90%8D%E5%A4%A7/">名大(10)</a>
                 
-                <a class="" href="https://www.meganii.com/tags/%E6%97%85%E8%A1%8C%E8%A8%98/">旅行記(9)</a>
+                <a class="" href="https://www.meganii.com/tags/evernote/">Evernote(10)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/mac/">Mac(9)</a>
                 
                 <a class="" href="https://www.meganii.com/tags/python/">Python(9)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/%E6%97%85%E8%A1%8C%E8%A8%98/">旅行記(9)</a>
                 
                 <a class="" href="https://www.meganii.com/tags/%E3%83%95%E3%82%A1%E3%82%B7%E3%83%AA%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/">ファシリテーション(9)</a>
                 
                 <a class="" href="https://www.meganii.com/tags/%E3%83%87%E3%83%96%E3%82%B5%E3%83%9F/">デブサミ(9)</a>
                 
-                <a class="" href="https://www.meganii.com/tags/mac/">Mac(9)</a>
-                
-                <a class="" href="https://www.meganii.com/tags/%E5%90%8D%E5%8F%A4%E5%B1%8B/">名古屋(8)</a>
+                <a class="" href="https://www.meganii.com/tags/ubuntu/">Ubuntu(8)</a>
                 
                 <a class="" href="https://www.meganii.com/tags/java/">Java(8)</a>
                 
-                <a class="" href="https://www.meganii.com/tags/ubuntu/">Ubuntu(8)</a>
+                <a class="" href="https://www.meganii.com/tags/meetup/">Meetup(8)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/%E5%90%8D%E5%8F%A4%E5%B1%8B/">名古屋(8)</a>
                 
                 <a class="" href="https://www.meganii.com/tags/%E5%A4%A7%E9%98%AA/">大阪(8)</a>
                 
-                <a class="" href="https://www.meganii.com/tags/meetup/">Meetup(8)</a>
+                <a class="" href="https://www.meganii.com/tags/design/">Design(7)</a>
                 
                 <a class="" href="https://www.meganii.com/tags/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2/">キャリア(7)</a>
                 
                 <a class="" href="https://www.meganii.com/tags/english/">English(7)</a>
                 
-                <a class="" href="https://www.meganii.com/tags/design/">Design(7)</a>
-                
-                <a class="" href="https://www.meganii.com/tags/travel/">travel(6)</a>
+                <a class="" href="https://www.meganii.com/tags/movie/">movie(6)</a>
                 
                 <a class="" href="https://www.meganii.com/tags/db/">DB(6)</a>
                 
-                <a class="" href="https://www.meganii.com/tags/movie/">movie(6)</a>
+                <a class="" href="https://www.meganii.com/tags/travel/">travel(6)</a>
                 
                 <a class="" href="https://www.meganii.com/tags/electron/">Electron(6)</a>
                 
