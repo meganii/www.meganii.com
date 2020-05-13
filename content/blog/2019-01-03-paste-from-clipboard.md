@@ -27,10 +27,10 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_30
 
 ## 対応方法
 
-- 1. [AppleScript](https://scrapbox.io/meganii/AppleScript)を利用する
-- 2. Electron APIを利用する
-    - [njleonzhang/vscode-extension-mardown-image-paste: read the image from system clipborad, optimize the size, upload to CDN, and return you the CDN link.](https://github.com/njleonzhang/vscode-extension-mardown-image-paste) のExtensionを見ると、Electron APIを利用してやりたいことがほぼできているのだけれど、`electron-image-ipc-server`を別途動かしておかないといけない
-- 3. `pngpaste`を利用する
+- 1.`AppleScript`を利用する
+- 2.`Electron API`を利用する
+    - [njleonzhang/vscode-extension-mardown-image-paste: read the image from system clipborad, optimize the size, upload to CDN, and return you the CDN link.](https://github.com/njleonzhang/vscode-extension-mardown-image-paste) のExtensionを見ると、Electron APIを利用してやりたいことがほぼできているのだが、`electron-image-ipc-server`を別途動かしておかないといけない
+- 3.`pngpaste`を利用する
     - [jcsalterego/pngpaste: Paste PNG into files, much like pbpaste does for text.](https://github.com/jcsalterego/pngpaste)
     - 別途`brew install`が必要
 
@@ -38,7 +38,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_30
 
 ## AppleScriptでClipboradの画像をpng保存する
 
-そういえば、AppleScriptを書いたことがなかったので、調べながら書きました。基本的には次のコードを参考にさせていただき作成しました。
+そういえば、`AppleScript`を書いたことがなかったので、調べながら書きました。基本的には次のコードを参考にさせていただき作成しました。
 
 [mushanshitiancai/vscode\-paste\-image: paste image from clipboard to markdown/asciidoc directly\!](https://github.com/mushanshitiancai/vscode-paste-image)
 
