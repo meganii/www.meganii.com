@@ -17,20 +17,21 @@
       <pubDate>Tue, 28 Apr 2020 18:50:23 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/04/28/organizing-the-terms-in-reading-tableau-blueprint/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1587899115/Blueprint-Subway_ja-JP_mh6xmb.png&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/Blueprint-Subway_ja-JP_mh6xmb.png 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/Blueprint-Subway_ja-JP_mh6xmb.png 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/Blueprint-Subway_ja-JP_mh6xmb.png 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/Blueprint-Subway_ja-JP_mh6xmb.png 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/Blueprint-Subway_ja-JP_mh6xmb.png 320w&#34;
-      width=&#34;1280&#34;
-      height=&#34;720&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;Tableau Blueprint&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1587899115/Blueprint-Subway_ja-JP_mh6xmb.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/Blueprint-Subway_ja-JP_mh6xmb.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/Blueprint-Subway_ja-JP_mh6xmb.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/Blueprint-Subway_ja-JP_mh6xmb.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/Blueprint-Subway_ja-JP_mh6xmb.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/Blueprint-Subway_ja-JP_mh6xmb.png 320w&#34;
+        width=&#34;1280&#34;
+        height=&#34;720&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;Tableau Blueprint&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.tableau.com/ja-jp/learn/blueprint&#34;&gt;Tableau Blueprint の紹介 | Tableau Software&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Tableau Blueprintを読み進めている上で、英語の用語がいまいちピンときませんでしたので、調べてみました。&lt;/p&gt;
 &lt;aside&gt;
@@ -89,37 +90,20 @@
       <guid>https://www.meganii.com/blog/2019/12/16/mini-habits-smaller-habits-bigger-results/</guid>
       <description>&lt;p&gt;2019年12月から&lt;a href=&#34;https://twitter.com/kakakakakku&#34;&gt;@kakakakakku&lt;/a&gt;さんのブログメンタリングを受けており、次の書籍をおすすめされたので読んで、その内容をまとめてみる。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://kakakakakku.hatenablog.com/entry/2018/08/19/134518&#34;&gt;小さすぎて失敗すらできないステップを毎日繰り返そう /「小さな習慣」を読んだ - kakakakakku blog&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;embed&#34;&gt;
-  &lt;div class=&#34;rf&#34;&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
-        &lt;a href=&#34;&#34;&gt;
-          &lt;div&gt;
-            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
-          &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
-        &lt;div class=&#34;rf&#34;&gt;
-          &lt;div class=&#34;rr&#34;&gt;
-            &lt;div class=&#34;rcx12 body&#34;&gt;
-              &lt;a class=&#34;utdn&#34; 
-                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;rcm12 hx&#34;&gt;
-              &lt;div&gt;&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;m-4 relative border border-grey-light rounded
+            trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
+            md:m-4 md:mx-auto
+            lg:flex lg:my-4 lg:mx-auto&#34;&gt;
+    &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2&#34;&gt;
+        &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/41-SgavV5cL.jpg&#34; alt=&#34;小さな習慣&#34; layout=&#34;fill&#34; /&gt;
     &lt;/div&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
-        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
-      &lt;/div&gt;
+    &lt;div class=&#34;p-4 flex flex-col justify-between leading-normal&#34;&gt;
+        &lt;div class=&#34;mb-8 px-1&#34;&gt;
+            &lt;div&gt;小さな習慣&lt;/div&gt;&lt;div&gt;出版社：ダイヤモンド社&lt;/div&gt;&lt;div&gt;著者:&lt;span class=&#34;ml-3&#34;&gt;スティーヴン・ガイズ&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;田口 未和&lt;/span&gt;&lt;/div&gt;&lt;div&gt;発売日: 2017.04.26&lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt; --&gt;
+    &lt;a href=&#34;https://www.amazon.co.jp/dp/B072B8S2YN?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; class=&#34;block absolute inset-y-auto w-full h-full&#34;&gt;&lt;/a&gt;
+&lt;/div&gt;
 &lt;h1 id=&#34;本書から何を得たいか&#34;&gt;本書から何を得たいか&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;「小さな習慣」とはどういったものか&lt;/li&gt;
@@ -143,7 +127,7 @@
       <pubDate>Sun, 06 Dec 2015 16:48:49 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2015/12/06/statistics-is-literacy-for-the-next-generation-professional/</guid>
-      <description>Amazonでチェックする -- 統計学の活用方法には、以下の3パターンある。 人間の行動の因果関係を洞察する 現状の把握 今後の予測 ビジネスに必要なのは、人間を洞察するための統計学 洞察とは？ 営業の仕事の場合、売</description>
+      <description>統計学が最強の学問である［実践編］出版社：ダイヤモンド社著者:西内 啓発売日: 2014.10.23 統計学の活用方法には、以下の3パターンある。 人間の行動の因果関係を洞察する 現状の把握 今後の予測 ビジネスに必要なのは、人間を</description>
     </item>
     
     <item>
@@ -171,7 +155,7 @@
       <pubDate>Sat, 05 Sep 2015 08:39:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2015/09/05/the-secrets-of-consulting/</guid>
-      <description>Amazonでチェックする -- 本書から得たいこと そもそも、コンサルタントとはどういうことか？ 問題解決する際に、気をつけるべきことは何か？ 自分に値段を付けるにはどうするか？ コンサルタント業は、当人の依頼に</description>
+      <description>コンサルタントの秘密―技術アドバイスの人間学出版社：共立出版著者:G.M.ワインバーグ木村 泉ジェラルド・M・ワインバーグ発売日: 1990.12.01 本書から得たいこと そもそも、コンサルタントとはどういうことか？ 問題解決</description>
     </item>
     
     <item>
@@ -180,7 +164,7 @@
       <pubDate>Mon, 31 Aug 2015 23:53:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2015/08/31/system-integrators-collapse/</guid>
-      <description>ぼくらは、どこへ向かえばよいのか？生存戦略を考える。 本書から何を得たいか？ 生存戦略を見つめなおす どこへ向かうべきか？ 自分はどこへ向かおうとしていたのか？ Amazonでチェックする -- 収益モデル サブスクリ</description>
+      <description>ぼくらは、どこへ向かえばよいのか？生存戦略を考える。 本書から何を得たいか？ 生存戦略を見つめなおす どこへ向かうべきか？ 自分はどこへ向かおうとしていたのか？ システムインテグレーション崩壊 ~これからSIer</description>
     </item>
     
     <item>
@@ -207,7 +191,7 @@
       <pubDate>Wed, 03 Dec 2014 07:21:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2014/12/03/google-analytics/</guid>
-      <description>Google Analyticsのレポートをたまにみるのだが、どこに着目すればいいのか？どんな指標を比べればいいのかわからなかったため、一度読んでみる。 Amazonでチェックする -- Google Analyticsの罠 デフォル</description>
+      <description>Google Analyticsのレポートをたまにみるのだが、どこに着目すればいいのか？どんな指標を比べればいいのかわからなかったため、一度読んでみる。 現場でプロが培った Google Analyticsの使い方 (WEB PROFES</description>
     </item>
     
     <item>
@@ -225,7 +209,7 @@
       <pubDate>Fri, 22 May 2009 11:51:29 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/05/22/1242960689/</guid>
-      <description>Amazonでチェックする -- だいぶ前に友人から借りた論文の教室。やっとまともに読むことができました。 今の段階で、やはり足りないのは、現状把握であると実感。自分なりのオリジナリティを研究しようにも、その</description>
+      <description>NHKブックス 論文の教室 レポートから卒論まで出版社：日本放送出版協会著者:戸田山 和久発売日: 2010.05.06 だいぶ前に友人から借りた論文の教室。やっとまともに読むことができました。 今の段階で、やはり足りないのは、現</description>
     </item>
     
     <item>
@@ -234,7 +218,7 @@
       <pubDate>Thu, 14 May 2009 23:35:40 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/05/14/1242311740/</guid>
-      <description>Amazonでチェックする -- 今日やったこと デザインパターンに慣れる Iterater Adapter サブクラスに任せる Template Method メソッド、継承、実装、インスタンスあたりの用語についてちょっとイメージがつかめてきた。ただ、関数において変数</description>
+      <description>増補改訂版Java言語で学ぶデザインパターン入門出版社：ソフトバンククリエイティブ著者:結城 浩発売日: 2004.06.19 今日やったこと デザインパターンに慣れる Iterater Adapter サブクラスに任せる Template Method メソッド、継承、実装、インスタン</description>
     </item>
     
     <item>
@@ -243,7 +227,7 @@
       <pubDate>Sun, 10 May 2009 15:03:14 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/05/10/1241935394/</guid>
-      <description>Amazonでチェックする -- 買ってからかなり日が経ってしまったけど、なんとか一読することができました。 もう一回ぐらい読み直さないと、自分の身にはならないと思う。というか、実際にやっていかないと話しにな</description>
+      <description>7つの習慣-成功には原則があった!出版社：キングベアー出版著者:スティーブン・R. コヴィーStephen R. Coveyジェームス スキナー川西 茂発売日: 1996.12.25 買ってからかなり日が経ってしまったけど、なんとか一</description>
     </item>
     
     <item>
@@ -252,7 +236,7 @@
       <pubDate>Fri, 10 Oct 2008 00:26:33 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2008/10/10/1223652393/</guid>
-      <description>Amazonでチェックする -- ふと図書館に寄って、目についたので読んでみたところ、ちょっと気になる部分があったためエントリーを書いてみる。 まず、「インタープリター」という言葉に惹かれた。インタープリター</description>
+      <description>社会人のための東大科学講座 科学技術インタープリター養成プログラム (KS一般書)出版社：講談社著者:長谷川 寿一黒田 玲子村上 陽一郎発売日: 2008.05.24 ふと図書館に寄って、目についたので読んでみたところ、ちょっと気に</description>
     </item>
     
   </channel>

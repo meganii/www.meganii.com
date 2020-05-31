@@ -95,20 +95,21 @@
       <pubDate>Sun, 06 Oct 2019 12:28:21 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2019/10/06/1bx-minimal-css-framework-for-amp/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1570334428/1bx-screenshot_oqm0gr.png&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/1bx-screenshot_oqm0gr.png 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/1bx-screenshot_oqm0gr.png 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/1bx-screenshot_oqm0gr.png 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/1bx-screenshot_oqm0gr.png 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/1bx-screenshot_oqm0gr.png 320w&#34;
-      width=&#34;1440&#34;
-      height=&#34;766&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;ミニマルCSSフレームワーク「1BX」を試してみました&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1570334428/1bx-screenshot_oqm0gr.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/1bx-screenshot_oqm0gr.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/1bx-screenshot_oqm0gr.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/1bx-screenshot_oqm0gr.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/1bx-screenshot_oqm0gr.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/1bx-screenshot_oqm0gr.png 320w&#34;
+        width=&#34;1440&#34;
+        height=&#34;766&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;ミニマルCSSフレームワーク「1BX」を試してみました&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;ミニマルCSSフレームワーク「&lt;a href=&#34;https://1bx.uk/&#34;&gt;A Responsive CSS Grid for AMP | 1BX&lt;/a&gt;」を試してみました。&lt;/p&gt;
 &lt;aside&gt;
     &lt;div class=&#34;toc&#34;&gt;
@@ -151,20 +152,21 @@
       <pubDate>Fri, 22 Dec 2017 19:33:34 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2017/12/22/migration-hatena-diary-to-custom-domain-via-hatena-blog/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1514030618/hatenadiary_qoqemm.png&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/hatenadiary_qoqemm.png 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/hatenadiary_qoqemm.png 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/hatenadiary_qoqemm.png 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/hatenadiary_qoqemm.png 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/hatenadiary_qoqemm.png 320w&#34;
-      width=&#34;1024&#34;
-      height=&#34;512&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;はてなダイアリーからはてなブログ経由で独自ドメインのブログに記事を移行しました&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1514030618/hatenadiary_qoqemm.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/hatenadiary_qoqemm.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/hatenadiary_qoqemm.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/hatenadiary_qoqemm.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/hatenadiary_qoqemm.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/hatenadiary_qoqemm.png 320w&#34;
+        width=&#34;1024&#34;
+        height=&#34;512&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;はてなダイアリーからはてなブログ経由で独自ドメインのブログに記事を移行しました&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;今まで、はてなダイアリー(d.hatena.ne.jp.meganii)の記事は移行せずにそのまま残していました。しかし、Scrapboxのユーザー会に参加して過去コンテンツの重要性に気付き、今のブログに全て集約したいと考えました。&lt;/p&gt;
 &lt;p&gt;そこで、はてなブログを経由させて、独自ドメインのブログに記事を全て移行しました。&lt;/p&gt;
@@ -287,37 +289,20 @@
       <description>&lt;p&gt;技術書の紹介をする際も、カエレバのようなリンクビルダーを利用してきましたが、重い腰を上げてHugoの&lt;code&gt;shortcodes&lt;/code&gt;と&lt;code&gt;Data-driven Content&lt;/code&gt;で対応しました。&lt;/p&gt;
 &lt;h2 id=&#34;使用方法&#34;&gt;使用方法&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;{{% amazon 477418392X %}}&lt;/code&gt;と記述することで、以下の結果を得ることができます。&lt;/p&gt;
-&lt;div class=&#34;embed&#34;&gt;
-  &lt;div class=&#34;rf&#34;&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
-        &lt;a href=&#34;&#34;&gt;
-          &lt;div&gt;
-            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
-          &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
-        &lt;div class=&#34;rf&#34;&gt;
-          &lt;div class=&#34;rr&#34;&gt;
-            &lt;div class=&#34;rcx12 body&#34;&gt;
-              &lt;a class=&#34;utdn&#34; 
-                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;rcm12 hx&#34;&gt;
-              &lt;div&gt;&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;m-4 relative border border-grey-light rounded
+            trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
+            md:m-4 md:mx-auto
+            lg:flex lg:my-4 lg:mx-auto&#34;&gt;
+    &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2&#34;&gt;
+        &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/61EL3Dc95dL.jpg&#34; alt=&#34;みんなのGo言語【現場で使える実践テクニック】&#34; layout=&#34;fill&#34; /&gt;
     &lt;/div&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
-        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
-      &lt;/div&gt;
+    &lt;div class=&#34;p-4 flex flex-col justify-between leading-normal&#34;&gt;
+        &lt;div class=&#34;mb-8 px-1&#34;&gt;
+            &lt;div&gt;みんなのGo言語【現場で使える実践テクニック】&lt;/div&gt;&lt;div&gt;出版社：技術評論社&lt;/div&gt;&lt;div&gt;著者:&lt;span class=&#34;ml-3&#34;&gt;松木雅幸&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;mattn&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;藤原俊一郎&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;中島大一&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;牧 大輔&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;鈴木健太&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;稲葉貴洋&lt;/span&gt;&lt;/div&gt;&lt;div&gt;発売日: 2016.09.09&lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt; --&gt;</description>
+    &lt;a href=&#34;https://www.amazon.co.jp/dp/477418392X?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; class=&#34;block absolute inset-y-auto w-full h-full&#34;&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -361,20 +346,21 @@
       <pubDate>Sun, 08 Jan 2017 15:58:45 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2017/01/08/static-site-generator-hugo/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511562368/yjhod8fty2uwipjwyiyt.png&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/yjhod8fty2uwipjwyiyt.png 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/yjhod8fty2uwipjwyiyt.png 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/yjhod8fty2uwipjwyiyt.png 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/yjhod8fty2uwipjwyiyt.png 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/yjhod8fty2uwipjwyiyt.png 320w&#34;
-      width=&#34;685&#34;
-      height=&#34;368&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511562368/yjhod8fty2uwipjwyiyt.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/yjhod8fty2uwipjwyiyt.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/yjhod8fty2uwipjwyiyt.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/yjhod8fty2uwipjwyiyt.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/yjhod8fty2uwipjwyiyt.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/yjhod8fty2uwipjwyiyt.png 320w&#34;
+        width=&#34;685&#34;
+        height=&#34;368&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;今、自分でブログ・サイトを構築するとしたら、どんな選択肢があるでしょうか？&lt;/p&gt;
 &lt;p&gt;さすがにHTMLを自分で手打ちするのは大変なので、なんらかのCMS(Content Management System コンテンツ管理システム)を利用することになりますが、そのCMSにもさまざまな種類があり、どれを選んだらよいのでしょうか？&lt;/p&gt;
 &lt;p&gt;私自身、CMSとしては&lt;a href=&#34;http://lokka.org/&#34;&gt;Lokka&lt;/a&gt;(Ruby), &lt;a href=&#34;https://ja.wordpress.org&#34;&gt;WordPress&lt;/a&gt;(PHP), &lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;(Ruby), &lt;a href=&#34;http://octopress.org/&#34;&gt;Octopress&lt;/a&gt;(Ruby)、&lt;a href=&#34;https://middlemanapp.com/jp/&#34;&gt;Middleman&lt;/a&gt;(Ruby)と利用してきました。&lt;/p&gt;
