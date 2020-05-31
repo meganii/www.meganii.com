@@ -2,7 +2,7 @@
 title: "イベントレポート「組織全体の分析力を上げよう〜「Viewer」を巻き込むには？〜」"
 date: 2020-05-20T08:07:32+09:00
 lastmod: 2020-05-20T08:07:32+09:00
-published: false
+published: true
 category: ["Tech"]
 tags: ["Tableau", "イベントレポート"]
 comment: true
