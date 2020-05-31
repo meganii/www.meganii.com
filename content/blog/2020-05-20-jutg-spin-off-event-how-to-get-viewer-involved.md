@@ -4,7 +4,7 @@ date: 2020-05-20T08:07:32+09:00
 lastmod: 2020-05-20T08:07:32+09:00
 published: false
 category: ["Tech"]
-tags: ["Tableau", "イベントレポート",""]
+tags: ["Tableau", "イベントレポート"]
 comment: true
 slug: "jutg-spin-off-event-how-to-get-viewer-involved"
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1579905055/thumb_tableau_czhjxd.png"
