@@ -24,37 +24,35 @@
 &lt;h2 id=&#34;困ったこと&#34;&gt;困ったこと&lt;/h2&gt;
 &lt;p&gt;スーパーサンプルストアを例にします。&lt;/p&gt;
 &lt;p&gt;「オーダー日」毎の「売上」表示する場合、何も考えなくてもラベルを表示すれば、「オーダー日」（ここでは年）毎の合計値が積み上げ棒グラフの上部に表示されます。&lt;/p&gt;
-&lt;div class=&#34;&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1584692694/tableau_stack_chart_label_jlnjzv.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/tableau_stack_chart_label_jlnjzv.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/tableau_stack_chart_label_jlnjzv.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau_stack_chart_label_jlnjzv.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau_stack_chart_label_jlnjzv.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau_stack_chart_label_jlnjzv.png 320w&#34;
-        width=&#34;351&#34;
-        height=&#34;424&#34;
-        heights=&#34;(min-width:640px) 400px, 100%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;【Tableau】積み上げ棒グラフの合計値をラベル表示する方法&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1584692694/tableau_stack_chart_label_jlnjzv.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableau_stack_chart_label_jlnjzv.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableau_stack_chart_label_jlnjzv.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau_stack_chart_label_jlnjzv.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau_stack_chart_label_jlnjzv.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau_stack_chart_label_jlnjzv.png 320w&#34;
+      width=&#34;351&#34;
+      height=&#34;424&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;【Tableau】積み上げ棒グラフの合計値をラベル表示する方法&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;しかし、「カテゴリ」で色付けするとラベルは内訳を表示してしまうため、合計値が表示されません。&lt;/p&gt;
-&lt;div class=&#34;&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1584692694/tableau_stack_chart_label_n7mqnk.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/tableau_stack_chart_label_n7mqnk.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/tableau_stack_chart_label_n7mqnk.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau_stack_chart_label_n7mqnk.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau_stack_chart_label_n7mqnk.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau_stack_chart_label_n7mqnk.png 320w&#34;
-        width=&#34;351&#34;
-        height=&#34;424&#34;
-        heights=&#34;(min-width:640px) 400px, 100%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;【Tableau】積み上げ棒グラフの合計値をラベル表示する方法&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1584692694/tableau_stack_chart_label_n7mqnk.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableau_stack_chart_label_n7mqnk.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableau_stack_chart_label_n7mqnk.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau_stack_chart_label_n7mqnk.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau_stack_chart_label_n7mqnk.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau_stack_chart_label_n7mqnk.png 320w&#34;
+      width=&#34;351&#34;
+      height=&#34;424&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;【Tableau】積み上げ棒グラフの合計値をラベル表示する方法&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;この状態で「合計値も表示できるようにしてよ」と言われた場合、あなたならどのように実装しますか。&lt;/p&gt;</description>
     </item>
     
