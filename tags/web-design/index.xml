@@ -17,20 +17,21 @@
       <pubDate>Sun, 06 Oct 2019 12:28:21 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2019/10/06/1bx-minimal-css-framework-for-amp/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1570334428/1bx-screenshot_oqm0gr.png&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/1bx-screenshot_oqm0gr.png 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/1bx-screenshot_oqm0gr.png 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/1bx-screenshot_oqm0gr.png 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/1bx-screenshot_oqm0gr.png 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/1bx-screenshot_oqm0gr.png 320w&#34;
-      width=&#34;1440&#34;
-      height=&#34;766&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;ミニマルCSSフレームワーク「1BX」を試してみました&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1570334428/1bx-screenshot_oqm0gr.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/1bx-screenshot_oqm0gr.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/1bx-screenshot_oqm0gr.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/1bx-screenshot_oqm0gr.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/1bx-screenshot_oqm0gr.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/1bx-screenshot_oqm0gr.png 320w&#34;
+        width=&#34;1440&#34;
+        height=&#34;766&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;ミニマルCSSフレームワーク「1BX」を試してみました&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;ミニマルCSSフレームワーク「&lt;a href=&#34;https://1bx.uk/&#34;&gt;A Responsive CSS Grid for AMP | 1BX&lt;/a&gt;」を試してみました。&lt;/p&gt;
 &lt;aside&gt;
     &lt;div class=&#34;toc&#34;&gt;
