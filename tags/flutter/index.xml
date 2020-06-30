@@ -17,21 +17,20 @@
       <pubDate>Sun, 10 Nov 2019 15:13:30 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2019/11/10/scrapmedia-flutter-app-for-managing-books-with-scrapbox/</guid>
-      <description>&lt;div class=&#34;&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1573366346/Scrapmedia_hero_r2wjh0.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/Scrapmedia_hero_r2wjh0.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/Scrapmedia_hero_r2wjh0.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/Scrapmedia_hero_r2wjh0.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/Scrapmedia_hero_r2wjh0.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/Scrapmedia_hero_r2wjh0.png 320w&#34;
-        width=&#34;1500&#34;
-        height=&#34;500&#34;
-        heights=&#34;(min-width:640px) 400px, 100%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Scrapboxで読書管理をするために「ScrapMedia」というFlutterアプリを作った&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;</description>
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1573366346/Scrapmedia_hero_r2wjh0.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/Scrapmedia_hero_r2wjh0.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/Scrapmedia_hero_r2wjh0.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/Scrapmedia_hero_r2wjh0.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/Scrapmedia_hero_r2wjh0.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/Scrapmedia_hero_r2wjh0.png 320w&#34;
+      width=&#34;1500&#34;
+      height=&#34;500&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Scrapboxで読書管理をするために「ScrapMedia」というFlutterアプリを作った&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;</description>
     </item>
     
   </channel>
