@@ -3,11 +3,11 @@ title: "「読書進化論」を再読して読書後のアウトプットのヒ
 date: 2018-03-25T09:15:21+09:00
 lastmod: 2018-03-25T09:15:21+09:00
 comments: true
-category: ['Life']
-tags: ['Book','読書']
+category: ['Book']
+tags: ['Book','読書', 'アウトプット']
 published: true
 slug: book-reading-evolution-theory
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514038598/BOOK_1_v8p2op.png"
+img: "https://m.media-amazon.com/images/I/41nC9Nn4AWL._SL500_.jpg"
 ---
 
 {{% amazon 4098250012 %}}

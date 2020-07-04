@@ -7,7 +7,7 @@ category: ['Book']
 tags: ['book','consulting']
 published: true
 slug: the-secrets-of-consulting
-img: "https://images-na.ssl-images-amazon.com/images/I/418S5FJ6RHL._SL160_.jpg"
+img: "https://m.media-amazon.com/images/I/418S5FJ6RHL._SL500_.jpg"
 ---
 
 

@@ -7,7 +7,7 @@ category: ['Book']
 tags: ['Money','株式','投資']
 published: true
 slug: a-random-walk-down-wall-street
-img: "https://images-na.ssl-images-amazon.com/images/I/51UMwuX4tjL._SL160_.jpg"
+img: "https://m.media-amazon.com/images/I/51aZ6vshSEL.jpg"
 ---
 
 結構分厚い本なので、つまみ食い的に読んだ際のメモ。理解していない部分も多いため、随時更新していくつもり。
