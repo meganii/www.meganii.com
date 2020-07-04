@@ -10,6 +10,8 @@ slug: nihon-yabai-sekai-omoroi
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514038598/BOOK_1_v8p2op.png"
 ---
 
+{{% amazon B00TDDSEZ8 %}}
+
 - 転職するときになんの次になんの仕事をするか
 - 世界のどこで働くか？という観点は持っていないのではないか
 

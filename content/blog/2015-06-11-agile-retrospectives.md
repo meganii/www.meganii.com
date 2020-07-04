@@ -6,7 +6,7 @@ comments: true
 category: ['Book']
 tags: ['ファシリテーション','ふりかえり']
 published: true
-img: https://images-na.ssl-images-amazon.com/images/I/51c-0ixFQUL._SL160_.jpg
+img: "https://m.media-amazon.com/images/I/51c-0ixFQUL.jpg"
 slug: agile-retrospectives
 ---
 

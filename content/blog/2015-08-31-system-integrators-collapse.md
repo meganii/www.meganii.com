@@ -7,7 +7,7 @@ category: ['Book']
 tags: ['SIer','システム']
 slug: system-integrators-collapse
 published: true
-img: "https://images-na.ssl-images-amazon.com/images/I/51pplTGqXXL._SL160_.jpg"
+img: "https://m.media-amazon.com/images/I/41sd5FarWNL.jpg"
 ---
 
 ぼくらは、どこへ向かえばよいのか？生存戦略を考える。

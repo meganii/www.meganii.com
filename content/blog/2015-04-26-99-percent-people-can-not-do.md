@@ -1,12 +1,11 @@
 ---
-
 title: "[読書メモ]99%の人がしていない たった1%の仕事のコツ"
 date: 2015-04-26T19:13:00+09:00
 comments: true
-category: ['Art']
-tags: ['biz','book']
+category: ['Book']
+tags: ['biz','book','読書']
 published: true
-img: "https://images-na.ssl-images-amazon.com/images/I/41XG-xJvZSL._SL160_.jpg"
+img: "https://m.media-amazon.com/images/I/51XcqcHcS6L.jpg"
 slug: 99-percent-people-can-not-do
 ---
 

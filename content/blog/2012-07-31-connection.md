@@ -2,14 +2,14 @@
 title: 「レバレッジ人脈術」人脈ってなんだろう
 date: 2012-07-31
 lastmod: 2018-01-27T07:05:29+09:00
-category: ['Life']
+category: ['Book']
 tags: ['人脈','book', '読書']
 published: true
 slug: connection
-img: "https://farm8.staticflickr.com/7132/7668706168_dfc1dcbfc1.jpg"
+img: "https://res.cloudinary.com/meganii/image/upload/v1593902334/7668706168_dfc1dcbfc1_zka8pa.jpg"
 ---
 
-{{% img src="https://farm8.staticflickr.com/7132/7668706168_dfc1dcbfc1.jpg" w="500" h="352" alt="レバレッジ人脈術" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1593902334/7668706168_dfc1dcbfc1_zka8pa.jpg" w="500" h="352" alt="レバレッジ人脈術" %}}
 
 ふと、人脈について考えるキッカケがあったので考えてみたが、そもそも「人脈」ってなんだんだろうか。
 

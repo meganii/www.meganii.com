@@ -3,11 +3,11 @@ title: "「読んだら忘れない読書術」"
 date: 2018-03-15T08:46:08+09:00
 lastmod: 2018-03-15T08:46:08+09:00
 comments: true
-category: ['Life']
+category: ['Book']
 tags: ['book', '読書']
 published: true
 slug: reading-technique-to-apply-to-real-life
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514038598/BOOK_1_v8p2op.png"
+img: "https://m.media-amazon.com/images/I/51RTOZuP78L.jpg"
 ---
 
 {{% amazon 4763134507 %}}
