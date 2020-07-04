@@ -1,22 +1,22 @@
 {
-    "ASIN": "1101981059",
-    "DetailPageURL": "https://www.amazon.co.jp/dp/1101981059?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "ASIN": "4101359121",
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4101359121?tag=meganii-22&linkCode=ogi&th=1&psc=1",
     "Images": {
         "Primary": {
             "Large": {
                 "Height": 500,
-                "URL": "https://m.media-amazon.com/images/I/515BVQBNQVL.jpg",
-                "Width": 331
+                "URL": "https://m.media-amazon.com/images/I/51CV1ASNYFL._SL500_.jpg",
+                "Width": 352
             },
             "Medium": {
                 "Height": 160,
-                "URL": "https://m.media-amazon.com/images/I/515BVQBNQVL._SL160_.jpg",
-                "Width": 106
+                "URL": "https://m.media-amazon.com/images/I/51CV1ASNYFL._SL160_.jpg",
+                "Width": 113
             },
             "Small": {
                 "Height": 75,
-                "URL": "https://m.media-amazon.com/images/I/515BVQBNQVL._SL75_.jpg",
-                "Width": 50
+                "URL": "https://m.media-amazon.com/images/I/51CV1ASNYFL._SL75_.jpg",
+                "Width": 53
             }
         }
     },
@@ -25,20 +25,20 @@
             "Contributors": [
                 {
                     "Locale": "ja_JP",
-                    "Name": "Cardone, Grant",
+                    "Name": "ばなな, 吉本",
                     "Role": "著",
                     "RoleType": "author"
                 }
             ],
             "Manufacturer": {
-                "DisplayValue": "Portfolio",
+                "DisplayValue": "新潮社",
                 "Label": "Manufacturer",
                 "Locale": "ja_JP"
             }
         },
         "Classifications": {
             "Binding": {
-                "DisplayValue": "ハードカバー",
+                "DisplayValue": "文庫",
                 "Label": "Binding",
                 "Locale": "ja_JP"
             },
@@ -49,37 +49,34 @@
             }
         },
         "ContentInfo": {
+            "Edition": {
+                "DisplayValue": "改",
+                "Label": "Edition",
+                "Locale": "ja_JP"
+            },
             "Languages": {
                 "DisplayValues": [
                     {
-                        "DisplayValue": "英語",
+                        "DisplayValue": "日本語",
                         "Type": "発行済み"
-                    },
-                    {
-                        "DisplayValue": "英語",
-                        "Type": "原語"
-                    },
-                    {
-                        "DisplayValue": "英語",
-                        "Type": "不明"
                     }
                 ],
                 "Label": "Language",
                 "Locale": "ja_JP"
             },
             "PagesCount": {
-                "DisplayValue": 240,
+                "DisplayValue": 179,
                 "Label": "NumberOfPages",
                 "Locale": "en_US"
             },
             "PublicationDate": {
-                "DisplayValue": "2016-10-11T00:00:01Z",
+                "DisplayValue": "1996-05-29T00:00:01Z",
                 "Label": "PublicationDate",
                 "Locale": "en_US"
             }
         },
         "Title": {
-            "DisplayValue": "Be Obsessed or Be Average",
+            "DisplayValue": "とかげ (新潮文庫)",
             "Label": "Title",
             "Locale": "ja_JP"
         }
