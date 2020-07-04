@@ -300,6 +300,23 @@ layout=&#34;responsive&#34;&gt;
 &lt;/figure&gt;
 &lt;p&gt;2019/12月〜2020/2月の期間で&lt;a href=&#34;https://twitter.com/kakakakakku&#34;&gt;@kakakakakku&lt;/a&gt;さんのブログメンタリングを受けて、「ブログを毎週1記事必ず書く」という目標にチャレンジしました。結果としては、&lt;a href=&#34;https://twitter.com/kakakakakku&#34;&gt;@kakakakakku&lt;/a&gt;さんのサポートもあり3か月間毎週1記事以上書くことができ、目標を達成しました。&lt;/p&gt;
 &lt;p&gt;同じ期間でTableauの「DATA Saber認定制度」も同時並行で進めていたので、図らずとも「学んだことをブログに書く」という相乗効果を得ることができました。&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;border border-grey-light rounded my-2&#34;&gt;
+    &lt;div class=&#34;flex mx-12 p-3&#34;&gt;
+        &lt;div class=&#34;w-4/5&#34;&gt;
+            &lt;a class=&#34;block&#34; href=&#34;https://www.meganii.com/blog/2020/03/23/a-look-back-at-the-data-saber-certification-program/&#34;&gt;&lt;strong&gt;「DATA Saber認定制度」のふりかえり - SIS Lab&lt;/strong&gt;&lt;/a&gt;
+            &lt;span class=&#34;text-sm&#34;&gt;  2019/12/16-2020/3/15の期間で「DATA Saber認定制度」にチャレンジし、2020/3/13の最終技術試験・口頭試問を経て、「DATA Saber」として認定をいただきまし …&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;ml-4&#34;&gt;
+            &lt;a href=&#34;https://www.meganii.com/blog/2020/03/23/a-look-back-at-the-data-saber-certification-program/&#34;&gt;
+                &lt;div&gt;
+                    &lt;amp-img class=&#34;&#34; src=&#34;https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v1584785388/datasaber_y5ziiu.png&#34;
+                        alt=&#34;「DATA Saber認定制度」のふりかえり - SIS Lab&#34; width=&#34;75&#34; height=&#34;75&#34; layout=&#34;fixed&#34;&gt;&lt;/amp-img&gt;
+                &lt;/div&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;ブログメンタリングの志望動機、流れ、成果、学んだことをふりかえります。&lt;/p&gt;
 &lt;aside&gt;
     &lt;div class=&#34;toc&#34;&gt;
@@ -4412,9 +4429,19 @@ Total of 1 requests completed
       <pubDate>Tue, 31 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>https://www.meganii.com/blog/2012/07/31/connection/</guid>
-      <description>&lt;figure&gt;
-  &lt;amp-img src=&#34;
-  https://farm8.staticflickr.com/7132/7668706168_dfc1dcbfc1.jpg&#34; alt=&#34;「レバレッジ人脈術」人脈ってなんだろう https://farm8.staticflickr.com/7132/7668706168_dfc1dcbfc1.jpg&#34; width=500 height=352 layout=responsive&gt;&lt;/amp-img&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1593902334/7668706168_dfc1dcbfc1_zka8pa.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/7668706168_dfc1dcbfc1_zka8pa.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/7668706168_dfc1dcbfc1_zka8pa.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/7668706168_dfc1dcbfc1_zka8pa.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/7668706168_dfc1dcbfc1_zka8pa.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/7668706168_dfc1dcbfc1_zka8pa.jpg 320w&#34;
+      width=&#34;500&#34;
+      height=&#34;352&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;レバレッジ人脈術&#34;&gt;
+  &lt;/amp-img&gt;
 &lt;/figure&gt;
 &lt;p&gt;ふと、人脈について考えるキッカケがあったので考えてみたが、そもそも「人脈」ってなんだんだろうか。&lt;/p&gt;
 &lt;p&gt;「人脈を広げるのが大事」ってよく言われるけれど、自分にとってどんな人が人脈なんだろうか。&lt;/p&gt;</description>
@@ -5656,7 +5683,7 @@ Total of 1 requests completed
       <pubDate>Sun, 09 May 2010 12:41:40 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2010/05/09/1273376500/</guid>
-      <description>Amazonでチェックする -- 実は、だいぶ前に買って読んでいた本の一つ。そのときに上手くまとめてなかったので内容をすっかり忘れてしまっていた。なので、今回はメモを残しておく。 あらすじ 話の舞台は、高校の野</description>
+      <description>Amazonでチェックする -- 実は、だいぶ前に買って読んでいた本の1つ。そのときに上手くまとめてなかったので内容をすっかり忘れてしまっていた。なので、今回はメモを残しておく。 あらすじ 話の舞台は、高校の野</description>
     </item>
     
     <item>
@@ -6106,7 +6133,7 @@ Total of 1 requests completed
       <pubDate>Mon, 06 Jul 2009 22:19:17 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/07/06/1246886357/</guid>
-      <description>Amazonでチェックする -- この本から得たいこと ファイナンシャルIQとは何か？ どんなところに気をつければよいか？ ファイナンシャルIQとは より多くのお金を稼ぐ 自分のお金を守る 予算を立てる レバレッジを立て</description>
+      <description>Amazonでチェックする -- この本から得たいこと ファイナンシャルIQとは何か どんなところに気をつければよいか ファイナンシャルIQとは より多くのお金を稼ぐ 自分のお金を守る 予算を立てる レバレッジを立てる 情</description>
     </item>
     
     <item>
@@ -6335,7 +6362,7 @@ Total of 1 requests completed
     </item>
     
     <item>
-      <title>読書記録</title>
+      <title>読書記録 7つの習慣-成功には原則があった!</title>
       <link>https://www.meganii.com/blog/2009/05/10/1241935394/</link>
       <pubDate>Sun, 10 May 2009 15:03:14 +0900</pubDate>
       
@@ -6979,7 +7006,7 @@ Total of 1 requests completed
       <pubDate>Mon, 02 Jun 2008 21:51:57 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2008/06/02/1212411117/</guid>
-      <description>とかげ (新潮文庫) 作者: 吉本ばなな出版社/メーカー: 新潮社発売日: 1996/05/29メディア: 文庫購入: 2人 クリック: 69回この商品を含むブログ (106件) を見る はぃはぃ、お子ちゃまな自分にはさっぱ</description>
+      <description>Amazonでチェックする -- はぃはぃ、お子ちゃまな自分にはさっぱりの世界でございます(&amp;gt;_&amp;lt;)</description>
     </item>
     
     <item>
