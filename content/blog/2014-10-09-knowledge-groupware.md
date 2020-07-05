@@ -3,11 +3,11 @@ title: "知のグループウェアとしてのファシリテーション〜ザ
 date: 2014-10-09T00:40:00+09:00
 lastmod: 2017-02-19T18:00:00+09:00
 comments: true
-category: ['Art']
+category: ['Book']
 tags: ['book','ファシリテーション', '会議']
 published: true 
 slug: knowledge-groupware
-img: "https://images-fe.ssl-images-amazon.com/images/I/516CBVX9JJL._SL320_.jpg"
+img: "https://m.media-amazon.com/images/I/516CBVX9JJL.jpg"
 ---
 
 **『空中戦』を回避しながら、『論理を構造化』して『可視化』して共有する**

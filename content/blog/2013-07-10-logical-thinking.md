@@ -5,6 +5,7 @@ category: ['Art']
 tags: 'book'
 published: true
 slug: logical-thinking
+img: "https://m.media-amazon.com/images/I/517dAx7Ih4L.jpg"
 ---
 
 

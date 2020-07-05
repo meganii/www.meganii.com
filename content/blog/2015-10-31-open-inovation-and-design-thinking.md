@@ -3,11 +3,11 @@ title: "オープン・イノベーションとデザイン・シンキング"
 date: 2015-10-31T10:49:04+09:00
 lastmod: 2017-02-18T19:23:04+09:00
 comments: true
-category: ['Tech']
-tags: ['Design','Inovation']
+category: ['Book']
+tags: ['Design','Inovation', '読書メモ']
 published: true
 slug: open-inovation-and-design-thinking
-img: "https://images-na.ssl-images-amazon.com/images/I/41gQn8vzZoL._SL160_.jpg"
+img: "https://m.media-amazon.com/images/I/41gQn8vzZoL.jpg"
 ---
 
 {{% toc %}}
