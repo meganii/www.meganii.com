@@ -3,11 +3,11 @@
 title: あなたは中級者を脱出出来ているだろうか？ドレイファスモデル技能モデル〜リファクタリング・ウェットウェア ―達人プログラマーの思考法と学習法〜
 date: 2014-06-23T21:56:00+09:00
 lastmod: 2017-08-30T21:56:00+09:00
-category: ['Art']
+category: ['Book']
 tags: ["book","learn"]
 published: true
 slug: dreyfus-model
-img: "https://images-na.ssl-images-amazon.com/images/I/41cOFPQCwXL._SL160_.jpg"
+img: "https://m.media-amazon.com/images/I/41cOFPQCwXL.jpg"
 ---
 
 **「必要な仕事を行い、必要になると新しい仕事を学ぶが、仕事を広範かつ概念的に理解することは決してない」**

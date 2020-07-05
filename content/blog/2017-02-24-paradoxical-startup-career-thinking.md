@@ -3,11 +3,11 @@ title: "「逆説のキャリア思考 - スタートアップ思考をキャリ
 date: 2017-02-24T00:14:19+09:00
 lastmod: 2017-02-24T00:14:19+09:00
 comments: true
-category: ['Life']
-tags: ['キャリア','生存戦略']
+category: ['Book']
+tags: ['キャリア','生存戦略','読書メモ']
 published: true
 slug: paradoxical-startup-career-thinking
-img: https://images-fe.ssl-images-amazon.com/images/I/41f6SJzdJgL._SL160_.jpg
+img: "https://m.media-amazon.com/images/I/41f6SJzdJgL.jpg"
 ---
 
 デブサミ2017で公演された「逆説のキャリア思考 - スタートアップ思考をキャリアに活かす」が気になったので、読みながらポイントをまとめました。

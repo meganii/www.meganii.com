@@ -2,11 +2,11 @@
 title: "参加者の発言を促すファシリテーターの技術 〜ザ・ファシリテーター〜"
 date: 2014-10-04T17:18:00+09:00
 comments: true
-category: ['Art']
+category: ['Book']
 tags: ['book', 'ファシリテーション']
 published: true 
 slug: facilitation-skill
-img: "https://images-na.ssl-images-amazon.com/images/I/516CBVX9JJL._SL160_.jpg"
+img: "https://m.media-amazon.com/images/I/516CBVX9JJL.jpg"
 ---
 
 なかなか読み進められないので、小出しにしてまとめることにします。

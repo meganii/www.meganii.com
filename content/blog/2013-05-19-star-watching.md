@@ -6,11 +6,12 @@ category: ['Travel']
 tags: ["star"]
 published: true
 slug: star-watching
+img: "https://res.cloudinary.com/meganii/image/upload/v1593903141/8757731976_91975c8765_z_cwdouk.jpg"
 ---
 
 2013/05/18-19、同期と星を見に奈良県にある「星のくに」に行ってきました!!
 
-{{% img src="https://farm3.staticflickr.com/2870/8757731976_91975c8765_z.jpg" w="640" h="427" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1593903141/8757731976_91975c8765_z_cwdouk.jpg" w="640" h="427" %}}
 
 {{% googleadsense %}}
 

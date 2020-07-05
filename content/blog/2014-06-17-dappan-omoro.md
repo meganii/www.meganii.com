@@ -1,11 +1,11 @@
 ---
 title: 「脱藩学」と「オモロい社会人」〜閉塞感のある君へ。こっちへおいでよ。〜
 date: 2014-06-17T22:00:00+09:00
-category: ['Art']
+category: ['Book']
 tags: ["脱藩","book"]
 published: true
 slug: dappan-omoro
-img: "https://images-na.ssl-images-amazon.com/images/I/41ArPn4UwsL._SL160_.jpg"
+img: "https://m.media-amazon.com/images/I/41ArPn4UwsL.jpg"
 ---
 
 {{% amazon 4048910728 %}}

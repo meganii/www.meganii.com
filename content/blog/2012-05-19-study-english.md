@@ -2,11 +2,11 @@
 title: 20歳を過ぎてから英語を学ぼうと決めた人たちへ
 date: 2012-05-19
 lastmod: 2017-02-18T18:56:27+09:00
-category: ['Art']
+category: ['Book']
 tags: ['book','english']
 published: true
 slug: study-english
-img: "https://images-fe.ssl-images-amazon.com/images/I/51dwdrg2K%2BL._SL160_.jpg"
+img: "https://m.media-amazon.com/images/I/510EggBReqL.jpg"
 ---
 
 {{% amazon 4887598483 %}}

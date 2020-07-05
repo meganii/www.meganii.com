@@ -3,11 +3,11 @@ title: "キャリア計画を立てよう！ How Google Works-私たちの働き
 date: 2014-10-30T22:52:00+09:00
 lastmod: 2017-02-24T22:52:00+09:00
 comments: true
-category: ['Life']
+category: ['Book']
 tags: ['Book','キャリア']
 published: true
 slug: how-google-works
-img: https://images-na.ssl-images-amazon.com/images/I/51lusOSU33L._SL160_.jpg
+img: "https://m.media-amazon.com/images/I/51lusOSU33L.jpg"
 ---
 
 
