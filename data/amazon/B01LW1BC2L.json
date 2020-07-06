@@ -1,22 +1,22 @@
 {
-    "ASIN": "B00TDDSEZ8",
-    "DetailPageURL": "https://www.amazon.co.jp/dp/B00TDDSEZ8?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "ASIN": "B01LW1BC2L",
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B01LW1BC2L?tag=meganii-22&linkCode=ogi&th=1&psc=1",
     "Images": {
         "Primary": {
             "Large": {
                 "Height": 500,
-                "URL": "https://m.media-amazon.com/images/I/51+PSG+flHL.jpg",
-                "Width": 340
+                "URL": "https://m.media-amazon.com/images/I/51OV7VCefgL.jpg",
+                "Width": 350
             },
             "Medium": {
                 "Height": 160,
-                "URL": "https://m.media-amazon.com/images/I/51+PSG+flHL._SL160_.jpg",
-                "Width": 109
+                "URL": "https://m.media-amazon.com/images/I/51OV7VCefgL._SL160_.jpg",
+                "Width": 112
             },
             "Small": {
                 "Height": 75,
-                "URL": "https://m.media-amazon.com/images/I/51+PSG+flHL._SL75_.jpg",
-                "Width": 51
+                "URL": "https://m.media-amazon.com/images/I/51OV7VCefgL._SL75_.jpg",
+                "Width": 52
             }
         }
     },
@@ -25,13 +25,31 @@
             "Contributors": [
                 {
                     "Locale": "ja_JP",
-                    "Name": "太田英基",
+                    "Name": "Robin Williams",
                     "Role": "著",
                     "RoleType": "author"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "吉川 典秀",
+                    "Role": "翻訳",
+                    "RoleType": "translator"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "小原 司",
+                    "Role": "その他",
+                    "RoleType": "other"
+                },
+                {
+                    "Locale": "ja_JP",
+                    "Name": "米谷 テツヤ（日本語版解説）",
+                    "Role": "その他",
+                    "RoleType": "other"
                 }
             ],
             "Manufacturer": {
-                "DisplayValue": "いろは出版",
+                "DisplayValue": "マイナビ出版",
                 "Label": "Manufacturer",
                 "Locale": "ja_JP"
             }
@@ -49,11 +67,6 @@
             }
         },
         "ContentInfo": {
-            "Edition": {
-                "DisplayValue": "1",
-                "Label": "Edition",
-                "Locale": "ja_JP"
-            },
             "Languages": {
                 "DisplayValues": [
                     {
@@ -65,18 +78,18 @@
                 "Locale": "ja_JP"
             },
             "PagesCount": {
-                "DisplayValue": 229,
+                "DisplayValue": 262,
                 "Label": "NumberOfPages",
                 "Locale": "en_US"
             },
             "PublicationDate": {
-                "DisplayValue": "2015-02-08T06:19:27.831Z",
+                "DisplayValue": "2016-09-20T00:00:00.000Z",
                 "Label": "PublicationDate",
                 "Locale": "en_US"
             }
         },
         "Title": {
-            "DisplayValue": "日本がヤバイではなく、世界がオモシロイから僕らは動く。",
+            "DisplayValue": "ノンデザイナーズ・デザインブック　［第4版］",
             "Label": "Title",
             "Locale": "ja_JP"
         }
