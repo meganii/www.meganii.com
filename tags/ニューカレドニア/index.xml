@@ -17,20 +17,21 @@
       <pubDate>Mon, 16 Jul 2018 08:46:51 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2018/07/16/new-caledonia-2018/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1531698938/IMG_2772_fntz1u.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG_2772_fntz1u.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG_2772_fntz1u.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2772_fntz1u.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2772_fntz1u.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2772_fntz1u.jpg 320w&#34;
-      width=&#34;4032&#34;
-      height=&#34;3021&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;ニューカレドニア旅行記&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1531698938/IMG_2772_fntz1u.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG_2772_fntz1u.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG_2772_fntz1u.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2772_fntz1u.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2772_fntz1u.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2772_fntz1u.jpg 320w&#34;
+        width=&#34;4032&#34;
+        height=&#34;3021&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;ニューカレドニア旅行記&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;カジノで資金をゼロから有を生み出す！
 &lt;ul&gt;

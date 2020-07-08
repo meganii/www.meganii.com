@@ -51,22 +51,40 @@
       <pubDate>Tue, 31 Mar 2020 21:00:52 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/03/31/reflections-on-blog-mentoring/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring_j15qwo.png&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/blog-mentoring_j15qwo.png 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/blog-mentoring_j15qwo.png 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/blog-mentoring_j15qwo.png 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/blog-mentoring_j15qwo.png 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/blog-mentoring_j15qwo.png 320w&#34;
-      width=&#34;1024&#34;
-      height=&#34;512&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;小さな習慣・アウトプット駆動生活〜ブログメンタリングのふりかえり〜&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring_j15qwo.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/blog-mentoring_j15qwo.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/blog-mentoring_j15qwo.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/blog-mentoring_j15qwo.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/blog-mentoring_j15qwo.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/blog-mentoring_j15qwo.png 320w&#34;
+        width=&#34;1024&#34;
+        height=&#34;512&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;小さな習慣・アウトプット駆動生活〜ブログメンタリングのふりかえり〜&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;2019/12月〜2020/2月の期間で&lt;a href=&#34;https://twitter.com/kakakakakku&#34;&gt;@kakakakakku&lt;/a&gt;さんのブログメンタリングを受けて、「ブログを毎週1記事必ず書く」という目標にチャレンジしました。結果としては、&lt;a href=&#34;https://twitter.com/kakakakakku&#34;&gt;@kakakakakku&lt;/a&gt;さんのサポートもあり3か月間毎週1記事以上書くことができ、目標を達成しました。&lt;/p&gt;
 &lt;p&gt;同じ期間でTableauの「DATA Saber認定制度」も同時並行で進めていたので、図らずとも「学んだことをブログに書く」という相乗効果を得ることができました。&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;border border-grey-light rounded my-2&#34;&gt;
+    &lt;div class=&#34;flex mx-12 p-3&#34;&gt;
+        &lt;div class=&#34;w-4/5&#34;&gt;
+            &lt;a class=&#34;block&#34; href=&#34;https://www.meganii.com/blog/2020/03/23/a-look-back-at-the-data-saber-certification-program/&#34;&gt;&lt;strong&gt;「DATA Saber認定制度」のふりかえり - SIS Lab&lt;/strong&gt;&lt;/a&gt;
+            &lt;span class=&#34;text-sm&#34;&gt;  2019/12/16-2020/3/15の期間で「DATA Saber認定制度」にチャレンジし、2020/3/13の最終技術試験・口頭試問を経て、「DATA Saber」として認定をいただきまし …&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;ml-4&#34;&gt;
+            &lt;a href=&#34;https://www.meganii.com/blog/2020/03/23/a-look-back-at-the-data-saber-certification-program/&#34;&gt;
+                &lt;div&gt;
+                    &lt;amp-img class=&#34;&#34; src=&#34;https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v1584785388/datasaber_y5ziiu.png&#34;
+                        alt=&#34;「DATA Saber認定制度」のふりかえり - SIS Lab&#34; width=&#34;75&#34; height=&#34;75&#34; layout=&#34;fixed&#34;&gt;&lt;/amp-img&gt;
+                &lt;/div&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;ブログメンタリングの志望動機、流れ、成果、学んだことをふりかえります。&lt;/p&gt;
 &lt;aside&gt;
     &lt;div class=&#34;toc&#34;&gt;
@@ -120,20 +138,21 @@
       <pubDate>Sat, 16 Nov 2019 19:25:36 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2019/11/16/amp-real-url-with-cloudflare/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1574561130/AMP_%EF%B8%8F_Real_URL_a1iiwa.png&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 320w&#34;
-      width=&#34;560&#34;
-      height=&#34;315&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;Cloudflare AMP Real URLをブログに導入する&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1574561130/AMP_%EF%B8%8F_Real_URL_a1iiwa.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 320w&#34;
+        width=&#34;560&#34;
+        height=&#34;315&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;Cloudflare AMP Real URLをブログに導入する&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;AMPページをGoogleドメインではなく、自ドメインで表示することができる「AMP Real URL」をこのブログにも導入しました。「AMP Real URL」に関する日本語のページがあまりなかったので、手順をまとめてみました。&lt;/p&gt;
 &lt;p&gt;ブログに適用したいと思うのは物好きしかいない、かつ、企業で導入するにはまだまだ早いということでしょうか。
 まだまだ発展途上の仕組みだとは思いますが、個人のブログなのでなんの気兼ねなく試してみます。&lt;/p&gt;</description>
@@ -187,20 +206,21 @@
       <pubDate>Sun, 06 Oct 2019 12:28:21 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2019/10/06/1bx-minimal-css-framework-for-amp/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1570334428/1bx-screenshot_oqm0gr.png&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/1bx-screenshot_oqm0gr.png 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/1bx-screenshot_oqm0gr.png 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/1bx-screenshot_oqm0gr.png 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/1bx-screenshot_oqm0gr.png 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/1bx-screenshot_oqm0gr.png 320w&#34;
-      width=&#34;1440&#34;
-      height=&#34;766&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;ミニマルCSSフレームワーク「1BX」を試してみました&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1570334428/1bx-screenshot_oqm0gr.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/1bx-screenshot_oqm0gr.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/1bx-screenshot_oqm0gr.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/1bx-screenshot_oqm0gr.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/1bx-screenshot_oqm0gr.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/1bx-screenshot_oqm0gr.png 320w&#34;
+        width=&#34;1440&#34;
+        height=&#34;766&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;ミニマルCSSフレームワーク「1BX」を試してみました&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;ミニマルCSSフレームワーク「&lt;a href=&#34;https://1bx.uk/&#34;&gt;A Responsive CSS Grid for AMP | 1BX&lt;/a&gt;」を試してみました。&lt;/p&gt;
 &lt;aside&gt;
     &lt;div class=&#34;toc&#34;&gt;
@@ -264,20 +284,21 @@
       <pubDate>Fri, 22 Dec 2017 19:33:34 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2017/12/22/migration-hatena-diary-to-custom-domain-via-hatena-blog/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1514030618/hatenadiary_qoqemm.png&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/hatenadiary_qoqemm.png 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/hatenadiary_qoqemm.png 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/hatenadiary_qoqemm.png 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/hatenadiary_qoqemm.png 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/hatenadiary_qoqemm.png 320w&#34;
-      width=&#34;1024&#34;
-      height=&#34;512&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;はてなダイアリーからはてなブログ経由で独自ドメインのブログに記事を移行しました&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1514030618/hatenadiary_qoqemm.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/hatenadiary_qoqemm.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/hatenadiary_qoqemm.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/hatenadiary_qoqemm.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/hatenadiary_qoqemm.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/hatenadiary_qoqemm.png 320w&#34;
+        width=&#34;1024&#34;
+        height=&#34;512&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;はてなダイアリーからはてなブログ経由で独自ドメインのブログに記事を移行しました&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;今まで、はてなダイアリー(d.hatena.ne.jp.meganii)の記事は移行せずにそのまま残していました。しかし、Scrapboxのユーザー会に参加して過去コンテンツの重要性に気付き、今のブログに全て集約したいと考えました。&lt;/p&gt;
 &lt;p&gt;そこで、はてなブログを経由させて、独自ドメインのブログに記事を全て移行しました。&lt;/p&gt;
@@ -310,20 +331,21 @@
       <pubDate>Sun, 08 Jan 2017 15:58:45 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2017/01/08/static-site-generator-hugo/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511562368/yjhod8fty2uwipjwyiyt.png&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/yjhod8fty2uwipjwyiyt.png 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/yjhod8fty2uwipjwyiyt.png 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/yjhod8fty2uwipjwyiyt.png 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/yjhod8fty2uwipjwyiyt.png 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/yjhod8fty2uwipjwyiyt.png 320w&#34;
-      width=&#34;685&#34;
-      height=&#34;368&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511562368/yjhod8fty2uwipjwyiyt.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/yjhod8fty2uwipjwyiyt.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/yjhod8fty2uwipjwyiyt.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/yjhod8fty2uwipjwyiyt.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/yjhod8fty2uwipjwyiyt.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/yjhod8fty2uwipjwyiyt.png 320w&#34;
+        width=&#34;685&#34;
+        height=&#34;368&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;今、自分でブログ・サイトを構築するとしたら、どんな選択肢があるでしょうか？&lt;/p&gt;
 &lt;p&gt;さすがにHTMLを自分で手打ちするのは大変なので、なんらかのCMS(Content Management System コンテンツ管理システム)を利用することになりますが、そのCMSにもさまざまな種類があり、どれを選んだらよいのでしょうか？&lt;/p&gt;
 &lt;p&gt;私自身、CMSとしては&lt;a href=&#34;http://lokka.org/&#34;&gt;Lokka&lt;/a&gt;(Ruby), &lt;a href=&#34;https://ja.wordpress.org&#34;&gt;WordPress&lt;/a&gt;(PHP), &lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;(Ruby), &lt;a href=&#34;http://octopress.org/&#34;&gt;Octopress&lt;/a&gt;(Ruby)、&lt;a href=&#34;https://middlemanapp.com/jp/&#34;&gt;Middleman&lt;/a&gt;(Ruby)と利用してきました。&lt;/p&gt;
