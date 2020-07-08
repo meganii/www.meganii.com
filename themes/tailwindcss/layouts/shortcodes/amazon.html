@@ -23,11 +23,11 @@
 <div class="m-4 relative border border-grey-light rounded
             trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
             md:m-4 md:mx-auto
-            lg:flex lg:my-4 lg:mx-auto">
-    <div class="h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2">
+            lg:flex lg:my-4 lg:mx-auto z-0">
+    <div class="h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4">
         <amp-img class="contain" src="{{ $json.Images.Primary.Large.URL }}" alt="{{ $json.ItemInfo.Title.DisplayValue }}" layout="fill" />
     </div>
-    <div class="p-4 flex flex-col justify-between leading-normal">
+    <div class="p-4 relative flex flex-col justify-between leading-normal">
         <div class="mb-8 px-1">
             <div>{{ $json.ItemInfo.Title.DisplayValue }}</div>
             {{- if (or ( eq $json.ItemInfo.Classifications.ProductGroup.DisplayValue "Book") (eq $json.ItemInfo.Classifications.ProductGroup.DisplayValue "Digital Ebook Purchas")) -}}
@@ -43,5 +43,5 @@
             {{- with $json.ItemInfo.ContentInfo.PublicationDate.DisplayValue -}}<div>発売日: {{ . | dateFormat "2006.01.02" }}</div> {{- end -}}
         </div>
     </div>
-    <a href="{{ $json.DetailPageURL }}" class="block absolute inset-y-auto w-full h-full"></a>
+    <a href="{{ $json.DetailPageURL }}" class="block absolute top-0 left-0  w-full h-full"></a>
 </div>
