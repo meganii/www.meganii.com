@@ -1,5 +1,5 @@
 ---
-title: "データ準備におけるTableau DesktopとTableau Prep Builderの使い分け"
+title: "【Tableau】データ準備におけるTableau DesktopとTableau Prep Builderの使い分け"
 date: 2020-01-25T06:55:35+09:00
 lastmod: 2020-01-25T06:55:35+09:00
 comments: true

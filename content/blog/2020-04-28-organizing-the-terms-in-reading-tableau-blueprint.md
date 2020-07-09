@@ -1,5 +1,5 @@
 ---
-title: "「Tableau Blueprint」を読み進める上での用語整理"
+title: "【Tableau】「Tableau Blueprint」を読み進める上での用語整理"
 date: 2020-04-28T18:50:23+09:00
 lastmod: 2020-04-28T18:50:23+09:00
 category: ['Book']
