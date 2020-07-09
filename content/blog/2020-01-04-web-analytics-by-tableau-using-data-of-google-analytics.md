@@ -1,5 +1,5 @@
 ---
-title: "Google AnalyticsをデータソースとしてTableau Desktopでアクセス解析を行う"
+title: "【Tableau】Google AnalyticsをデータソースとしてTableau Desktopでアクセス解析を行う"
 date: 2020-01-04T10:35:50+09:00
 lastmod: 2020-01-04T10:35:50+09:00
 comments: true

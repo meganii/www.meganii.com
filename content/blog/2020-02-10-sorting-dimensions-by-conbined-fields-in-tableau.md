@@ -1,5 +1,5 @@
 ---
-title: "Tableauの「結合済みフィールド」(Combined Fields)を利用して任意のソート順を定義する"
+title: "【Tableau】「結合済みフィールド」(Combined Fields)を利用して任意のソート順を定義する"
 date: 2020-02-10T04:50:23+09:00
 lastmod: 2020-02-10T04:50:23+09:00
 comments: true
