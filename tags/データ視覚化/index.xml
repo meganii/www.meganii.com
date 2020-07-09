@@ -17,21 +17,20 @@
       <pubDate>Tue, 07 Jul 2020 06:03:03 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/07/07/what-is-data-visualization/</guid>
-      <description>&lt;div class=&#34;&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1594067846/what_is_datavisualization_deo9ga.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/what_is_datavisualization_deo9ga.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/what_is_datavisualization_deo9ga.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/what_is_datavisualization_deo9ga.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/what_is_datavisualization_deo9ga.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/what_is_datavisualization_deo9ga.jpg 320w&#34;
-        width=&#34;100&#34;
-        height=&#34;563&#34;
-        heights=&#34;(min-width:640px) 400px, 100%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;データビジュアライゼーション&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1594067846/what_is_datavisualization_deo9ga.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/what_is_datavisualization_deo9ga.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/what_is_datavisualization_deo9ga.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/what_is_datavisualization_deo9ga.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/what_is_datavisualization_deo9ga.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/what_is_datavisualization_deo9ga.jpg 320w&#34;
+      width=&#34;100&#34;
+      height=&#34;563&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;データビジュアライゼーション&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;&lt;code&gt;Data Visualization&lt;/code&gt;は、日本語だとそのまま「データビジュアライゼーション」や「データ視覚化」と呼ばれています。&lt;/p&gt;
 &lt;p&gt;このデータビジュアライゼーション（データ視覚化）とは何を指すのか。どんな意味で用いられるのか。データビジュアライゼーション（データ視覚化）を効果的に行うためにはどうすべきか。&lt;/p&gt;
 &lt;p&gt;このような疑問に自信を持って答えるために、下記2つの本を読んだのでまとめみます。&lt;/p&gt;
