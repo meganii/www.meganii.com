@@ -161,6 +161,16 @@
     </item>
     
     <item>
+      <title>Tableauで「階層」をもつ動的なフィルタを実装する</title>
+      <link>https://www.meganii.com/blog/2020/05/25/hierarchical-filters-in-tableau/</link>
+      <pubDate>Mon, 25 May 2020 23:30:31 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/05/25/hierarchical-filters-in-tableau/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Tableau&lt;/code&gt;で階層構造を持つフィールド（例えば、本部名、部門名などの部署名）に対してフィルタを実装する際、上層のフィルタに従い動的に下層の値が変更されれば便利だと思ったことはありませんか。&lt;/p&gt;
+&lt;p&gt;調べてみると、意外と簡単にできるということがわかったので、メモとして残しておきます。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>イベントレポート「組織全体の分析力を上げよう〜「Viewer」を巻き込むには？〜」</title>
       <link>https://www.meganii.com/blog/2020/05/20/jutg-spin-off-event-how-to-get-viewer-involved/</link>
       <pubDate>Wed, 20 May 2020 08:07:32 +0900</pubDate>
