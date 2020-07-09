@@ -6,11 +6,11 @@ comments: true
 category: ['Stationery']
 tags: ['万年筆','LAMY', '文房具','LAMY', 'safari']
 published: true
-img: "https://farm8.staticflickr.com/7491/15800656071_6da29ae104_s.jpg"
+img: "https://res.cloudinary.com/meganii/image/upload/v1594306054/15800656071_6da29ae104_blhdyd.jpg"
 slug: fountain-pen-cleaning
 ---
 
-初めて万年筆のインクを変えたとき、どのようにすればよいかわからなかったので、入れ替え方法を調べてみました。
+初めて万年筆のインクを変えるとき、どのようにすればよいかわからなかったので、入れ替え方法を調べてみました。
 今回は、色彩雫「朝顔」から色彩雫「月夜」にインク交換します。
 
 
@@ -43,7 +43,7 @@ slug: fountain-pen-cleaning
 ペン先から出てくるインクによって、色がゆらゆらと溶け出す様子はとても綺麗です。あんまり漬けすぎると、樹脂が水を吸ってしまいよくないとのことですので、適度に浸しておきます。
 
 
-- ペン先とコンバータつけて、お湯(水)を吸い上げ、ペン先に残ったインクを押し出す。
+- ペン先とコンバータつけて、お湯（水）を吸い上げ、ペン先に残ったインクを押し出す。
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1513938074/jf9meyppeloihkg73tbr.jpg" w="640" h="640" %}}
 
@@ -52,7 +52,7 @@ slug: fountain-pen-cleaning
 
 ### 4. 乾燥
 
-キッチンペーパー等で水気を抜き取り、乾燥させる
+キッチンペーパー等で水気を抜き取り、乾燥させます。
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1513938102/hnxbt3pkq46bdltvlvfy.jpg" w="640" h="640" %}}
 
@@ -69,14 +69,9 @@ slug: fountain-pen-cleaning
 
 ## 参考
 
-「万年筆と高級筆記具専門店｜NAGASAWA　PenStyle DEN」の動画とサイトを参考にさせていただきました。
+[万年筆の使い方・書き方・お手入れ方法・洗浄方法・おすすめ万年筆 \| ナガサワ文具センター](https://kobe-nagasawa.co.jp/fountainpen/)の手順を参考にさせていただきました。
 
-{{% youtube id="fN9WAHtxGHE" width="560" height="315" %}}
-
-
-[万年筆の使い方・書き方・お手入れ方法・洗浄方法](http://www.kobe-nagasawa.co.jp/fountainpen/)
-
-インクを変えるためだけにちょっと手間が必要な万年筆だけど、その作業をやってるだけで楽しいです。インクの色もたくさんの種類があるので、いろんなモノを試してみたいです。
+インクを変えるためだけにちょっと手間が必要な万年筆ですが、その作業をやってるだけで楽しいです。インクの色もたくさんの種類があるので、いろんなモノを試してみたいです。
 
 
 {{% amazon B000UTIL66 %}}
