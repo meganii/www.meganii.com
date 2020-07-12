@@ -4,7 +4,7 @@ date: 2018-12-22T10:44:01+09:00
 lastmod: ":git"
 comments: true
 category: ['Tech']
-tags: ['GitLab', 'CI/CD', 'GitLab Meetup Tokyo']
+tags: ['GitLab', 'CICD', 'GitLab Meetup Tokyo']
 published: true
 slug: gitlab-meetup-tokyo-number-12
 img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_160/v1545443513/2018-12-22-gitlab-meetup-tokyo_xy7flc.png
