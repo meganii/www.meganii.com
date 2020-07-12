@@ -4,7 +4,7 @@ date: 2017-07-23T08:19:02+09:00
 lastmod: 2017-07-23T08:19:02+09:00
 comments: true
 category: ['Tech']
-tags: ['Netlify','HTTP/2']
+tags: ['Netlify','HTTP2']
 published: true
 slug: http2-server-push-on-netlify
 img: https://farm5.staticflickr.com/4296/35297674803_dd5bd37b56_t.jpg
