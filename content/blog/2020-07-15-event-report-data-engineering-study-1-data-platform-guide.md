@@ -4,7 +4,7 @@ date: 2020-07-15T22:46:26+09:00
 lastmod: 2020-07-16T08:46:26+09:00
 published: true
 category: ["Tech"]
-tags: ["Data Engineering Study","Data"]
+tags: ["Data Engineering Study","Data", "イベントレポート", "event"]
 comment: true
 slug: "event-report-data-engineering-study-1-data-platform-guide"
 img: "https://res.cloudinary.com/meganii/image/upload/v1594863856/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png"
