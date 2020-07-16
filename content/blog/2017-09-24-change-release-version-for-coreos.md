@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['CoreOS']
 published: true
 slug: change-release-channels-for-coreos
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---
 
 現在、Conoha VPSにCoreOSを入れて運用していますが、CoreOS Stableだと`docker-compose`のversion 3記法が使えなかったので、えいやっとRelease ChannelsをAlphaに変更しました。

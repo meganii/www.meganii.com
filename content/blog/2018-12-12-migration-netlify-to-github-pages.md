@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['GitHub Pages', 'Netlify']
 published: true
 slug: migration-netlify-to-github-pages
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---
 
 [Netlify](https://scrapbox.io/meganii/Netlify)から[GitHub Pages](https://scrapbox.io/meganii/GitHub_Pages)に移行した。

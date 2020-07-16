@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Web Design', 'Blog', 'AMP', 'Hugo']
 published: true
 slug: 1bx-minimal-css-framework-for-amp
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1570334428/1bx-screenshot_oqm0gr.png" w="1440" h="766" alt="ミニマルCSSフレームワーク「1BX」を試してみました" %}}

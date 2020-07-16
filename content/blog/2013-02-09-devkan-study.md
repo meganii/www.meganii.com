@@ -5,7 +5,7 @@ category: ['Tech']
 tags: ['DevLOVE','勉強会', 'event', 'イベントレポート']
 published: true
 slug: devkan-study
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---
 
 2013/02/09（土）DevLOVE関西「勉強会勉強会」に参加してきた。 
