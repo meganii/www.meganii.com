@@ -7,10 +7,10 @@ category: ['Tech']
 tags: ['book', 'WebService']
 published: true
 slug: create-web-service
-img: "https://images-na.ssl-images-amazon.com/images/I/51jdbeo%2BrmL._SL160_.jpg"
+img: "https://m.media-amazon.com/images/I/51jdbeo+rmL.jpg"
 ---
 
-個人的に,ちょうど「Webサービスのつくり方」ってキーワードがアツかったので読んでみた。心に響いた部分を抜粋する。読んでいたら、何かWebサービスを作りたくなった。
+個人的にちょうど「Webサービスのつくり方」ってキーワードがアツかったので読んでみた。心に響いた部分を抜粋する。読んでいたら、何かWebサービスを作りたくなった。
 
 {{% amazon 4774154075 %}}
 
@@ -20,7 +20,7 @@ img: "https://images-na.ssl-images-amazon.com/images/I/51jdbeo%2BrmL._SL160_.jpg
 
 ## ぐだぐだ言ってないでコードを書けよ、ハゲ
 
-{{% img src="https://farm3.staticflickr.com/2689/4466482623_6aea29d90a_z.jpg" w="640" h="425" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1594888330/4466482623_6aea29d90a_z_rhauum.jpg" w="640" h="425" %}}
 <span>Code / Riebart</span>
 
 
@@ -42,7 +42,7 @@ img: "https://images-na.ssl-images-amazon.com/images/I/51jdbeo%2BrmL._SL160_.jpg
 
 ## なければつくる
 
-{{% img src="https://farm4.staticflickr.com/3887/14477908267_79bbdb0def_z.jpg" w="640" h="481" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1594888369/14477908267_79bbdb0def_z_aruuwp.jpg" w="640" h="481" %}}
 <span>wheels / jasleen_kaur</span>
 
 >車輪の再発明　・・・　ある目的を果たすためのライブラリや先行事例があるにもかかわらず、同じことを叶えるためについつい自分で作ってしまう行為。
@@ -54,7 +54,7 @@ img: "https://images-na.ssl-images-amazon.com/images/I/51jdbeo%2BrmL._SL160_.jpg
 
 ## 実装までにつくる「企画」の全て
 
-{{% img src="https://farm9.staticflickr.com/8262/8624484494_664924de8d_z.jpg" w="640" h="427" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1594888388/8624484494_664924de8d_z_jud1xw.jpg" w="640" h="427" %}}
 <span>180/365² Sin ideas / anieto2k</span>
 
 1. 哲学
@@ -116,7 +116,7 @@ iPadの場合、コンセプトは以下のような文章になる。
 ## やりたくなったこと
 
 - 何かWebサービスをつくる
-- Jekyll のプラグインをつくる
+- Jekyllのプラグインをつくる
 - さくらVPSをもっと使い倒す
 - Railsのテストを勉強する
 
