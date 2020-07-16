@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Bitly', 'JavaScript']
 published: true
 slug: bitly-api-migrating-from-v3
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---
 
 Bitly API v3までは以下の通り、access_tokenと共に短縮したいURLをリクエストパラメタに乗せて、GETリクエストを行う方法でした。
