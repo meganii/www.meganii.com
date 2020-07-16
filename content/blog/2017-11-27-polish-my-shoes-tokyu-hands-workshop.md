@@ -7,7 +7,7 @@ category: ['Life']
 tags: ['東急ハンズ','革靴','レザー']
 published: true
 slug: polish-my-shoes-tokyu-hands-workshop
-img: "https://res.cloudinary.com/meganii/image/upload/c_thumb,f_auto,q_auto,w_75/v1514034054/thumbnail_shoes.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,w_500/v1514702295/d-ng-tr-n-qu-c-104956_dqydcf.jpg"
 ---
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1514702295/d-ng-tr-n-qu-c-104956_dqydcf.jpg" w="3000" h="1687" %}}
@@ -23,17 +23,16 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_thumb,f_auto,q_auto,w_75
 
 今回の講師を担当いただいたのは、M.mowbrayの方です。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/c_thumb,f_auto,g_custom,h_300,q_auto,w_300/v1512185851/shoes_care_guide_qezexg.jpg" w="300" h="300" layout="fixed" class="center" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1512185851/shoes_care_guide_qezexg.jpg" w="960" h="1280" %}}
+
+
+{{% toc %}}
 
 <!--more-->
 {{% googleadsense %}}
 
 
-
-
-# 靴のお手入れ方法
-
-## 手順は？
+## 靴のお手入れ方法
 
 お手入れの手順としては基本的に以下の通りです。それぞれの工程のポイントを聞いた内容を踏まえて簡単に残しておきます。
 
@@ -92,7 +91,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_thumb,f_auto,q_auto,w_75
 
 次に、いよいよシュークリームを塗り込みます。気をつけるポイントは、
 
-- **クリームをつけすぎないこと(ブラシに米粒２つ、３つが目安)**
+- **クリームをつけすぎないこと（ブラシに米粒２つ、３つが目安）**
 - **塗り込むときは、布ではなく、ブラシで薄く伸ばすこと！**
 
 です。
@@ -106,7 +105,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_thumb,f_auto,q_auto,w_75
 
 布で塗り込んでもよいそうですが、布が油分を吸い込んでしまうので、効率的にケアをするのであれば、ブラシを使うのがおすすめとのことでした。
 
-講習の中では、以下の丸いブラシ(ペネトレィトブラシ)を使って円を描きながら薄く伸ばしていきました。この丸いブラシはかなり使いやすかったので買ってもいいかなってちょっと思いました。
+講習の中では、以下の丸いブラシ（ペネトレィトブラシ）を使って円を描きながら薄く伸ばしていきました。この丸いブラシはかなり使いやすかったので買ってもいいかなってちょっと思いました。
 
 {{% amazon B01HLR29TY %}}
 
