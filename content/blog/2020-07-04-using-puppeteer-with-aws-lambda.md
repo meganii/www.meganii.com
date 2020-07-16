@@ -7,7 +7,7 @@ category: ["Tech"]
 tags: ["puppeteer","lambda","AWS"]
 comment: true
 slug: "using-puppeteer-with-aws-lambda"
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---
 
 

@@ -7,7 +7,7 @@ category: ["Tech"]
 tags: ["macOS", "Xcode"]
 comment: true
 slug: "using-brew-without-xcode-on-macos"
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---
 
 ふと気づくと`Xcode`関連ファイルがやたら容量食っていたため、一度アンインストールした後に再インストールを試してみました。

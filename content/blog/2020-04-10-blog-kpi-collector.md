@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Blog', 'Google Apps Script', 'ブログメンタリング']
 published: true
 slug: collecting-blog-kpi-with-google-apps-script-blog-kpi-collector
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---
 
 ブログメンタリング期間中は、事前に設定したブログKPI（ページビュー数、ユーザ数、Twitterフォロワーなど）を報告するため、毎週日曜日に手動で取得していました。

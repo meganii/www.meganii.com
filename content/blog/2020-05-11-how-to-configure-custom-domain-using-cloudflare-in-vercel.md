@@ -6,7 +6,7 @@ published: true
 category: ["Tech"]
 tags: ["Cloudflare", "Vercel", 'Gatsby.js']
 slug: "how-to-configure-custom-domain-using-cloudflare-in-vercel"
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---
 
  `Cloudflare`のネームサーバを利用して`Vercel`にカスタムドメインを設定する際、キャッシュがクリアされない、SSL接続が確立しないなど苦労した点がありましたので、備忘録として残しておきます。一言でいうと自分の設定漏れでした。
