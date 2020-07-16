@@ -6,7 +6,7 @@ category: ['Tech']
 tags: ['CircleCI','Blog', 'Hugo']
 published: true
 slug: circle-ci-nightly-build
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514036568/thumbnail_hugo_icon.png"
+img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png"
 ---
 
 前回、HugoのData-driven contenを試した。
