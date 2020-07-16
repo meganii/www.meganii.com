@@ -4,10 +4,10 @@ date: 2020-03-23T06:33:37+09:00
 lastmod: 2020-03-23T06:33:37+09:00
 comments: true
 category: ['Tech']
-tags: ['Tableau', 'DATA Saber']
+tags: ['Tableau', 'DATA Saber', 'ふりかえり']
 published: true
 slug: "a-look-back-at-the-data-saber-certification-program"
-img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v1584785388/datasaber_y5ziiu.png
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,w_500/v1584785388/datasaber_y5ziiu.png"
 ---
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1584785388/datasaber_y5ziiu.png" w="1440" h="798" alt="DATA Saber認定試験" %}}
