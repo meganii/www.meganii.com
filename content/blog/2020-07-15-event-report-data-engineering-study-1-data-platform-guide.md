@@ -88,9 +88,9 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1594863856/e337ed5003a700
 
 最後に「どう作るか」ですが、データ基盤の実装においては次の4つの技術要素を企業体のビジネスやニーズに合わせて選定する必要があります。
 
-> 1. ETL(Extract Transformation Load tool)
-> 2. DWH(Data Whare House)
-> 3. BI(Business Interigence)
+> 1. ETL(Extract/Transform/Load)
+> 2. DWH(Data Warehouse)
+> 3. BI(Business Intelligence)
 > 4. Workflow Engine
 
 以上のことから「事業を成長させるデータ基盤」を作る上で大切なことは以下の通りです。
