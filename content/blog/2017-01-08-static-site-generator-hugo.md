@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Hugo','Blog','Jekyll','静的サイトジェネレータ']
 published: true
 slug: static-site-generator-hugo
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514036568/thumbnail_hugo_icon.png"
+img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png"
 ---
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511562368/yjhod8fty2uwipjwyiyt.png" w="685" h="368" %}}

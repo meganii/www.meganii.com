@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Hugo','Markdown']
 published: true
 slug: hugo-markdown-href-target-blank
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514036568/thumbnail_hugo_icon.png"
+img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png"
 ---
 
 HugoのMarkdownエンジンは、[blackfriday][]を利用しているため、そのオプションに`hrefTargetBlank`があります。この`hrefTargetBlank`オプションを有効にすれば、外部リンクを別タブ、別ウィンドウで開く`<a href="" target="_blank">`をMarkdownで実現できる。
