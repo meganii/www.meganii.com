@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Hugo']
 published: true
 slug: how-to-install-an-older-version-of-a-homebrew-package
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---
 
 Homebrewで入れたHugoを、「`brew upgrade hugo`」でv0.60.1にアップグレードしたところ、まともにビルドできなくなってしまった。これでは困ると思い、前のバージョンをインストールしようと思ったがやり方が分からなかったので、調べてみました。

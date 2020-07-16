@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Conoha','VPS','CoreOS']
 published: true
 slug: installing-coreos-with-conoha-vps
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---
 
 [ConoHaのVPSにCoreOSをインストール \- Qiita](http://qiita.com/miyasakura_/items/4d81dc5fe6f9de0f0dd5)を参考に<a href="https://px.a8.net/svt/ejp?a8mat=2TGARC+63OZ02+50+4YR6O2" target="_blank" rel="nofollow">Conoha VPS</a>

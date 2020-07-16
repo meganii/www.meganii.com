@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Visual Studio Code', 'macOS', 'VSCode']
 published: true
 slug: paste-from-clipboard
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---
 
 `Visual Studio Code Extension`を作成するために、調べた結果をまとめます。

@@ -7,7 +7,7 @@ category: ['Tech']
 tags: ['Cloudinary']
 published: true
 slug: cloudinary
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---
 
 画像ホスティング、画像変換サービスのCloudinaryを調べたときのメモ。
