@@ -2,10 +2,11 @@
 <html ⚡ lang='{{ .Site.LanguageCode }}' class="text-gray-800">
 {{- partial "head.html" . -}}
 <body>
+  <amp-auto-ads type="adsense" data-ad-client="ca-pub-5340212676785058"></amp-auto-ads>
   {{ if ne (getenv "HUGO_ENV") "DEV" }}
-    {{ with .Site.Params.GoogleAnalytics }}
-  {{ partial "analytics.html" . }}
-  {{ end }}
+    {{- with .Site.Params.GoogleAnalytics -}}
+      {{- partial "analytics.html" . -}}
+    {{- end -}}
   {{ end }}
   <div class="container mx-auto flex flex-col min-h-screen">
     {{- partial "header.html" . -}}
