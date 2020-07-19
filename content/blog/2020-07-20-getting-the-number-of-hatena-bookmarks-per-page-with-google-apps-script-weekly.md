@@ -13,13 +13,14 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v159
 7/20現在、[Blog KPI Collector（GAS）で各種KPIを自動取得する](https://www.meganii.com/blog/2020/04/10/collecting-blog-kpi-with-google-apps-script-blog-kpi-collector/)で設定した`Google Apps Script`でサイト全体のブックマーク数を取得しています。
 
 「はてなブックマーク数」の推移を追っていく際に、全体としてどのぐらい増えたのかは分かるのですが、どのページで増えたのかが分かりません。
-そこで、ページ毎のはてなブックマーク数も合わせて取得するようにします。
+そこで、ページ毎のはてなブックマーク数も合わせて取得するようにしました。
 
 {{% toc %}}
 
 <!--more-->
 {{% googleadsense %}}
 
+## ページ毎のはてなブックマーク数を取得する
 
 ページ毎のはてなブックマーク数は、以下のAPIを利用することで簡単に取得できます。
 
@@ -35,7 +36,9 @@ function getBookmarks(url) {
 }
 ```
 
-以下の`Google Apps Script`を毎週実行して、結果を溜めてみることにします。
+## サイトマップからURLを抽出して逐次はてなブックマーク数を取得する
+
+以下の`Google Apps Script`を毎週実行して、結果を貯めてみることにします。
 
 sitemap.xmlには、通常の記事ページ以外にもタグページやカテゴリページのURLも含まれています。
 そのため下記の通りURLが`https://www.meganii.com/blog`で始まるもの、かつ、被はてなブックマークが0よりも大きいものを出力するようにしています。
