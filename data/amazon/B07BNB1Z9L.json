@@ -1,0 +1,79 @@
+{
+    "ASIN": "B07BNB1Z9L",
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B07BNB1Z9L?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/61-EfNRESDL.jpg",
+                "Width": 387
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/61-EfNRESDL._SL160_.jpg",
+                "Width": 124
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/61-EfNRESDL._SL75_.jpg",
+                "Width": 58
+            }
+        }
+    },
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Contributors": [
+                {
+                    "Locale": "ja_JP",
+                    "Name": "高橋宣成",
+                    "Role": "著",
+                    "RoleType": "author"
+                }
+            ],
+            "Manufacturer": {
+                "DisplayValue": "秀和システム",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
+        },
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "Kindle版",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Digital Ebook Purchas",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
+        },
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 465,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2018-01-01T00:00:00.000Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
+        },
+        "Title": {
+            "DisplayValue": "詳解！ Google Apps Script完全入門 ～Google Apps & G Suiteの最新プログラミングガイド～",
+            "Label": "Title",
+            "Locale": "ja_JP"
+        }
+    }
+}
