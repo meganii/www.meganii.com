@@ -18,20 +18,21 @@
       
       <guid>https://www.meganii.com/blog/2018/12/27/duet-display/</guid>
       <description>&lt;p&gt;「Duet Display」を利用して、iPadをMacBook Airの外部ディスプレイにしました！！&lt;/p&gt;
-&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1545912024/IMG_3354_mitbmm.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG_3354_mitbmm.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG_3354_mitbmm.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_3354_mitbmm.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_3354_mitbmm.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_3354_mitbmm.jpg 320w&#34;
-      width=&#34;4032&#34;
-      height=&#34;3024&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;「Duet Display」を利用して余っていたiPadを外部ディスプレイにする&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+&lt;div class=&#34;&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1545912024/IMG_3354_mitbmm.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG_3354_mitbmm.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG_3354_mitbmm.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_3354_mitbmm.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_3354_mitbmm.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_3354_mitbmm.jpg 320w&#34;
+        width=&#34;4032&#34;
+        height=&#34;3024&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;「Duet Display」を利用して余っていたiPadを外部ディスプレイにする&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;念願のデュアルディスプレイ！！&lt;/p&gt;
 &lt;p&gt;定価は2,400円だが、今なら(2018/12/27現在)半額セールが行われており、なんと1,200円！！これは買うしかないということで、クリスマスプレゼントとして購入しました。&lt;/p&gt;</description>
     </item>

@@ -3,20 +3,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <meta name="theme-color" content="#2196f3">
-    <meta name="description" content="DBMSにおいて、索引（インデックス）が重要なことは認識している。 しかし、次の点の理解が浅かったため、参考図書・参考URLを元に索引設計の心得をまとめておく。 そもそもどんな索引にはどんな種類があるのか どんな場合に索引をつければよいのか 索引をつけた場合のデメリットにはどんなものがあるのか ">
+    <meta name="description" content="DBMSにおいて、索引（インデックス）が重要なことは認識している。 しかし、次の点の理解が浅かったため、参考図書・参考URLを元に索引設計の心得をまとめておく。 そもそもどんな索引にはどんな種類があるのか どんな場合に索引をつければよいのか 索引をつけた場合のデメリットにはどんなものがあるのか   目次  インデックスの特性  1. 事前に作成しておく必要がある 2. 検索に必要な情報が含まれるインデックスを（RDBが）自動的に使用する 3. インデックスはメンテナンスが必要   インデックスはどこに、どれだけ作成すべきか  インデックスをつけるべき箇所 インデックスを避けるべき箇所   索引の種類  1. Bツリー索引 2. ビットマップ索引   作成する列の候補  1. 一意性の高い索引を 2. 使用頻度の高い列を先頭に 3. 選択率の低い列を先頭に 4. 非ユニーク索引にはキー圧縮   候補  頻繁にWHERE句の比較条件で使用されている選択率の低い列 頻繁に結合が行われている列 頻繁にソートされている列 頻繁に更新されていない列   結合の種類  1. ネステッド・ループ結合 2. ソート/マージ結合 3. ハッシュ結合   用語説明  カーディナリティ   参考 参考図書    ">
 
 <meta property="og:title" content="索引設計についてのまとめ - SIS Lab">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://www.meganii.com/blog/2013/10/02/index/">
 <meta property="og:image" content="https://images-na.ssl-images-amazon.com/images/I/51sApXJW7HL._SL160_.jpg">
 <meta property="og:site_name" content="SIS Lab">
-<meta property="og:description" content="DBMSにおいて、索引（インデックス）が重要なことは認識している。 しかし、次の点の理解が浅かったため、参考図書・参考URLを元に索引設計の心得をまとめておく。 そもそもどんな索引にはどんな種類があるのか どんな場合に索引をつければよいのか 索引をつけた場合のデメリットにはどんなものがあるのか ">
+<meta property="og:description" content="DBMSにおいて、索引（インデックス）が重要なことは認識している。 しかし、次の点の理解が浅かったため、参考図書・参考URLを元に索引設計の心得をまとめておく。 そもそもどんな索引にはどんな種類があるのか どんな場合に索引をつければよいのか 索引をつけた場合のデメリットにはどんなものがあるのか   目次  インデックスの特性  1. 事前に作成しておく必要がある 2. 検索に必要な情報が含まれるインデックスを（RDBが）自動的に使用する 3. インデックスはメンテナンスが必要   インデックスはどこに、どれだけ作成すべきか  インデックスをつけるべき箇所 インデックスを避けるべき箇所   索引の種類  1. Bツリー索引 2. ビットマップ索引   作成する列の候補  1. 一意性の高い索引を 2. 使用頻度の高い列を先頭に 3. 選択率の低い列を先頭に 4. 非ユニーク索引にはキー圧縮   候補  頻繁にWHERE句の比較条件で使用されている選択率の低い列 頻繁に結合が行われている列 頻繁にソートされている列 頻繁に更新されていない列   結合の種類  1. ネステッド・ループ結合 2. ソート/マージ結合 3. ハッシュ結合   用語説明  カーディナリティ   参考 参考図書    ">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:site" content="SIS Lab">
 <meta name="twitter:url" content="https://www.meganii.com/blog/2013/10/02/index/">
 <meta name="twitter:title" content="索引設計についてのまとめ - SIS Lab">
-<meta name="twitter:description" content="DBMSにおいて、索引（インデックス）が重要なことは認識している。 しかし、次の点の理解が浅かったため、参考図書・参考URLを元に索引設計の心得をまとめておく。 そもそもどんな索引にはどんな種類があるのか どんな場合に索引をつければよいのか 索引をつけた場合のデメリットにはどんなものがあるのか ">
+<meta name="twitter:description" content="DBMSにおいて、索引（インデックス）が重要なことは認識している。 しかし、次の点の理解が浅かったため、参考図書・参考URLを元に索引設計の心得をまとめておく。 そもそもどんな索引にはどんな種類があるのか どんな場合に索引をつければよいのか 索引をつけた場合のデメリットにはどんなものがあるのか   目次  インデックスの特性  1. 事前に作成しておく必要がある 2. 検索に必要な情報が含まれるインデックスを（RDBが）自動的に使用する 3. インデックスはメンテナンスが必要   インデックスはどこに、どれだけ作成すべきか  インデックスをつけるべき箇所 インデックスを避けるべき箇所   索引の種類  1. Bツリー索引 2. ビットマップ索引   作成する列の候補  1. 一意性の高い索引を 2. 使用頻度の高い列を先頭に 3. 選択率の低い列を先頭に 4. 非ユニーク索引にはキー圧縮   候補  頻繁にWHERE句の比較条件で使用されている選択率の低い列 頻繁に結合が行われている列 頻繁にソートされている列 頻繁に更新されていない列   結合の種類  1. ネステッド・ループ結合 2. ソート/マージ結合 3. ハッシュ結合   用語説明  カーディナリティ   参考 参考図書    ">
 <meta name="twitter:image" content="https://images-na.ssl-images-amazon.com/images/I/51sApXJW7HL._SL160_.jpg">
 
 
@@ -76,8 +76,8 @@
     "mainEntityOfPage": "https://www.meganii.com/blog/2013/10/02/index/",
     "headline": "索引設計についてのまとめ",
     "datePublished": "2013-10-02T21:45:00JST",
-    "dateModified": "2020-04-04T16:23:06JST",
-    "description": "DBMSにおいて、索引（インデックス）が重要なことは認識している。 しかし、次の点の理解が浅かったため、参考図書・参考URLを元に索引設計の心得をまとめておく。 そもそもどんな索引にはどんな種類があるのか どんな場合に索引をつければよいのか 索引をつけた場合のデメリットにはどんなものがあるのか ",
+    "dateModified": "2020-07-20T21:32:23JST",
+    "description": "DBMSにおいて、索引（インデックス）が重要なことは認識している。 しかし、次の点の理解が浅かったため、参考図書・参考URLを元に索引設計の心得をまとめておく。 そもそもどんな索引にはどんな種類があるのか どんな場合に索引をつければよいのか 索引をつけた場合のデメリットにはどんなものがあるのか   目次  インデックスの特性  1. 事前に作成しておく必要がある 2. 検索に必要な情報が含まれるインデックスを（RDBが）自動的に使用する 3. インデックスはメンテナンスが必要   インデックスはどこに、どれだけ作成すべきか  インデックスをつけるべき箇所 インデックスを避けるべき箇所   索引の種類  1. Bツリー索引 2. ビットマップ索引   作成する列の候補  1. 一意性の高い索引を 2. 使用頻度の高い列を先頭に 3. 選択率の低い列を先頭に 4. 非ユニーク索引にはキー圧縮   候補  頻繁にWHERE句の比較条件で使用されている選択率の低い列 頻繁に結合が行われている列 頻繁にソートされている列 頻繁に更新されていない列   結合の種類  1. ネステッド・ループ結合 2. ソート/マージ結合 3. ハッシュ結合   用語説明  カーディナリティ   参考 参考図書    ",
     "author": {
       "@type": "Person",
       "name": "meganii"
@@ -197,7 +197,7 @@
     <section class="">
         <h1 class="text-4xl mt-4">索引設計についてのまとめ</h1>
         <div class="text-sm">
-            <span class="mr-1">更新日:2020.04.04</span>
+            <span class="mr-1">更新日:2020.07.20</span>
             <span class="">作成日:2013.10.02</span>
         </div>
         <div class="text-sm mt-1">
@@ -215,6 +215,64 @@
 <li>どんな場合に索引をつければよいのか</li>
 <li>索引をつけた場合のデメリットにはどんなものがあるのか</li>
 </ul>
+<aside>
+    <div class="toc">
+    <header><h2 class="">目次</h2></header>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#インデックスの特性">インデックスの特性</a>
+      <ul>
+        <li><a href="#1-事前に作成しておく必要がある">1. 事前に作成しておく必要がある</a></li>
+        <li><a href="#2-検索に必要な情報が含まれるインデックスをrdbが自動的に使用する">2. 検索に必要な情報が含まれるインデックスを（RDBが）自動的に使用する</a></li>
+        <li><a href="#3-インデックスはメンテナンスが必要">3. インデックスはメンテナンスが必要</a></li>
+      </ul>
+    </li>
+    <li><a href="#インデックスはどこにどれだけ作成すべきか">インデックスはどこに、どれだけ作成すべきか</a>
+      <ul>
+        <li><a href="#インデックスをつけるべき箇所">インデックスをつけるべき箇所</a></li>
+        <li><a href="#インデックスを避けるべき箇所">インデックスを避けるべき箇所</a></li>
+      </ul>
+    </li>
+    <li><a href="#索引の種類">索引の種類</a>
+      <ul>
+        <li><a href="#1-bツリー索引">1. Bツリー索引</a></li>
+        <li><a href="#2-ビットマップ索引">2. ビットマップ索引</a></li>
+      </ul>
+    </li>
+    <li><a href="#作成する列の候補">作成する列の候補</a>
+      <ul>
+        <li><a href="#1-一意性の高い索引を">1. 一意性の高い索引を</a></li>
+        <li><a href="#2-使用頻度の高い列を先頭に">2. 使用頻度の高い列を先頭に</a></li>
+        <li><a href="#3-選択率の低い列を先頭に">3. 選択率の低い列を先頭に</a></li>
+        <li><a href="#4-非ユニーク索引にはキー圧縮">4. 非ユニーク索引にはキー圧縮</a></li>
+      </ul>
+    </li>
+    <li><a href="#候補">候補</a>
+      <ul>
+        <li><a href="#頻繁にwhere句の比較条件で使用されている選択率の低い列">頻繁にWHERE句の比較条件で使用されている選択率の低い列</a></li>
+        <li><a href="#頻繁に結合が行われている列">頻繁に結合が行われている列</a></li>
+        <li><a href="#頻繁にソートされている列">頻繁にソートされている列</a></li>
+        <li><a href="#頻繁に更新されていない列">頻繁に更新されていない列</a></li>
+      </ul>
+    </li>
+    <li><a href="#結合の種類">結合の種類</a>
+      <ul>
+        <li><a href="#1-ネステッドループ結合">1. ネステッド・ループ結合</a></li>
+        <li><a href="#2-ソートマージ結合">2. ソート/マージ結合</a></li>
+        <li><a href="#3-ハッシュ結合">3. ハッシュ結合</a></li>
+      </ul>
+    </li>
+    <li><a href="#用語説明">用語説明</a>
+      <ul>
+        <li><a href="#カーディナリティ">カーディナリティ</a></li>
+      </ul>
+    </li>
+    <li><a href="#参考">参考</a></li>
+    <li><a href="#参考図書">参考図書</a></li>
+  </ul>
+</nav>
+    </div>
+</aside>
 <p><amp-ad
 media="(max-width: 480px)"
 width="100vw"
@@ -239,19 +297,27 @@ data-ad-slot="4566541958">
 <h3 id="1-事前に作成しておく必要がある">1. 事前に作成しておく必要がある</h3>
 <p>表が大きい場合、作成にはそれなりの時間が掛かり、インデックスのためにディスクを消費する。</p>
 <h3 id="2-検索に必要な情報が含まれるインデックスをrdbが自動的に使用する">2. 検索に必要な情報が含まれるインデックスを（RDBが）自動的に使用する</h3>
-<p>検索に必要な列（=WHERE句で書かれた列）</p>
+<ul>
+<li>検索に必要な列（=WHERE句で書かれた列）
 <ul>
 <li>条件検索の列</li>
 <li>ジョインのターゲット列</li>
 </ul>
+</li>
+</ul>
 <h3 id="3-インデックスはメンテナンスが必要">3. インデックスはメンテナンスが必要</h3>
-<p>表のデータが更新されると、インデックスは必ず（自動的に）更新される。そのため、インデックスがあることにより、検索は早くなるが、更新処理（INSERT, UPDATE, DELETE)は遅くなる。</p>
-<pre><code>INSERT,UPDATE,DELETE時のインデックスのメンテナンス処理の概要について。
-新しい行の追加 リーフブロックへ索引エントリを追加する
-行の削除 リーフブロックから索引エントリを削除する
-索引列の列値の更新 リーフブロックから古い索引エントリを削除し、新しい列値に対応したリーフブロックに索引エントリを追加する
-[インデックスをタクサン作ったときINSERT,UPDATE,DELETEは遅くなるか - kagamihogeのblog](http://d.hatena.ne.jp/kagamihoge/20130817/1376707339)
-</code></pre><p>ORACLEの場合、UPDATEのときは、DELETE⇛INSERTになるためより時間が掛かる。</p>
+<p>表のデータが更新されると、インデックスは必ず（自動的に）更新される。
+そのため、インデックスがあることにより、検索は早くなるが、更新処理（INSERT, UPDATE, DELETE)は遅くなる。</p>
+<blockquote>
+<p>INSERT、UPDATE、DELETE時のインデックスのメンテナンス処理の概要について。</p>
+<ul>
+<li><strong>新しい行の追加</strong> リーフブロックへ索引エントリを追加する</li>
+<li><strong>行の削除</strong> リーフブロックから索引エントリを削除する</li>
+<li><strong>索引列の列値の更新</strong> リーフブロックから古い索引エントリを削除し、新しい列値に対応したリーフブロックに索引エントリを追加する</li>
+</ul>
+<p><a href="http://d.hatena.ne.jp/kagamihoge/20130817/1376707339">インデックスをタクサン作ったときINSERT,UPDATE,DELETEは遅くなるか - kagamihogeのblog</a></p>
+</blockquote>
+<p>ORACLEの場合、UPDATEのときは、DELETE⇛INSERTになるためより時間が掛かる。</p>
 <h2 id="インデックスはどこにどれだけ作成すべきか">インデックスはどこに、どれだけ作成すべきか</h2>
 <h3 id="インデックスをつけるべき箇所">インデックスをつけるべき箇所</h3>
 <ul>
@@ -266,18 +332,12 @@ data-ad-slot="4566541958">
 <li>カーディナリティが低い列（フラグ列など）</li>
 </ul>
 <h2 id="索引の種類">索引の種類</h2>
-<ol>
-<li>
-<p>Bツリー索引
-カーディナリティが高い、定型のSQL文の場合に用いる。
-ビットマップ索引のようにビットマップからROWIDに変換する必要がないのでダイレクトにデータにアクセスできる（データブロックへのアクセスは速い）。ただし、索引を論理演算（AND, OR）で結合することはできないので非定型のSQL文にはあまり向かない。</p>
-</li>
-<li>
-<p>ビットマップ索引
-カーディナリティが低い場合に用いる。
-非定型のSQL文に対しては索引を論理演算で結合できるので、複数索引の組合せを気にする必要がない（複数索引を持つ必要がない）。</p>
-</li>
-</ol>
+<h3 id="1-bツリー索引">1. Bツリー索引</h3>
+<p>カーディナリティが高い、定型のSQL文の場合に用いる。</p>
+<p>ビットマップ索引のようにビットマップからROWIDに変換する必要がないのでダイレクトにデータにアクセスできる（データブロックへのアクセスは速い）。ただし、索引を論理演算（AND, OR）で結合することはできないので非定型のSQL文にはあまり向かない。</p>
+<h3 id="2-ビットマップ索引">2. ビットマップ索引</h3>
+<p>カーディナリティが低い場合に用いる。</p>
+<p>非定型のSQL文に対しては索引を論理演算で結合できるので、複数索引の組合せを気にする必要がない（複数索引を持つ必要がない）。</p>
 <p><a href="https://blogs.oracle.com/oracle4engineer/entry/oracle_database_-_b">Oracle Databaseの索引（インデックス）の種類 - Bツリー、ビットマップ、索引構成表、索引クラスタ（ハッシュ・クラスタ）</a></p>
 <h2 id="作成する列の候補">作成する列の候補</h2>
 <h3 id="1-一意性の高い索引を">1. 一意性の高い索引を</h3>
@@ -317,7 +377,7 @@ NULLが存在する列のBツリー索引では効果がない（使用されな
 <p>ソート/マージ結合に比べて、事前のソート処理が不要となるため効率的な結合方法。</p>
 <p><a href="https://www.atmarkit.co.jp/ait/articles/0408/25/news101.html">SQLチューニングの必須知識を総ざらい（後編） (1/3)：Oracle SQLチューニング講座（3） - ＠IT</a></p>
 <p>結合のアルゴリズムについては、以下の記事で説明する。
-<a href="https://www.meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/">[SQL実践入門]結合のアルゴリズム Nested Loops, Hash, Sort Merge - SIS Lab</a></p>
+<a href="https://www.meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/">[SQL実践入門]結合のアルゴリズム Nested Loops, Hash, Sort Merge</a></p>
 <h2 id="用語説明">用語説明</h2>
 <h3 id="カーディナリティ">カーディナリティ</h3>
 <p>レコード中の一意な値の個数を指す。例えば、性別データ（男、女）のように値の種類が少ない場合には、カーディナリティが低いという。逆に社員番号のように、ほとんどの値が一意である場合は、カーディナリティが高いという。
@@ -696,13 +756,13 @@ NULLが存在する列のBツリー索引では効果がない（使用されな
                 
                 <a class="" href="https://www.meganii.com/tags/%E5%B0%B1%E6%B4%BB/">就活(26)</a>
                 
-                <a class="" href="https://www.meganii.com/tags/hugo/">Hugo(25)</a>
-                
                 <a class="" href="https://www.meganii.com/tags/book/">book(25)</a>
                 
-                <a class="" href="https://www.meganii.com/tags/ruby/">Ruby(20)</a>
+                <a class="" href="https://www.meganii.com/tags/hugo/">Hugo(25)</a>
                 
                 <a class="" href="https://www.meganii.com/tags/blog/">Blog(20)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/ruby/">Ruby(20)</a>
                 
                 <a class="" href="https://www.meganii.com/tags/event/">event(19)</a>
                 
@@ -710,9 +770,9 @@ NULLが存在する列のBツリー索引では効果がない（使用されな
                 
                 <a class="" href="https://www.meganii.com/tags/%E7%A0%94%E7%A9%B6/">研究(15)</a>
                 
-                <a class="" href="https://www.meganii.com/tags/tableau/">Tableau(14)</a>
-                
                 <a class="" href="https://www.meganii.com/tags/javascript/">JavaScript(14)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/tableau/">Tableau(14)</a>
                 
                 <a class="" href="https://www.meganii.com/tags/programming/">Programming(13)</a>
                 
@@ -720,15 +780,15 @@ NULLが存在する列のBツリー索引では効果がない（使用されな
                 
                 <a class="" href="https://www.meganii.com/tags/evernote/">Evernote(10)</a>
                 
-                <a class="" href="https://www.meganii.com/tags/%E5%90%8D%E5%A4%A7/">名大(10)</a>
-                
                 <a class="" href="https://www.meganii.com/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88/">イベントレポート(10)</a>
                 
-                <a class="" href="https://www.meganii.com/tags/%E3%83%87%E3%83%96%E3%82%B5%E3%83%9F/">デブサミ(9)</a>
+                <a class="" href="https://www.meganii.com/tags/%E5%90%8D%E5%A4%A7/">名大(10)</a>
                 
                 <a class="" href="https://www.meganii.com/tags/%E6%97%85%E8%A1%8C%E8%A8%98/">旅行記(9)</a>
                 
                 <a class="" href="https://www.meganii.com/tags/mac/">Mac(9)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/%E3%83%87%E3%83%96%E3%82%B5%E3%83%9F/">デブサミ(9)</a>
                 
                 <a class="" href="https://www.meganii.com/tags/%E3%83%95%E3%82%A1%E3%82%B7%E3%83%AA%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/">ファシリテーション(9)</a>
                 
@@ -736,27 +796,27 @@ NULLが存在する列のBツリー索引では効果がない（使用されな
                 
                 <a class="" href="https://www.meganii.com/tags/java/">Java(8)</a>
                 
+                <a class="" href="https://www.meganii.com/tags/%E5%A4%A7%E9%98%AA/">大阪(8)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/ubuntu/">Ubuntu(8)</a>
+                
                 <a class="" href="https://www.meganii.com/tags/%E5%90%8D%E5%8F%A4%E5%B1%8B/">名古屋(8)</a>
                 
                 <a class="" href="https://www.meganii.com/tags/meetup/">Meetup(8)</a>
                 
-                <a class="" href="https://www.meganii.com/tags/ubuntu/">Ubuntu(8)</a>
-                
-                <a class="" href="https://www.meganii.com/tags/%E5%A4%A7%E9%98%AA/">大阪(8)</a>
+                <a class="" href="https://www.meganii.com/tags/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2/">キャリア(7)</a>
                 
                 <a class="" href="https://www.meganii.com/tags/design/">Design(7)</a>
-                
-                <a class="" href="https://www.meganii.com/tags/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2/">キャリア(7)</a>
                 
                 <a class="" href="https://www.meganii.com/tags/english/">English(7)</a>
                 
                 <a class="" href="https://www.meganii.com/tags/db/">DB(6)</a>
                 
-                <a class="" href="https://www.meganii.com/tags/movie/">movie(6)</a>
-                
                 <a class="" href="https://www.meganii.com/tags/travel/">travel(6)</a>
                 
                 <a class="" href="https://www.meganii.com/tags/electron/">Electron(6)</a>
+                
+                <a class="" href="https://www.meganii.com/tags/movie/">movie(6)</a>
                 
                 
                 
