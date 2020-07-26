@@ -1,5 +1,5 @@
 ---
-title: "【レビュー】iPad Pro 11インチ用にロジクールのキーボード「Logicool　Folio Touch Keyboard Case with Trackpad」を買いました"
+title: "【レビュー】iPad Pro 11インチ用にロジクールのキーボード「Logicool Folio Touch Keyboard Case with Trackpad」を買いました"
 date: 2020-07-26T20:15:54+09:00
 lastmod: 2020-07-26T20:15:54+09:00
 published: true
