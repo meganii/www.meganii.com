@@ -1,52 +1,52 @@
 {
-    "ASIN": "B00IEA5210",
-    "DetailPageURL": "https://www.amazon.co.jp/dp/B00IEA5210?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "ASIN": "B0863JBJKN",
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B0863JBJKN?tag=meganii-22&linkCode=ogi&th=1&psc=1",
     "Images": {
         "Primary": {
             "Large": {
                 "Height": 500,
-                "URL": "https://m.media-amazon.com/images/I/51Zla-QUKzL.jpg",
-                "Width": 391
+                "URL": "https://m.media-amazon.com/images/I/41IXRjIIPkL.jpg",
+                "Width": 500
             },
             "Medium": {
                 "Height": 160,
-                "URL": "https://m.media-amazon.com/images/I/51Zla-QUKzL._SL160_.jpg",
-                "Width": 125
+                "URL": "https://m.media-amazon.com/images/I/41IXRjIIPkL._SL160_.jpg",
+                "Width": 160
             },
             "Small": {
                 "Height": 75,
-                "URL": "https://m.media-amazon.com/images/I/51Zla-QUKzL._SL75_.jpg",
-                "Width": 59
+                "URL": "https://m.media-amazon.com/images/I/41IXRjIIPkL._SL75_.jpg",
+                "Width": 75
             }
         }
     },
     "ItemInfo": {
         "ByLineInfo": {
             "Brand": {
-                "DisplayValue": "SAVAS(ザバス)",
+                "DisplayValue": "Apple(アップル)",
                 "Label": "Brand",
                 "Locale": "ja_JP"
             },
             "Manufacturer": {
-                "DisplayValue": "明治",
+                "DisplayValue": "Apple(アップル)",
                 "Label": "Manufacturer",
                 "Locale": "ja_JP"
             }
         },
         "Classifications": {
             "Binding": {
-                "DisplayValue": "ヘルスケア&ケア用品",
+                "DisplayValue": "Personal Computers",
                 "Label": "Binding",
                 "Locale": "ja_JP"
             },
             "ProductGroup": {
-                "DisplayValue": "Drugstore",
+                "DisplayValue": "Personal Computer",
                 "Label": "ProductGroup",
                 "Locale": "ja_JP"
             }
         },
         "Title": {
-            "DisplayValue": "明治 ザバス ホエイプロテイン100 ココア味【50食分】 1,050g",
+            "DisplayValue": "Apple Smart Keyboard (11インチiPad Pro - 第1世代と第2世代) - 英語(US)",
             "Label": "Title",
             "Locale": "ja_JP"
         }

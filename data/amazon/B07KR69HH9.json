@@ -1,0 +1,54 @@
+{
+    "ASIN": "B07KR69HH9",
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B07KR69HH9?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 375,
+                "URL": "https://m.media-amazon.com/images/I/21QiIp0FsvL.jpg",
+                "Width": 500
+            },
+            "Medium": {
+                "Height": 120,
+                "URL": "https://m.media-amazon.com/images/I/21QiIp0FsvL._SL160_.jpg",
+                "Width": 160
+            },
+            "Small": {
+                "Height": 56,
+                "URL": "https://m.media-amazon.com/images/I/21QiIp0FsvL._SL75_.jpg",
+                "Width": 75
+            }
+        }
+    },
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "Apple(アップル)",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
+            "Manufacturer": {
+                "DisplayValue": "Apple(アップル)",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
+        },
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "Personal Computers",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Personal Computer",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
+        },
+        "Title": {
+            "DisplayValue": "Apple Pencil（第2世代）",
+            "Label": "Title",
+            "Locale": "ja_JP"
+        }
+    }
+}

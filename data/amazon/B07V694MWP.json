@@ -1,52 +1,52 @@
 {
-    "ASIN": "B00IEA5210",
-    "DetailPageURL": "https://www.amazon.co.jp/dp/B00IEA5210?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "ASIN": "B07V694MWP",
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B07V694MWP?tag=meganii-22&linkCode=ogi&th=1&psc=1",
     "Images": {
         "Primary": {
             "Large": {
                 "Height": 500,
-                "URL": "https://m.media-amazon.com/images/I/51Zla-QUKzL.jpg",
-                "Width": 391
+                "URL": "https://m.media-amazon.com/images/I/41iDdjIw1zL.jpg",
+                "Width": 500
             },
             "Medium": {
                 "Height": 160,
-                "URL": "https://m.media-amazon.com/images/I/51Zla-QUKzL._SL160_.jpg",
-                "Width": 125
+                "URL": "https://m.media-amazon.com/images/I/41iDdjIw1zL._SL160_.jpg",
+                "Width": 160
             },
             "Small": {
                 "Height": 75,
-                "URL": "https://m.media-amazon.com/images/I/51Zla-QUKzL._SL75_.jpg",
-                "Width": 59
+                "URL": "https://m.media-amazon.com/images/I/41iDdjIw1zL._SL75_.jpg",
+                "Width": 75
             }
         }
     },
     "ItemInfo": {
         "ByLineInfo": {
             "Brand": {
-                "DisplayValue": "SAVAS(ザバス)",
+                "DisplayValue": "Lenovo",
                 "Label": "Brand",
                 "Locale": "ja_JP"
             },
             "Manufacturer": {
-                "DisplayValue": "明治",
+                "DisplayValue": "Lenovo",
                 "Label": "Manufacturer",
                 "Locale": "ja_JP"
             }
         },
         "Classifications": {
             "Binding": {
-                "DisplayValue": "ヘルスケア&ケア用品",
+                "DisplayValue": "Personal Computers",
                 "Label": "Binding",
                 "Locale": "ja_JP"
             },
             "ProductGroup": {
-                "DisplayValue": "Drugstore",
+                "DisplayValue": "Personal Computer",
                 "Label": "ProductGroup",
                 "Locale": "ja_JP"
             }
         },
         "Title": {
-            "DisplayValue": "明治 ザバス ホエイプロテイン100 ココア味【50食分】 1,050g",
+            "DisplayValue": "レノボ・ジャパン 4Y40U90599 ThinkPad Bluetooth ワイヤレス・トラックポイント・キーボード-英語(NFC搭載なし)",
             "Label": "Title",
             "Locale": "ja_JP"
         }
