@@ -17,21 +17,20 @@
       <pubDate>Sun, 02 Dec 2018 12:28:58 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2018/12/02/amp-page-does-not-scroll-smoothly/</guid>
-      <description>&lt;div class=&#34;&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1543721510/IMG_3186_fl7ifm.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG_3186_fl7ifm.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG_3186_fl7ifm.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_3186_fl7ifm.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_3186_fl7ifm.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_3186_fl7ifm.jpg 320w&#34;
-        width=&#34;215&#34;
-        height=&#34;384&#34;
-        heights=&#34;(min-width:640px) 400px, 100%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;AMP page&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1543721510/IMG_3186_fl7ifm.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG_3186_fl7ifm.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG_3186_fl7ifm.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_3186_fl7ifm.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_3186_fl7ifm.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_3186_fl7ifm.jpg 320w&#34;
+      width=&#34;215&#34;
+      height=&#34;384&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;AMP page&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;h2 id=&#34;現象&#34;&gt;現象&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;iPhone 6Sで、&lt;a href=&#34;https://scrapbox.io/meganii/AMP&#34;&gt;AMP&lt;/a&gt;ページを表示するとスクロールが意図しない動きになる&lt;/li&gt;
