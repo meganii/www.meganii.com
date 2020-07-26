@@ -4,7 +4,7 @@
 {{ if and (hasPrefix (.Get "src") $baseurl) ( or (eq (.Get "layout") "center") ( eq (.Get "layout") "") ) }}
 {{ $itemid := .Get "src" | replaceRE $restr "$1" }}
 
-<div class="">
+<div class="pt-4">
     <amp-img class="contain"
         src="{{ .Get "src" }}"
         srcset="{{ $baseurl }}q_auto,f_auto,w_1024/{{ $itemid }} 1024w,
