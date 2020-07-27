@@ -1,9 +1,6 @@
-<header class="w-full p-4">
-    
+<header class="w-full p-4">    
     <nav class="flex items-center justify-between flex-wrap">
-        <a href="{{ .Site.Home.Permalink }}" class="flex items-center text-gray-700 font-bold">
-            {{ .Site.Title }}
-        </a>
+        <a href="{{ .Site.Home.Permalink }}" class="flex items-center text-gray-700 font-bold">{{ .Site.Title }}</a>
         <div class="block sm:hidden">
             <button role="button" aria-label="open menu" on="tap:nav.toggle" tabindex="0" id="nav-open" class="flex items-center text-gray-500 hover:text-blue-500">
                 <svg class="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -14,30 +11,15 @@
             <button id="nav-close" class="hidden flex items-center text-gray-700 hover:text-blue-500" role="button" aria-label="close menu" on="tap:nav.toggle" tabindex="0">
                 <svg class="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <title>Menu Close</title>
-                    <polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
-                        transform="rotate(45 10 10)" />
+                    <polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2" transform="rotate(45 10 10)" />
                 </svg>
             </button>
         </div>
         <ul id="nav-menu" class="w-full flex-grow sm:flex items-center sm:w-auto hidden sm:block justify-end list-reset mt-2 sm:mt-0">
             {{ $BaseURL := .Site.BaseURL }}
-            {{range.Site.Menus.categories}}
+            {{- range.Site.Menus.categories -}}
             <li><a class="inline-block text-gray-500 sm:px-2 hover:text-blue-400" href="{{$BaseURL}}{{.URL}}">{{ .Title }}</a></li>
-            {{end}}
-
+            {{- end -}}
         </ul>
     </nav>
 </header>
-
-<amp-sidebar id="nav" layout="nodisplay" side="right">
-    <svg class="text-right fill-current h-4 w-4" tabindex="0" role="button" aria-label="close menu" on="tap:nav.toggle" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-        <title>Menu Close</title>
-        <polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
-            transform="rotate(45 10 10)" />
-    </svg>
-    <ul class="ns">
-        {{range.Site.Menus.categories}}
-        <li><a href="{{$BaseURL}}{{.URL}}">{{ .Title }}</a></li>
-        {{end}}
-    </ul>
-  </amp-sidebar>
