@@ -5,27 +5,28 @@ category: ['Tech']
 tags: ['Mac', 'MacBook']
 published: true
 slug: macbookair
+img: https://res.cloudinary.com/meganii/image/upload/v1596279506/9068613142_195584a353_p6p3od.jpg
 ---
 
 念願のMacBookAirをついに手に入れました！！
 
-{{% img src="https://farm8.staticflickr.com/7285/9068613142_195584a353.jpg" w="400" h="400" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596279506/9068613142_195584a353_p6p3od.jpg" w="500" h="500" %}}
  
 発売日の翌日に、ネット上のMac情報をみていたら、いつのまにかぽちってました。後悔はしない。ずっと待ち続けていたのだから。	
 
-
+{{% toc %}}
 {{% googleadsense %}}
 
 ### 構成
 
-- CPU 1.7GHzデュアルコアIntel Core i7（Turbo Boost使用時最大3.3GHz）
-- メモリ 8GB
-- SSD 256GB
+- CPU　1.7GHzデュアルコアIntel Core i7（Turbo Boost使用時最大3.3GHz）
+- メモリ　8GB
+- SSD　256GB
 
 なんとなくJISキーボードが飽きたので、USキーボードに変更。
 
-- [Lion 搭載の新型 MacBook Air を買う前に検討しておきたい US 配列キーボード - 彼女からは、おいちゃんと呼ばれています](http://d.hatena.ne.jp/inouetakuya/20110726/1311640787)
-- [JISとUSキーボードの違いと、乗り換える際に最低限やっておくべき2つの設定](http://ushigyu.net/2012/06/27/difference_between_jis_and_us_keyboard/)
+- [Lion 搭載の新型 MacBook Air を買う前に検討しておきたい US 配列キーボード \- 彼女からは、おいちゃんと呼ばれています](https://blog.inouetakuya.info/entry/20110726/1311640787)
+- [JISとUSキーボードの違いと、乗り換える際に最低限やっておくべき2つの設定](https://ushigyu.net/2012/06/27/difference_between_jis_and_us_keyboard/)
 
 SSD使うの初めてで、なんだかすべてが早くなった気がする笑。(実際、再起動の速さは凄まじい)
 
