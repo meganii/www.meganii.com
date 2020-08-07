@@ -1,0 +1,54 @@
+{
+    "ASIN": "B07Y2Z7CQ2",
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B07Y2Z7CQ2?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 367,
+                "URL": "https://m.media-amazon.com/images/I/41HFPqfVpoL.jpg",
+                "Width": 500
+            },
+            "Medium": {
+                "Height": 117,
+                "URL": "https://m.media-amazon.com/images/I/41HFPqfVpoL._SL160_.jpg",
+                "Width": 160
+            },
+            "Small": {
+                "Height": 55,
+                "URL": "https://m.media-amazon.com/images/I/41HFPqfVpoL._SL75_.jpg",
+                "Width": 75
+            }
+        }
+    },
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "アイ・オー・データ",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
+            "Manufacturer": {
+                "DisplayValue": "アイ・オー・データ",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
+        },
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "Personal Computers",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Personal Computer",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
+        },
+        "Title": {
+            "DisplayValue": "【Amazon.co.jp 限定】I-O DATA モニター 23.8型 ADSパネル 非光沢  HDMI×1 スピーカー付 3年保証 土日サポート EX-LDH241DB",
+            "Label": "Title",
+            "Locale": "ja_JP"
+        }
+    }
+}

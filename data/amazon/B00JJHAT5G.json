@@ -1,0 +1,54 @@
+{
+    "ASIN": "B00JJHAT5G",
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B00JJHAT5G?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 447,
+                "URL": "https://m.media-amazon.com/images/I/41-KGPWKt2L.jpg",
+                "Width": 500
+            },
+            "Medium": {
+                "Height": 143,
+                "URL": "https://m.media-amazon.com/images/I/41-KGPWKt2L._SL160_.jpg",
+                "Width": 160
+            },
+            "Small": {
+                "Height": 67,
+                "URL": "https://m.media-amazon.com/images/I/41-KGPWKt2L._SL75_.jpg",
+                "Width": 75
+            }
+        }
+    },
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "actto",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
+            "Manufacturer": {
+                "DisplayValue": "actto corp.",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
+        },
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "エレクトロニクス",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Personal Computer",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
+        },
+        "Title": {
+            "DisplayValue": "actto BST-02 ブックスタンド",
+            "Label": "Title",
+            "Locale": "ja_JP"
+        }
+    }
+}

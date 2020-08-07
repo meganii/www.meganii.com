@@ -1,0 +1,74 @@
+{
+    "ASIN": "B00358RIRC",
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B00358RIRC?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/31+8+jlDv4L.jpg",
+                "Width": 500
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/31+8+jlDv4L._SL160_.jpg",
+                "Width": 160
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/31+8+jlDv4L._SL75_.jpg",
+                "Width": 75
+            }
+        }
+    },
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "エルゴトロン",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
+            "Manufacturer": {
+                "DisplayValue": "エルゴトロン",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
+        },
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "Personal Computers",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Personal Computer",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
+        },
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "英語",
+                        "Type": "発行済み"
+                    },
+                    {
+                        "DisplayValue": "英語",
+                        "Type": "原語"
+                    },
+                    {
+                        "DisplayValue": "英語",
+                        "Type": "不明"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            }
+        },
+        "Title": {
+            "DisplayValue": "エルゴトロン LX デスクマウント モニターアーム アルミニウム  45-241-026",
+            "Label": "Title",
+            "Locale": "ja_JP"
+        }
+    }
+}

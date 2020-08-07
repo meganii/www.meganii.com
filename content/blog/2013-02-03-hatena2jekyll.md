@@ -8,6 +8,7 @@ slug: hatena2jekyll
 ---
 
 ### 前提
+
 - Octpressを利用してます
 
 #### 参考ページ
@@ -38,6 +39,7 @@ jekyll --server --auto
 `http://localhost:4000/ja/blog/`　から正常に動いていることを確認。
 
 ### 2. はてなダイアリーのデータをMarkdownに変換
+
 - 管理ページ > ブログのエクスポート > はてなの日記データ形式からブログのエクスポートをする。
 - 取得したブログのデータを `tech.nitoyon.com/_scripts` にコピーする。
 - `_script/`フォルダの直下に `_posts` と `_caches` ディレクトリを作る
@@ -57,7 +59,6 @@ ruby convert_hatena_to_jekyll_posts.rb HATENA_ID はてなのエントリ.xml
 しかし、amazonリンクが張ってあると、変換に失敗する。もし、amazonへのリンクがある場合は、Amazon APIのキーが必要になってくる。
 
 - ここらへんを参考に、Amazon APIを取得する。[Access Key IDとSecret Access Keyの取得 - Amazon Web サービス](http://www.ajaxtower.jp/ecs/pre/index1.html)
-
 - (エラーメッセージを頼りに)Amazonリンク生成のための準備(`gem install amazon-ecs`、 `_caches/amazon`の作成, _amazon.ymlの作成とか)
 
 
