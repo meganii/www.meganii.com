@@ -1,15 +1,86 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ens on SIS Lab</title>
+    <title>SIS Lab</title>
     <link>https://www.meganii.com/en/</link>
-    <description>Recent content in Ens on SIS Lab</description>
+    <description>Recent content on SIS Lab</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
-    <lastBuildDate>Sun, 05 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Mar 2017 22:15:35 +0900</lastBuildDate>
     
 	<atom:link href="https://www.meganii.com/en/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Enable swipe by using Vivaldi</title>
+      <link>https://www.meganii.com/en/blog/2017/03/02/vivaldi-swipe-gestures/</link>
+      <pubDate>Thu, 02 Mar 2017 22:15:35 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/en/blog/2017/03/02/vivaldi-swipe-gestures/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m using Vivaldi web browser, but I can&amp;rsquo;t back history or forward histoy by swiping. So, I find the solution.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Since Vivaldi is based on the Chromium browser, most solutions for Google Chrome also works on Vivaldi too. I took the answer from here and applied it to Vivaldi. Just had to find what Vivaldi&amp;rsquo;s .plist file was and use that instead.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cannot download with wget</title>
+      <link>https://www.meganii.com/en/blog/2017/01/14/can-not-download-with-wget/</link>
+      <pubDate>Sat, 14 Jan 2017 14:14:02 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/en/blog/2017/01/14/can-not-download-with-wget/</guid>
+      <description>&lt;p&gt;I faced trouble that Circle CI had build error. I search solution and deal with it.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://taku910.github.io/mecab/&#34;&gt;MeCab: Yet Another Part-of-Speech and Morphological Analyzer&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to install Virtualbox and Vagrant by installing by cli with Mac El Capitan</title>
+      <link>https://www.meganii.com/en/blog/2016/05/16/install-virtualbox-and-vagrant-in-el-capitan/</link>
+      <pubDate>Mon, 16 May 2016 20:50:35 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/en/blog/2016/05/16/install-virtualbox-and-vagrant-in-el-capitan/</guid>
+      <description>&lt;h2 id=&#34;environment&#34;&gt;Environment&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;El Capitan Version 10.11.4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
+&lt;p&gt;I faced below message after downloading dmg file and double-clicking Vagrant.pkg or Virtualbox.pkg.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;amp-img src=&#34;
+  https://farm8.staticflickr.com/7385/26774309130_925fdae08f.jpg&#34; alt=&#34;How to install Virtualbox and Vagrant by installing by cli with Mac El Capitan https://farm8.staticflickr.com/7385/26774309130_925fdae08f.jpg&#34; width=500 height=178 layout=responsive&gt;&lt;/amp-img&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Capybara「Request failed to reach server, check DNS and/or server status」</title>
+      <link>https://www.meganii.com/en/blog/2015/07/25/capybara-connect-error/</link>
+      <pubDate>Sat, 25 Jul 2015 17:29:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/en/blog/2015/07/25/capybara-connect-error/</guid>
+      <description>Problem I faced below error when capybara accessed https site by visit(&#39;&#39;) command.
+Request failed to reach server, check DNS and/or server status
+/usr/local/lib/ruby/gems/2.1.0/gems/poltergeist-1.6.0/lib/capybara/poltergeist/browser.rb:323:in `command&#39;: Request failed to reach server, check DNS and/or server status (Capybara::Poltergeist::StatusFailError) from /usr/local/lib/ruby/gems/2.1.0/gems/poltergeist-1.6.0/lib/capybara/poltergeist/browser.rb:31:in `visit&#39; from /usr/local/lib/ruby/gems/2.1.0/gems/poltergeist-1.6.0/lib/capybara/poltergeist/driver.rb:95:in `visit&#39; from /usr/local/lib/ruby/gems/2.1.0/gems/capybara-2.4.4/lib/capybara/session.rb:227:in `visit&#39; from /usr/local/lib/ruby/gems/2.1.0/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in &amp;lt;module:DSL&amp;gt;&#39; from itunes.rb:24:in `login&#39; from itunes.rb:61:in `&amp;lt;main&amp;gt;&#39;   
+Cause It happened SSL certificate errors.
+ The problem is most likely due to SSL certificate errors. If you start phantomjs with the &amp;ndash;ignore-ssl-errors=yes option, it should proceed to load the page as it would if there were no SSL errors: screen scraping - PhantomJS failing to open HTTPS site - Stack Overflow</description>
+    </item>
+    
+    <item>
+      <title>How to install SQL*Plus in MacOSX Marverics</title>
+      <link>https://www.meganii.com/en/blog/2015/02/11/how-to-install-sqlplus-in-macosx/</link>
+      <pubDate>Wed, 11 Feb 2015 22:54:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/en/blog/2015/02/11/how-to-install-sqlplus-in-macosx/</guid>
+      <description>What is this article This article explain how to install SQL*Plus after installing Oracle Express Edition 11g. How to install Oracle Database Express Edition11g on Vagrant CentOS6.4 How to install Download files blow url http://www.oracle.com/technetwork/topics/intel-macsoft-096467.html) instantclient-basic-macos.x64-11.2.0.4.0.zip instantclient-jdbc-macos.x64-11.2.0.4.0.zip instantclient-sqlplus-macos.x64-11.2.0.4.0.zip instantclient-sdk-macos.x64-11.2.0.4.0.zip Expand zip files mkdir ~/bin/sqlplus unzip instantclient-basic-macos.x32-11.2.0.4.0.zip -d ~/bin/sqlplus/ unzip instantclient-jdbc-macos.x32-11.2.0.4.0.zip -d ~/bin/sqlplus/ unzip instantclient-sdk-macos.x32-11.2.0.4.0.zip -d ~/bin/sqlplus/ unzip instantclient-sqlplus-macos.x32-11.2.0.4.0.zip -d ~/bin/sqlplus/ Setting Path vim ~/.bash_profile ## oracle client export ORACLE_HOME=~/bin/sqlplus/instantclient_11_2 export PATH=$ORACLE_HOME:$PATH export DYLD_LIBRARY_PATH=~/bin/sqlplus/instantclient_11_2 export NLS_LANG=American_America.AL32UTF8 source ~/.bash_profile Installing rlwrap You can&amp;rsquo;t display command history default. rlwrap is able to remember command histories and display them. You can install by brew</description>
+    </item>
+    
+    <item>
+      <title>Installing Oracle Database Express Edition11g on Vagrant(CentOS 6.4)</title>
+      <link>https://www.meganii.com/en/blog/2015/02/08/oracle-express-edition-11g-install/</link>
+      <pubDate>Sun, 08 Feb 2015 15:11:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/en/blog/2015/02/08/oracle-express-edition-11g-install/</guid>
+      <description>I&amp;rsquo;d like to learn about Oracle, so I installed Oracle 11g Express Edition on Vagrant(CentOS). Environment VirtualBox version 4.3.14 Vagrant 1.6.3 Oracle Database Express Edition 11g R2 Host OS: Mac OS X Mavericks Guest OS: CentOS 6.4 x86_64 Minimal(20140116) Release CentOS 6.4 x86_64 Minimal (2014-01-16) · 2creatives/vagrant-centos Installing Oracle11g Setting Vagrant(Host OS) Downloading Oracle Database Express Edition 11g(Host OS) Installing package for installing Oracle(Guest OS) Installing Oracle(Guest OS) Status Check 1. Setting Vagrant(Host OS) Installing VirtualBox and Vagrant I&amp;rsquo;ll omit installing VirtualBox and Vagrant. Setting for network Adding IP address in Vagrantfile. # Vagrantfile API/syntax version. Don&#39;t touch unless you</description>
+    </item>
     
   </channel>
 </rss>
