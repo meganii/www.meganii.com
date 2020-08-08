@@ -4,7 +4,7 @@ date: 2020-08-08T19:01:18+09:00
 lastmod: 2020-08-08T19:01:18+09:00
 published: true
 category: ["Tech"]
-tags: ["デスク環境"]
+tags: ["デスク環境", "レビュー"]
 comment: true
 slug: "kaizen-in-working-from-home"
 img: "https://res.cloudinary.com/meganii/image/upload/v1596869127/io-data-display_sxbqd6.jpg"
