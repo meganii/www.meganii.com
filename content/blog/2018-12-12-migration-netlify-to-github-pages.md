@@ -14,7 +14,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v159
 
 
 
-結果、体感としてはだいぶ早くなった。
+結果、体感としては早くなった。
 
 
 [Netlifyの表示スピードがいまいちパフォーマンスを発揮できていない件](https://scrapbox.io/meganii/Netlify%E3%81%AE%E8%A1%A8%E7%A4%BA%E3%82%B9%E3%83%94%E3%83%BC%E3%83%89%E3%81%8C%E3%81%84%E3%81%BE%E3%81%84%E3%81%A1%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E3%82%92%E7%99%BA%E6%8F%AE%E3%81%A7%E3%81%8D%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84%E4%BB%B6)
