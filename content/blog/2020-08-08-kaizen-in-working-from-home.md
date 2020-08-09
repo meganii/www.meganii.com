@@ -118,6 +118,7 @@ MacBook Air単体で使っていた時には、小さい画面を見ようとし
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1596868685/ipadpro-and-applepencil_cgh0cn.jpg" w="1024" h="683" alt="iPad Pro 11-inchとApple Pencil" %}}
 
 メモ書き、グラフィック作成など、クリエイティブな作業をする時にiPad Proがあれば捗ると考え、iPad Pro 11インチとApple Pencil（第2世代）を購入しました。
+（iPad第7世代からの買い増しです）
 
 今のところ、以下のアプリを試しています。
 
@@ -125,6 +126,8 @@ MacBook Air単体で使っていた時には、小さい画面を見ようとし
 - Affinity Designer
 
 エンタメ再生機としての活躍も期待していますが、Bluetoothヘッドホンを持っていないのでしばらく我慢します。
+
+{{% amazon B08F2866Q3 %}}
 
 {{% amazon B0863STH28 %}}
 
@@ -154,6 +157,7 @@ iPad Pro本体にマグネットで引っ付けるだけで、充電されます
 - コンデンサーマイク
 - 新型MacBook Pro
 - AR ReadyなWindows PC
+- [ソニーワイヤレスノイズキャンセリングヘッドホンWH-1000XM4]
 
 何か新しいものを買うと、それにつられてどんどんと欲しい物が増えてしまいますよね。使っているMacBook Airが購入から時間が経っているので、そろそろ新しい物が欲しいです。
 
@@ -170,4 +174,6 @@ iPad Pro本体にマグネットで引っ付けるだけで、充電されます
 
 [I-O DATA モニター 23.8型 EX-LDH241DB]:https://www.amazon.co.jp/dp/B07Y2Z7CQ2?tag=meganii-22&linkCode=ogi&th=1&psc=1
 [エルゴトロン LX デスクマウント モニターアーム]:https://www.amazon.co.jp/dp/B00358RIRC?tag=meganii-22&linkCode=ogi&th=1&psc=1
+[ソニーワイヤレスノイズキャンセリングヘッドホンWH-1000XM4]:https://amzn.to/33Gkx5d
+[コンデンサーマイク]:https://amzn.to/2DLZraM
 
