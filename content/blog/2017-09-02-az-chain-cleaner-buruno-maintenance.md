@@ -7,15 +7,15 @@ category: ['Life']
 tags: ['Bike','自転車']
 published: true
 slug: az-chain-cleaner-buruno-maintenance
-img: "https://farm5.staticflickr.com/4340/36834427941_8dec2558b7_s.jpg"
+img: "https://res.cloudinary.com/meganii/image/upload/v1596888742/36834427941_a0966f6719_o_yrxxzu.jpg"
 ---
 
-何気なくAmazonをみていると、AZ(エーゼット)チェーンクリーナーがなんと初回限定98円で売っていたので、思わずポチってしまいました。これを機に、自転車のチェーン清掃にチャレンジしてみました。
+何気なくAmazonをみていると、AZ(エーゼット）チェーンクリーナーがなんと初回限定98円で売っていたので、思わずポチってしまいました。これを機に、自転車のチェーン清掃にチャレンジしてみました。
 
 
-購入したのは、以下３本です。
+購入したのは、以下3本です。
 
-{{% img class="center" src="https://farm5.staticflickr.com/4350/36974664995_b282fb2cc1_o.jpg" w="300" h="300" layout="fixed" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596888470/36974664995_b282fb2cc1_o_jh6tdv.jpg" w="300" h="300" alt="チェーンクリーナーセット" %}}
 
 {{% amazon B06XRQXM8G %}}
 
@@ -30,14 +30,14 @@ img: "https://farm5.staticflickr.com/4340/36834427941_8dec2558b7_s.jpg"
 {{% googleadsense %}}
 
 
-# Before -清掃前-
+## Before　清掃前
 
-{{% img class="center" src="https://farm5.staticflickr.com/4336/36163223133_f87dd00afc_o.jpg" w="300" h="300" layout="fixed" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596888564/36163223133_f87dd00afc_o_qpuvnv.jpg" w="300" h="300" alt="自転車チェーンのサビ汚れ" %}}
 
-サビに油汚れ。「これはヒドい」と言わざるを得ない。せっかくの自転車が台無しですよね。。
+サビに油汚れ。「これはヒドい」と言わざるを得ない。せっかくの自転車が台無しですよね。
 
 
-{{% img src="https://farm5.staticflickr.com/4378/36974709035_ab37f7f6c2_b.jpg" w="1024" h="984" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596888620/36974709035_ab37f7f6c2_b_l5t4yp.jpg" w="1024" h="984" alt="自転車チェーンのサビ汚れ" %}}
 
 
 この汚れをチェーンクリーナでどこまで落とせるかが楽しみです！！
@@ -46,7 +46,7 @@ img: "https://farm5.staticflickr.com/4340/36834427941_8dec2558b7_s.jpg"
 ## 準備
 
 - 新聞紙
-- ゴム手袋 or 軍手
+- ゴム手袋　or　軍手
 - 着古したTシャツ、タオル
 - 使い古しの歯ブラシ
 
@@ -71,7 +71,7 @@ img: "https://farm5.staticflickr.com/4340/36834427941_8dec2558b7_s.jpg"
 
 
 
-# After -清掃後-
+## After　清掃後
 
 
 すると・・・・
@@ -80,10 +80,10 @@ img: "https://farm5.staticflickr.com/4340/36834427941_8dec2558b7_s.jpg"
 ぱんぱかぱーーん、見違えるような・・・綺麗さ！でもないか。。
 
 
-{{% img class="center" src="https://farm5.staticflickr.com/4397/36163223223_8f22fc42b1_o.jpg" w="300" h="300" layout="fixed" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596888692/36163223223_8f22fc42b1_o_jrowcd.jpg" w="300" h="300" %}}
 
 
-{{% img src="https://farm5.staticflickr.com/4340/36834427941_a0966f6719_o.jpg" w="600" h="599" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596888742/36834427941_a0966f6719_o_yrxxzu.jpg" w="600" h="599" %}}
 
 
 完全に元の姿に戻ったとは言えませんが、元の姿が少し見えてきたと言う感じでしょうか。
@@ -99,14 +99,14 @@ img: "https://farm5.staticflickr.com/4340/36834427941_8dec2558b7_s.jpg"
 {{% amazon B00BWZXIAQ %}}
 
 
-{{% img src="https://farm5.staticflickr.com/4348/36803750552_b4457c794b_o.jpg" w="600" h="600" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596888783/36803750552_b4457c794b_o_qh9yyx.jpg" w="600" h="600" %}}
 
 拭き取りに使ったTシャツもかなり真っ黒になったので、それなりに汚れは落とせたと思います。
 
 汚れを落とした後は、チェーンオイルをチェーンに塗っていきます。このチェールオイルのおかげでサビを防ぎ、ペダリングがスムーズになるそうです。
 
 
-{{% img class="center" src="https://farm5.staticflickr.com/4357/36835119871_74ee0b8be9_o.jpg" w="300" h="300" layout="fixed" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596888811/36835119871_74ee0b8be9_o_cedtck.jpg" w="300" h="300" %}}
 
 
 ## 大事なこと
@@ -114,14 +114,14 @@ img: "https://farm5.staticflickr.com/4340/36834427941_8dec2558b7_s.jpg"
 - 定期的なメンテナンスは必要
 - 取り返しがつかないほど汚れてしまった場合は、簡単には汚れが落ちない
 
-せっかく買った自転車、定期的にメンテナンスしてあげないといけないなと心から感じた１日でした。
+せっかく買った自転車、定期的にメンテナンスしてあげないといけないなと心から感じた1日でした。
 
 
-AZ(エーゼット)のメンテナンス用品は、あまりにも安くて最初おそるおそる使いましたが、問題なく使うことができました。
+AZ(エーゼット）のメンテナンス用品は、あまりにも安くて最初おそるおそる使いましたが、問題なく使うことができました。
 
 あなたもぜひ、自転車の定期的なメンテナンスをやってみませんか？
 
-まずは、 チェーンスプレーを手に入れるところから！
+まずは、チェーンスプレーを手に入れるところから！
 
 {{% amazon B06XRQXM8G %}}
 
