@@ -1,0 +1,54 @@
+{
+    "ASIN": "B08F2866Q3",
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B08F2866Q3?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/31RWEQcyMCL.jpg",
+                "Width": 500
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/31RWEQcyMCL._SL160_.jpg",
+                "Width": 160
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/31RWEQcyMCL._SL75_.jpg",
+                "Width": 75
+            }
+        }
+    },
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "ソニー(SONY)",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
+            "Manufacturer": {
+                "DisplayValue": "Sony",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
+        },
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "エレクトロニクス",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Electronics",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
+        },
+        "Title": {
+            "DisplayValue": "ソニー ワイヤレスノイズキャンセリングヘッドホン WH-1000XM4 : LDAC/Amazon Alexa搭載/Bluetooth/ハイレゾ 最大30時間連続再生 密閉型 マイク付 2020年モデル ブラック WH-1000XM4 B",
+            "Label": "Title",
+            "Locale": "ja_JP"
+        }
+    }
+}
