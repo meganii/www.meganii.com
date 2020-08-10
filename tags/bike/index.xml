@@ -19,20 +19,21 @@
       <guid>https://www.meganii.com/blog/2017/09/02/az-chain-cleaner-buruno-maintenance/</guid>
       <description>&lt;p&gt;何気なくAmazonをみていると、AZ(エーゼット）チェーンクリーナーがなんと初回限定98円で売っていたので、思わずポチってしまいました。これを機に、自転車のチェーン清掃にチャレンジしてみました。&lt;/p&gt;
 &lt;p&gt;購入したのは、以下3本です。&lt;/p&gt;
-&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1596888470/36974664995_b282fb2cc1_o_jh6tdv.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/36974664995_b282fb2cc1_o_jh6tdv.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/36974664995_b282fb2cc1_o_jh6tdv.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/36974664995_b282fb2cc1_o_jh6tdv.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/36974664995_b282fb2cc1_o_jh6tdv.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/36974664995_b282fb2cc1_o_jh6tdv.jpg 320w&#34;
-      width=&#34;300&#34;
-      height=&#34;300&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;チェーンクリーナーセット&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1596888470/36974664995_b282fb2cc1_o_jh6tdv.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/36974664995_b282fb2cc1_o_jh6tdv.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/36974664995_b282fb2cc1_o_jh6tdv.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/36974664995_b282fb2cc1_o_jh6tdv.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/36974664995_b282fb2cc1_o_jh6tdv.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/36974664995_b282fb2cc1_o_jh6tdv.jpg 320w&#34;
+        width=&#34;300&#34;
+        height=&#34;300&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;チェーンクリーナーセット&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;div class=&#34;m-4 relative border border-grey-light rounded
             trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
