@@ -18,7 +18,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring
 
 同じ期間でTableauの「DATA Saber認定制度」も同時並行で進めていたので、図らずとも「学んだことをブログに書く」という相乗効果を得ることができました。
 
-{{% blogcard "https://www.meganii.com/blog/2020/03/23/a-look-back-at-the-data-saber-certification-program/" %}}
+{{% iframely "https://www.meganii.com/blog/2020/03/23/a-look-back-at-the-data-saber-certification-program/" %}}
 
 ブログメンタリングの志望動機、流れ、成果、学んだことをふりかえります。
 
@@ -37,9 +37,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring
 
 「ブログメンタリング」とは何かについて詳しくは、[@kakakakakku]さんの下記ブログ記事やスライドを読んでみてください。
 
-{{% blogcard "https://kakakakakku.hatenablog.com/entry/2019/06/24/070816" %}}
-
-  
+{{% iframely "https://kakakakakku.hatenablog.com/entry/2019/06/24/070816" %}}
 
 {{% speakerdeck id="22885dc1bc674998825d6504276666b7" %}}
 
@@ -155,7 +153,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring
 {{% amazon B072B8S2YN %}}
 
 
-{{% blogcard "https://www.meganii.com/blog/2019/12/16/mini-habits-smaller-habits-bigger-results/" %}}
+{{% iframely "https://www.meganii.com/blog/2019/12/16/mini-habits-smaller-habits-bigger-results/" %}}
 
 
 ### 4. イベント参加レポートのタイトルやTwitterでの投稿内容

@@ -1,0 +1,3 @@
+{{ $url := .Get 0 | md5 }}
+{{ $json := getJSON "data/iframely/" $url ".json" }}
+{{ $json.html | markdownify }}
