@@ -13,6 +13,8 @@ Paginate = 12
 
 [permalinks]
 blog = "/blog/:year/:month/:day/:slug/"
+category = "/blog/category/:slug/"
+tags = "/blog/tags/:slug"
 
 [Languages]
 [Languages.ja]
@@ -46,7 +48,7 @@ Instagram = "meganii"
 Cloudinary = "meganii"
 ShowTagCloud = true
 ShowRelatedPost = true
-Disqus = "meganii"
+disqusShortname = "meganii"
 SyntaxHighlightTheme = "solarized_dark.min.css"
 logo = "/images/meganii_logo.png"
 AnalyticsURL = "https://us-central1-cloud-api-2e3ec.cloudfunctions.net/function-1"
@@ -100,37 +102,37 @@ homepage = "https://www.meganii.com/"
   identifier = "tech"
   name = "This is the tech section"
   title = "Tech"
-  url = "category/tech/"
+  url = "blog/category/tech/"
   weight = 10
   [[menu.categories]]
   identifier = "life"
   name = "This is the life section"
   title = "Life"
-  url = "category/life/"
+  url = "blog/category/life/"
   weight = 20
   [[menu.categories]]
   identifier = "travel"
   name = "This is the travel section"
   title = "Travel"
-  url = "category/travel/"
+  url = "blog/category/travel/"
   weight = 30
   [[menu.categories]]
   identifier = "activity"
   name = "This is the travel section"
   title = "Activity"
-  url = "category/activity/"
+  url = "blog/category/activity/"
   weight = 30
   [[menu.categories]]
   identifier = "stationery"
   name = "This is the stationery section"
   title = "Stationery"
-  url = "category/stationery/"
+  url = "blog/category/stationery/"
   weight = 40
   [[menu.categories]]
   identifier = "book"
   name = "This is the book section"
   title = "Book"
-  url = "category/book/"
+  url = "blog/category/book/"
   weight = 50
 
 [markup]
