@@ -3,7 +3,7 @@ title: "「特別定額給付金」で整備する快適デスク環境"
 date: 2020-08-08T19:01:18+09:00
 lastmod: 2020-08-08T19:01:18+09:00
 published: true
-category: ["Tech"]
+category: ["Gadget"]
 tags: ["デスク環境", "レビュー"]
 comment: true
 slug: "kaizen-in-working-from-home"
