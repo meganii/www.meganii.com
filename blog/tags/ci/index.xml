@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CI on SIS Lab</title>
+    <link>https://www.meganii.com/blog/tags/ci/</link>
+    <description>Recent content in CI on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 22 Dec 2018 10:44:01 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/blog/tags/ci/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Circle CIでHugoのビルド・デプロイを実行する</title>
+      <link>https://www.meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/</link>
+      <pubDate>Mon, 15 Aug 2016 15:53:59 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/08/15/circle-ci-hugo-deploy/</guid>
+      <description>この記事で書くこと Circle CIの設定 Circle CIからさくらVPS(CentOS 6.4)へのrsyncでハマったこと circle.ymlのRuby, Pythonの設定 実現したいこと GitHubのリポジトリに、git</description>
+    </item>
+    
+  </channel>
+</rss>

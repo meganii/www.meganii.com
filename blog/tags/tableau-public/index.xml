@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tableau Public on SIS Lab</title>
+    <link>https://www.meganii.com/blog/tags/tableau-public/</link>
+    <description>Recent content in Tableau Public on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 08 May 2020 21:50:23 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/blog/tags/tableau-public/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>【Tableau】Tableau Publicにデフォルト「非表示」で保存する方法</title>
+      <link>https://www.meganii.com/blog/2020/05/08/how-to-save-tableau-public-workbook-with-hiding/</link>
+      <pubDate>Fri, 08 May 2020 21:50:23 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/05/08/how-to-save-tableau-public-workbook-with-hiding/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Tableau Public&lt;/code&gt;って保存するときは、必ず&lt;code&gt;Tableau Public Galally&lt;/code&gt;に「公開」されるものだと思われていないでしょうか。
+少なくとも私は、&lt;code&gt;Tableau Public&lt;/code&gt;で作成したVizは絶対に「公開」されるものであり、「非表示」にもできないと思っていました。&lt;/p&gt;
+&lt;p&gt;しかし、Twitterで「&lt;code&gt;Tableau Public&lt;/code&gt;のVizを非表示にするというキーワード」が目に止まりました。
+気になって調べてみると&lt;strong&gt;実はデフォルト「非表示」で公開するオプション&lt;/strong&gt;があり、あまり知られていなさそうな設定だったので記事にまとめてみました。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#設定方法&#34;&gt;設定方法&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#1-自分のtableau-publicプロフィールページの右上のアイコン-設定ボタンをクリック&#34;&gt;1. 自分のTableau Publicプロフィールページの右上のアイコン ＞「設定」ボタンをクリック&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#2-保存中-英語だとwhen-savingにチェック&#34;&gt;2. 保存中 (英語だとWhen Saving&amp;hellip;)にチェック&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#3-tableau-publicから通常通り名前を付けてtableau-publicに保存をクリック&#34;&gt;3. Tableau Publicから通常通り「名前を付けてTableau Publicに保存」をクリック&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#4-tableau-publicの保存結果を確認するとデフォルトで非表示となる&#34;&gt;4. Tableau Publicの保存結果を確認するとデフォルトで「非表示」となる&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#非表示とはどういう状態なのか&#34;&gt;「非表示」とはどういう状態なのか&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#適切な長さランダム性を持つワークブック名にすれば有用&#34;&gt;適切な長さ・ランダム性を持つ「ワークブック名」にすれば有用&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#非表示の場合はnoindexが指定される&#34;&gt;「非表示」の場合はnoindexが指定される&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#通常viz&#34;&gt;通常Viz&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#非表示viz&#34;&gt;非表示Viz&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+    <item>
+      <title>【Tableau】Tableau PublicのVizをiframeでブログに埋め込む方法</title>
+      <link>https://www.meganii.com/blog/2020/03/06/embeded-tableau-public-view/</link>
+      <pubDate>Fri, 06 Mar 2020 17:24:18 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/03/06/embeded-tableau-public-view/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Tableau Desktop&lt;/code&gt;で作成したVizは&lt;code&gt;Tableau Public&lt;/code&gt;と呼ばれるギャラリーサイトに公開できます。一度&lt;code&gt;Tableau Public&lt;/code&gt;に公開すればTableau Public上でのURLが発行されます。&lt;/p&gt;
+&lt;p&gt;このURLを共有すればVizの共有ができますが、Vizをブログに埋め込みたい場合はどのようにすればよいでしょうか。調べた結果を記載します。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

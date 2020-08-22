@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xcode on SIS Lab</title>
+    <link>https://www.meganii.com/blog/tags/xcode/</link>
+    <description>Recent content in Xcode on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 23 Jun 2020 21:37:07 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/blog/tags/xcode/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>macOSでXcodeを利用せずにHomebrewを利用する方法</title>
+      <link>https://www.meganii.com/blog/2020/06/23/using-brew-without-xcode-on-macos/</link>
+      <pubDate>Tue, 23 Jun 2020 21:37:07 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/06/23/using-brew-without-xcode-on-macos/</guid>
+      <description>&lt;p&gt;ふと気づくと&lt;code&gt;Xcode&lt;/code&gt;関連ファイルがやたら容量食っていたため、一度アンインストールした後に再インストールを試してみました。
+&lt;code&gt;Xcode&lt;/code&gt;をアンインストールして&lt;code&gt;App Store&lt;/code&gt;から&lt;code&gt;Xcode&lt;/code&gt;をインストールする際、次の問題が発生しました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;macOS mojave&lt;/code&gt;のままでは最新版Xcodeをインストールできない（OSアップグレードが必要）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Homebrew&lt;/code&gt;が利用できない（Xcodeに内包しているツールに依存している）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;macOS Catalina&lt;/code&gt;にはまだバージョンを上げたくないですが、&lt;code&gt;Homebrew&lt;/code&gt;は引き続き使いたいので何か方法を探してみたところ、最終的には&lt;code&gt;Command Line　Tools&lt;/code&gt;を入れることで解決しました。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#前提&#34;&gt;前提&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#インストール方法&#34;&gt;インストール方法&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#1appleのサイトからcommand-line-toolsをダウンロードインストール&#34;&gt;1.Appleのサイトから&lt;code&gt;Command Line Tools&lt;/code&gt;をダウンロード&amp;amp;インストール&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#2念の為homebrewを再インストール&#34;&gt;2.（念の為）Homebrewを再インストール&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#確認&#34;&gt;確認&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+    <item>
+      <title>Swiftで初めてのMacOSXアプリケーション-FFViewer-</title>
+      <link>https://www.meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/</link>
+      <pubDate>Sat, 04 Jul 2015 18:23:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/</guid>
+      <description>つくりたいもの JekyllのPost用として書いたMarkdownのFrontFormatterの情報を読み込んで表示し、編集、再出力ができるツール。 WebアプリケーションとしてViewerまでは作っ</description>
+    </item>
+    
+  </channel>
+</rss>
