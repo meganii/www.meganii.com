@@ -6,7 +6,7 @@ category: ['Life']
 tags: ['セルフマッサージ','やわこ', 'レビュー']
 published: true
 slug: self-massage-tool-yawako
-img: "https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_75/v1514680492/oyde1qi32ol9bzz2czgo.jpg"
+img: "https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/v1514680492/oyde1qi32ol9bzz2czgo.jpg"
 ---
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1514698874/back_pain_mfooel.png" w="1024" h="512" alt="腰痛に悩むあなたへ" %}}
