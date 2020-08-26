@@ -17,7 +17,7 @@
       <pubDate>Wed, 19 Feb 2014 22:09:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2014/02/19/xpath-java/</guid>
-      <description>知っててよかったXPath。 XMLのノードを特定するときに使う。 XPath使い方 XPath xpath = XPathFactory.newInstance().newXPath(); String expression = &amp;#34;/widgets/widget&amp;#34;; InputSource inputSource = new InputSource(&amp;#34;widgets.xml&amp;#34;); NodeList nodes = (NodeList) xpath.evaluate(expression, inputSource, XPathConstants.NODESET); ルートノードの選択 html 属性値の取得方法 //html/body/hoge[@id=&#39;test&#39;] id属性が&amp;rsquo;test&#39;のhog</description>
+      <description>知っててよかったXPath。 XMLのノードを特定するときに使う。 XPath使い方 XPath xpath = XPathFactory.newInstance().newXPath(); String expression = &amp;#34;/widgets/widget&amp;#34;; InputSource inputSource = new InputSource(&amp;#34;widgets.xml&amp;#34;); NodeList nodes = (NodeList) xpath.evaluate(expression, inputSource, XPathConstants.NODESET); ルートノードの選択 html 属性値の取得方法 //html/body/hoge[@id=&#39;test&#39;] id属性が&amp;rsquo;test&amp;rsqu</description>
     </item>
     
   </channel>

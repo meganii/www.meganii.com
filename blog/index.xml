@@ -3790,7 +3790,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Sun, 11 Oct 2015 22:03:56 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2015/10/11/hugo-taxonomy/</guid>
-      <description>目的 Hugoにおける、categoryとtagの生成箇所を特定して、テーマ作成に役立てる。 用語確認 Taxonomy 分類 Term &amp;lsquo;Taxonomy&#39;に含まれるキー Value Termに割り当てられたコンテンツの一つ Taxonomy Templated http://gohugo.io/taxonomies/templates/</description>
+      <description>目的 Hugoにおける、categoryとtagの生成箇所を特定して、テーマ作成に役立てる。 用語確認 Taxonomy 分類 Term &amp;lsquo;Taxonomy&amp;rsquo;に含まれるキー Value Termに割り当てられたコンテンツ</description>
     </item>
     
     <item>
@@ -4479,7 +4479,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Wed, 19 Feb 2014 22:09:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2014/02/19/xpath-java/</guid>
-      <description>知っててよかったXPath。 XMLのノードを特定するときに使う。 XPath使い方 XPath xpath = XPathFactory.newInstance().newXPath(); String expression = &amp;#34;/widgets/widget&amp;#34;; InputSource inputSource = new InputSource(&amp;#34;widgets.xml&amp;#34;); NodeList nodes = (NodeList) xpath.evaluate(expression, inputSource, XPathConstants.NODESET); ルートノードの選択 html 属性値の取得方法 //html/body/hoge[@id=&#39;test&#39;] id属性が&amp;rsquo;test&#39;のhog</description>
+      <description>知っててよかったXPath。 XMLのノードを特定するときに使う。 XPath使い方 XPath xpath = XPathFactory.newInstance().newXPath(); String expression = &amp;#34;/widgets/widget&amp;#34;; InputSource inputSource = new InputSource(&amp;#34;widgets.xml&amp;#34;); NodeList nodes = (NodeList) xpath.evaluate(expression, inputSource, XPathConstants.NODESET); ルートノードの選択 html 属性値の取得方法 //html/body/hoge[@id=&#39;test&#39;] id属性が&amp;rsquo;test&amp;rsqu</description>
     </item>
     
     <item>
