@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Puppeteer on SIS Lab</title>
+    <link>https://www.meganii.com/blog/tags/puppeteer/</link>
+    <description>Recent content in Puppeteer on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 04 Jul 2020 12:18:11 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/blog/tags/puppeteer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>puppeteerをAWS Lambdaで利用する</title>
+      <link>https://www.meganii.com/blog/2020/07/04/using-puppeteer-with-aws-lambda/</link>
+      <pubDate>Sat, 04 Jul 2020 12:18:11 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/07/04/using-puppeteer-with-aws-lambda/</guid>
+      <description>&lt;p&gt;&lt;code&gt;AWS Lambda&lt;/code&gt;は、いわゆる&lt;code&gt;FaaS(Function as a Service)&lt;/code&gt;の1つです。&lt;code&gt;AWS Lambda&lt;/code&gt;を使用することで、サーバーのプロビジョニングや管理をすることなく、コードを実行できます。
+なんらかのイベントをトリガーとして、処理を行うためには適しているサービスです。&lt;/p&gt;
+&lt;p&gt;しかし、&lt;code&gt;puppeteer&lt;/code&gt;を&lt;code&gt;AWS Lambda&lt;/code&gt;上で何かの処理を自動化する場合、以下の制約がネックになります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;デプロイパッケージサイズ
+&lt;ul&gt;
+&lt;li&gt;50 MB（zip圧縮済み、直接アップロード）&lt;/li&gt;
+&lt;li&gt;250 MB（解凍、レイヤーを含む）&lt;/li&gt;
+&lt;li&gt;3 MB（コンソールエディタ）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/gettingstarted-limits.html&#34;&gt;AWS Lambda の制限 - AWS Lambda&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;puppeteer&lt;/code&gt;を普通に利用すると&lt;code&gt;chronium&lt;/code&gt;を同梱しているため、どうしても50MBの制限を超えてしまいます。この制限を回避するためには以下で公開いただいているような、軽量な&lt;code&gt;Chromium Binary&lt;/code&gt;を利用する必要があります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/alixaxel/chrome-aws-lambda&#34;&gt;alixaxel/chrome-aws-lambda: Chromium Binary for AWS Lambda and Google Cloud Functions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/adieuadieu/serverless-chrome&#34;&gt;adieuadieu/serverless-chrome: 🌐 Run headless Chrome/Chromium on AWS Lambda&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;今回は、&lt;code&gt;chrome-aws-lambda&lt;/code&gt;を利用する手順を紹介します。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#1-aws-lambda-layerに登録するzipアーカイブchromium--puppeteerを作成&#34;&gt;1. AWS Lambda Layerに登録するZIPアーカイブ（chromium + puppeteer）を作成&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#2-aws-lambda-layerに作成したzipアーカイブを登録&#34;&gt;2. AWS Lambda Layerに作成したZIPアーカイブを登録&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#3-aws-lambda関数の作成とレイヤー追加&#34;&gt;3. AWS Lambda関数の作成とレイヤー追加&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#4-実行時の設定変更&#34;&gt;4. 実行時の設定変更&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#5-テスト実行&#34;&gt;5. テスト実行&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+    <item>
+      <title>Puppeteerを使ってQrunchへクロス投稿する</title>
+      <link>https://www.meganii.com/blog/2020/04/20/blog-cross-posting-to-qrunch-automatically-by-puppeteer/</link>
+      <pubDate>Mon, 20 Apr 2020 19:45:50 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/04/20/blog-cross-posting-to-qrunch-automatically-by-puppeteer/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.meganii.com/blog/2018/11/03/cross-posting-to-qrunch-and-medium/&#34;&gt;QrunchとMediumに技術メモをクロス投稿する - SIS Lab&lt;/a&gt;で「Qrunchに自動投稿できる仕組みを作る」という課題があったので、&lt;code&gt;Puppeteer&lt;/code&gt;で自動投稿できるようにしました。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PuppeteerのwaitForNavigationで正しくページ遷移を待つ</title>
+      <link>https://www.meganii.com/blog/2020/01/30/puppeteer-wait-for-navigation/</link>
+      <pubDate>Thu, 30 Jan 2020 07:11:59 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/01/30/puppeteer-wait-for-navigation/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://amzn.to/2RXyTqt&#34;&gt;「Puppeteer入門 スクレイピング+Web操作自動処理プログラミング」&lt;/a&gt;を読むまで、&lt;code&gt;Puppeteer&lt;/code&gt;の&lt;code&gt;waitForNavigation&lt;/code&gt;の動きを誤って理解していました。&lt;/p&gt;
+&lt;p&gt;ここでは、&lt;code&gt;Puppeteer&lt;/code&gt;を利用して「ページ遷移を待つ」というよくある処理における誤った実装と正しい実装を紹介します。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PuppeteerでAmazonアフィリエイトのレポートを取得する</title>
+      <link>https://www.meganii.com/blog/2017/08/22/puppeteer/</link>
+      <pubDate>Tue, 22 Aug 2017 21:43:50 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/08/22/puppeteer/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/GoogleChrome/puppeteer&#34;&gt;GoogleChrome/puppeteer: Headless Chrome Node API&lt;/a&gt; というHeadless Chromeを操作するJavaScriptライブラリが出たので使ってみました。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

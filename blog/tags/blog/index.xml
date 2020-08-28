@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on SIS Lab</title>
+    <link>https://www.meganii.com/blog/tags/blog/</link>
+    <description>Recent content in Blog on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 10 Apr 2020 18:28:55 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/blog/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog KPI Collector（GAS）で各種KPIを自動取得する</title>
+      <link>https://www.meganii.com/blog/2020/04/10/collecting-blog-kpi-with-google-apps-script-blog-kpi-collector/</link>
+      <pubDate>Fri, 10 Apr 2020 18:28:55 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/04/10/collecting-blog-kpi-with-google-apps-script-blog-kpi-collector/</guid>
+      <description>&lt;p&gt;ブログメンタリング期間中は、事前に設定したブログKPI（ページビュー数、ユーザ数、Twitterフォロワーなど）を報告するため、毎週日曜日に手動で取得していました。&lt;/p&gt;
+&lt;p&gt;しかし、ブログメンタリング終了後、報告する必要がなくなるとどうしてもめんどくさいことはやらなくなってしまいます。&lt;/p&gt;
+&lt;p&gt;そこで、今まで取得していたKPIを&lt;code&gt;Google Apps Script&lt;/code&gt;で自動取得するように設定してみました。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#google-apps-scriptblog-kpi-collectorの導入&#34;&gt;Google Apps Script（Blog KPI Collector）の導入&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#claspインストール&#34;&gt;claspインストール&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#blog-kpi-collectorインストール&#34;&gt;Blog KPI Collectorインストール&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#google-sheet作成&#34;&gt;Google Sheet作成&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#初回のみgoogle-apps-script-apiの有効化&#34;&gt;（初回のみ）Google Apps Script APIの有効化&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#google-apps-scriptをpull--push&#34;&gt;Google Apps Scriptをpull &amp;amp; push&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#google-apps-scriptを実行する&#34;&gt;Google Apps Scriptを実行する&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#スクリプトのプロパティを設定する&#34;&gt;「スクリプトのプロパティ」を設定する&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#google-analyticsとの連携方法&#34;&gt;Google Analyticsとの連携方法&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#トリガーによる自動実行の設定&#34;&gt;トリガーによる自動実行の設定&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+    <item>
+      <title>小さな習慣・アウトプット駆動生活〜ブログメンタリングのふりかえり〜</title>
+      <link>https://www.meganii.com/blog/2020/03/31/reflections-on-blog-mentoring/</link>
+      <pubDate>Tue, 31 Mar 2020 21:00:52 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/03/31/reflections-on-blog-mentoring/</guid>
+      <description>&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring_j15qwo.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/blog-mentoring_j15qwo.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/blog-mentoring_j15qwo.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/blog-mentoring_j15qwo.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/blog-mentoring_j15qwo.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/blog-mentoring_j15qwo.png 320w&#34;
+        width=&#34;1024&#34;
+        height=&#34;512&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;小さな習慣・アウトプット駆動生活〜ブログメンタリングのふりかえり〜&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
+&lt;p&gt;2019/12月〜2020/2月の期間で&lt;a href=&#34;https://twitter.com/kakakakakku&#34;&gt;@kakakakakku&lt;/a&gt;さんのブログメンタリングを受けて、「ブログを毎週1記事必ず書く」という目標にチャレンジしました。結果としては、&lt;a href=&#34;https://twitter.com/kakakakakku&#34;&gt;@kakakakakku&lt;/a&gt;さんのサポートもあり3か月間毎週1記事以上書くことができ、目標を達成しました。&lt;/p&gt;
+&lt;p&gt;同じ期間でTableauの「DATA Saber認定制度」も同時並行で進めていたので、図らずとも「学んだことをブログに書く」という相乗効果を得ることができました。&lt;/p&gt;
+&lt;p&gt;&lt;amp-iframe src=&#34;https://cdn.iframe.ly/api/iframe?url=https%3A%2F%2Fwww.meganii.com%2Fblog%2F2020%2F03%2F23%2Fa-look-back-at-the-data-saber-certification-program%2F&amp;key=0a4111c60a0887a70de7765b51b92c37&amp;iframe=card-small&amp;amp=1&#34; width=&#34;400&#34; height=&#34;140&#34; frameborder=&#34;0&#34; allowfullscreen layout=&#34;responsive&#34; resizable sandbox=&#34;allow-scripts allow-same-origin allow-popups allow-forms&#34;&gt;&lt;amp-img layout=&#34;fill&#34; src=&#34;https://cdn.iframe.ly/amp169/thumbnail&#34; placeholder&gt;&lt;/amp-img&gt;&lt;button overflow&gt;Read more&lt;/button&gt;&lt;/amp-iframe&gt;&lt;/p&gt;
+&lt;p&gt;ブログメンタリングの志望動機、流れ、成果、学んだことをふりかえります。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#ブログメンタリングとは&#34;&gt;ブログメンタリングとは&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#ブログメンタリングの志望動機&#34;&gt;ブログメンタリングの志望動機&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#ブログメンタリングの流れ&#34;&gt;ブログメンタリングの流れ&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#ブログメンタリングの成果&#34;&gt;ブログメンタリングの成果&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#定量的評価&#34;&gt;定量的評価&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#定性的評価&#34;&gt;定性的評価&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#ブログメンタリングを通じて学んだこと&#34;&gt;ブログメンタリングを通じて学んだこと&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#1-平日記事を公開することの大切さ&#34;&gt;1. 平日記事を公開することの大切さ&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#2-hugoテンプレートデザインの作り込みの甘さ&#34;&gt;2. Hugoテンプレートデザインの作り込みの甘さ&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#3-書評記事の書き方&#34;&gt;3. 書評記事の書き方&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#4-イベント参加レポートのタイトルやtwitterでの投稿内容&#34;&gt;4. イベント参加レポートのタイトルやTwitterでの投稿内容&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#5-結論書ける&#34;&gt;5. 結論「書ける」&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+    <item>
+      <title>npm-run-allでローカルAPI serverとHugo serverを同時に実行する</title>
+      <link>https://www.meganii.com/blog/2020/03/13/running-api-server-and-hugo-server-with-npm-run-all/</link>
+      <pubDate>Fri, 13 Mar 2020 06:54:19 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/03/13/running-api-server-and-hugo-server-with-npm-run-all/</guid>
+      <description>&lt;p&gt;このブログではローカルでAPIサーバ（Express）を動かし、HugoのShortcodesから利用しています（2020/03/13現在）。
+&lt;a href=&#34;https://www.meganii.com/blog/2020/02/02/blogcard-in-hugo/&#34;&gt;HugoでAMP対応のブログカードを作る - SIS Lab&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;そのため、記事を書いてHugoのプレビューを利用する場合は、2つのターミナルで以下のコマンドを実行していましたが、ちょっとだけ面倒です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;API Server: npx ts-node src/app.ts&lt;/li&gt;
+&lt;li&gt;Hugo Server: hugo server -D&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;そこで、&lt;code&gt;npm-run-all&lt;/code&gt;というライブラリを利用して、1つのターミナルで簡単にできるようにしました。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cloudflare AMP Real URLをブログに導入する</title>
+      <link>https://www.meganii.com/blog/2019/11/16/amp-real-url-with-cloudflare/</link>
+      <pubDate>Sat, 16 Nov 2019 19:25:36 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2019/11/16/amp-real-url-with-cloudflare/</guid>
+      <description>&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1574561130/AMP_%EF%B8%8F_Real_URL_a1iiwa.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 320w&#34;
+        width=&#34;560&#34;
+        height=&#34;315&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;Cloudflare AMP Real URLをブログに導入する&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
+&lt;p&gt;AMPページをGoogleドメインではなく、自ドメインで表示できる「AMP Real URL」をこのブログにも導入しました。「AMP Real URL」に関する日本語のページがあまりなかったので、手順をまとめてみました。&lt;/p&gt;
+&lt;p&gt;ブログに適用するは物好きしかいない、かつ、企業で導入するにはまだまだ早いということでしょうか。
+まだまだ発展途上の仕組みだとは思いますが、個人のブログなのでなんの気兼ねなく試してみます。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>AMPページの最適化〜ぼくのAMPサイトがこんなに遅い訳がない〜</title>
+      <link>https://www.meganii.com/blog/2019/10/11/optimize-amp/</link>
+      <pubDate>Fri, 11 Oct 2019 22:19:49 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2019/10/11/optimize-amp/</guid>
+      <description>&lt;p&gt;このサイトも&lt;code&gt;AMP&lt;/code&gt;対応したのだから、&lt;code&gt;Lighthouse&lt;/code&gt;や&lt;code&gt;PageSpeed Insights&lt;/code&gt;のスコアもきっと高いはずと計測してみたところ、全然スコアが出ていなかったので改善しました。その時のメモを残しておきます。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#tldr&#34;&gt;TL;DR&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#計測&#34;&gt;計測&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#セルフホストしたamp-pagesを最適化する&#34;&gt;セルフホストしたAMP Pagesを最適化する&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#1-最初のタグはmeta-charest-tagで始めその後残りのmeta-tagを記述する&#34;&gt;1. 最初のタグは&lt;code&gt;meta charest tag&lt;/code&gt;で始め、その後残りの&lt;code&gt;meta tag&lt;/code&gt;を記述する&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#2-amp-runtime-v0jsをpreloadする&#34;&gt;2. AMP runtime v0.jsをpreloadする&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#3-render-delaying-extensionsが含まれているのであればpreloadする&#34;&gt;3. &lt;code&gt;Render-delaying extensions&lt;/code&gt;が含まれているのであれば、preloadする&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#4-preconnectを利用して異なるドメインに対するコネクション確立を高速化する&#34;&gt;4. preconnectを利用して異なるドメインに対するコネクション確立を高速化する&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#5-amp-runtimeを読み込む&#34;&gt;5. &lt;code&gt;AMP runtime&lt;/code&gt;を読み込む&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#6-render-delaying-extensionsのscriptを指定する&#34;&gt;6. &lt;code&gt;Render-delaying extensions&lt;/code&gt;のscriptを指定する&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#6-残りのamp-extensionsのscriptを指定する&#34;&gt;6. 残りのAMP extensionsのscriptを指定する&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#7-amp-customを指定する&#34;&gt;7. &lt;code&gt;amp-custom&lt;/code&gt;を指定する&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#8-そのほかのheadタグで記述するものを指定する&#34;&gt;8. そのほかのheadタグで記述するものを指定する&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#9-amp-boilerplateを指定する&#34;&gt;9. AMP boilerplateを指定する&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#改善前と改善後&#34;&gt;改善前と改善後&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#before&#34;&gt;Before&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#after&#34;&gt;After&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+    <item>
+      <title>AMP向けのミニマルCSSフレームワーク「1BX」をHugoに導入した</title>
+      <link>https://www.meganii.com/blog/2019/10/06/1bx-minimal-css-framework-for-amp/</link>
+      <pubDate>Sun, 06 Oct 2019 12:28:21 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2019/10/06/1bx-minimal-css-framework-for-amp/</guid>
+      <description>&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1570334428/1bx-screenshot_oqm0gr.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/1bx-screenshot_oqm0gr.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/1bx-screenshot_oqm0gr.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/1bx-screenshot_oqm0gr.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/1bx-screenshot_oqm0gr.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/1bx-screenshot_oqm0gr.png 320w&#34;
+        width=&#34;1440&#34;
+        height=&#34;766&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;ミニマルCSSフレームワーク「1BX」を試してみました&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
+&lt;p&gt;ミニマルCSSフレームワーク「&lt;a href=&#34;https://1bx.uk/&#34;&gt;A Responsive CSS Grid for AMP | 1BX&lt;/a&gt;」を試してみました。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#tldr&#34;&gt;TL;DR&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#amp用のcssフレームワークに求められること&#34;&gt;AMP用のCSSフレームワークに求められること&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#1bxとは&#34;&gt;1BXとは&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#ハマった点&#34;&gt;ハマった点&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#解決方法&#34;&gt;解決方法&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;
+&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugoで作成するようなブログにおいては&lt;a href=&#34;https://1bx.uk/&#34;&gt;1BX&lt;/a&gt;で十分構成可能&lt;/li&gt;
+&lt;li&gt;サイズが小さくても、グリッドレイアウトを利用可能&lt;/li&gt;
+&lt;li&gt;2文字クラス名を多用しているため、HugoのSyntax Highlighting(Chroma)のクラス名と衝突するが、Inlineオプションを利用することで回避可能&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>GitHub Pagesで複数の独自ドメインサイトを運用する</title>
+      <link>https://www.meganii.com/blog/2018/12/13/github-pages/</link>
+      <pubDate>Thu, 13 Dec 2018 06:59:48 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/12/13/github-pages/</guid>
+      <description>&lt;p&gt;GitHub Pagesを利用する上で、公式ドキュメントやいろんな人のブログを読みつつ、自分で試行錯誤した結果を残しておきます。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#github-pagesの始め方個人的なおすすめ&#34;&gt;GitHub Pagesの始め方　個人的なおすすめ&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#逆に&#34;&gt;逆に&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+    <item>
+      <title>QrunchとMediumに技術メモをクロス投稿する</title>
+      <link>https://www.meganii.com/blog/2018/11/03/cross-posting-to-qrunch-and-medium/</link>
+      <pubDate>Sat, 03 Nov 2018 14:10:16 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2018/11/03/cross-posting-to-qrunch-and-medium/</guid>
+      <description>&lt;p&gt;もっと気軽にアウトプットできる技術ブログサービス「&lt;a href=&#34;https://qrunch.io/&#34;&gt;Qrunch（クランチ）&lt;/a&gt;」では、重複コンテンツの心配をせずにクロス投稿ができることを知りました。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>はてなダイアリーからはてなブログ経由で独自ドメインのブログに記事を移行しました</title>
+      <link>https://www.meganii.com/blog/2017/12/22/migration-hatena-diary-to-custom-domain-via-hatena-blog/</link>
+      <pubDate>Fri, 22 Dec 2017 19:33:34 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/12/22/migration-hatena-diary-to-custom-domain-via-hatena-blog/</guid>
+      <description>&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1514030618/hatenadiary_qoqemm.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/hatenadiary_qoqemm.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/hatenadiary_qoqemm.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/hatenadiary_qoqemm.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/hatenadiary_qoqemm.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/hatenadiary_qoqemm.png 320w&#34;
+        width=&#34;1024&#34;
+        height=&#34;512&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;はてなダイアリーからはてなブログ経由で独自ドメインのブログに記事を移行しました&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;p&gt;今まで、はてなダイアリー(d.hatena.ne.jp.meganii)の記事は移行せずにそのまま残していました。しかし、Scrapboxのユーザー会に参加して過去コンテンツの重要性に気付き、今のブログに全て集約したいと考えました。&lt;/p&gt;
+&lt;p&gt;そこで、はてなブログを経由させて、独自ドメインのブログに記事を全て移行しました。&lt;/p&gt;
+&lt;p&gt;その結果、はてなダイアリーからはてなブログにブックマークを含めて簡単に移行できました。その後の独自ドメインへの移行も、ページ価値を引き継いで、問題なく移行できました。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>HugoのRelated Contentを利用して関連記事を表示する</title>
+      <link>https://www.meganii.com/blog/2017/10/07/hugo-related-content/</link>
+      <pubDate>Sat, 07 Oct 2017 14:40:16 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/10/07/hugo-related-content/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/news/0.27-relnotes/&#34;&gt;Hugo | Hugo 0.27: Fast and Flexible Related Content!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/related/&#34;&gt;Hugo | Related Content&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;いつのまにかHugo 0.29から関連コンテンツ表示機能が追加されています。これによって他のCMSではプラグインで簡単にできていたのに、Hugoではできないというポイントが解消されました。もはや、Hugo最強説！！。&lt;/p&gt;
+&lt;p&gt;さっそくこのブログにも試してみました。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+    <item>
+      <title>静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する</title>
+      <link>https://www.meganii.com/blog/2017/01/08/static-site-generator-hugo/</link>
+      <pubDate>Sun, 08 Jan 2017 15:58:45 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2017/01/08/static-site-generator-hugo/</guid>
+      <description>&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511562368/yjhod8fty2uwipjwyiyt.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/yjhod8fty2uwipjwyiyt.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/yjhod8fty2uwipjwyiyt.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/yjhod8fty2uwipjwyiyt.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/yjhod8fty2uwipjwyiyt.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/yjhod8fty2uwipjwyiyt.png 320w&#34;
+        width=&#34;685&#34;
+        height=&#34;368&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
+&lt;p&gt;今、自分でブログ・サイトを構築するとしたら、どんな選択肢があるでしょうか？&lt;/p&gt;
+&lt;p&gt;さすがにHTMLを自分で手打ちするのは大変なので、なんらかのCMS(Content Management System コンテンツ管理システム)を利用することになりますが、そのCMSにもさまざまな種類があり、どれを選んだらよいのでしょうか？&lt;/p&gt;
+&lt;p&gt;私自身、CMSとしては&lt;a href=&#34;http://lokka.org/&#34;&gt;Lokka&lt;/a&gt;(Ruby), &lt;a href=&#34;https://ja.wordpress.org&#34;&gt;WordPress&lt;/a&gt;(PHP), &lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;(Ruby), &lt;a href=&#34;http://octopress.org/&#34;&gt;Octopress&lt;/a&gt;(Ruby)、&lt;a href=&#34;https://middlemanapp.com/jp/&#34;&gt;Middleman&lt;/a&gt;(Ruby)と利用してきました。&lt;/p&gt;
+&lt;p&gt;どのCMSも一長一短ですが、Ruby, PHPなどの動的スクリプトで構成されるCMSは共通してビルドの遅さを感じます。&lt;/p&gt;
+&lt;p&gt;そこで、ビルドが高速という噂の&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;(Golang)に移行したところ、快適でシンプルなブログサイトを構築できましたので、今回はその&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;の紹介をします。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Circle CIでテストを定期実行する</title>
+      <link>https://www.meganii.com/blog/2016/09/08/circle-ci-nightly-build/</link>
+      <pubDate>Thu, 08 Sep 2016 22:33:29 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2016/09/08/circle-ci-nightly-build/</guid>
+      <description>&lt;p&gt;前回、HugoのData-driven contenを試した。
+&lt;a href=&#34;https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/&#34;&gt;Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた - SIS Lab&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;これによって、毎回&lt;code&gt;hugo build&lt;/code&gt;することによって、人気記事を更新する仕組みができた。後は、Cicle CIを定期実行させる。これは、Circle CIのAPIを利用すれば実現できる。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JekyllでPygmentsを使ってのシンタックスハイライト</title>
+      <link>https://www.meganii.com/blog/2014/10/29/pjekyll-pygments/</link>
+      <pubDate>Wed, 29 Oct 2014 23:15:00 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2014/10/29/pjekyll-pygments/</guid>
+      <description>シンタックスハイライトに、Pygmentsを使いたくなったので変更する。 1.pygmentsをインストールする。 pip install pygments 2. 以下のコマンドでcssを生成する。 pygmentize -a .highlight -S monokai -f html &amp;gt; css/monokai.css 3. Gemfileにpygme</description>
+    </item>
+    
+    <item>
+      <title>情報だって、再発明したっていいじゃんね。</title>
+      <link>https://www.meganii.com/blog/2011/11/08/1320760207/</link>
+      <pubDate>Tue, 08 Nov 2011 22:50:07 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2011/11/08/1320760207/</guid>
+      <description>車輪の再発明があるんだったら、情報だって再発明したっていいじゃんね。 ふと、思った。 自分が書いても意味がない？ すでに誰かがやってるから すでに誰かがブログ書いてるから 自分が書いても意味がないんじゃないか 久</description>
+    </item>
+    
+    <item>
+      <title>200エントリー突破！！3年半の中での勉強会、イベント、思い入れのあるエントリーを紹介！</title>
+      <link>https://www.meganii.com/blog/2011/09/11/1315694943/</link>
+      <pubDate>Sun, 11 Sep 2011 07:49:03 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2011/09/11/1315694943/</guid>
+      <description>ブログを更新しだしてから、3年半。200エントリーを突破しました。これを機に過去のエントリーを読み返してみて、その中でも思い入れのあるエントリーを紹介します。 目次 初めてのライフハック研究会 Everno</description>
+    </item>
+    
+    <item>
+      <title>１年前の自分。１年後の自分へ</title>
+      <link>https://www.meganii.com/blog/2010/11/26/1290723839/</link>
+      <pubDate>Fri, 26 Nov 2010 07:23:59 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2010/11/26/1290723839/</guid>
+      <description>下書き記事を見返してみると、ちょうど1年前の記事が眠っていた。それは、次のような内容だった。 Blog,TwitterでGiveの5乗の効果を得るために 残りの学生生活で、自分のはてなダイアリー、Twit</description>
+    </item>
+    
+    <item>
+      <title>思い立ったが吉日。.meドメイン取得しましたー</title>
+      <link>https://www.meganii.com/blog/2010/11/10/1289397087/</link>
+      <pubDate>Wed, 10 Nov 2010 22:51:27 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2010/11/10/1289397087/</guid>
+      <description>前々から欲しいとは、思っていたんですが、ふと、独自ドメインでWordPressを運用したくなって、ついにドメイン取得してしまいました笑。さくらサーバを完全に持て余していたのももったいないと思っていたん</description>
+    </item>
+    
+    <item>
+      <title>好きなモノ、好きコトを書く。それでいいじゃないか「ネットがあれば履歴書はいらない」</title>
+      <link>https://www.meganii.com/blog/2010/10/28/1288268248/</link>
+      <pubDate>Thu, 28 Oct 2010 21:17:28 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2010/10/28/1288268248/</guid>
+      <description>最近、ブログやネット上でのブランディングをちょっと考えていたところに、目の前に飛び込んで来たので迷わず購入。ちょっとした悩みが解決した。 目次 この本から何を得たいか 好きなモノ、好きなコトを書く。それでい</description>
+    </item>
+    
+    <item>
+      <title>あいつより「目立つ」ブログの作り方</title>
+      <link>https://www.meganii.com/blog/2010/08/25/1282688132/</link>
+      <pubDate>Wed, 25 Aug 2010 07:15:32 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2010/08/25/1282688132/</guid>
+      <description>最近ブログを始めたけど、なんだか誰にも見てもらえなくて続かなそうなあなた。 別に、ブログの女王を目指してるわけじゃないけど、もうちょっとみんなの注目を浴びたいあなた。 最近ブログを始めたあいつより「目立つ</description>
+    </item>
+    
+    <item>
+      <title>アクセスは突然に</title>
+      <link>https://www.meganii.com/blog/2010/04/14/1271253165/</link>
+      <pubDate>Wed, 14 Apr 2010 22:52:45 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2010/04/14/1271253165/</guid>
+      <description>昨日の朝、いつものようにGoogle AnalyticsでこのBlogのアクセスログを見てたら、週間の変化率が600パーセントを超えていました。 何事かと思って調べてみると、昨夜、AppBankさんのペー</description>
+    </item>
+    
+    <item>
+      <title>ubuntuにtexを導入</title>
+      <link>https://www.meganii.com/blog/2009/09/12/1252717633/</link>
+      <pubDate>Sat, 12 Sep 2009 10:07:13 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/09/12/1252717633/</guid>
+      <description>研究発表のため、ubuntuにtexの環境を整える。 参考 http://d.hatena.ne.jp/hayamiz/20081111/1226403768 http://d.hatena.ne.jp/Guernsey/20081005/1223185414</description>
+    </item>
+    
+    <item>
+      <title>当たらないとわかっていながら・・・</title>
+      <link>https://www.meganii.com/blog/2009/08/26/1251245691/</link>
+      <pubDate>Wed, 26 Aug 2009 09:14:51 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/08/26/1251245691/</guid>
+      <description>はてなブロガーの本まとめて欲しい！</description>
+    </item>
+    
+    <item>
+      <title>LAMP導入メモ</title>
+      <link>https://www.meganii.com/blog/2009/07/22/1248272768/</link>
+      <pubDate>Wed, 22 Jul 2009 23:26:08 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/07/22/1248272768/</guid>
+      <description>設定ファイル関連：/etc/apache2 ドキュメントルート：/var/www サービス関連：/etc/init.d/apache2 PHPの設定ファイルの場所メモ 設定ファイル関連：/etc/php5/a</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.meganii.com/blog/2009/04/18/1240016466/</link>
+      <pubDate>Sat, 18 Apr 2009 10:01:06 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/04/18/1240016466/</guid>
+      <description>http://d.hatena.ne.jp/papanda0806/20080320/1206025881</description>
+    </item>
+    
+  </channel>
+</rss>

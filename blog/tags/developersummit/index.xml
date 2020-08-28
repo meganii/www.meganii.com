@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DeveloperSummit on SIS Lab</title>
+    <link>https://www.meganii.com/blog/tags/developersummit/</link>
+    <description>Recent content in DeveloperSummit on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 21 Feb 2011 21:43:04 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/blog/tags/developersummit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>プログラマが知るべき、たったひとつの大事なことがら -DeveloperSummit2011に行ってきました!!-</title>
+      <link>https://www.meganii.com/blog/2011/02/21/1298292184/</link>
+      <pubDate>Mon, 21 Feb 2011 21:43:04 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2011/02/21/1298292184/</guid>
+      <description>&lt;p&gt;「プログラマが知るべき、たったひとつの大事なことがら」それは、&lt;strong&gt;学び続ける姿勢&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;「プログラマが知るべき97のこと　18ー学び続ける姿勢」がベースになったお話。&lt;/p&gt;
+&lt;div class=&#34;embed&#34;&gt;
+  &lt;div class=&#34;rf&#34;&gt;
+    &lt;div class=&#34;rr&#34;&gt;
+      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
+        &lt;a href=&#34;&#34;&gt;
+          &lt;div&gt;
+            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
+          &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
+        &lt;div class=&#34;rf&#34;&gt;
+          &lt;div class=&#34;rr&#34;&gt;
+            &lt;div class=&#34;rcx12 body&#34;&gt;
+              &lt;a class=&#34;utdn&#34; 
+                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;rcm12 hx&#34;&gt;
+              &lt;div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;rr&#34;&gt;
+      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
+        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt; --&gt;
+&lt;p&gt;今回@t_wadaさんは、どんな内容のセッションにするか悩まれたそうだ。
+色々と人に相談する上で、「自分の話をすればいい。自分が感じてきたこと、考えてきたこと。それを話せばいい。」とまとまったという。&lt;/p&gt;
+&lt;p&gt;僕は、自分の遥か前を走ってエンジニアの人々がどういう考えで生きてきたのか、今どういうことを考えているかに非常に興味があった。
+@t_wadaさんの話をベースに、自分が感じたこと、考えたことを残してみる。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#3つの時代読む書く話す&#34;&gt;3つの時代〜読む、書く、話す〜&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#読む時代&#34;&gt;読む時代&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#書く時代&#34;&gt;書く時代&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#話す時代&#34;&gt;話す時代&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#学び続けるコツ&#34;&gt;学び続けるコツ&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#身の回りのものをプログラミングする&#34;&gt;身の回りのものをプログラミングする&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#他の文化を学ぶこと&#34;&gt;他の文化を学ぶこと&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#一生プログラマーでいられるかどうかは年下から学べるか否か&#34;&gt;一生プログラマーでいられるかどうかは年下から学べるか否か&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#学びはらせんである&#34;&gt;学びは「らせん」である&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#まとめ感想&#34;&gt;まとめ・感想&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考図書&#34;&gt;参考図書&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
