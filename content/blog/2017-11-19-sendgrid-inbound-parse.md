@@ -66,7 +66,7 @@ CNAMEに登録するのは、s1._domainkey.XXXX, s2._domainkey.XXXXの2つだけ
 
 ### 4. [Send Grid] Inbound Parse設定
 
-Settings > Inbound Parse 対象ドメインのメール受信後にどのURLに対してPOSTするかを設定する。
+Settings > Inbound Parse 対象ドメインのメール受信後にどのURLに対してPOSTするかを設定する。
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/c_scale,w_640,f_auto/v1511051917/m3sgzyg5xzftm2c3c5pi.jpg" w="640" h="480" %}}
 
