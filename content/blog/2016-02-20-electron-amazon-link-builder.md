@@ -78,7 +78,7 @@ AWS IDと、AWS Secretを取得するためにはまず、[Product Advertising A
 {{% img src="https://farm2.staticflickr.com/1624/24849951570_05b18beda4_z.jpg" w="640" h="416" %}}
 
 <a href="https://forums.aws.amazon.com/thread.jspa?threadID=171558">AWS Developer Forums: Support for IAM Users in Product ...</a>のフォーラムを読むと、`AdministratorAccess`のポリシーを設定してあげれば良いとのこと。(Admin権限を与えるんじゃ意味ないのではと思ったが)
-
+
 よって、IAMを利用する場合は、`AdministratorAccess`のポリシーをアタッチして、keyを取得すれば良い。
 
 
