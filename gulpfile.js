@@ -17,7 +17,7 @@ function build(cb) {
         cb(null, file);
       })
     )
-    .pipe(dest('dist/'));
+    .pipe(dest('public/'));
 }
 
 exports.default = build;
