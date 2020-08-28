@@ -28,6 +28,11 @@ jobs:
       - name: Build
         run: hugo --gc
 
+      - name: Optimize AMP
+        uses: asurbernardo/amp-optimizer-action@1.0.2
+        with:
+          root: './public'
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
