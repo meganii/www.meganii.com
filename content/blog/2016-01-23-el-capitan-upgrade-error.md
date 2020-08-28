@@ -66,7 +66,7 @@ sudo security delete-certificate -Z {取得したSHA-1の値} /Users/meganii/Lib
 
 
 
-## 後は、毎度おなじみ Homebrew 周り
+## 後は、毎度おなじみ Homebrew 周り
 
 ```
 brew doctor
