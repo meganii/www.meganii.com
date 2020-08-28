@@ -64,7 +64,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1596869127/io-data-displa
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1596869127/io-data-display_sxbqd6.jpg" w="1024" h="683" alt="IO-DATA エルゴトロン" %}}
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596870266/macbookair-display_ekevvc.jpg" w="1024" h="683" alt="IO-DATA エルゴトロン 利用時" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596870266/macbookair-display_ekevvc.jpg" w="1024" h="683" alt="IO-DATA エルゴトロン 利用時" %}}
 
 
 今使っているMacBook AirはRetinaディスプレイではないので、解像度にはあまりこだわりはありません。
