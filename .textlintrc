@@ -4,7 +4,8 @@
       "allow": [
         "/{{%[\\s\\S]*?%}}/m"
       ]
-    }
+    },
+    "comments": true
   },
   "rules": {
     "preset-ja-technical-writing": true,
