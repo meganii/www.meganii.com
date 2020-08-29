@@ -17,7 +17,7 @@
       <pubDate>Tue, 13 Mar 2012 23:59:49 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2012/03/13/1331650789/</guid>
-      <description>Emacs 上で快適に Bash や Zsh を利用する設定 : 紹介マニア いつも参考にさせてもらってます!! ;; multi-term (when (require &amp;#39;multi-term nil t) (setq multi-term-program &amp;#34;/bin/zsh&amp;#34;) (add-hook &amp;#39;term-mode-hook &amp;#39;(lambda () ;; C-h を term 内文字削除にする (define-key term-raw-map (kbd &amp;#34;C-h&amp;#34;) &amp;#39;term-send-backspace) ;; C-y を term 内ペーストにする (define-key term-raw-map (kbd &amp;#34;C-y&amp;#34;) &amp;#39;term-paste) ))) Emacs実践入門 ～思考</description>
+      <description>Emacs 上で快適に Bash や Zsh を利用する設定 : 紹介マニア いつも参考にさせてもらってます!! ;; multi-term (when (require &amp;#39;multi-term nil t) (setq multi-term-program &amp;#34;/bin/zsh&amp;#34;) (add-hook &amp;#39;term-mode-hook &amp;#39;(lambda () ;; C-h を term 内文字削除にする (define-key term-raw-map (kbd &amp;#34;C-h&amp;#34;) &amp;#39;term-send-backspace) ;; C-y を term 内ペーストにする (define-key term-raw-map (kbd &amp;#34;C-y&amp;#34;) &amp;#39;term-paste) ))) Amazonでチェックす</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Sun, 11 Mar 2012 14:34:29 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2012/03/11/1331444069/</guid>
-      <description>Emacs実践入門 ～思考を直感的にコード化し、開発を加速する (WEB&amp;#43;DB PRESS plus)出版社：技術評論社著者:大竹 智也発売日: 2012.03.07 本書読んで、改めてEmacsの設定を見なおそうと思ったので、そのときのメモ。 心機一転</description>
+      <description>Amazonでチェックする -- 本書読んで、改めてEmacsの設定を見なおそうと思ったので、そのときのメモ。 心機一転しようと、CocoaEmacsのインストールから始めました。 ソースコードからビルド Xco</description>
     </item>
     
     <item>

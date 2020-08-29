@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PWA on SIS Lab</title>
+    <link>https://www.meganii.com/blog/tags/pwa/</link>
+    <description>Recent content in PWA on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 15 Aug 2020 09:37:43 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/blog/tags/pwa/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Progressive Web Appを有効にする</title>
+      <link>https://www.meganii.com/blog/2020/08/15/enabling-progressive-web-app/</link>
+      <pubDate>Sat, 15 Aug 2020 09:37:43 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/08/15/enabling-progressive-web-app/</guid>
+      <description>&lt;p&gt;このブログでは、HugoでFull AMPなHTMLを生成し、GitHub Pagesでホストしています。
+AMPの最適化を行う際、Lighthouseを利用してWebパフォーマンスを測定しているのですが、PWA Readyになっていないことが気掛かりでした。&lt;/p&gt;
+&lt;p&gt;個人ブログをPWA化しても自分しか使わないため、自己満足に他なりません。
+しかし、PWAがグリーンにならないのは気持ちが悪いため、今回エラーを見直してPWAを有効にしました。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#対応前&#34;&gt;対応前&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#start_url-does-not-respond-with-a-200-when-offlinetimed-out-waiting-for-start_url-httpswwwmeganiicom-to-respond&#34;&gt;start_url does not respond with a 200 when offlineTimed out waiting for start_url (&lt;a href=&#34;https://www.meganii.com/&#34;&gt;https://www.meganii.com/&lt;/a&gt;) to respond.&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#web-app-manifest-does-not-meet-the-installability-requirements&#34;&gt;Web app manifest does not meet the installability requirements&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#manifest-doesnt-have-a-maskable-icon&#34;&gt;Manifest doesn&amp;rsquo;t have a maskable icon&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#対応後&#34;&gt;対応後&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
