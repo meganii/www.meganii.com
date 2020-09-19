@@ -10,7 +10,7 @@ slug: "what-is-data-visualization"
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,w_600/v1594067846/what_is_datavisualization_deo9ga.jpg"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1594067846/what_is_datavisualization_deo9ga.jpg" w="100" h="563" alt="データビジュアライゼーション" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1594067846/what_is_datavisualization_deo9ga.jpg" w="150" h="150" alt="データビジュアライゼーション" %}}
 
 `Data Visualization`は、日本語だとそのまま「データビジュアライゼーション」や「データ視覚化」と呼ばれています。
 
