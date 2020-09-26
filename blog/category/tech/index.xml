@@ -3201,7 +3201,7 @@ Total of 1 requests completed
       <pubDate>Wed, 24 Apr 2013 20:16:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2013/04/24/readmore/</guid>
-      <description>「続きを読む」ように、記事を折りたたむプラグインを導入。 Octopressなら、/plaginsディレクトリに 以下のpostmore.rbを設定する。 module PostMore def postmorefilter(input, url, text) if input.include? &amp;#34; &amp;lt;div class=&amp;#34;text-center&amp;#34;&amp;gt; &amp;lt;amp-ad width=336 height=280 media=&amp;#34;(max-width: 480px)&amp;#34; type=&amp;#34;doubleclick&amp;#34; data-slot=&amp;#34;/22105504400/mc_sp_article_top_001&amp;#34; data-multi-size=&amp;#34;300x250&amp;#34;&amp;gt; &amp;lt;/amp-ad&amp;gt; &amp;lt;amp-ad width=728 height=90 media=&amp;#34;(min-width: 481px)&amp;#34;</description>
+      <description>「続きを読む」ように、記事を折りたたむプラグインを導入。 Octopressなら、/plaginsディレクトリに 以下のpostmore.rbを設定する。 module PostMore def postmorefilter(input, url, text) if input.include? &amp;#34; &amp;lt;div class=&amp;#34;text-center mt-3&amp;#34;&amp;gt; &amp;lt;amp-ad width=336 height=280 media=&amp;#34;(max-width: 480px)&amp;#34; type=&amp;#34;doubleclick&amp;#34; data-slot=&amp;#34;/22105504400/mc_sp_article_top_001&amp;#34; data-multi-size=&amp;#34;300x250&amp;#34;&amp;gt; &amp;lt;/amp-ad&amp;gt; &amp;lt;amp-ad width=728 height=90 media=&amp;#34;(min-width:</description>
     </item>
     
     <item>
