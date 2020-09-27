@@ -7,7 +7,7 @@ category: ["Tech"]
 tags: ["AMP","Blog"]
 comment: true
 slug: "further-optimizing-amp-with-amp-optimizer"
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1514036568/thumbnail_hugo_icon.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1514031264/thumbnail_tech.png"
 ---
 
 以前、[Optimize your hosted AMP pages \- amp\.dev](https://amp.dev/documentation/guides-and-tutorials/optimize-and-measure/optimize_amp/?referrer=ampproject.org#preload-hero-images)を読みながらAMPの最適化を行いました。
