@@ -6,10 +6,69 @@
     <description>Recent content in Blog on SIS Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 15 Aug 2020 09:37:43 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2020 20:03:58 +0900</lastBuildDate>
     
 	<atom:link href="https://www.meganii.com/blog/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AMP OptimizerによるAMPのさらなる最適化</title>
+      <link>https://www.meganii.com/blog/2020/09/26/further-optimizing-amp-with-amp-optimizer/</link>
+      <pubDate>Sat, 26 Sep 2020 20:03:58 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/09/26/further-optimizing-amp-with-amp-optimizer/</guid>
+      <description>&lt;p&gt;以前、&lt;a href=&#34;https://amp.dev/documentation/guides-and-tutorials/optimize-and-measure/optimize_amp/?referrer=ampproject.org#preload-hero-images&#34;&gt;Optimize your hosted AMP pages - amp.dev&lt;/a&gt;を読みながらAMPの最適化を行いました。&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;border border-grey-light rounded my-2&#34;&gt;
+    &lt;div class=&#34;flex mx-12 p-3&#34;&gt;
+        &lt;div class=&#34;w-4/5&#34;&gt;
+            &lt;a class=&#34;block&#34; href=&#34;https://www.meganii.com/blog/2019/10/11/optimize-amp/&#34;&gt;&lt;strong&gt;AMPページの最適化〜ぼくのAMPサイトがこんなに遅い訳がない〜 - SIS Lab&lt;/strong&gt;&lt;/a&gt;
+            &lt;span class=&#34;text-sm&#34;&gt;このサイトもAMP対応したのだから、LighthouseやPageSpeed Insightsのスコアもきっと高いはずと計測してみたところ、全然スコアが出ていなかったので改善しました。その時のメモを残 …&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;ml-4&#34;&gt;
+            &lt;a href=&#34;https://www.meganii.com/blog/2019/10/11/optimize-amp/&#34;&gt;
+                &lt;div&gt;
+                    &lt;amp-img class=&#34;&#34; src=&#34;https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png&#34;
+                        alt=&#34;AMPページの最適化〜ぼくのAMPサイトがこんなに遅い訳がない〜 - SIS Lab&#34; width=&#34;75&#34; height=&#34;75&#34; layout=&#34;fixed&#34;&gt;&lt;/amp-img&gt;
+                &lt;/div&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;今回は、さらに一歩進み&lt;code&gt;AMP Optimizer&lt;/code&gt;によるAMPの最適化を試してみました。結果は、&lt;code&gt;Web Core Vital&lt;/code&gt;の1つである&lt;code&gt;Largest Content Full Paint&lt;/code&gt;を40%改善できました。&lt;/p&gt;
+&lt;p&gt;対応した内容と結果をまとめています。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#amp-optimizerとは&#34;&gt;AMP Optimizerとは&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#amp-ssrサーバーサイドレンダリングとは&#34;&gt;AMP SSR（サーバーサイドレンダリング）とは&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#amp-optimizerによる最適化amp-ssrの効果&#34;&gt;AMP Optimizerによる最適化（AMP SSR）の効果&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#対応内容&#34;&gt;対応内容&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#gulpによるamp-optimizerの実行&#34;&gt;gulpによるAMP Optimizerの実行&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#github-actionでの実行&#34;&gt;GitHub Actionでの実行&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#webpagetestによる測定結果&#34;&gt;WebPageTestによる測定結果&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#通常のamp&#34;&gt;通常のAMP&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#amp-packer実行&#34;&gt;AMP Packer実行&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#amp-optimizer実行&#34;&gt;AMP Optimizer実行&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#amp-optimizer-x-google-ad-manager&#34;&gt;AMP Optimizer x Google Ad Manager&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
     
     <item>
       <title>Progressive Web Appを有効にする</title>
