@@ -98,7 +98,7 @@ img: /images/2017/06/macOS.png
 - [ansible\-mac/localhost\.yml at master · ttskch/ansible\-mac](https://github.com/ttskch/ansible-mac/blob/master/localhost.yml)
 - [knakayama/mac\-os\-x\-setup: mac os x setup files](https://github.com/knakayama/mac-os-x-setup)
 - [AkkeyLab/mac\-auto\-setup: Auto setup system for macOS\.](https://github.com/AkkeyLab/mac-auto-setup)
-- [テキスト処理のための標準的なコマンド群の OS X への導入手順](http://qiita.com/eumesy/items/3bb39fc783c8d4863c5f)
+- [テキスト処理のための標準的なコマンド群の OS X への導入手順](https://qiita.com/eumesy/items/3bb39fc783c8d4863c5f)
 
 
 ## zsh環境を整える
@@ -142,7 +142,7 @@ $ git clone https://github.com/zplug/zplug $ZPLUG_HOME
 鍵も作り直した。
 
 ```
-$ ssh-keygen -t rsa -C "hoge@mail.com"
+$ ssh-keygen -t rsa -C "email@example.com"
 ```
 
 - [SSH認証キーをBitbucket/GitHubに設定しよう！ \[Mac簡単手順\] \| 酒と涙とRubyとRailsと](https://morizyun.github.io/blog/ssh-key-bitbucket-github/)
