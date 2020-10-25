@@ -17,23 +17,6 @@
       
       <guid>https://www.meganii.com/blog/2020/09/27/further-optimizing-amp-with-amp-optimizer/</guid>
       <description>&lt;p&gt;以前、&lt;a href=&#34;https://amp.dev/documentation/guides-and-tutorials/optimize-and-measure/optimize_amp/?referrer=ampproject.org#preload-hero-images&#34;&gt;Optimize your hosted AMP pages - amp.dev&lt;/a&gt;を読みながらAMPの最適化を行いました。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;div class=&#34;border border-grey-light rounded my-2&#34;&gt;
-    &lt;div class=&#34;flex mx-12 p-3&#34;&gt;
-        &lt;div class=&#34;w-4/5&#34;&gt;
-            &lt;a class=&#34;block&#34; href=&#34;https://www.meganii.com/blog/2019/10/11/optimize-amp/&#34;&gt;&lt;strong&gt;AMPページの最適化〜ぼくのAMPサイトがこんなに遅い訳がない〜 - SIS Lab&lt;/strong&gt;&lt;/a&gt;
-            &lt;span class=&#34;text-sm&#34;&gt;このサイトもAMP対応したのだから、LighthouseやPageSpeed Insightsのスコアもきっと高いはずと計測してみたところ、全然スコアが出ていなかったので改善しました。その時のメモを残 …&lt;/span&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;ml-4&#34;&gt;
-            &lt;a href=&#34;https://www.meganii.com/blog/2019/10/11/optimize-amp/&#34;&gt;
-                &lt;div&gt;
-                    &lt;amp-img class=&#34;&#34; src=&#34;https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png&#34;
-                        alt=&#34;AMPページの最適化〜ぼくのAMPサイトがこんなに遅い訳がない〜 - SIS Lab&#34; width=&#34;75&#34; height=&#34;75&#34; layout=&#34;fixed&#34;&gt;&lt;/amp-img&gt;
-                &lt;/div&gt;
-            &lt;/a&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
 &lt;p&gt;今回は、さらに一歩進み&lt;code&gt;AMP Optimizer&lt;/code&gt;によるAMPの最適化を試してみました。結果は、&lt;code&gt;Web Core Vital&lt;/code&gt;の1つである&lt;code&gt;Largest Content Full Paint&lt;/code&gt;を40%改善できました。&lt;/p&gt;
 &lt;p&gt;対応した内容と結果をまとめています。&lt;/p&gt;
 &lt;aside&gt;
@@ -6789,12 +6772,12 @@ Total of 1 requests completed
     </item>
     
     <item>
-      <title>JAVA</title>
+      <title>Javaの用語</title>
       <link>https://www.meganii.com/blog/2009/05/19/1242741930/</link>
       <pubDate>Tue, 19 May 2009 23:05:30 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/05/19/1242741930/</guid>
-      <description>Javaで学ぶ遺伝的アルゴリズム 作者: 森直樹出版社/メーカー: 共立出版発売日: 2007/11/22メディア: 単行本 クリック: 4回この商品を含むブログ (2件) を見る キャストとは・・・ Java実行環境が暗</description>
+      <description>Javaで学ぶ遺伝的アルゴリズム出版社：共立出版著者:森 直樹発売日: 2007.11.22 キャストとは Java実行環境が暗黙的に行う変換ではなく、プログラマが意識的に行う変換処理です。 暗黙的な型変換では変数の変換処理を行</description>
     </item>
     
     <item>
