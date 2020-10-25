@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LAMP on SIS Lab</title>
+    <link>https://www.meganii.com/blog/tags/lamp/</link>
+    <description>Recent content in LAMP on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 22 Jul 2009 23:26:08 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.meganii.com/blog/tags/lamp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LAMP導入メモ</title>
+      <link>https://www.meganii.com/blog/2009/07/22/1248272768/</link>
+      <pubDate>Wed, 22 Jul 2009 23:26:08 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/07/22/1248272768/</guid>
+      <description>設定ファイル関連：/etc/apache2 ドキュメントルート：/var/www サービス関連：/etc/init.d/apache2 PHPの設定ファイルの場所メモ 設定ファイル関連：/etc/php5/a</description>
+    </item>
+    
+  </channel>
+</rss>

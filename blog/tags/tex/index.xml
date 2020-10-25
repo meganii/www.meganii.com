@@ -20,5 +20,14 @@
       <description>結構困ったので、自分へのメモです。 フロートと本文の間のスペース調整 ページの上下に出力される図と図の間のスペース \setlength\floatsep{0pt} %dblfloatsep ページの上下に出力される図と本文の間のスペース \setlength\textfloatsep{0pt} %dbltextfloatsep ページの途中に出力される図と本文の間</description>
     </item>
     
+    <item>
+      <title>UbuntuにTeXを導入</title>
+      <link>https://www.meganii.com/blog/2009/09/12/1252717633/</link>
+      <pubDate>Sat, 12 Sep 2009 10:07:13 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2009/09/12/1252717633/</guid>
+      <description>研究発表のため、ubuntuにTeXの環境を整える。 参考 Ubuntu 8.10 Intrepid Ibex で 日本語 LaTeX 環境を整えてみよう - 日記を書く [・w・] はやみずさん Ubuntu 8.04上にTeX環境を構築する方法 - BiBoLoG</description>
+    </item>
+    
   </channel>
 </rss>
