@@ -1,3 +1,5 @@
+const themeDir = __dirname + '/../../';
+
 module.exports = {
   corePlugins: {
     transitionTimingFunction: false,
@@ -5,6 +7,14 @@ module.exports = {
     transitionDuration: false,
     transform: false,
     animation: false,
+  },
+  purge: {
+    mode: 'all',
+    content: [
+      themeDir + 'layouts/**/*.html',
+      'layouts/**/*.html',
+      'content/**/*.html',
+    ],
   },
   theme: {
     fontFamily: {
