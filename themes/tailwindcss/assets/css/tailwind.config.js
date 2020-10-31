@@ -1,4 +1,11 @@
 module.exports = {
+  corePlugins: {
+    transitionTimingFunction: false,
+    keyframes: false,
+    transitionDuration: false,
+    transform: false,
+    animation: false,
+  },
   theme: {
     fontFamily: {
       ja: [
