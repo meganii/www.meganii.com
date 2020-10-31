@@ -26,7 +26,7 @@ jobs:
         run: npm run serve:prod
 
       - name: Build
-        run: hugo --gc
+        run: HUGO_ENV="production" NODE_ENV="production" hugo --gc
 
       - name: Optimize AMP
         run: npx gulp
