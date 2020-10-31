@@ -22,7 +22,9 @@ module.exports = {
             fontFace: true
         }),    
         require('autoprefixer')({
-            grid: true
+            'browsers': [
+                'last 2 versions',
+            ],
         }),
         require('postcss-reporter'),
     ]
