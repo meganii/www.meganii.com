@@ -6,11 +6,7 @@
     <description>Recent content in Rails on SIS Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 23 Nov 2016 19:50:01 +0900</lastBuildDate>
-    
-	<atom:link href="https://www.meganii.com/blog/tags/rails/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 23 Nov 2016 19:50:01 +0900</lastBuildDate><atom:link href="https://www.meganii.com/blog/tags/rails/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Capistrano3でRails5&#43;Unicornのアプリをデプロイしたときに環境変数SECRET_KEY_BASEが読み込まれない</title>
       <link>https://www.meganii.com/blog/2016/11/23/capistrano3-can-not-read-env/</link>
