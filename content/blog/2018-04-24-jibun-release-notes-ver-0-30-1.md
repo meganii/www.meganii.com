@@ -27,10 +27,9 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100
 以下のPodcastを聴いた。
 
 - [ajitofm](https://ajito.fm/)
-    - @t_wadaさん回から聴き始めたのでナニコレ豪華！という感想
+    - @t_wadaさん回から聴き始めたのでナニコレ豪華という感想
 - [Misreading Chat – Nonsensical CS Paper Talk by Morrita and Mukai](https://misreading.chat/)
     - カジュアルに論文を読むという姿勢が素晴らしい
-
 - どのPodcastか忘れてしまったのだが（たぶんajito.fm）以下のような言葉が印象深かった
     - 論文は「新規性」が最も大事だが、アウトプットは「料理」と同じである
     - オリジナルのレシピを作った人がいたとしても、そのレシピ通りにできたこと。少しアレンジを加えたことなどは、知見になり得る
@@ -53,7 +52,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100
     - Monthly Reviewの代わりに振り返るのもよい
 - www.meganii.comにGoogle Adsense Auto Adsを導入
 - Fabcafeで3Dモデリングを体験
-    - 自分がモデリングしたモデルを現実世界に生成するのは面白い！
+    - 自分がモデリングしたモデルを現実世界に生成するのは面白い
 - CloudGarageのDeveloper Assistant Program(DAP)申請が通り、VM 3台の運用スタート
     - Rancherによる運用に取り組む
 
@@ -70,7 +69,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100
 - [Global Azure Bootcamp 2018@Tokyo \- connpass](https://jazug.connpass.com/event/81865/)
     - なかなかAzureのアップデートに追随できていなかったので為になった
 - [技術書典４ \| 技術書典](https://techbookfest.org/event/tbf04)
-    - 興味深い技術が多く、まさに技術書典のテーマを体感することができた
+    - 興味深い技術が多く、まさに技術書典のテーマを体感できた
 
 # Action Plan
 
