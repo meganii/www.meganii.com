@@ -16,7 +16,6 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1",
-    "image-size": "^0.9.3",
     "node-fetch": "^2.6.1",
     "request-image-size": "^2.1.0",
     "ts-node": "^9.0.0",
@@ -24,7 +23,6 @@
   },
   "devDependencies": {
     "@ampproject/toolbox-optimizer": "^2.6.0",
-    "@fullhuman/postcss-purgecss": "^3.0.0",
     "@johnfoderaro/apaw": "^1.0.1",
     "@types/cheerio": "^0.22.22",
     "autoprefixer": "^10.0.1",
