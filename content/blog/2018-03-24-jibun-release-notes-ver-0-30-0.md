@@ -23,9 +23,9 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100
 
 バージョン番号は`ver MAJOR.MINOR.PACHE`とし、それぞれ以下のタイミングで通り。
 
-- MAJOR versionは`0`とする。（永遠のベータ版）
-- MINOR versionは、年齢とする。
-- PATCH versionは、月とする。
+- MAJOR versionは`0`とする（永遠のベータ版）
+- MINOR versionは、年齢とする
+- PATCH versionは、月とする
 
 e.g. 
 
@@ -41,18 +41,18 @@ e.g.
 
 じぶんRelease Notesとしては、こんなことを書く予定。
 
-- Work 仕事の話
+- Work　仕事の話
 - Private　プライベートの話
-- Events 参加イベント
-- Input インプット
-    - Book 読書
+- Events　参加イベント
+- Input　インプット
+    - Book　読書
     - Web
     - Podcast
 - Output　アウトプット
     - Tech
     - Blog
-- KPT(Keep, Problem, Try)
-- YWT(やったこと、わかったこと、次にやること)
+- KPT（Keep, Problem, Try）
+- YWT（やったこと、わかったこと、次にやること）
 
 
 # Jibun Release notes (ver 0.30.0)
@@ -69,10 +69,9 @@ e.g.
     - [書くことについて](https://amzn.to/2HGBD8w)
     - [読書進化論](https://amzn.to/2qRouzN)
     - [逆説のスタートアップ思考 \(中公新書ラクレ 578\) \| 馬田 隆明 \|本 \| 通販 \| Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4121505786/meganii-22/)
-    - [フランス人は10着しか服を持たない~パリで学んだ“暮らしの質"を高める秘訣~ \| ジェニファー・L・スコット, 神崎 朗子 \|本 \| 通販 \| Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4479782990/meganii-22/)
+    - [フランス人は10着しか服を持たない~パリで学んだ"暮らしの質"を高める秘訣~ \| ジェニファー・L・スコット, 神崎 朗子 \|本 \| 通販 \| Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4479782990/meganii-22/)
     - [生命はなぜ生まれたのか―地球生物の起源の謎に迫る \(幻冬舎新書\) \| 高井 研 \|本 \| 通販 \| Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4344981987/meganii-22/ref=nosim)
     - [忘れる力 思考への知の条件 \| 外山 滋比古 \|本 \| 通販 \| Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/486581034X/meganii-22/)
-
 - Podcast「[rehash\.fm](http://rehash.fm/)」を新たに聴き始めた
 
 ## Output
@@ -84,8 +83,8 @@ e.g.
 
 ## Events
 
-- 「 宇宙に命はあるのか」の出版イベントに参加
-    - [宇宙を目指して海を渡る　ＭＩＴで得た学び、ＮＡＳＡ転職を決めた理由](https://amzn.to/2HBXb6f)にサインいただく
+- 「宇宙に命はあるのか」の出版イベントに参加
+    - [宇宙を目指して海を渡る　MITで得た学び、NASA転職を決めた理由](https://amzn.to/2HBXb6f)にサインいただく
 
 
 ## まとめ
@@ -95,7 +94,7 @@ e.g.
 
 # 参考
 - [じぶん Release Notes (ver 0.33.11) - えいのうにっき](http://blog.a-know.me/entry/2016/03/08/220720)
-    - じぶん Release Notesのやり方を参考にさせてもらいました
+    - じぶんRelease Notesのやり方を参考にさせてもらいました
 - [イマドキの振り返り手法 \- YWT Release Note\(ver 0\.21\.8\) \- はっさんブログ](http://www.hassansan.me/entry/2016/11/01/093000)
 - [じぶん Release Notes ver 0\.29\.03 \- Think \- g\.o\.a\.t](https://godgarden.goat.me/5TQFvknA)
 - [はてなインターンの振り返りをYWTを使ってやってみた \- だいくしー\(@daiksy\)のはてなブログ](https://daiksy.hatenablog.jp/entry/2016/10/31/080000)
