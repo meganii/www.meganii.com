@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TailwindCSS on SIS Lab</title>
+    <link>https://www.meganii.com/blog/tags/tailwindcss/</link>
+    <description>Recent content in TailwindCSS on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 01 Nov 2020 09:55:49 +0900</lastBuildDate><atom:link href="https://www.meganii.com/blog/tags/tailwindcss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HugoでTailwindCSSを利用しAMP Validなページを生成する</title>
+      <link>https://www.meganii.com/blog/2020/11/01/generate-amp-valid-pages-using-tailwindcss-in-hugo/</link>
+      <pubDate>Sun, 01 Nov 2020 09:55:49 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2020/11/01/generate-amp-valid-pages-using-tailwindcss-in-hugo/</guid>
+      <description>&lt;p&gt;HugoでCSSフレームワーク「Tailwind CSS」を利用し、AMP Validなページを生成する方法についてのメモです。&lt;/p&gt;
+&lt;h2 id=&#34;ポイント&#34;&gt;ポイント&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;HugoでPostCSSの仕組みを利用して、TailwindでCSSを組み立てる&lt;/li&gt;
+&lt;li&gt;Tailwind CSS v1.4からpergeCSSを内包し、設定方法が変わった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#ポイント&#34;&gt;ポイント&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#headhtml&#34;&gt;head.html&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#postcssconfigjs&#34;&gt;postcss.config.js&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#tailwindconfigjs&#34;&gt;tailwind.config.js&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
