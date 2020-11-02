@@ -1,0 +1,76 @@
+{
+    "ASIN": "4533139167",
+    "DetailPageURL": "https://www.amazon.co.jp/dp/4533139167?tag=meganii-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+        "Primary": {
+            "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/61qEkdRSIOL.jpg",
+                "Width": 408
+            },
+            "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/61qEkdRSIOL._SL160_.jpg",
+                "Width": 131
+            },
+            "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/61qEkdRSIOL._SL75_.jpg",
+                "Width": 61
+            }
+        }
+    },
+    "ItemInfo": {
+        "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "JTBパブリッシング",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
+            "Manufacturer": {
+                "DisplayValue": "ジェイティビィパブリッシング",
+                "Label": "Manufacturer",
+                "Locale": "ja_JP"
+            }
+        },
+        "Classifications": {
+            "Binding": {
+                "DisplayValue": "ムック",
+                "Label": "Binding",
+                "Locale": "ja_JP"
+            },
+            "ProductGroup": {
+                "DisplayValue": "Book",
+                "Label": "ProductGroup",
+                "Locale": "ja_JP"
+            }
+        },
+        "ContentInfo": {
+            "Languages": {
+                "DisplayValues": [
+                    {
+                        "DisplayValue": "日本語",
+                        "Type": "発行済み"
+                    }
+                ],
+                "Label": "Language",
+                "Locale": "ja_JP"
+            },
+            "PagesCount": {
+                "DisplayValue": 176,
+                "Label": "NumberOfPages",
+                "Locale": "en_US"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2020-03-09T00:00:01Z",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
+        },
+        "Title": {
+            "DisplayValue": "るるぶ札幌 小樽 富良野 旭山動物園'21 超ちいサイズ (るるぶ情報版地域小型)",
+            "Label": "Title",
+            "Locale": "ja_JP"
+        }
+    }
+}

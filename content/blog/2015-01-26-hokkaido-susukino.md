@@ -99,18 +99,19 @@ slug: hokkaido-susukino
 
 
 ## 行きたかった「はちきょう」
-
-「はっちょう」のいくら丼も食べたかったが、予約がいっぱいで入れず。「開陽亭」も予約必須だったため、行く予定がある方ははやめに予約をおすすめします。
-
 <!-- textlint-disable -->
-
-- {{< valuecommerce sid="3067752" pid="886820063" url="https%3A%2F%2Ftabelog.com%2Fhokkaido%2FA0101%2FA010103%2F1003784%2F" text="【食べログ】はちきょう - すすきの/郷土料理" >}}
 - [海味はちきょう \| 海味はちきょう 本店](https://hachikyo.com/shop/honten)
-
 <!-- textlint-enable -->
 
+「はっちょう」のいくら丼も食べたかったのですが予約がいっぱいで入れませんでした。
+「開陽亭」も予約必須でしたので、行く予定がある方は早めに予約をおすすめします。
+
+<!-- textlint-disable -->
+- {{< valuecommerce sid="3067752" pid="886820063" url="https%3A%2F%2Ftabelog.com%2Fhokkaido%2FA0101%2FA010103%2F1003784%2F" text="【食べログ】はちきょう - すすきの/郷土料理" >}}
+- {{< valuecommerce sid="3067752" pid="886820063" url="https%3A%2F%2Ftabelog.com%2Fhokkaido%2FA0101%2FA010103%2F1000007%2F" text="【食べログ】だるま本店 - すすきの/ジンギスカン" >}}
+- {{< valuecommerce sid="3067752" pid="886820063" url="https%3A%2F%2Ftabelog.com%2Fhokkaido%2FA0101%2FA010103%2F1000100%2F" text="【食べログ】開陽亭　すすきの店（かいようてい）- すすきの/魚介料理・海鮮料理" >}}
+<!-- textlint-enable -->
 
 また、冬の北海道も行かねば。
 
-
-{{% amazon 453311749X %}}
+{{% amazon 4533139167 %}}
