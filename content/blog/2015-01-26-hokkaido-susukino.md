@@ -77,7 +77,7 @@ slug: hokkaido-susukino
 
 いくら丼に、ウニを乗せながら、蟹を食べる贅沢の極みです。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1604325071/16186711249_0ba7788baf_z_p3p52q.jpg" w="640" h="640"　alt="函館開陽亭すすきの店　いくら丼" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1604325071/16186711249_0ba7788baf_z_p3p52q.jpg" w="640" h="640" alt="函館開陽亭すすきの店　いくら丼" %}}
 
 カニも色々種類があります。食べ方も刺し身、茹で、焼きと悩んでしまいます。
 今回は毛ガニの茹でを選び、身もほぐしてもらいました。
