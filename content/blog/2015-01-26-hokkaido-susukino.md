@@ -37,7 +37,7 @@ slug: hokkaido-susukino
 雪が吹雪く中で長時間並ぶことを覚悟しながら向かいましたが、意外とすんなり入れたので助かりました。
 注文する前に、羊脂と玉ねぎ、ネギが鉄板にのせられ、じゅーじゅーといい音がしてきます。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1604324839/16354201512_520a96a72a_z_s2zqay.jpg" w="480" h="480" alt="札幌ジンギスカンだるまの美味しい肉" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1604324839/16354201512_520a96a72a_z_s2zqay.jpg" w="480" h="480" alt="札幌ジンギスカンだるま　美味しい肉" %}}
 
 
 へんな臭いもなく、美味しく食べられました。
@@ -63,7 +63,7 @@ slug: hokkaido-susukino
 まずは、お刺身盛り合わせを頂きます。
 サーモンはとろけるし、ホタテはうまい。エビはあまいし、最高でした。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1604324954/16375952475_18c55843ee_z_zmxdxr.jpg" w="640" h="640" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1604324954/16375952475_18c55843ee_z_zmxdxr.jpg" w="640" h="640" alt="函館開陽亭すすきの店　刺身盛り合わせ" %}}
 
 
 続いて、名物は「イカの踊り食い」とのことだったので、さっそく1尾注文。
@@ -72,19 +72,19 @@ slug: hokkaido-susukino
 
 本体は、フライにしてもらい美味しくいただきました。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1604325008/16189733379_15e7b0863e_z_iqmlxe.jpg" w="640" h="640" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1604325008/16189733379_15e7b0863e_z_iqmlxe.jpg" w="640" h="640" alt="函館開陽亭すすきの店　イカの踊り食い" %}}
 
 
 いくら丼に、ウニを乗せながら、蟹を食べる贅沢の極みです。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1604325071/16186711249_0ba7788baf_z_p3p52q.jpg" w="640" h="640" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1604325071/16186711249_0ba7788baf_z_p3p52q.jpg" w="640" h="640"　alt="函館開陽亭すすきの店　いくら丼" %}}
 
 カニも色々種類があります。食べ方も刺し身、茹で、焼きと悩んでしまいます。
 今回は毛ガニの茹でを選び、身もほぐしてもらいました。
 
 カニは自分でむいて食べるのも美味しいですが、むいた状態のカニの身を何も考えずぱくぱく食べるのは最高に贅沢で、最高に美味しいです。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1604325111/16167718980_c64b758f7b_z_gwjwrm.jpg" w="640" h="640" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1604325111/16167718980_c64b758f7b_z_gwjwrm.jpg" w="640" h="640" alt="函館開陽亭すすきの店　蟹" %}}
 
 ウニは、ミョウバンを使っていないとのことで、なぜか昔読んだ漫画「将太の寿司」がフラッシュバックしました。
 ミョウバンを使ってないウニはすぐに溶けてしまうが、薬品の味がせず美味しいと聞いたことがあります。
@@ -92,7 +92,7 @@ slug: hokkaido-susukino
 ミョウバンの有無による味の違いは私にはわかりませんでしたが、食べた瞬間に口の中で溶けて、ふわーっとウニの味が広がる。ずっと食べていたいウニでした。
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1604325149/16188324768_fd3ab3c1d9_z_xynxpo.jpg" w="640" h="640" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1604325149/16188324768_fd3ab3c1d9_z_xynxpo.jpg" w="640" h="640" alt="函館開陽亭すすきの店　ミョウバンを使っていないウニ" %}}
 
 
 数時間で食べるんじゃなくて、一週間ちょっとずつに分けて、それをおかずにひたすら白米を食べたい気持ちになりました。
