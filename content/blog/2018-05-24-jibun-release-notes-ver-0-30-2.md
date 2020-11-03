@@ -18,25 +18,27 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100
 {{% googleadsense %}}
 
 ## Tech
+
 - Puppeteerの調子が悪いためCloud GarageのOSをRancherOSからUbuntuに切り替えた
     - 原因不明のエラーがかなり解消された
-    - コンテナでPuppeteerを実行させたかったが、自分にはまだ扱うには早かった
+    - コンテナでPuppeteerを実行させたかったが、自分が扱うにはまだ早かった
 
 ## Private
+
 - Fish Shell導入
-    - Zshだとプラグイン読み込みが少し気になっていたが、Fish Shellにすることで動きが軽くなった気がする
+    - Zshだとプラグイン読込が重たいことを気にしていたが、Fish Shellにすることで動作が軽くなった
     - 触れ込みにあるように、エラーメッセージが人に優しい
 - 不用品（紙）を削除できた
     - 携帯電話契約時の書類破棄
-- docomoへの２回線port in
+- docomoへの2回線port in
     - 後は、ipadを契約して月サポを充実させたい
 - 机左側の棚を整頓できた
-- 6月の旅行予約DONE!
+- 6月の旅行予約DONE
 
 ## Output
 ### Blog
 
-- [https://www.meganii.com/blog/2018/05/23/scrapbox-drinkup-04-tokyo-edition/ Scrapbox Drinkup ＃04 Tokyo Edition」イベントレポート - SIS Lab]
+- [Scrapbox Drinkup ＃04 Tokyo Edition」イベントレポート - SIS Lab](https://www.meganii.com/blog/2018/05/23/scrapbox-drinkup-04-tokyo-edition/)
 
 ## Input
 ### Book
@@ -45,6 +47,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100
 
 
 ## Event
-- 2018/04/27 Team Sunrize [岩田ヘレン]さんのイベントに参加
+
+- 2018/04/27 Team Sunrize　岩田ヘレンさんのイベントに参加
 - 2018/05/23 Scrapbox Drinkup 04 Tokyo Editionに参加
 
