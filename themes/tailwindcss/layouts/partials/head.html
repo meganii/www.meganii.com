@@ -40,11 +40,8 @@
     {{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/dev/postcss.config.js") | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}" data> 
     {{ else }}
-  
     {{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js") | minify }}
-    {{ $css_content := $style.Content }}
-    {{ $css_content = replace $css_content `@charset "UTF-8"` "" }}
-    <style amp-custom>{{ $css_content | safeCSS }}</style>
+    <style amp-custom>{{ $style.Content | safeCSS }}</style>
 
   
     {{ end }}
