@@ -38,6 +38,7 @@
   @apply p-6;
   @apply overflow-auto;
   @apply bg-gray-100;
+  @apply text-sm;
 }
 
 .post p > code, .post li > code {
