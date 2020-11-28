@@ -4,7 +4,7 @@ date: 2020-11-28T11:47:52+09:00
 lastmod: 2020-11-28T11:47:52+09:00
 published: true
 category: ["Gadget"]
-tags: ["レビュー", "ヘッドホン", "SONY"、"Music"]
+tags: ["レビュー", "ヘッドホン", "SONY", "Music"]
 comment: true
 slug: "review-sony-wh-1000xm4-wireless-noise-canceling-headphones"
 img: "https://res.cloudinary.com/meganii/image/upload/v1606546130/IMG20201128154423_ww5bca.jpg"
