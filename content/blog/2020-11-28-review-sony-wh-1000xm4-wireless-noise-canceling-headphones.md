@@ -4,7 +4,7 @@ date: 2020-11-28T11:47:52+09:00
 lastmod: 2020-11-28T11:47:52+09:00
 published: true
 category: ["Gadget"]
-tags: ["レビュー", "ヘッドホン", "SONY", "Music"]
+tags: ["レビュー", "ヘッドフォン", "SONY", "Music"]
 comment: true
 slug: "review-sony-wh-1000xm4-wireless-noise-canceling-headphones"
 img: "https://res.cloudinary.com/meganii/image/upload/v1606546130/IMG20201128154423_ww5bca.jpg"
@@ -12,9 +12,9 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1606546130/IMG20201128154
 
 My new gear... 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1606546130/IMG20201128154423_ww5bca.jpg" w="3456" h="3456" alt="SONY WH-1000XM4" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1606546130/IMG20201128154423_ww5bca.jpg" w="3456" h="3456" alt="SONY WH-1000XM4 ワイヤレスノイズキャンセリングヘッドフォン" %}}
 
-初めてのワイヤレスノイズキャンセリング「SONY WH-1000XM4」を購入して、2週間利用してみたので、その感想を書きます。
+初めてのワイヤレスノイズキャンセリングヘッドフォン「SONY WH-1000XM4」を購入して、2週間利用してみたのでその感想を書きます。
 
 {{% toc %}}
 
@@ -22,31 +22,33 @@ My new gear...
 {{% googleadsense %}}
 
 
-今まで利用していたヘッドホンが壊れたこと、ヘッドホンジャックが無くなったiPad Proを買ったことにより、Bluetoothのヘッドホンもしくはイヤホンを探していました。
+## 購入理由
+
+今まで利用していたヘッドフォンが壊れたこと、ヘッドフォンジャックが無くなったiPad Proを買ったことにより、Bluetoothのヘッドフォンもしくはイヤフォンを探していました。
 
 自分の中での選択肢は次のとおりでした。
 
-* イヤホン
+* イヤフォン
     * Apple Air Pods Pro
     * SONY WF-1000XM3
-* ヘッドホン
+* ヘッドフォン
     * SENNHEISER MOMENTUM 3 Wireless
     * BOSE QuietComfort 35 wireless headphones II
     * <a href="https://hb.afl.rakuten.co.jp/hgc/0f1c1106.d5997202.117c2ed9.4ab7d4d2/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FWH-1000XM4%2F" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">SONY WH-1000XM4</a>
 
-まず、イヤホンかヘッドホンのどちらにするのかで悩みました。
+まず、イヤフォンかヘッドフォンのどちらにするのかで悩みました。
 
-ワイヤレスイヤホンは、家や外でも邪魔にならず手軽に使える点に魅力を感じていました。
-しかし、私の場合、ワイヤレスイヤホンのように小さな機器はどこかに無くしてしまう可能性が高く、最終的に選択肢から外しました。
+ワイヤレスイヤフォンは、家や外でも邪魔にならず手軽に使える点に魅力を感じていました。
+しかし、私の場合、ワイヤレスイヤフォンのように小さな機器はどこかに無くしてしまう可能性が高く、最終的に選択肢から外しました。
 せっかくのワイヤレスにも関わらず、あえて紐で繋ぐという未来が見えましたので・・・。
 
-では、ヘッドホンの中で何にするのか。
+では、ヘッドフォンの中で何にするのか。
 
 Amazonでよく見かけるBOSEのQuietComfort 35や、憧れのSENNHEISERなど選択肢は色々とありました。
 その中でも選ばれたのは「SONY WH-1000XM4」でした。
 （結局、最初から欲しいと思っていたものが楽天市場で少し安くなっていたので購入しました）
 
-## SONY WH-1000XM4
+## SONY ワイヤレスノイズキャンセリングヘッドフォン　WH-1000XM4
 
 わたしが個人的に気に入っているのは、次の点です。
 
@@ -56,9 +58,11 @@ Amazonでよく見かけるBOSEのQuietComfort 35や、憧れのSENNHEISERなど
 
 ### 満足できる音質
 
-正直、細かい音の違いを理解できるとは思わないですが、ワイヤレスでありながら低音や息遣いなどをクリアに聴くことができています。
+正直、私が細かい音の違いを理解できているとは思わないですが、ワイヤレスでありながら低音や息遣いなどをクリアに聴くことができています。
 YouTubeであってもいい音で聴けることに満足しています。
 
+最近は、THE F1RST TAKEシリーズにハマって、何度も聞き直しています。
+SONYが仕掛けているとは知らずに聞いていました。
 {{<youtube j1hft9Wjq9U >}}
 
 
@@ -66,6 +70,8 @@ YouTubeであってもいい音で聴けることに満足しています。
 
 1台1台Bluetoothのペアリングをし直すのではなく、2台まで繋ぎっぱなしにしておける機能がマルチペアリングです。
 たとえば、1台目はスマートフォン、2台目はPC/MacにすることでストレスなくシームレスにスマートフォンとPC/Macを切り替えることができます。
+
+マルチペアリングの機能がない普通のワイヤレスヘッドホンの場合は、
 
 
 ### 十分なバッテリー容量
