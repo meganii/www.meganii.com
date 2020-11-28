@@ -15,62 +15,114 @@
       <guid>https://www.meganii.com/blog/2017/09/02/az-chain-cleaner-buruno-maintenance/</guid>
       <description>&lt;p&gt;何気なくAmazonをみていると、AZ(エーゼット）チェーンクリーナーがなんと初回限定98円で売っていたので、思わずポチってしまいました。これを機に、自転車のチェーン清掃にチャレンジしてみました。&lt;/p&gt;
 &lt;p&gt;購入したのは、以下3本です。&lt;/p&gt;
-&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1596888470/36974664995_b282fb2cc1_o_jh6tdv.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/36974664995_b282fb2cc1_o_jh6tdv.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/36974664995_b282fb2cc1_o_jh6tdv.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/36974664995_b282fb2cc1_o_jh6tdv.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/36974664995_b282fb2cc1_o_jh6tdv.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/36974664995_b282fb2cc1_o_jh6tdv.jpg 320w&#34;
-      width=&#34;300&#34;
-      height=&#34;300&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;チェーンクリーナーセット&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;div class=&#34;m-4 relative border border-grey-light rounded
-            trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
-            md:m-4 md:mx-auto
-            lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
-    &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
-        &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/41zyIazbcvL.jpg&#34; alt=&#34;AZ(エーゼット) MCC-002 バイク用 チェーンクリーナー パワーゾル スプレー [チェーンクリーナー/チェーン洗剤/チェンクリーナー/チェン洗浄剤/チェインクリーナー] 420ml AW604&#34; layout=&#34;fill&#34; /&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal&#34;&gt;
-        &lt;div class=&#34;mb-8 px-1&#34;&gt;
-            &lt;div&gt;AZ(エーゼット) MCC-002 バイク用 チェーンクリーナー パワーゾル スプレー [チェーンクリーナー/チェーン洗剤/チェンクリーナー/チェン洗浄剤/チェインクリーナー] 420ml AW604&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.amazon.co.jp/dp/B06XRQXM8G?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; class=&#34;block absolute top-0 left-0  w-full h-full&#34;&gt;&lt;/a&gt;
+&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1596888470/36974664995_b282fb2cc1_o_jh6tdv.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/36974664995_b282fb2cc1_o_jh6tdv.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/36974664995_b282fb2cc1_o_jh6tdv.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/36974664995_b282fb2cc1_o_jh6tdv.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/36974664995_b282fb2cc1_o_jh6tdv.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/36974664995_b282fb2cc1_o_jh6tdv.jpg 320w&#34;
+        width=&#34;300&#34;
+        height=&#34;300&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;チェーンクリーナーセット&#34;&gt;
+    &lt;/amp-img&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;div class=&#34;m-4 relative border border-grey-light rounded
-            trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
-            md:m-4 md:mx-auto
-            lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
-    &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
-        &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/51b6TA9iISL.jpg&#34; alt=&#34;AZ エーゼット CBP-001 High Power ブレーキパーツクリーナー 420ml AW804&#34; layout=&#34;fill&#34; /&gt;
+&lt;div class=&#34;embed&#34;&gt;
+  &lt;div class=&#34;rf&#34;&gt;
+    &lt;div class=&#34;rr&#34;&gt;
+      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
+        &lt;a href=&#34;&#34;&gt;
+          &lt;div&gt;
+            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
+          &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
+        &lt;div class=&#34;rf&#34;&gt;
+          &lt;div class=&#34;rr&#34;&gt;
+            &lt;div class=&#34;rcx12 body&#34;&gt;
+              &lt;a class=&#34;utdn&#34; 
+                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;rcm12 hx&#34;&gt;
+              &lt;div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
     &lt;/div&gt;
-    &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal&#34;&gt;
-        &lt;div class=&#34;mb-8 px-1&#34;&gt;
-            &lt;div&gt;AZ エーゼット CBP-001 High Power ブレーキパーツクリーナー 420ml AW804&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&#34;rr&#34;&gt;
+      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
+        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
+      &lt;/div&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://www.amazon.co.jp/dp/B01LZA2CQ6?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; class=&#34;block absolute top-0 left-0  w-full h-full&#34;&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;div class=&#34;m-4 relative border border-grey-light rounded
-            trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
-            md:m-4 md:mx-auto
-            lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
-    &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
-        &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/31WtlBxraxL.jpg&#34; alt=&#34;AZ（エーゼット） CKM-002 超極圧・極潤滑 オイル 50ml AZ525&#34; layout=&#34;fill&#34; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt; --&gt;
+&lt;div class=&#34;embed&#34;&gt;
+  &lt;div class=&#34;rf&#34;&gt;
+    &lt;div class=&#34;rr&#34;&gt;
+      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
+        &lt;a href=&#34;&#34;&gt;
+          &lt;div&gt;
+            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
+          &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
+        &lt;div class=&#34;rf&#34;&gt;
+          &lt;div class=&#34;rr&#34;&gt;
+            &lt;div class=&#34;rcx12 body&#34;&gt;
+              &lt;a class=&#34;utdn&#34; 
+                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;rcm12 hx&#34;&gt;
+              &lt;div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
     &lt;/div&gt;
-    &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal&#34;&gt;
-        &lt;div class=&#34;mb-8 px-1&#34;&gt;
-            &lt;div&gt;AZ（エーゼット） CKM-002 超極圧・極潤滑 オイル 50ml AZ525&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&#34;rr&#34;&gt;
+      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
+        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
+      &lt;/div&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://www.amazon.co.jp/dp/B0185KBFKK?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; class=&#34;block absolute top-0 left-0  w-full h-full&#34;&gt;&lt;/a&gt;
-&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt; --&gt;
+&lt;div class=&#34;embed&#34;&gt;
+  &lt;div class=&#34;rf&#34;&gt;
+    &lt;div class=&#34;rr&#34;&gt;
+      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
+        &lt;a href=&#34;&#34;&gt;
+          &lt;div&gt;
+            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
+          &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
+        &lt;div class=&#34;rf&#34;&gt;
+          &lt;div class=&#34;rr&#34;&gt;
+            &lt;div class=&#34;rcx12 body&#34;&gt;
+              &lt;a class=&#34;utdn&#34; 
+                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;rcm12 hx&#34;&gt;
+              &lt;div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;rr&#34;&gt;
+      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
+        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt; --&gt;
 &lt;aside&gt;
     &lt;div class=&#34;toc&#34;&gt;
     &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
