@@ -53,10 +53,24 @@
                 "Locale": "ja_JP"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "2600126538678",
+                    "4901140300165"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "PRIMUS(プリムス) IP-2245A-S ランタン【日本正規品】",
             "Label": "Title",
             "Locale": "ja_JP"
         }
+    },
+    "Rakuten": {},
+    "Yahoo": {
+        "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=886865716&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D2600126538678"
     }
 }

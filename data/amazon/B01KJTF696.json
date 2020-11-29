@@ -60,7 +60,7 @@
                 "Locale": "ja_JP"
             },
             "PagesCount": {
-                "DisplayValue": 153,
+                "DisplayValue": 185,
                 "Label": "NumberOfPages",
                 "Locale": "en_US"
             },
@@ -75,5 +75,7 @@
             "Label": "Title",
             "Locale": "ja_JP"
         }
-    }
+    },
+    "Rakuten": {},
+    "Yahoo": {}
 }

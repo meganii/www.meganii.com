@@ -76,10 +76,33 @@
                 "Locale": "en_US"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "9784774178660"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            },
+            "ISBNs": {
+                "DisplayValues": [
+                    "4774178667"
+                ],
+                "Label": "ISBN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "nginx実践入門 (WEB+DB PRESS plus)",
             "Label": "Title",
             "Locale": "ja_JP"
         }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/2540c3c4d28c99d649ace4b08401f0c9/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/2540c3c4d28c99d649ace4b08401f0c9/"
+    },
+    "Yahoo": {
+        "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=886865716&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D9784774178660"
     }
 }

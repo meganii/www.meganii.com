@@ -28,7 +28,7 @@
                 "Locale": "ja_JP"
             },
             "Manufacturer": {
-                "DisplayValue": "AZ(エーゼット)",
+                "DisplayValue": "株式会社エーゼット",
                 "Label": "Manufacturer",
                 "Locale": "ja_JP"
             }
@@ -45,10 +45,26 @@
                 "Locale": "ja_JP"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "4960833060168"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
-            "DisplayValue": "AZ(エーゼット) 自転車用 チェーン洗浄器 DX (洗浄機・回転ブラシ) KD060",
+            "DisplayValue": "AZ(エーゼット) 自転車用チェーン洗浄器 DX",
             "Label": "Title",
             "Locale": "ja_JP"
         }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/9de26de1f265fe4e24235ab67087b625/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/9de26de1f265fe4e24235ab67087b625/"
+    },
+    "Yahoo": {
+        "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=886865716&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D4960833060168"
     }
 }

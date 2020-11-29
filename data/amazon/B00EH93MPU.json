@@ -25,7 +25,7 @@
             "Contributors": [
                 {
                     "Locale": "ja_JP",
-                    "Name": "��村総合研究所 システムコンサルティング事業本部",
+                    "Name": "野村総合研究所 システムコンサルティング事業本部",
                     "Role": "著",
                     "RoleType": "author"
                 }
@@ -65,7 +65,7 @@
                 "Locale": "ja_JP"
             },
             "PagesCount": {
-                "DisplayValue": 234,
+                "DisplayValue": 429,
                 "Label": "NumberOfPages",
                 "Locale": "en_US"
             },
@@ -80,5 +80,7 @@
             "Label": "Title",
             "Locale": "ja_JP"
         }
-    }
+    },
+    "Rakuten": {},
+    "Yahoo": {}
 }

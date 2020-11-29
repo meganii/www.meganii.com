@@ -60,10 +60,33 @@
                 "Locale": "en_US"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "9784344020382"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            },
+            "ISBNs": {
+                "DisplayValues": [
+                    "4344020383"
+                ],
+                "Label": "ISBN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "実践編　関節痛は99％完治する　“腰痛”も“肩こり・首痛” “ひざ痛”もあきらめなくていい！",
             "Label": "Title",
             "Locale": "ja_JP"
         }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/206ddeecabd6b5610b85bad80fbc6f2a/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/206ddeecabd6b5610b85bad80fbc6f2a/"
+    },
+    "Yahoo": {
+        "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=886865716&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D9784344020382"
     }
 }

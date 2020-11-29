@@ -76,10 +76,33 @@
                 "Locale": "en_US"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "9784532314880"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            },
+            "ISBNs": {
+                "DisplayValues": [
+                    "4532314887"
+                ],
+                "Label": "ISBN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "ワールド・カフェをやろう",
             "Label": "Title",
             "Locale": "ja_JP"
         }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/9f8d5ae2baecb87a5a1e2246b4cb15ba/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/9f8d5ae2baecb87a5a1e2246b4cb15ba/"
+    },
+    "Yahoo": {
+        "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=886865716&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D9784532314880"
     }
 }

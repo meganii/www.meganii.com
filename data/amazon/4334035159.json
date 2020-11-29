@@ -70,10 +70,33 @@
                 "Locale": "en_US"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "9784334035150"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            },
+            "ISBNs": {
+                "DisplayValues": [
+                    "4334035159"
+                ],
+                "Label": "ISBN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "仕事するのにオフィスはいらない (光文社新書)",
             "Label": "Title",
             "Locale": "ja_JP"
         }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/9588e0370be3351ed5fae9ae3f278f5c/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/9588e0370be3351ed5fae9ae3f278f5c/"
+    },
+    "Yahoo": {
+        "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=886865716&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D9784334035150"
     }
 }

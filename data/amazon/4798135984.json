@@ -111,10 +111,33 @@
                 "Locale": "en_US"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "9784798135984"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            },
+            "ISBNs": {
+                "DisplayValues": [
+                    "4798135984"
+                ],
+                "Label": "ISBN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "計算機プログラムの構造と解釈 第2版",
             "Label": "Title",
             "Locale": "ja_JP"
         }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/97db18bc20227d2c0804b51280f9eb0d/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/97db18bc20227d2c0804b51280f9eb0d/"
+    },
+    "Yahoo": {
+        "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=886865716&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D9784798135984"
     }
 }

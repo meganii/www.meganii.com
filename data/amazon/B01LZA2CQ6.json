@@ -40,10 +40,26 @@
                 "Locale": "ja_JP"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "4960833804243"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
-            "DisplayValue": "AZ エーゼット CBP-001 High Power ブレーキパーツクリーナー 420ml AW804",
+            "DisplayValue": "AZ（エーゼット） CBP-001 High Power ブレーキ&パーツクリーナー 420ml AW804",
             "Label": "Title",
             "Locale": "ja_JP"
         }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/c9f733f2950e96e2fa806d82b826b8c5/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/c9f733f2950e96e2fa806d82b826b8c5/"
+    },
+    "Yahoo": {
+        "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=886865716&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D4960833804243"
     }
 }

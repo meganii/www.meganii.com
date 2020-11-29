@@ -60,10 +60,31 @@
                 "Locale": "en_US"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "9784844327271"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            },
+            "ISBNs": {
+                "DisplayValues": [
+                    "4844327275"
+                ],
+                "Label": "ISBN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "徹底攻略 情報処理シリーズ かんたん合格 応用情報技術者過去問題集平成21年度秋期 (徹底攻略情報処理シリーズ)",
             "Label": "Title",
             "Locale": "ja_JP"
         }
-    }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/514db14852972492256aa554d54a58d8/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/514db14852972492256aa554d54a58d8/"
+    },
+    "Yahoo": {}
 }

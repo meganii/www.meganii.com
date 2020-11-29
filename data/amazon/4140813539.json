@@ -94,10 +94,34 @@
                 "Locale": "en_US"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "9784140813539"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            },
+            "ISBNs": {
+                "DisplayValues": [
+                    "4140813539",
+                    "9784140813539"
+                ],
+                "Label": "ISBN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
-            "DisplayValue": "脳を鍛えるには運動しかない!  最新科学でわかった脳細胞の増やし方",
+            "DisplayValue": "脳を鍛えるには運動しかない! 最新科学でわかった脳細胞の増やし方",
             "Label": "Title",
             "Locale": "ja_JP"
         }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/d25e9f892c0fd7d52626754ee4cf4006/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/d25e9f892c0fd7d52626754ee4cf4006/"
+    },
+    "Yahoo": {
+        "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=886865716&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D9784140813539"
     }
 }

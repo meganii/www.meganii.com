@@ -45,10 +45,26 @@
                 "Locale": "ja_JP"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "4986920470511"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "La-VIE(ラヴィ) やわこ  ストレッチ ボール マッサージボール",
             "Label": "Title",
             "Locale": "ja_JP"
         }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/2ce04e9576849e7ca37c2bf2d52981ab/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/2ce04e9576849e7ca37c2bf2d52981ab/"
+    },
+    "Yahoo": {
+        "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=886865716&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D4986920470511"
     }
 }

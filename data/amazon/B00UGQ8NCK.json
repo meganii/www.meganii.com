@@ -45,10 +45,21 @@
                 "Locale": "ja_JP"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "4548801219109"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "モンベル(mont-bell) テント ステラリッジテント 3型 [3人用] サンライトイエロー 1122477-SUYL",
             "Label": "Title",
             "Locale": "ja_JP"
         }
-    }
+    },
+    "Rakuten": {},
+    "Yahoo": {}
 }

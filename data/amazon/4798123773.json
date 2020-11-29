@@ -60,10 +60,31 @@
                 "Locale": "en_US"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "9784798123776"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            },
+            "ISBNs": {
+                "DisplayValues": [
+                    "4798123773"
+                ],
+                "Label": "ISBN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "情報処理教科書 ネットワークスペシャリスト 2011年版",
             "Label": "Title",
             "Locale": "ja_JP"
         }
-    }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/592731e7f5781433d5d4e517eb5fa14e/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/592731e7f5781433d5d4e517eb5fa14e/"
+    },
+    "Yahoo": {}
 }

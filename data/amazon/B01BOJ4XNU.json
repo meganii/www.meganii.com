@@ -52,7 +52,7 @@
             "Languages": {
                 "DisplayValues": [
                     {
-                        "DisplayValue": "��本語",
+                        "DisplayValue": "日本語",
                         "Type": "発行済み"
                     }
                 ],
@@ -75,5 +75,7 @@
             "Label": "Title",
             "Locale": "ja_JP"
         }
-    }
+    },
+    "Rakuten": {},
+    "Yahoo": {}
 }

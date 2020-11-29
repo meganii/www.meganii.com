@@ -45,10 +45,34 @@
                 "Locale": "ja_JP"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "0792217598103",
+                    "4580424253733",
+                    "0789015314349",
+                    "4902777323176"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            },
+            "UPCs": {
+                "DisplayValues": [
+                    "789015314349",
+                    "792217598103"
+                ],
+                "Label": "UPC",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "明治 ザバス ホエイプロテイン100 ココア味【50食分】 1,050g",
             "Label": "Title",
             "Locale": "ja_JP"
         }
+    },
+    "Rakuten": {},
+    "Yahoo": {
+        "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=886865716&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D0792217598103"
     }
 }

@@ -22,6 +22,11 @@
     },
     "ItemInfo": {
         "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "Portfolio",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
             "Contributors": [
                 {
                     "Locale": "ja_JP",
@@ -78,10 +83,32 @@
                 "Locale": "en_US"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "9781101981054"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            },
+            "ISBNs": {
+                "DisplayValues": [
+                    "9781101981054",
+                    "1101981059"
+                ],
+                "Label": "ISBN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "Be Obsessed or Be Average",
             "Label": "Title",
             "Locale": "ja_JP"
         }
-    }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/83d7ca7b05d658d417e7409aaba5a7be/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/83d7ca7b05d658d417e7409aaba5a7be/"
+    },
+    "Yahoo": {}
 }

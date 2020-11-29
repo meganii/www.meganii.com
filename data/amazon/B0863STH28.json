@@ -45,10 +45,26 @@
                 "Locale": "ja_JP"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "4549995147278"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
-            "DisplayValue": "最新モデル Apple iPad Pro (11インチ, Wi-Fi, 128GB) - シルバー (第2世代)",
+            "DisplayValue": "最新 Apple iPad Pro (11インチ, Wi-Fi, 128GB) - シルバー (第2世代)",
             "Label": "Title",
             "Locale": "ja_JP"
         }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/f3efd64ce0c87342051947610d6fe361/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/f3efd64ce0c87342051947610d6fe361/"
+    },
+    "Yahoo": {
+        "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=886865716&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D4549995147278"
     }
 }

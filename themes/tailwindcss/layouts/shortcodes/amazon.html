@@ -1,47 +1,35 @@
 {{ $associateId := "meganii-22" }}
-
-{{ if .IsNamedParams }}
-{{ $.Scratch.Add "amazonItemId" ( .Get "id") }}
-{{ $.Scratch.Add "amazonItemWidth" ( .Get "width") }}
-{{ $.Scratch.Add "amazonItemHeight" ( .Get "height") }}
-{{ else }}
-{{ $.Scratch.Add "amazonItemId" ( .Get 0) }}
-{{ $.Scratch.Add "amazonItemWidth" "100" }}
-{{ $.Scratch.Add "amazonItemHeight" "100" }}
-{{ end }}
-
-{{ $itemId := $.Scratch.Get "amazonItemId" }}
-{{ $imgWidth := $.Scratch.Get "amazonItemWidth" }}
-{{ $imgHeight := $.Scratch.Get "amazonItemHeight" }}
-
+{{ $itemId := ( .Get 0)  }}
 {{ $json := getJSON "data/amazon/" $itemId ".json"}}
 
 
 <p></p><!-- Avoid overriding list -->
 
-
-<div class="m-4 relative border border-grey-light rounded
-            trasition opacity-100 hover:opacity-75 duration-200 hover:duration-200
-            md:m-4 md:mx-auto
-            lg:flex lg:my-4 lg:mx-auto z-0">
-    <div class="h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4">
-        <amp-img class="contain" src="{{ $json.Images.Primary.Large.URL }}" alt="{{ $json.ItemInfo.Title.DisplayValue }}" layout="fill" />
+<div class="border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0">
+  <div class="h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4">
+    <amp-img class="contain" src="{{ $json.Images.Primary.Large.URL }}"
+      alt="{{ $json.ItemInfo.Title.DisplayValue }}"
+      layout="fill" />
+  </div>
+  <div class="p-4 relative flex flex-col justify-between leading-normal lg:w-3/5">
+    <div class="mb-8 px-1">
+      <a href="{{ $json.DetailPageURL }}" rel="noreferrer noreferrer sponsored" class="">{{ $json.ItemInfo.Title.DisplayValue }}</a>
+      <div>出版社：{{ $json.ItemInfo.ByLineInfo.Manufacturer.DisplayValue }}</div>
+      {{- with $json.ItemInfo.ByLineInfo.Contributors -}}
+      <div>著者: {{- range . -}}<span class="ml-3">{{ .Name }}</span>{{- end -}}</div>
+      {{- end -}}
+      {{- with $json.ItemInfo.ContentInfo.PublicationDate.DisplayValue -}}
+      <div>発売日: {{ . }}</div>
+      {{- end -}}
     </div>
-    <div class="p-4 relative flex flex-col justify-between leading-normal">
-        <div class="mb-8 px-1">
-            <div>{{ $json.ItemInfo.Title.DisplayValue }}</div>
-            {{- if (or ( eq $json.ItemInfo.Classifications.ProductGroup.DisplayValue "Book") (eq $json.ItemInfo.Classifications.ProductGroup.DisplayValue "Digital Ebook Purchas")) -}}
-            <div>出版社：{{ $json.ItemInfo.ByLineInfo.Manufacturer.DisplayValue }}</div>
-            {{- else if (eq $json.ItemInfo.Classifications.ProductGroup.DisplayValue "Shoes") -}}
-            <div>{{ $json.Item.ItemAttributes.Brand }}</div>
-            {{- else -}}
-            <div></div>
-            {{- end -}}
-            {{- with $json.ItemInfo.ByLineInfo.Contributors -}}
-            <div>著者: {{- range . -}}<span class="ml-3">{{ .Name }}</span>{{- end -}}</div>
-            {{- end -}}
-            {{- with $json.ItemInfo.ContentInfo.PublicationDate.DisplayValue -}}<div>発売日: {{ . | dateFormat "2006.01.02" }}</div> {{- end -}}
-        </div>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-1">
+      <a href="{{ $json.DetailPageURL }}" target="_blank" rel="noreferrer noreferrer sponsored" class="block py-2 text-yellow-600	text-center w-full border-2 border-yellow-600 rounded">Amazon</a>
+      {{- with $json.Rakuten.productUrlPC -}}
+      <a href="{{ $json.Rakuten.productUrlPC }}" target="_blank" rel="noreferrer noreferrer sponsored" class="block py-2 text-red-600 text-sm text-center w-full border-2 border-red-600 rounded">楽天市場</a>
+      {{- end -}}
+      {{- with $json.Yahoo.productUrl -}}
+      <a href="{{ $json.Yahoo.productUrl }}" target="_blank" rel="noreferrer noreferrer sponsored" class="block py-2 text-purple-600	text-sm text-center w-full border-2 border-purple-600 rounded">Yahoo!ショッピング</a>
+      {{- end -}}
     </div>
-    <a href="{{ $json.DetailPageURL }}" class="block absolute top-0 left-0  w-full h-full"></a>
+  </div>
 </div>

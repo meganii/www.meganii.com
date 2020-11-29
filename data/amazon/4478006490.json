@@ -76,10 +76,31 @@
                 "Locale": "en_US"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "9784478006498"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            },
+            "ISBNs": {
+                "DisplayValues": [
+                    "4478006490"
+                ],
+                "Label": "ISBN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "絶対内定2010 エントリーシート (絶対内定シリーズ)",
             "Label": "Title",
             "Locale": "ja_JP"
         }
-    }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/82b557ed01269b68d155a5eb3c32112c/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/82b557ed01269b68d155a5eb3c32112c/"
+    },
+    "Yahoo": {}
 }

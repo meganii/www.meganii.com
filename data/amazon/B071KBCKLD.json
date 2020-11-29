@@ -45,10 +45,26 @@
                 "Locale": "ja_JP"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "4589609010925"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
-            "DisplayValue": "【初心者用 スラックライン】ビギナーに安心の定番セット 16m 5cm macaco マカコ 日本語版 野外 室内(安心のラバーラチェット ツリーウェア2枚 収納袋 日本語説明書 遊び方トリック集付き)",
+            "DisplayValue": "【初心者用 スラックライン】ビギナーに安心の定番セット 16m 5cm macaco マカコ 野外 室内 (安心のラバーラチェット)",
             "Label": "Title",
             "Locale": "ja_JP"
         }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/44fb061847f1ae648843861285f57c2f/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/44fb061847f1ae648843861285f57c2f/"
+    },
+    "Yahoo": {
+        "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=886865716&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D4589609010925"
     }
 }

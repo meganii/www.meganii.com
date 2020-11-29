@@ -5,18 +5,18 @@
         "Primary": {
             "Large": {
                 "Height": 500,
-                "URL": "https://m.media-amazon.com/images/I/51Vm3kKjZ6L.jpg",
-                "Width": 375
+                "URL": "https://m.media-amazon.com/images/I/51XdQhacD-L.jpg",
+                "Width": 353
             },
             "Medium": {
                 "Height": 160,
-                "URL": "https://m.media-amazon.com/images/I/51Vm3kKjZ6L._SL160_.jpg",
-                "Width": 120
+                "URL": "https://m.media-amazon.com/images/I/51XdQhacD-L._SL160_.jpg",
+                "Width": 113
             },
             "Small": {
                 "Height": 75,
-                "URL": "https://m.media-amazon.com/images/I/51Vm3kKjZ6L._SL75_.jpg",
-                "Width": 56
+                "URL": "https://m.media-amazon.com/images/I/51XdQhacD-L._SL75_.jpg",
+                "Width": 53
             }
         }
     },
@@ -87,10 +87,33 @@
                 "Locale": "en_US"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "9784797386295"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            },
+            "ISBNs": {
+                "DisplayValues": [
+                    "4797386290"
+                ],
+                "Label": "ISBN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "たのしいRuby 第5版",
             "Label": "Title",
             "Locale": "ja_JP"
         }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/a293f95b499b8b3915d3af15a7eb56b9/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/a293f95b499b8b3915d3af15a7eb56b9/"
+    },
+    "Yahoo": {
+        "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=886865716&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D9784797386295"
     }
 }

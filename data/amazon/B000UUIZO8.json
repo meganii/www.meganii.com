@@ -45,10 +45,28 @@
                 "Locale": "ja_JP"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "4014519151500",
+                    "7227700607367",
+                    "4562229913593"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "LAMY ラミー 万年筆 ペン先EF(極細字) サファリ スケルトン L12-EF 両用式 コンバーター別売 正規輸入品",
             "Label": "Title",
             "Locale": "ja_JP"
         }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/a99428b10c0f9c1bd8392062cd50b227/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/a99428b10c0f9c1bd8392062cd50b227/"
+    },
+    "Yahoo": {
+        "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=886865716&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D4014519151500"
     }
 }

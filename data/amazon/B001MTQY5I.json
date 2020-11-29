@@ -45,10 +45,24 @@
                 "Locale": "ja_JP"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "4562297170027"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "アイファイジャパン Eye-Fi Share 2GB ワイヤレスメモリーカード EYE-FI-2GB-J",
             "Label": "Title",
             "Locale": "ja_JP"
         }
-    }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/fcd00ebecfc6238be3e265eaad2336eb/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/fcd00ebecfc6238be3e265eaad2336eb/"
+    },
+    "Yahoo": {}
 }

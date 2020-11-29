@@ -45,10 +45,26 @@
                 "Locale": "ja_JP"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "4992826553777"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "コールマン(Coleman) テント ツーリングドーム LX グリーン 2〜3人用 170T16450J",
             "Label": "Title",
             "Locale": "ja_JP"
         }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/8b7908a43be99c914493780f6265ffcc/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/8b7908a43be99c914493780f6265ffcc/"
+    },
+    "Yahoo": {
+        "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=886865716&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D4992826553777"
     }
 }

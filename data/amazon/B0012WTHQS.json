@@ -45,10 +45,46 @@
                 "Locale": "ja_JP"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "0784922792013",
+                    "0785525848480",
+                    "0797978187146",
+                    "0788796256879",
+                    "0795864744398",
+                    "4989793923962",
+                    "0788396629547",
+                    "0783318835976"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            },
+            "UPCs": {
+                "DisplayValues": [
+                    "797978187146",
+                    "788796256879",
+                    "788396629547",
+                    "783318835976",
+                    "785525848480",
+                    "784922792013",
+                    "795864744398"
+                ],
+                "Label": "UPC",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "ナカノ スタイリング ワックス 4 ハードタイプ 90g",
             "Label": "Title",
             "Locale": "ja_JP"
         }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/8df39887243ac4156542c22376e047e0/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/8df39887243ac4156542c22376e047e0/"
+    },
+    "Yahoo": {
+        "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=886865716&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D0784922792013"
     }
 }

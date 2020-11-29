@@ -94,10 +94,31 @@
                 "Locale": "en_US"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "9784822282387"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            },
+            "ISBNs": {
+                "DisplayValues": [
+                    "4822282384"
+                ],
+                "Label": "ISBN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "パターン指向リファクタリング入門~ソフトウエア設計を改善する27の作法",
             "Label": "Title",
             "Locale": "ja_JP"
         }
-    }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/863fc01d2432b287c21e066137a89139/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/863fc01d2432b287c21e066137a89139/"
+    },
+    "Yahoo": {}
 }

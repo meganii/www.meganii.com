@@ -45,10 +45,21 @@
                 "Locale": "ja_JP"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "4571237765421"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "TRE MOBILE PACK Pocket Wifi(2ヵ月+初月分) イーモバイル D25HW プリペイド型データ通信カード",
             "Label": "Title",
             "Locale": "ja_JP"
         }
-    }
+    },
+    "Rakuten": {},
+    "Yahoo": {}
 }

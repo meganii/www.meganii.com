@@ -23,7 +23,7 @@
     "ItemInfo": {
         "ByLineInfo": {
             "Brand": {
-                "DisplayValue": "モレスキン(Moleskine)",
+                "DisplayValue": "Moleskine",
                 "Label": "Brand",
                 "Locale": "ja_JP"
             },
@@ -36,7 +36,7 @@
                 }
             ],
             "Manufacturer": {
-                "DisplayValue": "モレスキン(Moleskine)",
+                "DisplayValue": "Moleskine",
                 "Label": "Manufacturer",
                 "Locale": "ja_JP"
             }
@@ -88,10 +88,40 @@
                 "Locale": "en_US"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "0844087000023",
+                    "0844087000269",
+                    "9788883701023",
+                    "7487993823688"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            },
+            "ISBNs": {
+                "DisplayValues": [
+                    "888370102X",
+                    "9788883701023"
+                ],
+                "Label": "ISBN",
+                "Locale": "en_US"
+            },
+            "UPCs": {
+                "DisplayValues": [
+                    "844087000269",
+                    "844087000023"
+                ],
+                "Label": "UPC",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "Moleskine Pocket Squared Notebook Classic",
             "Label": "Title",
             "Locale": "ja_JP"
         }
-    }
+    },
+    "Rakuten": {},
+    "Yahoo": {}
 }

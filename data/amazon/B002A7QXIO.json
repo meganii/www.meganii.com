@@ -45,10 +45,26 @@
                 "Locale": "ja_JP"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "4940356997691"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "[エム・モゥブレィ] 革靴用水性汚れ落とし ステインリムーバー 塩浮き スムースレザー クリーナー クリア 60ml",
             "Label": "Title",
             "Locale": "ja_JP"
         }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/0a5de954b3ec3009c0cc4ea90802c148/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/0a5de954b3ec3009c0cc4ea90802c148/"
+    },
+    "Yahoo": {
+        "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=886865716&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D4940356997691"
     }
 }

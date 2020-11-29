@@ -70,10 +70,33 @@
                 "Locale": "en_US"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "9784797369397"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            },
+            "ISBNs": {
+                "DisplayValues": [
+                    "4797369396"
+                ],
+                "Label": "ISBN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "Photoshop 10年使える逆引き手帖【CS6/CS5/CS4/CS3 対応】【Mac OS X & Windows 対応】[ああしたい。こうしたい] (ああしたい。こうしたい。)",
             "Label": "Title",
             "Locale": "ja_JP"
         }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/b0f013fe736056c11c04f3a4ba56f753/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/b0f013fe736056c11c04f3a4ba56f753/"
+    },
+    "Yahoo": {
+        "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=886865716&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D9784797369397"
     }
 }

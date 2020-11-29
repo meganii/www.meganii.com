@@ -25,13 +25,13 @@
             "Contributors": [
                 {
                     "Locale": "ja_JP",
-                    "Name": "ヴァーン・ヴァーノン",
+                    "Name": "ヴォーン・ヴァーノン",
                     "Role": "著",
                     "RoleType": "author"
                 },
                 {
                     "Locale": "ja_JP",
-                    "Name": "高木正弘",
+                    "Name": "高木 正弘",
                     "Role": "翻訳",
                     "RoleType": "translator"
                 }
@@ -86,5 +86,7 @@
             "Label": "Title",
             "Locale": "ja_JP"
         }
-    }
+    },
+    "Rakuten": {},
+    "Yahoo": {}
 }

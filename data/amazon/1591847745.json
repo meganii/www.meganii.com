@@ -22,6 +22,11 @@
     },
     "ItemInfo": {
         "ByLineInfo": {
+            "Brand": {
+                "DisplayValue": "Portfolio",
+                "Label": "Brand",
+                "Locale": "ja_JP"
+            },
             "Contributors": [
                 {
                     "Locale": "ja_JP",
@@ -83,10 +88,31 @@
                 "Locale": "en_US"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "9781591847748"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            },
+            "ISBNs": {
+                "DisplayValues": [
+                    "1591847745"
+                ],
+                "Label": "ISBN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
             "DisplayValue": "How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life",
             "Label": "Title",
             "Locale": "ja_JP"
         }
-    }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/93294f29bad7c45ed1bb56b4aadf20e9/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/93294f29bad7c45ed1bb56b4aadf20e9/"
+    },
+    "Yahoo": {}
 }

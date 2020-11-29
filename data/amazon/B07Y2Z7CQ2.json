@@ -4,18 +4,18 @@
     "Images": {
         "Primary": {
             "Large": {
-                "Height": 367,
-                "URL": "https://m.media-amazon.com/images/I/41HFPqfVpoL.jpg",
+                "Height": 364,
+                "URL": "https://m.media-amazon.com/images/I/51HT-p5wmkL.jpg",
                 "Width": 500
             },
             "Medium": {
-                "Height": 117,
-                "URL": "https://m.media-amazon.com/images/I/41HFPqfVpoL._SL160_.jpg",
+                "Height": 116,
+                "URL": "https://m.media-amazon.com/images/I/51HT-p5wmkL._SL160_.jpg",
                 "Width": 160
             },
             "Small": {
                 "Height": 55,
-                "URL": "https://m.media-amazon.com/images/I/41HFPqfVpoL._SL75_.jpg",
+                "URL": "https://m.media-amazon.com/images/I/51HT-p5wmkL._SL75_.jpg",
                 "Width": 75
             }
         }
@@ -45,10 +45,26 @@
                 "Locale": "ja_JP"
             }
         },
+        "ExternalIds": {
+            "EANs": {
+                "DisplayValues": [
+                    "4957180144337"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+            }
+        },
         "Title": {
-            "DisplayValue": "【Amazon.co.jp 限定】I-O DATA モニター 23.8型 ADSパネル 非光沢 HDMI×1 スピーカー付 3年保証 土日サポート EX-LDH241DB",
+            "DisplayValue": "【Amazon.co.jp 限定】I-O DATA モニター 23.8型 スピーカー付 ADSパネル 非光沢 HDMI×1 3年保証 土日サポート EX-LDH241DB",
             "Label": "Title",
             "Locale": "ja_JP"
         }
+    },
+    "Rakuten": {
+        "productUrlPC": "https://product.rakuten.co.jp/product/-/db2a7b055f1dd9cd14fd0713bb9d8109/",
+        "productUrlMobile": "http://m.product.rakuten.co.jp/product/db2a7b055f1dd9cd14fd0713bb9d8109/"
+    },
+    "Yahoo": {
+        "productUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=886865716&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D4957180144337"
     }
 }

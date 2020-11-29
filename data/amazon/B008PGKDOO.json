@@ -47,6 +47,20 @@
                 ],
                 "Label": "Language",
                 "Locale": "ja_JP"
+            },
+            "PublicationDate": {
+                "DisplayValue": "2000-01",
+                "Label": "PublicationDate",
+                "Locale": "en_US"
+            }
+        },
+        "ExternalIds": {
+            "ISBNs": {
+                "DisplayValues": [
+                    "0735611319"
+                ],
+                "Label": "ISBN",
+                "Locale": "en_US"
             }
         },
         "Title": {
@@ -54,5 +68,7 @@
             "Label": "Title",
             "Locale": "ja_JP"
         }
-    }
+    },
+    "Rakuten": {},
+    "Yahoo": {}
 }
