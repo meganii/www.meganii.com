@@ -1,6 +1,6 @@
 {{ $associateId := "meganii-22" }}
-{{ $itemId := ( .Get 0)  }}
-{{ $json := getJSON "data/amazon/" $itemId ".json"}}
+{{ $itemId := string ( .Get 0)  }}
+{{ $json := (index .Site.Data.amazon $itemId) }}
 
 
 <p></p><!-- Avoid overriding list -->
@@ -13,7 +13,7 @@
   </div>
   <div class="p-4 relative flex flex-col justify-between leading-normal lg:w-3/5">
     <div class="mb-8 px-1">
-      <a href="{{ $json.DetailPageURL }}" rel="noreferrer noreferrer sponsored" class="">{{ $json.ItemInfo.Title.DisplayValue }}</a>
+      <a href="{{ $json.DetailPageURL }}" rel="noopener sponsored" class="">{{ $json.ItemInfo.Title.DisplayValue }}</a>
       <div>出版社：{{ $json.ItemInfo.ByLineInfo.Manufacturer.DisplayValue }}</div>
       {{- with $json.ItemInfo.ByLineInfo.Contributors -}}
       <div>著者: {{- range . -}}<span class="ml-3">{{ .Name }}</span>{{- end -}}</div>
@@ -23,12 +23,12 @@
       {{- end -}}
     </div>
     <div class="grid grid-cols-2 md:grid-cols-3 gap-1">
-      <a href="{{ $json.DetailPageURL }}" target="_blank" rel="noreferrer noreferrer sponsored" class="block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded">Amazon</a>
+      <a href="{{ $json.DetailPageURL }}" target="_blank" rel="noopener sponsored" class="block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded">Amazon</a>
       {{- with $json.Rakuten.productUrlPC -}}
-      <a href="{{ $json.Rakuten.productUrlPC }}" target="_blank" rel="noreferrer noreferrer sponsored" class="block py-2 text-red-600 text-sm text-center w-full border-2 border-red-600 rounded">楽天市場</a>
+      <a href="{{ $json.Rakuten.productUrlPC }}" target="_blank" rel="noopener sponsored" class="block py-2 text-red-600 text-sm text-center w-full border-2 border-red-600 rounded">楽天市場</a>
       {{- end -}}
       {{- with $json.Yahoo.productUrl -}}
-      <a href="{{ $json.Yahoo.productUrl }}" target="_blank" rel="noreferrer noreferrer sponsored" class="block py-2 text-purple-600 text-sm text-center w-full border-2 border-purple-600 rounded">Yahoo!ショッピング</a>
+      <a href="{{ $json.Yahoo.productUrl }}" target="_blank" rel="noopener sponsored" class="block py-2 text-purple-600 text-sm text-center w-full border-2 border-purple-600 rounded">Yahoo!ショッピング</a>
       {{- end -}}
     </div>
   </div>
