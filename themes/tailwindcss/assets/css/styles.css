@@ -51,8 +51,11 @@
   @apply overflow-auto;
   @apply bg-gray-100;
   @apply text-sm;
+  @apply border;
+  @apply border-gray-100;
+  @apply rounded;
 }
-/* 
+
 .post p > code, .post li > code {
   @apply text-sm;
   @apply m-0;
@@ -62,7 +65,7 @@
   @apply pr-2;
   @apply rounded;
   @apply bg-gray-100;
-} */
+}
 
 .post a{
   @apply underline;
