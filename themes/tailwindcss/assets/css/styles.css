@@ -8,6 +8,20 @@
  */
  @tailwind base;
 
+/**
+ * Tailwind component classes registered by plugins
+ * This injects Tailwind's component classes and any component classes
+ * registered by plugins.
+ */
+@tailwind components;
+
+/**
+ * Tailwind's utility classes - generated based on config file
+ * This injects Tailwind's utility classes and any utility classes registered
+ * by plugins.
+ */
+@tailwind utilities;
+
 .post p {
   @apply my-4;
 }
@@ -33,14 +47,12 @@
 }
 
 .post pre {
-  @apply mt-4;
-  @apply mb-4;
   @apply p-6;
   @apply overflow-auto;
   @apply bg-gray-100;
   @apply text-sm;
 }
-
+/* 
 .post p > code, .post li > code {
   @apply text-sm;
   @apply m-0;
@@ -50,59 +62,31 @@
   @apply pr-2;
   @apply rounded;
   @apply bg-gray-100;
-}
+} */
 
 .post a{
   @apply underline;
 }
 
-/* For markdown list */
-.post ol,ul {
-  @apply list-inside;
-  @apply pl-5;
-  @apply pt-4;
-}
-
-.post ol > li {
-  @apply list-decimal;
-  @apply mt-1;
-}
-
-.post ul > li {
-  @apply list-disc;
-  @apply mt-1;
-}
-
-.post ol li ol,
-.post ul li ul,
-.post ol li ul {
-  @apply -mt-4;
-}
-
-.post li li {
-  @apply list-circle;
-}
-
 .post blockquote {
+  @apply text-sm;
   @apply bg-gray-100;
   @apply mt-3;
   @apply p-4;
+  @apply border;
+  @apply border-gray-100;
+  @apply rounded;
+}
+
+.post .highlight {
+  @apply text-xs;
+  @apply bg-gray-100;
+  @apply relative;
+  @apply border;
+  @apply border-gray-100;
+  @apply rounded;
 }
 
 amp-img.contain img {
   @apply object-contain;
 }
-
-/**
- * Tailwind component classes registered by plugins
- * This injects Tailwind's component classes and any component classes
- * registered by plugins.
- */
-@tailwind components;
-
-/**
- * Tailwind's utility classes - generated based on config file
- * This injects Tailwind's utility classes and any utility classes registered
- * by plugins.
- */
-@tailwind utilities;

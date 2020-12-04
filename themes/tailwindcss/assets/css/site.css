@@ -1,3 +1,23 @@
-/* .starter {
-  color: blue;
-} */
+/* For markdown list */
+
+.post ul>li {
+  list-style: none;
+  list-style-position: inside;
+  position: relative;
+  padding-left: 1.6em;
+}
+
+.post ol>li, .post ul>li {
+  margin: .6rem 0;
+}
+
+.post ul>li:before {
+  content: "";
+  position: absolute;
+  top: .7em;
+  left: .35em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgba(24,30,50,.7);
+}
