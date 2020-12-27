@@ -4,7 +4,7 @@ date: 2020-10-25T16:24:22+09:00
 lastmod: 2020-10-25T16:24:22+09:00
 published: true
 category: ["Gadget"]
-tags: ["Keyboard","HHKB"]
+tags: ["Keyboard","HHKB", "レビュー"]
 comment: true
 slug: "happy-hacking-keyboard-first-impression"
 img: "https://res.cloudinary.com/meganii/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1608967964/happy-hacking-keyboard-hhkb_acbupn.jpg"
