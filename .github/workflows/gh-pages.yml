@@ -21,6 +21,7 @@ jobs:
       - name: Clone module
         uses: actions/checkout@v2
         with:
+          ssh-key: ${{ secrets.TOKEN }}
           submodules: true  # Fetch Hugo themes
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
