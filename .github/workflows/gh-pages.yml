@@ -16,7 +16,7 @@ jobs:
 
       - name: SSH Setting
         env:
-          TOKEN: ${{ secrets.TOKEN }}
+          TOKEN: ${{ secrets.SUBMODULE_TOKEN }}
         run: |
           mkdir -p /home/runner/.ssh/
           echo -e "$TOKEN" > /home/runner/.ssh/id_rsa
