@@ -99,6 +99,12 @@ homepage = "https://www.meganii.com/"
 
 [menu]
   [[menu.categories]]
+  identifier = "archives"
+  name = "This is the archives section"
+  title = "Archives"
+  url = "blog/archives/"
+  weight = 5
+  [[menu.categories]]
   identifier = "tech"
   name = "This is the tech section"
   title = "Tech"
