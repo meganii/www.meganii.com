@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: SSH Setting
-        uses: actions/checkout@v2
         env:
           TOKEN: ${{ secrets.TOKEN }}
         run: |
