@@ -1,0 +1,3 @@
+[submodule "amazon-data"]
+	path = data/amazon
+	url = git@github.com:meganii/amazon-product-data.git
