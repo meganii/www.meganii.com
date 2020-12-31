@@ -31,16 +31,6 @@ jobs:
       - name: Setup package.json
         run: npm install
 
-      - uses: actions/cache@v2
-        with:
-          path: /tmp/hugo_cache
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
-          restore-keys: |
-            ${{ runner.os }}-hugomod-
-
-      - name: Setup Hugo modules
-        run: hugo mod get
-
       - name: Run API server
         run: npm run serve:prod
 
