@@ -12,8 +12,10 @@ jobs:
       - name: Configure for private hugo mod
         run: git config --global url."https://meganii:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com".insteadOf  "https://github.com"
       
-      - uses: actions/checkout@v2
+      - name: Clone module
+        uses: actions/checkout@v2
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           submodules: true  # Fetch Hugo themes
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
