@@ -9,9 +9,6 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
-      - name: Configure for private hugo mod
-        run: git config --global url."https://meganii:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com".insteadOf  "https://github.com"
-      
       - name: Clone module
         uses: actions/checkout@v2
         with:
