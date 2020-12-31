@@ -9,10 +9,19 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
+      - name: SSH Setting
+        uses: actions/checkout@v2
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+        run: |
+          mkdir -p /home/runner/.ssh/
+          echo -e "$TOKEN" > /home/runner/.ssh/id_rsa
+          chmod 600 /home/runner/.ssh/id_rsa
+          # https://github.com/actions/checkout#checkout-submodules
+
       - name: Clone module
         uses: actions/checkout@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           submodules: true  # Fetch Hugo themes
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
