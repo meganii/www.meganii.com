@@ -13,34 +13,36 @@
       <pubDate>Sun, 25 Oct 2020 16:24:22 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/10/25/happy-hacking-keyboard-first-impression/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1609032770/happy-hacking-keyboard-package_hrb965.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/happy-hacking-keyboard-package_hrb965.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/happy-hacking-keyboard-package_hrb965.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/happy-hacking-keyboard-package_hrb965.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/happy-hacking-keyboard-package_hrb965.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/happy-hacking-keyboard-package_hrb965.jpg 320w&#34;
-      width=&#34;3456&#34;
-      height=&#34;2137&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;Happy Hacking Keyboardファーストインプレッション&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
-&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1609032771/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 320w&#34;
-      width=&#34;3456&#34;
-      height=&#34;2158&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;【レビュー】HHKB（Happy Hacking Keyboard）ファーストインプレッション&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1609032770/happy-hacking-keyboard-package_hrb965.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/happy-hacking-keyboard-package_hrb965.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/happy-hacking-keyboard-package_hrb965.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/happy-hacking-keyboard-package_hrb965.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/happy-hacking-keyboard-package_hrb965.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/happy-hacking-keyboard-package_hrb965.jpg 320w&#34;
+        width=&#34;3456&#34;
+        height=&#34;2137&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;Happy Hacking Keyboardファーストインプレッション&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
+&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1609032771/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 320w&#34;
+        width=&#34;3456&#34;
+        height=&#34;2158&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;【レビュー】HHKB（Happy Hacking Keyboard）ファーストインプレッション&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;ついに念願であったHappy Hacking Keyboard、通称HHKBを手に入れました。
 利用し始めてからのファーストインプレッションを残しておきます。&lt;/p&gt;
 &lt;aside&gt;

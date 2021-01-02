@@ -45,20 +45,21 @@
       <pubDate>Mon, 11 Nov 2019 22:05:58 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2019/11/11/the-art-of-managing-books-with-scrapbox/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1573478168/rule_of_managing_books_with_scrapbox_yl3uka.png&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/rule_of_managing_books_with_scrapbox_yl3uka.png 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/rule_of_managing_books_with_scrapbox_yl3uka.png 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/rule_of_managing_books_with_scrapbox_yl3uka.png 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/rule_of_managing_books_with_scrapbox_yl3uka.png 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/rule_of_managing_books_with_scrapbox_yl3uka.png 320w&#34;
-      width=&#34;1500&#34;
-      height=&#34;500&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;Scrapboxで読書管理をするときのじぶんルール&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1573478168/rule_of_managing_books_with_scrapbox_yl3uka.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/rule_of_managing_books_with_scrapbox_yl3uka.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/rule_of_managing_books_with_scrapbox_yl3uka.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/rule_of_managing_books_with_scrapbox_yl3uka.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/rule_of_managing_books_with_scrapbox_yl3uka.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/rule_of_managing_books_with_scrapbox_yl3uka.png 320w&#34;
+        width=&#34;1500&#34;
+        height=&#34;500&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;Scrapboxで読書管理をするときのじぶんルール&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;Scrapboxで読書管理（既読管理、読書メモ）をしているときのルールをまとめてみました。&lt;/p&gt;</description>
     </item>
     
@@ -68,21 +69,37 @@
       <pubDate>Sun, 25 Mar 2018 09:15:21 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2018/03/25/book-reading-evolution-theory/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;
-&lt;div class=&#34;border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
-  &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/41nC9Nn4AWL._SL500_.jpg&#34;
-      alt=&#34;読書進化論‾人はウェブで変わるのか。本はウェブに負けたのか‾ (小学館101新書)&#34;
-      layout=&#34;fill&#34; /&gt;
+      <description>&lt;div class=&#34;embed&#34;&gt;
+  &lt;div class=&#34;rf&#34;&gt;
+    &lt;div class=&#34;rr&#34;&gt;
+      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
+        &lt;a href=&#34;&#34;&gt;
+          &lt;div&gt;
+            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
+          &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
+        &lt;div class=&#34;rf&#34;&gt;
+          &lt;div class=&#34;rr&#34;&gt;
+            &lt;div class=&#34;rcx12 body&#34;&gt;
+              &lt;a class=&#34;utdn&#34; 
+                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;rcm12 hx&#34;&gt;
+              &lt;div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;rr&#34;&gt;
+      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
+        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal lg:w-3/5&#34;&gt;
-    &lt;div class=&#34;mb-8 px-1&#34;&gt;
-      &lt;a href=&#34;https://www.amazon.co.jp/dp/4098250012?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; rel=&#34;noopener sponsored&#34; class=&#34;&#34;&gt;読書進化論‾人はウェブで変わるのか。本はウェブに負けたのか‾ (小学館101新書)&lt;/a&gt;
-      &lt;div&gt;出版社：小学館&lt;/div&gt;&lt;div&gt;著者:&lt;span class=&#34;ml-3&#34;&gt;勝間 和代&lt;/span&gt;&lt;/div&gt;&lt;div&gt;発売日: 2008-10-01T00:00:01Z&lt;/div&gt;&lt;/div&gt;
-    &lt;div class=&#34;grid grid-cols-2 md:grid-cols-3 gap-1&#34;&gt;
-      &lt;a href=&#34;https://www.amazon.co.jp/dp/4098250012?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded&#34;&gt;Amazon&lt;/a&gt;&lt;a href=&#34;https://product.rakuten.co.jp/product/-/468c1996319f9b217ee64901af4f94d2/&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-red-600 text-sm text-center w-full border-2 border-red-600 rounded&#34;&gt;楽天市場&lt;/a&gt;&lt;a href=&#34;https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&amp;amp;pid=886865716&amp;amp;vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D9784098250011&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-purple-600 text-sm text-center w-full border-2 border-purple-600 rounded&#34;&gt;Yahoo!ショッピング&lt;/a&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+&lt;/div&gt; --&gt;
 &lt;p&gt;読みっぱなしで終わることが多く、イマイチ身になっていない気がする。最近そんな気持ちになるので勝間さんの「読書進化論」を再読した。&lt;/p&gt;</description>
     </item>
     
@@ -92,21 +109,37 @@
       <pubDate>Thu, 15 Mar 2018 08:46:08 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2018/03/15/reading-technique-to-apply-to-real-life/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;
-&lt;div class=&#34;border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
-  &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/51RTOZuP78L.jpg&#34;
-      alt=&#34;読んだら忘れない読書術&#34;
-      layout=&#34;fill&#34; /&gt;
+      <description>&lt;div class=&#34;embed&#34;&gt;
+  &lt;div class=&#34;rf&#34;&gt;
+    &lt;div class=&#34;rr&#34;&gt;
+      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
+        &lt;a href=&#34;&#34;&gt;
+          &lt;div&gt;
+            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
+          &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
+        &lt;div class=&#34;rf&#34;&gt;
+          &lt;div class=&#34;rr&#34;&gt;
+            &lt;div class=&#34;rcx12 body&#34;&gt;
+              &lt;a class=&#34;utdn&#34; 
+                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;rcm12 hx&#34;&gt;
+              &lt;div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;rr&#34;&gt;
+      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
+        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal lg:w-3/5&#34;&gt;
-    &lt;div class=&#34;mb-8 px-1&#34;&gt;
-      &lt;a href=&#34;https://www.amazon.co.jp/dp/4763134507?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; rel=&#34;noopener sponsored&#34; class=&#34;&#34;&gt;読んだら忘れない読書術&lt;/a&gt;
-      &lt;div&gt;出版社：サンマーク出版&lt;/div&gt;&lt;div&gt;著者:&lt;span class=&#34;ml-3&#34;&gt;樺沢紫苑&lt;/span&gt;&lt;/div&gt;&lt;div&gt;発売日: 2015-04-10T00:00:01Z&lt;/div&gt;&lt;/div&gt;
-    &lt;div class=&#34;grid grid-cols-2 md:grid-cols-3 gap-1&#34;&gt;
-      &lt;a href=&#34;https://www.amazon.co.jp/dp/4763134507?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded&#34;&gt;Amazon&lt;/a&gt;&lt;a href=&#34;https://product.rakuten.co.jp/product/-/f517089b68727a1eae40fc79bd8fea8f/&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-red-600 text-sm text-center w-full border-2 border-red-600 rounded&#34;&gt;楽天市場&lt;/a&gt;&lt;a href=&#34;https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&amp;amp;pid=886865716&amp;amp;vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D9784763134509&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-purple-600 text-sm text-center w-full border-2 border-purple-600 rounded&#34;&gt;Yahoo!ショッピング&lt;/a&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+&lt;/div&gt; --&gt;
 &lt;p&gt;最近、本を読む機会が少なく、読んだとしてもイマイチ身になっている気がしない状態でした。その中で「読んだら忘れない」というキーワードに惹かれて読んでみました。&lt;/p&gt;</description>
     </item>
     
@@ -125,20 +158,21 @@
       <pubDate>Tue, 31 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>https://www.meganii.com/blog/2012/07/31/connection/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1593902334/7668706168_dfc1dcbfc1_zka8pa.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/7668706168_dfc1dcbfc1_zka8pa.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/7668706168_dfc1dcbfc1_zka8pa.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/7668706168_dfc1dcbfc1_zka8pa.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/7668706168_dfc1dcbfc1_zka8pa.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/7668706168_dfc1dcbfc1_zka8pa.jpg 320w&#34;
-      width=&#34;500&#34;
-      height=&#34;352&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;レバレッジ人脈術&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1593902334/7668706168_dfc1dcbfc1_zka8pa.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/7668706168_dfc1dcbfc1_zka8pa.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/7668706168_dfc1dcbfc1_zka8pa.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/7668706168_dfc1dcbfc1_zka8pa.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/7668706168_dfc1dcbfc1_zka8pa.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/7668706168_dfc1dcbfc1_zka8pa.jpg 320w&#34;
+        width=&#34;500&#34;
+        height=&#34;352&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;レバレッジ人脈術&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;ふと、人脈について考えるキッカケがあったので考えてみたが、そもそも「人脈」ってなんだんだろうか。&lt;/p&gt;
 &lt;p&gt;「人脈を広げるのが大事」ってよく言われるけれど、自分にとってどんな人が人脈なんだろうか。&lt;/p&gt;</description>
     </item>
@@ -158,7 +192,7 @@
       <pubDate>Thu, 01 Sep 2011 06:55:11 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2011/09/01/1314827711/</guid>
-      <description>少し古いですが、読んだので気になったところを抜き出し。やっぱり、脳のはたらきって興味あるし、面白い。 海馬/脳は疲れない ほぼ日ブックス 出版社：朝日出版社著者:池谷 裕二糸井 重里発売日: 2002-07-10T00:00:01Z Amazon楽天市</description>
+      <description>少し古いですが、読んだので気になったところを抜き出し。やっぱり、脳のはたらきって興味あるし、面白い。 Amazonでチェックする -- 生きることになれてはいけない 子供はまわりの世界に白紙のまま接するから、世</description>
     </item>
     
     <item>
@@ -167,7 +201,7 @@
       <pubDate>Sat, 27 Aug 2011 10:15:43 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2011/08/27/1314407743/</guid>
-      <description>自分の小さな「箱」から脱出する方法 出版社：大和書房著者:アービンジャー インスティチュート金森 重樹冨永 星発売日: 2006-10-19T00:00:01Z Amazon楽天市場Yahoo!ショッピング 久々に、自分の小さな「箱」から脱出する方法を</description>
+      <description>Amazonでチェックする -- 久々に、自分の小さな「箱」から脱出する方法を読み返しました。相変わらず自分を裏切り続ける毎日だなと自己嫌悪に陥りながらも、ちょっとずつ自分を裏切らず、衝動にしたがって動いて</description>
     </item>
     
     <item>
@@ -176,7 +210,7 @@
       <pubDate>Tue, 22 Mar 2011 08:00:53 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2011/03/22/1300748453/</guid>
-      <description>仕事は楽しいかね? 出版社：きこ書房著者:デイル ドーテン野津 智子発売日: 2001-12-01T00:00:01Z Amazon楽天市場Yahoo!ショッピング 自分への3つの質問 今、自分は試せているか 無理だと思考停止してないか 試す人になってるか</description>
+      <description>Amazonでチェックする -- 自分への3つの質問 今、自分は試せているか 無理だと思考停止してないか 試す人になってるか ◯◯ができない、◯◯ができればいいなぁって言ってるのは言い訳にしか過ぎないんだよね。 じゃ</description>
     </item>
     
     <item>
@@ -185,7 +219,7 @@
       <pubDate>Sat, 15 Jan 2011 07:38:04 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2011/01/15/1295044684/</guid>
-      <description>ブロガーにとって文章力は、大事ですよね。記事を面白いと思わせるのも、また読みたいと思わせるのも文章力があってこそ。そこで、『文章力の基本』から「なるほど」と思ったものを抜粋してみました。 文章力の基本 出</description>
+      <description>ブロガーにとって文章力は、大事ですよね。記事を面白いと思わせるのも、また読みたいと思わせるのも文章力があってこそ。そこで、『文章力の基本』から「なるほど」と思ったものを抜粋してみました。 Amazonで</description>
     </item>
     
     <item>
@@ -194,7 +228,7 @@
       <pubDate>Fri, 31 Dec 2010 23:37:16 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2010/12/31/1293806236/</guid>
-      <description>@stiloさんが募集してたので、やってみます！！ 今年読んだ本から10冊選んでブログで発表しよう！ #10book2010 - #StiloBlog それでは、10位〜1位までどうぞ！ 第10位 マニャーナの法則 マニャーナの法則 明日できることを今日や</description>
+      <description>@stiloさんが募集してたので、やってみます！！ 今年読んだ本から10冊選んでブログで発表しよう！ #10book2010 - #StiloBlog それでは、10位〜1位までどうぞ！ 第10位 マニャーナの法則 Amazonでチェックする -- オープンリ</description>
     </item>
     
     <item>
@@ -212,7 +246,7 @@
       <pubDate>Tue, 14 Dec 2010 06:58:13 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2010/12/14/1292277493/</guid>
-      <description>「ネットで成功しているのは&amp;lt;やめない人たち&amp;gt;である」を読んで思ったこと。 ネットで成功しているのは〈やめない人たち〉である 出版社：技術評論社著者:いしたに まさき発売日: 2010-11-27T00:00:01Z Amazon楽天市場</description>
+      <description>「ネットで成功しているのは&amp;lt;やめない人たち&amp;gt;である」を読んで思ったこと。 Amazonでチェックする -- ブログとはONEPIECEそのものである ブログは信念である。 ブログはポーネグリフである。</description>
     </item>
     
     <item>
@@ -257,7 +291,7 @@
       <pubDate>Sun, 29 Aug 2010 12:04:39 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2010/08/29/1283051079/</guid>
-      <description>仕事は楽しいかね? 出版社：きこ書房著者:デイル ドーテン野津 智子発売日: 2001-12-01T00:00:01Z Amazon楽天市場Yahoo!ショッピング 読んでみた素直な感想 わかったような、わからないような。捕まえた金魚が、手のひらからす</description>
+      <description>Amazonでチェックする -- 読んでみた素直な感想 わかったような、わからないような。捕まえた金魚が、手のひらからするりと抜けていったようなそんな気分になった。 それでも、学んだこと・はっとさせられたことは</description>
     </item>
     
     <item>
@@ -266,7 +300,7 @@
       <pubDate>Tue, 17 Aug 2010 22:09:14 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2010/08/17/1282050554/</guid>
-      <description>やらなきゃいけないことがあっても、どうしても目先のテレビやインターネットといった楽しみを優先してしまい、すべて後回しにしてしまう。 そんなダメダメな自分が手に取った一冊。 いつも先送りするあなたがすぐやる</description>
+      <description>やらなきゃいけないことがあっても、どうしても目先のテレビやインターネットといった楽しみを優先してしまい、すべて後回しにしてしまう。 そんなダメダメな自分が手に取った一冊。 Amazonでチェックする -- 自分</description>
     </item>
     
     <item>
@@ -284,7 +318,7 @@
       <pubDate>Sun, 27 Jun 2010 08:06:23 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2010/06/27/1277593583/</guid>
-      <description>われわれはどこから来たのか、われわれは何者か、われわれはどこへ行くのか (ハヤカワ新書juice) 出版社：早川書房著者:帯刀益夫発売日: 2010-05-21T00:00:01Z Amazon楽天市場Yahoo!ショッピング 生命の誕生から、現在</description>
+      <description>Amazonでチェックする -- 生命の誕生から、現在の現代人にいたるまでの進化の過程を振り返ることができました。 生命の起源についての復習キーワード ミトコンドリア カンブリア爆発 アウストラロピテクス 嫌気性物、</description>
     </item>
     
     <item>
@@ -293,7 +327,7 @@
       <pubDate>Sun, 09 May 2010 12:41:40 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2010/05/09/1273376500/</guid>
-      <description>もし高校野球の女子マネージャーがドラッカーの『マネジメント』を読んだら 出版社：ダイヤモンド社著者:岩崎 夏海発売日: 2009-12-04T00:00:01Z Amazon楽天市場Yahoo!ショッピング 実は、だいぶ前に買って読んでいた本の1つ</description>
+      <description>Amazonでチェックする -- 実は、だいぶ前に買って読んでいた本の1つ。そのときに上手くまとめてなかったので内容をすっかり忘れてしまっていた。なので、今回はメモを残しておく。 あらすじ 話の舞台は、高校の野</description>
     </item>
     
     <item>
@@ -302,7 +336,7 @@
       <pubDate>Fri, 05 Mar 2010 09:20:27 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2010/03/05/1267748427/</guid>
-      <description>プレゼンテーションzen 出版社：ピアソン桐原著者:Garr Reynoldsガー・レイノルズ熊谷 小百合発売日: 2009-09-04 Amazon楽天市場Yahoo!ショッピング 前々から読みたかったプレゼンテーションZenを</description>
+      <description>Amazonでチェックする -- 前々から読みたかったプレゼンテーションZenを図書館で借りてざっと読んでみました。 読み終わった後に、自分の卒論のときの発表資料を見返してみると、まあひどいこと。プレゼンテー</description>
     </item>
     
     <item>
@@ -311,7 +345,7 @@
       <pubDate>Sun, 28 Feb 2010 08:39:55 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2010/02/28/1267313995/</guid>
-      <description>名古屋ライフハック研究会で @shinrinさんに頂いた「最後の授業〜ぼくの命があるうちに〜」のDVDと本を読み切った。 最後の授業 DVD付き版 ぼくの命があるうちに 出版社：武田ランダムハウスジャパン著者:</description>
+      <description>名古屋ライフハック研究会で @shinrinさんに頂いた「最後の授業〜ぼくの命があるうちに〜」のDVDと本を読み切った。 Amazonでチェックする -- 最初見たときに感じたのは、癌を患っていて、余命が知らさ</description>
     </item>
     
     <item>
@@ -329,7 +363,7 @@
       <pubDate>Sat, 07 Nov 2009 09:11:18 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/11/07/1257552678/</guid>
-      <description>先日読んだ「STUDYHACKS!」の中のキャリアに関する章で、「キャリアのブルーオーシャン戦略」ということが書かれていたのでちょっと考えてみる。 STUDY HACKS! 出版社：東洋経済新報社著者:小山 龍介発売日: 2008-02-28T00:00:01Z Am</description>
+      <description>先日読んだ「STUDYHACKS!」の中のキャリアに関する章で、「キャリアのブルーオーシャン戦略」ということが書かれていたのでちょっと考えてみる。 Amazonでチェックする -- キャリアのブルーオーシャン</description>
     </item>
     
     <item>
@@ -338,7 +372,7 @@
       <pubDate>Fri, 30 Oct 2009 17:30:28 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/10/30/1256891428/</guid>
-      <description>STUDY HACKS! 出版社：東洋経済新報社著者:小山 龍介発売日: 2008-02-28T00:00:01Z Amazon楽天市場Yahoo!ショッピング 読んでみて、ノイズキャンセリングのヘッドホンが無性に欲しくなった。ツールハックでは、ガジェット好きの心を完</description>
+      <description>Amazonでチェックする -- 読んでみて、ノイズキャンセリングのヘッドホンが無性に欲しくなった。ツールハックでは、ガジェット好きの心を完全に揺さぶられちゃった。このノイズキャンセリングのヘッドホンをお使</description>
     </item>
     
     <item>
@@ -347,7 +381,7 @@
       <pubDate>Sun, 12 Jul 2009 23:04:17 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/07/12/1247407457/</guid>
-      <description>プログラムはなぜ動くのか 第２版 知っておきたいプログラムの基礎知識 出版社：日経ソフトウエア著者:矢沢久雄発売日: 2007-04-01 Amazon楽天市場Yahoo!ショッピング ちょっとコンピュータの本質のところを知らない</description>
+      <description>Amazonでチェックする -- ちょっとコンピュータの本質のところを知らないといけない気がして読んで理解を試みる。 少し読んでみると、大学1年のときの記憶がちょっとずつ蘇ってきた。2進数とか補数とか。もうち</description>
     </item>
     
     <item>
@@ -356,7 +390,7 @@
       <pubDate>Mon, 06 Jul 2009 22:19:17 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/07/06/1246886357/</guid>
-      <description>金持ち父さんのファイナンシャルIQ 出版社：筑摩書房著者:ロバート・キヨサキ発売日: 2008-11-05T00:00:01Z Amazon楽天市場Yahoo!ショッピング この本から得たいこと ファイナンシャルIQとは何か どんなところに気をつけれ</description>
+      <description>Amazonでチェックする -- この本から得たいこと ファイナンシャルIQとは何か どんなところに気をつければよいか ファイナンシャルIQとは より多くのお金を稼ぐ 自分のお金を守る 予算を立てる レバレッジを立てる 情</description>
     </item>
     
     <item>
@@ -365,7 +399,7 @@
       <pubDate>Fri, 26 Jun 2009 23:58:16 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/06/26/1246028296/</guid>
-      <description>お金は銀行に預けるな 金融リテラシーの基本と実践 (光文社新書) 出版社：光文社著者:勝間 和代発売日: 2007-11-16T00:00:01Z Amazon楽天市場Yahoo!ショッピング 今回この本から掴みたいこと 貯蓄から投資への移行 目次 第1章 金</description>
+      <description>Amazonでチェックする -- 今回この本から掴みたいこと 貯蓄から投資への移行 目次 第1章 金融リテラシーの必要性(金融リテラシーとは 日本の家計における“リスク資産”の割合 ほか) 第2章 金融商品別の視点(分散投</description>
     </item>
     
     <item>
@@ -374,7 +408,7 @@
       <pubDate>Thu, 25 Jun 2009 15:25:46 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/06/25/1245911146/</guid>
-      <description>金持ち父さん貧乏父さん 出版社：筑摩書房著者:ロバート キヨサキシャロン・レクター(公認会計士)白根 美保子発売日: 2000-11-09T00:00:01Z Amazon楽天市場Yahoo!ショッピング この本を読む上での得たいこと お金の感覚を養う</description>
+      <description>Amazonでチェックする -- この本を読む上での得たいこと お金の感覚を養う。 お金持ちの人のお金に対する感覚は、一般の人と比べてどこが違うのか？ 実際に自分が始められることは何なのか？ 目次 教えの書(金持ち父</description>
     </item>
     
     <item>
@@ -383,7 +417,7 @@
       <pubDate>Mon, 22 Jun 2009 18:00:47 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/06/22/1245661247/</guid>
-      <description>プロフェッショナルの条件――いかに成果をあげ、成長するか (はじめて読むドラッカー (自己実現編)) 出版社：ダイヤモンド社著者:P・F. ドラッカーPeter F. Drucker上田 惇生発売日: 2000-07-01T00:00:01Z Amazon楽</description>
+      <description>Amazonでチェックする -- この本を読む上で掴みたいこと ドラッカーのいう働く意味 自分へのマネジメントのありかた（時間管理） 目次 日本の読者へはじめにPart1 いま世界に何が起こっているか 第１章 ポスト資本</description>
     </item>
     
     <item>
@@ -392,7 +426,7 @@
       <pubDate>Tue, 16 Jun 2009 19:46:45 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/06/16/1245149205/</guid>
-      <description>仕事頭がよくなるアウトプット勉強法 出版社：サンマーク出版著者:増永 寛之発売日: 2009-03-16T00:00:01Z Amazon楽天市場Yahoo!ショッピング フォーカス・リーディングを読んだ後に、読んだ始めての本です。この本を読む目的</description>
+      <description>Amazonでチェックする -- フォーカス・リーディングを読んだ後に、読んだ始めての本です。この本を読む目的は「ライブレボリューションの社長がどのような考えで日々勉強に取り組んでいるか掴み取る」に焦点を当</description>
     </item>
     
     <item>
@@ -401,7 +435,7 @@
       <pubDate>Tue, 16 Jun 2009 19:43:45 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/06/16/1245149025/</guid>
-      <description>フォーカス・リーディング 「1冊10分」のスピードで、10倍の効果を出す いいとこどり読書術 出版社：PHP研究所著者:寺田 昌嗣発売日: 2008-08-01T00:00:01Z Amazon楽天市場Yahoo!ショッピング とりあえず、途中まで読ん</description>
+      <description>Amazonでチェックする -- とりあえず、途中まで読んでみた。 得たこと 本を読むには、目的意識が必要である 本を読むときには、姿勢、呼吸も大切 速読は、体育会系のメソッドであり、日々の練習が必要であるというこ</description>
     </item>
     
     <item>
@@ -410,7 +444,7 @@
       <pubDate>Mon, 25 May 2009 12:13:04 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/05/25/1243221184/</guid>
-      <description>生物と無生物のあいだ (講談社現代新書) 出版社：講談社著者:福岡 伸一発売日: 2007-05-18T00:00:01Z Amazon楽天市場Yahoo!ショッピング われわれの体がこれほどまで大きい理由というところが、今までの自分の考えにはなくて</description>
+      <description>Amazonでチェックする -- われわれの体がこれほどまで大きい理由というところが、今までの自分の考えにはなくて新鮮だった。 原子は、たえず振動を繰り返すブラウン運動を行っている。したがって、細胞自体も常に</description>
     </item>
     
     <item>
@@ -419,7 +453,7 @@
       <pubDate>Fri, 22 May 2009 11:51:29 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/05/22/1242960689/</guid>
-      <description>NHKブックス 論文の教室 レポートから卒論まで 出版社：日本放送出版協会著者:戸田山 和久発売日: 2010-05-06T00:00:01Z Amazon楽天市場Yahoo!ショッピング だいぶ前に友人から借りた論文の教室。やっとまともに読むことがで</description>
+      <description>Amazonでチェックする -- だいぶ前に友人から借りた論文の教室。やっとまともに読むことができました。 今の段階で、やはり足りないのは、現状把握であると実感。自分なりのオリジナリティを研究しようにも、その</description>
     </item>
     
     <item>
@@ -428,7 +462,7 @@
       <pubDate>Sun, 17 May 2009 18:34:13 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/05/17/1242552853/</guid>
-      <description>さあ、才能(じぶん)に目覚めよう―あなたの5つの強みを見出し、活かす 出版社：日本経済新聞出版著者:マーカス バッキンガムドナルド・O. クリフトン田口 俊樹発売日: 2001-12-01T00:00:01Z Amazon楽天市場Yahoo!ショッピ</description>
+      <description>Amazonでチェックする -- 自分だけの特長的な資質 上から強い順に・・・ 調和性 分析思考 自我 慎重さ 回復志向 その中でも、特に印象的だった文章を紹介 調和性 他の人が自分の目標や、主張や、強く抱いている意見を声高</description>
     </item>
     
     <item>
@@ -437,16 +471,16 @@
       <pubDate>Sun, 10 May 2009 15:03:14 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/05/10/1241935394/</guid>
-      <description>7つの習慣-成功には原則があった! 出版社：キングベアー出版著者:スティーブン・R. コヴィーStephen R. Coveyジェームス スキナー川西 茂発売日: 1996-12-25T00:00:01Z Amazon楽天市場Yahoo!ショッピング 買って</description>
+      <description>Amazonでチェックする -- 買ってからかなり日が経ってしまったけど、なんとか一読することができました。 もう一回ぐらい読み直さないと、自分の身にはならないと思う。というか、実際にやっていかないと話しにな</description>
     </item>
     
     <item>
-      <title>読書</title>
+      <title>読書「考えるコンピュータのアルゴリズムJava　&amp; C&#43;&#43;で学ぶ遺伝的/進化的/免疫アルゴリズム」</title>
       <link>https://www.meganii.com/blog/2009/05/08/1241773775/</link>
       <pubDate>Fri, 08 May 2009 18:09:35 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/05/08/1241773775/</guid>
-      <description>考えるコンピュータのアルゴリズムJava &amp;amp; C&amp;#43;&amp;#43;で学ぶ遺伝的/進化的/免疫アルゴリズム 出版社：ソフトバンククリエイティブ著者:Alberto Palacios Pawlovsky橋本 晋之介発売日: 2007-09-15T00:00:01Z Am</description>
+      <description>Amazonでチェックする -- ヒューリスティック（heuristic発見的解法） 「ベストではないかもしれないけれど、けっこういけてる近似解」を見つけること さまざまな問題に利用できるアルゴリズムをメタヒュ</description>
     </item>
     
     <item>
@@ -464,25 +498,25 @@
       <pubDate>Wed, 11 Feb 2009 20:27:46 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/02/11/1234351666/</guid>
-      <description>容疑者Xの献身 (文春文庫) 出版社：文藝春秋著者:東野 圭吾発売日: 2008-08-05T00:00:01Z Amazon楽天市場Yahoo!ショッピング 最後に泣かされました。 ただ、ドラマの影響で湯川学が福山にしか見えなかったのは、残念。</description>
+      <description>Amazonでチェックする -- 最後に泣かされました。 ただ、ドラマの影響で湯川学が福山にしか見えなかったのは、残念。</description>
     </item>
     
     <item>
-      <title>読書記録＃３</title>
+      <title>読書記録＃3「ネット業界大研究」</title>
       <link>https://www.meganii.com/blog/2008/10/15/1224074291/</link>
       <pubDate>Wed, 15 Oct 2008 21:38:11 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2008/10/15/1224074291/</guid>
-      <description>ネット業界大研究 出版社：産学社著者:ネット業界研究会発売日: 2008-03-01T00:00:01Z Amazon楽天市場Yahoo!ショッピング</description>
+      <description>Amazonでチェックする --</description>
     </item>
     
     <item>
-      <title>読書記録＃２</title>
+      <title>読書記録＃2「勝間和代のビジネス頭を創る7つのフレームワーク力 ビジネス思考法の基本と実践」</title>
       <link>https://www.meganii.com/blog/2008/10/13/1223904745/</link>
       <pubDate>Mon, 13 Oct 2008 22:32:25 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2008/10/13/1223904745/</guid>
-      <description>勝間和代のビジネス頭を創る7つのフレームワーク力 ビジネス思考法の基本と実践 出版社：ディスカヴァー・トゥエンティワン著者:勝間 和代発売日: 2008-06-15T00:00:01Z Amazon楽天市場Yahoo!ショッピング 最近はやりのマイン</description>
+      <description>Amazonでチェックする -- 最近はやりのマインドマップというものを実践して行ってみようと思う。 今回は、「ビジネス頭を創る7つのフレームワーク力」を読んだ感想、考えたことをまとめて晒してみる。 まだまだ書</description>
     </item>
     
     <item>
@@ -491,11 +525,11 @@
       <pubDate>Fri, 10 Oct 2008 00:26:33 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2008/10/10/1223652393/</guid>
-      <description>社会人のための東大科学講座 科学技術インタープリター養成プログラム (KS一般書) 出版社：講談社著者:長谷川 寿一黒田 玲子村上 陽一郎発売日: 2008-05-24T00:00:01Z Amazon楽天市場Yahoo!ショッピング ふと図書館に寄って、</description>
+      <description>Amazonでチェックする -- ふと図書館に寄って、目についたので読んでみたところ、ちょっと気になる部分があったためエントリーを書いてみる。 まず、「インタープリター」という言葉に惹かれた。インタープリター</description>
     </item>
     
     <item>
-      <title>今日の一言</title>
+      <title>今日の一言「スティーブ・ジョブズ」からの引用</title>
       <link>https://www.meganii.com/blog/2008/07/20/1216556437/</link>
       <pubDate>Sun, 20 Jul 2008 21:20:37 +0900</pubDate>
       
@@ -509,7 +543,7 @@
       <pubDate>Mon, 09 Jun 2008 09:43:06 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2008/06/09/1212972186/</guid>
-      <description>西の魔女が死んだ (新潮文庫) 出版社：新潮社著者:香歩, 梨木発売日: 2001-08-01T00:00:01Z Amazon楽天市場Yahoo!ショッピング 「魂は身体をもつことによってしか物事を体験できないし、体験によってしか、魂は成長できない</description>
+      <description>Amazonでチェックする -- 「魂は身体をもつことによってしか物事を体験できないし、体験によってしか、魂は成長できないんですよ。ですから、この世に生を受けるっていうのは魂にとっては願ってもないビッグチャ</description>
     </item>
     
     <item>
@@ -518,7 +552,7 @@
       <pubDate>Mon, 02 Jun 2008 21:51:57 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2008/06/02/1212411117/</guid>
-      <description>とかげ (新潮文庫) 出版社：新潮社著者:ばなな, 吉本発売日: 1996-05-29T00:00:01Z Amazon楽天市場Yahoo!ショッピング はぃはぃ、お子ちゃまな自分にはさっぱりの世界でございます(&amp;gt;_&amp;lt;)</description>
+      <description>Amazonでチェックする -- はぃはぃ、お子ちゃまな自分にはさっぱりの世界でございます(&amp;gt;_&amp;lt;)</description>
     </item>
     
   </channel>
