@@ -1,9 +1,9 @@
 {{ define "main" }}
-<section class="section is-fullheight" itemscope itemtype="https://schema.org/WebPage">
+<section class="">
   <div class="">
     <h2 class="font-bold text-xl">Blog Archives</h2>
     {{ $type := "blog" }}
-    {{ $.Scratch.Set "count" 1 }}
+    {{ $isGroupKey := true}}
 
     {{ range (.Site.RegularPages.GroupByDate "2006") }}
 
@@ -11,15 +11,15 @@
     {{ if (gt .Key 2000) }}
 
     {{ range (where .Pages "Type" $type) }}
-    {{ if (eq ($.Scratch.Get "count") 1) }}
-    {{ $.Scratch.Set "count" 0 }}
+    {{ if $isGroupKey }}
     <h1 class="font-bold mt-2">{{ .Date.Format "2006" }}年 ({{ $count }})</h1>
+    {{ $isGroupKey = false}}
     {{ end }}
     {{ end }}
 
-    {{ $.Scratch.Set "count" 1 }}
+    {{ $isGroupKey = true}}
 
-    <ul class="article__list">
+    <ul class="">
       {{ range (where .Pages "Type" $type) }}
       <li>
         <a class="" href="{{ .RelPermalink }}">
@@ -33,6 +33,11 @@
 
     {{ end }}
     {{ end }}
+  </div>
+</section>
+<section>
+  <div class="mt-8">
+    {{- partial "share.html" . -}}
   </div>
 </section>
 {{ end }}
