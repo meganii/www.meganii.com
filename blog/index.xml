@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://www.meganii.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hugoで月別アーカイブを作成する</title>
-      <link>https://www.meganii.com/blog/2020/12/26/hugo-monthly-archive/</link>
+      <title>Hugoでブログ記事一覧ページ（ブログアーカイブページ）を作成する</title>
+      <link>https://www.meganii.com/blog/2020/12/26/creating-post-list-archive-page-with-hugo/</link>
       <pubDate>Sat, 26 Dec 2020 10:46:41 +0900</pubDate>
       
-      <guid>https://www.meganii.com/blog/2020/12/26/hugo-monthly-archive/</guid>
+      <guid>https://www.meganii.com/blog/2020/12/26/creating-post-list-archive-page-with-hugo/</guid>
       <description>&lt;p&gt;以前、ブログメンタリングを受講していたときの課題でもあった「アーカイブページ」を作った時のメモです。
-ようやく、ページ一覧の機能を実装できました。&lt;/p&gt;
+ようやく、ブログ記事一覧の機能を実装できました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.meganii.com/blog/archives/&#34;&gt;https://www.meganii.com/blog/archives/&lt;/a&gt;&lt;/p&gt;
 &lt;aside&gt;
     &lt;div class=&#34;toc&#34;&gt;
@@ -177,6 +177,17 @@
       
       <guid>https://www.meganii.com/blog/2020/09/27/further-optimizing-amp-with-amp-optimizer/</guid>
       <description>&lt;p&gt;以前、&lt;a href=&#34;https://amp.dev/documentation/guides-and-tutorials/optimize-and-measure/optimize_amp/?referrer=ampproject.org#preload-hero-images&#34;&gt;Optimize your hosted AMP pages - amp.dev&lt;/a&gt;を読みながらAMPの最適化を行いました。&lt;/p&gt;
+&lt;div class=&#34;border border-grey-light rounded my-4&#34;&gt;
+    &lt;div class=&#34;lg:flex mx-2 p-3 relative&#34;&gt;
+        &lt;div class=&#34;lg:w-4/5&#34;&gt;
+            &lt;a href=&#34;https://www.meganii.com/blog/2019/10/11/optimize-amp/&#34;&gt;&lt;strong&gt;AMPページの最適化〜ぼくのAMPサイトがこんなに遅い訳がない〜 - SIS Lab&lt;/strong&gt;&lt;/a&gt;
+            &lt;div class=&#34;text-sm leading-tight&#34;&gt;このサイトもAMP対応したのだから、LighthouseやPageSpeed Insightsのスコアもきっと高いはずと計測してみたところ、全然スコアが出ていなかったので改善しました。その時のメモを残 …&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;m-2 lg:flex-none lg:w-1/5 h-20 relative&#34;&gt;
+            &lt;amp-img class=&#34;contain&#34; src=&#34;https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png&#34; layout=&#34;fill&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;今回は、さらに一歩進み&lt;code&gt;AMP Optimizer&lt;/code&gt;によるAMPの最適化を試してみました。結果は、&lt;code&gt;Web Core Vital&lt;/code&gt;の1つである&lt;code&gt;Largest Content Full Paint&lt;/code&gt;を40%改善できました。&lt;/p&gt;
 &lt;p&gt;対応した内容と結果をまとめています。&lt;/p&gt;
 &lt;aside&gt;
