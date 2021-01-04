@@ -1,16 +1,16 @@
 ---
-title: "Hugoで月別アーカイブを作成する"
+title: "Hugoでブログ記事一覧ページ（ブログアーカイブページ）を作成する"
 date: 2020-12-26T10:46:41+09:00
 lastmod: 2020-12-26T10:46:41+09:00
 published: true
 category: ["Tech"]
 tags: ["Hugo","Tips"]
-slug: "hugo-monthly-archive"
+slug: "creating-post-list-archive-page-with-hugo"
 img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png"
 ---
 
 以前、ブログメンタリングを受講していたときの課題でもあった「アーカイブページ」を作った時のメモです。
-ようやく、ページ一覧の機能を実装できました。
+ようやく、ブログ記事一覧の機能を実装できました。
 
 https://www.meganii.com/blog/archives/
 
