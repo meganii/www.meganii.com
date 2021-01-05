@@ -25,8 +25,6 @@
         {{- partial "share.html" . -}}
     </div>
 
-    {{- partial "disqus.html" . -}}
-
     {{ $related := .Site.RegularPages.Related . | first 8 }}
     {{ $BaseURL := .Site.BaseURL }}
     {{ with $related }}
