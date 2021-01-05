@@ -13,7 +13,7 @@
       <pubDate>Wed, 24 Apr 2013 20:16:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2013/04/24/readmore/</guid>
-      <description>「続きを読む」ように、記事を折りたたむプラグインを導入。 Octopressなら、/plaginsディレクトリに 以下のpostmore.rbを設定する。 module PostMore def postmorefilter(input, url, text) if input.include? &amp;#34; &amp;lt;div class=&amp;#34;text-center mt-3&amp;#34;&amp;gt; &amp;lt;amp-ad width=336 height=280 media=&amp;#34;(max-width: 480px)&amp;#34; type=&amp;#34;doubleclick&amp;#34; data-slot=&amp;#34;/22105504400/mc_sp_article_top_001&amp;#34; data-multi-size=&amp;#34;300x250&amp;#34;&amp;gt; &amp;lt;/amp-ad&amp;gt; &amp;lt;amp-ad width=728 height=90 media=&amp;#34;(min-width:</description>
+      <description>「続きを読む」ように、記事を折りたたむプラグインを導入。 Octopressなら、/plaginsディレクトリに 以下のpostmore.rbを設定する。 module PostMore def postmorefilter(input, url, text) if input.include? &amp;#34; &amp;#34; input.split(&amp;#34; &amp;#34;).first + &amp;#34;&amp;lt;p class=&amp;#39;more&amp;#39;&amp;gt;&amp;lt;a href=&amp;#39;#{url}&amp;#39;&amp;gt;#{text}&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;#34; else input end end end Liquid::Template.register_filter(PostMore) 参考 W</description>
     </item>
     
   </channel>
