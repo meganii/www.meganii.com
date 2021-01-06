@@ -4,7 +4,7 @@ date: 2020-03-31T21:00:52+09:00
 lastmod: 2020-03-31T21:00:52+09:00
 comments: true
 category: ['Tech']
-tags: ['Blog', 'ブログメンタリング', '小さな習慣', 'アウトプット']
+tags: ['Blog', 'ブログメンタリング', '小さな習慣', 'アウトプット', 'ふりかえり']
 published: true
 slug: reflections-on-blog-mentoring
 img: "https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring_j15qwo.png"
