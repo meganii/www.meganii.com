@@ -23,12 +23,14 @@ const getRakutenAffiliateLink = async (eanList) => {
   for (janCode of eanList) {
     const res = await fetch(`${rakutenEndPoint}&keyword=${janCode}`);
     const jsonData = await res.json();
-    const product = jsonData['Products'][0]['Product'];
-    data = {
-      'productUrlPC': product['productUrlPC'],	
-      'productUrlMobile': product['productUrlMobile']
+    if (jsonData['Products'] && jsonData['Products'][0] && jsonData['Products'][0]['Product']) {
+      const product = jsonData['Products'][0]['Product'];
+      data = {
+        'productUrlPC': product['productUrlPC'],	
+        'productUrlMobile': product['productUrlMobile']
+      }
+      break;
     }
-    break;
   }
   return data;
 };
