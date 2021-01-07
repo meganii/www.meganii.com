@@ -528,68 +528,36 @@ Scrapboxやメモ書き、ブログの下書き、普段のネットサーフィ
 &lt;p&gt;&lt;code&gt;Data Visualization&lt;/code&gt;は、日本語だとそのまま「データビジュアライゼーション」や「データ視覚化」と呼ばれています。&lt;/p&gt;
 &lt;p&gt;このデータビジュアライゼーション（データ視覚化）とは何を指すのか。どんな意味で用いられるのか。データビジュアライゼーション（データ視覚化）を効果的に行うためにはどうすべきか。&lt;/p&gt;
 &lt;p&gt;このような疑問に自信を持って答えるために、下記2つの本を読んだのでまとめみます。&lt;/p&gt;
-&lt;div class=&#34;embed&#34;&gt;
-  &lt;div class=&#34;rf&#34;&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
-        &lt;a href=&#34;&#34;&gt;
-          &lt;div&gt;
-            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
-          &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
-        &lt;div class=&#34;rf&#34;&gt;
-          &lt;div class=&#34;rr&#34;&gt;
-            &lt;div class=&#34;rcx12 body&#34;&gt;
-              &lt;a class=&#34;utdn&#34; 
-                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;rcm12 hx&#34;&gt;
-              &lt;div&gt;&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
-        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
+  &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/510UDtAJcKL.jpg&#34;
+      alt=&#34;データビジュアライゼーションの教科書&#34;
+      layout=&#34;fill&#34; /&gt;
   &lt;/div&gt;
-&lt;/div&gt; --&gt;
-&lt;div class=&#34;embed&#34;&gt;
-  &lt;div class=&#34;rf&#34;&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
-        &lt;a href=&#34;&#34;&gt;
-          &lt;div&gt;
-            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
-          &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
-        &lt;div class=&#34;rf&#34;&gt;
-          &lt;div class=&#34;rr&#34;&gt;
-            &lt;div class=&#34;rcx12 body&#34;&gt;
-              &lt;a class=&#34;utdn&#34; 
-                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;rcm12 hx&#34;&gt;
-              &lt;div&gt;&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
-        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
+  &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal lg:w-3/5&#34;&gt;
+    &lt;div class=&#34;mb-8 px-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/B07VK43YC7?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; rel=&#34;noopener sponsored&#34; class=&#34;&#34;&gt;データビジュアライゼーションの教科書&lt;/a&gt;
+      &lt;div&gt;出版社：秀和システム&lt;/div&gt;&lt;div&gt;著者:&lt;span class=&#34;ml-3&#34;&gt;藤俊久仁&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;渡部良一&lt;/span&gt;&lt;/div&gt;&lt;div&gt;発売日: 2019-06-05T00:00:00.000Z&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&#34;grid grid-cols-2 md:grid-cols-3 gap-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/B07VK43YC7?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded&#34;&gt;Amazon&lt;/a&gt;&lt;/div&gt;
   &lt;/div&gt;
-&lt;/div&gt; --&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
+  &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/51Pcio2XMFL.jpg&#34;
+      alt=&#34;データ視覚化のデザイン&#34;
+      layout=&#34;fill&#34; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal lg:w-3/5&#34;&gt;
+    &lt;div class=&#34;mb-8 px-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/B08BHZ4HT3?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; rel=&#34;noopener sponsored&#34; class=&#34;&#34;&gt;データ視覚化のデザイン&lt;/a&gt;
+      &lt;div&gt;出版社：SBクリエイティブ&lt;/div&gt;&lt;div&gt;著者:&lt;span class=&#34;ml-3&#34;&gt;永田 ゆかり&lt;/span&gt;&lt;/div&gt;&lt;div&gt;発売日: 2020-06-18T00:00:00.000Z&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&#34;grid grid-cols-2 md:grid-cols-3 gap-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/B08BHZ4HT3?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded&#34;&gt;Amazon&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;aside&gt;
     &lt;div class=&#34;toc&#34;&gt;
     &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
@@ -1406,37 +1374,21 @@ layout=&#34;responsive&#34;&gt;
       <guid>https://www.meganii.com/blog/2019/12/16/mini-habits-smaller-habits-bigger-results/</guid>
       <description>&lt;p&gt;2019年12月から&lt;a href=&#34;https://twitter.com/kakakakakku&#34;&gt;@kakakakakku&lt;/a&gt;さんのブログメンタリングを受けており、次の書籍をおすすめされたので読んで、その内容をまとめてみる。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://kakakakakku.hatenablog.com/entry/2018/08/19/134518&#34;&gt;小さすぎて失敗すらできないステップを毎日繰り返そう /「小さな習慣」を読んだ - kakakakakku blog&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;embed&#34;&gt;
-  &lt;div class=&#34;rf&#34;&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
-        &lt;a href=&#34;&#34;&gt;
-          &lt;div&gt;
-            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
-          &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
-        &lt;div class=&#34;rf&#34;&gt;
-          &lt;div class=&#34;rr&#34;&gt;
-            &lt;div class=&#34;rcx12 body&#34;&gt;
-              &lt;a class=&#34;utdn&#34; 
-                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;rcm12 hx&#34;&gt;
-              &lt;div&gt;&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
-        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
+  &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/41-SgavV5cL.jpg&#34;
+      alt=&#34;小さな習慣&#34;
+      layout=&#34;fill&#34; /&gt;
   &lt;/div&gt;
-&lt;/div&gt; --&gt;
+  &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal lg:w-3/5&#34;&gt;
+    &lt;div class=&#34;mb-8 px-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/B072B8S2YN?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; rel=&#34;noopener sponsored&#34; class=&#34;&#34;&gt;小さな習慣&lt;/a&gt;
+      &lt;div&gt;出版社：ダイヤモンド社&lt;/div&gt;&lt;div&gt;著者:&lt;span class=&#34;ml-3&#34;&gt;スティーヴン・ガイズ&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;田口 未和&lt;/span&gt;&lt;/div&gt;&lt;div&gt;発売日: 2017-04-26T00:00:00.000Z&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&#34;grid grid-cols-2 md:grid-cols-3 gap-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/B072B8S2YN?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded&#34;&gt;Amazon&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;h1 id=&#34;本書から何を得たいか&#34;&gt;本書から何を得たいか&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;「小さな習慣」とはどういったものか&lt;/li&gt;
@@ -1922,37 +1874,21 @@ layout=&#34;responsive&#34;&gt;
       
       <guid>https://www.meganii.com/blog/2018/08/04/career-skills-recommended-book-list/</guid>
       <description>&lt;p&gt;CAREER SKILLsの「第59章　読んでおきたい良書」がリストアップされていたので、後から自分がチェックしやすいように、まとめてみました。&lt;/p&gt;
-&lt;div class=&#34;embed&#34;&gt;
-  &lt;div class=&#34;rf&#34;&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
-        &lt;a href=&#34;&#34;&gt;
-          &lt;div&gt;
-            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
-          &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
-        &lt;div class=&#34;rf&#34;&gt;
-          &lt;div class=&#34;rr&#34;&gt;
-            &lt;div class=&#34;rcx12 body&#34;&gt;
-              &lt;a class=&#34;utdn&#34; 
-                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;rcm12 hx&#34;&gt;
-              &lt;div&gt;&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
-        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
+  &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/41Jh62iphkL.jpg&#34;
+      alt=&#34;CAREER SKILLS　ソフトウェア開発者の完全キャリアガイド&#34;
+      layout=&#34;fill&#34; /&gt;
   &lt;/div&gt;
-&lt;/div&gt; --&gt;</description>
+  &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal lg:w-3/5&#34;&gt;
+    &lt;div class=&#34;mb-8 px-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/B07FCYSNXT?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; rel=&#34;noopener sponsored&#34; class=&#34;&#34;&gt;CAREER SKILLS　ソフトウェア開発者の完全キャリアガイド&lt;/a&gt;
+      &lt;div&gt;出版社：日経BP&lt;/div&gt;&lt;div&gt;著者:&lt;span class=&#34;ml-3&#34;&gt;ジョン・ソンメズ&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;長尾 高弘&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;まつもとゆきひろ&lt;/span&gt;&lt;/div&gt;&lt;div&gt;発売日: 2018-06-22T00:00:00.000Z&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&#34;grid grid-cols-2 md:grid-cols-3 gap-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/B07FCYSNXT?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded&#34;&gt;Amazon&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -2308,37 +2244,21 @@ layout=&#34;responsive&#34;&gt;
       <pubDate>Sun, 25 Mar 2018 09:15:21 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2018/03/25/book-reading-evolution-theory/</guid>
-      <description>&lt;div class=&#34;embed&#34;&gt;
-  &lt;div class=&#34;rf&#34;&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
-        &lt;a href=&#34;&#34;&gt;
-          &lt;div&gt;
-            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
-          &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
-        &lt;div class=&#34;rf&#34;&gt;
-          &lt;div class=&#34;rr&#34;&gt;
-            &lt;div class=&#34;rcx12 body&#34;&gt;
-              &lt;a class=&#34;utdn&#34; 
-                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;rcm12 hx&#34;&gt;
-              &lt;div&gt;&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
-        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
+      <description>&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
+  &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/41nC9Nn4AWL._SL500_.jpg&#34;
+      alt=&#34;読書進化論‾人はウェブで変わるのか。本はウェブに負けたのか‾ (小学館101新書)&#34;
+      layout=&#34;fill&#34; /&gt;
   &lt;/div&gt;
-&lt;/div&gt; --&gt;
+  &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal lg:w-3/5&#34;&gt;
+    &lt;div class=&#34;mb-8 px-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/4098250012?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; rel=&#34;noopener sponsored&#34; class=&#34;&#34;&gt;読書進化論‾人はウェブで変わるのか。本はウェブに負けたのか‾ (小学館101新書)&lt;/a&gt;
+      &lt;div&gt;出版社：小学館&lt;/div&gt;&lt;div&gt;著者:&lt;span class=&#34;ml-3&#34;&gt;勝間 和代&lt;/span&gt;&lt;/div&gt;&lt;div&gt;発売日: 2008-10-01T00:00:01Z&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&#34;grid grid-cols-2 md:grid-cols-3 gap-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/4098250012?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded&#34;&gt;Amazon&lt;/a&gt;&lt;a href=&#34;https://product.rakuten.co.jp/product/-/468c1996319f9b217ee64901af4f94d2/&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-red-600 text-sm text-center w-full border-2 border-red-600 rounded&#34;&gt;楽天市場&lt;/a&gt;&lt;a href=&#34;https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&amp;amp;pid=886865716&amp;amp;vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D9784098250011&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-purple-600 text-sm text-center w-full border-2 border-purple-600 rounded&#34;&gt;Yahoo!ショッピング&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;読みっぱなしで終わることが多く、イマイチ身になっていない気がする。最近そんな気持ちになるので勝間さんの「読書進化論」を再読した。&lt;/p&gt;</description>
     </item>
     
@@ -2358,37 +2278,21 @@ layout=&#34;responsive&#34;&gt;
       <pubDate>Thu, 15 Mar 2018 08:46:08 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2018/03/15/reading-technique-to-apply-to-real-life/</guid>
-      <description>&lt;div class=&#34;embed&#34;&gt;
-  &lt;div class=&#34;rf&#34;&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
-        &lt;a href=&#34;&#34;&gt;
-          &lt;div&gt;
-            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
-          &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
-        &lt;div class=&#34;rf&#34;&gt;
-          &lt;div class=&#34;rr&#34;&gt;
-            &lt;div class=&#34;rcx12 body&#34;&gt;
-              &lt;a class=&#34;utdn&#34; 
-                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;rcm12 hx&#34;&gt;
-              &lt;div&gt;&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
-        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
+      <description>&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
+  &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/51RTOZuP78L.jpg&#34;
+      alt=&#34;読んだら忘れない読書術&#34;
+      layout=&#34;fill&#34; /&gt;
   &lt;/div&gt;
-&lt;/div&gt; --&gt;
+  &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal lg:w-3/5&#34;&gt;
+    &lt;div class=&#34;mb-8 px-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/4763134507?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; rel=&#34;noopener sponsored&#34; class=&#34;&#34;&gt;読んだら忘れない読書術&lt;/a&gt;
+      &lt;div&gt;出版社：サンマーク出版&lt;/div&gt;&lt;div&gt;著者:&lt;span class=&#34;ml-3&#34;&gt;樺沢紫苑&lt;/span&gt;&lt;/div&gt;&lt;div&gt;発売日: 2015-04-10T00:00:01Z&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&#34;grid grid-cols-2 md:grid-cols-3 gap-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/4763134507?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded&#34;&gt;Amazon&lt;/a&gt;&lt;a href=&#34;https://product.rakuten.co.jp/product/-/f517089b68727a1eae40fc79bd8fea8f/&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-red-600 text-sm text-center w-full border-2 border-red-600 rounded&#34;&gt;楽天市場&lt;/a&gt;&lt;a href=&#34;https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&amp;amp;pid=886865716&amp;amp;vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D9784763134509&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-purple-600 text-sm text-center w-full border-2 border-purple-600 rounded&#34;&gt;Yahoo!ショッピング&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;最近、本を読む機会が少なく、読んだとしてもイマイチ身になっている気がしない状態でした。その中で「読んだら忘れない」というキーワードに惹かれて読んでみました。&lt;/p&gt;</description>
     </item>
     
@@ -2721,99 +2625,51 @@ To support buttons in Slack messages, you must enable Interactive Messages when 
         alt=&#34;チェーンクリーナーセット&#34;&gt;
     &lt;/amp-img&gt;
 &lt;/div&gt;
-&lt;div class=&#34;embed&#34;&gt;
-  &lt;div class=&#34;rf&#34;&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
-        &lt;a href=&#34;&#34;&gt;
-          &lt;div&gt;
-            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
-          &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
-        &lt;div class=&#34;rf&#34;&gt;
-          &lt;div class=&#34;rr&#34;&gt;
-            &lt;div class=&#34;rcx12 body&#34;&gt;
-              &lt;a class=&#34;utdn&#34; 
-                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;rcm12 hx&#34;&gt;
-              &lt;div&gt;&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
-        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
+  &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/41zyIazbcvL.jpg&#34;
+      alt=&#34;AZ(エーゼット) MCC-002 バイク用 チェーンクリーナー パワーゾル スプレー [チェーンクリーナー/チェーン洗剤/チェンクリーナー/チェン洗浄剤/チェインクリーナー] 420ml AW604&#34;
+      layout=&#34;fill&#34; /&gt;
   &lt;/div&gt;
-&lt;/div&gt; --&gt;
-&lt;div class=&#34;embed&#34;&gt;
-  &lt;div class=&#34;rf&#34;&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
-        &lt;a href=&#34;&#34;&gt;
-          &lt;div&gt;
-            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
-          &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
-        &lt;div class=&#34;rf&#34;&gt;
-          &lt;div class=&#34;rr&#34;&gt;
-            &lt;div class=&#34;rcx12 body&#34;&gt;
-              &lt;a class=&#34;utdn&#34; 
-                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;rcm12 hx&#34;&gt;
-              &lt;div&gt;&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
-        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
+  &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal lg:w-3/5&#34;&gt;
+    &lt;div class=&#34;mb-8 px-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/B06XRQXM8G?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; rel=&#34;noopener sponsored&#34; class=&#34;&#34;&gt;AZ(エーゼット) MCC-002 バイク用 チェーンクリーナー パワーゾル スプレー [チェーンクリーナー/チェーン洗剤/チェンクリーナー/チェン洗浄剤/チェインクリーナー] 420ml AW604&lt;/a&gt;
+      &lt;div&gt;出版社：株式会社エーゼット&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&#34;grid grid-cols-2 md:grid-cols-3 gap-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/B06XRQXM8G?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded&#34;&gt;Amazon&lt;/a&gt;&lt;a href=&#34;https://product.rakuten.co.jp/product/-/675750f194f1be7dc78ce356de5136ba/&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-red-600 text-sm text-center w-full border-2 border-red-600 rounded&#34;&gt;楽天市場&lt;/a&gt;&lt;a href=&#34;https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&amp;amp;pid=886865716&amp;amp;vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D4960833604249&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-purple-600 text-sm text-center w-full border-2 border-purple-600 rounded&#34;&gt;Yahoo!ショッピング&lt;/a&gt;&lt;/div&gt;
   &lt;/div&gt;
-&lt;/div&gt; --&gt;
-&lt;div class=&#34;embed&#34;&gt;
-  &lt;div class=&#34;rf&#34;&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
-        &lt;a href=&#34;&#34;&gt;
-          &lt;div&gt;
-            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
-          &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
-        &lt;div class=&#34;rf&#34;&gt;
-          &lt;div class=&#34;rr&#34;&gt;
-            &lt;div class=&#34;rcx12 body&#34;&gt;
-              &lt;a class=&#34;utdn&#34; 
-                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;rcm12 hx&#34;&gt;
-              &lt;div&gt;&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
-        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
+  &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/51b6TA9iISL.jpg&#34;
+      alt=&#34;AZ（エーゼット） CBP-001 High Power ブレーキ&amp;amp;パーツクリーナー 420ml AW804&#34;
+      layout=&#34;fill&#34; /&gt;
   &lt;/div&gt;
-&lt;/div&gt; --&gt;
+  &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal lg:w-3/5&#34;&gt;
+    &lt;div class=&#34;mb-8 px-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/B01LZA2CQ6?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; rel=&#34;noopener sponsored&#34; class=&#34;&#34;&gt;AZ（エーゼット） CBP-001 High Power ブレーキ&amp;amp;パーツクリーナー 420ml AW804&lt;/a&gt;
+      &lt;div&gt;出版社：株式会社エーゼット&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&#34;grid grid-cols-2 md:grid-cols-3 gap-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/B01LZA2CQ6?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded&#34;&gt;Amazon&lt;/a&gt;&lt;a href=&#34;https://product.rakuten.co.jp/product/-/c9f733f2950e96e2fa806d82b826b8c5/&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-red-600 text-sm text-center w-full border-2 border-red-600 rounded&#34;&gt;楽天市場&lt;/a&gt;&lt;a href=&#34;https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&amp;amp;pid=886865716&amp;amp;vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D4960833804243&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-purple-600 text-sm text-center w-full border-2 border-purple-600 rounded&#34;&gt;Yahoo!ショッピング&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
+  &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/31WtlBxraxL.jpg&#34;
+      alt=&#34;AZ（エーゼット） CKM-002 超極圧・極潤滑 オイル 50ml AZ525&#34;
+      layout=&#34;fill&#34; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal lg:w-3/5&#34;&gt;
+    &lt;div class=&#34;mb-8 px-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/B0185KBFKK?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; rel=&#34;noopener sponsored&#34; class=&#34;&#34;&gt;AZ（エーゼット） CKM-002 超極圧・極潤滑 オイル 50ml AZ525&lt;/a&gt;
+      &lt;div&gt;出版社：株式会社エーゼット&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&#34;grid grid-cols-2 md:grid-cols-3 gap-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/B0185KBFKK?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded&#34;&gt;Amazon&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;aside&gt;
     &lt;div class=&#34;toc&#34;&gt;
     &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
@@ -3195,37 +3051,21 @@ VivaldiもChromium browserをベースにしているため、以下のコマン
       <description>&lt;p&gt;技術書の紹介をする際も、カエレバのようなリンクビルダーを利用してきましたが、重い腰を上げてHugoの&lt;code&gt;shortcodes&lt;/code&gt;と&lt;code&gt;Data-driven Content&lt;/code&gt;で対応しました。&lt;/p&gt;
 &lt;h2 id=&#34;使用方法&#34;&gt;使用方法&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;{{% amazon 477418392X %}}&lt;/code&gt;と記述することで、以下の結果を得ることができます。&lt;/p&gt;
-&lt;div class=&#34;embed&#34;&gt;
-  &lt;div class=&#34;rf&#34;&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
-        &lt;a href=&#34;&#34;&gt;
-          &lt;div&gt;
-            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
-          &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
-        &lt;div class=&#34;rf&#34;&gt;
-          &lt;div class=&#34;rr&#34;&gt;
-            &lt;div class=&#34;rcx12 body&#34;&gt;
-              &lt;a class=&#34;utdn&#34; 
-                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;rcm12 hx&#34;&gt;
-              &lt;div&gt;&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
-        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
+  &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/61EL3Dc95dL.jpg&#34;
+      alt=&#34;みんなのGo言語【現場で使える実践テクニック】&#34;
+      layout=&#34;fill&#34; /&gt;
   &lt;/div&gt;
-&lt;/div&gt; --&gt;</description>
+  &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal lg:w-3/5&#34;&gt;
+    &lt;div class=&#34;mb-8 px-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/477418392X?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; rel=&#34;noopener sponsored&#34; class=&#34;&#34;&gt;みんなのGo言語【現場で使える実践テクニック】&lt;/a&gt;
+      &lt;div&gt;出版社：技術評論社&lt;/div&gt;&lt;div&gt;著者:&lt;span class=&#34;ml-3&#34;&gt;松木雅幸&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;mattn&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;藤原俊一郎&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;中島大一&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;牧 大輔&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;鈴木健太&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;稲葉貴洋&lt;/span&gt;&lt;/div&gt;&lt;div&gt;発売日: 2016-09-09T00:00:01Z&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&#34;grid grid-cols-2 md:grid-cols-3 gap-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/477418392X?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded&#34;&gt;Amazon&lt;/a&gt;&lt;a href=&#34;https://product.rakuten.co.jp/product/-/0234e5c15bd645d0d3fde959c26051c7/&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-red-600 text-sm text-center w-full border-2 border-red-600 rounded&#34;&gt;楽天市場&lt;/a&gt;&lt;a href=&#34;https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&amp;amp;pid=886865716&amp;amp;vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D9784774183923&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-purple-600 text-sm text-center w-full border-2 border-purple-600 rounded&#34;&gt;Yahoo!ショッピング&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -3918,37 +3758,21 @@ git pushでブログデプロイ&lt;/p&gt;
       <guid>https://www.meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://amzn.to/2OjNtaz&#34;&gt;次の本&lt;/a&gt;を読み進めることで、&lt;code&gt;Ruby&lt;/code&gt;のライブラリである&lt;code&gt;Capybara&lt;/code&gt;, &lt;code&gt;Poltergeist&lt;/code&gt;を利用してスクレイピングを行うことができました。&lt;code&gt;Poltergeist&lt;/code&gt;は&lt;code&gt;PhantomJS&lt;/code&gt;というHeadless Browserを操作するための&lt;code&gt;Capybara&lt;/code&gt;用Driverです。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;PhantomJS&lt;/code&gt;は&lt;code&gt;JavaScript&lt;/code&gt;ライブラリということで、&lt;code&gt;JavaScript&lt;/code&gt;から&lt;code&gt;PhantomJS&lt;/code&gt;を操作するにはどのような方法があるのか調べてみました。これを機会に&lt;code&gt;JavaScript&lt;/code&gt;を書けるようになりたい。&lt;/p&gt;
-&lt;div class=&#34;embed&#34;&gt;
-  &lt;div class=&#34;rf&#34;&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
-        &lt;a href=&#34;&#34;&gt;
-          &lt;div&gt;
-            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
-          &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
-        &lt;div class=&#34;rf&#34;&gt;
-          &lt;div class=&#34;rr&#34;&gt;
-            &lt;div class=&#34;rcx12 body&#34;&gt;
-              &lt;a class=&#34;utdn&#34; 
-                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;rcm12 hx&#34;&gt;
-              &lt;div&gt;&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
-        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
+  &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/51Pyh8Z7bjL.jpg&#34;
+      alt=&#34;Rubyによるクローラー開発技法　巡回・解析機能の実装と21の運用例&#34;
+      layout=&#34;fill&#34; /&gt;
   &lt;/div&gt;
-&lt;/div&gt; --&gt;</description>
+  &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal lg:w-3/5&#34;&gt;
+    &lt;div class=&#34;mb-8 px-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/B00TO6KMEK?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; rel=&#34;noopener sponsored&#34; class=&#34;&#34;&gt;Rubyによるクローラー開発技法　巡回・解析機能の実装と21の運用例&lt;/a&gt;
+      &lt;div&gt;出版社：SBクリエイティブ&lt;/div&gt;&lt;div&gt;著者:&lt;span class=&#34;ml-3&#34;&gt;佐々木 拓郎&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;るびきち&lt;/span&gt;&lt;/div&gt;&lt;div&gt;発売日: 2014-08-22T00:00:00.000Z&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&#34;grid grid-cols-2 md:grid-cols-3 gap-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/B00TO6KMEK?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded&#34;&gt;Amazon&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -3957,7 +3781,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Sat, 30 Jan 2016 16:14:46 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2016/01/30/effective-javascript-closure/</guid>
-      <description>Amazonでチェックする -- いい加減、JavaScriptも使えるようになっておきたいので、お勉強。やっぱりよく分からないクロージャについて。 項目１１ クロージャと仲良くしよう ポイント１ JavaScri</description>
+      <description>Effective JavaScript JavaScriptを使うときに知っておきたい68の冴えたやり方 出版社：翔泳社著者:Devid Herman吉川邦夫発売日: 2013-02-18T00:00:00.000Z Amazon いい加減、JavaScriptも使えるようになっておきたいので、お勉強</description>
     </item>
     
     <item>
@@ -4002,7 +3826,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Tue, 08 Dec 2015 19:55:40 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2015/12/08/what-is-cio/</guid>
-      <description>Amazonでチェックする -- 読む目的は？ 以下の概要を押さえるため。 CIOってそもそも何の略？ 何をする人なの？ CIO (Chief Information Officer)とは？ 最高情報責任者、あるいは、最高情報統括責任者と訳される ICT(Information and Communication Te</description>
+      <description>CIO(最高情報責任者)の新しい役割 出版社：かんき出版著者:岩崎 尚子発売日: 2008-04-08T00:00:01Z Amazon楽天市場Yahoo!ショッピング 読む目的は？ 以下の概要を押さえるため。 CIOってそもそも何の略？ 何をする人なの</description>
     </item>
     
     <item>
@@ -4011,7 +3835,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Sun, 06 Dec 2015 16:48:49 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2015/12/06/statistics-is-literacy-for-the-next-generation-professional/</guid>
-      <description>Amazonでチェックする -- 統計学の活用方法には、以下の3パターンある。 人間の行動の因果関係を洞察する 現状の把握 今後の予測 ビジネスに必要なのは、人間を洞察するための統計学 洞察とは？ 営業の仕事の場合、売</description>
+      <description>統計学が最強の学問である［実践編］ 出版社：ダイヤモンド社著者:西内 啓発売日: 2014-10-23T00:00:00.000Z Amazon 統計学の活用方法には、以下の3パターンある。 人間の行動の因果関係を洞察する 現状の把握 今後の予測 ビジネスに必要なのは、人間</description>
     </item>
     
     <item>
@@ -4094,37 +3918,21 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Sun, 25 Oct 2015 14:25:07 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2015/10/25/sonicgarden-agile/</guid>
-      <description>&lt;div class=&#34;embed&#34;&gt;
-  &lt;div class=&#34;rf&#34;&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
-        &lt;a href=&#34;&#34;&gt;
-          &lt;div&gt;
-            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
-          &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
-        &lt;div class=&#34;rf&#34;&gt;
-          &lt;div class=&#34;rr&#34;&gt;
-            &lt;div class=&#34;rcx12 body&#34;&gt;
-              &lt;a class=&#34;utdn&#34; 
-                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;rcm12 hx&#34;&gt;
-              &lt;div&gt;&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
-        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
+      <description>&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
+  &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/41lDwKKcmLL.jpg&#34;
+      alt=&#34;「納品」をなくせばうまくいく&#34;
+      layout=&#34;fill&#34; /&gt;
   &lt;/div&gt;
-&lt;/div&gt; --&gt;
+  &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal lg:w-3/5&#34;&gt;
+    &lt;div class=&#34;mb-8 px-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/4534051948?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; rel=&#34;noopener sponsored&#34; class=&#34;&#34;&gt;「納品」をなくせばうまくいく&lt;/a&gt;
+      &lt;div&gt;出版社：日本実業出版社&lt;/div&gt;&lt;div&gt;著者:&lt;span class=&#34;ml-3&#34;&gt;倉貫 義人&lt;/span&gt;&lt;/div&gt;&lt;div&gt;発売日: 2014-06-12T00:00:01Z&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&#34;grid grid-cols-2 md:grid-cols-3 gap-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/4534051948?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded&#34;&gt;Amazon&lt;/a&gt;&lt;a href=&#34;https://product.rakuten.co.jp/product/-/b57c7225642d25ac0ba35e717b012784/&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-red-600 text-sm text-center w-full border-2 border-red-600 rounded&#34;&gt;楽天市場&lt;/a&gt;&lt;a href=&#34;https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&amp;amp;pid=886865716&amp;amp;vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D9784534051943&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-purple-600 text-sm text-center w-full border-2 border-purple-600 rounded&#34;&gt;Yahoo!ショッピング&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;この本から何を得たいか&#34;&gt;この本から何を得たいか&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;「納品のない受託開発」とはどういう開発か&lt;/li&gt;
@@ -4168,7 +3976,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Sat, 05 Sep 2015 08:39:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2015/09/05/the-secrets-of-consulting/</guid>
-      <description>Amazonでチェックする -- 本書から得たいこと そもそも、コンサルタントとはどういうことか？ 問題解決する際に、気をつけるべきことは何か？ 自分に値段を付けるにはどうするか？ コンサルタント業は、当人の依頼に</description>
+      <description>コンサルタントの秘密―技術アドバイスの人間学 出版社：共立出版著者:G.M.ワインバーグ木村 泉ジェラルド・M・ワインバーグ発売日: 1990-12-01T00:00:01Z Amazon楽天市場Yahoo!ショッピング 本書から得たいこと そもそも</description>
     </item>
     
     <item>
@@ -4177,7 +3985,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Mon, 31 Aug 2015 23:53:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2015/08/31/system-integrators-collapse/</guid>
-      <description>ぼくらは、どこへ向かえばよいのか？生存戦略を考える。 本書から何を得たいか？ 生存戦略を見つめなおす どこへ向かうべきか？ 自分はどこへ向かおうとしていたのか？ Amazonでチェックする -- 収益モデル サブスクリ</description>
+      <description>ぼくらは、どこへ向かえばよいのか？生存戦略を考える。 本書から何を得たいか？ 生存戦略を見つめなおす どこへ向かうべきか？ 自分はどこへ向かおうとしていたのか？ システムインテグレーション崩壊 ~これからSIer</description>
     </item>
     
     <item>
@@ -4258,7 +4066,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Sun, 05 Jul 2015 20:46:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2015/07/05/world-cafe-case/</guid>
-      <description>Amazonでチェックする -- 書籍「ワールド・カフェをやろう！」には、企業・団体が実際に行なった事例が多く載っています。 ここでは内容をピックアップして、どんな目的やどんな問いを行なっていたのかをみてみま</description>
+      <description>ワールド・カフェをやろう 出版社：日本経済新聞出版著者:香取 一昭大川 恒発売日: 2009-11-13T00:00:01Z Amazon楽天市場Yahoo!ショッピング 書籍「ワールド・カフェをやろう！」には、企業・団体が実際に行なった事例が多く載</description>
     </item>
     
     <item>
@@ -4303,7 +4111,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Wed, 10 Jun 2015 07:58:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2015/06/10/inner-join-outer-join/</guid>
-      <description>内部結合と外部結合の「内部」と「外部」はどこから来ているのかクロス結合を元に説明している箇所を抜き出してまとめる。 Amazonでチェックする -- クロス結合(Cross Join) すべての結合の母体 数学的には、直積</description>
+      <description>内部結合と外部結合の「内部」と「外部」はどこから来ているのかクロス結合を元に説明している箇所を抜き出してまとめる。 SQL実践入門──高速でわかりやすいクエリの書き方 (WEB&amp;#43;DB PRESS plus) 出版社：技術評論社著者:ミック</description>
     </item>
     
     <item>
@@ -4312,7 +4120,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Mon, 01 Jun 2015 00:48:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2015/06/01/how-to-move-join-nestedloops-hash-sortmerge/</guid>
-      <description>データベースの結合のイメージがいまいち掴めていなかったため、「SQL実践入門」を読んで、結合のアルゴリズムをまとめておく。 Amazonでチェックする -- 結合の種類 結合の種類としては、以下の3種類が存在す</description>
+      <description>データベースの結合のイメージがいまいち掴めていなかったため、「SQL実践入門」を読んで、結合のアルゴリズムをまとめておく。 SQL実践入門──高速でわかりやすいクエリの書き方 (WEB&amp;#43;DB PRESS plus) 出版社：技術評論社著者</description>
     </item>
     
     <item>
@@ -4450,7 +4258,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Wed, 24 Dec 2014 23:34:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2014/12/24/kindle-db-sql/</guid>
-      <description>Kindleで安くなってたので、勢いでポチった。 SQL周り、モデリング周りの理論武装しておきたいと思って買った2冊。 Amazonでチェックする -- Amazonでチェックする -- ちょっとずつ、読み進めていき</description>
+      <description>Kindleで安くなってたので、勢いでポチった。 SQL周り、モデリング周りの理論武装しておきたいと思って買った2冊。 達人に学ぶ SQL徹底指南書 (CodeZine BOOKS) 出版社：翔泳社著者:ミック発売日: 2008-02-07T00:00:01Z Amazon楽天市</description>
     </item>
     
     <item>
@@ -4477,7 +4285,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Tue, 09 Dec 2014 00:12:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2014/12/09/statistics-is-literacy-for-the-next-generation/</guid>
-      <description>Amazonでチェックする -- この本から何を得たいか？ 統計学の用語(キーワード)の理解 データをどう解釈するか ビックデータという言葉に惑わされないため 統計学が最強の武器になるワケ ⇛ どんな分野の議論において</description>
+      <description>統計学が最強の学問である 出版社：ダイヤモンド社著者:西内 啓発売日: 2013-01-24T00:00:01Z Amazon楽天市場Yahoo!ショッピング この本から何を得たいか？ 統計学の用語(キーワード)の理解 データをどう解釈するか ビックデー</description>
     </item>
     
     <item>
@@ -4486,7 +4294,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Wed, 03 Dec 2014 07:21:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2014/12/03/google-analytics/</guid>
-      <description>Google Analyticsのレポートをたまにみるのだが、どこに着目すればいいのか？どんな指標を比べればいいのかわからなかったため、一度読んでみる。 Amazonでチェックする -- Google Analyticsの罠 デフォル</description>
+      <description>Google Analyticsのレポートをたまにみるのだが、どこに着目すればいいのか？どんな指標を比べればいいのかわからなかったため、一度読んでみる。 現場でプロが培った Google Analyticsの使い方 (WEB PROFESSIONAL) 出版社：ア</description>
     </item>
     
     <item>
@@ -4522,7 +4330,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Fri, 28 Nov 2014 23:32:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2014/11/28/javascript/</guid>
-      <description>jQuery、AngularJSとかサンプルを触ってみるけど、いまいちJavaScript自身がわかっていないので全然ピンと来ないので、巷でうわさの「サイ本」を読んでみる。 Amazonでチェックする --</description>
+      <description>jQuery、AngularJSとかサンプルを触ってみるけど、いまいちJavaScript自身がわかっていないので全然ピンと来ないので、巷でうわさの「サイ本」を読んでみる。 JavaScript 第6版 出版社：オライリージ</description>
     </item>
     
     <item>
@@ -4551,37 +4359,21 @@ git pushでブログデプロイ&lt;/p&gt;
       <guid>https://www.meganii.com/blog/2014/11/16/fountain-pen-cleaning/</guid>
       <description>&lt;p&gt;初めて万年筆のインクを変えるとき、どのようにすればよいかわからなかったので、入れ替え方法を調べてみました。
 今回は、色彩雫「朝顔」から色彩雫「月夜」にインク交換します。&lt;/p&gt;
-&lt;div class=&#34;embed&#34;&gt;
-  &lt;div class=&#34;rf&#34;&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
-        &lt;a href=&#34;&#34;&gt;
-          &lt;div&gt;
-            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
-          &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
-        &lt;div class=&#34;rf&#34;&gt;
-          &lt;div class=&#34;rr&#34;&gt;
-            &lt;div class=&#34;rcx12 body&#34;&gt;
-              &lt;a class=&#34;utdn&#34; 
-                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;rcm12 hx&#34;&gt;
-              &lt;div&gt;&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
-        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
+  &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/51DftGxokrL.jpg&#34;
+      alt=&#34;パイロット 万年筆インキ iroshizuku INK-50-TY ツキヨ&#34;
+      layout=&#34;fill&#34; /&gt;
   &lt;/div&gt;
-&lt;/div&gt; --&gt;</description>
+  &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal lg:w-3/5&#34;&gt;
+    &lt;div class=&#34;mb-8 px-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/B0019XWYC4?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; rel=&#34;noopener sponsored&#34; class=&#34;&#34;&gt;パイロット 万年筆インキ iroshizuku INK-50-TY ツキヨ&lt;/a&gt;
+      &lt;div&gt;出版社：パイロットコーポレーション&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&#34;grid grid-cols-2 md:grid-cols-3 gap-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/B0019XWYC4?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded&#34;&gt;Amazon&lt;/a&gt;&lt;a href=&#34;https://product.rakuten.co.jp/product/-/3784612e3d2b5894f819870a79d5a586/&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-red-600 text-sm text-center w-full border-2 border-red-600 rounded&#34;&gt;楽天市場&lt;/a&gt;&lt;a href=&#34;https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&amp;amp;pid=886865716&amp;amp;vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D4902505367298&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-purple-600 text-sm text-center w-full border-2 border-purple-600 rounded&#34;&gt;Yahoo!ショッピング&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -4608,7 +4400,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Tue, 04 Nov 2014 23:02:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2014/11/04/statistics/</guid>
-      <description>統計、統計と言われても全然ぴんと来ないので、こつこつ勉強し始めようかと思います。 ネットを見てると、以下の本がおすすめされてたので、まずはざっと読んでみることにします。 Amazonでチェックする -- Ama</description>
+      <description>統計、統計と言われても全然ぴんと来ないので、こつこつ勉強し始めようかと思います。 ネットを見てると、以下の本がおすすめされてたので、まずはざっと読んでみることにします。 完全独習 統計学入門 出版社：ダイヤモ</description>
     </item>
     
     <item>
@@ -4617,7 +4409,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Mon, 03 Nov 2014 20:15:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2014/11/03/five-factor-work-shift/</guid>
-      <description>Amazonでチェックする -- 未来を形づくる5ちの要因 32の要素 要因1 テクノロジーの進化 テクノロジーが飛躍的に発展する 世界の50億人がインターネットで結ばれる 地球上のいたるところで「クラウド」を利用でき</description>
+      <description>ワーク・シフト ─孤独と貧困から自由になる働き方の未来図&amp;lt;2025&amp;gt; 出版社：プレジデント社著者:リンダ グラットン.池村 千秋発売日: 2012-07-31T00:00:00.000Z Amazon 未来を形づくる5ちの要因 32の要素 要因1 テクノロジーの進</description>
     </item>
     
     <item>
@@ -4626,7 +4418,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Mon, 03 Nov 2014 15:25:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2014/11/03/specialist-work-shift/</guid>
-      <description>2025年、私たちはどんな風に働いているのだろうか？ 「漠然と迎える未来」には孤独で貧困な人生が待ち受け、 「主体的に築く未来」には自由で創造的な人生がある。 本書の扉にこのようなコトバが書いてあった。 Am</description>
+      <description>2025年、私たちはどんな風に働いているのだろうか？ 「漠然と迎える未来」には孤独で貧困な人生が待ち受け、 「主体的に築く未来」には自由で創造的な人生がある。 本書の扉にこのようなコトバが書いてあった。 ワー</description>
     </item>
     
     <item>
@@ -4635,7 +4427,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Thu, 30 Oct 2014 22:52:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2014/10/30/how-google-works/</guid>
-      <description>Amazonでチェックする -- この3つを読んで何も感じることがないようなら、あなたにはエンジニアにとって良いなにがしを構築する素養はないと思うし、本なんて読んでられるかというのには、その程度のことにも時</description>
+      <description>How Google Works (日本経済新聞出版) 出版社：日経BP著者:エリック・シュミットジョナサン・ローゼンバーグアラン・イーグルラリー・ペイジ発売日: 2014-10-08T00:00:00.000Z Amazon この3つを読んで何も感じることがないようなら、あなたにはエンジニ</description>
     </item>
     
     <item>
@@ -4671,7 +4463,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Sat, 04 Oct 2014 17:18:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2014/10/04/facilitation-skill/</guid>
-      <description>なかなか読み進められないので、小出しにしてまとめることにします。 まずは、ファシリテーターの発言を促す技術についてです。 Amazonでチェックする -- ファシリテーターに必要なスキル ファシリテーターにとって</description>
+      <description>なかなか読み進められないので、小出しにしてまとめることにします。 まずは、ファシリテーターの発言を促す技術についてです。 ザ・ファシリテーター 出版社：ダイヤモンド社著者:森 時彦発売日: 2004-11-12T00:00:01Z Amazon楽天市</description>
     </item>
     
     <item>
@@ -4698,7 +4490,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Thu, 04 Sep 2014 22:43:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2014/09/04/create-web-service/</guid>
-      <description>個人的にちょうど「Webサービスのつくり方」ってキーワードがアツかったので読んでみた。心に響いた部分を抜粋する。読んでいたら、何かWebサービスを作りたくなった。 Amazonでチェックする -- ぐだぐだ言</description>
+      <description>個人的にちょうど「Webサービスのつくり方」ってキーワードがアツかったので読んでみた。心に響いた部分を抜粋する。読んでいたら、何かWebサービスを作りたくなった。 Webサービスのつくり方 ~「新しい」を</description>
     </item>
     
     <item>
@@ -4761,7 +4553,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Mon, 23 Jun 2014 21:56:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2014/06/23/dreyfus-model/</guid>
-      <description>「必要な仕事を行い、必要になると新しい仕事を学ぶが、仕事を広範かつ概念的に理解することは決してない」 Amazonでチェックする -- ドレスファスモデルの第５段階 第１段階 初心者 当該の技能分野における経験を持</description>
+      <description>「必要な仕事を行い、必要になると新しい仕事を学ぶが、仕事を広範かつ概念的に理解することは決してない」 リファクタリング・ウェットウェア ―達人プログラマーの思考法と学習法 出版社：オライリージャパン著者:A</description>
     </item>
     
     <item>
@@ -4779,7 +4571,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Tue, 17 Jun 2014 22:00:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2014/06/17/dappan-omoro/</guid>
-      <description>Amazonでチェックする -- 「脱藩学」「オモロい社会人」ってキーワードが飛び込んできたので、メモしておく。 脱藩学 脱藩とは？ 自分の置かれている環境や、自分自身を活かしてないで文句を言っている自分からの脱</description>
+      <description>閉塞感のある君へ。こっちへおいでよ。 人とつながって情報発信するコミュニティ型生き方の秘訣 出版社：アスキー・メディアワークス著者:湯川鶴章TechWave塾コミュニティ発売日: 2013-03-14T00:00:01Z Amazon楽天市場Ya</description>
     </item>
     
     <item>
@@ -4962,7 +4754,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Wed, 10 Jul 2013 00:11:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2013/07/10/logical-thinking/</guid>
-      <description>Amazonでチェックする -- 「そもそも考えるとは、結論を出すこと」 手に入れた情報を元に、ある論理に基づいて、結論を出すこと。</description>
+      <description>ビジュアル ロジカル・シンキング （日経文庫） (日経文庫ビジュアル) 出版社：日本経済新聞出版著者:平井 孝志渡部 高士発売日: 2012-04-14T00:00:01Z Amazon楽天市場Yahoo!ショッピング 「そもそも考えるとは、結論を出すこと</description>
     </item>
     
     <item>
@@ -5308,7 +5100,7 @@ Total of 1 requests completed
       <pubDate>Wed, 06 Jun 2012 00:00:00 +0000</pubDate>
       
       <guid>https://www.meganii.com/blog/2012/06/06/ichiro/</guid>
-      <description>Amazonでチェックする -- イチローのバッティングピッチャーを務め、またマーくんを育てたという奥村幸治さんの講演を聞く機会があったので、迷わず参加してきた。 もっと話を聞いていたいと思うぐらいに、いろん</description>
+      <description>一流の習慣術 イチローとマー君が実践する「自分力」の育て方 (SB新書) 出版社：SBクリエイティブ著者:奥村 幸治発売日: 2010-07-16T00:00:01Z Amazon楽天市場Yahoo!ショッピング イチローのバッティングピッチャーを務め</description>
     </item>
     
     <item>
@@ -5362,37 +5154,21 @@ Total of 1 requests completed
       <pubDate>Sat, 19 May 2012 00:00:00 +0000</pubDate>
       
       <guid>https://www.meganii.com/blog/2012/05/19/study-english/</guid>
-      <description>&lt;div class=&#34;embed&#34;&gt;
-  &lt;div class=&#34;rf&#34;&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
-        &lt;a href=&#34;&#34;&gt;
-          &lt;div&gt;
-            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
-          &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
-        &lt;div class=&#34;rf&#34;&gt;
-          &lt;div class=&#34;rr&#34;&gt;
-            &lt;div class=&#34;rcx12 body&#34;&gt;
-              &lt;a class=&#34;utdn&#34; 
-                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;rcm12 hx&#34;&gt;
-              &lt;div&gt;&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
-        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
+      <description>&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
+  &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/510EggBReqL.jpg&#34;
+      alt=&#34;20歳を過ぎてから英語を学ぼうと決めた人たちへ&#34;
+      layout=&#34;fill&#34; /&gt;
   &lt;/div&gt;
-&lt;/div&gt; --&gt;
+  &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal lg:w-3/5&#34;&gt;
+    &lt;div class=&#34;mb-8 px-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/4887598483?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; rel=&#34;noopener sponsored&#34; class=&#34;&#34;&gt;20歳を過ぎてから英語を学ぼうと決めた人たちへ&lt;/a&gt;
+      &lt;div&gt;出版社：ディスカヴァー・トゥエンティワン&lt;/div&gt;&lt;div&gt;著者:&lt;span class=&#34;ml-3&#34;&gt;Hiroyuki Hal Shibata&lt;/span&gt;&lt;/div&gt;&lt;div&gt;発売日: 2010-09-15T00:00:01Z&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&#34;grid grid-cols-2 md:grid-cols-3 gap-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/4887598483?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded&#34;&gt;Amazon&lt;/a&gt;&lt;a href=&#34;https://product.rakuten.co.jp/product/-/3c23fdd4c625036b6169f8707e030342/&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-red-600 text-sm text-center w-full border-2 border-red-600 rounded&#34;&gt;楽天市場&lt;/a&gt;&lt;a href=&#34;https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&amp;amp;pid=886865716&amp;amp;vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D9784887598485&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-purple-600 text-sm text-center w-full border-2 border-purple-600 rounded&#34;&gt;Yahoo!ショッピング&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;第2言語の概念&#34;&gt;「第2言語」の概念&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;第2言語は完璧でなくてもよい（理解可能な水準まで到達すればそれで十分）&lt;/li&gt;
@@ -5517,7 +5293,7 @@ Total of 1 requests completed
       <pubDate>Tue, 13 Mar 2012 23:59:49 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2012/03/13/1331650789/</guid>
-      <description>Emacs 上で快適に Bash や Zsh を利用する設定 : 紹介マニア いつも参考にさせてもらってます!! ;; multi-term (when (require &amp;#39;multi-term nil t) (setq multi-term-program &amp;#34;/bin/zsh&amp;#34;) (add-hook &amp;#39;term-mode-hook &amp;#39;(lambda () ;; C-h を term 内文字削除にする (define-key term-raw-map (kbd &amp;#34;C-h&amp;#34;) &amp;#39;term-send-backspace) ;; C-y を term 内ペーストにする (define-key term-raw-map (kbd &amp;#34;C-y&amp;#34;) &amp;#39;term-paste) ))) Amazonでチェックす</description>
+      <description>Emacs 上で快適に Bash や Zsh を利用する設定 : 紹介マニア いつも参考にさせてもらってます!! ;; multi-term (when (require &amp;#39;multi-term nil t) (setq multi-term-program &amp;#34;/bin/zsh&amp;#34;) (add-hook &amp;#39;term-mode-hook &amp;#39;(lambda () ;; C-h を term 内文字削除にする (define-key term-raw-map (kbd &amp;#34;C-h&amp;#34;) &amp;#39;term-send-backspace) ;; C-y を term 内ペーストにする (define-key term-raw-map (kbd &amp;#34;C-y&amp;#34;) &amp;#39;term-paste) ))) Emacs実践入門 ～思考</description>
     </item>
     
     <item>
@@ -5535,7 +5311,7 @@ Total of 1 requests completed
       <pubDate>Sun, 11 Mar 2012 14:34:29 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2012/03/11/1331444069/</guid>
-      <description>Amazonでチェックする -- 本書読んで、改めてEmacsの設定を見なおそうと思ったので、そのときのメモ。 心機一転しようと、CocoaEmacsのインストールから始めました。 ソースコードからビルド Xco</description>
+      <description>Emacs実践入門 ～思考を直感的にコード化し、開発を加速する (WEB&amp;#43;DB PRESS plus) 出版社：技術評論社著者:大竹 智也発売日: 2012-03-07T00:00:01Z Amazon楽天市場Yahoo!ショッピング 本書読んで、改めてEmacsの設定を見なおそうと</description>
     </item>
     
     <item>
@@ -5890,7 +5666,7 @@ Total of 1 requests completed
       <pubDate>Thu, 01 Sep 2011 06:55:11 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2011/09/01/1314827711/</guid>
-      <description>少し古いですが、読んだので気になったところを抜き出し。やっぱり、脳のはたらきって興味あるし、面白い。 Amazonでチェックする -- 生きることになれてはいけない 子供はまわりの世界に白紙のまま接するから、世</description>
+      <description>少し古いですが、読んだので気になったところを抜き出し。やっぱり、脳のはたらきって興味あるし、面白い。 海馬/脳は疲れない ほぼ日ブックス 出版社：朝日出版社著者:池谷 裕二糸井 重里発売日: 2002-07-10T00:00:01Z Amazon楽天市</description>
     </item>
     
     <item>
@@ -5899,7 +5675,7 @@ Total of 1 requests completed
       <pubDate>Sat, 27 Aug 2011 10:15:43 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2011/08/27/1314407743/</guid>
-      <description>Amazonでチェックする -- 久々に、自分の小さな「箱」から脱出する方法を読み返しました。相変わらず自分を裏切り続ける毎日だなと自己嫌悪に陥りながらも、ちょっとずつ自分を裏切らず、衝動にしたがって動いて</description>
+      <description>自分の小さな「箱」から脱出する方法 出版社：大和書房著者:アービンジャー インスティチュート金森 重樹冨永 星発売日: 2006-10-19T00:00:01Z Amazon楽天市場Yahoo!ショッピング 久々に、自分の小さな「箱」から脱出する方法を</description>
     </item>
     
     <item>
@@ -6025,7 +5801,7 @@ Total of 1 requests completed
       <pubDate>Tue, 22 Mar 2011 08:00:53 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2011/03/22/1300748453/</guid>
-      <description>Amazonでチェックする -- 自分への3つの質問 今、自分は試せているか 無理だと思考停止してないか 試す人になってるか ◯◯ができない、◯◯ができればいいなぁって言ってるのは言い訳にしか過ぎないんだよね。 じゃ</description>
+      <description>仕事は楽しいかね? 出版社：きこ書房著者:デイル ドーテン野津 智子発売日: 2001-12-01T00:00:01Z Amazon楽天市場Yahoo!ショッピング 自分への3つの質問 今、自分は試せているか 無理だと思考停止してないか 試す人になってるか</description>
     </item>
     
     <item>
@@ -6054,37 +5830,21 @@ Total of 1 requests completed
       <guid>https://www.meganii.com/blog/2011/02/21/1298292184/</guid>
       <description>&lt;p&gt;「プログラマが知るべき、たったひとつの大事なことがら」それは、&lt;strong&gt;学び続ける姿勢&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;「プログラマが知るべき97のこと　18ー学び続ける姿勢」がベースになったお話。&lt;/p&gt;
-&lt;div class=&#34;embed&#34;&gt;
-  &lt;div class=&#34;rf&#34;&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
-        &lt;a href=&#34;&#34;&gt;
-          &lt;div&gt;
-            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
-          &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
-        &lt;div class=&#34;rf&#34;&gt;
-          &lt;div class=&#34;rr&#34;&gt;
-            &lt;div class=&#34;rcx12 body&#34;&gt;
-              &lt;a class=&#34;utdn&#34; 
-                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;rcm12 hx&#34;&gt;
-              &lt;div&gt;&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
-        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
+  &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/511RPej0BNL.jpg&#34;
+      alt=&#34;プログラマが知るべき97のこと&#34;
+      layout=&#34;fill&#34; /&gt;
   &lt;/div&gt;
-&lt;/div&gt; --&gt;
+  &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal lg:w-3/5&#34;&gt;
+    &lt;div class=&#34;mb-8 px-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/4873114799?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; rel=&#34;noopener sponsored&#34; class=&#34;&#34;&gt;プログラマが知るべき97のこと&lt;/a&gt;
+      &lt;div&gt;出版社：オライリージャパン&lt;/div&gt;&lt;div&gt;著者:&lt;span class=&#34;ml-3&#34;&gt;和田 卓人&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;Kevlin Henney&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;夏目 大&lt;/span&gt;&lt;/div&gt;&lt;div&gt;発売日: 2010-12-18T00:00:01Z&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&#34;grid grid-cols-2 md:grid-cols-3 gap-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/4873114799?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded&#34;&gt;Amazon&lt;/a&gt;&lt;a href=&#34;https://product.rakuten.co.jp/product/-/f9e3f17ae06060da314436a6170b832a/&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-red-600 text-sm text-center w-full border-2 border-red-600 rounded&#34;&gt;楽天市場&lt;/a&gt;&lt;a href=&#34;https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&amp;amp;pid=886865716&amp;amp;vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D9784873114798&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-purple-600 text-sm text-center w-full border-2 border-purple-600 rounded&#34;&gt;Yahoo!ショッピング&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;今回@t_wadaさんは、どんな内容のセッションにするか悩まれたそうだ。
 色々と人に相談する上で、「自分の話をすればいい。自分が感じてきたこと、考えてきたこと。それを話せばいい。」とまとまったという。&lt;/p&gt;
 &lt;p&gt;僕は、自分の遥か前を走ってエンジニアの人々がどういう考えで生きてきたのか、今どういうことを考えているかに非常に興味があった。
@@ -6160,7 +5920,7 @@ Total of 1 requests completed
       <pubDate>Sat, 15 Jan 2011 07:38:04 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2011/01/15/1295044684/</guid>
-      <description>ブロガーにとって文章力は、大事ですよね。記事を面白いと思わせるのも、また読みたいと思わせるのも文章力があってこそ。そこで、『文章力の基本』から「なるほど」と思ったものを抜粋してみました。 Amazonで</description>
+      <description>ブロガーにとって文章力は、大事ですよね。記事を面白いと思わせるのも、また読みたいと思わせるのも文章力があってこそ。そこで、『文章力の基本』から「なるほど」と思ったものを抜粋してみました。 文章力の基本 出</description>
     </item>
     
     <item>
@@ -6178,7 +5938,7 @@ Total of 1 requests completed
       <pubDate>Fri, 31 Dec 2010 23:37:16 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2010/12/31/1293806236/</guid>
-      <description>@stiloさんが募集してたので、やってみます！！ 今年読んだ本から10冊選んでブログで発表しよう！ #10book2010 - #StiloBlog それでは、10位〜1位までどうぞ！ 第10位 マニャーナの法則 Amazonでチェックする -- オープンリ</description>
+      <description>@stiloさんが募集してたので、やってみます！！ 今年読んだ本から10冊選んでブログで発表しよう！ #10book2010 - #StiloBlog それでは、10位〜1位までどうぞ！ 第10位 マニャーナの法則 マニャーナの法則 明日できることを今日や</description>
     </item>
     
     <item>
@@ -6214,7 +5974,7 @@ Total of 1 requests completed
       <pubDate>Tue, 14 Dec 2010 06:58:13 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2010/12/14/1292277493/</guid>
-      <description>「ネットで成功しているのは&amp;lt;やめない人たち&amp;gt;である」を読んで思ったこと。 Amazonでチェックする -- ブログとはONEPIECEそのものである ブログは信念である。 ブログはポーネグリフである。</description>
+      <description>「ネットで成功しているのは&amp;lt;やめない人たち&amp;gt;である」を読んで思ったこと。 ネットで成功しているのは〈やめない人たち〉である 出版社：技術評論社著者:いしたに まさき発売日: 2010-11-27T00:00:01Z Amazon楽天市場</description>
     </item>
     
     <item>
@@ -6451,7 +6211,7 @@ Total of 1 requests completed
       <pubDate>Sun, 29 Aug 2010 12:04:39 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2010/08/29/1283051079/</guid>
-      <description>Amazonでチェックする -- 読んでみた素直な感想 わかったような、わからないような。捕まえた金魚が、手のひらからするりと抜けていったようなそんな気分になった。 それでも、学んだこと・はっとさせられたことは</description>
+      <description>仕事は楽しいかね? 出版社：きこ書房著者:デイル ドーテン野津 智子発売日: 2001-12-01T00:00:01Z Amazon楽天市場Yahoo!ショッピング 読んでみた素直な感想 わかったような、わからないような。捕まえた金魚が、手のひらからす</description>
     </item>
     
     <item>
@@ -6522,7 +6282,7 @@ Total of 1 requests completed
       <pubDate>Tue, 17 Aug 2010 22:09:14 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2010/08/17/1282050554/</guid>
-      <description>やらなきゃいけないことがあっても、どうしても目先のテレビやインターネットといった楽しみを優先してしまい、すべて後回しにしてしまう。 そんなダメダメな自分が手に取った一冊。 Amazonでチェックする -- 自分</description>
+      <description>やらなきゃいけないことがあっても、どうしても目先のテレビやインターネットといった楽しみを優先してしまい、すべて後回しにしてしまう。 そんなダメダメな自分が手に取った一冊。 いつも先送りするあなたがすぐやる</description>
     </item>
     
     <item>
@@ -6567,7 +6327,7 @@ Total of 1 requests completed
       <pubDate>Sun, 27 Jun 2010 08:06:23 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2010/06/27/1277593583/</guid>
-      <description>Amazonでチェックする -- 生命の誕生から、現在の現代人にいたるまでの進化の過程を振り返ることができました。 生命の起源についての復習キーワード ミトコンドリア カンブリア爆発 アウストラロピテクス 嫌気性物、</description>
+      <description>われわれはどこから来たのか、われわれは何者か、われわれはどこへ行くのか (ハヤカワ新書juice) 出版社：早川書房著者:帯刀益夫発売日: 2010-05-21T00:00:01Z Amazon楽天市場Yahoo!ショッピング 生命の誕生から、現在</description>
     </item>
     
     <item>
@@ -6666,7 +6426,7 @@ Total of 1 requests completed
       <pubDate>Sun, 09 May 2010 12:41:40 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2010/05/09/1273376500/</guid>
-      <description>Amazonでチェックする -- 実は、だいぶ前に買って読んでいた本の1つ。そのときに上手くまとめてなかったので内容をすっかり忘れてしまっていた。なので、今回はメモを残しておく。 あらすじ 話の舞台は、高校の野</description>
+      <description>もし高校野球の女子マネージャーがドラッカーの『マネジメント』を読んだら 出版社：ダイヤモンド社著者:岩崎 夏海発売日: 2009-12-04T00:00:01Z Amazon楽天市場Yahoo!ショッピング 実は、だいぶ前に買って読んでいた本の1つ</description>
     </item>
     
     <item>
@@ -6711,7 +6471,7 @@ Total of 1 requests completed
       <pubDate>Fri, 05 Mar 2010 09:20:27 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2010/03/05/1267748427/</guid>
-      <description>Amazonでチェックする -- 前々から読みたかったプレゼンテーションZenを図書館で借りてざっと読んでみました。 読み終わった後に、自分の卒論のときの発表資料を見返してみると、まあひどいこと。プレゼンテー</description>
+      <description>プレゼンテーションzen 出版社：ピアソン桐原著者:Garr Reynoldsガー・レイノルズ熊谷 小百合発売日: 2009-09-04 Amazon楽天市場Yahoo!ショッピング 前々から読みたかったプレゼンテーションZenを</description>
     </item>
     
     <item>
@@ -6720,7 +6480,7 @@ Total of 1 requests completed
       <pubDate>Sun, 28 Feb 2010 08:39:55 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2010/02/28/1267313995/</guid>
-      <description>名古屋ライフハック研究会で @shinrinさんに頂いた「最後の授業〜ぼくの命があるうちに〜」のDVDと本を読み切った。 Amazonでチェックする -- 最初見たときに感じたのは、癌を患っていて、余命が知らさ</description>
+      <description>名古屋ライフハック研究会で @shinrinさんに頂いた「最後の授業〜ぼくの命があるうちに〜」のDVDと本を読み切った。 最後の授業 DVD付き版 ぼくの命があるうちに 出版社：武田ランダムハウスジャパン著者:</description>
     </item>
     
     <item>
@@ -6756,7 +6516,7 @@ Total of 1 requests completed
       <pubDate>Mon, 25 Jan 2010 13:16:33 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2010/01/25/1264479393/</guid>
-      <description>Amazonでチェックする -- 名古屋Scala勉強会 http://groups.google.co.jp/group/NagoyaScala 少し日が開いてしまったのですが、名古屋Scala勉強会に行ってきました。 Scalaというプログラミング言語は、前のエントリーScalaスケーラブルプ</description>
+      <description>Scalaスケーラブルプログラミング[コンセプト&amp;amp;コーディング] (Programming in Scala) 出版社：インプレス著者:Martin OderskyLex Spoon、Bill Venners羽生田 栄一羽生田 栄一長尾 高弘発売日: 2009-08-21T00:00:01Z Amazon</description>
     </item>
     
     <item>
@@ -6765,7 +6525,7 @@ Total of 1 requests completed
       <pubDate>Fri, 22 Jan 2010 08:06:23 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2010/01/22/1264115183/</guid>
-      <description>Amazonでチェックする -- 第１章〜第２章までざっと読んでみましたが、関数型プログラミングという概念にうまく適応出来ません。。。 for文にしても、 args.foreach(arg =&amp;gt; println(arg)) とか for (arg &amp;lt;- args) println(arg) とか見慣れない形が出てきて、混乱気</description>
+      <description>Scalaスケーラブルプログラミング第3版 出版社：インプレス著者:Martin OderskyLex SpoonBill Venners長尾 高弘羽生田 栄一水島 宏太発売日: 2016-09-20T00:00:00.000Z Amazon 第１章〜第２章までざっと読んでみましたが、関数型プログラミングとい</description>
     </item>
     
     <item>
@@ -6940,7 +6700,7 @@ Total of 1 requests completed
       <pubDate>Sat, 07 Nov 2009 09:11:18 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/11/07/1257552678/</guid>
-      <description>先日読んだ「STUDYHACKS!」の中のキャリアに関する章で、「キャリアのブルーオーシャン戦略」ということが書かれていたのでちょっと考えてみる。 Amazonでチェックする -- キャリアのブルーオーシャン</description>
+      <description>先日読んだ「STUDYHACKS!」の中のキャリアに関する章で、「キャリアのブルーオーシャン戦略」ということが書かれていたのでちょっと考えてみる。 STUDY HACKS! 出版社：東洋経済新報社著者:小山 龍介発売日: 2008-02-28T00:00:01Z Am</description>
     </item>
     
     <item>
@@ -6958,7 +6718,7 @@ Total of 1 requests completed
       <pubDate>Fri, 30 Oct 2009 17:30:28 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/10/30/1256891428/</guid>
-      <description>Amazonでチェックする -- 読んでみて、ノイズキャンセリングのヘッドホンが無性に欲しくなった。ツールハックでは、ガジェット好きの心を完全に揺さぶられちゃった。このノイズキャンセリングのヘッドホンをお使</description>
+      <description>STUDY HACKS! 出版社：東洋経済新報社著者:小山 龍介発売日: 2008-02-28T00:00:01Z Amazon楽天市場Yahoo!ショッピング 読んでみて、ノイズキャンセリングのヘッドホンが無性に欲しくなった。ツールハックでは、ガジェット好きの心を完</description>
     </item>
     
     <item>
@@ -7084,7 +6844,7 @@ Total of 1 requests completed
       <pubDate>Mon, 27 Jul 2009 21:42:18 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/07/27/1248698538/</guid>
-      <description>Amazonでチェックする -- WebサーバーとWebブラウザがネットワークを介して通信する規約 HTTP（Hyper Text Transport Protocol） 配列には、複数の値を格納できるだけでなく、型が異なる値も格納できる</description>
+      <description>PHP 1 はじめてのPHPプログラミング (CD-ROM付) (プログラミング学習シリーズ) 出版社：翔泳社著者:漢 祐介発売日: 2009-01-30T00:00:01Z Amazon楽天市場Yahoo!ショッピング WebサーバーとWebブラウザがネット</description>
     </item>
     
     <item>
@@ -7120,7 +6880,7 @@ Total of 1 requests completed
       <pubDate>Sun, 12 Jul 2009 23:04:17 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/07/12/1247407457/</guid>
-      <description>Amazonでチェックする -- ちょっとコンピュータの本質のところを知らないといけない気がして読んで理解を試みる。 少し読んでみると、大学1年のときの記憶がちょっとずつ蘇ってきた。2進数とか補数とか。もうち</description>
+      <description>プログラムはなぜ動くのか 第２版 知っておきたいプログラムの基礎知識 出版社：日経ソフトウエア著者:矢沢久雄発売日: 2007-04-01 Amazon楽天市場Yahoo!ショッピング ちょっとコンピュータの本質のところを知らない</description>
     </item>
     
     <item>
@@ -7147,7 +6907,7 @@ Total of 1 requests completed
       <pubDate>Mon, 06 Jul 2009 22:19:17 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/07/06/1246886357/</guid>
-      <description>Amazonでチェックする -- この本から得たいこと ファイナンシャルIQとは何か どんなところに気をつければよいか ファイナンシャルIQとは より多くのお金を稼ぐ 自分のお金を守る 予算を立てる レバレッジを立てる 情</description>
+      <description>金持ち父さんのファイナンシャルIQ 出版社：筑摩書房著者:ロバート・キヨサキ発売日: 2008-11-05T00:00:01Z Amazon楽天市場Yahoo!ショッピング この本から得たいこと ファイナンシャルIQとは何か どんなところに気をつけれ</description>
     </item>
     
     <item>
@@ -7156,7 +6916,7 @@ Total of 1 requests completed
       <pubDate>Fri, 26 Jun 2009 23:58:16 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/06/26/1246028296/</guid>
-      <description>Amazonでチェックする -- 今回この本から掴みたいこと 貯蓄から投資への移行 目次 第1章 金融リテラシーの必要性(金融リテラシーとは 日本の家計における“リスク資産”の割合 ほか) 第2章 金融商品別の視点(分散投</description>
+      <description>お金は銀行に預けるな 金融リテラシーの基本と実践 (光文社新書) 出版社：光文社著者:勝間 和代発売日: 2007-11-16T00:00:01Z Amazon楽天市場Yahoo!ショッピング 今回この本から掴みたいこと 貯蓄から投資への移行 目次 第1章 金</description>
     </item>
     
     <item>
@@ -7174,7 +6934,7 @@ Total of 1 requests completed
       <pubDate>Thu, 25 Jun 2009 15:25:46 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/06/25/1245911146/</guid>
-      <description>Amazonでチェックする -- この本を読む上での得たいこと お金の感覚を養う。 お金持ちの人のお金に対する感覚は、一般の人と比べてどこが違うのか？ 実際に自分が始められることは何なのか？ 目次 教えの書(金持ち父</description>
+      <description>金持ち父さん貧乏父さん 出版社：筑摩書房著者:ロバート キヨサキシャロン・レクター(公認会計士)白根 美保子発売日: 2000-11-09T00:00:01Z Amazon楽天市場Yahoo!ショッピング この本を読む上での得たいこと お金の感覚を養う</description>
     </item>
     
     <item>
@@ -7192,7 +6952,7 @@ Total of 1 requests completed
       <pubDate>Mon, 22 Jun 2009 18:00:47 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/06/22/1245661247/</guid>
-      <description>Amazonでチェックする -- この本を読む上で掴みたいこと ドラッカーのいう働く意味 自分へのマネジメントのありかた（時間管理） 目次 日本の読者へはじめにPart1 いま世界に何が起こっているか 第１章 ポスト資本</description>
+      <description>プロフェッショナルの条件――いかに成果をあげ、成長するか (はじめて読むドラッカー (自己実現編)) 出版社：ダイヤモンド社著者:P・F. ドラッカーPeter F. Drucker上田 惇生発売日: 2000-07-01T00:00:01Z Amazon楽</description>
     </item>
     
     <item>
@@ -7219,7 +6979,7 @@ Total of 1 requests completed
       <pubDate>Tue, 16 Jun 2009 19:46:45 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/06/16/1245149205/</guid>
-      <description>Amazonでチェックする -- フォーカス・リーディングを読んだ後に、読んだ始めての本です。この本を読む目的は「ライブレボリューションの社長がどのような考えで日々勉強に取り組んでいるか掴み取る」に焦点を当</description>
+      <description>仕事頭がよくなるアウトプット勉強法 出版社：サンマーク出版著者:増永 寛之発売日: 2009-03-16T00:00:01Z Amazon楽天市場Yahoo!ショッピング フォーカス・リーディングを読んだ後に、読んだ始めての本です。この本を読む目的</description>
     </item>
     
     <item>
@@ -7228,7 +6988,7 @@ Total of 1 requests completed
       <pubDate>Tue, 16 Jun 2009 19:43:45 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/06/16/1245149025/</guid>
-      <description>Amazonでチェックする -- とりあえず、途中まで読んでみた。 得たこと 本を読むには、目的意識が必要である 本を読むときには、姿勢、呼吸も大切 速読は、体育会系のメソッドであり、日々の練習が必要であるというこ</description>
+      <description>フォーカス・リーディング 「1冊10分」のスピードで、10倍の効果を出す いいとこどり読書術 出版社：PHP研究所著者:寺田 昌嗣発売日: 2008-08-01T00:00:01Z Amazon楽天市場Yahoo!ショッピング とりあえず、途中まで読ん</description>
     </item>
     
     <item>
@@ -7273,7 +7033,7 @@ Total of 1 requests completed
       <pubDate>Mon, 25 May 2009 12:13:04 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/05/25/1243221184/</guid>
-      <description>Amazonでチェックする -- われわれの体がこれほどまで大きい理由というところが、今までの自分の考えにはなくて新鮮だった。 原子は、たえず振動を繰り返すブラウン運動を行っている。したがって、細胞自体も常に</description>
+      <description>生物と無生物のあいだ (講談社現代新書) 出版社：講談社著者:福岡 伸一発売日: 2007-05-18T00:00:01Z Amazon楽天市場Yahoo!ショッピング われわれの体がこれほどまで大きい理由というところが、今までの自分の考えにはなくて</description>
     </item>
     
     <item>
@@ -7309,7 +7069,7 @@ Total of 1 requests completed
       <pubDate>Fri, 22 May 2009 11:51:29 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/05/22/1242960689/</guid>
-      <description>Amazonでチェックする -- だいぶ前に友人から借りた論文の教室。やっとまともに読むことができました。 今の段階で、やはり足りないのは、現状把握であると実感。自分なりのオリジナリティを研究しようにも、その</description>
+      <description>NHKブックス 論文の教室 レポートから卒論まで 出版社：日本放送出版協会著者:戸田山 和久発売日: 2010-05-06T00:00:01Z Amazon楽天市場Yahoo!ショッピング だいぶ前に友人から借りた論文の教室。やっとまともに読むことがで</description>
     </item>
     
     <item>
@@ -7327,7 +7087,7 @@ Total of 1 requests completed
       <pubDate>Tue, 19 May 2009 23:05:30 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/05/19/1242741930/</guid>
-      <description>Amazonでチェックする -- キャストとは Java実行環境が暗黙的に行う変換ではなく、プログラマが意識的に行う変換処理です。 暗黙的な型変換では変数の変換処理を行えない場合に、このキャストを使用します。 キ</description>
+      <description>Javaで学ぶ遺伝的アルゴリズム 出版社：共立出版著者:森 直樹発売日: 2007-11-22T00:00:01Z Amazon楽天市場Yahoo!ショッピング キャストとは Java実行環境が暗黙的に行う変換ではなく、プログラマが意識的に行う変換処</description>
     </item>
     
     <item>
@@ -7345,7 +7105,7 @@ Total of 1 requests completed
       <pubDate>Sun, 17 May 2009 18:34:13 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/05/17/1242552853/</guid>
-      <description>Amazonでチェックする -- 自分だけの特長的な資質 上から強い順に・・・ 調和性 分析思考 自我 慎重さ 回復志向 その中でも、特に印象的だった文章を紹介 調和性 他の人が自分の目標や、主張や、強く抱いている意見を声高</description>
+      <description>さあ、才能(じぶん)に目覚めよう―あなたの5つの強みを見出し、活かす 出版社：日本経済新聞出版著者:マーカス バッキンガムドナルド・O. クリフトン田口 俊樹発売日: 2001-12-01T00:00:01Z Amazon楽天市場Yahoo!ショッピ</description>
     </item>
     
     <item>
@@ -7372,7 +7132,7 @@ Total of 1 requests completed
       <pubDate>Thu, 14 May 2009 23:35:40 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/05/14/1242311740/</guid>
-      <description>Amazonでチェックする -- 今日やったこと デザインパターンに慣れる Iterater Adapter サブクラスに任せる Template Method メソッド、継承、実装、インスタンスあたりの用語についてちょっとイメージがつかめてきた。ただ、関数において変数</description>
+      <description>増補改訂版Java言語で学ぶデザインパターン入門 出版社：ソフトバンククリエイティブ著者:結城 浩発売日: 2004-06-19T00:00:01Z Amazon楽天市場Yahoo!ショッピング 今日やったこと デザインパターンに慣れる Iterater Adapter サブクラス</description>
     </item>
     
     <item>
@@ -7381,7 +7141,7 @@ Total of 1 requests completed
       <pubDate>Sun, 10 May 2009 15:03:14 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/05/10/1241935394/</guid>
-      <description>Amazonでチェックする -- 買ってからかなり日が経ってしまったけど、なんとか一読することができました。 もう一回ぐらい読み直さないと、自分の身にはならないと思う。というか、実際にやっていかないと話しにな</description>
+      <description>7つの習慣-成功には原則があった! 出版社：キングベアー出版著者:スティーブン・R. コヴィーStephen R. Coveyジェームス スキナー川西 茂発売日: 1996-12-25T00:00:01Z Amazon楽天市場Yahoo!ショッピング 買って</description>
     </item>
     
     <item>
@@ -7408,7 +7168,7 @@ Total of 1 requests completed
       <pubDate>Fri, 08 May 2009 18:09:35 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/05/08/1241773775/</guid>
-      <description>Amazonでチェックする -- ヒューリスティック（heuristic発見的解法） 「ベストではないかもしれないけれど、けっこういけてる近似解」を見つけること さまざまな問題に利用できるアルゴリズムをメタヒュ</description>
+      <description>考えるコンピュータのアルゴリズムJava &amp;amp; C&amp;#43;&amp;#43;で学ぶ遺伝的/進化的/免疫アルゴリズム 出版社：ソフトバンククリエイティブ著者:Alberto Palacios Pawlovsky橋本 晋之介発売日: 2007-09-15T00:00:01Z Am</description>
     </item>
     
     <item>
@@ -7660,7 +7420,7 @@ Total of 1 requests completed
       <pubDate>Wed, 11 Feb 2009 20:27:46 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/02/11/1234351666/</guid>
-      <description>Amazonでチェックする -- 最後に泣かされました。 ただ、ドラマの影響で湯川学が福山にしか見えなかったのは、残念。</description>
+      <description>容疑者Xの献身 (文春文庫) 出版社：文藝春秋著者:東野 圭吾発売日: 2008-08-05T00:00:01Z Amazon楽天市場Yahoo!ショッピング 最後に泣かされました。 ただ、ドラマの影響で湯川学が福山にしか見えなかったのは、残念。</description>
     </item>
     
     <item>
@@ -7858,7 +7618,7 @@ Total of 1 requests completed
       <pubDate>Wed, 15 Oct 2008 21:38:11 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2008/10/15/1224074291/</guid>
-      <description>Amazonでチェックする --</description>
+      <description>ネット業界大研究 出版社：産学社著者:ネット業界研究会発売日: 2008-03-01T00:00:01Z Amazon楽天市場Yahoo!ショッピング</description>
     </item>
     
     <item>
@@ -7876,7 +7636,7 @@ Total of 1 requests completed
       <pubDate>Mon, 13 Oct 2008 22:32:25 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2008/10/13/1223904745/</guid>
-      <description>Amazonでチェックする -- 最近はやりのマインドマップというものを実践して行ってみようと思う。 今回は、「ビジネス頭を創る7つのフレームワーク力」を読んだ感想、考えたことをまとめて晒してみる。 まだまだ書</description>
+      <description>勝間和代のビジネス頭を創る7つのフレームワーク力 ビジネス思考法の基本と実践 出版社：ディスカヴァー・トゥエンティワン著者:勝間 和代発売日: 2008-06-15T00:00:01Z Amazon楽天市場Yahoo!ショッピング 最近はやりのマイン</description>
     </item>
     
     <item>
@@ -7903,7 +7663,7 @@ Total of 1 requests completed
       <pubDate>Fri, 10 Oct 2008 00:26:33 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2008/10/10/1223652393/</guid>
-      <description>Amazonでチェックする -- ふと図書館に寄って、目についたので読んでみたところ、ちょっと気になる部分があったためエントリーを書いてみる。 まず、「インタープリター」という言葉に惹かれた。インタープリター</description>
+      <description>社会人のための東大科学講座 科学技術インタープリター養成プログラム (KS一般書) 出版社：講談社著者:長谷川 寿一黒田 玲子村上 陽一郎発売日: 2008-05-24T00:00:01Z Amazon楽天市場Yahoo!ショッピング ふと図書館に寄って、</description>
     </item>
     
     <item>
@@ -7984,7 +7744,7 @@ Total of 1 requests completed
       <pubDate>Mon, 09 Jun 2008 09:43:06 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2008/06/09/1212972186/</guid>
-      <description>Amazonでチェックする -- 「魂は身体をもつことによってしか物事を体験できないし、体験によってしか、魂は成長できないんですよ。ですから、この世に生を受けるっていうのは魂にとっては願ってもないビッグチャ</description>
+      <description>西の魔女が死んだ (新潮文庫) 出版社：新潮社著者:香歩, 梨木発売日: 2001-08-01T00:00:01Z Amazon楽天市場Yahoo!ショッピング 「魂は身体をもつことによってしか物事を体験できないし、体験によってしか、魂は成長できない</description>
     </item>
     
     <item>
@@ -8011,7 +7771,7 @@ Total of 1 requests completed
       <pubDate>Mon, 02 Jun 2008 21:51:57 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2008/06/02/1212411117/</guid>
-      <description>Amazonでチェックする -- はぃはぃ、お子ちゃまな自分にはさっぱりの世界でございます(&amp;gt;_&amp;lt;)</description>
+      <description>とかげ (新潮文庫) 出版社：新潮社著者:ばなな, 吉本発売日: 1996-05-29T00:00:01Z Amazon楽天市場Yahoo!ショッピング はぃはぃ、お子ちゃまな自分にはさっぱりの世界でございます(&amp;gt;_&amp;lt;)</description>
     </item>
     
     <item>
