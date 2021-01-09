@@ -58,7 +58,7 @@
             <section class="mt-2 p-1">
                 <h3 class="font-bold">Tags</h3>
                 {{ range sort .Site.Taxonomies.tags "Count" "desc" }}
-                {{ if gt .Count 5 }}<a class="" href="{{ .Page.Permalink }}">{{ .Page.Title }}({{.Count}})</a>{{end}}
+                {{ if gt .Count 5 }}<a class="" href="{{ .Page.Permalink }}"><span class="p-1 mt-4 mr-1 text-xs text-white bg-gray-700 rounded">{{ .Page.Title }}({{.Count}})</span></a>{{end}}
                 {{ end }}
             </section>
         </div>
