@@ -13,20 +13,21 @@
       <pubDate>Sun, 13 Sep 2020 09:33:40 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/09/13/techbookfest-9-hugo-book/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1599960860/hugo-book_ww0ctf.png&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/hugo-book_ww0ctf.png 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/hugo-book_ww0ctf.png 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/hugo-book_ww0ctf.png 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/hugo-book_ww0ctf.png 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/hugo-book_ww0ctf.png 320w&#34;
-      width=&#34;1073&#34;
-      height=&#34;542&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;技術書典9で「Hugoで始める静的サイト構築入門」という本を出しました&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1599960860/hugo-book_ww0ctf.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/hugo-book_ww0ctf.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/hugo-book_ww0ctf.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/hugo-book_ww0ctf.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/hugo-book_ww0ctf.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/hugo-book_ww0ctf.png 320w&#34;
+        width=&#34;1073&#34;
+        height=&#34;542&#34;
+        heights=&#34;(min-width:640px) 400px, 100%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;技術書典9で「Hugoで始める静的サイト構築入門」という本を出しました&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;「&lt;a href=&#34;https://techbookfest.org/market&#34;&gt;技術書典9&lt;/a&gt;」が2020/09/12から開催されています。私も初めて出展者として「&lt;a href=&#34;https://techbookfest.org/product/5095004003368960&#34;&gt;Hugoで始める静的サイト構築入門〜静的サイトジェネレータで作る自作サイト〜&lt;/a&gt;」という本を頒布していますので、お手に取っていただけると幸いです。&lt;/p&gt;
 &lt;aside&gt;
     &lt;div class=&#34;toc&#34;&gt;

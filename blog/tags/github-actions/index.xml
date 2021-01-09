@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub Actions on SIS Lab</title>
+    <link>https://www.meganii.com/blog/tags/github-actions/</link>
+    <description>Recent content in GitHub Actions on SIS Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 09 Jan 2021 15:53:36 +0900</lastBuildDate><atom:link href="https://www.meganii.com/blog/tags/github-actions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Actionsのスケジューラ実行を利用して定期的にビルドする</title>
+      <link>https://www.meganii.com/blog/2021/01/09/building-periodically-with-scheduler-of-github-actions/</link>
+      <pubDate>Sat, 09 Jan 2021 15:53:36 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2021/01/09/building-periodically-with-scheduler-of-github-actions/</guid>
+      <description>&lt;p&gt;GitHub Actionsのスケジューラ実行で、Hugoなどのサイトを定期ビルドし、データを最新化する方法を調べたときのメモです。&lt;/p&gt;
+&lt;aside&gt;
+    &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#github-actionsでスケジューラ実行&#34;&gt;GitHub Actionsでスケジューラ実行&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#定期ビルド&#34;&gt;定期ビルド&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#gh-pagesyml&#34;&gt;gh-pages.yml&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
