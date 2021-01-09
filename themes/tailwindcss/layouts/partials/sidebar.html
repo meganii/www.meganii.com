@@ -1,13 +1,15 @@
 {{ $BaseURL := .Site.BaseURL }}
-<amp-sidebar id="nav" layout="nodisplay" side="right">
-    <svg class="text-right fill-current h-4 w-4" tabindex="0" role="button" aria-label="close menu" on="tap:nav.toggle" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-        <title>Menu Close</title>
-        <polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
-            transform="rotate(45 10 10)" />
+<amp-sidebar id="nav" layout="nodisplay" side="right" class="w-2/5">
+  <div class="m-3">
+    <svg class="fill-current h-4 w-4" tabindex="0" role="button" aria-label="close menu" on="tap:nav.toggle" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+      <title>Menu Close</title>
+      <polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2" transform="rotate(45 10 10)" />
     </svg>
-    <ul class="ns">
-        {{- range .Site.Menus.categories -}}
-        <li><a href="{{$BaseURL}}{{.URL}}">{{ .Title }}</a></li>
-        {{- end -}}
+    <h2 class="mt-2">Menu</h2>
+    <ul class="pl-2">
+      {{- range .Site.Menus.categories -}}
+      <li><a href="{{$BaseURL}}{{.URL}}">{{ .Title }}</a></li>
+      {{- end -}}
     </ul>
+  </div>
 </amp-sidebar>
