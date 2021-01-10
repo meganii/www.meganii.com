@@ -31055,6 +31055,7 @@ video {
 .post h2 {
   font-size: 1.25rem;
   line-height: 1.75rem;
+  font-weight: 700;
   border-bottom-width: 2px;
   --tw-border-opacity: 1;
   border-color: rgba(224, 224, 224, var(--tw-border-opacity));
@@ -31065,6 +31066,7 @@ video {
 .post h3 {
   font-size: 1.125rem;
   line-height: 1.75rem;
+  font-weight: 600;
   border-left-width: 4px;
   padding-left: 1rem;
   margin-top: 1rem;
@@ -31073,6 +31075,7 @@ video {
 .post h4 {
   font-size: 1.125rem;
   line-height: 1.75rem;
+  font-weight: 600;
   margin-top: 1rem;
 }
 

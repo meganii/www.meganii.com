@@ -28,6 +28,7 @@
 
 .post h2 {
   @apply text-xl;
+  @apply font-bold;
   @apply border-b-2;
   @apply border-gray-300;
   @apply mt-6;
@@ -36,6 +37,7 @@
 
 .post h3 {
   @apply text-lg;
+  @apply font-semibold;
   @apply border-l-4;
   @apply pl-4;
   @apply mt-4;
@@ -43,6 +45,7 @@
 
 .post h4 {
   @apply text-lg;
+  @apply font-semibold;
   @apply mt-4;
 }
 
