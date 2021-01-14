@@ -14,7 +14,7 @@
                 {{ $baseurl }}q_auto,f_auto,w_320/{{ $itemid }} 320w"
         width="{{ .Get "w" }}"
         height="{{ .Get "h" }}"
-        heights="(min-width:640px) 400px, 100%"
+        heights="(min-width:600px) 400px, 80%"
         layout="responsive"
         alt="{{.Get "alt" | default $.Page.Title }}">
     </amp-img>
