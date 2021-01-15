@@ -23,7 +23,7 @@
 @tailwind utilities;
 
 .post p {
-  @apply my-4;
+  @apply my-7;
 }
 
 .post h2 {
@@ -31,7 +31,7 @@
   @apply font-bold;
   @apply border-b-2;
   @apply border-gray-300;
-  @apply mt-6;
+  @apply mt-8;
   @apply pb-1;
 }
 
@@ -40,7 +40,7 @@
   @apply font-semibold;
   @apply border-l-4;
   @apply pl-4;
-  @apply mt-4;
+  @apply mt-8;
 }
 
 .post h4 {

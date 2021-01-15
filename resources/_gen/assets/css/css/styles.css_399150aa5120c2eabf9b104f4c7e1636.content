@@ -31048,8 +31048,8 @@ video {
 }
 
 .post p {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
 }
 
 .post h2 {
@@ -31059,7 +31059,7 @@ video {
   border-bottom-width: 2px;
   --tw-border-opacity: 1;
   border-color: rgba(224, 224, 224, var(--tw-border-opacity));
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   padding-bottom: 0.25rem;
 }
 
@@ -31069,7 +31069,7 @@ video {
   font-weight: 600;
   border-left-width: 4px;
   padding-left: 1rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .post h4 {
