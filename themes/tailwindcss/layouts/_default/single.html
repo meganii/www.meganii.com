@@ -17,12 +17,12 @@
         </div>
     </section>
 
-    <div>
-        {{- partial "adsense.html" . -}}
-    </div>
-
     <div class="mt-8">
         {{- partial "share.html" . -}}
+    </div>
+
+    <div>
+        {{- partial "adsense.html" . -}}
     </div>
 
     {{ $related := .Site.RegularPages.Related . | first 8 }}
