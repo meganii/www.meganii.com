@@ -1,5 +1,5 @@
 ---
-title: "Happy Hacking Keyboard（HHKB）をWindows/Mac/iPadで快適に使う方法"
+title: "HHKBをWindows・Mac・iPadで快適に使う方法"
 date: 2021-01-15T06:35:29+09:00
 lastmod: 2021-01-15T06:35:29+09:00
 published: true
