@@ -13,21 +13,20 @@
       <pubDate>Wed, 15 Jul 2020 22:46:26 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/07/15/event-report-data-engineering-study-1-data-platform-guide/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594863856/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png 320w&#34;
-        width=&#34;659&#34;
-        height=&#34;251&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Data Engineering Study #1&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594863856/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png 320w&#34;
+      width=&#34;659&#34;
+      height=&#34;251&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Data Engineering Study #1&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;「&lt;a href=&#34;https://forkwell.connpass.com/event/179786/&#34;&gt;Data Engineering Study #1「DWH・BIツールのこれまでとこれから」 - connpass&lt;/a&gt;」に参加し、「基調講演1「Data Platform Guide - 事業を成長させるデータ基盤を作るには」を聴講したときのまとめです。&lt;/p&gt;
 &lt;aside&gt;
     &lt;div class=&#34;toc&#34;&gt;
@@ -101,21 +100,37 @@ layout=&#34;responsive&#34;&gt;
       <guid>https://www.meganii.com/blog/2011/02/21/1298292184/</guid>
       <description>&lt;p&gt;「プログラマが知るべき、たったひとつの大事なことがら」それは、&lt;strong&gt;学び続ける姿勢&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;「プログラマが知るべき97のこと　18ー学び続ける姿勢」がベースになったお話。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;div class=&#34;border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
-  &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/511RPej0BNL.jpg&#34;
-      alt=&#34;プログラマが知るべき97のこと&#34;
-      layout=&#34;fill&#34; /&gt;
+&lt;div class=&#34;embed&#34;&gt;
+  &lt;div class=&#34;rf&#34;&gt;
+    &lt;div class=&#34;rr&#34;&gt;
+      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
+        &lt;a href=&#34;&#34;&gt;
+          &lt;div&gt;
+            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
+          &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
+        &lt;div class=&#34;rf&#34;&gt;
+          &lt;div class=&#34;rr&#34;&gt;
+            &lt;div class=&#34;rcx12 body&#34;&gt;
+              &lt;a class=&#34;utdn&#34; 
+                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;rcm12 hx&#34;&gt;
+              &lt;div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;rr&#34;&gt;
+      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
+        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal lg:w-3/5&#34;&gt;
-    &lt;div class=&#34;mb-8 px-1&#34;&gt;
-      &lt;a href=&#34;https://www.amazon.co.jp/dp/4873114799?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; rel=&#34;noopener sponsored&#34; class=&#34;&#34;&gt;プログラマが知るべき97のこと&lt;/a&gt;
-      &lt;div&gt;出版社：オライリージャパン&lt;/div&gt;&lt;div&gt;著者:&lt;span class=&#34;ml-3&#34;&gt;和田 卓人&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;Kevlin Henney&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;夏目 大&lt;/span&gt;&lt;/div&gt;&lt;div&gt;発売日: 2010-12-18T00:00:01Z&lt;/div&gt;&lt;/div&gt;
-    &lt;div class=&#34;grid grid-cols-2 md:grid-cols-3 gap-1&#34;&gt;
-      &lt;a href=&#34;https://www.amazon.co.jp/dp/4873114799?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded&#34;&gt;Amazon&lt;/a&gt;&lt;a href=&#34;https://product.rakuten.co.jp/product/-/f9e3f17ae06060da314436a6170b832a/&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-red-600 text-sm text-center w-full border-2 border-red-600 rounded&#34;&gt;楽天市場&lt;/a&gt;&lt;a href=&#34;https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&amp;amp;pid=886865716&amp;amp;vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3D9784873114798&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block py-2 text-purple-600 text-sm text-center w-full border-2 border-purple-600 rounded&#34;&gt;Yahoo!ショッピング&lt;/a&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+&lt;/div&gt; --&gt;
 &lt;p&gt;今回@t_wadaさんは、どんな内容のセッションにするか悩まれたそうだ。
 色々と人に相談する上で、「自分の話をすればいい。自分が感じてきたこと、考えてきたこと。それを話せばいい。」とまとまったという。&lt;/p&gt;
 &lt;p&gt;僕は、自分の遥か前を走ってエンジニアの人々がどういう考えで生きてきたのか、今どういうことを考えているかに非常に興味があった。
@@ -193,21 +208,20 @@ layout=&#34;responsive&#34;&gt;
       <guid>https://www.meganii.com/blog/2010/08/23/1282566781/</guid>
       <description>&lt;p&gt;8/22（日）、名古屋ライフハック研究会「VOL.9　再発見　大人のための話し方&amp;amp;マナー」に参加してきました。今回は、コミュニケーションスペシャリストの大網理紗さんが講師としてマナー、振る舞いについてのセミナーでした。LTもあり、僕自身も2回目のLTに挑戦してきました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://kokucheese.com/event/index/3727/&#34;&gt;8月22日 名古屋ライフハック研究会Vol.9 再発見 大人のための話し方&amp;amp;マナー(愛知県)&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594886064/4917335597_ece11731fd_t7m5tz.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/4917335597_ece11731fd_t7m5tz.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/4917335597_ece11731fd_t7m5tz.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/4917335597_ece11731fd_t7m5tz.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/4917335597_ece11731fd_t7m5tz.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/4917335597_ece11731fd_t7m5tz.jpg 320w&#34;
-        width=&#34;500&#34;
-        height=&#34;375&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;スマートに見せる立ち振る舞い方があった-名古屋ライフハック研究会vol.9「再発見 大人のための話し方＆マナー」-&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594886064/4917335597_ece11731fd_t7m5tz.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/4917335597_ece11731fd_t7m5tz.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/4917335597_ece11731fd_t7m5tz.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/4917335597_ece11731fd_t7m5tz.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/4917335597_ece11731fd_t7m5tz.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/4917335597_ece11731fd_t7m5tz.jpg 320w&#34;
+      width=&#34;500&#34;
+      height=&#34;375&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;スマートに見せる立ち振る舞い方があった-名古屋ライフハック研究会vol.9「再発見 大人のための話し方＆マナー」-&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;（大網さんからLT参加者へのフィードバックと、セミナーで使った資料）&lt;/p&gt;
 &lt;aside&gt;
     &lt;div class=&#34;toc&#34;&gt;
@@ -236,21 +250,20 @@ layout=&#34;responsive&#34;&gt;
       
       <guid>https://www.meganii.com/blog/2009/12/13/1260666253/</guid>
       <description>&lt;p&gt;家に帰って、ブログを更新するまでが勉強会。今回は、セキュリティ＆プログラミングキャラバン、神戸情報セキュリティ勉強会に参加してきました。会場は、カーネギーメロン大学。ってことで、青春18切符を使って、名古屋から神戸へ行ってきました。島根まで11時間かかったことを考えるともはや余裕ですね。&lt;/p&gt;
-&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594886078/20091213093137_kxbejx.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/20091213093137_kxbejx.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/20091213093137_kxbejx.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/20091213093137_kxbejx.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/20091213093137_kxbejx.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/20091213093137_kxbejx.jpg 320w&#34;
-        width=&#34;289&#34;
-        height=&#34;363&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;セキュリティ＆プログラミングキャラバン、セキュメロ合同勉強会にいってきたー!!!&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594886078/20091213093137_kxbejx.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/20091213093137_kxbejx.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/20091213093137_kxbejx.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/20091213093137_kxbejx.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/20091213093137_kxbejx.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/20091213093137_kxbejx.jpg 320w&#34;
+      width=&#34;289&#34;
+      height=&#34;363&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;セキュリティ＆プログラミングキャラバン、セキュメロ合同勉強会にいってきたー!!!&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;aside&gt;
     &lt;div class=&#34;toc&#34;&gt;
     &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;

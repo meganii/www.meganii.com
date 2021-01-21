@@ -14,21 +14,20 @@
       
       <guid>https://www.meganii.com/blog/2009/12/13/1260666253/</guid>
       <description>&lt;p&gt;家に帰って、ブログを更新するまでが勉強会。今回は、セキュリティ＆プログラミングキャラバン、神戸情報セキュリティ勉強会に参加してきました。会場は、カーネギーメロン大学。ってことで、青春18切符を使って、名古屋から神戸へ行ってきました。島根まで11時間かかったことを考えるともはや余裕ですね。&lt;/p&gt;
-&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594886078/20091213093137_kxbejx.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/20091213093137_kxbejx.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/20091213093137_kxbejx.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/20091213093137_kxbejx.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/20091213093137_kxbejx.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/20091213093137_kxbejx.jpg 320w&#34;
-        width=&#34;289&#34;
-        height=&#34;363&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;セキュリティ＆プログラミングキャラバン、セキュメロ合同勉強会にいってきたー!!!&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594886078/20091213093137_kxbejx.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/20091213093137_kxbejx.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/20091213093137_kxbejx.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/20091213093137_kxbejx.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/20091213093137_kxbejx.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/20091213093137_kxbejx.jpg 320w&#34;
+      width=&#34;289&#34;
+      height=&#34;363&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;セキュリティ＆プログラミングキャラバン、セキュメロ合同勉強会にいってきたー!!!&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;aside&gt;
     &lt;div class=&#34;toc&#34;&gt;
     &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
