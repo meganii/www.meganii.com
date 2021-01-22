@@ -60,9 +60,12 @@ https://teams.microsoft.com/l/message/19:1fb9299a973341d49a38cbf4932143fb@thread
 
 上記のURLの場合、`groupId`, `channelId`, `messageId`は次のとおり。
 
-- groupId: URLパラメタ`groupId` `58742cc7-f7ca-4df0-82fc-1aab7c6276c0`
-- channelId: message/{groupID}/ `19:1fb9299a973341d49a38cbf4932143fb@thread.tacv2` 
-- messageId: URLパラメタ`parentMessageId` `1611064421410`
+- groupId: URLパラメタ`groupId`
+    - `58742cc7-f7ca-4df0-82fc-1aab7c6276c0`
+- channelId: message/{groupID}/
+    - `19:1fb9299a973341d49a38cbf4932143fb@thread.tacv2` 
+- messageId: URLパラメタ`parentMessageId`
+    - `1611064421410`
 
 
 ### Teamsのスレッドに返信する
@@ -89,3 +92,7 @@ MicrosoftTeams.PostReplyToMessageV2(
 
 ## まとめ
 
+`Power Apps`の入門として出退勤をポストするアプリを作成してみました。
+Connectorを利用して、画面を作り上げていく流れをなんとなく掴むことができました。
+
+日頃の業務改善のため、小さいけど意外とメンドくさいことはどんどん`Power Apps`や`Power Automate`で自動化していきたい。
