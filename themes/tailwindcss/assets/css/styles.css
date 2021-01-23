@@ -93,6 +93,33 @@
   @apply rounded;
 }
 
+.post table {
+  @apply overflow-auto;
+  @apply mt-4;
+  @apply border-l;
+  @apply border-t;
+  @apply border-gray-300;
+  @apply border-collapse;
+  @apply table-auto;
+  @apply block;
+}
+
+.post thead {
+  @apply bg-gray-100;
+}
+
+.post tr:nth-child(even) {
+  @apply bg-gray-100;
+}
+
+.post th, td {
+  @apply border-b;
+  @apply border-r;
+  @apply border-gray-300;
+  @apply py-1 md:py-3;
+  @apply px-2 md:px-4;
+}
+
 amp-img.contain img {
   @apply object-contain;
 }
