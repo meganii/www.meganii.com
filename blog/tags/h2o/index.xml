@@ -17,7 +17,7 @@
   class=&#34;text-blue-500 hover:underline&#34;
   href=&#34;https://www.meganii.com/blog/2016/07/17/install-h2load/&#34;
   
-  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  &gt;
   http/2ベンチマークツール「h2load」をインストール - SIS Lab
 &lt;/a&gt;でhttp/2ベンチマークツールをインストールしたので、いよいよ&lt;code&gt;h2o&lt;/code&gt;をインストールします。&lt;/p&gt;
 &lt;p&gt;さくらVPSで運用しているCentOSは、Ansible経由で整備しているので今回もAnsibleのタスクを作成して、まずはローカルの開発環境でテスト、そしてさくらVPSのCentOSに適用します。&lt;/p&gt;
