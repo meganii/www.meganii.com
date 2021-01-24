@@ -1,0 +1,7 @@
+<a
+  class="text-blue-500 hover:underline"
+  href="{{ .Destination | safeURL }}"
+  {{ with .Title }} title="{{ . }}"{{ end }}
+  {{ if strings.HasPrefix .Destination "http" }}target="_blank" rel="noopener"{{ end }}>
+  {{ .Text }}
+</a>

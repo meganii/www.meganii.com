@@ -4,7 +4,7 @@
 
 <p></p><!-- Avoid overriding list -->
 
-<div class="border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0">
+<div class="affiliate border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0">
   <div class="h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4">
     <amp-img class="contain" src="{{ $json.Images.Primary.Large.URL }}"
       alt="{{ $json.ItemInfo.Title.DisplayValue }}"
@@ -12,7 +12,7 @@
   </div>
   <div class="p-4 relative flex flex-col justify-between leading-normal lg:w-3/5">
     <div class="mb-8 px-1">
-      <a href="{{ $json.DetailPageURL }}" rel="noopener sponsored" class="">{{ $json.ItemInfo.Title.DisplayValue }}</a>
+      <a href="{{ $json.DetailPageURL }}" rel="noopener sponsored" class="text-blue-500 hover:underline">{{ $json.ItemInfo.Title.DisplayValue }}</a>
       <div>出版社：{{ $json.ItemInfo.ByLineInfo.Manufacturer.DisplayValue }}</div>
       {{- with $json.ItemInfo.ByLineInfo.Contributors -}}
       <div>著者: {{- range . -}}<span class="ml-3">{{ .Name }}</span>{{- end -}}</div>
@@ -22,12 +22,15 @@
       {{- end -}}
     </div>
     <div class="grid grid-cols-2 md:grid-cols-3 gap-1">
-      <a href="{{ $json.DetailPageURL }}" target="_blank" rel="noopener sponsored" class="block py-2 text-yellow-600 text-sm	text-center w-full border-2 border-yellow-600 rounded">Amazon</a>
+      <a href="{{ $json.DetailPageURL }}" target="_blank" rel="noopener sponsored" class="block py-2 text-white text-sm font-medium text-center w-full border-1 border-gray-600 bg-yellow-500 rounded hover:bg-yellow-400">Amazon</a>
+      {{- with $json.Kindle.productUrl -}}
+      <a href="{{ $json.Kindle.productUrl }}" target="_blank" rel="noopener sponsored" class="block py-2  text-white text-sm font-medium text-center w-full border-1 border-gray-600 bg-yellow-600 rounded  hover:bg-yellow-500">Kindle</a>
+      {{- end -}}
       {{- with $json.Rakuten.productUrlPC -}}
-      <a href="{{ $json.Rakuten.productUrlPC }}" target="_blank" rel="noopener sponsored" class="block py-2 text-red-600 text-sm text-center w-full border-2 border-red-600 rounded">楽天市場</a>
+      <a href="{{ $json.Rakuten.productUrlPC }}" target="_blank" rel="noopener sponsored" class="block py-2 text-white text-sm text-center w-full border-1 border-gray-600 bg-red-600 rounded hover:bg-red-500">楽天市場</a>
       {{- end -}}
       {{- with $json.Yahoo.productUrl -}}
-      <a href="{{ $json.Yahoo.productUrl }}" target="_blank" rel="noopener sponsored" class="block py-2 text-purple-600 text-sm text-center w-full border-2 border-purple-600 rounded">Yahoo!ショッピング</a>
+      <a href="{{ $json.Yahoo.productUrl }}" target="_blank" rel="noopener sponsored" class="block py-2 text-white text-sm text-center w-full border-1 border-gray-600 bg-purple-600 rounded hover:bg-purple-500">Yahoo!ショッピング</a>
       {{- end -}}
     </div>
   </div>

@@ -29,6 +29,148 @@
   padding-left: 1.6em;
 }
 
+.post p {
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.post h2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  border-bottom-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgba(224, 224, 224, var(--tw-border-opacity));
+  margin-top: 2rem;
+  padding-bottom: 0.25rem;
+}
+
+.post h3 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  border-left-width: 4px;
+  padding-left: 1rem;
+  margin-top: 2rem;
+}
+
+.post h4 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.post pre {
+  padding: 1.5rem;
+  overflow: auto;
+  --tw-bg-opacity: 1;
+  background-color: rgba(248, 248, 248, var(--tw-bg-opacity));
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgba(248, 248, 248, var(--tw-border-opacity));
+  border-radius: 0.25rem;
+}
+
+.post p > code, .post li > code {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin: 0px;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(248, 248, 248, var(--tw-bg-opacity));
+}
+
+.toc a:hover {
+  text-decoration: underline;
+}
+
+.post blockquote {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(248, 248, 248, var(--tw-bg-opacity));
+  margin-top: 0.75rem;
+  padding: 1rem;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgba(248, 248, 248, var(--tw-border-opacity));
+  border-radius: 0.25rem;
+}
+
+.post .highlight {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(248, 248, 248, var(--tw-bg-opacity));
+  position: relative;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgba(248, 248, 248, var(--tw-border-opacity));
+  border-radius: 0.25rem;
+}
+
+.post table {
+  overflow: auto;
+  margin-top: 1rem;
+  border-left-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgba(224, 224, 224, var(--tw-border-opacity));
+  border-collapse: collapse;
+  table-layout: auto;
+  display: block;
+}
+
+.post thead {
+  border-top-width: 1px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(248, 248, 248, var(--tw-bg-opacity));
+}
+
+.post tr:nth-child(even) {
+  --tw-bg-opacity: 1;
+  background-color: rgba(248, 248, 248, var(--tw-bg-opacity));
+}
+
+.post th, td {
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgba(224, 224, 224, var(--tw-border-opacity));
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+@media (min-width: 768px) {
+  .post th, td {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+}
+
+.post th, td {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .post th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+amp-img.contain img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 /**
  * Tailwind base - put variables under: tailwind.config.js
  * This injects Tailwind's base styles and any base styles registered by
@@ -31045,148 +31187,6 @@ video {
 
 .delay-1000 {
   transition-delay: 1000ms;
-}
-
-.post p {
-  margin-top: 1.75rem;
-  margin-bottom: 1.75rem;
-}
-
-.post h2 {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  font-weight: 700;
-  border-bottom-width: 2px;
-  --tw-border-opacity: 1;
-  border-color: rgba(224, 224, 224, var(--tw-border-opacity));
-  margin-top: 2rem;
-  padding-bottom: 0.25rem;
-}
-
-.post h3 {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  font-weight: 600;
-  border-left-width: 4px;
-  padding-left: 1rem;
-  margin-top: 2rem;
-}
-
-.post h4 {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  font-weight: 600;
-  margin-top: 1rem;
-}
-
-.post pre {
-  padding: 1.5rem;
-  overflow: auto;
-  --tw-bg-opacity: 1;
-  background-color: rgba(248, 248, 248, var(--tw-bg-opacity));
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  border-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgba(248, 248, 248, var(--tw-border-opacity));
-  border-radius: 0.25rem;
-}
-
-.post p > code, .post li > code {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  margin: 0px;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  border-radius: 0.25rem;
-  --tw-bg-opacity: 1;
-  background-color: rgba(248, 248, 248, var(--tw-bg-opacity));
-}
-
-.post a{
-  text-decoration: underline;
-}
-
-.post blockquote {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  --tw-bg-opacity: 1;
-  background-color: rgba(248, 248, 248, var(--tw-bg-opacity));
-  margin-top: 0.75rem;
-  padding: 1rem;
-  border-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgba(248, 248, 248, var(--tw-border-opacity));
-  border-radius: 0.25rem;
-}
-
-.post .highlight {
-  font-size: 0.75rem;
-  line-height: 1rem;
-  --tw-bg-opacity: 1;
-  background-color: rgba(248, 248, 248, var(--tw-bg-opacity));
-  position: relative;
-  border-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgba(248, 248, 248, var(--tw-border-opacity));
-  border-radius: 0.25rem;
-}
-
-.post table {
-  overflow: auto;
-  margin-top: 1rem;
-  border-left-width: 1px;
-  border-top-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgba(224, 224, 224, var(--tw-border-opacity));
-  border-collapse: collapse;
-  table-layout: auto;
-  display: block;
-}
-
-.post thead {
-  --tw-bg-opacity: 1;
-  background-color: rgba(248, 248, 248, var(--tw-bg-opacity));
-}
-
-.post tr:nth-child(even) {
-  --tw-bg-opacity: 1;
-  background-color: rgba(248, 248, 248, var(--tw-bg-opacity));
-}
-
-.post th, td {
-  border-bottom-width: 1px;
-  border-right-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgba(224, 224, 224, var(--tw-border-opacity));
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
-@media (min-width: 768px) {
-  .post th, td {
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-  }
-}
-
-.post th, td {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-@media (min-width: 768px) {
-  .post th, td {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-
-amp-img.contain img {
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 
 @media (min-width: 640px) {
