@@ -16,7 +16,13 @@
       <description>&lt;p&gt;Bitly API v3までは以下の通り、access_tokenと共に短縮したいURLをリクエストパラメタに乗せて、GETリクエストを行う方法でした。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;https://api-ssl.bitly.com/v3/shorten?access_token=$apiKey&amp;amp;longUrl=hogehoge&#39;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;v4からはheaderに&lt;code&gt;Authorization: Bearer {token}&lt;/code&gt;を入れてPOSTリクエストをする必要があります。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.memory-lovers.blog/entry/2019/07/14/123000&#34;&gt;bitly APIで短縮URL(TwitterのURLバン対策 パート2) - くらげになりたい。&lt;/a&gt;を参考にさせていただき、v3からv4へ移行しました。&lt;/p&gt;</description>
+&lt;p&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://www.memory-lovers.blog/entry/2019/07/14/123000&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  bitly APIで短縮URL(TwitterのURLバン対策 パート2) - くらげになりたい。
+&lt;/a&gt;を参考にさせていただき、v3からv4へ移行しました。&lt;/p&gt;</description>
     </item>
     
   </channel>

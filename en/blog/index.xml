@@ -26,7 +26,13 @@
       
       <guid>https://www.meganii.com/en/blog/2017/01/14/can-not-download-with-wget/</guid>
       <description>&lt;p&gt;I faced trouble that Circle CI had build error. I search solution and deal with it.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://taku910.github.io/mecab/&#34;&gt;MeCab: Yet Another Part-of-Speech and Morphological Analyzer&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;http://taku910.github.io/mecab/&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  MeCab: Yet Another Part-of-Speech and Morphological Analyzer
+&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

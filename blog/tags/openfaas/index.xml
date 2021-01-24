@@ -14,7 +14,13 @@
       
       <guid>https://www.meganii.com/blog/2018/05/02/basic-auth-with-openfaas/</guid>
       <description>&lt;p&gt;OpenFaaS環境を導入できたはよいものの、インターネット上に素の状態で晒されるのはちょっと怖いので、認証方法を確認する。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://blog.alexellis.io/lock-down-openfaas/&#34;&gt;Lock-down OpenFaaS for the public Internet&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://blog.alexellis.io/lock-down-openfaas/&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  Lock-down OpenFaaS for the public Internet
+&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

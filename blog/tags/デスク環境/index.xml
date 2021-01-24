@@ -13,28 +13,31 @@
       <pubDate>Sat, 08 Aug 2020 19:01:18 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/08/08/kaizen-in-working-from-home/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1596868680/sansyouo_c9st0c.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/sansyouo_c9st0c.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/sansyouo_c9st0c.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/sansyouo_c9st0c.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/sansyouo_c9st0c.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/sansyouo_c9st0c.jpg 320w&#34;
-      width=&#34;1024&#34;
-      height=&#34;683&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;IO-DATA エルゴトロン&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1596868680/sansyouo_c9st0c.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/sansyouo_c9st0c.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/sansyouo_c9st0c.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/sansyouo_c9st0c.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/sansyouo_c9st0c.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/sansyouo_c9st0c.jpg 320w&#34;
+        width=&#34;1024&#34;
+        height=&#34;683&#34;
+        heights=&#34;(min-width:600px) 400px, 80%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;IO-DATA エルゴトロン&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;「特別定額給付金」の10万円でデスク環境を整備しよう！&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;「特別定額給付金」でデスク環境を整備すれば実質無料だと考え、かねてから欲しいと思っていたものをポチポチと購入しました。
 購入した金額を合計すると、149,750円。実質無料にはならずに、完全に足が出てしまいました。&lt;/p&gt;
 &lt;p&gt;しかしながら、家のデスク環境を整備できたのでよしとします。&lt;/p&gt;
 &lt;p&gt;以下ではデスク環境を快適に整備するにあたり、参考にしたサイトおよび購入したものを紹介します。&lt;/p&gt;
 &lt;aside&gt;
-    &lt;div class=&#34;toc&#34;&gt;
-    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+  &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;
+      &lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;
+    &lt;/header&gt;
     &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#前提&#34;&gt;前提&lt;/a&gt;&lt;/li&gt;
@@ -51,7 +54,7 @@
     &lt;li&gt;&lt;a href=&#34;#終わりに&#34;&gt;終わりに&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
-    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/aside&gt;</description>
     </item>
     

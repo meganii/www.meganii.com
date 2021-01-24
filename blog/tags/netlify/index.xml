@@ -41,8 +41,10 @@
       <description>&lt;p&gt;現在(2017/3月)、Hugoで生成した静的サイトをホストするためにさくらVPSを利用しています。さくらVPSは２年近く使ってきましたが、そろそろ更新時期した(1年まとめて契約しているため)。自分が契約したタイプはデイスクがHDDのままSSDに変更できないタイプだったので、新規契約し直すか、Conoha VPSに切り替えるか、それともVPS自体を契約しないとするか迷っています。&lt;/p&gt;
 &lt;p&gt;良い機会であるため、静的サイトのホスティングをVPSではなくクラウドサービスを利用しようと検討しました。&lt;/p&gt;
 &lt;aside&gt;
-    &lt;div class=&#34;toc&#34;&gt;
-    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+  &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;
+      &lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;
+    &lt;/header&gt;
     &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#移行先検討&#34;&gt;移行先検討&lt;/a&gt;&lt;/li&gt;
@@ -60,7 +62,7 @@
     &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
-    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/aside&gt;
 &lt;h2 id=&#34;移行先検討&#34;&gt;移行先検討&lt;/h2&gt;
 &lt;ul&gt;

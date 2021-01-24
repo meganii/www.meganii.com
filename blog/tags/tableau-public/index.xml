@@ -18,8 +18,10 @@
 &lt;p&gt;しかし、Twitterで「&lt;code&gt;Tableau Public&lt;/code&gt;のVizを非表示にするというキーワード」が目に止まりました。
 気になって調べてみると&lt;strong&gt;実はデフォルト「非表示」で公開するオプション&lt;/strong&gt;があり、あまり知られていなさそうな設定だったので記事にまとめてみました。&lt;/p&gt;
 &lt;aside&gt;
-    &lt;div class=&#34;toc&#34;&gt;
-    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+  &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;
+      &lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;
+    &lt;/header&gt;
     &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#設定方法&#34;&gt;設定方法&lt;/a&gt;
@@ -46,7 +48,7 @@
     &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
-    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/aside&gt;</description>
     </item>
     

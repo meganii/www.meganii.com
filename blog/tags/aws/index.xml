@@ -33,8 +33,10 @@
 &lt;/ul&gt;
 &lt;p&gt;今回は、&lt;code&gt;chrome-aws-lambda&lt;/code&gt;を利用する手順を紹介します。&lt;/p&gt;
 &lt;aside&gt;
-    &lt;div class=&#34;toc&#34;&gt;
-    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+  &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;
+      &lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;
+    &lt;/header&gt;
     &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#1-aws-lambda-layerに登録するzipアーカイブchromium--puppeteerを作成&#34;&gt;1. AWS Lambda Layerに登録するZIPアーカイブ（chromium + puppeteer）を作成&lt;/a&gt;&lt;/li&gt;
@@ -45,7 +47,7 @@
     &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
-    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/aside&gt;</description>
     </item>
     

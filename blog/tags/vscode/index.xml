@@ -21,8 +21,10 @@
 &lt;p&gt;基本的には、上記記事の方法と同様です。しかし、少し異なるのは私の&lt;a href=&#34;https://www.meganii.com/blog/&#34;&gt;ブログ&lt;/a&gt;が&lt;code&gt;Hugo&lt;/code&gt;で構築している点です。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Hugo&lt;/code&gt;は、通常の&lt;code&gt;Markdown&lt;/code&gt;の文章の中に&lt;code&gt;Hugo&lt;/code&gt;独自の記法（&lt;code&gt;Shortcodes&lt;/code&gt;）を利用できます。&lt;code&gt;textlint&lt;/code&gt;とそのルールプリセットを導入すると、&lt;code&gt;Shortcodes&lt;/code&gt;の部分がエラーになってしまう（文字数制限）ため、その除外方法（フィルター方法）を付け加えています。&lt;/p&gt;
 &lt;aside&gt;
-    &lt;div class=&#34;toc&#34;&gt;
-    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+  &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;
+      &lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;
+    &lt;/header&gt;
     &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#textlintとは&#34;&gt;textlintとは&lt;/a&gt;&lt;/li&gt;
@@ -37,7 +39,7 @@
     &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
-    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/aside&gt;</description>
     </item>
     
@@ -49,8 +51,10 @@
       <guid>https://www.meganii.com/blog/2019/01/03/paste-from-clipboard/</guid>
       <description>&lt;p&gt;&lt;code&gt;Visual Studio Code Extension&lt;/code&gt;を作成するために、調べた結果をまとめます。&lt;/p&gt;
 &lt;aside&gt;
-    &lt;div class=&#34;toc&#34;&gt;
-    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+  &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;
+      &lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;
+    &lt;/header&gt;
     &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#macosでclipboard操作について分かったこと&#34;&gt;macOSでClipboard操作について分かったこと&lt;/a&gt;&lt;/li&gt;
@@ -59,7 +63,7 @@
     &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
-    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/aside&gt;</description>
     </item>
     

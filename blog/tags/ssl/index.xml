@@ -28,8 +28,20 @@
       <pubDate>Sun, 15 May 2016 21:02:12 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2016/05/15/lets-encrypt-certbot/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/&#34;&gt;Lets&amp;rsquo;s Encryptでブログの常時SSL化にチャレンジ - SIS Lab&lt;/a&gt;の方法で新しいドメインを認証しようとすると、モジュールが古いから新しいモジュールを利用してねと怒られました。&lt;/p&gt;
-&lt;p&gt;改めて、&lt;a href=&#34;https://letsencrypt.org/getting-started/&#34;&gt;Getting Started - Let&amp;rsquo;s Encrypt - Free SSL/TLS Certificates&lt;/a&gt;を見ながら、クライアントソフトを入れなおして、再度発行を行いました。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  Lets&amp;amp;rsquo;s Encryptでブログの常時SSL化にチャレンジ - SIS Lab
+&lt;/a&gt;の方法で新しいドメインを認証しようとすると、モジュールが古いから新しいモジュールを利用してねと怒られました。&lt;/p&gt;
+&lt;p&gt;改めて、&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://letsencrypt.org/getting-started/&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  Getting Started - Let&amp;amp;rsquo;s Encrypt - Free SSL/TLS Certificates
+&lt;/a&gt;を見ながら、クライアントソフトを入れなおして、再度発行を行いました。&lt;/p&gt;</description>
     </item>
     
     <item>

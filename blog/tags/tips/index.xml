@@ -17,8 +17,10 @@
 ようやく、ブログ記事一覧の機能を実装できました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.meganii.com/blog/archives/&#34;&gt;https://www.meganii.com/blog/archives/&lt;/a&gt;&lt;/p&gt;
 &lt;aside&gt;
-    &lt;div class=&#34;toc&#34;&gt;
-    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+  &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;
+      &lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;
+    &lt;/header&gt;
     &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#実装方法&#34;&gt;実装方法&lt;/a&gt;
@@ -30,7 +32,7 @@
     &lt;li&gt;&lt;a href=&#34;#参考ページ&#34;&gt;参考ページ&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
-    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/aside&gt;</description>
     </item>
     

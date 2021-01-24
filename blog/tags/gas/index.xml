@@ -17,15 +17,17 @@
 &lt;p&gt;「はてなブックマーク数」の推移を追っていく際に、全体としてどのぐらい増えたのかは分かるのですが、どのページで増えたのかが分かりません。
 そこで、ページ毎のはてなブックマーク数も合わせて取得するようにしました。&lt;/p&gt;
 &lt;aside&gt;
-    &lt;div class=&#34;toc&#34;&gt;
-    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+  &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;
+      &lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;
+    &lt;/header&gt;
     &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#ページ毎のはてなブックマーク数を取得する&#34;&gt;ページ毎のはてなブックマーク数を取得する&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#サイトマップからurlを抽出して逐次はてなブックマーク数を取得する&#34;&gt;サイトマップからURLを抽出して逐次はてなブックマーク数を取得する&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
-    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/aside&gt;</description>
     </item>
     

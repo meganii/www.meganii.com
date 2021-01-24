@@ -21,8 +21,10 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;code&gt;macOS Catalina&lt;/code&gt;にはまだバージョンを上げたくないですが、&lt;code&gt;Homebrew&lt;/code&gt;は引き続き使いたいので何か方法を探してみたところ、最終的には&lt;code&gt;Command Line　Tools&lt;/code&gt;を入れることで解決しました。&lt;/p&gt;
 &lt;aside&gt;
-    &lt;div class=&#34;toc&#34;&gt;
-    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+  &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;
+      &lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;
+    &lt;/header&gt;
     &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#前提&#34;&gt;前提&lt;/a&gt;&lt;/li&gt;
@@ -35,7 +37,7 @@
     &lt;li&gt;&lt;a href=&#34;#確認&#34;&gt;確認&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
-    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/aside&gt;</description>
     </item>
     
@@ -47,8 +49,10 @@
       <guid>https://www.meganii.com/blog/2019/01/03/paste-from-clipboard/</guid>
       <description>&lt;p&gt;&lt;code&gt;Visual Studio Code Extension&lt;/code&gt;を作成するために、調べた結果をまとめます。&lt;/p&gt;
 &lt;aside&gt;
-    &lt;div class=&#34;toc&#34;&gt;
-    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+  &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;
+      &lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;
+    &lt;/header&gt;
     &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#macosでclipboard操作について分かったこと&#34;&gt;macOSでClipboard操作について分かったこと&lt;/a&gt;&lt;/li&gt;
@@ -57,7 +61,7 @@
     &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
-    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/aside&gt;</description>
     </item>
     

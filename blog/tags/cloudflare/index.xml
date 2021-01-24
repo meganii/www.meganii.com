@@ -15,8 +15,10 @@
       <guid>https://www.meganii.com/blog/2020/05/11/how-to-configure-custom-domain-using-cloudflare-in-vercel/</guid>
       <description>&lt;p&gt;&lt;code&gt;Cloudflare&lt;/code&gt;のネームサーバを利用して&lt;code&gt;Vercel&lt;/code&gt;にカスタムドメインを設定する際、キャッシュがクリアされない、SSL接続が確立しないなど苦労した点がありましたので、備忘録として残しておきます。一言でいうと自分の設定漏れでした。&lt;/p&gt;
 &lt;aside&gt;
-    &lt;div class=&#34;toc&#34;&gt;
-    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+  &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;
+      &lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;
+    &lt;/header&gt;
     &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#前提&#34;&gt;前提&lt;/a&gt;&lt;/li&gt;
@@ -35,7 +37,7 @@
     &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
-    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/aside&gt;</description>
     </item>
     
@@ -45,20 +47,21 @@
       <pubDate>Sat, 16 Nov 2019 19:25:36 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2019/11/16/amp-real-url-with-cloudflare/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1574561130/AMP_%EF%B8%8F_Real_URL_a1iiwa.png&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 320w&#34;
-      width=&#34;560&#34;
-      height=&#34;315&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;Cloudflare AMP Real URLをブログに導入する&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1574561130/AMP_%EF%B8%8F_Real_URL_a1iiwa.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 320w&#34;
+        width=&#34;560&#34;
+        height=&#34;315&#34;
+        heights=&#34;(min-width:600px) 400px, 80%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;Cloudflare AMP Real URLをブログに導入する&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;AMPページをGoogleドメインではなく、自ドメインで表示できる「AMP Real URL」をこのブログにも導入しました。
 「AMP Real URL」に関する日本語のページがあまりなかったので、手順をまとめてみました。&lt;/p&gt;</description>
     </item>

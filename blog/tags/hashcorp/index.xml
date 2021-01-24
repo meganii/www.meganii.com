@@ -13,7 +13,13 @@
       <pubDate>Fri, 27 Jul 2018 12:11:42 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2018/07/27/developers-summit-2018-hashcorp-vault/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://event.shoeisha.jp/devsumi/20180727/session/1766/&#34;&gt;【C-3】 Hashicorp Vault on Google Cloud Platform&lt;/a&gt;のメモ。&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://event.shoeisha.jp/devsumi/20180727/session/1766/&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  【C-3】 Hashicorp Vault on Google Cloud Platform
+&lt;/a&gt;のメモ。&lt;/p&gt;
 &lt;h2 id=&#34;vaultの思想&#34;&gt;Vaultの思想&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Credential管理に開けるパラダイムシフト&lt;/li&gt;

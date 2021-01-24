@@ -13,24 +13,27 @@
       <pubDate>Thu, 21 Jan 2021 20:34:05 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2021/01/21/posting-attendance-to-a-microsoft-teams-thread-with-power-apps/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1611233437/powerapps_efydgm.png&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/powerapps_efydgm.png 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/powerapps_efydgm.png 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/powerapps_efydgm.png 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/powerapps_efydgm.png 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/powerapps_efydgm.png 320w&#34;
-      width=&#34;1024&#34;
-      height=&#34;512&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;Power AppsでMicrosoft Teamsのスレッドに出退勤をポストする&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1611233437/powerapps_efydgm.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/powerapps_efydgm.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/powerapps_efydgm.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/powerapps_efydgm.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/powerapps_efydgm.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/powerapps_efydgm.png 320w&#34;
+        width=&#34;1024&#34;
+        height=&#34;512&#34;
+        heights=&#34;(min-width:600px) 400px, 80%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;Power AppsでMicrosoft Teamsのスレッドに出退勤をポストする&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;Power Apps入門として、リモートワーク開始と終了時に、Microsoft Teamsのスレッドに出勤、退勤をポストするというユースケースをPower Appsで実装しました。&lt;/p&gt;
 &lt;aside&gt;
-    &lt;div class=&#34;toc&#34;&gt;
-    &lt;header&gt;&lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;&lt;/header&gt;
+  &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;
+      &lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;
+    &lt;/header&gt;
     &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#power-appsでmicrosoft-teamsにおける特定チーム--チャネル--スレッドに返信する&#34;&gt;Power AppsでMicrosoft Teamsにおける特定チーム &amp;gt; チャネル &amp;gt; スレッドに返信する&lt;/a&gt;
@@ -44,7 +47,7 @@
     &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
-    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/aside&gt;</description>
     </item>
     

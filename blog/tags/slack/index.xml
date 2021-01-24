@@ -24,8 +24,20 @@ To create a full-fidelity Slack message, set the Activity object&#39;s channelDa
 To support buttons in Slack messages, you must enable Interactive Messages when you connect your bot to the Slack channel.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://api.slack.com/docs/message-formatting&#34;&gt;Basic message formatting | Slack&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://api.slack.com/docs/message-buttons&#34;&gt;Attaching interactive message buttons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://api.slack.com/docs/message-formatting&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  Basic message formatting | Slack
+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://api.slack.com/docs/message-buttons&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  Attaching interactive message buttons
+&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     

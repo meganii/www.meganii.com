@@ -29,7 +29,13 @@
       <guid>https://www.meganii.com/blog/2017/11/20/cloudinary/</guid>
       <description>&lt;p&gt;画像ホスティング、画像変換サービスのCloudinaryを調べたときのメモ。&lt;/p&gt;
 &lt;h2 id=&#34;どのようにcloudinaryが容量をカウントしているのか&#34;&gt;どのようにCloudinaryが容量をカウントしているのか？&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://support.cloudinary.com/hc/en-us/articles/203125631-How-does-Cloudinary-count-my-plan-s-quotas-and-what-does-every-quota-mean-&#34;&gt;How does Cloudinary count my plan&amp;rsquo;s quotas and what does every quota mean? – Cloudinary Support&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://support.cloudinary.com/hc/en-us/articles/203125631-How-does-Cloudinary-count-my-plan-s-quotas-and-what-does-every-quota-mean-&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  How does Cloudinary count my plan&amp;amp;rsquo;s quotas and what does every quota mean? – Cloudinary Support
+&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

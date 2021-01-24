@@ -14,7 +14,13 @@
       
       <guid>https://www.meganii.com/blog/2016/02/06/d3js-tutorial/</guid>
       <description>&lt;p&gt;以前から着手してみたかったD3.jsによる可視化の方法を学ぶために、ドットインストールにちょうど良い教材があったためそれを見ながら、確認していく。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://dotinstall.com/lessons/basic_d3js&#34;&gt;D3.js入門 (全17回) - プログラミングならドットインストール&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;http://dotinstall.com/lessons/basic_d3js&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  D3.js入門 (全17回) - プログラミングならドットインストール
+&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
