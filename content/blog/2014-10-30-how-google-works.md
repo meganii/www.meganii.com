@@ -11,7 +11,7 @@ img: "https://m.media-amazon.com/images/I/51lusOSU33L.jpg"
 ---
 
 
-{{% amazon B00OJVMK5O %}}
+{{% amazon 4532319552 %}}
 
 
 > この3つを読んで何も感じることがないようなら、あなたにはエンジニアにとって良いなにがしを構築する素養はないと思うし、本なんて読んでられるかというのには、その程度のことにも時間を割けないならそもそも諦めろとしか言えない。
@@ -160,6 +160,7 @@ img: "https://m.media-amazon.com/images/I/51lusOSU33L.jpg"
 
 ## 参考
 
-{{% amazon B00OJVMK5O %}}
+{{% amazon 4532319552 %}}
+
 {{% amazon 415209267X %}}
 

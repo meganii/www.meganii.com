@@ -16,7 +16,7 @@ img: "https://images-fe.ssl-images-amazon.com/images/I/41AvcbzqzDL._SL160_.jpg"
 本書の扉にこのようなコトバが書いてあった。
 
 
-{{% amazon B009DFJE9Q %}}
+{{% amazon 4833420163 %}}
 
 
 {{% googleadsense %}}

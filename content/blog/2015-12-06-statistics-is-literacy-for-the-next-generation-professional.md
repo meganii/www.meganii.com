@@ -9,7 +9,7 @@ slug: statistics-is-literacy-for-the-next-generation-professional
 img: "https://images-na.ssl-images-amazon.com/images/I/51vZ69hPFHL._SL160_.jpg"
 ---
 
-{{% amazon B00OYMOEUC %}}
+{{% amazon 4478028230 %}}
 
 
 

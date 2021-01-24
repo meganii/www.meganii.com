@@ -9,13 +9,13 @@ slug: five-factor-work-shift
 img: "https://images-fe.ssl-images-amazon.com/images/I/41AvcbzqzDL._SL160_.jpg"
 ---
 
-{{% amazon B009DFJE9Q %}}
+{{% amazon 4833420163 %}}
 
 {{% googleadsense %}}
 
 
-## 未来を形づくる5ちの要因 32の要素
-### 要因1 テクノロジーの進化
+## 未来を形づくる5つの要因　32の要素
+### 要因1　テクノロジーの進化
 
 1. テクノロジーが飛躍的に発展する
 2. 世界の50億人がインターネットで結ばれる
@@ -60,7 +60,7 @@ img: "https://images-fe.ssl-images-amazon.com/images/I/41AvcbzqzDL._SL160_.jpg"
 6. 幸福感が弱まる
 7. 余暇時間が増える
 
-### 要因5 エネルギー・環境問題の深刻化
+### 要因5　エネルギー・環境問題の深刻化
 
 1. エネルギー価格が上昇する
 2. 環境上の惨事が原因で住居を追われる人が現れる
@@ -75,4 +75,4 @@ img: "https://images-fe.ssl-images-amazon.com/images/I/41AvcbzqzDL._SL160_.jpg"
 4. 集めた要素を分類し直す
 5. 1つの図柄を見出す
 
-{{% amazon B009DFJE9Q %}}
+{{% amazon 4833420163 %}}
