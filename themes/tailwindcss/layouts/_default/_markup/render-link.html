@@ -2,6 +2,6 @@
   class="text-blue-500 hover:underline"
   href="{{ .Destination | safeURL }}"
   {{ with .Title }} title="{{ . }}"{{ end }}
-  {{ if strings.HasPrefix .Destination "http" }}target="_blank" rel="noopener"{{ end }}>
-  {{ .Text }}
+  {{ if not (strings.HasPrefix .Destination "https://www.meganii.com") }}target="_blank" rel="noopener"{{ end }}>
+  {{ .Text | safeHTML }}
 </a>
