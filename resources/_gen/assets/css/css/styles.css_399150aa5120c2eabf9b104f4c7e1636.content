@@ -42,7 +42,8 @@
   --tw-border-opacity: 1;
   border-color: rgba(224, 224, 224, var(--tw-border-opacity));
   margin-top: 2rem;
-  padding-bottom: 0.25rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .post h3 {
@@ -52,6 +53,7 @@
   border-left-width: 4px;
   padding-left: 1rem;
   margin-top: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .post h4 {
@@ -59,6 +61,7 @@
   line-height: 1.75rem;
   font-weight: 600;
   margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .post pre {

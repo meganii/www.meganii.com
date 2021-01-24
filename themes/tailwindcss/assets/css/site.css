@@ -37,7 +37,8 @@
   @apply border-b-2;
   @apply border-gray-300;
   @apply mt-8;
-  @apply pb-1;
+  @apply mb-6;
+  @apply pb-2;
 }
 
 .post h3 {
@@ -46,12 +47,14 @@
   @apply border-l-4;
   @apply pl-4;
   @apply mt-8;
+  @apply mb-6;
 }
 
 .post h4 {
   @apply text-lg;
   @apply font-semibold;
   @apply mt-4;
+  @apply mb-2;
 }
 
 .post pre {
