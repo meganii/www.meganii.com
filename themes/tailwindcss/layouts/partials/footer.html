@@ -75,10 +75,9 @@
             </div>
             <div class="p-4 flex flex-col justify-between leading-normal">
               <div class="px-1">
-                <p class="uppercase text-sm text-grey-dark flex items-center">{{ range .Params.category }}{{.}}{{ end }}
-                </p>
+                <p class="uppercase text-sm text-grey-dark flex items-center">{{ range .Params.category }}{{.}}{{ end }}</p>
                 <p class="text-sm text-grey-dark">{{ .Date.Format "2006.01.02" }}</p>
-                <div class="text-black text-sm mb-2">{{ .Title }}</div>
+                <h4 class="font-semibold	text-base mb-2">{{ .Title }}</h4>
               </div>
             </div>
             <a href="{{ .Permalink }}" class="block absolute top-0 left-0 w-full h-full"></a>

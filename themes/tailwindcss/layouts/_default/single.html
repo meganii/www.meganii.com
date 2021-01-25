@@ -3,13 +3,13 @@
   <div class="text-sm">{{- partial "breadcrumb.html" . -}}</div>
   <section class="">
     <h1 class="text-4xl mt-4">{{ .Title }}</h1>
-    <div class="text-sm">
+    <div class="text-sm mt-2">
       <span class="mr-1">更新日:{{ .Lastmod.Format "2006.01.02" }}</span>
       <span class="">作成日:{{ .Date.Format "2006.01.02" }}</span>
     </div>
     <div class="text-sm mt-1">
       {{ range (.GetTerms "tags") }}
-      <a class="no-underline" href="{{ .Permalink }}"><span class="mr-1 mt-1 p-1 text-white bg-gray-700 rounded">#{{ .LinkTitle }}</span></a>
+      <a class="inline-block no-underline mt-1 p-1 text-sm text-white bg-gray-600 hover:bg-gray-500 rounded" href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
       {{ end }}
     </div>
     <div class="post leading-loose mt-2">
