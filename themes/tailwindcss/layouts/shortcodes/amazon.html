@@ -13,12 +13,18 @@
   <div class="p-4 relative flex flex-col justify-between leading-normal lg:w-3/5">
     <div class="mb-8 px-1">
       <a href="{{ $json.DetailPageURL }}" rel="noopener sponsored" class="text-blue-500 hover:underline">{{ $json.ItemInfo.Title.DisplayValue }}</a>
-      <div>出版社：{{ $json.ItemInfo.ByLineInfo.Manufacturer.DisplayValue }}</div>
-      {{- with $json.ItemInfo.ByLineInfo.Contributors -}}
-      <div>著者: {{- range . -}}<span class="ml-3">{{ .Name }}</span>{{- end -}}</div>
-      {{- end -}}
-      {{- with $json.ItemInfo.ContentInfo.PublicationDate.DisplayValue -}}
-      <div>発売日: {{ . }}</div>
+      {{- with $json.ItemInfo.Classifications.ProductGroup.DisplayValue -}}
+        {{- if or (eq $json.ItemInfo.Classifications.ProductGroup.DisplayValue "Book") ( eq $json.ItemInfo.Classifications.ProductGroup.DisplayValue "Digital Ebook Purchas") -}}
+          <div>出版社：{{ $json.ItemInfo.ByLineInfo.Manufacturer.DisplayValue }}</div>
+          {{- with $json.ItemInfo.ByLineInfo.Contributors -}}
+          <div>著者: {{- range . -}}<span class="ml-3">{{ .Name }}</span>{{- end -}}</div>
+          {{- end -}}
+          {{- with $json.ItemInfo.ContentInfo.PublicationDate.DisplayValue -}}
+          <div>発売日: {{ dateFormat "2006/01/02" . }}</div>
+          {{- end -}}
+        {{- else -}}
+          <div>{{ $json.ItemInfo.ByLineInfo.Manufacturer.DisplayValue }}</div>
+        {{- end -}}
       {{- end -}}
     </div>
     <div class="grid grid-cols-2 md:grid-cols-3 gap-1">
