@@ -12,7 +12,7 @@
   {{ if eq .p1 .p2 }}
     {{- .p1.Title -}}
   {{ else }}
-    <a class="underline" href="{{ .p1.Permalink }}">{{- .p1.Title -}}</a>
+    <a class="text-gray-800 hover:underline hover:text-gray-600 " href="{{ .p1.Permalink }}">{{- .p1.Title -}}</a>
   {{ end }}
 </li>
 {{ end }}
