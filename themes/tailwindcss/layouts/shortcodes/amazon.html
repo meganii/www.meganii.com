@@ -28,15 +28,15 @@
       {{- end -}}
     </div>
     <div class="grid grid-cols-2 md:grid-cols-3 gap-1">
-      <a href="{{ $json.DetailPageURL }}" target="_blank" rel="noopener sponsored" class="block py-2 text-white text-sm font-medium text-center w-full border-1 border-gray-600 bg-yellow-500 rounded hover:bg-yellow-400">Amazon</a>
+      <a href="{{ $json.DetailPageURL }}" target="_blank" rel="noopener sponsored" class="block leading-9	text-white text-sm font-medium text-center w-full border-1 border-gray-600 bg-yellow-500 rounded hover:bg-yellow-400">Amazon</a>
       {{- with $json.Kindle.productUrl -}}
-      <a href="{{ $json.Kindle.productUrl }}" target="_blank" rel="noopener sponsored" class="block py-2  text-white text-sm font-medium text-center w-full border-1 border-gray-600 bg-yellow-600 rounded  hover:bg-yellow-500">Kindle</a>
+      <a href="{{ $json.Kindle.productUrl }}" target="_blank" rel="noopener sponsored" class="block leading-9 text-white text-sm font-medium text-center w-full border-1 border-gray-600 bg-yellow-600 rounded  hover:bg-yellow-500">Kindle</a>
       {{- end -}}
       {{- with $json.Rakuten.productUrlPC -}}
-      <a href="{{ $json.Rakuten.productUrlPC }}" target="_blank" rel="noopener sponsored" class="block py-2 text-white text-sm text-center w-full border-1 border-gray-600 bg-red-600 rounded hover:bg-red-500">楽天市場</a>
+      <a href="{{ $json.Rakuten.productUrlPC }}" target="_blank" rel="noopener sponsored" class="block leading-9 text-white text-sm text-center w-full border-1 border-gray-600 bg-red-600 rounded hover:bg-red-500">楽天市場</a>
       {{- end -}}
       {{- with $json.Yahoo.productUrl -}}
-      <a href="{{ $json.Yahoo.productUrl }}" target="_blank" rel="noopener sponsored" class="block py-2 text-white text-sm text-center w-full border-1 border-gray-600 bg-purple-600 rounded hover:bg-purple-500">Yahoo!ショッピング</a>
+      <a href="{{ $json.Yahoo.productUrl }}" target="_blank" rel="noopener sponsored" class="block leading-9 text-white text-sm text-center w-full border-1 border-gray-600 bg-purple-600 rounded hover:bg-purple-500">Yahoo!ショッピング</a>
       {{- end -}}
     </div>
   </div>
