@@ -7,32 +7,32 @@ category: ['Tech']
 tags: ['meetup','scrapbox']
 published: true
 slug: scrapbox-drinkup-04-tokyo-edition
-img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1527252310/scrapbox_drinkup_04_fcn0xk.jpg
+img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1527252310/scrapbox_drinkup_04_fcn0xk.jpg
 ---
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1527252310/scrapbox_drinkup_04_fcn0xk.jpg" w="467" h="467" alt="Scrapbox Drinkup #04 TOKYO EDITION" %}}
 
 
-2018/05/23(水)に行われた「SCRAPBOX DRINKUP ＃04 TOKYO EDITION」に参加してきました。ブログ枠での参加でしたのでイベントレポートとしてまとめておきます。
+2018/05/23（水）に行われた「SCRAPBOX DRINKUP ＃04 TOKYO EDITION」に参加してきました。ブログ枠での参加でしたのでイベントレポートとしてまとめておきます。
 
 - 開催日
-    - 2018/05/23(水) 19:00 〜 21:30
+    - 2018/05/23（水）19:00 〜 21:30
 - イベントページ
     - [Scrapbox Drinkup \#4 Tokyo Edition \- connpass](https://nota.connpass.com/event/87600/)
 - 会場
     - 株式会社freee
-    - 〒141-0031 東京都品川区西五反田2-8-1 五反田ファーストビル 地下1階
+    - 〒141-0031　東京都品川区　西五反田　2-8-1　五反田ファーストビル　地下1階
 
 
 <!--more-->
 {{% googleadsense %}}
 
-# 概要
+## 概要
 
 - DRINK!!
 - Scrapboxの価格発表
 - 最新機能紹介
-- Scrapboxユーザの参考になりすぎる事例紹介(LT)
+- Scrapboxユーザの参考になりすぎる事例紹介（LT）
 
 
 ## 開始早々、ピザとビールで乾杯！
@@ -41,7 +41,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1527316843/DRINKUP_mgduji.jpg" w="2686" h="2014" alt="DRINKUP" %}}
 
-## 「Scrapboxからの重大発表」nota代表 洛西さん(@rakusai)
+## 「Scrapboxからの重大発表」nota代表 洛西さん（@rakusai)
 
 - [NOTA Inc\.](https://www.notainc.com/)
 - [Rakusai Public](https://scrapbox.io/rakusai)
@@ -89,7 +89,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/
     - sb get {some infomation} みたいな？
 
 
-## 「Scrapbox最新情報2018/5」橋本さん(@shokai)
+## 「Scrapbox最新情報2018/5」橋本さん（@shokai)
 
 - [橋本商会](https://scrapbox.io/shokai)
 - [@shokai](https://twitter.com/shokai)
@@ -104,7 +104,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/
     - これも便利！
 - などなど、様々な改良が日々入っている
 
-## 「HERPでのScrapbox活用について」 亀岡さん(@ryotakameoka)
+## 「HERPでのScrapbox活用について」 亀岡さん（@ryotakameoka)
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1527322776/herp_s46sok.png" w="1435" h="780" %}}
 
@@ -124,7 +124,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/
     - 議事録系
     - 問題提起系
     - 仕様記述系
-    - タスク管理系 (個人・チーム問わず)
+    - タスク管理系 (個人・チーム問わず）
     - フィードバック求む系
     - 知識系
     - 障害報告系
@@ -140,7 +140,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/
 Scrapboxを社内利用できるユーザさんはぜひお試しあれ！
 
 
-# Scrapboxユーザの参考になりすぎる事例紹介(LT)
+# Scrapboxユーザの参考になりすぎる事例紹介（LT)
 
 ## @niryuuさん
 
@@ -157,7 +157,7 @@ Scrapboxを社内利用できるユーザさんはぜひお試しあれ！
 
 [LTへのSuppliment \- niryuu](https://scrapbox.io/niryuu/LT%E3%81%B8%E3%81%AESuppliment)
 
-## 「「３つの情報」でスクボの良さを伝えてみる」 長沢さん(@tnagasawa)
+## 「「３つの情報」でスクボの良さを伝えてみる」 長沢さん（@tnagasawa)
 
 - [@tnagasawa](https://twitter.com/tnagasawa)
 
@@ -165,7 +165,7 @@ Scrapboxを社内利用できるユーザさんはぜひお試しあれ！
 
 <br />
 
-- 3つの情報 (既成, 養殖, 野生)。以下は自分の理解（もしかすると意図とは異なるかもしれません）
+- 3つの情報 (既成, 養殖, 野生）。以下は自分の理解（もしかすると意図とは異なるかもしれません）
     - 既成: 個人で分かっている情報
     - 養殖: 既成の情報をグループ、チームで生かしている情報
     - 野生: グループ、チームに共有されていない暗黙知
@@ -177,7 +177,7 @@ Scrapboxを社内利用できるユーザさんはぜひお試しあれ！
 
 「HERPでのScrapbox活用について」の発表にもあったように、Scrapboxであれば「まずは何かを書く場所」として恐ろしいほど書くことに対する障壁が低い。まずは書くことで、勢いのある生の情報が表に出やすくなるのも頷けます。
 
-## 「『書き心地』と『安心感』こそ「Scrapbox」の良さ」 大瀧さん(@masahiroootaki)
+## 「『書き心地』と『安心感』こそ「Scrapbox」の良さ」 大瀧さん（@masahiroootaki)
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1527322551/ootakiradio_nviari.png" w="1435" h="780" %}}
 
@@ -208,7 +208,7 @@ Scrapboxを社内利用できるユーザさんはぜひお試しあれ！
 インターネット黎明期からのパワーユーザーがScrapboxを嬉しそうに、楽しそうに語っている様子を見てこちらも楽しくなってきた。今までの歴史を含めて「基調講演」かと思うぐらい参考になりました。
 
 
-## 「Scrapboxでポートフォリオ作ると最高という話」 菅さん(@ssuge)
+## 「Scrapboxでポートフォリオ作ると最高という話」 菅さん（@ssuge)
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1527322552/syunichisuge_diouy0.png" w="1435" h="780" %}}
 
@@ -225,7 +225,7 @@ Scrapboxを社内利用できるユーザさんはぜひお試しあれ！
 - とにかく自分の全入出力を入れたい
 
 
-## yuisekiさん(@yuiseki)
+## yuisekiさん（@yuiseki)
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1527322846/vr_leiy3w.png"  w="1435" h="780" %}}
 
@@ -242,7 +242,7 @@ Scrapboxを社内利用できるユーザさんはぜひお試しあれ！
     - Scrapboxの情報を用いて、三次元空間へのマッピング
 
 
-## 「著作権法の論文に Scrapboxの解説を書きました」　塩澤さん(@shiology)
+## 「著作権法の論文に Scrapboxの解説を書きました」　塩澤さん（@shiology)
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1527322971/shio_wfn6rj.png"  w="1435" h="780" %}}
 
@@ -256,7 +256,7 @@ Scrapboxを社内利用できるユーザさんはぜひお試しあれ！
     - 後で読んでみたい
 
 
-## 「Scrapboxのソート順序を変える実験」 西尾さん(@nishio)
+## 「Scrapboxのソート順序を変える実験」 西尾さん（@nishio)
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1527323138/nishio_xdkkvc.png"  w="1435" h="780" %}}
 
@@ -270,7 +270,7 @@ Scrapboxを社内利用できるユーザさんはぜひお試しあれ！
  - 反復学習に使えるというのは面白い
 
 
-## Scrapboxを黒い画面から操作する niboshiさん(@mpppk)
+## Scrapboxを黒い画面から操作する niboshiさん（@mpppk)
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1527323268/sbox_qs5quv.png"  w="1435" h="780" %}}
 
@@ -291,7 +291,7 @@ sbox list pages  | fzf | xargs -0 sbox browse
 
 「`SIer`で四角いExcelを埋めたりしています」と仰っているのを聞いてニヤリとしてしまいました。
 
-## Scrapbox書籍 増井さん(@masui)
+## Scrapbox書籍 増井さん（@masui)
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1527323605/masui_zobqbn.png"  w="1435" h="780" %}}
 
@@ -315,7 +315,7 @@ Scrapboxで電子書籍は「ちょっとやってみたいな」と思いまし
 以降・・・時間がなかったので、残念ながら途中退席・・・
 
 
-## (個人的な)Scrapboxへの要望
+## (個人的な）Scrapboxへの要望
 
 - オフライン対応
     - オフラインだと何もできないのはつらい
