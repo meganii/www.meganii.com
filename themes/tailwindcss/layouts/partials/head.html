@@ -16,7 +16,6 @@
     <link rel="preconnect dns-prefetch" href="https://www.googletagmanager.com/" crossorigin>
     <link rel="preconnect dns-prefetch" href="https://www.google-analytics.com/" crossorigin>
     <link rel="preconnect dns-prefetch" href="https://adservice.google.com/" crossorigin>
-    <link rel="preconnect dns-prefetch" href="https://m.addthis.com/" crossorigin>
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
@@ -30,7 +29,7 @@
     <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
     {{ end }}
     {{ if eq .IsPage true }}
-    <script async custom-element="amp-addthis" src="https://cdn.ampproject.org/v0/amp-addthis-0.1.js"></script>
+    <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-1.0.js"></script>
     {{ end }}
     <link rel="manifest" href="{{ .Site.BaseURL }}manifest.json">
     <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
