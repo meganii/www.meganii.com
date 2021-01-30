@@ -88,3 +88,6 @@ pygmentsOptions = "noclasses=true"
 - [1BX](https://1bx.uk/)
 - [User\-First AMP Website Development \| UK \| Unumbox Ltd](https://unumbox.com/)
 - [Hugoのテーマを何個か作ったので知見をまとめてみる - blog.unresolved.xyz](https://blog.unresolved.xyz/how-to-make-of-hugo-theme/)
+
+
+{{% amazon 4844379208 %}}

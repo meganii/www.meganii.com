@@ -120,3 +120,5 @@ deployment:
    sudo cp hugo_${HUGO_VERSION}_linux_amd64/hugo_${HUGO_VERSION}_linux_amd64 $CIRCLE_BUILD_DIR/bin/hugo;
  fi
 ```
+
+{{% amazon 4844379208 %}}

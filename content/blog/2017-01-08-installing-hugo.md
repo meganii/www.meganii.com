@@ -28,7 +28,7 @@ img: /images/hugo_s.png
 $ brew install hugo
 ```
 
-念のため、`brew install hugo`の前に, `brew update`で更新しておくと良いです。
+念のため、`brew install hugo`の前に、 `brew update`で更新しておくと良いです。
 
 ## Windowsでのインストール方法
 
@@ -38,9 +38,9 @@ $ brew install hugo
 $ choco install hugo -confirm
 ```
 
-## バイナリ(実行ファイル)をダウンロードしてインストール
+## バイナリ（実行ファイル）をダウンロードしてインストール
 
-MacでHomebrewや、Windowsで[Chocolatey](https://chocolatey.org/)を利用していない場合でも、以下の通りバイナリファイル(実行ファイル)をダウンロードして、適切なパスを通すことで利用することができます。
+パッケージ管理マネージャー（HomebrewやChocolatey）を利用していない場合でも、以下の通りバイナリファイル（実行ファイル）をダウンロードして、適切なパスを通すことで利用できます。
 
 下記URLに従い、利用するWindows環境に合わせて32bit or 64bitをどちらをダウンロードします。(2018/01/27時点の最新バージョンは0.34)
 
@@ -120,3 +120,6 @@ hugo server --theme=hugo_theme_robust
 表示されました！！
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1517006572/hugo_psqrqq.png" w="589" h="514" %}}
+
+
+{{% amazon 4844379208 %}}

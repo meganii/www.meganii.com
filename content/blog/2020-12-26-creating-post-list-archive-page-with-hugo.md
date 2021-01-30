@@ -105,3 +105,5 @@ slug: archives
 - [Inconvenient Hugo Yearly/Monthly Archives - Melcher.dev](https://melcher.dev/2019/01/inconvenient-hugo-yearly/monthly-archives/)
     - Taxonomyでの実装例
 
+
+{{% amazon 4844379208 %}}

@@ -137,3 +137,6 @@ https://circleci.com/gh/bungoume/mecab-web-api/76#config
 - Circle CIの定期実行
 
 {{% amazon 4774174238 %}}
+
+
+{{% amazon 4844379208 %}}

@@ -121,3 +121,6 @@ Hugoの日本語情報を増やし、日本でのHugo利用拡大に貢献し
 
 - [技術書典9 オンラインマーケット](https://techbookfest.org/market)
 - [技術書典公式YouTubeチャンネル](https://www.youtube.com/channel/UCC0E4GrhFNgRCDt_aMXSmvQ/)
+
+
+{{% amazon 4844379208 %}}

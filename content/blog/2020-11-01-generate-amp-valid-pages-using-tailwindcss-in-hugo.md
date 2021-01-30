@@ -136,3 +136,6 @@ module.exports = {
 
 - Hugo Pipes「postCSS」を利用することで、Tailswind CSSでAMP Validなページを生成可能
 - Tailwind CSS ver1.4からフレームワーク自体にpurgeCSSの機能を含んだため、設定変更に注意
+
+
+{{% amazon 4844379208 %}}

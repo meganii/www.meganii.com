@@ -276,3 +276,6 @@ end
 - 移行してしばらく： 検索結果に`d.hatena.ne.jp/meganii`と`meganii.hatenablog.com`が表示される。
 - 2、3日後：　検索結果に`meganii.hatenablog.com`のみ表示される。
 - 1週間後：　検索結果に`www.meganii.com`が表示される。
+
+
+{{% amazon 4844379208 %}}

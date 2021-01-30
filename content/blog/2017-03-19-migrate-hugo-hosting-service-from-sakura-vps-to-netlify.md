@@ -10,7 +10,9 @@ slug: migrate-hugo-hosting-service-from-sakura-vps-to-netlify
 img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png"
 ---
 
-現在(2017/3月)、Hugoで生成した静的サイトをホストするためにさくらVPSを利用しています。さくらVPSは２年近く使ってきましたが、そろそろ更新時期した(1年まとめて契約しているため)。自分が契約したタイプはデイスクがHDDのままSSDに変更できないタイプだったので、新規契約し直すか、Conoha VPSに切り替えるか、それともVPS自体を契約しないとするか迷っています。
+現在（2017/3月）、Hugoで生成した静的サイトをホストするためにさくらVPSを利用しています。
+さくらVPSは2年近く使ってきましたが、そろそろ更新時期した（1年まとめて契約しているため）。
+自分が契約したタイプはデイスクがHDDのままSSDに変更できないタイプだったので、新規契約し直すか、Conoha VPSに切り替えるか、それともVPS自体を契約しないとするか迷っています。
 
 良い機会であるため、静的サイトのホスティングをVPSではなくクラウドサービスを利用しようと検討しました。
 
@@ -21,7 +23,10 @@ img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/
 - GitHub Pages
 - Netlify
 
-自分の中では`GitHub Pages`か`Netlify`の2択でした。静的サイトのコンテンツはGitHubにコミットしているため、最初は、`GitHub Pages`にしようとしていました。しかし、現状HTTP/2に対応していないことからあまり気乗りしませんでした。もともとVPSを利用していたときには、[Lets's Encryptでブログの常時SSL化にチャレンジ](https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/)のように、常時SSLに対応したり、h2oをインストールしてなんとかHTTP/2に対応した経緯もあり、せっかくなら対応できると嬉しいです。
+自分の中では`GitHub Pages`か`Netlify`の2択でした。
+静的サイトのコンテンツはGitHubにコミットしているため、最初は、`GitHub Pages`にしようとしていました。
+しかし、現状HTTP/2に対応していないことからあまり気乗りしませんでした。
+もともとVPSを利用していたときには、[Lets's Encryptでブログの常時SSL化にチャレンジ](https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/)のように、常時SSLに対応したり、h2oをインストールしてなんとかHTTP/2に対応した経緯もあり、せっかくなら対応できると嬉しいです。
 
 その点、`Netlify`を試してみたら「これで決まり！」と思うぐらい良かったのでまずはNetlifyで運用してみます。
 
@@ -34,14 +39,14 @@ img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/
 
 Netlifyを気に入ったポイントは以下の点です。
 
-- 簡単に、独自ドメイン(Custom Domain)が設定できる
+- 簡単に、独自ドメイン（Custom Domain）が設定できる
 - 簡単に、SSL対応できる
 - 簡単に、グローバルCDNを導入できる
 - HTTP/2サポート
 - Hugoビルドまで面倒みてくる
 - CIツールからの連携も可能
 
-## Netlifyとは？
+## Netlifyとは
 
 > Write frontend code. Push it. We handle the rest.
 
@@ -83,7 +88,7 @@ Custom domainを設定して、その後、HTTPSを有効にします。
 
 カスタムドメインを設定しても、元々の`*.netlify.com`にはアクセスできてしまうので、Google的には重複コンテンツと見なされるのではないか？とちょっと心配になったので、以下の通りリダイレクトを`_redirects`ファイルに設定しました。
 
-注意点は、`public`フォルダ直下に配置しないといけない点です。(最初、rootに置けばよいだけど思っていましたが、よくよく考えればその通りですね)
+注意点は、`public`フォルダ直下に配置しないといけない点です。(最初、rootに置けばよいだけど思っていましたが、よくよく考えればその通りですね）
 
 `_redirects`ファイルにRedirect処理を書くことができます。
 
@@ -118,7 +123,7 @@ http://meganii.netlify.com/* https://www.meganii.com/:splat 301!
 
 ~~`_headers`は、無料プランでは利用できないみたいです。~~
 
-2017/07/23 追記
+2017/07/23　追記
 
 [HTTP/2 Server Push on Netlify \| Netlify](https://www.netlify.com/blog/2017/07/18/http/2-server-push-on-netlify/)の提供によって、無料プランでもheadersが利用できるようになりました。
 
@@ -126,7 +131,7 @@ http://meganii.netlify.com/* https://www.meganii.com/:splat 301!
 
 ## ビルドにNetlify以外のCIツールを利用する場合
 
-NetlifyのAPIを利用することで、Manual Deployが可能なため、CIツールからデプロイすることが可能です。
+NetlifyのAPIを利用することで、Manual Deployが可能なため、CIツールからデプロイ可能です。
 CircleCIの場合は、以下の通り`circle.yml`に記載します。
 
 ```yaml
@@ -145,3 +150,6 @@ deployment:
 - [Netlifyは最強の静的ウェブサイトホスティングサービスかもしれない \- yoshidashingo](http://yoshidashingo.hatenablog.com/entry/2016/08/22/193821)
 - [Netlifyを使ってブログをHTTPS化する \| Aimless](http://aimless.jp/blog/archives/2016-11-18-enable-https-by-netlify/)
 - [Hugo on Netlify \- tips & tricks \- Hugo Discussion](https://discuss.gohugo.io/t/hugo-on-netlify/1505/13)
+
+
+{{% amazon 4844379208 %}}
