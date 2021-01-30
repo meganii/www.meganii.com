@@ -27,13 +27,7 @@
       
       <guid>https://www.meganii.com/blog/2016/09/08/circle-ci-nightly-build/</guid>
       <description>&lt;p&gt;前回、HugoのData-driven contenを試した。
-&lt;a
-  class=&#34;text-blue-500 hover:underline&#34;
-  href=&#34;https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/&#34;
-  
-  &gt;
-  Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた - SIS Lab
-&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/&#34;&gt;Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた - SIS Lab&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;これによって、毎回&lt;code&gt;hugo build&lt;/code&gt;することによって、人気記事を更新する仕組みができた。後は、Cicle CIを定期実行させる。これは、Circle CIのAPIを利用すれば実現できる。&lt;/p&gt;</description>
     </item>
     

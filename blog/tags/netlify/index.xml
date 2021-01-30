@@ -38,7 +38,9 @@
       <pubDate>Sun, 19 Mar 2017 19:46:06 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2017/03/19/migrate-hugo-hosting-service-from-sakura-vps-to-netlify/</guid>
-      <description>&lt;p&gt;現在(2017/3月)、Hugoで生成した静的サイトをホストするためにさくらVPSを利用しています。さくらVPSは２年近く使ってきましたが、そろそろ更新時期した(1年まとめて契約しているため)。自分が契約したタイプはデイスクがHDDのままSSDに変更できないタイプだったので、新規契約し直すか、Conoha VPSに切り替えるか、それともVPS自体を契約しないとするか迷っています。&lt;/p&gt;
+      <description>&lt;p&gt;現在（2017/3月）、Hugoで生成した静的サイトをホストするためにさくらVPSを利用しています。
+さくらVPSは2年近く使ってきましたが、そろそろ更新時期した（1年まとめて契約しているため）。
+自分が契約したタイプはデイスクがHDDのままSSDに変更できないタイプだったので、新規契約し直すか、Conoha VPSに切り替えるか、それともVPS自体を契約しないとするか迷っています。&lt;/p&gt;
 &lt;p&gt;良い機会であるため、静的サイトのホスティングをVPSではなくクラウドサービスを利用しようと検討しました。&lt;/p&gt;
 &lt;aside&gt;
   &lt;div class=&#34;toc&#34;&gt;
@@ -48,7 +50,7 @@
     &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#移行先検討&#34;&gt;移行先検討&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#netlifyとは&#34;&gt;Netlifyとは？&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#netlifyとは&#34;&gt;Netlifyとは&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#カスタムドメインの設定方法&#34;&gt;カスタムドメインの設定方法&lt;/a&gt;
       &lt;ul&gt;
         &lt;li&gt;&lt;a href=&#34;#お名前comでの設定&#34;&gt;お名前.comでの設定&lt;/a&gt;&lt;/li&gt;
@@ -69,7 +71,10 @@
 &lt;li&gt;GitHub Pages&lt;/li&gt;
 &lt;li&gt;Netlify&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;自分の中では&lt;code&gt;GitHub Pages&lt;/code&gt;か&lt;code&gt;Netlify&lt;/code&gt;の2択でした。静的サイトのコンテンツはGitHubにコミットしているため、最初は、&lt;code&gt;GitHub Pages&lt;/code&gt;にしようとしていました。しかし、現状HTTP/2に対応していないことからあまり気乗りしませんでした。もともとVPSを利用していたときには、&lt;a href=&#34;https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/&#34;&gt;Lets&amp;rsquo;s Encryptでブログの常時SSL化にチャレンジ&lt;/a&gt;のように、常時SSLに対応したり、h2oをインストールしてなんとかHTTP/2に対応した経緯もあり、せっかくなら対応できると嬉しいです。&lt;/p&gt;
+&lt;p&gt;自分の中では&lt;code&gt;GitHub Pages&lt;/code&gt;か&lt;code&gt;Netlify&lt;/code&gt;の2択でした。
+静的サイトのコンテンツはGitHubにコミットしているため、最初は、&lt;code&gt;GitHub Pages&lt;/code&gt;にしようとしていました。
+しかし、現状HTTP/2に対応していないことからあまり気乗りしませんでした。
+もともとVPSを利用していたときには、&lt;a href=&#34;https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/&#34;&gt;Lets&amp;rsquo;s Encryptでブログの常時SSL化にチャレンジ&lt;/a&gt;のように、常時SSLに対応したり、h2oをインストールしてなんとかHTTP/2に対応した経緯もあり、せっかくなら対応できると嬉しいです。&lt;/p&gt;
 &lt;p&gt;その点、&lt;code&gt;Netlify&lt;/code&gt;を試してみたら「これで決まり！」と思うぐらい良かったのでまずはNetlifyで運用してみます。&lt;/p&gt;
 &lt;figure&gt;
   &lt;amp-img src=&#34;

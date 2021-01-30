@@ -104,13 +104,7 @@
       
       <guid>https://www.meganii.com/blog/2020/03/13/running-api-server-and-hugo-server-with-npm-run-all/</guid>
       <description>&lt;p&gt;このブログではローカルでAPIサーバ（Express）を動かし、HugoのShortcodesから利用しています（2020/03/13現在）。
-&lt;a
-  class=&#34;text-blue-500 hover:underline&#34;
-  href=&#34;https://www.meganii.com/blog/2020/02/02/blogcard-in-hugo/&#34;
-  
-  &gt;
-  HugoでAMP対応のブログカードを作る - SIS Lab
-&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://www.meganii.com/blog/2020/02/02/blogcard-in-hugo/&#34;&gt;HugoでAMP対応のブログカードを作る - SIS Lab&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;そのため、記事を書いてHugoのプレビューを利用する場合は、2つのターミナルで以下のコマンドを実行していましたが、ちょっとだけ面倒です。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;API Server: npx ts-node src/app.ts&lt;/li&gt;
@@ -189,21 +183,20 @@
       <pubDate>Sun, 06 Oct 2019 12:28:21 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2019/10/06/1bx-minimal-css-framework-for-amp/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1570334428/1bx-screenshot_oqm0gr.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/1bx-screenshot_oqm0gr.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/1bx-screenshot_oqm0gr.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/1bx-screenshot_oqm0gr.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/1bx-screenshot_oqm0gr.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/1bx-screenshot_oqm0gr.png 320w&#34;
-        width=&#34;1440&#34;
-        height=&#34;766&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;ミニマルCSSフレームワーク「1BX」を試してみました&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1570334428/1bx-screenshot_oqm0gr.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/1bx-screenshot_oqm0gr.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/1bx-screenshot_oqm0gr.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/1bx-screenshot_oqm0gr.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/1bx-screenshot_oqm0gr.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/1bx-screenshot_oqm0gr.png 320w&#34;
+      width=&#34;1440&#34;
+      height=&#34;766&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;ミニマルCSSフレームワーク「1BX」を試してみました&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;ミニマルCSSフレームワーク「&lt;a href=&#34;https://1bx.uk/&#34;&gt;A Responsive CSS Grid for AMP | 1BX&lt;/a&gt;」を試してみました。&lt;/p&gt;
 &lt;aside&gt;
   &lt;div class=&#34;toc&#34;&gt;
@@ -248,21 +241,20 @@
       <pubDate>Fri, 22 Dec 2017 19:33:34 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2017/12/22/migration-hatena-diary-to-custom-domain-via-hatena-blog/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1514030618/hatenadiary_qoqemm.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/hatenadiary_qoqemm.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/hatenadiary_qoqemm.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/hatenadiary_qoqemm.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/hatenadiary_qoqemm.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/hatenadiary_qoqemm.png 320w&#34;
-        width=&#34;1024&#34;
-        height=&#34;512&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;はてなダイアリーからはてなブログ経由で独自ドメインのブログに記事を移行しました&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1514030618/hatenadiary_qoqemm.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/hatenadiary_qoqemm.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/hatenadiary_qoqemm.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/hatenadiary_qoqemm.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/hatenadiary_qoqemm.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/hatenadiary_qoqemm.png 320w&#34;
+      width=&#34;1024&#34;
+      height=&#34;512&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;はてなダイアリーからはてなブログ経由で独自ドメインのブログに記事を移行しました&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;今まで、はてなダイアリー(d.hatena.ne.jp/meganii)の記事は移行せずにそのまま残していました。
 しかし、Scrapboxのユーザー会に参加して過去コンテンツの重要性に気付き、今のブログに全て集約したいと考えました。&lt;/p&gt;
@@ -278,13 +270,7 @@
       
       <guid>https://www.meganii.com/blog/2017/10/14/hugo-syntax-highlighting/</guid>
       <description>&lt;p&gt;&lt;code&gt;Hugo 0.28&lt;/code&gt;から&lt;code&gt;Python Pygments&lt;/code&gt;に頼らず、Goの機能でシンタックスハイライトが可能になりました。これにより、シンタックスハイライトを行なっているコンテンツがあったとしても、キャッシュなしで高速なビルドができるようになっています。&lt;/p&gt;
-&lt;p&gt;&lt;a
-  class=&#34;text-blue-500 hover:underline&#34;
-  href=&#34;https://gohugo.io/news/0.28-relnotes/&#34;
-  
-  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-  Hugo | Hugo 0.28: High-speed Syntax Highlighting!
-&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/news/0.28-relnotes/&#34;&gt;Hugo | Hugo 0.28: High-speed Syntax Highlighting!&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -338,7 +324,9 @@
       <pubDate>Sun, 19 Mar 2017 19:46:06 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2017/03/19/migrate-hugo-hosting-service-from-sakura-vps-to-netlify/</guid>
-      <description>&lt;p&gt;現在(2017/3月)、Hugoで生成した静的サイトをホストするためにさくらVPSを利用しています。さくらVPSは２年近く使ってきましたが、そろそろ更新時期した(1年まとめて契約しているため)。自分が契約したタイプはデイスクがHDDのままSSDに変更できないタイプだったので、新規契約し直すか、Conoha VPSに切り替えるか、それともVPS自体を契約しないとするか迷っています。&lt;/p&gt;
+      <description>&lt;p&gt;現在（2017/3月）、Hugoで生成した静的サイトをホストするためにさくらVPSを利用しています。
+さくらVPSは2年近く使ってきましたが、そろそろ更新時期した（1年まとめて契約しているため）。
+自分が契約したタイプはデイスクがHDDのままSSDに変更できないタイプだったので、新規契約し直すか、Conoha VPSに切り替えるか、それともVPS自体を契約しないとするか迷っています。&lt;/p&gt;
 &lt;p&gt;良い機会であるため、静的サイトのホスティングをVPSではなくクラウドサービスを利用しようと検討しました。&lt;/p&gt;
 &lt;aside&gt;
   &lt;div class=&#34;toc&#34;&gt;
@@ -348,7 +336,7 @@
     &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#移行先検討&#34;&gt;移行先検討&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#netlifyとは&#34;&gt;Netlifyとは？&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#netlifyとは&#34;&gt;Netlifyとは&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#カスタムドメインの設定方法&#34;&gt;カスタムドメインの設定方法&lt;/a&gt;
       &lt;ul&gt;
         &lt;li&gt;&lt;a href=&#34;#お名前comでの設定&#34;&gt;お名前.comでの設定&lt;/a&gt;&lt;/li&gt;
@@ -369,7 +357,10 @@
 &lt;li&gt;GitHub Pages&lt;/li&gt;
 &lt;li&gt;Netlify&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;自分の中では&lt;code&gt;GitHub Pages&lt;/code&gt;か&lt;code&gt;Netlify&lt;/code&gt;の2択でした。静的サイトのコンテンツはGitHubにコミットしているため、最初は、&lt;code&gt;GitHub Pages&lt;/code&gt;にしようとしていました。しかし、現状HTTP/2に対応していないことからあまり気乗りしませんでした。もともとVPSを利用していたときには、&lt;a href=&#34;https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/&#34;&gt;Lets&amp;rsquo;s Encryptでブログの常時SSL化にチャレンジ&lt;/a&gt;のように、常時SSLに対応したり、h2oをインストールしてなんとかHTTP/2に対応した経緯もあり、せっかくなら対応できると嬉しいです。&lt;/p&gt;
+&lt;p&gt;自分の中では&lt;code&gt;GitHub Pages&lt;/code&gt;か&lt;code&gt;Netlify&lt;/code&gt;の2択でした。
+静的サイトのコンテンツはGitHubにコミットしているため、最初は、&lt;code&gt;GitHub Pages&lt;/code&gt;にしようとしていました。
+しかし、現状HTTP/2に対応していないことからあまり気乗りしませんでした。
+もともとVPSを利用していたときには、&lt;a href=&#34;https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/&#34;&gt;Lets&amp;rsquo;s Encryptでブログの常時SSL化にチャレンジ&lt;/a&gt;のように、常時SSLに対応したり、h2oをインストールしてなんとかHTTP/2に対応した経緯もあり、せっかくなら対応できると嬉しいです。&lt;/p&gt;
 &lt;p&gt;その点、&lt;code&gt;Netlify&lt;/code&gt;を試してみたら「これで決まり！」と思うぐらい良かったのでまずはNetlifyで運用してみます。&lt;/p&gt;
 &lt;figure&gt;
   &lt;amp-img src=&#34;
@@ -384,13 +375,7 @@
       <pubDate>Sat, 25 Feb 2017 23:21:20 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2017/02/25/hugo-markdown-href-target-blank/</guid>
-      <description>&lt;p&gt;HugoのMarkdownエンジンは、&lt;a
-  class=&#34;text-blue-500 hover:underline&#34;
-  href=&#34;https://github.com/russross/blackfriday&#34;
-  
-  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-  blackfriday
-&lt;/a&gt;を利用しているため、そのオプションに&lt;code&gt;hrefTargetBlank&lt;/code&gt;があります。この&lt;code&gt;hrefTargetBlank&lt;/code&gt;オプションを有効にすれば、外部リンクを別タブ、別ウィンドウで開く&lt;code&gt;&amp;lt;a href=&amp;quot;&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;&lt;/code&gt;をMarkdownで実現できる。&lt;/p&gt;
+      <description>&lt;p&gt;HugoのMarkdownエンジンは、&lt;a href=&#34;https://github.com/russross/blackfriday&#34;&gt;blackfriday&lt;/a&gt;を利用しているため、そのオプションに&lt;code&gt;hrefTargetBlank&lt;/code&gt;があります。この&lt;code&gt;hrefTargetBlank&lt;/code&gt;オプションを有効にすれば、外部リンクを別タブ、別ウィンドウで開く&lt;code&gt;&amp;lt;a href=&amp;quot;&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;&lt;/code&gt;をMarkdownで実現できる。&lt;/p&gt;
 &lt;p&gt;そもそも、Markdownに直接HTMLも記述できるので、&lt;code&gt;&amp;lt;a href=&amp;quot;&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;&lt;/code&gt;と直接書いてもよいが、せっかくMarkdownで書いているので、極力タグは使いたくありません。Markdown記法で書けるのであれば、すっきりと記載できるので嬉しいです。&lt;/p&gt;</description>
     </item>
     
@@ -455,8 +440,8 @@
       <pubDate>Wed, 11 Jan 2017 22:22:15 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2017/01/11/deploy-site-with-hugo/</guid>
-      <description>&lt;h2 id=&#34;公開-deploy&#34;&gt;公開 Deploy&lt;/h2&gt;
-&lt;p&gt;Hugoには、サイトを生成する仕組みはありますが公開する仕組みは持っていません。そのため、Hugoで生成した生成物(HTML+CSS)を何らかの方法で、Webサーバに持っていってあげなければいけません。&lt;/p&gt;
+      <description>&lt;h2 id=&#34;公開deploy&#34;&gt;公開　Deploy&lt;/h2&gt;
+&lt;p&gt;Hugoには、サイトを生成する仕組みはありますが公開する仕組みは持っていません。そのため、Hugoで生成した生成物（HTML+CSS）を何らかの方法で、Webサーバに持っていってあげなければいけません。&lt;/p&gt;
 &lt;p&gt;必要なのは、どこに公開するかと、どうやって公開するかです。&lt;/p&gt;</description>
     </item>
     
@@ -477,23 +462,23 @@
       <pubDate>Sun, 08 Jan 2017 15:58:45 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2017/01/08/static-site-generator-hugo/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511562368/yjhod8fty2uwipjwyiyt.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/yjhod8fty2uwipjwyiyt.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/yjhod8fty2uwipjwyiyt.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/yjhod8fty2uwipjwyiyt.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/yjhod8fty2uwipjwyiyt.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/yjhod8fty2uwipjwyiyt.png 320w&#34;
-        width=&#34;685&#34;
-        height=&#34;368&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
-&lt;p&gt;今、自分でブログ・サイトを構築するとしたら、どんな選択肢があるでしょうか？&lt;/p&gt;
-&lt;p&gt;さすがにHTMLを自分で手打ちするのは大変なので、なんらかのCMS(Content Management System コンテンツ管理システム)を利用することになりますが、そのCMSにもさまざまな種類があり、どれを選んだらよいのでしょうか？&lt;/p&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511562368/yjhod8fty2uwipjwyiyt.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/yjhod8fty2uwipjwyiyt.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/yjhod8fty2uwipjwyiyt.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/yjhod8fty2uwipjwyiyt.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/yjhod8fty2uwipjwyiyt.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/yjhod8fty2uwipjwyiyt.png 320w&#34;
+      width=&#34;685&#34;
+      height=&#34;368&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;p&gt;今、自分でブログ・サイトを構築するとしたら、どんな選択肢があるでしょうか。&lt;/p&gt;
+&lt;p&gt;さすがにHTMLを自分で手打ちするのは大変です。
+なんらかのCMS（Content Management System：コンテンツ管理システム）を利用することになりますが、そのCMSにもさまざまな種類があり、どれを選んだらよいのでしょうか。&lt;/p&gt;
 &lt;p&gt;私自身、CMSとしては&lt;a href=&#34;http://lokka.org/&#34;&gt;Lokka&lt;/a&gt;(Ruby), &lt;a href=&#34;https://ja.wordpress.org&#34;&gt;WordPress&lt;/a&gt;(PHP), &lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;(Ruby), &lt;a href=&#34;http://octopress.org/&#34;&gt;Octopress&lt;/a&gt;(Ruby)、&lt;a href=&#34;https://middlemanapp.com/jp/&#34;&gt;Middleman&lt;/a&gt;(Ruby)と利用してきました。&lt;/p&gt;
 &lt;p&gt;どのCMSも一長一短ですが、Ruby, PHPなどの動的スクリプトで構成されるCMSは共通してビルドの遅さを感じます。&lt;/p&gt;
 &lt;p&gt;そこで、ビルドが高速という噂の&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;(Golang)に移行したところ、快適でシンプルなブログサイトを構築できましたので、今回はその&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;の紹介をします。&lt;/p&gt;</description>
@@ -506,13 +491,7 @@
       
       <guid>https://www.meganii.com/blog/2016/09/08/circle-ci-nightly-build/</guid>
       <description>&lt;p&gt;前回、HugoのData-driven contenを試した。
-&lt;a
-  class=&#34;text-blue-500 hover:underline&#34;
-  href=&#34;https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/&#34;
-  
-  &gt;
-  Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた - SIS Lab
-&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/&#34;&gt;Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた - SIS Lab&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;これによって、毎回&lt;code&gt;hugo build&lt;/code&gt;することによって、人気記事を更新する仕組みができた。後は、Cicle CIを定期実行させる。これは、Circle CIのAPIを利用すれば実現できる。&lt;/p&gt;</description>
     </item>
     
@@ -545,7 +524,7 @@
       <pubDate>Thu, 11 Aug 2016 13:54:52 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2016/08/11/hugo-related-post/</guid>
-      <description>&lt;p&gt;静的サイトジェネレータを使っていて困るのは、関連記事の表示です。Jekyllのときもそうでしたが、Hugoにしてもこの悩みは同じでした。&lt;/p&gt;
+      <description>&lt;p&gt;静的サイトジェネレータを使っていて困るのは、関連記事の表示です。&lt;code&gt;Jekyll&lt;/code&gt;のときもそうでしたが、&lt;code&gt;Hugo&lt;/code&gt;にしてもこの悩みは同じでした。&lt;/p&gt;
 &lt;p&gt;Wordpressを利用していれば、関連記事プラグインで簡単に表示させることも可能ですが、静的サイトジェネレーターを利用した場合に「これがベスト」という方法がいまいちわかっていません。&lt;/p&gt;
 &lt;p&gt;私が考える方法には、以下の4つあります。&lt;/p&gt;
 &lt;ol&gt;
@@ -571,7 +550,7 @@
       <pubDate>Sun, 11 Oct 2015 22:03:56 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2015/10/11/hugo-taxonomy/</guid>
-      <description>目的 Hugoにおける、categoryとtagの生成箇所を特定して、テーマ作成に役立てる。 用語確認 Taxonomy 分類 Term &amp;lsquo;Taxonomy&amp;rsquo;に含まれるキー Value Termに割り当てられたコンテンツ</description>
+      <description>目的 Hugoにおける、categoryとtagの生成箇所を特定して、テーマ作成に役立てる。 用語確認 Taxonomy 分類 Term Taxonomyに含まれるキー Value Termに割り当てられたコンテンツの1つ Taxonomy Templated Taxonomy Templates | Hugo taxon</description>
     </item>
     
     <item>
@@ -580,7 +559,7 @@
       <pubDate>Sun, 30 Aug 2015 11:56:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/</guid>
-      <description>Hugoが爆速であること、HugoがGolangで作られていて読みながら勉強したいという理由からJekyllからHugoに移行することにした。 基本的には、_postディレクトリにあるものを、Hugoで</description>
+      <description>Hugoが爆速であること、HugoがGolangで作られていて読みながら勉強したいという理由で、JekyllからHugoに移行した。 基本的には、_postディレクトリにあるものを、Hugoでいうcon</description>
     </item>
     
   </channel>
