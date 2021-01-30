@@ -10,22 +10,25 @@ img: "/images/hugo_s.png"
 ---
 
 ## 目的
-Hugoにおける、categoryとtagの生成箇所を特定して、テーマ作成に役立てる。
+
+`Hugo`における、categoryとtagの生成箇所を特定して、テーマ作成に役立てる。
 
 
 ## 用語確認
-- Taxonomy 分類
-- Term 'Taxonomy'に含まれるキー
-- Value Termに割り当てられたコンテンツの一つ
+
+- `Taxonomy`　分類
+- `Term` `Taxonomy`に含まれるキー
+- `Value`　`Term`に割り当てられたコンテンツの1つ
 
 
 {{% googleadsense %}}
 
 
 ## Taxonomy Templated
-http://gohugo.io/taxonomies/templates/
 
-taxonomiesを利用する場合、2つ方法がある。
+[Taxonomy Templates \| Hugo](https://gohugo.io/templates/taxonomy-templates/)
+
+`taxonomies`を利用する場合、2つ方法がある。
 
 1. list template
 2. taxonomy terms template
@@ -50,14 +53,14 @@ Taxonomyは、map[string]WeightedPages
 
 
 
-### Channel とは
+### Channelとは
 
 >- Channel は goroutine 間でのメッセージパッシングをするためのもの
 - メッセージの型を指定できる
 - first class value であり、引数や戻り値にも使える
 - send/receive でブロックする
 - buffer で、一度に扱えるメッセージ量を指定できる
-http://jxck.hatenablog.com/entry/20130414/1365960707
+[Go の並行処理 \- Block Rockin’ Codes](http://jxck.hatenablog.com/entry/20130414/1365960707)
 
 
 >Channel の close()
@@ -65,8 +68,8 @@ close() は組み込みの関数で、用の済んだ channel を閉じること
 そもそも channel の呼び出しは 2 つの値が受け取れます。
 
 `message, ok := <-channel`
-この 2 つめの ok は、 channel が閉じられているかを表す bool。
-ok は、取っても取らなくても良い仕様になっている。
+この2つめのokは、channelが閉じられているかを表すbool。
+okは、取っても取らなくても良い仕様になっている。
 
 
 
@@ -80,7 +83,7 @@ layouts := s.appendThemeTemplates(
 ### 利用しているテンプレート
 
 - "taxonomy/" + t.singular + ".html"
-- "indexes/" + t.singular + ".html
+- "indexes/" + t.singular + ".html"
 - "_default/taxonomy.html"
 - "_default/list.html"
 
@@ -100,6 +103,7 @@ layouts := s.appendThemeTemplates(
 ```
 
 ### categoryの場合
+
 - key: categoryのkey
 - pages: どのページに含まれているか
 - singular: category
@@ -107,6 +111,7 @@ layouts := s.appendThemeTemplates(
 
 
 ### tagの場合
+
 - key: tagのkey
 - pages: そのtagのkeyが含まれているページの配列
 - singular: tag
@@ -163,10 +168,10 @@ func (s *Site) renderAndWritePage(name string, dest string, d interface{}, layou
 }
 ```
 
-### bpって？
-bp "github.com/spf13/hugo/bufferpool"
-おそらく出力する際に、バッファリングしているのでは？
+### bpとは何か
 
+bp "github.com/spf13/hugo/bufferpool"
+おそらく出力する際に、バッファリングしているのではないかと推測。
 
 
 ## site.go
@@ -207,3 +212,5 @@ func (s *Site) newTaxonomyNode(t taxRenderInfo) (*Node, string) {
 ## 参考
 - [Introduction to Hugo](http://gohugo.io/overview/introduction/)
 - [spf13/hugo](https://github.com/spf13/hugo)
+
+{{% amazon 4844379208 %}}

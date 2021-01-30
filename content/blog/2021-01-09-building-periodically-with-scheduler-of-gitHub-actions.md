@@ -87,3 +87,6 @@ jobs:
 
 - [Events that trigger workflows \- GitHub Docs](https://docs.github.com/en/free-pro-team@latest/actions/reference/events-that-trigger-workflows)
 - [Multiple event triggers with config \- Code to Cloud / GitHub Actions \- GitHub Support Community](https://github.community/t/multiple-event-triggers-with-config/16408)
+
+
+{{% amazon 4844379208 %}}

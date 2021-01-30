@@ -165,3 +165,5 @@ brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/1eb598bac6
 - [\[2018/10\]homebrewで過去バージョンのパッケージをインストールする \- Qiita](https://qiita.com/nghryuki/items/7d65d8f55ea65b95310d)
 - [Homebrewで旧バージョンのパッケージをインストールしたい \- Qiita](https://qiita.com/KyoheiG3/items/912bcc27462871487845)
 
+
+{{% amazon 4844379208 %}}

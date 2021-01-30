@@ -199,3 +199,7 @@ gulp.task('default', function(cb) {
 - [【追記あり】Gulpを利用して画像をロスレス圧縮する \- takedajs ログ](http://takedajs.hatenablog.jp/entry/2016/08/01/231609)
 - [srcset属性について \- Qiita](http://qiita.com/C058/items/643a9ff2d23dfe3a0b37)
 - [scalableminds/gulp\-image\-resize: Resizing images made easy \- thanks to imagemagick\.](https://github.com/scalableminds/gulp-image-resize)
+
+
+
+{{% amazon 4844379208 %}}

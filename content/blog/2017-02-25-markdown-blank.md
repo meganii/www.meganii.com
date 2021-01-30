@@ -32,3 +32,6 @@ blackfriday:
 
 - [Hugo \- Configuring Hugo](https://gohugo.io/overview/configuration/)
 - [How to target="\_blank" in \.md? \- support \- Hugo Discussion](https://discuss.gohugo.io/t/how-to-target--blank-in-md/524)
+
+
+{{% amazon 4844379208 %}}

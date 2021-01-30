@@ -75,3 +75,5 @@ hugo gen chromastyles --style=monokai > syntax.css
 
 それでは、よい`Hugo Life`を。
 
+
+{{% amazon 4844379208 %}}

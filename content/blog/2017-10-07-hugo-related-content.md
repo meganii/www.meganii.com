@@ -43,3 +43,6 @@ img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/
 
 
 関連記事をどのように抽出しているかは、おいおいドキュメントやソースを確認してみたいと思います。
+
+
+{{% amazon 4844379208 %}}

@@ -227,3 +227,7 @@ https://www.webpagetest.org/
 - [AMPを「高速化技術」「一瞬で表示する技術」というのはもうやめよう。｜榊原昌彦｜note](https://note.com/rdlabo/n/nd994c99b5c54)
 - [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
 - [WebPageTest \- Website Performance and Optimization Test](https://www.webpagetest.org/)
+
+
+
+{{% amazon 4844379208 %}}
