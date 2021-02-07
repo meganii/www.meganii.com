@@ -2,16 +2,17 @@ const {src, dest} = require('gulp');
 const through2 = require('through2');
 
 const AmpOptimizer = require('@ampproject/toolbox-optimizer');
-const ampOptimizer = AmpOptimizer.create();
+const ampOptimizer = AmpOptimizer.create({
+  verbose: true,
+  minify: false
+});
 
-function build(cb) {
+function optimizeAmp(cb) {
   return src('public/**/*.html')
     .pipe(
       through2.obj(async (file, _, cb) => {
         if (file.isBuffer()) {
-          const optimizedHtml = await ampOptimizer.transformHtml(
-            file.contents.toString()
-          );
+          const optimizedHtml = await ampOptimizer.transformHtml(file.contents.toString());
           file.contents = Buffer.from(optimizedHtml);
         }
         cb(null, file);
@@ -20,4 +21,4 @@ function build(cb) {
     .pipe(dest('public/'));
 }
 
-exports.default = build;
+exports.default = optimizeAmp;
