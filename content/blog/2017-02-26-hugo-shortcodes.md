@@ -1,7 +1,7 @@
 ---
 title: "hugo shortcodes"
 date: 2017-02-26T10:07:25+09:00
-lastmod: 2017-02-26T10:07:25+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['']
 tags: ['']

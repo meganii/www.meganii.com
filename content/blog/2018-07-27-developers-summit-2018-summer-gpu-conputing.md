@@ -1,7 +1,7 @@
 ---
 title: "[デブサミ2018夏]AIを支えるGPUコンピューティングの今"
 date: 2018-07-27T10:04:56+09:00
-lastmod: 2018-07-27T10:04:56+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['Developers Summit', 'デブサミ', 'GPU']

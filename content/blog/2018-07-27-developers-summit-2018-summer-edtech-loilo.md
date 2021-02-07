@@ -1,7 +1,7 @@
 ---
 title: "[デブサミ2018夏]EdTechトップランナーに学ぶ！幸せに生きるための学び方"
 date: 2018-07-27T16:24:39+09:00
-lastmod: 2018-07-27T16:24:39+09:00
+lastmod: 2019-08-12T10:02:40+09:00
 comments: true
 category: ['Tech']
 tags: ['デブサミ', '教育', '学習方法', 'Active Learning']

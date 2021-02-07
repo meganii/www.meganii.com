@@ -1,6 +1,7 @@
 ---
 title: "「新年会だよ！JUSO Jelly!+家族ラボ vol.6」に参加してきました！"
 date: 2012-01-28
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['meetup']
 published: true

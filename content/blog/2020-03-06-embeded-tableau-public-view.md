@@ -1,7 +1,7 @@
 ---
 title: "【Tableau】Tableau PublicのVizをiframeでブログに埋め込む方法"
 date: 2020-03-06T17:24:18+09:00
-lastmod: 2020-03-07T17:24:18+09:00
+lastmod: 2020-07-10T07:49:04+09:00
 comments: true
 category: ['Tech']
 tags: ['Tableau', 'Tableau Public']

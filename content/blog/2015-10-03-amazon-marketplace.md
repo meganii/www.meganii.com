@@ -1,7 +1,7 @@
 ---
 title: "Amazonマーケットプレイスで裁断本を含む不要な本を出品してみたら思いのほか簡単に売れた！"
 date: 2015-10-03T10:25:48+09:00
-lastmod: 2017-02-15T21:41:00+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Book']
 tags: ['Amazon','Book']

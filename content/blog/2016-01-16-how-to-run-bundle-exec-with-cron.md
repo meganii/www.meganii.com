@@ -1,6 +1,7 @@
 ---
 title: "Capyabara + PhantomJS(poltergeist)のRubyスクリプトをcronで流したい"
 date: 2016-01-16T22:34:08+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['cron']

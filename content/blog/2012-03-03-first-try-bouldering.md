@@ -1,6 +1,7 @@
 ---
 title: 初めてのボルダリングへ行って来ました!!
 date: 2012-03-03
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Activity']
 tags: ['ボルダリング']
 published: true

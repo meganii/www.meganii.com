@@ -1,7 +1,7 @@
 ---
 title: "CAREER SKILLSで紹介されていた「読んでおきたい良書」まとめ"
 date: 2018-08-04T09:00:30+09:00
-lastmod: 2018-08-04T09:00:30+09:00
+lastmod: 2021-01-25T22:55:50+09:00
 comments: true
 category: ['Tech']
 tags: ['Book', '技術書', 'キャリア']

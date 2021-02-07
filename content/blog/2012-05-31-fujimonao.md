@@ -1,6 +1,7 @@
 ---
 title: 「ふじもなおのアトリエ」で似顔絵描いてもらいました！
 date: 2012-05-31
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Life']
 tags: ['ふじもなお','icon']
 published: true

@@ -1,6 +1,7 @@
 ---
 title: ボルダリング 梅田BOLD
 date: 2013-06-29T23:46:00+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Activity']
 tags: ['ボルダリング']
 published: true

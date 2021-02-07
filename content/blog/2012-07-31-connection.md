@@ -1,7 +1,7 @@
 ---
 title: 「レバレッジ人脈術」人脈ってなんだろう
 date: 2012-07-31
-lastmod: 2018-01-27T07:05:29+09:00
+lastmod: 2020-07-05T07:51:24+09:00
 category: ['Book']
 tags: ['人脈','book', '読書']
 published: true

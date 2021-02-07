@@ -2,6 +2,7 @@
 
 title: carrierwave
 date: 2013-05-29T07:09:00+09:00
+lastmod: 2020-03-31T19:16:44+09:00
 category: ['Tech']
 tags: ['Ruby']
 published: false

@@ -1,7 +1,7 @@
 ---
 title: "Azure DevOps Tokyo, Japan 2nd impact"
 date: 2019-01-29T20:54:55+09:00
-lastmod: 2019-01-29T14:54:55+09:00
+lastmod: 2020-01-19T07:37:13+09:00
 comments: true
 category: ['Tech']
 tags: ['Azure DevOps', 'Azure']

@@ -1,7 +1,7 @@
 ---
 title: "Scrapboxで読書管理をするときのじぶんルール"
 date: 2019-11-11T22:05:58+09:00
-lastmod: 2019-11-11T22:05:58+09:00
+lastmod: 2020-04-01T20:54:38+09:00
 comments: true
 category: ['Tech']
 tags: ['Scrapbox', '読書', '読書メモ']

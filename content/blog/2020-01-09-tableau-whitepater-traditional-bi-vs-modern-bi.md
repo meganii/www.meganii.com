@@ -1,7 +1,7 @@
 ---
 title: "【Tableau】ホワイトペーパーから読み解く「トラディショナルBIとモダンBIの違い」"
 date: 2020-01-09T22:37:43+09:00
-lastmod: 2020-01-09T22:37:43+09:00
+lastmod: 2020-07-10T07:49:04+09:00
 comments: true
 category: ['Tech']
 tags: ['Tableau', 'BI', 'ホワイトペーパー']

@@ -1,7 +1,7 @@
 ---
 title: "静的サイトジェネレータ「Hugo」インストール"
 date: 2017-01-08T20:53:29+09:00
-lastmod: 2018-01-27T07:05:29+09:00
+lastmod: 2021-01-30T17:56:10+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo']

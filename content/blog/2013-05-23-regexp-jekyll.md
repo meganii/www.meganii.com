@@ -1,6 +1,7 @@
 ---
 title: Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-
 date: 2013-05-23T07:19:00+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['jekyll','正規表現']
 published: true

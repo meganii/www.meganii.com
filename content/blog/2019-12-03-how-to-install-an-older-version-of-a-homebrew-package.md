@@ -1,7 +1,7 @@
 ---
 title: "Homebrewで過去バージョンのパッケージをインストールする方法"
 date: 2019-12-03T21:27:01+09:00
-lastmod: 2019-12-03T21:27:01+09:00
+lastmod: 2021-01-30T17:56:10+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo']

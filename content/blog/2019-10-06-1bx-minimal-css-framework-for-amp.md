@@ -1,7 +1,7 @@
 ---
 title: "AMP向けのミニマルCSSフレームワーク「1BX」をHugoに導入した"
 date: 2019-10-06T12:28:21+09:00
-lastmod: 2019-10-06T12:28:21+09:00
+lastmod: 2021-01-30T17:56:10+09:00
 comments: true
 category: ['Tech']
 tags: ['Web Design', 'Blog', 'AMP', 'Hugo']

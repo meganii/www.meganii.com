@@ -1,7 +1,7 @@
 ---
 title: "minimo(ミニモ)で初めてのメンズカットモデル"
 date: 2016-10-16T21:45:48+09:00
-lastmod: 2017-07-28T21:45:48+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Life']
 tags: ['minimo','ミニモ']

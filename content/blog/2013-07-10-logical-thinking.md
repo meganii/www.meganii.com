@@ -1,6 +1,7 @@
 ---
 title: ビジュアル　ロジカル・シンキング
 date: 2013-07-10T00:11:00+09:00
+lastmod: 2020-07-05T16:30:52+09:00
 category: ['Art']
 tags: 'book'
 published: true

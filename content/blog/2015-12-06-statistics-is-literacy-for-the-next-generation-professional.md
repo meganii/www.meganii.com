@@ -1,6 +1,7 @@
 ---
 title: "統計学が最強の学問である[実践編]"
 date: 2015-12-06T16:48:49+09:00
+lastmod: 2021-01-24T20:34:36+09:00
 comments: true
 category: ['Book']
 tags: ['book','statistics','統計学']

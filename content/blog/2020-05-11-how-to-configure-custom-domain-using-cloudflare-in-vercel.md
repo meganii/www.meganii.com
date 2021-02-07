@@ -1,7 +1,7 @@
 ---
 title: "Vercelにカスタムドメインを設定する（Cloudflareネームサーバ利用）"
 date: 2020-05-11T07:00:00+09:00
-lastmod: 2020-05-11T07:00:00+09:00
+lastmod: 2020-07-16T21:38:27+09:00
 published: true
 category: ["Tech"]
 tags: ["Cloudflare", "Vercel", 'Gatsby.js']

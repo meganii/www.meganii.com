@@ -1,6 +1,7 @@
 ---
 title: "D3.jsチュートリアル"
 date: 2016-02-06T12:46:18+09:00
+lastmod: 2020-07-16T21:51:05+09:00
 comments: true
 category: ['Tech']
 tags: ['JavaScript','d3js','データ可視化']

@@ -1,7 +1,7 @@
 ---
 title: "Cloudflare AMP Real URLをブログに導入する"
 date: 2019-11-16T19:25:36+09:00
-lastmod: 2019-11-16T19:25:36+09:00
+lastmod: 2020-11-21T16:35:17+09:00
 comments: true
 category: ['Tech']
 tags: ['Cloudflare', 'Blog', 'Design']

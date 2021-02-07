@@ -1,7 +1,7 @@
 ---
 title: "ウォール街のランダム・ウォーカー"
 date: 2016-02-11T22:08:28+09:00
-lastmod: 2017-07-01T15:53:29+09:00
+lastmod: 2020-07-05T07:51:24+09:00
 comments: true
 category: ['Book']
 tags: ['Money','株式','投資']

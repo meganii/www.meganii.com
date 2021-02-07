@@ -1,7 +1,7 @@
 ---
 title: "ゼネラリストから「連続スペシャリスト」へ"
 date: 2014-11-03T15:25:00+09:00
-comments: true
+lastmod: 2021-01-24T20:34:36+09:00
 category: ['Life']
 tags: ['book','WorkShift']
 published: true

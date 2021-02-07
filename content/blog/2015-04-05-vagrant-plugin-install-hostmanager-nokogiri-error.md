@@ -2,7 +2,7 @@
 
 title: "vagrant plugin install hostmanager実行時のnokogiriインストールエラーの解決"
 date: 2015-04-05T19:23:00+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['vagrant']
 published: true

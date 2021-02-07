@@ -1,6 +1,7 @@
 ---
 title: 勉強用に簡単に作っては壊せる仮想環境をVagrantで構築する
 date: 2013-06-30T06:39:00+09:00
+lastmod: 2019-05-01T13:03:31+09:00
 category: ['Tech']
 tags: ['vagrant']
 published: true

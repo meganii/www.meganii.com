@@ -1,7 +1,7 @@
 ---
 title: "macOSでClipboardの画像を保存する"
 date: 2019-01-03T12:17:55+09:00
-lastmod: 2019-01-03T12:17:55+09:00
+lastmod: 2020-07-16T21:51:05+09:00
 comments: true
 category: ['Tech']
 tags: ['Visual Studio Code', 'macOS', 'VSCode']

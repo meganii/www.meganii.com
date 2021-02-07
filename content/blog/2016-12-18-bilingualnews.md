@@ -1,7 +1,7 @@
 ---
 title: "Rebuild.fmから入るバイリンガルニュース事始め"
 date: 2016-12-18T21:16:27+09:00
-lastmod: 2016-12-18T21:16:27+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Life']
 tags: ['English']

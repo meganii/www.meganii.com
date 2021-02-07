@@ -1,7 +1,7 @@
 ---
 title: "オープン・イノベーションとデザイン・シンキング"
 date: 2015-10-31T10:49:04+09:00
-lastmod: 2017-02-18T19:23:04+09:00
+lastmod: 2020-07-05T16:30:52+09:00
 comments: true
 category: ['Book']
 tags: ['Design','Inovation', '読書メモ']

@@ -1,6 +1,7 @@
 ---
 title: はてなダイアリーからJekyllへお引越し
 date: 2013-02-03T10:47:00+09:00
+lastmod: 2020-08-07T20:22:50+09:00
 category: ['Tech']
 tags: ['jekyll', 'Hatena']
 published: true

@@ -1,8 +1,7 @@
 ---
 title: "初めてのSWEET LOVE SHOWER 2014"
 date: 2014-09-02T00:44:00+09:00
-lastmod: 2017-09-08T21:44:00+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Travel','Music']
 tags: ["music", "夏フェス","SWEET LOVE SHOWER"]
 published: true

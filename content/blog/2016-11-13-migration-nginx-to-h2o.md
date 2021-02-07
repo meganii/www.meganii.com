@@ -1,6 +1,7 @@
 ---
 title: "nginxからh2oを"
 date: 2016-11-13T11:32:38+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['']
 tags: ['']

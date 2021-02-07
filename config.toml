@@ -8,7 +8,7 @@ hasCJKLanguage = true
 summaryLength = 100
 DefaultContentLanguage = "ja"
 
-enableGitInfo = true
+enableGitInfo = false
 Paginate = 12
 
 [permalinks]

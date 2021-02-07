@@ -1,7 +1,7 @@
 ---
 title: "SendGridのInbound Parseでメール受信をトリガーに処理を実行する"
 date: 2017-11-19T06:22:24+09:00
-lastmod: 2017-11-19T06:22:24+09:00
+lastmod: 2020-08-28T17:27:53+09:00
 comments: true
 category: ['Tech']
 tags: ['Sendgrid', 'Node.js', 'JavaScript']

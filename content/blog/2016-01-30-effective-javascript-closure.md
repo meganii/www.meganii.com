@@ -1,6 +1,7 @@
 ---
 title: "[Effective JavaScript]クロージャ"
 date: 2016-01-30T16:14:46+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['JavaScript', 'Effective Javascript']

@@ -1,8 +1,7 @@
 ---
 title: "結婚式余興ムービー、あなたは何で作る？Keynote, iMovie, Motion5, FinalCutProを結婚式余興のムービー作成に使ってみて"
 date: 2014-08-19T07:45:00+09:00
-lastmod: 2016-12-18T22:32:57+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Movie']
 tags: ["iMovie","Movie"]
 published: true

@@ -1,6 +1,7 @@
 ---
 title: 晴天のテニスブー春合宿2012！！
 date: 2012-05-18
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Activity']
 tags: ['テニスブー', 'テニス', 'スポーツ']
 published: true

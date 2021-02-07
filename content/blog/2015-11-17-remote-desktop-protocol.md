@@ -1,6 +1,7 @@
 ---
 title: "Azureのリモートデスクトップ周りの調査"
 date: 2015-11-17T08:04:04+09:00
+lastmod: 2020-01-19T07:37:13+09:00
 comments: true
 category: ['Tech']
 tags: ['RD','Azure']

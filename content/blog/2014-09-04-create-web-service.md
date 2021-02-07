@@ -1,8 +1,7 @@
 ---
 title: "ぐだぐだ言ってないでコードを書けよ、自分！ - 「Webサービスのつくり方」"
 date: 2014-09-04T22:43:00+09:00
-lastmod: 2017-09-04T22:43:00+09:00
-comments: true
+lastmod: 2020-07-16T17:34:31+09:00
 category: ['Tech']
 tags: ['book', 'WebService']
 published: true

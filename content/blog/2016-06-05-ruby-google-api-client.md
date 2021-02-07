@@ -1,7 +1,7 @@
 ---
 title: "google-api-ruby-clientからGoogle Adsense Management APIを操作する方法"
 date: 2016-06-05T09:58:34+09:00
-lastmod: 2017-09-08T21:58:34+09:00
+lastmod: 2019-09-01T20:40:02+09:00
 comments: true
 category: ['Tech']
 tags: ['Google','Ruby', 'api']

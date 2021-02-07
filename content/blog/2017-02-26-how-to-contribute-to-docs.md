@@ -1,7 +1,7 @@
 ---
 title: "how to contribute to docs"
 date: 2017-02-26T10:10:00+09:00
-lastmod: 2017-02-26T10:10:00+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['']
 tags: ['']

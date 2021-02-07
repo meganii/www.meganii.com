@@ -1,7 +1,7 @@
 ---
 title: "Blog KPI Collector（GAS）で各種KPIを自動取得する"
 date: 2020-04-10T18:28:55+09:00
-lastmod: 2020-04-10T18:28:55+09:00
+lastmod: 2020-07-16T21:38:27+09:00
 comments: true
 category: ['Tech']
 tags: ['Blog', 'Google Apps Script', 'ブログメンタリング']

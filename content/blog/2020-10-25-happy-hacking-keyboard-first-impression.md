@@ -1,7 +1,7 @@
 ---
 title: "【レビュー】HHKB（Happy Hacking Keyboard）ファーストインプレッション"
 date: 2020-10-25T16:24:22+09:00
-lastmod: 2020-10-25T16:24:22+09:00
+lastmod: 2020-12-29T20:42:37+09:00
 published: true
 category: ["Gadget"]
 tags: ["Keyboard","HHKB", "レビュー"]

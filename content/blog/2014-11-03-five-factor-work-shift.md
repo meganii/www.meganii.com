@@ -1,7 +1,7 @@
 ---
 title: "未来を形作る5つの要因と32の要素"
 date: 2014-11-03T20:15:00+09:00
-comments: true
+lastmod: 2021-01-24T20:34:36+09:00
 category: ['Life']
 tags: ['book','WorkShift']
 published: true

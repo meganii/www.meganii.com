@@ -1,7 +1,7 @@
 ---
 title: "Adsense広告をレスポンシブデザインでPCビュー2つ横並び、モバイル1つにする方法"
 date: 2016-04-11T23:28:02+09:00
-lastmod: 2017-09-08T23:28:02+09:00
+lastmod: 2020-04-05T08:51:42+09:00
 comments: true
 category: ['Tech']
 tags: ['Adsense','Web Design']

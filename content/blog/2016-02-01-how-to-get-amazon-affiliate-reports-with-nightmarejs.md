@@ -1,7 +1,7 @@
 ---
 title: "Nightmare.jsでAmazonアフィリエイトのレポートを取得する"
 date: 2016-02-01T22:52:47+09:00
-lastmod: 2016-02-01T22:52:47+09:00
+lastmod: 2020-02-01T22:54:05+09:00
 comments: true
 category: ['Tech']
 tags: ['Nightmare','JavaScript', 'スクレイピング']

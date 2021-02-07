@@ -1,7 +1,7 @@
 ---
 title: "普段テレビや映画を観ない人に贈るdTVおすすめ作品"
 date: 2017-01-18T21:28:38+09:00
-lastmod: 2017-01-18T21:28:38+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Life']
 tags: ['dTV','']

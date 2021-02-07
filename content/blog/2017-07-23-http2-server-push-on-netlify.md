@@ -1,7 +1,7 @@
 ---
 title: "NetlifyでServer Pushを利用する"
 date: 2017-07-23T08:19:02+09:00
-lastmod: 2017-07-23T08:19:02+09:00
+lastmod: 2020-07-12T18:23:13+09:00
 comments: true
 category: ['Tech']
 tags: ['Netlify','HTTP2']

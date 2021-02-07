@@ -1,7 +1,7 @@
 ---
 title: "画像ホスティング、画像変換サービスCloudinary"
 date: 2017-11-20T21:06:14+09:00
-lastmod: 2017-11-20T21:06:14+09:00
+lastmod: 2020-07-16T21:51:05+09:00
 comments: true
 category: ['Tech']
 tags: ['Cloudinary']

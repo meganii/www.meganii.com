@@ -1,8 +1,7 @@
 ---
 title: "[SQL実践入門]内部結合と外部結合のイメージ"
 date: 2015-06-10T07:58:00+09:00
-lastmod: 2017-10-10T20:58:00+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['DB']
 published: true

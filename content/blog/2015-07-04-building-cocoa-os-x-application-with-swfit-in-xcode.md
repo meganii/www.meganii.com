@@ -1,7 +1,7 @@
 ---
 title: "Swiftで初めてのMacOSXアプリケーション-FFViewer-"
 date: 2015-07-04T18:23:00+09:00
-comments: true
+lastmod: 2019-09-01T20:44:28+09:00
 category: ['Tech']
 tags: ['Swift','Cocoa','Xcode']
 published: true 

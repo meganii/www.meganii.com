@@ -1,7 +1,7 @@
 ---
 title: 週次レビューの流れ
 date: 2013-01-27
-lastmod: 2017-02-25T00:14:19+09:00
+lastmod: 2018-08-04T20:52:06+09:00
 category: ['Life']
 tags: ["週次レビュー", 'Lifehack']
 published: true

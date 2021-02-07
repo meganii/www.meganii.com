@@ -1,7 +1,7 @@
 ---
 title: "Puppeteerを使ってQrunchへクロス投稿する"
 date: 2020-04-20T19:45:50+09:00
-lastmod: 2020-04-20T19:45:50+09:00
+lastmod: 2020-07-16T21:38:27+09:00
 comments: true
 category: ['Tech']
 tags: ['Puppeteer']

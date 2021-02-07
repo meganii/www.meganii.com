@@ -1,7 +1,7 @@
 ---
 title: "HugoでのシンタックスハイライトにPython Pygmentsが不要となった"
 date: 2017-10-14T06:31:25+09:00
-lastmod: 2017-10-14T06:31:25+09:00
+lastmod: 2021-01-30T17:56:10+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo', 'Design']

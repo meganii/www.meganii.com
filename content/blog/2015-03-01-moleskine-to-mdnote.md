@@ -1,8 +1,7 @@
 ---
 title: モレスキンからミドリMDノートに乗り換え(万年筆の利用、価格の観点)
 date: 2015-02-28 23:22:00 +0000
-lastmod: 2018-07-03 00:00:00 +0900
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category:
 - Stationery
 tags:
@@ -14,8 +13,8 @@ tags:
 published: true
 img: https://images-na.ssl-images-amazon.com/images/I/31cYjEMPI1L._SL160_.jpg
 slug: moleskine-to-mdnote
-
 ---
+
 数年前までは、モレスキンユーザーでした。
 
 でも、万年筆も使うようになってから、モレスキンは裏写りが気になったり、値段が高かったりするのもあって徐々に使用頻度が落ちていきました。

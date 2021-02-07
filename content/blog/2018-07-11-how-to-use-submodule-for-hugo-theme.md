@@ -1,7 +1,7 @@
 ---
 title: "Hugoのテーマでsubmoduleを使う方法"
 date: 2018-07-11T21:25:48+09:00
-lastmod: 2018-07-11T21:25:48+09:00
+lastmod: 2021-01-30T17:56:10+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo','Design', 'git']

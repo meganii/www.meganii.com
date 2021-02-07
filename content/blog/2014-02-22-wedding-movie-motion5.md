@@ -1,7 +1,7 @@
 ---
 title: iMovieとMotion5で作る結婚式余興ムービー
 date: 2014-02-22T14:35:00+09:00
-lastmod: 2017-12-03T11:38:00+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Movie']
 tags: ["iMovie", "Motion5", "Movie"]
 published: true

@@ -2,7 +2,7 @@
 
 title: "JekyllでPygmentsを使ってのシンタックスハイライト"
 date: 2014-10-29T23:15:00+09:00
-comments: true
+lastmod: 2020-03-31T19:16:44+09:00
 category: ['Tech']
 tags: ['jekyll','Blog']
 published: true

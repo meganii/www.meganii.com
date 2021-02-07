@@ -1,7 +1,7 @@
 ---
 title: "[バイリンガルニュース特別編]高井研-生命の起源は深海の熱水の中にある?!-"
 date: 2017-03-02T21:40:21+09:00
-lastmod: 2017-03-02T21:40:21+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Science']
 tags: ['Evolution', 'BilingualNews']

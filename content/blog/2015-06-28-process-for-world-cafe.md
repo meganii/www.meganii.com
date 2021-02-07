@@ -1,8 +1,7 @@
 ---
-
 title: "ワールド・カフェのプロセス"
 date: 2015-06-28T12:06:00+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Life']
 tags: ['ファシリテーション','ワールド・カフェ']
 published: true

@@ -1,8 +1,7 @@
 ---
 title: "ワールドカフェの問いを作るには？"
 date: 2015-06-28T11:27:00+09:00
-lastmod: 2018-03-02T13:08:09+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Life']
 tags: ['ワールド・カフェ','ファシリテーション']
 published: true

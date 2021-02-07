@@ -1,7 +1,7 @@
 ---
 title: "ちょっとしたアイコンに使えるアイコン集"
 date: 2018-04-22T17:32:37+09:00
-lastmod: 2018-04-22T17:32:37+09:00
+lastmod: 2020-04-04T15:56:47+09:00
 comments: true
 category: ['Design']
 tags: ['icon','Design']

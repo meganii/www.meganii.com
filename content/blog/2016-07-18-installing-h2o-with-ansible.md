@@ -1,6 +1,7 @@
 ---
 title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
 date: 2016-07-18T21:44:52+09:00
+lastmod: 2020-07-12T18:23:13+09:00
 comments: true
 category: ['Tech']
 tags: ['h2o','http2']

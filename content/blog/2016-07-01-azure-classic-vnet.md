@@ -1,6 +1,7 @@
 ---
 title: "azure classic vnet"
 date: 2016-07-01T21:57:59+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['']
 tags: ['']

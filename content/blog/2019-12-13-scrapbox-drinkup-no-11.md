@@ -1,7 +1,7 @@
 ---
 title: "Scrapbox Drinkup #11「2019年のScrapbox」をテーマにしたLT大会 / 最新情報"
 date: 2019-12-13T06:16:04+09:00
-lastmod: 2019-12-13T06:16:04+09:00
+lastmod: 2020-04-01T20:50:28+09:00
 comments: true
 category: ['Tech']
 tags: ['Meetup', 'Scrapbox', 'LT']

@@ -1,8 +1,7 @@
 ---
 title: "「システムインテグレーション崩壊」を読んで生存戦略を考える"
 date: "2015-08-31T23:53:00+09:00"
-lastmod: "2018-11-17T19:03:00+09:00"
-comments: true
+lastmod: 2021-01-24T23:59:48+09:00
 category: ['Book']
 tags: ['SIer','システム', '生存戦略', 'キャリア']
 slug: system-integrators-collapse

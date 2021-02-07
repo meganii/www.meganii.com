@@ -2,6 +2,7 @@
 
 title: Immutable Infrastructure - JAWS DAYS 2014
 date: 2014-03-15T12:44:00+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['aws']
 published: true

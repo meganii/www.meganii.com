@@ -1,7 +1,7 @@
 ---
 title: "サグラダ・ファミリア建設とシステム開発"
 date: 2016-04-21T23:03:37+09:00
-lastmod: 2017-09-14T23:03:37+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['book']

@@ -1,7 +1,7 @@
 ---
 title: 晴れの屋久島。雨の屋久島。屋久島旅行記
 date: 2013-05-07T07:13:00+09:00
-lastmod: 2017-08-30T21:13:00+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Travel']
 tags: ['屋久島','travel', '旅行記']
 published: true

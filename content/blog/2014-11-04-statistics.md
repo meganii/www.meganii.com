@@ -1,7 +1,7 @@
 ---
 title: "[こつこつ勉強]統計学入門#1" 
 date: 2014-11-04T23:02:00+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Study']
 tags: ['統計学']
 published: true

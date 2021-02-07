@@ -1,7 +1,7 @@
 ---
 title: "【Tableau】カテゴリ別の上位と下位Nを表示する"
 date: 2020-02-27T07:31:54+09:00
-lastmod: 2020-02-27T07:31:54+09:00
+lastmod: 2020-03-31T20:42:49+09:00
 comments: true
 category: ['Tech']
 tags: ['Tableau']

@@ -1,7 +1,7 @@
 ---
 title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
 date: 2016-02-20T17:51:18+09:00
-lastmod: 2017-09-20T17:51:18+09:00
+lastmod: 2020-08-28T16:32:13+09:00
 comments: true
 category: ['Tech']
 tags: ['Electron', 'JavaScript']

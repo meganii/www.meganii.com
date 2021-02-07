@@ -1,7 +1,7 @@
 ---
 title: "AMPページがモバイル表示で引っ掛かる件"
 date: 2018-12-02T12:28:58+09:00
-lastmod: 2018-12-02T12:28:58+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['AMP','Mobile']

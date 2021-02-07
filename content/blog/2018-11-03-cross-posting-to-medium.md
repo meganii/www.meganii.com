@@ -1,7 +1,7 @@
 ---
 title: "QrunchとMediumに技術メモをクロス投稿する"
 date: 2018-11-03T14:10:16+09:00
-lastmod: 2018-11-03T14:10:16+09:00
+lastmod: 2020-07-16T21:51:05+09:00
 comments: true
 category: ['Tech']
 tags: ['Blog', 'Medium', 'Qrunch']

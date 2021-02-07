@@ -1,7 +1,7 @@
 ---
 title: "How to install Virtualbox and Vagrant by installing by cli with Mac El Capitan"
 date: 2016-05-16T20:50:35+09:00
-lastmod: 2017-01-01T21:50:35+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['El Capitan','Mac']

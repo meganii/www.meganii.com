@@ -1,7 +1,7 @@
 ---
 title: "Scrapboxで読書管理をするために「ScrapMedia」というFlutterアプリを作った"
 date: 2019-11-10T15:13:30+09:00
-lastmod: 2019-11-10T15:13:30+09:00
+lastmod: 2020-03-30T19:52:08+09:00
 comments: true
 category: ['Tech']
 tags: ['Android', 'Flutter']

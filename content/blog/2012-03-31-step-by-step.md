@@ -1,6 +1,7 @@
 ---
 title: 小さい成長。
 date: 2012-03-31
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Life']
 tags: ['成長']
 published: true

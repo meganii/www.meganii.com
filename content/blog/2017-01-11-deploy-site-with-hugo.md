@@ -1,7 +1,7 @@
 ---
 title: "静的サイトジェネレータ「Hugo」〜公開方法〜"
 date: 2017-01-11T22:22:15+09:00
-lastmod: 2017-01-11T22:22:15+09:00
+lastmod: 2021-01-30T17:56:10+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo','deploy']

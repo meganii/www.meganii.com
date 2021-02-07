@@ -1,7 +1,7 @@
 ---
 title: "さくらVPSからConoha VPSへのお引越し"
 date: 2017-06-11T14:01:22+09:00
-lastmod: 2017-06-11T14:01:22+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['VPS','Conoha']

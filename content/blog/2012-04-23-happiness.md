@@ -1,7 +1,7 @@
 ---
 title: "Happiness 私たちが幸せを感じる理由"
 date: 2012-04-23
-lastmod: 2016-03-05T08:51:43+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['ted'] 
 published: true

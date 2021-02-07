@@ -1,6 +1,7 @@
 ---
 title: "文書推薦"
 date: 2016-08-12T18:35:30+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['機械学習','Python']

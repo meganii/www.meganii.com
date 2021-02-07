@@ -1,7 +1,7 @@
 ---
 title: Try something new for 30 days
 date: 2012-02-03 00:29:26 +0900
-lastmod: 2018-03-17 21:29:26 +0900
+lastmod: 2018-03-17T21:28:54+09:00
 slug: ted-try-somethin-new-for-30-days
 category: ['English']
 tags: ['TED']

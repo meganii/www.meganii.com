@@ -1,7 +1,7 @@
 ---
 title: "日本がヤバイではなく、世界がオモシロイから僕らは動く。"
 date: 2018-05-08T21:32:08+09:00
-lastmod: 2018-05-08T21:32:08+09:00
+lastmod: 2020-07-05T07:51:24+09:00
 comments: true
 category: ['Book']
 tags: ['book','global']

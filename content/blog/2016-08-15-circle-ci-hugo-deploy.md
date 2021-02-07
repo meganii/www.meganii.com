@@ -1,6 +1,7 @@
 ---
 title: "Circle CIでHugoのビルド・デプロイを実行する"
 date: 2016-08-15T15:53:59+09:00
+lastmod: 2021-01-30T17:56:10+09:00
 comments: true
 category: ['Tech']
 tags: ['CircleCI','CI','Hugo']

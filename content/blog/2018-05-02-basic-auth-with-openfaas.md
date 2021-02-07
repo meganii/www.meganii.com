@@ -1,7 +1,7 @@
 ---
 title: "Basic Auth with OpenFaaS"
 date: 2018-05-02T10:02:29+09:00
-lastmod: 2018-05-02T10:02:29+09:00
+lastmod: 2020-07-16T21:51:05+09:00
 comments: true
 category: ['Tech']
 tags: ['OpenFaaS']

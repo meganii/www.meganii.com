@@ -1,7 +1,7 @@
 ---
 title: "Amazon Product Advertising APIを利用するためのIAMユーザ登録とアクセスキーの発行"
 date: 2017-02-19T11:06:41+09:00
-lastmod: 2017-08-30T21:06:41+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['API','Amazon']

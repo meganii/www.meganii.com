@@ -1,7 +1,7 @@
 ---
 title: "macOS Sierraクリーンインストール時に行ったこと"
 date: 2017-04-30T18:10:38+09:00
-lastmod: 2017-04-30T18:10:38+09:00
+lastmod: 2020-10-25T13:36:44+09:00
 comments: true
 category: ['Tech']
 tags: ['Mac','macOS']

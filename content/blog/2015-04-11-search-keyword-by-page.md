@@ -1,7 +1,7 @@
 ---
 title: "ページ毎の検索キーワードを知る"
 date: 2015-04-11T19:27:00+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['GoogleAnalytics','web', 'アクセス解析']
 published: true

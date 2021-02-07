@@ -1,6 +1,7 @@
 ---
 title: "Circle CIでテストを定期実行する"
 date: 2016-09-08T22:33:29+09:00
+lastmod: 2021-01-30T17:56:10+09:00
 comments: true
 category: ['Tech']
 tags: ['CircleCI','Blog', 'Hugo']

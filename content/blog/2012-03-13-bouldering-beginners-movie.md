@@ -1,7 +1,7 @@
 ---
 title: ボルダリング初心者向け動画まとめ
 date: 2012-03-13T00:08:28+09:00
-lastmod: 2017-03-05T00:08:28+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Activity']
 tags: ['ボルダリング']
 published: true

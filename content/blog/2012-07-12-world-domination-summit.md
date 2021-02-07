@@ -1,7 +1,7 @@
 ---
 title: 勢いで飛び込んだ World Domination Summit2012
 date: 2012-07-12
-lastmod: 2017-10-26T17:30:50+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Travel']
 tags: ['travel','生き方', '旅行記']
 published: true

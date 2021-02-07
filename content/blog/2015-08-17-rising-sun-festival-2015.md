@@ -1,8 +1,7 @@
 ---
 title: "初めてのテント泊ライブ。初めてのRISING SUN ROCK FESTIVAL 2015(ライジングサン)"
 date: "2015-08-17T08:12:12+09:00"
-lastmod: "2017-02-12T12:12:12+09:00"
-comments: true
+lastmod: 2020-05-02T11:26:35+09:00
 category: ['Music']
 tags: ['RSR','夏フェス']
 published: true

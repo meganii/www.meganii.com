@@ -1,6 +1,7 @@
 ---
 title: DevLOVE関西「勉強会勉強会」
 date: 2013-02-09T20:58:00+09:00
+lastmod: 2020-07-16T21:51:05+09:00
 category: ['Tech']
 tags: ['DevLOVE','勉強会', 'event', 'イベントレポート']
 published: true

@@ -1,7 +1,7 @@
 ---
 title: "Electronがv1.0.0になったのでMithril.jsと合わせてAmazonアフィリエイトリンクビルダーを作った"
 date: 2016-05-11T22:05:30+09:00
-lastmod: 2017-08-30T22:05:30+09:00
+lastmod: 2020-03-31T19:16:44+09:00
 comments: true
 category: ['Tech']
 tags: ['Electron', 'mithril.js', 'JavaScript']

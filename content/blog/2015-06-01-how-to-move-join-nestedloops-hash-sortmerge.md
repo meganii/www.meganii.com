@@ -1,8 +1,7 @@
 ---
 title: "[SQL実践入門]結合のアルゴリズム Nested Loops, Hash, Sort Merge"
 date: 2015-06-01T00:48:00+09:00
-lastmod: 2018-02-14T22:48:00+09:00
-comments: true
+lastmod: 2020-11-21T16:34:13+09:00
 category: ['Tech']
 tags: ['DB','SQL']
 published: true
