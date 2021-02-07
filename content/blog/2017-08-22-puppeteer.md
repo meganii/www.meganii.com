@@ -1,7 +1,7 @@
 ---
 title: "PuppeteerでAmazonアフィリエイトのレポートを取得する"
 date: 2017-08-22T21:43:50+09:00
-lastmod: 2017-09-10T21:43:50+09:00
+lastmod: 2020-07-16T21:51:05+09:00
 comments: true
 category: ['Tech']
 tags: ['headless', 'Puppeteer']

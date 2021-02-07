@@ -1,7 +1,7 @@
 ---
 title: "PuppeteerのwaitForNavigationで正しくページ遷移を待つ"
 date: 2020-01-30T07:11:59+09:00
-lastmod: 2020-01-30T07:11:59+09:00
+lastmod: 2020-07-16T21:38:27+09:00
 comments: true
 category: ['Tech']
 tags: ['Puppeteer', 'スクレイピング']

@@ -1,6 +1,7 @@
 ---
 title: "CIOとは何者？"
 date: 2015-12-08T19:55:40+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['IT']

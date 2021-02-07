@@ -1,7 +1,7 @@
 ---
 title: "「読んだら忘れない読書術」"
 date: 2018-03-15T08:46:08+09:00
-lastmod: 2018-03-15T08:46:08+09:00
+lastmod: 2020-07-05T07:51:24+09:00
 comments: true
 category: ['Book']
 tags: ['book', '読書']

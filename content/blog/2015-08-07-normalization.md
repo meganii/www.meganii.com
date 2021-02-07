@@ -1,7 +1,7 @@
 ---
 title: "正規化とは何か？"
 date: 2015-08-07T08:46:00+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['DB']
 published: true

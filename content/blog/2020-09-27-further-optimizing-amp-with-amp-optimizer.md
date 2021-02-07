@@ -1,7 +1,7 @@
 ---
 title: "AMP OptimizerによるAMPのさらなる最適化"
 date: 2020-09-27T20:07:10+09:00
-lastmod: 2020-09-27T20:07:10+09:00
+lastmod: 2021-01-30T17:56:10+09:00
 published: true
 category: ["Tech"]
 tags: ["AMP","Blog"]

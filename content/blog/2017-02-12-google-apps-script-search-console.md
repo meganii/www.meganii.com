@@ -1,7 +1,7 @@
 ---
 title: "Google Apps ScriptでGoogle Search Consoleの情報を取得する"
 date: 2017-02-12T16:54:25+09:00
-lastmod: 2017-02-12T16:54:25+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['GoogleAppsScript','GoogleSearchConsole']

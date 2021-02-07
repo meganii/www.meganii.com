@@ -1,7 +1,7 @@
 ---
 title: "JekyllからHugoへの移行ポイント"
 date: "2015-08-30T11:56:00+09:00"
-comments: true
+lastmod: 2021-01-30T17:56:10+09:00
 category: ['Tech']
 tags: ['jekyll','Hugo']
 published: true

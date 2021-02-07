@@ -1,6 +1,7 @@
 ---
 title: "Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた"
 date: 2016-09-06T07:21:53+09:00
+lastmod: 2021-01-30T17:56:10+09:00
 comments: true
 category: ['Tech']
 tags: ['Python','Hugo']

@@ -1,7 +1,7 @@
 ---
 title: "NetlifyからGitHub Pagesに移行した件"
 date: 2018-12-12T23:23:35+09:00
-lastmod: 2018-12-12T23:23:35+09:00
+lastmod: 2020-08-08T21:03:11+09:00
 comments: true
 category: ['Tech']
 tags: ['GitHub Pages', 'Netlify']

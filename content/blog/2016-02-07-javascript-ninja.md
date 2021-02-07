@@ -1,6 +1,7 @@
 ---
 title: "JavaScript Ninjaの極意 「関数の呼び出し」"
 date: 2016-02-07T12:42:51+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['JavaScript']

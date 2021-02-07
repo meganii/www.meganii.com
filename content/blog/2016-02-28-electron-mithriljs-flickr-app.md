@@ -1,7 +1,7 @@
 ---
 title: "Electron + Mithril.jsでFlickrアプリを作成する"
 date: 2016-02-28T22:13:24+09:00
-lastmod: 2017-09-21T22:13:24+09:00
+lastmod: 2020-08-28T16:32:13+09:00
 comments: true
 category: ['Tech']
 tags: ['Electron','Mithril.js']

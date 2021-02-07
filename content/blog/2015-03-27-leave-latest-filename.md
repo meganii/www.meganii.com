@@ -2,7 +2,7 @@
 
 title: "数世代バージョンを持つファイル名から最新版以外を抽出する"
 date: 2015-03-27T23:54:00+09:00
-comments: true
+lastmod: 2020-03-31T19:16:44+09:00
 category: ['Tech']
 tags: ['Ruby']
 published: true 

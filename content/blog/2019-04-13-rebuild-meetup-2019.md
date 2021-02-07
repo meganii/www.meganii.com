@@ -1,7 +1,7 @@
 ---
 title: "Rebuild Meetup 2019"
 date: 2019-04-13T20:44:43+09:00
-lastmod: 2019-04-13T20:44:43+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['Podcast','Rebuild.fm']

@@ -1,7 +1,7 @@
 ---
 title: 20歳を過ぎてから英語を学ぼうと決めた人たちへ
 date: 2012-05-19
-lastmod: 2017-02-18T18:56:27+09:00
+lastmod: 2020-07-05T16:30:52+09:00
 category: ['Book']
 tags: ['book','english']
 published: true

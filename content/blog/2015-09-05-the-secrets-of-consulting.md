@@ -1,7 +1,7 @@
 ---
 title: "コンサルタントの秘密〜コンサルタント業はなぜ大変か？〜"
 date: 2015-09-05T08:39:00+09:00
-lastmod: 2017-09-02T19:39:00+09:00
+lastmod: 2020-07-05T07:51:24+09:00
 comments: true
 category: ['Book']
 tags: ['book','consulting']

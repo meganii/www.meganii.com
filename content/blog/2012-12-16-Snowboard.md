@@ -1,6 +1,7 @@
 ---
 title: 冬を楽しむ！
 date: 2012-12-16
+lastmod: 2020-08-08T21:03:11+09:00
 category: ['Life']
 tags: ["snowborad"]
 published: true

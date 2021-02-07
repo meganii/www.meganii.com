@@ -1,7 +1,7 @@
 ---
 title: "AnsibleでさくらVPSの初期設定"
 date: 2015-03-02T07:31:00+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['ansible','さくらvps']
 published: true

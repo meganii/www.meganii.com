@@ -1,8 +1,7 @@
 ---
 title: "Capybara「Request failed to reach server, check DNS and/or server status」"
 date: 2015-07-25T17:29:00+09:00
-lastmod: 2017-01-02T17:29:00+09:00
-comments: true
+lastmod: 2020-07-16T21:51:05+09:00
 category: ['Tech']
 tags: ['capybara']
 published: true

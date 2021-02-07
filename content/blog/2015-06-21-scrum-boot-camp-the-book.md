@@ -1,7 +1,7 @@
 ---
 title: "scrum boot camp the book"
 date: 2015-06-21T20:20:00+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['scrum','agile']
 published: false

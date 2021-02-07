@@ -1,8 +1,7 @@
 ---
 title: "統計学が最強の学問である"
 date: 2014-12-09T00:12:00+09:00
-lastmode: 2017-08-30T20:12:00+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Art']
 tags: ['book','statistics', '統計学']
 published: true

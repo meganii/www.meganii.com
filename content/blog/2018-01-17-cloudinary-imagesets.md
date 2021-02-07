@@ -1,7 +1,7 @@
 ---
 title: "Cloudinaryを利用したレスポンシブ配信"
 date: 2018-01-17T20:06:20+09:00
-lastmod: 2018-01-17T20:06:20+09:00
+lastmod: 2020-07-16T21:51:05+09:00
 comments: true
 category: ['Tech']
 tags: ['Cloudinary']

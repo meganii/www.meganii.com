@@ -1,7 +1,7 @@
 ---
 title: "Hugoで生成した静的サイトのホスト先をさくらVPSからNetlifyに変更する"
 date: 2017-03-19T19:46:06+09:00
-lastmod: 2017-08-30T21:46:06+09:00
+lastmod: 2021-01-30T17:56:10+09:00
 comments: true
 category: ['Tech']
 tags: ['Netlify','Hugo']

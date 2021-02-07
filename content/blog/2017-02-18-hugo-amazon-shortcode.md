@@ -1,7 +1,7 @@
 ---
 title: "HugoのShortcodesを利用してAmazon紹介リンクタグを作成"
 date: 2017-02-18T21:04:17+09:00
-lastmod: 2017-02-18T21:04:17+09:00
+lastmod: 2021-01-30T17:56:10+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo','アフィリエイト']

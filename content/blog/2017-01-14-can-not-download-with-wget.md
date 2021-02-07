@@ -1,7 +1,7 @@
 ---
 title: "wgetでダウンロード失敗したときの対処法"
 date: 2017-01-14T14:14:02+09:00
-lastmod: 2017-01-14T14:14:02+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['MeCab','Linux']

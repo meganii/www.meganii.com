@@ -1,7 +1,7 @@
 ---
 title: "連休にこそ初回31日無料のdTVの始めどき！「キングダム」を無料で観る！"
 date: 2016-12-22T00:42:45+09:00
-lastmod: 2016-12-22T00:42:45+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Life']
 tags: ['dTV','動画配信サービス','キングダム','Chromecast']

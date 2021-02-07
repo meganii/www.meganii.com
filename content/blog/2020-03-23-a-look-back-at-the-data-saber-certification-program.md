@@ -1,7 +1,7 @@
 ---
 title: "「DATA Saber認定制度」のふりかえり"
 date: 2020-03-23T06:33:37+09:00
-lastmod: 2020-03-23T06:33:37+09:00
+lastmod: 2020-07-16T19:23:23+09:00
 comments: true
 category: ['Tech']
 tags: ['Tableau', 'DATA Saber', 'ふりかえり']

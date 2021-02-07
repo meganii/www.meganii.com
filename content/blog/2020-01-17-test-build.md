@@ -1,7 +1,7 @@
 ---
 title: "ブログカードテスト"
 date: 2020-01-17T22:33:14+09:00
-lastmod: 2020-01-17T22:33:14+09:00
+lastmod: 2020-01-19T20:55:33+09:00
 comments: true
 category: ['Tech']
 tags: ['']

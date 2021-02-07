@@ -1,7 +1,7 @@
 ---
 title: "【レビュー】SONY WH-1000XM4 ワイヤレスノイズキャンセリングヘッドフォン"
 date: 2020-11-28T11:47:52+09:00
-lastmod: 2020-11-28T11:47:52+09:00
+lastmod: 2020-11-30T22:15:58+09:00
 published: true
 category: ["Gadget"]
 tags: ["レビュー", "ヘッドフォン", "SONY", "Music"]

@@ -1,7 +1,7 @@
 ---
 title: "現場でプロが培った Google Analyticsの使い方"
 date: 2014-12-03T07:21:00+09:00
-comments: true
+lastmod: 2020-07-05T07:51:24+09:00
 category: ['Book']
 tags: ['book','GoogleAnalytics','アクセス解析']
 published: true 

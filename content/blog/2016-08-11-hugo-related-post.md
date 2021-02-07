@@ -1,6 +1,7 @@
 ---
 title: "Hugoで関連記事を表示する方法"
 date: 2016-08-11T13:54:52+09:00
+lastmod: 2021-01-30T17:56:10+09:00
 comments: true
 category: ['Tech']
 tags: ['Python','Hugo']

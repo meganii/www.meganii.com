@@ -1,7 +1,7 @@
 ---
 title: "HugoのMarkdownでtarget='_blank'を実現する方法"
 date: 2017-02-25T23:21:20+09:00
-lastmod: 2017-02-25T23:21:20+09:00
+lastmod: 2021-01-30T17:56:10+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo','Markdown']

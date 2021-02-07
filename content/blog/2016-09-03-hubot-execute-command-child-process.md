@@ -1,7 +1,7 @@
 ---
 title: "Hubotで外部コマンドを実行する"
 date: 2016-09-03T09:53:38+09:00
-lastmod: 2017-10-10T19:53:38+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['Hubot','JavaScript']

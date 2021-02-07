@@ -1,8 +1,7 @@
 ---
-
 title: "Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする"
 date: 2015-02-08T15:11:00+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['Oracle','database']
 published: true

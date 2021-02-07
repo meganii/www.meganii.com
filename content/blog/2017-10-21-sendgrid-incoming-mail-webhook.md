@@ -1,7 +1,7 @@
 ---
 title: "sendgrid incoming mail webhook"
 date: 2017-10-21T17:30:50+09:00
-lastmod: 2017-10-21T17:30:50+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['sendgrid']

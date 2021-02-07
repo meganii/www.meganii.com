@@ -1,7 +1,7 @@
 ---
 title: "Conoha VPSにCoreOSをインストールする"
 date: 2017-04-16T21:14:51+09:00
-lastmod: 2017-09-21T21:14:51+09:00
+lastmod: 2020-07-16T21:51:05+09:00
 comments: true
 category: ['Tech']
 tags: ['Conoha','VPS','CoreOS']

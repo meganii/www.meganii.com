@@ -1,8 +1,7 @@
 ---
 title: "How to install SQL*Plus in MacOSX Marverics"
 date: 2015-02-11T22:54:00+09:00
-lastmod: 2017-01-02T08:19:00+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['Oracle', 'sqlplus']
 published: true

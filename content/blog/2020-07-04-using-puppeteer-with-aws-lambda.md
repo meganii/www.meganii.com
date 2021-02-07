@@ -1,7 +1,7 @@
 ---
 title: "puppeteerをAWS Lambdaで利用する"
 date: 2020-07-04T12:18:11+09:00
-lastmod: 2020-07-05T12:18:11+09:00
+lastmod: 2020-07-16T21:38:27+09:00
 published: true
 category: ["Tech"]
 tags: ["puppeteer","lambda","AWS"]

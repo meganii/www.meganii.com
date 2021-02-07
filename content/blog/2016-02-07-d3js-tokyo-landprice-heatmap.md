@@ -1,7 +1,7 @@
 ---
 title: "D3.jsで東京の地価データを可視化する"
 date: 2016-02-07T19:42:50+09:00
-lastmod: 2017-09-27T19:42:50+09:00
+lastmod: 2020-02-01T22:56:04+09:00
 comments: true
 category: ['Tech']
 tags: ['D3.js', 'JavaScript', 'データ可視化']

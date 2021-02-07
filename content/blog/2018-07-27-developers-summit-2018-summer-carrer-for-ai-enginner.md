@@ -1,7 +1,7 @@
 ---
 title: "[デブサミ2018夏]AI時代におけるエンジニアの生存戦略"
 date: 2018-07-27T11:04:08+09:00
-lastmod: 2018-07-27T11:04:08+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['Developers Summit', 'デブサミ']

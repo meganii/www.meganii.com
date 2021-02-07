@@ -1,7 +1,7 @@
 ---
 title: "音声認識エンジンJuliusをインストールする"
 date: 2016-12-21 21:52:28 +0900
-lastmod: 2016-12-21 12:52:28 +0000
+lastmod: 2020-10-25T14:05:59+09:00
 comments: true
 category:
 - Tech

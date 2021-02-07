@@ -1,6 +1,7 @@
 ---
 title: "CasperJSでAmazonログイン"
 date: 2016-05-30T07:04:55+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['CasparJS']

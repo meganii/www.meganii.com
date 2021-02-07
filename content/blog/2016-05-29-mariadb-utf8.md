@@ -1,6 +1,7 @@
 ---
 title: "MariaDBの日本語文字化けを解消するための設定"
 date: 2016-05-29T15:55:28+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['MariaDB', 'DB']

@@ -1,7 +1,7 @@
 ---
 title: "Premium Friday(プレミアムフライデー)"
 date: 2017-02-26T12:20:07+09:00
-lastmod: 2017-02-26T12:20:07+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Life']
 tags: ['PremiumFriday']

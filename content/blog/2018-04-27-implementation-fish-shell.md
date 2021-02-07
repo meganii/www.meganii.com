@@ -1,7 +1,7 @@
 ---
 title: "Fish Shellを導入してrbenv, pyenv, nodebrewのパスを通す"
 date: 2018-04-27T06:37:42+09:00
-lastmod: 2018-05-07T23:37:42+09:00
+lastmod: 2020-07-16T21:51:05+09:00
 comments: true
 category: ['Tech']
 tags: ['fish','shell']

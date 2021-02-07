@@ -1,7 +1,7 @@
 ---
 title: "【Tableau】積み上げ棒グラフの合計値をラベル表示する方法"
 date: 2020-03-20T17:10:26+09:00
-lastmod: 2020-03-20T17:10:26+09:00
+lastmod: 2020-03-31T20:42:49+09:00
 comments: true
 category: ['Tech']
 tags: ['Tableau', 'リファレンスライン']

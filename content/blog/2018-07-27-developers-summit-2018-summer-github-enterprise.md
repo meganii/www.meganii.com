@@ -1,7 +1,7 @@
 ---
 title: "[デブサミ2018夏]富士フイルムソフトウエアはいかにして旧開発手法を捨ててGitHub Enterpriseを愛するようになったのか"
 date: 2018-07-27T14:03:21+09:00
-lastmod: 2018-07-27T14:03:21+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['デブサミ', Git', 'GitHubEnterprize']

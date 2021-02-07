@@ -1,6 +1,7 @@
 ---
 title: 初めてのクライミングシューズ「モカシム」
 date: 2013-02-05T07:22:00+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Activity']
 tags: ['ボルダリング']
 published: true

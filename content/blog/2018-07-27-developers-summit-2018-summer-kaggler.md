@@ -1,7 +1,7 @@
 ---
 title: "[デブサミ2018夏]Kaggleで描く成長戦略〜個人編・組織編〜"
 date: 2018-07-27T17:03:51+09:00
-lastmod: 2018-07-27T17:03:51+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['デブサミ', 'Kaggle','データ分析']

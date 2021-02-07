@@ -1,6 +1,7 @@
 ---
 title: "http/2ベンチマークツール「h2load」をインストール"
 date: 2016-07-17T20:19:21+09:00
+lastmod: 2019-07-23T00:17:02+09:00
 comments: true
 category: ['Tech']
 tags: ['h2load','h2o']

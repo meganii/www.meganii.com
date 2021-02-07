@@ -1,7 +1,7 @@
 ---
 title: "CircleCIでMeCabを利用してHugoビルドする"
 date: 2017-01-14T23:02:29+09:00
-lastmod: 2017-01-14T23:02:29+09:00
+lastmod: 2021-01-30T17:56:10+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo', 'CircleCI', 'MeCab']

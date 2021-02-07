@@ -1,7 +1,7 @@
 ---
 title: "HHKBをWindows・Mac・iPadで快適に使う方法"
 date: 2021-01-15T06:35:29+09:00
-lastmod: 2021-01-15T06:35:29+09:00
+lastmod: 2021-01-19T22:26:21+09:00
 published: true
 category: ["Gadget"]
 tags: ["レビュー","Keyboard","HHKB"]

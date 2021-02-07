@@ -1,8 +1,7 @@
 ---
 title: "マーケティング22の法則を図解してみた"
 date: "2015-08-29T17:13:12+09:00"
-lastmod: 2017-08-30T19:24:15+09:00
-comments: true
+lastmod: 2019-12-31T06:52:46+09:00
 category: ['Book']
 tags: ['book','マーケティング']
 published: true

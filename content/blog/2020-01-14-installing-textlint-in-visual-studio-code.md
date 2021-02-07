@@ -1,7 +1,7 @@
 ---
 title: "VS Codeにtextlintを導入して文章を校正する"
 date: 2020-01-14T21:07:50+09:00
-lastmod: 2020-01-14T21:07:50+09:00
+lastmod: 2020-07-16T21:38:27+09:00
 comments: true
 category: ['Tech']
 tags: ['VSCode', 'textlint', '文章', 'Writing']

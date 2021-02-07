@@ -1,7 +1,7 @@
 ---
 title: "fireworks"
 date: 2015-08-10T00:56:00+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Art']
 tags: ['Photo']
 published: false

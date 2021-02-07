@@ -1,6 +1,7 @@
 ---
 title: "石垣島へ行ってきました"
 date: 2016-08-18T22:56:55+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Travel']
 tags: ['石垣島']

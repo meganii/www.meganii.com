@@ -2,7 +2,7 @@
 title: "[デブサミ2018夏]ソーシャルゲームを分析せよ！〜社内分析チームの立ち上げから学んだデータ分析のための組織と技術
 "
 date: 2018-07-27T15:05:22+09:00
-lastmod: 2018-07-27T15:05:22+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['デブサミ', 'Social Game', 'Data Analytics']

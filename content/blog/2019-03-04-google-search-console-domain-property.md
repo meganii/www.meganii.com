@@ -1,7 +1,7 @@
 ---
 title: "Google Search Consoleドメインプロパティ機能"
 date: 2019-03-04T22:56:48+09:00
-lastmod: 2019-03-04T22:56:48+09:00
+lastmod: 2020-07-16T21:51:05+09:00
 comments: true
 category: ['Tech']
 tags: ['Google Search Console']

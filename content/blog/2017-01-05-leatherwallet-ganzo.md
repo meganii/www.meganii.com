@@ -1,7 +1,7 @@
 ---
 title: "大人の高級革財布 GANZOのTHIN BRIDLE (シンブライドル) 二つ折り財布のレビュー！"
 date: 2017-01-05T21:21:03+09:00
-lastmod: 2017-08-30T21:21:03+09:00
+lastmod: 2020-07-16T18:43:42+09:00
 comments: true
 category: ['Life']
 tags: ['革','財布','レザー']

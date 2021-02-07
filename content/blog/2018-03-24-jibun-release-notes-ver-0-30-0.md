@@ -1,7 +1,7 @@
 ---
 title: "じぶん Release Notes (ver 0.30.0)"
 date: 2018-03-24T20:27:35+09:00
-lastmod: 2018-03-24T20:27:35+09:00
+lastmod: 2020-11-01T17:00:34+09:00
 comments: true
 category: ['Life']
 tags: ['Jibun Release Notes']

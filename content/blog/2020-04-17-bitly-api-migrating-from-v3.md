@@ -1,8 +1,7 @@
 ---
 title: "Bitlyでの短縮URL作成（v3からv4への移行）"
 date: 2020-04-17T19:32:09+09:00
-lastmod: 2020-04-18T16:32:09+09:00
-comments: true
+lastmod: 2020-07-16T21:38:27+09:00
 category: ['Tech']
 tags: ['Bitly', 'JavaScript']
 published: true

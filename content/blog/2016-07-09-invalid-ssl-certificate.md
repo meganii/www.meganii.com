@@ -1,7 +1,7 @@
 ---
 title: "Lets's Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化"
 date: 2016-07-09T08:06:50+09:00
-lastmod: 2017-08-30T21:17:50+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['https', 'SSL', 'Lets Encrypt']

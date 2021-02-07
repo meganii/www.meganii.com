@@ -1,8 +1,7 @@
 ---
 title: "結婚式余興ムービー「ドミノでええねん」16,000個のお祝いドミノ倒し"
 date: 2014-09-06T10:25:00+09:00
-lastmod: 2017-09-01T22:25:00+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Movie']
 tags: ['domino','結婚式余興', 'Movie', 'FCPX']
 published: true

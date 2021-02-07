@@ -1,7 +1,7 @@
 ---
 title: "池袋で会社の飲み会に使うべき居酒屋"
 date: 2017-12-24T16:55:06+09:00
-lastmod: 2018-07-04T16:55:06+09:00
+lastmod: 2020-02-29T14:42:01+09:00
 comments: true
 category: ['Life']
 tags: ['飲み会','party', '池袋']

@@ -1,7 +1,7 @@
 ---
 title: "「Scrapbox Drinkup ＃04 Tokyo Edition」イベントレポート"
 date: 2018-05-23T21:40:53+09:00
-lastmod: 2018-05-28T21:20:53+09:00
+lastmod: 2021-01-26T22:24:26+09:00
 comments: true
 category: ['Tech']
 tags: ['meetup','scrapbox']

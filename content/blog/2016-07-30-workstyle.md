@@ -1,6 +1,7 @@
 ---
 title: "ワークスタイル改革とは何か？"
 date: 2016-07-30T08:14:23+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['ワークスタイル', '仕事']

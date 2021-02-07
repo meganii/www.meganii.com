@@ -1,7 +1,7 @@
 ---
 title: "静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する"
 date: 2017-01-08T15:58:45+09:00
-lastmod: 2018-01-26T19:22:45+09:00
+lastmod: 2021-01-30T17:56:10+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo','Blog','Jekyll','静的サイトジェネレータ']

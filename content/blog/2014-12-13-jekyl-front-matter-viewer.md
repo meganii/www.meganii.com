@@ -2,7 +2,7 @@
 
 title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
 date: 2014-12-13T18:15:00+09:00
-comments: true
+lastmod: 2020-03-31T19:16:44+09:00
 category: ['Tech']
 tags: ['jekyll','Ruby']
 published: true

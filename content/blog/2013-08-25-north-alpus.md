@@ -1,6 +1,7 @@
 ---
 title: 初めての北アルプス 〜涸沢ヒュッテ、奥穂高岳〜
 date: 2013-08-25T21:21:00+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Travel']
 tags: ['登山','旅行記']
 published: true

@@ -1,7 +1,7 @@
 ---
 title: "Capybaraで非表示要素を検索できない"
 date: 2017-06-24T11:39:13+09:00
-lastmod: 2017-06-24T11:39:13+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['capybara']

@@ -1,6 +1,7 @@
 ---
 title: Sublime Text 2にパッケージコントロールを導入!!
 date: 2013-04-26T22:21:00+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['sublime text2']
 published: true

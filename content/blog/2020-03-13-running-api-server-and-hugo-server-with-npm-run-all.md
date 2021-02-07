@@ -1,7 +1,7 @@
 ---
 title: "npm-run-allでローカルAPI serverとHugo serverを同時に実行する"
 date: 2020-03-13T06:54:19+09:00
-lastmod: 2020-03-13T06:54:19+09:00
+lastmod: 2021-01-30T17:56:10+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo', 'Blog']

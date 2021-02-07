@@ -1,6 +1,7 @@
 ---
 title: "rakuten nikkei"
 date: 2016-04-25T21:30:01+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Money']
 tags: ['楽天証券']

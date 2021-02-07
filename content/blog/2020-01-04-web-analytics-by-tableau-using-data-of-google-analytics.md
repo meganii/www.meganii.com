@@ -1,7 +1,7 @@
 ---
 title: "【Tableau】Google AnalyticsをデータソースとしてTableau Desktopでアクセス解析を行う"
 date: 2020-01-04T10:35:50+09:00
-lastmod: 2020-01-04T10:35:50+09:00
+lastmod: 2020-07-10T07:49:04+09:00
 comments: true
 category: ['Tech']
 tags: ['Tableau','アクセス解析', 'Google Analytics']

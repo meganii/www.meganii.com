@@ -1,7 +1,7 @@
 ---
 title: "[コツコツ勉強]よくわからないままJavaScriptを使っている自分へ"
 date: 2014-11-28T23:32:00+09:00
-comments: true
+lastmod: 2020-03-31T19:16:44+09:00
 category: ['Tech']
 tags: ['JavaScript']
 published: true 

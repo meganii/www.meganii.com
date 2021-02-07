@@ -1,7 +1,7 @@
 ---
 title: "Amazon Product Advertising API用にAWS IAMユーザを作成する方法"
 date: 2017-08-27T15:35:00+09:00
-lastmod: 2017-08-27T15:35:00+09:00
+lastmod: 2020-07-16T21:51:05+09:00
 comments: true
 category: ['Tech']
 tags: ['AWS']

@@ -1,7 +1,7 @@
 ---
 title: "developers summit 2018 summer"
 date: 2018-07-28T10:05:32+09:00
-lastmod: 2018-07-28T10:05:32+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['デブサミ']

@@ -1,6 +1,7 @@
 ---
 title: 念願のAir!! MacBookAir Mid 2013買いました
 date: 2013-06-18T06:32:00+09:00
+lastmod: 2020-08-01T20:01:52+09:00
 category: ['Tech']
 tags: ['Mac', 'MacBook']
 published: true

@@ -1,7 +1,7 @@
 ---
 title: "[Ruby]Moduleの使い方"
 date: 2017-06-24T18:00:35+09:00
-lastmod: 2017-06-24T18:00:35+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['Ruby']

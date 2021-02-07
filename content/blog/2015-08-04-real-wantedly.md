@@ -1,7 +1,7 @@
 ---
 title: "「第4回 リアル・ウォンテッドリー」に行ってきました"
 date: 2015-08-04T20:39:29+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['転職','wantedly']
 published: true

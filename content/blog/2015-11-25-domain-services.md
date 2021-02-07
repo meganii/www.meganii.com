@@ -1,6 +1,7 @@
 ---
 title: "ドメインサービスとは？"
 date: 2015-11-25T20:34:53+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['domain','DDD','ドメイン駆動開発']

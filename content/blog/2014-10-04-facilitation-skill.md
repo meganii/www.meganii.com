@@ -1,7 +1,7 @@
 ---
 title: "参加者の発言を促すファシリテーターの技術 〜ザ・ファシリテーター〜"
 date: 2014-10-04T17:18:00+09:00
-comments: true
+lastmod: 2020-07-05T16:30:52+09:00
 category: ['Book']
 tags: ['book', 'ファシリテーション']
 published: true 

@@ -1,7 +1,7 @@
 ---
 title: "Tableau製品ラインナップとTableau Public"
 date: 2019-12-02T22:16:46+09:00
-lastmod: 2019-12-02T22:16:46+09:00
+lastmod: 2020-01-17T22:09:05+09:00
 comments: true
 category: ['Tech']
 tags: ['Tableau']

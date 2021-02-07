@@ -2,6 +2,7 @@
 
 title: GIBBON RIDERの凄さ
 date: 2013-06-10T22:17:00+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Activity']
 tags: ['slackline']
 published: true

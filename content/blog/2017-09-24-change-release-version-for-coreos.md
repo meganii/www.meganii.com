@@ -1,7 +1,7 @@
 ---
 title: "CoreOSのリリースバージョンをstableからalphaに変更"
 date: 2017-09-24T20:08:41+09:00
-lastmod: 2017-09-24T20:08:41+09:00
+lastmod: 2020-07-16T21:51:05+09:00
 comments: true
 category: ['Tech']
 tags: ['CoreOS']

@@ -1,6 +1,7 @@
 ---
 title: ap bank fes'12 淡路島!!!
 date: 2012-08-09
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Music']
 tags: ['夏フェス', 'フェス', 'AP Bank Fes', '淡路島']
 published: true

@@ -1,8 +1,7 @@
 ---
 title: "キャリア計画を立てよう！ How Google Works-私たちの働き方とマネジメント-"
 date: 2014-10-30T22:52:00+09:00
-lastmod: 2017-02-24T22:52:00+09:00
-comments: true
+lastmod: 2021-01-24T20:34:36+09:00
 category: ['Book']
 tags: ['Book','キャリア']
 published: true

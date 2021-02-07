@@ -1,7 +1,7 @@
 ---
 title: "Progressive Web Appを有効にする"
 date: 2020-08-15T09:37:43+09:00
-lastmod: 2020-08-15T09:37:43+09:00
+lastmod: 2020-08-29T13:37:47+09:00
 published: true
 category: ["Tech"]
 tags: ["PWA","AMP", "Blog"]

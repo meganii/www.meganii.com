@@ -1,7 +1,7 @@
 ---
 title: "「Scrapbox情報整理術」出版記念スペシャルに参加してきました"
 date: 2018-08-10T23:43:05+09:00
-lastmod: 2018-08-10T23:43:05+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['Scrapbox']

@@ -1,7 +1,7 @@
 ---
 title: "iCracked JapanでのGoogle Pixel3a修理"
 date: 2019-06-23T21:07:54+09:00
-lastmod: 2019-06-23T21:07:54+09:00
+lastmod: 2020-01-17T22:09:05+09:00
 comments: true
 category: ['Tech']
 tags: ['Google Pixel 3a', 'Google', 'スマートフォン', '修理']

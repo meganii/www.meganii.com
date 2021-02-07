@@ -1,7 +1,7 @@
 ---
 title: 屋久島に行くのにあってよかったもの、困ったこと
 date: 2013-05-15T00:01:00+09:00
-lastmod: 2018-01-27T21:13:00+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Travel']
 tags: ['屋久島']
 published: true

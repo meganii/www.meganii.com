@@ -1,7 +1,7 @@
 ---
 title: "EDINETとXBRLとは何か？Pythonで財務諸表のデータを取得する"
 date: 2017-06-18T21:54:26+09:00
-lastmod: 2017-06-18T21:54:26+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['FinTech','EDINET','Python']

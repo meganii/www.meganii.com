@@ -2,6 +2,7 @@
 
 title: XPathでの属性値の取得
 date: 2014-02-19T22:09:00+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['xpath']
 published: true

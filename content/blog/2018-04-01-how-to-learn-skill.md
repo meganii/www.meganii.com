@@ -1,7 +1,7 @@
 ---
 title: "how to learn skill"
 date: 2018-04-01T11:25:06+09:00
-lastmod: 2018-04-01T11:25:06+09:00
+lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['']
 tags: ['']

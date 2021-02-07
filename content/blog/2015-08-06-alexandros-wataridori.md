@@ -1,7 +1,7 @@
 ---
 title: "[Alexandros] ワタリドリと私 -ROCK IN JAPAN 2015-"
 date: 2015-08-06T21:43:00+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Music']
 tags: ['Alexandros', 'ROCK IN JAPAN']
 published: true

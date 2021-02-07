@@ -1,7 +1,7 @@
 ---
 title: "コンフィデンスマンJP"
 date: 2019-07-29T21:34:42+09:00
-lastmod: 2019-07-29T21:34:42+09:00
+lastmod: 2019-08-12T09:48:43+09:00
 comments: true
 category: ['Life']
 tags: ['テレビ', '映画']

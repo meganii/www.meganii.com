@@ -1,7 +1,7 @@
 ---
 title: "日本で一番標高の高い場所にある「野外映画館」 -星空の映画祭2014-"
 date: 2014-08-24T22:04:00+09:00
-comments: true
+lastmod: 2019-09-01T20:31:30+09:00
 category: ['Travel']
 tags: ["Movie","travel","星空の映画祭"]
 published: true

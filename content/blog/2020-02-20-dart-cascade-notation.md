@@ -1,7 +1,7 @@
 ---
 title: "DartのCascade notation（カスケード表記）とは"
 date: 2020-02-20T06:11:06+09:00
-lastmod: 2020-02-20T06:11:06+09:00
+lastmod: 2020-07-16T21:38:27+09:00
 comments: true
 category: ['Tech']
 tags: ['dart']

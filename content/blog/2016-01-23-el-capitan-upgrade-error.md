@@ -2,6 +2,7 @@
 title: "El Capitanへのアップグレード時AppStoreに接続できなくなった場合(さらにキーチェーンアクセスでも対処できなかった時)の対処法
 "
 date: 2016-01-23T20:51:43+09:00
+lastmod: 2020-08-28T16:32:13+09:00
 comments: true
 category: ['Tech']
 tags: ['Mac']

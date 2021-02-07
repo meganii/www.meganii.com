@@ -1,8 +1,7 @@
 ---
 title: "Installing Oracle Database Express Edition11g on Vagrant(CentOS 6.4)"
 date: 2015-02-08T15:11:00+09:00
-lastmod: 2017-01-02T08:58:00+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['Oracle','database']
 published: true

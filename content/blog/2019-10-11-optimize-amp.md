@@ -1,7 +1,7 @@
 ---
 title: "AMPページの最適化〜ぼくのAMPサイトがこんなに遅い訳がない〜"
 date: 2019-10-11T22:19:49+09:00
-lastmod: 2019-10-11T22:19:49+09:00
+lastmod: 2021-01-30T17:56:10+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo', 'AMP', 'Blog']

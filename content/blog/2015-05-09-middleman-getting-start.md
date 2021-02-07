@@ -1,8 +1,7 @@
 ---
-
 title: "Middleman getting start"
 date: 2015-05-09T12:57:00+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['middleman']
 published: true

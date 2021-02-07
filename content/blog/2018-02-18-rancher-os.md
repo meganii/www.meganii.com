@@ -1,7 +1,7 @@
 ---
 title: "ConohaVPSでCoreOSやRancherOSを入れる際に困ったこと"
 date: 2018-02-18T21:54:35+09:00
-lastmod: 2018-02-18T21:54:35+09:00
+lastmod: 2020-07-16T21:51:05+09:00
 comments: true
 category: ['Tech']
 tags: ['RancherOS']

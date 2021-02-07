@@ -1,8 +1,7 @@
 ---
 title: "HERZ「ほぼ日手帳カバー」お気に入りの一品になること間違いなし！"
 date: 2015-04-01T19:55:00+09:00
-lastmod: 2017-08-25T19:55:00+09:00
-comments: true
+lastmod: 2019-04-27T16:12:02+09:00
 category: ['Stationery']
 tags: ['ほぼ日手帳','革小物', '文房具', '手帳カバー']
 published: true
