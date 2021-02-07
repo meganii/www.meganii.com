@@ -35,12 +35,12 @@
     </item>
     
     <item>
-      <title>eclipseの問題</title>
+      <title>Eclipseの問題</title>
       <link>https://www.meganii.com/blog/2009/05/25/1243217774/</link>
       <pubDate>Mon, 25 May 2009 11:16:14 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/05/25/1243217774/</guid>
-      <description>エラー PrintStreamが未定義です。 インストール済みのJREにおいて、 古いバージョン java-1.5.0が入っていたことが原因。 新しいバージョン java-sun-6 を導入することによって、解決できた。</description>
+      <description>エラー PrintStreamが未定義です。 対応方法 インストール済みのJREにおいて、古いバージョンjava-1.5.0が入っていたことが原因。 新しいバージョンjava-sun-6を導入することによって</description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@
       <pubDate>Fri, 22 May 2009 23:12:02 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2009/05/22/1243001522/</guid>
-      <description>インストール手順 libltdl3 &amp;lt;blockquote&amp;gt; &amp;lt;p&amp;gt;iscanというアプリケーションを使って、スキャンをするわけですが、このアプリは「libltdl3&amp;lt;br /&amp;gt; 」というパッケージに依存しています。 ところが、この</description>
+      <description>インストール手順 libltdl3 iscanというアプリケーションを使って、スキャンをするわけですが、このアプリは「libltdl3」というパッケージに依存しています。 ところが、このパッケージはUbuntu Linux 8.10</description>
     </item>
     
     <item>
