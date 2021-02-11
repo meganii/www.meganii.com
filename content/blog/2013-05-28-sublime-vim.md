@@ -2,7 +2,7 @@
 
 title: sublime-vim
 date: 2013-05-28T21:02:00+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2021-02-11T01:40:56+09:00
 category: ['Tech']
 tags:
   - 'Vim'
@@ -11,7 +11,7 @@ published: true
 slug: sublime-vim
 ---
 
-そろそろ重たい腰を上げて、vi系のコマンドを覚えたいなと思い始めたので、`Sublime Text 2`を`Vim`っぽく操作するようにカスタマイズしてみようと思う。
+そろそろ重たい腰を上げて、vi系のコマンドを覚えたいなと思い始めたので、`Sublime Text 2`を`Vim`っぽく操作するようにカスタマイズしてみます。
 
 {{% amazon 4774143960 %}}
 
