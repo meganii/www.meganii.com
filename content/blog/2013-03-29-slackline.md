@@ -1,7 +1,7 @@
 ---
 title: ボルダリングの合間にスラックライン!! Slackline
 date: 2013-03-29T20:59:00+09:00
-lastmode: 2018-08-03T20:59:00+09:00
+lastmod: 2021-02-11T11:21:42+09:00
 category: ['Activity']
 tags: ['スラックライン','ボルダリング']
 published: true

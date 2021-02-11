@@ -1,7 +1,7 @@
 ---
 title: Dialog In The Dark(ダイアログ・イン・ザ・ダーク)〜『みえない』から『みえる』暗闇体験〜
 date: 2014-04-06T11:00:00+09:00
-lastmode: 2017-02-19T22:08:00+09:00
+lastmod: 2021-02-11T11:21:42+09:00
 category: ['Life']
 tags: ['DialogInTheDark','暗闇体験']
 published: true
