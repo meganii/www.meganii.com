@@ -1,7 +1,7 @@
 ---
 title: "WBSの作り方"
 date: 2015-12-05T07:29:39+09:00
-lastmode: 2017-09-14T19:29:39+09:00
+lastmod: 2021-02-11T11:21:42+09:00
 comments: true
 category: ['Tech']
 tags: ['IT','Work','WBS']
@@ -23,7 +23,7 @@ img: "https://images-na.ssl-images-amazon.com/images/I/51AEd5mQUNL._SL160_.jpg"
 
 ## WBSとは？
 
-Work Breakdown Structureの略。
+`Work Breakdown Structure`の略。
 
 WBSは、プロジェクトの責任範囲(スコープ)を可視化したものである。
 
@@ -65,5 +65,5 @@ WBSは、プロジェクトの責任範囲(スコープ)を可視化したもの
 
 ## 参考
 
-- [ＷＢＳのつくり方 : タイム・コンサルタントの日誌から](http://brevis.exblog.jp/1587847)
+- [WBSのつくり方 : タイム・コンサルタントの日誌から](http://brevis.exblog.jp/1587847)
 - [海外プロジェクト・マネジメントにおけるシステムズ・アプローチとは　〜化学工学会展望講演（9/09）から : タイム・コンサルタントの日誌から](http://brevis.exblog.jp/23678577/)

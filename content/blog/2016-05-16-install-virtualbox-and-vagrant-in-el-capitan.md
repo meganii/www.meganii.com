@@ -1,7 +1,7 @@
 ---
 title: "MacでVirtualbox、Vagrantをインストールするときにいつまで経っても検証が終わらない場合の対処法としてコマンドラインからインストールする"
 date: 2016-05-16T20:50:35+09:00
-lastmode: 2017-02-22T07:23:35+09:00
+lastmod: 2021-02-11T11:21:42+09:00
 comments: true
 category: ['Tech']
 tags: ['El Capitan','Mac']

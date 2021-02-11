@@ -1,7 +1,7 @@
 ---
 title: "Electronでデスクトップアプリ作成"
 date: 2016-01-25T07:15:22+09:00
-lastmode: 2017-08-29T19:15:22+09:00
+lastmod: 2021-02-11T11:21:42+09:00
 comments: true
 category: ['Tech']
 tags: ['Electron','React.js']
@@ -20,16 +20,16 @@ Electronを使って自分用のデスクトップアプリを作りたいと思
 
 ## JavaScriptの開発環境を整える
 
-node.jsのバージョンをみると、未だに 0.1系だった。2016/01/25現在、Node.jsの最新バージョンは、`v5.5.0` !!!!
+Node.jsのバージョンをみると、未だに 0.1系だった。2016/01/25現在、Node.jsの最新バージョンは、`v5.5.0` !!!!
 [Node.js](https://nodejs.org/en/)
 
-JavaScriptの進化はすごい！！と思ったら、Node.jsとio.jsの争いがあったみたいで、Node.jsは1系の次は2,3を飛ばしてv4になってみたい。
+JavaScriptの進化はすごい！！と思ったら、`Node.js`と`io.js`の争いがあったみたいで、`Node.js`は1系の次は2,3を飛ばしてv4になってみたい。
 
 {{% speakerdeck 3505d390fb8448baa0de732c31544228 %}}
 
 ### nodebrew
 
-その前に、Homebrewで入れていたNode.jsを削除する。
+その前に、Homebrewで入れていた`Node.js`を削除する。
 
 ```
 brew uninstall node
@@ -42,13 +42,13 @@ nodeのバージョンを管理するために、nodebrewを導入する。
 curl -L git.io/nodebrew | perl - setup
 ```
 
-`.bash_profile`にパスを通す
+`.bash_profile`にパスを通す。
 
 ```
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 ```
 
-bashに適用する
+bashに適用する。
 ```
 source ~/.bashrc
 ```
@@ -62,7 +62,7 @@ source ~/.bashrc
 nodebrew install-binary v.5.5.0
 ```
 
-Node.jsとnpmが最新化された。
+`Node.js`と`npm`が最新化された。
 ```
 node -v
 v5.5.0
@@ -73,7 +73,7 @@ npm -v
 
 ## Electronのインストールとアプリ起動
 
-以下の通りコマンドを叩けば、最初のElectronアプリが起動する。
+以下の通りコマンドを叩けば、最初の`Electron`アプリが起動する。
 
 ```
 # Clone the Quick Start repository
@@ -86,7 +86,7 @@ $ cd electron-quick-start
 $ npm install && npm start
 ```
 
-ただ、ここからどうやっていじっていくか途方にくれた。そもそも、JavaScriptの書き方が分からない。基本的な文法は抑えているつもりだけど、実際にJavaScriptで何か作り上げた経験がないので、
+ただ、ここからどうやっていじっていくか途方にくれた。そもそも、JavaScriptの書き方が分からない。基本的な文法は抑えているつもりだけど、実際にJavaScriptで何か作り上げた経験がない。
 
 でも、どうせなら最新のJavaScriptの流れにも追いついておきたい。最新ホットな話題といえば、React.jsかなと安易に考え、とりあえず、React.jsのチュートリアルをやってみた。
 [チュートリアル | React](https://facebook.github.io/react/docs/tutorial-ja-JP.html)
