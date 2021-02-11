@@ -6,7 +6,34 @@
     <description>Recent content in git on SIS Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 27 Jul 2018 14:03:21 +0900</lastBuildDate><atom:link href="https://www.meganii.com/blog/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Feb 2021 11:23:06 +0900</lastBuildDate><atom:link href="https://www.meganii.com/blog/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git pre-commitフックでFrontmatterの「更新日時」を自動更新する</title>
+      <link>https://www.meganii.com/blog/2021/02/11/how-to-update-the-modification-date-of-content-with-git-precommit/</link>
+      <pubDate>Thu, 11 Feb 2021 11:23:06 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2021/02/11/how-to-update-the-modification-date-of-content-with-git-precommit/</guid>
+      <description>&lt;p&gt;今までブログ記事コンテンツの「更新日時」は&lt;code&gt;git&lt;/code&gt;の履歴情報を元にしていました。
+たとえば、&lt;code&gt;Hugo&lt;/code&gt;の場合は&lt;code&gt;enableGitInfo = true&lt;/code&gt;とすると、Gitの履歴情報からMarkdownの最終更新日時を自動で取得して&lt;code&gt;lastmod&lt;/code&gt;として割り当てられていました。&lt;/p&gt;
+&lt;p&gt;しかし、&lt;code&gt;GitHub Actions&lt;/code&gt;でHugoのビルドを行う際に、全履歴を取得するのをやめたことで、&lt;code&gt;Markdown&lt;/code&gt;の&lt;code&gt;lastmod&lt;/code&gt;の項目を見るように変更しています。&lt;/p&gt;
+&lt;p&gt;今後は&lt;code&gt;lastmod&lt;/code&gt;をメンテナンスする必要があるため、いちいち「更新日時」を手動更新するのではなく、&lt;code&gt;git&lt;/code&gt;の&lt;code&gt;pre-commit&lt;/code&gt;フックを利用して更新日時を自動更新する方法を調べました。&lt;/p&gt;
+&lt;aside&gt;
+  &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;
+      &lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;
+    &lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#git-hooksとは&#34;&gt;Git hooksとは&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#pre-commit-shell-script&#34;&gt;pre-commit shell script&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
     <item>
       <title>[デブサミ2018夏]富士フイルムソフトウエアはいかにして旧開発手法を捨ててGitHub Enterpriseを愛するようになったのか</title>
       <link>https://www.meganii.com/blog/2018/07/27/developers-summit-2018-summer-github-enterprise/</link>
