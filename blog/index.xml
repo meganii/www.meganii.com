@@ -27,7 +27,7 @@
       alt=&#34;Power AppsでMicrosoft Teamsのスレッドに出退勤をポストする&#34;&gt;
   &lt;/amp-img&gt;
 &lt;/figure&gt;
-&lt;p&gt;Power Apps入門として、リモートワーク開始と終了時に、Microsoft Teamsのスレッドに出勤、退勤をポストするというユースケースをPower Appsで実装しました。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Power Apps&lt;/code&gt;入門として、リモートワーク開始と終了時に、&lt;code&gt;Microsoft Teams&lt;/code&gt;のスレッドに出勤、退勤をポストするというユースケースを&lt;code&gt;Power Apps&lt;/code&gt;で実装しました。&lt;/p&gt;
 &lt;aside&gt;
   &lt;div class=&#34;toc&#34;&gt;
     &lt;header&gt;
@@ -200,6 +200,7 @@
       &lt;/ul&gt;
     &lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#参考ページ&#34;&gt;参考ページ&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#合わせて読みたい&#34;&gt;合わせて読みたい&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
   &lt;/div&gt;
@@ -5306,7 +5307,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Tue, 28 May 2013 21:02:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2013/05/28/sublime-vim/</guid>
-      <description>そろそろ重たい腰を上げて、vi系のコマンドを覚えたいなと思い始めたので、Sublime Text 2をVimっぽく操作するようにカスタマイズしてみようと思う。 Amazonでチェックする -- 参考にさせてもらいながら</description>
+      <description>そろそろ重たい腰を上げて、vi系のコマンドを覚えたいなと思い始めたので、Sublime Text 2をVimっぽく操作するようにカスタマイズしてみます。 Amazonでチェックする -- 参考にさせてもらいながら、設定</description>
     </item>
     
     <item>
