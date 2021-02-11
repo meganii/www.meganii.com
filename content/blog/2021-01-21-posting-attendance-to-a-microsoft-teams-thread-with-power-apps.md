@@ -1,7 +1,7 @@
 ---
 title: "Power AppsでMicrosoft Teamsのスレッドに出退勤をポストする"
 date: 2021-01-21T20:34:05+09:00
-lastmod: 2021-01-24T23:13:26+09:00
+lastmod: 2021-02-11T01:53:47+09:00
 published: true
 category: ["Tech"]
 tags: ["PowerApps","Teams"]
@@ -12,7 +12,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1611233437/powerapps_efyd
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1611233437/powerapps_efydgm.png" w="1024" h="512" %}}
 
-Power Apps入門として、リモートワーク開始と終了時に、Microsoft Teamsのスレッドに出勤、退勤をポストするというユースケースをPower Appsで実装しました。
+`Power Apps`入門として、リモートワーク開始と終了時に、`Microsoft Teams`のスレッドに出勤、退勤をポストするというユースケースを`Power Apps`で実装しました。
 
 {{% toc %}}
 
