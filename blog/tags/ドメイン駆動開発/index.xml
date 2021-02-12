@@ -14,8 +14,10 @@
       
       <guid>https://www.meganii.com/blog/2015/11/25/domain-services/</guid>
       <description>&lt;h2 id=&#34;ドメインサービスとは&#34;&gt;ドメインサービスとは？&lt;/h2&gt;
-&lt;p&gt;Windows Communication Foundation(WCF), Silverlight周りで出てくるドメインサービスとは一体なにものだろうか。ドメイン駆動設計(DDD)の文脈から読み解いてみる。&lt;/p&gt;
-&lt;p&gt;「サービス」と聞くと、粒度の粗いコンポーネント(リモートクライアントから複雑な業務システムを利用できるようにするもの)を想像するかもしれないが、ドメインサービスは違う。また、アプリケーションサービスも頭に思い浮かぶかもしれないが、それも違う。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Windows Communication Foundation(WCF)&lt;/code&gt;, &lt;code&gt;Silverlight&lt;/code&gt;周りで出てくるドメインサービスとは一体なにものだろうか。
+ドメイン駆動設計（DDD）の文脈から読み解いてみる。&lt;/p&gt;
+&lt;p&gt;「サービス」と聞くと、粒度の粗いコンポーネント（リモートクライアントから複雑な業務システムを利用できるようにするもの）を想像するかもしれないが、ドメインサービスは違う。
+また、アプリケーションサービスも頭に思い浮かぶかもしれないが、それも違う。&lt;/p&gt;
 &lt;p&gt;アプリケーションサービスには、ビジネスロジックを組み込みたくないが、ドメインサービスにはビジネスロジックを組み込んでおきたい。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;時には単純に「物」や「値」にはできないこともある。&lt;/p&gt;

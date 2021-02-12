@@ -387,6 +387,17 @@
       
       <guid>https://www.meganii.com/blog/2020/09/27/further-optimizing-amp-with-amp-optimizer/</guid>
       <description>&lt;p&gt;以前、&lt;a href=&#34;https://amp.dev/documentation/guides-and-tutorials/optimize-and-measure/optimize_amp/?referrer=ampproject.org#preload-hero-images&#34;&gt;Optimize your hosted AMP pages - amp.dev&lt;/a&gt;を読みながらAMPの最適化を行いました。&lt;/p&gt;
+&lt;div class=&#34;border border-grey-light rounded my-4&#34;&gt;
+    &lt;div class=&#34;lg:flex mx-2 p-3 relative&#34;&gt;
+        &lt;div class=&#34;lg:w-4/5&#34;&gt;
+            &lt;a href=&#34;https://www.meganii.com/blog/2019/10/11/optimize-amp/&#34;&gt;&lt;strong&gt;AMPページの最適化〜ぼくのAMPサイトがこんなに遅い訳がない〜 - SIS Lab&lt;/strong&gt;&lt;/a&gt;
+            &lt;div class=&#34;text-sm leading-tight&#34;&gt;このサイトもAMP対応したのだから、LighthouseやPageSpeed Insightsのスコアもきっと高いはずと計測してみたところ、全然スコアが出ていなかったので改善しました。その時のメモを残 …&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;m-2 lg:flex-none lg:w-1/5 h-20 relative&#34;&gt;
+            &lt;amp-img class=&#34;contain&#34; src=&#34;https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png&#34; layout=&#34;fill&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;今回は、さらに一歩進み&lt;code&gt;AMP Optimizer&lt;/code&gt;によるAMPの最適化を試してみました。結果は、&lt;code&gt;Web Core Vital&lt;/code&gt;の1つである&lt;code&gt;Largest Content Full Paint&lt;/code&gt;を40%改善できました。&lt;/p&gt;
 &lt;p&gt;対応した内容と結果をまとめています。&lt;/p&gt;
 &lt;aside&gt;
@@ -4211,8 +4222,10 @@ git pushでブログデプロイ&lt;/p&gt;
       
       <guid>https://www.meganii.com/blog/2015/11/25/domain-services/</guid>
       <description>&lt;h2 id=&#34;ドメインサービスとは&#34;&gt;ドメインサービスとは？&lt;/h2&gt;
-&lt;p&gt;Windows Communication Foundation(WCF), Silverlight周りで出てくるドメインサービスとは一体なにものだろうか。ドメイン駆動設計(DDD)の文脈から読み解いてみる。&lt;/p&gt;
-&lt;p&gt;「サービス」と聞くと、粒度の粗いコンポーネント(リモートクライアントから複雑な業務システムを利用できるようにするもの)を想像するかもしれないが、ドメインサービスは違う。また、アプリケーションサービスも頭に思い浮かぶかもしれないが、それも違う。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Windows Communication Foundation(WCF)&lt;/code&gt;, &lt;code&gt;Silverlight&lt;/code&gt;周りで出てくるドメインサービスとは一体なにものだろうか。
+ドメイン駆動設計（DDD）の文脈から読み解いてみる。&lt;/p&gt;
+&lt;p&gt;「サービス」と聞くと、粒度の粗いコンポーネント（リモートクライアントから複雑な業務システムを利用できるようにするもの）を想像するかもしれないが、ドメインサービスは違う。
+また、アプリケーションサービスも頭に思い浮かぶかもしれないが、それも違う。&lt;/p&gt;
 &lt;p&gt;アプリケーションサービスには、ビジネスロジックを組み込みたくないが、ドメインサービスにはビジネスロジックを組み込んでおきたい。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;時には単純に「物」や「値」にはできないこともある。&lt;/p&gt;
