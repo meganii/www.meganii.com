@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html ⚡ lang='{{ .Site.LanguageCode }}' class="text-gray-800">
+{{- partial "head.html" . -}}
+<body>
+
+  <amp-iframe
+  width="420"
+  height="554"
+  id="scrollFrame"
+  layout="responsive"
+  scrolling="yes"
+  frameborder="0"
+  sandbox="allow-scripts allow-popups allow-top-navigation"
+  src="/search.html?q=Hugo&ie=UTF-8">
+  <amp-img layout="fill" src="https://foo.com/foo.png" placeholder></amp-img>
+  </amp-iframe>
+  
+  {{- partial "footer.html" . -}}
+  {{- partial "sw.html" . -}}
+</body>
+</html>
