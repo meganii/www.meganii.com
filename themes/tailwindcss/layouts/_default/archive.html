@@ -13,32 +13,29 @@
 
       {{ range (where .Pages "Type" $type) }}
       {{ if $isGroupKey }}
-      <h1 class="font-bold mt-2">{{ .Date.Format "2006" }}年 ({{ $count }})</h1>
+      <h3 class="font-bold mt-2">{{ .Date.Format "2006" }}年 ({{ $count }})</h3>
       {{ $isGroupKey = false}}
       {{ end }}
       {{ end }}
 
       {{ $isGroupKey = true}}
 
-      <ul class="">
+      <ul class="mt-2">
         {{ range (where .Pages "Type" $type) }}
-        <li>
+        <li class="mt-2">
           <a class="" href="{{ .RelPermalink }}">
-            <span class="">{{ .Date.Format "01/02" }}</span> — {{ .Title }}
+            <div class="flex">
+              <div class="w-2/12 md:w-1/12">{{ .Date.Format "01/02" }}</div>
+              {{/*  <div class="w-2/12">{{ .Params.Category }}</div>  */}}
+              <div class="w-10/12 md:w-11/12">{{ .Title }}</div>
+            </div>
           </a>
         </li>
         {{ end }}
       </ul>
 
-      <br>
-
       {{ end }}
       {{ end }}
-    </div>
-  </section>
-  <section>
-    <div class="mt-8">
-      {{- partial "share.html" . -}}
     </div>
   </section>
 </article>
