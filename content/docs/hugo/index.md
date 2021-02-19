@@ -2,7 +2,7 @@
 title: "静的サイトジェネレータHugo"
 date: 2017-12-31T05:23:39+09:00
 lastmod: 2021-02-19T23:05:29+09:00
-img: 'images/meganii_logo.png'
+img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png"
 ---
 
 
@@ -63,3 +63,8 @@ img: 'images/meganii_logo.png'
 - [はてなダイアリーからはてなブログ経由で独自ドメインのブログに記事を移行しました](https://www.meganii.com/blog/2017/12/22/migration-hatena-diary-to-custom-domain-via-hatena-blog/)
 - [JekyllからHugoへの移行ポイント](https://www.meganii.com/blog/2015/08/30/migration-jekyll-to-hugo/)
 - [Hugoで生成した静的サイトのホスト先をさくらVPSからNetlifyに変更する](https://www.meganii.com/blog/2017/03/19/migrate-hugo-hosting-service-from-sakura-vps-to-netlify/)
+
+
+## 書籍
+
+{{% amazon 4844379208 %}}
