@@ -87,10 +87,9 @@
     </div>
     <div class="mt-2 lg:flex-none lg:w-1/5">
       <section>
-        <h3 class="text-xl font-bold">Category</h3>
-        {{ $BaseURL := .Site.BaseURL }}
-        {{range.Site.Menus.categories}}
-        <a class="ml-2 mt-2 block text-lg text-hover:text-grey-200" href="{{$BaseURL}}{{.URL}}">{{ .Title }}</a>
+        <h3 class="text-xl font-bold">Categories</h3>
+        {{range sort .Site.Taxonomies.category "Count" "desc"}}
+        <a class="ml-2 mt-2 block text-lg text-hover:text-grey-200" href="{{.Page.Permalink}}">{{ .Page.Title }}</a>
         {{end}}
       </section>
       <section class="mt-2 p-1">

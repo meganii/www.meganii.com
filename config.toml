@@ -99,11 +99,23 @@ homepage = "https://www.meganii.com/"
 
 [menu]
   [[menu.categories]]
+  identifier = "about"
+  name = "About for this site"
+  title = "About"
+  url = "about/"
+  weight = 1
+  [[menu.categories]]
   identifier = "archives"
   name = "This is the archives section"
   title = "Archives"
   url = "blog/archives/"
   weight = 5
+  [[menu.categories]]
+  identifier = "docs"
+  name = "docs"
+  title = "Docs"
+  url = "docs/"
+  weight = 6
   [[menu.categories]]
   identifier = "tech"
   name = "This is the tech section"
@@ -116,24 +128,6 @@ homepage = "https://www.meganii.com/"
   title = "Life"
   url = "blog/category/life/"
   weight = 20
-  [[menu.categories]]
-  identifier = "travel"
-  name = "This is the travel section"
-  title = "Travel"
-  url = "blog/category/travel/"
-  weight = 30
-  [[menu.categories]]
-  identifier = "activity"
-  name = "This is the travel section"
-  title = "Activity"
-  url = "blog/category/activity/"
-  weight = 30
-  [[menu.categories]]
-  identifier = "stationery"
-  name = "This is the stationery section"
-  title = "Stationery"
-  url = "blog/category/stationery/"
-  weight = 40
   [[menu.categories]]
   identifier = "book"
   name = "This is the book section"
