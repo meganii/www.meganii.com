@@ -1,9 +1,9 @@
 ---
 title: ''
 date: 2017-02-25T23:21:20+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2021-02-20T08:41:43+09:00
 comments: true
-category: ['Sience']
+category: ['Science']
 tags: ['Evolution']
 published: false
 slug: shinkai-6500-jamstec
