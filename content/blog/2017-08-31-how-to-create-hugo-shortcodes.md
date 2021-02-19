@@ -1,7 +1,7 @@
 ---
 title: "Hugo Shortcodesの作り方"
 date: 2017-08-31T20:36:39+09:00
-lastmod: 2021-01-30T17:56:10+09:00
+lastmod: 2021-02-19T23:05:29+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo', 'shortcodes']
@@ -220,7 +220,7 @@ v: {{ $v }} {{/* => init */}}
 おすすめのShortcodesがあったらぜひ教えてください。
 
 
-{{% amazon B01LMS7B1O %}}
+{{% amazon 477418392X %}}
 
 
 
