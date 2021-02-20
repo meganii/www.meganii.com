@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>rack on SIS Lab</title>
+    <title>Rack on SIS Lab</title>
     <link>https://www.meganii.com/blog/tags/rack/</link>
-    <description>Recent content in rack on SIS Lab</description>
+    <description>Recent content in Rack on SIS Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 06 Mar 2012 06:27:15 +0900</lastBuildDate><atom:link href="https://www.meganii.com/blog/tags/rack/index.xml" rel="self" type="application/rss+xml" />
@@ -14,6 +14,15 @@
       
       <guid>https://www.meganii.com/blog/2012/03/06/1330982835/</guid>
       <description>Sinatraとか、Sinatraで実装されているLokkaとか触ってるときに、そもそもRackってなんだ？って思って調べました。 前回のSinatra触ってると出てくるRackって何？ - SIS Lab の続きです</description>
+    </item>
+    
+    <item>
+      <title>Sinatra触ってると出てくるRackって何？</title>
+      <link>https://www.meganii.com/blog/2012/02/01/1328105758/</link>
+      <pubDate>Wed, 01 Feb 2012 23:15:58 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2012/02/01/1328105758/</guid>
+      <description>Sinatraを触ってると、Rackがいろんなところで出てくるが、いまいちわからないので調べた。 Rackとは ミドルウェアである 別のアプリケーションをラップして、リクエストやレスポンスの加工、処理を切り</description>
     </item>
     
   </channel>
