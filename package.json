@@ -9,7 +9,7 @@
     "serve:prod": "nohup ts-node src/app.ts &",
     "stop": "kill -9 $(lsof -t -i:6060)",
     "dev": "hugo server -D -F",
-    "build": "run-s serve:prod build:hugo stop",
+    "build": "run-p serve:prod build:hugo stop",
     "build:hugo": "hugo && exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
