@@ -60,20 +60,21 @@
       <pubDate>Fri, 15 Jan 2021 06:35:29 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2021/01/15/how-to-set-up-hhkb-to-switch-comfortably-between-win-mac-and-ipad/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1610490200/how-to-setup-hhkb_gktyqo.png&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/how-to-setup-hhkb_gktyqo.png 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/how-to-setup-hhkb_gktyqo.png 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/how-to-setup-hhkb_gktyqo.png 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/how-to-setup-hhkb_gktyqo.png 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/how-to-setup-hhkb_gktyqo.png 320w&#34;
-      width=&#34;1024&#34;
-      height=&#34;512&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;Happy Hacking Keyboard（HHKB）をWindows/Mac/iPadで快適に使う方法&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1610490200/how-to-setup-hhkb_gktyqo.png&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/how-to-setup-hhkb_gktyqo.png 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/how-to-setup-hhkb_gktyqo.png 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/how-to-setup-hhkb_gktyqo.png 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/how-to-setup-hhkb_gktyqo.png 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/how-to-setup-hhkb_gktyqo.png 320w&#34;
+        width=&#34;1024&#34;
+        height=&#34;512&#34;
+        heights=&#34;(min-width:600px) 400px, 80%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;Happy Hacking Keyboard（HHKB）をWindows/Mac/iPadで快適に使う方法&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;複数OS（Windows、macOS、iPadOS）でHappy Hacking Keyboard（以降HHKBと表記）を利用していると、OS間で微妙にキーボード操作が異なることにストレスを覚えることはないでしょうか。&lt;/p&gt;
 &lt;p&gt;私は昨年（2020年）にHHKBを購入し、複数OSで利用し始めましたが、OS切替時の些細なストレスが気になり始めました。
 そこで、HHKBとOSの最適な設定を模索し、今時点の自分にとって最適な設定をまとめてみました。&lt;/p&gt;
@@ -111,20 +112,21 @@
       
       <guid>https://www.meganii.com/blog/2020/11/28/review-sony-wh-1000xm4-wireless-noise-canceling-headphones/</guid>
       <description>&lt;p&gt;My new gear&amp;hellip;&lt;/p&gt;
-&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1606546130/IMG20201128154423_ww5bca.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG20201128154423_ww5bca.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG20201128154423_ww5bca.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG20201128154423_ww5bca.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG20201128154423_ww5bca.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG20201128154423_ww5bca.jpg 320w&#34;
-      width=&#34;3456&#34;
-      height=&#34;3456&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;SONY WH-1000XM4 ワイヤレスノイズキャンセリングヘッドフォン&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1606546130/IMG20201128154423_ww5bca.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG20201128154423_ww5bca.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG20201128154423_ww5bca.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG20201128154423_ww5bca.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG20201128154423_ww5bca.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG20201128154423_ww5bca.jpg 320w&#34;
+        width=&#34;3456&#34;
+        height=&#34;3456&#34;
+        heights=&#34;(min-width:600px) 400px, 80%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;SONY WH-1000XM4 ワイヤレスノイズキャンセリングヘッドフォン&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;初めてのワイヤレスノイズキャンセリングヘッドフォン「SONY WH-1000XM4」を購入して、2週間利用してみたのでその感想を書きます。&lt;/p&gt;
 &lt;aside&gt;
   &lt;div class=&#34;toc&#34;&gt;
@@ -155,34 +157,36 @@
       <pubDate>Sun, 25 Oct 2020 16:24:22 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/10/25/happy-hacking-keyboard-first-impression/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1609032770/happy-hacking-keyboard-package_hrb965.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/happy-hacking-keyboard-package_hrb965.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/happy-hacking-keyboard-package_hrb965.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/happy-hacking-keyboard-package_hrb965.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/happy-hacking-keyboard-package_hrb965.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/happy-hacking-keyboard-package_hrb965.jpg 320w&#34;
-      width=&#34;3456&#34;
-      height=&#34;2137&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;Happy Hacking Keyboardファーストインプレッション&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
-&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1609032771/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 320w&#34;
-      width=&#34;3456&#34;
-      height=&#34;2158&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;【レビュー】HHKB（Happy Hacking Keyboard）ファーストインプレッション&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1609032770/happy-hacking-keyboard-package_hrb965.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/happy-hacking-keyboard-package_hrb965.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/happy-hacking-keyboard-package_hrb965.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/happy-hacking-keyboard-package_hrb965.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/happy-hacking-keyboard-package_hrb965.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/happy-hacking-keyboard-package_hrb965.jpg 320w&#34;
+        width=&#34;3456&#34;
+        height=&#34;2137&#34;
+        heights=&#34;(min-width:600px) 400px, 80%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;Happy Hacking Keyboardファーストインプレッション&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
+&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1609032771/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 320w&#34;
+        width=&#34;3456&#34;
+        height=&#34;2158&#34;
+        heights=&#34;(min-width:600px) 400px, 80%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;【レビュー】HHKB（Happy Hacking Keyboard）ファーストインプレッション&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;ついに念願であったHappy Hacking Keyboard、通称HHKBを手に入れました。
 利用し始めてからのファーストインプレッションを残しておきます。&lt;/p&gt;
 &lt;aside&gt;
@@ -216,20 +220,21 @@
       <pubDate>Sat, 08 Aug 2020 19:01:18 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/08/08/kaizen-in-working-from-home/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1596868680/sansyouo_c9st0c.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/sansyouo_c9st0c.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/sansyouo_c9st0c.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/sansyouo_c9st0c.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/sansyouo_c9st0c.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/sansyouo_c9st0c.jpg 320w&#34;
-      width=&#34;1024&#34;
-      height=&#34;683&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;IO-DATA エルゴトロン&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1596868680/sansyouo_c9st0c.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/sansyouo_c9st0c.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/sansyouo_c9st0c.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/sansyouo_c9st0c.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/sansyouo_c9st0c.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/sansyouo_c9st0c.jpg 320w&#34;
+        width=&#34;1024&#34;
+        height=&#34;683&#34;
+        heights=&#34;(min-width:600px) 400px, 80%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;IO-DATA エルゴトロン&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;「特別定額給付金」の10万円でデスク環境を整備しよう！&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;「特別定額給付金」でデスク環境を整備すれば実質無料だと考え、かねてから欲しいと思っていたものをポチポチと購入しました。
 購入した金額を合計すると、149,750円。実質無料にはならずに、完全に足が出てしまいました。&lt;/p&gt;
@@ -266,20 +271,21 @@
       <pubDate>Sun, 26 Jul 2020 20:15:54 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/07/26/review-logicool-folio-touch-keyboard-case-with-trackpad/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1595772938/DSC00783_wakue1.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/DSC00783_wakue1.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/DSC00783_wakue1.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/DSC00783_wakue1.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/DSC00783_wakue1.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/DSC00783_wakue1.jpg 320w&#34;
-      width=&#34;5472&#34;
-      height=&#34;3648&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;Logicool Folio Touch Keyboard Case with Trackpad for 11インチiPad Pro&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+      <description>&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1595772938/DSC00783_wakue1.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/DSC00783_wakue1.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/DSC00783_wakue1.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/DSC00783_wakue1.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/DSC00783_wakue1.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/DSC00783_wakue1.jpg 320w&#34;
+        width=&#34;5472&#34;
+        height=&#34;3648&#34;
+        heights=&#34;(min-width:600px) 400px, 80%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;Logicool Folio Touch Keyboard Case with Trackpad for 11インチiPad Pro&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;「キーボードとトラックパッドが使えて、高価な&lt;code&gt;iPad Pro&lt;/code&gt;を保護してくれるケースが欲しい」&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;そう思っているうちに、Apple純正である「&lt;a href=&#34;https://amzn.to/2DcdIwQ&#34;&gt;Apple Magic Keyboard&lt;/a&gt;」以外にも、ロジクールからトラックパッド付きのキーボードが出たので買ってみました。&lt;/p&gt;
 &lt;p&gt;そもそも初の&lt;code&gt;iPad Pro&lt;/code&gt;、そして&lt;code&gt;Retina&lt;/code&gt;ディスプレイです。&lt;code&gt;MacBook Air (2013 mid)&lt;/code&gt;と比べると綺麗でよいですね。
@@ -327,20 +333,21 @@ Scrapboxやメモ書き、ブログの下書き、普段のネットサーフィ
       
       <guid>https://www.meganii.com/blog/2018/12/27/duet-display/</guid>
       <description>&lt;p&gt;「Duet Display」を利用して、iPadをMacBook Airの外部ディスプレイにしました。&lt;/p&gt;
-&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1545912024/IMG_3354_mitbmm.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG_3354_mitbmm.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG_3354_mitbmm.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_3354_mitbmm.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_3354_mitbmm.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_3354_mitbmm.jpg 320w&#34;
-      width=&#34;4032&#34;
-      height=&#34;3024&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;「Duet Display」を利用して余っていたiPadを外部ディスプレイにする&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1545912024/IMG_3354_mitbmm.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG_3354_mitbmm.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG_3354_mitbmm.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_3354_mitbmm.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_3354_mitbmm.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_3354_mitbmm.jpg 320w&#34;
+        width=&#34;4032&#34;
+        height=&#34;3024&#34;
+        heights=&#34;(min-width:600px) 400px, 80%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;「Duet Display」を利用して余っていたiPadを外部ディスプレイにする&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;念願のデュアルディスプレイです。&lt;/p&gt;
 &lt;p&gt;定価は2,400円ですが、今なら（2018/12/27現在）半額セールが行われており、なんと1,200円。これは買うしかないということで、自分へのクリスマスプレゼントとして購入しました。&lt;/p&gt;</description>
     </item>
@@ -352,51 +359,54 @@ Scrapboxやメモ書き、ブログの下書き、普段のネットサーフィ
       
       <guid>https://www.meganii.com/blog/2018/07/05/cores-gold-coffee-filter/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://amzn.to/2u7Q24D&#34;&gt;コレス ゴールドフィルター&lt;/a&gt;を手に入れました。&lt;/p&gt;
-&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2817_jjmfro.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG_2817_jjmfro.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG_2817_jjmfro.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2817_jjmfro.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2817_jjmfro.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2817_jjmfro.jpg 320w&#34;
-      width=&#34;3024&#34;
-      height=&#34;3024&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;コレス ゴールドフィルターを使ってハンドドリップコーヒーを楽しむ&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2817_jjmfro.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG_2817_jjmfro.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG_2817_jjmfro.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2817_jjmfro.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2817_jjmfro.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2817_jjmfro.jpg 320w&#34;
+        width=&#34;3024&#34;
+        height=&#34;3024&#34;
+        heights=&#34;(min-width:600px) 400px, 80%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;コレス ゴールドフィルターを使ってハンドドリップコーヒーを楽しむ&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;てってれー金に輝くゴールドフィルター&#34;&gt;てってれー！金に輝くゴールドフィルター&lt;/h2&gt;
 &lt;p&gt;フィルターを配置するホルダー付きです。&lt;/p&gt;
-&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2813_zf0mui.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG_2813_zf0mui.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG_2813_zf0mui.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2813_zf0mui.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2813_zf0mui.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2813_zf0mui.jpg 320w&#34;
-      width=&#34;3024&#34;
-      height=&#34;3024&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;コレス ゴールドフィルターを使ってハンドドリップコーヒーを楽しむ&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2813_zf0mui.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG_2813_zf0mui.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG_2813_zf0mui.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2813_zf0mui.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2813_zf0mui.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2813_zf0mui.jpg 320w&#34;
+        width=&#34;3024&#34;
+        height=&#34;3024&#34;
+        heights=&#34;(min-width:600px) 400px, 80%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;コレス ゴールドフィルターを使ってハンドドリップコーヒーを楽しむ&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;コーヒー粉を入れるとこんな感じになります。&lt;/p&gt;
-&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2816_wvcsiq.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG_2816_wvcsiq.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG_2816_wvcsiq.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2816_wvcsiq.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2816_wvcsiq.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2816_wvcsiq.jpg 320w&#34;
-      width=&#34;3024&#34;
-      height=&#34;3024&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;コレス ゴールドフィルターを使ってハンドドリップコーヒーを楽しむ&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;</description>
+&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2816_wvcsiq.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG_2816_wvcsiq.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG_2816_wvcsiq.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2816_wvcsiq.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2816_wvcsiq.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2816_wvcsiq.jpg 320w&#34;
+        width=&#34;3024&#34;
+        height=&#34;3024&#34;
+        heights=&#34;(min-width:600px) 400px, 80%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;コレス ゴールドフィルターを使ってハンドドリップコーヒーを楽しむ&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;</description>
     </item>
     
   </channel>
