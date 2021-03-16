@@ -10,7 +10,7 @@ slug: "consider-purchasing-a-desktop-pc"
 img: "https://res.cloudinary.com/meganii/image/upload/c_fill,f_auto,g_center,h_768,q_auto:good,w_1024/v1615812694/bjorn-agerbeek-FFsNZH75rHY-unsplash_nbfq74.jpg"
 ---
 
-<amp-img src="https://res.cloudinary.com/meganii/image/upload/c_fill,f_auto,g_center,h_400,q_auto,w_1024/v1615812694/bjorn-agerbeek-FFsNZH75rHY-unsplash_nbfq74.jpg" width="1024" height="400">
+<amp-img src="https://res.cloudinary.com/meganii/image/upload/c_fill,f_auto,g_center,h_400,q_auto,w_1024/v1615812694/bjorn-agerbeek-FFsNZH75rHY-unsplash_nbfq74.jpg" width="1024" height="400" layout="responsive">
 </amp-img>
 
 **「MacではなくデスクトップPCが欲しい」**
