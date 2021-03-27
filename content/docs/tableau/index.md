@@ -1,7 +1,7 @@
 ---
 title: "Tableau"
 date: 2021-02-19T23:05:29+09:00
-lastmod: 2021-02-19T23:05:29+09:00
+lastmod: 2021-03-27T20:10:59+09:00
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1579905055/thumb_tableau_czhjxd.png"
 ---
 
@@ -26,8 +26,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 - [【Tableau】カテゴリ別の上位と下位Nを表示する](https://www.meganii.com/blog/2020/02/27/showing-top-and-bottom-n-per-category-in-tableau/)
 - [【Tableau】「結合済みフィールド」\(Combined Fields\)を利用して任意のソート順を定義する](https://www.meganii.com/blog/2020/02/10/sorting-dimensions-by-conbined-fields-in-tableau/)
 - [【Tableau】Google AnalyticsをデータソースとしてTableau Desktopでアクセス解析を行う](https://www.meganii.com/blog/2020/01/04/web-analytics-by-tableau-using-data-of-google-analytics/)
-
-
+- [【Tableau】Personal Access TokensでTableau REST APIを利用する \- SIS Lab](https://www.meganii.com/blog/2021/03/27/how-to-use-tableau-rest-api-with-personal-access-tokens/)
 
 
 
