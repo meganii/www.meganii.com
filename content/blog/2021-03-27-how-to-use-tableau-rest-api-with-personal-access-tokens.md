@@ -1,7 +1,7 @@
 ---
 title: "【Tableau】Personal Access TokensでTableau REST APIを利用する"
 date: 2021-03-27T11:57:30+09:00
-lastmod: 2021-03-27T11:57:30+09:00
+lastmod: 2021-03-27T17:37:19+09:00
 published: true
 category: ["Tech"]
 tags: ["Tableau","Python"]
@@ -204,6 +204,19 @@ print('Sign out successful!')
 
 `Personal Access Tokens`による`Tableau REST API`の利用方法がわかりました。
 これにより、Tableau Server（Tableau Online）に関連する作業の自動化が行えるようになりましたので、今後利用シーンも考えてみたいです。
+
+
+## 参考
+
+- Personal Access Tokensの利用推奨について
+    - [Better Tableau REST API Security with Personal Access Tokens \- The Information Lab](https://www.theinformationlab.co.uk/2019/11/01/better-tableau-rest-api-security-with-personal-access-tokens/)
+    - [Personal Access Tokens \- Tableau](https://help.tableau.com/current/server/en-us/security_personal_access_tokens.htm)
+- 認証の仕組み
+    - [Authentication\-Tableau Server REST API \- Tableau](https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_concepts_auth.htm)
+- REST APIリスト
+    - [Reference\-Tableau Server REST API \- Tableau](https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_ref.htm)
+- Java / Pythonによる`REST API`サンプルコード
+    - [tableau/rest\-api\-samples: Samples for the Tableau REST API](https://github.com/tableau/rest-api-samples)
 
 
 {{% amazon 4798159743 %}}
