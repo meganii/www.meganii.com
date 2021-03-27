@@ -6,7 +6,41 @@
     <description>Recent content in Python on SIS Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 18 Jun 2017 21:54:26 +0900</lastBuildDate><atom:link href="https://www.meganii.com/blog/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Mar 2021 11:57:30 +0900</lastBuildDate><atom:link href="https://www.meganii.com/blog/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【Tableau】Personal Access TokensでTableau REST APIを利用する</title>
+      <link>https://www.meganii.com/blog/2021/03/27/how-to-use-tableau-rest-api-with-personal-access-tokens/</link>
+      <pubDate>Sat, 27 Mar 2021 11:57:30 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2021/03/27/how-to-use-tableau-rest-api-with-personal-access-tokens/</guid>
+      <description>&lt;p&gt;Tableau Server（Tableau Online）のユーザ一覧を取得したいが、Web上からCSV出力機能のようなものが見当たりません。
+調べてみると、&lt;code&gt;Tableau REST API&lt;/code&gt;を利用した取得方法があり、この&lt;code&gt;Tableau REST API&lt;/code&gt;を試してみたときのメモです。&lt;/p&gt;
+&lt;aside&gt;
+  &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;
+      &lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;
+    &lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#tableau-rest-apiとは&#34;&gt;Tableau REST APIとは&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#認証方法&#34;&gt;認証方法&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#personal-access-tokenの作成方法&#34;&gt;&lt;code&gt;Personal Access Token&lt;/code&gt;の作成方法&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#personal-access-tokenによるtableau-rest-apiの利用&#34;&gt;&lt;code&gt;Personal Access Token&lt;/code&gt;によるTableau REST APIの利用&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#今回の前提環境&#34;&gt;今回の前提環境&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#tableau-onlineのユーザ一覧を取得するpythonスクリプトのサンプル&#34;&gt;&lt;code&gt;Tableau Online&lt;/code&gt;のユーザ一覧を取得するPythonスクリプトのサンプル&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#まとめ&#34;&gt;まとめ&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
     <item>
       <title>EDINETとXBRLとは何か？Pythonで財務諸表のデータを取得する</title>
       <link>https://www.meganii.com/blog/2017/06/18/what-is-edinet-xbrl/</link>
