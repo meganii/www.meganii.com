@@ -1,7 +1,7 @@
 ---
 title: "【レビュー】OMEN By HP 25L Desktop #OMENのある生活"
 date: 2021-03-20T21:13:27+09:00
-lastmod: 2021-03-21T19:58:44+09:00
+lastmod: 2021-03-27T20:02:49+09:00
 published: true
 category: ["Gadget"]
 tags: ["Windows"]
@@ -32,7 +32,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 - IEEE 802.11ax (Wi-Fi 6)、 Bluetooth 5.0
 
 最後までAMD Ryzenモデルと悩んだが、意外とIntel Coreの方が求める性能に近かったのでIntelモデルにした。
-GPUは`GeForce RTX 1060 Super`にランクを落せば値段を下げられたが、この部分でケチって後悔するのも嫌だったので、ワンランク上げた`GeForce RTX 2060`にした。
+GPUは`GeForce GTX 1660 SUPER`にランクを落せば値段を下げられたが、この部分でケチって後悔するのも嫌だったので、ワンランク上げた`GeForce RTX 2060`にした。
 ディスクは、SSD 256GB + HDD 2TBと少しSSDの容量に不安があるが、現行MacBook Airが256GBで足りていることから問題なしと判断した。
 あとは、無線モジュール内蔵のモデルがなかったので、選択肢は絞られた。
 
