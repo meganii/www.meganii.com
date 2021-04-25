@@ -1,15 +1,15 @@
 ---
 title: "「第4回 リアル・ウォンテッドリー」に行ってきました"
 date: 2015-08-04T20:39:29+09:00
-lastmod: 2021-04-24T21:28:33+09:00
+lastmod: 2021-04-25T11:03:04+09:00
 category: ['Tech']
 tags: ['転職','wantedly', 'イベントレポート', 'Event']
 published: true
 slug: real-wantedly
-img: realwantedly-4.jpg
+img: https://res.cloudinary.com/meganii/image/upload/v1619316008/realwantedly-4_xtctni.jpg
 ---
 
-{{% img src="/images/realwantedly-4.jpg" w="3" h="2" alt="wantedly" %}}
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1619316008/realwantedly-4_xtctni.jpg" w="600" h="348" alt="第4回 リアル・ウォンテッドリー" %}}
 
 
 [「第4回 リアル・ウォンテッドリー」運命のチームやシゴト・インターンに出会えるイベント　by Wantedly](https://www.wantedly.com/campaign/real_wantedly_4)
