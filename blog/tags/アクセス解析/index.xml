@@ -14,7 +14,13 @@
       
       <guid>https://www.meganii.com/blog/2020/01/04/web-analytics-by-tableau-using-data-of-google-analytics/</guid>
       <description>&lt;p&gt;&lt;code&gt;Tableau Desktop&lt;/code&gt;の14日間トライアルを実施しました。その中で、Google Analyticsを&lt;code&gt;データソース&lt;/code&gt;として利用したアクセス解析を試してみましたので、その内容をまとめます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.tableau.com/ja-jp/products/trial&#34;&gt;Tableau 無料トライアルの開始: トライアル版のダウンロードはこちらから&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://www.tableau.com/ja-jp/products/trial&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  Tableau 無料トライアルの開始: トライアル版のダウンロードはこちらから
+&lt;/a&gt;&lt;/p&gt;
 &lt;aside&gt;
   &lt;div class=&#34;toc&#34;&gt;
     &lt;header&gt;
@@ -55,7 +61,7 @@
       <pubDate>Wed, 03 Dec 2014 07:21:00 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2014/12/03/google-analytics/</guid>
-      <description>Google Analyticsのレポートをたまにみるのだが、どこに着目すればいいのか？どんな指標を比べればいいのかわからなかったため、一度読んでみる。 Amazonでチェックする -- Google Analyticsの罠 デフォル</description>
+      <description>Google Analyticsのレポートをたまにみるのだが、どこに着目すればいいのか？どんな指標を比べればいいのかわからなかったため、一度読んでみる。 現場でプロが培った Google Analyticsの使い方 (WEB PROFES</description>
     </item>
     
   </channel>

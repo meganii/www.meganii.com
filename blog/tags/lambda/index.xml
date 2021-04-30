@@ -25,11 +25,29 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/gettingstarted-limits.html&#34;&gt;AWS Lambda の制限 - AWS Lambda&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/gettingstarted-limits.html&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  AWS Lambda の制限 - AWS Lambda
+&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;puppeteer&lt;/code&gt;を普通に利用すると&lt;code&gt;chronium&lt;/code&gt;を同梱しているため、どうしても50MBの制限を超えてしまいます。この制限を回避するためには以下で公開いただいているような、軽量な&lt;code&gt;Chromium Binary&lt;/code&gt;を利用する必要があります。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/alixaxel/chrome-aws-lambda&#34;&gt;alixaxel/chrome-aws-lambda: Chromium Binary for AWS Lambda and Google Cloud Functions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/adieuadieu/serverless-chrome&#34;&gt;adieuadieu/serverless-chrome: 🌐 Run headless Chrome/Chromium on AWS Lambda&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://github.com/alixaxel/chrome-aws-lambda&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  alixaxel/chrome-aws-lambda: Chromium Binary for AWS Lambda and Google Cloud Functions
+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://github.com/adieuadieu/serverless-chrome&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  adieuadieu/serverless-chrome: 🌐 Run headless Chrome/Chromium on AWS Lambda
+&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;今回は、&lt;code&gt;chrome-aws-lambda&lt;/code&gt;を利用する手順を紹介します。&lt;/p&gt;
 &lt;aside&gt;

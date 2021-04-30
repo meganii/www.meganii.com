@@ -14,12 +14,36 @@
       
       <guid>https://www.meganii.com/blog/2017/07/23/http2-server-push-on-netlify/</guid>
       <description>&lt;p&gt;いつのまにかNetlifyでServer Pushができるようになったようです。このアナウンスに伴い、今までFreeアカウントでは利用できなかった&lt;code&gt;_headers&lt;/code&gt;ファイルが有効になっています。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.netlify.com/blog/2017/07/18/http/2-server-push-on-netlify/&#34;&gt;HTTP/2 Server Push on Netlify | Netlify&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://www.netlify.com/blog/2017/07/18/http/2-server-push-on-netlify/&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  HTTP/2 Server Push on Netlify | Netlify
+&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;HTTP/2, Server Pushの詳細を理解しているわけではないので詳しくは説明できないのですが、Server Pushにより1回分の通信を節約でき、レンダリングブロックとなるCSSのクリティカルパスを解消できるとの理解です。&lt;/p&gt;
-&lt;p&gt;HTTP/2については&lt;a href=&#34;https://twitter.com/kazuho&#34;&gt;@kazuho&lt;/a&gt;さんのスライドが超絶参考になります。&lt;/p&gt;
+&lt;p&gt;HTTP/2については&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://twitter.com/kazuho&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  @kazuho
+&lt;/a&gt;さんのスライドが超絶参考になります。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.slideshare.net/kazuho/http2-51888328&#34;&gt;HTTP/2時代のウェブサイト設計&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.slideshare.net/kazuho/http2-70006550&#34;&gt;HTTP/2の課題と将来&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://www.slideshare.net/kazuho/http2-51888328&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  HTTP/2時代のウェブサイト設計
+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://www.slideshare.net/kazuho/http2-70006550&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  HTTP/2の課題と将来
+&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     

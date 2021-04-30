@@ -34,7 +34,13 @@
   &lt;amp-img src=&#34;
   https://farm6.staticflickr.com/5624/21367186743_cbcb0e5268_z.jpg&#34; alt=&#34;http/2ベンチマークツール「h2load」をインストール https://farm6.staticflickr.com/5624/21367186743_cbcb0e5268_z.jpg&#34; width=640 height=313 layout=responsive&gt;&lt;/amp-img&gt;
 &lt;/figure&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/86979666@N00/21367186743/&#34; title=&#34;4 Good Reasons for Using HTTP/2 / Tsahi Levent-Levi&#34;&gt;4 Good Reasons for Using HTTP/2 / Tsahi Levent-Levi&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://www.flickr.com/photos/86979666@N00/21367186743/&#34;
+   title=&#34;4 Good Reasons for Using HTTP/2 / Tsahi Levent-Levi&#34;
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  4 Good Reasons for Using HTTP/2 / Tsahi Levent-Levi
+&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

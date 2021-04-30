@@ -17,7 +17,13 @@
   &lt;amp-img src=&#34;
   https://i.gyazo.com/aa727ee506684862329b98313fcce28a.png&#34; alt=&#34;Lets&amp;#39;s Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化 https://i.gyazo.com/aa727ee506684862329b98313fcce28a.png&#34; width=829 height=446 layout=responsive&gt;&lt;/amp-img&gt;
 &lt;/figure&gt;
-&lt;p&gt;この&lt;a href=&#34;https://www.meganii.com&#34;&gt;meganii.com&lt;/a&gt;は、Lets&amp;rsquo;s Encryptで証明書を発行しています。しばらくは、仕組みがよく分かっていないので手動で更新しようと、3ヶ月に一回は更新するようにしていたのですが、ついに昨日、証明書の期限切れでアクセス出来ない状態になりました。。。(なんというお間抜けな話)&lt;/p&gt;
+&lt;p&gt;この&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://www.meganii.com&#34;
+  
+  &gt;
+  meganii.com
+&lt;/a&gt;は、Lets&amp;rsquo;s Encryptで証明書を発行しています。しばらくは、仕組みがよく分かっていないので手動で更新しようと、3ヶ月に一回は更新するようにしていたのですが、ついに昨日、証明書の期限切れでアクセス出来ない状態になりました。。。(なんというお間抜けな話)&lt;/p&gt;
 &lt;p&gt;慌ててcertbotを実行させて証明書を更新しようとしたのですが、前回の更新が上手くいっていなかったみたいでrenewできませんでした。&lt;/p&gt;
 &lt;p&gt;古い証明書を消して、新規で発行すればできたのでそのメモを残しておきます。&lt;/p&gt;</description>
     </item>

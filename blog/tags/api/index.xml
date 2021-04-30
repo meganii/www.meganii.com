@@ -47,7 +47,13 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;概要何が書いてあるか&#34;&gt;概要(何が書いてあるか)&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/google/google-api-ruby-client&#34;&gt;https://github.com/google/google-api-ruby-client&lt;/a&gt;のサンプルを参考に、プロジェクトの作成の仕方から、認証情報の作り方、Adsense用のコード&lt;/li&gt;
+&lt;li&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://github.com/google/google-api-ruby-client&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  https://github.com/google/google-api-ruby-client
+&lt;/a&gt;のサンプルを参考に、プロジェクトの作成の仕方から、認証情報の作り方、Adsense用のコード&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;どこにハマったか&#34;&gt;どこにハマったか？&lt;/h2&gt;
 &lt;ul&gt;

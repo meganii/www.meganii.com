@@ -13,7 +13,13 @@
       <pubDate>Tue, 22 Aug 2017 21:43:50 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2017/08/22/puppeteer/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/GoogleChrome/puppeteer&#34;&gt;GoogleChrome/puppeteer: Headless Chrome Node API&lt;/a&gt; というHeadless Chromeを操作するJavaScriptライブラリが出たので使ってみました。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://github.com/GoogleChrome/puppeteer&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  GoogleChrome/puppeteer: Headless Chrome Node API
+&lt;/a&gt; というHeadless Chromeを操作するJavaScriptライブラリが出たので使ってみました。&lt;/p&gt;</description>
     </item>
     
   </channel>

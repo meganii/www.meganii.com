@@ -29,7 +29,13 @@
   &lt;amp-img src=&#34;
   https://farm9.staticflickr.com/8455/29165784116_9084f95502_z.jpg&#34; alt=&#34;React &amp;#43; ElectronでFlickr連携可能なMarkdown Editorを作った https://farm9.staticflickr.com/8455/29165784116_9084f95502_z.jpg&#34; width=3 height=2 layout=responsive&gt;&lt;/amp-img&gt;
 &lt;/figure&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/&#34;&gt;Electron + Mithril.jsでFlickrアプリを作成する - SIS Lab&lt;/a&gt;で、自分専用のMarkdown-Editorを作りたいと思っていたので、今回Reactの勉強も兼ねて、Flickr連携できるMarkdown Editorを作成しました。&lt;/p&gt;
+&lt;p&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://www.meganii.com/blog/2016/02/28/electron-mithriljs-flickr-app/&#34;
+  
+  &gt;
+  Electron + Mithril.jsでFlickrアプリを作成する - SIS Lab
+&lt;/a&gt;で、自分専用のMarkdown-Editorを作りたいと思っていたので、今回Reactの勉強も兼ねて、Flickr連携できるMarkdown Editorを作成しました。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;最終的には、自分専用Markdownデスクトップアプリを、Electronで作成することが目標だ。Kobitoは便利で使ってるのだけど、そのままEvernoteに連携して欲しかったり、リンク作成の機能がまとまってると嬉しい。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -52,7 +58,7 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Wed, 11 May 2016 22:05:30 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2016/05/11/electron-mithril-amazon-linkbuilder/</guid>
-      <description>ElectronがElectron 1.0になったということで、以前作ったAmazon LinkbuilderをMithril.jsで置き換えてみました。(Electron v1.0.0がなったことはあまり</description>
+      <description>ElectronがElectron 1.0 になったということで、以前作ったAmazon LinkbuilderをMithril.jsで置き換えてみました。(Electron v1.0.0がなったことはあまり関係</description>
     </item>
     
     <item>
@@ -70,9 +76,21 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Sat, 20 Feb 2016 17:51:18 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2016/02/20/electron-amazon-link-builder/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.meganii.com/blog/2016/01/25/electron-tutorial/&#34;&gt;Electronでデスクトップアプリ作成&lt;/a&gt;に引き続き、Amazonアフィリエイトリンクビルダーのデスクトップアプリを作った。&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://www.meganii.com/blog/2016/01/25/electron-tutorial/&#34;
+  
+  &gt;
+  Electronでデスクトップアプリ作成
+&lt;/a&gt;に引き続き、Amazonアフィリエイトリンクビルダーのデスクトップアプリを作った。&lt;/p&gt;
 &lt;h2 id=&#34;動機&#34;&gt;動機&lt;/h2&gt;
-&lt;p&gt;Amazonのアフィリエイトリンクビルダーには、ヨメレバ、カエレバのようなブックマークレットもあるが、現時点でAmazonのリンクがhttpsに対応していないため、せっかくhttps化をしてもchromeのURLバーが緑色にならない。&lt;a href=&#34;https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/&#34;&gt;Lets&amp;rsquo;s Encryptでブログの常時SSL化にチャレンジ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Amazonのアフィリエイトリンクビルダーには、ヨメレバ、カエレバのようなブックマークレットもあるが、現時点でAmazonのリンクがhttpsに対応していないため、せっかくhttps化をしてもchromeのURLバーが緑色にならない。&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/&#34;
+  
+  &gt;
+  Lets&amp;rsquo;s Encryptでブログの常時SSL化にチャレンジ
+&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;これは困るということで、せっかくなのでElectronでデスクトップアプリを作ってみた。&lt;/p&gt;
 &lt;p&gt;React.jsとか使ってオシャレに作りたかったのだけど、JavaScript初心者にはまずそもそも素のJavaScriptが何をしているのかがわかってなかったので、一度愚直に作った。&lt;/p&gt;</description>
     </item>

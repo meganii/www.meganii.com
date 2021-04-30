@@ -14,8 +14,20 @@
       
       <guid>https://www.meganii.com/blog/2017/10/07/hugo-related-content/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/news/0.27-relnotes/&#34;&gt;Hugo | Hugo 0.27: Fast and Flexible Related Content!&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/related/&#34;&gt;Hugo | Related Content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://gohugo.io/news/0.27-relnotes/&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  Hugo | Hugo 0.27: Fast and Flexible Related Content!
+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;https://gohugo.io/content-management/related/&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  Hugo | Related Content
+&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;いつのまにかHugo 0.29から関連コンテンツ表示機能が追加されています。これによって他のCMSではプラグインで簡単にできていたのに、Hugoではできないというポイントが解消されました。もはや、Hugo最強説！！。&lt;/p&gt;
 &lt;p&gt;さっそくこのブログにも試してみました。&lt;/p&gt;

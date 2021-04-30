@@ -17,7 +17,13 @@
 &lt;code&gt;page.screenshot&lt;/code&gt;でスクリーンショットを取っても、&lt;code&gt;print page.html&lt;/code&gt;でDOMを取得しても、そこにある要素がfindやhas_selector?メソッドから取得できなくて困った。&lt;/p&gt;
 &lt;p&gt;結論は、&lt;code&gt;style=&amp;quot;display: none;&amp;quot;&lt;/code&gt;のような非表示の要素は、デフォルトでは検索条件にならない。&lt;/p&gt;
 &lt;p&gt;どうやら下記の&lt;code&gt;visible&lt;/code&gt;オプションがあるようです。知らなくて、しばらく途方にくれていました。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.rubydoc.info/github/jnicklas/capybara/master/Capybara/Node/Finders#all-instance_method&#34;&gt;http://www.rubydoc.info/github/jnicklas/capybara/master/Capybara/Node/Finders#all-instance_method&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a
+  class=&#34;text-blue-500 hover:underline&#34;
+  href=&#34;http://www.rubydoc.info/github/jnicklas/capybara/master/Capybara/Node/Finders#all-instance_method&#34;
+  
+  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  http://www.rubydoc.info/github/jnicklas/capybara/master/Capybara/Node/Finders#all-instance_method
+&lt;/a&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;visible (Boolean, Symbol) — Only find elements with the specified visibility:
 true - only finds visible elements.
 false - finds invisible and visible elements.
