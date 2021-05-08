@@ -64,21 +64,20 @@
   &gt;
   VR ReadyなデスクトップPCが欲しい
 &lt;/a&gt;で検討した結果、選ばれたのは「OMEN by HP 25L Desktop」だった。&lt;/p&gt;
-&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1616310513/omenbyhp25ldesktop_g5zego.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/omenbyhp25ldesktop_g5zego.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/omenbyhp25ldesktop_g5zego.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/omenbyhp25ldesktop_g5zego.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/omenbyhp25ldesktop_g5zego.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/omenbyhp25ldesktop_g5zego.jpg 320w&#34;
-        width=&#34;3456&#34;
-        height=&#34;3456&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;OMEN by 25L Desktop&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1616310513/omenbyhp25ldesktop_g5zego.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/omenbyhp25ldesktop_g5zego.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/omenbyhp25ldesktop_g5zego.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/omenbyhp25ldesktop_g5zego.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/omenbyhp25ldesktop_g5zego.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/omenbyhp25ldesktop_g5zego.jpg 320w&#34;
+      width=&#34;3456&#34;
+      height=&#34;3456&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;OMEN by 25L Desktop&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;aside&gt;
   &lt;div class=&#34;toc&#34;&gt;
     &lt;header&gt;
@@ -108,21 +107,20 @@
       <pubDate>Wed, 10 Mar 2021 23:13:21 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2021/03/10/start-with-a-note-to-self/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1615385690/1_axyux6.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/1_axyux6.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/1_axyux6.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/1_axyux6.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/1_axyux6.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/1_axyux6.jpg 320w&#34;
-        width=&#34;1920&#34;
-        height=&#34;1080&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;「自分のためのメモ」から始める - 『自分の名前で仕事がひろがる 「普通」の人のためのSNSの教科書』&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1615385690/1_axyux6.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/1_axyux6.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/1_axyux6.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/1_axyux6.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/1_axyux6.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/1_axyux6.jpg 320w&#34;
+      width=&#34;1920&#34;
+      height=&#34;1080&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;「自分のためのメモ」から始める - 『自分の名前で仕事がひろがる 「普通」の人のためのSNSの教科書』&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;blockquote&gt;
 &lt;p&gt;組織で働く人は炎上や秘密漏洩を恐れて、ネット発信に及び腰だ。しかしそうした「普通」の人ほど仕事上のメリットは大きい。本書はバズる・稼ぐのではなく、組織に属しながらビジネスチャンスを広げることを目的としたやり方を伝授する。
 ※ 書影と書誌は「版元ドットコム」より引用&lt;/p&gt;
@@ -224,21 +222,20 @@
       <pubDate>Sun, 24 Jan 2021 17:00:44 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2021/01/24/published-a-book-introduction-to-building-static-sites-with-hugo/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1613208327/HugoBook_Cover_BackCover_xi0ovv.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/HugoBook_Cover_BackCover_xi0ovv.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/HugoBook_Cover_BackCover_xi0ovv.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/HugoBook_Cover_BackCover_xi0ovv.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/HugoBook_Cover_BackCover_xi0ovv.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/HugoBook_Cover_BackCover_xi0ovv.png 320w&#34;
-        width=&#34;1280&#34;
-        height=&#34;670&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Hugoで始める静的サイト構築入門　静的サイトジェネレーターで作る自作サイト 表紙・背表紙&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1613208327/HugoBook_Cover_BackCover_xi0ovv.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/HugoBook_Cover_BackCover_xi0ovv.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/HugoBook_Cover_BackCover_xi0ovv.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/HugoBook_Cover_BackCover_xi0ovv.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/HugoBook_Cover_BackCover_xi0ovv.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/HugoBook_Cover_BackCover_xi0ovv.png 320w&#34;
+      width=&#34;1280&#34;
+      height=&#34;670&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Hugoで始める静的サイト構築入門　静的サイトジェネレーターで作る自作サイト 表紙・背表紙&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;!-- textlint-disable --&gt;
 &lt;p&gt;2021年1月22日、技術書典9で頒布した電子書籍を底本とした「Hugoで始める静的サイト構築入門　静的サイトジェネレーターで作る自作サイト」をインプレスR&amp;amp;D様の「技術の泉シリーズ」の1つとして発行しました。&lt;/p&gt;
 &lt;!-- textlint-enable --&gt;</description>
@@ -250,21 +247,20 @@
       <pubDate>Thu, 21 Jan 2021 20:34:05 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2021/01/21/posting-attendance-to-a-microsoft-teams-thread-with-power-apps/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1611233437/powerapps_efydgm.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/powerapps_efydgm.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/powerapps_efydgm.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/powerapps_efydgm.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/powerapps_efydgm.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/powerapps_efydgm.png 320w&#34;
-        width=&#34;1024&#34;
-        height=&#34;512&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Power AppsでMicrosoft Teamsのスレッドに出退勤をポストする&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1611233437/powerapps_efydgm.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/powerapps_efydgm.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/powerapps_efydgm.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/powerapps_efydgm.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/powerapps_efydgm.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/powerapps_efydgm.png 320w&#34;
+      width=&#34;1024&#34;
+      height=&#34;512&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Power AppsでMicrosoft Teamsのスレッドに出退勤をポストする&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;&lt;code&gt;Power Apps&lt;/code&gt;入門として、リモートワーク開始と終了時に、&lt;code&gt;Microsoft Teams&lt;/code&gt;のスレッドに出勤、退勤をポストするというユースケースを&lt;code&gt;Power Apps&lt;/code&gt;で実装しました。&lt;/p&gt;
 &lt;aside&gt;
   &lt;div class=&#34;toc&#34;&gt;
@@ -294,21 +290,20 @@
       <pubDate>Fri, 15 Jan 2021 06:35:29 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2021/01/15/how-to-set-up-hhkb-to-switch-comfortably-between-win-mac-and-ipad/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1610490200/how-to-setup-hhkb_gktyqo.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/how-to-setup-hhkb_gktyqo.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/how-to-setup-hhkb_gktyqo.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/how-to-setup-hhkb_gktyqo.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/how-to-setup-hhkb_gktyqo.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/how-to-setup-hhkb_gktyqo.png 320w&#34;
-        width=&#34;1024&#34;
-        height=&#34;512&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Happy Hacking Keyboard（HHKB）をWindows/Mac/iPadで快適に使う方法&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1610490200/how-to-setup-hhkb_gktyqo.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/how-to-setup-hhkb_gktyqo.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/how-to-setup-hhkb_gktyqo.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/how-to-setup-hhkb_gktyqo.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/how-to-setup-hhkb_gktyqo.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/how-to-setup-hhkb_gktyqo.png 320w&#34;
+      width=&#34;1024&#34;
+      height=&#34;512&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Happy Hacking Keyboard（HHKB）をWindows/Mac/iPadで快適に使う方法&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;複数OS（Windows、macOS、iPadOS）でHappy Hacking Keyboard（以降HHKBと表記）を利用していると、OS間で微妙にキーボード操作が異なることにストレスを覚えることはないでしょうか。&lt;/p&gt;
 &lt;p&gt;私は昨年（2020年）にHHKBを購入し、複数OSで利用し始めましたが、OS切替時の些細なストレスが気になり始めました。
 そこで、HHKBとOSの最適な設定を模索し、今時点の自分にとって最適な設定をまとめてみました。&lt;/p&gt;
@@ -378,21 +373,20 @@
       <pubDate>Thu, 31 Dec 2020 10:09:48 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/12/31/review-of-2020-and-goals-for-2021/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1609854454/review-of-2020-and-goals-for-2021_r1pdgm.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/review-of-2020-and-goals-for-2021_r1pdgm.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/review-of-2020-and-goals-for-2021_r1pdgm.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/review-of-2020-and-goals-for-2021_r1pdgm.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/review-of-2020-and-goals-for-2021_r1pdgm.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/review-of-2020-and-goals-for-2021_r1pdgm.png 320w&#34;
-        width=&#34;1024&#34;
-        height=&#34;512&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;2020年のふりかえりと2021年の目標&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1609854454/review-of-2020-and-goals-for-2021_r1pdgm.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/review-of-2020-and-goals-for-2021_r1pdgm.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/review-of-2020-and-goals-for-2021_r1pdgm.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/review-of-2020-and-goals-for-2021_r1pdgm.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/review-of-2020-and-goals-for-2021_r1pdgm.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/review-of-2020-and-goals-for-2021_r1pdgm.png 320w&#34;
+      width=&#34;1024&#34;
+      height=&#34;512&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;2020年のふりかえりと2021年の目標&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;新型コロナウィルスの影響によって、いつの間にか世界は変わってしまいました。
 はやく「あんなときもあったね」と懐かしむだけの余裕がある世界に進展するとよいですね。&lt;/p&gt;
 &lt;p&gt;そんな年の瀬に、2020年のふりかえりと2021年の目標を残しておきます。&lt;/p&gt;
@@ -466,21 +460,20 @@
       
       <guid>https://www.meganii.com/blog/2020/11/28/review-sony-wh-1000xm4-wireless-noise-canceling-headphones/</guid>
       <description>&lt;p&gt;My new gear&amp;hellip;&lt;/p&gt;
-&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1606546130/IMG20201128154423_ww5bca.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG20201128154423_ww5bca.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG20201128154423_ww5bca.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG20201128154423_ww5bca.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG20201128154423_ww5bca.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG20201128154423_ww5bca.jpg 320w&#34;
-        width=&#34;3456&#34;
-        height=&#34;3456&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;SONY WH-1000XM4 ワイヤレスノイズキャンセリングヘッドフォン&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1606546130/IMG20201128154423_ww5bca.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG20201128154423_ww5bca.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG20201128154423_ww5bca.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG20201128154423_ww5bca.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG20201128154423_ww5bca.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG20201128154423_ww5bca.jpg 320w&#34;
+      width=&#34;3456&#34;
+      height=&#34;3456&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;SONY WH-1000XM4 ワイヤレスノイズキャンセリングヘッドフォン&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;初めてのワイヤレスノイズキャンセリングヘッドフォン「SONY WH-1000XM4」を購入して、2週間利用してみたのでその感想を書きます。&lt;/p&gt;
 &lt;aside&gt;
   &lt;div class=&#34;toc&#34;&gt;
@@ -545,36 +538,34 @@
       <pubDate>Sun, 25 Oct 2020 16:24:22 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/10/25/happy-hacking-keyboard-first-impression/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1609032770/happy-hacking-keyboard-package_hrb965.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/happy-hacking-keyboard-package_hrb965.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/happy-hacking-keyboard-package_hrb965.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/happy-hacking-keyboard-package_hrb965.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/happy-hacking-keyboard-package_hrb965.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/happy-hacking-keyboard-package_hrb965.jpg 320w&#34;
-        width=&#34;3456&#34;
-        height=&#34;2137&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Happy Hacking Keyboardファーストインプレッション&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
-&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1609032771/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 320w&#34;
-        width=&#34;3456&#34;
-        height=&#34;2158&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;【レビュー】HHKB（Happy Hacking Keyboard）ファーストインプレッション&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1609032770/happy-hacking-keyboard-package_hrb965.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/happy-hacking-keyboard-package_hrb965.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/happy-hacking-keyboard-package_hrb965.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/happy-hacking-keyboard-package_hrb965.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/happy-hacking-keyboard-package_hrb965.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/happy-hacking-keyboard-package_hrb965.jpg 320w&#34;
+      width=&#34;3456&#34;
+      height=&#34;2137&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Happy Hacking Keyboardファーストインプレッション&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1609032771/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/happy-hacking-keyboard-hhkb-all_f9rl8z.jpg 320w&#34;
+      width=&#34;3456&#34;
+      height=&#34;2158&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;【レビュー】HHKB（Happy Hacking Keyboard）ファーストインプレッション&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;ついに念願であったHappy Hacking Keyboard、通称HHKBを手に入れました。
 利用し始めてからのファーストインプレッションを残しておきます。&lt;/p&gt;
 &lt;aside&gt;
@@ -669,21 +660,20 @@
       <pubDate>Sun, 13 Sep 2020 09:33:40 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/09/13/techbookfest-9-hugo-book/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1599960860/hugo-book_ww0ctf.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/hugo-book_ww0ctf.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/hugo-book_ww0ctf.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/hugo-book_ww0ctf.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/hugo-book_ww0ctf.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/hugo-book_ww0ctf.png 320w&#34;
-        width=&#34;1073&#34;
-        height=&#34;542&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;技術書典9で「Hugoで始める静的サイト構築入門」という本を出しました&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1599960860/hugo-book_ww0ctf.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/hugo-book_ww0ctf.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/hugo-book_ww0ctf.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/hugo-book_ww0ctf.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/hugo-book_ww0ctf.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/hugo-book_ww0ctf.png 320w&#34;
+      width=&#34;1073&#34;
+      height=&#34;542&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;技術書典9で「Hugoで始める静的サイト構築入門」という本を出しました&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;「&lt;a
   class=&#34;text-blue-500 hover:underline&#34;
   href=&#34;https://techbookfest.org/market&#34;
@@ -756,21 +746,20 @@ AMPの最適化を行う際、Lighthouseを利用してWebパフォーマンス�
       <pubDate>Sat, 08 Aug 2020 19:01:18 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/08/08/kaizen-in-working-from-home/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1596868680/sansyouo_c9st0c.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/sansyouo_c9st0c.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/sansyouo_c9st0c.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/sansyouo_c9st0c.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/sansyouo_c9st0c.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/sansyouo_c9st0c.jpg 320w&#34;
-        width=&#34;1024&#34;
-        height=&#34;683&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;IO-DATA エルゴトロン&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1596868680/sansyouo_c9st0c.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/sansyouo_c9st0c.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/sansyouo_c9st0c.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/sansyouo_c9st0c.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/sansyouo_c9st0c.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/sansyouo_c9st0c.jpg 320w&#34;
+      width=&#34;1024&#34;
+      height=&#34;683&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;IO-DATA エルゴトロン&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;「特別定額給付金」の10万円でデスク環境を整備しよう！&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;「特別定額給付金」でデスク環境を整備すれば実質無料だと考え、かねてから欲しいと思っていたものをポチポチと購入しました。
 購入した金額を合計すると、149,750円。実質無料にはならずに、完全に足が出てしまいました。&lt;/p&gt;
@@ -807,21 +796,20 @@ AMPの最適化を行う際、Lighthouseを利用してWebパフォーマンス�
       <pubDate>Sun, 26 Jul 2020 20:15:54 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/07/26/review-logicool-folio-touch-keyboard-case-with-trackpad/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1595772938/DSC00783_wakue1.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/DSC00783_wakue1.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/DSC00783_wakue1.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/DSC00783_wakue1.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/DSC00783_wakue1.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/DSC00783_wakue1.jpg 320w&#34;
-        width=&#34;5472&#34;
-        height=&#34;3648&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Logicool Folio Touch Keyboard Case with Trackpad for 11インチiPad Pro&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1595772938/DSC00783_wakue1.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/DSC00783_wakue1.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/DSC00783_wakue1.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/DSC00783_wakue1.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/DSC00783_wakue1.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/DSC00783_wakue1.jpg 320w&#34;
+      width=&#34;5472&#34;
+      height=&#34;3648&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Logicool Folio Touch Keyboard Case with Trackpad for 11インチiPad Pro&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;「キーボードとトラックパッドが使えて、高価な&lt;code&gt;iPad Pro&lt;/code&gt;を保護してくれるケースが欲しい」&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;そう思っているうちに、Apple純正である「&lt;a
   class=&#34;text-blue-500 hover:underline&#34;
@@ -904,21 +892,20 @@ Scrapboxやメモ書き、ブログの下書き、普段のネットサーフィ
       <pubDate>Wed, 15 Jul 2020 22:46:26 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/07/15/event-report-data-engineering-study-1-data-platform-guide/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594863856/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png 320w&#34;
-        width=&#34;659&#34;
-        height=&#34;251&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Data Engineering Study #1&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594863856/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png 320w&#34;
+      width=&#34;659&#34;
+      height=&#34;251&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Data Engineering Study #1&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;「&lt;a
   class=&#34;text-blue-500 hover:underline&#34;
   href=&#34;https://forkwell.connpass.com/event/179786/&#34;
@@ -953,21 +940,20 @@ Scrapboxやメモ書き、ブログの下書き、普段のネットサーフィ
       <pubDate>Tue, 07 Jul 2020 06:03:03 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/07/07/what-is-data-visualization/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594067846/what_is_datavisualization_deo9ga.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/what_is_datavisualization_deo9ga.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/what_is_datavisualization_deo9ga.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/what_is_datavisualization_deo9ga.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/what_is_datavisualization_deo9ga.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/what_is_datavisualization_deo9ga.jpg 320w&#34;
-        width=&#34;150&#34;
-        height=&#34;150&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;データビジュアライゼーション&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594067846/what_is_datavisualization_deo9ga.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/what_is_datavisualization_deo9ga.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/what_is_datavisualization_deo9ga.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/what_is_datavisualization_deo9ga.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/what_is_datavisualization_deo9ga.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/what_is_datavisualization_deo9ga.jpg 320w&#34;
+      width=&#34;150&#34;
+      height=&#34;150&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;データビジュアライゼーション&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;&lt;code&gt;Data Visualization&lt;/code&gt;は、日本語だとそのまま「データビジュアライゼーション」や「データ視覚化」と呼ばれています。&lt;/p&gt;
 &lt;p&gt;このデータビジュアライゼーション（データ視覚化）とは何を指すのか。どんな意味で用いられるのか。データビジュアライゼーション（データ視覚化）を効果的に行うためにはどうすべきか。&lt;/p&gt;
 &lt;p&gt;このような疑問に自信を持って答えるために、下記2つの本を読んだのでまとめみます。&lt;/p&gt;
@@ -1300,21 +1286,20 @@ layout=&#34;responsive&#34;&gt;
       <pubDate>Tue, 28 Apr 2020 18:50:23 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/04/28/organizing-the-terms-in-reading-tableau-blueprint/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1587899115/Blueprint-Subway_ja-JP_mh6xmb.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/Blueprint-Subway_ja-JP_mh6xmb.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/Blueprint-Subway_ja-JP_mh6xmb.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/Blueprint-Subway_ja-JP_mh6xmb.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/Blueprint-Subway_ja-JP_mh6xmb.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/Blueprint-Subway_ja-JP_mh6xmb.png 320w&#34;
-        width=&#34;1280&#34;
-        height=&#34;720&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Tableau Blueprint&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1587899115/Blueprint-Subway_ja-JP_mh6xmb.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/Blueprint-Subway_ja-JP_mh6xmb.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/Blueprint-Subway_ja-JP_mh6xmb.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/Blueprint-Subway_ja-JP_mh6xmb.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/Blueprint-Subway_ja-JP_mh6xmb.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/Blueprint-Subway_ja-JP_mh6xmb.png 320w&#34;
+      width=&#34;1280&#34;
+      height=&#34;720&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Tableau Blueprint&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;&lt;a
   class=&#34;text-blue-500 hover:underline&#34;
   href=&#34;https://www.tableau.com/ja-jp/learn/blueprint&#34;
@@ -1456,21 +1441,20 @@ layout=&#34;responsive&#34;&gt;
       <pubDate>Tue, 31 Mar 2020 21:00:52 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/03/31/reflections-on-blog-mentoring/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring_j15qwo.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/blog-mentoring_j15qwo.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/blog-mentoring_j15qwo.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/blog-mentoring_j15qwo.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/blog-mentoring_j15qwo.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/blog-mentoring_j15qwo.png 320w&#34;
-        width=&#34;1024&#34;
-        height=&#34;512&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;小さな習慣・アウトプット駆動生活〜ブログメンタリングのふりかえり〜&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring_j15qwo.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/blog-mentoring_j15qwo.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/blog-mentoring_j15qwo.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/blog-mentoring_j15qwo.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/blog-mentoring_j15qwo.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/blog-mentoring_j15qwo.png 320w&#34;
+      width=&#34;1024&#34;
+      height=&#34;512&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;小さな習慣・アウトプット駆動生活〜ブログメンタリングのふりかえり〜&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;2019/12月〜2020/2月の期間で&lt;a
   class=&#34;text-blue-500 hover:underline&#34;
   href=&#34;https://twitter.com/kakakakakku&#34;
@@ -1525,21 +1509,20 @@ layout=&#34;responsive&#34;&gt;
       <pubDate>Mon, 23 Mar 2020 06:33:37 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/03/23/a-look-back-at-the-data-saber-certification-program/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1584785388/datasaber_y5ziiu.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/datasaber_y5ziiu.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/datasaber_y5ziiu.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/datasaber_y5ziiu.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/datasaber_y5ziiu.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/datasaber_y5ziiu.png 320w&#34;
-        width=&#34;1440&#34;
-        height=&#34;798&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;DATA Saber認定試験&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1584785388/datasaber_y5ziiu.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/datasaber_y5ziiu.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/datasaber_y5ziiu.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/datasaber_y5ziiu.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/datasaber_y5ziiu.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/datasaber_y5ziiu.png 320w&#34;
+      width=&#34;1440&#34;
+      height=&#34;798&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;DATA Saber認定試験&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;2019/12/16-2020/3/15の期間で「DATA Saber認定制度」にチャレンジし、2020/3/13の最終技術試験・口頭試問を経て、「DATA Saber」として認定をいただきました。&lt;/p&gt;
 &lt;p&gt;自分自身の振り返りのため、また今から「DATA Saber認定制度」を受けようとしている方に向けて活動を振り返って書き残しておきます。&lt;/p&gt;
 &lt;aside&gt;
@@ -1589,37 +1572,35 @@ layout=&#34;responsive&#34;&gt;
 &lt;h2 id=&#34;困ったこと&#34;&gt;困ったこと&lt;/h2&gt;
 &lt;p&gt;スーパーサンプルストアを例にします。&lt;/p&gt;
 &lt;p&gt;「オーダー日」毎の「売上」表示する場合、何も考えなくてもラベルを表示すれば、「オーダー日」（ここでは年）毎の合計値が積み上げ棒グラフの上部に表示されます。&lt;/p&gt;
-&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1584692694/tableau_stack_chart_label_jlnjzv.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/tableau_stack_chart_label_jlnjzv.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/tableau_stack_chart_label_jlnjzv.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau_stack_chart_label_jlnjzv.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau_stack_chart_label_jlnjzv.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau_stack_chart_label_jlnjzv.png 320w&#34;
-        width=&#34;351&#34;
-        height=&#34;424&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;【Tableau】積み上げ棒グラフの合計値をラベル表示する方法&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1584692694/tableau_stack_chart_label_jlnjzv.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableau_stack_chart_label_jlnjzv.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableau_stack_chart_label_jlnjzv.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau_stack_chart_label_jlnjzv.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau_stack_chart_label_jlnjzv.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau_stack_chart_label_jlnjzv.png 320w&#34;
+      width=&#34;351&#34;
+      height=&#34;424&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;【Tableau】積み上げ棒グラフの合計値をラベル表示する方法&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;しかし、「カテゴリ」で色付けするとラベルは内訳を表示してしまうため、合計値が表示されません。&lt;/p&gt;
-&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1584692694/tableau_stack_chart_label_n7mqnk.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/tableau_stack_chart_label_n7mqnk.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/tableau_stack_chart_label_n7mqnk.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau_stack_chart_label_n7mqnk.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau_stack_chart_label_n7mqnk.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau_stack_chart_label_n7mqnk.png 320w&#34;
-        width=&#34;351&#34;
-        height=&#34;424&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;【Tableau】積み上げ棒グラフの合計値をラベル表示する方法&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1584692694/tableau_stack_chart_label_n7mqnk.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableau_stack_chart_label_n7mqnk.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableau_stack_chart_label_n7mqnk.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau_stack_chart_label_n7mqnk.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau_stack_chart_label_n7mqnk.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau_stack_chart_label_n7mqnk.png 320w&#34;
+      width=&#34;351&#34;
+      height=&#34;424&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;【Tableau】積み上げ棒グラフの合計値をラベル表示する方法&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;この状態で「合計値も表示できるようにしてよ」と言われた場合、あなたならどのように実装しますか。&lt;/p&gt;</description>
     </item>
     
@@ -1661,21 +1642,20 @@ layout=&#34;responsive&#34;&gt;
       <pubDate>Thu, 27 Feb 2020 07:31:54 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/02/27/showing-top-and-bottom-n-per-category-in-tableau/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1582756643/tableau-top-and-bottom_bvivwx.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/tableau-top-and-bottom_bvivwx.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/tableau-top-and-bottom_bvivwx.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau-top-and-bottom_bvivwx.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau-top-and-bottom_bvivwx.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau-top-and-bottom_bvivwx.png 320w&#34;
-        width=&#34;1226&#34;
-        height=&#34;457&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;top and bottom&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1582756643/tableau-top-and-bottom_bvivwx.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableau-top-and-bottom_bvivwx.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableau-top-and-bottom_bvivwx.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau-top-and-bottom_bvivwx.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau-top-and-bottom_bvivwx.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau-top-and-bottom_bvivwx.png 320w&#34;
+      width=&#34;1226&#34;
+      height=&#34;457&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;top and bottom&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;上位N個もしくは下位N個を個別で表示することは&lt;code&gt;ディメンションフィルター&lt;/code&gt;を利用することで比較的簡単に実装できます。&lt;/p&gt;
 &lt;p&gt;しかし、上位N個と下位N個を1つのグラフ上に表現する場合はちょっとした工夫が必要でしたので、メモしておきます。&lt;/p&gt;</description>
     </item>
@@ -1718,21 +1698,20 @@ layout=&#34;responsive&#34;&gt;
       <guid>https://www.meganii.com/blog/2020/02/10/sorting-dimensions-by-conbined-fields-in-tableau/</guid>
       <description>&lt;p&gt;Excelだと簡単にできるソートも、Tableauだと意外と苦戦する場合があります。&lt;/p&gt;
 &lt;p&gt;例えば以下のように各店舗、席タイプ、サービスメニューごとの価格の一覧があったとします。「価格でソートし、最安値となるサービスメニューを探したい」となった場合、ディメンション毎のソートとなってしまい、なかなか意図するソート順になりません。&lt;/p&gt;
-&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1581277712/bagus_dimension_sort_qausg0.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/bagus_dimension_sort_qausg0.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/bagus_dimension_sort_qausg0.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/bagus_dimension_sort_qausg0.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/bagus_dimension_sort_qausg0.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/bagus_dimension_sort_qausg0.png 320w&#34;
-        width=&#34;1010&#34;
-        height=&#34;689&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Tableau&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;</description>
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1581277712/bagus_dimension_sort_qausg0.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/bagus_dimension_sort_qausg0.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/bagus_dimension_sort_qausg0.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/bagus_dimension_sort_qausg0.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/bagus_dimension_sort_qausg0.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/bagus_dimension_sort_qausg0.png 320w&#34;
+      width=&#34;1010&#34;
+      height=&#34;689&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Tableau&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;</description>
     </item>
     
     <item>
@@ -1774,21 +1753,20 @@ layout=&#34;responsive&#34;&gt;
       <pubDate>Sat, 25 Jan 2020 06:55:35 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/01/25/tableau-desktop-vs-tableau-prep-builder/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1579905322/tableau_prep_xdbbz6.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/tableau_prep_xdbbz6.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/tableau_prep_xdbbz6.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau_prep_xdbbz6.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau_prep_xdbbz6.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau_prep_xdbbz6.jpg 320w&#34;
-        width=&#34;1920&#34;
-        height=&#34;1080&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Tableau Prep Builder&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1579905322/tableau_prep_xdbbz6.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableau_prep_xdbbz6.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableau_prep_xdbbz6.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableau_prep_xdbbz6.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableau_prep_xdbbz6.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableau_prep_xdbbz6.jpg 320w&#34;
+      width=&#34;1920&#34;
+      height=&#34;1080&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Tableau Prep Builder&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;&lt;code&gt;Tableau Desktop&lt;/code&gt;と&lt;code&gt;Tableau Prep Builder&lt;/code&gt;は両方とも結合、ピボット、クリーニングなどの処理が行えます。この2つのツールはどのように使い分ければよいのでしょうか。&lt;/p&gt;
 &lt;p&gt;以下は2018年に公開されたホワイトペーパーですが、今のバージョンのTableau Desktop / Tableau Prepでも有用な情報でしたので、ポイントをまとめてみました。&lt;/p&gt;
 &lt;p&gt;&lt;a
@@ -1866,21 +1844,20 @@ layout=&#34;responsive&#34;&gt;
       <pubDate>Thu, 09 Jan 2020 22:37:43 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2020/01/09/tableau-whitepater-traditional-bi-vs-modern-bi/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1578669810/tableaulogo_highres_t9alev.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/tableaulogo_highres_t9alev.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/tableaulogo_highres_t9alev.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableaulogo_highres_t9alev.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableaulogo_highres_t9alev.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableaulogo_highres_t9alev.png 320w&#34;
-        width=&#34;2000&#34;
-        height=&#34;450&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;【Tableau】ホワイトペーパーから読み解く「トラディショナルBIとモダンBIの違い」&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1578669810/tableaulogo_highres_t9alev.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableaulogo_highres_t9alev.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableaulogo_highres_t9alev.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableaulogo_highres_t9alev.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableaulogo_highres_t9alev.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableaulogo_highres_t9alev.png 320w&#34;
+      width=&#34;2000&#34;
+      height=&#34;450&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;【Tableau】ホワイトペーパーから読み解く「トラディショナルBIとモダンBIの違い」&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;TableauのホワイトペーパーやWebinerを読み聞きし、&lt;code&gt;トラディショナルBI&lt;/code&gt;と&lt;code&gt;モダンBI&lt;/code&gt;の違いについて自分なりにまとめてみました。&lt;/p&gt;
 &lt;aside&gt;
   &lt;div class=&#34;toc&#34;&gt;
@@ -1954,21 +1931,20 @@ layout=&#34;responsive&#34;&gt;
       <pubDate>Fri, 27 Dec 2019 11:18:08 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2019/12/27/product-list-of-tableau/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1577416646/tableaupublic_xd3mun.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/tableaupublic_xd3mun.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/tableaupublic_xd3mun.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableaupublic_xd3mun.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableaupublic_xd3mun.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableaupublic_xd3mun.png 320w&#34;
-        width=&#34;556&#34;
-        height=&#34;329&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Tableau Public&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1577416646/tableaupublic_xd3mun.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/tableaupublic_xd3mun.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/tableaupublic_xd3mun.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/tableaupublic_xd3mun.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/tableaupublic_xd3mun.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/tableaupublic_xd3mun.png 320w&#34;
+      width=&#34;556&#34;
+      height=&#34;329&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Tableau Public&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;最近、Tableauを触る機会が出てきたので、調べながら学んだ点を残しておきます。&lt;/p&gt;
 &lt;aside&gt;
   &lt;div class=&#34;toc&#34;&gt;
@@ -2058,21 +2034,20 @@ layout=&#34;responsive&#34;&gt;
       <pubDate>Fri, 13 Dec 2019 06:16:04 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2019/12/13/scrapbox-drinkup-no-11/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1576248812/Scrapbox_Drinkup_11_Xmas_Edition-header_l7hjdh.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/Scrapbox_Drinkup_11_Xmas_Edition-header_l7hjdh.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/Scrapbox_Drinkup_11_Xmas_Edition-header_l7hjdh.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/Scrapbox_Drinkup_11_Xmas_Edition-header_l7hjdh.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/Scrapbox_Drinkup_11_Xmas_Edition-header_l7hjdh.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/Scrapbox_Drinkup_11_Xmas_Edition-header_l7hjdh.png 320w&#34;
-        width=&#34;560&#34;
-        height=&#34;315&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Scrapbox Drinkup #11「2019年のScrapbox」をテーマにしたLT大会 / 最新情報&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1576248812/Scrapbox_Drinkup_11_Xmas_Edition-header_l7hjdh.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/Scrapbox_Drinkup_11_Xmas_Edition-header_l7hjdh.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/Scrapbox_Drinkup_11_Xmas_Edition-header_l7hjdh.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/Scrapbox_Drinkup_11_Xmas_Edition-header_l7hjdh.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/Scrapbox_Drinkup_11_Xmas_Edition-header_l7hjdh.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/Scrapbox_Drinkup_11_Xmas_Edition-header_l7hjdh.png 320w&#34;
+      width=&#34;560&#34;
+      height=&#34;315&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Scrapbox Drinkup #11「2019年のScrapbox」をテーマにしたLT大会 / 最新情報&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;2019/12/11(水) Scrapbox Drinkup No.11 に参加してきました。気になった点をまとめてみます。&lt;/p&gt;
 &lt;p&gt;&lt;a
   class=&#34;text-blue-500 hover:underline&#34;
@@ -2098,21 +2073,20 @@ layout=&#34;responsive&#34;&gt;
       <pubDate>Sat, 16 Nov 2019 19:25:36 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2019/11/16/amp-real-url-with-cloudflare/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1574561130/AMP_%EF%B8%8F_Real_URL_a1iiwa.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 320w&#34;
-        width=&#34;560&#34;
-        height=&#34;315&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Cloudflare AMP Real URLをブログに導入する&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1574561130/AMP_%EF%B8%8F_Real_URL_a1iiwa.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/AMP_%EF%B8%8F_Real_URL_a1iiwa.png 320w&#34;
+      width=&#34;560&#34;
+      height=&#34;315&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Cloudflare AMP Real URLをブログに導入する&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;AMPページをGoogleドメインではなく、自ドメインで表示できる「AMP Real URL」をこのブログにも導入しました。
 「AMP Real URL」に関する日本語のページがあまりなかったので、手順をまとめてみました。&lt;/p&gt;</description>
     </item>
@@ -2123,21 +2097,20 @@ layout=&#34;responsive&#34;&gt;
       <pubDate>Mon, 11 Nov 2019 22:05:58 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2019/11/11/the-art-of-managing-books-with-scrapbox/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1573478168/rule_of_managing_books_with_scrapbox_yl3uka.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/rule_of_managing_books_with_scrapbox_yl3uka.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/rule_of_managing_books_with_scrapbox_yl3uka.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/rule_of_managing_books_with_scrapbox_yl3uka.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/rule_of_managing_books_with_scrapbox_yl3uka.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/rule_of_managing_books_with_scrapbox_yl3uka.png 320w&#34;
-        width=&#34;1500&#34;
-        height=&#34;500&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Scrapboxで読書管理をするときのじぶんルール&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1573478168/rule_of_managing_books_with_scrapbox_yl3uka.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/rule_of_managing_books_with_scrapbox_yl3uka.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/rule_of_managing_books_with_scrapbox_yl3uka.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/rule_of_managing_books_with_scrapbox_yl3uka.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/rule_of_managing_books_with_scrapbox_yl3uka.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/rule_of_managing_books_with_scrapbox_yl3uka.png 320w&#34;
+      width=&#34;1500&#34;
+      height=&#34;500&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Scrapboxで読書管理をするときのじぶんルール&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;Scrapboxで読書管理（既読管理、読書メモ）をしているときのルールをまとめてみました。&lt;/p&gt;</description>
     </item>
     
@@ -2147,21 +2120,20 @@ layout=&#34;responsive&#34;&gt;
       <pubDate>Sun, 10 Nov 2019 15:13:30 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2019/11/10/scrapmedia-flutter-app-for-managing-books-with-scrapbox/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1573366346/Scrapmedia_hero_r2wjh0.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/Scrapmedia_hero_r2wjh0.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/Scrapmedia_hero_r2wjh0.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/Scrapmedia_hero_r2wjh0.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/Scrapmedia_hero_r2wjh0.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/Scrapmedia_hero_r2wjh0.png 320w&#34;
-        width=&#34;1500&#34;
-        height=&#34;500&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Scrapboxで読書管理をするために「ScrapMedia」というFlutterアプリを作った&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;</description>
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1573366346/Scrapmedia_hero_r2wjh0.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/Scrapmedia_hero_r2wjh0.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/Scrapmedia_hero_r2wjh0.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/Scrapmedia_hero_r2wjh0.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/Scrapmedia_hero_r2wjh0.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/Scrapmedia_hero_r2wjh0.png 320w&#34;
+      width=&#34;1500&#34;
+      height=&#34;500&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Scrapboxで読書管理をするために「ScrapMedia」というFlutterアプリを作った&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;</description>
     </item>
     
     <item>
@@ -2214,21 +2186,20 @@ layout=&#34;responsive&#34;&gt;
       <pubDate>Sun, 06 Oct 2019 12:28:21 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2019/10/06/1bx-minimal-css-framework-for-amp/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1570334428/1bx-screenshot_oqm0gr.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/1bx-screenshot_oqm0gr.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/1bx-screenshot_oqm0gr.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/1bx-screenshot_oqm0gr.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/1bx-screenshot_oqm0gr.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/1bx-screenshot_oqm0gr.png 320w&#34;
-        width=&#34;1440&#34;
-        height=&#34;766&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;ミニマルCSSフレームワーク「1BX」を試してみました&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1570334428/1bx-screenshot_oqm0gr.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/1bx-screenshot_oqm0gr.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/1bx-screenshot_oqm0gr.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/1bx-screenshot_oqm0gr.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/1bx-screenshot_oqm0gr.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/1bx-screenshot_oqm0gr.png 320w&#34;
+      width=&#34;1440&#34;
+      height=&#34;766&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;ミニマルCSSフレームワーク「1BX」を試してみました&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;ミニマルCSSフレームワーク「&lt;a
   class=&#34;text-blue-500 hover:underline&#34;
   href=&#34;https://1bx.uk/&#34;
@@ -2276,21 +2247,20 @@ layout=&#34;responsive&#34;&gt;
       <pubDate>Sun, 23 Jun 2019 21:07:54 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2019/06/23/repair-google-pixel-3a/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1573386402/Fix_Pixel3a_seb7cv.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/Fix_Pixel3a_seb7cv.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/Fix_Pixel3a_seb7cv.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/Fix_Pixel3a_seb7cv.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/Fix_Pixel3a_seb7cv.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/Fix_Pixel3a_seb7cv.png 320w&#34;
-        width=&#34;560&#34;
-        height=&#34;315&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Google Pixel3a 修理&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1573386402/Fix_Pixel3a_seb7cv.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/Fix_Pixel3a_seb7cv.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/Fix_Pixel3a_seb7cv.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/Fix_Pixel3a_seb7cv.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/Fix_Pixel3a_seb7cv.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/Fix_Pixel3a_seb7cv.png 320w&#34;
+      width=&#34;560&#34;
+      height=&#34;315&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Google Pixel3a 修理&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;&lt;code&gt;Google Pixel 3a&lt;/code&gt;を手に入れて一ヶ月もしないうちに落として画面を割ってしまいました。&lt;/p&gt;
 &lt;p&gt;海外旅行へ行くまでの道すがらに破損したので、もしかしたらエポスカードゴールドの携行品破損保険を適用できる可能性があり、申請中です。旅行前にかなりテンション下がりました。&lt;/p&gt;
 &lt;p&gt;帰国後、割れたまま使い続けるのも気分が悪いため、修理する方向で調べてみました。&lt;/p&gt;</description>
@@ -2462,21 +2432,20 @@ layout=&#34;responsive&#34;&gt;
       
       <guid>https://www.meganii.com/blog/2018/12/27/duet-display/</guid>
       <description>&lt;p&gt;「Duet Display」を利用して、iPadをMacBook Airの外部ディスプレイにしました。&lt;/p&gt;
-&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1545912024/IMG_3354_mitbmm.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG_3354_mitbmm.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG_3354_mitbmm.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_3354_mitbmm.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_3354_mitbmm.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_3354_mitbmm.jpg 320w&#34;
-        width=&#34;4032&#34;
-        height=&#34;3024&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;「Duet Display」を利用して余っていたiPadを外部ディスプレイにする&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1545912024/IMG_3354_mitbmm.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG_3354_mitbmm.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG_3354_mitbmm.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_3354_mitbmm.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_3354_mitbmm.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_3354_mitbmm.jpg 320w&#34;
+      width=&#34;4032&#34;
+      height=&#34;3024&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;「Duet Display」を利用して余っていたiPadを外部ディスプレイにする&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;念願のデュアルディスプレイです。&lt;/p&gt;
 &lt;p&gt;定価は2,400円ですが、今なら（2018/12/27現在）半額セールが行われており、なんと1,200円。これは買うしかないということで、自分へのクリスマスプレゼントとして購入しました。&lt;/p&gt;</description>
     </item>
@@ -2487,21 +2456,20 @@ layout=&#34;responsive&#34;&gt;
       <pubDate>Sat, 22 Dec 2018 10:44:01 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2018/12/22/gitlab-meetup-tokyo-number-12/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1545443513/2018-12-22-gitlab-meetup-tokyo_xy7flc.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/2018-12-22-gitlab-meetup-tokyo_xy7flc.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/2018-12-22-gitlab-meetup-tokyo_xy7flc.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/2018-12-22-gitlab-meetup-tokyo_xy7flc.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/2018-12-22-gitlab-meetup-tokyo_xy7flc.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/2018-12-22-gitlab-meetup-tokyo_xy7flc.png 320w&#34;
-        width=&#34;670&#34;
-        height=&#34;384&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;「GitLab Meetup Tokyo #12： 2018年振り返り」に参加しました&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1545443513/2018-12-22-gitlab-meetup-tokyo_xy7flc.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/2018-12-22-gitlab-meetup-tokyo_xy7flc.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/2018-12-22-gitlab-meetup-tokyo_xy7flc.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/2018-12-22-gitlab-meetup-tokyo_xy7flc.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/2018-12-22-gitlab-meetup-tokyo_xy7flc.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/2018-12-22-gitlab-meetup-tokyo_xy7flc.png 320w&#34;
+      width=&#34;670&#34;
+      height=&#34;384&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;「GitLab Meetup Tokyo #12： 2018年振り返り」に参加しました&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;&lt;a
   class=&#34;text-blue-500 hover:underline&#34;
   href=&#34;https://gitlab-jp.connpass.com/event/111427/&#34;
@@ -2549,21 +2517,20 @@ layout=&#34;responsive&#34;&gt;
       <pubDate>Sun, 02 Dec 2018 12:28:58 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2018/12/02/amp-page-does-not-scroll-smoothly/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1543721510/IMG_3186_fl7ifm.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG_3186_fl7ifm.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG_3186_fl7ifm.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_3186_fl7ifm.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_3186_fl7ifm.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_3186_fl7ifm.jpg 320w&#34;
-        width=&#34;215&#34;
-        height=&#34;384&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;AMP page&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1543721510/IMG_3186_fl7ifm.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG_3186_fl7ifm.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG_3186_fl7ifm.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_3186_fl7ifm.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_3186_fl7ifm.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_3186_fl7ifm.jpg 320w&#34;
+      width=&#34;215&#34;
+      height=&#34;384&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;AMP page&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;h2 id=&#34;現象&#34;&gt;現象&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;iPhone 6Sで、&lt;a
@@ -2609,21 +2576,20 @@ layout=&#34;responsive&#34;&gt;
       <pubDate>Fri, 10 Aug 2018 23:43:05 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2018/08/10/scrapbox-drinkup-publication-launch-party/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1534515312/IMG_2923_lu4ags.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG_2923_lu4ags.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG_2923_lu4ags.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2923_lu4ags.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2923_lu4ags.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2923_lu4ags.jpg 320w&#34;
-        width=&#34;4032&#34;
-        height=&#34;3024&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;「Scrapbox情報整理術」出版記念スペシャルに参加してきました&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;</description>
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1534515312/IMG_2923_lu4ags.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG_2923_lu4ags.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG_2923_lu4ags.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2923_lu4ags.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2923_lu4ags.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2923_lu4ags.jpg 320w&#34;
+      width=&#34;4032&#34;
+      height=&#34;3024&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;「Scrapbox情報整理術」出版記念スペシャルに参加してきました&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;</description>
     </item>
     
     <item>
@@ -2801,21 +2767,20 @@ layout=&#34;responsive&#34;&gt;
       <pubDate>Mon, 16 Jul 2018 08:46:51 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2018/07/16/new-caledonia-2018/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1531698938/IMG_2772_fntz1u.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG_2772_fntz1u.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG_2772_fntz1u.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2772_fntz1u.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2772_fntz1u.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2772_fntz1u.jpg 320w&#34;
-        width=&#34;4032&#34;
-        height=&#34;3021&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;ニューカレドニア旅行記&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1531698938/IMG_2772_fntz1u.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG_2772_fntz1u.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG_2772_fntz1u.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2772_fntz1u.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2772_fntz1u.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2772_fntz1u.jpg 320w&#34;
+      width=&#34;4032&#34;
+      height=&#34;3021&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;ニューカレドニア旅行記&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;ul&gt;
 &lt;li&gt;カジノで資金をゼロから有を生み出す！
 &lt;ul&gt;
@@ -2858,54 +2823,51 @@ layout=&#34;responsive&#34;&gt;
   target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
   コレス ゴールドフィルター
 &lt;/a&gt;を手に入れました。&lt;/p&gt;
-&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2817_jjmfro.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG_2817_jjmfro.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG_2817_jjmfro.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2817_jjmfro.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2817_jjmfro.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2817_jjmfro.jpg 320w&#34;
-        width=&#34;3024&#34;
-        height=&#34;3024&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;コレス ゴールドフィルターを使ってハンドドリップコーヒーを楽しむ&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2817_jjmfro.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG_2817_jjmfro.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG_2817_jjmfro.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2817_jjmfro.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2817_jjmfro.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2817_jjmfro.jpg 320w&#34;
+      width=&#34;3024&#34;
+      height=&#34;3024&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;コレス ゴールドフィルターを使ってハンドドリップコーヒーを楽しむ&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;h2 id=&#34;てってれー金に輝くゴールドフィルター&#34;&gt;てってれー！金に輝くゴールドフィルター&lt;/h2&gt;
 &lt;p&gt;フィルターを配置するホルダー付きです。&lt;/p&gt;
-&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2813_zf0mui.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG_2813_zf0mui.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG_2813_zf0mui.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2813_zf0mui.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2813_zf0mui.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2813_zf0mui.jpg 320w&#34;
-        width=&#34;3024&#34;
-        height=&#34;3024&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;コレス ゴールドフィルターを使ってハンドドリップコーヒーを楽しむ&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2813_zf0mui.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG_2813_zf0mui.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG_2813_zf0mui.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2813_zf0mui.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2813_zf0mui.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2813_zf0mui.jpg 320w&#34;
+      width=&#34;3024&#34;
+      height=&#34;3024&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;コレス ゴールドフィルターを使ってハンドドリップコーヒーを楽しむ&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;コーヒー粉を入れるとこんな感じになります。&lt;/p&gt;
-&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2816_wvcsiq.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG_2816_wvcsiq.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG_2816_wvcsiq.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2816_wvcsiq.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2816_wvcsiq.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2816_wvcsiq.jpg 320w&#34;
-        width=&#34;3024&#34;
-        height=&#34;3024&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;コレス ゴールドフィルターを使ってハンドドリップコーヒーを楽しむ&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;</description>
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2816_wvcsiq.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG_2816_wvcsiq.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG_2816_wvcsiq.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG_2816_wvcsiq.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG_2816_wvcsiq.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG_2816_wvcsiq.jpg 320w&#34;
+      width=&#34;3024&#34;
+      height=&#34;3024&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;コレス ゴールドフィルターを使ってハンドドリップコーヒーを楽しむ&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;</description>
     </item>
     
     <item>
@@ -2930,21 +2892,20 @@ layout=&#34;responsive&#34;&gt;
       <pubDate>Wed, 23 May 2018 21:40:53 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2018/05/23/scrapbox-drinkup-04-tokyo-edition/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1527252310/scrapbox_drinkup_04_fcn0xk.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/scrapbox_drinkup_04_fcn0xk.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/scrapbox_drinkup_04_fcn0xk.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/scrapbox_drinkup_04_fcn0xk.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/scrapbox_drinkup_04_fcn0xk.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/scrapbox_drinkup_04_fcn0xk.jpg 320w&#34;
-        width=&#34;467&#34;
-        height=&#34;467&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;Scrapbox Drinkup #04 TOKYO EDITION&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1527252310/scrapbox_drinkup_04_fcn0xk.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/scrapbox_drinkup_04_fcn0xk.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/scrapbox_drinkup_04_fcn0xk.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/scrapbox_drinkup_04_fcn0xk.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/scrapbox_drinkup_04_fcn0xk.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/scrapbox_drinkup_04_fcn0xk.jpg 320w&#34;
+      width=&#34;467&#34;
+      height=&#34;467&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;Scrapbox Drinkup #04 TOKYO EDITION&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;2018/05/23（水）に行われた「SCRAPBOX DRINKUP ＃04 TOKYO EDITION」に参加してきました。ブログ枠での参加でしたのでイベントレポートとしてまとめておきます。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;開催日
@@ -3266,21 +3227,20 @@ To support buttons in Slack messages, you must enable Interactive Messages when 
       <pubDate>Fri, 22 Dec 2017 19:33:34 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2017/12/22/migration-hatena-diary-to-custom-domain-via-hatena-blog/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1514030618/hatenadiary_qoqemm.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/hatenadiary_qoqemm.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/hatenadiary_qoqemm.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/hatenadiary_qoqemm.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/hatenadiary_qoqemm.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/hatenadiary_qoqemm.png 320w&#34;
-        width=&#34;1024&#34;
-        height=&#34;512&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;はてなダイアリーからはてなブログ経由で独自ドメインのブログに記事を移行しました&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1514030618/hatenadiary_qoqemm.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/hatenadiary_qoqemm.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/hatenadiary_qoqemm.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/hatenadiary_qoqemm.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/hatenadiary_qoqemm.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/hatenadiary_qoqemm.png 320w&#34;
+      width=&#34;1024&#34;
+      height=&#34;512&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;はてなダイアリーからはてなブログ経由で独自ドメインのブログに記事を移行しました&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;今まで、はてなダイアリー(d.hatena.ne.jp/meganii)の記事は移行せずにそのまま残していました。
 しかし、Scrapboxのユーザー会に参加して過去コンテンツの重要性に気付き、今のブログに全て集約したいと考えました。&lt;/p&gt;
@@ -3308,41 +3268,39 @@ To support buttons in Slack messages, you must enable Interactive Messages when 
       <pubDate>Mon, 27 Nov 2017 23:18:21 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2017/11/27/polish-my-shoes-tokyu-hands-workshop/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1514702295/d-ng-tr-n-qu-c-104956_dqydcf.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/d-ng-tr-n-qu-c-104956_dqydcf.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/d-ng-tr-n-qu-c-104956_dqydcf.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/d-ng-tr-n-qu-c-104956_dqydcf.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/d-ng-tr-n-qu-c-104956_dqydcf.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/d-ng-tr-n-qu-c-104956_dqydcf.jpg 320w&#34;
-        width=&#34;3000&#34;
-        height=&#34;1687&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;東急ハンズ「靴のお手入れ講座」に参加してきました&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1514702295/d-ng-tr-n-qu-c-104956_dqydcf.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/d-ng-tr-n-qu-c-104956_dqydcf.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/d-ng-tr-n-qu-c-104956_dqydcf.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/d-ng-tr-n-qu-c-104956_dqydcf.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/d-ng-tr-n-qu-c-104956_dqydcf.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/d-ng-tr-n-qu-c-104956_dqydcf.jpg 320w&#34;
+      width=&#34;3000&#34;
+      height=&#34;1687&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;東急ハンズ「靴のお手入れ講座」に参加してきました&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;綺麗でカッコいい革靴を買ったはいいけど、手入れはせずにそのまま続けているなんてことはないですか？&lt;/p&gt;
 &lt;p&gt;いざ手入れをしようと思っても、どうやってやればいいのかって意外と分からなかったりしませんか？&lt;/p&gt;
 &lt;p&gt;私もずっと、ネットで読んだ知識を頼りに自己流で靴の手入れをしていました。&lt;/p&gt;
 &lt;p&gt;そんなところにちょうど東急ハンズの「靴のお手入れ講座」というものが開催されていたので、行って体験してきました！！「靴のお手入れ講座」を受けて、自分なりに大事だと感じたポイントを残しておきます。&lt;/p&gt;
 &lt;p&gt;今回の講師を担当いただいたのは、M.mowbrayの方です。&lt;/p&gt;
-&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1512185851/shoes_care_guide_qezexg.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/shoes_care_guide_qezexg.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/shoes_care_guide_qezexg.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/shoes_care_guide_qezexg.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/shoes_care_guide_qezexg.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/shoes_care_guide_qezexg.jpg 320w&#34;
-        width=&#34;960&#34;
-        height=&#34;1280&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;東急ハンズ「靴のお手入れ講座」に参加してきました&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1512185851/shoes_care_guide_qezexg.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/shoes_care_guide_qezexg.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/shoes_care_guide_qezexg.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/shoes_care_guide_qezexg.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/shoes_care_guide_qezexg.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/shoes_care_guide_qezexg.jpg 320w&#34;
+      width=&#34;960&#34;
+      height=&#34;1280&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;東急ハンズ「靴のお手入れ講座」に参加してきました&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;aside&gt;
   &lt;div class=&#34;toc&#34;&gt;
     &lt;header&gt;
@@ -3502,21 +3460,20 @@ To support buttons in Slack messages, you must enable Interactive Messages when 
       <guid>https://www.meganii.com/blog/2017/09/02/az-chain-cleaner-buruno-maintenance/</guid>
       <description>&lt;p&gt;何気なくAmazonをみていると、AZ(エーゼット）チェーンクリーナーがなんと初回限定98円で売っていたので、思わずポチってしまいました。これを機に、自転車のチェーン清掃にチャレンジしてみました。&lt;/p&gt;
 &lt;p&gt;購入したのは、以下3本です。&lt;/p&gt;
-&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1596888470/36974664995_b282fb2cc1_o_jh6tdv.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/36974664995_b282fb2cc1_o_jh6tdv.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/36974664995_b282fb2cc1_o_jh6tdv.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/36974664995_b282fb2cc1_o_jh6tdv.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/36974664995_b282fb2cc1_o_jh6tdv.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/36974664995_b282fb2cc1_o_jh6tdv.jpg 320w&#34;
-        width=&#34;300&#34;
-        height=&#34;300&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;チェーンクリーナーセット&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1596888470/36974664995_b282fb2cc1_o_jh6tdv.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/36974664995_b282fb2cc1_o_jh6tdv.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/36974664995_b282fb2cc1_o_jh6tdv.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/36974664995_b282fb2cc1_o_jh6tdv.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/36974664995_b282fb2cc1_o_jh6tdv.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/36974664995_b282fb2cc1_o_jh6tdv.jpg 320w&#34;
+      width=&#34;300&#34;
+      height=&#34;300&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;チェーンクリーナーセット&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;div class=&#34;embed&#34;&gt;
   &lt;div class=&#34;rf&#34;&gt;
     &lt;div class=&#34;rr&#34;&gt;
@@ -3668,21 +3625,20 @@ To support buttons in Slack messages, you must enable Interactive Messages when 
       <pubDate>Sat, 29 Jul 2017 21:24:15 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2017/07/29/cebu-plantation-bay-resort-spa/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1593903217/36106967481_c962ffa6d3_c_hooswu.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/36106967481_c962ffa6d3_c_hooswu.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/36106967481_c962ffa6d3_c_hooswu.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/36106967481_c962ffa6d3_c_hooswu.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/36106967481_c962ffa6d3_c_hooswu.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/36106967481_c962ffa6d3_c_hooswu.jpg 320w&#34;
-        width=&#34;800&#34;
-        height=&#34;600&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;セブ島　プランテーションベイリゾート＆スパ&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1593903217/36106967481_c962ffa6d3_c_hooswu.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/36106967481_c962ffa6d3_c_hooswu.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/36106967481_c962ffa6d3_c_hooswu.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/36106967481_c962ffa6d3_c_hooswu.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/36106967481_c962ffa6d3_c_hooswu.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/36106967481_c962ffa6d3_c_hooswu.jpg 320w&#34;
+      width=&#34;800&#34;
+      height=&#34;600&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;セブ島　プランテーションベイリゾート＆スパ&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;「&lt;a href=&#34;//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&amp;pid=884792601&amp;vc_url=http%3A%2F%2Fhotels.his-j.com%2FHotelDetail%2FCEB00022.aspx%3Fcid%3D1790&#34; target=&#34;_blank&#34; rel=&#34;nofollow&#34;&gt;&lt;amp-img src=&#34;//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&amp;pid=884792601&#34; height=&#34;1&#34; width=&#34;0&#34; layout=&#34;fixed&#34;&gt;&lt;/amp-img&gt;プランテーション ベイ リゾートアンドスパ&lt;/a&gt;」に何もしない贅沢を味わいに行ってきました。&lt;/p&gt;
 &lt;aside&gt;
   &lt;div class=&#34;toc&#34;&gt;
@@ -4179,21 +4135,20 @@ VivaldiもChromium browserをベースにしているため、以下のコマン
       <pubDate>Sun, 08 Jan 2017 15:58:45 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2017/01/08/static-site-generator-hugo/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511562368/yjhod8fty2uwipjwyiyt.png&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/yjhod8fty2uwipjwyiyt.png 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/yjhod8fty2uwipjwyiyt.png 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/yjhod8fty2uwipjwyiyt.png 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/yjhod8fty2uwipjwyiyt.png 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/yjhod8fty2uwipjwyiyt.png 320w&#34;
-        width=&#34;685&#34;
-        height=&#34;368&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511562368/yjhod8fty2uwipjwyiyt.png&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/yjhod8fty2uwipjwyiyt.png 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/yjhod8fty2uwipjwyiyt.png 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/yjhod8fty2uwipjwyiyt.png 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/yjhod8fty2uwipjwyiyt.png 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/yjhod8fty2uwipjwyiyt.png 320w&#34;
+      width=&#34;685&#34;
+      height=&#34;368&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;今、自分でブログ・サイトを構築するとしたら、どんな選択肢があるでしょうか。&lt;/p&gt;
 &lt;p&gt;さすがにHTMLを自分で手打ちするのは大変です。
 なんらかのCMS（Content Management System：コンテンツ管理システム）を利用することになりますが、そのCMSにもさまざまな種類があり、どれを選んだらよいのでしょうか。&lt;/p&gt;
@@ -4250,21 +4205,20 @@ VivaldiもChromium browserをベースにしているため、以下のコマン
       <pubDate>Thu, 05 Jan 2017 21:21:03 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2017/01/05/leatherwallet-ganzo/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594888567/31971455812_4bbbe753fc_z_ha1gtw.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/31971455812_4bbbe753fc_z_ha1gtw.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/31971455812_4bbbe753fc_z_ha1gtw.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/31971455812_4bbbe753fc_z_ha1gtw.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/31971455812_4bbbe753fc_z_ha1gtw.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/31971455812_4bbbe753fc_z_ha1gtw.jpg 320w&#34;
-        width=&#34;640&#34;
-        height=&#34;480&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;大人の高級革財布 GANZOのTHIN BRIDLE (シンブライドル) 二つ折り財布のレビュー！&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594888567/31971455812_4bbbe753fc_z_ha1gtw.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/31971455812_4bbbe753fc_z_ha1gtw.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/31971455812_4bbbe753fc_z_ha1gtw.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/31971455812_4bbbe753fc_z_ha1gtw.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/31971455812_4bbbe753fc_z_ha1gtw.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/31971455812_4bbbe753fc_z_ha1gtw.jpg 320w&#34;
+      width=&#34;640&#34;
+      height=&#34;480&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;大人の高級革財布 GANZOのTHIN BRIDLE (シンブライドル) 二つ折り財布のレビュー！&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;「革のカッコイイ財布が欲しい」&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;いい感じの革の財布を探していたところ、GANZOの財布に一目惚れしました。1年程度使ってみた感想を今日は書いてみたいと思います。&lt;/p&gt;
 &lt;h1 id=&#34;ganzoの革財布&#34;&gt;GANZOの革財布&lt;/h1&gt;
@@ -4401,21 +4355,20 @@ GANZOは、あなたの手によって&amp;quot;世界最高&amp;quot;の完成�
       <pubDate>Sun, 16 Oct 2016 21:45:48 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2016/10/16/get-a-haircut-by-minimo/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511040827/minimo_uakszz.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/minimo_uakszz.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/minimo_uakszz.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/minimo_uakszz.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/minimo_uakszz.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/minimo_uakszz.jpg 320w&#34;
-        width=&#34;640&#34;
-        height=&#34;443&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;minimo(ミニモ)で初めてのメンズカットモデル&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511040827/minimo_uakszz.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/minimo_uakszz.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/minimo_uakszz.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/minimo_uakszz.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/minimo_uakszz.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/minimo_uakszz.jpg 320w&#34;
+      width=&#34;640&#34;
+      height=&#34;443&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;minimo(ミニモ)で初めてのメンズカットモデル&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;「カットモデル」ってなんだかすごく敷居が高くないですか？&lt;/p&gt;
 &lt;p&gt;例えば、カット”モデル&amp;quot;というのだから、モデルさんのようにシュッとしていないといけない。カットされた写真を撮られてWebや雑誌に掲載される。美容師がやりたいことだけが優先されて自分の希望は通らない。そもそも無料でカットしてもらえるなんて恐ろしい。などなど、私は勝手に想像してハードルを上げていました。&lt;/p&gt;
 &lt;p&gt;しかし、「minimo(ミニモ)」というアプリなら気軽にカットモデルとして切ってもらえるということを教えてもらい、本当に安く(無料で)カットしてもらえるのなら度試してみることにしました。&lt;/p&gt;
@@ -4633,21 +4586,20 @@ git pushでブログデプロイ&lt;/p&gt;
       <pubDate>Sat, 23 Jul 2016 15:05:40 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2016/07/23/scotch-grain-shine-or-rain/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594888858/scotchgrain_t1g9ii.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/scotchgrain_t1g9ii.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/scotchgrain_t1g9ii.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/scotchgrain_t1g9ii.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/scotchgrain_t1g9ii.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/scotchgrain_t1g9ii.jpg 320w&#34;
-        width=&#34;600&#34;
-        height=&#34;560&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;スコッチグレインの革靴「シャインオアレイン」なら雨の日でも快適通勤！！&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594888858/scotchgrain_t1g9ii.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/scotchgrain_t1g9ii.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/scotchgrain_t1g9ii.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/scotchgrain_t1g9ii.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/scotchgrain_t1g9ii.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/scotchgrain_t1g9ii.jpg 320w&#34;
+      width=&#34;600&#34;
+      height=&#34;560&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;スコッチグレインの革靴「シャインオアレイン」なら雨の日でも快適通勤！！&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;初めてScotch Grain（スコッチグレイン）の革靴を買って以来、私はスコッチグレインの虜になりました。&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
@@ -6334,21 +6286,20 @@ Total of 1 requests completed
       <pubDate>Tue, 31 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>https://www.meganii.com/blog/2012/07/31/connection/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1593902334/7668706168_dfc1dcbfc1_zka8pa.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/7668706168_dfc1dcbfc1_zka8pa.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/7668706168_dfc1dcbfc1_zka8pa.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/7668706168_dfc1dcbfc1_zka8pa.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/7668706168_dfc1dcbfc1_zka8pa.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/7668706168_dfc1dcbfc1_zka8pa.jpg 320w&#34;
-        width=&#34;500&#34;
-        height=&#34;352&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;レバレッジ人脈術&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1593902334/7668706168_dfc1dcbfc1_zka8pa.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/7668706168_dfc1dcbfc1_zka8pa.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/7668706168_dfc1dcbfc1_zka8pa.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/7668706168_dfc1dcbfc1_zka8pa.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/7668706168_dfc1dcbfc1_zka8pa.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/7668706168_dfc1dcbfc1_zka8pa.jpg 320w&#34;
+      width=&#34;500&#34;
+      height=&#34;352&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;レバレッジ人脈術&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;ふと、人脈について考えるキッカケがあったので考えてみたが、そもそも「人脈」ってなんだんだろうか。&lt;/p&gt;
 &lt;p&gt;「人脈を広げるのが大事」ってよく言われるけれど、自分にとってどんな人が人脈なんだろうか。&lt;/p&gt;</description>
     </item>
@@ -7285,21 +7236,20 @@ Total of 1 requests completed
       <pubDate>Mon, 06 Dec 2010 07:04:41 +0900</pubDate>
       
       <guid>https://www.meganii.com/blog/2010/12/06/1291586681/</guid>
-      <description>&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594885687/5226008743_65bdeb03bd_flwjpb.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/5226008743_65bdeb03bd_flwjpb.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/5226008743_65bdeb03bd_flwjpb.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/5226008743_65bdeb03bd_flwjpb.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/5226008743_65bdeb03bd_flwjpb.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/5226008743_65bdeb03bd_flwjpb.jpg 320w&#34;
-        width=&#34;500&#34;
-        height=&#34;380&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;踏み出す一歩。飛び込む勇気。&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+      <description>&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594885687/5226008743_65bdeb03bd_flwjpb.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/5226008743_65bdeb03bd_flwjpb.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/5226008743_65bdeb03bd_flwjpb.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/5226008743_65bdeb03bd_flwjpb.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/5226008743_65bdeb03bd_flwjpb.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/5226008743_65bdeb03bd_flwjpb.jpg 320w&#34;
+      width=&#34;500&#34;
+      height=&#34;380&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;踏み出す一歩。飛び込む勇気。&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;IT勉強会カレンダーを初めて見た時の感想。毎日各地でいろんな勉強会が予定されていた。それを見ると、なんだかワクワクした。自分の知らない世界が、触れてみたい世界が、まだ見ぬ世界がそこに広がっている気がして。就活が終わったことだし、自分の進む先の世界を見てみたい。そう思って、勉強会に行きたいって思うようになった。&lt;/p&gt;
 &lt;p&gt;「こんなに勉強会ってあるんだ！！」&lt;/p&gt;
 &lt;aside&gt;
@@ -7541,21 +7491,20 @@ Total of 1 requests completed
   target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
   8月22日 名古屋ライフハック研究会Vol.9 再発見 大人のための話し方&amp;amp;マナー(愛知県)
 &lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594886064/4917335597_ece11731fd_t7m5tz.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/4917335597_ece11731fd_t7m5tz.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/4917335597_ece11731fd_t7m5tz.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/4917335597_ece11731fd_t7m5tz.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/4917335597_ece11731fd_t7m5tz.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/4917335597_ece11731fd_t7m5tz.jpg 320w&#34;
-        width=&#34;500&#34;
-        height=&#34;375&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;スマートに見せる立ち振る舞い方があった-名古屋ライフハック研究会vol.9「再発見 大人のための話し方＆マナー」-&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594886064/4917335597_ece11731fd_t7m5tz.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/4917335597_ece11731fd_t7m5tz.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/4917335597_ece11731fd_t7m5tz.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/4917335597_ece11731fd_t7m5tz.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/4917335597_ece11731fd_t7m5tz.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/4917335597_ece11731fd_t7m5tz.jpg 320w&#34;
+      width=&#34;500&#34;
+      height=&#34;375&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;スマートに見せる立ち振る舞い方があった-名古屋ライフハック研究会vol.9「再発見 大人のための話し方＆マナー」-&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;p&gt;（大網さんからLT参加者へのフィードバックと、セミナーで使った資料）&lt;/p&gt;
 &lt;aside&gt;
   &lt;div class=&#34;toc&#34;&gt;
@@ -7937,21 +7886,20 @@ Total of 1 requests completed
       
       <guid>https://www.meganii.com/blog/2009/12/13/1260666253/</guid>
       <description>&lt;p&gt;家に帰って、ブログを更新するまでが勉強会。今回は、セキュリティ＆プログラミングキャラバン、神戸情報セキュリティ勉強会に参加してきました。会場は、カーネギーメロン大学。ってことで、青春18切符を使って、名古屋から神戸へ行ってきました。島根まで11時間かかったことを考えるともはや余裕ですね。&lt;/p&gt;
-&lt;div class=&#34;pt-4&#34;&gt;
-    &lt;amp-img class=&#34;contain&#34;
-        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594886078/20091213093137_kxbejx.jpg&#34;
-        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/20091213093137_kxbejx.jpg 1024w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/20091213093137_kxbejx.jpg 864w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/20091213093137_kxbejx.jpg 640w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/20091213093137_kxbejx.jpg 400w,
-                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/20091213093137_kxbejx.jpg 320w&#34;
-        width=&#34;289&#34;
-        height=&#34;363&#34;
-        heights=&#34;(min-width:600px) 400px, 80%&#34;
-        layout=&#34;responsive&#34;
-        alt=&#34;セキュリティ＆プログラミングキャラバン、セキュメロ合同勉強会にいってきたー!!!&#34;&gt;
-    &lt;/amp-img&gt;
-&lt;/div&gt;
+&lt;figure class=&#34;center&#34;&gt;
+  &lt;amp-img
+      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1594886078/20091213093137_kxbejx.jpg&#34;
+      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/20091213093137_kxbejx.jpg 1000w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/20091213093137_kxbejx.jpg 800w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/20091213093137_kxbejx.jpg 640w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/20091213093137_kxbejx.jpg 400w,
+              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/20091213093137_kxbejx.jpg 320w&#34;
+      width=&#34;289&#34;
+      height=&#34;363&#34;
+      layout=&#34;responsive&#34;
+      alt=&#34;セキュリティ＆プログラミングキャラバン、セキュメロ合同勉強会にいってきたー!!!&#34;&gt;
+  &lt;/amp-img&gt;
+&lt;/figure&gt;
 &lt;aside&gt;
   &lt;div class=&#34;toc&#34;&gt;
     &lt;header&gt;
