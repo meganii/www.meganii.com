@@ -17,30 +17,30 @@
     "express": "^4.17.1",
     "open-graph-scraper": "^4.8.2",
     "request-image-size": "^2.2.0",
-    "ts-node": "^9.1.1",
-    "typescript": "^4.2.4"
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
   },
   "devDependencies": {
-    "@ampproject/toolbox-optimizer": "^2.7.6",
+    "@ampproject/toolbox-optimizer": "^2.8.0",
     "@johnfoderaro/apaw": "^1.0.1",
-    "autoprefixer": "^10.2.5",
+    "autoprefixer": "^10.2.6",
     "gulp": "^4.0.2",
     "node-fetch": "^2.6.1",
     "npm-run-all": "^4.1.5",
-    "postcss": "^8.2.13",
+    "postcss": "^8.3.0",
     "postcss-cli": "^8.3.1",
-    "postcss-import": "^14.0.1",
-    "tailwindcss": "^2.1.2",
-    "textlint": "^11.9.0",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^2.1.4",
+    "textlint": "^12.0.0",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-filter-rule-whitelist": "^2.0.0",
     "textlint-rule-preset-ja-technical-writing": "^6.0.0",
-    "textlint-rule-preset-jtf-style": "^2.3.8",
+    "textlint-rule-preset-jtf-style": "^2.3.12",
     "textlint-rule-prh": "^5.3.0",
     "through2": "^4.0.2"
   },
   "peerDependencies": {
-    "postcss": "^8.2.13"
+    "postcss": "^8.3.0"
   },
   "repository": {
     "type": "git",
