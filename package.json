@@ -23,6 +23,8 @@
   "devDependencies": {
     "@ampproject/toolbox-optimizer": "^2.8.0",
     "@johnfoderaro/apaw": "^1.0.1",
+    "@types/express": "^4.17.12",
+    "@types/open-graph-scraper": "^4.8.0",
     "autoprefixer": "^10.2.6",
     "gulp": "^4.0.2",
     "node-fetch": "^2.6.1",
