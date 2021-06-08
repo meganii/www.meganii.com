@@ -1,23 +1,10 @@
-import * as express from 'express';
-import * as ogs from 'open-graph-scraper';
-import * as requestImageSize from 'request-image-size';
+import express from 'express'
+import ogs from 'open-graph-scraper';
 
-const app = express();
-
-app.get("/size", async (expressRequest, expressResponse, expressNext) => {
-	requestImageSize(expressRequest.query.url)
-		.then(size => {
-			const result = {
-				width: size.width,
-				height: size.height,
-			};
-			expressResponse.json(result);
-		})
-		.catch(err => console.error(err));
-})
+const app: express.Express = express();
 
 app.get("/ogp", async (expressRequest, expressResponse, expressNext) => {
-	const data = await ogs({ url: expressRequest.query.url })
+	const data = await ogs({ url: expressRequest.query.url as string})
 		.catch((err) => {
 			// expressNext(err);
 			console.error(err);
