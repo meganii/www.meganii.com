@@ -1,7 +1,7 @@
 ---
 title: "HugoでAMP対応のブログカードを作る"
 date: 2020-02-02T22:25:06+09:00
-lastmod: 2021-01-30T17:56:10+09:00
+lastmod: 2021-06-15T22:10:39+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo', 'AMP', 'JavaScript']
@@ -28,8 +28,6 @@ img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/
 ```
 {{% escape "{{% blogcard https://nasust.com/hugo/shortcode/blogcard/ %}}" %}}
 ```
-
-{{% blogcard "https://nasust.com/hugo/shortcode/blogcard/" %}}
 
 
 `blogcard`というShortcodeを利用することで、対象ページのTitle, Description, OGPを取得して表示します。
