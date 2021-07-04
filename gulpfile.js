@@ -12,8 +12,12 @@ function optimizeAmp(cb) {
     .pipe(
       through2.obj(async (file, _, cb) => {
         if (file.isBuffer()) {
-          const optimizedHtml = await ampOptimizer.transformHtml(file.contents.toString());
-          file.contents = Buffer.from(optimizedHtml);
+          try {
+            const optimizedHtml = await ampOptimizer.transformHtml(file.contents.toString());
+            file.contents = Buffer.from(optimizedHtml);
+          } catch (error) {
+            console.error(error);
+          }
         }
         cb(null, file);
       })
