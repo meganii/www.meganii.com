@@ -1,7 +1,7 @@
 ---
 title: "モチベーションに頼らない習慣化 /「小さな習慣」"
 date: 2019-12-16T05:48:56+09:00
-lastmod: 2020-07-05T07:51:24+09:00
+lastmod: 2021-07-04T19:02:23+09:00
 comments: true
 category: ['Book']
 tags: ['書評', '習慣化', 'Lifehack', '習慣', '小さな習慣']
@@ -16,18 +16,23 @@ img:  "https://m.media-amazon.com/images/I/41-SgavV5cL.jpg"
 
 {{% amazon B072B8S2YN %}}
 
-# 本書から何を得たいか
+
+{{% toc %}}
+
+<!--more-->
+{{% googleadsense %}}
+
+
+## 本書から何を得たいか
 
 - 「小さな習慣」とはどういったものか
 - 「習慣化」はどうやって行えばよいのか
 - タスク管理をする際の粒度のヒント
 
-<!--more-->
-{{% googleadsense %}}
 
-# 読書メモ
+## 読書メモ
 
-## 概要
+### 概要
 
 「小さな習慣」とは毎日これだけはやると決めて必ず実施する、本当にちょっとしたポジティブな行動である。
 
@@ -44,7 +49,7 @@ img:  "https://m.media-amazon.com/images/I/41-SgavV5cL.jpg"
 いい意味で脳をだまし、小さな習慣を取り入れ、達成したいポジティブな行動を身に付けたい。
 
 
-## 今回設定した自分の「小さな習慣」
+### 今回設定した自分の「小さな習慣」
 
 1. 【アウトプット】ブログを更新する、もしくは毎日1文書く
 2. 【インプット】読書メモを更新する、もしくは毎日2ページ本を読む
@@ -56,14 +61,14 @@ img:  "https://m.media-amazon.com/images/I/41-SgavV5cL.jpg"
 最後の目標は健康面として、まずはなかなか習慣化できない肌ケアを習慣化するための小さな目標である。
 
 
-## 利用し始めたAndroidアプリ
+### 利用し始めたAndroidアプリ
 
 本書で紹介されているAndroidアプリは以下2つであった。
 
 - [Loop \- Habit Tracker \- Apps on Google Play](https://play.google.com/store/apps/details?id=org.isoron.uhabits)
 - [Habit Tracker \- Apps on Google Play](https://play.google.com/store/apps/details?id=com.oristats.habitbull)
 
-私は、見た目が良さそうな`Loop`を利用することとした。1、2週間ほど運用してみてレビューを行う。
+私は、見た目が良さそうな`Loop`を利用することとした。1、2週間ほど運用してみてレビューする。
 
 
 ## まとめ
