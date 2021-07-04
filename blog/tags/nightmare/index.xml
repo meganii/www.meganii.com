@@ -21,37 +21,20 @@
   次の本
 &lt;/a&gt;を読み進めることで、&lt;code&gt;Ruby&lt;/code&gt;のライブラリである&lt;code&gt;Capybara&lt;/code&gt;, &lt;code&gt;Poltergeist&lt;/code&gt;を利用してスクレイピングを行うことができました。&lt;code&gt;Poltergeist&lt;/code&gt;は&lt;code&gt;PhantomJS&lt;/code&gt;というHeadless Browserを操作するための&lt;code&gt;Capybara&lt;/code&gt;用Driverです。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;PhantomJS&lt;/code&gt;は&lt;code&gt;JavaScript&lt;/code&gt;ライブラリということで、&lt;code&gt;JavaScript&lt;/code&gt;から&lt;code&gt;PhantomJS&lt;/code&gt;を操作するにはどのような方法があるのか調べてみました。これを機会に&lt;code&gt;JavaScript&lt;/code&gt;を書けるようになりたい。&lt;/p&gt;
-&lt;div class=&#34;embed&#34;&gt;
-  &lt;div class=&#34;rf&#34;&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rcm3 rtxc rpxs rpls&#34;&gt;
-        &lt;a href=&#34;&#34;&gt;
-          &lt;div&gt;
-            &lt;amp-img class=&#34;&#34; src=&#34;&#34; alt=&#34;&#34; width=&#34;&#34; height=&#34;&#34; layout=&#34;fixed&#34; /&gt;
-          &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;rcx12 rcm9 rpls&#34;&gt;
-        &lt;div class=&#34;rf&#34;&gt;
-          &lt;div class=&#34;rr&#34;&gt;
-            &lt;div class=&#34;rcx12 body&#34;&gt;
-              &lt;a class=&#34;utdn&#34; 
-                href=&#34;&#34;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&#34;rcm12 hx&#34;&gt;
-              &lt;div&gt;&lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;rr&#34;&gt;
-      &lt;div class=&#34;rcx12 rpxs rcm12&#34;&gt;
-        &lt;div&gt;&lt;a href=&#34;&#34; class=&#34;bp bf&#34;&gt;Amazonでチェックする&lt;/a&gt;&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;affiliate border border-grey-light rounded lg:flex lg:my-4 lg:mx-auto z-0&#34;&gt;
+  &lt;div class=&#34;h-56 relative rounded lg:flex-none lg:w-2/5 lg:px-2 lg:py-4 lg:mx-2 my-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34; src=&#34;https://m.media-amazon.com/images/I/51Pyh8Z7bjL.jpg&#34;
+      alt=&#34;Rubyによるクローラー開発技法　巡回・解析機能の実装と21の運用例&#34;
+      layout=&#34;fill&#34; /&gt;
   &lt;/div&gt;
-&lt;/div&gt; --&gt;</description>
+  &lt;div class=&#34;p-4 relative flex flex-col justify-between leading-normal lg:w-3/5&#34;&gt;
+    &lt;div class=&#34;mb-8 px-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/B00TO6KMEK?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; rel=&#34;noopener sponsored&#34; class=&#34;text-blue-500 hover:underline&#34;&gt;Rubyによるクローラー開発技法　巡回・解析機能の実装と21の運用例&lt;/a&gt;&lt;div&gt;出版社：SBクリエイティブ&lt;/div&gt;&lt;div&gt;著者:&lt;span class=&#34;ml-3&#34;&gt;佐々木 拓郎&lt;/span&gt;&lt;span class=&#34;ml-3&#34;&gt;るびきち&lt;/span&gt;&lt;/div&gt;&lt;div&gt;発売日: 2014/08/22&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&#34;grid grid-cols-2 md:grid-cols-3 gap-1&#34;&gt;
+      &lt;a href=&#34;https://www.amazon.co.jp/dp/B00TO6KMEK?tag=meganii-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; target=&#34;_blank&#34; rel=&#34;noopener sponsored&#34; class=&#34;block leading-9	text-white text-sm font-medium text-center w-full border-1 border-gray-600 bg-yellow-500 rounded hover:bg-yellow-400&#34;&gt;Amazon&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     
   </channel>
