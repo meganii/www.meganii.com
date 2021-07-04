@@ -1,7 +1,7 @@
 ---
 title: "モチベーションに頼らない習慣化 /「小さな習慣」"
 date: 2019-12-16T05:48:56+09:00
-lastmod: 2021-07-04T19:02:23+09:00
+lastmod: 2021-07-04T19:04:22+09:00
 comments: true
 category: ['Book']
 tags: ['書評', '習慣化', 'Lifehack', '習慣', '小さな習慣']
@@ -14,7 +14,7 @@ img:  "https://m.media-amazon.com/images/I/41-SgavV5cL.jpg"
 
 [小さすぎて失敗すらできないステップを毎日繰り返そう /「小さな習慣」を読んだ \- kakakakakku blog](https://kakakakakku.hatenablog.com/entry/2018/08/19/134518)
 
-{{% amazon B072B8S2YN %}}
+{{% amazon 4478065772 %}}
 
 
 {{% toc %}}
@@ -77,4 +77,4 @@ img:  "https://m.media-amazon.com/images/I/41-SgavV5cL.jpg"
 - やらない理由をなくすぐらい、いかに小さなステップに分割するかがポイント
 - 期待値を勝手に上げて勝手に落ち込むのではなく、自分自身を信用できるように、全ての進捗に幸せ（喜び）を感じること
 
-{{% amazon B072B8S2YN %}}
+{{% amazon 4478065772 %}}
