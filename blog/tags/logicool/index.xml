@@ -28,20 +28,21 @@
   target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
   MX Master 3
 &lt;/a&gt;購入までの検討と、実際の使い心地について残しておく。&lt;/p&gt;
-&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1624155145/MXMaster3_1_w0iaqd.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/MXMaster3_1_w0iaqd.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/MXMaster3_1_w0iaqd.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/MXMaster3_1_w0iaqd.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/MXMaster3_1_w0iaqd.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/MXMaster3_1_w0iaqd.jpg 320w&#34;
-      width=&#34;400&#34;
-      height=&#34;400&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;Logicool MX Master 3 レビュー&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1624155145/MXMaster3_1_w0iaqd.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/MXMaster3_1_w0iaqd.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/MXMaster3_1_w0iaqd.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/MXMaster3_1_w0iaqd.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/MXMaster3_1_w0iaqd.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/MXMaster3_1_w0iaqd.jpg 320w&#34;
+        width=&#34;400&#34;
+        height=&#34;400&#34;
+        heights=&#34;(min-width:600px) 400px, 80%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;Logicool MX Master 3 レビュー&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;aside&gt;
   &lt;div class=&#34;toc&#34;&gt;
     &lt;header&gt;
