@@ -6,7 +6,41 @@
     <description>Recent content in Windows on SIS Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 20 Mar 2021 21:13:27 +0900</lastBuildDate><atom:link href="https://www.meganii.com/blog/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jul 2021 14:12:20 +0900</lastBuildDate><atom:link href="https://www.meganii.com/blog/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WSL2のLinuxおよびDockerイメージ格納先を任意のディレクトリに移動する</title>
+      <link>https://www.meganii.com/blog/2021/07/11/move-the-destination-of-wsl2-linux-and-docker-image-container-to-another-directory/</link>
+      <pubDate>Sun, 11 Jul 2021 14:12:20 +0900</pubDate>
+      
+      <guid>https://www.meganii.com/blog/2021/07/11/move-the-destination-of-wsl2-linux-and-docker-image-container-to-another-directory/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Windows Store&lt;/code&gt;からインストールできる&lt;code&gt;WSL2&lt;/code&gt;の&lt;code&gt;Ubuntu&lt;/code&gt;および、&lt;code&gt;Docker Desktop WSL2 Backend&lt;/code&gt;のイメージ格納先がデフォルトではCドライブに格納される。
+Cドライブに必要最低限なSSD、Dドライブに大容量HDDを割り当てているため、Cドライブが枯渇するためDドライブに移動させたい。&lt;/p&gt;
+&lt;p&gt;ここでは、&lt;code&gt;WSL2&lt;/code&gt;のUbuntuと、&lt;code&gt;Docker Desktop WSL2 Backend&lt;/code&gt;のインストールフォルダ変更についての調査・確認結果を記す。&lt;/p&gt;
+&lt;aside&gt;
+  &lt;div class=&#34;toc&#34;&gt;
+    &lt;header&gt;
+      &lt;h2 class=&#34;&#34;&gt;目次&lt;/h2&gt;
+    &lt;/header&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#デフォルトのインストール先&#34;&gt;デフォルトのインストール先&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#手順&#34;&gt;手順&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#1-docker-desktop-for-windowsの停止&#34;&gt;1. Docker Desktop for Windowsの停止&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#2-wslの停止&#34;&gt;2. WSLの停止&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#3-ディストリビューションのexport&#34;&gt;3. ディストリビューションのExport&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#4-ディストリビューションの解除削除&#34;&gt;4. ディストリビューションの解除（削除）&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#5-ディストリビューションのインポート&#34;&gt;5. ディストリビューションのインポート&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#6-docker-desktopを起動させる&#34;&gt;6. Docker Desktopを起動させる&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#参考url&#34;&gt;参考URL&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/aside&gt;</description>
+    </item>
+    
     <item>
       <title>【レビュー】OMEN By HP 25L Desktop #OMENのある生活</title>
       <link>https://www.meganii.com/blog/2021/03/20/life-with-omen-by-hp-25l-desktop/</link>
