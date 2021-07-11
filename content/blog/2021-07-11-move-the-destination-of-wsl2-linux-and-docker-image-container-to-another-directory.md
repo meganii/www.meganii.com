@@ -1,13 +1,13 @@
 ---
 title: "WSL2のLinuxおよびDockerイメージ格納先を任意のディレクトリに移動する"
 date: 2021-07-11T14:12:20+09:00
-lastmod: 2021-07-11T14:12:20+09:00
+lastmod: 2021-07-11T18:09:26+09:00
 published: true
 category: ["Tech"]
 tags: ["Windows", "WSL2","Docker", "Docker Desktop"]
 comment: true
 slug: "move-the-destination-of-wsl2-linux-and-docker-image-container-to-another-directory"
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1514031264/thumbnail_tech.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1594902885/tech_ben4sq.png"
 ---
 
 `Windows Store`からインストールできる`WSL2`の`Ubuntu`および、`Docker Desktop WSL2 Backend`のイメージ格納先がデフォルトではCドライブに格納される。
