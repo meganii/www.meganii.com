@@ -14,20 +14,21 @@
       
       <guid>https://www.meganii.com/blog/2020/11/28/review-sony-wh-1000xm4-wireless-noise-canceling-headphones/</guid>
       <description>&lt;p&gt;My new gear&amp;hellip;&lt;/p&gt;
-&lt;figure class=&#34;center&#34;&gt;
-  &lt;amp-img
-      src=&#34;https://res.cloudinary.com/meganii/image/upload/v1606546130/IMG20201128154423_ww5bca.jpg&#34;
-      srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/IMG20201128154423_ww5bca.jpg 1000w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_800/IMG20201128154423_ww5bca.jpg 800w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG20201128154423_ww5bca.jpg 640w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG20201128154423_ww5bca.jpg 400w,
-              https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG20201128154423_ww5bca.jpg 320w&#34;
-      width=&#34;3456&#34;
-      height=&#34;3456&#34;
-      layout=&#34;responsive&#34;
-      alt=&#34;SONY WH-1000XM4 ワイヤレスノイズキャンセリングヘッドフォン&#34;&gt;
-  &lt;/amp-img&gt;
-&lt;/figure&gt;
+&lt;div class=&#34;pt-4&#34;&gt;
+    &lt;amp-img class=&#34;contain&#34;
+        src=&#34;https://res.cloudinary.com/meganii/image/upload/v1606546130/IMG20201128154423_ww5bca.jpg&#34;
+        srcset=&#34;https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1024/IMG20201128154423_ww5bca.jpg 1024w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_864/IMG20201128154423_ww5bca.jpg 864w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_640/IMG20201128154423_ww5bca.jpg 640w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_400/IMG20201128154423_ww5bca.jpg 400w,
+                https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_320/IMG20201128154423_ww5bca.jpg 320w&#34;
+        width=&#34;3456&#34;
+        height=&#34;3456&#34;
+        heights=&#34;(min-width:600px) 400px, 80%&#34;
+        layout=&#34;responsive&#34;
+        alt=&#34;SONY WH-1000XM4 ワイヤレスノイズキャンセリングヘッドフォン&#34;&gt;
+    &lt;/amp-img&gt;
+&lt;/div&gt;
 &lt;p&gt;初めてのワイヤレスノイズキャンセリングヘッドフォン「SONY WH-1000XM4」を購入して、2週間利用してみたのでその感想を書きます。&lt;/p&gt;
 &lt;aside&gt;
   &lt;div class=&#34;toc&#34;&gt;
