@@ -1,7 +1,7 @@
 ---
 title: "ブログカードテスト"
 date: 2020-01-17T22:33:14+09:00
-lastmod: 2020-01-19T20:55:33+09:00
+lastmod: 2021-07-24T19:34:22+09:00
 comments: true
 category: ['Tech']
 tags: ['']
@@ -20,8 +20,6 @@ img:
 
 
 {{% blogcard "https://kakakakakku.hatenablog.com/entry/2018/08/19/134518" %}}
-
-{{% blogcard "https://nasust.com/hugo/shortcode/blogcard/" %}}
 
 
 {{% blogcard "https://kakakakakku.hatenablog.com/entry/2017/11/27/202252" %}}
