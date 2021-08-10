@@ -1,13 +1,13 @@
 ---
 title: "HHKBとセットで使いたいウッドパームレスト"
 date: 2021-08-08T16:25:58+09:00
-lastmod: 2021-08-10T14:24:04+09:00
+lastmod: 2021-08-10T19:48:19+09:00
 published: true
 category: ["Gadget"]
 tags: ["HHKB","キーボード", "パームレスト"]
 comment: true
 slug: "happy-hacking-keyboard-wood-palmrest"
-img: "https://res.cloudinary.com/meganii/image/upload/c_thumb,f_auto,q_auto,w_1024/v1628412037/IMG20210808165930_bcpsnm.jpg"
+img: "https://res.cloudinary.com/meganii/image/upload/c_thumb,f_auto,q_auto/v1628572257/HHKB_WoodPalmrest_cpp78v.png"
 ---
 
 
