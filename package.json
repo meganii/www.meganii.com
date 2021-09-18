@@ -10,7 +10,7 @@
     "stop": "kill -9 $(lsof -t -i:6060)",
     "dev": "hugo server -D -F",
     "build": "run-p serve:prod build:hugo stop",
-    "build:hugo": "hugo && exit 0",
+    "build:hugo": "sleep 5 && HUGO_ENV=production NODE_ENV=production hugo --gc -v && gulp && exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
