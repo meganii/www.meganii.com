@@ -1,7 +1,7 @@
 ---
 title: "ちょっとしたアイコンに使えるアイコン集"
 date: 2018-04-22T17:32:37+09:00
-lastmod: 2020-04-04T15:56:47+09:00
+lastmod: 2021-09-20T16:44:00+09:00
 comments: true
 category: ['Design']
 tags: ['icon','Design']
@@ -26,7 +26,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 ## アイコン集
 
 - [Material icons \- Material Design](https://material.io/icons/)
-- [Metrize Icons • 300 Icons for Designers & Developers]- (http://www.alessioatzeni.com/metrize-icons/)
+- [Metrize Icons • 300 Icons for Designers & Developers](http://www.alessioatzeni.com/metrize-icons/)
 - [iconmonstr \- Free icons for your next project](https://iconmonstr.com/)
 - [FLAT ICON DESIGN \-フラットアイコンデザイン\- \| フラットデザインに最適！WEBサイトやDTPですぐ使える商用利用可能なフラットアイコン素材がフリー（無料）ダウンロードできるサイト『FLAT ICON DESIGN』](http://flat-icon-design.com/)
 - [アイコン素材ダウンロードサイト「icooon\-mono」 \| 商用利用可能なアイコン素材が無料\(フリー\)ダウンロードできるサイト \| 6000個以上のアイコン素材を無料でダウンロードできるサイト ICOOON MONO](http://icooon-mono.com/)

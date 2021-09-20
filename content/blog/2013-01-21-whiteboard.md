@@ -1,8 +1,8 @@
 ---
 title: ホワイトボードでやってみたいこと
 date: 2013-01-21
-lastmod: 2018-06-30T22:37:00+09:00
-category: ['Art']
+lastmod: 2021-09-20T16:44:00+09:00
+category: ['Book']
 tags: ['ファシリテーション', '会議', 'ホワイトボード']
 published: true
 slug: whiteboard
@@ -11,14 +11,13 @@ img: "https://images-fe.ssl-images-amazon.com/images/I/513w95PLFRL._SL160_.jpg"
 
 ## アジェンダリストを右端に残しておく
 
-- 全員の相違を取ったアジェンダを右端に残しておき、終わったら横線を引いていく。
+- 全員の相違を取ったアジェンダを右端に残しておき、終わったら横線を引いていく
 
-<a href="http://www.ideaxidea.com/archives/2006/08/post_116.html">ストレスフリーのホワイトボード術 | IDEA*IDEA</a>
+「ストレスフリーのホワイトボード術 | IDEA*IDEA」より抜粋（過去URL：http://www.ideaxidea.com/archives/2006/08/post_116.html）
 
 
-進め方は以下のとおり。
+### ミーティングの最初に必ずやること
 
-*ミーティングの最初に必ずやること。*
 それはホワイトボードにアジェンダ（議題）を書き出すことです。具体的な進め方は次のとおり。
 
 1. ホワイトボードの右端、横10cmに縦線をひく。
@@ -42,7 +41,7 @@ img: "https://images-fe.ssl-images-amazon.com/images/I/513w95PLFRL._SL160_.jpg"
 
 ## ファシリテーターとして
 
-TODOを誰かにアサインする
+- TODOを誰かにアサインする
 
 ## ちょっと欲しい
 

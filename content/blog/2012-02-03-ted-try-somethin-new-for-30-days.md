@@ -1,11 +1,11 @@
 ---
 title: Try something new for 30 days
 date: 2012-02-03 00:29:26 +0900
-lastmod: 2018-03-17T21:28:54+09:00
+lastmod: 2021-09-20T16:44:00+09:00
 slug: ted-try-somethin-new-for-30-days
-category: ['English']
-tags: ['TED']
-published: true
+category: ['Study']
+tags: ['TED','English']
+published: false
 ---
 
 {{% ted src="https://embed.ted.com/talks/lang/en/matt_cutts_try_something_new_for_30_days" %}}

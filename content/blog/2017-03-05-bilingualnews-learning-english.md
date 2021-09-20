@@ -1,10 +1,10 @@
 ---
 title: "[バイリンガルニュース特別編]吉田研作先生 英語に対する意識を変える"
 date: 2017-03-05T23:09:49+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2021-09-20T16:44:00+09:00
 comments: true
-category: ['English']
-tags: ['英語']
+category: ['Study']
+tags: ['英語', 'English']
 published: true
 slug: bilingualnews-learning-english
 img: "https://images-fe.ssl-images-amazon.com/images/I/51pu%2B0tZVxL._SL160_.jpg"

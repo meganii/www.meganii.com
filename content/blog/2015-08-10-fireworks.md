@@ -1,8 +1,8 @@
 ---
 title: "fireworks"
 date: 2015-08-10T00:56:00+09:00
-lastmod: 2019-04-27T16:12:02+09:00
-category: ['Art']
+lastmod: 2021-09-20T16:44:00+09:00
+category: ['Life']
 tags: ['Photo']
 published: false
 img: "https://farm1.staticflickr.com/390/20242948698_6335e85edf_z.jpg"
