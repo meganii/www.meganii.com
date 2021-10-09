@@ -1,20 +1,19 @@
 ---
-
 title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
 date: 2014-12-13T18:15:00+09:00
-lastmod: 2020-03-31T19:16:44+09:00
+lastmod: 2021-10-09T20:23:27+09:00
 category: ['Tech']
 tags: ['jekyll','Ruby']
 published: true
 slug: jekyl-front-matter-viewer
-img: "https://farm9.staticflickr.com/8650/16007934641_502fe07015_z.jpg"
+img: "https://res.cloudinary.com/meganii/image/upload/v1633778481/16007934641_502fe07015_z_daudwn.jpg"
 ---
 
 カテゴリ名を一括変換したり、タグ名を整理する際に、今どうなっているか一覧にしたかったので、Railsで作ってみた。
 
 無事一覧が出来たので気持ちいい。こういう庭いじり好きかも笑。
 
-<p><a href="https://www.flickr.com/photos/35571855@N06/16007934641" title="JekyllFFViewer_and_posts_controller_rb____Work_Site_JekyllFFViewer_app_controllers__-_VIMby meganii, on Flickr"><img class="img-responsive" src="https://farm9.staticflickr.com/8650/16007934641_502fe07015_z.jpg" alt="JekyllFFViewer_and_posts_controller_rb____Work_Site_JekyllFFViewer_app_controllers__-_VIM"></a></p>
+{{% img src="https://res.cloudinary.com/meganii/image/upload/v1633778481/16007934641_502fe07015_z_daudwn.jpg" w="640" h="350" %}}
 
 [https://github.com/meganii/JekyllFFviewer](https://github.com/meganii/JekyllFFviewer)
 
@@ -116,7 +115,7 @@ end
 
 [Railsのテーブル並び替えを実装する | Scimpr Blog](http://blog.scimpr.com/2012/08/26/rails%E3%81%AE%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E4%B8%A6%E3%81%B3%E6%9B%BF%E3%81%88%E3%82%92%E5%AE%9F%E8%A3%85%E3%81%99%E3%82%8B/)
 
-単純なソートであれば、取得時にソート処理をかませばよいのだが、今回は、ハッシュの配列を、あるキー値でソートしないといけないので注意が必要。
+単純なソートであれば取得時にソート処理をかませばよいのだが、今回はハッシュの配列をあるキー値でソートしないといけないので注意が必要。
 
 
 
