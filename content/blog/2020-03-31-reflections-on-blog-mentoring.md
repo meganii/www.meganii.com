@@ -1,7 +1,7 @@
 ---
 title: "小さな習慣・アウトプット駆動生活〜ブログメンタリングのふりかえり〜"
 date: 2020-03-31T21:00:52+09:00
-lastmod: 2021-01-07T07:32:29+09:00
+lastmod: 2021-10-26T23:25:50+09:00
 comments: true
 category: ['Tech']
 tags: ['Blog', 'ブログメンタリング', '小さな習慣', 'アウトプット', 'ふりかえり']
@@ -150,7 +150,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring
 
 このことを意識した上で、私も[小さな習慣](https://amzn.to/3aquWCG)の書評記事を書きました。
 
-{{% amazon B072B8S2YN %}}
+{{% amazon 4478065772 %}}
 
 
 {{% iframely "https://www.meganii.com/blog/2019/12/16/mini-habits-smaller-habits-bigger-results/" %}}
