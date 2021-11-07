@@ -1,12 +1,12 @@
 ---
-title: "金子眼鏡のメガネを購入した"
+title: "金子眼鏡でZEISSレンズのメガネを購入した"
 date: 2021-11-07T16:47:22+09:00
 lastmod: 2021-11-07T16:47:22+09:00
 published: false
 category: ["Life"]
 tags: ["眼鏡","金子眼鏡"]
 comment: true
-slug: "kaneko-gankyo"
+slug: "kaneko-optical"
 img: "https://res.cloudinary.com/meganii/image/upload/v1636268379/kaneko_gankyo_kxtyzt.jpg"
 ---
 
@@ -90,46 +90,45 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1636268379/kaneko_gankyo_
 
 
 `Nikon`と`CarlZeiss`の2つで悩んだ。
-色々と店員さんの意見を聞いていると、`CarlZeiss`が最近出したブルーライトカットレンズ`ZEISS BlueGuard Lenses`は非常に透明で、青色の反射も少ないという。
+店員さんの意見を色々と聞いていると、`CarlZeiss`が最近出したブルーライトカットレンズ`ZEISS BlueGuard Lenses`は非常に透明で、青色の反射も少ないという。
 レンズの状態で比べてみると確かに透明さが違う。
 
 
+今使っているPC用メガネは、2015年頃に購入した`JINS PCメガネ（PC-14A-001M）`だ。
+色付きのレンズで、ブルーライトカット率は38%だったはず。
+四六時中ディスプレイに向かっているとき、ブルーライトカットではない普通のメガネよりJINS PCメガネの方が感覚的に目が疲れないので、次のメガネもブルーライトカットの機能は欲しい。
+このJINS PCメガネの不満点は、色付きのため掛けると視界が全体的に黄色くなってしまうことであった。
 
-今使っているPC用メガネは、`JINS PCメガネ（PC-14A-001M）`だ。ブルーライトカットではない普通のメガネを掛けているより、目が疲れない。
 
-
-
-四六時中ディスプレイに向かっているので、ブルーライトカットの方が楽だ。
-
-レンズ自体が透明で、クリアな視界が得られるのではないかと思い、CarlZeiss（カールツァイス）の`ZEISS BlueGuard Lenses`を選んだ。
+つまり、レンズ自体が透明で、クリアな視界が得られるブルーライトカットレンズであれば最強ではないかと思い、`CarlZeiss（カールツァイス）`の`ZEISS BlueGuard Lenses`を選んだ。  
+（もちろん値段は跳ね上がったが、後悔はしていない）
 
 
 
 ![JINSブルーライトカットとZEISS BlueGuard Lensesの比較](https://res.cloudinary.com/meganii/image/upload/v1636271027/bluelight_cut_lens_t7dyej.jpg "=1824x1216")
 ![JINSブルーライトカットとZEISS BlueGuard Lensesの比較](https://res.cloudinary.com/meganii/image/upload/v1636271204/lens_color_w7y79u.jpg "=1824x1216")
 
-上2枚の写真の上がJINS PCメガネのブルーライトカットレンズで、下がカール・ツァイスのブルーライトカットレンズ（ZEISS BlueGuard Lenses）だ。
+上2枚の写真の上がJINS PCメガネのブルーライトカットレンズで、下が`CarlZeiss`のブルーライトカットレンズ（`ZEISS BlueGuard Lenses`）だ。
 
-`JINS PCメガネ（PC-14A-001M）`は2015年頃に購入し、ブルーライトカット率は38%であったはずだ。
-一方、`ZEISS BlueGuard Lenses`は、この透明なレンズでもブルーライトカット率最大40%だという。
 最新のブルーライトカットレンズと比較するのはフェアじゃないが、ご覧のとおり色が全然違う。
+`JINS PCメガネ（PC-14A-001M）`は色付きでブルーライトカット率38%。
+一方、`ZEISS BlueGuard Lenses`は、この透明なレンズでもブルーライトカット率最大40%だという。
 
-JINS PCメガネの場合は、掛けると全体的に黄色くなる。ZEISSレンズは色が変わっていることは識別できなかった。
-
-PC/Macで動画編集、画像編集を扱っている方は、色付きだと作業の邪魔になってしまうが、この`ZEISS BlueGuard Lenses`はクリアだ。
-
-
-目の疲れ方は、JINS PCメガネから変えてみても以上に疲れるということはない。
-
-また、ブルーライトカットレンズは光の反射でレンズが青色くみえる。
-この`ZEISS BlueGuard Lenses`はその反射が軽減されている。
-
+JINS PCメガネは掛けると全体的に黄色くなるが、ZEISSレンズは色の変化を識別できなかった。
+PC/Macで動画編集、画像編集を扱っている方は、色付きレンズだと作業の邪魔になってしまうが、この`ZEISS BlueGuard Lenses`であればその心配は減りそうだ。
+レンズが透明になったからといって、目の疲れ方はJINS PCメガネから変えても違いはなさそうだ。
+また、ブルーライトカットレンズは光の反射でレンズが青色くみえるが、この`ZEISS BlueGuard Lenses`はその反射が軽減されている。
 
 
 ![通常の眼鏡との比較](https://res.cloudinary.com/meganii/image/upload/v1636271027/kaneko_gankyo_lens_k7wwnm.jpg "=1824x1216")
 
 ブルーライトカットではない通常の眼鏡と比べても、`ZEISS BlueGuard Lenses`は非常にクリアなことがわかる。
 むしろ、ブルーライトカットが入った`ZEISS BlueGuard Lenses`の方がクリアだ。
+
+まさにいいことづくめの`ZEISS BlueGuard Lenses`だが、問題は値段。
+
+
+
 
 
 ## ふるさと納税「金子眼鏡 眼鏡引換券」
