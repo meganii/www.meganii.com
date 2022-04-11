@@ -1,7 +1,7 @@
 ---
 title: "Hugoでブログ記事一覧ページ（ブログアーカイブページ）を作成する"
 date: 2020-12-26T10:46:41+09:00
-lastmod: 2021-02-11T01:53:47+09:00
+lastmod: 2022-04-11T21:54:01+09:00
 published: true
 category: ["Tech"]
 tags: ["Hugo","Tips"]
@@ -111,4 +111,4 @@ slug: archives
 
 ## 合わせて読みたい
 
-{{% blogcard "https://www.meganii.com/blog/2020/03/31/reflections-on-blog-mentoring/" %}}
+[小さな習慣・アウトプット駆動生活〜ブログメンタリングのふりかえり〜 \- SIS Lab](https://www.meganii.com/blog/2020/03/31/reflections-on-blog-mentoring/)

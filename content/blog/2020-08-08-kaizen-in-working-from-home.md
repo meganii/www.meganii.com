@@ -1,7 +1,7 @@
 ---
 title: "「特別定額給付金」で整備する快適デスク環境"
 date: 2020-08-08T19:01:18+09:00
-lastmod: 2020-08-28T16:22:14+09:00
+lastmod: 2022-04-11T21:54:01+09:00
 published: true
 category: ["Gadget"]
 tags: ["デスク環境", "レビュー"]
@@ -149,7 +149,7 @@ iPad Pro本体にマグネットで引っ付けるだけで、充電されます
 
 キーボードのレビューは以下の記事をご覧ください。
 
-{{% blogcard "https://www.meganii.com/blog/2020/07/26/review-logicool-folio-touch-keyboard-case-with-trackpad/" %}}
+[【レビュー】iPad Pro 11インチ用にロジクールのキーボード「Logicool Folio Touch Keyboard Case with Trackpad」を買いました \- SIS Lab](https://www.meganii.com/blog/2020/07/26/review-logicool-folio-touch-keyboard-case-with-trackpad/)
 
 
 ## 次に欲しいもの
