@@ -4,13 +4,8 @@
   "description": "my blog",
   "main": "lib/index.js",
   "scripts": {
-    "start": "run-p serve dev",
-    "serve": "ts-node src/app.ts",
-    "serve:prod": "nohup ts-node src/app.ts &",
-    "stop": "kill -9 $(lsof -t -i:6060)",
-    "dev": "hugo server -D -F",
-    "build": "run-p serve:prod build:hugo stop",
-    "build:hugo": "sleep 5 && HUGO_ENV=production NODE_ENV=production hugo --gc -v && gulp && exit 0",
+    "start": "hugo server -D -F",
+    "build": "HUGO_ENV=production NODE_ENV=production hugo --gc -v && gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
