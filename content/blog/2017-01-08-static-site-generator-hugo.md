@@ -1,7 +1,7 @@
 ---
 title: "静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する"
 date: 2017-01-08T15:58:45+09:00
-lastmod: 2021-01-30T17:56:10+09:00
+lastmod: 2022-04-16T17:20:42+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo','Blog','Jekyll','静的サイトジェネレータ']
@@ -10,7 +10,7 @@ slug: static-site-generator-hugo
 img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511562368/yjhod8fty2uwipjwyiyt.png" w="685" h="368" %}}
+![](https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511562368/yjhod8fty2uwipjwyiyt.png "?size=685x368&hero=1")
 
 今、自分でブログ・サイトを構築するとしたら、どんな選択肢があるでしょうか。
 

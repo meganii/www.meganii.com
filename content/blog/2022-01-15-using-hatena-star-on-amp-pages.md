@@ -1,7 +1,7 @@
 ---
 title: "はてなスターをAMPページで利用する"
 date: 2022-01-15T19:45:58+09:00
-lastmod: 2022-01-16T20:54:06+09:00
+lastmod: 2022-04-16T17:20:42+09:00
 published: true
 category: ["Tech"]
 tags: ["はてな","はてなスター","AMP"]
@@ -10,7 +10,7 @@ slug: "using-hatena-star-on-amp-pages"
 img: "https://res.cloudinary.com/meganii/image/upload/v1642307559/amp-hatenastar_fef0zp.png"
 ---
 
-![はてなスターをAMPページで利用する](https://res.cloudinary.com/meganii/image/upload/v1642307559/amp-hatenastar_fef0zp.png "=1024x512")
+![はてなスターをAMPページで利用する](https://res.cloudinary.com/meganii/image/upload/v1642307559/amp-hatenastar_fef0zp.png "?size=1024x512&hero=1")
 
 
 2022年1月11日に突如「はてなスター」がリニューアルされました。
