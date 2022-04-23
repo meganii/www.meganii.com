@@ -1,7 +1,7 @@
 ---
 title: "【レビュー】OMEN By HP 25L Desktop #OMENのある生活"
 date: 2021-03-20T21:13:27+09:00
-lastmod: 2021-03-27T20:02:49+09:00
+lastmod: 2022-04-23T10:30:12+09:00
 published: true
 category: ["Gadget"]
 tags: ["Windows"]
@@ -12,8 +12,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 
 [VR ReadyなデスクトップPCが欲しい](https://www.meganii.com/blog/2021/02/13/consider-purchasing-a-desktop-pc/)で検討した結果、選ばれたのは「OMEN by HP 25L Desktop」だった。
 
-
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1616310513/omenbyhp25ldesktop_g5zego.jpg" w="3456" h="3456" alt="OMEN by 25L Desktop" %}}
+![OMEN by 25L Desktop](https://res.cloudinary.com/meganii/image/upload/v1616310513/omenbyhp25ldesktop_g5zego.jpg "?size=3456x3456&hero=1")
 
 
 {{% toc %}}

@@ -1,7 +1,7 @@
 ---
 title: "金子眼鏡でZEISSレンズのメガネを購入した"
 date: 2021-11-07T16:47:22+09:00
-lastmod: 2021-11-08T08:41:32+09:00
+lastmod: 2022-04-23T10:30:12+09:00
 published: true
 category: ["Life"]
 tags: ["眼鏡","金子眼鏡"]
@@ -11,7 +11,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1636268379/kaneko_gankyo_
 ---
 
 
-![金子眼鏡 kv-79](https://res.cloudinary.com/meganii/image/upload/v1636268379/kaneko_gankyo_kxtyzt.jpg "=1824x1216")
+![金子眼鏡 kv-79](https://res.cloudinary.com/meganii/image/upload/v1636268379/kaneko_gankyo_kxtyzt.jpg "?size=1824x1216&hero=1")
 
 金子眼鏡でメガネを新調した。
 

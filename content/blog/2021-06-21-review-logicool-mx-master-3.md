@@ -1,7 +1,7 @@
 ---
 title: "【レビュー】ハイエンドマウス『Logicool MX Master 3』の使い心地"
 date: 2021-06-21T10:46:10+09:00
-lastmod: 2021-06-21T10:46:10+09:00
+lastmod: 2022-04-23T10:30:12+09:00
 published: true
 category: ["gadget"]
 tags: ["レビュー","マウス","Logicool"]
@@ -17,8 +17,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 
 [MX Master 3]購入までの検討と、実際の使い心地について残しておく。
 
-
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1624155145/MXMaster3_1_w0iaqd.jpg" w="400" h="400" alt="Logicool MX Master 3 レビュー" %}}
+![Logicool MX Master 3 レビュー](https://res.cloudinary.com/meganii/image/upload/v1624155145/MXMaster3_1_w0iaqd.jpg "?size=400x400&hero=1")
 
 
 {{% toc %}}
