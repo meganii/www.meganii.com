@@ -1,13 +1,13 @@
 ---
 title: "SharePoint上のファイルパスを取得するブックマークレット"
 date: 2022-05-16T20:09:13+09:00
-lastmod: 2022-05-16T20:09:13+09:00
+lastmod: 2022-05-17T18:56:45+09:00
 published: false
 category: ["Tech"]
 tags: ["SharePoint","Bookmarklet"]
 comment: true
 slug: "getting-document-path-in-share-point-by-bookmarklet"
-img: "https://res.cloudinary.com/meganii/image/upload/v1652700738/55016c38f29430ea67d4c588adf91c86_ukjlyu.png"
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1594902885/tech_ben4sq.png"
 ---
 
 SharePointでファイルパスを手軽に取得する方法を調査した結果を記す。
