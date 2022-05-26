@@ -4,7 +4,7 @@ const through2 = require('through2');
 const AmpOptimizer = require('@ampproject/toolbox-optimizer');
 const ampOptimizer = AmpOptimizer.create({
   verbose: true,
-  minify: false
+  minify: false,
 });
 
 function optimizeAmp(cb) {
@@ -15,6 +15,7 @@ function optimizeAmp(cb) {
           try {
             const optimizedHtml = await ampOptimizer.transformHtml(file.contents.toString());
             file.contents = Buffer.from(optimizedHtml);
+            console.dir(file.path);
           } catch (error) {
             console.error(error);
           }
