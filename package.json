@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "hugo server -D -F",
-    "build": "HUGO_ENV=production NODE_ENV=production hugo --gc -v && gulp",
+    "build": "HUGO_ENV=production NODE_ENV=production hugo --gc --minify -v && gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -16,7 +16,7 @@
     "typescript": "^4.5.2"
   },
   "devDependencies": {
-    "@ampproject/toolbox-optimizer": "^2.8.10",
+    "@ampproject/toolbox-optimizer": "^2.9.0",
     "@johnfoderaro/apaw": "^1.0.1",
     "gulp": "^4.0.2",
     "postcss-cli": "^9.1.0",
