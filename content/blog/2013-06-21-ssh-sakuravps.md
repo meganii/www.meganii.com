@@ -1,7 +1,7 @@
 ---
 title: 2台目のMacBookAirからさくらVPSへSSH接続を行うための鍵の設定
 date: 2013-06-21T21:16:00+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2022-07-02T10:08:03+09:00
 category: ['Tech']
 tags: ['さくらvps', 'MacBook']
 published: true
@@ -10,7 +10,7 @@ slug: ssh-sakuravps
 
 新しくMacBookAirを買ったので、さくらVPSへSSH接続を行うための鍵の設定。
 
-[念願のAir!! MacBookAir Mid 2013買いました - SIS Lab](https://www.meganii.com/blog/2013/06/18/macbookair/)
+[念願のAir!! MacBookAir Mid 2013買いました - SIS Lab](/blog/2013/06/18/macbookair/)
 
 
 {{% googleadsense %}}

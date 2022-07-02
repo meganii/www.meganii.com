@@ -1,7 +1,7 @@
 ---
 title: 20歳を過ぎてから英語を学ぼうと決めた人たちへ
 date: 2012-05-19
-lastmod: 2020-07-05T16:30:52+09:00
+lastmod: 2022-07-02T10:08:03+09:00
 category: ['Book']
 tags: ['book','english']
 published: true
@@ -38,8 +38,8 @@ img: "https://m.media-amazon.com/images/I/510EggBReqL.jpg"
 
 自分の言いたいことを伝えられるようになりたい。自分の聞きたいことを聞けるようになりたい。
 
-- [Evernote Meetup Tokyoに参加してきました！！ - ギークを夢見るじょーぶん男子](https://www.meganii.com/blog/2010/06/25/1277428165)
-- [Evernoteオフ@名古屋「世界のえばちゃんオフだみゃあ」に行ってきました！！ - ギークを夢見るじょーぶん男子](https://www.meganii.com/blog/2011/11/11/1321017033)
+- [Evernote Meetup Tokyoに参加してきました！！ - ギークを夢見るじょーぶん男子](/blog/2010/06/25/1277428165)
+- [Evernoteオフ@名古屋「世界のえばちゃんオフだみゃあ」に行ってきました！！ - ギークを夢見るじょーぶん男子](/blog/2011/11/11/1321017033)
 
 
 ### 2. 英語で探す、英語で学ぶ

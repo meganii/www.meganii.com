@@ -1,7 +1,7 @@
 ---
 title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
 date: 2014-12-13T18:15:00+09:00
-lastmod: 2021-10-09T20:23:27+09:00
+lastmod: 2022-07-02T10:08:03+09:00
 category: ['Tech']
 tags: ['jekyll','Ruby']
 published: true
@@ -66,7 +66,7 @@ end
 
 YAML Front Matterと、記事本文を分離する正規表現は、以下参照。
 
-[Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-](https://www.meganii.com/blog/2013/05/23/regexp-jekyll/)
+[Jekyllのお勉強 -YAML部分と記事本文を分離する正規表現-](/blog/2013/05/23/regexp-jekyll/)
 
 
 ### import_md.rb 

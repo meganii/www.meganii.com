@@ -1,7 +1,7 @@
 ---
 title: "SQL*PlusをMacOSX Marvericsにインストール"
 date: 2015-02-11T22:54:00+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2022-07-02T10:08:03+09:00
 category: ['Tech']
 tags: ['Oracle', 'sqlplus']
 published: true
@@ -10,7 +10,7 @@ slug: install-sqlplus
 
 Oracle Express Edition 11gをインストールしたので、SQL*Plusも合わせてインストールする。
 
-[Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする](https://www.meganii.com/blog/2015/02/08/oracle-express-edition-11g-install/)
+[Vagrant上のCentOS6.4にOracle Database Express Edition11gをインストールする](/blog/2015/02/08/oracle-express-edition-11g-install/)
 
 
 
