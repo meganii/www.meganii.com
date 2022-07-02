@@ -1,7 +1,7 @@
 ---
 title: "How to install SQL*Plus in MacOSX Marverics"
 date: 2015-02-11T22:54:00+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2022-07-02T10:08:03+09:00
 category: ['Tech']
 tags: ['Oracle', 'sqlplus']
 published: true
@@ -12,7 +12,7 @@ slug: how-to-install-sqlplus-in-macosx
 
 This article explain how to install SQL*Plus after installing Oracle Express Edition 11g.
 
-[How to install Oracle Database Express Edition11g on Vagrant CentOS6.4](https://www.meganii.com/en/blog/2015/02/08/oracle-express-edition-11g-install/)
+[How to install Oracle Database Express Edition11g on Vagrant CentOS6.4](/en/blog/2015/02/08/oracle-express-edition-11g-install/)
 
 
 {{% googleadsense %}}

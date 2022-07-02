@@ -1,7 +1,7 @@
 ---
 title: "万年筆LAMY safariのインク洗浄・交換方法"
 date: 2014-11-16T23:59:00+09:00
-lastmod: 2020-12-30T11:09:46+09:00
+lastmod: 2022-07-02T10:08:03+09:00
 category: ['Stationery']
 tags: ['万年筆','LAMY', '文房具','LAMY', 'safari']
 published: true
@@ -77,4 +77,4 @@ slug: fountain-pen-cleaning
 {{% amazon B000UUIZO8 %}}
 {{% amazon B01D40RE7O %}}
 
-{{% related src="https://www.meganii.com/blog/2015/03/01/moleskine-to-mdnote/" title="モレスキンからミドリMDノートに乗り換え(万年筆の利用、価格の観点)" %}}
+[モレスキンからミドリMDノートに乗り換え(万年筆の利用、価格の観点)](/blog/2015/03/01/moleskine-to-mdnote/)
