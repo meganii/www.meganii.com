@@ -1,7 +1,7 @@
 ---
 title: "HHKBをWindows・Mac・iPadで快適に使う方法"
 date: 2021-01-15T06:35:29+09:00
-lastmod: 2021-09-22T10:31:49+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 published: true
 category: ["Gadget"]
 tags: ["レビュー","Keyboard","HHKB"]
@@ -18,7 +18,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1610490200/how-to-setup-h
 私は昨年（2020年）にHHKBを購入し、複数OSで利用し始めましたが、OS切替時の些細なストレスが気になり始めました。
 そこで、HHKBとOSの最適な設定を模索し、今時点の自分にとって最適な設定をまとめてみました。
 
-ちなみに、[【レビュー】HHKB（Happy Hacking Keyboard）ファーストインプレッション](https://www.meganii.com/blog/2020/10/25/happy-hacking-keyboard-first-impression/)で、HHKBを使い始めたときの1週間の所感をまとめています。
+ちなみに、[【レビュー】HHKB（Happy Hacking Keyboard）ファーストインプレッション](/blog/2020/10/25/happy-hacking-keyboard-first-impression/)で、HHKBを使い始めたときの1週間の所感をまとめています。
 
 {{% toc %}}
 

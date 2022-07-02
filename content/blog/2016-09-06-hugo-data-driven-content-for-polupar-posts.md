@@ -1,7 +1,7 @@
 ---
 title: "Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData-driven Contentを試してみた"
 date: 2016-09-06T07:21:53+09:00
-lastmod: 2021-01-30T17:56:10+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Tech']
 tags: ['Python','Hugo']
@@ -29,7 +29,7 @@ img: '/images/hugo_s.png'
 
 1つ目の`Data Files`は、関連記事表示の際に利用したので、今度は2つの`Hugo Data-driven Content`を試してみる。
 
-[PythonでTF\-IDFによる文書推薦 \- SIS Lab](https://www.meganii.com/blog/2016/08/13/tf-idf-recommendation/)
+[PythonでTF\-IDFによる文書推薦 \- SIS Lab](/blog/2016/08/13/tf-idf-recommendation/)
 
 実装方法は、以下の通り。
 

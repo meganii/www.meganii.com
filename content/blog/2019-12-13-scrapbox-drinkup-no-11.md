@@ -1,7 +1,7 @@
 ---
 title: "Scrapbox Drinkup #11「2019年のScrapbox」をテーマにしたLT大会 / 最新情報"
 date: 2019-12-13T06:16:04+09:00
-lastmod: 2020-04-01T20:50:28+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Tech']
 tags: ['Meetup', 'Scrapbox', 'LT']
@@ -119,8 +119,8 @@ Scrapboxを読書メモにも利用しているとのことでした。
 
 内容としては以下の記事をまとめたものになります。既にScrapboxを使って読書管理をしているという方、これから始めてみようと思われている方はぜひ読んでみてください。
 
-- [Scrapboxで読書管理をするときのじぶんルール \- SIS Lab](https://www.meganii.com/blog/2019/11/11/the-art-of-managing-books-with-scrapbox/)
-- [Scrapboxで読書管理をするために「ScrapMedia」というFlutterアプリを作った \- SIS Lab](https://www.meganii.com/blog/2019/11/10/scrapmedia-flutter-app-for-managing-books-with-scrapbox/)
+- [Scrapboxで読書管理をするときのじぶんルール \- SIS Lab](/blog/2019/11/11/the-art-of-managing-books-with-scrapbox/)
+- [Scrapboxで読書管理をするために「ScrapMedia」というFlutterアプリを作った \- SIS Lab](/blog/2019/11/10/scrapmedia-flutter-app-for-managing-books-with-scrapbox/)
 
 
 ## Scrapbox 最新情報

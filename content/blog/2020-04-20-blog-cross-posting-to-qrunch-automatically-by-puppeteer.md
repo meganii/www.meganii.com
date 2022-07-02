@@ -1,7 +1,7 @@
 ---
 title: "Puppeteerを使ってQrunchへクロス投稿する"
 date: 2020-04-20T19:45:50+09:00
-lastmod: 2020-07-16T21:38:27+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Tech']
 tags: ['Puppeteer']
@@ -10,7 +10,7 @@ slug: blog-cross-posting-to-qrunch-automatically-by-puppeteer
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---
 
-[QrunchとMediumに技術メモをクロス投稿する \- SIS Lab](https://www.meganii.com/blog/2018/11/03/cross-posting-to-qrunch-and-medium/)で「Qrunchに自動投稿できる仕組みを作る」という課題があったので、`Puppeteer`で自動投稿できるようにしました。
+[QrunchとMediumに技術メモをクロス投稿する \- SIS Lab](/blog/2018/11/03/cross-posting-to-qrunch-and-medium/)で「Qrunchに自動投稿できる仕組みを作る」という課題があったので、`Puppeteer`で自動投稿できるようにしました。
 
 <!--more-->
 {{% googleadsense %}}

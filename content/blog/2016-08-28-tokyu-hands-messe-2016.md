@@ -1,7 +1,7 @@
 ---
 title: "東急ハンズメッセ2016に寄るついでに衝動買い"
 date: 2016-08-28T22:58:42+09:00
-lastmod: 2020-05-02T11:27:48+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Life']
 tags: ['東急ハンズ']
@@ -22,7 +22,7 @@ img: "https://images-fe.ssl-images-amazon.com/images/I/41etud8KE9L._SL160_.jpg"
 まんまとお祭り気分にさせられ、また、物欲を刺激され、ハンズメッセ以外にもUnidyへも欲しかったものを全て揃えてしまいました。
 
 
-[腰痛におすすめの「やわこ」でのセルフ](https://www.meganii.com/blog/2016/06/25/self-massage-tool-yawako/)で紹介したやわこも、かなり安い値段で出てましたよ！！
+[腰痛におすすめの「やわこ」でのセルフ](/blog/2016/06/25/self-massage-tool-yawako/)で紹介したやわこも、かなり安い値段で出てましたよ！！
 
 
 

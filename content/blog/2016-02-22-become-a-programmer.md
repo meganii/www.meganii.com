@@ -1,7 +1,7 @@
 ---
 title: "「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。"
 date: 2016-02-22T21:45:54+09:00
-lastmod: 2020-08-28T16:32:13+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Tech']
 tags: ['life','プログラミング']
@@ -14,7 +14,7 @@ img: "https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg"
 
 
 「プログラマになりたいあなたへの手紙」という記事に対して感想を書いていたことをふと思い出し、読み返した。
-[プログラマになりたいあなたへ - ギークを夢見るじょーぶん男子](https://www.meganii.com/blog/2009/04/01/1238552061)  
+[プログラマになりたいあなたへ - ギークを夢見るじょーぶん男子](/blog/2009/04/01/1238552061)  
 
 2009年は、ちょうど就活をしていた時期。そこから考えると、今年2016年は、ずいぶん遠いところまで来た気がする。時は過ぎたが、自分の中身は変わったのだろうか。
 
@@ -59,7 +59,7 @@ img: "https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg"
 
 
 - [rebuild.fm 91のafter showのエモい話を聞いて | Code And Passion Take Me Anywhere](http://blog.imaizu.me/2015/05/rebuildfm-91after-show.html)
-- [ぐだぐだ言ってないでコードを書けよ、自分！ - 「Webサービスのつくり方」 | SIS Lab](https://www.meganii.com/blog/2014/09/04/create-web-service/)
+- [ぐだぐだ言ってないでコードを書けよ、自分！ - 「Webサービスのつくり方」 | SIS Lab](/blog/2014/09/04/create-web-service/)
 
 ## こんなことやっていきたい
 

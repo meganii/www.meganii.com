@@ -1,7 +1,7 @@
 ---
 title: "Hugoで生成した静的サイトのホスト先をさくらVPSからNetlifyに変更する"
 date: 2017-03-19T19:46:06+09:00
-lastmod: 2021-01-30T17:56:10+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Tech']
 tags: ['Netlify','Hugo']
@@ -26,7 +26,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/
 自分の中では`GitHub Pages`か`Netlify`の2択でした。
 静的サイトのコンテンツはGitHubにコミットしているため、最初は、`GitHub Pages`にしようとしていました。
 しかし、現状HTTP/2に対応していないことからあまり気乗りしませんでした。
-もともとVPSを利用していたときには、[Lets's Encryptでブログの常時SSL化にチャレンジ](https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/)のように、常時SSLに対応したり、h2oをインストールしてなんとかHTTP/2に対応した経緯もあり、せっかくなら対応できると嬉しいです。
+もともとVPSを利用していたときには、[Lets's Encryptでブログの常時SSL化にチャレンジ](/blog/2016/01/17/lets-encrypt-always-on-ssl/)のように、常時SSLに対応したり、h2oをインストールしてなんとかHTTP/2に対応した経緯もあり、せっかくなら対応できると嬉しいです。
 
 その点、`Netlify`を試してみたら「これで決まり！」と思うぐらい良かったのでまずはNetlifyで運用してみます。
 

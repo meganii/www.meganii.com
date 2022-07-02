@@ -1,7 +1,7 @@
 ---
 title: "WSL2のデフォルトユーザを指定する"
 date: 2021-07-25T20:04:09+09:00
-lastmod: 2021-07-25T20:47:39+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 published: true
 category: ["Tech"]
 tags: ["Windows","WSL2"]
@@ -10,7 +10,7 @@ slug: "how-to-set-default-user-of-distribution-installed-via-wsl"
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1594902885/tech_ben4sq.png"
 ---
 
-以前、[WSL2のLinuxおよびDockerイメージ格納先を任意のディレクトリに移動する](https://www.meganii.com/blog/2021/07/11/move-the-destination-of-wsl2-linux-and-docker-image-container-to-another-directory/)で、WSL2のLinuxディストリビューションをデフォルトのCドライブからDドライブに移動した。
+以前、[WSL2のLinuxおよびDockerイメージ格納先を任意のディレクトリに移動する](/blog/2021/07/11/move-the-destination-of-wsl2-linux-and-docker-image-container-to-another-directory/)で、WSL2のLinuxディストリビューションをデフォルトのCドライブからDドライブに移動した。
 その後、`VSCode`の利用時に発生したエラーについて、原因と対処方法について調査したときの結果を残しておく。
 
 {{% toc %}}

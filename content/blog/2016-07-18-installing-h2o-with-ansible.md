@@ -1,7 +1,7 @@
 ---
 title: "さくらVPSのCentOS6.4にh2oをAnsibleでビルド＆インストール"
 date: 2016-07-18T21:44:52+09:00
-lastmod: 2020-07-12T18:23:13+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Tech']
 tags: ['h2o','http2']
@@ -10,7 +10,7 @@ slug: installing-h2o-with-ansible
 img: "/images/ansible.png"
 ---
 
-前回[http/2ベンチマークツール「h2load」をインストール \- SIS Lab](https://www.meganii.com/blog/2016/07/17/install-h2load/)でhttp/2ベンチマークツールをインストールしたので、いよいよ`h2o`をインストールします。
+前回[http/2ベンチマークツール「h2load」をインストール \- SIS Lab](/blog/2016/07/17/install-h2load/)でhttp/2ベンチマークツールをインストールしたので、いよいよ`h2o`をインストールします。
 
 さくらVPSで運用しているCentOSは、Ansible経由で整備しているので今回もAnsibleのタスクを作成して、まずはローカルの開発環境でテスト、そしてさくらVPSのCentOSに適用します。
 

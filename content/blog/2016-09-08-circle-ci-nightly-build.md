@@ -1,7 +1,7 @@
 ---
 title: "Circle CIでテストを定期実行する"
 date: 2016-09-08T22:33:29+09:00
-lastmod: 2021-01-30T17:56:10+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Tech']
 tags: ['CircleCI','Blog', 'Hugo']
@@ -11,7 +11,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/
 ---
 
 前回、HugoのData-driven contenを試した。
-[Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData\-driven Contentを試してみた \- SIS Lab](https://www.meganii.com/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/)
+[Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData\-driven Contentを試してみた \- SIS Lab](/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/)
 
 これによって、毎回`hugo build`することによって、人気記事を更新する仕組みができた。後は、Cicle CIを定期実行させる。これは、Circle CIのAPIを利用すれば実現できる。
 

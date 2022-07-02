@@ -1,7 +1,7 @@
 ---
 title: "普段テレビや映画を観ない人に贈るdTVおすすめ作品"
 date: 2017-01-18T21:28:38+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Life']
 tags: ['dTV','']
@@ -45,4 +45,4 @@ img:
 - ワールドトリガー
 
 
-[連休にこそ初回31日無料のdTVの始めどき！「キングダム」を無料で観る！](https://www.meganii.com/blog/2016/12/22/dtv-kingdom/)
+[連休にこそ初回31日無料のdTVの始めどき！「キングダム」を無料で観る！](/blog/2016/12/22/dtv-kingdom/)

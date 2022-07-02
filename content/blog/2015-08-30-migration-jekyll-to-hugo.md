@@ -1,7 +1,7 @@
 ---
 title: "JekyllからHugoへの移行ポイント"
 date: "2015-08-30T11:56:00+09:00"
-lastmod: 2021-01-30T17:56:10+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 category: ['Tech']
 tags: ['jekyll','Hugo']
 published: true
@@ -143,7 +143,7 @@ slug: marketing-22-raws
 ---
 ```
 
-自分は、[Swiftで初めてのMacOSXアプリケーション\-FFViewer\- \- SIS Lab](https://www.meganii.com/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/)で作成したソフトを利用して、frontmatterを埋め込んでいった。
+自分は、[Swiftで初めてのMacOSXアプリケーション\-FFViewer\- \- SIS Lab](/blog/2015/07/04/building-cocoa-os-x-application-with-swfit-in-xcode/)で作成したソフトを利用して、frontmatterを埋め込んでいった。
 
 ファイル名から判断して、slugを決めるようにした。
 

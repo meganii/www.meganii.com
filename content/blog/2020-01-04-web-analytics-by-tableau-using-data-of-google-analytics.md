@@ -1,7 +1,7 @@
 ---
 title: "【Tableau】Google AnalyticsをデータソースとしてTableau Desktopでアクセス解析を行う"
 date: 2020-01-04T10:35:50+09:00
-lastmod: 2020-07-10T07:49:04+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Tech']
 tags: ['Tableau','アクセス解析', 'Google Analytics']
@@ -97,7 +97,7 @@ img: https://res.cloudinary.com/meganii/image/upload/v1578102972/weekly_pageview
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1578132590/highlight_weekly_pageview_of_life_category_baae1y.png" w="834" h="585" alt="Lifeカテゴリの時間毎のページビュー数" %}}
 
-さらに、Lifeカテゴリの記事一覧のページビュー数を確認すると、[ソフトバンク債権回収室から電話があった。 \- SIS Lab](https://www.meganii.com/blog/2018/02/09/softbank-08002221263/)のページビューが突出していたので、このページを除外してみると、下図の通り水曜日に多く見られる傾向がなくなりました。
+さらに、Lifeカテゴリの記事一覧のページビュー数を確認すると、[ソフトバンク債権回収室から電話があった。 \- SIS Lab](/blog/2018/02/09/softbank-08002221263/)のページビューが突出していたので、このページを除外してみると、下図の通り水曜日に多く見られる傾向がなくなりました。
 
 
 
@@ -105,7 +105,7 @@ img: https://res.cloudinary.com/meganii/image/upload/v1578102972/weekly_pageview
 
 このことから、「水曜日によく見られる」という傾向は、この記事に引っ張られていることがわかりました。
 
-[ソフトバンク債権回収室から電話があった。 \- SIS Lab](https://www.meganii.com/blog/2018/02/09/softbank-08002221263/)の記事では、ソフトバンク債権回収室からの着信履歴の話を書いています。ソフトバンクからの電話が水曜日に集中しており、その電話番号を確認したくてアクセスしているのでしょうか。
+[ソフトバンク債権回収室から電話があった。 \- SIS Lab](/blog/2018/02/09/softbank-08002221263/)の記事では、ソフトバンク債権回収室からの着信履歴の話を書いています。ソフトバンクからの電話が水曜日に集中しており、その電話番号を確認したくてアクセスしているのでしょうか。
 
 
 さらに詳しく調べるのであれば、別のデータも必要になってきそうです。
@@ -139,7 +139,7 @@ img: https://res.cloudinary.com/meganii/image/upload/v1578102972/weekly_pageview
 
 `Tableau Public`の場合は、データソースにGoogle Analyticsを指定できないので、`Tableau Desktop`が欲しくなりますね。
 
-[Tableau製品とTableau Publicで「できること」「できないこと」 \- SIS Lab](https://www.meganii.com/blog/2019/12/27/product-list-of-tableau/)
+[Tableau製品とTableau Publicで「できること」「できないこと」 \- SIS Lab](/blog/2019/12/27/product-list-of-tableau/)
 
 
 - 疑問点に対して、簡単な操作でデータを可視化し、回答を出せるのは`Tableau`の強み

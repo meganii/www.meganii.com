@@ -1,7 +1,7 @@
 ---
 title: "スコッチグレインの革靴「シャインオアレイン」なら雨の日でも快適通勤！！"
 date: 2016-07-23T15:05:40+09:00
-lastmod: 2020-07-16T18:43:42+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Life']
 tags: ['革靴','レザー','scotch grain', 'スコッチグレイン']
@@ -96,5 +96,6 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1594888858/scotchgrain_t1
 
 {{% amazon B00XDS9X40 %}}
 
-{{% related src="https://www.meganii.com/blog/2017/11/27/polish-my-shoes-tokyu-hands-workshop/" title="東急ハンズ「靴のお手入れ講座」に参加してきました - SIS Lab" %}}
+
+[東急ハンズ「靴のお手入れ講座」に参加してきました - SIS Lab](/blog/2017/11/27/polish-my-shoes-tokyu-hands-workshop/)
 

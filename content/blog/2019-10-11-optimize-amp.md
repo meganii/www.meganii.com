@@ -1,7 +1,7 @@
 ---
 title: "AMPページの最適化〜ぼくのAMPサイトがこんなに遅い訳がない〜"
 date: 2019-10-11T22:19:49+09:00
-lastmod: 2021-01-30T17:56:10+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo', 'AMP', 'Blog']
@@ -22,14 +22,14 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v159
 - `AMP`用のJavaScript読み込みは必要最小限にする
 - Font Awesomeを利用しない
 - `AMP`の必須Script `https://cdn.ampproject.org/v0.js` をpreloadする
-- Google Adsenseを利用している場合、自サイト以外のドメインからの読み込みが発生するため、DNSの事前名前解決が効く（preconnect, dns-prefetch)
+- Google Adsenseを利用している場合、自サイト以外のドメインからの読み込みが発生するため、DNSの事前名前解決が効く（preconnect, dns-prefetch）
 
 
 ## 計測
 
 広告あり、画像ありの一般的なページである次の記事を対象として、`PageSpeed Insights`で計測してみました。
 
-- [静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する \- SIS Lab](https://www.meganii.com/blog/2017/01/08/static-site-generator-hugo/)
+- [静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する \- SIS Lab](/blog/2017/01/08/static-site-generator-hugo/)
 
 {{% img src="https://res.cloudinary.com/meganii/image/upload/v1571020728/pagespeed_insights_before_bve1iy.png" w="1440" h="1073" %}}
 
@@ -78,7 +78,7 @@ amp-experiment, amp-dynamic-css-classes, amp-storyなど、レンダリングを
 > Use preconnect to speedup the connection to other origin where the full resource URL is not known ahead of time, for example, when using Google Fonts:
 
 
-`AMP`と`Google Adsense`で利用するドメインの名前解決と接続の投機的開始を行う。
+`AMP`と`Google Adsense`で利用するドメインの名前解決と接続の投機的を開始する。
 
 ```html
 <meta http-equiv="x-dns-prefetch-control" content="on">
@@ -94,7 +94,7 @@ amp-experiment, amp-dynamic-css-classes, amp-storyなど、レンダリングを
 
 [Webフロントエンド ハイパフォーマンス チューニング](https://amzn.to/2oEvv9g)でも述べられていますが、以下の対策が有効です。
 
-- DNS prefetch (DNSプリフェッチ）
+- DNS prefetch（DNSプリフェッチ）
     - href属性に指定したドメインの名前解決をバックグラウンドで処理する
     - 名前解決したドメインのIPアドレスはブラウザのキャッシュに格納
 - 接続の投機的開始

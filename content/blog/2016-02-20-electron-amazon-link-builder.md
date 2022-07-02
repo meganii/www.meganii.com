@@ -1,7 +1,7 @@
 ---
 title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
 date: 2016-02-20T17:51:18+09:00
-lastmod: 2020-08-28T16:32:13+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Tech']
 tags: ['Electron', 'JavaScript']
@@ -10,12 +10,12 @@ slug: electron-amazon-link-builder
 img: 'https://farm2.staticflickr.com/1467/25143519475_14929051ec_z.jpg'
 ---
 
-[Electronでデスクトップアプリ作成](https://www.meganii.com/blog/2016/01/25/electron-tutorial/)に引き続き、Amazonアフィリエイトリンクビルダーのデスクトップアプリを作った。
+[Electronでデスクトップアプリ作成](/blog/2016/01/25/electron-tutorial/)に引き続き、Amazonアフィリエイトリンクビルダーのデスクトップアプリを作った。
 
 
 ## 動機
 
-Amazonのアフィリエイトリンクビルダーには、ヨメレバ、カエレバのようなブックマークレットもあるが、現時点でAmazonのリンクがhttpsに対応していないため、せっかくhttps化をしてもchromeのURLバーが緑色にならない。[Lets's Encryptでブログの常時SSL化にチャレンジ](https://www.meganii.com/blog/2016/01/17/lets-encrypt-always-on-ssl/)
+Amazonのアフィリエイトリンクビルダーには、ヨメレバ、カエレバのようなブックマークレットもあるが、現時点でAmazonのリンクがhttpsに対応していないため、せっかくhttps化をしてもchromeのURLバーが緑色にならない。[Lets's Encryptでブログの常時SSL化にチャレンジ](/blog/2016/01/17/lets-encrypt-always-on-ssl/)
 
 これは困るということで、せっかくなのでElectronでデスクトップアプリを作ってみた。
 

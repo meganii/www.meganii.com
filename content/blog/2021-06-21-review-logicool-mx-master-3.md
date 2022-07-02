@@ -1,7 +1,7 @@
 ---
 title: "【レビュー】ハイエンドマウス『Logicool MX Master 3』の使い心地"
 date: 2021-06-21T10:46:10+09:00
-lastmod: 2022-04-23T10:30:12+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 published: true
 category: ["gadget"]
 tags: ["レビュー","マウス","Logicool"]
@@ -28,7 +28,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 
 ## マウス購入理由
 
-[『Happy Hacking Keyboard』という高級キーボードを購入した](https://www.meganii.com/blog/2020/10/25/happy-hacking-keyboard-first-impression/)ことで、その高級感の虜になってしまい、マウスも良いものが欲しくなってしまったというのが正直なところだ。
+[『Happy Hacking Keyboard』という高級キーボードを購入した](/blog/2020/10/25/happy-hacking-keyboard-first-impression/)ことで、その高級感の虜になってしまい、マウスも良いものが欲しくなってしまったというのが正直なところだ。
 
 理由を後付けするならば、次の点が挙げられる。
 

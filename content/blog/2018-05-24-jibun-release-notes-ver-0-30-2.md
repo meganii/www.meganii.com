@@ -1,7 +1,7 @@
 ---
 title: "じぶん Release Notes (ver 0.30.2)"
 date: 2018-05-24T22:52:37+09:00
-lastmod: 2020-11-03T10:03:59+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Life']
 tags: ['Jibun Release Notes']
@@ -10,7 +10,7 @@ slug: jibun-release-notes-ver-0-30-2
 img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1524315911/Release_Notes_nfcm5a.png
 ---
 
-前回のRelease [じぶん Release Notes \(ver 0\.30\.1\) \- SIS Lab](https://www.meganii.com/blog/2018/04/24/jibun-release-notes-ver-0-30-1/)
+前回のRelease [じぶん Release Notes \(ver 0\.30\.1\) \- SIS Lab](/blog/2018/04/24/jibun-release-notes-ver-0-30-1/)
 
 `Ver 0.30.2`の更新情報は以下の通り。
 
@@ -38,7 +38,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100
 ## Output
 ### Blog
 
-- [Scrapbox Drinkup ＃04 Tokyo Edition」イベントレポート - SIS Lab](https://www.meganii.com/blog/2018/05/23/scrapbox-drinkup-04-tokyo-edition/)
+- [Scrapbox Drinkup ＃04 Tokyo Edition」イベントレポート - SIS Lab](/blog/2018/05/23/scrapbox-drinkup-04-tokyo-edition/)
 
 ## Input
 ### Book

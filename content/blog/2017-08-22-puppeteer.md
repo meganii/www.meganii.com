@@ -1,7 +1,7 @@
 ---
 title: "PuppeteerでAmazonアフィリエイトのレポートを取得する"
 date: 2017-08-22T21:43:50+09:00
-lastmod: 2020-07-16T21:51:05+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Tech']
 tags: ['headless', 'Puppeteer']
@@ -130,4 +130,4 @@ for (let cookie of cookies) {
 ## 参考
 
 - [\-\-headless時代の本命？ Chrome を Node\.jsから操作するライブラリ puppeteer について \- Qiita](http://qiita.com/Quramy/items/26058e83e898ec2ec078)
-- [Nightmare\.jsでAmazonアフィリエイトのレポートを取得する \- SIS Lab](https://www.meganii.com/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/)
+- [Nightmare\.jsでAmazonアフィリエイトのレポートを取得する \- SIS Lab](/blog/2016/02/01/how-to-get-amazon-affiliate-reports-with-nightmarejs/)

@@ -1,7 +1,7 @@
 ---
 title: "AMP OptimizerによるAMPのさらなる最適化"
 date: 2020-09-27T20:07:10+09:00
-lastmod: 2022-04-11T21:42:00+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 published: true
 category: ["Tech"]
 tags: ["AMP","Blog"]
@@ -12,7 +12,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v159
 
 以前、[Optimize your hosted AMP pages \- amp\.dev](https://amp.dev/documentation/guides-and-tutorials/optimize-and-measure/optimize_amp/?referrer=ampproject.org#preload-hero-images)を読みながらAMPの最適化を行いました。
 
-[AMPページの最適化〜ぼくのAMPサイトがこんなに遅い訳がない〜 \- SIS Lab](https://www.meganii.com/blog/2019/10/11/optimize-amp/)
+[AMPページの最適化〜ぼくのAMPサイトがこんなに遅い訳がない〜 \- SIS Lab](/blog/2019/10/11/optimize-amp/)
 
 今回は、さらに一歩進み`AMP Optimizer`によるAMPの最適化を試してみました。結果は、`Web Core Vital`の1つである`Largest Content Full Paint`を40%改善できました。
 

@@ -1,7 +1,7 @@
 ---
 title: "小さな習慣・アウトプット駆動生活〜ブログメンタリングのふりかえり〜"
 date: 2020-03-31T21:00:52+09:00
-lastmod: 2021-10-26T23:25:50+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Tech']
 tags: ['Blog', 'ブログメンタリング', '小さな習慣', 'アウトプット', 'ふりかえり']
@@ -125,7 +125,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring
 以下のブログ記事でも調査してみましたが、土日はアクセス数が多くありません。
 平日更新し、土日は記事を作成するというペースが良さそうです。
 
-[Google AnalyticsをデータソースとしてTableau Desktopでアクセス解析を行う \- SIS Lab](https://www.meganii.com/blog/2020/01/04/web-analytics-by-tableau-using-data-of-google-analytics/)
+[Google AnalyticsをデータソースとしてTableau Desktopでアクセス解析を行う \- SIS Lab](/blog/2020/01/04/web-analytics-by-tableau-using-data-of-google-analytics/)
 
 
 ### 2. Hugoテンプレートデザインの作り込みの甘さ

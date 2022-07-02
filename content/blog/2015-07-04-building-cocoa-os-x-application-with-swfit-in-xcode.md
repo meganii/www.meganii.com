@@ -1,7 +1,7 @@
 ---
 title: "Swiftで初めてのMacOSXアプリケーション-FFViewer-"
 date: 2015-07-04T18:23:00+09:00
-lastmod: 2019-09-01T20:44:28+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 category: ['Tech']
 tags: ['Swift','Cocoa','Xcode']
 published: true 
@@ -16,9 +16,9 @@ slug: building-cocoa-os-x-application-with-swfit-in-xcode
 JekyllのPost用として書いたMarkdownのFrontFormatterの情報を読み込んで表示し、編集、再出力ができるツール。
 
 
-WebアプリケーションとしてViewerまでは作ったけど、編集まで考えるとなかなかめんどくさいので活用できなかった。(今どんな情報を書いていたのかは把握出来たが)
+WebアプリケーションとしてViewerまでは作ったけど、編集まで考えるとなかなかめんどくさいので活用できなかった。（今どんな情報を書いていたのかは把握出来たが）
 
-[Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった](https://www.meganii.com/blog/2014/12/13/jekyl-front-matter-viewer/)
+[Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった](/blog/2014/12/13/jekyl-front-matter-viewer/)
 
 Objective-Cは、ちょっと触りたくなかったが、SwiftでMacアプリケーションも作成できるらしいので試しにつくってみた。
 
@@ -66,7 +66,7 @@ var matches=regex?.matchesInString(content, options: nil, range:NSMakeRange(0,  
 - `optional func numberOfRowsInTableView(_ aTableView: NSTableView) -> Int`
 - `optional func tableView(_ aTableView: NSTableView, objectValueForTableColumn aTableColumn: NSTableColumn?, row rowIndex: Int) -> AnyObject?`
 
-tableViewを利用する際に、必ず実装しないといけないのが、上記２つの関数である。
+tableViewを利用する際に、必ず実装しないといけないのが、上記2つの関数である。
 
 [SwiftでOS Xアプリケーションのプログラミング - 表](http://www.ne.jp/asahi/room/kuro/programmingTable.html)
 

@@ -1,7 +1,7 @@
 ---
 title: "Lets's Encryptの証明書期限切れへの対応と、ドメイン紐付けの適正化"
 date: 2016-07-09T08:06:50+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Tech']
 tags: ['https', 'SSL', 'Lets Encrypt']
@@ -13,7 +13,7 @@ img: "/images/le-logo-standard.png"
 {{% img src="https://i.gyazo.com/aa727ee506684862329b98313fcce28a.png" w="829" h="446" %}}
 
 
-この[meganii.com](https://www.meganii.com)は、Lets's Encryptで証明書を発行しています。しばらくは、仕組みがよく分かっていないので手動で更新しようと、3ヶ月に一回は更新するようにしていたのですが、ついに昨日、証明書の期限切れでアクセス出来ない状態になりました。。。(なんというお間抜けな話)
+この[meganii.com](https://www.meganii.com)は、Lets's Encryptで証明書を発行しています。しばらくは、仕組みがよく分かっていないので手動で更新しようと、3か月に1回は更新するようにしていたのですが、ついに昨日、証明書の期限切れでアクセス出来ない状態になりました。。。(なんというお間抜けな話)
 
 慌ててcertbotを実行させて証明書を更新しようとしたのですが、前回の更新が上手くいっていなかったみたいでrenewできませんでした。
 

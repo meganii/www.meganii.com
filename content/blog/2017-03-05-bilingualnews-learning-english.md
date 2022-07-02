@@ -1,7 +1,7 @@
 ---
 title: "[バイリンガルニュース特別編]吉田研作先生 英語に対する意識を変える"
 date: 2017-03-05T23:09:49+09:00
-lastmod: 2021-09-20T16:44:00+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Study']
 tags: ['英語', 'English']
@@ -42,7 +42,7 @@ img: "https://images-fe.ssl-images-amazon.com/images/I/51pu%2B0tZVxL._SL160_.jpg
 4. 次どうするか？
 
 
-[20歳を過ぎてから英語を学ぼうと決めた人たちへ](https://www.meganii.com/blog/2012/05/19/study_english/)
+[20歳を過ぎてから英語を学ぼうと決めた人たちへ](/blog/2012/05/19/study_english/)
 
 {{% amazon 4887598483 %}}
 {{% amazon 4860641345 %}}

@@ -1,7 +1,7 @@
 ---
 title: "【レビュー】OMEN By HP 25L Desktop #OMENのある生活"
 date: 2021-03-20T21:13:27+09:00
-lastmod: 2022-04-23T10:30:12+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 published: true
 category: ["Gadget"]
 tags: ["Windows"]
@@ -10,7 +10,7 @@ slug: "life-with-omen-by-hp-25l-desktop"
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1616310513/omenbyhp25ldesktop_g5zego.jpg"
 ---
 
-[VR ReadyなデスクトップPCが欲しい](https://www.meganii.com/blog/2021/02/13/consider-purchasing-a-desktop-pc/)で検討した結果、選ばれたのは「OMEN by HP 25L Desktop」だった。
+[VR ReadyなデスクトップPCが欲しい](/blog/2021/02/13/consider-purchasing-a-desktop-pc/)で検討した結果、選ばれたのは「OMEN by HP 25L Desktop」だった。
 
 ![OMEN by 25L Desktop](https://res.cloudinary.com/meganii/image/upload/v1616310513/omenbyhp25ldesktop_g5zego.jpg "?size=3456x3456&hero=1")
 
@@ -22,7 +22,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 
 ## 購入理由
 
-検討する観点は、[VR ReadyなデスクトップPCが欲しい](https://www.meganii.com/blog/2021/02/13/consider-purchasing-a-desktop-pc/)に記載した。
+検討する観点は、[VR ReadyなデスクトップPCが欲しい](/blog/2021/02/13/consider-purchasing-a-desktop-pc/)に記載した。
 それを踏まえた「OMEN by HP 25L Desktop」の購入理由は、下記内容を予算内（¥118,041）で満たせたからである。
 
 - Intel Core i7-10700Fプロセッサー(2.90GHz-4.80GHz / 8コア・16スレッド / 16MB) と十分過ぎる性能

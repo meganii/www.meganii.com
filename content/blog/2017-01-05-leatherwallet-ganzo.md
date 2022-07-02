@@ -1,7 +1,7 @@
 ---
 title: "大人の高級革財布 GANZOのTHIN BRIDLE (シンブライドル) 二つ折り財布のレビュー！"
 date: 2017-01-05T21:21:03+09:00
-lastmod: 2020-07-16T18:43:42+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Life']
 tags: ['革','財布','レザー']
@@ -88,7 +88,7 @@ GANZOは、あなたの手によって"世界最高"の完成品となる。
 
 革小物に興味がある人は、革カバー、革靴の記事もよかったらみていってください。
 
-- [ほぼ日手帳におすすめの革カバー！HERZ\(ヘルツ\)の「ほぼ日手帳カバー\(KB\-104\)」](https://www.meganii.com/blog/2015/04/01/hobonichi-planner-leather-cover/)
-- [Scotch Grain\(スコッチグレイン\)の革靴「シャインオアレイン」なら雨の日でも快適通勤！！](https://www.meganii.com/blog/2016/07/23/scotch-grain-shine-or-rain/)
+- [ほぼ日手帳におすすめの革カバー！HERZ\(ヘルツ\)の「ほぼ日手帳カバー\(KB\-104\)」](/blog/2015/04/01/hobonichi-planner-leather-cover/)
+- [Scotch Grain\(スコッチグレイン\)の革靴「シャインオアレイン」なら雨の日でも快適通勤！！](/blog/2016/07/23/scotch-grain-shine-or-rain/)
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Google Apps Scriptで、ページ毎のはてなブックマーク数を週次で取得する"
 date: 2020-07-20T06:12:16+09:00
-lastmod: 2020-07-20T06:55:58+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 published: true
 category: ["Tech"]
 tags: ["GAS","Google Apps Script","はてなブックマーク"]
@@ -10,7 +10,7 @@ slug: "getting-the-number-of-hatena-bookmarks-per-page-with-google-apps-script-w
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---
 
-7/20現在、[Blog KPI Collector（GAS）で各種KPIを自動取得する](https://www.meganii.com/blog/2020/04/10/collecting-blog-kpi-with-google-apps-script-blog-kpi-collector/)で設定した`Google Apps Script`でサイト全体のブックマーク数を取得しています。
+7/20現在、[Blog KPI Collector（GAS）で各種KPIを自動取得する](/blog/2020/04/10/collecting-blog-kpi-with-google-apps-script-blog-kpi-collector/)で設定した`Google Apps Script`でサイト全体のブックマーク数を取得しています。
 
 「はてなブックマーク数」の推移を追っていく際に、全体としてどのぐらい増えたのかは分かるのですが、どのページで増えたのかが分かりません。
 そこで、ページ毎のはてなブックマーク数も合わせて取得するようにしました。

@@ -1,7 +1,7 @@
 ---
 title: "じぶん Release Notes (ver 0.30.1)"
 date: 2018-04-24T20:59:57+09:00
-lastmod: 2020-11-01T17:00:34+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Life']
 tags: ['Jibun Release Notes']
@@ -10,7 +10,7 @@ slug: jibun-release-notes-ver-0-30-1
 img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1524315911/Release_Notes_nfcm5a.png
 ---
 
-前回のRelease [じぶん Release Notes ver 0\.30\.0 \- SIS Lab](https://www.meganii.com/blog/2018/03/24/jibun-release-notes-ver-0-30-0/)
+前回のRelease [じぶん Release Notes ver 0\.30\.0 \- SIS Lab](/blog/2018/03/24/jibun-release-notes-ver-0-30-0/)
 
 `Ver 0.30.1`の更新情報は以下の通り。
 
@@ -58,10 +58,10 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100
 
 ### Blog
 
-- [「読書進化論」を再読して読書後のアウトプットのヒントを得る \- SIS Lab](https://www.meganii.com/blog/2018/03/25/book-reading-evolution-theory/)
-- [Google Adsense Auto Adsを試す \- SIS Lab](https://www.meganii.com/blog/2018/04/14/google-adsense-auto-ads/)
-- [ScrapboxにAmazonの書影を取り込むブックマークレット \- SIS Lab](https://www.meganii.com/blog/2018/04/15/scrap-amazon-image-to-scrapbox/)
-- [ちょっとしたアイコンに使えるアイコン集 \- SIS Lab](https://www.meganii.com/blog/2018/04/22/get-free-icon/)
+- [「読書進化論」を再読して読書後のアウトプットのヒントを得る \- SIS Lab](/blog/2018/03/25/book-reading-evolution-theory/)
+- [Google Adsense Auto Adsを試す \- SIS Lab](/blog/2018/04/14/google-adsense-auto-ads/)
+- [ScrapboxにAmazonの書影を取り込むブックマークレット \- SIS Lab](/blog/2018/04/15/scrap-amazon-image-to-scrapbox/)
+- [ちょっとしたアイコンに使えるアイコン集 \- SIS Lab](/blog/2018/04/22/get-free-icon/)
 
 
 ## Events

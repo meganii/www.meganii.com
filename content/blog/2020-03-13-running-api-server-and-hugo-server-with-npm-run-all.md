@@ -1,7 +1,7 @@
 ---
 title: "npm-run-allでローカルAPI serverとHugo serverを同時に実行する"
 date: 2020-03-13T06:54:19+09:00
-lastmod: 2021-01-30T17:56:10+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo', 'Blog']
@@ -11,7 +11,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/
 ---
 
 このブログではローカルでAPIサーバ（Express）を動かし、HugoのShortcodesから利用しています（2020/03/13現在）。
-[HugoでAMP対応のブログカードを作る \- SIS Lab](https://www.meganii.com/blog/2020/02/02/blogcard-in-hugo/)
+[HugoでAMP対応のブログカードを作る \- SIS Lab](/blog/2020/02/02/blogcard-in-hugo/)
 
 そのため、記事を書いてHugoのプレビューを利用する場合は、2つのターミナルで以下のコマンドを実行していましたが、ちょっとだけ面倒です。
 

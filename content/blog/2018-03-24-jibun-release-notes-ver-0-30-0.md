@@ -1,7 +1,7 @@
 ---
 title: "じぶん Release Notes (ver 0.30.0)"
 date: 2018-03-24T20:27:35+09:00
-lastmod: 2020-11-01T17:00:34+09:00
+lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Life']
 tags: ['Jibun Release Notes']
@@ -77,8 +77,8 @@ e.g.
 ## Output
 
 ### Blog
-- [Botframeworkを利用してSlack botを作る \- SIS Lab](https://www.meganii.com/blog/2018/03/10/botframework-slack/)
-- [「読んだら忘れない読書術」 \- SIS Lab](https://www.meganii.com/blog/2018/03/15/reading-technique-to-apply-to-real-life/)
+- [Botframeworkを利用してSlack botを作る \- SIS Lab](/blog/2018/03/10/botframework-slack/)
+- [「読んだら忘れない読書術」 \- SIS Lab](/blog/2018/03/15/reading-technique-to-apply-to-real-life/)
 
 
 ## Events
