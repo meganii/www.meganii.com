@@ -10,7 +10,7 @@ slug: static-site-generator-hugo
 img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png"
 ---
 
-![](https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511562368/yjhod8fty2uwipjwyiyt.png "?size=685x368&hero=1")
+![](https://images.meganii.com/upload/q_auto,f_auto,w_1024/yjhod8fty2uwipjwyiyt.png "?size=685x368&hero=1")
 
 今、自分でブログ・サイトを構築するとしたら、どんな選択肢があるでしょうか。
 
