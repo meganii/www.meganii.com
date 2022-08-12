@@ -10,8 +10,7 @@ slug: "how-to-set-up-hhkb-to-switch-comfortably-between-win-mac-and-ipad"
 img: "https://res.cloudinary.com/meganii/image/upload/v1610490200/how-to-setup-hhkb_gktyqo.png"
 ---
 
-
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1610490200/how-to-setup-hhkb_gktyqo.png" w="1024" h="512" alt="Happy Hacking Keyboard（HHKB）をWindows/Mac/iPadで快適に使う方法" %}}
+![Happy Hacking Keyboard（HHKB）をWindows/Mac/iPadで快適に使う方法](https://res.cloudinary.com/meganii/image/upload/v1610490200/how-to-setup-hhkb_gktyqo.png "?size=1024x512&hero=1")
 
 複数OS（Windows、macOS、iPadOS）でHappy Hacking Keyboard（以降HHKBと表記）を利用していると、OS間で微妙にキーボード操作が異なることにストレスを覚えることはないでしょうか。
 

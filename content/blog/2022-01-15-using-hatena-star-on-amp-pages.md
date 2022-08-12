@@ -154,7 +154,7 @@ https://github.com/meganii/amp-hatenastar/blob/4cba1e88eb67da79a5a72374313d1f13e
 ### 「はてなスター」を設置するページで、`amp-iframe`を用いて「はてなスター表示用のHTMLサイト」読み込む
 
 用意した「はてなスター表示用のHTMLサイト」を`amp-iframe`で読み込みます。
-`sandbox`の設定は、理解が曖昧な部分があり要確認ですが、まずはこの設定値で動作しました。
+`sandbox`の設定は理解が曖昧で要確認ですが、まずはこの設定値で動作しました。
 
 ```html
 <amp-iframe class="ml-0" height=80

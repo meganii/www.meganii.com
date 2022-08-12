@@ -58,4 +58,4 @@ AMP_SW.init({
 ## 参考
 
 - [https://github.com/ampproject/amp-sw/tree/master/src/modules/link-prefetch](https://github.com/ampproject/amp-sw/tree/master/src/modules/link-prefetch)
-- 
+

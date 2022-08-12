@@ -98,7 +98,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1619315804/devloungejp_mx
     - Aクラスの人はAクラスの人を呼んでくる
 
 > Aクラスの人は、Aクラスの人と一緒に仕事をしたがる。  
-> Bクラスの人は、Cクラスの人を採用したがる。── シリコンバレーの格言  
+> Bクラスの人は、Cクラスの人を採用したがる。 ──シリコンバレーの格言  
 > A-level people want to work with A-level people. B-level people tend to hire C-level people ──Silicon Valley proverb
 
 - スタートアップらしさが薄まっていく

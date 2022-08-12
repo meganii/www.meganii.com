@@ -82,7 +82,7 @@ wsl --unregister docker-desktop-data
 
 ### 5. ディストリビューションのインポート
 
-`wsl --import <Distro> <InstallLocation> <FileName>`で、指定した tarファイルを新しいディストリビューションとしてインポートする。
+`wsl --import <Distro> <InstallLocation> <FileName>`で指定したtarファイルを新しいディストリビューションとしてインポートする。
 
 
 ```
