@@ -1,7 +1,7 @@
 ---
 title: "GitHub PagesからCloudflare Pagesへの移行"
 date: 2022-08-14T15:07:29+09:00
-lastmod: 2022-08-14T15:07:29+09:00
+lastmod: 2022-08-17T10:54:22+09:00
 published: true
 category: ["Tech"]
 tags: ["Blog", "Cloudflare","Cloudflare Pages", "Hugo"]
@@ -118,3 +118,9 @@ jobs:
 
 
 ![GitHub Pagesの停止とドメイン切り替え](https://res.cloudinary.com/meganii/image/upload/v1660725166/icj8dsef1zxhdqs5dexo.png "=1195x735")
+
+
+## まとめ
+
+- `Cloudflare Pages`は個人ブログとして使う分には申し分ない
+- Origin ServerとCDNをCloudflareにまとめることで、CDN配信周りを少し理解できた
