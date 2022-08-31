@@ -1,7 +1,7 @@
 ---
 title: "Hugo Shortcodesの作り方"
 date: 2017-08-31T20:36:39+09:00
-lastmod: 2021-02-19T23:05:29+09:00
+lastmod: 2022-08-31T23:24:58+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo', 'shortcodes']
@@ -10,7 +10,7 @@ slug: how-to-create-hugo-shortcodes
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514036568/thumbnail_hugo_icon.png"
 ---
 
-Hugoでは、ちょっとしたHTMLタグを記事やテンプレートに差し込みたいと思った場合、ShortCodesという便利な機能が使えます。
+Hugoでは、ちょっとしたHTMLタグを記事やテンプレートに差し込みたいと思った場合、`ShortCodes`という便利な機能が使えます。
 
 
 <!--more-->
@@ -42,18 +42,20 @@ HTML直書きだと変更に対して明らかに弱いです。
 
 このように**変更に強い**のはShortcodesのメリットです。
 
-AMP化をするときも、このShortcodesが役になってくれました。
-(img -> amp-imgも、Shortcodesのレイアウトを1箇所変換すれば、Shortcodesを埋め込んだ箇所全てが変更されます）
+AMP化をするときも、このShortcodesが役に立ちました。
+`<img>`タグから`<amp-img>`タグへの変換も、Shortcodesのレイアウトを1箇所変換すれば、Shortcodesを埋め込んだ箇所全てが変更されます。
 
 
 次に、「見た目がシンプル」になるのがメリットです。
 
-HTML直打ちだと、divタグやらimgタグやらで、どうしてもごちゃごちゃしてしまいます。Shortcodesなら、`{{% escape "{{% img src='/test.jpg' %}}"%}}`と、シンプルに書くことができます。
+HTML直打ちだと、divタグやらimgタグやらで、どうしてもごちゃごちゃしてしまいます。
+Shortcodesなら、`{{% escape "{{% img src='/test.jpg' %}}"%}}`と、シンプルに書くことができます。
 
 
 ## Shortcodesのデメリット
 
-逆にShortcodesのデメリットはあまり思いつきません。強いて挙げるならば、各種Webサービスの埋め込みコードはHTML直書きに最適化されており、単純にそのまま貼り付けても使えない点です。
+逆にShortcodesのデメリットはあまり思いつきません。
+強いて挙げるならば、各種Webサービスの埋め込みコードはHTML直書きに最適化されており、単純にそのまま貼り付けても使えない点です。
 
 一度、HTMLを貼り付けて、それを自分でShortcodes用に変換してあげる必要があります。難しいことはないのですが、ちょっと面倒です。
 
