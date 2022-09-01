@@ -1,7 +1,7 @@
 ---
 title: "AMP Service WorkerでPrefetch Linksを実現する"
 date: 2022-06-29T22:01:54+09:00
-lastmod: 2022-06-29T22:01:54+09:00
+lastmod: 2022-09-01T22:40:15+09:00
 published: true
 category: ["Tech"]
 tags: ["AMP","Hugo"]
@@ -10,11 +10,11 @@ slug: "how-to-prefetch-links-with-amp-sw"
 img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png"
 ---
 
-AMP Service Workerを使うと、簡単にServiceWorkerを導入できる。
+`AMP Service Worker`を使うと、簡単に`ServiceWorker`を導入できる。
 このブログでも利用しているが、1つうまく動かないモジュールがあった。
-それは、Prefetch Linksの機能だ。
+それは、`Prefetch Links`の機能だ。
 
-ドキュメントどおりに設定してもうまく動かなかったが、「amp-install-serviceworkerにdata-prefetch属性を付ける」というのがポイントだったので、メモとして残しておく。
+ドキュメントどおりに設定してもうまく動かなかったが、「`amp-install-serviceworker`に`data-prefetch`属性を付ける」というのがポイントだったので、メモとして残しておく。
 
 {{% toc %}}
 
