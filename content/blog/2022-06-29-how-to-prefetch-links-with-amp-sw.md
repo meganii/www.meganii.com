@@ -1,7 +1,7 @@
 ---
 title: "AMP Service WorkerでPrefetch Linksを実現する"
 date: 2022-06-29T22:01:54+09:00
-lastmod: 2022-09-01T22:40:15+09:00
+lastmod: 2022-09-04T12:50:13+09:00
 published: true
 category: ["Tech"]
 tags: ["AMP","Hugo"]
@@ -48,7 +48,8 @@ AMP_SW.init({
 
 `amp-install-serviceworker.js`の動きを見ていると、`<amp-install-serviceworker>`Elementに`data-prefetch`属性を持つかどうかの判定がある。
 `data-prefetch`属性の有無で、`<head>`タグに`<link rel='prefetch'>`が追加されるかどうかが変わることを確認した。
-[](https://github.com/ampproject/amphtml/blob/0937333cb3f4d1b09bd41f86db565c2dcda7ed3a/extensions/amp-install-serviceworker/0.1/amp-install-serviceworker.js#L349)
+
+[https://github.com/ampproject/amphtml/blob/0937333cb3f4d1b09bd41f86db565c2dcda7ed3a/extensions/amp-install-serviceworker/0.1/amp-install-serviceworker.js#L349](https://github.com/ampproject/amphtml/blob/0937333cb3f4d1b09bd41f86db565c2dcda7ed3a/extensions/amp-install-serviceworker/0.1/amp-install-serviceworker.js#L349)
 
 
 <!--more-->
@@ -59,3 +60,5 @@ AMP_SW.init({
 
 - [https://github.com/ampproject/amp-sw/tree/master/src/modules/link-prefetch](https://github.com/ampproject/amp-sw/tree/master/src/modules/link-prefetch)
 
+
+{{% amazon 4844379208 %}}

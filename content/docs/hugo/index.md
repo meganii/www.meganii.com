@@ -1,7 +1,7 @@
 ---
 title: "静的サイトジェネレータHugo"
 date: 2017-12-31T05:23:39+09:00
-lastmod: 2022-07-02T11:32:46+09:00
+lastmod: 2022-09-04T12:50:14+09:00
 img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png"
 ---
 
@@ -16,30 +16,35 @@ img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/
 ## サイト構築
 
 - [Hugoのテーマでsubmoduleを使う方法](/blog/2018/07/11/how-to-use-submodule-for-hugo-theme/)
-- [HugoでのシンタックスハイライトにPython Pygmentsが不要となった](/blog/2017/10/14/hugo-syntax-highlighting/)
-- [HugoのRelated Contentを利用して関連記事を表示する](/blog/2017/10/07/hugo-related-content/)
+- [シンタックスハイライトにPython Pygmentsが不要となった](/blog/2017/10/14/hugo-syntax-highlighting/)
+- [Related Contentを利用して関連記事を表示する](/blog/2017/10/07/hugo-related-content/)
 - [gulpで画像の最適化](/blog/2017/04/09/gulp-image-optimization/)
 - [Hugoソースコードリーディング〜Taxonomy〜](/blog/2015/10/11/hugo-taxonomy/)
+- [Render Hooks for Code Blocksを利用してコードブロックにファイル名を表示する](/blog/2022/09/03/display-filename-at-codeblock-using-render-hooks-for-code-blocks-in-hugo/)
+- [ブログカードを作成する（resources\.GetRemote利用）](/blog/2022/08/29/how-to-create-blogcard-with-resources-getremote-in-hugo/)
 
 ### Shortcodes
 
-- [Hugo Shortcodesの作り方](/blog/2017/08/31/how-to-create-hugo-shortcodes/)
-- [HugoのShortcodesを利用してAmazon紹介リンクタグを作成](/blog/2017/02/18/hugo-amazon-shortcode/)
-- [HugoでAMP対応のブログカードを作る](/blog/2020/02/02/blogcard-in-hugo/)
+- [Shortcodesの作り方](/blog/2017/08/31/how-to-create-hugo-shortcodes/)
+- [Shortcodesを利用してAmazon紹介リンクタグを作成する](/blog/2017/02/18/hugo-amazon-shortcode/)
+- [AMP対応のブログカードを作る](/blog/2020/02/02/blogcard-in-hugo/)
+
 ### AMP対応
 
-- [AMP向けのミニマルCSSフレームワーク「1BX」をHugoに導入した](/blog/2019/10/06/1bx-minimal-css-framework-for-amp/)
-- [AMPページの最適化〜ぼくのAMPサイトがこんなに遅い訳がない〜](/blog/2019/10/11/optimize-amp/)
+- [AMP向けのミニマルCSSフレームワーク「1BX」](/blog/2019/10/06/1bx-minimal-css-framework-for-amp/)
+- [AMPページの最適化](/blog/2019/10/11/optimize-amp/)
 - [AMP OptimizerによるAMPのさらなる最適化](/blog/2020/09/27/further-optimizing-amp-with-amp-optimizer/)
+- [AMP Service WorkerでPrefetch Linksを実現する](/blog/2022/06/29/how-to-prefetch-links-with-amp-sw/)
+
 
 ### Data Driven Content
 
-- [Hugoで人気記事を表示するためJSONを返すAPIサーバを作りData\-driven Contentを試してみた](/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/)
+- [人気記事を表示するためJSONを返すAPIサーバを作りData\-driven Contentを試してみた](/blog/2016/09/06/hugo-data-driven-content-for-polupar-posts/)
 
 
 ### Tailwind CSS
 
-- [HugoでTailwindCSSを利用しAMP Validなページを生成する](/blog/2020/11/01/generate-amp-valid-pages-using-tailwindcss-in-hugo/)
+- [TailwindCSSを利用しAMP Validなページを生成する](/blog/2020/11/01/generate-amp-valid-pages-using-tailwindcss-in-hugo/)
 
 
 
@@ -54,7 +59,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/
 ## コンテンツ作成
 
 - [Git pre\-commitフックでFrontmatterの「更新日時」を自動更新する](/blog/2021/02/11/how-to-update-the-modification-date-of-content-with-git-precommit/)
-- [Hugoでブログ記事一覧ページ（ブログアーカイブページ）を作成する](/blog/2020/12/26/creating-post-list-archive-page-with-hugo/)
+- [ブログ記事一覧ページ（ブログアーカイブページ）を作成する](/blog/2020/12/26/creating-post-list-archive-page-with-hugo/)
 
 
 

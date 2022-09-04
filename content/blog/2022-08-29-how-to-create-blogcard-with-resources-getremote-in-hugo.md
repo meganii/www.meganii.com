@@ -1,7 +1,7 @@
 ---
 title: "Hugoでブログカードを作成する（resources.GetRemote利用）"
 date: 2022-08-29T20:48:25+09:00
-lastmod: 2022-09-03T12:48:24+09:00
+lastmod: 2022-09-04T12:50:13+09:00
 published: true
 category: ["Tech"]
 tags: ["Hugo","ブログカード"]
@@ -111,3 +111,6 @@ Shortcodeの中身は次のとおり。
 
 ## 参考
 - [Hugoでついに外部URLのブログカードを作れるようになった【自作ショートコード】 \| Hugoブログテーマ「Salt」](https://hugo-theme-salt.okdyy75.com/article/salt/blog-card/)
+
+
+{{% amazon 4844379208 %}}
