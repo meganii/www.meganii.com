@@ -1,12 +1,13 @@
 ---
 title: "Vivaldiのスワイプで戻る・進むを有効にする"
 date: 2017-03-02T22:15:35+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2022-10-16T12:51:02+09:00
 comments: true
 category: ['Tech']
 tags: ['Vivaldi','browser']
 published: true
 slug: vivaldi-swipe-gestures
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
 ---
 
 Vivaldiを試しに使ってみているのだが、スワイプで戻る・進むができなかったのでマウスジェスチャーを調べた。
@@ -32,5 +33,4 @@ defaults write com.vivaldi.Vivaldi.plist AppleEnableSwipeNavigateWithScrolls -bo
 ## 参考
 
 - [Mouse/Trackpad swipe gesture history back and forward \| Vivaldi Forum](https://forum.vivaldi.net/topic/4881/mouse-trackpad-swipe-gesture-history-back-and-forward)
-- [How to Disable Swipe Navigation Gestures in Google Chrome for Mac](http://osxdaily.com/2015/05/09/disable-swipe-navigation-google-chrome-mac/)
-
+- [How to Disable Swipe Navigation Gestures in Google Chrome for Mac](https://osxdaily.com/2015/05/09/disable-swipe-navigation-google-chrome-mac/)
