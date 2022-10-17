@@ -1,7 +1,7 @@
 ---
 title: "So-net 光 minicoアンバサダーに就任しました！"
 date: 2022-10-16T15:01:54+09:00
-lastmod: 2022-10-16T13:54:54+09:00
+lastmod: 2022-10-17T09:57:20+09:00
 published: true
 category: ["Tech"]
 tags: ["minico", "minicoアンバサダー"]
@@ -35,7 +35,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1665923161/so-net_minico_
 ## minicoファーストインプレッション
 
 2022年10月6日に開通し、1週間程度利用しましたが、いまのところ快適に利用できています。
-下記ツイートのように、速度も十分すぎるぐらい出ています。
+有線LANでの測定ですが、下記ツイートのように速度も十分すぎるぐらい出ています。
 
 {{% twitter tweetid="1578027320530460672"%}}
 
