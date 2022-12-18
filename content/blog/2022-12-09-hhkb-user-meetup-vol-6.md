@@ -1,21 +1,22 @@
 ---
 title: "「HHKBを大切にしたいから周りから片付ける」HHKBユーザーミートアップVol.6"
 date: 2022-12-18T10:32:47+09:00
-lastmod: 2022-12-18T10:32:47+09:00
+lastmod: 2022-12-18T06:44:30+09:00
 published: true
 category: ["Tech"]
 tags: ["HHKB","meetup"]
 comment: true
 slug: "hhkb-user-meetup-vol-6"
-img: "https://res.cloudinary.com/meganii/image/upload/v1671328972/desk_hhkb_s_atwvni.jpg"
+img: "https://res.cloudinary.com/meganii/image/upload/v1671329243/98a3fd1422ae7066b6b539e75c9784ab_rgkhun.png"
 ---
 
 
 ![HHKBユーザーミートアップ Vol.6](https://res.cloudinary.com/meganii/image/upload/v1671329243/98a3fd1422ae7066b6b539e75c9784ab_rgkhun.png)
 
-2022年12月9日（金）に「[HHKBユーザーミートアップ Vol\.6 \| PFU](https://happyhackingkb.com/jp/event/meetup/vol6/)」が開催され、オンライン参加（Zoom）しました。前回に引き続き、2回目の参加です。
+2022年12月9日（金）に「[HHKBユーザーミートアップ Vol.6](https://happyhackingkb.com/jp/event/meetup/vol6/)」が開催され、オンライン参加（Zoom）しました。前回に引き続き、2回目の参加です。
 
-サイトからも伝わってきますが、前回とは趣が異なり、白をベースにおしゃれな感じになっています。おそらくHHKB「雪」モデルの発売と合わせているのでしょう。また「雪」を「違う客層にアピールしたい」という思惑がありそうな気がしています。
+「[HHKBユーザーミートアップ Vol.6](https://happyhackingkb.com/jp/event/meetup/vol6/)」のサイトからも伝わってきますが、前回とは趣が異なり、白をベースとして全体的におしゃれな感じになっています。おそらく[HHKB「雪」モデル]の発売と合わせているのでしょう。また[HHKB「雪」モデル]を「違う客層にアピールしたい」という思惑もありそうです。
+
 {{% toc %}}
 <!--more-->
 {{% googleadsense %}}
@@ -33,26 +34,40 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1671328972/desk_hhkb_s_at
 
 生活空間を白の基調にしている次の三名のゲストを交えての座談会でした。
 
-- 市川　渚
+- 市川　渚　氏
   - クリエイティブ・コンサルタント
-- 米田　まりな
+- 米田　まりな　氏
   - 捨てない整理収納アドバイザー
-- 鳥羽　恒彰
+- 鳥羽　恒彰　氏
   - モノ系ブロガー / YouTuber /コンテンツプランナー
 
-米田さんの話の中で、「HHKBを大切に扱いたいからその周りを整理する」という話があり、真似したくなって私もデスク周りの片付けも始めました。
+米田さんとの対談の中で、次のような話がありました。
 
-- ごちゃごちゃしているものを目に入れて作業するよりも、白いものに向かった方が集中力が散りにくい
+- ごちゃごちゃしているものを目に入れて作業するよりも、白いものに向かうと集中力が散りにくい
 - 出しっぱなしにしていると「白」は目立つ
-- 仕事が終わったらリセットしたいため、オフの時には戻すという習慣に「白」がサポートしてくれる
-- 白の空間で区切ると収まりが良くなる
+  - 仕事が終わったらリセットしたいため、オンのときは出してオフの時には戻すという習慣を「白」がサポートしてくれる
+- **HHKBを大切に扱いたいからその周りを整理する**
 
-
+私も真似したくなり、真似したくなって私もデスク周りの片付けも始めました。
+モノが溢れかえるデスク上から、モノをなくしたときのスナップショットです。
+このキレイな姿を維持したいものです。
 
 ![デスク周りを綺麗にする](https://res.cloudinary.com/meganii/image/upload/v1671328972/desk_hhkb_s_atwvni.jpg)
 
-HHKBが特別ではなく、日常の一部になってきました。
-たまに、会社ノートPCのペチペチキーボードを叩くと、指が痛くなり、HHKBの優しさを感じるようになりました。
+
+## おわりに
+
+[【レビュー】HHKB（Happy Hacking Keyboard）ファーストインプレッション](/blog/2020/10/25/happy-hacking-keyboard-first-impression/)で2020年にHHKBを使い始めてから、HHKBが特別ではなく、日常の一部になってきました。たまに、会社ノートPCのペチペチキーボードを叩くと指が痛くなり、HHKBのありがたみを感じるようになりました。
+
+**「HHKBを大切に扱いたいからその周りを整理する」**という考え方を真似して、これからもデスク周りはできるだけシンプルに保ちたいです。
+
+
+## 参考
+
+{{% youtube "IyGWxG5Zw4g" %}}
 
 
 {{% amazon B0BFH695TJ %}}
+
+
+[HHKB「雪」モデル]: https://amzn.to/3hw5QLx
