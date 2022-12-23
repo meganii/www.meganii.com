@@ -1,7 +1,7 @@
 ---
 title: "「HHKBを大切にしたいから周りから片付ける」HHKBユーザーミートアップVol.6"
 date: 2022-12-18T10:32:47+09:00
-lastmod: 2022-12-18T06:44:30+09:00
+lastmod: 2022-12-23T11:45:57+09:00
 published: true
 category: ["Tech"]
 tags: ["HHKB","meetup"]
@@ -11,7 +11,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1671329243/98a3fd1422ae70
 ---
 
 
-![HHKBユーザーミートアップ Vol.6](https://res.cloudinary.com/meganii/image/upload/v1671329243/98a3fd1422ae7066b6b539e75c9784ab_rgkhun.png)
+![HHKBユーザーミートアップ Vol.6](https://res.cloudinary.com/meganii/image/upload/v1671329243/98a3fd1422ae7066b6b539e75c9784ab_rgkhun.png "?size=1552x879?hero=1")
 
 2022年12月9日（金）に「[HHKBユーザーミートアップ Vol.6](https://happyhackingkb.com/jp/event/meetup/vol6/)」が開催され、オンライン参加（Zoom）しました。前回に引き続き、2回目の参加です。
 
@@ -52,7 +52,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1671329243/98a3fd1422ae70
 モノが溢れかえるデスク上から、モノをなくしたときのスナップショットです。
 このキレイな姿を維持したいものです。
 
-![デスク周りを綺麗にする](https://res.cloudinary.com/meganii/image/upload/v1671328972/desk_hhkb_s_atwvni.jpg)
+![デスク周りを綺麗にする](https://res.cloudinary.com/meganii/image/upload/v1671328972/desk_hhkb_s_atwvni.jpg "=1024x576")
 
 
 ## おわりに
