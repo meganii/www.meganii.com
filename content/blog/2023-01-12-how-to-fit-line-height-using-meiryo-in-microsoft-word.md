@@ -1,7 +1,7 @@
 ---
 title: "【Word】メイリオの広い行間を調整する"
 date: 2023-01-12T19:43:52+09:00
-lastmod: 2023-01-12T19:43:52+09:00
+lastmod: 2023-01-14T23:53:12+09:00
 published: true
 category: ["Tech"]
 tags: ["Word"]
@@ -28,7 +28,7 @@ Wordの行高が余白を多く含むメイリオの文字よりも小さい場�
 
 つまり、メイリオをそのまま使うと、行間が間延びしてしまう。
 
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526915/vwcjqzgdzmotql9uz066.png "=660x134")
+![メイリオを使った場合の広い行間](https://res.cloudinary.com/meganii/image/upload/v1673526915/vwcjqzgdzmotql9uz066.png "=660x134")
 
 ## 解決方法
 
@@ -58,73 +58,49 @@ Wordの行高が余白を多く含むメイリオの文字よりも小さい場�
 フォントサイズが10.5ptの「メイリオ」で行数を45から1行ずつ減らしていくことで、行間がどのように変化するかの検証結果は次の通り。
 
 - 行数45
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526915/vwcjqzgdzmotql9uz066.png "=660x134")
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526915/vwcjqzgdzmotql9uz066.png "=660x134")
 - 行数44
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526903/mt6jhmqbqmnagy9hsgec.png "=660x139")
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526903/mt6jhmqbqmnagy9hsgec.png "=660x139")
 - 行数43
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526864/g45fb2b1e7cr6kzhbgkz.png "=644x133")
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526864/g45fb2b1e7cr6kzhbgkz.png "=644x133")
 - 行数42
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526837/zcp0fzlqon70evyesnvc.png "=658x137")
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526837/zcp0fzlqon70evyesnvc.png "=658x137")
 - 行数41
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526814/joezjrnaqd2hfor0qwot.png "=657x137")
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526814/joezjrnaqd2hfor0qwot.png "=657x137")
 - 行数40
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526792/w6t1gifrvxr5fzsmywr4.png "=655x139")
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526792/w6t1gifrvxr5fzsmywr4.png "=655x139")
 - 行数39
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526768/hcci14jhy3n9lm9velab.png "=660x155")
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526768/hcci14jhy3n9lm9velab.png "=660x155")
 - 行数38
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526748/xvhxhonf4pxxfkuglecm.png "=654x149")
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526748/xvhxhonf4pxxfkuglecm.png "=654x149")
 - 行数37
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526725/lnq7nbeurmy2emc9zpsg.png "=650x156")
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526725/lnq7nbeurmy2emc9zpsg.png "=650x156")
 - 行数36
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526393/goubphioetqqybzqdnrm.png "=665x159")
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526393/goubphioetqqybzqdnrm.png "=665x159")
 - 行数35
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526670/fxmphafmguxcr4bmdifm.png "=682x171")
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526670/fxmphafmguxcr4bmdifm.png "=682x171")
 - 行数34
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526637/yrrznd3mrqybxapsuzah.png "=652x161")
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526637/yrrznd3mrqybxapsuzah.png "=652x161")
 - 行数33
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526589/vwm2dgzpy0tqo154xnjg.png "=650x163")
-
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526589/vwm2dgzpy0tqo154xnjg.png "=650x163")
 - 行数32
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526560/eiubjevc2lvwu8wujbcf.png "=657x101")
-
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526560/eiubjevc2lvwu8wujbcf.png "=657x101")
 - 行数31
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526530/s0r1n0ujikeczsbwh2mn.png "=648x104")
-
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526530/s0r1n0ujikeczsbwh2mn.png "=648x104")
 - 行数30
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526499/asvvva1oiypdzm8lazsd.png "=659x110")
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526499/asvvva1oiypdzm8lazsd.png "=659x110")
 - 行数29
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526950/m2u9ada1ya6ee1c9kho7.png "=648x102")
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526950/m2u9ada1ya6ee1c9kho7.png "=648x102")
 - 行数28
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526974/okqbxc09lwjdenglgre6.png "=645x104")
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526974/okqbxc09lwjdenglgre6.png "=645x104")
 - 行数27
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526999/znlidhetdgk1kinfirva.png "=650x104")
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673526999/znlidhetdgk1kinfirva.png "=650x104")
 - 行数26
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673527023/r6lctxctduev4eu025om.png "=652x111")
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673527023/r6lctxctduev4eu025om.png "=652x111")
 - 行数25
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673527049/p7i6npnmsnsqz2is6szo.png "=645x111")
-
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673527049/p7i6npnmsnsqz2is6szo.png "=645x111")
 - 行数20
-![ALT](https://res.cloudinary.com/meganii/image/upload/v1673527095/jxpxukpr8duabz8rivma.png "=664x152")
+	- ![ALT](https://res.cloudinary.com/meganii/image/upload/v1673527095/jxpxukpr8duabz8rivma.png "=664x152")
 
 ## 参考図書
 
