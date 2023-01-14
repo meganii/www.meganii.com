@@ -1,7 +1,7 @@
 ---
 title: "Cloudflare Workersを利用してCloudinaryの画像をプロキシする"
 date: 2022-08-11T15:04:15+09:00
-lastmod: 2022-08-11T15:04:15+09:00
+lastmod: 2022-09-03T13:12:38+09:00
 published: true
 category: ["Tech"]
 tags: ["Cloudflare","Cloudflare Workers","Cloudinary", "CDN"]
@@ -48,8 +48,7 @@ img: "https://i.gyazo.com/6b699bab2307c88c91ee76b026fd981b.png"
 
 ## Cloudflare Workers
 
-### index.js
-```javascript
+```javascript {name="index.js"}
 addEventListener("fetch", event => {
 	event.respondWith(handleRequest(event));
 });
@@ -86,8 +85,7 @@ async function handleRequest(event) {
 }
 ```
 
-### wrangler.toml
-```toml
+```toml {name="wrangler.toml"}
 name = "img-proxy-dev"
 main = "src/index.js"
 compatibility_date = "2022-08-07"

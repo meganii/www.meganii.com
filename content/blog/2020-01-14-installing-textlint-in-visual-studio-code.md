@@ -1,7 +1,7 @@
 ---
 title: "VS Codeにtextlintを導入して文章を校正する"
 date: 2020-01-14T21:07:50+09:00
-lastmod: 2021-08-23T21:02:53+09:00
+lastmod: 2022-08-31T23:24:59+09:00
 comments: true
 category: ['Tech']
 tags: ['VSCode', 'textlint', '文章', 'Writing']
@@ -10,14 +10,17 @@ slug: installing-textlint-in-visual-studio-code
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---
 
-ブログメンタリング受講者の方々が書いた`textlint`の記事に触発され、`Visual Studio Code`（以降`VS Code`）に`textlint`を導入しました。ブログメンタリングに関しては[技術ブロガーを育てる！ブログメンタリングで何を教えているのか \- kakakakakku blog](https://kakakakakku.hatenablog.com/entry/2019/06/24/070816)を読んでみてください。
+ブログメンタリング受講者の方々が書いた`textlint`の記事に触発され、`Visual Studio Code`（以降`VS Code`）に`textlint`を導入しました。
+ブログメンタリングに関しては[技術ブロガーを育てる！ブログメンタリングで何を教えているのか \- kakakakakku blog](https://kakakakakku.hatenablog.com/entry/2019/06/24/070816)を読んでみてください。
 
 - [VS Codeでtextlintを導入してみた \- chikoblog](https://chikoblog.hatenablog.jp/entry/2020/01/09/104935)
 - [Vim \+ textlintで良質なブログ記事を書こう\! \- code\-log](https://code-log.hatenablog.com/entry/2019/12/29/191207)
 
-基本的には、上記記事の方法と同様です。しかし、少し異なるのは私の[ブログ](https://www.meganii.com/blog/)が`Hugo`で構築している点です。
+基本的には、上記記事の方法と同様です。
+しかし、少し異なるのは私の[ブログ](https://www.meganii.com/blog/)が`Hugo`で構築している点です。
 
-`Hugo`は、通常の`Markdown`の文章の中に`Hugo`独自の記法（`Shortcodes`）を利用できます。`textlint`とそのルールプリセットを導入すると、`Shortcodes`の部分がエラーになってしまう（文字数制限）ため、その除外方法（フィルター方法）を付け加えています。
+`Hugo`は、通常の`Markdown`の文章の中に`Hugo`独自の記法（`Shortcodes`）を利用できます。
+`textlint`とそのルールプリセットを導入すると、`Shortcodes`の部分がエラーになってしまう（文字数制限）ため、その除外方法（フィルター方法）を付け加えています。
 
 
 
@@ -29,16 +32,17 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v159
 
 ## textlintとは
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1579037525/textlint_banner_1420x512_k1gcn6.png" w="1420" h="512" %}}
+![textlint](https://res.cloudinary.com/meganii/image/upload/v1579037525/textlint_banner_1420x512_k1gcn6.png "=1420x512")
 
-MarkdownやPlain textに書かれた文章のチェックを行うツールです。ブログの文章以外にも、ドキュメントや書籍作成などの事例をよくみます。
+`Markdown`や`Plain text`に書かれた文章のチェックを行うツールです。
+ブログの文章以外にも、ドキュメントや書籍作成などの事例をよく目にします。
 
 - [textlintで日本語の文章をチェックする \| Web Scratch](https://efcl.info/2015/09/10/introduce-textlint/)
 - [textlintから学んだこと](https://azu.github.io/slide/reactsushi/textlint.html)
 
 
-
-普段私は、`VS Code`でMarkdownを書いています。よって、VS Code上で保存するのと同時に`textlint`が動作して、文章のチェックができる環境を目指します。
+普段私は、`VS Code`で`Markdown`を書いています。
+よって、`VS Code`上で保存するのと同時に`textlint`が動作して、文章のチェックができる環境を目指します。
 
 
 ## VS Codeにtextlintを導入する
@@ -84,11 +88,12 @@ npm install --save-dev textlint textlint-rule-preset-ja-technical-writing textli
 npx textlint --init
 ```
 
-```.textlintrc
+#### .textlintrc
+```
 {
   "filters": {},
   "rules": {}
-}`
+}
 ```
 
 この`.textlintrc`の`rules`に下記の通り2つのルールを追加します。
@@ -110,23 +115,22 @@ npx textlint --init
 npx textlint {hogehoge.md}
 ```
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1579009743/textlint_error_uvoe1q.png" w="1158" h="229" alt="textlint" %}}
-
+![textlintによる日本語チェック](https://res.cloudinary.com/meganii/image/upload/v1579009743/textlint_error_uvoe1q.png "=1158x229")
 ちゃんと日本語のチェックが行われて、いくつか指摘がありますね。
 
 ### 3. VS CodeにtextlintのExtenstionをインストール
 
 続いて`VS Code`で記事を保存した瞬間に`textlint`が実行されるようにします。
-
 以下の`VS Code Extensiton`をインストールし、WindowをReloadします。これで、`VS Code`に`textlint`を統合できました。
 
 [vscode\-textlint \- Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=taichi.vscode-textlint)
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1579009304/vscode_extension_textlit_h9ktvw.png" w="628" h="369" alt="VS Code Extension textlint" %}}
+![VS Code Extension textlint](https://res.cloudinary.com/meganii/image/upload/v1579009304/vscode_extension_textlit_h9ktvw.png "=628x369")
+
 
 `VS Code`で保存した瞬間に`textlint`による文章チェックが行われます。また、下図の通り、自動修正可能な指摘は一括修正できます。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1579010049/textlint_fix_auto_xxwhhc.png" w="622" h="135" alt="textlint fix auto" %}}
+![textlint fix auto](https://res.cloudinary.com/meganii/image/upload/v1579010049/textlint_fix_auto_xxwhhc.png "=622x135")
 
 
 ### 4. HugoのShortcodesを除外ルールに追加
@@ -169,10 +173,8 @@ npm install --save-dev textlint-filter-rule-whitelist
 ## まとめ
 
 ようやく`textlint`を用いた日本語校正が行えるようになりました。
-
 常に隣に`textlint`がいて、自分が間違った日本語を書いた瞬間に指摘してくれるのは非常にありがたいです。
-
-また、今まで自分が書いていた日本語は以下の指摘が多く、技術文書として正しくないことに気付かせてくれました。
+また、今まで自分が書いていた日本語は以下の指摘が多く、技術文書として適切ではないことに気付かせてくれました。
 
 - 読点が多い
 - 弱い表現になっている

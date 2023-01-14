@@ -1,7 +1,7 @@
 ---
 title: "HugoでのシンタックスハイライトにPython Pygmentsが不要となった"
 date: 2017-10-14T06:31:25+09:00
-lastmod: 2021-01-30T17:56:10+09:00
+lastmod: 2022-08-31T23:24:58+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo', 'Design']
@@ -10,7 +10,8 @@ slug: hugo-syntax-highlighting
 img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png"
 ---
 
-`Hugo 0.28`から`Python Pygments`に頼らず、Goの機能でシンタックスハイライトが可能になりました。これにより、シンタックスハイライトを行なっているコンテンツがあったとしても、キャッシュなしで高速なビルドができるようになっています。
+`Hugo v0.28`から`Python Pygments`に頼らず、Goの機能でシンタックスハイライトが可能になりました。
+これにより、シンタックスハイライトを行なっているコンテンツがあったとしても、キャッシュなしで高速なビルドができるようになっています。
 
 [Hugo \| Hugo 0\.28: High\-speed Syntax Highlighting\!](https://gohugo.io/news/0.28-relnotes/)
 

@@ -1,12 +1,13 @@
 ---
 title: "Enable swipe by using Vivaldi"
 date: 2017-03-02T22:15:35+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2022-10-16T12:51:02+09:00
 comments: true
 category: ['Tech']
 tags: ['Vivaldi','browser']
 published: true
 slug: vivaldi-swipe-gestures
+img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
 ---
 
 I'm using Vivaldi web browser, but I can't back history or forward histoy by swiping. So, I find the solution.

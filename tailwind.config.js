@@ -8,7 +8,11 @@ module.exports = {
     'content/**/*.md',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        ja: ["Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }

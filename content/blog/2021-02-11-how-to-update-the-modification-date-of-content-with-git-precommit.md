@@ -1,7 +1,7 @@
 ---
 title: "Git pre-commitフックでFrontmatterの「更新日時」を自動更新する"
 date: 2021-02-11T11:23:06+09:00
-lastmod: 2021-02-11T11:23:06+09:00
+lastmod: 2022-09-01T22:53:28+09:00
 published: true
 category: ["Tech"]
 tags: ["Hugo", "Git"]
@@ -62,6 +62,23 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v159
  done
 ```
 
+### Windowsの場合
+
+ファイル先頭が`#!/bin/sh`だと`error: cannot spawn .git/hooks/pre-commit: No such file or directory`というエラーが発生しました。
+`#!/bin/bash`に変更することで動作することを確認しました。
+
+```bash
+#!/bin/bash 
+
+git diff --cached --name-status | grep "^M" | while read a b; do
+  cat $b | sed "/---.*/,/---.*/s/^lastmod:.*$/lastmod: $(TZ=Asia/Tokyo date "+%Y-%m-%dT%T")+09:00/" > tmp
+  mv tmp $b
+  git add $b
+done
+```
+
+#### 参考
+- [Git pre\-commit hook is not running on Windows \- Stack Overflow](https://stackoverflow.com/questions/20609816/git-pre-commit-hook-is-not-running-on-windows)
 
 ## まとめ
 
