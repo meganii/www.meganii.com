@@ -28,7 +28,7 @@ jobs:
           git push -u origin bump_amp_${{ env.CURRENT_DATETIME }}
 
       - name: Run Script
-        run: sh confirmAndUpdateAMPVersion.sh
+        run: sh script\confirmAndUpdateAMPVersion.sh
 
       - name: Add and commit
         run: |
