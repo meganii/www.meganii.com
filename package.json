@@ -16,6 +16,7 @@
     "typescript": "^4.5.2"
   },
   "devDependencies": {
+    "@ampproject/toolbox-cli": "^2.9.0",
     "@ampproject/toolbox-optimizer": "^2.9.0",
     "@johnfoderaro/apaw": "^1.0.1",
     "gulp": "^4.0.2",
