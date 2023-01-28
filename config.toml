@@ -55,6 +55,7 @@ AnalyticsURL = "https://us-central1-cloud-api-2e3ec.cloudfunctions.net/function-
 dateformat = "Jan 2, 2006" # Optional
 latestSize = 5 # Optional
 profile = "ギークを夢見るじょーぶん男子。「広く浅くから広く深く」を目指してブログを書いています。"
+CanonicalUrl = "https://www.meganii.com"
 [params.topBanner]
 src = "v1524390254/sislab_top_banner.png"
 width = "1000"

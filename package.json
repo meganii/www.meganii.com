@@ -4,9 +4,15 @@
   "description": "my blog",
   "main": "lib/index.js",
   "scripts": {
-    "start": "hugo server -D -F",
-    "build": "HUGO_ENV=production NODE_ENV=production hugo --gc --minify -v && gulp",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:css": "npx tailwindcss -i ./themes/tailwindcss/assets/css/styles.css -o ./themes/tailwindcss/assets/css/main.css -w",
+    "start:hugo": "hugo server",
+    "start": "run-p start:*",
+    "build:css": "npx tailwindcss -i ./themes/tailwindcss/assets/css/styles.css -o ./themes/tailwindcss/assets/css/main.css -m",
+    "build:hugo": "hugo --gc --minify -v && gulp",
+    "build": "run-s build:*",
+    "staging:css": "npx tailwindcss -i ./themes/tailwindcss/assets/css/styles.css -o ./themes/tailwindcss/assets/css/main.css -m",
+    "staging:hugo" : "hugo --baseURL=https://bump_amp_$(cat amp-version.txt).www-meganii-com.pages.dev/ --gc --minify -v && gulp",
+    "staging": "run-s build:*"
   },
   "dependencies": {
     "express": "^4.17.1",
@@ -20,6 +26,7 @@
     "@ampproject/toolbox-optimizer": "^2.9.0",
     "@johnfoderaro/apaw": "^1.0.1",
     "gulp": "^4.0.2",
+    "npm-run-all": "^4.1.5",
     "postcss-cli": "^9.1.0",
     "postcss-import": "^14.1.0",
     "tailwindcss": "^3.1.2",
