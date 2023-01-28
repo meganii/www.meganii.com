@@ -11,7 +11,7 @@
     "build:hugo": "hugo --gc --minify -v && gulp",
     "build": "run-s build:*",
     "staging:css": "npx tailwindcss -i ./themes/tailwindcss/assets/css/styles.css -o ./themes/tailwindcss/assets/css/main.css -m",
-    "staging:hugo" : "hugo --baseURL=$CF_PAGES_URL --gc --minify -v && gulp",
+    "staging:hugo" : "hugo --baseURL=$CF_PAGES_URL/ --gc --minify -v && gulp",
     "staging": "run-s staging:*"
   },
   "dependencies": {
