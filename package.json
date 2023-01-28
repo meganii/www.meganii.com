@@ -12,7 +12,7 @@
     "build": "run-s build:*",
     "staging:css": "npx tailwindcss -i ./themes/tailwindcss/assets/css/styles.css -o ./themes/tailwindcss/assets/css/main.css -m",
     "staging:hugo" : "hugo --baseURL=https://bump_amp_$(cat amp-version.txt).www-meganii-com.pages.dev/ --gc --minify -v && gulp",
-    "staging": "run-s build:*"
+    "staging": "run-s staging:*"
   },
   "dependencies": {
     "express": "^4.17.1",
