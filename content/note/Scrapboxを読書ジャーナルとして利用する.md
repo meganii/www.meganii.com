@@ -1,5 +1,9 @@
 ---
 title: "Scrapboxを読書ジャーナルとして利用する"
+date: 2023-04-30T20:56:42+09:00
+lastmod: 2023-04-30T12:08:26+09:00
+tags: ["読書", "Scrapbox"]
+aliases: ["Scrapboxを読書ジャーナルとして利用する"]
 ---
 
 読書ジャーナルとしてScrapboxは有用である。
