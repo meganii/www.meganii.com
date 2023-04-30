@@ -15,6 +15,7 @@ Paginate = 12
 blog = "/blog/:year/:month/:day/:slug/"
 category = "/blog/category/:slug/"
 tags = "/blog/tags/:slug"
+notes = "/note/:filename"
 
 [Languages]
 [Languages.ja]
@@ -148,3 +149,6 @@ homepage = "https://www.meganii.com/"
     noClasses = true
     style = "tango"
     tabWidth = 4
+
+
+ignoreFiles = ['content/_template/*.md']
