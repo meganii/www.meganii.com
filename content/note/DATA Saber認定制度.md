@@ -1,0 +1,16 @@
+---
+title: "DATA Saber認定制度"
+---
+
+昔「Tableau Jedi Boot Camp」と呼ばれていたハードル高めの育成カリキュラムがあり、その卒業生は「Tableau Jedi」と呼ばれていた。
+
+今、現在「Tableau Jedi」は呼称を変えて「DATA Saber」となっています。
+
+
+今までのBoot CampではKT氏が直接指導していたため、育成できる人数に限りがありました。しかし、「Tableau Jedi　Boot Camp」をオンラインでの認定制度化した「DATA Saber認定制度」に引き継ぐことで、育成できる人数が飛躍的に増加したそうです。（「DATA Saber認定制度」自体も卒業生の手で作られたとのことです）
+
+つまり、 **KT氏のもとで鍛えられた卒業生「DATA Saber」達が、今度は師匠として弟子を育てるという仕組みが「DATA Saber認定制度」** という訳です。
+
+参考
+- [|「DATA Saber認定制度」のふりかえり ](2020-03-23-a-look-back-at-the-data-saber-certification-program.md)
+- [「CONTENT MARKETING DAY 2019」レポート　第二回「色とりどり、多様な形の花が咲く美しいコラボレーションの花畑へ～Tableau Communityが辿った5年間の軌跡～」-エムタメ！](https://mtame.jp/content_marketing/cmd2019_02/)

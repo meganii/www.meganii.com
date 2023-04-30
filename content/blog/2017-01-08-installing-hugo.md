@@ -1,7 +1,7 @@
 ---
 title: "静的サイトジェネレータ「Hugo」インストール"
 date: 2017-01-08T20:53:29+09:00
-lastmod: 2021-01-30T17:56:10+09:00
+lastmod: 2023-04-30T10:09:51+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo']
@@ -12,8 +12,7 @@ img: /images/hugo_s.png
 
 静的ジェネレータ「Hugo」のインストール方法を紹介します。
 
-公式のチュートリアルは、こちらです。[Install Hugo
-](https://gohugo.io/getting-started/installing/)
+公式のチュートリアルは、こちらです。[Install Hugo](https://gohugo.io/getting-started/installing/)
 
 <!--more-->
 {{% googleadsense %}}
@@ -119,7 +118,6 @@ hugo server --theme=hugo_theme_robust
 
 表示されました！！
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1517006572/hugo_psqrqq.png" w="589" h="514" %}}
-
+![Hugoプレビュー表示](https://res.cloudinary.com/meganii/image/upload/v1517006572/hugo_psqrqq.png "=589x514")
 
 {{% amazon 4844379208 %}}

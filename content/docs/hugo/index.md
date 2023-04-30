@@ -1,15 +1,15 @@
 ---
 title: "静的サイトジェネレータHugo"
 date: 2017-12-31T05:23:39+09:00
-lastmod: 2022-09-04T12:50:14+09:00
+lastmod: 2023-04-30T10:09:52+09:00
 img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png"
 ---
 
 
 ## Hugo入門
 
-- [静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する](/blog/2017/01/08/static-site-generator-hugo/)
-- [静的サイトジェネレータ「Hugo」インストール](/blog/2017/01/08/installing-hugo/)
+- [静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する](2017-01-08-static-site-generator-hugo.md)
+- [静的サイトジェネレータ「Hugo」インストール](2017-01-08-installing-hugo.md)
 - [静的サイトジェネレータ「Hugo」〜公開方法〜](/blog/2017/01/11/deploy-site-with-hugo/)
 
 
@@ -20,8 +20,9 @@ img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/
 - [Related Contentを利用して関連記事を表示する](/blog/2017/10/07/hugo-related-content/)
 - [gulpで画像の最適化](/blog/2017/04/09/gulp-image-optimization/)
 - [Hugoソースコードリーディング〜Taxonomy〜](/blog/2015/10/11/hugo-taxonomy/)
-- [Render Hooks for Code Blocksを利用してコードブロックにファイル名を表示する](/blog/2022/09/03/display-filename-at-codeblock-using-render-hooks-for-code-blocks-in-hugo/)
+- [Render Hooks for Code Blocksを利用してコードブロックにファイル名を表示する](2022-09-03-display-filename-at-codeblock-using-render-hooks-for-code-blocks-in-hugo.md)
 - [ブログカードを作成する（resources\.GetRemote利用）](/blog/2022/08/29/how-to-create-blogcard-with-resources-getremote-in-hugo/)
+
 
 ### Shortcodes
 

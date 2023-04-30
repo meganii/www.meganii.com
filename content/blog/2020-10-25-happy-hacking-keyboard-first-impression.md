@@ -1,13 +1,15 @@
 ---
 title: "【レビュー】HHKB（Happy Hacking Keyboard）ファーストインプレッション"
 date: 2020-10-25T16:24:22+09:00
-lastmod: 2022-12-23T11:36:46+09:00
+lastmod: 2023-04-30T10:09:52+09:00
 published: true
 category: ["Gadget"]
 tags: ["Keyboard","HHKB", "レビュー"]
 comment: true
 slug: "happy-hacking-keyboard-first-impression"
 img: "https://res.cloudinary.com/meganii/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1608967964/happy-hacking-keyboard-hhkb_acbupn.jpg"
+aliases:
+- "【レビュー】HHKB（Happy Hacking Keyboard）ファーストインプレッション"
 ---
 
 ![Happy Hacking Keyboardファーストインプレッション　箱](https://res.cloudinary.com/meganii/image/upload/v1609032770/happy-hacking-keyboard-package_hrb965.jpg "?size=3456x2137&hero=1")

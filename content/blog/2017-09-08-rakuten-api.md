@@ -1,13 +1,14 @@
 ---
 title: "楽天APIの調査結果"
 date: 2017-09-08T16:36:29+09:00
-lastmod: 2020-07-16T21:51:05+09:00
+lastmod: 2023-04-30T10:09:52+09:00
 comments: true
 category: ['Tech']
 tags: ['API','楽天']
 published: true
 slug: rakuten-api
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
+aliases: "楽天APIの調査結果"
 ---
 
 ASINからJANコードを引っ張れないかと、楽天APIを調べたときのメモです。

@@ -1,15 +1,16 @@
 ---
 title: "「ワールド・カフェをやろう！」の事例からからみる目的と問い"
 date: 2015-07-05T20:46:00+09:00
-lastmod: 2020-03-30T19:52:08+09:00
+lastmod: 2023-04-30T10:09:51+09:00
 category: ['Life']
 tags: ['ファシリテーション','ワールド・カフェ']
 published: true
 img: "https://images-na.ssl-images-amazon.com/images/I/41Xz5nbHwbL._SL160_.jpg"
 slug: world-cafe-case
+aliases: ["「ワールド・カフェをやろう！」の事例からからみる目的と問い"]
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1513603156/World_Cafe_ahxh4n.png" w="828" h="315" %}}
+![World Cafe](https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1513603156/World_Cafe_ahxh4n.png "=828x315")
 
 
 {{% amazon 4532314887 %}}
@@ -85,7 +86,7 @@ slug: world-cafe-case
 
 事例を見てみると、企業が実施したワールドカフェでは、最後全体セッションで発表を設けるところを多くみかけました。
 
-ワールドカフェの標準プロセスだと、最後発表することは、自由な意見を出すことを妨げるためやらないとしていたが、そこは企業向けとして何かしら結果を出すことを求めているからかもしれない。
+ワールドカフェの標準プロセスだと、最後に発表することは自由な意見を出すことを妨げるためやらないとしていたが、そこは企業向けとして何かしら結果を出すことを求めているからかもしれない。
 
 しかし、初めから発表するから意見をまとめておいてとは伝えずにすることなど工夫をしている。
 

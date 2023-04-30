@@ -1,7 +1,7 @@
 ---
 title: "「HHKBを大切にしたいから周りから片付ける」HHKBユーザーミートアップVol.6"
 date: 2022-12-18T10:32:47+09:00
-lastmod: 2022-12-23T11:45:57+09:00
+lastmod: 2023-04-30T10:09:52+09:00
 published: true
 category: ["Tech"]
 tags: ["HHKB","meetup"]
@@ -57,7 +57,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1671329243/98a3fd1422ae70
 
 ## おわりに
 
-[【レビュー】HHKB（Happy Hacking Keyboard）ファーストインプレッション](/blog/2020/10/25/happy-hacking-keyboard-first-impression/)で2020年にHHKBを使い始めてから、HHKBが特別ではなく、日常の一部になってきました。たまに、会社ノートPCのペチペチキーボードを叩くと指が痛くなり、HHKBのありがたみを感じるようになりました。
+[【レビュー】HHKB（Happy Hacking Keyboard）ファーストインプレッション](2020-10-25-happy-hacking-keyboard-first-impression.md)で2020年にHHKBを使い始めてから、HHKBが特別ではなく、日常の一部になってきました。たまに、会社ノートPCのペチペチキーボードを叩くと指が痛くなり、HHKBのありがたみを感じるようになりました。
 
 **「HHKBを大切に扱いたいからその周りを整理する」**という考え方を真似して、これからもデスク周りはできるだけシンプルに保ちたいです。
 
