@@ -15,7 +15,7 @@ Paginate = 12
 blog = "/blog/:year/:month/:day/:slug/"
 category = "/blog/category/:slug/"
 tags = "/blog/tags/:slug"
-notes = "/note/:filename"
+notes = "/note/:slugorfilename"
 
 [Languages]
 [Languages.ja]
@@ -151,4 +151,8 @@ homepage = "https://www.meganii.com/"
     tabWidth = 4
 
 
-ignoreFiles = ['content/_template/*.md']
+[module]
+[[module.mounts]]
+  excludeFiles = '_template/*'
+  source = 'content'
+  target = 'content'
