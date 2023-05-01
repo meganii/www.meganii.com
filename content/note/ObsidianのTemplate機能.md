@@ -1,4 +1,0 @@
----
-title: "ObsidianのTemplate機能"
----
-
