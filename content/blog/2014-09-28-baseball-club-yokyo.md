@@ -1,7 +1,7 @@
 ---
 title: "福井-大阪-名古屋-東京。拠点が離れている中での結婚式余興作成"
 date: 2014-09-28T22:11:00+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:23:56+09:00
 category: ['Movie']
 tags: ['Movie', '結婚式余興', 'iMovie', 'Motion5']
 published: true
@@ -15,7 +15,7 @@ slug: baseball-club-yokyo
 
 当日まで、「ぽかーん」とする来賓者の顔しかイメージできなかったので、いやぁ、なんとかなって本当によかった。
 
-{{% img src="https://farm6.staticflickr.com/5598/15432488581_468bd350f1_c.jpg" w="800" h="560" %}}
+![](https://farm6.staticflickr.com/5598/15432488581_468bd350f1_c.jpg "=800x560")
 
 
 

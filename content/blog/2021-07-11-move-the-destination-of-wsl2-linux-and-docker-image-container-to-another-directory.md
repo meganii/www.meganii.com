@@ -1,7 +1,7 @@
 ---
 title: "WSL2のLinuxおよびDockerイメージ格納先を任意のディレクトリに移動する"
 date: 2021-07-11T14:12:20+09:00
-lastmod: 2021-07-11T18:09:26+09:00
+lastmod: 2023-05-05T01:24:12+09:00
 published: true
 category: ["Tech"]
 tags: ["Windows", "WSL2","Docker", "Docker Desktop"]
@@ -51,7 +51,7 @@ wsl --shutdown
 wsl -l -v
 ```
 
-{{% img src="https://i.gyazo.com/f766c432b42cfb79568e05ab2678a35f.png" w="564" h="256" %}}
+![wsl shutdown in PowerShell](https://i.gyazo.com/f766c432b42cfb79568e05ab2678a35f.png "=564x256")
 
 
 ### 3. ディストリビューションのExport

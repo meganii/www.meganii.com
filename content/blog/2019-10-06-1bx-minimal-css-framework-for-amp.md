@@ -1,7 +1,7 @@
 ---
 title: "AMP向けのミニマルCSSフレームワーク「1BX」をHugoに導入した"
 date: 2019-10-06T12:28:21+09:00
-lastmod: 2021-01-30T17:56:10+09:00
+lastmod: 2023-05-05T01:24:06+09:00
 comments: true
 category: ['Tech']
 tags: ['Web Design', 'Blog', 'AMP', 'Hugo']
@@ -10,7 +10,7 @@ slug: 1bx-minimal-css-framework-for-amp
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1570334428/1bx-screenshot_oqm0gr.png" w="1440" h="766" alt="ミニマルCSSフレームワーク「1BX」を試してみました" %}}
+![ミニマルCSSフレームワーク「1BX」を試してみました](https://res.cloudinary.com/meganii/image/upload/v1570334428/1bx-screenshot_oqm0gr.png "=1440x766")
 
 ミニマルCSSフレームワーク「[A Responsive CSS Grid for AMP \| 1BX](https://1bx.uk/)」を試してみました。
 

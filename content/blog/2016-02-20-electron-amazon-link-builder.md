@@ -1,7 +1,7 @@
 ---
 title: "ElectronでAmazonアフィリエイトリンクビルダーを作った"
 date: 2016-02-20T17:51:18+09:00
-lastmod: 2022-07-02T11:32:46+09:00
+lastmod: 2023-05-05T01:23:59+09:00
 comments: true
 category: ['Tech']
 tags: ['Electron', 'JavaScript']
@@ -27,9 +27,9 @@ React.jsとか使ってオシャレに作りたかったのだけど、JavaScrip
 
 ## 外観
 
-{{% img src="https://farm2.staticflickr.com/1714/25117168326_9fe61fdeb7_z.jpg" w="640" h="445" %}}
+![](https://farm2.staticflickr.com/1714/25117168326_9fe61fdeb7_z.jpg "=640x445")
 
-{{% img src="https://farm2.staticflickr.com/1467/25143519475_14929051ec_z.jpg" w="640" h="445" %}}
+![](https://farm2.staticflickr.com/1467/25143519475_14929051ec_z.jpg "=640x445")
 
 
 ## コード
@@ -58,24 +58,24 @@ Endpointは、デフォルトだとUSのAmazonを指しているため、`webser
 
 AWS IDと、AWS Secretを取得するためにはまず、[Product Advertising API](https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html)でDeveloper登録をする必要がある。
 
-{{% img src="https://farm2.staticflickr.com/1500/24777745429_476475dc3d_z.jpg" w="640" h="320" %}}
+![](https://farm2.staticflickr.com/1500/24777745429_476475dc3d_z.jpg "=640x320")
 
-{{% img src="https://farm2.staticflickr.com/1618/24515006124_a87c7f60cf_z.jpg" w="640" h="300" %}}
+![](https://farm2.staticflickr.com/1618/24515006124_a87c7f60cf_z.jpg "=640x300")
 
 
 登録完了後は、AWS Security Credentials Consoleから、Access Key ID と Secret Keyを取得する。ここでハマったのは、現在推奨されるのはIAMで特定のユーザを作成して、権限を適切に与えた状態にすることを求められる。
 
 
-{{% img src="https://farm2.staticflickr.com/1631/24518590253_86af913239_z.jpg" w="610" h="300" %}}
+![](https://farm2.staticflickr.com/1631/24518590253_86af913239_z.jpg "=610x300")
 
-{{% img src="https://farm2.staticflickr.com/1495/25145533635_26e2116751_z.jpg" w="640" h="214" %}}
+![](https://farm2.staticflickr.com/1495/25145533635_26e2116751_z.jpg "=640x214")
 
 
 
 そうか、では、Product Advertising API用にユーザを作って、ユーザを作成してProduct Advertisingのポリシーをアタッチすればよいのだなと思い、やってみたのだが、Product Adverting APIなんて存在しない。。。
 
 
-{{% img src="https://farm2.staticflickr.com/1624/24849951570_05b18beda4_z.jpg" w="640" h="416" %}}
+![](https://farm2.staticflickr.com/1624/24849951570_05b18beda4_z.jpg "=640x416")
 
 <a href="https://forums.aws.amazon.com/thread.jspa?threadID=171558">AWS Developer Forums: Support for IAM Users in Product ...</a>のフォーラムを読むと、`AdministratorAccess`のポリシーを設定してあげれば良いとのこと。(Admin権限を与えるんじゃ意味ないのではと思ったが)
 

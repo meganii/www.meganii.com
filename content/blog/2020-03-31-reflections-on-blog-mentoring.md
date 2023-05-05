@@ -1,7 +1,7 @@
 ---
 title: "小さな習慣・アウトプット駆動生活〜ブログメンタリングのふりかえり〜"
 date: 2020-03-31T21:00:52+09:00
-lastmod: 2022-07-02T11:32:46+09:00
+lastmod: 2023-05-05T01:24:08+09:00
 comments: true
 category: ['Tech']
 tags: ['Blog', 'ブログメンタリング', '小さな習慣', 'アウトプット', 'ふりかえり']
@@ -10,7 +10,7 @@ slug: reflections-on-blog-mentoring
 img: "https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring_j15qwo.png"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring_j15qwo.png" w="1024" h="512"%}}
+![ブログメンタリングふりかえり](https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring_j15qwo.png "?size=1024x512&hero=1")
 
 [@kakakakakku]:https://twitter.com/kakakakakku
 
@@ -84,12 +84,12 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring
 
 ブログメンタリング受講による結果をTableauのダッシュボードで表現してみました。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1585370531/blog_mentoring_uqkzxq.png" w="1394" h="769" %}}
+![ブログメンタリングの定量的評価](https://res.cloudinary.com/meganii/image/upload/v1585370531/blog_mentoring_uqkzxq.png "=1394x769")
 
 - 2019/12/01 - 2020/2/29のメンタリング期間中、毎週1記事以上ブログ更新を継続（計13記事）
 - 「ブログメンタリング期間中」とそれ以外の期間で比較したところ、各種KPI（平均ユーザ数、平均ページビュー数、平均セッション数、平均ページ滞在時間）平均値が向上
 
-ブログメンタリング直前のサイトメンテナンスと、1記事がはてぶのホットエントリーに入ったことでアクセス数のブレが大きくなり、直前の3か月での比較ができません。そこで、前12週での移動平均と、2年前・1年前の同時期の指標と比較を行いました。
+ブログメンタリング直前のサイトメンテナンスと、1記事がはてぶのホットエントリーに入ったことでアクセス数のブレが大きくなり、直前の3か月での比較ができません。そこで、前12週での移動平均と、2年前・1年前の同時期の指標と比較しました。
 
 結果としては、各種KPI平均値が向上しました。ブログメンタリング期間中、定期的にTwitterに記事を流したことと、[@kakakakakku]さんに記事を拾い上げていただいたおかげだと感じています。
 
@@ -119,7 +119,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring
 
 ### 1. 平日記事を公開することの大切さ
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1578132330/highlight_weekly_pageview_of_tech_category_si4rfs.png" w="834" h="585" alt="Techカテゴリの時間毎のページビュー数" %}}
+![Techカテゴリの時間毎のページビュー数](https://res.cloudinary.com/meganii/image/upload/v1578132330/highlight_weekly_pageview_of_tech_category_si4rfs.png "=834x585")
 
 
 以下のブログ記事でも調査してみましたが、土日はアクセス数が多くありません。

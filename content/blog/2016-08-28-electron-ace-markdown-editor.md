@@ -1,7 +1,7 @@
 ---
 title: "AceエディタをElectronに組み込む"
 date: 2016-08-28T09:02:38+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:24:01+09:00
 comments: true
 category: ['Tech']
 tags: ['JavaScript','Electron']
@@ -11,7 +11,7 @@ img: "https://farm9.staticflickr.com/8537/29243326176_ea1c871651_s.jpg"
 
 ---
 
-{{% img src="https://farm9.staticflickr.com/8537/29243326176_ea1c871651_z.jpg" w="640" h="428" %}}
+![](https://farm9.staticflickr.com/8537/29243326176_ea1c871651_z.jpg "=640x428")
 
 
 <!--more-->

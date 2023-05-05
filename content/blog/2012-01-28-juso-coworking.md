@@ -1,7 +1,7 @@
 ---
 title: "「新年会だよ！JUSO Jelly!+家族ラボ vol.6」に参加してきました！"
 date: 2012-01-28
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:23:52+09:00
 category: ['Tech']
 tags: ['meetup']
 published: true
@@ -9,7 +9,7 @@ slug: juso-coworking
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_400/v1530366276/jusoworking_daojpu.png"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1530366276/jusoworking_daojpu.png" w="1436" h="780" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1530366276/jusoworking_daojpu.png "=1436x780")
 
 <a href="http://twitter.com/saiut" target="_blank">@saiut</a>に誘っていただき、<a href="http://twitter.com/LHnao" target="_blank">@LHnao</a>と[JUSO Coworking - 大阪・十三のコワーキングスペース](http://juso-coworking.com/)に参加してきました！楽しかったです！！
 

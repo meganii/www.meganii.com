@@ -1,7 +1,7 @@
 ---
 title: "初めてのSWEET LOVE SHOWER 2014"
 date: 2014-09-02T00:44:00+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:23:56+09:00
 category: ['Travel','Music']
 tags: ["music", "夏フェス","SWEET LOVE SHOWER"]
 published: true
@@ -9,7 +9,7 @@ slug: sweet-love-shower-2014
 img: "https://c1.staticflickr.com/4/3902/14930345090_7fd8e45761_s.jpg"
 ---
 
-{{% img src="https://c1.staticflickr.com/4/3902/14930345090_7fd8e45761_z.jpg" w="640" h="480" %}}
+![](https://c1.staticflickr.com/4/3902/14930345090_7fd8e45761_z.jpg "=640x480")
 
 
 ## 初めてのSLS
@@ -40,7 +40,7 @@ Fear, and Loathing in Las Vegas は、完全に初見だった。
 なんだかんだ、Dragon Ashも観るのは初めて。昔懐かしい曲もやってたけど、考えたらあの人たち何歳なんだろう？って疑問になった。
 
 
-{{% img src="https://farm4.staticflickr.com/3919/15116633302_9a5a35e522_c.jpg" w="800" h="600" %}}
+![](https://farm4.staticflickr.com/3919/15116633302_9a5a35e522_c.jpg "=800x600")
 
 YOUR SONG IS GOOD は、最後の方しか見れなかったけど、いい感じだった。いい感じ過ぎて、ライブが終わったかと思ったぐらい。
 

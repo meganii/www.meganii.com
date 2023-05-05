@@ -1,7 +1,7 @@
 ---
 title: "Scrapboxで読書管理をするときのじぶんルール"
 date: 2019-11-11T22:05:58+09:00
-lastmod: 2020-04-01T20:54:38+09:00
+lastmod: 2023-05-05T01:24:06+09:00
 comments: true
 category: ['Tech']
 tags: ['Scrapbox', '読書', '読書メモ']
@@ -10,7 +10,7 @@ slug: the-art-of-managing-books-with-scrapbox
 img: https://res.cloudinary.com/meganii/image/upload/w_1024/v1573478168/rule_of_managing_books_with_scrapbox_yl3uka.png
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1573478168/rule_of_managing_books_with_scrapbox_yl3uka.png" w="1500" h="500" alt="Scrapboxで読書管理をするときのじぶんルール" %}}
+![Scrapboxで読書管理をするときのじぶんルール](https://res.cloudinary.com/meganii/image/upload/v1573478168/rule_of_managing_books_with_scrapbox_yl3uka.png "=1500x500")
 
 Scrapboxで読書管理（既読管理、読書メモ）をしているときのルールをまとめてみました。
 
@@ -43,7 +43,7 @@ Scrapboxではページタイトルを変えても、よしなにリンクを張
 
 ## 1. 書影重要
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1573368405/mediamarker_jqkwmu.png" w="1440" h="798" alt="Scrapboxで読書管理 - 書影重要" %}}
+![Scrapboxで読書管理 - 書影重要](https://res.cloudinary.com/meganii/image/upload/v1573368405/mediamarker_jqkwmu.png "=1440x798")
 
 
 - 書影があると視覚的に分かるので楽しい
@@ -58,7 +58,7 @@ Scrapboxではページタイトルを変えても、よしなにリンクを張
 
 ## 2. 書籍のページタイトルには括弧書きで出版社名も入れる
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1573650184/mediamarker-naming_tdwyi4.png" w="724" h="425" alt="Scrapboxで読書管理 - ページの名前" %}}
+![Scrapboxで読書管理 - ページの名前](https://res.cloudinary.com/meganii/image/upload/v1573650184/mediamarker-naming_tdwyi4.png "=724x425")
 
 - 小説、アニメ、漫画、映画でページタイトルが衝突しないようにする
 - シリーズものはリンクで関連付ける
@@ -67,7 +67,7 @@ Scrapboxではページタイトルを変えても、よしなにリンクを張
 
 ## 3. 巻数があるものは、作品名(1)のようにナンバリングする
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1573648156/mediamarker-numbering_pqqgdj.png" w="738" h="392" alt="Scrapboxで読書管理 - ナンバリング" %}}
+![Scrapboxで読書管理 - ナンバリング](https://res.cloudinary.com/meganii/image/upload/v1573648156/mediamarker-numbering_pqqgdj.png "=738x392")
 
 - 無印(ナンバリング無し)のページは全巻通したときの概要を記載
 - ナンバリングしたページは、各巻の感想、読書メモを記載
@@ -77,7 +77,7 @@ Scrapboxではページタイトルを変えても、よしなにリンクを張
 
 ## 4. 脱線大歓迎！思い立ったら「リファクタリング」の精神
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1573653918/related-links_e9xnyc.png" w="811" h="615" alt="Scrapboxで読書管理 - リファクタリング" %}}
+![Scrapboxで読書管理 - リファクタリング](https://res.cloudinary.com/meganii/image/upload/v1573653918/related-links_e9xnyc.png "=811x615")
 
 - ある本を読んでいて、別の書籍のことに想いを巡らせた瞬間、その時の気持ちを別の書籍のページに綴る
 

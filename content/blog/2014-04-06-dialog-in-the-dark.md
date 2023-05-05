@@ -1,7 +1,7 @@
 ---
 title: Dialog In The Dark(ダイアログ・イン・ザ・ダーク)〜『みえない』から『みえる』暗闇体験〜
 date: 2014-04-06T11:00:00+09:00
-lastmod: 2021-02-11T11:21:42+09:00
+lastmod: 2023-05-05T01:23:56+09:00
 category: ['Life']
 tags: ['DialogInTheDark','暗闇体験']
 published: true
@@ -12,7 +12,7 @@ img: "https://farm4.staticflickr.com/3707/13655946803_10ac7c61e4.jpg"
 その日そこに集まった人たちと、純度100%の暗闇の中を視力以外の感覚を頼りに力を合わせて進んでいく暗闇体験「Dialog In The Dark」@新宿外苑前に行ってきました。
 
 
-{{% img src="https://farm4.staticflickr.com/3707/13655946803_10ac7c61e4.jpg" w="500" h="500" %}}
+![](https://farm4.staticflickr.com/3707/13655946803_10ac7c61e4.jpg "=500x500")
 
 <!--more-->
 {{% googleadsense %}}

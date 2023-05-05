@@ -1,7 +1,7 @@
 ---
 title: 週次レビューの流れ
 date: 2013-01-27
-lastmod: 2018-08-04T20:52:06+09:00
+lastmod: 2023-05-05T01:23:54+09:00
 category: ['Life']
 tags: ["週次レビュー", 'Lifehack']
 published: true
@@ -17,7 +17,7 @@ img: "https://farm9.staticflickr.com/8235/8420719015_e088db300d.jpg"
 - ほぼ日手帳、モレスキン、ロディアに書きなぐったメモを見ながら、下の内容を洗い出す。
 - 洗いだした内容は、Evernoteのノートブックにストックする。
 
-{{% img src="https://farm9.staticflickr.com/8235/8420719015_e088db300d.jpg" w="400" h="200" %}}
+![](https://farm9.staticflickr.com/8235/8420719015_e088db300d.jpg "=400x200")
 
 
 {{% googleadsense %}}

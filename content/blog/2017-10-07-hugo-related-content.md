@@ -1,7 +1,7 @@
 ---
 title: "HugoのRelated Contentを利用して関連記事を表示する"
 date: 2017-10-07T14:40:16+09:00
-lastmod: 2021-01-30T17:56:10+09:00
+lastmod: 2023-05-05T01:24:03+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo', '関連記事', 'Blog']
@@ -39,7 +39,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/
 
 そうすると、以下の通りいい感じで関連記事を出してくれます。関連記事表示のスニペットを入れたからといって、ビルド時間が遅くなったというのは感じられませんでした。(元々爆速なので）
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596888296/36875101903_b778fc6630_o_sbfqjs.png" w="781" h="371" alt="Hugo 関連記事" %}}
+![Hugo 関連記事](https://res.cloudinary.com/meganii/image/upload/v1596888296/36875101903_b778fc6630_o_sbfqjs.png "=781x371")
 
 
 関連記事をどのように抽出しているかは、おいおいドキュメントやソースを確認してみたいと思います。

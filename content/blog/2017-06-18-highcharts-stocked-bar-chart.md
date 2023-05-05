@@ -1,7 +1,7 @@
 ---
 title: "Highchartsを使って財務諸表(BS/PL)のグラフを出力する"
 date: 2017-06-18T14:49:27+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:24:02+09:00
 comments: true
 category: ['Tech']
 tags: ['highcharts','visualization']
@@ -10,7 +10,7 @@ slug: highcharts-stocked-bar-chart
 img: /images/2017/06/BS_PL-64x.png
 ---
 
-{{% img src="https://farm5.staticflickr.com/4347/36104167204_25d0bf7678_b.jpg" w="744" h="400" %}}
+![](https://farm5.staticflickr.com/4347/36104167204_25d0bf7678_b.jpg "=744x400")
 
 
 ## plotOptions

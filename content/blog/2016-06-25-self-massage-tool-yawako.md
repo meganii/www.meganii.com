@@ -1,7 +1,7 @@
 ---
 title: "腰痛におすすめ！「やわこ」で手軽にセルフマッサージ"
 date: 2016-06-25T22:04:38+09:00
-lastmod: 2020-08-22T19:29:50+09:00
+lastmod: 2023-05-05T01:24:00+09:00
 comments: true
 category: ['Life']
 tags: ['セルフマッサージ','やわこ', 'レビュー']
@@ -10,7 +10,7 @@ slug: self-massage-tool-yawako
 img: "https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/v1514680492/oyde1qi32ol9bzz2czgo.jpg"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1514698874/back_pain_mfooel.png" w="1024" h="512" alt="腰痛に悩むあなたへ" %}}
+![腰痛に悩むあなたへ](https://res.cloudinary.com/meganii/image/upload/v1514698874/back_pain_mfooel.png "=1024x512")
 
 腰が痛い時って、太ももの付け根や、お尻から腰にかけての筋肉が固まっているときだったりしないでしょうか。
 
@@ -24,7 +24,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/v1514
 
 そこで、前々から気になってた「[やわこ][]」をLOFTで購入しました。これなら、テニスボールが2つくっついている形をしているため、転がりにくく快適です。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1514680492/oyde1qi32ol9bzz2czgo.jpg" w="300" h="300" alt="腰痛におすすめの「やわこ」" %}}
+![腰痛におすすめの「やわこ」](https://res.cloudinary.com/meganii/image/upload/v1514680492/oyde1qi32ol9bzz2czgo.jpg "=300x300")
 
 
 <!-- more -->

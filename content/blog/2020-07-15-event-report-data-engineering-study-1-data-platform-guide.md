@@ -1,7 +1,7 @@
 ---
 title: "【イベントレポート】Data Engineering Study #1「基調講演1「Data Platform Guide - 事業を成長させるデータ基盤を作るには」"
 date: 2020-07-15T22:46:26+09:00
-lastmod: 2020-07-16T16:32:16+09:00
+lastmod: 2023-05-05T01:24:09+09:00
 published: true
 category: ["Tech"]
 tags: ["Data Engineering Study","Data", "イベントレポート", "event"]
@@ -11,7 +11,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1594863856/e337ed5003a700
 ---
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1594863856/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png" w="659" h="251" alt="Data Engineering Study #1" %}}
+![Data Engineering Study #1](https://res.cloudinary.com/meganii/image/upload/v1594863856/e337ed5003a700aeb3b1b1a31bdab638_nxrcno.png "?size=659x251&hero=1")
 
 「[Data Engineering Study \#1「DWH・BIツールのこれまでとこれから」 \- connpass](https://forkwell.connpass.com/event/179786/)」に参加し、「基調講演1「Data Platform Guide - 事業を成長させるデータ基盤を作るには」を聴講したときのまとめです。
 

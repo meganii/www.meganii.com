@@ -1,7 +1,7 @@
 ---
 title: "東急ハンズ「靴のお手入れ講座」に参加してきました"
 date: 2017-11-27T23:18:21+09:00
-lastmod: 2020-07-16T18:43:42+09:00
+lastmod: 2023-05-05T01:24:03+09:00
 comments: true
 category: ['Life']
 tags: ['東急ハンズ','革靴','レザー']
@@ -10,7 +10,7 @@ slug: polish-my-shoes-tokyu-hands-workshop
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,w_500/v1514702295/d-ng-tr-n-qu-c-104956_dqydcf.jpg"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1514702295/d-ng-tr-n-qu-c-104956_dqydcf.jpg" w="3000" h="1687" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1514702295/d-ng-tr-n-qu-c-104956_dqydcf.jpg "=3000x1687")
 
 綺麗でカッコいい革靴を買ったはいいけど、手入れはせずにそのまま続けているなんてことはないですか？
 
@@ -23,7 +23,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,w_500/v1514702295/
 
 今回の講師を担当いただいたのは、M.mowbrayの方です。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1512185851/shoes_care_guide_qezexg.jpg" w="960" h="1280" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1512185851/shoes_care_guide_qezexg.jpg "=960x1280")
 
 
 {{% toc %}}

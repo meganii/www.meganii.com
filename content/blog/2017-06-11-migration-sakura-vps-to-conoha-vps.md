@@ -1,7 +1,7 @@
 ---
 title: "さくらVPSからConoha VPSへのお引越し"
 date: 2017-06-11T14:01:22+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:24:02+09:00
 comments: true
 category: ['Tech']
 tags: ['VPS','Conoha']
@@ -10,7 +10,7 @@ slug: migration-sakura-vps-to-conoha-vps
 img: /images/2017/06/conoha_vps.png
 ---
 
-{{% img src="/images/2017/06/conoha_vps.png" w="640" h="249" %}}
+![](/images/2017/06/conoha_vps.png "=640x249")
 
 GMOの株主優待を活かすためにさくらVPSからGMOインターネットのConoha VPSに引っ越しました。これを機に、Dockerでの運用をしたいと考えていたため、合わせてその作業を行いました。
 

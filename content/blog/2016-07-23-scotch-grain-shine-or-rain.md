@@ -1,7 +1,7 @@
 ---
 title: "スコッチグレインの革靴「シャインオアレイン」なら雨の日でも快適通勤！！"
 date: 2016-07-23T15:05:40+09:00
-lastmod: 2022-07-02T11:32:46+09:00
+lastmod: 2023-05-05T01:24:01+09:00
 comments: true
 category: ['Life']
 tags: ['革靴','レザー','scotch grain', 'スコッチグレイン']
@@ -10,7 +10,7 @@ slug: scotch-grain-shine-or-rain
 img: "https://res.cloudinary.com/meganii/image/upload/v1594888858/scotchgrain_t1g9ii.jpg"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1594888858/scotchgrain_t1g9ii.jpg" w="600" h="560" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1594888858/scotchgrain_t1g9ii.jpg "=600x560")
 
 **初めてScotch Grain（スコッチグレイン）の革靴を買って以来、私はスコッチグレインの虜になりました。**
 
@@ -39,7 +39,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1594888858/scotchgrain_t1
 
 雨の日用の革靴というと、合成革のイメージがあるかと思います。でも「シャインオアレイン」の革は、合皮ではなく撥水加工を施した本格レザーを使っています。そのため、革の質感がしっかりとあり、テカテカしないのが個人的には嬉しいポイントです。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1594888977/scotchgrain_fge2ki.jpg" w="320" h="320" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1594888977/scotchgrain_fge2ki.jpg "=320x320")
 
 >甲革には、本革が持つしなやかな風合いと通気性を損なわずに、高い撥水性を実現した本格撥水レザーを採用。
 [シャインオアレインⅢ :: Dark Brown :: 2726DBR（EEE）](http://www.scotchgrain-shop.com/category-260/dark-brown/2726dbr-3e.html)
@@ -49,7 +49,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1594888858/scotchgrain_t1
 
 ## ２．完全防水ではないが、十分防水してくれる
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1517100857/ericthriller-797_q98rcu.jpg" w="1024" h="683" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1517100857/ericthriller-797_q98rcu.jpg "=1024x683")
 
 シャインオアレインを買うときに、雨用だが「完全防水」ではないと説明を受けました。じゃあそんなに雨に強くないのか？と不安になるかもしれません。しかし、実際に雨の日に履いてみると、今までだったら適当な革靴だと浸水してくるような雨でもこの「シャインオアレイン」だと全然気になりませんでした。
 
@@ -64,7 +64,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1594888858/scotchgrain_t1
 
 ## ３．滑りやすい地面でも滑らないこと
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1517101484/muneeb-syed-253556_vfadvj.jpg" w="1024" h="683" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1517101484/muneeb-syed-253556_vfadvj.jpg "=1024x683")
 
 革靴を履いていると、雨の日に駅の通路やマンホールの上でスルッと滑るときはないでしょうか？
 

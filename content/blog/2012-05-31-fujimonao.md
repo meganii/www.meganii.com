@@ -1,7 +1,7 @@
 ---
 title: 「ふじもなおのアトリエ」で似顔絵描いてもらいました！
 date: 2012-05-31
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:23:53+09:00
 category: ['Life']
 tags: ['ふじもなお','icon']
 published: true
@@ -23,7 +23,7 @@ slug: fujimonao
 ポップな感じで、<a href="https://twitter.com/#!/LHnao">@LHnao</a>さんに描いてもらいました！ありがとうございます！！
 
 
-{{% img src="https://farm9.staticflickr.com/8012/7297054794_073e527a90.jpg" w="256" h="256" alt="icon" %}}
+![icon](https://farm9.staticflickr.com/8012/7297054794_073e527a90.jpg "=256x256")
 
 これで、ふじもなおファミリーの一員に笑!!。似顔絵アイコンでTwitterできるぞ笑！！
 

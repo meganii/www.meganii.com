@@ -1,7 +1,7 @@
 ---
 title: "池袋で会社の飲み会に使うべき居酒屋"
 date: 2017-12-24T16:55:06+09:00
-lastmod: 2020-02-29T14:42:01+09:00
+lastmod: 2023-05-05T01:24:04+09:00
 comments: true
 category: ['Life']
 tags: ['飲み会','party', '池袋']
@@ -92,7 +92,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,h_75,q_auto
 
 
 <a href="https://www.hotpepper.jp/strJ000003480/" target="_blank" rel="nofollow">
-{{% img src="https://imgfp.hotp.jp/IMGH/49/36/P025514936/P025514936_238.jpg" w="238" h="238" %}}
+![](https://imgfp.hotp.jp/IMGH/49/36/P025514936/P025514936_238.jpg "=238x238")
 写真提供：ホットペッパー グルメ
 </a>
 

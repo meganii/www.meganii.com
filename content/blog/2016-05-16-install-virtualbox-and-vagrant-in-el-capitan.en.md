@@ -1,7 +1,7 @@
 ---
 title: "How to install Virtualbox and Vagrant by installing by cli with Mac El Capitan"
 date: 2016-05-16T20:50:35+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:24:00+09:00
 comments: true
 category: ['Tech']
 tags: ['El Capitan','Mac']
@@ -19,7 +19,7 @@ img: "https://farm8.staticflickr.com/7385/26774309130_925fdae08f_t.jpg"
 
 I faced below message after downloading dmg file and double-clicking Vagrant.pkg or Virtualbox.pkg.
 
-{{% img src="https://farm8.staticflickr.com/7385/26774309130_925fdae08f.jpg" w="500" h="178" %}}
+![](https://farm8.staticflickr.com/7385/26774309130_925fdae08f.jpg "=500x178")
 
 <!--more-->
 {{% googleadsense %}}

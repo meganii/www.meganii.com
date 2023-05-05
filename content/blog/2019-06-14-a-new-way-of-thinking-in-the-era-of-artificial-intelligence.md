@@ -1,7 +1,7 @@
 ---
 title: "公開講演「AI時代の新しい思考法〜本当に幸せな働き方、新しい価値の作り方〜」"
 date: 2019-06-14T18:52:20+09:00
-lastmod: 2019-12-16T07:10:25+09:00
+lastmod: 2023-05-05T01:24:05+09:00
 comments: true
 category: ['Tech']
 tags: ['働き方','AI']
@@ -10,7 +10,7 @@ slug: "a-new-way-of-thinking-in-the-era-of-artificial-intelligence"
 img: "https://i.gyazo.com/thumb/400/85b19cf413b5dbe220e82e4ba5df6056-png.png"
 ---
 
-{{% img src="https://i.gyazo.com/thumb/1000/85b19cf413b5dbe220e82e4ba5df6056-png.png" w="1442" h="292" %}}
+![](https://i.gyazo.com/thumb/1000/85b19cf413b5dbe220e82e4ba5df6056-png.png "=1442x292")
 
 <!--more-->
 {{% googleadsense %}}

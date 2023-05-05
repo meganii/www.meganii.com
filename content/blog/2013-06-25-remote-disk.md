@@ -2,7 +2,7 @@
 
 title: リモートディスクを利用してMacBookProのDVDドライブからMacBookAirにソフトウェアをインストール
 date: 2013-06-25T20:45:00+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:23:55+09:00
 category: ['Tech']
 tags: ['Mac']
 published: true
@@ -32,7 +32,7 @@ DVDまたはCD共有を選択
 適当にパスワードを作って、ネットワークを作成します。
 
 
-{{% img src="https://farm8.staticflickr.com/7352/9133002529_139f7d77db.jpg" w="364" h="66" alt="Create Network1" %}}
+![Create Network1](https://farm8.staticflickr.com/7352/9133002529_139f7d77db.jpg "=364x66")
 
 
 {{% img src="https://farm4.staticflickr.com/3779/9133002547_264b7cb6a4.jpg"  alt="Create Network2" w="450" h="358" %}}

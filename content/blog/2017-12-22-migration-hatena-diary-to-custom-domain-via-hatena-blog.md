@@ -1,7 +1,7 @@
 ---
 title: "はてなダイアリーからはてなブログ経由で独自ドメインのブログに記事を移行しました"
 date: 2017-12-22T19:33:34+09:00
-lastmod: 2021-01-30T17:56:10+09:00
+lastmod: 2023-05-05T01:24:04+09:00
 comments: true
 category: ['Tech']
 tags: ['Blog','Hugo']
@@ -10,7 +10,7 @@ slug: migration-hatena-diary-to-custom-domain-via-hatena-blog
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1514030618/hatenadiary_qoqemm.png" w="1024" h="512" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1514030618/hatenadiary_qoqemm.png "=1024x512")
 
 ## 概要
 
@@ -94,17 +94,17 @@ Scrapboxのユーザー会に参加して、過去に書かれた文章と今の
 
 STEP1記事のインポート、STEP2はてなブックマークの移行、STEP3記事のリダイレクトのボタンをぽちぽち押していけば、うまく設定できました。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1513941325/import_hatena_diary_l3ql4u.jpg" w="697" h="405" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1513941325/import_hatena_diary_l3ql4u.jpg "=697x405")
 
 
 以下、完了時の画面です。この状態ではてなダイアリーへアクセスすれば、自動的にはてなブログへリダイレクトされるようになります。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1513942367/complete_qud2hf.png" w="709" h="637" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1513942367/complete_qud2hf.png "=709x637")
 
 
 はてなブックマークも以下の通り、`d.hatena.ne.jp/meganii`から`meganii.hatenablog.com`に変更されてます。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1513943538/hatena_bookmark_lxi3sd.jpg" w="802" h="673" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1513943538/hatena_bookmark_lxi3sd.jpg "=802x673")
 
 
 ### 3. はてなブログから記事エクスポート
@@ -267,7 +267,7 @@ end
 </script>
 ```
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1513945201/javascript_redirect_sohtvr.png" w="428" h="556"  %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1513945201/javascript_redirect_sohtvr.png "=428x556")
 
 
 ### 6. GoogleにIndexされるのを待つ

@@ -1,7 +1,7 @@
 ---
 title: "「プログラマになりたいあなたへの手紙」を読んだ過去の自分から今の自分へ。"
 date: 2016-02-22T21:45:54+09:00
-lastmod: 2022-07-02T11:32:46+09:00
+lastmod: 2023-05-05T01:23:59+09:00
 comments: true
 category: ['Tech']
 tags: ['life','プログラミング']
@@ -10,7 +10,7 @@ slug: become-a-programmer
 img: "https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg"
 ---
 
-{{% img src="https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg" w="400" h="265" %}}
+![](https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg "=400x265")
 
 
 「プログラマになりたいあなたへの手紙」という記事に対して感想を書いていたことをふと思い出し、読み返した。
@@ -42,7 +42,7 @@ img: "https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg"
 
 ## 世の中、すごいプログラマだけではない。もっと平均的でいいんだ！
 
-{{% img src="https://farm3.staticflickr.com/2434/3723714381_6f71b277ec_z.jpg" w="400" h="265" %}}
+![](https://farm3.staticflickr.com/2434/3723714381_6f71b277ec_z.jpg "=400x265")
 
 読み返して、次に連想したのは、Rebuild.fmのエモい回での「世の中、すごいプログラマだけではない。もっと平均的でいいんだ！」という言葉だ。  
 [Rebuild: Aftershow 91: With PHP, Everything Is Acceptable (Naoya Ito)](http://rebuild.fm/91a/)

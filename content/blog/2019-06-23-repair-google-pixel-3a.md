@@ -1,7 +1,7 @@
 ---
 title: "iCracked JapanでのGoogle Pixel3a修理"
 date: 2019-06-23T21:07:54+09:00
-lastmod: 2020-01-17T22:09:05+09:00
+lastmod: 2023-05-05T01:24:05+09:00
 comments: true
 category: ['Tech']
 tags: ['Google Pixel 3a', 'Google', 'スマートフォン', '修理']
@@ -10,7 +10,7 @@ slug: repair-google-pixel-3a
 img: https://res.cloudinary.com/meganii/image/upload/v1573386402/Fix_Pixel3a_seb7cv.png
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1573386402/Fix_Pixel3a_seb7cv.png" w="560" h="315" alt="Google Pixel3a 修理" %}}
+![Google Pixel3a 修理](https://res.cloudinary.com/meganii/image/upload/v1573386402/Fix_Pixel3a_seb7cv.png "=560x315")
 
 `Google Pixel 3a`を手に入れて一ヶ月もしないうちに落として画面を割ってしまいました。
 

@@ -1,7 +1,7 @@
 ---
 title: "[コツコツ勉強]よくわからないままJavaScriptを使っている自分へ"
 date: 2014-11-28T23:32:00+09:00
-lastmod: 2020-03-31T19:16:44+09:00
+lastmod: 2023-05-05T01:23:57+09:00
 category: ['Tech']
 tags: ['JavaScript']
 published: true 
@@ -48,10 +48,10 @@ jQuery、AngularJSとかサンプルを触ってみるけど、いまいちJavaS
 
 
 
-{{% img src="https://i.gyazo.com/9edc5cbcac919d8f1e243f3716a1096f.jpg" w="400" h="300"%}}
+![](https://i.gyazo.com/9edc5cbcac919d8f1e243f3716a1096f.jpg "=400x300")
 
 
-{{% img src="https://i.gyazo.com/d43a749b9fd9567bbb5471695cd6476c.jpg" w="400" h="300" %}}
+![](https://i.gyazo.com/d43a749b9fd9567bbb5471695cd6476c.jpg "=400x300")
 
 
 ## 参考

@@ -1,7 +1,7 @@
 ---
 title: "sendgrid incoming mail webhook"
 date: 2017-10-21T17:30:50+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:24:03+09:00
 comments: true
 category: ['Tech']
 tags: ['sendgrid']
@@ -35,6 +35,6 @@ Send GridのWhite Domain登録
 
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/c_scale,w_640/v1511095930/f4wmdqgwy2pcne4f9nr7.png" w="640" h="354" %}}
+![](https://res.cloudinary.com/meganii/image/upload/c_scale,w_640/v1511095930/f4wmdqgwy2pcne4f9nr7.png "=640x354")
 
-{{% img src="https://farm5.staticflickr.com/4473/23973685198_dc3c5829fd_o.png" w="623" h="370" %}}
+![](https://farm5.staticflickr.com/4473/23973685198_dc3c5829fd_o.png "=623x370")

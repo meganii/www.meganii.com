@@ -1,7 +1,7 @@
 ---
 title: "ワールドカフェの問いを作るには？"
 date: 2015-06-28T11:27:00+09:00
-lastmod: 2022-07-02T11:32:46+09:00
+lastmod: 2023-05-05T01:23:58+09:00
 category: ['Life']
 tags: ['ワールド・カフェ','ファシリテーション']
 published: true
@@ -9,7 +9,7 @@ img: "https://images-na.ssl-images-amazon.com/images/I/51HYAe3SrUL._SL160_.jpg"
 slug: what-is-good-questions-for-world-cafe
 ---
 
-{{% img src="/images/2015/06/world_cafe.jpg" w="640" h="439" %}}
+![](/images/2015/06/world_cafe.jpg "=640x439")
 [by Financial Times photos](https://www.flickr.com/photos/financialtimes/)
 
 - ワールド・カフェにおいて、大切な問いを作るためにはどう考えればよいか？

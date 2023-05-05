@@ -1,7 +1,7 @@
 ---
 title: "Fish Shellを導入してrbenv, pyenv, nodebrewのパスを通す"
 date: 2018-04-27T06:37:42+09:00
-lastmod: 2020-07-16T21:51:05+09:00
+lastmod: 2023-05-05T01:24:04+09:00
 comments: true
 category: ['Tech']
 tags: ['fish','shell']
@@ -29,7 +29,7 @@ fish, version 2.7.1
 
 - ログインシェルの変更ではなくiTerm2の設定や、VSCodeの設定で変更した
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1525181982/Change_shell_b80mlo.png" w="1030" h="680" alt="Change shell in iTerm2" %}}
+![Change shell in iTerm2](https://res.cloudinary.com/meganii/image/upload/v1525181982/Change_shell_b80mlo.png "=1030x680")
 
 {{% quote %}}
 「homebrewでインストールしたfishにchshしていいのか?」というhsbtの指摘はその通りだと思ったので、同じようにterminal.appで設定することにした。ただ、そうするとtmuxが起動時に$SHELLで起動してしまうので、Mac用のtmux.confに以下の設定を入れたんだけどださい。なんかいい方法ないですか?  
@@ -66,7 +66,7 @@ cd powerline/fonts
 
 - インストールしたフォントをiTerm2の設定に反映
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1525181985/Change_font_i8vrez.png" w="1030" h="562" alt="Change font in iTerm2" %}}
+![Change font in iTerm2](https://res.cloudinary.com/meganii/image/upload/v1525181985/Change_font_i8vrez.png "=1030x562")
 
 ## rbenvのPATH
 
@@ -165,7 +165,7 @@ end
 
 - VS Code上でもfishで立ち上がってくる
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1525181585/terminal_in_VSCode_ccari2.png" w="1095" h="301" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1525181585/terminal_in_VSCode_ccari2.png "=1095x301")
 
 
 ## Referece

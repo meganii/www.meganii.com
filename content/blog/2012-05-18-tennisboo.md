@@ -1,7 +1,7 @@
 ---
 title: 晴天のテニスブー春合宿2012！！
 date: 2012-05-18
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:23:53+09:00
 category: ['Activity']
 tags: ['テニスブー', 'テニス', 'スポーツ']
 published: true
@@ -9,7 +9,7 @@ slug: tennisboo
 img: "https://farm8.staticflickr.com/7081/7214883056_bb09dc7194.jpg"
 ---
 
-{{% img src="https://farm8.staticflickr.com/7081/7214883056_bb09dc7194.jpg" w="477" h="480" alt="20120514185718" %}}
+![20120514185718](https://farm8.staticflickr.com/7081/7214883056_bb09dc7194.jpg "=477x480")
 
 
 2012/05/12-13 は社会人テニスサークルの合宿に行ってきました！！
@@ -30,7 +30,7 @@ img: "https://farm8.staticflickr.com/7081/7214883056_bb09dc7194.jpg"
 
 ## 各コーチに分かれての練習
 
-{{% img src="https://farm9.staticflickr.com/8151/7218147002_5e6a5885ec.jpg" w="500" h="151" alt="練習テーマ＆担当.pdf（1 ページ）" %}}
+![練習テーマ＆担当.pdf（1 ページ）](https://farm9.staticflickr.com/8151/7218147002_5e6a5885ec.jpg "=500x151")
 
 
 赤で線を引っ張った練習に参加。コーチ役のみなさまのおかげで、ちょっとは上達？！現役テニスコーチもいて、楽しく練習できました！！
@@ -43,7 +43,7 @@ img: "https://farm8.staticflickr.com/7081/7214883056_bb09dc7194.jpg"
 
 ## やっぱり醍醐味、団体戦
 
-{{% img src="https://farm8.staticflickr.com/7089/7214890262_77fe7255f4.jpg" w="500" h="375" alt="R0015804" %}}
+![R0015804](https://farm8.staticflickr.com/7089/7214890262_77fe7255f4.jpg "=500x375")
 
 ４チームに別れての団体戦！が、まさかの２連続で大学の先輩と同じチーム笑。同大学ペアは実現しませんでしたが、「ワクワク」をモットーに楽しく、ワクワク試合できました！！
 
@@ -51,11 +51,11 @@ img: "https://farm8.staticflickr.com/7081/7214883056_bb09dc7194.jpg"
 
 ## 学生気分に戻るキャンプファイアー
 
-{{% img src="https://farm8.staticflickr.com/7214/7214904066_03528781b8.jpg" w="500" h="375" alt="R0015772" %}}
+![R0015772](https://farm8.staticflickr.com/7214/7214904066_03528781b8.jpg "=500x375")
 
 山の神が降臨してのキャンプファイアー！！。社会人になっても、キャンプファイアーで、猛獣狩りに行ったりできるんですね笑。
 
-{{% img src="https://farm8.staticflickr.com/7227/7214888652_b957e2b3a8.jpg" w="500" h="375" alt="R0015793"%}}
+![R0015793](https://farm8.staticflickr.com/7227/7214888652_b957e2b3a8.jpg "=500x375")
 
 最後は残り火を囲みながら、わいわいがやがや。タケノコ、たけのこ、にょっきっき！笑。
 

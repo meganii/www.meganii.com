@@ -1,7 +1,7 @@
 ---
 title: "2020年のふりかえりと2021年の目標"
 date: 2020-12-31T10:09:48+09:00
-lastmod: 2022-07-02T11:32:46+09:00
+lastmod: 2023-05-05T01:24:10+09:00
 published: true
 category: ["Life"]
 tags: ["ふりかえり", "目標"]
@@ -10,7 +10,7 @@ slug: "review-of-2020-and-goals-for-2021"
 img: "https://res.cloudinary.com/meganii/image/upload/v1609854454/review-of-2020-and-goals-for-2021_r1pdgm.png"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1609854454/review-of-2020-and-goals-for-2021_r1pdgm.png" w="1024" h="512"  alt="2020年のふりかえりと2021年の目標" %}}
+![2020年のふりかえりと2021年の目標](https://res.cloudinary.com/meganii/image/upload/v1609854454/review-of-2020-and-goals-for-2021_r1pdgm.png "?size=1024x512&hero=1")
 
 新型コロナウィルスの影響によって、いつの間にか世界は変わってしまいました。
 はやく「あんなときもあったね」と懐かしむだけの余裕がある世界に進展するとよいですね。

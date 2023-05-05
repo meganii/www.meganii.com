@@ -1,7 +1,7 @@
 ---
 title: "【Tableau】Google AnalyticsをデータソースとしてTableau Desktopでアクセス解析を行う"
 date: 2020-01-04T10:35:50+09:00
-lastmod: 2022-07-02T11:32:46+09:00
+lastmod: 2023-05-05T01:24:07+09:00
 comments: true
 category: ['Tech']
 tags: ['Tableau','アクセス解析', 'Google Analytics']
@@ -27,20 +27,20 @@ img: https://res.cloudinary.com/meganii/image/upload/v1578102972/weekly_pageview
 
 ### 1. 接続 > サーバへ > `その他...`からGoogleアナリティクスを選択
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1578101633/tableau_datasource_googleanalytics_lkdyfb.png" w="1080" h="677" alt="Tableau for Google Analytics" %}}
+![Tableau for Google Analytics](https://res.cloudinary.com/meganii/image/upload/v1578101633/tableau_datasource_googleanalytics_lkdyfb.png "=1080x677")
 
 ### 2. Google Analyticsへの認証
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1578101633/tableau_googleanalytics_select_account_c3qoix.png" w="1041" h="866" alt="Tablaeu ログイン" %}}
+![Tablaeu ログイン](https://res.cloudinary.com/meganii/image/upload/v1578101633/tableau_googleanalytics_select_account_c3qoix.png "=1041x866")
 
 ### 3. 接続許可を実施
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1578101633/tableau_googleanalytics_login_gxwg8y.png" w="1041" h="866" alt="Tablaeu ログイン" %}}
+![Tablaeu ログイン](https://res.cloudinary.com/meganii/image/upload/v1578101633/tableau_googleanalytics_login_gxwg8y.png "=1041x866")
 
 
 ### 4. 接続完了
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1578101633/TablaeuForGoogleAnalytics_hfff4x.png" w="1328" h="980" alt="Tableau for Google Analytics" %}}
+![Tableau for Google Analytics](https://res.cloudinary.com/meganii/image/upload/v1578101633/TablaeuForGoogleAnalytics_hfff4x.png "=1328x980")
 
 接続が成功すれば、紐付く`Google Analytics`のアカウントが表示されます。これで、`Google Analytics`からデータを取得する準備が整いました。後は、必要に応じて`ディメンション`と`メジャー`を選択します。
 
@@ -65,13 +65,13 @@ img: https://res.cloudinary.com/meganii/image/upload/v1578102972/weekly_pageview
 
 まずは、「曜日毎のページビュー数」はどうなっているのだろうかと、2017年〜2019年のデータで確認しました。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1578102972/weekly_pageview_jxyuee.png" w="834" h="186" alt="曜日毎のページビュー数" %}}
+![曜日毎のページビュー数](https://res.cloudinary.com/meganii/image/upload/v1578102972/weekly_pageview_jxyuee.png "=834x186")
 
 「曜日毎のページビュー数」をハイライト表で確認すると、私のブログ（www.megani.com)は、水曜日によく見られる傾向がありました。
 
 続いて、もう少し深掘りするために、「曜日毎、時間帯毎のページビュー数」を確認してみます。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1578103346/highlight_weekly_pageview_wxorbi.png" w="834" h="598" alt="曜日毎、時間帯毎のページビュー数" %}}
+![曜日毎、時間帯毎のページビュー数](https://res.cloudinary.com/meganii/image/upload/v1578103346/highlight_weekly_pageview_wxorbi.png "=834x598")
 
 
 このVizから以下の点を読み取りました。
@@ -86,7 +86,7 @@ img: https://res.cloudinary.com/meganii/image/upload/v1578102972/weekly_pageview
 （* ブレンド：`Google Analytics`のデータソース以外のデータを結合すること）
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1578132330/highlight_weekly_pageview_of_tech_category_si4rfs.png" w="834" h="585" alt="Techカテゴリの時間毎のページビュー数" %}}
+![Techカテゴリの時間毎のページビュー数](https://res.cloudinary.com/meganii/image/upload/v1578132330/highlight_weekly_pageview_of_tech_category_si4rfs.png "=834x585")
 
 
 上記は、Techカテゴリの時間帯毎のページビュー数です。
@@ -95,13 +95,13 @@ img: https://res.cloudinary.com/meganii/image/upload/v1578102972/weekly_pageview
 
 他のカテゴリも目視で見てみると、なぜかLifeカテゴリが水曜日の昼に多く見られています。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1578132590/highlight_weekly_pageview_of_life_category_baae1y.png" w="834" h="585" alt="Lifeカテゴリの時間毎のページビュー数" %}}
+![Lifeカテゴリの時間毎のページビュー数](https://res.cloudinary.com/meganii/image/upload/v1578132590/highlight_weekly_pageview_of_life_category_baae1y.png "=834x585")
 
 さらに、Lifeカテゴリの記事一覧のページビュー数を確認すると、[ソフトバンク債権回収室から電話があった。 \- SIS Lab](/blog/2018/02/09/softbank-08002221263/)のページビューが突出していたので、このページを除外してみると、下図の通り水曜日に多く見られる傾向がなくなりました。
 
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1578133093/highlight_weekly_pageview_of_life_category_2_kbxfa8.png" w="995" h="580" alt="Lifeカテゴリの時間毎のページビュー数(ページフィルター版)" %}}
+![Lifeカテゴリの時間毎のページビュー数(ページフィルター版)](https://res.cloudinary.com/meganii/image/upload/v1578133093/highlight_weekly_pageview_of_life_category_2_kbxfa8.png "=995x580")
 
 このことから、「水曜日によく見られる」という傾向は、この記事に引っ張られていることがわかりました。
 
@@ -120,7 +120,7 @@ img: https://res.cloudinary.com/meganii/image/upload/v1578102972/weekly_pageview
 ページビュー数だけを見ると21時がベストという結果でしたが、単純に自分がTwitterに投稿している時間帯と一致するだけの可能性があります。その点は、追加で調べる必要がありそうです。
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1578139668/Tableau_twitter_view_utqqqf.png" w="995" h="616" alt="Twitterからの流入数" %}}
+![Twitterからの流入数](https://res.cloudinary.com/meganii/image/upload/v1578139668/Tableau_twitter_view_utqqqf.png "=995x616")
 
 
 

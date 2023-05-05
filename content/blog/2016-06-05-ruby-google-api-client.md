@@ -1,7 +1,7 @@
 ---
 title: "google-api-ruby-clientからGoogle Adsense Management APIを操作する方法"
 date: 2016-06-05T09:58:34+09:00
-lastmod: 2019-09-01T20:40:02+09:00
+lastmod: 2023-05-05T01:24:00+09:00
 comments: true
 category: ['Tech']
 tags: ['Google','Ruby', 'api']
@@ -66,35 +66,35 @@ some cases like Translate, only an API key is needed.
 
 [https://console.developers.google.com](https://console.developers.google.com) からプロジェクトを作成する。
 
-{{% img src="https://farm8.staticflickr.com/7385/27189242280_b0ec5e22db_z.jpg" w="1440" h="502" %}}
+![](https://farm8.staticflickr.com/7385/27189242280_b0ec5e22db_z.jpg "=1440x502")
 
-{{% img src="https://farm8.staticflickr.com/7191/27366603062_9b6662f0c7_z.jpg" w="1440" h="502" %}}
+![](https://farm8.staticflickr.com/7191/27366603062_9b6662f0c7_z.jpg "=1440x502")
 
 
 ## 2. API Managerで利用したいAPI(ここではAdsense Management API)を有効化
 
-{{% img src="https://farm8.staticflickr.com/7305/27394115551_0612eb23fb_z.jpg" w="1440" h="502" %}}
+![](https://farm8.staticflickr.com/7305/27394115551_0612eb23fb_z.jpg "=1440x502")
 
-{{% img src="https://farm8.staticflickr.com/7325/27189242110_7d5f40f3fa_z.jpg" w="1440" h="502" %}}
+![](https://farm8.staticflickr.com/7325/27189242110_7d5f40f3fa_z.jpg "=1440x502")
 
 
 ## 3. 利用するAPIに応じた認証を作成
 
-{{% img src="https://farm8.staticflickr.com/7376/27189242330_102f846d72_z.jpg" w="1440" h="502" %}}
+![](https://farm8.staticflickr.com/7376/27189242330_102f846d72_z.jpg "=1440x502")
 
-{{% img src="https://farm8.staticflickr.com/7611/27189241950_b5766e0ff2_z.jpg" w="1440" h="502" %}}
+![](https://farm8.staticflickr.com/7611/27189241950_b5766e0ff2_z.jpg "=1440x502")
 
-{{% img src="https://farm8.staticflickr.com/7437/27189241850_bc23e5d7d8_z.jpg" w="1440" h="502" %}}
+![](https://farm8.staticflickr.com/7437/27189241850_bc23e5d7d8_z.jpg "=1440x502")
 
-{{% img src="https://farm8.staticflickr.com/7324/27189241810_9813ce7c15_z.jpg" w="1440" h="502" %}}
+![](https://farm8.staticflickr.com/7324/27189241810_9813ce7c15_z.jpg "=1440x502")
 
-{{% img src="https://farm8.staticflickr.com/7613/27394115421_079882466f_z.jpg" w="1440" h="502" %}}
+![](https://farm8.staticflickr.com/7613/27394115421_079882466f_z.jpg "=1440x502")
 
-{{% img src="https://farm8.staticflickr.com/7743/27366602942_a666affcbd_z.jpg" w="1440" h="502" %}}
+![](https://farm8.staticflickr.com/7743/27366602942_a666affcbd_z.jpg "=1440x502")
 
-{{% img src="https://farm8.staticflickr.com/7664/27189241920_4c7713f2c1_z.jpg" w="1440" h="502" %}}
+![](https://farm8.staticflickr.com/7664/27189241920_4c7713f2c1_z.jpg "=1440x502")
 
-{{% img src="https://farm8.staticflickr.com/7505/27189241770_dde3819202_z.jpg" w="1440" h="502" %}}
+![](https://farm8.staticflickr.com/7505/27189241770_dde3819202_z.jpg "=1440x502")
 
 
 ## 4. '.env'ファイルに「3.」で作成した認証情報を設定

@@ -1,7 +1,7 @@
 ---
 title: "puppeteerをAWS Lambdaで利用する"
 date: 2020-07-04T12:18:11+09:00
-lastmod: 2020-07-16T21:38:27+09:00
+lastmod: 2023-05-05T01:24:09+09:00
 published: true
 category: ["Tech"]
 tags: ["puppeteer","lambda","AWS"]
@@ -56,35 +56,35 @@ make chrome_aws_lambda.zip
 
 AWS Console > AWS Lambdaから、レイヤーを作成します。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1593931417/nhwkjaeerejr4jyikps3.png" w="1383" h="350" alt="レイヤーの作成" %}}
+![レイヤーの作成](https://res.cloudinary.com/meganii/image/upload/v1593931417/nhwkjaeerejr4jyikps3.png "=1383x350")
 
 
 ここで、先ほど作成した`chrome_aws_lambda.zip`を指定します。また、互換性のあるランタイムとして`Node.js 10.x`, `Node.js 12.x`を指定して登録します。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1593931471/zrgujpawchwznghdnc2c.png" w="820" h="690" alt="レイヤーの作成　レイヤー設定" %}}
+![レイヤーの作成　レイヤー設定](https://res.cloudinary.com/meganii/image/upload/v1593931471/zrgujpawchwznghdnc2c.png "=820x690")
 
 
 ## 3. AWS Lambda関数の作成とレイヤー追加
 
 続いて、ぽちぽちと関数を作成していきます。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1593931605/vonwhatp33fu5n5dmwjy.png" w="1365" h="388" alt="関数を作成" %}}
+![関数を作成](https://res.cloudinary.com/meganii/image/upload/v1593931605/vonwhatp33fu5n5dmwjy.png "=1365x388")
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1593931652/snysklv7zdoyvyjzskya.png" w="1331" h="713" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1593931652/snysklv7zdoyvyjzskya.png "=1331x713")
 
 
 任意の名前で関数を作成した後、「レイヤーの追加」から先ほど登録したレイヤーを追加します。（ここでは一度登録し直したためバージョン2になっていますが、初期登録の場合はバージョン1になります）
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1593931781/vrecpy09jzld9ksytb8p.png" w="1331" h="486" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1593931781/vrecpy09jzld9ksytb8p.png "=1331x486")
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1593931806/ati0jpfrvnzxdcfk3cjn.png" w="759" h="486" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1593931806/ati0jpfrvnzxdcfk3cjn.png "=759x486")
 
 
 続いて、実際のコードを登録します。ここでは下記のサンプルコードを利用します。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1593931858/bq3i6xdablib3kykqvkq.png" w="1313" h="609" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1593931858/bq3i6xdablib3kykqvkq.png "=1313x609")
 ```javascript
 const chromium = require('chrome-aws-lambda');
 
@@ -125,10 +125,10 @@ exports.handler = async (event, context, callback) => {
 （タイムアウトをデフォルトの3秒のままにしていたら、`puppeteer`が起動するまでに3秒以上かかり、タイムアウトのエラーが発生しました）
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1593931904/rgqkqakaqzlen6fudbxw.png" w="655" h="282" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1593931904/rgqkqakaqzlen6fudbxw.png "=655x282")
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1593932034/zsccctcunpcj21nwgtf9.png" w="739" h="680" alt="AWS Lambdaの設定変更" %}}
+![AWS Lambdaの設定変更](https://res.cloudinary.com/meganii/image/upload/v1593932034/zsccctcunpcj21nwgtf9.png "=739x680")
 
 
 ## 5. テスト実行
@@ -137,16 +137,16 @@ exports.handler = async (event, context, callback) => {
 
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1593933340/twwitz4tc4jevbzjvkho.png" w="957" h="113" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1593933340/twwitz4tc4jevbzjvkho.png "=957x113")
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1593933363/conuwb4ch7xbdch18i6s.png" w="738" h="407" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1593933363/conuwb4ch7xbdch18i6s.png "=738x407")
 
 
 
 関数コードの「Test」を実行すると、正しくレスポンスが返ってきました。`Response: "Example Domain"`
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1593933440/jqlrhillne20jzntp6qz.png" w="944" h="569" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1593933440/jqlrhillne20jzntp6qz.png "=944x569")
 
 
 

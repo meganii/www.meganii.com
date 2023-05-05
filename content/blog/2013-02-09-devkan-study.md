@@ -1,7 +1,7 @@
 ---
 title: DevLOVE関西「勉強会勉強会」
 date: 2013-02-09T20:58:00+09:00
-lastmod: 2020-07-16T21:51:05+09:00
+lastmod: 2023-05-05T01:23:54+09:00
 category: ['Tech']
 tags: ['DevLOVE','勉強会', 'event', 'イベントレポート']
 published: true
@@ -116,11 +116,11 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v159
 ## 全体Q&A
 ### 参加者の疑問
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1594887585/8457542157_f65240f736_q0xfyu.jpg" w="400" h="400" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1594887585/8457542157_f65240f736_q0xfyu.jpg "=400x400")
 
 ### Done!!
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1594887634/8457542665_618945cde8_n4zjm6.jpg" w="400" h="400" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1594887634/8457542665_618945cde8_n4zjm6.jpg "=400x400")
 
 
 ## 感想

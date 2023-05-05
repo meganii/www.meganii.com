@@ -1,7 +1,7 @@
 ---
 title: "【Tableau】「Tableau Blueprint」を読み進める上での用語整理"
 date: 2020-04-28T18:50:23+09:00
-lastmod: 2020-07-10T07:49:04+09:00
+lastmod: 2023-05-05T01:24:08+09:00
 category: ['Book']
 tags: ['Tableau', 'Tableau Blueprint']
 published: true
@@ -9,7 +9,7 @@ slug: organizing-the-terms-in-reading-tableau-blueprint
 img: https://res.cloudinary.com/meganii/image/upload/v1587899115/Blueprint-Subway_ja-JP_mh6xmb.png
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1587899115/Blueprint-Subway_ja-JP_mh6xmb.png" w="1280" h="720" alt="Tableau Blueprint" %}}
+![Tableau Blueprint](https://res.cloudinary.com/meganii/image/upload/v1587899115/Blueprint-Subway_ja-JP_mh6xmb.png "?size=1280x720&hero=1")
 
 
 

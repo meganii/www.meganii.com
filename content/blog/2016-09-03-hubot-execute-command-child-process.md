@@ -1,7 +1,7 @@
 ---
 title: "Hubotで外部コマンドを実行する"
 date: 2016-09-03T09:53:38+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:24:01+09:00
 comments: true
 category: ['Tech']
 tags: ['Hubot','JavaScript']
@@ -10,7 +10,7 @@ slug: hubot-execute-command-child-process
 img: "https://farm9.staticflickr.com/8168/28820861054_3f40884614_m.jpg"
 ---
 
-{{% img src="https://farm9.staticflickr.com/8168/28820861054_3f40884614_z.jpg" w="640" h="312" %}}
+![](https://farm9.staticflickr.com/8168/28820861054_3f40884614_z.jpg "=640x312")
 
 Node.jsで外部コマンドを実行するために、`Child Process`を利用する。
 

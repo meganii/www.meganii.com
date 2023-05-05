@@ -1,7 +1,7 @@
 ---
 title: "「自分のためのメモ」から始める - 『自分の名前で仕事がひろがる 「普通」の人のためのSNSの教科書』"
 date: 2021-03-10T23:13:21+09:00
-lastmod: 2021-03-11T22:27:49+09:00
+lastmod: 2023-05-05T01:24:11+09:00
 published: true
 category: ["Book"]
 tags: ["SNS", "情報発信"]
@@ -10,7 +10,7 @@ slug: "start-with-a-note-to-self"
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1615385690/1_axyux6.jpg"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1615385690/1_axyux6.jpg" w="1920" h="1080" %}}
+![『自分の名前で仕事がひろがる 「普通」の人のためのSNSの教科書』](https://res.cloudinary.com/meganii/image/upload/v1615385690/1_axyux6.jpg "?size=1920x1080&hero=1")
 
 
 > 組織で働く人は炎上や秘密漏洩を恐れて、ネット発信に及び腰だ。しかしそうした「普通」の人ほど仕事上のメリットは大きい。本書はバズる・稼ぐのではなく、組織に属しながらビジネスチャンスを広げることを目的としたやり方を伝授する。
@@ -25,7 +25,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 
 ## 発信のハードルを上げないためのマインドセット『発信を「自分のためのメモ」と考えること』
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1615385689/2_bdnaml.jpg" w="1920" h="1080" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1615385689/2_bdnaml.jpg "=1920x1080")
 
 
 - ビジネスパーソンの発信に高度な文章力は不要
@@ -36,7 +36,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 
 ## SNS発信が仕事に役立つ3つのポイント
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1615385690/3_tdqynr.jpg" w="1920" h="1080" %}}
+![SNS発信が仕事に役立つ3つのポイント](https://res.cloudinary.com/meganii/image/upload/v1615385690/3_tdqynr.jpg "=1920x1080")
 
 
 - 「（Pushではなく）Pullのコミュニケーション」情報をネット上に置いておくほうが、心からその情報を求めてくる人が少しずつ増えていく
@@ -48,7 +48,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 
 ## まとめ
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1615385690/4_wecjjw.jpg" w="1920" h="1080" %}}
+![『自分の名前で仕事がひろがる 「普通」の人のためのSNSの教科書』まとめ](https://res.cloudinary.com/meganii/image/upload/v1615385690/4_wecjjw.jpg "=1920x1080")
 
 
 本書は、SNS発信の第一歩を踏み出すところから、フィードバックが得にくい発信し始めの心の持ち方、そして慣れてきた後「自分のためのメモ」を少しだけ「ズラす」ことでの活用方法、最後にネット炎上に対する心構えなど、まさに『「普通」の人のためのSNSの教科書』であった。

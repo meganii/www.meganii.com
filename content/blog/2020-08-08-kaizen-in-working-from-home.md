@@ -1,7 +1,7 @@
 ---
 title: "「特別定額給付金」で整備する快適デスク環境"
 date: 2020-08-08T19:01:18+09:00
-lastmod: 2022-07-02T11:32:46+09:00
+lastmod: 2023-05-05T01:24:09+09:00
 published: true
 category: ["Gadget"]
 tags: ["デスク環境", "レビュー"]
@@ -10,7 +10,7 @@ slug: "kaizen-in-working-from-home"
 img: "https://res.cloudinary.com/meganii/image/upload/v1596869127/io-data-display_sxbqd6.jpg"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596868680/sansyouo_c9st0c.jpg" w="1024" h="683" alt="IO-DATA エルゴトロン" %}}
+![IO-DATA エルゴトロン](https://res.cloudinary.com/meganii/image/upload/v1596868680/sansyouo_c9st0c.jpg "?size=1024x683&hero=1")
 
 
 **「特別定額給付金」の10万円でデスク環境を整備しよう！**
@@ -61,10 +61,10 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1596869127/io-data-displa
 
 ### 外部ディスプレイ（モニター）「I-O　DATA　モニター 23.8型　EX-LDH241DB」
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596869127/io-data-display_sxbqd6.jpg" w="1024" h="683" alt="IO-DATA エルゴトロン" %}}
+![IO-DATA エルゴトロン](https://res.cloudinary.com/meganii/image/upload/v1596869127/io-data-display_sxbqd6.jpg "=1024x683")
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596870266/macbookair-display_ekevvc.jpg" w="1024" h="683" alt="IO-DATA エルゴトロン 利用時" %}}
+![IO-DATA エルゴトロン 利用時](https://res.cloudinary.com/meganii/image/upload/v1596870266/macbookair-display_ekevvc.jpg "=1024x683")
 
 
 今使っているMacBook AirはRetinaディスプレイではないので、解像度にはあまりこだわりはありません。
@@ -88,9 +88,9 @@ MacBook Air単体で使っていた時には、小さい画面を見ようとし
 
 ### モニターアーム「エルゴトロン　LX　デスクマウント」
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596868680/ergotron_qflcgj.jpg" w="1024" h="683" alt="モニターアーム「エルゴトロン　LX　デスクマウント」" %}}
+![モニターアーム「エルゴトロン　LX　デスクマウント」](https://res.cloudinary.com/meganii/image/upload/v1596868680/ergotron_qflcgj.jpg "=1024x683")
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596870133/iodata-mount-vesa_g4lanc.jpg" w="1024" h="683" alt="モニターアーム「エルゴトロン　LX　デスクマウント」" %}}
+![モニターアーム「エルゴトロン　LX　デスクマウント」](https://res.cloudinary.com/meganii/image/upload/v1596870133/iodata-mount-vesa_g4lanc.jpg "=1024x683")
 
 
 外部ディスプレイはMacBook Airの拡張ディスプレイとして利用する想定です。
@@ -115,7 +115,7 @@ MacBook Air単体で使っていた時には、小さい画面を見ようとし
 ### iPad Pro 11インチ2020年モデルとApple Pencil（第2世代）
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596868685/ipadpro-and-applepencil_cgh0cn.jpg" w="1024" h="683" alt="iPad Pro 11-inchとApple Pencil" %}}
+![iPad Pro 11-inchとApple Pencil](https://res.cloudinary.com/meganii/image/upload/v1596868685/ipadpro-and-applepencil_cgh0cn.jpg "=1024x683")
 
 メモ書き、グラフィック作成など、クリエイティブな作業をする時にiPad Proがあれば捗ると考え、iPad Pro 11インチとApple Pencil（第2世代）を購入しました。
 （iPad第7世代からの買い増しです）
@@ -143,7 +143,7 @@ iPad Pro本体にマグネットで引っ付けるだけで、充電されます
 
 ### Logicoolキーボード付きケース 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596871252/keyboard_c62hoc.jpg" w="1024" h="683" alt="Logicool Folio Touch Keyboard Case with Trackpad" %}}
+![Logicool Folio Touch Keyboard Case with Trackpad](https://res.cloudinary.com/meganii/image/upload/v1596871252/keyboard_c62hoc.jpg "=1024x683")
 
 デスクから離れた場所や外出先でテキスト入力をする用に、「Logicool Folio Touch Keyboard Case with Trackpad」を購入しました。
 

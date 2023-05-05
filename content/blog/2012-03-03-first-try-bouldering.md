@@ -1,7 +1,7 @@
 ---
 title: 初めてのボルダリングへ行って来ました!!
 date: 2012-03-03
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:23:52+09:00
 category: ['Activity']
 tags: ['ボルダリング']
 published: true
@@ -9,7 +9,7 @@ slug: first-try-bouldering
 img: "https://farm8.staticflickr.com/7208/6950746455_af9190e7e6.jpg"
 ---
 
-{{% img src="https://farm8.staticflickr.com/7208/6950746455_af9190e7e6.jpg" w="500" h="500" %}}
+![](https://farm8.staticflickr.com/7208/6950746455_af9190e7e6.jpg "=500x500")
 
 両腕がパンパンになるという噂のボルダリングやってきました。案の定、腕が筋肉痛です。
 やってみたボルダリングの感想を書いてみます。
@@ -17,7 +17,7 @@ img: "https://farm8.staticflickr.com/7208/6950746455_af9190e7e6.jpg"
 
 ## できない悔しさ、できる楽しさ
 
-{{% img src="https://farm8.staticflickr.com/7059/6804631310_b2ddf32374.jpg" w="500" h="375" %}}
+![](https://farm8.staticflickr.com/7059/6804631310_b2ddf32374.jpg "=500x375")
 
 ボルダリングでは、ホールドと呼ばれる登る取っ掛かりを両手両足で掴みながら、決められたコースを登っていく。初級のコースでは、腕の運びだけ決められており、足はどこへ置いてもよいというのが多いみたい。
 

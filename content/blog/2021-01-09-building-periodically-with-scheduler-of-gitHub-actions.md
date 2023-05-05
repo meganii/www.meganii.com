@@ -1,7 +1,7 @@
 ---
 title: "GitHub Actionsのスケジューラ実行を利用して定期的にビルドする"
 date: 2021-01-09T15:53:36+09:00
-lastmod: 2022-09-01T22:53:28+09:00
+lastmod: 2023-05-05T01:24:10+09:00
 published: true
 category: ["Tech"]
 tags: ["GitHub","GitHub Actions","Hugo"]
@@ -26,7 +26,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v159
 
 私は、`crontab`の書式をいつも忘れるのですが、以下のサイトを利用するとグラフィカルに表示されわかりやすいです。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1610177786/crontab_guru_ohmm02.png" w="1440" h="766" alt="crontabの書式確認" %}}
+![crontabの書式確認](https://res.cloudinary.com/meganii/image/upload/v1610177786/crontab_guru_ohmm02.png "=1440x766")
 
 [Crontab\.guru \- The cron schedule expression editor](https://crontab.guru/)
 

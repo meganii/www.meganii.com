@@ -1,7 +1,7 @@
 ---
 title: "『データ視覚化』とは何か 〜「データ視覚化のデザイン」「データビジュアライゼーションの教科書」から『Data Visualization』を読み解く〜"
 date: 2020-07-07T06:03:03+09:00
-lastmod: 2021-01-24T20:34:36+09:00
+lastmod: 2023-05-05T01:24:09+09:00
 published: true
 category: ["Book"]
 tags: ["Tableau","データ視覚化","データビジュアライゼーション"]
@@ -10,7 +10,7 @@ slug: "what-is-data-visualization"
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,w_600/v1594067846/what_is_datavisualization_deo9ga.jpg"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1594067846/what_is_datavisualization_deo9ga.jpg" w="150" h="150" alt="データビジュアライゼーション" %}}
+![データビジュアライゼーション](https://res.cloudinary.com/meganii/image/upload/v1594067846/what_is_datavisualization_deo9ga.jpg "?size=150x150&hero=1")
 
 `Data Visualization`は、日本語だとそのまま「データビジュアライゼーション」や「データ視覚化」と呼ばれています。
 

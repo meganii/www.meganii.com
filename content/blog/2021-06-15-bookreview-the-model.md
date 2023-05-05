@@ -1,7 +1,7 @@
 ---
 title: "『THE MODEL』 営業を科学するアプローチに衝撃を受けた"
 date: 2021-06-15T22:21:51+09:00
-lastmod: 2021-06-15T22:21:51+09:00
+lastmod: 2023-05-05T01:24:11+09:00
 published: true
 category: ["Book"]
 tags: ["営業","THE MODEL"]
@@ -45,7 +45,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 福田氏がSafeforce.comの日本法人で、SMB向けの組織づくりとオペレーションのため、マーケティング、インサイドセールス、営業の分業体制や、何を中間目標とするかを示したシンプルな図を作成した。米国本社へのコンセプト説明時、「これが我々のスタンダードなのだ」ということを表すための名付けが「ザ・モデル」であった。
 （下図は、p26の図のメモ）
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1623568004/055CEFF1-EDD3-44E4-AC43-CE2C7A4AA104_kdyssf.png" w="1024" h="565" alt="THE MODELとは何か" %}}
+![THE MODELとは何か](https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1623568004/055CEFF1-EDD3-44E4-AC43-CE2C7A4AA104_kdyssf.png "=1024x565")
 
 
 「ザ・モデル」の特徴は、次の2点であろう。
@@ -60,7 +60,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 
 さらに本書ではその発展型として著者が「ザ・モデル」を磨き込み、実践で通用するモデルとして「レベニューモデル」を解説している。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1623568021/0DB7EF0F-21C8-459B-B07A-112B11D56801_vxrrm1.png" w="1024" h="440" alt="レベニューモデル" %}}
+![レベニューモデル](https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1623568021/0DB7EF0F-21C8-459B-B07A-112B11D56801_vxrrm1.png "=1024x440")
 
 
 新規リードは減る一方であるため、リードをリサイクルし、いかに継続して契約を続けてもらうか、ロイヤルカスタマーとともにコミュニティを育てて「認知拡大」に繋げていくのかが重要である。

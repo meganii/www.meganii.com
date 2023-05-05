@@ -1,7 +1,7 @@
 ---
 title: "Blog KPI Collector（GAS）で各種KPIを自動取得する"
 date: 2020-04-10T18:28:55+09:00
-lastmod: 2020-07-16T21:38:27+09:00
+lastmod: 2023-05-05T01:24:08+09:00
 comments: true
 category: ['Tech']
 tags: ['Blog', 'Google Apps Script', 'ブログメンタリング']
@@ -88,10 +88,10 @@ User has not enabled the Apps Script API. Enable it by visiting https://script.g
 
 その場合は、メッセージの通り、[Settings \- Apps Script](https://script.google.com/home/usersettings)にアクセスして、`Apps Script API`を有効にします。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1586603453/GoogleAppsScriptAPI_1_ncvlmy.png" w="978" h="584" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1586603453/GoogleAppsScriptAPI_1_ncvlmy.png "=978x584")
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1586603453/GoogleAppsScript_2_cxpwd3.png" w="894" h="275" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1586603453/GoogleAppsScript_2_cxpwd3.png "=894x275")
 
 
 ### Google Apps Scriptをpull & push
@@ -129,18 +129,18 @@ $ clasp push
 
 下図の通り、認可を進めていきます。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1586604029/Run-AppsScript_c6kuh7.png" w="719" h="275" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1586604029/Run-AppsScript_c6kuh7.png "=719x275")
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1586604491/Authorization-1_lrp7rr.png" w="457" h="168" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1586604491/Authorization-1_lrp7rr.png "=457x168")
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1586604498/Authorization-2_mliigt.png" w="605" h="701" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1586604498/Authorization-2_mliigt.png "=605x701")
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1586604498/Azuthorization-3_clrfpr.png" w="605" h="555" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1586604498/Azuthorization-3_clrfpr.png "=605x555")
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1586604498/Authorization-4_c6gzaz.png" w="605" h="555" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1586604498/Authorization-4_c6gzaz.png "=605x555")
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1586604815/Authorization-5_uphtc4.png" w="605" h="766" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1586604815/Authorization-5_uphtc4.png "=605x766")
 
 `KPI Sheet`に何かしらの値が登録されていれば、OKです。
 

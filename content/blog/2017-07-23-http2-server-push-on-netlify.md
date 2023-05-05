@@ -1,7 +1,7 @@
 ---
 title: "NetlifyでServer Pushを利用する"
 date: 2017-07-23T08:19:02+09:00
-lastmod: 2020-07-12T18:23:13+09:00
+lastmod: 2023-05-05T01:24:03+09:00
 comments: true
 category: ['Tech']
 tags: ['Netlify','HTTP2']
@@ -61,9 +61,9 @@ Server Pushの変更前と変更後で、何が変わるのかをChromeのDevelo
 
 変更前は下図の通り、`Initiator`の部分が`Other` もしくは`Perser`となっています。この計測時は、font-awesomeとgoogle fontsに気なる遅延は発生していませんでしたが、たまにレスポンスが著しく悪くなるときがあります。これを機会にNetlifyからホストするように変更します。
 
-{{% img src="https://farm5.staticflickr.com/4295/35972414491_dd380e5672_z.jpg" w="640" h="458" %}}
+![](https://farm5.staticflickr.com/4295/35972414491_dd380e5672_z.jpg "=640x458")
 
-{{% img src="https://farm5.staticflickr.com/4302/35972549391_d9676f6101_c.jpg" w="800" h="291" %}}
+![](https://farm5.staticflickr.com/4302/35972549391_d9676f6101_c.jpg "=800x291")
 
 
 ### After
@@ -71,9 +71,9 @@ Server Pushの変更前と変更後で、何が変わるのかをChromeのDevelo
 `Initiator`の部分が、`Push / Other`に変わりました。font-awesomもServer Pushしてることがわかります。
 
 
-{{% img src="https://farm5.staticflickr.com/4320/35715193240_05231256c9_z.jpg" w="640" h="458" %}}
+![](https://farm5.staticflickr.com/4320/35715193240_05231256c9_z.jpg "=640x458")
 
-{{% img src="https://farm5.staticflickr.com/4296/35297674803_dd5bd37b56_c.jpg" w="800" h="324" %}}
+![](https://farm5.staticflickr.com/4296/35297674803_dd5bd37b56_c.jpg "=800x324")
 
 
 ## 参考

@@ -1,7 +1,7 @@
 ---
 title: "キャリア計画を立てよう！ How Google Works-私たちの働き方とマネジメント-"
 date: 2014-10-30T22:52:00+09:00
-lastmod: 2021-01-24T20:34:36+09:00
+lastmod: 2023-05-05T01:23:56+09:00
 category: ['Book']
 tags: ['Book','キャリア']
 published: true
@@ -55,7 +55,7 @@ img: "https://m.media-amazon.com/images/I/51lusOSU33L.jpg"
 
 ## キャリア計画を立てよう
 
-{{% img src="https://farm5.staticflickr.com/4038/4294686346_fa10e0e9c7_z.jpg" w="3" h="2" %}}  
+![](https://farm5.staticflickr.com/4038/4294686346_fa10e0e9c7_z.jpg "=3x2")  
 <span style="font-size:10px;">Good Job Smiley Face Inspirational Quotes Qiqi Emma January 18, 20105 / stevendepolo</span>
 
 
@@ -88,7 +88,7 @@ img: "https://m.media-amazon.com/images/I/51lusOSU33L.jpg"
 
 ## 統計学を学ぶ
 
-{{% img src="https://farm5.staticflickr.com/4078/4769199272_a15665526b_z.jpg" w="1" h="1" %}}  
+![](https://farm5.staticflickr.com/4078/4769199272_a15665526b_z.jpg "=1x1")  
 <span style="font-size:10px;">Statistics about statistics about... / HikingArtist.com</span>
 
 > インターネットの世紀で最高に魅力的な仕事には、必ず統計学が必要になる。データは21世紀の剣であり、それをつかいこなせる者がサムライだ。
@@ -106,7 +106,7 @@ img: "https://m.media-amazon.com/images/I/51lusOSU33L.jpg"
 
 ## エレベーター・ピッチを準備しよう
 
-{{% img src="https://farm1.staticflickr.com/23/26472155_8cc5066b66_z.jpg?zz=1" w="3" h="2" %}}
+![](https://farm1.staticflickr.com/23/26472155_8cc5066b66_z.jpg?zz=1 "=3x2")
 <span style="font-size:10px;">elevator / Gideon Tsang</span>
 
 
@@ -130,7 +130,7 @@ img: "https://m.media-amazon.com/images/I/51lusOSU33L.jpg"
 
 ## 情熱と仕事を結びつける
 
-{{% img src="https://farm9.staticflickr.com/8499/8278309284_f1d28b3ae9_z.jpg?zz=1" w="3" h="2" %}}  
+![](https://farm9.staticflickr.com/8499/8278309284_f1d28b3ae9_z.jpg?zz=1 "=3x2")  
 <span style="font-size:10px;">Autumn Tree Farm and road / The Knowles Gallery</span>
 
 > 自分の情熱と仕事を結びつけることができるのは、究極の贅沢です。そして間違いなく幸せにつながるみちでもあります。　　シェリル・サンドバーグ

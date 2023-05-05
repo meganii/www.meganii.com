@@ -1,7 +1,7 @@
 ---
 title: 念願のAir!! MacBookAir Mid 2013買いました
 date: 2013-06-18T06:32:00+09:00
-lastmod: 2020-08-01T20:01:52+09:00
+lastmod: 2023-05-05T01:23:55+09:00
 category: ['Tech']
 tags: ['Mac', 'MacBook']
 published: true
@@ -11,7 +11,7 @@ img: https://res.cloudinary.com/meganii/image/upload/v1596279506/9068613142_1955
 
 念願の`MacBookAir`をついに手に入れました！！
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596279506/9068613142_195584a353_p6p3od.jpg" w="500" h="500" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1596279506/9068613142_195584a353_p6p3od.jpg "=500x500")
  
 発売日の翌日に、ネット上のMac情報をみていたら、いつのまにかぽちってました。後悔はしない。ずっと待ち続けていたのだから。	
 

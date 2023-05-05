@@ -1,7 +1,7 @@
 ---
-title: "技術書典9で「Hugoで始める静的サイト構築入門」という本を出しました"
+title: "技術書典9で『Hugoで始める静的サイト構築入門』という本を出しました"
 date: 2020-09-13T09:33:40+09:00
-lastmod: 2022-04-11T22:28:57+09:00
+lastmod: 2023-05-05T01:24:10+09:00
 published: true
 category: ["Tech"]
 tags: ["技術書典9","技術書典"]
@@ -10,10 +10,10 @@ slug: "techbookfest-9-hugo-book"
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,w_1024/v1599957054/hugo-book-twitter_ejew8c.png"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1599960860/hugo-book_ww0ctf.png" w="1073" h="542" %}}
+![Hugoで始める静的サイト構築入門](https://res.cloudinary.com/meganii/image/upload/v1599960860/hugo-book_ww0ctf.png "?size=1073x542&hero=1")
 
 
-「[技術書典9](https://techbookfest.org/market)」が2020/09/12から開催されています。私も初めて出展者として「[Hugoで始める静的サイト構築入門〜静的サイトジェネレータで作る自作サイト〜](https://techbookfest.org/product/5095004003368960)」という本を頒布していますので、お手に取っていただけると幸いです。
+「[技術書典9](https://techbookfest.org/market)」が2020/09/12から開催されています。私も初めて出展者として[『Hugoで始める静的サイト構築入門〜静的サイトジェネレータで作る自作サイト〜』](https://techbookfest.org/product/5095004003368960)」という本を頒布していますので、お手に取っていただけると幸いです。
 
 
 {{% toc %}}
@@ -42,10 +42,10 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,w_1024/v1599957054
 （現地に行くと人の多さから疲れてしまいますが、家からだとむしろポチポチとクレジットカードで購入できるので買い過ぎてしまうかも）
 
 
-## 頒布物紹介「Hugoで始める静的サイト構築入門〜静的サイトジェネレータで作る自作サイト〜」
+## 頒布物紹介『Hugoで始める静的サイト構築入門〜静的サイトジェネレータで作る自作サイト〜』
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/c_scale,w_1024/v1599957054/hugo-book-twitter_ejew8c.png" w="5334" h="3000" %}}
+![Hugoで始める静的サイト構築入門〜静的サイトジェネレータで作る自作サイト〜](https://res.cloudinary.com/meganii/image/upload/c_scale,w_1024/v1599957054/hugo-book-twitter_ejew8c.png "=5334x3000")
 
 
 2020/9/13現在、このブログは静的サイトジェネーターであるHugoを利用して構築しています。

@@ -1,7 +1,7 @@
 ---
 title: "【Tableau】データ準備におけるTableau DesktopとTableau Prep Builderの使い分け"
 date: 2020-01-25T06:55:35+09:00
-lastmod: 2020-07-10T07:49:04+09:00
+lastmod: 2023-05-05T01:24:07+09:00
 comments: true
 category: ['Tech']
 tags: ['Tableau']
@@ -10,7 +10,7 @@ slug: tableau-desktop-vs-tableau-prep-builder
 img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1579905055/thumb_tableau_czhjxd.png
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1579905322/tableau_prep_xdbbz6.jpg" w="1920" h="1080" alt="Tableau Prep Builder" %}}
+![Tableau Prep Builder](https://res.cloudinary.com/meganii/image/upload/v1579905322/tableau_prep_xdbbz6.jpg "=1920x1080")
 
 `Tableau Desktop`と`Tableau Prep Builder`は両方とも結合、ピボット、クリーニングなどの処理が行えます。この2つのツールはどのように使い分ければよいのでしょうか。
 

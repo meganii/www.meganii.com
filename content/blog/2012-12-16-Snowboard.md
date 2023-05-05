@@ -1,14 +1,14 @@
 ---
 title: 冬を楽しむ！
 date: 2012-12-16
-lastmod: 2020-08-08T21:03:11+09:00
+lastmod: 2023-05-05T01:23:54+09:00
 category: ['Life']
 tags: ["snowborad"]
 published: true
 slug: Snowboard
 ---
 
-{{% img src="https://farm9.staticflickr.com/8489/8279271892_d2fa71d44c.jpg" w="500" h="333" %}}
+![](https://farm9.staticflickr.com/8489/8279271892_d2fa71d44c.jpg "=500x333")
 
 冬。ボードシーズンの始まり。
 
@@ -23,6 +23,6 @@ slug: Snowboard
 
 もうひとつは、オーリーと180マスターしたいな。
 
-{{% img src="https://farm9.staticflickr.com/8491/8278026914_2091b36ca0.jpg" w="500" h="333" %}}
+![](https://farm9.staticflickr.com/8491/8278026914_2091b36ca0.jpg "=500x333")
 
 さて、今年は何回いけるか。

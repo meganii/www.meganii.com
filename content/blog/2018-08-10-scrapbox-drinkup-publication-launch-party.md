@@ -1,7 +1,7 @@
 ---
 title: "「Scrapbox情報整理術」出版記念スペシャルに参加してきました"
 date: 2018-08-10T23:43:05+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:24:05+09:00
 comments: true
 category: ['Tech']
 tags: ['Scrapbox']
@@ -10,7 +10,7 @@ slug: scrapbox-drinkup-publication-launch-party
 img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200/v1534515311/IMG_2922_xo2guw.jpg
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1534515312/IMG_2923_lu4ags.jpg" w="4032" h="3024" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1534515312/IMG_2923_lu4ags.jpg "=4032x3024")
 
 
 <!--more-->

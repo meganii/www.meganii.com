@@ -1,7 +1,7 @@
 ---
 title: "マーケティング22の法則を図解してみた"
 date: "2015-08-29T17:13:12+09:00"
-lastmod: 2019-12-31T06:52:46+09:00
+lastmod: 2023-05-05T01:23:59+09:00
 category: ['Book']
 tags: ['book','マーケティング']
 published: true
@@ -12,7 +12,7 @@ slug: marketing-22-raws
 
 22の法則もあって、読んでても繋がりが頭にはいってこなかったので、1枚の図にまとめてみました。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1565609697/marketing-22_pmhi3a.png" w="640" h="492" alt="マーケティング22の法則　図解" %}}
+![マーケティング22の法則　図解](https://res.cloudinary.com/meganii/image/upload/v1565609697/marketing-22_pmhi3a.png "=640x492")
 
 
 [「マーケティング22の法則図解」拡大版](https://cacoo.com/diagrams/REbndUQXEFksOf2j/simple#8F3BB)
@@ -23,7 +23,7 @@ slug: marketing-22-raws
 
 ## 「マーケティングとは、商品をめぐる戦いではなく、知覚をめぐる戦いである」。知覚の法則、心の法則
 
-{{% img src="https://farm1.staticflickr.com/771/20845997280_815d51966a_z.jpg" w="421" h="321" %}}
+![](https://farm1.staticflickr.com/771/20845997280_815d51966a_z.jpg "=421x321")
 
 
 マーケティング22の法則の核になっているのは、
@@ -54,7 +54,7 @@ slug: marketing-22-raws
 
 ## どうやって顧客の心に入り込むか？
 
-{{% img src="https://farm1.staticflickr.com/748/21007920396_5b46738766_z.jpg" w="640" h="466" %}}
+![](https://farm1.staticflickr.com/748/21007920396_5b46738766_z.jpg "=640x466")
 
 知覚に作用するのが大事だとわかったことで、どのように顧客の心に入り込むかという観点で、以下を分類しました。
 
@@ -77,7 +77,7 @@ slug: marketing-22-raws
 
 ## 時間経過と共に
 
-{{% img src="https://farm1.staticflickr.com/578/20846309348_4a5a36c6e9_z.jpg" w="570" h="552" %}}
+![](https://farm1.staticflickr.com/578/20846309348_4a5a36c6e9_z.jpg "=570x552")
 
 時間経過という観点で分類しました。カテゴリはどんどん細かくなっていき、それら1つのカテゴリの中は、二極化が進んでいくというものです。しかし、最終的には予測不能なので、上手くトレンドを読むしかないとのこと。
 
@@ -91,7 +91,7 @@ slug: marketing-22-raws
 
 ## 分析・対応方法
 
-{{% img src="https://farm6.staticflickr.com/5821/20846323328_d17f4c0c89_z.jpg" w="565" h="457" %}}
+![](https://farm6.staticflickr.com/5821/20846323328_d17f4c0c89_z.jpg "=565x457")
 
 今自分の場所はどこなのか？どこへ向かえばよいのか？どう対応すればいいか？という「分析・対応方法」という観点で以下の通り分類しました。
 

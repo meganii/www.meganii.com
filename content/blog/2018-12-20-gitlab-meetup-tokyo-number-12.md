@@ -1,7 +1,7 @@
 ---
 title: "「GitLab Meetup Tokyo #12： 2018年振り返り」に参加しました"
 date: 2018-12-22T10:44:01+09:00
-lastmod: 2020-07-12T18:23:13+09:00
+lastmod: 2023-05-05T01:24:05+09:00
 comments: true
 category: ['Tech']
 tags: ['GitLab', 'CICD', 'GitLab Meetup Tokyo']
@@ -10,12 +10,12 @@ slug: gitlab-meetup-tokyo-number-12
 img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_160/v1545443513/2018-12-22-gitlab-meetup-tokyo_xy7flc.png
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1545443513/2018-12-22-gitlab-meetup-tokyo_xy7flc.png" w="670" h="384" %}} 
+![GitLab Meetup Tokyo #12](https://res.cloudinary.com/meganii/image/upload/v1545443513/2018-12-22-gitlab-meetup-tokyo_xy7flc.png "?size=670x384&hero=1") 
 
 [GitLab Meetup Tokyo #12: 2018年振り返り - connpass](https://gitlab-jp.connpass.com/event/111427/)
 
 
-12月20日(木)に、「GitLab Meetup Tokyo #12: 2018年振り返り」に参加してきました。SNSシェア/ブログ枠で申し込んだため、感じたこと得たことを残しておきます。
+12月20日（木）に、「GitLab Meetup Tokyo #12: 2018年振り返り」に参加してきました。SNSシェア/ブログ枠で申し込んだため、感じたこと得たことを残しておきます。
 
 
 <!--more-->
@@ -51,7 +51,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_160/v1545443513/2
 
 - [Hiroyuki Sato (@hiroponz79) | Twitter](https://twitter.com/hiroponz79) 氏
 - [クリエーションライン株式会社 (CREATIONLINE, INC.)](https://www.creationline.com/)
-- 発表資料: [GitLabとKubernetesではじめるAuto DevOps](https://docs.google.com/presentation/d/1Rx4u9F5dikbEHWRqONQkV62fsXx4MM8l2-x7YLzxULs/preview?slide=id.g4aa9a15c84_0_0)
+- 発表資料： [GitLabとKubernetesではじめるAuto DevOps](https://docs.google.com/presentation/d/1Rx4u9F5dikbEHWRqONQkV62fsXx4MM8l2-x7YLzxULs/preview?slide=id.g4aa9a15c84_0_0)
 
 
 ### Auto DevOps

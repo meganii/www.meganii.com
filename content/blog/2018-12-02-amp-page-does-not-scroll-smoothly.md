@@ -1,7 +1,7 @@
 ---
 title: "AMPページがモバイル表示で引っ掛かる件"
 date: 2018-12-02T12:28:58+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:24:05+09:00
 comments: true
 category: ['Tech']
 tags: ['AMP','Mobile']
@@ -10,7 +10,7 @@ slug: "amp-page-does-not-scroll-smoothly"
 img: "https://res.cloudinary.com/meganii/image/upload/c_thumb,f_auto,h_300,q_auto,w_300/v1543721510/IMG_3186_fl7ifm.jpg"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1543721510/IMG_3186_fl7ifm.jpg" w="215" h="384" alt="AMP page" %}}
+![AMP page](https://res.cloudinary.com/meganii/image/upload/v1543721510/IMG_3186_fl7ifm.jpg "=215x384")
 
 ## 現象
 

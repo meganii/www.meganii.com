@@ -1,7 +1,7 @@
 ---
 title: "Amazon Product Advertising APIを利用するためのIAMユーザ登録とアクセスキーの発行"
 date: 2017-02-19T11:06:41+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:24:02+09:00
 comments: true
 category: ['Tech']
 tags: ['API','Amazon']
@@ -31,28 +31,28 @@ AWSアカウントは作成済みであること。
 ## IAMユーザ作成
 ### ユーザ作成
 
-{{% img src="https://i.gyazo.com/f9c6143ff7f49a37b25bcd50ef35ca35.png" w="1046" h="780" %}}
+![](https://i.gyazo.com/f9c6143ff7f49a37b25bcd50ef35ca35.png "=1046x780")
 
 ### ポリシー設定
 
 Amazon Product Advertising APIを利用するには、`AdministratorAccess`の権限が必要です。「既存のポリシーを直接」
 
-{{% img src="https://i.gyazo.com/d7a4ae00aff0a764d5f402bdae6be893.png" w="1046" h="780" %}}
+![](https://i.gyazo.com/d7a4ae00aff0a764d5f402bdae6be893.png "=1046x780")
 
 ### 確認
 
-{{% img src="https://i.gyazo.com/473cae8c0a0e6b08af3b2dd1febe5c29.png" w="1046" h="780" %}}
+![](https://i.gyazo.com/473cae8c0a0e6b08af3b2dd1febe5c29.png "=1046x780")
 
 ### 完了
 
-{{% img src="https://i.gyazo.com/3e08edfe9d0237cf9c092c6668654bfa.png" w="1046" h="780" %}}
+![](https://i.gyazo.com/3e08edfe9d0237cf9c092c6668654bfa.png "=1046x780")
 
 ## アクセスキー発行
 ### アクセスキーの作成
 
-{{% img src="https://i.gyazo.com/62b6cb38210f24ce354f575d912921f2.png" w="1046" h="780" %}}
+![](https://i.gyazo.com/62b6cb38210f24ce354f575d912921f2.png "=1046x780")
 
-{{% img src="https://i.gyazo.com/36e7fc358a0915548036d94836c43b78.png" w="1046" h="780" %}}
+![](https://i.gyazo.com/36e7fc358a0915548036d94836c43b78.png "=1046x780")
 
 
 上記手順で取得した`アクセスキーID`と`シークレットアクセスキー`を利用して、Amazon Product Advertising APIを利用します。

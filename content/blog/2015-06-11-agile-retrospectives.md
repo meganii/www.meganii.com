@@ -1,7 +1,7 @@
 ---
 title: "『アジャイルレトロスペクティブズ』を読んで振り返りのやり方を学ぶ"
 date: 2015-06-11T22:47:00+09:00
-lastmod: 2020-07-05T07:51:24+09:00
+lastmod: 2023-05-05T01:23:58+09:00
 category: ['Book']
 tags: ['ファシリテーション','ふりかえり']
 published: true
@@ -62,7 +62,7 @@ slug: agile-retrospectives
 
 ## 2. データを収集する
 
-{{% img src="https://c2.staticflickr.com/4/3002/2575214144_305e710e10_z.jpg" w="640" h="427" alt="アジャイルレトロスペクティブズ データを収集する" %}}
+![アジャイルレトロスペクティブズ データを収集する](https://c2.staticflickr.com/4/3002/2575214144_305e710e10_z.jpg "=640x427")
 
 <small>Photo: <a href='https://www.flickr.com/photos/garrettc/2575214144/in/photolist-cMWPc9-4VyDrS-4VmD8E-2ZcAU6' target='_blank'>undefined</a> by <a href='https://www.flickr.com/photos/garrettc/' target='_blank'>Garrett Coakley</a></small>
 

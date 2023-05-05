@@ -1,7 +1,7 @@
 ---
 title: "イベントレポート「電子国家エストニアを通してブロックチェーンの未来を見る【TTT.12】」"
 date: 2019-02-02T21:51:23+09:00
-lastmod: 2020-03-29T20:31:48+09:00
+lastmod: 2023-05-05T01:24:05+09:00
 comments: true
 category: ['Tech']
 tags: ['Blockchain', 'エストニア', 'ブロックチェーン']
@@ -10,7 +10,7 @@ slug: blockchain-in-digital-nation-estonia
 img: https://i.gyazo.com/d688db816678c52f3312e9e0421f1be2.png
 ---
 
-{{% img src="https://i.gyazo.com/d688db816678c52f3312e9e0421f1be2.png" w="2" h="1" alt="電子国家エストニアを通してブロックチェーンの未来を見る" %}}
+![電子国家エストニアを通してブロックチェーンの未来を見る](https://i.gyazo.com/d688db816678c52f3312e9e0421f1be2.png "=2x1")
 
 2019/02/01、株式会社GIGさんが開催している「Tech Trend Talk #12」に参加してきた。その内容を以下にまとめる。
 

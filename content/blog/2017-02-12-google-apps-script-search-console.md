@@ -1,7 +1,7 @@
 ---
 title: "Google Apps ScriptでGoogle Search Consoleの情報を取得する"
 date: 2017-02-12T16:54:25+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:24:01+09:00
 comments: true
 category: ['Tech']
 tags: ['GoogleAppsScript','GoogleSearchConsole']
@@ -33,13 +33,13 @@ img: https://i.gyazo.com/thumb/200/_403a124a37d8ae1a3c1327d873df452c-png.jpg
 
 ### Google Search Console APIを有効化する
 
-{{% img src="https://i.gyazo.com/752b910f61f50470e43e61f0eb54e08b.png" w="1120" h="372" %}}
+![](https://i.gyazo.com/752b910f61f50470e43e61f0eb54e08b.png "=1120x372")
 
-{{% img src="https://i.gyazo.com/79ea92c85a8acfaadc02154098cadbba.png" w="791" h="249" %}}
+![](https://i.gyazo.com/79ea92c85a8acfaadc02154098cadbba.png "=791x249")
 
 ### 資格情報を作成
 
-{{% img src="https://i.gyazo.com/b3550c1f12dbf42fdedc12c96f63771a.png" w="785" h="266" %}}
+![](https://i.gyazo.com/b3550c1f12dbf42fdedc12c96f63771a.png "=785x266")
 
 
 ### GoogleAppsScriptを利用できるように追加する
@@ -47,15 +47,15 @@ img: https://i.gyazo.com/thumb/200/_403a124a37d8ae1a3c1327d873df452c-png.jpg
 
 ### Google OAuth2ライブラリ追加
 
-{{% img src="https://i.gyazo.com/f06c6ffac99e13c481b8b039dd5f564d.png" w="523" h="246" %}}
+![](https://i.gyazo.com/f06c6ffac99e13c481b8b039dd5f564d.png "=523x246")
 
 Resources > Libraryから`1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsTQHhGBzBkMun4iDF`を追加する。
 
-{{% img src="https://i.gyazo.com/23fa3fb0e5d6eeee44c6a1c557cf44de.png" w="688" h="412" %}}
+![](https://i.gyazo.com/23fa3fb0e5d6eeee44c6a1c557cf44de.png "=688x412")
 
 Versionを指定して、保存すればOKです。
 
-{{% img src="https://i.gyazo.com/59388fa7bcb3e713ad8ad33904804bd0.png" w="658" h="391" %}}
+![](https://i.gyazo.com/59388fa7bcb3e713ad8ad33904804bd0.png "=658x391")
 
 ### Google Apps Scriptに処理を記述する
 
@@ -64,12 +64,12 @@ Versionを指定して、保存すればOKです。
 
 実行方法は、まず`openSheet`を実行する。
 
-{{% img src="https://i.gyazo.com/6ad8c768d69a872838a2205754061cd8.png" w="498" h="156" %}}
+![](https://i.gyazo.com/6ad8c768d69a872838a2205754061cd8.png "=498x156")
 
 
 その後、`Logs`から認証用のリンクに飛んで、OAuth認証を行います。
 
-{{% img src="https://i.gyazo.com/c2b4cef2bfb5ef60ba43d1f12a777eef.png" w="366" h="237" %}}
+![](https://i.gyazo.com/c2b4cef2bfb5ef60ba43d1f12a777eef.png "=366x237")
 
 
 ```javascript
@@ -198,11 +198,11 @@ Google Apps Scriptには2種類存在する。
 
 ExcelマクロのようなGoogle SheetsやDocsに対するスクリプトです。
 
-{{% img src="https://i.gyazo.com/c4bc138b1b9d7f0dc0b4a288fd4f8714.png" w="572" h="286" %}}
+![](https://i.gyazo.com/c4bc138b1b9d7f0dc0b4a288fd4f8714.png "=572x286")
 
 ### Standalone Script
 
-{{% img src="https://i.gyazo.com/3bd5f95006f7780c4574c2516c3a9832.png" w="504" h="526" %}}
+![](https://i.gyazo.com/3bd5f95006f7780c4574c2516c3a9832.png "=504x526")
 
 
 ### Container Bound ScriptとStandalone Scriptの違い

@@ -1,7 +1,7 @@
 ---
 title: "【レビュー】ハイエンドマウス『Logicool MX Master 3』の使い心地"
 date: 2021-06-21T10:46:10+09:00
-lastmod: 2022-07-02T11:32:46+09:00
+lastmod: 2023-05-05T01:24:12+09:00
 published: true
 category: ["gadget"]
 tags: ["レビュー","マウス","Logicool"]
@@ -101,7 +101,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 
 ### Bluetooth3台ペアリング可能かつ素早い切替
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1624160996/IMG20210620124340_d7yq9w.jpg" w="3456" h="4608" alt="MX Master 3 Bluetoothによる素早い切り替え" %}}
+![MX Master 3 Bluetoothによる素早い切り替え](https://res.cloudinary.com/meganii/image/upload/v1624160996/IMG20210620124340_d7yq9w.jpg "=3456x4608")
 
 「[MX Master 3]」のBluetoothペアリングは3台まで可能で、マウス裏側の下部物理ボタンを押すことにより、素早く接続先を切り替えられる。
 この機能により、PC/Macの端末切り替えでの不便さが解消された。

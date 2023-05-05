@@ -1,7 +1,7 @@
 ---
 title: モレスキンからミドリMDノートに乗り換え(万年筆の利用、価格の観点)
 date: 2015-02-28 23:22:00 +0000
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:23:58+09:00
 category:
 - Stationery
 tags:
@@ -31,9 +31,9 @@ slug: moleskine-to-mdnote
 * 万年筆でも裏抜け(裏移り)しない
 * 変ないいコト書かないといけないプレッシャーがない
 
-{{% img src="https://farm9.staticflickr.com/8627/16490758119_3010a061a5_z.jpg" w="640" h="640" %}}
+![](https://farm9.staticflickr.com/8627/16490758119_3010a061a5_z.jpg "=640x640")
 
-{{% img src="https://farm9.staticflickr.com/8668/16675538541_f8fcde55ce_z.jpg" w="640" h="640" %}}
+![](https://farm9.staticflickr.com/8668/16675538541_f8fcde55ce_z.jpg "=640x640")
 
 上記の写真でもわかるように、万年筆を使ってもインクが裏ににじみません(裏写りしない)。
 
@@ -49,9 +49,9 @@ slug: moleskine-to-mdnote
 
 中にポケットがついていて、メモなんかも挟んでおけますし、ゴムバンドがついているので色々便利です。
 
-{{% img src="https://farm9.staticflickr.com/8606/16054570634_4cd822ff1e_z.jpg" w="640" h="640" %}}
+![](https://farm9.staticflickr.com/8606/16054570634_4cd822ff1e_z.jpg "=640x640")
 
-{{% img src="https://farm9.staticflickr.com/8611/16054572914_a2be32490f_z.jpg" w="640" h="640" %}}
+![](https://farm9.staticflickr.com/8611/16054572914_a2be32490f_z.jpg "=640x640")
 
 上記写真でも分かるように若干、裏抜け(裏写り)しています。もちろん利用するインクによって誤差はありますが、インクが多く出るタイプの万年筆・インクだと確実に裏抜け(裏写り)する印象です。
 

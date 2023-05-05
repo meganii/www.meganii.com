@@ -1,7 +1,7 @@
 ---
 title: 初めてのクライミングシューズ「モカシム」
 date: 2013-02-05T07:22:00+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:23:54+09:00
 category: ['Activity']
 tags: ['ボルダリング']
 published: true
@@ -11,14 +11,14 @@ img: https://c1.staticflickr.com/9/8216/8448002627_17a4f6fe90_s.jpg
 
 初めてのクライミングシューズにモカシム買いました。
 
-{{% img src="https://c1.staticflickr.com/9/8216/8448002627_17a4f6fe90_z.jpg" w="640" h="427" %}}
+![](https://c1.staticflickr.com/9/8216/8448002627_17a4f6fe90_z.jpg "=640x427")
 
 やっと念願のクライミングシューズ買いました。またしばらく、ボルダリング熱が上がりそうです!!
 
 モカシムは、初心者にもおすすめということなので安心。もっとかっちりしたシューズは、もっと登るようになってそのとき欲しいと思った時に買おうと思う。
 
 
-{{% img src="https://c1.staticflickr.com/9/8047/8449088092_c0c6bcafa6_z.jpg" w="640" h="427" %}}
+![](https://c1.staticflickr.com/9/8047/8449088092_c0c6bcafa6_z.jpg "=640x427")
 
 
 {{% googleadsense %}}

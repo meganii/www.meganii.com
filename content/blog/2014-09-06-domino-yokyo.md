@@ -1,7 +1,7 @@
 ---
 title: "結婚式余興ムービー「ドミノでええねん」16,000個のお祝いドミノ倒し"
 date: 2014-09-06T10:25:00+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:23:56+09:00
 category: ['Movie']
 tags: ['domino','結婚式余興', 'Movie', 'FCPX']
 published: true
@@ -52,7 +52,7 @@ slug: domino-yokyo
 
 こんな感じで、全体図を描いてみました。
 
-{{% img src="https://farm4.staticflickr.com/3848/15070557788_378dd2c59e_c.jpg" w="600" h="800" %}}
+![](https://farm4.staticflickr.com/3848/15070557788_378dd2c59e_c.jpg "=600x800")
 
 ## ドミノ個数見積もり
 
@@ -62,13 +62,13 @@ slug: domino-yokyo
 
 ドミノの個数は、はじめ見当がつかなかった。見当がつかないなりにどうしたかというと、実際にある程度並べてみて、どのぐらいの個数がいるか推測したり、Blenderというソフトを用いて、何個使えば形を表現できるか計算していきました。
 
-{{% img src="https://farm1.staticflickr.com/463/19931419121_2644c44ee8_z.jpg" w="600" h="241" %}}
+![](https://farm1.staticflickr.com/463/19931419121_2644c44ee8_z.jpg "=600x241")
 
 ### Blenderによるシミュレーション
 
-{{% img src="https://farm3.staticflickr.com/2914/14483105314_fc858148c2_z.jpg" w="600" h="354" %}}
+![](https://farm3.staticflickr.com/2914/14483105314_fc858148c2_z.jpg "=600x354")
 
-{{% img src="https://farm6.staticflickr.com/5545/14500120233_7a6416072d_z.jpg" w="600" h="354" %}}
+![](https://farm6.staticflickr.com/5545/14500120233_7a6416072d_z.jpg "=600x354")
 
 
 ## ドミノ発注
@@ -85,7 +85,7 @@ slug: domino-yokyo
 
 ## ドミノ作成
 
-{{% img src="https://farm4.staticflickr.com/3913/15234232676_5f1a37b195_c.jpg" w="800" h="600" %}}
+![](https://farm4.staticflickr.com/3913/15234232676_5f1a37b195_c.jpg "=800x600")
 
 
 ## よかったこと

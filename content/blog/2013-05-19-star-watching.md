@@ -1,7 +1,7 @@
 ---
 title: "大塔コスミックパーク「星のくに」でドーム付バンガローに泊まって天体観測！"
 date: 2013-05-19T21:14:00+09:00
-lastmod: 2020-07-05T16:30:52+09:00
+lastmod: 2023-05-05T01:23:55+09:00
 category: ['Travel']
 tags: ["star"]
 published: true
@@ -11,14 +11,14 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1593903141/8757731976_919
 
 2013/05/18-19、同期と星を見に奈良県にある「星のくに」に行ってきました!!
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1593903141/8757731976_91975c8765_z_cwdouk.jpg" w="640" h="427" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1593903141/8757731976_91975c8765_z_cwdouk.jpg "=640x427")
 
 {{% googleadsense %}}
 
 
 ## 「大塔コスミックパーク星のくに」とは
 
-{{% img src="https://farm9.staticflickr.com/8554/8757716610_9e5c77bb9b_z.jpg" w="640" h="427" %}}
+![](https://farm9.staticflickr.com/8554/8757716610_9e5c77bb9b_z.jpg "=640x427")
 
 
 
@@ -32,7 +32,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1593903141/8757731976_919
 「ベガ」	ミカゲ25cm　反射望遠鏡	ミカゲ光器260	鏡直径250mm 焦点距離1500mm
 
 
-{{% img src="https://farm6.staticflickr.com/5461/8756588789_f23d5b0a8a_z.jpg" w="640" h="427" %}}
+![](https://farm6.staticflickr.com/5461/8756588789_f23d5b0a8a_z.jpg "=640x427")
 
 
 まずは、このバズーカみたいな天体望遠鏡をを使う練習。2軸で360度に対応してるんだけど、調整がムズカシイ。
@@ -42,7 +42,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1593903141/8757731976_919
 四苦八苦しながら、なんとか電波塔を捉えることができた。
 
 
-{{% img src="https://farm8.staticflickr.com/7395/8757731228_7b2cf7dc7d_z.jpg" w="640" h="427" %}}
+![](https://farm8.staticflickr.com/7395/8757731228_7b2cf7dc7d_z.jpg "=640x427")
 
 
 
@@ -53,7 +53,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1593903141/8757731976_919
 
 月は雲に隠れながらも見えていたので、月の観測会に向かいます。
 
-{{% img src="https://farm9.staticflickr.com/8555/8757731570_896f47ab57_z.jpg" w="640" h="427" %}}
+![](https://farm9.staticflickr.com/8555/8757731570_896f47ab57_z.jpg "=640x427")
 
 
 実際、天体望遠鏡を自分の手で触りながら覗くのって初めてのことで、子供の頃に戻ったように、ワクワクしました。	雲に隠れながらも、雲の切れ目きれめで見える月は綺麗でした!!!クレーターまでくっきりと見える。
@@ -63,7 +63,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1593903141/8757731976_919
 施設の方が、スピカの説明をしながら、土星に天体望遠鏡を向ける。
 
 
-{{% img src="https://farm4.staticflickr.com/3802/8757730340_a246e30163_z.jpg" w="640" h="427" %}}
+![](https://farm4.staticflickr.com/3802/8757730340_a246e30163_z.jpg "=640x427")
 
 
 「キレー!かわいい」という声を聞きつつ、順番待ちをするのはちとつらい。いつ雲で隠れるか分からずハラハラどきどき。
@@ -71,7 +71,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1593903141/8757731976_919
 そんな中でやっと土星見れました!!!
 
 
-{{% img src="https://farm4.staticflickr.com/3720/8757735674_dc11e76300.jpg" w="444" h="444" %}}
+![](https://farm4.staticflickr.com/3720/8757735674_dc11e76300.jpg "=444x444")
 
 
 
@@ -89,11 +89,11 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1593903141/8757731976_919
 
 ## 帰りは昆虫館で蝶の撮影会
 
-{{% img src="https://farm4.staticflickr.com/3684/8756646773_91e99e5817_z.jpg" w="640" h="640" %}}
+![](https://farm4.staticflickr.com/3684/8756646773_91e99e5817_z.jpg "=640x640")
 
-{{% img src="https://farm9.staticflickr.com/8136/8757730800_4fc4d8f626_z.jpg" w="600" h="427" %}}
+![](https://farm9.staticflickr.com/8136/8757730800_4fc4d8f626_z.jpg "=600x427")
 
-{{% img src="https://farm8.staticflickr.com/7343/8757730560_5e8915f8aa_z.jpg" w="640" h="427" %}}
+![](https://farm8.staticflickr.com/7343/8757730560_5e8915f8aa_z.jpg "=640x427")
 
 
 ## 反省

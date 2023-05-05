@@ -1,7 +1,7 @@
 ---
 title: "macOSでXcodeを利用せずにHomebrewを利用する方法"
 date: 2020-06-23T21:37:07+09:00
-lastmod: 2020-07-16T21:38:27+09:00
+lastmod: 2023-05-05T01:24:08+09:00
 published: true
 category: ["Tech"]
 tags: ["macOS", "Xcode"]
@@ -49,7 +49,7 @@ Homebrew/homebrew-cask (git revision d4b39; last commit 2020-06-22)
 
 `macOS mojave`は`10.14`ですので、その中でも最新版を選んでダウンロード&インストールします。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1593002275/nl4n15hdxexfslqemk5k.png" w="1059" h="592" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1593002275/nl4n15hdxexfslqemk5k.png "=1059x592")
 
 
 

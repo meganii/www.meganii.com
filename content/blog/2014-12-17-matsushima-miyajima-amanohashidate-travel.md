@@ -1,7 +1,7 @@
 ---
 title: "春の松島、秋の宮島、冬の天橋立〜日本三景巡り〜"
 date: 2014-12-17T21:19:00+09:00
-lastmod: 2019-08-12T09:48:43+09:00
+lastmod: 2023-05-05T01:23:57+09:00
 category: ['Travel']
 tags: ['日本三景','松島','宮島','天橋立','食べ歩き','旅行記']
 published: true
@@ -21,12 +21,12 @@ slug: matsushima-miyajima-amanohashidate-travel
 
 ARABAKI RockFEST.14 に行った際に、松島へ行ってきました！
 
-{{% img src="https://farm8.staticflickr.com/7481/15856200729_0ef5423ed3_z.jpg" w="400" h="300" %}}
+![](https://farm8.staticflickr.com/7481/15856200729_0ef5423ed3_z.jpg "=400x300")
 
 フェリーに乗り、松島湾をめぐると、かもめが寄ってくる寄ってくる。
 
 
-{{% img src="https://farm8.staticflickr.com/7551/15422499873_d46e6f8211_z.jpg" w="400" h="300" %}}
+![](https://farm8.staticflickr.com/7551/15422499873_d46e6f8211_z.jpg "=400x300")
 
 
 「松島や ああ松島や 松島や」
@@ -35,12 +35,12 @@ ARABAKI RockFEST.14 に行った際に、松島へ行ってきました！
 
 実は、ここでも牡蠣を食べている。
 
-{{% img src="https://farm9.staticflickr.com/8567/15856478307_2f50431289_z.jpg" w="400" h="300" %}}
+![](https://farm9.staticflickr.com/8567/15856478307_2f50431289_z.jpg "=400x300")
 
 
 仙台と言ったら、牛たん！！！このときは、「喜助」の牛たんだったと思うが、また食べにいきたい！
 
-{{% img src="https://farm9.staticflickr.com/8639/16041693282_e47556be2d_z.jpg" w="400" h="300" %}}
+![](https://farm9.staticflickr.com/8639/16041693282_e47556be2d_z.jpg "=400x300")
 
 
 ## 秋の宮島
@@ -48,11 +48,11 @@ ARABAKI RockFEST.14 に行った際に、松島へ行ってきました！
 
 フェリーに乗り、宮島へ。宮島行きのフェリーが、2つの会社で運行してるみたいで最初戸惑ったが、一方は鳥居により近くまで寄ることができるのが売りらしい。なんとなく、行きと帰りでそれぞれ別の会社の便で渡った。
 
-{{% img src="https://farm8.staticflickr.com/7489/16016656396_c9014ddef1_z.jpg" w="400" h="300" %}}
+![](https://farm8.staticflickr.com/7489/16016656396_c9014ddef1_z.jpg "=400x300")
 
 水の上に建物があるのは、なんとなく不思議で、より神聖な気分がしました。
 
-{{% img src="https://farm9.staticflickr.com/8584/15855158350_0a952d8d02_z.jpg" w="400" h="300" %}}
+![](https://farm9.staticflickr.com/8584/15855158350_0a952d8d02_z.jpg "=400x300")
 
 広島といったら、・・・牡蠣！！！！！
 
@@ -60,27 +60,27 @@ ARABAKI RockFEST.14 に行った際に、松島へ行ってきました！
 
 [牡蠣屋 （かきや） \- 宮島/魚介料理・海鮮料理 \[食べログ\]](https://tabelog.com/hiroshima/A3402/A340202/34003363/)
 
-{{% img src="https://farm8.staticflickr.com/7480/15856148769_68d29fb6d5_z.jpg" w="400" h="300" %}}
+![](https://farm8.staticflickr.com/7480/15856148769_68d29fb6d5_z.jpg "=400x300")
 
-{{% img src="https://farm8.staticflickr.com/7578/15419925564_d75a075432_z.jpg" w="400" h="300" %}}
+![](https://farm8.staticflickr.com/7578/15419925564_d75a075432_z.jpg "=400x300")
 
 牡蠣の旨味を堪能するために、あえて何もかけずに食べるカキフライは、絶品。
 
 ああ、牡蠣食べたい。
 
-{{% img src="https://farm8.staticflickr.com/7462/16040241471_e867e7a1c8_z.jpg" w="400" h="300" %}}
+![](https://farm8.staticflickr.com/7462/16040241471_e867e7a1c8_z.jpg "=400x300")
 
 ## 冬の天橋立
 
 12月7日。雪がちらつく、寒い冬の天橋立。
 
-{{% img src="https://farm8.staticflickr.com/7483/16041498082_545a44b442_z.jpg" w="400" h="300" %}}
+![](https://farm8.staticflickr.com/7483/16041498082_545a44b442_z.jpg "=400x300")
 
 カニが美味しかった！！！
 
 天橋立の近くのお店で食べた、セイコガニ丼!!!
 
-{{% img src="https://farm9.staticflickr.com/8638/15854870778_ce3e367cff_z.jpg" w="400" h="300" %}}
+![](https://farm9.staticflickr.com/8638/15854870778_ce3e367cff_z.jpg "=400x300")
 
 ああ、カニ食べたい。
 
@@ -90,7 +90,7 @@ ARABAKI RockFEST.14 に行った際に、松島へ行ってきました！
 雪が積もる温泉街は、情緒あふれる素敵な町並みで、夜はさらに雰囲気が出ていた。
 (寒すぎて、部屋に戻ってからは外に出たくなくなる病にかかったのはもったいなかった)
 
-{{% img src="https://farm8.staticflickr.com/7509/15856566717_7e37ab3894_z.jpg" w="400" h="300" %}}
+![](https://farm8.staticflickr.com/7509/15856566717_7e37ab3894_z.jpg "=400x300")
 
 さあ、次はどこへいこっか？
 {{% amazon 4396315260 %}}

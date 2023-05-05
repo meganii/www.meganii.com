@@ -1,7 +1,7 @@
 ---
 title: "Vercelにカスタムドメインを設定する（Cloudflareネームサーバ利用）"
 date: 2020-05-11T07:00:00+09:00
-lastmod: 2020-07-16T21:38:27+09:00
+lastmod: 2023-05-05T01:24:08+09:00
 published: true
 category: ["Tech"]
 tags: ["Cloudflare", "Vercel", 'Gatsby.js']
@@ -31,7 +31,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v159
 - `Error 525: SSL handshake failed`が発生する
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1589109876/Error525_t4aiir.png" w="1045" h="781"  %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1589109876/Error525_t4aiir.png "=1045x781")
 
 ## 原因
 
@@ -80,17 +80,17 @@ YnV0dHNz.TEST_CLIENT_KEY
 - `Cloudflare`の`Always Use HTTPS`の設定をONからOFFに変更
 - `Cloudflare`の`Page Rules`に`*meganii.com/.well-known/*`に対してSSL OFFの設定を追加
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1589109681/Always_Use_HTTPS_g3nybg.png" w="1045" h="208" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1589109681/Always_Use_HTTPS_g3nybg.png "=1045x208")
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1589109532/CloudflarePageRules_hryvgr.png" w="1053"  h="531" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1589109532/CloudflarePageRules_hryvgr.png "=1053x531")
 
 
 ### 2. SSL/TLS encryption modeをFull(Strict)に変更
 
 元々は`Full`にしていたが、他の方の設定を見る限り`Full(Strict)`の方が良さそうだったので、変更しました。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1589109600/SSL_TLS_encryption_mode_nuffxu.png" w="1045" h="723" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1589109600/SSL_TLS_encryption_mode_nuffxu.png "=1045x723")
 
 
 ### 3. CloudflareのDNS設定を再設定（Proxy StatusをDNS Onlyに変更し、Proxiedに戻す）
@@ -99,7 +99,7 @@ YnV0dHNz.TEST_CLIENT_KEY
 
 `TXTレコード`は、他の方の設定値の通り試したので、実際に必要かどうかはわかっていません。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1589109532/CloudflareDNS_bdk3u4.png" w="1045" h="389" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1589109532/CloudflareDNS_bdk3u4.png "=1045x389")
 
 ### 4. 下記コマンドでエラーが返ってくることを確認
 

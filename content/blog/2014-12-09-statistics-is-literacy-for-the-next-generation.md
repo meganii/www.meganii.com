@@ -1,7 +1,7 @@
 ---
 title: "統計学が最強の学問である"
 date: 2014-12-09T00:12:00+09:00
-lastmod: 2021-09-20T16:44:00+09:00
+lastmod: 2023-05-05T01:23:57+09:00
 category: ['Book']
 tags: ['book','statistics', '統計学']
 published: true
@@ -128,7 +128,7 @@ AパターンとBパターンの条件の変え方にランダムさが含まれ
 
 表の使い方。
 
-{{% img src="https://farm8.staticflickr.com/7562/16016512615_0f8a99524c_z.jpg" w="527" h="181" %}}
+![](https://farm8.staticflickr.com/7562/16016512615_0f8a99524c_z.jpg "=527x181")
 
 
 ### 男女別で顧客の一人当たりの売り上げを知りたい

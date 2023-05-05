@@ -1,7 +1,7 @@
 ---
 title: "【Tableau】「階層」をもつ動的なフィルタを実装する"
 date: 2020-05-25T23:30:31+09:00
-lastmod: 2020-07-10T07:49:04+09:00
+lastmod: 2023-05-05T01:24:08+09:00
 published: true
 category: ["Tech"]
 tags: ["Tableau","Filter","Tableau Tips"]
@@ -23,7 +23,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 
 ## 階層フィルタを実装する
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1594218647/dp4pbfq1dcahxcynxy9z.png" w="1080" h="702" %}}
+![Tableauでの階層フィルタ](https://res.cloudinary.com/meganii/image/upload/v1594218647/dp4pbfq1dcahxcynxy9z.png "=1080x702")
 
 スーパーサンプルストアのデータを利用して説明します。
 
@@ -32,21 +32,21 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_10
 
 まずは「階層」を作成します。ここでは、地域ということで、国／領域 > 地域 > 都道府県 > 市区町村で「階層」を作成します。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1594219126/xtmfmr7v1ikmq46hn9as.png" w="377" h="259"  alt="階層" %}}
+![階層の作成](https://res.cloudinary.com/meganii/image/upload/v1594219126/xtmfmr7v1ikmq46hn9as.png "=377x259")
 
 
 ### 2. 作成した「階層」を1つずつフィルタに追加する
 
 「階層」のフィルタを追加すると「階層内のすべての値」という部分にチェックが入ります。これだけで、上の階層のフィルタ結果が下層に伝播します。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1594218749/sroogb5cbaovdv6ikihx.png" w="311" h="572"  alt="階層内のすべての値" %}}
+![階層内のすべての値](https://res.cloudinary.com/meganii/image/upload/v1594218749/sroogb5cbaovdv6ikihx.png "=311x572")
 
 
 ### 3. 上層からフィルタを効かせる
 
 地域：「四国」を選択すると、都道府県も「四国」に関連する選択肢へと動的に変更されています。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1594218909/sqg06n5nsf2u6ibcrtgj.png" w="170" h="523" %}}
+![上層からフィルタ](https://res.cloudinary.com/meganii/image/upload/v1594218909/sqg06n5nsf2u6ibcrtgj.png "=170x523")
 
 
 ## 参考

@@ -1,7 +1,7 @@
 ---
 title: PythonでBlender
 date: 2014-06-22T18:12:00+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:23:56+09:00
 category: ['Tech']
 tags: ["blender"]
 published: true
@@ -40,7 +40,7 @@ me.from_pydata(coords,[],faces)
 me.update(calc_edges=True)
 ```
 
-{{% img src="https://live.staticflickr.com/3878/14479984155_348fbedd9d.jpg" w="500" h="281" alt="Pyramid" %}}
+![Pyramid](https://live.staticflickr.com/3878/14479984155_348fbedd9d.jpg "=500x281")
 
 
 ## ドミノ
@@ -58,7 +58,7 @@ for y in range(0,5):
 	me.update(calc_edges=True)
 ```
 
-{{% img src="https://live.staticflickr.com/5545/14500120233_7a6416072d.jpg" w="500" h="281" alt="domino5" %}}
+![domino5](https://live.staticflickr.com/5545/14500120233_7a6416072d.jpg "=500x281")
 
 
 ## ドミノ part2
@@ -84,7 +84,7 @@ for y in reversed(range(100)):
 ```
 
 
-{{% img src="https://live.staticflickr.com/2914/14483105314_fc858148c2.jpg" w="500" h="276" alt="100domino.blender" %}}
+![100domino.blender](https://live.staticflickr.com/2914/14483105314_fc858148c2.jpg "=500x276")
 
 
 ## 参考

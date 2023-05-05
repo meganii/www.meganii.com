@@ -1,7 +1,7 @@
 ---
 title: Sublime Text 2にパッケージコントロールを導入!!
 date: 2013-04-26T22:21:00+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:23:54+09:00
 category: ['Tech']
 tags: ['sublime text2']
 published: true
@@ -58,7 +58,7 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_p
 Sublime Text 2上で Ctrl + ` でコマンドラインを出す。
 
 
-{{% img src="https://farm9.staticflickr.com/8400/8683705864_995fc97c47.jpg" w="450" h="383" %}}
+![](https://farm9.staticflickr.com/8400/8683705864_995fc97c47.jpg "=450x383")
 
 
 コマンドラインに先ほどのコマンドを貼り付けて実行する。
@@ -74,7 +74,7 @@ Sublime Text 2上で Ctrl + ` でコマンドラインを出す。
 Package Control : Install Package　を選択。
 
 
-{{% img src="https://farm9.staticflickr.com/8266/8683722130_d1bd113402.jpg" w="450" h="383" %}}
+![](https://farm9.staticflickr.com/8266/8683722130_d1bd113402.jpg "=450x383")
 
 
 markdown previewを選択 -> インストール。これで、導入されました。

@@ -1,7 +1,7 @@
 ---
 title: "万年筆LAMY safariのインク洗浄・交換方法"
 date: 2014-11-16T23:59:00+09:00
-lastmod: 2022-07-02T10:08:03+09:00
+lastmod: 2023-05-05T01:23:57+09:00
 category: ['Stationery']
 tags: ['万年筆','LAMY', '文房具','LAMY', 'safari']
 published: true
@@ -36,7 +36,7 @@ slug: fountain-pen-cleaning
 
 - 40度ぐらいのお湯の中に数時間浸けておきます。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1513937948/wt81vhcgbj8yejfnespj.jpg" w="640" h="640" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1513937948/wt81vhcgbj8yejfnespj.jpg "=640x640")
 
 
 ペン先から出てくるインクによって、色がゆらゆらと溶け出す様子はとても綺麗です。あんまり漬けすぎると、樹脂が水を吸ってしまいよくないとのことですので、適度に浸しておきます。
@@ -44,7 +44,7 @@ slug: fountain-pen-cleaning
 
 - ペン先とコンバータつけて、お湯（水）を吸い上げ、ペン先に残ったインクを押し出す。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1513938074/jf9meyppeloihkg73tbr.jpg" w="640" h="640" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1513938074/jf9meyppeloihkg73tbr.jpg "=640x640")
 
 何度も水の中で、吸い上げたり押し出したりして、ペン先、コンバータに残ったインクを押し出します。ペン先やコンバータの端にインクが残っているので何度も洗い流しましょう。
 
@@ -53,7 +53,7 @@ slug: fountain-pen-cleaning
 
 キッチンペーパー等で水気を抜き取り、乾燥させます。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1513938102/hnxbt3pkq46bdltvlvfy.jpg" w="640" h="640" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1513938102/hnxbt3pkq46bdltvlvfy.jpg "=640x640")
 
 ティッシュだと、細かい紙くずがついてしまうので、キッチンペーパーで拭き取ると楽です。
 

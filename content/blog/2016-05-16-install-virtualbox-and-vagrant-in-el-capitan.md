@@ -1,7 +1,7 @@
 ---
 title: "MacでVirtualbox、Vagrantをインストールするときにいつまで経っても検証が終わらない場合の対処法としてコマンドラインからインストールする"
 date: 2016-05-16T20:50:35+09:00
-lastmod: 2021-02-11T11:21:42+09:00
+lastmod: 2023-05-05T01:24:00+09:00
 comments: true
 category: ['Tech']
 tags: ['El Capitan','Mac']
@@ -26,7 +26,7 @@ img: "https://farm8.staticflickr.com/7385/26774309130_925fdae08f_t.jpg"
 
 dmgファイルをダウンロードして、Vagrant.pkgやVirtualbox.pkgをダブルクリックしたところ、以下のようにチェックが終わらない現象になった。
 
-{{% img src="https://farm8.staticflickr.com/7385/26774309130_925fdae08f.jpg" w="500" h="178" %}}
+![](https://farm8.staticflickr.com/7385/26774309130_925fdae08f.jpg "=500x178")
 
 
 ## 原因

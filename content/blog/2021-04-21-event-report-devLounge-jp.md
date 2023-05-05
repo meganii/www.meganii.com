@@ -1,7 +1,7 @@
 ---
 title: "「DevLounge.jp」開発者のためのオンラインイベント参加メモ"
 date: 2021-04-24T21:13:26+09:00
-lastmod: 2022-01-20T23:10:47+09:00
+lastmod: 2023-05-05T01:24:11+09:00
 published: true
 category: ["Tech"]
 tags: ["Wantedly","Event", "イベントレポート"]
@@ -9,7 +9,7 @@ slug: "event-report-devLounge-jp"
 img: "https://res.cloudinary.com/meganii/image/upload/v1619315804/devloungejp_mxmmsm.png"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1619315804/devloungejp_mxmmsm.png" w="935" h="431" alt="「DevLounge.jp」開発者のためのオンラインイベント" %}}
+![「DevLounge.jp」開発者のためのオンラインイベント](https://res.cloudinary.com/meganii/image/upload/v1619315804/devloungejp_mxmmsm.png "=935x431")
 
 2021/04/24（土）に開催された開発者のためのオンラインイベント「DevLounge.jp」を視聴したメモです。
 

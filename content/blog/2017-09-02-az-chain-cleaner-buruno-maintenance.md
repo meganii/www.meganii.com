@@ -1,7 +1,7 @@
 ---
 title: "AZチェーンクリーナーでミニベロ「Bruno」のチェーン清掃にチャレンジ！"
 date: 2017-09-02T13:57:48+09:00
-lastmod: 2020-08-09T09:42:43+09:00
+lastmod: 2023-05-05T01:24:03+09:00
 comments: true
 category: ['Life']
 tags: ['Bike','自転車']
@@ -15,7 +15,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1596888742/36834427941_a0
 
 購入したのは、以下3本です。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596888470/36974664995_b282fb2cc1_o_jh6tdv.jpg" w="300" h="300" alt="チェーンクリーナーセット" %}}
+![チェーンクリーナーセット](https://res.cloudinary.com/meganii/image/upload/v1596888470/36974664995_b282fb2cc1_o_jh6tdv.jpg "=300x300")
 
 {{% amazon B06XRQXM8G %}}
 
@@ -32,12 +32,12 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1596888742/36834427941_a0
 
 ## Before　清掃前
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596888564/36163223133_f87dd00afc_o_qpuvnv.jpg" w="300" h="300" alt="自転車チェーンのサビ汚れ" %}}
+![自転車チェーンのサビ汚れ](https://res.cloudinary.com/meganii/image/upload/v1596888564/36163223133_f87dd00afc_o_qpuvnv.jpg "=300x300")
 
 サビに油汚れ。「これはヒドい」と言わざるを得ない。せっかくの自転車が台無しですよね。
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596888620/36974709035_ab37f7f6c2_b_l5t4yp.jpg" w="1024" h="984" alt="自転車チェーンのサビ汚れ" %}}
+![自転車チェーンのサビ汚れ](https://res.cloudinary.com/meganii/image/upload/v1596888620/36974709035_ab37f7f6c2_b_l5t4yp.jpg "=1024x984")
 
 
 この汚れをチェーンクリーナでどこまで落とせるかが楽しみです！！
@@ -80,10 +80,10 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1596888742/36834427941_a0
 ぱんぱかぱーーん、見違えるような・・・綺麗さ！でもないか。。
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596888692/36163223223_8f22fc42b1_o_jrowcd.jpg" w="300" h="300" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1596888692/36163223223_8f22fc42b1_o_jrowcd.jpg "=300x300")
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596888742/36834427941_a0966f6719_o_yrxxzu.jpg" w="600" h="599" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1596888742/36834427941_a0966f6719_o_yrxxzu.jpg "=600x599")
 
 
 完全に元の姿に戻ったとは言えませんが、元の姿が少し見えてきたと言う感じでしょうか。
@@ -99,14 +99,14 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1596888742/36834427941_a0
 {{% amazon B00BWZXIAQ %}}
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596888783/36803750552_b4457c794b_o_qh9yyx.jpg" w="600" h="600" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1596888783/36803750552_b4457c794b_o_qh9yyx.jpg "=600x600")
 
 拭き取りに使ったTシャツもかなり真っ黒になったので、それなりに汚れは落とせたと思います。
 
 汚れを落とした後は、チェーンオイルをチェーンに塗っていきます。このチェールオイルのおかげでサビを防ぎ、ペダリングがスムーズになるそうです。
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1596888811/36835119871_74ee0b8be9_o_cedtck.jpg" w="300" h="300" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1596888811/36835119871_74ee0b8be9_o_cedtck.jpg "=300x300")
 
 
 ## 大事なこと

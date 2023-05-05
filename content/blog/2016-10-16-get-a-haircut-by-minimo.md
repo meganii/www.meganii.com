@@ -1,7 +1,7 @@
 ---
 title: "minimo(ミニモ)で初めてのメンズカットモデル"
 date: 2016-10-16T21:45:48+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:24:01+09:00
 comments: true
 category: ['Life']
 tags: ['minimo','ミニモ']
@@ -10,7 +10,7 @@ slug: get-a-haircut-by-minimo
 img: "https://res.cloudinary.com/meganii/image/upload/c_crop,f_auto,h_75,w_75/v1511099495/jecwzsscr9b0jrlgu5ni.jpg"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511040827/minimo_uakszz.jpg" w="640" h="443" %}}
+![](https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto/v1511040827/minimo_uakszz.jpg "=640x443")
 
 「カットモデル」ってなんだかすごく敷居が高くないですか？
 

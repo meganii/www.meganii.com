@@ -1,7 +1,7 @@
 ---
 title: "[Alexandros] ワタリドリと私 -ROCK IN JAPAN 2015-"
 date: 2015-08-06T21:43:00+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:23:59+09:00
 category: ['Music']
 tags: ['Alexandros', 'ROCK IN JAPAN']
 published: true
@@ -9,7 +9,7 @@ img: "https://images-na.ssl-images-amazon.com/images/I/51zFFtMtglL._SL160_.jpg"
 slug: alexandros-wataridori
 ---
 
-{{% img src="https://farm4.staticflickr.com/3831/20330118836_12926f5c8e.jpg" w="500" h="375" alt="ROCK IN JAPAN" %}}
+![ROCK IN JAPAN](https://farm4.staticflickr.com/3831/20330118836_12926f5c8e.jpg "=500x375")
 
 いきなり「ワタリドリ」で始まったAlexandros。一曲目から観客の心を掴んでいた。
 

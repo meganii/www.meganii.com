@@ -1,7 +1,7 @@
 ---
 title: "Jekyllのタグとカテゴリを整理するために、一覧表示するWebアプリ(個人用)をつくった"
 date: 2014-12-13T18:15:00+09:00
-lastmod: 2022-07-02T10:08:03+09:00
+lastmod: 2023-05-05T01:23:57+09:00
 category: ['Tech']
 tags: ['jekyll','Ruby']
 published: true
@@ -13,7 +13,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1633778481/16007934641_50
 
 無事一覧が出来たので気持ちいい。こういう庭いじり好きかも笑。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1633778481/16007934641_502fe07015_z_daudwn.jpg" w="640" h="350" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1633778481/16007934641_502fe07015_z_daudwn.jpg "=640x350")
 
 [https://github.com/meganii/JekyllFFviewer](https://github.com/meganii/JekyllFFviewer)
 

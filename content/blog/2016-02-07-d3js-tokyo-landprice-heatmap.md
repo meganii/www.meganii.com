@@ -1,7 +1,7 @@
 ---
 title: "D3.jsで東京の地価データを可視化する"
 date: 2016-02-07T19:42:50+09:00
-lastmod: 2022-07-02T11:32:46+09:00
+lastmod: 2023-05-05T01:23:59+09:00
 comments: true
 category: ['Tech']
 tags: ['D3.js', 'JavaScript', 'データ可視化']
@@ -10,7 +10,7 @@ slug: d3js-tokyo-landprice-heatmap
 img: "https://farm2.staticflickr.com/1680/24844125586_c74f952e38_s.jpg"
 ---
 
-{{% img src="https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg" w="640" h="404" %}}
+![](https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg "=640x404")
 
 
 [D3.js tutorial | SIS lab](/blog/2016/02/06/d3js-tutorial/)で、一通りD3.jsのイメージを掴みつつ、東京の地価データの可視化に挑戦する。方法については、下記のページを参考にした。
@@ -85,7 +85,7 @@ ogr2ogr -f GeoJSON -where "L01_017 < '13320'" tokyo-landprice-2015.geojson L01-1
 
 ## D3.jsで表示する
 
-{{% img src="https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg" w="640" h="404" %}}
+![](https://farm2.staticflickr.com/1680/24844125586_c74f952e38_z.jpg "=640x404")
 
 
 ```html

@@ -1,7 +1,7 @@
 ---
 title: "時間の投資家としてキャリアを考える"
 date: 2017-03-07T08:16:50+09:00
-lastmod: 2020-02-29T14:58:16+09:00
+lastmod: 2023-05-05T01:24:02+09:00
 comments: true
 category: ['Life']
 tags: ['キャリア','生存戦略']
@@ -10,7 +10,7 @@ slug: we-are-all-investors-of-time
 img: https://i.gyazo.com/thumb/200/_eed61ad2407c399045caaa90c781c05f-jpg.jpg
 ---
 
-{{% img src="https://i.gyazo.com/928746f78deee72b8dd07f8b51e4a133.jpg" w="600" h="300" %}}
+![](https://i.gyazo.com/928746f78deee72b8dd07f8b51e4a133.jpg "=600x300")
 
 逆説のキャリア思考のスライドを読んで印象に残った言葉である。全くその通りだと、すっと腑に落ちた。
 

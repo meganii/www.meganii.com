@@ -1,7 +1,7 @@
 ---
 title: "Power AutomateでSharePointドキュメントライブラリのフォルダ・ファイル一覧を生成する"
 date: 2021-09-19T17:13:24+09:00
-lastmod: 2021-09-19T17:13:24+09:00
+lastmod: 2023-05-05T01:24:12+09:00
 published: true
 category: ["Tech"]
 tags: ["Power Automate","SharePoint"]
@@ -25,7 +25,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1632039515/dd3116d4f6bb4f
 
 ### Power AutomateのFlow
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1632039515/dd3116d4f6bb4f64f2dd38dd485830ae_uhj78s.png" w="565" h="306" alt="Flow" %}}
+![Flow](https://res.cloudinary.com/meganii/image/upload/v1632039515/dd3116d4f6bb4f64f2dd38dd485830ae_uhj78s.png "=565x306")
 
 - 手動トリガーで実行後、`Get files (properties only)`でSharePointドキュメントライブラリのプロパティ一覧を取得
 - `Select`でプロパティ一覧から必要な項目のみ抽出
@@ -34,7 +34,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1632039515/dd3116d4f6bb4f
 
 ### フォルダ・ファイル一覧
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1632039824/79b20ca5c24a8330c2bc6c99ded1f879_ksf1mx.png" w="1364" h="562" alt="フォルダ・ファイル一覧" %}}
+![フォルダ・ファイル一覧](https://res.cloudinary.com/meganii/image/upload/v1632039824/79b20ca5c24a8330c2bc6c99ded1f879_ksf1mx.png "=1364x562")
 
 - `Office Script`を利用し、Path, FileName, Linkの簡素なフォルダ・ファイル一覧を作成
 

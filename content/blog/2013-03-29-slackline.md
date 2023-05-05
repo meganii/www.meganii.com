@@ -1,7 +1,7 @@
 ---
 title: ボルダリングの合間にスラックライン!! Slackline
 date: 2013-03-29T20:59:00+09:00
-lastmod: 2021-02-11T11:21:42+09:00
+lastmod: 2023-05-05T01:23:54+09:00
 category: ['Activity']
 tags: ['スラックライン','ボルダリング']
 published: true
@@ -9,7 +9,7 @@ slug: slackline
 img: "https://res.cloudinary.com/meganii/image/upload/w_600/v1565608317/mauricio-santanna-6SNF2Nt2zsc-unsplash_vmwk2n.jpg"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1565608317/mauricio-santanna-6SNF2Nt2zsc-unsplash_vmwk2n.jpg" w="3872" h="2592" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1565608317/mauricio-santanna-6SNF2Nt2zsc-unsplash_vmwk2n.jpg "=3872x2592")
 
 最近ボルダリングの合間にハマってます。ただ、立つだけ、ただ歩くだけで出来たときは楽しい!!
 

@@ -1,7 +1,7 @@
 ---
 title: "macOS Sierraクリーンインストール時に行ったこと"
 date: 2017-04-30T18:10:38+09:00
-lastmod: 2020-10-25T13:36:44+09:00
+lastmod: 2023-05-05T01:24:02+09:00
 comments: true
 category: ['Tech']
 tags: ['Mac','macOS']
@@ -10,7 +10,7 @@ slug: macos-sierra-clean-install
 img: /images/2017/06/macOS.png
 ---
 
-{{% img src="/images/2017/06/macOS.png" w="400" h="250" %}}
+![](/images/2017/06/macOS.png "=400x250")
 
 
 `macOS Sierra`をクリーンインストールして、開発環境を整えたのでそのときのメモです。

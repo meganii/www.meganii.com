@@ -1,7 +1,7 @@
 ---
 title: "大人の高級革財布 GANZOのTHIN BRIDLE (シンブライドル) 二つ折り財布のレビュー！"
 date: 2017-01-05T21:21:03+09:00
-lastmod: 2022-07-02T11:32:46+09:00
+lastmod: 2023-05-05T01:24:01+09:00
 comments: true
 category: ['Life']
 tags: ['革','財布','レザー']
@@ -10,7 +10,7 @@ slug: leatherwallet-ganzo
 img: "https://res.cloudinary.com/meganii/image/upload/v1594888649/27757786996_582c442d2e_z_fbjez1.jpg"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1594888567/31971455812_4bbbe753fc_z_ha1gtw.jpg" w="640" h="480" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1594888567/31971455812_4bbbe753fc_z_ha1gtw.jpg "=640x480")
 
 
 **「革のカッコイイ財布が欲しい」**
@@ -39,12 +39,12 @@ GANZOは、あなたの手によって"世界最高"の完成品となる。
 
 ちょうど1年前。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1594888649/27757786996_582c442d2e_z_fbjez1.jpg" w="640" h="640" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1594888649/27757786996_582c442d2e_z_fbjez1.jpg "=640x640")
 
 
 ### After
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1594888688/31309736223_46e361195c_z_zgamvk.jpg" w="640" h="640" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1594888688/31309736223_46e361195c_z_zgamvk.jpg "=640x640")
 
 「時を重ねるほどに、輝くもの」というコンセプト通り、いい感じになってきました。
 

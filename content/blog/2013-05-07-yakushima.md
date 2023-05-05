@@ -1,7 +1,7 @@
 ---
 title: 晴れの屋久島。雨の屋久島。屋久島旅行記
 date: 2013-05-07T07:13:00+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:23:55+09:00
 category: ['Travel']
 tags: ['屋久島','travel', '旅行記']
 published: true
@@ -9,7 +9,7 @@ slug: yakushima
 img: "https://farm8.staticflickr.com/7320/8715988660_c5040b0f25_c.jpg"
 ---
 
-{{% img src="https://farm8.staticflickr.com/7320/8715988660_c5040b0f25_c.jpg" w="800" h="534" %}}
+![](https://farm8.staticflickr.com/7320/8715988660_c5040b0f25_c.jpg "=800x534")
 
 2013/04/30〜05/03の3泊4日で屋久島行ってきました!!
 
@@ -28,7 +28,7 @@ img: "https://farm8.staticflickr.com/7320/8715988660_c5040b0f25_c.jpg"
 ###トッピー
 海の上を飛んで走るってだけあって、全然揺れなくて快適だった。
 
-{{% img src="https://farm8.staticflickr.com/7456/8716001444_a73b2e34d4_c.jpg" w="800" h="534" %}}
+![](https://farm8.staticflickr.com/7456/8716001444_a73b2e34d4_c.jpg "=800x534")
 
 
 トッピーに乗ること２時間ぐらい。いよいよ屋久島上陸。レンタカーのお兄さんにレンタカーを借りて、島一周の旅へ。
@@ -37,17 +37,17 @@ img: "https://farm8.staticflickr.com/7320/8715988660_c5040b0f25_c.jpg"
 まずは、猿川ガジュマル園。
 雨の中のガジュマル園は、なかなかよかった。幾重にも重なりあった枝が根っこになって、幹になってるみたいに見えた。トトロでも出てきそうだった。
 
-{{% img src="https://farm8.staticflickr.com/7295/8716000942_da1a0c924f_c.jpg" w="800" h="534" %}}
+![](https://farm8.staticflickr.com/7295/8716000942_da1a0c924f_c.jpg "=800x534")
 
 ### おおこの滝
 滝の前に並んだオレンジ傘が綺麗でした。
 
-{{% img src="https://farm8.staticflickr.com/7369/8715963872_d243c03c9b_o.jpg" w="640" h="640" %}}
+![](https://farm8.staticflickr.com/7369/8715963872_d243c03c9b_o.jpg "=640x640")
 
 海中温泉に行ってみたり。
 ほんとに、海のすぐ横に温泉があってビックリ!!地元の人って入ってるのかな？
 
-{{% img src="https://farm8.staticflickr.com/7341/8714844601_d89a50b283_c.jpg" w="800" h="800" %}}
+![](https://farm8.staticflickr.com/7341/8714844601_d89a50b283_c.jpg "=800x800")
 
 なんだかんだ１日回って、時間足りなかったですね。
 
@@ -62,16 +62,16 @@ img: "https://farm8.staticflickr.com/7320/8715988660_c5040b0f25_c.jpg"
 ひたすらこのトロッコ道を歩いていきます。
 
 
-{{% img src="https://farm8.staticflickr.com/7291/8714872811_d6826034ec_c.jpg" w="800" h="534" %}}
+![](https://farm8.staticflickr.com/7291/8714872811_d6826034ec_c.jpg "=800x534")
 
 
 まだまだ歩きます。この横並びの木が曲者で、歩幅を一定に歩けない!!下を気にして歩かないと行けないので、なかなか思うようにペースを掴めなかった。数時間歩くと、木の板に変わるので一気にペースアップ!!
 
-{{% img src="https://farm8.staticflickr.com/7287/8714871717_c35697dd10_c.jpg" w="800" h="534" %}}
+![](https://farm8.staticflickr.com/7287/8714871717_c35697dd10_c.jpg "=800x534")
 
 途中、水の滴るコケとかが綺麗でした。
 
-{{% img src="https://farm8.staticflickr.com/7440/8714872273_e9cb0b375d_c.jpg" w="800" h="534" %}}
+![](https://farm8.staticflickr.com/7440/8714872273_e9cb0b375d_c.jpg "=800x534")
 
 がしかし、同じような風景が続くので、結構飽きますね。
 
@@ -79,12 +79,12 @@ img: "https://farm8.staticflickr.com/7320/8715988660_c5040b0f25_c.jpg"
 やっとたどり着きました。そう、ウィルソン株。こんな感じの切り株でした。
 
 
-{{% img src="https://farm8.staticflickr.com/7370/8715989530_5726ec7e70_c.jpg" w="800" h="534" %}}
+![](https://farm8.staticflickr.com/7370/8715989530_5726ec7e70_c.jpg "=800x534")
 
 必死で、ハートに見えるポイントを見つけてパシャリ。なかなかキツい体勢にならないと撮れません。
 
 
-{{% img src="https://farm8.staticflickr.com/7443/8714870995_8a60190c6c_c.jpg" w="800" h="534" %}}
+![](https://farm8.staticflickr.com/7443/8714870995_8a60190c6c_c.jpg "=800x534")
 
 ### 縄文杉
 更に歩くこと歩くこと、ようやく出会えました縄文杉!!!
@@ -95,11 +95,11 @@ img: "https://farm8.staticflickr.com/7320/8715988660_c5040b0f25_c.jpg"
 
 
 
-{{% img src="https://farm8.staticflickr.com/7436/8714845801_c24116dce0_c.jpg" w="800" h="534" %}}
+![](https://farm8.staticflickr.com/7436/8714845801_c24116dce0_c.jpg "=800x534")
 
 あのでっかいでっかい縄文杉も、こんな小さい芽の時期があったなんて信じられないですよね。
 
-{{% img src="https://farm8.staticflickr.com/7336/8714845189_7be2260ff6_c.jpg" w="800" h="800" %}}
+![](https://farm8.staticflickr.com/7336/8714845189_7be2260ff6_c.jpg "=800x800")
 
 帰りは、混雑してたポイントで写真撮影を繰り返しながら下山。
 9時間弱ぐらいかかりました。
@@ -111,10 +111,10 @@ img: "https://farm8.staticflickr.com/7320/8715988660_c5040b0f25_c.jpg"
 雨の音、水の流れる音、鳥の鳴き声に癒されながら、どんどん変わっていく世界を歩くのは面白かった。
 
 
-{{% img src="https://farm8.staticflickr.com/7320/8715988660_c5040b0f25_c.jpg" w="800" h="534" %}}
+![](https://farm8.staticflickr.com/7320/8715988660_c5040b0f25_c.jpg "=800x534")
 
 
-{{% img src="https://farm8.staticflickr.com/7401/8715987232_3601229046_c.jpg" w="800" h="534" %}}
+![](https://farm8.staticflickr.com/7401/8715987232_3601229046_c.jpg "=800x534")
 
 
 このときの屋久島の天気は晴れ。太鼓岩までには、晴れ間が見れることを期待して歩いていたが、どんどん強くなる雨。太鼓岩に着いたときには、雲、霧、雨でなんにも見えませんでした・・・
@@ -131,9 +131,9 @@ img: "https://farm8.staticflickr.com/7320/8715988660_c5040b0f25_c.jpg"
 岩を登り切った瞬間に広がる風景には、心踊りました。太鼓岩リベンジ成功。
 
 
-{{% img src="https://farm8.staticflickr.com/7293/8716501785_8e63af28a0_c.jpg" w="800" h="534" %}}
+![](https://farm8.staticflickr.com/7293/8716501785_8e63af28a0_c.jpg "=800x534")
 
-{{% img src="https://farm8.staticflickr.com/7388/8714868465_c305329ae5_c.jpg" w="800" h="534" %}}
+![](https://farm8.staticflickr.com/7388/8714868465_c305329ae5_c.jpg "=800x534")
 
 
 １時間近く頂上で、グダグダしてられたのも早起きのおかげ。

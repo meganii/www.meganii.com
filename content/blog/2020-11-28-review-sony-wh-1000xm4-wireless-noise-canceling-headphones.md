@@ -1,7 +1,7 @@
 ---
 title: "【レビュー】SONY WH-1000XM4 ワイヤレスノイズキャンセリングヘッドフォン"
 date: 2020-11-28T11:47:52+09:00
-lastmod: 2020-11-30T22:15:58+09:00
+lastmod: 2023-05-05T01:24:10+09:00
 published: true
 category: ["Gadget"]
 tags: ["レビュー", "ヘッドフォン", "SONY", "Music"]
@@ -12,7 +12,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1606546130/IMG20201128154
 
 My new gear... 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1606546130/IMG20201128154423_ww5bca.jpg" w="3456" h="3456" alt="SONY WH-1000XM4 ワイヤレスノイズキャンセリングヘッドフォン" %}}
+![SONY WH-1000XM4 ワイヤレスノイズキャンセリングヘッドフォン](https://res.cloudinary.com/meganii/image/upload/v1606546130/IMG20201128154423_ww5bca.jpg "?size=3456x3456&hero=1")
 
 初めてのワイヤレスノイズキャンセリングヘッドフォン「SONY WH-1000XM4」を購入して、2週間利用してみたのでその感想を書きます。
 

@@ -1,7 +1,7 @@
 ---
 title: "【Tableau】Tableau PublicのVizをiframeでブログに埋め込む方法"
 date: 2020-03-06T17:24:18+09:00
-lastmod: 2020-07-10T07:49:04+09:00
+lastmod: 2023-05-05T01:24:07+09:00
 comments: true
 category: ['Tech']
 tags: ['Tableau', 'Tableau Public']
@@ -31,12 +31,12 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_102
 
 下図のShareボタンをクリックすると埋め込みコードが発行されます。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1583580549/sharing_tableau_public_qmf1tj.png" w="502" h="73" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1583580549/sharing_tableau_public_qmf1tj.png "=502x73")
 
 
 基本的に、この`埋め込みコード`を利用することでVizをブログに貼り付けることができます。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1583580773/tableau_public_embeded_code_vumlsn.png" w="268" h="215" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1583580773/tableau_public_embeded_code_vumlsn.png "=268x215")
 
 
 2. iframeでTableau Publicの埋め込みを行う

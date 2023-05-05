@@ -1,7 +1,7 @@
 ---
 title: "Google Apps Scriptで、ページ毎のはてなブックマーク数を週次で取得する"
 date: 2020-07-20T06:12:16+09:00
-lastmod: 2022-07-02T11:32:46+09:00
+lastmod: 2023-05-05T01:24:09+09:00
 published: true
 category: ["Tech"]
 tags: ["GAS","Google Apps Script","はてなブックマーク"]
@@ -72,6 +72,6 @@ function main() {
 }
 ```
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1595142928/du4nlvuwws6jwesf6rit.png" w="922" h="435" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1595142928/du4nlvuwws6jwesf6rit.png "=922x435")
 
 {{% amazon B07BNB1Z9L %}}

@@ -1,7 +1,7 @@
 ---
 title: "Installing Oracle Database Express Edition11g on Vagrant(CentOS 6.4)"
 date: 2015-02-08T15:11:00+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:23:58+09:00
 category: ['Tech']
 tags: ['Oracle','database']
 published: true
@@ -59,7 +59,7 @@ end
 
 Creating share folder to access by Guest OS.
 
-{{% img src="https://farm8.staticflickr.com/7423/16444231326_e7bed11e94_z.jpg" w="3" h="2" %}}
+![](https://farm8.staticflickr.com/7423/16444231326_e7bed11e94_z.jpg "=3x2")
 
 ### Boot OS
 
@@ -180,7 +180,7 @@ Username and password are the following.
 
 You can access and check oracle work well.
 
-{{% img src="https://farm9.staticflickr.com/8640/16468400201_39ccfefbac_z.jpg" w="3" h="2" %}}
+![](https://farm9.staticflickr.com/8640/16468400201_39ccfefbac_z.jpg "=3x2")
 
 ## Ref
 - [ swapon /swapfile](https://gist.github.com/koudaiii/0ed6a8558aa297af463e)

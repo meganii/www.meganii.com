@@ -1,7 +1,7 @@
 ---
 title: "ぐだぐだ言ってないでコードを書けよ、自分！ - 「Webサービスのつくり方」"
 date: 2014-09-04T22:43:00+09:00
-lastmod: 2020-07-16T17:34:31+09:00
+lastmod: 2023-05-05T01:23:56+09:00
 category: ['Tech']
 tags: ['book', 'WebService']
 published: true
@@ -19,7 +19,7 @@ img: "https://m.media-amazon.com/images/I/51jdbeo+rmL.jpg"
 
 ## ぐだぐだ言ってないでコードを書けよ、ハゲ
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1594888330/4466482623_6aea29d90a_z_rhauum.jpg" w="640" h="425" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1594888330/4466482623_6aea29d90a_z_rhauum.jpg "=640x425")
 <span>Code / Riebart</span>
 
 
@@ -41,7 +41,7 @@ img: "https://m.media-amazon.com/images/I/51jdbeo+rmL.jpg"
 
 ## なければつくる
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1594888369/14477908267_79bbdb0def_z_aruuwp.jpg" w="640" h="481" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1594888369/14477908267_79bbdb0def_z_aruuwp.jpg "=640x481")
 <span>wheels / jasleen_kaur</span>
 
 >車輪の再発明　・・・　ある目的を果たすためのライブラリや先行事例があるにもかかわらず、同じことを叶えるためについつい自分で作ってしまう行為。
@@ -53,7 +53,7 @@ img: "https://m.media-amazon.com/images/I/51jdbeo+rmL.jpg"
 
 ## 実装までにつくる「企画」の全て
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1594888388/8624484494_664924de8d_z_jud1xw.jpg" w="640" h="427" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1594888388/8624484494_664924de8d_z_jud1xw.jpg "=640x427")
 <span>180/365² Sin ideas / anieto2k</span>
 
 1. 哲学

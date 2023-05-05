@@ -1,7 +1,7 @@
 ---
 title: 勢いで飛び込んだ World Domination Summit2012
 date: 2012-07-12
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:23:53+09:00
 category: ['Travel']
 tags: ['travel','生き方', '旅行記']
 published: true
@@ -11,7 +11,7 @@ img: "https://farm9.staticflickr.com/8148/7549244206_d5aaa94459_s.jpg"
 
 ## 勢いで飛び込んだ World Domination Summit
 
-{{% img src="https://farm9.staticflickr.com/8148/7549244206_d5aaa94459.jpg" w="500" h="333" %}}
+![](https://farm9.staticflickr.com/8148/7549244206_d5aaa94459.jpg "=500x333")
 
 2012/7/6-7/9 オレゴン州ポートランドで開催された、World Domination Summitに参加してきました！
 
@@ -39,7 +39,7 @@ img: "https://farm9.staticflickr.com/8148/7549244206_d5aaa94459_s.jpg"
 
 ## 予想通りだけど、高い高い言語の壁
 
-{{% img src="https://farm8.staticflickr.com/7259/7531936752_03f83294fc.jpg" w="500" h="333" %}}
+![](https://farm8.staticflickr.com/7259/7531936752_03f83294fc.jpg "=500x333")
 <a href="http://www.flickr.com/photos/chrisguillebeau/7531936752/" title="wds2012-662 by Chris Guillebeau, on Flickr">wds2012-662 by Chris Guillebeau, on Flickr</a>
 
 
@@ -67,7 +67,7 @@ img: "https://farm9.staticflickr.com/8148/7549244206_d5aaa94459_s.jpg"
 情報の取得にしても、情報の発信にしても、リーチ出来る範囲が違いすぎる。
 
 
-{{% img src="https://farm8.staticflickr.com/7254/7523497602_2eea8ca66a.jpg" w="500" h="333" %}}
+![](https://farm8.staticflickr.com/7254/7523497602_2eea8ca66a.jpg "=500x333")
 <a href="http://www.flickr.com/photos/chrisguillebeau/7523497602/" title="wds2012-453 by Chris Guillebeau, on Flickr">wds2012-453 by Chris Guillebeau, on Flickr</a>
 
 3way handshake ってTCPのコネクションの張り方があるけど、英語での初めての出会いもこんな感じで、コネクションを張ってるみたいだった。Hi! My name ....　Nice to meet you. 握手してコネクションを広げていってた。なんだろう、自然にやってるのが結構衝撃だった。会場以外でも、普通のドーナッツ屋でもその光景を見たのでごく自然なんだろう。
@@ -76,7 +76,7 @@ img: "https://farm9.staticflickr.com/8148/7549244206_d5aaa94459_s.jpg"
 ### Follow Your Passion
 自分のパッションに従うという感覚。
 
-{{% img src="https://farm9.staticflickr.com/8148/7537808698_d39a88b150.jpg" w="500" h="333" %}}
+![](https://farm9.staticflickr.com/8148/7537808698_d39a88b150.jpg "=500x333")
 <a href="http://www.flickr.com/photos/chrisguillebeau/7537808698/" title="wds2012-946 by Chris Guillebeau, on Flickr">wds2012-946 by Chris Guillebeau, on Flickr</a>
 
 
@@ -89,7 +89,7 @@ img: "https://farm9.staticflickr.com/8148/7549244206_d5aaa94459_s.jpg"
 
 <h5>薄っぺらい自分</h5>
 
-{{% img src="https://farm9.staticflickr.com/8282/7523487892_c16fd092bd.jpg" w="500" h="333"%}}
+![](https://farm9.staticflickr.com/8282/7523487892_c16fd092bd.jpg "=500x333")
 <a href="http://www.flickr.com/photos/chrisguillebeau/7523487892/" title="wds2012-540 by Chris Guillebeau, on Flickr">wds2012-540 by Chris Guillebeau, on Flickr</a>
 
 パッション、信念、主義主張。何かの問題を解決したいと願う気持ち。自分には、足りてない。

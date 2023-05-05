@@ -1,7 +1,7 @@
 ---
 title: "「Hugoで始める静的サイト構築入門　静的サイトジェネレーターで作る自作サイト」を出版しました"
 date: 2021-01-24T17:00:44+09:00
-lastmod: 2021-02-20T15:33:32+09:00
+lastmod: 2023-05-05T01:24:11+09:00
 published: true
 category: ["Tech"]
 tags: ["Hugo", "Book"]
@@ -10,7 +10,7 @@ slug: "published-a-book-introduction-to-building-static-sites-with-hugo"
 img: "https://res.cloudinary.com/meganii/image/upload/v1611489360/N01306-cover_fyrifk.jpg"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1613208327/HugoBook_Cover_BackCover_xi0ovv.png" w="1280" h="670" alt="Hugoで始める静的サイト構築入門　静的サイトジェネレーターで作る自作サイト 表紙・背表紙" %}}
+![Hugoで始める静的サイト構築入門　静的サイトジェネレーターで作る自作サイト 表紙・背表紙](https://res.cloudinary.com/meganii/image/upload/v1613208327/HugoBook_Cover_BackCover_xi0ovv.png "?size=1280x670&hero=1")
 
 <!-- textlint-disable -->
 
@@ -64,7 +64,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1611489360/N01306-cover_f
 `Hugo`の日本語での情報は、英語と比べて多くはないので、今後も少しでも日本語でのHugo情報を発信していきたいと考えています。
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1611489360/N01306-cover_fyrifk.jpg" w="1139" h="1609" alt="Hugoで始める静的サイト構築入門　静的サイトジェネレーターで作る自作サイト" %}}
+![Hugoで始める静的サイト構築入門　静的サイトジェネレーターで作る自作サイト](https://res.cloudinary.com/meganii/image/upload/v1611489360/N01306-cover_fyrifk.jpg "=1139x1609")
 
 
 

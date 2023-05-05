@@ -1,7 +1,7 @@
 ---
 title: "UTF-8-MACとは何か？〜Jekyllのカテゴリ(タグ)ページで濁点を含むページが表示されない〜"
 date: 2014-11-29T23:01:00+09:00
-lastmod: 2022-07-02T10:08:03+09:00
+lastmod: 2023-05-05T01:23:57+09:00
 category: ['Tech']
 tags: ['Jekyll','文字コード']
 published: true 
@@ -73,7 +73,7 @@ brew install rsync
 
 ## 手書きメモ
 
-{{% img src="https://farm8.staticflickr.com/7482/15719329297_f662ce2376_z.jpg" w="3" h="2" %}}
+![](https://farm8.staticflickr.com/7482/15719329297_f662ce2376_z.jpg "=3x2")
 
 
 ## 参考

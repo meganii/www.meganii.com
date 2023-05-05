@@ -1,7 +1,7 @@
 ---
 title: "日本で一番標高の高い場所にある「野外映画館」 -星空の映画祭2014-"
 date: 2014-08-24T22:04:00+09:00
-lastmod: 2019-09-01T20:31:30+09:00
+lastmod: 2023-05-05T01:23:56+09:00
 category: ['Travel']
 tags: ["Movie","travel","星空の映画祭"]
 published: true
@@ -11,7 +11,7 @@ img: "https://farm4.staticflickr.com/3879/14832139400_0ef597a0be.jpg"
 
 土砂降りの雨の中、野外スクリーンで観る映画は初めてだった。
 
-{{% img src="https://farm4.staticflickr.com/3879/14832139400_0ef597a0be.jpg" w="500" h="375" %}}
+![](https://farm4.staticflickr.com/3879/14832139400_0ef597a0be.jpg "=500x375")
 
 
 {{% googleadsense %}}

@@ -1,7 +1,7 @@
 ---
 title: "AMP OptimizerによるAMPのさらなる最適化"
 date: 2020-09-27T20:07:10+09:00
-lastmod: 2022-07-02T11:32:46+09:00
+lastmod: 2023-05-05T01:24:10+09:00
 published: true
 category: ["Tech"]
 tags: ["AMP","Blog"]
@@ -175,7 +175,7 @@ https://www.webpagetest.org/
 | Speed index                | 11.954   | 
 | Largest Content Full Paint | 14.345   | 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1601118202/webpageperformance_nomal_amp_ymwmey.png" w="882" h="378" alt="通常のAMP" %}}
+![通常のAMP](https://res.cloudinary.com/meganii/image/upload/v1601118202/webpageperformance_nomal_amp_ymwmey.png "=882x378")
 
 ### AMP Packer実行
 
@@ -186,7 +186,7 @@ https://www.webpagetest.org/
 | Largest Content Full Paint |  9.532   | 
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1601118202/webpageperformance_amp_packeger_dg5fja.png" w="980" h="408" alt="AMP Packer実行" %}}
+![AMP Packer実行](https://res.cloudinary.com/meganii/image/upload/v1601118202/webpageperformance_amp_packeger_dg5fja.png "=980x408")
 
 
 ### AMP Optimizer実行
@@ -198,7 +198,7 @@ https://www.webpagetest.org/
 | Largest Content Full Paint |  9.131   | 
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1601118202/webpageperformance_amp_optimizer_pemy1f.png" w="980" h="408" alt="AMP Optimizer実行" %}}
+![AMP Optimizer実行](https://res.cloudinary.com/meganii/image/upload/v1601118202/webpageperformance_amp_optimizer_pemy1f.png "=980x408")
 
 ### AMP Optimizer x Google Ad Manager
 
@@ -209,7 +209,7 @@ https://www.webpagetest.org/
 | Largest Content Full Paint |  8.598   | 
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1601118202/webpageperformance_amp_optimizer_ad_manager_lwev8r.png" w="980" h="412" alt="AMP Optimizer実行 x Google Ad Manager" %}}
+![AMP Optimizer実行 x Google Ad Manager](https://res.cloudinary.com/meganii/image/upload/v1601118202/webpageperformance_amp_optimizer_ad_manager_lwev8r.png "=980x412")
 
 
 ## まとめ

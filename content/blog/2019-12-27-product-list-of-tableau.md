@@ -1,7 +1,7 @@
 ---
 title: "【Tableau】Tableau製品とTableau Publicで「できること」「できないこと」"
 date: 2019-12-27T11:18:08+09:00
-lastmod: 2020-07-10T07:49:04+09:00
+lastmod: 2023-05-05T01:24:06+09:00
 comments: true
 category: ['Tech']
 tags: ['Tableau']
@@ -10,7 +10,7 @@ slug: product-list-of-tableau
 img: "https://res.cloudinary.com/meganii/image/upload/v1577416646/tableaupublic_xd3mun.png"
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1577416646/tableaupublic_xd3mun.png" w="556" h="329" alt="Tableau Public" %}}
+![Tableau Public](https://res.cloudinary.com/meganii/image/upload/v1577416646/tableaupublic_xd3mun.png "=556x329")
 
 
 最近、Tableauを触る機会が出てきたので、調べながら学んだ点を残しておきます。
@@ -47,7 +47,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1577416646/tableaupublic_
 - `Tableau Public Gallery`　共有ツール（サービス）
 
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1577413049/TableauProducts_tbfqoe.jpg" w="1920" h="1080" alt="Tableau 製品比較" %}}
+![Tableau 製品比較](https://res.cloudinary.com/meganii/image/upload/v1577413049/TableauProducts_tbfqoe.jpg "=1920x1080")
 
 
 ### Tableau Publicの機能制限

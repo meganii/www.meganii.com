@@ -1,7 +1,7 @@
 ---
 title: ボルダリング 梅田BOLD
 date: 2013-06-29T23:46:00+09:00
-lastmod: 2019-04-27T16:12:02+09:00
+lastmod: 2023-05-05T01:23:55+09:00
 category: ['Activity']
 tags: ['ボルダリング']
 published: true
@@ -11,7 +11,7 @@ slug: umeda-bold
 2013/06/29(土) 梅田にあるクライミングジム BOLDに行って来ました。
 
 
-{{% img src="https://i.gyazo.com/1f9cd430dd333cc68e03139fb4bd49cb.png" w="3" h="2" %}}
+![](https://i.gyazo.com/1f9cd430dd333cc68e03139fb4bd49cb.png "=3x2")
 
 <a style="color:#0070C5;" href="http://bold-gym.com/" target="_blank">大阪　クライミングジム　BOLD</a>
 

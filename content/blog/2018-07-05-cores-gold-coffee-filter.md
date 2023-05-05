@@ -1,7 +1,7 @@
 ---
 title: "コレス ゴールドフィルターを使ってハンドドリップコーヒーを楽しむ"
 date: 2018-07-05T23:25:04+09:00
-lastmod: 2020-08-22T19:41:30+09:00
+lastmod: 2023-05-05T01:24:04+09:00
 comments: true
 category: ['Gadget']
 tags: ['Coffee', 'CORES', 'ハンドドリップ']
@@ -12,17 +12,17 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v1530
 
 [コレス ゴールドフィルター](https://amzn.to/2u7Q24D)を手に入れました。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2817_jjmfro.jpg" w="3024" h="3024" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2817_jjmfro.jpg "=3024x3024")
 
 ## てってれー！金に輝くゴールドフィルター
 
 フィルターを配置するホルダー付きです。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2813_zf0mui.jpg" w="3024" h="3024" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2813_zf0mui.jpg "=3024x3024")
 
 コーヒー粉を入れるとこんな感じになります。
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2816_wvcsiq.jpg" w="3024" h="3024" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1530829968/IMG_2816_wvcsiq.jpg "=3024x3024")
 
 
 

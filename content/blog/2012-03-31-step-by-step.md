@@ -1,14 +1,14 @@
 ---
 title: 小さい成長。
 date: 2012-03-31
-lastmod: 2022-07-02T11:32:46+09:00
+lastmod: 2023-05-05T01:23:52+09:00
 category: ['Life']
 tags: ['成長']
 published: true
 slug: step-by-step
 ---
 
-{{% img src="https://farm8.staticflickr.com/7245/6871592946_16b179354b_z.jpg" w="640" h="480" %}}
+![](https://farm8.staticflickr.com/7245/6871592946_16b179354b_z.jpg "=640x480")
 
 小さい成長を。一歩ずつ。step by step。
 

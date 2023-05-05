@@ -1,7 +1,7 @@
 ---
 title: "「Scrapbox Drinkup ＃04 Tokyo Edition」イベントレポート"
 date: 2018-05-23T21:40:53+09:00
-lastmod: 2021-01-26T22:24:26+09:00
+lastmod: 2023-05-05T01:24:04+09:00
 comments: true
 category: ['Tech']
 tags: ['meetup','scrapbox']
@@ -10,7 +10,7 @@ slug: scrapbox-drinkup-04-tokyo-edition
 img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1527252310/scrapbox_drinkup_04_fcn0xk.jpg
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1527252310/scrapbox_drinkup_04_fcn0xk.jpg" w="467" h="467" alt="Scrapbox Drinkup #04 TOKYO EDITION" %}}
+![Scrapbox Drinkup #04 TOKYO EDITION](https://res.cloudinary.com/meganii/image/upload/v1527252310/scrapbox_drinkup_04_fcn0xk.jpg "=467x467")
 
 
 2018/05/23（水）に行われた「SCRAPBOX DRINKUP ＃04 TOKYO EDITION」に参加してきました。ブログ枠での参加でしたのでイベントレポートとしてまとめておきます。
@@ -39,7 +39,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_102
 
 - ピザとビールで乾杯！！正確には、開始前からピザが振舞われていました
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1527316843/DRINKUP_mgduji.jpg" w="2686" h="2014" alt="DRINKUP" %}}
+![DRINKUP](https://res.cloudinary.com/meganii/image/upload/v1527316843/DRINKUP_mgduji.jpg "=2686x2014")
 
 ## 「Scrapboxからの重大発表」nota代表 洛西さん（@rakusai)
 
@@ -106,7 +106,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_102
 
 ## 「HERPでのScrapbox活用について」 亀岡さん（@ryotakameoka)
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1527322776/herp_s46sok.png" w="1435" h="780" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1527322776/herp_s46sok.png "=1435x780")
 
 - [@ryotakameoka](https://twitter.com/ryotakameoka/)
 
@@ -179,7 +179,7 @@ Scrapboxを社内利用できるユーザさんはぜひお試しあれ！
 
 ## 「『書き心地』と『安心感』こそ「Scrapbox」の良さ」 大瀧さん（@masahiroootaki)
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1527322551/ootakiradio_nviari.png" w="1435" h="780" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1527322551/ootakiradio_nviari.png "=1435x780")
 
 - [/ootaki](https://scrapbox.io/ootaki/)
 - [@masahiroootaki](https://twitter.com/masahiroootaki/)
@@ -210,7 +210,7 @@ Scrapboxを社内利用できるユーザさんはぜひお試しあれ！
 
 ## 「Scrapboxでポートフォリオ作ると最高という話」 菅さん（@ssuge)
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1527322552/syunichisuge_diouy0.png" w="1435" h="780" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1527322552/syunichisuge_diouy0.png "=1435x780")
 
 - [@ssuge](https://twitter.com/ssuge)
 - [syunichisuge](https://scrapbox.io/syunichisuge/)
@@ -227,7 +227,7 @@ Scrapboxを社内利用できるユーザさんはぜひお試しあれ！
 
 ## yuisekiさん（@yuiseki)
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1527322846/vr_leiy3w.png"  w="1435" h="780" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1527322846/vr_leiy3w.png "=1435x780")
 
 - [@yuiseki](https://twitter.com/yuiseki)
 
@@ -244,7 +244,7 @@ Scrapboxを社内利用できるユーザさんはぜひお試しあれ！
 
 ## 「著作権法の論文に Scrapboxの解説を書きました」　塩澤さん（@shiology)
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1527322971/shio_wfn6rj.png"  w="1435" h="780" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1527322971/shio_wfn6rj.png "=1435x780")
 
 - [shio✨](https://scrapbox.io/shio/)
 - [@shiology](https://twitter.com/shiology)
@@ -258,7 +258,7 @@ Scrapboxを社内利用できるユーザさんはぜひお試しあれ！
 
 ## 「Scrapboxのソート順序を変える実験」 西尾さん（@nishio)
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1527323138/nishio_xdkkvc.png"  w="1435" h="780" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1527323138/nishio_xdkkvc.png "=1435x780")
 
 
 - [西尾泰和のScrapbox](https://scrapbox.io/nishio/)
@@ -272,7 +272,7 @@ Scrapboxを社内利用できるユーザさんはぜひお試しあれ！
 
 ## Scrapboxを黒い画面から操作する niboshiさん（@mpppk)
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1527323268/sbox_qs5quv.png"  w="1435" h="780" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1527323268/sbox_qs5quv.png "=1435x780")
 
 
 - [niboshi](https://scrapbox.io/niboshi)
@@ -293,7 +293,7 @@ sbox list pages  | fzf | xargs -0 sbox browse
 
 ## Scrapbox書籍 増井さん（@masui)
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1527323605/masui_zobqbn.png"  w="1435" h="780" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1527323605/masui_zobqbn.png "=1435x780")
 
 - [増井俊之](https://scrapbox.io/masui/)
 - [@masui](http://twitter.com/masui/)

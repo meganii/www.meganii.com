@@ -1,7 +1,7 @@
 ---
 title: "「デルタ状の実践」〜「やること地獄」を終わらせるタスク管理「超」入門〜"
 date: 2020-04-27T06:00:00+09:00
-lastmod: 2020-04-28T22:47:00+09:00
+lastmod: 2023-05-05T01:24:08+09:00
 category: ['Book']
 tags: ['タスク管理', '習慣', '読書']
 published: true
@@ -32,7 +32,7 @@ img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_600
 
 ### デルタ状の実践　【実行 => 失敗/検証 => 改善】
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1587879130/delta-practice_xyfyxj.jpg" w="2386" h="1491" alt="デルタ状の実践" %}}
+![デルタ状の実践](https://res.cloudinary.com/meganii/image/upload/v1587879130/delta-practice_xyfyxj.jpg "=2386x1491")
 
 - 失敗/検証
   - 失敗を前提とする

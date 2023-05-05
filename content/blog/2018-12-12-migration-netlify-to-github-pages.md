@@ -1,7 +1,7 @@
 ---
 title: "NetlifyからGitHub Pagesに移行した件"
 date: 2018-12-12T23:23:35+09:00
-lastmod: 2020-08-08T21:03:11+09:00
+lastmod: 2023-05-05T01:24:05+09:00
 comments: true
 category: ['Tech']
 tags: ['GitHub Pages', 'Netlify']
@@ -22,14 +22,14 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v159
 
 ### Before: 2018/10/14時点の Netlifyでのwww.meganii.com の結果
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1544920407/ry8deumwuitojxcm8tvp.png" w="787" h="280" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1544920407/ry8deumwuitojxcm8tvp.png "=787x280")
 
 
 
 ### After: meganii.github.io
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1544920407/h1jrh3plvvyikxyirn0p.png" w="810" h="296" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1544920407/h1jrh3plvvyikxyirn0p.png "=810x296")
 
 ### www.meganii.com (meganii.github.io)
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1544920406/gcvp3msrla2emzkeijuz.png" w="791" h="289" %}}
+![](https://res.cloudinary.com/meganii/image/upload/v1544920406/gcvp3msrla2emzkeijuz.png "=791x289")
