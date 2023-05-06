@@ -11,6 +11,8 @@ DefaultContentLanguage = "ja"
 enableGitInfo = false
 Paginate = 12
 
+ignoreErrors = ["error-remote-getjson"]
+
 [permalinks]
 blog = "/blog/:year/:month/:day/:slug/"
 category = "/blog/category/:slug/"
