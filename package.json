@@ -8,7 +8,7 @@
     "start:hugo": "hugo server",
     "start": "run-p start:*",
     "build:css": "npx tailwindcss -i ./themes/tailwindcss/assets/css/styles.css -o ./themes/tailwindcss/assets/css/main.css -m",
-    "build:hugo": "hugo --gc --minify -v && gulp",
+    "build:hugo": "hugo --gc --minify -v",
     "build": "run-s build:*",
     "staging:css": "npx tailwindcss -i ./themes/tailwindcss/assets/css/styles.css -o ./themes/tailwindcss/assets/css/main.css -m",
     "staging:hugo": "hugo --baseURL=$CF_PAGES_URL/ --gc --minify -v",
