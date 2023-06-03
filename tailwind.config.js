@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-themeDir = 
 module.exports = {
   content: [
     'themes/tailwindcss/layouts/**/*.html',
