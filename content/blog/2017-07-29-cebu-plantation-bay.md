@@ -1,7 +1,7 @@
 ---
 title: "フィリピン・セブ旅行記『何もしない贅沢を「プランテーションベイリゾート＆スパ」で味わう』"
 date: 2017-07-29T21:24:15+09:00
-lastmod: 2023-05-05T01:24:03+09:00
+lastmod: 2023-06-18T13:27:41+09:00
 comments: true
 category: ['Travel']
 tags: ['CEBU','セブ島','何もしない贅沢', 旅行記]
@@ -11,10 +11,10 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1593903217/36106967481_c9
 ---
 
 
-![セブ島　プランテーションベイリゾート＆スパ](https://res.cloudinary.com/meganii/image/upload/v1593903217/36106967481_c962ffa6d3_c_hooswu.jpg "=800x600")
+![セブ島　プランテーションベイリゾート＆スパ](https://res.cloudinary.com/meganii/image/upload/v1593903217/36106967481_c962ffa6d3_c_hooswu.jpg "?size=800x600&hero=1")
 
 
-「<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884792601&vc_url=http%3A%2F%2Fhotels.his-j.com%2FHotelDetail%2FCEB00022.aspx%3Fcid%3D1790" target="_blank" rel="nofollow"><amp-img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884792601" height="1" width="0" layout="fixed"></amp-img>プランテーション ベイ リゾートアンドスパ</a>」に何もしない贅沢を味わいに行ってきました。
+「プランテーション ベイ リゾートアンドスパ」に何もしない贅沢を味わいに行ってきました。
 
 {{% toc %}}
 
@@ -28,26 +28,26 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1593903217/36106967481_c9
 滞在中は以下の通り、ほとんどホテル内で過ごしました。
 
 - 1日目　ホテル到着
-- 2日目　１日ホテル内のプールを満喫
+- 2日目　1日ホテル内のプールを満喫
 - 3日目　アイランドピクニック+プラナスパのツアーへ参加
-- 4日目　半日ホテルでのんびり(したいところだったが、熱でダウン)
+- 4日目　半日ホテルでのんびり（したいところだったが、熱でダウン）
 
 
 ## プランテーション・ベイ宿泊前に気になったところ
 
-プランテーション・ベイに泊まる前に気になったのは、以下の点です。
+プランテーション・ベイに泊まる前で気になったのは、以下の点です。
 
 - 周りにどんなレストランがあるか？
 - 自分たちだけで、街に出掛けるのはどうなのか？
 - ホテルのレストランの値段はどうか？料理の美味しさ、雰囲気はどうか？
 - 海水プールってどうなのか？
 - 雨季の時期、天気がすごく悪いが大丈夫なのか？
-- 通信環境(無線LAN)ってどうなの？
+- 通信環境（無線LAN）ってどうなの？
 
 
 ## ホテル「プランテーションベイ　リゾート＆スパ」
 
-「プランテーションベイ　リゾート&スパ」は、セブ島ではなくマクタン島にあります。空港から車で30分ぐらいです。
+「プランテーションベイ リゾート&スパ」は、セブ島ではなくマクタン島にあります。空港から車で30分ぐらいです。
 
 セブ島ツアーなのにマクタン島なの？！と思いましたが、5つ星ホテルなどのリゾートホテルはマクタン島に多いです。
 
@@ -55,36 +55,16 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1593903217/36106967481_c9
 
 逆に、セブ島の街中を見て回りたいという人は、素直にセブ島内のホテルの方がよいでしょう。なにせ、マクタン島のホテルの周りには何もありません。
 
-
-<a href="https://www.flickr.com/photos/35571855@N06/36200333816/in/dateposted-public/" title="Plantation Bay Resort&amp;SPA">
-<amp-img src="https://farm5.staticflickr.com/4296/36200333816_1cd81e3de4_c.jpg"
-         alt="Plantation Bay Resort&amp;SPA"
-         width="800"
-         height="600"
-         layout="responsive">
-</amp-img>
-</a>
+[![Plantation Bay Resort&amp;SPA](https://farm5.staticflickr.com/4296/36200333816_1cd81e3de4_c.jpg "=800x600")](https://www.flickr.com/photos/35571855@N06/36200333816/in/dateposted-public/)
 
 
 私たちは、プールサイドの部屋に宿泊しました。後から確認すると一番安い部屋だったみたいですが大満足でした。ホテル内には、海水を引き込んだプールや、真水のプールなどたくさんのラグーンがあります。部屋の目の前にもプールがあります。
 
 
+[![Cebu](https://farm5.staticflickr.com/4323/36240502745_66cb737339_c.jpg "=800x600")](https://www.flickr.com/photos/35571855@N06/36240502745/)
 
-<a href="https://www.flickr.com/photos/35571855@N06/36240502745/" title="Cebu"><amp-img src="https://farm5.staticflickr.com/4323/36240502745_66cb737339_c.jpg"
-         alt="Cebu"
-         width="800"
-         height="600"
-         layout="responsive">
-</amp-img></a>
+[![Cebu](https://farm5.staticflickr.com/4292/36106666161_83c3ef4a84_c.jpg "=800x600")](https://www.flickr.com/photos/35571855@N06/36106666161/in/dateposted-public/)
 
-
-
-<a href="https://www.flickr.com/photos/35571855@N06/36106666161/in/dateposted-public/" title="R0058929"><amp-img src="https://farm5.staticflickr.com/4292/36106666161_83c3ef4a84_c.jpg"
-         alt="Cebu"
-         width="800"
-         height="600"
-         layout="responsive">
-</amp-img></a>
 
 ### ホテルの周り
 
@@ -98,35 +78,25 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1593903217/36106967481_c9
 
 私たちが宿泊したとき、「サバンナグリル」は改装中のため閉まっていましたが、以下の3つは営業していました。
 
-- KILIMANJARO キリマンジャロカフェ 24時間営業
+- KILIMANJARO　キリマンジャロカフェ　24時間営業
 - FIJI　フィジーレストラン
-- PARERMO パレルモ　イタリアン
+- PARERMO　パレルモ イタリアン
 
 私たちは、滞在期間中に全制覇しました笑。
 
 フィリピンのビールと言えば、サンミゲルビールだそうです。
 
-<a href="https://www.flickr.com/photos/35571855@N06/35407271344/in/dateposted-public/" title="サンミゲルビール"><amp-img src="https://farm5.staticflickr.com/4302/35407271344_e80cd19cf4_c.jpg"
-         alt="サンミゲルビール"
-         width="800"
-         height="800"
-         layout="responsive">
-</amp-img></a>
 
+[![サンミゲルビール](https://farm5.staticflickr.com/4302/35407271344_e80cd19cf4_c.jpg "=800x600")](https://www.flickr.com/photos/35571855@N06/35407271344/in/dateposted-public/)
 
 朝ごはんは付いていません。ホテルで食べる場合は、キリマンジャロカフェの朝食ビュッフェか、ルームサービスのどちらかになります。
 
-朝食ビュッフェは、ほかの人のブログでも見ましたがとても美味しそうなのですが、結構値が張ります。悩みましたが、ルームサービスの方が朝食ビュッフェと比べてお手頃なため、連日ルームサービスを頼みました。
+朝食ビュッフェは、ほかの人のブログでも見ていて、とても美味しそうなのですが、結構値が張ります。悩みましたが、ルームサービスの方が朝食ビュッフェと比べてお手頃なため、連日ルームサービスを頼みました。
 
 ### ルームサービス
 
-<a href="https://www.flickr.com/photos/35571855@N06/36241234885/in/dateposted-public/" title="プランテーションベイのルームサービス"><amp-img src="https://farm5.staticflickr.com/4291/36241234885_ab50416035_c.jpg"
-         alt="プランテーションベイのルームサービス"
-         width="800"
-         height="600"
-         layout="responsive">
-</amp-img>
-</a>
+
+[![プランテーションベイのルームサービス](https://farm5.staticflickr.com/4291/36241234885_ab50416035_c.jpg "=800x600")](https://www.flickr.com/photos/35571855@N06/36241234885/in/dateposted-public/)
 
 
 日本語対応とは書いてありましたが、ルームサービスに電話してみると普通に英語でしたね汗。カタコトの英語で、なんとかルームサービスを頼みました。
@@ -136,7 +106,8 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1593903217/36106967481_c9
 
 ## 天気
 
-日本からセブ島の天気を調べてみると、毎日雷雨になっていて心配でした。しかし、現地に着くとその心配は無用で、アイランドピクニックも快晴でした。現地のガイドさん曰く、スコールのように雨が降ることがあっても、一日中降り続くことはないそうです。
+日本からセブ島の天気を調べてみると、毎日雷雨になっていて心配でした。しかし、現地に着くとその心配は無用で、アイランドピクニックも快晴でした。
+現地のガイドさん曰く、スコールのように雨が降っても一日中降り続くことはないそうです。
 
 セブ島旅行中の天気が気になっている人も、そこまで気にしなくても大丈夫かもしれません。
 
@@ -161,7 +132,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1593903217/36106967481_c9
 ご注意ください！
 
 
-- 通信環境(無線LAN)
+- 通信環境（無線LAN）
 
 ホテル内に無線LANは飛んでいます。ロビーでは問題なく接続できました。
 
@@ -171,9 +142,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1593903217/36106967481_c9
 
 ## アイランドピクニックとプラナスパ
 
-日本からベルトラ経由で「<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884792593&vc_url=https%3A%2F%2Fwww.veltra.com%2Fjp%2Fasia%2Fphilippines%2Fcebu%2Fa%2F12509%3Fsid%3D1011" target="_blank" rel="nofollow"><amp-img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884792593" height="1" width="0" layout="fixed"></amp-img>アイランドピクニックとプラナスパ</a>」のツアーを申し込んでいました。
-
-<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3067752&pid=884461625&vc_url=https%3A%2F%2Fwww.veltra.com%2Fjp%2Fasia%2Fphilippines%2Fcebu%2Fa%2F12509%3Fsid%3D1011" target="_blank" rel="nofollow"><amp-img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3067752&pid=884461625" height="1" width="0" layout="fixed"></amp-img>【アイランドピクニック】人気の2島めぐり☆ヒルトゥガン島＆ナルスアン島　珊瑚保護区で感動シュノーケル＜現地ガイド(日本語可)／BBQランチ／プラナスパプラン有＞</a>
+日本からベルトラ経由で「アイランドピクニックとプラナスパ」のツアーを申し込んでいました。
 
 ### アイランドピクニック
 
@@ -194,7 +163,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1593903217/36106967481_c9
 
 ## どのぐらいの現金が必要？
 
-さて、いつも海外旅行に行くときに悩むのは、どのぐらい両替していくかです。
+さて、いつも海外旅行へ行くときに悩むのは、どのぐらい両替していくかです。
 
 **一人750ペソは、必ず用意してください！**
 
@@ -224,11 +193,4 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1593903217/36106967481_c9
 
 あと、空港からプランテーションベイに向かうまでの街並みと、ホテルの差が激しかったです。街は、トタンでできた家も多かったです。
 
-<a href="https://www.flickr.com/photos/35571855@N06/35848100590/in/dateposted-public/" title="セブ島の街並み">
-<amp-img src="https://farm5.staticflickr.com/4318/35848100590_c62e061d6c_c.jpg"
-         alt="セブ島の街並み"
-         width="800"
-         height="600"
-         layout="responsive">
-</amp-img>
-</a>
+[![セブ島の街並み](https://farm5.staticflickr.com/4318/35848100590_c62e061d6c_c.jpg "=800x600")](https://www.flickr.com/photos/35571855@N06/35848100590/in/dateposted-public/)

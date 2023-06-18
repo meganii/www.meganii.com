@@ -1,7 +1,7 @@
 ---
 title: "Conoha VPSにCoreOSをインストールする"
 date: 2017-04-16T21:14:51+09:00
-lastmod: 2023-05-05T01:24:02+09:00
+lastmod: 2023-06-18T13:27:41+09:00
 comments: true
 category: ['Tech']
 tags: ['Conoha','VPS','CoreOS']
@@ -10,8 +10,7 @@ slug: installing-coreos-with-conoha-vps
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---
 
-[ConoHaのVPSにCoreOSをインストール \- Qiita](http://qiita.com/miyasakura_/items/4d81dc5fe6f9de0f0dd5)を参考に<a href="https://px.a8.net/svt/ejp?a8mat=2TGARC+63OZ02+50+4YR6O2" target="_blank" rel="nofollow">Conoha VPS</a>
-<amp-img width="1" height="1" layout="fixed" src="https://www13.a8.net/0.gif?a8mat=2TGARC+63OZ02+50+4YR6O2" alt=""></amp-img>にCoreOSをインストールしました。
+[ConoHaのVPSにCoreOSをインストール \- Qiita](http://qiita.com/miyasakura_/items/4d81dc5fe6f9de0f0dd5)を参考にConoha VPSにCoreOSをインストールしました。
 
 
 
@@ -257,10 +256,3 @@ write_files:
 ```
 docker run -d --name dd-agent -v /var/run/docker.sock:/var/run/docker.sock:ro -v /proc/:/host/proc/:ro -v /sys/fs/cgroup/:/host/sys/fs/cgroup:ro -e API_KEY={YOUR_API_KEY} -e SD_BACKEND=docker datadog/docker-dd-agent:latest
 ```
-
-
-## Conoha VPS
-
-<a href="https://px.a8.net/svt/ejp?a8mat=2TGARC+63OZ02+50+4YSWE9" target="_blank" rel="nofollow">
-<amp-img layout="fixed" width="336" height="280" alt="" src="https://www29.a8.net/svt/bgt?aid=170401656369&wid=001&eno=01&mid=s00000000018030032000&mc=1"></amp-img></a>
-<amp-img layout="fixed" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=2TGARC+63OZ02+50+4YSWE9" alt=""></amp-img>

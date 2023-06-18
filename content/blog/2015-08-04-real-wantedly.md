@@ -1,7 +1,7 @@
 ---
 title: "「第4回 リアル・ウォンテッドリー」に行ってきました"
 date: 2015-08-04T20:39:29+09:00
-lastmod: 2023-05-05T01:23:59+09:00
+lastmod: 2023-06-18T13:27:40+09:00
 category: ['Tech']
 tags: ['転職','wantedly', 'イベントレポート', 'Event']
 published: true
@@ -36,10 +36,6 @@ img: https://res.cloudinary.com/meganii/image/upload/v1619316008/realwantedly-4_
 
 自分がやったことが、直に見える、やったことが直接フィードバックされるっていうことには憧れるけど、それって例えば、自分でWebサービスを作ってみても同じことが言えるのかもしれない。
 もっとも、みんなに使ってもらっているサービスを改善していけるというのは面白いのかもしれないけど、ちょっと考えてみれば、どんな仕事でも工夫次第なのかと。
-
-
-<a href="https://px.a8.net/svt/ejp?a8mat=2HUM2F+96FLIQ+2GDO+5ZU2A&aspbid=a14081853587" target="_blank">リクナビNEXT</a>
-<amp-img width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=2HUM2F+96FLIQ+2GDO+5ZU2A" alt="" layout="fixed"></amp-img>
 
 
 開発の仕方を聞くと、だいたいGitHub workflow、AWS、スクラム、継続的インテグレーションは必須っぽい感じがした。

@@ -1,7 +1,7 @@
 ---
 title: "スコッチグレインの革靴「シャインオアレイン」なら雨の日でも快適通勤！！"
 date: 2016-07-23T15:05:40+09:00
-lastmod: 2023-05-05T01:24:01+09:00
+lastmod: 2023-06-18T13:27:41+09:00
 comments: true
 category: ['Life']
 tags: ['革靴','レザー','scotch grain', 'スコッチグレイン']
@@ -10,7 +10,7 @@ slug: scotch-grain-shine-or-rain
 img: "https://res.cloudinary.com/meganii/image/upload/v1594888858/scotchgrain_t1g9ii.jpg"
 ---
 
-![](https://res.cloudinary.com/meganii/image/upload/v1594888858/scotchgrain_t1g9ii.jpg "=600x560")
+![スコッチグレイン シャインオアレインのアップ](https://res.cloudinary.com/meganii/image/upload/v1594888858/scotchgrain_t1g9ii.jpg "?size=600x560&hero=1")
 
 **初めてScotch Grain（スコッチグレイン）の革靴を買って以来、私はスコッチグレインの虜になりました。**
 
@@ -84,9 +84,6 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1594888858/scotchgrain_t1
 
 いつも適当な革靴ばかり履いていた方も、ぜひ一度試してみていただけると良さがわかると思います。
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/165daeff.f5e5bb21.165daf00.df2ff899/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcrispin%2Fsg_2726%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcrispin%2Fi%2F10000335%2F&link_type=pict&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0Iiwic2l6ZSI6IjMwMHgzMDAiLCJuYW0iOjEsIm5hbXAiOiJkb3duIiwiY29tIjoxLCJjb21wIjoiZG93biIsInByaWNlIjoxLCJib3IiOjEsImNvbCI6MH0%3D" target="_blank" rel="nofollow">
-<amp-img src="https://hbb.afl.rakuten.co.jp/hgb/165daeff.f5e5bb21.165daf00.df2ff899/?me_id=1217714&item_id=10000335&m=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fcrispin%2Fcabinet%2Fscotchgrain%2F2726_bl_11.jpg%3F_ex%3D80x80&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fcrispin%2Fcabinet%2Fscotchgrain%2F2726_bl_11.jpg%3F_ex%3D300x300&s=300x300&t=pict" width="300" height="200" layout="fixed"></amp-img></a>
-<p><a href="https://hb.afl.rakuten.co.jp/hgc/165daeff.f5e5bb21.165daf00.df2ff899/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcrispin%2Fsg_2726%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcrispin%2Fi%2F10000335%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjMwMHgzMDAiLCJuYW0iOjEsIm5hbXAiOiJkb3duIiwiY29tIjoxLCJjb21wIjoiZG93biIsInByaWNlIjoxLCJib3IiOjEsImNvbCI6MH0%3D" target="_blank" rel="nofollow">【2000円クーポン】スコッチグレイン　シャインオアレイン3　ストレートチップ　ブラック　（SCOTCHGRAIN　SHINE　or　RAIN　3　2726　BL）</a></p>
 
 ## 参考
 - [シャインオアレインのお手入れについて : 東西店長 語り尽くし \| SCOTCH GRAIN](http://sgrain2.exblog.jp/20825856/)

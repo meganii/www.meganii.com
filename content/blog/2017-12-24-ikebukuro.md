@@ -1,7 +1,7 @@
 ---
 title: "池袋で会社の飲み会に使うべき居酒屋"
 date: 2017-12-24T16:55:06+09:00
-lastmod: 2023-05-05T01:24:04+09:00
+lastmod: 2023-06-18T13:27:41+09:00
 comments: true
 category: ['Life']
 tags: ['飲み会','party', '池袋']
@@ -44,10 +44,8 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,h_75,q_auto
 </ul>
 
 
-<a href="https://www.hotpepper.jp/strJ000861451/" target="_blank" rel="nofollow">
-  <amp-img src='https://imgfp.hotp.jp/IMGH/73/43/P019247343/P019247343_368.jpg' width="368" height="276" layout="responsive"></amp-img>
-写真提供：ホットペッパー グルメ
-</a>
+![サンダーバード](https://imgfp.hotp.jp/IMGH/73/43/P019247343/P019247343_368.jpg "=368x276")
+<a href="https://www.hotpepper.jp/strJ000861451/" target="_blank" rel="nofollow">写真提供：ホットペッパー グルメ</a>
 
 
 
@@ -60,24 +58,6 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,h_75,q_auto
 <li>{{% valuecommerce sid="3067752" pid="884269667" url="https%3A%2F%2Fwww.hotpepper.jp%2FstrJ001100875%2F%3Fvos%3Dnhppvccp99002" text="[ホットペッパー]創作酒庵　彩蔵　池袋サンシャイン通り店" %}}</li>
 </ul>
 
-<a href="https://www.hotpepper.jp/strJ001100875/" target="_blank" rel="nofollow">
-{{% img src="https://imgfp.hotp.jp/IMGH/52/53/P025405253/P025405253_480.jpg" w="368" h="276" class="center" %}}
-写真提供：ホットペッパー グルメ
-</a>
-
-
-### 一粋 池袋店
-
-<ul>
-<li>{{% valuecommerce sid="3067752" pid="885007851" url="https%3A%2F%2Ftabelog.com%2Ftokyo%2FA1305%2FA130501%2F13027331%2F" text="[食べログ]一粋 池袋店" %}}</li>
-<li>{{% valuecommerce sid="3067752" pid="884269667" url="https%3A%2F%2Fwww.hotpepper.jp%2FstrJ000010335%2F" text="[ホットペッパー]和洋創作　個室居酒屋　一粋　-ikki-　池袋東口店" %}}</li>
-</ul>
-
-
-<a href="https://www.hotpepper.jp/strJ000010335/" target="_blank" rel="nofollow">
-{{% img src="https://imgfp.hotp.jp/IMGH/31/60/P028293160/P028293160_480.jpg" w="480" h="480" class="center" %}}
-写真提供：ホットペッパー グルメ
-</a>
 
 
 ### 博多串焼きよかろうもん 東池袋店
@@ -90,9 +70,9 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,h_75,q_auto
 <li>{{% valuecommerce sid="3067752" pid="884269667" url="https%3A%2F%2Fwww.hotpepper.jp%2FstrJ000003480%2F%3Fvos%3Dnhppvccp99002" text="[ホットペッパー]博多串焼きよかろうもん 東池袋店" %}}</li>
 </ul>
 
+![サンダーバード](https://imgfp.hotp.jp/IMGH/49/36/P025514936/P025514936_238.jpg "=368x276")
 
 <a href="https://www.hotpepper.jp/strJ000003480/" target="_blank" rel="nofollow">
-![](https://imgfp.hotp.jp/IMGH/49/36/P025514936/P025514936_238.jpg "=238x238")
 写真提供：ホットペッパー グルメ
 </a>
 
