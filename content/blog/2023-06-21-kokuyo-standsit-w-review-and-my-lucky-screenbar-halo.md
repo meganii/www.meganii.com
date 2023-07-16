@@ -1,7 +1,7 @@
 ---
 title: "コクヨの昇降デスク「STANSIT-W」でスタンディングワークを始めたら「ScreenBar Halo」のプレゼントキャンペーンに当選！快適な在宅環境を手に入れた"
 date: 2023-06-21T22:30:40+09:00
-lastmod: 2023-06-21T22:30:40+09:00
+lastmod: 2023-07-16T08:26:41+09:00
 published: true
 category: ["Gadget"]
 tags: ["コクヨ","在宅環境","リモートワーク", "レビュー"]
@@ -12,16 +12,18 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1687667913/KOKUYO_campaig
 
 ![コクヨのキャンペーン当選品「BenQ ScreenBar Haloのモニターライト」](https://res.cloudinary.com/meganii/image/upload/v1687667913/KOKUYO_campaign_ScreenBarHalo_desk_fvxofp.jpg "?size=1024x576&hero=1")
 
-2023年3月20日、品川にあるコクヨの実店舗「THE CAMPUS」に足を運び、コクヨの電動昇降デスク「STANSIT-W」を体験。そして、そのままその場でKOKUYO Workstyle Shop経由で「STANSIT-W」を購入しました。
+2023年3月、品川にあるコクヨの実店舗「THE CAMPUS」に足を運び、コクヨの電動昇降デスク「STANSIT-W」を体験。そして、そのままその場で[KOKUYO Workstyle Shop]経由で「STANSIT-W」を購入しました。
 
-購入時KOKUYO Workstyle Shopでは[「在宅環境をアップデートしよう！プレゼントキャンペーン」](https://www.kokuyo.co.jp/newsroom/news/category/20230315fn1.html)というキャンペーンを開催していました。ものは試しと応募してみたところ、なんと当選。景品のBenQ「ScreenBar Haloモニターライト」を頂きました。コクヨさん本当にありがとうございます。
+購入時[KOKUYO Workstyle Shop]では[「在宅環境をアップデートしよう！プレゼントキャンペーン」](https://www.kokuyo.co.jp/newsroom/news/category/20230315fn1.html)というキャンペーンを開催していました。ものは試しと応募してみたところ、なんと当選。景品のBenQ「ScreenBar Haloモニターライト」を頂きました。コクヨさん本当にありがとうございます。
 
 >[「在宅環境をアップデートしよう！プレゼントキャンペーン」](https://www.kokuyo.co.jp/newsroom/news/category/20230315fn1.html)  
->ハイブリッドワークが普及したことで、継続的な在宅ワークを見据え、自宅のワークスペースをより働きやすい環境へとアップデートする関心が高まっています。「KOKUYO Workstyle Shop」では今回、在宅ワーク環境のアップデートを応援するため、割引クーポンを配布すると共に、プレゼントキャンペーンを開催します。
+>ハイブリッドワークが普及したことで、継続的な在宅ワークを見据え、自宅のワークスペースをより働きやすい環境へとアップデートする関心が高まっています。「[KOKUYO Workstyle Shop]」では今回、在宅ワーク環境のアップデートを応援するため、割引クーポンを配布すると共に、プレゼントキャンペーンを開催します。
 
 
-「STANSIT-W」は、オンライン注文後に商品が届いた2023年3月25日から、そして「BenQ ScreenBar Haloのモニターライト」は2023年6月23日から使い始めました。使い始めの感想を交えて紹介します。
+「STANSIT-W」は、オンライン注文後に商品が届いた2023年3月末から、そして「BenQ ScreenBar Haloのモニターライト」は2023年6月から使い始めました。使い始めの感想を交えて紹介します。
 
+
+[KOKUYO Workstyle Shop]: https://px.a8.net/svt/ejp?a8mat=3TD268+1VVFQQ+50FK+60OXE
 
 {{% toc %}}
 
