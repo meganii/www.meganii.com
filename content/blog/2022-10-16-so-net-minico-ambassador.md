@@ -1,7 +1,7 @@
 ---
 title: "So-net 光 minicoアンバサダーに就任しました！"
 date: 2022-10-16T15:01:54+09:00
-lastmod: 2022-10-17T09:57:20+09:00
+lastmod: 2023-07-16T08:13:49+09:00
 published: true
 category: ["Tech"]
 tags: ["minico", "minicoアンバサダー"]
@@ -69,13 +69,15 @@ minicoのポイントは次の3点です。
 - 契約期間しばりなし、解約金なし
 - オンラインゲームなど大容量で通信速度を重視するような使い方は推奨されない
 
-<a class="text-blue-500 hover:underline" href="https://px.a8.net/svt/ejp?a8mat=3NJBAA+4DRW36+38O0+1BMW42" target="_blank" rel="nofollow">minico</a><amp-pixel src="https://www17.a8.net/0.gif?a8mat=3NJBAA+4DRW36+38O0+1BMW42" layout="nodisplay"></amp-pixel>は、専用に設計された帯域を利用する最大1Gbpsのインターネット接続サービスです。専用設計のネットワークのため、光回線をリーズナブルに利用できるという特徴があります。
+<a class="text-blue-500 hover:underline" href="https://px.a8.net/svt/ejp?a8mat=3NJBAA+4DRW36+38O0+1BMW42" rel="nofollow">minico</a><img border="0" width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=3NJBAA+4DRW36+38O0+1BMW42" alt="">は、専用に設計された帯域を利用する最大1Gbpsのインターネット接続サービスです。専用設計のネットワークのため、光回線をリーズナブルに利用できるという特徴があります。
+
 
 「**価格もスペックも、あなたにちょうどいいインターネット**」というキャッチフレーズのとおり、値段と性能のバランスがよいと感じています。
 
-オンラインゲームには適さないという旨を公式で謳っているため、オンラインゲームを目的にminicoに切り替えるというのは得策ではないかもしれません。ただ、どの程度の速度を求められるゲームまでなら利用できるかは、今後試してみたいと思います。
+オンラインゲームには適さないという旨を公式で謳っているため、オンラインゲームを目的にminicoへ切り替えるというのは得策ではないかもしれません。
+ただ、どの程度の速度を求められるゲームまでなら利用できるかは、今後試してみたいと思います。
 
 
 ## 参考
 
-- <a class="text-blue-500 hover:underline" href="https://px.a8.net/svt/ejp?a8mat=3NJBAA+4DRW36+38O0+1BPGPE" target="_blank" rel="nofollow">So-net minico</a><amp-pixel src="https://www10.a8.net/0.gif?a8mat=3NJBAA+4DRW36+38O0+1BPGPE" layout="nodisplay"></amp-pixel>
+- <a class="text-blue-500 hover:underline" href="https://px.a8.net/svt/ejp?a8mat=3NJBAA+4DRW36+38O0+1BPGPE" rel="nofollow noopener noreferrer" target="_blank">So-net minico</a><img border="0" width="1" height="1" src="https://www19.a8.net/0.gif?a8mat=3NJBAA+4DRW36+38O0+1BPGPE" alt="">
