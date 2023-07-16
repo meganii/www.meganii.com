@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./hugo_stats.json'],
+  content: [
+    'themes/tailwindcss/layouts/**/*.html',
+    'layouts/**/*.html',
+    'content/**/*.html',
+    'content/**/*.md',
+  ],
   theme: {
     extend: {
       fontFamily: {
