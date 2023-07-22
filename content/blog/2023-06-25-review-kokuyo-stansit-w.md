@@ -1,7 +1,7 @@
 ---
 title: "【レビュー】コクヨ電動昇降デスク「STANSIT-W」"
 date: 2023-06-25T13:58:05+09:00
-lastmod: 2023-07-16T10:02:01+09:00
+lastmod: 2023-07-22T10:48:38+09:00
 published: true
 category: ["Gadget"]
 tags: ["レビュー","STANSIT-W"]
@@ -10,7 +10,7 @@ slug: "review-kokuyo-stansit-w"
 img: "https://res.cloudinary.com/meganii/image/upload/v1687667912/STANSIT-W_ScreenBarHalo_desk_mnbzs3.jpg"
 ---
 
-![STANSIT-Wのデスク](https://res.cloudinary.com/meganii/image/upload/v1687667912/STANSIT-W_ScreenBarHalo_desk_mnbzs3.jpg "?size=1024x576*hero=1")
+![STANSIT-Wのデスク](https://res.cloudinary.com/meganii/image/upload/v1687667912/STANSIT-W_ScreenBarHalo_desk_mnbzs3.jpg "?size=1024x576&hero=1")
 
 コクヨ電動昇降デスク「STANSIT-W」のレビューを購入前と購入後に分けてレビューします。
 
