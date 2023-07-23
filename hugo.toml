@@ -1,8 +1,5 @@
 baseurl = "https://www.meganii.com/"
 title = "SIS Lab"
-theme = "tailwindcss"
-contentDir = "content"
-publishDir = "public"
 
 hasCJKLanguage = true
 summaryLength = 100
@@ -154,6 +151,9 @@ homepage = "https://www.meganii.com/"
 
 
 [module]
+[[module.Imports]]
+  path = "github.com/meganii/gohugo-template-tailwindcss"
+
 [[module.mounts]]
   excludeFiles = '_template/*'
   source = 'content'

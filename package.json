@@ -1,15 +1,25 @@
 {
-  "name": "meganii.com",
-  "version": "1.0.0",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/meganii/meganii.com/issues"
+  },
+  "comments": {
+    "dependencies": {},
+    "devDependencies": {
+      "@johnfoderaro/apaw": "project",
+      "postcss": "github.com/meganii/gohugo-template-tailwindcss",
+      "postcss-cli": "github.com/meganii/gohugo-template-tailwindcss",
+      "tailwindcss": "github.com/meganii/gohugo-template-tailwindcss",
+      "textlint": "project",
+      "textlint-filter-rule-comments": "project",
+      "textlint-filter-rule-whitelist": "project",
+      "textlint-rule-preset-ja-technical-writing": "project",
+      "textlint-rule-preset-jtf-style": "project",
+      "textlint-rule-prh": "project"
+    }
+  },
+  "dependencies": {},
   "description": "my blog",
-  "main": "lib/index.js",
-  "scripts": {
-    "start": "hugo server",
-    "build": "hugo --gc --minify -v",
-    "staging": "hugo --baseURL=$CF_PAGES_URL/ --gc --minify -v"
-  },
-  "dependencies": {
-  },
   "devDependencies": {
     "@johnfoderaro/apaw": "^1.0.1",
     "postcss": "^8.4.27",
@@ -22,14 +32,18 @@
     "textlint-rule-preset-jtf-style": "^2.3.13",
     "textlint-rule-prh": "^5.3.0"
   },
+  "homepage": "https://github.com/meganii/meganii.com#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "name": "meganii.com",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/meganii/meganii.com.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/meganii/meganii.com/issues"
+  "scripts": {
+    "build": "hugo --gc --minify -v",
+    "staging": "hugo --baseURL=$CF_PAGES_URL/ --gc --minify -v",
+    "start": "hugo server"
   },
-  "homepage": "https://github.com/meganii/meganii.com#readme"
+  "version": "1.0.0"
 }
