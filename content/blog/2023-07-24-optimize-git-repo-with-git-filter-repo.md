@@ -50,7 +50,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v159
 
 ### analyzeの結果をもとに何がリポジトリを肥大化させているのかあたりを付ける
 
-まず、`.git/objects`の容量を次のコマンドで確認した。1.9GBもある。
+まず、新しく作業用のリポジトリをcloneし、`.git/objects`の容量を次のコマンドで確認した。1.9GBもある。
 
 ```bash
  du -hs .git/objects
@@ -128,3 +128,5 @@ python3 git-filter-repo -f --mailmap mailmap
 - [7.6 Git Tools - Rewriting History | git book (en)](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
 - [git でリポジトリを整理して容量削減するときに嵌った話 \| おいもログ](https://blog.oimo.io/2021/07/19/git-filter-repo/)
 - [gitの歴史改変が出来るgit filter\-repo](https://zenn.dev/honahuku/scraps/f730a41bf9e10b)
+- [Gitのコミットログのname, emailを書き換える方法](https://zenn.dev/hideoka/articles/1cda51b9cdfdd8)
+- [git\-filter\-repoを利用してGitからファイルを履歴も合わせて削除する \- こんにちは寝る](https://sleepost.hatenablog.com/entry/2021/05/22/023255)
