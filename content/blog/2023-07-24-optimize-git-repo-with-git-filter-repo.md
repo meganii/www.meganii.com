@@ -1,5 +1,5 @@
 ---
-title: "git-filter-repoを利用してGitレポジトリを最適化する"
+title: "git-filter-repoを利用してGitリポジトリを最適化する"
 date: 2023-07-24T15:54:00+09:00
 lastmod: 2023-07-24T15:54:00+09:00
 published: true
@@ -106,7 +106,7 @@ python3 git-filter-repo -f --mailmap mailmap
 
 ### remote originの情報は削除される
 
-`git-filter-repo`のコマンドを実行すると、remote originの情報は削除される。これは履歴書き換えによる影響を避けるため、新しいレポジトリにpushすべきという作者の意図によるもの。
+`git-filter-repo`のコマンドを実行すると、remote originの情報は削除される。これは履歴書き換えによる影響を避けるため、新しいリポジトリにpushすべきという作者の意図によるもの。
 
 >4.Push your new repository to its new home (note that refs/remotes/origin/* will have been moved to refs/heads/* as the first part of filter-repo, so you can just deal with normal branches instead of remote tracking branches).   
 >[DISCUSSION | git\-filter\-repo\(1\)](https://htmlpreview.github.io/?https://github.com/newren/git-filter-repo/blob/docs/html/git-filter-repo.html#DISCUSSION)
