@@ -3,7 +3,7 @@ title: "[SQL実践入門]内部結合と外部結合のイメージ"
 date: 2015-06-10T07:58:00+09:00
 lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
-tags: ['DB']
+tags: ['DB','SQL']
 published: true
 img: "https://images-na.ssl-images-amazon.com/images/I/51pl3HrLCjL._SL160_.jpg"
 slug: inner-join-outer-join
@@ -17,18 +17,19 @@ slug: inner-join-outer-join
 
 {{% googleadsense %}}
 
-{{% img src="https://farm1.staticflickr.com/535/18055701993_40ac4eafb9_z.jpg" w="400" h="473" layout="fixed" %}}
+
+![https://res.cloudinary.com/meganii/image/upload/v1690290550/18055701993_40ac4eafb9_z_fplapi.jpg](https://res.cloudinary.com/meganii/image/upload/v1690290550/18055701993_40ac4eafb9_z_fplapi.jpg "=400x473")
 
 
 ## クロス結合(Cross Join) すべての結合の母体
 
 数学的には、直積、デカルト積と呼ばれる演算である。
-結合対象となる2つの手0ブルのレコードから可能なすべての組み合わせ網羅を行う演算。
+結合対象となる2つのテーブルのレコードから可能なすべての組み合わせ網羅を行う演算。
 
 ## 内部結合(Inner Join)
 
 ### 何の内部？
-内部とは「直積の部分集合」
+内部とは「直積の部分集合」。
 
 相関サブクエリとして書き換え可能だが、基本的に結合で記述できる限りは結合を選択するのがよい。
 
