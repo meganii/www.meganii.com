@@ -64,7 +64,7 @@ python3 git-filter-repo --analyze
 
 `path-all-sizes.txt`には、だいたいサイズが大きいものから順にファイルが並んでいる。たとえば、下図は初回の実行結果だが、htmlファイルが並んでいることが見て取れる。おそらく、過去リポジトリ直下にHTMLを展開し、コミットしてしまったゴミと思われる。
 
-[![git filter-repo --analyzeの実行結果](https://i.gyazo.com/faf357f6c49691293f56c763cf684e37.png "=948x411")](https://gyazo.com/faf357f6c49691293f56c763cf684e37)
+![git filter-repo --analyzeの実行結果](https://i.gyazo.com/faf357f6c49691293f56c763cf684e37.png "=948x411")
 次のコマンドを実行し、コミット履歴から`--path`で指定するディレクトリを削除する。
 ```bash
 python3 git-filter-repo --path public/ --path tags/ --path en/ --path blog/ --path category/ --path tags/ --path tmp --invert-paths --force
@@ -74,7 +74,8 @@ python3 git-filter-repo --path public/ --path tags/ --path en/ --path blog/ --pa
 
 また、該当プロジェクトに差分がある場合は、`--force`オプションを付加しないと実行できない。
 
-上記コマンドで生成物の削除だけで1.9GB->47MBに減った。どれだけ不要なファイルを蓄えていたのかがわかる。
+上記コマンドで生成物の削除だけで1.9GB→47MBに減った。どれだけ不要なファイルを蓄えていたのかがわかる。
+
 ```bash
 du -hs .git/objects
 47M     .git/objects
