@@ -4,6 +4,6 @@
 [submodule "data/tweet"]
 	path = data/tweet
 	url = git@github.com:meganii/tweet-data.git
-[submodule "data/affliate"]
-	path = data/affliate
+[submodule "data/affiliate"]
+	path = data/affiliate
 	url = git@github.com:meganii/affiliate-data.git
