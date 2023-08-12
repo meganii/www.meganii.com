@@ -69,8 +69,7 @@ minicoのポイントは次の3点です。
 - 契約期間しばりなし、解約金なし
 - オンラインゲームなど大容量で通信速度を重視するような使い方は推奨されない
 
-<a class="text-blue-500 hover:underline" href="https://px.a8.net/svt/ejp?a8mat=3NJBAA+4DRW36+38O0+1BMW42" rel="nofollow">minico</a><img border="0" width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=3NJBAA+4DRW36+38O0+1BMW42" alt="">は、専用に設計された帯域を利用する最大1Gbpsのインターネット接続サービスです。専用設計のネットワークのため、光回線をリーズナブルに利用できるという特徴があります。
-
+[minico](https://px.a8.net/svt/ejp?a8mat=3NJBAA+4DRW36+38O0+1BMW42)は、専用に設計された帯域を利用する最大1Gbpsのインターネット接続サービスです。専用設計のネットワークのため、光回線をリーズナブルに利用できるという特徴があります。
 
 「**価格もスペックも、あなたにちょうどいいインターネット**」というキャッチフレーズのとおり、値段と性能のバランスがよいと感じています。
 
@@ -80,4 +79,4 @@ minicoのポイントは次の3点です。
 
 ## 参考
 
-- <a class="text-blue-500 hover:underline" href="https://px.a8.net/svt/ejp?a8mat=3NJBAA+4DRW36+38O0+1BPGPE" rel="nofollow noopener noreferrer" target="_blank">So-net minico</a><img border="0" width="1" height="1" src="https://www19.a8.net/0.gif?a8mat=3NJBAA+4DRW36+38O0+1BPGPE" alt="">
+- [So-net minico](https://px.a8.net/svt/ejp?a8mat=3NJBAA+4DRW36+38O0+1BPGPE)
