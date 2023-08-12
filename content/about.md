@@ -1,49 +1,74 @@
 ---
-title: "このブログ「SIS Lab」について"
+title: "サイト「SIS Lab」紹介とプロフィール"
 date: 2015-11-23T15:23:39+09:00
 lastmod: 2018-01-28T15:23:39+09:00
 img: 'images/meganii_logo.png'
 ---
 
-このブログ「SIS Lab」は、メーカー系SIerで働く`meganii`が運営しています。
+はじめまして、めがにい（meganii）です。
 
-## SIS Labとは？
-あるコンピュータ室の名前。シスラボ。
+このサイト「SIS Lab」では、私が日々生活や仕事をする中で、学んだこと、考えたことを発信しています。
 
-## じょーぶんとは？
-情報文化の略称。広く浅くから、広く深くを目指してます。
+## このサイト「SIS Lab」について
 
-## このブログの目的
+### 目的
 
-- アウトプットすることを通して、自分の考えを整理する
+- アウトプットを通して、自分の考えを整理する
 - 自分が書いた昔の記事を振り返る
 
-## どんなことを書くか？どんなことに興味がある？
+### サイト構成
+
+- 静的サイトジェネレータ： [Hugo](https://gohugo.io/)
+- コンテンツ・テンプレート管理： GitHub（[meganii/www\.meganii\.com](https://github.com/meganii/www.meganii.com)）
+- ホスティング： [Cloudflare Pages](https://pages.cloudflare.com/)
+- CDN： [CDNサービス、コンテンツ配信ネットワーク \| Cloudflare](https://www.cloudflare.com/ja-jp/application-services/products/cdn/)
+- ドメイン: <a class="text-blue-500 hover:underline external-link" href="https://px.a8.net/svt/ejp?a8mat=2BU85M+85IQ0I+50+2I1T8Y" rel="nofollow">お名前.com</a><img border="0" width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=2BU85M+85IQ0I+50+2I1T8Y" alt="">
+
+## プロフィール
+
+名前：めがにい（meganii）
+
+30代男。総合電機メーカーの社内システムエンジニアとして勤務。社内システムの保守・運用、データ分析の業務に従事。妻とaiboの3人暮らし。
+
+技術書典9での頒布本を底本として『[Hugoで始める静的サイト構築入門　静的サイトジェネレーターで作る自作サイト 技術の泉シリーズ (技術の泉シリーズ（NextPublishing）)](https://amzn.to/44c7BiV)』を出版。
+
+{{% amazon 4844379208 %}}
+
+### どのようなことに興味があるか
 
 - プログラミング
 - インフラ
 - ライフハック
 - 旅行
-- 趣味 テニス、ボルダリング、山登り
+- 趣味（テニス、ボルダリング、山登り）
 
 
-## 今まで学んだ言語
+### 主な利用SNS
 
-- 中学時代に、ほーむぺーじを持つのがはやり、HTMLをかじる
-- 大学１、２年生は、講義でC,Javaをかじる。
-- ３、４年になると、
-- サークルのWebページ作成で HTMLに加え、CSSを勉強
-- バイト先では、PHP、Flexを触らせてもらった。
-- Ruby合宿2009に参加して、Rubyに触れる
-- 卒研をJavaでなんとか提出
+- X（旧Twitter）: https://twitter.com/meganii
+- Bluesky: https://bsky.app/profile/meganii.com
+- Scrapbox: https://scrapbox.io/meganii
+- note: https://note.com/meganii
 
-## 生い立ち
 
-- 福井県出身。小中高と福井の学校
-- 大学時代　名古屋大学
+### 保有資格・学習履歴
 
+- 情報処理技術者試験
+	- 基本情報技術者
+		- [エセ情報系学生が基本情報技術者試験に受かるまで](blog/2009/11/26/1259191598/)
+	- 応用情報技術者
+		- [Evernoteで応用情報の資格勉強を！](/blog/2010/04/20/1271768497/)
+	- 情報セキュリティスペシャリスト
+		- [iPhone×iPadで学ぶ僕の情報処理試験勉強法](/blog/2010/12/20/1292850614/)
+	- ネットワークスペシャリスト
+- データ分析
+	- DATA Saber認定
+		- [「DATA Saber認定制度」のふりかえり](/blog/2020/03/23/a-look-back-at-the-data-saber-certification-program/)
+
+「学び方を学ぶ」ことに興味があります。このサイトでも、私なりの学び方を紹介していきたいです。
 
 ## 免責事項
-当ブログのコンテンツ・情報につきまして、可能な限り正確な情報を掲載するよう努めておりますが、誤情報が入り込んだり、情報が古くなっている場合もあります。
 
-当ブログに掲載された内容によって生じた損害等の一切の責任を負いかねますのでご了承ください。
+当サイトのコンテンツは、可能な限り正確な情報を掲載するように努めていますが、誤りがあったり、情報が古くなっている可能性があります。
+
+当サイトの掲載内容によって生じた損害等は、一切の責任を負いかねますのでご了承ください。
