@@ -22,7 +22,7 @@ img: 'images/meganii_logo.png'
 - コンテンツ・テンプレート管理： GitHub（[meganii/www\.meganii\.com](https://github.com/meganii/www.meganii.com)）
 - ホスティング： [Cloudflare Pages](https://pages.cloudflare.com/)
 - CDN： [CDNサービス、コンテンツ配信ネットワーク \| Cloudflare](https://www.cloudflare.com/ja-jp/application-services/products/cdn/)
-- ドメイン: <a class="text-blue-500 hover:underline external-link" href="https://px.a8.net/svt/ejp?a8mat=2BU85M+85IQ0I+50+2I1T8Y" rel="nofollow">お名前.com</a><img border="0" width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=2BU85M+85IQ0I+50+2I1T8Y" alt="">
+- ドメイン： [お名前.com](https://px.a8.net/svt/ejp?a8mat=2BU85M+85IQ0I+50+2I1T8Y)
 
 ## プロフィール
 
@@ -55,7 +55,7 @@ img: 'images/meganii_logo.png'
 
 - 情報処理技術者試験
 	- 基本情報技術者
-		- [エセ情報系学生が基本情報技術者試験に受かるまで](blog/2009/11/26/1259191598/)
+		- [エセ情報系学生が基本情報技術者試験に受かるまで](/blog/2009/11/26/1259191598/)
 	- 応用情報技術者
 		- [Evernoteで応用情報の資格勉強を！](/blog/2010/04/20/1271768497/)
 	- 情報セキュリティスペシャリスト
