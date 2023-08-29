@@ -31,15 +31,14 @@ fish, version 2.7.1
 
 ![Change shell in iTerm2](https://res.cloudinary.com/meganii/image/upload/v1525181982/Change_shell_b80mlo.png "=1030x680")
 
-{{% quote %}}
-「homebrewでインストールしたfishにchshしていいのか?」というhsbtの指摘はその通りだと思ったので、同じようにterminal.appで設定することにした。ただ、そうするとtmuxが起動時に$SHELLで起動してしまうので、Mac用のtmux.confに以下の設定を入れたんだけどださい。なんかいい方法ないですか?  
-[fishを使いはじめた \| けんちゃんくんさんのWeb日記](https://diary.shu-cream.net/2018/02/20/hello-fish-shell.html)
-{{% /quote %}}
+>「homebrewでインストールしたfishにchshしていいのか?」というhsbtの指摘はその通りだと思ったので、同じようにterminal.appで設定することにした。ただ、そうするとtmuxが起動時に$SHELLで起動してしまうので、Mac用のtmux.confに以下の設定を入れたんだけどださい。なんかいい方法ないですか?  
+>[fishを使いはじめた \| けんちゃんくんさんのWeb日記](https://diary.shu-cream.net/2018/02/20/hello-fish-shell.html)
 
-{{% quote %}}
-fish の紹介エントリを眺めていると chsh すると書いてあって、正気かと疑うんだけど、サーバーないし UNIX ライクなシステムで、何かトラブルシューティングしようとしたり、homebrew を purge せざるを得ないみたいな時に確実に死ぬのでやらない方がいいと思う。Terminal.app ならセッションの起動時に使うシェルを chsh とは別に設定できるので、そこで fish を指定するだけで十分なのでそうした。iTerm2 にも似たような設定があったと思う。  
-[zsh から fish にした \- HsbtDiary\(2017\-04\-21\)](https://www.hsbt.org/diary/20170421.html)
-{{% /quote %}}
+
+
+>fish の紹介エントリを眺めていると chsh すると書いてあって、正気かと疑うんだけど、サーバーないし UNIX ライクなシステムで、何かトラブルシューティングしようとしたり、homebrew を purge せざるを得ないみたいな時に確実に死ぬのでやらない方がいいと思う。Terminal.app ならセッションの起動時に使うシェルを chsh とは別に設定できるので、そこで fish を指定するだけで十分なのでそうした。iTerm2 にも似たような設定があったと思う。  
+>[zsh から fish にした \- HsbtDiary\(2017\-04\-21\)](https://www.hsbt.org/diary/20170421.html)
+
 
 ## Install Fisherman
 
