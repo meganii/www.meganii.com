@@ -45,9 +45,8 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v159
 
 ### 1. 最初のタグは`meta charest tag`で始め、その後残りの`meta tag`を記述する
 
-{{% quote %}}
-The first tag should be the meta charset tag, followed by any remaining meta tags.
-{{% /quote %}}
+> The first tag should be the meta charset tag, followed by any remaining meta tags.
+
 
 理由は明記されていませんでしたが、レイアウトに関係のある項目を最初に読み込む必要があるためとの認識です。
 （`<meta name="viewport" content="width=device-width,minimum-scale=1">`の部分など）
