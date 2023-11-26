@@ -1,0 +1,52 @@
+name: Post by workflow_dispatch
+
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: 'Title'
+        type: string 
+        required: true
+      body:
+        description: 'body'
+        type: string
+        required: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
+      - name: Create md file
+        run: >
+          deno run
+          --allow-write
+          --no-check
+          script/new_post.ts
+          --title=$TITLE
+          --body=$BODY
+        env:
+          TITLE: ${{ inputs.title }}
+          BODY: ${{ inputs.body }}
+
+      - name: Diff
+        id: diff
+        run: |
+          git add -N content
+          git diff --name-only --exit-code
+        continue-on-error: true
+
+      - name: Commit files
+        run: |
+          set -x
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add content
+          git commit -m "Update"
+          git push
+        if: steps.diff.outcome == 'failure'
