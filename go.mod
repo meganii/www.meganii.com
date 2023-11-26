@@ -4,4 +4,4 @@ module github.com/meganii/www.meganii.com
 
 go 1.19
 
-require github.com/meganii/gohugo-template-tailwindcss v0.0.0-20231123134148-5cea5ff486ea // indirect
+require github.com/meganii/gohugo-template-tailwindcss v0.0.0-20231126065001-b3edd197b2e6 // indirect
