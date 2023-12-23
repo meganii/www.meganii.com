@@ -28,7 +28,7 @@ img: 'images/meganii_logo.png'
 
 名前：めがにい（meganii）
 
-30代男。総合電機メーカーの社内システムエンジニアとして勤務。社内システムの保守・運用、データ分析の業務に従事。妻とaiboの3人暮らし。
+社内SEとして勤務。社内システムの保守・運用、データ分析の業務に従事。
 
 技術書典9での頒布本を底本として『[Hugoで始める静的サイト構築入門　静的サイトジェネレーターで作る自作サイト 技術の泉シリーズ (技術の泉シリーズ（NextPublishing）)](https://amzn.to/44c7BiV)』を出版。
 
@@ -36,12 +36,12 @@ img: 'images/meganii_logo.png'
 
 ### どのようなことに興味があるか
 
-- プログラミング
-- インフラ
-- ライフハック
-- 旅行
-- 趣味（テニス、ボルダリング、山登り）
-
+- Azure
+- AWS
+- Tableau
+- Flutter
+- Tableau（DATA Illuminator）
+- 漫画
 
 ### 主な利用SNS
 
@@ -61,6 +61,7 @@ img: 'images/meganii_logo.png'
 	- 情報セキュリティスペシャリスト
 		- [iPhone×iPadで学ぶ僕の情報処理試験勉強法](/blog/2010/12/20/1292850614/)
 	- ネットワークスペシャリスト
+	- データベーススペシャリスト
 - データ分析
 	- DATA Saber認定
 		- [「DATA Saber認定制度」のふりかえり](/blog/2020/03/23/a-look-back-at-the-data-saber-certification-program/)
