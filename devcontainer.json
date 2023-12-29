@@ -1,0 +1,17 @@
+{
+    "customizations": {
+        "codespaces": {
+            "repositories": {
+                "meganii/tweet-data": {
+                    "permissions": "read-all"
+                },
+                "meganii/affiliate-data": {
+                    "permissions": "read-all"
+                },
+                "meganii/amazon-product-data": {
+                    "permissions": "read-all"
+                }
+            }
+        }
+    }
+}
