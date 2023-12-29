@@ -1,9 +1,9 @@
 [submodule "data/amazon"]
 	path = data/amazon
-	url = git@github.com:meganii/amazon-product-data.git
+	url = ../amazon-product-data.git
 [submodule "data/tweet"]
 	path = data/tweet
-	url = git@github.com:meganii/tweet-data.git
+	url = ../tweet-data.git
 [submodule "data/affiliate"]
 	path = data/affiliate
-	url = git@github.com:meganii/affiliate-data.git
+	url = ../affiliate-data.git
