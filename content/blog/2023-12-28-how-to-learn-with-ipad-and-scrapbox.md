@@ -11,7 +11,7 @@ tags:
   - 資格学習
 comment: true
 slug: how-to-learn-with-ipad-and-scrapbox
-img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png
+img: https://res.cloudinary.com/meganii/image/upload/v1703940299/how-to-learn-with-ipad-and-scrapbox_mw1q5w.png
 aliases:
   - iPadとScrapboxで楽しく学ぶ資格学習法　〜手書きデジタルノートとネットワーク型ノートツールのすすめ〜
 ---
