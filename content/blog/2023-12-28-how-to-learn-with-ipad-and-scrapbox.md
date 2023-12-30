@@ -127,7 +127,9 @@ Scrapboxのページには図解したときの図も取り込みます。取り
 1. iPadのGoodnotes 5とScrapbox（Safari）を画面分割（Split View）で開く
 2. iPadのGoodnotes 5で描いた図を投げ縄ツールで範囲指定して長押しする
 3. ドラッグ&ドロップできる状態になるので、この状態でScrapboxの新規ページにドロップする
-4. ドロップした画像がGyazoにアップロードされて、自動的にScrapboxに取り込まれる
+4. ドロップした画像がGyazo[^Gyazo]にアップロードされて、自動的にScrapboxに取り込まれる
+
+[^Gyazo]: Gyazo:Scrapboxと同じくHelpfeel社が開発しているスクリーンキャプチャツール。[Gyazo \- スクリーンショットや動画を簡単に撮影・共有](https://gyazo.com/about?lang=ja)
 
 面倒な作業は続かないので、Goodnotes 5での作図をシームレスにScrapboxに取り込めるのはありがたいです。
 
