@@ -10,7 +10,7 @@ tags:
   - 勉強法
   - 資格勉強
 comment: true
-slug: changing-approach-to-certification-study-with-iPad-and-Scrapbox-handwritten-digital-note
+slug: how-to-learn-with-ipad-and-scrapbox
 img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png
 ---
 
