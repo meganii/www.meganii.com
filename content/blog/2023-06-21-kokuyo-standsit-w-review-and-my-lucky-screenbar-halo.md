@@ -10,9 +10,11 @@ slug: "kokuyo-standsit-w-review-and-my-lucky-screenbar-halo"
 img: "https://res.cloudinary.com/meganii/image/upload/v1687667913/KOKUYO_campaign_ScreenBarHalo_desk_fvxofp.jpg"
 ---
 
+<small>当サイトは、アフィリエイト広告を利用しています。</small>
+
 ![コクヨのキャンペーン当選品「BenQ ScreenBar Haloのモニターライト」](https://res.cloudinary.com/meganii/image/upload/v1687667913/KOKUYO_campaign_ScreenBarHalo_desk_fvxofp.jpg "?size=1024x576&hero=1")
 
-2023年3月、品川にあるコクヨの実店舗「THE CAMPUS」に足を運び、コクヨの電動昇降デスク「STANSIT-W」を体験。そして、そのままその場で<a class="text-blue-500 hover:underline" href="https://px.a8.net/svt/ejp?a8mat=3TD268+1VVFQQ+50FK+BW8O2&a8ejpredirect=https%3A%2F%2Fworkstyle.kokuyo.co.jp%2Fshop%2Fdefault.aspx" rel="nofollow">KOKUYO Workstyle Shop</a><img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=3TD268+1VVFQQ+50FK+BW8O2" alt="">経由で「STANSIT-W」を購入しました。
+2023年3月、品川にあるコクヨの実店舗「THE CAMPUS」に足を運び、コクヨの電動昇降デスク「STANSIT-W」を体験。そして、そのままその場で<a class="text-blue-500 hover:underline" href="https://px.a8.net/svt/ejp?a8mat=3TD268+1VVFQQ+50FK+BW8O2&a8ejpredirect=https%3A%2F%2Fworkstyle.kokuyo.co.jp%2Fshop%2Fdefault.aspx" rel="nofollow">KOKUYO Workstyle Shop</a><img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=3TD268+1VVFQQ+50FK+BW8O2" alt="">を経由して「STANSIT-W」を購入しました。
 
 購入時<a class="text-blue-500 hover:underline" href="https://px.a8.net/svt/ejp?a8mat=3TD268+1VVFQQ+50FK+BW8O2&a8ejpredirect=https%3A%2F%2Fworkstyle.kokuyo.co.jp%2Fshop%2Fdefault.aspx" rel="nofollow">KOKUYO Workstyle Shop</a><img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=3TD268+1VVFQQ+50FK+BW8O2" alt="">では[「在宅環境をアップデートしよう！プレゼントキャンペーン」](https://www.kokuyo.co.jp/newsroom/news/category/20230315fn1.html)というキャンペーンを開催していました。ものは試しと応募してみたところ、なんと当選。景品のBenQ「ScreenBar Haloモニターライト」を頂きました。コクヨさん本当にありがとうございます。
 
@@ -42,7 +44,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1687667913/KOKUYO_campaig
 
 国内メーカーであるコクヨが手掛ける電動昇降デスクのため、何かあった場合のサポート等も海外製品よりは良さそうという期待と、価格帯を見て、コクヨの「STANSIT-W」を選択しました。
 
-購入前に「本当にデスクの高さを上げ下げするのか。決まった高さのまま使うのではないか。」という懸念もありましたが、3ヶ月ほど使う中では、1日の中で何度か上げ下げしながら仕事を進めています。これも、ダブルモーター、無段階調整のおかげでもあるのかなと感じています。
+購入前に「本当にデスクの高さを上げ下げするのか。決まった高さのまま使うのではないか」という懸念もありましたが、3か月ほど使う中では、1日の中で何度か上げ下げしながら仕事を進めています。これも、ダブルモーター、無段階調整のおかげでもあるのかなと感じています。
 
 
 ## BenQ「ScreenBar Haloモニターライト」
@@ -56,22 +58,22 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1687667913/KOKUYO_campaig
 - 無線リモコンでのワンタッチ点灯／消灯は楽ちん
 - 背面ライトも十分な光量があるため、真っ暗な部屋で、モニターライトだけでも目が疲れない
 
-手元は明るいのに、モニターが眩しくない、チカチカしないというのは非常に不思議な体験です。いままでも別会社のモニターライトを利用していたのですが、どうしてもモニターのちらつきが気になっていましたが、その点この「ScreenBar Halo」は全く眩しくありません。
+手元は明るいのに、モニターは眩しくない、チカチカしないというのは非常に不思議な体験です。いままでも別会社のモニターライトを利用していました。その時はどうしてもモニターのちらつきが気になっていましたが、その点この「ScreenBar Halo」は全く眩しくありません。
 
 点灯／消灯も手元の無線リモコンでできるので、非常に快適です。もちろん電池（単4 x 3本）を利用するので、電池切れになったら何もできなくなるのは困りそうですが、電池残量が少なくなると残量不足のランプがつくようです。
 
 
 ## まとめ
-[「在宅環境をアップデートしよう！プレゼントキャンペーン」](https://www.kokuyo.co.jp/newsroom/news/category/20230315fn1.html)でまさか「ScreenBar Halo」が当たるとは思っていなかったので素直に嬉しいです。いままでもモニターライトを使ってきましたが、やはり「ScreenBar Halo」は高級モニターライトの分類に位置付けられることもあり、高い満足度です。下手にいくつもモニターライトを買って試すぐらいなら最初から「ScreenBar Halo」を購入してもよいのではないかと個人的には思います。ただし私も頂いたから使っているのであって、最初から買っていたかというと少し値段に尻込みしていました。当たり前ですが、良いものは高いんですよね…。
+[「在宅環境をアップデートしよう！プレゼントキャンペーン」](https://www.kokuyo.co.jp/newsroom/news/category/20230315fn1.html)でまさか「ScreenBar Halo」が当たるとは思っていなかったので素直に嬉しいです。いままでもモニターライトを使ってきましたが、やはり「ScreenBar Halo」は高級モニターライトの分類に位置付けられることもあり、高い満足度です。下手にいくつもモニターライトを買って試すぐらいなら最初から「ScreenBar Halo」を購入してもよいと個人的には思います。ただし私も頂いたから使っているのであって、最初から買っていたかというと少し値段に尻込みしていました。当たり前ですが、良いものは高いんですよね…。
 
-「STANSIT-W」は、スイッチひとつで好きな高さに昇降できる点が魅力的です。なにか行き詰まったとき、気分転換をしたいときに、スタンディングワークを試すことで気分転換にも繋がります。会社に出社する際も、ついつい右手で昇降ボタンを探してしまいます。また、腰痛持ちのため、座りっぱなしよりは足腰に優しくなったのではないかと思います。
+「STANSIT-W」は、スイッチひとつで好きな高さに昇降できる点が魅力的です。なにか行き詰まったとき、気分転換をしたいときに、スタンディングワークを試すことで気分転換にも繋がります。会社に出社する際も、ついつい右手で昇降ボタンを探してしまいます。また、腰痛持ちのため、座りっぱなしよりは足腰に優しくなったと思います。
 
 着実に、在宅環境がアップデートされてきたので、仕事でもプライベートでも結果も出さないといけないですね。
 
 
 ## 在宅環境アップデート履歴
 
-- [「特別定額給付金」で整備する快適デスク環境](/blog/2020/08/08/kaizen-in-working-from-home/)
+- [「特別定額給付金」で整備する快適デスク環境](2020-08-08-kaizen-in-working-from-home.md)
 - [【レビュー】iPad Pro 11インチ用にロジクールのキーボード「Logicool Folio Touch Keyboard Case with Trackpad」を買いました](/blog/2020/07/26/review-logicool-folio-touch-keyboard-case-with-trackpad/)
 - [【レビュー】SONY WH-1000XM4 ワイヤレスノイズキャンセリングヘッドフォン](/blog/2020/11/28/review-sony-wh-1000xm4-wireless-noise-canceling-headphones/)
 - [【レビュー】ハイエンドマウス『Logicool MX Master 3』の使い心地](/blog/2021/06/21/review-logicool-mx-master-3/)
