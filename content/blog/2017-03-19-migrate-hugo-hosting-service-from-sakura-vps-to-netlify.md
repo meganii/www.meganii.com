@@ -1,13 +1,18 @@
 ---
-title: "Hugoで生成した静的サイトのホスト先をさくらVPSからNetlifyに変更する"
+title: Hugoで生成した静的サイトのホスト先をさくらVPSからNetlifyに変更する
 date: 2017-03-19T19:46:06+09:00
 lastmod: 2023-05-05T01:24:02+09:00
 comments: true
-category: ['Tech']
-tags: ['Netlify','Hugo']
+category:
+  - Tech
+tags:
+  - Netlify
+  - Hugo
 published: true
 slug: migrate-hugo-hosting-service-from-sakura-vps-to-netlify
-img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png"
+img: https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png
+aliases:
+  - Hugoで生成した静的サイトのホスト先をさくらVPSからNetlifyに変更する
 ---
 
 現在（2017/3月）、Hugoで生成した静的サイトをホストするためにさくらVPSを利用しています。
