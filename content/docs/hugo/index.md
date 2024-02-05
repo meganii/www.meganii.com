@@ -10,7 +10,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/
 
 - [静的サイトジェネレータ「Hugo」でシンプルブログサイトを構築する](2017-01-08-static-site-generator-hugo.md)
 - [静的サイトジェネレータ「Hugo」インストール](2017-01-08-installing-hugo.md)
-- [静的サイトジェネレータ「Hugo」〜公開方法〜](/blog/2017/01/11/deploy-site-with-hugo/)
+- [静的サイトジェネレータ「Hugo」〜公開方法〜](2017-01-11-deploy-site-with-hugo.md)
 
 
 ## サイト構築

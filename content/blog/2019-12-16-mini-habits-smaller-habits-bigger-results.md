@@ -1,13 +1,21 @@
 ---
-title: "モチベーションに頼らない習慣化 /「小さな習慣」"
+title: モチベーションに頼らない習慣化 /「小さな習慣」
 date: 2019-12-16T05:48:56+09:00
 lastmod: 2021-07-04T19:04:22+09:00
 comments: true
-category: ['Book']
-tags: ['書評', '習慣化', 'Lifehack', '習慣', '小さな習慣']
+category:
+  - Book
+tags:
+  - 書評
+  - 習慣化
+  - Lifehack
+  - 習慣
+  - 小さな習慣
 published: true
 slug: mini-habits-smaller-habits-bigger-results
-img:  "https://m.media-amazon.com/images/I/41-SgavV5cL.jpg"
+img: https://m.media-amazon.com/images/I/41-SgavV5cL.jpg
+aliases:
+  - モチベーションに頼らない習慣化 /「小さな習慣」
 ---
 
 2019年12月から[@kakakakakku](https://twitter.com/kakakakakku)さんのブログメンタリングを受けており、次の書籍をおすすめされたので読んで、その内容をまとめてみる。

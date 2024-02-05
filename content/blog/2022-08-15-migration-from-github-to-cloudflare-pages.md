@@ -1,13 +1,21 @@
 ---
-title: "GitHub PagesからCloudflare Pagesへの移行"
+title: GitHub PagesからCloudflare Pagesへの移行
 date: 2022-08-14T15:07:29+09:00
 lastmod: 2022-08-17T11:00:07+09:00
 published: true
-category: ["Tech"]
-tags: ["Blog", "Cloudflare","Cloudflare Pages", "Hugo"]
+category:
+  - Tech
+tags:
+  - Blog
+  - Cloudflare
+  - Cloudflare
+  - Pages
+  - Hugo
 comment: true
-slug: "migration-from-github-to-cloudflare-pages"
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
+slug: migration-from-github-to-cloudflare-pages
+img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png
+aliases:
+  - GitHub PagesからCloudflare Pagesへの移行
 ---
 
 `Github Pages`から[Cloudflare Pages](https://pages.cloudflare.com/)に移行したときのメモを以下に記す。

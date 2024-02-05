@@ -1,17 +1,23 @@
 ---
-title: "【レビュー】iPad Pro 11インチ用にロジクールのキーボード「Logicool Folio Touch Keyboard Case with Trackpad」を買いました"
+title: 【レビュー】iPad Pro 11インチ用にロジクールのキーボード「Logicool Folio Touch Keyboard Case with Trackpad」を買いました
 date: 2020-07-26T20:15:54+09:00
 lastmod: 2020-08-22T19:41:30+09:00
 published: true
-category: ["Gadget"]
-tags: ["レビュー","iPad Pro","iPad"]
+category:
+  - Gadget
+tags:
+  - レビュー
+  - iPad
+  - Pro
+  - iPad
 comment: true
-slug: "review-logicool-folio-touch-keyboard-case-with-trackpad"
-img: "https://res.cloudinary.com/meganii/image/upload/w_1024/v1595772938/DSC00783_wakue1.jpg"
+slug: review-logicool-folio-touch-keyboard-case-with-trackpad
+img: https://res.cloudinary.com/meganii/image/upload/w_1024/v1595772938/DSC00783_wakue1.jpg
+aliases:
+  - 【レビュー】iPad Pro 11インチ用にロジクールのキーボード「Logicool Folio Touch Keyboard Case with Trackpad」を買いました
 ---
 
-{{% img src="https://res.cloudinary.com/meganii/image/upload/v1595772938/DSC00783_wakue1.jpg" alt="Logicool Folio Touch Keyboard Case with Trackpad for 11インチiPad Pro" w="5472" h="3648" %}}
-
+![Logicool Folio Touch Keyboard Case with Trackpad for 11インチiPad Pro](https://res.cloudinary.com/meganii/image/upload/v1595772938/DSC00783_wakue1.jpg "?size=5472x3648&hero=1")
 
 **「キーボードとトラックパッドが使えて、高価な`iPad Pro`を保護してくれるケースが欲しい」**
 
@@ -80,7 +86,7 @@ Scrapboxやメモ書き、ブログの下書き、普段のネットサーフィ
 
 iPadでできるジェスチャーは、基本全ての動きができるようです。
 
-私はキーボードを利用するときは、画面には触りたくありません。文字を打つ時にちょっと別の段落に移動する、コピーや切り取りを行うときの操作など、キーボードからあまり手を動かさずに操作できるトラックパッドはやはり正義ですね。
+私はキーボードを利用するときは、画面には触りたくありません。文字を打つ時にちょっと別の段落に移動する、コピーや切り取りのときの操作など、キーボードからあまり手を動かさずに操作できるトラックパッドはやはり正義ですね。
 
 トラックパッドはありませんが、`ThinkPad`の外付けキーボードも気になっています。機会があれば試してみたいところです（その場合ケースは別につける必要がありそうですが）。
 

@@ -1,13 +1,18 @@
 ---
-title: "「特別定額給付金」で整備する快適デスク環境"
+title: 「特別定額給付金」で整備する快適デスク環境
 date: 2020-08-08T19:01:18+09:00
 lastmod: 2023-05-05T01:24:09+09:00
 published: true
-category: ["Gadget"]
-tags: ["デスク環境", "レビュー"]
+category:
+  - Gadget
+tags:
+  - デスク環境
+  - レビュー
 comment: true
-slug: "kaizen-in-working-from-home"
-img: "https://res.cloudinary.com/meganii/image/upload/v1596869127/io-data-display_sxbqd6.jpg"
+slug: kaizen-in-working-from-home
+img: https://res.cloudinary.com/meganii/image/upload/v1596869127/io-data-display_sxbqd6.jpg
+aliases:
+  - 「特別定額給付金」で整備する快適デスク環境
 ---
 
 ![IO-DATA エルゴトロン](https://res.cloudinary.com/meganii/image/upload/v1596868680/sansyouo_c9st0c.jpg "?size=1024x683&hero=1")

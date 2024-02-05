@@ -1,13 +1,18 @@
 ---
-title: "さくらVPSからConoha VPSへのお引越し"
+title: さくらVPSからConoha VPSへのお引越し
 date: 2017-06-11T14:01:22+09:00
 lastmod: 2023-06-18T13:27:41+09:00
 comments: true
-category: ['Tech']
-tags: ['VPS','Conoha']
+category:
+  - Tech
+tags:
+  - VPS
+  - Conoha
 published: true
 slug: migration-sakura-vps-to-conoha-vps
 img: /images/2017/06/conoha_vps.png
+aliases:
+  - さくらVPSからConoha VPSへのお引越し
 ---
 
 ![](/images/2017/06/conoha_vps.png "=640x249")

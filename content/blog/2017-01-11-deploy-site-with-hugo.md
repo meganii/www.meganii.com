@@ -1,13 +1,18 @@
 ---
-title: "静的サイトジェネレータ「Hugo」〜公開方法〜"
+title: 静的サイトジェネレータ「Hugo」〜公開方法〜
 date: 2017-01-11T22:22:15+09:00
 lastmod: 2023-06-18T13:27:41+09:00
 comments: true
-category: ['Tech']
-tags: ['Hugo','deploy']
+category:
+  - Tech
+tags:
+  - Hugo
+  - deploy
 published: true
 slug: deploy-site-with-hugo
 img: /images/hugo_s.png
+aliases:
+  - 静的サイトジェネレータ「Hugo」〜公開方法〜
 ---
 
 ## 公開　Deploy

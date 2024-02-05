@@ -1,13 +1,19 @@
 ---
-title: "Hugoのテーマでsubmoduleを使う方法"
+title: Hugoのテーマでsubmoduleを使う方法
 date: 2018-07-11T21:25:48+09:00
 lastmod: 2021-01-30T17:56:10+09:00
 comments: true
-category: ['Tech']
-tags: ['Hugo','Design', 'git']
+category:
+  - Tech
+tags:
+  - Hugo
+  - Design
+  - git
 published: true
 slug: how-to-use-submodule-for-hugo-theme
-img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png"
+img: https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png
+aliases:
+  - Hugoのテーマでsubmoduleを使う方法
 ---
 
 HugoのThemeプロジェクトを`git submodule`で扱う方法について調べました。

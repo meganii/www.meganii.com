@@ -1,13 +1,19 @@
 ---
-title: "NetlifyからGitHub Pagesに移行した件"
+title: NetlifyからGitHub Pagesに移行した件
 date: 2018-12-12T23:23:35+09:00
 lastmod: 2023-05-05T01:24:05+09:00
 comments: true
-category: ['Tech']
-tags: ['GitHub Pages', 'Netlify']
+category:
+  - Tech
+tags:
+  - GitHub
+  - Pages
+  - Netlify
 published: true
 slug: migration-netlify-to-github-pages
-img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
+img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png
+aliases:
+  - NetlifyからGitHub Pagesに移行した件
 ---
 
 [Netlify](https://scrapbox.io/meganii/Netlify)から[GitHub Pages](https://scrapbox.io/meganii/GitHub_Pages)に移行した。
