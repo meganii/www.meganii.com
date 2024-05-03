@@ -8,7 +8,6 @@ tags: ['TED','English']
 published: false
 ---
 
-{{% ted src="https://embed.ted.com/talks/lang/en/matt_cutts_try_something_new_for_30_days" %}}
 
 
 {{% quote %}}
