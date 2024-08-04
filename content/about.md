@@ -62,6 +62,7 @@ img: 'images/meganii_logo.png'
 		- [iPhone×iPadで学ぶ僕の情報処理試験勉強法](/blog/2010/12/20/1292850614/)
 	- ネットワークスペシャリスト
 	- データベーススペシャリスト
+	- システムアーキテクト
 - データ分析
 	- DATA Saber認定
 		- [「DATA Saber認定制度」のふりかえり](/blog/2020/03/23/a-look-back-at-the-data-saber-certification-program/)
