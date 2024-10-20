@@ -10,7 +10,7 @@ const body = options["body"] || "";
 console.log(`Body: ${body}`);
 
 const frontmatter = `---
-title: ${title}
+title: "${title}"
 date: ${dt.format("YYYY-MM-ddTHH:mm:ssZ")}
 lastmod: ${dt.format("YYYY-MM-ddTHH:mm:ssZ")}
 ---
