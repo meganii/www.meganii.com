@@ -5,7 +5,6 @@ lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['IT']
-published: true
 slug: what-is-cio
 img: "https://images-na.ssl-images-amazon.com/images/I/51w%2BZNeyQuL._SL160_.jpg"
 ---

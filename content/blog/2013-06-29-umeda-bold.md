@@ -4,7 +4,6 @@ date: 2013-06-29T23:46:00+09:00
 lastmod: 2023-05-05T01:23:55+09:00
 category: ['Activity']
 tags: ['ボルダリング']
-published: true
 slug: umeda-bold
 ---
 

@@ -2,7 +2,6 @@
 title: "SharePoint上のファイルパスを取得するブックマークレット"
 date: 2022-05-16T20:09:13+09:00
 lastmod: 2022-05-17T21:33:44+09:00
-published: true
 category: ["Tech"]
 tags: ["SharePoint","Bookmarklet"]
 comment: true

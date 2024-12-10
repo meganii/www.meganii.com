@@ -4,7 +4,6 @@ date: 2013-01-21
 lastmod: 2021-09-20T16:44:00+09:00
 category: ['Book']
 tags: ['ファシリテーション', '会議', 'ホワイトボード']
-published: true
 slug: whiteboard
 img: "https://images-fe.ssl-images-amazon.com/images/I/513w95PLFRL._SL160_.jpg"
 ---

@@ -2,7 +2,6 @@
 title: "Power AppsでMicrosoft Teamsのスレッドに出退勤をポストする"
 date: 2021-01-21T20:34:05+09:00
 lastmod: 2023-05-05T01:24:11+09:00
-published: true
 category: ["Tech"]
 tags: ["PowerApps","Teams"]
 comment: true

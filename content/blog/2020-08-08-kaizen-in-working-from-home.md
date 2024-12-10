@@ -2,7 +2,6 @@
 title: 「特別定額給付金」で整備する快適デスク環境
 date: 2020-08-08T19:01:18+09:00
 lastmod: 2023-05-05T01:24:09+09:00
-published: true
 category:
   - Gadget
 tags:

@@ -4,7 +4,6 @@ date: "2015-08-17T08:12:12+09:00"
 lastmod: 2023-06-18T13:27:40+09:00
 category: ['Music']
 tags: ['RSR','夏フェス']
-published: true
 img: "https://res.cloudinary.com/meganii/image/upload/v1687092302/20653177685_d5acc4460a_z_lxdl4u.jpg"
 slug: rising-sun-festival-2015
 ---

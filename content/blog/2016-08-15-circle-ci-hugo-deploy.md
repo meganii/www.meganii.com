@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:01+09:00
 comments: true
 category: ['Tech']
 tags: ['CircleCI','CI','Hugo']
-published: true
 slug: circle-ci-hugo-deploy
 img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png"
 ---

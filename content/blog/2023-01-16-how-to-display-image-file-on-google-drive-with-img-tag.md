@@ -2,7 +2,6 @@
 title: "Google Drive上のファイルをimgタグで表示させる時のURL"
 date: 2023-01-16T22:02:54+09:00
 lastmod: 2023-01-16T22:02:54+09:00
-published: true
 category: ["Tech"]
 tags: ["Google Drive"]
 comment: true

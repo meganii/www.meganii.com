@@ -5,7 +5,6 @@ lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Tech']
 tags: ['SIer','システム','生存戦略']
-published: true
 slug: sonicgarden-agile
 img: "https://images-na.ssl-images-amazon.com/images/I/518SbiFdxAL._SL160_.jpg"
 ---

@@ -4,7 +4,6 @@ date: 2014-02-21T06:06:00+09:00
 lastmod: 2019-10-03T22:59:14+09:00
 category: ['Activity']
 tags: ['リードクライミング', 'クライミング', 'なんば']
-published: true
 slug: lead-climbing-traning-day1
 ---
 

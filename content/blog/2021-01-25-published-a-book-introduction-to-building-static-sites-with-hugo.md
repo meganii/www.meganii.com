@@ -2,7 +2,6 @@
 title: "「Hugoで始める静的サイト構築入門　静的サイトジェネレーターで作る自作サイト」を出版しました"
 date: 2021-01-24T17:00:44+09:00
 lastmod: 2023-05-05T01:24:11+09:00
-published: true
 category: ["Tech"]
 tags: ["Hugo", "Book"]
 comment: true

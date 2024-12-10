@@ -5,7 +5,6 @@ lastmod: 2022-08-06T17:12:58+09:00
 comments: true
 category: ['Life']
 tags: ['健康','ジム','トレーニング']
-published: true
 slug: shinagawa-traning
 img: "/images/2016/12/shinagawa.jpg"
 ---

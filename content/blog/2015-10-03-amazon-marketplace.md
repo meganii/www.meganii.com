@@ -5,7 +5,6 @@ lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Book']
 tags: ['Amazon','Book']
-published: true
 slug: amazon-marketplace
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514038598/BOOK_1_v8p2op.png"
 ---

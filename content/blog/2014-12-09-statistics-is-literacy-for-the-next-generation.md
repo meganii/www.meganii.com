@@ -4,7 +4,6 @@ date: 2014-12-09T00:12:00+09:00
 lastmod: 2023-05-05T01:23:57+09:00
 category: ['Book']
 tags: ['book','statistics', '統計学']
-published: true
 slug: statistics-is-literacy-for-the-next-generation
 img: "https://images-na.ssl-images-amazon.com/images/I/41-4aLbrvpL._SL160_.jpg"
 ---

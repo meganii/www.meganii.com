@@ -6,7 +6,6 @@ lastmod: 2020-08-28T16:32:13+09:00
 comments: true
 category: ['Tech']
 tags: ['Mac']
-published: true
 slug: el-capitan-upgrade-error
 ---
 

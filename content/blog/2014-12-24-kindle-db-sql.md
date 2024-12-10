@@ -4,7 +4,6 @@ date: 2014-12-24T23:34:00+09:00
 lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['DB','sql']
-published: true
 slug: kindle-db-sql
 img: "https://images-na.ssl-images-amazon.com/images/I/41ITBBEjKgL._SL160_.jpg"
 ---

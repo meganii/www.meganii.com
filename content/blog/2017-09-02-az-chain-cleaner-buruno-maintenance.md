@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:03+09:00
 comments: true
 category: ['Life']
 tags: ['Bike','自転車']
-published: true
 slug: az-chain-cleaner-buruno-maintenance
 img: "https://res.cloudinary.com/meganii/image/upload/v1596888742/36834427941_a0966f6719_o_yrxxzu.jpg"
 ---

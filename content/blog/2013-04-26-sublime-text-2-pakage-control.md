@@ -4,7 +4,6 @@ date: 2013-04-26T22:21:00+09:00
 lastmod: 2023-05-05T01:23:54+09:00
 category: ['Tech']
 tags: ['sublime text2']
-published: true
 slug: sublime-text-2-pakage-control
 ---
 

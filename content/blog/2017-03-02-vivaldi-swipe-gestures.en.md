@@ -5,7 +5,6 @@ lastmod: 2022-10-16T12:51:02+09:00
 comments: true
 category: ['Tech']
 tags: ['Vivaldi','browser']
-published: true
 slug: vivaldi-swipe-gestures
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_300/v1514031264/thumbnail_tech.png"
 ---

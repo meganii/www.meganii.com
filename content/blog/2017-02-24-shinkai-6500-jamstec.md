@@ -5,7 +5,6 @@ lastmod: 2021-02-20T08:41:43+09:00
 comments: true
 category: ['Science']
 tags: ['Evolution']
-published: false
 slug: shinkai-6500-jamstec
 ---
 

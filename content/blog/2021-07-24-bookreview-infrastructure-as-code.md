@@ -2,7 +2,6 @@
 title: "『Infrastructure as Code』"
 date: 2021-07-24T19:51:34+09:00
 lastmod: 2021-07-24T19:51:34+09:00
-published: false
 category: ["Tech"]
 tags: ["IaC","",""]
 comment: true

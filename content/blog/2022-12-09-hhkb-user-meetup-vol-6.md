@@ -2,7 +2,6 @@
 title: "「HHKBを大切にしたいから周りから片付ける」HHKBユーザーミートアップVol.6"
 date: 2022-12-18T10:32:47+09:00
 lastmod: 2023-04-30T10:09:52+09:00
-published: true
 category: ["Tech"]
 tags: ["HHKB","meetup"]
 comment: true

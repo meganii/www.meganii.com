@@ -5,7 +5,6 @@ lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Tech']
 tags: ['h2o','http2']
-published: true
 slug: installing-h2o-with-ansible
 img: "/images/ansible.png"
 ---

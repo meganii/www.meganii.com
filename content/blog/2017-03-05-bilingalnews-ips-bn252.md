@@ -5,7 +5,6 @@ lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Life']
 tags: ['']
-published: false
 slug: bilingalnews-ips-bn252
 img: 
 ---

@@ -5,7 +5,6 @@ lastmod: 2021-02-11T11:21:42+09:00
 comments: true
 category: ['Tech']
 tags: ['IT','Work','WBS']
-published: true
 slug: work-breakdown-structure
 img: "https://images-na.ssl-images-amazon.com/images/I/51AEd5mQUNL._SL160_.jpg"
 ---

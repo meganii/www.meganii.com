@@ -4,7 +4,6 @@ date: 2020-04-17T19:32:09+09:00
 lastmod: 2020-07-16T21:38:27+09:00
 category: ['Tech']
 tags: ['Bitly', 'JavaScript']
-published: true
 slug: bitly-api-migrating-from-v3
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---

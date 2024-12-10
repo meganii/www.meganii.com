@@ -5,7 +5,6 @@ lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo']
-published: false
 slug: how-to-customize-theme
 img: /images/hugo_s.png
 ---

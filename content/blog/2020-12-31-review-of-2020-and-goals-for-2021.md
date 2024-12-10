@@ -2,7 +2,6 @@
 title: "2020年のふりかえりと2021年の目標"
 date: 2020-12-31T10:09:48+09:00
 lastmod: 2023-05-05T01:24:10+09:00
-published: true
 category: ["Life"]
 tags: ["ふりかえり", "目標"]
 comment: true

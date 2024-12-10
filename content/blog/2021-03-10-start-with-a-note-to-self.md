@@ -2,7 +2,6 @@
 title: "「自分のためのメモ」から始める - 『自分の名前で仕事がひろがる 「普通」の人のためのSNSの教科書』"
 date: 2021-03-10T23:13:21+09:00
 lastmod: 2023-05-05T01:24:11+09:00
-published: true
 category: ["Book"]
 tags: ["SNS", "情報発信"]
 comment: true

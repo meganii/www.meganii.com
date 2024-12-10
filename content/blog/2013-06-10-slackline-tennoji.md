@@ -4,7 +4,6 @@ date: 2013-06-10T22:17:00+09:00
 lastmod: 2022-07-02T11:32:46+09:00
 category: ['Activity']
 tags: ['slackline']
-published: true
 slug: slackline-tennoji
 ---
 

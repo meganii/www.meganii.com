@@ -4,7 +4,6 @@ date: 2014-12-17T21:19:00+09:00
 lastmod: 2023-05-05T01:23:57+09:00
 category: ['Travel']
 tags: ['日本三景','松島','宮島','天橋立','食べ歩き','旅行記']
-published: true
 img: "https://farm8.staticflickr.com/7489/16016656396_c9014ddef1_s.jpg"
 slug: matsushima-miyajima-amanohashidate-travel
 ---

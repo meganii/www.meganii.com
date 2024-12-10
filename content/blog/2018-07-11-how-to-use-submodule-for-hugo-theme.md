@@ -9,7 +9,6 @@ tags:
   - Hugo
   - Design
   - git
-published: true
 slug: how-to-use-submodule-for-hugo-theme
 img: https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png
 aliases:

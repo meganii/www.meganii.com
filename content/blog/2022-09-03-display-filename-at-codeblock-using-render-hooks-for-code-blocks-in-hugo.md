@@ -2,7 +2,6 @@
 title: "【Hugo】Render Hooks for Code Blocksを利用してコードブロックにファイル名を表示する"
 date: 2022-09-03T21:25:00+09:00
 lastmod: 2022-09-04T12:50:13+09:00
-published: true
 category: ["Tech"]
 tags: ["Hugo"]
 comment: true

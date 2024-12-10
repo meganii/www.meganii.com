@@ -4,7 +4,6 @@ date: 2014-11-08T20:37:00+09:00
 lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['AngularJS']
-published: true 
 slug: angular-flickr
 ---
 

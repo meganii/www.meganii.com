@@ -4,7 +4,6 @@ date: 2015-07-25T17:29:00+09:00
 lastmod: 2021-02-11T11:21:42+09:00
 category: ['Tech']
 tags: ['capybara']
-published: true
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 slug: capybara-connect-error
 ---

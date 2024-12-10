@@ -4,7 +4,6 @@ date: 2015-07-04T18:23:00+09:00
 lastmod: 2023-05-05T01:23:59+09:00
 category: ['Tech']
 tags: ['Swift','Cocoa','Xcode']
-published: true 
 img: "https://c4.staticflickr.com/4/3877/19396261452_c2ec154bfd_n.jpg" 
 slug: building-cocoa-os-x-application-with-swfit-in-xcode
 ---

@@ -5,7 +5,6 @@ lastmod: 2023-06-18T13:27:40+09:00
 comments: true
 category: ['Travel']
 tags: ['Spain','旅行記','バルセロナ']
-published: true
 slug: spain-barcelona
 img: "https://res.cloudinary.com/meganii/image/upload/v1596887759/26731528562_c396450288_z_poozvj.jpg"
 ---

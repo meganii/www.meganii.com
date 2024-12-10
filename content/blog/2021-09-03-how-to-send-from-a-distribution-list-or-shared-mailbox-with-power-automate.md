@@ -2,7 +2,6 @@
 title: "Power Automateで配布リストや共有メールボックスのアドレスから代理送信する"
 date: 2021-09-03T07:54:46+09:00
 lastmod: 2023-05-05T01:24:12+09:00
-published: true
 category: ["Tech"]
 tags: ["Power Platform","Power Automate"]
 comment: true

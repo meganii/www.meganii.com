@@ -5,7 +5,6 @@ lastmod: 2022-08-31T23:24:58+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo', 'Design']
-published: true
 slug: hugo-syntax-highlighting
 img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png"
 ---

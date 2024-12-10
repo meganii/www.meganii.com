@@ -5,7 +5,6 @@ lastmod: 2022-08-31T23:24:58+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo', 'shortcodes']
-published: true
 slug: how-to-create-hugo-shortcodes
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_75/v1514036568/thumbnail_hugo_icon.png"
 ---

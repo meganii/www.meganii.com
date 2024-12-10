@@ -5,7 +5,6 @@ lastmod: 2020-01-19T07:37:13+09:00
 comments: true
 category: ['Tech']
 tags: ['RD','Azure']
-published: true
 slug: remote-desktop-protocol
 img: "https://farm6.staticflickr.com/5828/22680623077_383e4a6595_z.jpg" 
 ---

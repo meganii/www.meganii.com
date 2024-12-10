@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:01+09:00
 comments: true
 category: ['Life']
 tags: ['minimo','ミニモ']
-published: true
 slug: get-a-haircut-by-minimo
 img: "https://res.cloudinary.com/meganii/image/upload/c_crop,f_auto,h_75,w_75/v1511099495/jecwzsscr9b0jrlgu5ni.jpg"
 ---

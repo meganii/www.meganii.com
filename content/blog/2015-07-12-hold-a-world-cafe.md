@@ -4,7 +4,6 @@ date: 2015-07-12T22:16:00+09:00
 lastmod: 2022-07-02T11:32:46+09:00
 category: ['Life']
 tags: ['ワールド・カフェ','ファシリテーション','組合活動']
-published: true
 img: "https://images-na.ssl-images-amazon.com/images/I/41Xz5nbHwbL._SL160_.jpg"
 slug: hold-a-world-cafe
 ---

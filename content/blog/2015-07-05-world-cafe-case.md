@@ -4,7 +4,6 @@ date: 2015-07-05T20:46:00+09:00
 lastmod: 2023-04-30T10:09:51+09:00
 category: ['Life']
 tags: ['ファシリテーション','ワールド・カフェ']
-published: true
 img: "https://images-na.ssl-images-amazon.com/images/I/41Xz5nbHwbL._SL160_.jpg"
 slug: world-cafe-case
 aliases: ["「ワールド・カフェをやろう！」の事例からからみる目的と問い"]

@@ -4,7 +4,6 @@ date: 2013-07-10T00:11:00+09:00
 lastmod: 2021-09-20T16:44:00+09:00
 category: ['Book']
 tags: 'book'
-published: true
 slug: logical-thinking
 img: "https://m.media-amazon.com/images/I/517dAx7Ih4L.jpg"
 ---

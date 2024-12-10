@@ -2,7 +2,6 @@
 title: "git-filter-repoを利用してGitリポジトリを最適化する"
 date: 2023-07-24T15:54:00+09:00
 lastmod: 2023-07-24T15:54:00+09:00
-published: true
 category: ["Tech"]
 tags: ["git"]
 comment: true

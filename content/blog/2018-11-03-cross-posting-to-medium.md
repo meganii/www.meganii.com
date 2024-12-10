@@ -5,7 +5,6 @@ lastmod: 2020-07-16T21:51:05+09:00
 comments: true
 category: ['Tech']
 tags: ['Blog', 'Medium', 'Qrunch']
-published: true
 slug: cross-posting-to-qrunch-and-medium
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---

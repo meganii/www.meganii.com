@@ -5,7 +5,6 @@ lastmod: 2020-07-05T07:51:24+09:00
 comments: true
 category: ['Book']
 tags: ['book', '読書']
-published: true
 slug: reading-technique-to-apply-to-real-life
 img: "https://m.media-amazon.com/images/I/51RTOZuP78L.jpg"
 ---

@@ -5,7 +5,6 @@ lastmod: 2020-04-05T08:51:42+09:00
 comments: true
 category: ['Tech']
 tags: ['Adsense','Web Design']
-published: true
 slug: display-none-google-adsense
 img: "https://images-na.ssl-images-amazon.com/images/I/41AmQGGOU-L._SL160_.jpg"
 ---

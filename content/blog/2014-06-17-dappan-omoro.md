@@ -4,7 +4,6 @@ date: 2014-06-17T22:00:00+09:00
 lastmod: 2020-07-05T16:30:52+09:00
 category: ['Book']
 tags: ["脱藩","book"]
-published: true
 slug: dappan-omoro
 img: "https://m.media-amazon.com/images/I/41ArPn4UwsL.jpg"
 ---

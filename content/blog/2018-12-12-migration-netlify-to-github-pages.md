@@ -9,7 +9,6 @@ tags:
   - GitHub
   - Pages
   - Netlify
-published: true
 slug: migration-netlify-to-github-pages
 img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png
 aliases:

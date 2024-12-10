@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:08+09:00
 comments: true
 category: ['Tech']
 tags: ['Blog', 'ブログメンタリング', '小さな習慣', 'アウトプット', 'ふりかえり']
-published: true
 slug: reflections-on-blog-mentoring
 img: "https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring_j15qwo.png"
 ---
@@ -18,7 +17,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring
 
 同じ期間でTableauの「DATA Saber認定制度」も同時並行で進めていたので、図らずとも「学んだことをブログに書く」という相乗効果を得ることができました。
 
-{{% iframely "https://www.meganii.com/blog/2020/03/23/a-look-back-at-the-data-saber-certification-program/" %}}
+[「DATA Saber認定制度」のふりかえり](/blog/2020/03/23/a-look-back-at-the-data-saber-certification-program/)
 
 ブログメンタリングの志望動機、流れ、成果、学んだことをふりかえります。
 
@@ -37,7 +36,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring
 
 「ブログメンタリング」とは何かについて詳しくは、[@kakakakakku]さんの下記ブログ記事やスライドを読んでみてください。
 
-{{% iframely "https://kakakakakku.hatenablog.com/entry/2019/06/24/070816" %}}
+[技術ブロガーを育てる！ブログメンタリングで何を教えているのか](https://kakakakakku.hatenablog.com/entry/2019/06/24/070816)
 
 {{% speakerdeck id="22885dc1bc674998825d6504276666b7" %}}
 
@@ -152,9 +151,7 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1585385651/blog-mentoring
 
 {{% amazon 4478065772 %}}
 
-
-{{% iframely "https://www.meganii.com/blog/2019/12/16/mini-habits-smaller-habits-bigger-results/" %}}
-
+[モチベーションに頼らない習慣化 /「小さな習慣」](blog/2019/12/16/mini-habits-smaller-habits-bigger-results/)
 
 ### 4. イベント参加レポートのタイトルやTwitterでの投稿内容
 

@@ -5,7 +5,6 @@ lastmod: 2021-02-11T11:21:42+09:00
 comments: true
 category: ['Tech']
 tags: ['Electron','React.js']
-published: true
 slug: electron-tutorial
 img: "https://farm2.staticflickr.com/1653/24649661356_a4251f1e29_n.jpg"
 ---

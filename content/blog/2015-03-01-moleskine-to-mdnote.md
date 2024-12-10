@@ -1,6 +1,6 @@
 ---
 title: モレスキンからミドリMDノートに乗り換え(万年筆の利用、価格の観点)
-date: 2015-02-28 23:22:00 +0000
+date: 2015-02-28T23:22:00+00:00
 lastmod: 2023-05-05T01:23:58+09:00
 category:
 - Stationery
@@ -10,7 +10,6 @@ tags:
 - 文房具
 - モレスキン
 - ミドリMDノート
-published: true
 img: https://images-na.ssl-images-amazon.com/images/I/31cYjEMPI1L._SL160_.jpg
 slug: moleskine-to-mdnote
 ---

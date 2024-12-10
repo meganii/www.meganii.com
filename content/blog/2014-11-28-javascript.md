@@ -4,7 +4,6 @@ date: 2014-11-28T23:32:00+09:00
 lastmod: 2023-05-05T01:23:57+09:00
 category: ['Tech']
 tags: ['JavaScript']
-published: true 
 slug: javascript
 img: "https://images-na.ssl-images-amazon.com/images/I/51c9uCrhHgL._SL160_.jpg"
 ---

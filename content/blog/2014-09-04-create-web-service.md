@@ -4,7 +4,6 @@ date: 2014-09-04T22:43:00+09:00
 lastmod: 2023-05-05T01:23:56+09:00
 category: ['Tech']
 tags: ['book', 'WebService']
-published: true
 slug: create-web-service
 img: "https://m.media-amazon.com/images/I/51jdbeo+rmL.jpg"
 ---

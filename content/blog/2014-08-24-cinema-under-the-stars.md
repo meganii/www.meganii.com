@@ -4,7 +4,6 @@ date: 2014-08-24T22:04:00+09:00
 lastmod: 2023-05-05T01:23:56+09:00
 category: ['Travel']
 tags: ["Movie","travel","星空の映画祭"]
-published: true
 slug: cinema-under-the-stars
 img: "https://farm4.staticflickr.com/3879/14832139400_0ef597a0be.jpg"
 ---

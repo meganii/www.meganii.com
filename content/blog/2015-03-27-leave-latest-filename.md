@@ -5,7 +5,6 @@ date: 2015-03-27T23:54:00+09:00
 lastmod: 2020-03-31T19:16:44+09:00
 category: ['Tech']
 tags: ['Ruby']
-published: true 
 slug: leave-latest-filename
 ---
 

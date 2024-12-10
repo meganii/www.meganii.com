@@ -5,7 +5,6 @@ date: 2013-06-25T20:45:00+09:00
 lastmod: 2023-05-05T01:23:55+09:00
 category: ['Tech']
 tags: ['Mac']
-published: true
 slug: remote-disk
 ---
 

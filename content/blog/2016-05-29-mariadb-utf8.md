@@ -5,7 +5,6 @@ lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['MariaDB', 'DB']
-published: true
 slug: mariadb-utf8
 img: 'https://images-na.ssl-images-amazon.com/images/I/51pj9W0WxzL._SL160_.jpg'
 ---

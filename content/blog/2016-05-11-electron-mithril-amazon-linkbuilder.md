@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:00+09:00
 comments: true
 category: ['Tech']
 tags: ['Electron', 'mithril.js', 'JavaScript']
-published: true
 slug: electron-mithril-amazon-linkbuilder
 img: "https://farm8.staticflickr.com/7085/26951293955_748076b816_q.jpg"
 ---

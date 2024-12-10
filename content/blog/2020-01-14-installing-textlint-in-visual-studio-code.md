@@ -5,7 +5,6 @@ lastmod: 2022-08-31T23:24:59+09:00
 comments: true
 category: ['Tech']
 tags: ['VSCode', 'textlint', '文章', 'Writing']
-published: true
 slug: installing-textlint-in-visual-studio-code
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---

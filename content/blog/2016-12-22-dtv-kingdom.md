@@ -5,7 +5,6 @@ lastmod: 2023-06-18T13:27:41+09:00
 comments: true
 category: ['Life']
 tags: ['dTV','動画配信サービス','キングダム','Chromecast']
-published: false
 slug: dtv-kingdom
 img: https://images-fe.ssl-images-amazon.com/images/I/612c4BSDSAL._SL160_.jpg
 ---

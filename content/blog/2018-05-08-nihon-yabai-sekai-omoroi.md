@@ -5,7 +5,6 @@ lastmod: 2020-07-05T07:51:24+09:00
 comments: true
 category: ['Book']
 tags: ['book','global']
-published: false
 slug: nihon-yabai-sekai-omoroi
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_100/v1514038598/BOOK_1_v8p2op.png"
 ---

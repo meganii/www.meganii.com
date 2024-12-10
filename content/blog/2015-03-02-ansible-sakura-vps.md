@@ -4,7 +4,6 @@ date: 2015-03-02T07:31:00+09:00
 lastmod: 2023-06-18T13:27:40+09:00
 category: ['Tech']
 tags: ['ansible','さくらvps']
-published: true
 img: "https://images-na.ssl-images-amazon.com/images/I/31u6VLGX2kL._SL160_.jpg"
 slug: ansible-sakura-vps
 ---

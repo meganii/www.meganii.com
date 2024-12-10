@@ -2,7 +2,6 @@
 title: "【レビュー】OMEN By HP 25L Desktop #OMENのある生活"
 date: 2021-03-20T21:13:27+09:00
 lastmod: 2023-05-05T01:24:11+09:00
-published: true
 category: ["Gadget"]
 tags: ["Windows"]
 comment: true

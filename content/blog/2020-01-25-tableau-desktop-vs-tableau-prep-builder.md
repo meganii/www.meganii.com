@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:07+09:00
 comments: true
 category: ['Tech']
 tags: ['Tableau']
-published: true
 slug: tableau-desktop-vs-tableau-prep-builder
 img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1579905055/thumb_tableau_czhjxd.png
 ---

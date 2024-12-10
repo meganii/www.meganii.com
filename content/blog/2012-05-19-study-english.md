@@ -4,7 +4,6 @@ date: 2012-05-19
 lastmod: 2022-07-02T10:08:03+09:00
 category: ['Book']
 tags: ['book','english']
-published: true
 slug: study-english
 img: "https://m.media-amazon.com/images/I/510EggBReqL.jpg"
 ---

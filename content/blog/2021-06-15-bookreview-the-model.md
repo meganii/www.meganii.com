@@ -2,7 +2,6 @@
 title: "『THE MODEL』 営業を科学するアプローチに衝撃を受けた"
 date: 2021-06-15T22:21:51+09:00
 lastmod: 2023-05-05T01:24:11+09:00
-published: true
 category: ["Book"]
 tags: ["営業","THE MODEL"]
 comment: true

@@ -4,7 +4,6 @@ date: 2013-05-23T07:19:00+09:00
 lastmod: 2023-05-05T01:23:55+09:00
 category: ['Tech']
 tags: ['jekyll','正規表現']
-published: true
 slug: regexp-jekyll
 ---
 

@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:08+09:00
 comments: true
 category: ['Tech']
 tags: ['Blog', 'Google Apps Script', 'ブログメンタリング']
-published: true
 slug: collecting-blog-kpi-with-google-apps-script-blog-kpi-collector
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---

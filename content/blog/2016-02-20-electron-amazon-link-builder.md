@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:23:59+09:00
 comments: true
 category: ['Tech']
 tags: ['Electron', 'JavaScript']
-published: true
 slug: electron-amazon-link-builder
 img: 'https://farm2.staticflickr.com/1467/25143519475_14929051ec_z.jpg'
 ---

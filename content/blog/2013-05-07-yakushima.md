@@ -4,7 +4,6 @@ date: 2013-05-07T07:13:00+09:00
 lastmod: 2023-05-05T01:23:55+09:00
 category: ['Travel']
 tags: ['屋久島','travel', '旅行記']
-published: true
 slug: yakushima
 img: "https://farm8.staticflickr.com/7320/8715988660_c5040b0f25_c.jpg"
 ---

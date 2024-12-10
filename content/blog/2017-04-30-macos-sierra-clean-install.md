@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:02+09:00
 comments: true
 category: ['Tech']
 tags: ['Mac','macOS']
-published: true
 slug: macos-sierra-clean-install
 img: /images/2017/06/macOS.png
 ---

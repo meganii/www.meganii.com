@@ -2,7 +2,6 @@
 title: "Oracle Cloud Infrastructure"
 date: 2020-07-24T06:55:57+09:00
 lastmod: 2023-05-05T01:24:09+09:00
-published: false
 category: ["Tech"]
 tags: ["Oracle","",""]
 comment: true

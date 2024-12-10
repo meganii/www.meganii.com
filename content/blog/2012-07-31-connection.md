@@ -4,7 +4,6 @@ date: 2012-07-31
 lastmod: 2023-05-05T01:23:54+09:00
 category: ['Book']
 tags: ['人脈','book', '読書']
-published: true
 slug: connection
 img: "https://res.cloudinary.com/meganii/image/upload/v1593902334/7668706168_dfc1dcbfc1_zka8pa.jpg"
 ---

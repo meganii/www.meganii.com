@@ -5,7 +5,6 @@ lastmod: 2022-08-31T12:48:38+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo', 'AMP', 'JavaScript', 'ブログカード']
-published: true
 slug: blogcard-in-hugo
 img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png"
 ---

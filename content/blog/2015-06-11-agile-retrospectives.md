@@ -4,7 +4,6 @@ date: 2015-06-11T22:47:00+09:00
 lastmod: 2023-05-05T01:23:58+09:00
 category: ['Book']
 tags: ['ファシリテーション','ふりかえり']
-published: true
 img: "https://m.media-amazon.com/images/I/51c-0ixFQUL.jpg"
 slug: agile-retrospectives
 ---

@@ -4,7 +4,6 @@ date: 2015-08-06T21:43:00+09:00
 lastmod: 2023-05-05T01:23:59+09:00
 category: ['Music']
 tags: ['Alexandros', 'ROCK IN JAPAN']
-published: true
 img: "https://images-na.ssl-images-amazon.com/images/I/51zFFtMtglL._SL160_.jpg"
 slug: alexandros-wataridori
 ---

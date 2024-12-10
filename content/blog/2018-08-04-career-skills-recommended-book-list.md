@@ -5,7 +5,6 @@ lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Tech']
 tags: ['Book', '技術書', 'キャリア']
-published: true
 slug: career-skills-recommended-book-list
 img: https://images-fe.ssl-images-amazon.com/images/I/41Jh62iphkL._SL160_.jpg 
 ---

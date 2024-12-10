@@ -4,7 +4,6 @@ date: 2013-05-18T12:06:00+09:00
 lastmod: 2020-03-31T19:16:44+09:00
 category: ['Tech']
 tags: ['Ruby','sqlite3']
-published: true
 slug: sqlite3-ruby
 ---
 

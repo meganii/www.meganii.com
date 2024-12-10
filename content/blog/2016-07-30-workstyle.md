@@ -5,7 +5,6 @@ lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['ワークスタイル', '仕事']
-published: true
 slug: workstyle
 img: "https://images-na.ssl-images-amazon.com/images/I/41nDcp8X7fL._SL160_.jpg"
 ---

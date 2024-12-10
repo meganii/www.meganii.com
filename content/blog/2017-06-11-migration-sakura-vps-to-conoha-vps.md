@@ -8,7 +8,6 @@ category:
 tags:
   - VPS
   - Conoha
-published: true
 slug: migration-sakura-vps-to-conoha-vps
 img: /images/2017/06/conoha_vps.png
 aliases:

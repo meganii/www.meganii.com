@@ -2,7 +2,6 @@
 title: "Git pre-commitフックでFrontmatterの「更新日時」を自動更新する"
 date: 2021-02-11T11:23:06+09:00
 lastmod: 2022-09-01T22:53:28+09:00
-published: true
 category: ["Tech"]
 tags: ["Hugo", "Git"]
 comment: true

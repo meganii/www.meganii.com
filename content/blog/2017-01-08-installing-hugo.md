@@ -5,7 +5,6 @@ lastmod: 2023-04-30T10:09:51+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo']
-published: true
 slug: installing-hugo
 img: /images/hugo_s.png
 ---

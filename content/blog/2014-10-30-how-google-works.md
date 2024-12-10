@@ -4,7 +4,6 @@ date: 2014-10-30T22:52:00+09:00
 lastmod: 2023-05-05T01:23:56+09:00
 category: ['Book']
 tags: ['Book','キャリア']
-published: true
 slug: how-google-works
 img: "https://m.media-amazon.com/images/I/51lusOSU33L.jpg"
 ---

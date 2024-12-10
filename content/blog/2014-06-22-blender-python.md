@@ -4,7 +4,6 @@ date: 2014-06-22T18:12:00+09:00
 lastmod: 2023-05-05T01:23:56+09:00
 category: ['Tech']
 tags: ["blender"]
-published: true
 slug: blender-python
 img: "https://farm3.staticflickr.com/2914/14483105314_fc858148c2_b.jpg"
 ---

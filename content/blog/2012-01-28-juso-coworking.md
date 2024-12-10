@@ -4,7 +4,6 @@ date: 2012-01-28
 lastmod: 2023-05-05T01:23:52+09:00
 category: ['Tech']
 tags: ['meetup']
-published: true
 slug: juso-coworking
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_400/v1530366276/jusoworking_daojpu.png"
 ---

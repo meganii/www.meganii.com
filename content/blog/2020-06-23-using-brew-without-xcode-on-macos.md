@@ -2,7 +2,6 @@
 title: "macOSでXcodeを利用せずにHomebrewを利用する方法"
 date: 2020-06-23T21:37:07+09:00
 lastmod: 2023-05-05T01:24:08+09:00
-published: true
 category: ["Tech"]
 tags: ["macOS", "Xcode"]
 comment: true

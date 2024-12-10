@@ -5,7 +5,6 @@ lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Book']
 tags: ['book','statistics','統計学']
-published: true
 slug: statistics-is-literacy-for-the-next-generation-professional
 img: "https://images-na.ssl-images-amazon.com/images/I/51vZ69hPFHL._SL160_.jpg"
 ---

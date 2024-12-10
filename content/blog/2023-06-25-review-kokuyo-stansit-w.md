@@ -2,7 +2,6 @@
 title: "【レビュー】コクヨ電動昇降デスク「STANSIT-W」"
 date: 2023-06-25T13:58:05+09:00
 lastmod: 2023-07-22T10:48:38+09:00
-published: true
 category: ["Gadget"]
 tags: ["レビュー","STANSIT-W"]
 comment: true

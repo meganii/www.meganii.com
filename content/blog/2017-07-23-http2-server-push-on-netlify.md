@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:03+09:00
 comments: true
 category: ['Tech']
 tags: ['Netlify','HTTP2']
-published: true
 slug: http2-server-push-on-netlify
 img: https://farm5.staticflickr.com/4296/35297674803_dd5bd37b56_t.jpg
 ---

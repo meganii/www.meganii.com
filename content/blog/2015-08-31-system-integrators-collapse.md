@@ -5,7 +5,6 @@ lastmod: 2022-07-02T11:32:46+09:00
 category: ['Book']
 tags: ['SIer','システム', '生存戦略', 'キャリア']
 slug: system-integrators-collapse
-published: true
 img: "https://m.media-amazon.com/images/I/41sd5FarWNL.jpg"
 ---
 

@@ -2,7 +2,6 @@
 title: "VR ReadyなデスクトップPCが欲しい"
 date: 2021-02-13T22:45:57+09:00
 lastmod: 2023-06-18T13:27:42+09:00
-published: true
 category: ["Gadget"]
 tags: ["PC","Windows"]
 comment: true

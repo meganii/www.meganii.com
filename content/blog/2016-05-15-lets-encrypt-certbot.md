@@ -5,7 +5,6 @@ lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Tech']
 tags: ['https', 'SSL', 'Lets Encrypt']
-published: true
 slug: lets-encrypt-certbot
 ---
 

@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:02+09:00
 comments: true
 category: ['Life']
 tags: ['キャリア','生存戦略']
-published: true
 slug: we-are-all-investors-of-time
 img: https://i.gyazo.com/thumb/200/_eed61ad2407c399045caaa90c781c05f-jpg.jpg
 ---

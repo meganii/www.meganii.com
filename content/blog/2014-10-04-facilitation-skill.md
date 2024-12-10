@@ -4,7 +4,6 @@ date: 2014-10-04T17:18:00+09:00
 lastmod: 2022-12-18T02:10:01+09:00
 category: ['Book']
 tags: ['book', 'ファシリテーション']
-published: true 
 slug: facilitation-skill
 img: "https://m.media-amazon.com/images/I/516CBVX9JJL.jpg"
 ---

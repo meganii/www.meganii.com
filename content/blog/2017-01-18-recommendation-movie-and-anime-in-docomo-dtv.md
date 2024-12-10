@@ -5,7 +5,6 @@ lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Life']
 tags: ['dTV','']
-published: false
 slug: recommendation-movie-and-anime-in-docomo-dtv
 img:
 ---

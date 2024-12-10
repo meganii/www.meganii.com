@@ -2,7 +2,6 @@
 title: "WSL2のデフォルトユーザを指定する"
 date: 2021-07-25T20:04:09+09:00
 lastmod: 2022-07-02T11:32:46+09:00
-published: true
 category: ["Tech"]
 tags: ["Windows","WSL2"]
 comment: true

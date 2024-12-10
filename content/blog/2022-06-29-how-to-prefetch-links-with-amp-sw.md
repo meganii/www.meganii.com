@@ -2,7 +2,6 @@
 title: "AMP Service WorkerでPrefetch Linksを実現する"
 date: 2022-06-29T22:01:54+09:00
 lastmod: 2022-09-04T12:50:13+09:00
-published: true
 category: ["Tech"]
 tags: ["AMP","Hugo"]
 comment: true

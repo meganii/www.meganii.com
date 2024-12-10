@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:00+09:00
 comments: true
 category: ['Life']
 tags: ['セルフマッサージ','やわこ', 'レビュー']
-published: true
 slug: self-massage-tool-yawako
 img: "https://res.cloudinary.com/meganii/image/upload/q_auto,f_auto,w_1000/v1514680492/oyde1qi32ol9bzz2czgo.jpg"
 ---

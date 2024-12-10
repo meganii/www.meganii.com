@@ -5,7 +5,6 @@ lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Tech']
 tags: ['CircleCI','Blog', 'Hugo']
-published: true
 slug: circle-ci-nightly-build
 img: "https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png"
 ---

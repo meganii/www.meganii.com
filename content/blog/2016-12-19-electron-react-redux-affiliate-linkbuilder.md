@@ -5,7 +5,6 @@ lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['Electron','React','']
-published: false
 slug: electron-react-redux-affiliate-linkbuilder
 img: "/images/2016/12/linkbuilder1.gif"
 ---

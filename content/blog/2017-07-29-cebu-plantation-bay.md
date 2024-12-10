@@ -5,7 +5,6 @@ lastmod: 2023-06-18T13:27:41+09:00
 comments: true
 category: ['Travel']
 tags: ['CEBU','セブ島','何もしない贅沢', 旅行記]
-published: true
 slug: cebu-plantation-bay-resort-spa
 img: "https://res.cloudinary.com/meganii/image/upload/v1593903217/36106967481_c962ffa6d3_c_hooswu.jpg"
 ---

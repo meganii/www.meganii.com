@@ -5,7 +5,6 @@ lastmod: 2021-01-30T17:56:10+09:00
 comments: true
 category: ['Tech']
 tags: ['Python','Hugo']
-published: true
 slug: hugo-related-post
 img: https://images-fe.ssl-images-amazon.com/images/I/51%2BfZJOKEKL._SL160_.jpg
 ---

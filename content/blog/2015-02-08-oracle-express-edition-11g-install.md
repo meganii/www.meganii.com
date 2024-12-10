@@ -4,7 +4,6 @@ date: 2015-02-08T15:11:00+09:00
 lastmod: 2023-05-05T01:23:58+09:00
 category: ['Tech']
 tags: ['Oracle','database']
-published: true
 img: "https://farm9.staticflickr.com/8640/16468400201_39ccfefbac_s.jpg" 
 slug: oracle-express-edition-11g-install
 ---

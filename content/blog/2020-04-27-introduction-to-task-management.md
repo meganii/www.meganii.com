@@ -4,7 +4,6 @@ date: 2020-04-27T06:00:00+09:00
 lastmod: 2023-05-05T01:24:08+09:00
 category: ['Book']
 tags: ['タスク管理', '習慣', '読書']
-published: true
 slug: introduction-to-task-management
 img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_600/v1587879130/delta-practice_xyfyxj.jpg
 ---

@@ -5,7 +5,6 @@ lastmod: 2021-01-30T17:56:10+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo', 'CircleCI', 'MeCab']
-published: true
 slug: circle-ci-settings-for-mecab-hugo
 img: /images/hugo_s.png
 ---
