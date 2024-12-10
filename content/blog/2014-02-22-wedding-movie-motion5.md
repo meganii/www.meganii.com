@@ -4,7 +4,6 @@ date: 2014-02-22T14:35:00+09:00
 lastmod: 2023-06-18T13:27:40+09:00
 category: ['Movie']
 tags: ["iMovie", "Motion5", "Movie"]
-published: true
 img: "https://images-na.ssl-images-amazon.com/images/I/51pXGkmlEUL._SL160_.jpg"
 slug: wedding-movie-motion5
 ---

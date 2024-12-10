@@ -5,7 +5,6 @@ lastmod: 2023-07-22T10:48:44+09:00
 comments: true
 category: ['Tech']
 tags: ['book']
-published: true
 slug: antoni-gaudi
 img: "https://images-na.ssl-images-amazon.com/images/I/31zTkBNcyuL._SL160_.jpg"
 ---

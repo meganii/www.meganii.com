@@ -4,7 +4,6 @@ date: 2014-11-16T23:59:00+09:00
 lastmod: 2023-05-05T01:23:57+09:00
 category: ['Stationery']
 tags: ['万年筆','LAMY', '文房具','LAMY', 'safari']
-published: true
 img: "https://res.cloudinary.com/meganii/image/upload/v1594306054/15800656071_6da29ae104_blhdyd.jpg"
 slug: fountain-pen-cleaning
 ---

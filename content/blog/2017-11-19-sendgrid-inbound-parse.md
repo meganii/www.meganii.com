@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:03+09:00
 comments: true
 category: ['Tech']
 tags: ['Sendgrid', 'Node.js', 'JavaScript']
-published: true
 slug: sendgrid-inbound-parse
 img: https://res.cloudinary.com/meganii/image/upload/c_scale,h_75,w_75,f_auto/v1511097208/zbenj5jvtfhidsnduvhx.png
 ---

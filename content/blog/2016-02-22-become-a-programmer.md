@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:23:59+09:00
 comments: true
 category: ['Tech']
 tags: ['life','プログラミング']
-published: true
 slug: become-a-programmer
 img: "https://farm5.staticflickr.com/4015/4639772572_c536c5b1dc_o.jpg"
 ---

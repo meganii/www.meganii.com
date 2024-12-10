@@ -5,7 +5,6 @@ lastmod: 2023-06-18T13:27:41+09:00
 comments: true
 category: ['Life']
 tags: ['革靴','レザー','scotch grain', 'スコッチグレイン']
-published: true
 slug: scotch-grain-shine-or-rain
 img: "https://res.cloudinary.com/meganii/image/upload/v1594888858/scotchgrain_t1g9ii.jpg"
 ---

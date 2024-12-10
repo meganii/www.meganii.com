@@ -5,7 +5,6 @@ lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Travel']
 tags: ['石垣島']
-published: false
 slug: okinawa-ishigaki
 img:
 ---

@@ -5,7 +5,6 @@ lastmod: 2023-06-18T13:27:41+09:00
 comments: true
 category: ['Tech']
 tags: ['Conoha','VPS','CoreOS']
-published: true
 slug: installing-coreos-with-conoha-vps
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---

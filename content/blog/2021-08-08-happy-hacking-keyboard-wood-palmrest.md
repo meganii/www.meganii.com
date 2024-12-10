@@ -2,7 +2,6 @@
 title: "HHKBにおすすめのパームレスト"
 date: 2021-08-08T16:25:58+09:00
 lastmod: 2022-04-23T10:30:12+09:00
-published: true
 category: ["Gadget"]
 tags: ["レビュー", "HHKB","キーボード", "パームレスト"]
 comment: true

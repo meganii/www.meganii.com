@@ -4,7 +4,6 @@ date: 2012-12-16
 lastmod: 2023-05-05T01:23:54+09:00
 category: ['Life']
 tags: ["snowborad"]
-published: true
 slug: Snowboard
 ---
 

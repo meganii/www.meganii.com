@@ -2,7 +2,6 @@
 title: "【イベントレポート】Data Engineering Study #1「基調講演1「Data Platform Guide - 事業を成長させるデータ基盤を作るには」"
 date: 2020-07-15T22:46:26+09:00
 lastmod: 2023-05-05T01:24:09+09:00
-published: true
 category: ["Tech"]
 tags: ["Data Engineering Study","Data", "イベントレポート", "event"]
 comment: true

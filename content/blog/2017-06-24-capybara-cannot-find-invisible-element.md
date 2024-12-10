@@ -5,7 +5,6 @@ lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['capybara']
-published: true
 slug: capybara-cannot-find-invisible-element
 img: https://images-fe.ssl-images-amazon.com/images/I/51HQYnwtflL._SL160_.jpg
 ---

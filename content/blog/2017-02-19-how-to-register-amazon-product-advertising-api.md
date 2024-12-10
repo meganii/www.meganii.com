@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:02+09:00
 comments: true
 category: ['Tech']
 tags: ['API','Amazon']
-published: true
 slug: how-to-register-amazon-product-advertising-api
 img: https://i.gyazo.com/thumb/200/_96237a7bdceefabf3b4786753bb83897-png.jpg
 ---

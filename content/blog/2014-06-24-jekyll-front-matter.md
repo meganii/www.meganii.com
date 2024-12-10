@@ -5,7 +5,6 @@ date: 2014-06-24T07:12:00+09:00
 lastmod: 2022-07-02T10:08:03+09:00
 category: ['Tech']
 tags: ['jekyll']
-published: true
 slug: jekyll-front-matter
 ---
 

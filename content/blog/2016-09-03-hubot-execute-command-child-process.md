@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:01+09:00
 comments: true
 category: ['Tech']
 tags: ['Hubot','JavaScript']
-published: true
 slug: hubot-execute-command-child-process
 img: "https://farm9.staticflickr.com/8168/28820861054_3f40884614_m.jpg"
 ---

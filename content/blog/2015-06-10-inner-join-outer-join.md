@@ -4,7 +4,6 @@ date: 2015-06-10T07:58:00+09:00
 lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['DB','SQL']
-published: true
 img: "https://images-na.ssl-images-amazon.com/images/I/51pl3HrLCjL._SL160_.jpg"
 slug: inner-join-outer-join
 ---

@@ -2,7 +2,6 @@
 title: "Hugo v0.109.0でパンくずリストをシンプルに実装する"
 date: 2023-02-03T21:39:28+09:00
 lastmod: 2023-02-03T21:39:28+09:00
-published: true
 category: ["Tech"]
 tags: ["Hugo","Blog"]
 comment: true

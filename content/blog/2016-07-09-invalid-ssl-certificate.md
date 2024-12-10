@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:00+09:00
 comments: true
 category: ['Tech']
 tags: ['https', 'SSL', 'Lets Encrypt']
-published: true
 slug: invalid-ssl-certificate
 img: "/images/le-logo-standard.png"
 ---

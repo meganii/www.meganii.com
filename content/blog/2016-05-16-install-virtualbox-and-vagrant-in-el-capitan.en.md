@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:00+09:00
 comments: true
 category: ['Tech']
 tags: ['El Capitan','Mac']
-published: true
 slug: install-virtualbox-and-vagrant-in-el-capitan
 img: "https://farm8.staticflickr.com/7385/26774309130_925fdae08f_t.jpg"
 ---

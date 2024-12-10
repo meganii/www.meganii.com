@@ -5,7 +5,6 @@ lastmod: 2020-07-05T16:30:52+09:00
 comments: true
 category: ['Book']
 tags: ['Design','Inovation', '読書メモ']
-published: true
 slug: open-inovation-and-design-thinking
 img: "https://m.media-amazon.com/images/I/41gQn8vzZoL.jpg"
 ---

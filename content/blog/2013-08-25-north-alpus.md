@@ -4,7 +4,6 @@ date: 2013-08-25T21:21:00+09:00
 lastmod: 2023-05-05T01:23:55+09:00
 category: ['Travel']
 tags: ['登山','旅行記']
-published: true
 slug: north-alpus
 img: "https://c1.staticflickr.com/6/5447/9592275938_501b626375_s.jpg"
 ---

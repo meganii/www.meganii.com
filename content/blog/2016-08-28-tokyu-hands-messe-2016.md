@@ -5,7 +5,6 @@ lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Life']
 tags: ['東急ハンズ']
-published: true
 slug: tokyu-hands-messe-2016
 img: "https://images-fe.ssl-images-amazon.com/images/I/41etud8KE9L._SL160_.jpg"
 

@@ -7,7 +7,6 @@ category: ['Tech']
 tags:
   - 'Vim'
   - 'Sublime Text 2'
-published: true
 slug: sublime-vim
 ---
 

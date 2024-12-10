@@ -5,7 +5,6 @@ lastmod: 2023-05-01T01:27:09+09:00
 comments: true
 category: ['Tech']
 tags: ['Tableau', 'DATA Saber', 'ふりかえり']
-published: true
 slug: "a-look-back-at-the-data-saber-certification-program"
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,w_500/v1584785388/datasaber_y5ziiu.png"
 ---

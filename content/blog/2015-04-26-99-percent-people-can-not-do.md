@@ -4,7 +4,6 @@ date: 2015-04-26T19:13:00+09:00
 lastmod: 2020-07-05T07:51:24+09:00
 category: ['Book']
 tags: ['biz','book','読書']
-published: true
 img: "https://m.media-amazon.com/images/I/51XcqcHcS6L.jpg"
 slug: 99-percent-people-can-not-do
 ---

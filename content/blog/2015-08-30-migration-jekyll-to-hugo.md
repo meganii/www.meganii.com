@@ -4,7 +4,6 @@ date: "2015-08-30T11:56:00+09:00"
 lastmod: 2022-07-02T11:32:46+09:00
 category: ['Tech']
 tags: ['jekyll','Hugo']
-published: true
 slug: migration-jekyll-to-hugo
 img: "/images/hugo_s.png"
 ---

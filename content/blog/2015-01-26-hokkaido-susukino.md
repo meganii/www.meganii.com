@@ -4,7 +4,6 @@ date: 2015-01-26T23:37:00+09:00
 lastmod: 2023-05-05T01:23:58+09:00
 category: ['Travel']
 tags: ['グルメ','北海道','旅行記','すすきの']
-published: true
 img: "https://res.cloudinary.com/meganii/image/upload/v1604324839/16354201512_520a96a72a_z_s2zqay.jpg"
 slug: hokkaido-susukino
 ---

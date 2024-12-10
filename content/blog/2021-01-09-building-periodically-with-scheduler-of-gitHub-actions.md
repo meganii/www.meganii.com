@@ -2,7 +2,6 @@
 title: "GitHub Actionsのスケジューラ実行を利用して定期的にビルドする"
 date: 2021-01-09T15:53:36+09:00
 lastmod: 2023-05-05T01:24:10+09:00
-published: true
 category: ["Tech"]
 tags: ["GitHub","GitHub Actions","Hugo"]
 slug: "building-periodically-with-scheduler-of-gitHub-actions"

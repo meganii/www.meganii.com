@@ -11,11 +11,8 @@ tags:
   - Lifehack
   - 習慣
   - 小さな習慣
-published: true
 slug: mini-habits-smaller-habits-bigger-results
 img: https://m.media-amazon.com/images/I/41-SgavV5cL.jpg
-aliases:
-  - モチベーションに頼らない習慣化 /「小さな習慣」
 ---
 
 2019年12月から[@kakakakakku](https://twitter.com/kakakakakku)さんのブログメンタリングを受けており、次の書籍をおすすめされたので読んで、その内容をまとめてみる。

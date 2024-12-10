@@ -4,7 +4,6 @@ date: 2012-05-31
 lastmod: 2023-05-05T01:23:53+09:00
 category: ['Life']
 tags: ['ふじもなお','icon']
-published: true
 slug: fujimonao
 ---
 

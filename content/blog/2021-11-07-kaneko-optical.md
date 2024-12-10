@@ -2,7 +2,6 @@
 title: "金子眼鏡でZEISSレンズのメガネを購入した"
 date: 2021-11-07T16:47:22+09:00
 lastmod: 2022-04-23T10:30:12+09:00
-published: true
 category: ["Life"]
 tags: ["眼鏡","金子眼鏡"]
 comment: true

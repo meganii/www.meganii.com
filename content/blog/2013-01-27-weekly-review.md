@@ -4,7 +4,6 @@ date: 2013-01-27
 lastmod: 2023-05-05T01:23:54+09:00
 category: ['Life']
 tags: ["週次レビュー", 'Lifehack']
-published: true
 slug: weekly-review
 img: "https://farm9.staticflickr.com/8235/8420719015_e088db300d.jpg"
 ---

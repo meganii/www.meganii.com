@@ -5,7 +5,6 @@ lastmod: 2023-01-14T23:40:53+09:00
 comments: true
 category: ['Study']
 tags: ['英語', 'English']
-published: true
 slug: bilingualnews-learning-english
 img: "https://images-fe.ssl-images-amazon.com/images/I/51pu%2B0tZVxL._SL500_.jpg"
 ---

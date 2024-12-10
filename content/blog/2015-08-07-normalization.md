@@ -4,7 +4,6 @@ date: 2015-08-07T08:46:00+09:00
 lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['DB']
-published: true
 img: "https://images-na.ssl-images-amazon.com/images/I/51vol70XHoL._SL160_.jpg"
 slug: normalization
 ---

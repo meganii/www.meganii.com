@@ -5,7 +5,6 @@ lastmod: 2023-04-30T10:09:52+09:00
 comments: true
 category: ['Tech']
 tags: ['API','楽天']
-published: true
 slug: rakuten-api
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 aliases: "楽天APIの調査結果"

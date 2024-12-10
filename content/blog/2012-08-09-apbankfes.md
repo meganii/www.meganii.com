@@ -4,7 +4,6 @@ date: 2012-08-09
 lastmod: 2023-05-05T01:23:54+09:00
 category: ['Music']
 tags: ['夏フェス', 'フェス', 'AP Bank Fes', '淡路島']
-published: false
 slug: apbankfes
 img: "https://farm9.staticflickr.com/8297/7746496370_2198f4a7e5.jpg"
 ---

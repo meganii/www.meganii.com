@@ -2,7 +2,6 @@
 title: "DeepL翻訳時にAutoHotKeyを使用して改行を削除する"
 date: 2021-05-24T21:24:55+09:00
 lastmod: 2021-05-24T21:24:55+09:00
-published: true
 category: ["Tech"]
 tags: ["AutoHotKey","DeepL","英語翻訳"]
 comment: true

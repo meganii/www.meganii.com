@@ -5,7 +5,6 @@ lastmod: 2022-08-31T23:31:34+09:00
 comments: true
 category: ['Science']
 tags: ['Evolution', 'BilingualNews', 'Podcast']
-published: true
 slug: earliest-evidence-of-life-on-earth-found
 img: https://images-fe.ssl-images-amazon.com/images/I/51QaEoCJs0L._SL160_.jpg
 ---

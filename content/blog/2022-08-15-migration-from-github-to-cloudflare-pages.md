@@ -2,7 +2,6 @@
 title: GitHub PagesからCloudflare Pagesへの移行
 date: 2022-08-14T15:07:29+09:00
 lastmod: 2022-08-17T11:00:07+09:00
-published: true
 category:
   - Tech
 tags:

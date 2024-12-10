@@ -5,7 +5,6 @@ lastmod: 2020-07-05T07:51:24+09:00
 comments: true
 category: ['Book']
 tags: ['book','consulting']
-published: true
 slug: the-secrets-of-consulting
 img: "https://m.media-amazon.com/images/I/418S5FJ6RHL._SL500_.jpg"
 ---

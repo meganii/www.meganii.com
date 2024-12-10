@@ -4,7 +4,6 @@ date: 2020-05-08T21:50:23+09:00
 lastmod: 2020-07-10T07:49:04+09:00
 category: ['Tech']
 tags: ['Tableau', 'Tableau Public']
-published: true
 slug: how-to-save-tableau-public-workbook-with-hiding
 img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1579905055/thumb_tableau_czhjxd.png
 ---

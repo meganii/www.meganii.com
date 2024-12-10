@@ -2,15 +2,12 @@
 title: "『超没入: メールやチャットに邪魔されない、働き方の正解』でチャットのあり方を見直す"
 date: 2022-08-06T20:58:33+09:00
 lastmod: 2022-08-06T20:58:33+09:00
-published: true
 category:
   - Book
 tags:
   - 働き方
 slug: a-world-without-email
 img: https://m.media-amazon.com/images/I/51dhaRBsCsL._SL500_.jpg
-aliases:
-  - "『超没入: メールやチャットに邪魔されない、働き方の正解』でチャットのあり方を見直す"
 ---
 
 {{% amazon 4152101369 %}}

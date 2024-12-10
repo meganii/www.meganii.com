@@ -4,7 +4,6 @@ date: 2013-03-29T20:59:00+09:00
 lastmod: 2023-05-05T01:23:54+09:00
 category: ['Activity']
 tags: ['スラックライン','ボルダリング']
-published: true
 slug: slackline
 img: "https://res.cloudinary.com/meganii/image/upload/w_600/v1565608317/mauricio-santanna-6SNF2Nt2zsc-unsplash_vmwk2n.jpg"
 ---

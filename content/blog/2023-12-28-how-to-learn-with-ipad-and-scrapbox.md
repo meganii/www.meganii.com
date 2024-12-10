@@ -2,7 +2,6 @@
 title: iPadとScrapboxで楽しく学ぶ資格学習法　〜手書きデジタルノートとネットワーク型ノートツールのすすめ〜
 date: 2023-12-28T19:23:57+09:00
 lastmod: 2023-12-28T19:23:57+09:00
-published: true
 category:
   - Tech
 tags:

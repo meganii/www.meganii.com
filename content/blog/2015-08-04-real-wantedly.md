@@ -4,7 +4,6 @@ date: 2015-08-04T20:39:29+09:00
 lastmod: 2023-06-18T13:27:40+09:00
 category: ['Tech']
 tags: ['転職','wantedly', 'イベントレポート', 'Event']
-published: true
 slug: real-wantedly
 img: https://res.cloudinary.com/meganii/image/upload/v1619316008/realwantedly-4_xtctni.jpg
 ---

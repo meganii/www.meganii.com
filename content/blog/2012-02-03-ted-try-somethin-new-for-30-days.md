@@ -1,11 +1,10 @@
 ---
 title: Try something new for 30 days
-date: 2012-02-03 00:29:26 +0900
+date: 2012-02-03T00:29:26+09:00
 lastmod: 2021-09-20T16:44:00+09:00
 slug: ted-try-somethin-new-for-30-days
 category: ['Study']
 tags: ['TED','English']
-published: false
 ---
 
 

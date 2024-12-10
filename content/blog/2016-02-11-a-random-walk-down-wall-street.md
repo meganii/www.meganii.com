@@ -5,7 +5,6 @@ lastmod: 2020-07-05T07:51:24+09:00
 comments: true
 category: ['Book']
 tags: ['Money','株式','投資']
-published: true
 slug: a-random-walk-down-wall-street
 img: "https://m.media-amazon.com/images/I/51aZ6vshSEL.jpg"
 ---

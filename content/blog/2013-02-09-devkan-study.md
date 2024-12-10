@@ -4,7 +4,6 @@ date: 2013-02-09T20:58:00+09:00
 lastmod: 2023-05-05T01:23:54+09:00
 category: ['Tech']
 tags: ['DevLOVE','勉強会', 'event', 'イベントレポート']
-published: true
 slug: devkan-study
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto/v1594902885/tech_ben4sq.png"
 ---

@@ -4,7 +4,6 @@ date: 2012-03-13T00:08:28+09:00
 lastmod: 2019-04-27T16:12:02+09:00
 category: ['Activity']
 tags: ['ボルダリング']
-published: true
 slug: bouldering-beginners-movie
 ---
 

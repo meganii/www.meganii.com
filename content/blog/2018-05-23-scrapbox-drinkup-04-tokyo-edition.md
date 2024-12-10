@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:04+09:00
 comments: true
 category: ['Tech']
 tags: ['meetup','scrapbox']
-published: true
 slug: scrapbox-drinkup-04-tokyo-edition
 img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1527252310/scrapbox_drinkup_04_fcn0xk.jpg
 ---

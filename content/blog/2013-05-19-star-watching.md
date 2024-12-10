@@ -4,7 +4,6 @@ date: 2013-05-19T21:14:00+09:00
 lastmod: 2023-05-05T01:23:55+09:00
 category: ['Travel']
 tags: ["star"]
-published: true
 slug: star-watching
 img: "https://res.cloudinary.com/meganii/image/upload/v1593903141/8757731976_91975c8765_z_cwdouk.jpg"
 ---

@@ -4,7 +4,6 @@ date: 2015-06-21T20:20:00+09:00
 lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['scrum','agile']
-published: false
 slug: scrum-boot-camp-the-book
 img: "https://images-na.ssl-images-amazon.com/images/I/51q3GMM3rjL._SL160_.jpg"
 ---

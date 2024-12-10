@@ -4,7 +4,6 @@ date: 2012-03-03
 lastmod: 2023-05-05T01:23:52+09:00
 category: ['Activity']
 tags: ['ボルダリング']
-published: true
 slug: first-try-bouldering
 img: "https://farm8.staticflickr.com/7208/6950746455_af9190e7e6.jpg"
 ---

@@ -5,7 +5,6 @@ lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['Podcast','Rebuild.fm']
-published: true
 slug: rebuild-meetup-2019
 img: "https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v1555453439/RebuildMeetup2019.jpg"
 ---

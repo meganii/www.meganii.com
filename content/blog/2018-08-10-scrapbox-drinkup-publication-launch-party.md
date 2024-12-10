@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:05+09:00
 comments: true
 category: ['Tech']
 tags: ['Scrapbox']
-published: true
 slug: scrapbox-drinkup-publication-launch-party
 img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200/v1534515311/IMG_2922_xo2guw.jpg
 ---

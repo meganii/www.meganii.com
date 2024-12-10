@@ -4,7 +4,6 @@ date: 2015-05-09T12:57:00+09:00
 lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: ['middleman']
-published: true
 slug: middleman-getting-start
 ---
 

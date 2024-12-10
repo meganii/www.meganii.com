@@ -4,7 +4,6 @@ date: 2012-05-18
 lastmod: 2023-05-05T01:23:53+09:00
 category: ['Activity']
 tags: ['テニスブー', 'テニス', 'スポーツ']
-published: true
 slug: tennisboo
 img: "https://farm8.staticflickr.com/7081/7214883056_bb09dc7194.jpg"
 ---

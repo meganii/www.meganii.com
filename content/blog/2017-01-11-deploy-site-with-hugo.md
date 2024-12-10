@@ -8,7 +8,6 @@ category:
 tags:
   - Hugo
   - deploy
-published: true
 slug: deploy-site-with-hugo
 img: /images/hugo_s.png
 aliases:

@@ -4,7 +4,6 @@ date: "2015-08-29T17:13:12+09:00"
 lastmod: 2023-05-05T01:23:59+09:00
 category: ['Book']
 tags: ['book','マーケティング']
-published: true
 img: "https://res.cloudinary.com/meganii/image/upload/v1565609697/marketing-22_pmhi3a.png"
 slug: marketing-22-raws
 ---

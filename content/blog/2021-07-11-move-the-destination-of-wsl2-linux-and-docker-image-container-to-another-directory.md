@@ -2,7 +2,6 @@
 title: "WSL2のLinuxおよびDockerイメージ格納先を任意のディレクトリに移動する"
 date: 2021-07-11T14:12:20+09:00
 lastmod: 2023-05-05T01:24:12+09:00
-published: true
 category: ["Tech"]
 tags: ["Windows", "WSL2","Docker", "Docker Desktop"]
 comment: true

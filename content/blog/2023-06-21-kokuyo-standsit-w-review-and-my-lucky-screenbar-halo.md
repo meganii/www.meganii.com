@@ -2,7 +2,6 @@
 title: "コクヨの昇降デスク「STANSIT-W」でスタンディングワークを始めたら「ScreenBar Halo」のプレゼントキャンペーンに当選！快適な在宅環境を手に入れた"
 date: 2023-06-21T22:30:40+09:00
 lastmod: 2023-07-16T10:02:01+09:00
-published: true
 category: ["Gadget"]
 tags: ["コクヨ","在宅環境","リモートワーク", "レビュー"]
 comment: true

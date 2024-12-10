@@ -4,7 +4,6 @@ date: 2014-11-29T23:01:00+09:00
 lastmod: 2023-05-05T01:23:57+09:00
 category: ['Tech']
 tags: ['Jekyll','文字コード']
-published: true 
 slug: jekyll-tags-unread-because-of-utf-8-mac
 img: "https://farm9.staticflickr.com/8582/15904473402_eeaa56b76f_z.jpg"
 ---

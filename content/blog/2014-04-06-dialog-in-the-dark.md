@@ -4,7 +4,6 @@ date: 2014-04-06T11:00:00+09:00
 lastmod: 2023-05-05T01:23:56+09:00
 category: ['Life']
 tags: ['DialogInTheDark','暗闇体験']
-published: true
 slug: dialog-in-the-dark
 img: "https://farm4.staticflickr.com/3707/13655946803_10ac7c61e4.jpg"
 ---

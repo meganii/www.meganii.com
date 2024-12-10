@@ -4,7 +4,6 @@ date: 2014-11-04T23:02:00+09:00
 lastmod: 2023-05-05T01:23:57+09:00
 category: ['Study']
 tags: ['統計学']
-published: true
 slug: statistics
 img: "https://images-na.ssl-images-amazon.com/images/I/41OfaN1i6qL._SL160_.jpg"
 ---

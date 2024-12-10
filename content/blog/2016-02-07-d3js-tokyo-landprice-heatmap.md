@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:23:59+09:00
 comments: true
 category: ['Tech']
 tags: ['D3.js', 'JavaScript', 'データ可視化']
-published: true
 slug: d3js-tokyo-landprice-heatmap
 img: "https://farm2.staticflickr.com/1680/24844125586_c74f952e38_s.jpg"
 ---

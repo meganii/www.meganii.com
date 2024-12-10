@@ -4,7 +4,6 @@ date: 2014-10-09T00:40:00+09:00
 lastmod: 2020-07-05T16:30:52+09:00
 category: ['Book']
 tags: ['book','ファシリテーション', '会議']
-published: true 
 slug: knowledge-groupware
 img: "https://m.media-amazon.com/images/I/516CBVX9JJL.jpg"
 ---

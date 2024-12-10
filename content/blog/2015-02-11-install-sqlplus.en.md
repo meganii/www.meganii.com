@@ -4,7 +4,6 @@ date: 2015-02-11T22:54:00+09:00
 lastmod: 2022-07-02T10:08:03+09:00
 category: ['Tech']
 tags: ['Oracle', 'sqlplus']
-published: true
 slug: how-to-install-sqlplus-in-macosx
 ---
 

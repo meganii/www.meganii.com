@@ -4,7 +4,6 @@ date: 2013-06-30T06:39:00+09:00
 lastmod: 2019-05-01T13:03:31+09:00
 category: ['Tech']
 tags: ['vagrant']
-published: true
 slug: vagrant-install
 ---
 

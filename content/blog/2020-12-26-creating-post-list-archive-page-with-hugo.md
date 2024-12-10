@@ -2,7 +2,6 @@
 title: "Hugoでブログ記事一覧ページ（ブログアーカイブページ）を作成する"
 date: 2020-12-26T10:46:41+09:00
 lastmod: 2022-07-02T11:32:46+09:00
-published: true
 category: ["Tech"]
 tags: ["Hugo","Tips"]
 slug: "creating-post-list-archive-page-with-hugo"

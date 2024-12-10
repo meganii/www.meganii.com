@@ -5,7 +5,6 @@ lastmod: 2020-08-08T21:03:11+09:00
 comments: true
 category: ['Book']
 tags: ['Book','読書', 'アウトプット']
-published: true
 slug: book-reading-evolution-theory
 img: "https://m.media-amazon.com/images/I/41nC9Nn4AWL._SL500_.jpg"
 ---

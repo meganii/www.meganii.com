@@ -5,7 +5,6 @@ lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Life']
 tags: ['English']
-published: true
 slug: bilingualnews
 img: https://images-na.ssl-images-amazon.com/images/I/51wCWfIcoJL._SL160_.jpg
 ---

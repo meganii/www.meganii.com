@@ -2,7 +2,6 @@
 title: "参加レポ「JTUG10周年記念総会 ~Beyond the 1st Decade~」"
 date: 2024-02-04T21:42:04Z
 lastmod: 2024-02-04T21:42:04Z
-published: true
 category: ["Tech"]
 tags:
     - "JTUG"

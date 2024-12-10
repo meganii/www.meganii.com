@@ -5,7 +5,6 @@ lastmod: 2023-06-18T13:27:41+09:00
 comments: true
 category: ['Life']
 tags: ['飲み会','party', '池袋']
-published: true
 slug: ikebukuro
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,h_75,q_auto,w_75/v1514104052/thumbnail_party.png"
 ---

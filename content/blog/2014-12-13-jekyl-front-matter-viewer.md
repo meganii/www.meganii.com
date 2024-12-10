@@ -4,7 +4,6 @@ date: 2014-12-13T18:15:00+09:00
 lastmod: 2023-05-05T01:23:57+09:00
 category: ['Tech']
 tags: ['jekyll','Ruby']
-published: true
 slug: jekyl-front-matter-viewer
 img: "https://res.cloudinary.com/meganii/image/upload/v1633778481/16007934641_502fe07015_z_daudwn.jpg"
 ---

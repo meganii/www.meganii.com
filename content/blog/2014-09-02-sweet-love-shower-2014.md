@@ -4,7 +4,6 @@ date: 2014-09-02T00:44:00+09:00
 lastmod: 2023-05-05T01:23:56+09:00
 category: ['Travel','Music']
 tags: ["music", "夏フェス","SWEET LOVE SHOWER"]
-published: true
 slug: sweet-love-shower-2014
 img: "https://c1.staticflickr.com/4/3902/14930345090_7fd8e45761_s.jpg"
 ---

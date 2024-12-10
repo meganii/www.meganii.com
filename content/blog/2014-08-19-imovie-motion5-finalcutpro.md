@@ -4,7 +4,6 @@ date: 2014-08-19T07:45:00+09:00
 lastmod: 2019-04-27T16:12:02+09:00
 category: ['Movie']
 tags: ["iMovie","Movie"]
-published: true
 slug: imovie-motion5-finalcutpro
 img: "https://images-na.ssl-images-amazon.com/images/I/51rrLwOzq1L._SL160_.jpg"
 ---

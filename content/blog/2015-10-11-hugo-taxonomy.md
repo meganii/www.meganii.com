@@ -5,7 +5,6 @@ comments: true
 category: ['Tech']
 tags: ['Hugo']
 slug: hugo-taxonomy
-published: true
 img: "/images/hugo_s.png"
 ---
 

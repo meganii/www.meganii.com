@@ -4,7 +4,6 @@ date: 2013-06-18T06:32:00+09:00
 lastmod: 2023-05-05T01:23:55+09:00
 category: ['Tech']
 tags: ['Mac', 'MacBook']
-published: true
 slug: macbookair
 img: https://res.cloudinary.com/meganii/image/upload/v1596279506/9068613142_195584a353_p6p3od.jpg
 ---

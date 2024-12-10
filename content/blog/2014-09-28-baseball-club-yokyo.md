@@ -4,7 +4,6 @@ date: 2014-09-28T22:11:00+09:00
 lastmod: 2023-05-05T01:23:56+09:00
 category: ['Movie']
 tags: ['Movie', '結婚式余興', 'iMovie', 'Motion5']
-published: true
 img: "https://farm6.staticflickr.com/5598/15432488581_468bd350f1_s.jpg"
 slug: baseball-club-yokyo
 ---

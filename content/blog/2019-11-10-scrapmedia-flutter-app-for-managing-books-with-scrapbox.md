@@ -5,7 +5,6 @@ lastmod: 2023-06-18T13:27:42+09:00
 comments: true
 category: ['Tech']
 tags: ['Android', 'Flutter']
-published: true
 slug: scrapmedia-flutter-app-for-managing-books-with-scrapbox
 img: https://res.cloudinary.com/meganii/image/upload/v1573366825/playstore_icon_dz92ux.png
 ---

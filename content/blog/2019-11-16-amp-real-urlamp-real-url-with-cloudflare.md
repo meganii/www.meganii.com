@@ -5,7 +5,6 @@ lastmod: 2023-06-18T13:27:42+09:00
 comments: true
 category: ['Tech']
 tags: ['Cloudflare', 'Blog', 'Design']
-published: true
 slug: amp-real-url-with-cloudflare
 img: "https://res.cloudinary.com/meganii/image/upload/v1574561130/AMP_%EF%B8%8F_Real_URL_a1iiwa.png"
 ---

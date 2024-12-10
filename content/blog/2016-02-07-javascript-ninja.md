@@ -5,7 +5,6 @@ lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['JavaScript']
-published: true
 slug: javascript-ninja
 img: "https://images-na.ssl-images-amazon.com/images/I/51hWBKh7tdL._SL160_.jpg"
 ---

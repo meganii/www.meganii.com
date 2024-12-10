@@ -5,7 +5,6 @@ lastmod: 2020-01-19T07:37:13+09:00
 comments: true
 category: ['Tech']
 tags: ['Azure DevOps', 'Azure']
-published: true
 slug: azure-devops-tokyo-japan-2nd-impact
 ---
 

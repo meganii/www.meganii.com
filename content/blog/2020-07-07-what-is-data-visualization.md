@@ -2,7 +2,6 @@
 title: "『データ視覚化』とは何か 〜「データ視覚化のデザイン」「データビジュアライゼーションの教科書」から『Data Visualization』を読み解く〜"
 date: 2020-07-07T06:03:03+09:00
 lastmod: 2023-05-05T01:24:09+09:00
-published: true
 category: ["Book"]
 tags: ["Tableau","データ視覚化","データビジュアライゼーション"]
 comment: true

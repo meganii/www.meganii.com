@@ -5,7 +5,6 @@ lastmod: 2021-02-20T08:41:43+09:00
 comments: true
 category: ['']
 tags: ['株']
-published: false
 slug: gmo-internet
 img:
 ---

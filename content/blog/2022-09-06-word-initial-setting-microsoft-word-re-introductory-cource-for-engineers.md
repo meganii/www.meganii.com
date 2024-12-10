@@ -2,7 +2,6 @@
 title: "『エンジニアのためのWord再入門講座』をベースにしたWord初期設定"
 date: 2022-09-06T20:28:26+09:00
 lastmod: 2022-09-06T20:28:26+09:00
-published: true
 category: ["Tech"]
 tags: ["Word","Documentation"]
 comment: true

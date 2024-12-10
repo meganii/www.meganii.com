@@ -4,7 +4,6 @@ date: 2014-11-03T15:25:00+09:00
 lastmod: 2021-01-24T20:34:36+09:00
 category: ['Life']
 tags: ['book','WorkShift']
-published: true
 slug: specialist-work-shift
 img: "https://images-fe.ssl-images-amazon.com/images/I/41AvcbzqzDL._SL160_.jpg"
 ---

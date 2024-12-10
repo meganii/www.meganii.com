@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:00+09:00
 comments: true
 category: ['Tech']
 tags: ['Google','Ruby', 'api']
-published: true
 slug: ruby-google-api-client
 img: "https://c8.staticflickr.com/8/7305/27394115551_0612eb23fb_t.jpg"
 ---

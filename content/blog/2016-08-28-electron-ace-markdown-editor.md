@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:01+09:00
 comments: true
 category: ['Tech']
 tags: ['JavaScript','Electron']
-published: true
 slug: electron-ace-markdown-editor
 img: "https://farm9.staticflickr.com/8537/29243326176_ea1c871651_s.jpg"
 

@@ -5,7 +5,6 @@ lastmod: 2023-06-18T13:27:42+09:00
 comments: true
 category: ['Tech']
 tags: ['Google Pixel 3a', 'Google', 'スマートフォン', '修理']
-published: true
 slug: repair-google-pixel-3a
 img: https://res.cloudinary.com/meganii/image/upload/v1573386402/Fix_Pixel3a_seb7cv.png
 ---

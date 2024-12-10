@@ -5,7 +5,6 @@ date: 2014-02-16T12:14:00+09:00
 lastmod: 2019-04-27T16:12:02+09:00
 category: ['Tech']
 tags: 
-published: true
 slug: phonegap-start
 ---
 

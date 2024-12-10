@@ -4,7 +4,6 @@ date: 2013-05-20T22:05:00+09:00
 lastmod: 2022-07-02T10:08:03+09:00
 category: ['Tech']
 tags: ['Jekyll','Sublime Text']
-published: true
 slug: livereloaded
 ---
 

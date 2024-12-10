@@ -5,7 +5,6 @@ lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['JavaScript', 'Effective Javascript']
-published: true
 slug: effective-javascript-closure
 img: "https://images-na.ssl-images-amazon.com/images/I/517tJs%2B%2B%2BnL._SL160_.jpg"
 ---

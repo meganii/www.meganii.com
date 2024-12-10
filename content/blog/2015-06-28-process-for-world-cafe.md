@@ -4,7 +4,6 @@ date: 2015-06-28T12:06:00+09:00
 lastmod: 2019-04-27T16:12:02+09:00
 category: ['Life']
 tags: ['ファシリテーション','ワールド・カフェ']
-published: true
 img: "https://images-na.ssl-images-amazon.com/images/I/41Xz5nbHwbL._SL160_.jpg"
 slug: process-for-world-cafe
 ---

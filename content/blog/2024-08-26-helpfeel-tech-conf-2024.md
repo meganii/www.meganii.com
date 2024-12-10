@@ -2,7 +2,6 @@
 title: "【イベントレポート】Helpfeel Tech Conf 2024 - アシスタントAIの形を模索する"
 date: 2024-08-26T21:22:55+09:00
 lastmod: 2024-08-26T21:22:55+09:00
-published: true
 category: ["Tech"]
 tags: 
     - "イベントレポート"

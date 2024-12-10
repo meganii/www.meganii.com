@@ -5,7 +5,6 @@ lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Life']
 tags: ['PremiumFriday']
-published: false
 slug: premium-friday
 img: https://c1.staticflickr.com/3/2889/32273910454_75d8d690e6_t.jpg
 ---

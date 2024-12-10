@@ -2,7 +2,6 @@
 title: "AMP OptimizerによるAMPのさらなる最適化"
 date: 2020-09-27T20:07:10+09:00
 lastmod: 2023-05-05T01:24:10+09:00
-published: true
 category: ["Tech"]
 tags: ["AMP","Blog"]
 comment: true

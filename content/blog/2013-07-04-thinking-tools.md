@@ -4,7 +4,6 @@ date: 2013-07-04T20:15:00+09:00
 lastmod: 2021-09-20T16:44:00+09:00
 category: ['Book']
 tags: ['book']
-published: false
 slug: thinking-tools
 ---
 

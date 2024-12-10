@@ -2,7 +2,6 @@
 title: "So-net 光 minicoアンバサダーに就任しました！"
 date: 2022-10-16T15:01:54+09:00
 lastmod: 2023-07-16T08:13:49+09:00
-published: true
 category: ["Tech"]
 tags: ["minico", "minicoアンバサダー"]
 comment: true

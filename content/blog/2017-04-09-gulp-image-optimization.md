@@ -5,7 +5,6 @@ lastmod: 2021-01-30T17:56:10+09:00
 comments: true
 category: ['Tech']
 tags: ['Hugo','gulp']
-published: true
 slug: gulp-image-optimization
 ---
 

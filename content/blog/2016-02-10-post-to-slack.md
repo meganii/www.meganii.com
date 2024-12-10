@@ -5,7 +5,6 @@ lastmod: 2019-04-27T16:12:02+09:00
 comments: true
 category: ['Tech']
 tags: ['Slack','Ruby']
-published: true
 slug: post-to-slack
 ---
 

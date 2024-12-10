@@ -5,7 +5,6 @@ lastmod: 2021-02-12T22:57:15+09:00
 comments: true
 category: ['Tech']
 tags: ['domain','DDD','ドメイン駆動開発']
-published: true
 slug: domain-services
 img: "https://images-na.ssl-images-amazon.com/images/I/619Gh1s721L._SL160_.jpg"
 ---

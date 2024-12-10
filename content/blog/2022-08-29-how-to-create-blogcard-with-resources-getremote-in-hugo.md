@@ -2,7 +2,6 @@
 title: "Hugoでブログカードを作成する（resources.GetRemote利用）"
 date: 2022-08-29T20:48:25+09:00
 lastmod: 2022-09-04T12:50:13+09:00
-published: true
 category: ["Tech"]
 tags: ["Hugo","ブログカード"]
 comment: true

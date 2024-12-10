@@ -4,7 +4,6 @@ date: 2012-03-31
 lastmod: 2023-05-05T01:23:52+09:00
 category: ['Life']
 tags: ['成長']
-published: true
 slug: step-by-step
 ---
 

@@ -5,7 +5,6 @@ lastmod: 2019-08-12T10:02:40+09:00
 comments: true
 category: ['Tech']
 tags: ['デブサミ', '教育', '学習方法', 'Active Learning']
-published: true
 slug: developers-summit-2018-summer-edtech-loilo
 img: https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v1532741609/developers-summit-2018-summer_pcc1uq.png
 ---

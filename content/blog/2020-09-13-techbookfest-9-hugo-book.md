@@ -2,7 +2,6 @@
 title: "技術書典9で『Hugoで始める静的サイト構築入門』という本を出しました"
 date: 2020-09-13T09:33:40+09:00
 lastmod: 2023-05-05T01:24:10+09:00
-published: true
 category: ["Tech"]
 tags: ["技術書典9","技術書典"]
 comment: true

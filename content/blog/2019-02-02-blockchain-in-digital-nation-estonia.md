@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:05+09:00
 comments: true
 category: ['Tech']
 tags: ['Blockchain', 'エストニア', 'ブロックチェーン']
-published: true
 slug: blockchain-in-digital-nation-estonia
 img: https://i.gyazo.com/d688db816678c52f3312e9e0421f1be2.png
 ---

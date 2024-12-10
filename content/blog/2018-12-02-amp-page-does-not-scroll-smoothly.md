@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:05+09:00
 comments: true
 category: ['Tech']
 tags: ['AMP','Mobile']
-published: true
 slug: "amp-page-does-not-scroll-smoothly"
 img: "https://res.cloudinary.com/meganii/image/upload/c_thumb,f_auto,h_300,q_auto,w_300/v1543721510/IMG_3186_fl7ifm.jpg"
 ---

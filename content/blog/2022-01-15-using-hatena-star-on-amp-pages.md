@@ -2,7 +2,6 @@
 title: "はてなスターをAMPページで利用する"
 date: 2022-01-15T19:45:58+09:00
 lastmod: 2022-06-12T13:48:03+09:00
-published: true
 category: ["Tech"]
 tags: ["はてな","はてなスター","AMP"]
 comment: true

@@ -4,7 +4,6 @@ date: 2013-02-05T07:22:00+09:00
 lastmod: 2023-05-05T01:23:54+09:00
 category: ['Activity']
 tags: ['ボルダリング']
-published: true
 slug: bouldering-shoes
 img: https://c1.staticflickr.com/9/8216/8448002627_17a4f6fe90_s.jpg
 ---

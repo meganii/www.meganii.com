@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:03+09:00
 comments: true
 category: ['Life']
 tags: ['東急ハンズ','革靴','レザー']
-published: true
 slug: polish-my-shoes-tokyu-hands-workshop
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,w_500/v1514702295/d-ng-tr-n-qu-c-104956_dqydcf.jpg"
 ---

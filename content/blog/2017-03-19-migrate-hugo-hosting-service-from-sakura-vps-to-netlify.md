@@ -8,7 +8,6 @@ category:
 tags:
   - Netlify
   - Hugo
-published: true
 slug: migrate-hugo-hosting-service-from-sakura-vps-to-netlify
 img: https://res.cloudinary.com/meganii/image/upload/f_auto,q_auto/v1594903789/sislab_hugo_j8ykf6.png
 aliases:

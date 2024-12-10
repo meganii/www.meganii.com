@@ -5,7 +5,6 @@ lastmod: 2022-07-02T11:32:46+09:00
 comments: true
 category: ['Tech']
 tags: ['h2load','h2o']
-published: true
 slug: install-h2load
 img: https://farm6.staticflickr.com/5624/21367186743_cbcb0e5268_m.jpg
 ---

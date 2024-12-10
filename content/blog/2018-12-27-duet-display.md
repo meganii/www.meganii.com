@@ -5,7 +5,6 @@ lastmod: 2020-08-22T19:41:30+09:00
 comments: true
 category: ['Gadget']
 tags: ['App', 'Apple', 'Display', 'iPad']
-published: true
 slug: duet-display
 img: https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,w_400/v1545912024/IMG_3354_mitbmm.jpg
 ---

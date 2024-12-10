@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:01+09:00
 comments: true
 category: ['Life']
 tags: ['革','財布','レザー']
-published: true
 slug: leatherwallet-ganzo
 img: "https://res.cloudinary.com/meganii/image/upload/v1594888649/27757786996_582c442d2e_z_fbjez1.jpg"
 ---

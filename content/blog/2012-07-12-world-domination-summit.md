@@ -4,7 +4,6 @@ date: 2012-07-12
 lastmod: 2023-05-05T01:23:53+09:00
 category: ['Travel']
 tags: ['travel','生き方', '旅行記']
-published: true
 slug: world-domination-summit
 img: "https://farm9.staticflickr.com/8148/7549244206_d5aaa94459_s.jpg"
 ---

@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:06+09:00
 comments: true
 category: ['Tech']
 tags: ['Meetup', 'Scrapbox', 'LT']
-published: true
 slug: scrapbox-drinkup-no-11
 img: "https://res.cloudinary.com/meganii/image/upload/c_scale,f_auto,q_auto,w_1024/v1576248535/Scrapbox_Drinkup_11_Xmas_Edition_emnkxn.png"
 ---

@@ -5,7 +5,6 @@ lastmod: 2021-02-11T11:21:42+09:00
 comments: true
 category: ['Tech']
 tags: ['TF-IDF','Python']
-published: true
 slug: tf-idf-recommendation
 img: https://images-fe.ssl-images-amazon.com/images/I/51YzbphP0JL._SL160_.jpg
 ---

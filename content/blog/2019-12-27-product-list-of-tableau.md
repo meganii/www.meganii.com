@@ -5,7 +5,6 @@ lastmod: 2023-05-05T01:24:06+09:00
 comments: true
 category: ['Tech']
 tags: ['Tableau']
-published: true
 slug: product-list-of-tableau
 img: "https://res.cloudinary.com/meganii/image/upload/v1577416646/tableaupublic_xd3mun.png"
 ---
