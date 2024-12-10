@@ -6,7 +6,7 @@ summaryLength = 100
 DefaultContentLanguage = "ja"
 
 enableGitInfo = false
-Paginate = 12
+pagination.pagerSize = 12
 
 ignoreErrors = ["error-remote-getjson"]
 
@@ -159,15 +159,23 @@ homepage = "https://www.meganii.com/"
   source = 'content'
   target = 'content'
 
+[[module.mounts]]
+  source = "assets"
+  target = "assets"
+[[module.mounts]]
+  source = "data"
+  target = "data"
+[[module.mounts]]
+  source = "layouts"
+  target = "layouts"
+[[module.mounts]]
+  source = "hugo_stats.json"
+  target = "assets/watching/hugo_stats.json"
+
 [module.hugoVersion]
-extended = false
-min      = "0.112.0"
-[[module.mounts]]
-source = "assets"
-target = "assets"
-[[module.mounts]]
-source = "hugo_stats.json"
-target = "assets/watching/hugo_stats.json"
+  extended = false
+  min      = "0.112.0"
+
 
 [build]
 writeStats = true
