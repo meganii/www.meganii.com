@@ -41,7 +41,7 @@
     "url": "git+https://github.com/meganii/meganii.com.git"
   },
   "scripts": {
-    "build": "hugo --gc --minify -v",
+    "build": "hugo --gc --minify",
     "staging": "hugo --baseURL=$CF_PAGES_URL/ --gc --minify -v",
     "start": "hugo server"
   },
