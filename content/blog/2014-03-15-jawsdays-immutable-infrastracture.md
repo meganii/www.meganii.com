@@ -11,12 +11,11 @@ slug: jawsdays-immutable-infrastracture
 JAWS DAYS 2014参加レポート第1弾です。
 
 ## Immutable Infrastructure @naoya_ito
-<a href="http://d.hatena.ne.jp/naoya/20140315/1394851727" target="_blank"><img class="alignleft" align="left" border="0" src="https://capture.heartrails.com/150x130/shadow?http://d.hatena.ne.jp/naoya/20140315/1394851727" alt="" width="150" height="130" /></a><a style="color:#0070C5;" href="http://d.hatena.ne.jp/naoya/20140315/1394851727" target="_blank">JAWS DAYS 2014、Immutable Infrastructure について - naoyaのはてなダイアリー</a><a href="http://b.hatena.ne.jp/entry/http://d.hatena.ne.jp/naoya/20140315/1394851727" target="_blank"><img border="0" src="https://b.hatena.ne.jp/entry/image/http://d.hatena.ne.jp/naoya/20140315/1394851727" alt="" /></a><br style="clear:both;" /><br>
+
+[JAWS DAYS 2014、Immutable Infrastructure について - naoyaのはてなダイアリー](http://d.hatena.ne.jp/naoya/20140315/1394851727)
 
 
-
-{{% googleadsense %}}
-<script async class="speakerdeck-embed" data-id="eb0795108e17013146041a945ae20cc0" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+{{% speakerdeck eb0795108e17013146041a945ae20cc0 %}}
 
 
 ## そもそもImmutable Infrastructureって？
