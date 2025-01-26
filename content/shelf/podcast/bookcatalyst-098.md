@@ -1,0 +1,24 @@
+---
+title: BC098 『ATTENTION SPAN(アテンション・スパン) デジタル時代の「集中力」の科学』
+date: 2025-01-26T16:24:22+09:00
+lastmod: 2025-01-26T16:24:22+09:00
+slug: bookcatalyst-098
+type: podcast
+img: https://i.scdn.co/image/ab6765630000ba8a2a096e740f10104f7a4236cf
+params:
+  podcast:
+    apple: https://podcasts.apple.com/us/podcast/bc098-attention-span-%E3%82%A2%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3-%E3%82%B9%E3%83%91%E3%83%B3-%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%99%82%E4%BB%A3%E3%81%AE-%E9%9B%86%E4%B8%AD%E5%8A%9B-%E3%81%AE%E7%A7%91%E5%AD%A6/id1546825398?i=1000670506342
+    spotify: https://open.spotify.com/episode/0WHkFcvdoL0cA2cP3Ifjkh
+    castbox: https://castbox.fm/episode/id3666604-id739446491?country=ja
+    podcastaddict: https://podcastaddict.com/%E3%83%96%E3%83%83%E3%82%AF%E3%82%AB%E3%82%BF%E3%83%AA%E3%82%B9%E3%83%88/episode/183065250
+---
+
+
+「マインドワンダリング」というキーワードを、このエピソードを聞く直前に知ったので、耳から聞こえてきたときには、個人的に非常にタイムリーだった。
+私が「マインドワンダリング」を知ったのは[マインドフルネス]の文脈での話だった
+
+ ロギング重要
+ 	[『ロギング仕事術: 課題に気づく、タスクが片づく、成果が上がる』]
+ >瞬間の幸福だけでいうと、会った時の方が大きかったんだけれども、1日が終わった時の満足感というのは対面での交流よりもFacebookの満足感の方が高かった。
+  確かに人と会うと疲れたり、MPを消費したりするけど、それってどうなんだろう。「幸福」ってなんだろう？と思った。
+  「幸福」とか「満足感」について調べてみると面白そう。

@@ -10,6 +10,7 @@ params:
     apple: https://podcasts.apple.com/us/podcast/id1546825398?i=1000657769387
     spotify: https://open.spotify.com/episode/5ir7ZxqzwTa91j69q3PrU2
     castbox: https://castbox.fm/episode/id3666604-id707455981
+    podcastaddict: https://podcastaddict.com/%E3%83%96%E3%83%83%E3%82%AF%E3%82%AB%E3%82%BF%E3%83%AA%E3%82%B9%E3%83%88/episode/177173564
     original: https://bookcatalyst.substack.com/p/bc093-d15
 ---
 
