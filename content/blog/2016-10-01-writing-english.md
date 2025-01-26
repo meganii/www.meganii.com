@@ -7,6 +7,7 @@ category: ['Life']
 tags: ['English']
 slug: writing-english
 img:
+draft: true
 ---
 
 <!--more-->

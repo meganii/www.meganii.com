@@ -6,6 +6,7 @@ category: ['Life']
 tags: ['Photo']
 img: "https://farm1.staticflickr.com/390/20242948698_6335e85edf_z.jpg"
 slug: fireworks
+draft: true
 ---
 
 <p><a href="https://www.flickr.com/photos/35571855@N06/20242948698" title="imageby meganii, on Flickr"><img class="img-responsive" src="https://farm1.staticflickr.com/390/20242948698_6335e85edf_z.jpg" alt="image"></a></p>

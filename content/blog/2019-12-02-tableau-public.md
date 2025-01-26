@@ -6,7 +6,7 @@ comments: true
 category: ['Tech']
 tags: ['Tableau']
 slug: tableau-public
-img: ""
+img: "https://res.cloudinary.com/meganii/image/upload/v1575289748/tableau-products_vw6r9a.jpg"
 ---
 
 

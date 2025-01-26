@@ -7,6 +7,7 @@ category: ['Life']
 tags: ['テレビ', '映画']
 slug: watch-the-confidence-man-jp-in-fod-fuji-tv-ondemand
 img: 
+draft: true
 ---
 
 <!--more-->

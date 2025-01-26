@@ -10,6 +10,3 @@ img: "/images/2016/12/linkbuilder1.gif"
 ---
 
 ![](/images/2016/12/linkbuilder320x240.gif)
-
-<!--more-->
-{{% googleadsense %}}

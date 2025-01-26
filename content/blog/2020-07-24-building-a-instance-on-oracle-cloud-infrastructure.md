@@ -6,17 +6,17 @@ category: ["Tech"]
 tags: ["Oracle","",""]
 comment: true
 slug: "building-a-instance-on-oracle-cloud-infrastructure"
-img: ""
+img: "https://res.cloudinary.com/meganii/image/upload/v1595542533/zna3qsd3fswlxyw99l56.png"
 ---
 
+
+OCIサインアップ時のメモ。
 
 {{% toc %}}
 
 <!--more-->
 {{% googleadsense %}}
 
-
-![](https://res.cloudinary.com/meganii/image/upload/v1595541366/cfgtpiquk3a8d5breabh.png "=652x673")
 
 ![](https://res.cloudinary.com/meganii/image/upload/v1595541681/guwja34lmtroalrxlmhx.png "=652x673")
 
