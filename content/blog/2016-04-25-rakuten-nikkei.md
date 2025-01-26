@@ -1,12 +1,15 @@
 ---
-title: "rakuten nikkei"
+title: rakuten nikkei
 date: 2016-04-25T21:30:01+09:00
 lastmod: 2019-04-27T16:12:02+09:00
 comments: true
-category: ['Money']
-tags: ['楽天証券']
+category:
+  - Money
+tags:
+  - 楽天証券
 slug: rakuten-nikkei
-img:
+img: 
+draft: true
 ---
 
 いつの間にか楽天証券に日経テレコンが読めるようになってました。ちょっと前までは丸山証券でしか読むことができなかったんですけれども3月の半ば位からこのサービスがしてました。PCからしか回見ることができなかったんですけどこのアプリから見ることによって、いつでもスマフォから記事をチェックすることができます。これは株主にとってすごく便利ですよね。
