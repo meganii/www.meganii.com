@@ -7,6 +7,7 @@ category: ['Life']
 tags: ['']
 slug: bilingalnews-ips-bn252
 img: 
+draft: true
 ---
 
 <!--more-->

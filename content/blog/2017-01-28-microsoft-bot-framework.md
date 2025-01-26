@@ -7,6 +7,7 @@ category: ['Tech']
 tags: ['']
 slug: microsoft-bot-framewark
 img:
+draft: true
 ---
 
 Bot Frameworkを利用しようとしたときの

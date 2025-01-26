@@ -7,6 +7,7 @@ category: ['Life']
 tags: ['dTV','']
 slug: recommendation-movie-and-anime-in-docomo-dtv
 img:
+draft: true
 ---
 
 最近テレビを観ていなかったので、世の中のテレビ、ドラマの流れに全然ついていけていませんでした。ところが、
