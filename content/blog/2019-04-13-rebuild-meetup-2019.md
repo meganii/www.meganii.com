@@ -22,7 +22,6 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v1555
 
 参加してみてどうだったかというと、Twitterでも以下の通りtweetしましたが、本当に不思議な感覚で楽しかったです。
 
-<!-- {{% twitter tweetid="1116687325575045120" %}} -->
 >[めがにい on X: "目を閉じるといつものhttps://t.co/j8QFezeHyKが。目を開けると実在する人たちが何の気なしに喋ってるのが不思議な空間でした。 #rebuildfm" / X](https://x.com/meganii/status/1116687325575045120)
 
 「あー、皆さん本当に実在するだなぁ」と、何を当たり前のことを行っているんだと思われるかもしれませんが、そんな不思議な感覚でした。
