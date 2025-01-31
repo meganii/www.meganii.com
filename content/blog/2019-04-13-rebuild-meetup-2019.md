@@ -9,7 +9,8 @@ slug: rebuild-meetup-2019
 img: "https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v1555453439/RebuildMeetup2019.jpg"
 ---
 
-{{% twitter tweetid="1117204110573330432" %}}
+<!-- {{% twitter tweetid="1117204110573330432" %}} -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thank you everyone for coming to the meetup! <a href="https://twitter.com/hashtag/rebuildfm?src=hash&amp;ref_src=twsrc%5Etfw">#rebuildfm</a> <a href="https://t.co/nFKoI8SOS1">pic.twitter.com/nFKoI8SOS1</a></p>&mdash; Rebuild Podcast (@rebuildfm) <a href="https://twitter.com/rebuildfm/status/1117204110573330432?ref_src=twsrc%5Etfw">April 13, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 - Date&Place: 2019/04/12 mercariオフィス@六本木ヒルズ
 - Host: [@miyagawa](https://twitter.com/miyagawa)  
@@ -21,7 +22,8 @@ img: "https://res.cloudinary.com/meganii/image/upload/c_thumb,w_200,g_face/v1555
 
 参加してみてどうだったかというと、Twitterでも以下の通りtweetしましたが、本当に不思議な感覚で楽しかったです。
 
-{{% twitter tweetid="1116687325575045120" %}}
+<!-- {{% twitter tweetid="1116687325575045120" %}} -->
+>[めがにい on X: "目を閉じるといつものhttps://t.co/j8QFezeHyKが。目を開けると実在する人たちが何の気なしに喋ってるのが不思議な空間でした。 #rebuildfm" / X](https://x.com/meganii/status/1116687325575045120)
 
 「あー、皆さん本当に実在するだなぁ」と、何を当たり前のことを行っているんだと思われるかもしれませんが、そんな不思議な感覚でした。
 
