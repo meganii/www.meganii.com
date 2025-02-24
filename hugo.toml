@@ -15,6 +15,7 @@ blog = "/blog/:year/:month/:day/:slug/"
 category = "/blog/category/:slug/"
 tags = "/blog/tags/:slug"
 notes = "/note/:slugorfilename"
+shelf = "/shelf/:slugorfilename"
 
 [Languages]
 [Languages.ja.params]
