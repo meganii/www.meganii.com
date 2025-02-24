@@ -1,11 +1,11 @@
 ---
-
 title: "movie design"
 date: 2014-09-07T22:37:00+09:00
 lastmod: 2019-04-27T16:12:02+09:00
 category: ['Movie']
 tags: ['']
 slug: movie-design
+draft: true
 ---
 
 先週、

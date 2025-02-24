@@ -7,6 +7,7 @@ category: ['']
 tags: ['']
 slug: visual-studio-code-extension-for-hugo
 img: 
+draft: true
 ---
 
 Paste Image from Clipboard

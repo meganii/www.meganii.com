@@ -7,6 +7,7 @@ category: ['']
 tags: ['']
 slug: living-with-a-trunk-minimalist-life
 img: 
+draft: true
 ---
 
 <!--more-->
