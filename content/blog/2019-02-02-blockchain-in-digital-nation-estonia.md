@@ -11,7 +11,7 @@ img: https://i.gyazo.com/d688db816678c52f3312e9e0421f1be2.png
 
 ![電子国家エストニアを通してブロックチェーンの未来を見る](https://i.gyazo.com/d688db816678c52f3312e9e0421f1be2.png "=2x1")
 
-2019/02/01、株式会社GIGさんが開催している「Tech Trend Talk #12」に参加してきた。その内容を以下にまとめる。
+2019/02/01、株式会社GIGさんが開催している「Tech Trend Talk ＃12」に参加してきた。その内容を以下にまとめる。
 
 [電子国家エストニアを通してブロックチェーンの未来を見る【TTT.12】 - connpass](https://giginc.connpass.com/event/115489/)
 
