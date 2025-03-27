@@ -87,7 +87,6 @@ GANZOは、あなたの手によって"世界最高"の完成品となる。
 
 革小物に興味がある人は、革カバー、革靴の記事もよかったらみていってください。
 
-- [ほぼ日手帳におすすめの革カバー！HERZ\(ヘルツ\)の「ほぼ日手帳カバー\(KB\-104\)」](/blog/2015/04/01/hobonichi-planner-leather-cover/)
-- [Scotch Grain\(スコッチグレイン\)の革靴「シャインオアレイン」なら雨の日でも快適通勤！！](/blog/2016/07/23/scotch-grain-shine-or-rain/)
-
+- [HERZ「ほぼ日手帳カバー」お気に入りの一品になること間違いなし！](2015-04-01-hobonichi-planner-leather-cover.md)
+- [スコッチグレインの革靴「シャインオアレイン」なら雨の日でも快適通勤！！](2016-07-23-scotch-grain-shine-or-rain.md)
 
