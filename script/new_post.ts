@@ -1,13 +1,24 @@
 import { datetime } from "https://deno.land/x/ptera@v1.0.2/mod.ts";
-import { parse } from "https://deno.land/std@0.100.0/flags/mod.ts";
+import { parseArgs } from "jsr:@std/cli@1.0.15/parse-args";
 
-const options = parse(Deno.args);
-const dt  = datetime().toZonedTime("Asia/Tokyo");
+const flags = parseArgs(Deno.args, {
+    string: ["title", "body", "date"]
+});
 
-const title = options["title"];
+const title = flags.title;
 console.log(`Title: ${title}`);
-const body = options["body"] || "";
+const body = flags.body || "";
 console.log(`Body: ${body}`);
+
+const dt = (() => {
+    if (flags.date) {
+        const d = datetime().toZonedTime("Asia/Tokyo");
+        return d.parse(flags.date, "YYYYMMdd")
+            .add({ hour: d.hour, minute: d.minute, second: d.second });
+    } else {
+        return datetime().toZonedTime("Asia/Tokyo");
+    }
+})();
 
 const frontmatter = `---
 title: "${title}"

@@ -11,6 +11,10 @@ on:
         description: 'body'
         type: string
         required: false
+      date:
+        description: 'date'
+        type: string
+        required: false
 
 jobs:
   post:
@@ -18,9 +22,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: denoland/setup-deno@v1
+      - uses: denoland/setup-deno@v2
         with:
-          deno-version: v1.x
+          deno-version: v2.x
 
       - name: Create md file
         run: >
@@ -30,9 +34,11 @@ jobs:
           script/new_post.ts
           --title=$TITLE
           --body=$BODY
+          --date=$DATE
         env:
           TITLE: ${{ inputs.title }}
           BODY: ${{ inputs.body }}
+          DATE: ${{ inputs.date }}
 
       - name: Diff
         id: diff
