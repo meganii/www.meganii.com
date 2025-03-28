@@ -1,12 +1,20 @@
 ---
-title: "スコッチグレインの革靴「シャインオアレイン」なら雨の日でも快適通勤！！"
+title: スコッチグレインの革靴「シャインオアレイン」なら雨の日でも快適通勤！！
 date: 2016-07-23T15:05:40+09:00
 lastmod: 2023-06-18T13:27:41+09:00
 comments: true
-category: ['Life']
-tags: ['革靴','レザー','scotch grain', 'スコッチグレイン']
+category:
+  - Life
+tags:
+  - 革靴
+  - レザー
+  - scotch
+  - grain
+  - スコッチグレイン
 slug: scotch-grain-shine-or-rain
-img: "https://res.cloudinary.com/meganii/image/upload/v1594888858/scotchgrain_t1g9ii.jpg"
+img: https://res.cloudinary.com/meganii/image/upload/v1594888858/scotchgrain_t1g9ii.jpg
+aliases:
+  - スコッチグレインの革靴「シャインオアレイン」なら雨の日でも快適通勤！！
 ---
 
 ![スコッチグレイン シャインオアレインのアップ](https://res.cloudinary.com/meganii/image/upload/v1594888858/scotchgrain_t1g9ii.jpg "?size=600x560&hero=1")
@@ -93,5 +101,4 @@ img: "https://res.cloudinary.com/meganii/image/upload/v1594888858/scotchgrain_t1
 {{% amazon B00XDS9X40 %}}
 
 
-[東急ハンズ「靴のお手入れ講座」に参加してきました - SIS Lab](/blog/2017/11/27/polish-my-shoes-tokyu-hands-workshop/)
-
+[東急ハンズ「靴のお手入れ講座」に参加してきました](2017-11-27-polish-my-shoes-tokyu-hands-workshop.md)
