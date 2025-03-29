@@ -1,20 +1,26 @@
 {
-  "version": "3",
-  "packages": {
-    "specifiers": {
-      "jsr:@maxim-mazurok/sax-ts@1.2.13": "jsr:@maxim-mazurok/sax-ts@1.2.13",
-      "jsr:@mikaelporttila/rss": "jsr:@mikaelporttila/rss@1.1.1"
+  "version": "4",
+  "specifiers": {
+    "jsr:@maxim-mazurok/sax-ts@1.2.13": "1.2.13",
+    "jsr:@mikaelporttila/rss@*": "1.1.1",
+    "jsr:@std/cli@1.0.15": "1.0.15",
+    "jsr:@std/path@*": "1.0.8"
+  },
+  "jsr": {
+    "@maxim-mazurok/sax-ts@1.2.13": {
+      "integrity": "9f2f9a3ac1b142400940a4c9e916656fe63d4710a78102aeb8e08e863de2c76d"
     },
-    "jsr": {
-      "@maxim-mazurok/sax-ts@1.2.13": {
-        "integrity": "9f2f9a3ac1b142400940a4c9e916656fe63d4710a78102aeb8e08e863de2c76d"
-      },
-      "@mikaelporttila/rss@1.1.1": {
-        "integrity": "f07d7a5a269398f00efd6913d14a92defa55bcb66a4de196a5a5c99ec9df4b8b",
-        "dependencies": [
-          "jsr:@maxim-mazurok/sax-ts@1.2.13"
-        ]
-      }
+    "@mikaelporttila/rss@1.1.1": {
+      "integrity": "f07d7a5a269398f00efd6913d14a92defa55bcb66a4de196a5a5c99ec9df4b8b",
+      "dependencies": [
+        "jsr:@maxim-mazurok/sax-ts"
+      ]
+    },
+    "@std/cli@1.0.15": {
+      "integrity": "e79ba3272ec710ca44d8342a7688e6288b0b88802703f3264184b52893d5e93f"
+    },
+    "@std/path@1.0.8": {
+      "integrity": "548fa456bb6a04d3c1a1e7477986b6cffbce95102d0bb447c67c4ee70e0364be"
     }
   },
   "remote": {
@@ -45,8 +51,8 @@
         "npm:postcss@^8.4.27",
         "npm:tailwindcss@^3.3.3",
         "npm:textlint-filter-rule-comments@^1.2.2",
-        "npm:textlint-filter-rule-whitelist@^2.0.0",
-        "npm:textlint-rule-preset-ja-technical-writing@^8.0.0",
+        "npm:textlint-filter-rule-whitelist@2",
+        "npm:textlint-rule-preset-ja-technical-writing@8",
         "npm:textlint-rule-preset-jtf-style@^2.3.13",
         "npm:textlint-rule-prh@^5.3.0",
         "npm:textlint@^13.3.3"
