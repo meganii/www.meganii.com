@@ -1,10 +1,13 @@
 ---
-title: "マーケティング22の法則を図解してみた"
-date: "2015-08-29T17:13:12+09:00"
+title: 『マーケティング22の法則』を図解してみた
+date: 2015-08-29T17:13:12+09:00
 lastmod: 2023-05-05T01:23:59+09:00
-category: ['Book']
-tags: ['book','マーケティング']
-img: "https://res.cloudinary.com/meganii/image/upload/v1565609697/marketing-22_pmhi3a.png"
+category:
+  - Book
+tags:
+  - book
+  - マーケティング
+img: https://res.cloudinary.com/meganii/image/upload/v1565609697/marketing-22_pmhi3a.png
 slug: marketing-22-raws
 ---
 
@@ -104,7 +107,7 @@ slug: marketing-22-raws
 
 ## 感想
 
-今回、マーケティング22の法則を自分なりにまとめてみました。いわゆるマーケティングの古典と呼ばれる本ですが、マーケティングとはなんぞや？という概要を掴むのにはよいのではないでしょうか？
+今回、『マーケティング22』の法則を自分なりにまとめてみました。いわゆるマーケティングの古典と呼ばれる本ですが、マーケティングとはなんぞや？という概要を掴むのにはよいのではないでしょうか？
 
 一つ一つの具体的な法則の内容については、ぜひ本書を手にとってご覧ください。
 
