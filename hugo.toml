@@ -1,0 +1,204 @@
+baseurl = "https://www.meganii.com/"
+title = "SIS Lab"
+
+hasCJKLanguage = true
+summaryLength = 100
+DefaultContentLanguage = "ja"
+
+enableGitInfo = false
+pagination.pagerSize = 12
+
+ignoreErrors = ["error-remote-getjson"]
+
+[permalinks]
+  blog = "/blog/:year/:month/:day/:slug/"
+  category = "/blog/category/:slug/"
+  tags = "/blog/tags/:slug"
+  notes = "/note/:slugorfilename"
+  poetry = "/poetry/:slugorfilename"
+  shelf = "/shelf/:slugorfilename"
+
+[Languages]
+  [Languages.ja.params]
+    LanguageCode = 'ja'
+    lang = ""
+    title = "SIS Lab"
+    profile = "ギークを夢見るじょーぶん男子。「広く浅くから広く深く」を目指してブログを書いています。"
+    description = "メーカー系SIerブログ。趣味のプログラミング、旅行。日々、学んだことについて書きます。"
+  [Languages.en.params]
+    LanguageCode = 'en'
+    lang = "en/"
+    title = "SIS Lab"
+    profile = "I'm Software Engineer in Tokyo."
+    description = "I write about programming, traveling and studying."
+    weight = 2
+
+[params]
+  themeColor = "gray"
+  Author = "meganii"
+  Birth = "Sun, March 3, 1988"
+  DateForm = "Mon, Jan 2, 2006"
+  adsensePublisher = "ca-pub-5340212676785058"
+  adsenseAd001 = "7368951150"
+  Twitter = "meganii"
+  Github = "https://github.com/meganii"
+  Facebook = "meganiicom"
+  FacebookAppId = "385471528156440"
+  Instagram = "meganii"
+  Cloudinary = "meganii"
+  ShowTagCloud = true
+  ShowRelatedPost = true
+  disqusShortname = "meganii"
+  SyntaxHighlightTheme = "solarized_dark.min.css"
+  logo = "/images/meganii_logo.png"
+  AnalyticsURL = "https://us-central1-cloud-api-2e3ec.cloudfunctions.net/function-1"
+  dateformat = "Jan 2, 2006" # Optional
+  latestSize = 5 # Optional
+  profile = "ギークを夢見るじょーぶん男子。「広く浅くから広く深く」を目指してブログを書いています。"
+  CanonicalUrl = "https://www.meganii.com"
+  [params.topBanner]
+    src = "v1524390254/sislab_top_banner.png"
+    width = "1000"
+    height = "250"
+
+[related]
+  # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+  threshold = 50
+  # To get stable "See also" sections we, by default, exclude newer related pages.
+  includeNewer = true
+  # Will lower case keywords in both queries and in the indexes.
+  toLower = true
+  [[related.indices]]
+    name = "keywords"
+    weight = 150
+  [[related.indices]]
+    name  = "author"
+    toLower = true
+    weight = 30
+  [[related.indices]]
+    name  = "tags"
+    weight = 300
+    toLower = true
+  [[related.indices]]
+    name  = "category"
+    weight = 100
+    toLower = true
+  [[related.indices]]
+    name  = "date"
+    weight = 10
+    pattern = "2006"
+
+[taxonomies]
+  tag = "tags"
+  category = "category"
+
+[author]
+  name = "meganii"
+  homepage = "https://www.meganii.com/"
+
+[menu]
+  [[menu.categories]]
+    identifier = "about"
+    name = "About for this site"
+    title = "About"
+    url = "about/"
+    weight = 1
+  [[menu.categories]]
+    identifier = "archives"
+    name = "This is the archives section"
+    title = "Archives"
+    url = "blog/archives/"
+    weight = 5
+  [[menu.categories]]
+    identifier = "note"
+    name = "Note"
+    title = "Note"
+    url = "note/"
+    weight = 6
+  [[menu.categories]]
+    identifier = "docs"
+    name = "docs"
+    title = "Docs"
+    url = "docs/"
+    weight = 7
+  [[menu.categories]]
+    identifier = "tech"
+    name = "This is the tech section"
+    title = "Tech"
+    url = "blog/category/tech/"
+    weight = 10
+  [[menu.categories]]
+    identifier = "life"
+    name = "This is the life section"
+    title = "Life"
+    url = "blog/category/life/"
+    weight = 20
+  [[menu.categories]]
+    identifier = "book"
+    name = "This is the book section"
+    title = "Book"
+    url = "blog/category/book/"
+    weight = 50
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "tango"
+    tabWidth = 4
+
+
+[module]
+  [[module.imports]]
+    path = "github.com/meganii/gohugo-template-tailwindcss"
+  [[module.imports]]
+    path = "github.com/meganii/vault-content"
+  [[module.imports]]
+    path = "github.com/meganii/affiliate-data"
+  [[module.imports]]
+    path = "github.com/meganii/amazon-product-data"
+  [[module.imports]]
+    path = "github.com/meganii/tweet-data"
+  [[module.mounts]]
+    excludeFiles = '_template/*'
+    source = 'content'
+    target = 'content'
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "data"
+    target = "data"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "hugo_stats.json"
+    target = "assets/watching/hugo_stats.json"
+
+  [module.hugoVersion]
+    extended = false
+    min      = "0.112.0"
+
+
+[build]
+  writeStats = true
+  [[build.cachebusters]]
+    source = "assets/watching/hugo_stats\\.json"
+    target = "styles\\.css"
+  [[build.cachebusters]]
+    source = "assets/(postcss|tailwind)\\.config\\.js"
+    target = "css"
+  [[build.cachebusters]]
+    source = "assets/.*\\.(js|ts|jsx|tsx)"
+    target = "js"
+  [[build.cachebusters]]
+    source = "assets/.*\\.(.*)$"
+    target = "$1"

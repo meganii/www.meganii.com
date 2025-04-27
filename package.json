@@ -1,0 +1,22 @@
+{
+  "comments": {
+    "dependencies": {},
+    "devDependencies": {
+      "@tailwindcss/cli": "github.com/meganii/gohugo-template-tailwindcss",
+      "prettier": "github.com/meganii/gohugo-template-tailwindcss",
+      "prettier-plugin-go-template": "github.com/meganii/gohugo-template-tailwindcss",
+      "prettier-plugin-tailwindcss": "github.com/meganii/gohugo-template-tailwindcss",
+      "tailwindcss": "github.com/meganii/gohugo-template-tailwindcss"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "prettier": "^3.5.3",
+    "prettier-plugin-go-template": "^0.0.15",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4.1.4"
+  },
+  "name": "www.meganii.com",
+  "version": "0.1.0"
+}
