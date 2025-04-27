@@ -14,9 +14,9 @@ ignoreErrors = ["error-remote-getjson"]
   blog = "/blog/:year/:month/:day/:slug/"
   category = "/blog/category/:slug/"
   tags = "/blog/tags/:slug"
-  notes = "/note/:slugorfilename"
-  poetry = "/poetry/:slugorfilename"
-  shelf = "/shelf/:slugorfilename"
+  notes = "/note/:slugorcontentbasename"
+  poetry = "/poetry/:slugorcontentbasename"
+  shelf = "/shelf/:slugorcontentbasename"
 
 [Languages]
   [Languages.ja.params]
@@ -158,8 +158,24 @@ ignoreErrors = ["error-remote-getjson"]
 [module]
   [[module.imports]]
     path = "github.com/meganii/gohugo-template-tailwindcss"
+    [[module.imports.mounts]]
+      source = "assets"
+      target = "assets"
+    [[module.imports.mounts]]
+      source = "layouts"
+      target = "layouts"
+    [[module.imports.mounts]]
+      source = "static"
+      target = "static"
+    [[module.imports.mounts]]
+      source = "hugo_stats.json"
+      target = "assets/watching/hugo_stats.json"
   [[module.imports]]
     path = "github.com/meganii/vault-content"
+    [[module.imports.mounts]]
+      excludeFiles = '_template/*'
+      source = 'content'
+      target = 'content'
   [[module.imports]]
     path = "github.com/meganii/affiliate-data"
   [[module.imports]]
@@ -167,26 +183,11 @@ ignoreErrors = ["error-remote-getjson"]
   [[module.imports]]
     path = "github.com/meganii/tweet-data"
   [[module.mounts]]
-    excludeFiles = '_template/*'
-    source = 'content'
-    target = 'content'
-  [[module.mounts]]
-    source = "assets"
-    target = "assets"
-  [[module.mounts]]
     source = "data"
     target = "data"
-  [[module.mounts]]
-    source = "layouts"
-    target = "layouts"
-  [[module.mounts]]
-    source = "hugo_stats.json"
-    target = "assets/watching/hugo_stats.json"
-
   [module.hugoVersion]
     extended = false
     min      = "0.112.0"
-
 
 [build]
   writeStats = true
