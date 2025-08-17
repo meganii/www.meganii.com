@@ -14,7 +14,7 @@ ignoreErrors = ["error-remote-getjson"]
   blog = "/blog/:year/:month/:day/:slug/"
   category = "/blog/category/:slug/"
   tags = "/blog/tags/:slug"
-  notes = "/note/:slugorcontentbasename"
+  notes = "/notes/:slugorcontentbasename"
   poetry = "/poetry/:slugorcontentbasename"
   shelf = "/shelf/:slugorcontentbasename"
 
