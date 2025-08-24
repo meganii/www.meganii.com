@@ -110,10 +110,10 @@ ignoreErrors = ["error-remote-getjson"]
     url = "blog/archives/"
     weight = 5
   [[menu.categories]]
-    identifier = "note"
-    name = "Note"
-    title = "Note"
-    url = "note/"
+    identifier = "notes"
+    name = "Notes"
+    title = "Notes"
+    url = "notes/"
     weight = 6
   [[menu.categories]]
     identifier = "docs"
