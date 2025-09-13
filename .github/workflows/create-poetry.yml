@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Generate Markdown file
         id: generate
+        env:
+          TZ: "Asia/Tokyo"
         run: |
           FILE_NAME="$(date +'%Y%m%d%H%M%S').md"
           echo "file_name=$FILE_NAME" >> $GITHUB_OUTPUT
