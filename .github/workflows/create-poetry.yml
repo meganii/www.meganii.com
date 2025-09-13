@@ -48,4 +48,4 @@ jobs:
               \"message\": \"$COMMIT_MESSAGE\",
               \"content\": \"$CONTENT\"
             }" \
-            "https://api.github.com/repos/$REPO/content/poetry/tanka/$FILE"
+            "https://api.github.com/repos/$REPO/contents/content/poetry/tanka/$FILE"
