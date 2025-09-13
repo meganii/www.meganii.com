@@ -34,7 +34,7 @@ jobs:
 
       - name: Commit file via GitHub API
         env:
-          GH_TOKEN: ${{ secrets.GO_MODULE_TOKEN_MEGANII_COM }}
+          GH_TOKEN: ${{ secrets.WRITE_API_VAULT_CONTENT }}
           REPO: "meganii/vault-content"
           FILE: "${{ steps.generate.outputs.file_name }}"
         run: |
