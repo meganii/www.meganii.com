@@ -1,0 +1,51 @@
+name: Add Tanka
+
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: "短歌本文（5-7-5-7-7）"
+        required: true
+        type: string
+      body:
+        description: "説明"
+        required: false
+        type: string
+
+jobs:
+  add-tanka:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Markdown file
+        id: generate
+        run: |
+          FILE_NAME="$(date +'%Y%m%d%H%M%S').md"
+          echo "file_name=$FILE_NAME" >> $GITHUB_OUTPUT
+
+          cat <<EOF > $FILE_NAME
+          ---
+          title: "${{ github.event.inputs.title }}"
+          date: $(date --iso-8601=seconds)
+          lastmod: $(date --iso-8601=seconds)
+          ---
+
+          ${{ github.event.inputs.body }}
+          EOF
+
+      - name: Commit file via GitHub API
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: "meganii/vault-content"
+          FILE: "${{ steps.generate.outputs.file_name }}"
+        run: |
+          CONTENT=$(base64 -w 0 $FILE)
+          COMMIT_MESSAGE="Add tanka: $FILE"
+
+          curl -s -X PUT \
+            -H "Authorization: token $GH_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "{
+              \"message\": \"$COMMIT_MESSAGE\",
+              \"content\": \"$CONTENT\"
+            }" \
+            "https://api.github.com/repos/$REPO/content/poetry/tanka/$FILE"
