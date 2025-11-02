@@ -12,5 +12,5 @@ require (
 	github.com/meganii/amazon-product-data v0.0.0-20250427083805-ef3a777c1dd0 // indirect
 	github.com/meganii/gohugo-template-tailwindcss v0.0.0-20251102070117-6486f4eb719a // indirect
 	github.com/meganii/tweet-data v0.0.0-20250427084109-b3fe42983407 // indirect
-	github.com/meganii/vault-content v0.0.0-20251102055234-fd29b632a786 // indirect
+	github.com/meganii/vault-content v0.0.0-20251102103757-818d33dc7537 // indirect
 )
