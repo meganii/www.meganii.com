@@ -188,7 +188,7 @@ ignoreErrors = ["error-remote-getjson"]
     source = "data"
     target = "data"
   [module.hugoVersion]
-    extended = false
+    extended = true
     min      = "0.112.0"
 
 [build]
@@ -196,7 +196,4 @@ ignoreErrors = ["error-remote-getjson"]
     enable = true
   [[build.cachebusters]]
     source = 'assets/notwatching/hugo_stats\.json'
-    target = 'css'
-  [[build.cachebusters]]
-    source = '(postcss|tailwind)\.config\.js'
     target = 'css'

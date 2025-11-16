@@ -3,5 +3,5 @@ export GOPRIVATE=github.com/meganii/vault-content,github.com/meganii/affiliate-d
 git config --global url."https://${GO_MODULE_TOKEN_MEGANII_COM}:@github.com/".insteadOf "https://github.com/"
 hugo mod clean
 hugo mod graph
-hugo --gc --minify --logLevel debug
+hugo build --logLevel debug
 npx -y pagefind --site public 
