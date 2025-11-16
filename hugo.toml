@@ -139,11 +139,6 @@ ignoreErrors = ["error-remote-getjson"]
     title = "Book"
     url = "blog/category/book/"
     weight = 50
-  [[menu.main]]
-    name = "Notes"
-    identifier = "docs"
-    url = "/notes/"
-    weight = 10
 
 
 [markup]
