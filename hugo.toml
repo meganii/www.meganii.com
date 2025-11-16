@@ -173,9 +173,10 @@ ignoreErrors = ["error-remote-getjson"]
     [[module.imports.mounts]]
       source = "static"
       target = "static"
-    [[module.imports.mounts]]
-      source = "hugo_stats.json"
-      target = "assets/watching/hugo_stats.json"
+    [[module.mounts]]
+      disableWatch = true
+      source = 'hugo_stats.json'
+      target = 'assets/notwatching/hugo_stats.json'
   [[module.imports]]
     path = "github.com/meganii/vault-content"
     [[module.imports.mounts]]
@@ -196,16 +197,11 @@ ignoreErrors = ["error-remote-getjson"]
     min      = "0.112.0"
 
 [build]
-  writeStats = true
+  [build.buildStats]
+    enable = true
   [[build.cachebusters]]
-    source = "assets/watching/hugo_stats\\.json"
-    target = "styles\\.css"
+    source = 'assets/notwatching/hugo_stats\.json'
+    target = 'css'
   [[build.cachebusters]]
-    source = "assets/(postcss|tailwind)\\.config\\.js"
-    target = "css"
-  [[build.cachebusters]]
-    source = "assets/.*\\.(js|ts|jsx|tsx)"
-    target = "js"
-  [[build.cachebusters]]
-    source = "assets/.*\\.(.*)$"
-    target = "$1"
+    source = '(postcss|tailwind)\.config\.js'
+    target = 'css'
