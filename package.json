@@ -11,11 +11,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@tailwindcss/cli": "^4.1.4",
-    "prettier": "^3.5.3",
+    "@tailwindcss/cli": "^4.1.17",
+    "prettier": "^3.6.2",
     "prettier-plugin-go-template": "^0.0.15",
-    "prettier-plugin-tailwindcss": "^0.6.11",
-    "tailwindcss": "^4.1.4"
+    "prettier-plugin-tailwindcss": "^0.7.1",
+    "tailwindcss": "^4.1.17"
   },
   "name": "www.meganii.com",
   "version": "0.1.0"
