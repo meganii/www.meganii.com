@@ -10,7 +10,7 @@ go 1.24.1
 require (
 	github.com/meganii/affiliate-data v0.0.0-20250427083120-bd10a425fa16 // indirect
 	github.com/meganii/amazon-product-data v0.0.0-20250427083805-ef3a777c1dd0 // indirect
-	github.com/meganii/gohugo-template-tailwindcss v0.0.0-20251130115616-11b9bfad97a7 // indirect
+	github.com/meganii/gohugo-template-tailwindcss v0.0.0-20251202215345-02d89210e6ab // indirect
 	github.com/meganii/tweet-data v0.0.0-20250427084109-b3fe42983407 // indirect
 	github.com/meganii/vault-content v0.0.0-20251130002307-4cbfb44a2bbc // indirect
 )
