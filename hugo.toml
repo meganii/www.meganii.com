@@ -1,5 +1,5 @@
 baseurl = "https://www.meganii.com/"
-title = "SIS Lab"
+title = "meganii.com"
 
 hasCJKLanguage = true
 summaryLength = 100
@@ -22,13 +22,13 @@ ignoreErrors = ["error-remote-getjson"]
   [Languages.ja.params]
     LanguageCode = 'ja'
     lang = ""
-    title = "SIS Lab"
+    title = "meganii.com"
     profile = "ギークを夢見るじょーぶん男子。「広く浅くから広く深く」を目指してブログを書いています。"
     description = "メーカー系SIerブログ。趣味のプログラミング、旅行。日々、学んだことについて書きます。"
   [Languages.en.params]
     LanguageCode = 'en'
     lang = "en/"
-    title = "SIS Lab"
+    title = "meganii.com"
     profile = "I'm Software Engineer in Tokyo."
     description = "I write about programming, traveling and studying."
     weight = 2
