@@ -175,7 +175,7 @@ ignoreErrors = ["error-remote-getjson"]
   [[module.imports]]
     path = "github.com/meganii/vault-content"
     [[module.imports.mounts]]
-      excludeFiles = '_template/*'
+      files  = ['! _template/*']
       source = 'content'
       target = 'content'
   [[module.imports]]
@@ -197,3 +197,6 @@ ignoreErrors = ["error-remote-getjson"]
   [[build.cachebusters]]
     source = 'assets/notwatching/hugo_stats\.json'
     target = 'css'
+
+[security.node]
+  disable = true
