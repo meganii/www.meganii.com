@@ -39,7 +39,7 @@ jobs:
           hugo mod tidy
 
       - name: Cache Hugo resources
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: resources
           key: ${{ runner.os }}-hugo-resources-${{ hashFiles('go.sum') }}
