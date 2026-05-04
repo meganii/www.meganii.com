@@ -1,0 +1,72 @@
+name: Deploy Hugo Site to Cloudflare Pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: 'write'
+    env:
+      HUGO_VERSION: '0.161.1'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Git credentials for private module
+        run: |
+          export GOPRIVATE=github.com/meganii/vault-content,github.com/meganii/affiliate-data,github.com/meganii/amazon-product-data,github.com/meganii/tweet-data
+          git config --global url."https://${{ secrets.GO_MODULE_TOKEN_MEGANII_COM }}:@github.com/".insteadOf "https://github.com/"
+
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+            node-version: 24
+
+      - name: Update Hugo Modules
+        run: |
+          hugo mod get -u
+          hugo mod tidy
+
+      - name: Cache Hugo resources
+        uses: actions/cache@v4
+        with:
+          path: resources
+          key: ${{ runner.os }}-hugo-resources-${{ hashFiles('go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-resources-
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Hugo site
+        run: |
+          hugo mod graph
+          go version
+          hugo build --logLevel info
+          npx -y pagefind --site public 
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy public --project-name="www-meganii-com" --branch="main"
+
+      - name: Commit & Push updates
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add go.mod go.sum
+          git commit -m "Update Hugo modules from content-vault $(date)"
+          git push origin main
