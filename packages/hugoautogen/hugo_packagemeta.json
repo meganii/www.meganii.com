@@ -1,0 +1,14 @@
+{
+  "sum": "e6e05958806d6137",
+  "dependencySources": {
+    "dependencies": {},
+    "devDependencies": {
+      "@htnabe/prettier-plugin-go-template": "github.com/meganii/gohugo-template-tailwindcss",
+      "@tailwindcss/cli": "github.com/meganii/gohugo-template-tailwindcss",
+      "@tailwindcss/typography": "github.com/meganii/gohugo-template-tailwindcss",
+      "prettier": "github.com/meganii/gohugo-template-tailwindcss",
+      "prettier-plugin-tailwindcss": "github.com/meganii/gohugo-template-tailwindcss",
+      "tailwindcss": "github.com/meganii/gohugo-template-tailwindcss"
+    }
+  }
+}
