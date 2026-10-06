@@ -11,12 +11,17 @@ jobs:
     permissions:
       contents: 'write'
     env:
-      HUGO_VERSION: '0.161.1'
+      HUGO_VERSION: '0.167.0'
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
 
       - name: Setup Git credentials for private module
         run: |
@@ -29,9 +34,10 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
       - name: Setup Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
             node-version: 24
+            cache: 'npm'
 
       - name: Update Hugo Modules
         run: |
@@ -39,12 +45,12 @@ jobs:
           hugo mod tidy
 
       - name: Cache Hugo resources
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           path: resources
-          key: ${{ runner.os }}-hugo-resources-${{ hashFiles('go.sum') }}
+          key: ${{ runner.os }}-hugo-${{ env.HUGO_VERSION }}-resources-${{ hashFiles('go.sum') }}
           restore-keys: |
-            ${{ runner.os }}-hugo-resources-
+            ${{ runner.os }}-hugo-${{ env.HUGO_VERSION }}-resources-
 
       - name: Install dependencies
         run: npm ci
@@ -70,5 +76,5 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add go.mod go.sum
-          git commit -m "Update Hugo modules from content-vault $(date)" || echo "No changes to commit"
+          git commit -m "Update Hugo modules from content-vault $(date) [skip ci]" || echo "No changes to commit"
           git push origin main || echo "No changes to push"
