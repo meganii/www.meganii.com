@@ -198,5 +198,6 @@ ignoreErrors = ["error-remote-getjson"]
     source = 'assets/notwatching/hugo_stats\.json'
     target = 'css'
 
-[security.node]
-  disable = true
+[security]
+  [security.exec]
+    allow = ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']
