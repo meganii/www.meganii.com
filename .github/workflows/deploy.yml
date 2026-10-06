@@ -18,11 +18,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: 'stable'
-
       - name: Setup Git credentials for private module
         run: |
           export GOPRIVATE=github.com/meganii/vault-content,github.com/meganii/affiliate-data,github.com/meganii/amazon-product-data,github.com/meganii/tweet-data
